@@ -1,43 +1,29 @@
+# LongVidSearch
+
+<div align="center">
+
+[![Paper](https://img.shields.io/badge/Paper-arXiv%20(TODO)-red?logo=arxiv)]()
+[![Code](https://img.shields.io/badge/Code-GitHub-blue?logo=github)](https://github.com/yrywill/LongVidSearch)
+[![](https://img.shields.io/github/license/yrywill/LongVidSearch)](./LICENSE)
+[![](https://img.shields.io/github/stars/yrywill/LongVidSearch?style=social)](https://github.com/yrywill/LongVidSearch)
+[![](https://img.shields.io/github/contributors/yrywill/LongVidSearch)](https://github.com/yrywill/LongVidSearch/graphs/contributors)
+[![](https://img.shields.io/github/repo-size/yrywill/LongVidSearch?color=green)](https://github.com/yrywill/LongVidSearch)
+
+</div>
+
 # LongVidSearch: An Agentic Benchmark for Multi-hop Evidence Retrieval Planning in Long Videos
 
-> **LongVidSearch** evaluates **retrieval-necessary** and **evidence-grounded** multi-hop question answering over **untrimmed long videos** under a **standardized tool interface**, enabling controlled comparison of *agentic retrieval planning* across LLM backbones.
+> **LongVidSearch** evaluates **retrieval-necessary** and **evidence-grounded** multi-hop question answering over **long videos** under a **standardized tool interface**, enabling controlled comparison of *agentic retrieval planning* across agents.
 
 ---
 
-## Overview Figures
-
-### Main Figure (Benchmark Framework)
-<!-- TODO: replace with your main framework figure path -->
-<p align="center">
-  <img src="figs\mm-retrieval.pdf" width="92%" alt="LongVidSearch benchmark framework"/>
-</p>
-<p align="center">
-  <em>Figure 1: Overview of LongVidSearch. Agents iteratively retrieve clips, read captions via standardized tools, and are evaluated by a three-judge majority vote protocol.</em>
-</p>
-
-### Data Figures (Dataset Statistics)
-<!-- TODO: replace with your dataset statistics figure(s) -->
-<p align="center">
-  <img src="figs/stats_distribution.png" width="92%" alt="LongVidSearch dataset statistics"/>
-</p>
-<p align="center">
-  <em>Figure 2: Dataset statistics of LongVidSearch (hop-level and category distributions).</em>
-</p>
-
-<!-- Optional: put multiple figures side-by-side -->
-<!--
-<p align="center">
-  <img src="figs/hop_distribution.png" width="45%" alt="Hop distribution"/>
-  <img src="figs/category_distribution.png" width="45%" alt="Category distribution"/>
-</p>
-<p align="center">
-  <em>Figure 2: Hop distribution (left) and category distribution (right).</em>
-</p>
--->
+## 📰 1. News
+- **[2026-02-13]** 🎉 We release **LongVidSearch**: **3,159** QA pairs from **447** long videos (~**26 min** avg), stratified into **Hop-2/3/4** with strict retrieval necessity.  
+ 
 
 ---
 
-## What is LongVidSearch?
+## 🔍 2. Overview
 
 Long video question answering increasingly relies on **agentic tool use** to retrieve evidence from long videos. However, existing benchmarks rarely **standardize evidence access**, making it difficult to attribute failures to **retrieval planning** vs. **answer generation**.
 
@@ -49,7 +35,31 @@ Long video question answering increasingly relies on **agentic tool use** to ret
 
 ---
 
-## Key Features
+## 🖼️ 3. Overview Figures
+
+### Benchmark Framework
+<p align="center">
+  <img src="figs/mm-retrieval.png" width="100%" alt="LongVidSearch benchmark framework"/>
+</p>
+<p align="center">
+  <em>Figure 1: Overview of LongVidSearch. Agents iteratively retrieve clips, read captions via standardized tools, and are evaluated by a three-judge majority vote protocol.</em>
+</p>
+
+### Dataset Statistics 
+> **Note:** This table mirrors the paper’s dataset statistics.
+
+| Task Category | 2-Hop | 3-Hop | 4-Hop | Total (Ratio) |
+|---|---:|---:|---:|---:|
+| Causal Inference | 436 | 322 | 159 | **917** (29.0%) |
+| Global Summary | 512 | 211 | 166 | **889** (28.1%) |
+| Visual Tracking | 653 | 136 | 61 | **850** (26.9%) |
+| State Mutation | 296 | 132 | 75 | **503** (15.9%) |
+| **Overall Count** | **1,897** | **801** | **461** | **3,159** |
+| *Overall Percentage* | *60.1%* | *25.4%* | *14.6%* | *100.0%* |
+
+---
+
+## ⭐ 4. Key Features
 
 - **Retrieval-necessary multi-hop QA**: Hop-\(k\) questions require **\(k\) necessary evidence clips** (removing any one makes the question underdetermined).
 - **Standardized tool interface**: identical evidence access for all agents to isolate **query formulation** and **multi-step evidence acquisition** capability.
@@ -58,7 +68,7 @@ Long video question answering increasingly relies on **agentic tool use** to ret
 
 ---
 
-## Dataset
+## 🗂️ 5. Dataset
 
 - **3,159 QA pairs** from **447 long-form videos**
 - Average video duration: **~26 minutes**
@@ -68,9 +78,10 @@ Long video question answering increasingly relies on **agentic tool use** to ret
   - **Causal Inference (Narrative + Transition)**: establish a **semantic bridge** between cause and effect events.
   - **Global Summary (Narrative + Aggregation)**: synthesize a **holistic conclusion** from dispersed narrative evidence.
 
+
 ---
 
-## Standardized Tools
+## 🧰 6. Standardized Tools
 
 All agents interact with LongVidSearch through the same tools:
 
@@ -87,7 +98,7 @@ This fixed interface ensures performance differences primarily reflect **agentic
 
 ---
 
-## Baseline Agent
+## 🤖 7. Baseline Agent
 
 We provide a VideoAgent-style baseline that follows an iterative **plan → retrieve → read → reason** loop:
 1. generate a textual query based on current hypothesis and partial evidence,
@@ -96,11 +107,10 @@ We provide a VideoAgent-style baseline that follows an iterative **plan → retr
 4. decide whether additional retrieval is needed,
 5. output `FINAL_ANSWER` with selected evidence clip IDs.
 
-> The baseline workflow diagram and prompt template can be found in the Appendix of the paper.
 
 ---
 
-## Evaluation
+## 📏 8. Evaluation
 
 ### Metrics
 - **Answer Accuracy**  
@@ -114,28 +124,19 @@ We also include an oracle-style setting where the agent is given **golden eviden
 
 ---
 
-## Repository Structure (Suggested)
+## 📌 9. Quick Start
 
-```text
-.
-├── data/
-│   ├── longvidsearch.jsonl          # main QA file (example)
-│   ├── splits/                      # train/val/test splits (if provided)
-│   └── metadata/                    # video metadata, category/hop annotations
-├── tools/
-│   ├── search_clips_in_video.py     # retrieval tool wrapper
-│   ├── get_clip_detail.py           # caption tool wrapper
-│   └── interface.py                 # unified tool interface
-├── baselines/
-│   ├── agent.py                     # baseline VideoAgent-style framework
-│   ├── prompts/                     # prompt templates
-│   └── run_eval.py                  # evaluation runner
-├── eval/
-│   ├── judges/                      # judge prompts/rubric
-│   ├── score.py                     # majority vote + metrics
-│   └── cost.py                      # tool-call cost aggregation
-├── figs/
-│   ├── benchmark_framework-4.png    # main figure for README
-│   └── stats_distribution.png       # data/stats figure for README
-├── LICENSE
-└── README.md
+Please use the following commands for environment setup and installation 👇
+
+### 9.1 Installation
+```bash
+git clone https://github.com/yrywill/LongVidSearch.git
+cd LongVidSearch
+pip install -r requirements.txt
+```
+### 9.2 Run Baseline Agent
+# TODO: replace with your actual api key and url in tool.py first
+python baselines/run_eval.py \
+  --model gpt-5 \
+  --data_path data/longvidsearch.jsonl \
+  --output_dir outputs/
