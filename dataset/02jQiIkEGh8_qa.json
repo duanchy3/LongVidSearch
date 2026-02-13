@@ -1,0 +1,81 @@
+[
+    {
+        "question": "A scene labels a cliff beach as Chiaia di Luna, and later another segment labels a location as Lampedusa. What is similar about the water shown in both places?",
+        "answer": "Both show clear turquoise water with boats anchored nearby.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows Chiaia di Luna with turquoise water and many anchored boats in an aerial view. Step 2: Slice 72 labels “Lampedusa” and shows a turquoise bay with boats anchored. Conclusion: Both feature clear turquoise water and anchored boats.",
+        "logic_check_reasoning": "Step 1: Slice 27 (Chiaia di Luna) describes 'turquoise waters' and an aerial shot with 'numerous boats anchored' and mentions 'crystal-clear waters.' Step 2: Slice 72 (Lampedusa) shows a 'beautiful turquoise bay' with 'numerous boats anchored' and notes 'the water is crystal clear.' Logic holds because both locations explicitly feature clear, turquoise water with boats anchored nearby.",
+        "visual_proof": "In Clip 1, the scene at 'Chiaia di Luna' features a cove with bright turquoise water and numerous boats anchored in the bay. In Clip 2, the aerial shot of 'Lampedusa' shows a similar cove with vibrant turquoise water and many boats anchored near the cliffs. The visual evidence confirms that both locations share the characteristic of clear, turquoise water and the presence of anchored boats."
+    },
+    {
+        "question": "Across the video, one sequence focuses on Rome/Vatican landmarks and another highlights Pompeii with Vesuvius in the background. What is the volcanic landmark associated with the historical ruins segment, and what major religious landmark is shown in the Rome/Vatican segment?",
+        "answer": "Mount Vesuvius and St. Peter’s Basilica.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows Pompeii ruins with Mount Vesuvius visible. Step 2: Slice 34 shows St. Peter’s Basilica in Vatican City. Conclusion: Volcano = Vesuvius; religious landmark = St. Peter’s Basilica.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 34 explicitly states the video shows St. Peter's Basilica in Vatican City, identifying the major religious landmark in the Rome/Vatican segment. Step 2: Evidence Slice 38 explicitly describes the ruins of Pompeii with Mount Vesuvius looming in the background, identifying the volcanic landmark associated with the historical ruins segment. Step 3: Therefore, the proposed answer of 'Mount Vesuvius and St. Peter’s Basilica' directly matches the details provided.",
+        "visual_proof": "In Video 1, the segment featuring ancient ruins clearly shows Mount Vesuvius in the background with the word 'POMPEII' overlaid on the screen. In Video 2, multiple shots display St. Peter’s Basilica, including exterior views of its dome and facade, an aerial view of Vatican City centered on the basilica, and interior shots of its dome and nave. The text 'ST. PETER’S BASILICA' also appears in one frame."
+    },
+    {
+        "question": "One part shows a woman in a green bikini walking on a beach labeled with its name, and later another segment shows a woman in a green swimsuit smiling in the water below a bridge. In which two places do these green-swimsuit scenes occur?",
+        "answer": "Chiaia di Luna beach and Fiordo di Furore.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows “CHIAIA DI LUNA” and a woman in a green bikini walking along the beach. Step 2: Slice 40 shows “FIORDO DI FURORE” and a woman in a green swimsuit enjoying the water. Conclusion: The two places are Chiaia di Luna and Fiordo di Furore.",
+        "logic_check_reasoning": "Step 1: Slice 27 shows the text 'CHIAIA DI LUNA' and describes a woman in a green bikini walking along that beach, establishing the first location as Chiaia di Luna. Step 2: Slice 40 shows the text 'FIORO DI FURORE' (interpretable as Fiordo di Furore) and describes a large stone bridge over a cove, followed by a woman in a green swimsuit smiling in the water, matching the second scene. Logic holds because each scene includes both the visual action and an on-screen location label.",
+        "visual_proof": "In Video 1, a woman in a green bikini walks on a sandy beach with cliffs, and the text 'CHIAIA DI LUNA' is overlaid. In Video 2, a woman in a green swimsuit smiles in the water under a large stone bridge, with the text 'FIORDO DI FURORE' overlaid in a preceding shot of the same location."
+    },
+    {
+        "question": "The video shows a map route from one Umbrian city to another, and later it shows a fortress named on screen. Which route is shown and what is the named fortress?",
+        "answer": "Perugia to Spoleto, and the Albornoziana Fortress.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 48 ends with a map highlighting the route from Perugia to Spoleto. Step 2: Slice 49 zooms in on a fortress labeled “Albornoziana Fortress.” Conclusion: Route = Perugia→Spoleto; fortress = Albornoziana Fortress.",
+        "logic_check_reasoning": "Step 1: Slice 48 explicitly states that the final frames show a map highlighting the route from Perugia to Spoleto, both described as towns in the Umbria region. Step 2: Slice 49 shows a fortress on a hilltop and zooms in to reveal its name as 'Albornoziana Fortress'. Logic holds because the question asks for the route between two Umbrian cities (Perugia to Spoleto) and the named fortress (Albornoziana Fortress), both directly supported by the slices.",
+        "visual_proof": "The first clip opens with a map showing a route from Perugia to Spoleto. Later in the second clip, an aerial shot of a large fortress is displayed with the on-screen text 'ALBORNOZIANA FORTRESS'."
+    },
+    {
+        "question": "The video first shows a calm lake town scene with boats and later shows a cliffside Adriatic town packed with boats in a harbor. Which lake is shown and which town is shown later?",
+        "answer": "Lake Como and Polignano a Mare.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows Lake Como and the town of Varenna with boats. Step 2: Slice 54 shows Polignano a Mare in Puglia with boats in the harbor beneath cliffs. Conclusion: Lake = Como; town = Polignano a Mare.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly identifies the calm lake town scene as Lake Como (with Varenna), noting boats and a serene lakeside setting. Step 2: Slice 54 explicitly identifies the later cliffside Adriatic town as Polignano a Mare, describing numerous boats docked in a harbor below cliffs. Logic holds because the question's two scenes match these descriptions: the lake scene is Lake Como, and the later cliffside harbor town is Polignano a Mare.",
+        "visual_proof": "The first clip clearly displays the text 'LAKE COMO' over an aerial view of a town nestled on a lakeshore surrounded by mountains. The second clip shows an aerial view of a coastal town built on cliffs overlooking the sea, with numerous boats in the harbor, and the text 'POLIGNANO A MARE' is overlaid on this scene."
+    },
+    {
+        "question": "A castle-like structure is labeled San Fruttuoso, later iconic sea stacks are shown off Capri, and later the highest point of Capri is featured. What is the progression of these coastal landmarks?",
+        "answer": "San Fruttuoso site → Faraglioni sea stacks → Monte Solaro viewpoint on Capri.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            46,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 9 labels the castle-like structure “San Fruttuoso.” Step 2: Slice 45 mentions the Faraglioni rocks off Capri. Step 3: Slice 46 shows the Faraglioni in detail and then features Monte Solaro, Capri’s high point. Conclusion: San Fruttuoso → Faraglioni → Monte Solaro.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows a castle-like structure explicitly labeled \"San Fruttuoso,\" establishing the first landmark. Step 2: Slice 46 features the iconic Faraglioni sea stacks off Capri, indicating a subsequent coastal landmark. Step 3: Slice 46 then shows Monte Solaro, noted as the highest point on Capri, following the Faraglioni segment. The logic holds because the slices collectively present these locations and Slice 46 explicitly orders Faraglioni before Monte Solaro, supporting the stated progression.",
+        "visual_proof": "Clip 1 shows the San Fruttuoso abbey with its text overlay. Clip 2 first displays the Faraglioni sea stacks with their label, followed by a scene at Monte Solaro with its corresponding text overlay and panoramic views of Capri. This sequence visually confirms the progression described in the original answer."
+    }
+]

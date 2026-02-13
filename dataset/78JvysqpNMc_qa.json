@@ -1,0 +1,126 @@
+[
+    {
+        "question": "What scientific symbol appears after the Saturn illustration, and which later symbol represents genetics before the live-action quiz show begins?",
+        "answer": "An atom appears after Saturn, and a rotating DNA helix represents genetics before the live-action segment.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 1 transitions from Saturn to a glowing atom symbol. Step 2: Slice 2 shows a rotating DNA helix in an animated science intro. Conclusion: The symbols are the atom (after Saturn) and the DNA helix (genetics).",
+        "logic_check_reasoning": "Step 1: Slice 1 states that after the Saturn illustration fades, a classic atom symbol appears, confirming the first part. Step 2: Slice 2 shows a rotating white DNA helix in the animated sequence before transitioning to a live-action presenter, indicating the genetics symbol appears prior to the live-action segment. The question’s phrasing of 'quiz show' versus 'live-action segment' is a naming mismatch, which is acceptable per instructions. Therefore, the answer aligns with both slices.",
+        "visual_proof": "In Video 1, a white Saturn icon is shown at 0:02, which transitions into a white atom symbol with orbiting electrons at 0:04. In Video 2, a large white DNA double helix rotates vertically on screen at 0:01, followed by the SciShow logo and then the live-action host at 0:06."
+    },
+    {
+        "question": "Which on-screen label indicates the episode’s branded identity during the live-action segments, and what end-credit listing confirms the red-hoodie man and the red-haired woman’s roles?",
+        "answer": "The SciShow branding/logo indicates the identity, and the end credits list Hank Green (executive producer) and Brit Garner (guest).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            8,
+            7,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the SciShow logo during live-action discussion. Step 2: Slice 8 labels the red-haired woman as Brit Garner. Step 3: Slice 7 identifies the red-hoodie man as Hank Green. Step 4: Slice 79 end credits list Brit Garner (Guest) and Hank Green (Executive Producer). Conclusion: SciShow branding ties to credited roles of Brit and Hank.",
+        "logic_check_reasoning": "Step 1: Slice 4 states the 'SciShow' logo is visible in the corner during the live-action scene, indicating the branded identity. Step 2: Slice 8 identifies the red-haired woman as 'BRIT GARNER' and shows the man in a red hoodie interacting with her. Step 3: Slice 7 identifies the man in the red hoodie as Hank Green. Step 4: Slice 79 (end credits) lists 'Hank Green (Executive Producer)' and 'Brit Garner (Guest),' confirming their roles. The proposed answer matches these details.",
+        "visual_proof": "The green 'SciShow' logo is consistently visible in the bottom right corner of all live-action clips (0:00-0:12), establishing the branded identity. The end-credit screen (4:03-4:11) explicitly lists 'HANK GREEN' as 'Executive Producer' and 'BRIT GARNER' as 'Guest', confirming their roles."
+    },
+    {
+        "question": "What item is handed from the suited host to the man in the red hoodie, and what similarly colored item does the host read from repeatedly in other scenes?",
+        "answer": "A green card is handed to him, and the host repeatedly reads from a green book/folder.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the host handing a green card to the man in the red hoodie. Step 2: Slice 16 shows the host opening and reading from a green book. Conclusion: The handed item is a green card; the recurring reading prop is a green book/folder.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly states the suited man is holding a green piece of paper or card and then hands the green card to the man in the red hoodie. Step 2: Slice 16 explicitly states the suited man is holding a green book, opens it, reads from it, and continues reading, which supports 'repeatedly.' The scenes feature the same trio (woman with red hair in black shirt, man in red hoodie) despite different curtain colors, which is acceptable per instructions. Therefore, the item handed is a green card, and the similarly colored item read from is a green book. The proposed answer mentions 'green book/folder,' but it includes 'green book,' which is directly supported.",
+        "visual_proof": "In Clip 1 (0:08-0:09), the suited host is seen handing a green card to the man in the red hoodie. In both Clip 1 (0:08) and Clip 2 (0:04, 0:12), the host is holding and reading from a green book or folder with a white circular logo on the cover."
+    },
+    {
+        "question": "In the fish-catching question sequence, which answer option is later backed up by footage of a bird using a hunting trick, and what is the bird shown doing?",
+        "answer": "The 'use bait' option is backed up, and the bird is shown using bait to catch fish.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            38,
+            41,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 38 displays the fish-catching question and options including 'Use bait.' Step 2: Slice 41 shows the man in the red hoodie speaking alongside the same fish-catching question, reinforcing the quiz context. Step 3: Slice 44 shows labeled footage: 'POND HERON USES BAIT TO CATCH FISH.' Conclusion: The supported option is using bait, demonstrated by the heron.",
+        "logic_check_reasoning": "Step 1: Slice 38 shows the quiz question 'HOW DO THEY CATCH MORE FISH?' with options including B) USE BAIT. Step 2: Slice 41 reiterates the same question and options, confirming the context of the fish-catching question sequence. Step 3: Slice 44 explicitly shows footage/text stating 'POND HERON USES BAIT TO CATCH FISH,' demonstrating a bird using bait as a hunting trick. Logic holds because the later footage directly supports option B by showing a bird using bait to catch fish.",
+        "visual_proof": "Clip 1 presents a multiple-choice question with option B being 'USE BAIT'. Clip 3 then shows footage of a pond heron dropping what appears to be bait into the water, which attracts fish, and the heron subsequently catches one. The on-screen text explicitly states 'POND HERON USES BAIT TO CATCH FISH', directly confirming that the 'use bait' answer is visually supported by the footage."
+    },
+    {
+        "question": "Which item is transferred to the red-hoodie participant by the host, and later what writing tools show that the game involves recording or revealing answers?",
+        "answer": "A green card is transferred, and later participants hold paper and a pen while scores are displayed, indicating written answer reveals.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            60,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the host handing a green card to the red-hoodie participant. Step 2: Slice 60 shows a notepad and pen being used alongside a microphone exchange. Step 3: Slice 65 shows both contestants holding paper (and one holding a pen) with a scoreboard visible. Conclusion: The green card handoff fits a format where answers are written/recorded and revealed.",
+        "logic_check_reasoning": "Step 1: Slice 22 states the man in a suit and tie (host) hands a green card to the man in the red hoodie, confirming the transferred item is a green card. Step 2: Slice 60 shows the woman holding a notepad and pen and writing, demonstrating use of writing tools. Step 3: Slice 65 shows the right participant (red hoodie) holding a piece of paper and a pen, and scores displayed, reinforcing the game context and the use of pen and paper for recording/revealing answers. The logic holds across slices: the green card transfer is explicit, and later the presence of pen/paper/notepad shows written-answer mechanics.",
+        "visual_proof": "In Clip 1 (0:04-0:05), the host in the black suit hands a green card to the participant in the red hoodie. In Clip 2 (0:07-0:08) and Clip 3 (0:00-0:01), both participants are visibly holding white cards/paper and pens, preparing to write or reveal answers. The score overlays (Clip 1: 0:07, Clip 3: 0:02) confirm this is part of a scored game involving written responses."
+    },
+    {
+        "question": "How do the scores shift between an earlier scoreboard and a later one, and what does that imply about who gained points over time?",
+        "answer": "Earlier BRIT leads 1200 to 1100, but later HANK leads 1400 to 1100, implying Hank gained points and overtook Brit.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            30,
+            59,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a scoreboard with BRIT at 1200 and HANK at 1100. Step 2: Slice 59 later shows BRIT at 1100 and HANK at 1400. Step 3: Slice 65 shows another scoreboard moment (BRIT 1100, HANK 600), reinforcing that scores change across rounds/segments. Conclusion: Across the timeline, Hank overtakes Brit in at least one later scoreboard, implying he gained points.",
+        "logic_check_reasoning": "Step 1: Slice 30 reports an earlier scoreboard showing BRIT: 1200 and HANK: 1100, meaning Brit leads. Step 2: Slice 59 shows a later scoreboard with BRIT: 1100 and HANK: 1400, meaning Hank now leads. Step 3: Comparing these, Hank's score increased from 1100 to 1400, while Brit's decreased from 1200 to 1100, so Hank gained points and overtook Brit. This directly supports the proposed answer.",
+        "visual_proof": "Clip 1 (at 0:16) shows a scoreboard with 'BRIT: 1200' and 'HANK: 1100'. Clip 2 (at 0:00-0:01) shows a later scoreboard with 'BRIT: 1100' and 'HANK: 1400'. The change from Brit leading to Hank leading, with Hank's score increasing by 300 points while Brit's score decreases by 100 points, visually confirms that Hank gained points and overtook Brit."
+    },
+    {
+        "question": "In the quiz question about catching more fish, which option is explicitly demonstrated later in the educational cutaway about herons?",
+        "answer": "Using bait.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 37 displays the fish-catching question with an option 'Use bait.' Step 2: Slice 44 shows a clip labeled 'POND HERON USES BAIT TO CATCH FISH.' Conclusion: The demonstrated option is using bait.",
+        "logic_check_reasoning": "Step 1: Slice 37 presents a quiz question with options including 'Use bait'. Step 2: Slice 44 describes a cutaway explicitly showing a Pond Heron using bait to catch fish, with on-screen text 'POND HERON USES BAIT TO CATCH FISH'. Logic holds because the later segment directly demonstrates the 'Use bait' option from the quiz.",
+        "visual_proof": "The quiz question in Clip 1 presents 'B. USE BAIT' as an option. In Clip 2, a video segment explicitly shows a pond heron dropping bait into the water to catch fish, with on-screen text confirming 'POND HERON USES BAIT TO CATCH FISH'. This directly demonstrates the 'use bait' method mentioned in the quiz."
+    },
+    {
+        "question": "Which multiple-choice question asks about urine uses, and what later historical detail specifically mentions a fertility treatment involving urine?",
+        "answer": "The question asks 'Which of the following didn't they use pee for?' and later it says old nuns' urine was used as a fertility treatment until the 1990s.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            64,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 64 displays the pee-uses multiple-choice question. Step 2: Slice 72 states that the urine of old nuns was used as a fertility treatment until the 1990s. Conclusion: The urine question connects to the later fertility-treatment fact.",
+        "logic_check_reasoning": "Step 1: Slice 64 explicitly shows the multiple-choice prompt: 'WHICH OF THE FOLLOWING DIDN'T THEY USE PEE FOR?' with options, confirming the question about urine uses. Step 2: Slice 72 contains on-screen text: 'THE URINE OF OLD NUNS WAS USED AS A FERTILITY TREATMENT UNTIL THE 1990s,' which is the later historical detail specifically mentioning a urine-based fertility treatment. Logic holds because both elements are directly stated in the provided slices.",
+        "visual_proof": "In Video 1, a multiple-choice question is displayed on screen: 'WHICH OF THE FOLLOWING DIDN'T THEY USE PEE FOR?' with options A-D. In Video 2, text appears on screen stating: 'THE URINE OF OLD NUNS WAS USED AS A FERTILITY TREATMENT UNTIL THE 1990s'. Both pieces of information are directly visible in the provided clips."
+    },
+    {
+        "question": "How does the show move from an animal-behavior quiz topic to a human-biology quiz topic, and what later explainer segment expands on one human feature that was incorrectly chosen during the human question?",
+        "answer": "It shifts from animal questions like fish-catching strategies to a labeled 'Humans' round, and later an explainer segment expands on the human chin—an incorrect choice someone pointed to during the human-uniqueness question.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            37,
+            45,
+            47,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows an animal-behavior quiz question about catching more fish. Step 2: Slice 45 introduces 'ROUND 2 Humans,' signaling a topic shift. Step 3: Slice 47 asks what is unique to humans and shows someone pointing to a chin as an attempted answer while the correct answer is appendix. Step 4: Slice 51 later provides an explainer on the evolution of the human chin. Conclusion: The timeline moves from animal behavior to human biology, then deepens by explaining the chin.",
+        "logic_check_reasoning": "Step 1: Slice 37 shows a quiz question about animal behavior ('How do they catch more fish?'), establishing the animal topic. Step 2: Slice 45 displays 'ROUND 2 Humans,' indicating a transition to a human-biology quiz topic. Step 3: Slice 47 presents a human uniqueness question with options including 'having a chin'; the woman selects chin, but the revealed correct answer is 'appendix,' making chin an incorrect choice. Step 4: Slice 51 features a later explainer segment focused on the human chin, expanding on the human feature that was incorrectly chosen during the human question. The logic aligns across slices.",
+        "visual_proof": "Clip 1 shows the animal-behavior quiz question 'HOW DO THEY CATCH MORE FISH?'. Clip 2 transitions with a title card reading 'ROUND 2 Humans'. Clip 3 displays the human-biology question 'WHICH OF THE FOLLOWING IS UNIQUE TO HUMANS?' with 'A. HAVING A CHIN' as an option; the host points to this option while discussing it. Clip 4 features an explainer segment that specifically discusses the human chin, showing skull comparisons (chimp vs. human) and text explaining its evolutionary purpose, confirming it's the feature being expanded upon."
+    }
+]

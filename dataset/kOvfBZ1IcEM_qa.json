@@ -1,0 +1,93 @@
+[
+  {
+    "question": "In the tech storyline, the same executive appears in a leather jacket presenting hardware; what item does he hold up in the earlier product reveal and what broader system is showcased later on stage?",
+    "answer": "He holds up the Blackwell chip in the earlier reveal, and later the NVIDIA Blackwell Platform system is showcased.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      59,
+      77
+    ],
+    "reasoning_chain": "Step 1: Slice 59 shows a man in a black leather jacket holding a chip with the text 'NVIDIA UNVEILS \"BLACKWELL\" CHIP.' Step 2: Slice 77 shows the Blackwell Platform and the headline about system design. Conclusion: Earlier is the Blackwell chip; later is the Blackwell Platform system.",
+    "logic_check_reasoning": "Step 1: Slice 59 shows a man in a black leather jacket holding a small black square object, with on-screen text \"NVIDIA UNVEILS 'BLACKWELL' CHIP,\" indicating he is holding the Blackwell chip. Step 2: Slice 77 describes Jensen Huang presenting the NVIDIA Blackwell Platform, with visuals of servers, switches, and other hardware, and text emphasizing system design. Logic holds because both slices pertain to NVIDIA presentations, and the earlier item is explicitly the Blackwell chip while the later showcase is the NVIDIA Blackwell Platform.",
+    "visual_proof": "In Clip 1, Jensen Huang, identifiable by his glasses and leather jacket, holds a small square chip with text on it; the on-screen banner explicitly states 'NVIDIA UNVEILS 'BLACKWELL' CHIP'. In Clip 2, the same individual (identified by the on-screen label as 'Jensen Huang, NVIDIA CEO') stands before a large server rack system labeled 'NVIDIA Blackwell Platform', confirming the broader system being showcased."
+  },
+  {
+    "question": "The broadcast moves from a Germany expectations survey to a U.S. central bank event; what survey is highlighted and what meeting is said to begin afterward?",
+    "answer": "The Germany ZEW Expectations Survey is highlighted, and the FOMC meeting is said to begin afterward.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      28,
+      31
+    ],
+    "reasoning_chain": "Step 1: Slice 28 shows the title card 'GERMANY ZEW EXPECTATIONS SURVEY.' Step 2: Slice 31 shows 'TODAY: FOMC MEETING BEGINS' on a building. Conclusion: The survey is ZEW expectations; the meeting is the FOMC.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 28 explicitly shows a title card reading \"10AM UK: GERMANY ZEW EXPECTATIONS SURVEY,\" establishing that the highlighted survey is the Germany ZEW Expectations Survey. Step 2: Evidence Slice 31 displays \"TODAY: FOMC MEETING BEGINS\" on a building, indicating that the FOMC meeting is said to begin afterward. Logic holds because the sequence moves from the Germany survey to the mention of the FOMC meeting starting.",
+    "visual_proof": "Clip 1 clearly displays a text overlay stating '10AM UK: GERMANY ZEW EXPECTATIONS SURVEY' over scenes of German city life. Clip 2 transitions to show the U.S. Federal Reserve building with a text overlay that reads 'TODAY: FOMC MEETING BEGINS'. The sequence visually confirms the broadcast moves from the Germany survey to the U.S. central bank event."
+  },
+  {
+    "question": "After reporting drone strikes that shut Russian refining capacity, what specific figure is cited, and which later discussion keeps that same figure in the headline while two anchors talk?",
+    "answer": "About 600,000 barrels of Russian refining capacity; the later two-anchor discussion repeats it under the Gunvor CEO headline.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      36,
+      41
+    ],
+    "reasoning_chain": "Step 1: Slice 36 states the strikes shut about 600,000 barrels of refining capacity. Step 2: Slice 41 shows two anchors with the headline 'GUNVOR CEO: DRONES SHUT APPROX 600,000 BARRELS OF RUSSIAN REFINING.' Conclusion: The figure is 600,000 barrels and it is echoed in the later two-anchor segment.",
+    "logic_check_reasoning": "Step 1: Slice 36 states that, according to the Gunvor CEO, drone strikes have shut approximately 600,000 barrels of Russian refining capacity. Step 2: Slice 41 shows a later discussion with two anchors where the on-screen headline reads 'GUNVOR CEO: DRONES SHUT APPROX 600,000 BARRELS OF RUSSIAN REFINING,' repeating the same figure. Logic holds because both slices explicitly reference the same number and source in sequential contexts.",
+    "visual_proof": "In Clip 1, the lower third graphic changes at 0:13 to read 'GUNVOR CEO: DRONES SHUT APPROX 600,000 BARRELS OF RUSSIAN REFINING'. This exact same text is displayed as the headline in Clip 2 during the split-screen discussion between the two anchors."
+  },
+  {
+    "question": "A story about Barclays seeking sovereign wealth fund interest is previewed and then shown with the CEO; what is the preview text and who is identified as speaking later?",
+    "answer": "The preview text is 'NEXT BARCLAYS EYES SOVEREIGN FUNDS,' and the speaker later is C.S. Venkatakrishnan, Barclays CEO.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      42,
+      52
+    ],
+    "reasoning_chain": "Step 1: Slice 42 shows the teaser 'NEXT BARCLAYS EYES SOVEREIGN FUNDS.' Step 2: Slice 52 identifies 'C.S. Venkatakrishnan BARCLAYS CEO' under 'Exclusive BARCLAYS EYEING SOVEREIGN WEALTH FUNDS.' Conclusion: The preview leads to the CEO segment with Venkatakrishnan.",
+    "logic_check_reasoning": "Step 1: Slice 42 shows a preview with on-screen text 'NEXT BARCLAYS EYES SOVEREIGN FUNDS.' Step 2: Slice 52 shows the segment with text identifying 'C.S. Venkatakrishnan BARCLAYS CEO' and indicates he is speaking. Logic holds because the preview announces the topic and the subsequent segment identifies the CEO as the speaker, matching the proposed answer.",
+    "visual_proof": "Clip 1 (0:00-0:17) clearly displays the on-screen text 'NEXT BARCLAYS EYES SOVEREIGN FUNDS' during a preview sequence featuring the man. Clip 2 (0:00-0:21) shows the same man in an interview setting, with a lower-third graphic identifying him as 'C.S. Venkatakrishnan' and his title as 'BARCLAYS CEO', while the headline reads 'BARCLAYS EYEING SOVEREIGN WEALTH FUNDS'."
+  },
+  {
+    "question": "The news program shows the USD/JPY rate in two different segments; what are the two quoted levels shown, and which segment is tied to the BOJ press briefing?",
+    "answer": "About 150.43 is shown during the earlier BOJ studio market updates, and about 150.46 is shown during the BOJ press briefing coverage; the press briefing segment is the one around 150.46.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      5,
+      68
+    ],
+    "reasoning_chain": "Step 1: Slice 5 displays USDJPY at 150.43 during BOJ coverage with Stephen Engle. Step 2: Slice 68 displays USD-JPY around 150.46 during the live Tokyo split-screen press conference/analysis. Conclusion: The levels are ~150.43 and ~150.46; the press briefing corresponds to ~150.46.",
+    "logic_check_reasoning": "Step 1: Slice 5 describes a Bloomberg studio segment with Stephen Engle discussing BOJ policy changes and explicitly shows the USD/JPY at 150.43. Step 2: Slice 68 describes a split-screen live broadcast featuring a BOJ press conference (with Ueda quotes) and notes the USD/JPY displayed around 150.46. Step 3: Therefore, the two quoted levels are ~150.43 in the studio market update and ~150.46 during the press briefing coverage, with the press briefing tied to the ~150.46 figure.",
+    "visual_proof": "In Clip 1 (0:15-0:22), a graphic shows the USD/JPY rate at 150.39, then rising to 150.43, displayed alongside reporter Stephen Engle discussing the BOJ's decision. In Clip 2 (0:11-0:29), during the split-screen coverage of the BOJ press briefing with Governor Ueda, the on-screen ticker consistently displays the USD/JPY rate as 150.44, 150.45, 150.46, and 150.47, confirming the second quoted level is tied to the live press briefing."
+  },
+  {
+    "question": "Two different central banks are discussed as keeping policy steady: which one kept rates unchanged, and which one kept an accommodative stance while speaking in Tokyo?",
+    "answer": "The Reserve Bank of Australia kept rates unchanged, and the Bank of Japan (via Ueda speaking in Tokyo) signaled an accommodative stance.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      12,
+      61
+    ],
+    "reasoning_chain": "Step 1: Slice 12 shows the headline 'RBA KEEPS RATE UNCHANGED.' Step 2: Slice 61 shows breaking news from Tokyo with BOJ's Ueda emphasizing an accommodative policy stance. Conclusion: RBA kept rates unchanged; BOJ maintained an accommodative stance.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 12 explicitly shows the text 'RBA KEEPS RATE UNCHANGED,' confirming the Reserve Bank of Australia kept rates unchanged. Step 2: Evidence Slice 61 shows a live press briefing from Tokyo with BOJ Governor Ueda and lower-third text stating 'ACCOMMODATIVE POLICY STANCE TO STAY FOR A WHILE,' confirming the Bank of Japan maintained an accommodative stance while speaking in Tokyo. Logic holds because both slices directly state the respective policy statuses for each central bank.",
+    "visual_proof": "Clip 1 displays a lower-third graphic stating 'RBA KEEPS RATE UNCHANGED' while showing market data. Clip 2 features a live feed from Tokyo with the headline 'BOJ'S UEDA HOLDS PRESS BRIEFING' and subsequent breaking news tickers such as 'UEDA: ACCOMMODATIVE POLICY STANCE TO STAY FOR A WHILE', confirming the Bank of Japan's position."
+  },
+  {
+    "question": "A key BOJ policy change is described early, and later a live press briefing by the BOJ governor is covered; what is the policy era said to have ended, and who is the governor giving the briefing?",
+    "answer": "The era of negative rates ended, and the governor giving the briefing is Ueda.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      4,
+      61
+    ],
+    "reasoning_chain": "Step 1: Slice 4 headline states 'BOJ ENDS ERA OF NEGATIVE RATES.' Step 2: Slice 61 shows 'BOJ's Ueda holds press briefing' in Tokyo. Conclusion: The ended era is negative rates; the governor is Ueda.",
+    "logic_check_reasoning": "Step 1: Slice 4 explicitly shows the lower third text 'BOJ ENDS ERA OF NEGATIVE RATES,' identifying the policy era that ended. Step 2: Slice 61 states 'BOJ's Ueda, the Governor of the Bank of Japan' and 'BREAKING NEWS: BOJ'S UEDA HOLDS PRESS BRIEFING,' confirming the governor giving the briefing is Ueda. The two slices align logically with the question's sequence.",
+    "visual_proof": "In Video 1 (0:00-0:04), a banner clearly states 'BOJ ENDS ERA OF NEGATIVE RATES'. In Video 2 (0:01-0:03), a banner reads 'BOJ'S UEDA HOLDS PRESS BRIEFING', identifying the governor as Ueda. The visual evidence directly supports both parts of the answer."
+  }
+]

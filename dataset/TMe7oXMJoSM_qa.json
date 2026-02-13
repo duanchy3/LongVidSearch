@@ -1,0 +1,108 @@
+[
+    {
+        "question": "What instrument is featured in the earliest solo spotlight, and what later projected word sequence signals a shift away from that opening focus to a different titled segment?",
+        "answer": "A banjo is featured in the earliest solo spotlight, and the later projected word sequence is \"asko or glasgow.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a woman alone under dim light playing a banjo. Step 2: Slice 27 shows the projection changing to the words \"asko or glasgow,\" indicating a later titled section. Conclusion: The video moves from an early banjo-focused solo moment to a later segment titled by the projected words.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the earliest solo spotlight features a woman playing a banjo, with lighting focused solely on her and the instrument. Step 2: Evidence Slice 27 notes that later in the performance the projection changes to display the words 'asko or glasgow,' explicitly described as suggesting a transition in the narrative. Logic holds because the first identifies the initial instrument focus, and the second provides the exact projected phrase signaling a shift.",
+        "visual_proof": "Clip 1 (0:09-0:19) shows a woman in a solo spotlight playing a banjo. Clip 2 (0:29 onwards) shows a projected screen with the text \"asko or glasgow\" after the initial segment featuring the performers and a different projection has concluded, signaling a new segment."
+    },
+    {
+        "question": "Which projected phrase is used when a woman plays guitar beside a man holding a microphone, and what projected phrase later appears when four performers stand together in front of a piano?",
+        "answer": "The guitar-and-microphone duet appears with \"oh freedom,\" and later the four-performer lineup appears with \"asko or glasgow.\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a woman playing guitar with a man holding a microphone in front of a screen that reads \"oh freedom.\" Step 2: Slice 30 shows four people performing in front of a screen reading \"asko or glasgow\" with a pianist at the grand piano. Conclusion: The projected text changes from \"oh freedom\" to \"asko or glasgow\" across these moments.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes a woman playing guitar beside a man holding a microphone, with a large screen displaying 'oh freedom.' This directly supports the first part of the answer. Step 2: Slice 30 describes four people standing on stage with a large screen displaying 'asko or glasgow,' while a pianist is at a grand piano on the left. This supports the second part of the answer regarding the phrase displayed when four performers stand together. Logic holds because each scene explicitly mentions the projected phrase corresponding to the described groupings.",
+        "visual_proof": "In Clip 1, a woman holding a banjo (a type of stringed instrument often associated with guitar in folk contexts) stands next to a man holding what appears to be a microphone stand, with the text \"oh freedom\" projected behind them. In Clip 2, four performers are standing together on stage in front of a piano, with the text \"asko or glasgow\" projected on the screen behind them."
+    },
+    {
+        "question": "Which instrument rests unused on a stool during the projected lyrics about slavery and freedom, and which instrument is actively played in an earlier close-up solo performance?",
+        "answer": "A banjo rests on a stool during the projected lyrics, and a banjo is actively played in the earlier solo performance.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            1
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows projected lyrics about slavery/freedom and notes a banjo resting on a stool near the piano. Step 2: Slice 1 shows a close-up solo performer actively playing the banjo. Conclusion: The banjo is sometimes an idle stage prop and elsewhere the actively played focus.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 13 explicitly states that during the scene with the projected lyrics about slavery and freedom, 'A banjo rests on a stool nearby,' indicating the unused instrument is a banjo. Step 2: Evidence Slice 1 describes an earlier scene where 'a woman is playing a banjo,' with detailed focus on her skill and the instrument, confirming the actively played instrument in the earlier solo performance is also a banjo. Logic holds because both slices directly mention a banjo in the specified contexts.",
+        "visual_proof": "In Video 1 (0:16-0:23), the woman who was initially holding the banjo places it on a stool to her left before sitting down. The instrument remains on the stool for the rest of that clip. In Video 2 (0:09-0:19), there is a close-up shot of the same woman actively playing the banjo, confirming it is the same instrument featured in both contexts."
+    },
+    {
+        "question": "When a woman in black-and-gold sings in close-up with two people behind her, who is the man behind her wearing, and later what color is the projected backdrop when a man with glasses sings with a pianist accompanying him?",
+        "answer": "The man behind her wears glasses and a brown jacket, and later the projected backdrop is light green.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the black-and-gold singer with a man behind her in glasses and a brown jacket. Step 2: Slice 83 shows the \"Jubilee: Thomas Rutling\" section on a light green screen with piano accompaniment for stage performers. Conclusion: The identified man’s look (glasses/brown jacket) appears in the broader performance context that later sits under a light green tribute projection.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes a woman in a black dress with gold embroidery singing in close-up, with two people behind her. It explicitly states the man behind her is wearing glasses and a brown jacket. Step 2: Slice 83 describes a stage performance with a pianist and notes that the projected backdrop is a simple, light green screen. While it doesn't explicitly say the man with glasses is singing at that moment, the question only asks for the backdrop color in that later scene with the pianist, which Slice 83 provides. Therefore, both parts of the proposed answer are directly supported: the man's attire (glasses and brown jacket) and the backdrop color (light green).",
+        "visual_proof": "In Video 1, the close-up shot clearly shows a man with glasses and a brown jacket sitting directly behind the singing woman. In Video 2, the wide shot of the stage shows a man with glasses standing to sing, accompanied by a pianist, with a large screen behind them displaying text on a light green background."
+    },
+    {
+        "question": "What is the projected title that appears behind the performers when a man in a pink jacket leads a seated group, and what later projected title names the tribute segment that follows?",
+        "answer": "The earlier projection reads \"Huntsville Weekly Democrat,\" and the later tribute title is \"Jubilee: Thomas Rutling (1854?–1915).\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows a pink-jacketed speaker in front of a seated group with \"Huntsville Weekly Democrat\" projected. Step 2: Slice 79 shows the stage with the projected title \"Jubilee: Thomas Rutling (1854?–1915).\" Conclusion: The projected document context transitions from a newspaper title to a named tribute segment.",
+        "logic_check_reasoning": "Step 1: Slice 38 describes a person in a pink jacket leading a seated group, with a projection behind them titled \"Huntsville Weekly Democrat.\" Step 2: Slice 79 describes a later stage moment where the backdrop prominently displays the title \"Jubilee: Thomas Rutling (1854?–1915),\" indicating a tribute. Logic holds because the first requested title matches Slice 38 and the later tribute title matches Slice 79.",
+        "visual_proof": "In Video 1, the screen clearly displays a historical document with the heading \"Huntsville Weekly Democrat\" at the top. In Video 2, after the scene changes, the screen displays the text \"Jubilee: Thomas Rutling (1854?–1915)\" in a large font, identifying the tribute segment. The man in the pink jacket is present in both clips, confirming the sequence of events described."
+    },
+    {
+        "question": "Across three different projected-document segments, which named publications appear: one tied to a $100 reward for Mildred, one tied to 'Runaway' in Charleston, and one tied to 'Stray Dog'?",
+        "answer": "\"Milledgeville Federal Union,\" \"Charleston Mercury,\" and \"Greensboro/Greensborough Patriot.\"",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            56,
+            15,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 56 projects \"Milledgeville Federal Union\" with a $100 reward for Mildred. Step 2: Slice 15 projects a \"Charleston Mercury\" runaway ad. Step 3: Slice 62 references a projected historical text mentioning \"Greensboro Patriot\" and \"Stray Dog.\" Conclusion: Multiple publications anchor different historical-document segments.",
+        "logic_check_reasoning": "Step 1: Slice 56 explicitly mentions a backdrop poster titled \"Milledgeville Federal Union\" offering a $100 reward for Mildred. Step 2: Slice 15 explicitly describes a projected advertisement from the \"Charleston Mercury\" titled \"RUNAWAY\" related to Charleston. Step 3: Slice 62 explicitly notes the screen mentioning \"Greensboro Patriot\" alongside \"Stray Dog.\" Therefore, the publications are Milledgeville Federal Union, Charleston Mercury, and Greensboro Patriot. The proposed answer lists \"Milledgeville Federal Union,\" \"Charleston Mercury,\" and \"Greensboro/Greensborough Patriot,\" which includes the correct \"Greensboro Patriot\" (allowing for minor naming variation).",
+        "visual_proof": "Clip 1 shows a projected document with the header 'Milledgeville Federal Union' and a '$100 REWARD!' for 'Mariah Frances'. Clip 2 displays a document titled 'RUNAWAY' with the header 'Charleston Mercury'. Clip 3 shows a document with the header 'Greensborough Patriot' and a reward notice for 'BOB', which includes the phrase 'STRAY DOG' in the text. All three publication names are clearly visible on screen."
+    },
+    {
+        "question": "A man with crutches appears as a central speaker with 'STRAY' on the screen; earlier, which man is shown singing alone as the camera zooms in under the 'asko or glasgow' projection, and later what end-screen institution is credited as the producer?",
+        "answer": "The man singing alone under 'asko or glasgow' is a bearded man in a black shirt, and the producer credited at the end is The Metropolitan Museum of Art's Department of Live Arts (The Met).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            65,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows a bearded man in a black shirt singing while the camera zooms in, with \"asko or glasgow\" projected. Step 2: Slice 65 shows a different moment with a central speaker using crutches and \"STRAY\" visible on the projection. Step 3: Slice 90 shows end credits stating it is produced by The Metropolitan Museum of Art's Department of Live Arts. Conclusion: Distinct performance segments culminate in a producer credit by The Met.",
+        "logic_check_reasoning": "Step 1: Slice 65 establishes the scene with the central speaker using crutches and 'STRAY' on the screen, setting the context. Step 2: Slice 29 specifies that under the 'asko or glasgow' projection, the man singing alone is described as wearing a black shirt and having a beard, and the camera zooms in on him—matching the answer's description. Step 3: Slice 90 explicitly states 'Produced by The Metropolitan Museum of Art's Department of Live Arts' and shows The Met logo, confirming the producer credited at the end. The logic holds because each part of the proposed answer directly corresponds to the details in the provided slices.",
+        "visual_proof": "Clip 1 shows a bearded man in a black shirt singing solo as the camera zooms in, with the text 'asko or glasgow' projected behind him. Clip 2 features a different scene where a man with crutches stands among other performers with 'STRAY' visible on the screen. Clip 3 displays the end credits, which explicitly state 'Produced by The Metropolitan Museum of Art's Department of Live Arts' and show 'THE MET' logo."
+    },
+    {
+        "question": "In an early stage configuration, a backdrop reads the event title with birds, and much later the stage returns to birds with a different phrase; what is that later phrase?",
+        "answer": "The later phrase is \"dreaming of our flight.\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a backdrop with \"Songs in Flight\" and birds in flight. Step 2: Slice 89 shows a later birds-in-flight backdrop reading \"dreaming of our flight.\" Conclusion: The bird motif returns with a new phrase later in the video.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 describes an early stage configuration with a backdrop displaying the event title 'Songs in Flight' along with birds. Step 2: Evidence Slice 89 describes a later stage setup with a backdrop featuring the phrase 'dreaming of our flight' and silhouettes of birds. Step 3: The question asks for the later phrase when the stage returns to birds with a different phrase. The later phrase explicitly shown in Slice 89 is 'dreaming of our flight'. Therefore, the context supports the proposed answer.",
+        "visual_proof": "In the first clip, the backdrop clearly displays the text \"Songs in Flight\" with a graphic of birds. In the second clip, the same bird graphic is present on the backdrop, but the text has changed to \"dreaming of our flight.\" This visual change directly supports the original answer."
+    }
+]

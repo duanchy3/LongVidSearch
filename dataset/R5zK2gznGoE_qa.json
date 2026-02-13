@@ -1,0 +1,102 @@
+[
+    {
+        "question": "How does the video connect street-level identity opinions with later statistical summaries of national identity categories?",
+        "answer": "It pairs personal interview statements about feeling British with later census-style graphics quantifying British, Irish, Northern Irish, and other identities.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            43,
+            47,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows a street interview where a man says he still feels pretty British. Step 2: Slice 47 provides a 2011 census identity breakdown. Step 3: Slice 48 compares identity percentages across 2011 and 2022. Conclusion: Individual testimony is contextualized by population-level identity data.",
+        "logic_check_reasoning": "Step 1: Slice 43 shows a street interview where the man says he still feels pretty British, indicating a personal, street-level identity opinion. Step 2: Slice 47 presents a census-style visualization quantifying national identities in Northern Ireland with categories British only, Irish only, Northern Irish only, and Other. Step 3: Slice 48 further shows a comparative grid of percentages for British Only and Irish Only between 2011 and 2022. Logic holds because the video moves from an individual expressing feeling British to later statistical graphics quantifying identity categories, including the ones named in the answer.",
+        "visual_proof": "Clip 1 shows a man stating he 'still do feel pretty British.' Clips 2 and 3 display official census graphics from 2011 and 2022 that quantify the percentages of people identifying as 'British only,' 'Irish only,' 'Northern Irish only,' and 'Other,' directly visualizing the statistical context for the personal sentiment expressed in Clip 1."
+    },
+    {
+        "question": "How does the video connect formal UK/EU negotiations to later policy documents and then to public concern about paying more to fund political change?",
+        "answer": "It shows a UK–EU-style negotiation setting, then highlights formal framework documents, and later presents a statistic about willingness to pay higher taxes.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            51,
+            53,
+            83,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows a formal meeting room with EU and UK flags, implying negotiations. Step 2: Slice 53 shows the Windsor Framework document. Step 3: Slice 83 shows a pound coin graphic and a statistic about only 22% willing to pay more tax. Step 4: Slice 80 presents detailed text about the economic costs of a united Ireland. Conclusion: Negotiations → policy frameworks → public fiscal willingness/cost debate.",
+        "logic_check_reasoning": "Step 1: Slice 51 depicts a formal meeting with EU and UK flags, supporting the idea of a UK–EU-style negotiation setting. Step 2: Slice 53 shows a close-up of the Windsor Framework document, a formal policy framework related to UK/EU matters, linking negotiations to policy documents. Step 3: Slice 83 presents an animation with the text 'Only 22% of people are prepared to pay more tax to fund the process,' directly showing public concern about paying more to fund political change. Logic holds because the sequence aligns: negotiations → framework document → public willingness statistic.",
+        "visual_proof": "Clip 1 visually depicts a formal meeting with UK and EU flags, representing negotiations. Clip 2 displays official government documents like 'The UK's Northern Ireland Protocol Bill' and 'The Windsor Framework', establishing the policy context. Clip 3 transitions to public concern by showing a graphic of a British pound symbol alongside text stating 'Only 22% of people are prepared to pay more tax to fund the process,' directly linking policy to public financial sentiment."
+    },
+    {
+        "question": "How does the video build from local signs about sovereignty and Stormont to formal legislative scenes and then to a framework that specifically mentions Stormont’s role?",
+        "answer": "It shows anti-Stormont/sovreignty signage, then legislative proceedings, and finally a Windsor Framework document describing Stormont’s role in new law areas.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            54,
+            55,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 54 shows a banner stating 'SOVEREIGNTY NOT STORMONT.' Step 2: Slice 55 shows a formal legislative chamber speech. Step 3: Slice 53 shows the Windsor Framework document discussing Stormont’s role. Conclusion: Public messaging and governance visuals lead into a formal framework about Stormont.",
+        "logic_check_reasoning": "Step 1: Slice 54 shows a local banner reading 'SOVEREIGNTY NOT STORMONT,' establishing local sentiment about sovereignty and Stormont. Step 2: Slice 54 then transitions to a formal legislative chamber, and Slice 55 further depicts a parliamentary setting with a speaker addressing the chamber, reinforcing formal legislative proceedings. Step 3: Slice 53 focuses on a document titled 'The Windsor Framework: A New Way Forward' and explicitly discusses the Northern Ireland Assembly (Stormont) having a role in deciding whether certain laws apply in Northern Ireland, thus mentioning Stormont’s role in new areas of law. Logic holds because the sequence moves from local protest signage to legislative scenes and finally to a policy document detailing Stormont’s role.",
+        "visual_proof": "Clip 1 opens with a red sign reading 'SOVEREIGNTY NOT STORMONT' in a public space, establishing the local political sentiment. It then transitions to scenes of a formal legislative chamber (likely the Northern Ireland Assembly) with members standing and signing documents, showing official proceedings. Clip 3 presents a close-up of a government document titled 'THE WINDSOR FRAMEWORK: A new way forward,' which includes text explicitly discussing 'The role of Stormont on proposed new areas of law,' directly linking the framework to Stormont's function."
+    },
+    {
+        "question": "How does the video juxtapose European integration symbolism with later UK-focused border and identity debates in Northern Ireland?",
+        "answer": "It references EU integration (Schengen anniversary) and later emphasizes UK–Ireland border disputes and Northern Irish identity splits.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            59,
+            32,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 59 shows an EU event about the Schengen Agreement anniversary, symbolizing European integration. Step 2: Slice 32 focuses on the Northern Ireland Protocol and 'NO HARD BORDER' debate. Step 3: Slice 47 shows identity categories in Northern Ireland. Conclusion: EU integration symbolism is contrasted with UK-border disputes and identity divisions.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 59 shows an EU-themed formal event with the EU logo and explicit mention of the '10th anniversary of the Schengen Agreement,' which symbolizes European integration. Step 2: Evidence Slice 32 focuses on Northern Ireland border issues, including visuals like a 'NO HARD BORDER' sign, a document titled 'AT A GLANCE: THE UK'S NORTHERN IRELAND PROTOCOL BILL,' and maps of the Ireland/Northern Ireland division—clearly UK–Ireland border debates. Step 3: Evidence Slice 47 presents 2011 Census data on national identity in Northern Ireland (British only, Irish only, Northern Irish only, Other), demonstrating identity splits. Logic holds because the video includes EU integration symbolism and later segments addressing UK-focused border and identity debates, matching the proposed answer.",
+        "visual_proof": "Clip 1 opens with the European Parliament in session, displaying flags of EU member states and a screen referencing the '25th anniversary of the Good Friday Agreement' alongside the EU emblem — symbolizing European integration. Clip 2 shifts to UK-focused content: a protest sign reading 'NO HARD BORDER,' archival footage of conflict, and a document titled 'The UK's Northern Ireland Protocol Bill,' highlighting border disputes. Clip 3 presents census data visualizations showing divided national identities ('British only,' 'Irish only,' etc.) in Northern Ireland, directly addressing identity splits. The sequence visually juxtaposes EU unity symbolism with post-Brexit UK-Ireland border tensions and internal identity fragmentation."
+    },
+    {
+        "question": "Which earlier peace agreement is visually referenced again later through protest messaging asking people to protect that agreement?",
+        "answer": "The Good Friday Agreement / Belfast Agreement.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a close-up of a document titled 'The Belfast Agreement.' Step 2: Slice 90 shows a billboard saying 'Hands Off the Good Border Agreement,' referencing the same peace framework. Conclusion: The agreement is the Belfast (Good Friday) Agreement.",
+        "logic_check_reasoning": "Step 1: Slice 21 explicitly shows a close-up of a document titled \"The Belfast Agreement,\" highlighting its importance as a peace accord. Step 2: Slice 90 shows a protest billboard reading \"Border Communities Against Brexit\" and \"Hands Off the Good Border Agreement,\" which is a call to protect that agreement. Logic holds because the later protest message is clearly referring to protecting the same peace agreement highlighted earlier; the slight wording mismatch (\"Good Border Agreement\") is consistent with AI caption noise and aligns with the Belfast/Good Friday Agreement reference.",
+        "visual_proof": "Clip 1 visually references the 'Belfast Agreement' with a document titled 'The Belfast Agreement: An Agreement Reached at the Talks on Northern Ireland' (0:14). Clip 2 later shows protest signs, including one that reads 'PROTECT THE GOOD FRIDAY AGREEMENT' (0:01), directly linking the protest messaging to the earlier peace agreement."
+    },
+    {
+        "question": "What transportation infrastructure appears later that visually connects to earlier shots of county boundary or speed-limit signage suggesting travel across regions?",
+        "answer": "A rural road with county boundary signs and speed limit signage, leading to a border crossing point on a smaller road.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 21 includes a road sign indicating a boundary between counties, implying travel and borders. Step 2: Slice 88 shows a roadside scene with a building labeled 'Motorway' and travel-related signs. Conclusion: The later infrastructure is a motorway-related stop/service area.",
+        "logic_check_reasoning": "Step 1: Slice 21 mentions a road sign indicating the boundary between counties, signaling travel across regions. Step 2: Slice 88 shows a roadside scene with a building bearing a blue sign reading 'Motorway,' likely indicating a motorway service station, and other roadside signage. Logic holds because the later motorway-related signage/infrastructure connects thematically and visually to earlier regional boundary signage.",
+        "original_text_answer": "A motorway service or motorway-related location/signage.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "The video shows a man standing beside a rural road (0:24-0:25, 0:33-0:35) with signs for 'Donegal County Council' (0:30) and a '50 km/h' speed limit (0:31). Later aerial shots (0:36-0:40) show vehicles crossing a small bridge or checkpoint on this same type of rural road, visually connecting the earlier signage to a physical border crossing. No motorways or motorway service areas are shown."
+    },
+    {
+        "question": "What throughline ties together early referendum-era political ceremony, later street-level political commentary, and eventual documentary activism about Brexit and the border?",
+        "answer": "A continuing debate over Northern Ireland’s political future: from referendum-era agreements, to citizens’ opinions, to activism defending the Good Friday Agreement in the Brexit context.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            43,
+            32,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows Northern Ireland Referendum ’98 ceremony and agreement signing. Step 2: Slice 43 shows a street interview reflecting personal political identity feelings. Step 3: Slice 32 discusses the modern border/protocol controversy ('NO HARD BORDER'). Step 4: Slice 90 shows activism against Brexit impacts and in defense of the Good Friday Agreement. Conclusion: The throughline is the ongoing political future/border debate across decades.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly shows early referendum-era political ceremony with a backdrop \"THE NORTHERN IRELAND REFERENDUM '98\" and people in suits signing documents, plus a timeline referencing 10.04.1998, establishing the political agreement context. Step 2: Evidence Slice 43 shows a citizen speaking on camera with the subtitle expressing identity-related political views (\"I still do feel pretty British\"), which is street-level political commentary. Step 3: Evidence Slice 90 shows a documentary titled \"Faultline\" and activism signage \"Border Communities Against Brexit\" and \"Hands Off the Good Border Agreement,\" indicating activism around Brexit and protecting existing border agreements. Step 4: Evidence Slice 32 adds modern border-policy context with visuals like \"NO HARD BORDER\" and the \"UK'S NORTHERN IRELAND PROTOCOL BILL,\" reinforcing Brexit-related border issues. Logic holds because these slices trace a coherent thread from 1998 referendum-era political agreements, through citizen perspectives, to contemporary activism focused on Brexit and the border, matching the proposed throughline.",
+        "visual_proof": "Clip 1 shows the 1998 referendum and signing of the Good Friday Agreement. Clip 2 features a citizen expressing his British identity amid political change. Clip 3 includes a 'NO HARD BORDER' protest sign and discusses the UK's Northern Ireland Protocol Bill, linking back to the Good Friday Agreement. Clip 4 shows credits for a documentary titled 'Faultline,' which focuses on border communities and Brexit, confirming the theme of ongoing political discourse."
+    }
+]

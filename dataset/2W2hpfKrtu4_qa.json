@@ -1,0 +1,46 @@
+[
+  {
+    "question": "Across the video, the audience watches multiple kinds of screen content: an old film title card, a period dance scene, and later abstract/animated visuals during the live show. List these three types of projected content in chronological order.",
+    "answer": "Vintage film (“One Million B.C.”) → period-costume dance scene → abstract/animated visuals accompanying the live stage performance.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      3,
+      20,
+      41,
+      54
+    ],
+    "reasoning_chain": "Step 1: Early projection shows the vintage film title “One Million B.C.” Step 2: Later, the projection features an 18th-century costumed dance. Step 3: Later still, projections include abstract neon line-drawing faces behind performers. Step 4: Another stage moment shows vivid surreal animation on the screen. Conclusion: The order is vintage film → period dance → abstract/animated performance visuals.",
+    "logic_check_reasoning": "Step 1: Slice 3 explicitly shows a large screen with the vintage film title card 'One Million B.C.', establishing the first type of projected content. Step 2: Slice 20 describes a projection of an 18th-century period dance scene on a large screen, fitting the second type. Step 3: Slices 41 and 54 both show live performances accompanied by abstract/animated visuals projected on a screen (neon-like line drawings in 41 and surreal animation in 54), supporting the third type. The increasing slice numbers (3 → 20 → 41/54) logically indicate chronology within the video context, and the proposed sequence matches this order.",
+    "visual_proof": "Clip 1 shows the title card for 'One Million B.C.' on the screen. Clip 2 displays a period dance scene with figures in historical costumes. Clips 3 and 4 show the live performance with abstract, neon-style animated line art of a face projected behind the musicians. This sequence confirms the chronological order stated in the answer."
+  },
+  {
+    "question": "Early on, the video shows a classic film title and studio credit; later it ends with formal institutional credits. What does this shift suggest about the program’s structure over time?",
+    "answer": "It moves from screening pre-existing film/clip content to documenting an institutionally produced/co-commissioned performance with formal credits.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      6,
+      30,
+      71
+    ],
+    "reasoning_chain": "Step 1: The screen shows “Hal Roach One Million B.C.” indicating a film screening component. Step 2: Later, a live on-stage performer in white appears with a microphone and visuals behind her, indicating a live performance segment. Step 3: The closing credits detail co-commissioning and MoMA production context. Conclusion: The program transitions from film clips/screenings to an institutionally framed performance with end credits.",
+    "logic_check_reasoning": "Step 1: Slice 6 describes an early segment showing a title card 'NAC ROACH One Million B.C.', which indicates a classic film title/studio credit and suggests a screening of pre-existing film content. Step 2: Slice 30 shows a live performance by a woman on stage, indicating the program includes performance content beyond the initial film screening. Step 3: Slice 71 details formal institutional credits for a co-commissioned performance ('There Are Certain Facts that Cannot Be Disputed') by MoMA and Park Avenue Armory, explicitly showing institutional production/commissioning. Logic holds because the early footage reflects screening pre-existing film material, and the later formal credits confirm an institutionally produced/co-commissioned performance, matching the proposed structural shift.",
+    "visual_proof": "Clip 1 visually confirms the opening with a classic film title card for 'One Million B.C.' presented by Hal Roach, indicating the screening of pre-existing media. Clip 3 concludes with formal credits explicitly stating the event was 'co-commissioned by The Museum of Modern Art and Performa' and listing the creative team (music, video, costumes, etc.), which is characteristic of documenting a specific, institutionally-backed live performance."
+  },
+  {
+    "question": "During the live music portion, the performers’ outfits repeatedly use a specific color that contrasts with the blue stage lighting. What is that outfit color, and where is it shown both early and later in the performance segment?",
+    "answer": "White; it appears on the solo vocalist in a white dress and again on the duo/trio performers in white garments during later musical segments.",
+    "category": "Visual_Tracking",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      30,
+      34,
+      44,
+      68
+    ],
+    "reasoning_chain": "Step 1: The main vocalist performs in a white dress. Step 2: Later, two women perform in white outfits (singer and violinist). Step 3: A trio segment shows performers in white costumes. Step 4: Another wide concert-like segment also shows a central vocalist in white with bandmates. Conclusion: White outfits recur throughout the live performance portion.",
+    "logic_check_reasoning": "Step 1: Slice 30 shows a solo woman performing in a white dress, establishing early use of white. Step 2: Slice 34 shows a duo with blue/purple lighting and confirms the singer is in a white, flowing dress, reinforcing the color choice in a later segment. Step 3: Slice 44 shows a trio with the center singer wearing a white dress under blue/red lighting, further repeating white in later performance. Step 4: Slice 68 shows a trio under blue/purple lighting where the center vocalist is in white and the right string musician is also dressed in white, demonstrating multiple performers in white later. Logic holds because white is explicitly described across early solo and later duo/trio segments, and the blue lighting is repeatedly noted, supporting the contrast.",
+    "visual_proof": "In Clip 1, the solo vocalist is clearly visible in a white dress with puffed sleeves. In Clips 2, 3, and 4, both the lead vocalist and the violinist are wearing white or off-white garments. The white color of their outfits stands out against the predominantly blue and purple stage lighting throughout all clips."
+  }
+]

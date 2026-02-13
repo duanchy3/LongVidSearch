@@ -1,0 +1,83 @@
+[
+  {
+    "question": "In the conservation story, one slide emphasizes strict protection rules for seabirds, and later another slide gives a monetary estimate of the benefit from seabird poop. What was the punishment for violating the bird-protection rules, and what annual value is estimated for the benefit of pooping seabirds?",
+    "answer": "Death; at least $1 billion a year.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      16,
+      18
+    ],
+    "reasoning_chain": "Step 1: Slice 16 describes laws protecting birds with punishment for offenses as death. Step 2: Slice 18 estimates the benefit of pooping seabirds as worth at least $1 billion annually. Conclusion: Punishment was death, and the benefit is valued at ≥$1B/year.",
+    "logic_check_reasoning": "Step 1: Slice 16 states that violating bird-protection rules (entering islands during breeding season or killing birds) carried the punishment of death. Step 2: Slice 18 displays text that the benefit provided by pooping seabirds is estimated to be worth at least $1 billion a year. Logic holds because both pieces directly answer the two parts of the question.",
+    "visual_proof": "In Video 1, the slide from 0:18 to 0:29 explicitly states, \"The punishment for either offense was death\" in reference to laws protecting the birds. In Video 2, the slide from 0:07 to 0:13 states, \"THE BENEFIT PROVIDED BY POOPING SEABIRDS HAS BEEN ESTIMATED BY CONSERVATIONISTS TO BE WORTH AT LEAST $1 BILLION A YEAR.\" Both pieces of information are directly visible in the text overlays of the respective clips."
+  },
+  {
+    "question": "The video explains that synthetic fertilizers reduced the use of seabird guano for crops, and it later discusses why whales can affect carbon storage via fertilizing ocean life. According to the video, what replaced guano for crops, and what key nutrient in whale poop helps fertilize the ocean surface?",
+    "answer": "Synthetic fertilizers; iron.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      17,
+      24
+    ],
+    "reasoning_chain": "Step 1: Slice 17 says seabird poop isn’t as widely used today for crops thanks to synthetic fertilizers. Step 2: Slice 24 says whale poop floats at the surface and is packed full of iron. Conclusion: Synthetic fertilizers replaced guano use, and iron is the key fertilizing nutrient in whale poop.",
+    "logic_check_reasoning": "Step 1: Slice 17 explicitly states 'SEABIRD POOP IS NOT QUITE AS WIDELY USED TODAY FOR CROPS, THANKS TO SYNTHETIC FERTILIZERS,' which supports that synthetic fertilizers replaced guano for crops. Step 2: Slice 24 explains that sperm whale poop floats at the surface and is 'packed full of iron,' identifying iron as the key nutrient that fertilizes ocean life. The logic holds because the slices directly provide both points, and any presenter differences do not affect the content.",
+    "visual_proof": "Clip 1 displays text stating 'SEABIRD POOP IS NOT QUITE AS WIDELY USED TODAY FOR CROPS, THANKS TO SYNTHETIC FERTILIZERS'. Clip 2 displays text stating 'THESE FLOATING, WATERY FECES ARE PACKED FULL OF IRON', referring to whale poop. These on-screen texts directly provide the answer."
+  },
+  {
+    "question": "A claim about whales cooling the planet is followed by an explanation of what whales eat and a later note about where their poop ends up. According to the video, why do whales need to eat so much, and where does their poop remain instead of sinking?",
+    "answer": "Because they grow to massive sizes and need lots of food; their poop floats around at the surface/top of the water.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      22,
+      24,
+      21
+    ],
+    "reasoning_chain": "Step 1: Slice 22 states whales grow huge and need to eat a lot, giving consumption numbers. Step 2: Slice 24 explains that while they feed at depth, they do other business at the surface and their poop floats at the top. Step 3: Slice 21 frames whale loss as worsening climate change, motivating why the floating-poop effect matters. Conclusion: They eat a lot due to massive body size, and their poop stays at the surface.",
+    "logic_check_reasoning": "Step 1: Slice 22 states, 'THEY NEED TO EAT A LOT TO REACH SUCH MASSIVE PROPORTIONS,' after noting whales' large size, supporting that they eat so much because they grow to massive sizes. Step 2: Slice 24 explicitly says their poop 'floats around at the top of the water instead of sinking,' confirming where it remains.",
+    "visual_proof": "Clip 1 (0:06-0:12) shows a whale with text stating, 'THEY GROW TO BE UP TO 18 METERS LONG AND WEIGH AROUND 35,000 KILOGRAMS' and 'THEY NEED TO EAT A LOT TO REACH SUCH MASSIVE PROPORTIONS.' Clip 2 (0:16-0:17) features text that reads, 'THEIR POOP FLOATS AROUND AT THE TOP OF THE WATER, INSTEAD OF SINKING.' These visuals directly support the claims in the answer."
+  },
+  {
+    "question": "A segment explains that eating camel dung could help with dysentery because of a specific bacterium. Later, the video says this same bacterium can be taken without any dung. What is the bacterium, and how is it obtained in the later explanation?",
+    "answer": "Bacillus subtilis; later it’s grown in labs and packed into capsules.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      7
+    ],
+    "reasoning_chain": "Step 1: Slice 3 links camel dung’s effect to Bacillus subtilis in dung. Step 2: Slice 7 states B. subtilis is still used as a probiotic and is lab-grown and put into capsules. Conclusion: The bacterium is B. subtilis and it’s obtained via lab-grown capsules later.",
+    "logic_check_reasoning": "Step 1: Slice 3 states that eating camel dung could help with dysentery and explicitly identifies Bacillus subtilis as the bacterium involved. Step 2: Slice 7 explains that B. subtilis is still used as a probiotic and specifies it is grown in labs and packed into capsules, with no dung required. Logic holds because the bacterium named in the dung explanation (Bacillus subtilis) is the same one later described as being obtained via lab-grown capsules.",
+    "visual_proof": "In the first clip, at 0:13, a microscopic image is labeled 'Bacillus subtilis', which is presented as the bacterium responsible for the therapeutic effect of camel dung. In the second clip, at 0:01, text explicitly states 'B. subtilis IS STILL USED AS A PROBIOTIC' and 'THE HELPFUL BACTERIA ARE GROWN IN LABS AND PACKED INTO CAPSULES, NO DUNG REQUIRED'. This directly confirms both the bacterium's identity and its modern method of acquisition."
+  },
+  {
+    "question": "The video links poop to nutrient benefits in multiple ecosystems: seabird guano for nutrients and whale poop for fertilizing ocean life. What ecosystem benefit is highlighted for guano, and what nutrient in whale poop is emphasized as fertilizing surface waters?",
+    "answer": "Guano provides key fertilizer nutrients (like nitrogen, phosphorus, potassium, etc.); whale poop provides iron at the surface.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      15,
+      24,
+      26
+    ],
+    "reasoning_chain": "Step 1: Slice 15 lists guano’s nutrient components used for fertilization. Step 2: Slice 24 says sperm whale poop floats and is packed with iron. Step 3: Slice 26 explains tiny ocean plants can be limited by low dissolved iron, tying iron to fertilization effects. Conclusion: Guano’s benefit is fertilizer nutrients, and whale poop’s emphasized fertilizing nutrient is iron.",
+    "logic_check_reasoning": "Step 1: Slice 15 states the presenter highlights guano’s contents—nitrogen, phosphorus, potassium, calcium, iron—explicitly framing guano as rich in key nutrient elements, which supports the ecosystem benefit of providing fertilizer nutrients. Step 2: Slice 24 explains sperm whale poop floats at the surface and is packed full of iron. Step 3: Slice 26 further emphasizes iron’s role in ocean ecosystems, noting iron limitation for phytoplankton and their rapid growth when iron is available, reinforcing that iron in whale poop fertilizes surface waters. Logic holds because the guano segment explicitly lists nutrient components, and the whale segment explicitly identifies iron as the nutrient in floating poop that benefits surface ocean life.",
+    "visual_proof": "Clip 1 explicitly lists 'NITROGEN', 'PHOSPHORUS', 'POTASSIUM', 'CALCIUM', 'IRON' as components of guano, linking it to nutrient benefits. Clip 2 states that whale feces 'FLOATS AROUND AT THE TOP OF THE WATER' and is 'PACKED FULL OF IRON', directly connecting whale poop to iron fertilization at the surface."
+  },
+  {
+    "question": "In one part, the video says a beetle frequently survives passing through a frog, and in another part it contrasts survival rates of other organisms like snails and fish eggs. Which beetle is said to escape alive often, and how do snail and fish-egg survival rates compare?",
+    "answer": "Regimbartia attenuata; only about 15% of snails survive and less than 1% of fish eggs survive.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      79,
+      77,
+      85
+    ],
+    "reasoning_chain": "Step 1: Slice 79 says this brand of beetle often exits a pond frog’s digestive system alive. Step 2: Slice 77 names the beetle as Regimbartia attenuata. Step 3: Slice 85 states only 15% of snails survive and <1% of fish eggs do. Conclusion: R. attenuata often survives, while snails and fish eggs have much lower survival rates.",
+    "logic_check_reasoning": "Step 1: Slice 79 states that Shinji Sugiura discovered a particular beetle often survives passage through a frog (9/10 in pond frogs), indicating frequent escape alive but not naming the species in that slide. Step 2: Slice 77 identifies the beetle shown and credited to Sugiura as Regimbartia attenuata, logically linking the species to the survival claim. Step 3: Slice 85 explicitly provides the comparative survival rates: only 15% of snails survive and less than 1% of fish eggs survive. Therefore, the beetle is Regimbartia attenuata, and the snail and fish-egg survival rates match the proposed answer.",
+    "visual_proof": "Clip 2 (0:01) visually identifies the beetle as 'Regimbartia attenuata'. Clip 3 (0:02) displays text stating 'ONLY ABOUT 15% OF SNAILS MAKE IT THROUGH ALIVE' and 'AND LESS THAN 1% OF FISH EGGS DO', directly providing the survival rate comparison."
+  }
+]

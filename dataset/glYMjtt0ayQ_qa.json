@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Which newspaper shows a headline about a '£750,000 deal' sparking a new battle, and later appears again as a large background screen in the studio discussion?",
+        "answer": "The Daily Mail",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows The Daily Mail front page with the headline about a '£750,000 deal' sparking a new battle with Post Office victims. Step 2: Slice 44 shows the Daily Mail front page on the large studio screen during discussion. Conclusion: The newspaper is The Daily Mail.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 15 explicitly states that a newspaper front page from The Daily Mail shows the headline '£750,000 DEAL SPARKS NEW BATTLE WITH POST OFFICE VICTIMS.' Step 2: Evidence Slice 44 describes the studio discussion where a large background screen displays the front page of The Daily Mail during the 'Press Preview' segment. The identity of the newspaper matches across both slices, fulfilling the question's criteria that the same newspaper with the mentioned headline later appears again as a large background screen. Any discrepancy in the amount in Slice 44 is irrelevant to identifying the newspaper and is likely VLM noise.",
+        "visual_proof": "In both clips, the front page of the 'Daily Mail' is clearly visible in the 'Front Pages' panel on the right side of the screen. The headline reads '£75,000 DEAL SPARKS NEW BATTLE WITH POST OFFICE VICTIMS'. In Clip 2, this same Daily Mail front page is displayed as a large image on the screen behind the three presenters at the studio table."
+    },
+    {
+        "question": "Which newspaper front page headline about 'Hundreds of Post Office victims' is shown on the big studio screen, and later appears again beside a solo presenter with the same topic highlighted?",
+        "answer": "The Guardian",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows The Guardian front page on the big screen with a headline about hundreds of Post Office victims winning compensation. Step 2: Slice 56 shows a solo presenter with The Guardian inset headline 'Hundreds of Post Office victims to get compensation'. Conclusion: The newspaper is The Guardian.",
+        "logic_check_reasoning": "Step 1: Slice 23 states the big studio screen displays The Guardian front page with the headline about 'Hundreds of Post Office victims win compensation.' Step 2: Slice 56 shows an inset beside a solo presenter displaying The Guardian front page with a similar headline about 'Hundreds of Post Office victims to get compensation.' Logic holds because both slices explicitly identify The Guardian as the newspaper featured with the relevant headline in both contexts.",
+        "visual_proof": "In both clips, the front page of 'The Guardian' is clearly visible. In Clip 1, it's displayed on the large studio screen behind the panelists with the headline 'Hundreds of Post Office victims to get convictions overturned'. In Clip 2, the same 'The Guardian' front page appears in the 'Front Pages' sidebar next to the solo presenter, confirming its consistent presence and focus."
+    },
+    {
+        "question": "In one moment, two different editions of the same newspaper are shown side-by-side, and earlier the same newspaper was displayed behind a studio discussion. Which newspaper is shown in both cases?",
+        "answer": "The Daily Telegraph",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows The Daily Telegraph front page on the background screen. Step 2: Slice 45 shows two editions of The Daily Telegraph side-by-side. Conclusion: The repeated newspaper is The Daily Telegraph.",
+        "logic_check_reasoning": "Step 1: Slice 32 explicitly states that the background screen during the studio discussion displays the front page of The Daily Telegraph. Step 2: Slice 45 explicitly states that the video shows two different editions of The Daily Telegraph side-by-side. Logic holds because both slices identify The Daily Telegraph as the newspaper shown in the respective moments.",
+        "visual_proof": "In Clip 1, the front page of 'The Daily Telegraph' is visible in the 'Front Pages' panel on the right while two presenters discuss it. In Clip 2, a full-screen view shows 'The Daily Telegraph' on the left and its front page again in the 'Front Pages' panel on the right, confirming it is the same newspaper shown in both contexts."
+    },
+    {
+        "question": "Which headline about Mr Bates appears on a front page beside a seated presenter, and later appears again on a large screen during the roundtable discussion?",
+        "answer": "MR BATES: IT'S NOT ENOUGH",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            61,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows the Mirror front page with the headline 'MR BATES: IT'S NOT ENOUGH' in a graphic overlay. Step 2: Slice 60 shows the Mirror front page on a large screen behind the roundtable with the same headline. Conclusion: The repeated headline is 'MR BATES: IT'S NOT ENOUGH'.",
+        "logic_check_reasoning": "Step 1: Slice 61 states that a graphic overlay on the right side of the screen shows the Mirror front page with the headline 'MR BATES: IT'S NOT ENOUGH' beside seated presenters. Step 2: Slice 60 states that during a roundtable discussion, a large screen displays the Mirror front page with the same headline 'MR BATES: IT'S NOT ENOUGH'. Logic holds because the same headline appears in both contexts as described.",
+        "visual_proof": "In Video 1, the front page of 'The Mirror' is displayed on the right side of the screen next to the seated presenters, with the headline 'MR BATES: IT'S NOT ENOUGH'. In Video 2, during the roundtable discussion, this same front page and headline are shown again on the large screen behind the panelists."
+    },
+    {
+        "question": "Which three newspapers are repeatedly showcased as examples during the discussion: one with 'JUSTICE BY SPECIAL DELIVERY,' one about 'Hundreds of Post Office victims,' and one about a '£750,000 deal' sparking a new battle?",
+        "answer": "Metro, The Guardian, and the Daily Mail",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            23,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows Metro with 'JUSTICE BY SPECIAL DELIVERY'. Step 2: Slice 23 shows The Guardian about hundreds of Post Office victims. Step 3: Slice 15 shows Daily Mail about a £750,000 deal sparking a new battle. Conclusion: The three papers are Metro, The Guardian, and Daily Mail.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12 explicitly shows the 'Metro' front page with the headline 'JUSTICE BY SPECIAL DELIVERY.' Step 2: Evidence Slice 23 shows a large screen displaying The Guardian with the headline 'Hundreds of Post Office victims win compensation.' Step 3: Evidence Slice 15 shows the Daily Mail with the headline '£750,000 DEAL SPARKS NEW BATTLE WITH POST OFFICE VICTIMS,' and Slice 23 also references a Daily Mail front page about Post Office victims. These align exactly with the three described headlines, confirming the newspapers are Metro, The Guardian, and the Daily Mail.",
+        "visual_proof": "Clip 1 shows the Metro front page with the headline 'JUSTICE BY SPECIAL DELIVERY...'. Clip 2 displays The Guardian's front page featuring a red post box and the headline 'Hundreds of Post Office victims to get convictions overturned'. Clip 3 shows the Daily Mail's front page with the headline '£75,000 DEAL SPARKS NEW BATTLE WITH POST OFFICE VICTIMS'. These three newspapers are explicitly shown in the respective clips, matching the descriptions in the question."
+    },
+    {
+        "question": "A long-haired brunette guest is shown in close-up beside a Daily Mail front page, later beside a Mirror front page, and later beside a Financial Times front page. What role is she most likely playing throughout these appearances?",
+        "answer": "A commentator/presenter discussing different newspapers’ front pages",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            17,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows the brunette woman speaking with a Daily Mail front page beside her. Step 2: Slice 17 shows the same brunette woman with a Mirror front page beside her. Step 3: Slice 19 shows her again with a Financial Times front page beside her. Conclusion: Across these varied front pages, she is serving as a commentator/presenter reviewing multiple newspapers.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows a woman in a studio setting beside a Daily Mail front page with a 'PRESS PREVIEW' logo and a 'Scan QR code to see front pages' prompt, indicating a segment reviewing newspaper front pages. Step 2: Slice 17 shows the same woman (matching attire and setting) beside a Mirror front page with the same QR code prompt, reinforcing the press preview format. Step 3: Slice 19 shows her again beside a Financial Times front page with the same setup, confirming continuity. Logic holds because the consistent setting, attire, and rotating front pages with press preview cues indicate she is participating in a press preview segment, likely as a commentator or presenter discussing front pages.",
+        "visual_proof": "The woman is consistently shown in a studio setting, speaking and gesturing, with the 'PRESS PREVIEW' banner visible. The 'Front Pages' graphic on the right cycles through different newspaper covers (Daily Mail, Mirror, Financial Times) as she speaks, indicating she is presenting or commenting on them."
+    }
+]

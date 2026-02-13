@@ -1,0 +1,30 @@
+[
+    {
+        "question": "The video presents the exhibition poster with dates and later shows the copyright year in the credits. What year is consistently indicated for the exhibition/video?",
+        "answer": "2021.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            99,
+            100
+        ],
+        "reasoning_chain": "Step 1: Slice 99 lists the exhibition dates including 2021. Step 2: Slice 100 shows “© 2021 The Metropolitan Museum of Art.” Conclusion: The consistent year is 2021.",
+        "logic_check_reasoning": "Step 1: Slice 99 shows the exhibition poster with the dates explicitly listed as \"February 12 - May 2, 2021,\" indicating the year 2021 for the exhibition. Step 2: Slice 100 shows the credits with the copyright text \"© 2021 The Metropolitan Museum of Art,\" again indicating 2021. Logic holds because both the poster dates and the credits consistently reference the year 2021.",
+        "visual_proof": "Clip 1 displays the exhibition dates as 'February 12–May 2, 2021'. Clip 2, in the final credit frame, shows the copyright notice '© 2021 The Metropolitan Museum of Art'. Both visual elements explicitly and consistently indicate the year 2021."
+    },
+    {
+        "question": "A print with Latin text mentions a brother’s life, and another famous print shows a sleeper beset by ominous creatures, and later the credits list multiple lending sources. What general themes are reinforced by combining these artworks and the exhibition framing?",
+        "answer": "Themes of mortality, fear/unease, and introspective moral or psychological reflection within a curated museum exhibition.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            45,
+            46,
+            50,
+            100
+        ],
+        "reasoning_chain": "Step 1: Slice 45 presents a somber print with Latin text about 'my brother's life,' suggesting loss/mourning. Step 2: Slice 46 shows a sleeping figure with eerie birds emerging, adding psychological unease. Step 3: Slice 50 explicitly frames 'The Sleep of Reason Produces Monsters,' reinforcing fear and moral commentary. Step 4: Slice 100 positions these works within an official museum exhibition video with credited lenders. Conclusion: The exhibition reinforces mortality and psychological/moral reflection in a curated context.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a framed print with Latin text \"Vitamque Frater meus\" interpreted as \"My brother's life,\" and notes a somber, contemplative mood with imagery suggesting loss or mourning. This supports a mortality theme and introspective reflection. Step 2: Slices 46 and 50 depict Goya’s \"The Sleep of Reason Produces Monsters,\" showing a sleeper surrounded by owls/bats, with an eerie, unsettling atmosphere and explicit themes about the dangers of abandoning reason, inviting moral/psychological reflection. Naming differences (man vs woman) are acceptable per instructions as the visual attributes align. Step 3: Slice 100 presents exhibition credits and multiple lending sources, confirming the curated museum exhibition framing. Logic holds because the artworks convey mortality and fear/unease, and the framing clearly situates them within a museum exhibition that invites introspective reflection.",
+        "visual_proof": "The artwork shown is Goya's 'El sueño de la razón produce monstruos,' which visually depicts a sleeper surrounded by owls and bats—symbols of darkness and fear. The text on the print reinforces the theme of reason's slumber producing monsters, suggesting psychological and moral introspection. The credits in Clip 4 confirm this is part of an exhibition ('Goya’s Graphic Imagination') with institutional backing, placing these dark, allegorical works in a curated museum context that invites thematic reflection."
+    }
+]

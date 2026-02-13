@@ -1,0 +1,152 @@
+[
+    {
+        "question": "What accessory does she keep using both while cleaning/prepping food in the morning and while studying and working later in the library?",
+        "answer": "Headphones.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows her doing chores and food prep while wearing white headphones. Step 2: Slice 13 shows her studying/editing video in the library while wearing headphones. Conclusion: The repeated accessory is headphones.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly states the woman wears white headphones while doing morning chores and prepping food in the kitchen. Step 2: Slice 13 explicitly states the woman in the library is wearing headphones while studying/working on a laptop. Logic holds because both slices show the same accessory (headphones) being used by the woman in two different contexts within the same video.",
+        "visual_proof": "In the first clip, the woman is seen wearing white over-ear headphones while performing kitchen chores like putting away dishes and washing fruit. In the second clip, she is in a library, still wearing the same white over-ear headphones while working on her laptop. The consistent presence of this accessory across both distinct activities and locations confirms the answer."
+    },
+    {
+        "question": "What objects suggest she stays hydrated during long study sessions, appearing both during focused library work and later during a stair-climbing walk in a building?",
+        "answer": "A water bottle (including a blue water bottle).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows a blue water bottle on the library table during studying. Step 2: Slice 36 shows a person walking up stairs holding a blue water bottle. Conclusion: The repeated hydration object is a water bottle.",
+        "logic_check_reasoning": "Step 1: Slice 41 explicitly shows a woman studying in a library with a blue water bottle visible on the table, indicating an object related to staying hydrated during study. Step 2: Slice 36 shows a person walking up stairs holding a blue water bottle in their left hand, indicating the same type of object appearing during the stair-climbing walk. Logic holds because the blue water bottle is explicitly present in both contexts, fulfilling the query about an object that appears in both scenes and suggests hydration.",
+        "visual_proof": "In Clip 1, a clear plastic water bottle with a blue lid is visible on the wooden table next to her study materials. In Clip 2, the same person is seen from a first-person perspective holding the identical clear water bottle with a blue lid while walking and climbing stairs."
+    },
+    {
+        "question": "What is the name of the lunch spot where a friend cooks Vietnamese rice noodle stir-fry, and later she mentions leaving her camera there?",
+        "answer": "Lincoln’s (Linco’s).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows lunch at Lincoln’s/Linco’s where Vietnamese rice noodle stir-fry is cooked. Step 2: Slice 13 references “my camera that I left at Lincoln’s.” Conclusion: The place is Lincoln’s.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows the lunch destination as \"linco's\" and inside the restaurant confirms \"@lincoln's\" with the text \"lincoln made us a vietnamese rice noodle stir fry,\" identifying the lunch spot as Lincoln's/Linco's where the stir-fry was cooked. Step 2: Slice 13 includes the text \"my camera that I left at Lincoln's,\" indicating she later mentions leaving her camera at the same place. Logic holds because both slices refer to the same location with consistent naming (Linco's/Lincoln's) and the events align.",
+        "visual_proof": "In Video 1, the text overlay at 0:07-0:08 says 'heading to linco's for lunch,' and at 0:09-0:10, the location tag '@ lincoln's' is displayed. The subtitle at 0:13 confirms 'lincoln made us a vietnamese rice noodle stir fry <3.' In Video 2, the subtitle at 0:07-0:08 states 'meanwhile, my camera that i left at lincoln's:', directly linking the camera's location to Lincoln's."
+    },
+    {
+        "question": "What time is shown on the clock when she turns off her alarm, and what event is she preparing for later that day?",
+        "answer": "3:16, and she’s preparing for a Boston leadership convention/conference.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows her turning off an alarm clock that reads 3:16. Step 2: Slice 23 introduces Friday and shows “WELCOME TO BOSTON” with “LEADERSHIP CONVENTION.” Step 3: Slice 24 shows the conference sessions (leadership development/panels). Conclusion: It’s 3:16 and she’s preparing for a leadership convention/conference in Boston.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly states that the woman turns off an alarm clock displaying the time 3:16. Step 2: Slice 23 shows a title screen with 'naaap conference!' and a sign reading 'WELCOME TO BOSTON' and 'LEADERSHIP CONVENTION,' indicating she is preparing for a leadership conference/convention in Boston. Step 3: Slice 24 further supports it by depicting a leadership-focused conference setting. The logic connects her morning alarm to preparation for the Boston leadership convention/conference later that day.",
+        "visual_proof": "In Clip 1, the digital clock clearly displays '3:16'. In Clip 2, text overlays and signs explicitly mention the 'NAAAP conference' and 'Leadership Convention in Boston', confirming the event she is preparing for."
+    },
+    {
+        "question": "How does her academic work progress from attending her first class of senior year to later doing research brainstorming on a document and then bringing boba to a club event?",
+        "answer": "She starts with a sociological theory class, then works on a “Research Brainstorm” doc, and later picks up boba for the first club event.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows “first class of senior year: sociological theory.” Step 2: Slice 44 shows a Google Docs “Research Brainstorm.” Step 3: Slice 45 shows groceries/boba supplies and a successful event/meeting. Conclusion: The sequence is class → research brainstorming → boba for a club event.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly shows the first class of senior year labeled 'sociological theory.' Step 2: Slice 44 shows a laptop with a Google Docs document titled 'Research Brainstorm,' indicating work on research brainstorming. Step 3: Slice 44 also includes a caption about picking up boba for the first club event of the semester, and Slice 45 further supports club-related boba and responsibilities. The sequence—class, research brainstorming, then bringing boba to a club event—is directly supported.",
+        "visual_proof": "Clip 1 shows her attending 'Sociological Theory' as her first senior-year class. Clip 2 shows a Google Doc titled 'Research Brainstorm' on her laptop, followed by her picking up boba for a club event. Clip 3 confirms the boba delivery to the club event, showing her and friends celebrating the successful tea talk."
+    },
+    {
+        "question": "How does her work/study environment evolve from editing video at a library table to later catching up on missed work at home, and then to working through a long night in a hotel room?",
+        "answer": "She edits video in the library, later works on her laptop at home to catch up, and then works late on a laptop in a hotel after eating.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            13,
+            28,
+            30,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows her in a library editing video on a laptop. Step 2: Slice 28 shows her at home on the red couch using a laptop to catch up on missed work. Step 3: Slice 30 shows her home setup again with a “Senior Seminar” page on a computer. Step 4: Slice 21 shows her working at a laptop in a hotel after a meal to get through a long work night. Conclusion: Her workspace shifts from library → home catch-up → hotel late-night work.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows a young woman in a library editing a video on a laptop, establishing the initial work environment at a library table. Step 2: Slice 28 depicts a cozy home setting where a person is catching up on missed work on a laptop, supported further by Slice 30 showing the same home environment (red couch, cat) and laptop work (Senior Seminar page), confirming the shift to working at home. Step 3: Slice 21 presents the woman in a warmly lit room described as likely a hotel or personal space; she eats Japanese food intended to sustain her for a long work night and is shown working on her laptop, supporting the transition to working late after eating in a hotel-like setting. The logic holds because each slice clearly delineates the progression: library editing -> home catch-up -> long night work in a hotel/personal room after a meal.",
+        "visual_proof": "Clip 1 shows her editing video on a laptop in a library. Clip 2 shows her at home on a couch, working on her laptop with text indicating she is 'catching up on work I missed.' Clip 4 shows her in a hotel room, eating Japanese food (sushi bowl) before working late on her laptop, as confirmed by the subtitle 'treated myself to japanese food for a long work night ahead.'"
+    },
+    {
+        "question": "After riding public transit, where does she go to work quietly on her laptop near a window?",
+        "answer": "A library.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows her leaving home, walking, and boarding a bus. Step 2: Slice 12 shows her entering a library and working at a table near a window. Conclusion: After transit, she works in a library.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows a woman with headphones riding a bus (public transit), then getting off and walking down the street, implying she is heading to a destination. Step 2: Slice 12 shows a young woman with headphones entering a library, sitting near a window, and working quietly on her laptop. Logic holds because both slices depict the same type of protagonist (woman with headphones) in a continuous everyday journey; thus it is supported that after the bus ride she goes to the library to work by the window.",
+        "visual_proof": "After the bus scene (Clip 1, 0:06-0:07), Clip 2 opens with a shot of a hallway leading into a building. The next frame shows long aisles of bookshelves with the text '@ the Library' overlaid. The woman is then seen walking through these aisles and subsequently sits at a table by a large window to work on her laptop, confirming she went to a library."
+    },
+    {
+        "question": "What city does she travel to after packing to leave on Thursday, as confirmed later by an airport welcome sign?",
+        "answer": "Boston.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 15 states she is leaving for Boston, Massachusetts. Step 2: Slice 18 shows an airport scene with a “Welcome to Boston” sign. Conclusion: The city is Boston.",
+        "logic_check_reasoning": "Step 1: Slice 15 states the person is packing on Thursday and the overlay says they are leaving for Boston, Massachusetts. Step 2: Slice 18 shows an airport scene with a 'Welcome to Boston' sign. Logic holds because the stated destination (Slice 15) is later confirmed by the airport welcome sign (Slice 18).",
+        "visual_proof": "The text overlay in Clip 1 (0:15) explicitly states 'leaving for boston, massachusetts'. This is visually confirmed in Clip 2 (0:08) with a shot of an airport sign that reads 'Welcome to Boston'."
+    },
+    {
+        "question": "Which location is repeatedly emphasized during the camping trip as the destination, and what nighttime event there highlights the sky?",
+        "answer": "Big Meadows; a stargazing event focused on the stars and the Milky Way.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            47,
+            49,
+            62,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows the trip planning and a map pointing to Big Meadows. Step 2: Slice 49 shows the “Big Meadows Campground” sign. Step 3: Slice 62 shows walking out to the big meadow for a stargazing event and Milky Way photos. Step 4: Slice 87 continues the sky theme with the moon and a sunrise hike day card. Conclusion: The destination is Big Meadows and the highlighted nighttime event is stargazing (Milky Way).",
+        "logic_check_reasoning": "Step 1: Slice 47 explicitly shows a hand pointing at a map indicating the destination 'Big Meadows,' emphasizing it as where they are headed. Step 2: Slice 49 reinforces this by showing a sign for 'Big Meadows Campground' and a notice board labeled 'Big Meadows Campground,' repeatedly emphasizing the location. Step 3: Slice 62 states 'walking out to the big meadow for the star gazing event!' and shows night sky images with text about learning about the stars and the Milky Way, indicating a stargazing event that highlights the sky. Logic holds because the destination is consistently identified as Big Meadows, and the nighttime event there is stargazing focused on the stars and Milky Way.",
+        "visual_proof": "Clip 1 shows a map with 'we're going to big meadows!' text. Clip 2 features a sign explicitly reading 'BIG MEADOWS CAMPGROUND'. Clip 3 visually confirms the nighttime event with people walking to 'the big meadow for the star gazing event!' and includes photos of the Milky Way with text stating 'learned so much about the stars and the milky way'."
+    },
+    {
+        "question": "During the senior-year timeline, what does she do first at home to get ready, and where does she end up for her first class afterward?",
+        "answer": "She gets ready in her room (makeup/hair and headphones) and then goes to a classroom for her sociological theory class.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows her getting ready in her bedroom with headphones (makeup/hair) for the first day. Step 2: Slice 10 shows her first class of senior year (sociological theory) in a classroom setting. Conclusion: She prepares at home and then goes to sociological theory class.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows Wednesday, the first day of senior year, with the young woman getting ready at home in her bedroom; she applies lipstick while wearing headphones and then uses a hairdryer. Step 2: Slice 10 shows the first class of senior year is sociological theory in a classroom setting. Logic holds because the answer states she gets ready in her room with makeup/hair and headphones (supported by Slice 1) and then goes to a classroom for sociological theory (supported by Slice 10).",
+        "visual_proof": "Clip 1 shows the woman getting ready in her room, applying makeup and using a hairdryer with headphones around her neck. Clip 2 then shows a close-up of a notebook and pen on a desk with the text 'Sociological Theory' overlaid, indicating she is in that class."
+    },
+    {
+        "question": "What academic theme ties together her notebook labeled for an advanced class, the webpage she views later at home, and her reading grind before another class period?",
+        "answer": "Senior Seminar coursework and related studying/reading.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            30,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a notebook labeled “Senior Seminar” in class. Step 2: Slice 30 shows a screen/webpage titled “Senior Seminar.” Step 3: Slice 42 shows her grinding out readings before the next class. Conclusion: These all reflect Senior Seminar-related study and preparation.",
+        "logic_check_reasoning": "Step 1: Slice 16 shows a notebook labeled \"Senior Seminar\" during a classroom scene, indicating an advanced class. Step 2: Slice 30 shows a computer screen with a webpage titled \"Senior Seminar\" viewed at home, reinforcing the same course. Step 3: Slice 42 shows \"grinding out readings before the next class period,\" depicting studying/reading activity. Logic holds because the first two slices explicitly identify Senior Seminar, and the third shows related academic reading, tying the scenes to Senior Seminar coursework and associated studying.",
+        "visual_proof": "The notebook in Clip 1 is explicitly labeled 'Senior Seminar'. In Clip 2, the computer screen shows a Notion page titled 'senior seminar' with a detailed schedule of assignments. In Clip 3, the person is seen studying in a library, which aligns with the 'grinding out readings' mentioned in the subtitle, a common activity for managing a heavy course load like a senior seminar."
+    }
+]

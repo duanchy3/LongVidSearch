@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which background beverage fixture appears behind the pair early on and again near the end, reinforcing that they remain in the same restaurant?",
+        "answer": "A Coca-Cola machine/beverage dispenser area (soda fountain/Coke machine) is visible in both parts.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            76
+        ],
+        "reasoning_chain": "Step 1: Early in the conversation, the background includes a soda fountain/Coca-Cola machine. Step 2: Near the end, a Coca-Cola vending machine and beverage dispensers are again visible. Conclusion: The recurring beverage fixture indicates the same restaurant location.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly mentions a soda fountain machine visible behind the pair in the restaurant. Step 2: Slice 76 explicitly mentions a Coca-Cola vending machine and other beverage dispensers visible behind them and notes this is near the end of the video. Step 3: Both slices describe the same setting and pair, so the recurring background beverage fixture is the soda fountain/Coca-Cola beverage machine area. Logic holds because both slices independently confirm a beverage dispenser fixture behind them at different times, reinforcing it's the same restaurant.",
+        "visual_proof": "In both Video 1 and Video 2, a large, silver soda fountain machine with the distinct red 'Coca-Cola' logo illuminated on its front panel is clearly visible in the background, positioned centrally behind the two individuals. Its consistent presence across both clips confirms they are in the same location."
+    },
+    {
+        "question": "How does the man’s posture change between an earlier moment when he is listening and a later moment when he is more visibly engaged at the table?",
+        "answer": "Earlier, he is listening with his hands clasped together on the table. Later, he continues to have his hands clasped on the table while smiling and appearing more engaged.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            76
+        ],
+        "reasoning_chain": "Step 1: In one segment the man listens with arms crossed and tattoos visible. Step 2: Later he is shown with hands clasped on the table, still attentive and smiling. Conclusion: His listening posture shifts from crossed arms to clasped hands.",
+        "logic_check_reasoning": "Step 1: Slice 9 states the man is attentively listening with his arms crossed. Step 2: Slice 76 states the man is listening attentively, smiling, with his hands clasped together on the table. Logic holds because the earlier moment shows crossed arms while listening, and the later moment shows hands clasped on the table while smiling and listening, matching the proposed change in posture.",
+        "original_text_answer": "Earlier he sits with his arms crossed while listening; later he has his hands clasped on the table while smiling and listening.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1 (earlier moment), the man is seen listening with his hands clasped on the table. In Video 2 (later moment), he maintains the same hand position (clasped on the table) but is now smiling broadly and leaning slightly forward, indicating increased engagement. His arms are never crossed in either clip."
+    },
+    {
+        "question": "Which recurring wall artwork ties together an early two-person shot and a later two-person shot as being in the same venue?",
+        "answer": "A mural/painting of a chef holding a tray (or similar chef imagery) appears in both.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            32
+        ],
+        "reasoning_chain": "Step 1: Early on, the wall includes a mural featuring a chef holding a tray. Step 2: Later, a large painting/mural of a chef holding a tray of food is again visible behind them. Conclusion: The repeated chef artwork anchors the scene to the same restaurant.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly mentions a mural depicting a chef holding a tray on the wall in the restaurant during a two-person shot. Step 2: Slice 32 also explicitly notes a large painting or mural on the wall behind the two people, depicting a chef holding a tray of food. Logic holds because both slices describe the same distinctive wall artwork (a chef with a tray), connecting the shots as being in the same venue.",
+        "visual_proof": "In both Video 1 and Video 2, the background consistently features a large mural on the wooden wall behind the two individuals. This mural depicts a stylized figure of a chef in a white uniform, holding a platter with food, which serves as a unique and recurring visual anchor confirming the shots are from the same location."
+    },
+    {
+        "question": "How can you tell the speaker in the solo shot with sunglasses on her head is the same person as the woman earlier with glasses perched on her head?",
+        "answer": "She has the same curly hair and the same red “Prince’s Hot Chicken” shirt, and both shots show eyewear resting on top of her head (glasses earlier, sunglasses later).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            33,
+            55
+        ],
+        "reasoning_chain": "Step 1: Earlier, the woman has curly hair, wears the red branded shirt, and has glasses on her head. Step 2: Another solo view confirms the same curly-haired woman in the same red branded shirt with glasses on her head. Step 3: Later, she appears in the same red branded shirt and curly hair, now with sunglasses on her head. Conclusion: Hair, shirt branding, and eyewear-on-head motif link these as the same person.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 and 33 describe a woman with curly hair wearing a bright red 'Prince's Hot Chicken' T-shirt, with glasses perched on her head. Step 2: Evidence Slice 55 describes a solo shot of a woman with curly hair wearing the same bright red 'Prince's Hot Chicken' T-shirt, with sunglasses resting atop her head. Step 3: The consistent hairstyle, identical distinctive shirt, and the eyewear-on-head detail across the shots logically indicate it is the same person.",
+        "visual_proof": "Across all three clips, the woman consistently has voluminous curly brown hair and wears a bright red t-shirt with the white text 'Prince's HOT CHICKEN'. In Clip 1, she is seen with dark-framed glasses perched on her head. In Clips 2 and 3, she is wearing what appear to be darker, possibly tinted, sunglasses in the same position on her head. The consistent hairstyle, clothing, and placement of eyewear confirm it is the same person."
+    }
+]

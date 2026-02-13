@@ -1,0 +1,179 @@
+[
+    {
+        "question": "What two different public monuments does the man visit in the city, and how do the camera perspectives differ between those visits?",
+        "answer": "He visits the seated historical statue in a plaza/street and also shows the Lotte Tower; the statue is filmed at street level close-up, while the tower is shown as a wide city panorama (often split-screen with a selfie).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows the man in front of a large seated statue, filmed from ground level with people around. Step 2: Slice 34 shows a panoramic city view highlighting Lotte Tower alongside a selfie view. Conclusion: The monuments are the seated statue and Lotte Tower, with close street-level framing vs wide skyline framing.",
+        "logic_check_reasoning": "Step 1: Slice 20 describes a man standing in front of a large seated statue in an open public plaza, with details like inscriptions and nearby people, indicating a street-level perspective focused on the statue/man. Step 2: Slice 34 shows a split-screen with a panoramic city view prominently featuring the Lotte Tower, contrasted with a selfie on the left, clearly indicating a wide city panorama perspective. Logic holds because the answer identifies the two featured monuments (the seated statue and Lotte Tower) and correctly contrasts the camera perspectives (street-level near the statue vs. wide panoramic/split-screen for the tower), which are explicitly supported by the slices.",
+        "visual_proof": "Clip 1 shows the man at street level in front of the King Sejong statue, with a close-up perspective that includes him and the monument. Clip 2 features a split-screen view: on the left, the man is seen in a selfie shot, and on the right, there is a wide panoramic view of the city skyline dominated by the Lotte Tower."
+    },
+    {
+        "question": "In the nighttime car conversation, how long has it been since the young man last visited that place, and later what specific old landmark does he say is still there?",
+        "answer": "It has been 16 years, and he later says the Toona building is still there.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 15 has the young man saying his last visit was 16 years ago. Step 2: Slice 45 shows him reminiscing on a busy street, stating the Toona building is still there. Conclusion: The time gap is 16 years and the landmark is the Toona building.",
+        "logic_check_reasoning": "Step 1: Slice 15 explicitly states the young man in the car says his last visit was 16 years ago. Step 2: Slice 45 shows the man later mentioning, via text overlay, 'They still have that Toona building,' identifying the specific old landmark. Logic holds because both details are explicitly provided in the slices and align with the question’s two parts.",
+        "visual_proof": "In Clip 1, the subtitle at 0:06 clearly states, 'Yeah... 16 years ago....' In Clip 2, the subtitle at 0:00 reads, 'They still have that Toona building...' confirming both parts of the answer are directly stated in the video's subtitles."
+    },
+    {
+        "question": "Which two separate moments show the vlogger directly eating on camera in a restaurant, and what utensil or hand-use difference is visible between them?",
+        "answer": "He eats a handheld sandwich/burger directly with his hands, and later he eats using chopsticks at a table.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows the man biting a sandwich/burger held in his hands. Step 2: Slice 39 shows him eating with chopsticks and then giving a thumbs-up. Conclusion: The two on-camera eating moments differ by hands-only vs chopsticks.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows a man in a restaurant/cafe wearing a gray t-shirt, holding a sandwich/burger and taking a bite while looking at the camera—this is direct on-camera eating with hands. Step 2: Slice 39 shows two men at a restaurant table; the man on the right, in a gray t-shirt with a graphic, is eating with chopsticks and then gives a thumbs-up toward the camera—this is direct on-camera eating using chopsticks. Logic holds because both slices depict separate restaurant moments with the subject engaging the camera while eating, and the utensil/hand-use differs: hands for a handheld burger vs. chopsticks.",
+        "visual_proof": "In Video 1 (0:02-0:04), the man is clearly holding a lettuce wrap or sandwich in his left hand and bringing it to his mouth with his right hand. In Video 2 (0:01-0:02), he is seated at a table and uses metal chopsticks to pick up food from his plate and eat it. The difference in utensil/hand use is visually confirmed between the two clips."
+    },
+    {
+        "question": "What traditional performance label appears on-screen, and later what black-screen title introduces another named traditional piece?",
+        "answer": "The on-screen label is \"Panseori,\" and later a black screen introduces \"Sae tanyeong 새타령 (ballad of the birds).\"",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows a traditional pavilion performance with the text \"Panseori\". Step 2: Slice 62 shows a black screen titled \"Sae tanyeong 새타령 (ballad of the birds).\" Conclusion: The video references Panseori and later introduces Sae tanyeong.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly states that the text 'Panseori' appears on the screen during a traditional Korean performance. Step 2: Slice 62 explicitly mentions a transition to a black screen with white text reading 'Sae tanyeong 새타령 (ballad of the birds)'. Logic holds because the question asks for the on-screen traditional performance label and later the black-screen title; both are directly provided in the slices.",
+        "visual_proof": "In Video 1, the text \"Panseori (판소리)\" is clearly visible as an on-screen subtitle from 0:02 to 0:11. In Video 2, at 0:19, a black screen appears with the white text \"Sae taryeong 새타령 (ballad of the birds)\", introducing the next piece."
+    },
+    {
+        "question": "Across the travel montage, what two different ways does the man show Korean cultural pride—one involving a group scene and another involving a solo monument scene with text?",
+        "answer": "He appears with friends holding large South Korean flags, and later he stands alone waving a South Korean flag in front of a traditional building with the text \"I'm proud to be Korean.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows a group of young men posing with large South Korean flags. Step 2: Slice 70 shows the man alone waving a South Korean flag with the caption \"I'm proud to be Korean\" in front of a traditional building. Conclusion: Pride is shown both in a group flag moment and a solo flag moment with explicit text.",
+        "logic_check_reasoning": "Step 1: Slice 35 describes a group of young men outdoors holding large South Korean flags, indicating a celebratory/cultural pride moment in a group setting. Step 2: Slice 70 shows a man alone in front of a traditional Korean building waving a South Korean flag, with on-screen text reading \"I'm proud to be Korean,\" clearly demonstrating solo pride with explicit text. Logic holds because the proposed answer precisely matches these two distinct scenes: the group flag-holding and the solo monument scene with pride text.",
+        "visual_proof": "Clip 1 shows a group scene where multiple men, including the main subject, are holding a large South Korean flag. Clip 2 shows the same man solo, standing in front of a traditional Korean gate (Sungnyemun), holding and waving a South Korean flag, with the subtitle 'I'm proud to be Korean' displayed on screen."
+    },
+    {
+        "question": "How does the man’s clothing shift between his airport terminal selfie moment and his later reflective city storytelling scene about a bad experience from years ago?",
+        "answer": "At the airport he wears a gray T-shirt, while later during the reflective city storytelling he wears a blue shirt.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows him in a gray T-shirt in an airport terminal. Step 2: Slice 44 shows him in a blue shirt outside in the city while speaking about a personal trip and a bad experience 16 years ago. Conclusion: His clothing changes from gray to blue between those segments.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a man in an airport terminal wearing a gray t-shirt. Step 2: Slice 44 shows the man in a city setting reflecting on a bad experience and states he is wearing a blue shirt. The question compares these two moments, and the proposed answer aligns with the clothing described in each slice.",
+        "visual_proof": "In Clip 1 (airport terminal), the man is clearly wearing a plain gray t-shirt. In Clip 2 (city scene), he is visibly wearing a different, dark blue t-shirt with a graphic print on it. The change in shirt color and style is directly observable between the two clips."
+    },
+    {
+        "question": "What alcoholic drink is opened at the table, and what later action shows the drink being served into a cup or glass?",
+        "answer": "Soju is opened, and later a green bottle is poured into a glass.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a woman in a pink shirt opening a green bottle of soju. Step 2: Slice 23 shows a man pouring a green bottle into a glass during a shared meal. Conclusion: Soju is opened and then served by pouring it into a glass.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly states that the woman is holding and opening a green bottle of soju at the table, confirming the alcoholic drink is soju. Step 2: Slice 23 explicitly describes a man pouring a green bottle into a glass, which is a clear serving action into a cup/glass. Logic holds because the context supports both the identification of the drink (soju) and the later action of pouring from a green bottle into a glass, consistent with serving the drink. Naming or sequencing differences are acceptable per instructions, as the actions align.",
+        "visual_proof": "In the first clip (0:03-0:05), a woman is seen opening a green glass bottle with Korean text, which is characteristic of soju. In the second clip (0:00), the same green bottle is shown being poured into a small, clear glass, confirming the drink is being served."
+    },
+    {
+        "question": "What chain of events connects the man’s “16 years ago” backstory to his on-foot search for a specific covered-up feature and his mention of being free beyond a fence?",
+        "answer": "He establishes the 16-year gap, then revisits the city to talk about past hardship, then searches an industrial/parking area for the remembered square door that seems covered up, and says that beyond the fence he was free.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            44,
+            51,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 15 states his last visit was 16 years ago. Step 2: Slice 44 frames the trip as personal due to a bad experience 16 years ago. Step 3: Slice 51 shows him pointing and describing a junkyard and a square trap door he is trying to find. Step 4: Slice 52 says the square door was somewhere there but seems covered up, and he recalls being free over the fence. Conclusion: The 16-year backstory motivates a present-day on-location search for the escape feature.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows the man in a car mentioning his last visit was 16 years ago, establishing the 16-year gap. Step 2: Slice 44 has the man in front of a building saying it is a personal trip and that 16 years ago he had a really bad experience with Korea, linking the gap to past hardship and a revisit. Step 3: Slice 51 depicts a first-person search with narration about a square trap door and a junkyard, indicating he is on foot retracing a specific location. Step 4: Slice 52 explicitly states he remembers a wall with a square door that seems covered up after 16 years and adds \"And then over the fence I was free,\" tying the search to the covered-up feature and the mention of freedom beyond the fence. The logic from establishing the timeframe, to revisiting due to past hardship, to an on-foot search in a parking/industrial area, and the statement about being free beyond the fence is fully supported across these slices.",
+        "visual_proof": "Clip 1 shows him in a car stating '16 years ago.' Clip 2 shows him on foot in the city saying it's a personal trip tied to a 'really bad experience with Korea' from 16 years ago. Clip 3 shows him pointing to a junkyard and recalling a 'little trap door' that was 'square.' Clip 4 shows him in a parking/industrial area, pointing and saying the 'square door was somewhere here... I guess they covered it up after 16 years... And then over the fence I was free...' This sequence visually confirms the entire chain of events described."
+    },
+    {
+        "question": "What is the unusual seafood dish the man orders, and later what specific food text appears when he holds up another challenging item with chopsticks?",
+        "answer": "He orders sannakji (live octopus), and later the text reads \"Abalone intestines.\"",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows him ordering and being served sannakji (live marinated octopus). Step 2: Slice 42 shows him holding food with chopsticks with the on-screen text \"Abalone intestines\" and a hesitant expression. Conclusion: The challenging foods are sannakji and abalone intestines.",
+        "logic_check_reasoning": "Step 1: Slice 37 explicitly states the man orders a dish called 'Sannakji,' described as live marinated octopus. Step 2: Slice 42 describes the man holding food with chopsticks and the on-screen text reads 'Abalone intestines.' Logic holds because the question asks for the unusual seafood ordered (supported by Slice 37) and the specific text appearing later when he holds another challenging item (supported by Slice 42).",
+        "visual_proof": "In Video 1, at 0:15, a dish is shown with the on-screen text \"Sannakji 산낙지 (Live marinated octopus)\". In Video 2, at 0:00-0:01, the man holds up a dark, slimy item with chopsticks, and the on-screen text explicitly reads \"Abalone intestines 전복 내장\"."
+    },
+    {
+        "question": "How do the visual references to traditional Korean clothing progress from a digital display to real people wearing it and finally to performers seated in a pavilion?",
+        "answer": "It goes from hanbok imagery on a large screen, to visitors wearing hanbok at a palace, to traditional-attire performers seated in a pavilion for a musical performance.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            36,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a large screen near an escalator displaying women in hanbok. Step 2: Slice 36 shows people dressed in hanbok in a palace courtyard. Step 3: Slice 29 shows performers in traditional attire in a pavilion with Panseori context. Conclusion: The video escalates from digital hanbok imagery to real hanbok wearers and then to traditional performance.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a large screen displaying images of women in traditional Korean hanbok, establishing the digital display reference. Step 2: Slice 36 depicts a group of people wearing hanbok in front of a palace, which supports the transition to real people wearing traditional clothing at a palace. Step 3: Slice 29 features two individuals in hanbok seated in a pavilion, with one playing a janggu and 'Panseori' text indicating a musical performance, confirming performers in traditional attire in a pavilion. The progression from screen imagery to real people to performers is supported by the slices.",
+        "visual_proof": "Clip 1 shows a digital display with animated figures in hanbok. Clip 2 shows real visitors, some in hanbok, walking through the Gyeongbukgung Palace gates. Clip 3 features two performers in traditional hanbok seated in a pavilion, one singing and the other playing a drum, indicating a musical performance."
+    },
+    {
+        "question": "Which two different seated historical or cultural backdrops are featured—one with the vlogger in front of a monument and another with a skyline landmark—and what filming style connects them?",
+        "answer": "He appears in front of a large seated statue monument and later the Lotte Tower skyline landmark is shown; both are framed as travel-documentary sightseeing, sometimes paired with selfie-style narration.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            19,
+            20,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 19 introduces the seated statue in a busy city street. Step 2: Slice 20 shows the vlogger standing in front of that statue. Step 3: Slice 34 shows the Lotte Tower highlighted in a panoramic skyline alongside a selfie view. Conclusion: The backdrops are the seated statue and the Lotte Tower, connected by sightseeing/selfie-travel filming.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly shows a man (likely the vlogger) standing in front of a large statue of a seated figure, described as a historical or cultural monument. Slice 19 also describes a seated bronze statue in an urban setting, reinforcing this backdrop. Step 2: Slice 34 features the Lotte Tower as a prominent skyline landmark, presented in a split-screen with a person taking a selfie and speaking, indicating a vlogger-style presentation. Step 3: The filming style connection is supported: Slice 19/20 depict documentary-like panning/zoom of a monument in a bustling city, and Slice 34 pairs a personal selfie perspective with broader architectural context, consistent with travel-documentary sightseeing and selfie-style narration. Therefore, the answer’s identification of the two backdrops and the connecting filming style is supported by the context.",
+        "visual_proof": "Clip 2 shows the vlogger standing directly in front of the seated King Sejong the Great statue monument. Clip 3 features the same vlogger in a split-screen selfie shot with the Lotte Tower skyline visible on the right side. The framing in both clips (selfie/narration style for the tower, direct pose for the statue) supports the travel-documentary sightseeing context described."
+    },
+    {
+        "question": "What is the connected story from being introduced to family through a split-screen living room scene, to an elderly woman later using a phone and cane, to a holiday meal labeled on-screen, and finally to quiet crafting on a sofa?",
+        "answer": "It begins with the family reunion via video call in a living room, then focuses on an elderly woman scrolling on a smartphone and walking with a cane, then shows a Chuseok family meal, and later ends in a calmer home moment with older women doing crafts/knitting on a sofa.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            16,
+            17,
+            41,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows “Seeing the family” with the man on a screen and the family gathered in a living room. Step 2: Slice 17 highlights the elderly woman with a smartphone and later walking with a cane, plus family dining. Step 3: Slice 41 explicitly labels a family meal as Chuseok (Korean Thanksgiving). Step 4: Slice 59 shows two older women calmly crafting/knitting on a sofa with a relaxed domestic vibe. Conclusion: The video tracks family reconnection, elder-focused moments, a holiday meal, and later calm home routines.",
+        "logic_check_reasoning": "Step 1: Slice 16 shows a split-screen where a man speaks to the camera while a family in a living room watches him on TV, indicating a video call and a family introduction/reunion. Step 2: Slice 17 then depicts an elderly woman using a smartphone and later walking with a cane, fitting the focus on her. Step 3: Slice 41 presents a labeled Chuseok family meal, confirming the holiday gathering. Step 4: Slice 59 shows a calm home scene with older women crafting/knitting on a sofa, matching the quiet ending. The proposed answer accurately sequences and summarizes these scenes without adding unsupported details.",
+        "visual_proof": "Clip 1 shows a split-screen video call labeled 'Seeing the family' with people in a living room. Clip 2 features an elderly woman using a smartphone and later being helped to walk with a cane. Clip 3 displays a large family meal with the on-screen text 'Chuseok 추석 (Korean Thanksgiving)'. Clip 4 shows two older women sitting on a sofa, one actively knitting or crocheting, while a man watches TV."
+    },
+    {
+        "question": "How does the use of screens evolve from a public escalator display, to a TV watched at home, to a live family video-call on a TV, and finally to a black title card introducing a named song segment?",
+        "answer": "It moves from a large public escalator screen showing hanbok imagery, to a home TV showing a traditional performance, to a family watching the vlogger on TV via a call, and later to a black title card introducing “Sae tanyeong.”",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            33,
+            16,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a public escalator screen with hanbok imagery. Step 2: Slice 33 shows a TV at home displaying a traditional stage performance. Step 3: Slice 16 shows the family living room TV displaying the man as part of a video call. Step 4: Slice 62 shows a black screen title card introducing “Sae tanyeong 새타령.” Conclusion: Screens shift from public display → home entertainment → communication → formal segment title card.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a large public escalator screen showing images of women in traditional Korean hanbok, supporting the first stage. Step 2: Slice 33 shows a home TV displaying a traditional Korean performance, matching the second stage. Step 3: Slice 16 shows a family in a living room with a TV displaying the same man seen speaking to the camera, indicating a live video call on the TV, aligning with the third stage. Step 4: Slice 62 explicitly mentions a transition to a black screen with white text reading \"Sae tanyeong 새타령 (ballad of the birds),\" supporting the final stage of a black title card introducing a named song segment. The sequence and details in the proposed answer are consistent with the slices.",
+        "visual_proof": "Clip 1 shows a large screen on an escalator displaying dancers in hanbok. Clip 2 shows the vlogger watching a TV at home that displays a traditional Korean performance. Clip 3 shows a split-screen where the vlogger is on a video call displayed on a TV, being watched by his family. Clip 4 ends with a black screen featuring white text that reads \"Sae taryeong 새타령 (ballad of the birds)\", confirming the named song segment."
+    }
+]

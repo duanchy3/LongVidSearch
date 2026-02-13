@@ -1,0 +1,113 @@
+[
+    {
+        "question": "What item is exchanged in a professional setting that later appears explicitly labeled in the outdoor scene with the young man?",
+        "answer": "A contract/document.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a white-coated person handing over a document in a formal setting. Step 2: Slice 10 shows the young man outdoors holding a paper titled “Contract.” Conclusion: The exchanged item is a contract/document.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes a professional setting where a person in a white coat hands over a document or piece of paper, indicating an exchange of a formal item. Step 2: Slice 10 shows the young man outdoors holding a document explicitly labeled \"Contract.\" Logic holds because the item type (document) exchanged in the professional scene is later seen and identified as a contract in the outdoor scene, aligning with the proposed answer.",
+        "visual_proof": "In Clip 1, at 0:14-0:15, a person in a grey suit hands a clipboard with papers to the young man in white. In Clip 2, at 0:03-0:05, the same young man is seen holding up this document outdoors, and the Chinese characters on its cover explicitly read '合作协议书' (Cooperation Agreement)."
+    },
+    {
+        "question": "Which accessory is used to show private communication between a couple and is later shown again in a public setting as someone reads it with concern?",
+        "answer": "A smartphone.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows both the man and the woman lying down while holding smartphones and viewing messages. Step 2: Slice 22 shows a woman in a café looking at her phone with concern, then later reflecting in bed. Conclusion: The recurring accessory is the smartphone.",
+        "logic_check_reasoning": "Step 1: Slice 21 shows both the man (Chen) and the woman using smartphones to exchange messages, indicating private communication between the couple. Step 2: Slice 22 shows the woman in a public setting (a restaurant/cafe) looking at her phone with concern. Logic holds because the smartphone is explicitly depicted as the medium of private communication and is later shown again in a public setting being read with concern.",
+        "visual_proof": "In Clip 1, a man is shown lying in bed typing a message on his smartphone (0:10-0:11). The message '明晚6点，汉威斯酒' (Tomorrow night 6 pm, Hanwei's wine) is displayed on the screen. In Clip 2, a woman is shown in a public setting looking at her smartphone with a concerned expression (0:00-0:02, 0:08-0:10), and a message bubble appears next to her phone reading '带我去同学会ok?' (Take me to the class reunion, ok?). This demonstrates the smartphone being used for private communication and then shown again in a public setting as the recipient reads it with concern."
+    },
+    {
+        "question": "Across the scenes, what is the shared setting feature that links the formal dance performance to the later kiss in front of the audience?",
+        "answer": "The red stage curtains.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a dance performance on a stage with a vivid red curtain backdrop. Step 2: Slice 18 shows the dance performance with red curtains and ends with the dancers kissing. Conclusion: The shared setting feature is the red stage curtains.",
+        "logic_check_reasoning": "Step 1: Slice 17 states the formal dance performance occurs on a stage with a vibrant red curtain backdrop. Step 2: Slice 18 describes the later kiss happening during a dance performance in front of an audience, explicitly noting red curtains in the background. Logic holds because both the performance and the kiss occur in a setting characterized by red stage curtains, making this the shared setting feature.",
+        "visual_proof": "In both video clips, the background consistently features prominent, heavy red stage curtains. Clip 1 shows a couple dancing on a stage with these curtains directly behind them. Clip 2, which includes the kiss, also takes place on the same stage, with the identical red curtains visible in the background, establishing it as the shared setting feature."
+    },
+    {
+        "question": "What object signals travel or moving-in that appears first as luggage being carried indoors and later is shown again being pulled through a living space?",
+        "answer": "A pink suitcase on wheels.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a woman carrying a pink suitcase (and a green bag) moving toward stairs. Step 2: Slice 40 shows someone pulling a pink rolling suitcase in a living room/common area. Conclusion: The object is the pink suitcase.",
+        "logic_check_reasoning": "Step 1: Slice 39 describes a woman walking indoors carrying a pink suitcase and a green bag, indicating luggage being carried in a modern interior. Step 2: Slice 40 shows a person pulling a pink suitcase on wheels through a living room/common area. Logic holds because both slices feature a pink suitcase used in contexts of movement/travel, first carried indoors and later pulled through a living space, explicitly noting wheels in the latter.",
+        "visual_proof": "In Clip 1 (0:02-0:05), a woman is seen carrying a pink suitcase with wheels as she enters a large, modern lobby. In Clip 2 (0:04-0:07), the same pink suitcase on wheels is shown being pulled by a man through a living room, confirming it is the same object appearing in both scenes."
+    },
+    {
+        "question": "What kind of medical environment is introduced when a formally dressed woman appears near a patient and then continues with another bedside emotional interaction later?",
+        "answer": "A hospital room with a bed and medical equipment (IV/monitor).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            78,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 78 shows a hospital setting with a bed, medical equipment, and staff (nurse and a suited person). Step 2: Slice 80 shows an intimate bedside moment with IV stand and monitor visible. Conclusion: The recurring environment is a hospital room with medical equipment.",
+        "logic_check_reasoning": "Step 1: Slice 78 explicitly describes a hospital/medical setting with a patient in bed, monitors, an IV stand, and clinical lighting. It also mentions a person in a suit (formally dressed) and a woman near the bed. Step 2: Slice 80 depicts a hospital room with a bedside emotional interaction, again showing an IV stand and a monitor by the hospital bed. Logic holds because both slices consistently depict a hospital room environment with medical equipment, matching the description of the formally dressed presence and the later bedside interaction.",
+        "visual_proof": "Both clips show a patient in a hospital bed with visible medical equipment, including an ECG monitor displaying vital signs. In the first clip, a formally dressed woman is seen near the patient, and in the second clip, another emotional bedside interaction occurs, confirming the setting as a hospital room."
+    },
+    {
+        "question": "How does the portrayal of the woman in a white lace dress change from arriving at a formal event to dealing with an urgent medical situation?",
+        "answer": "She goes from a poised entrance at a formal gathering to standing by a hospital bed making a phone call near an unconscious patient.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            77,
+            78,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 77 shows a woman in an elegant white lace dress walking through a formal event. Step 2: Slice 78 shows the same style of white lace dress in a hospital room by a man in bed while on the phone. Step 3: Slice 80 continues the hospital bedside emotional focus. Conclusion: Her situation shifts from social elegance to urgent medical concern and bedside intimacy.",
+        "logic_check_reasoning": "Step 1: Slice 77 depicts a woman in a white lace-detailed dress arriving at a formal event, moving gracefully and poised. Step 2: Slice 78 shows the same visual of a woman in a white lace dress in a hospital setting, standing by a bed with a man who appears unconscious/asleep and holding a phone to her ear, indicating an urgent situation. This directly supports the change described in the proposed answer. Slice 80 is hospital-related but not necessary to verify the answer.",
+        "visual_proof": "Clip 1 shows the woman in a white lace dress walking into a brightly lit, crowded event with a composed expression. Clip 2 shows her in the same dress, looking distressed while on the phone in a hospital corridor. Clip 3 confirms she is in a hospital room, standing beside a bed where a man is lying unconscious, with medical monitors visible."
+    },
+    {
+        "question": "Which object appears first as a careful handheld close-up and later becomes part of a tense conversation inside a moving vehicle, implying it matters to the discussion?",
+        "answer": "A small rectangular compact-like object (handled in close-up).",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            88,
+            51,
+            89,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 88 begins with hands carefully opening a small rectangular object, then cuts to a serious car conversation. Step 2: Slice 51 shows a tense nighttime car scene with two women. Step 3: Slice 89 shows distress inside a car with consoling touch, continuing the emotional car thread. Step 4: Slice 52 shows a woman holding a paper near a car and reacting in fear, suggesting a triggering item/event tied to the car sequence. Conclusion: The carefully handled object and later car tension imply the item(s) involved are significant to the unfolding conflict.",
+        "logic_check_reasoning": "Step 1: Slice 88 explicitly shows a careful handheld close-up of a small rectangular compact-like object, then transitions to a serious conversation in a car, noting a sense of continuity and connection between the two scenes, implying the object matters to the discussion. Step 2: Slices 51 and 89 confirm a tense conversation inside a car at night, with Slice 89 indicating motion via blurred background (a moving vehicle). Step 3: Slice 52 introduces a different object (a piece of paper) that doesn’t match the initial close-up. Therefore, the object identified in Slice 88 fits the question’s description.",
+        "visual_proof": "Clip 1 shows a careful, handheld close-up of a person opening a small, white, rectangular compact-like object. In Clip 3, the same woman from Clip 1 is seen inside a car, looking distressed and emotional during what appears to be a tense conversation with a man sitting next to her. The context implies that the object she was handling earlier is central to this emotional exchange, as it's the only significant item shown being handled with such care before the scene shifts to the car."
+    },
+    {
+        "question": "How does the woman’s activity in the luxurious home shift from playful performance to housework, and then to coordinating by phone in the kitchen?",
+        "answer": "She goes from playing the piano in the living room to cleaning with a mop, then to talking on the phone in the kitchen.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            42,
+            69,
+            70,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows energetic dancing in a bright living room near a piano. Step 2: Slice 69 shows a woman mopping in a luxurious living room while singing into the mop. Step 3: Slice 70 shows a woman in a modern kitchen happily talking on the phone. Step 4: Slice 71 shows a woman walking outdoors continuing a phone call. Conclusion: Her behavior shifts from playful performance at home to chores and then to phone-based coordination while moving between spaces.",
+        "logic_check_reasoning": "Step 1: Slice 69 shows a woman in a luxurious living room cleaning while playfully pretending a mop is a microphone and dancing lightly, which covers both 'playful performance' and 'housework.' Step 2: Slice 70 shows the woman in a modern kitchen engaged in a phone conversation, consistent with 'coordinating by phone in the kitchen.' Step 3: Slice 42 also depicts dancing in a living room, supporting the notion of an initial playful moment, though the gender is not specified; this aligns with the instruction to tolerate minor identity ambiguity. Logic holds because the proposed answer maps directly onto the activities shown: dancing in the living room, cleaning with a mop-as-microphone, then talking on the phone in the kitchen.",
+        "original_text_answer": "She goes from dancing in the living room to cleaning while pretending a mop is a microphone, then to talking on the phone in the kitchen.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the woman is seated at a piano, not dancing. In Clip 2, she is using a mop for cleaning, but there is no visual evidence she is pretending it's a microphone. In Clip 3, she is clearly talking on the phone in a kitchen setting. The original answer incorrectly states she was dancing and pretending the mop was a microphone."
+    }
+]

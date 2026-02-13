@@ -1,0 +1,54 @@
+[
+    {
+        "question": "The video shows a sponsorship message early on and later shows a three-person livestream with a QR code. Which sponsor is thanked, and what website is promoted on the livestream layout?",
+        "answer": "The sponsor thanked is YouGov, and the livestream promotes FlatEarthDave.com.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 2 includes the overlay text thanking YouGov for sponsoring the video. Step 2: Slice 62 shows the livestream layout with the logo text “FlatEarthDave.com.” Conclusion: Sponsor is YouGov; promoted website is FlatEarthDave.com.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 explicitly includes the text overlay 'Thanks to YouGov for sponsoring this video!', confirming the sponsor is YouGov. Step 2: Evidence Slice 62 describes a three-person livestream layout and notes a logo with the text 'FlatEarthDave.com' and a QR code, indicating the promoted website is FlatEarthDave.com. Logic holds because the slices directly state both elements asked in the question.",
+        "visual_proof": "In Clip 1 (0:08-0:11), a graphic overlay clearly displays the 'YouGov' logo with text below it stating, 'Thanks to YouGov for sponsoring this video!'. In Clip 2 (0:01-0:08), the bottom panel of the three-person livestream layout features a red banner with the website 'FlatEarthDave.com' prominently displayed."
+    },
+    {
+        "question": "A studio host in a white cap appears multiple times, and a news clip about a daredevil skydiver appears later. What headwear does the studio host wear, and who is the skydiver identified in the news segment?",
+        "answer": "The studio host wears a white cap, and the skydiver is Felix Baumgartner.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the host speaking in a studio while wearing a white hat/cap. Step 2: Slice 20 shows a TV interview labeled “Felix Baumgartner” and “Daredevil Skydiver.” Conclusion: White cap; Felix Baumgartner.",
+        "logic_check_reasoning": "Step 1: Slice 12 states the studio host is a man wearing a white hat who appears multiple times in a studio setting. Step 2: Slice 20 also begins with a man wearing a white hat and then transitions to a TV interview explicitly identifying 'Felix Baumgartner' as a 'Daredevil Skydiver' via on-screen text. Logic holds because the headwear is clearly white (hat/cap) and the skydiver is named Felix Baumgartner in the news segment.",
+        "visual_proof": "In multiple frames of Clip 1 (e.g., 0:00, 0:06) and Clip 2 (e.g., 0:01, 0:08), the studio host is clearly visible wearing a white baseball cap. In Clip 2, the news segment at 0:13-0:17 displays a lower-third graphic that explicitly identifies the skydiver as 'FELIX BAUMGARTNER' with the title 'Daredevil Skydiver'."
+    },
+    {
+        "question": "A split-screen news segment is labeled about a billionaire going to the edge of space, and later a split-screen livestream includes a site logo about flat earth. What space-travel headline is shown, and what flat-earth website appears later?",
+        "answer": "The headline is “Sir Richard Branson Travels to the Edge of Space,” and the website is FlatEarthDave.com.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 27 includes the on-screen headline about Sir Richard Branson traveling to the edge of space. Step 2: Slice 62 shows the logo “FlatEarthDave.com.” Conclusion: Branson headline; FlatEarthDave.com.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 27 describes a split-screen Fox 5 news segment with a space view and a commentator, and explicitly states the on-screen text: 'FOX 5 SIR RICHARD BRANSON TRAVELS TO THE EDGE OF SPACE.' Step 2: Evidence Slice 62 describes a split-screen livestream with three participants and notes a logo reading 'FlatEarthDave.com' on the screen. Logic holds because the question asks for the space-travel headline from the news segment and the flat-earth website shown later; both are explicitly identified in their respective slices.",
+        "visual_proof": "In Video 1, the news ticker at the bottom clearly reads 'SIR RICHARD BRANSON TRAVELS TO THE EDGE OF SPACE'. In Video 2, the lower panel displays the text 'FlatEarthDave.com' directly under the speaker's video feed."
+    },
+    {
+        "question": "The video opens with an animated channel/series identity and later returns to a similar animated branding card. What recurring animated channel name is shown in both places?",
+        "answer": "“Sci Man Dan.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 1 includes an animation that morphs into a globe with the words “Sci Man Dan.” Step 2: Slice 90 shows a stylized animated sequence centered around “Sci Man Dan.” Conclusion: The recurring animated channel name is Sci Man Dan.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states that the opening animation shows a globe with the words 'Sci Man Dan' prominently displayed. Step 2: Evidence Slice 90 describes a later animated branding card featuring a circular emblem with a globe and the text 'Sci Man Dan'. Logic holds because both slices explicitly mention the same animated channel name appearing in both places.",
+        "visual_proof": "The animated branding card appears at the end of Clip 1 (0:18-0:21) and is the sole content of Clip 2 (0:00-0:13). In both instances, the text 'Sci Man Dan' is clearly displayed in white letters next to a cartoon avatar and a globe icon. The same branding is shown in both clips, confirming it as the recurring channel name."
+    }
+]

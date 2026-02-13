@@ -1,0 +1,28 @@
+[
+    {
+        "question": "A dog shows up in a peaceful animated moment early on and later appears in a modern apartment being petted. What are the two different settings where the dog is seen?",
+        "answer": "First in an animated, serene sky-gazing moment; later in a modern apartment where a woman pets a golden retriever.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a dog lying down in an animated, calm scene looking up at the sky. Step 2: Slice 22 shows a golden retriever in a modern apartment being petted by a woman. Conclusion: The dog appears in two distinct settings—animated serenity and a contemporary apartment.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly describes an animated sequence featuring a dog lying down and looking up at the sky with a calm, serene expression. Step 2: Slice 22 (Scene 2) explicitly shows a modern apartment where a woman pets a golden retriever. Logic holds because these are two distinct settings—an animated serene sky-gazing moment and a modern apartment with the dog being petted—matching the proposed answer.",
+        "visual_proof": "In Clip 1 (0:13-0:17), an animated dog is shown during a serene moment as two characters embrace against a sunset sky. In Clip 2 (0:08), the same breed of dog, a golden retriever, is seen in a modern apartment being petted by a woman."
+    },
+    {
+        "question": "A small dog wanders around during a serious conversation in a living room, and elsewhere a golden retriever lies calmly beside a woman on a pink sofa during her phone call. What role do the dogs play in these domestic scenes?",
+        "answer": "They add a casual, comforting everyday-life presence while people talk or take calls at home.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            60,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows a small dog walking around a living room as a couple talks. Step 2: Slice 92 shows a golden retriever lying calmly by a woman on a pink sofa during a phone call. Conclusion: In both scenes, dogs provide warmth and normalcy in domestic conversations.",
+        "logic_check_reasoning": "Step 1: Slice 60 describes a small dog walking around during a serious conversation, explicitly noting that the dog's presence adds a touch of everyday life and warmth. Step 2: Slice 92 shows a golden retriever lying calmly beside a woman during her phone call, explicitly stating the dog adds warmth and companionship. Logic holds because both slices emphasize the dogs contributing warmth/comfort and an everyday domestic feel during interactions (conversation and phone call), matching the proposed role.",
+        "visual_proof": "In Clip 1, a golden retriever walks through the living room as a man and woman have a serious conversation, acting as a natural part of the domestic setting. In Clip 2, a golden retriever lies calmly beside a woman on a pink sofa as she talks on the phone, reinforcing a sense of calm, normalcy, and companionship in the home environment."
+    }
+]

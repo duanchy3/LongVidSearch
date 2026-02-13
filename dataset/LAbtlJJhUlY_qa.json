@@ -1,0 +1,105 @@
+[
+    {
+        "question": "What event flyer does the artist show after first holding up a generic paper with text and images?",
+        "answer": "She shows a vintage flyer for a 'Xerox Show' (with details like Club 57 and Monday, September 15, 1980).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the woman holding up a piece of paper with text and images. Step 2: Slice 8 zooms in on a specific flyer titled “Xerox Show” with event details. Conclusion: The later, specific paper is the Xerox Show flyer.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes the woman first holding up a generic paper with text and images in an art studio. Step 2: Slice 8 then specifies she is holding a vintage flyer for an event titled 'Xerox Show,' explicitly noting details like 'Monday, February 1980' and 'Club 57.' Logic holds because Slice 8 directly identifies the event flyer shown after the initial generic paper mentioned in Slice 7.",
+        "original_text_answer": "She shows a vintage flyer for a “Xerox Show” (with details like Club 57 and Monday, February 1980).",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In clip 2, the artist holds up a flyer where the text is clearly legible. The date is explicitly written as 'MONDAY SEPT. 15 1980', not February. The venue is listed as 'CLUB 57' at '57 ST. MARK'S PL.' The event title 'XEROX SHOW' is also prominently displayed in large letters."
+    },
+    {
+        "question": "Which tool is used to cut a yellow sheet before the artist later uses tape to secure paper pieces onto a larger sheet?",
+        "answer": "Scissors.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows her cutting yellow paper using scissors. Step 2: Slice 26 shows her taping smaller pieces onto a larger sheet. Conclusion: The cutting tool used earlier is scissors, before the taping/assembly step.",
+        "logic_check_reasoning": "Step 1: Slice 21 explicitly states the woman is holding a yellow paper and a pair of scissors and that she cuts the paper, so the cutting tool is scissors. Step 2: Slice 26 shows (likely the same) artist later using a roll of tape to secure smaller pieces onto a larger sheet. Logic holds because both slices depict the same studio setting and similarly dressed artist, aligning the sequence of cutting first and taping later.",
+        "visual_proof": "In the first clip, at timestamp 0:00, the artist is clearly holding a pair of scissors in her right hand and using them to cut a yellow sheet. This action occurs before any scene showing her using tape on paper pieces, which is visible in later parts of the same clip (e.g., 0:18) and in the second clip (e.g., 0:09)."
+    },
+    {
+        "question": "After the artist is shown applying glue with a small brush, what other adhesive method is shown earlier for attaching pieces to a larger sheet?",
+        "answer": "Using tape to secure the pieces.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows the artist using tape to attach smaller pieces to a larger sheet. Step 2: Slice 48 shows her applying glue with a small brush. Conclusion: Another adhesive method shown earlier is taping.",
+        "logic_check_reasoning": "Step 1: Slice 48 explicitly describes the artist applying glue to a small object using a small brush. Step 2: Slice 26, which details an earlier part of the process, states the artist picks up a roll of tape and secures smaller pieces onto a larger sheet, pressing the tape down firmly. Logic holds because Slice 26 describes an adhesive method (tape) used earlier, matching the question's temporal sequence and context.",
+        "visual_proof": "In Clip 1, at 0:05-0:06, a close-up shot shows the artist's hand peeling off a piece of clear tape from a larger sheet and applying it to secure a cutout. Later in the same clip (0:10-0:13), she is seen holding and manipulating a roll of tape. This visually confirms that tape was used as an adhesive method before the scene where glue is applied with a brush."
+    },
+    {
+        "question": "How do the materials shown on the worktable expand from basic art tools at the start to specialized inks and watercolor supplies later?",
+        "answer": "It starts with general tools like brushes, scissors, and rulers, then later includes organized bottles of colored ink and a watercolor palette with brushes and water.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            24,
+            73,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a table with assorted general art tools (paint tubes, brushes, scissors, ruler, glue stick). Step 2: Slice 24 shows a cluttered workspace with markers/pens and sketches. Step 3: Slice 73 shows neatly arranged bottles of colored ink. Step 4: Slice 74 shows watercolor setup (palette, brushes, water) used in painting. Conclusion: The table setup evolves from basic tools to inks and watercolor painting supplies.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the initial setup with basic art tools: paint tubes, brushes, scissors, a ruler, a glue stick, and a blank canvas. Step 2: Slice 73 shows specialized, organized bottles of colored ink/paint (labeled Rust-Oleum) arranged in a tray. Step 3: Slice 74 shows a watercolor setup including a palette, watercolor paints, brushes, and a water container. Logic holds because the materials progress from general tools to specialized inks and watercolor supplies as described.",
+        "visual_proof": "Clip 1 shows a wide array of general art tools including scissors, rulers, pencils, and tape. Clip 3 provides a close-up of an organized tray of small, labeled ink bottles (e.g., 'AP', '102'). Clip 4 shows the artist using a paintbrush to mix ink on a white plastic palette next to a cup of water, confirming the use of watercolor supplies. This progression from general tools to specialized inks and palettes is visually documented across the clips."
+    },
+    {
+        "question": "How does the artist move from selecting or preparing colored inks to applying paint, and then to refining detailed line work afterward?",
+        "answer": "She shows organized colored ink bottles, then mixes and applies watercolor paint with a brush onto the paper, and later continues intricate line work on the drawing using the same brush.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            73,
+            74,
+            76,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 73 shows a tray of colored ink bottles ready to be selected. Step 2: Slice 74 shows watercolor painting with brush, palette, and water. Step 3: Slice 76 shows meticulous pen detailing on a steampunk drawing near watercolor supplies. Step 4: Slice 78 shows continued fine pen detailing on the mechanical/architectural illustration. Conclusion: Preparation of inks leads into painting and then detailed line refinement.",
+        "logic_check_reasoning": "Step 1: Slice 73 shows a tray of organized colored bottles (labeled Rust-Oleum) with a hand reaching toward them, supporting selection/preparation of colored inks. Step 2: Slice 74 shows the artist painting with watercolors using a brush, palette, and water, supporting the application of paint. Step 3: Slices 76 and 78 show the artist using a fine-tipped pen to add intricate details to the drawing, supporting refining detailed line work afterward. The sequence from materials selection to painting to pen detailing is consistent with the slices.",
+        "original_text_answer": "She shows organized colored ink bottles, then paints with watercolor using a brush and palette, and later continues intricate pen detailing on the drawing.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the artist's hand near a tray of colorful ink bottles. Clip 2 shows her dipping a brush into water, mixing paint in a palette, and applying it to a test strip and then to the drawing. Clips 3 and 4 show her using the same fine-tipped brush to apply color and add details to the intricate line art on the paper; there is no visual evidence of her switching to a pen for detailing."
+    },
+    {
+        "question": "What evidence across the video links the artist’s early focus on ‘Xerox art’ to the later hands-on processes of assembling printed designs and presenting finished work?",
+        "answer": "The video begins with the “XEROX ART” theme and the artist discussing Xerox art, then shows her assembling printed illustrations with tape/glue, and ends with credits listing artworks and artists.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            8,
+            26,
+            98
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces the theme with “XEROX ART” and the artist explaining the concept. Step 2: Slice 8 shows Xerox-related ephemera (the “Xerox Show” flyer). Step 3: Slice 26 shows hands-on assembly of paper pieces onto a larger sheet with tape. Step 4: Slice 98 shows end credits listing artworks and artists. Conclusion: The narrative ties Xerox-art context to practical making and formal artwork attribution.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly shows the workspace with the bold on-screen text 'XEROX ART' and the artist discussing the concept, establishing the early focus on Xerox art. Step 2: Slice 8 reinforces this early focus by showing the artist holding a vintage 'Xerox Show' flyer (Club 57, Feb 1980), indicating historical/contextual engagement with Xerox art. Step 3: Slice 26 shows the later, hands-on process where the artist aligns smaller pieces on a larger sheet and secures them with tape, demonstrating the assembly of printed/paper elements. The presence of a glue stick in Slice 1 corroborates the mention of adhesive methods even if tape is the one explicitly used on camera. Step 4: Slice 98 shows closing credits listing artworks and artists, indicating the presentation/documentation of finished work featured in the video. Logic holds because the slices together track a clear narrative arc from early Xerox-art focus to practical assembly and final presentation.",
+        "visual_proof": "Clip 1 opens with a title card reading 'XEROX ART' over an artist's workspace. Clip 2 features the artist, Marlene Weisman, holding up a flyer for a 'XEROX SHOW' from 1980, directly linking her to the medium's history. Clip 3 shows her actively working at her desk, handling paper cutouts and using tape to assemble them, demonstrating the hands-on process. Finally, Clip 4 displays end credits that list multiple artworks by Marlene Weisman explicitly described as 'Xerox transfer' or 'Xerox transfer and collage,' confirming the connection between the initial theme and the final presented works."
+    },
+    {
+        "question": "How does the subject matter in the artist’s work shift from mechanical timepiece imagery to a nature subject when she presents a drawing to the camera?",
+        "answer": "It moves from pocket watches/clocks and mechanical elements to a hummingbird with floral elements.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            58,
+            82,
+            88,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows work involving fashion/design-like sketches and detailed black-and-white illustrations. Step 2: Slice 82 shows painting pocket watch illustrations. Step 3: Slice 88 shows a page of mechanical clock/gear drawings being turned. Step 4: Slice 90 shows her holding a hummingbird drawing with flowers. Conclusion: The presented subject shifts from mechanical timepieces to a nature-themed hummingbird illustration.",
+        "logic_check_reasoning": "Step 1: Slice 82 explicitly shows the artist painting pocket watches in black ink, indicating mechanical timepiece imagery. Step 2: Slice 88 further confirms this focus with detailed drawings of pocket watches, pendulums, and clock mechanisms. Step 3: Slice 90 shows the artist presenting a drawing of a hummingbird surrounded by floral elements to the camera, which is a nature subject. Logic holds because the evidence demonstrates a clear shift from mechanical timepieces to a nature-themed hummingbird with flowers.",
+        "visual_proof": "Clips 1, 2, and 3 show the artist working on and holding up a drawing filled with intricate mechanical drawings of gears, machines, and multiple pocket watches. Clip 4 shows the artist holding the same sheet, where the top portion clearly depicts a detailed sketch of a hummingbird in flight, complete with a flower it is feeding from, positioned above the mechanical elements."
+    }
+]

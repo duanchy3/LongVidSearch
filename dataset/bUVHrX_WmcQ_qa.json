@@ -1,0 +1,80 @@
+[
+    {
+        "question": "The same speaker shifts from a discussion labeled “Powerhouse” beside a national flag to later introducing a parasitic disease; which country’s flag appears with “Powerhouse,” and what disease is later introduced?",
+        "answer": "Rwanda; schistosomiasis.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the Rwanda flag with the text “Powerhouse.” Step 2: Slice 20 introduces the term “Schistosomiasis” with a worm image. Conclusion: Rwanda is tied to “Powerhouse,” and the later disease topic is schistosomiasis.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 explicitly identifies the flag with a sun as Rwanda’s flag and states that the text 'Powerhouse' appears next to it. Step 2: Evidence Slice 20 explicitly shows the word 'Schistosomiasis' with an image of a worm, indicating the disease introduced. Logic holds because the first part confirms the country (Rwanda) associated with 'Powerhouse,' and the later segment introduces the disease (schistosomiasis).",
+        "visual_proof": "In Clip 1, the flag of Rwanda (blue, yellow, green horizontal stripes with a sun in the top left) is displayed next to the text '\"Powerhouse\"-?'. In Clip 2, the word 'Schistosomiasis' appears on screen with an image of the parasite, while the same speaker from Clip 1 is present among others."
+    },
+    {
+        "question": "Which wildlife-focused segment mentions “10 National parks 13 Reserves,” and which later segment specifically highlights Bwindi Impenetrable Forest National Park with gorillas?",
+        "answer": "The explorer-in-hat segment; the Bwindi gorilla map segment.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows a presenter with visuals including “10 National parks 13 Reserves.” Step 2: Slice 34 shows a Uganda map pointing to gorillas labeled “Bwindi Impenetrable forest N.P.” Conclusion: Parks/reserves overview is in the explorer segment, and Bwindi is the gorilla-highlight segment.",
+        "logic_check_reasoning": "Step 1: Slice 29 describes a segment with a man in explorer attire presenting wildlife content, including a map of Uganda labeled '10 National parks 13 Reserves.' This matches the 'explorer-in-hat segment.' Step 2: Slice 34 shows a map highlighting Bwindi Impenetrable Forest National Park with an image of gorillas and text naming the park, matching the 'Bwindi gorilla map segment.' Logic holds because each segment distinctly features the specified elements.",
+        "visual_proof": "In Clip 1, the man in the hat (the 'explorer') is shown speaking while a map of Uganda appears with the text '10 National parks 13 Reserves'. In Clip 2, a separate segment shows an image of gorillas next to a map of Uganda with a red circle and arrow pointing to the southwest region, explicitly labeled 'Bwindi Impenetrable forest N.P.'"
+    },
+    {
+        "question": "A woman first rejects the luxury watch brand name visually, then clarifies the similar-sounding Ugandan street food; what is the watch brand being rejected and what food is being explained afterward?",
+        "answer": "Rolex; Rollex (the chapati-and-egg roll).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            42,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows “ROLLEX!” with a luxury watch and a red X over it, implying rejecting Rolex. Step 2: Slice 43 shows the woman explaining “Rollex” with an image of the rolled food item. Conclusion: The rejected brand is Rolex and the later food is Rollex.",
+        "logic_check_reasoning": "Step 1: Slice 42 describes a woman presenting with a large text 'ROLLEX!' over an image of a luxury wristwatch and a red X indicating disapproval. The slice explicitly notes she is sharing opinions on luxury brands, specifically Rolex. Step 2: Slice 43 states she is explaining a food called 'Rollex,' showing a rolled item with chapati, eggs, and vegetables. Logic holds because the first part rejects the luxury watch brand (Rolex) visually, and the second clarifies the similar-sounding Ugandan street food (Rollex).",
+        "visual_proof": "In Video 1, a luxury watch is shown with a red 'X' over it as the woman gestures, visually rejecting it. The text 'ROLLEX!' appears on screen, which is a play on 'Rolex'. In Video 2, the same woman explains that 'Rollex' refers to a food item made of 'Chapati + eggs & misc', showing images of rolled chapati with egg fillings and text clarifying 'Rolled eggs = Rollex'."
+    },
+    {
+        "question": "Which country is associated with both the nickname “Pearl of Africa” and later the label “Top 5 refugee host nations on earth / Largest in Africa (11 settlement camps)”?",
+        "answer": "Uganda.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 1 links “Pearl of Africa” to Uganda. Step 2: Slice 57 displays the Uganda flag with refugee-hosting superlatives. Conclusion: The same country is Uganda.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 shows the Uganda flag with the text \"The 'Pearl' of Africa,\" directly linking that nickname to Uganda. Step 2: Evidence Slice 57 shows the text \"Top 5 Refugee host nations on earth\" followed by the Uganda flag and \"Largest in Africa (11 settlement camps),\" associating those labels with Uganda. Logic holds because both distinct labels are explicitly connected to Uganda in the provided slices.",
+        "visual_proof": "In Clip 1, the flag of Uganda is displayed alongside the text 'The \"Pearl\" of Africa'. In Clip 2, the same Ugandan flag is shown next to the text 'Top 5 Refugee host nations on earth' and later 'Largest in Africa (11 settlement camps)'. The consistent visual pairing of the Ugandan flag with both sets of text across the clips confirms that Uganda is the country associated with these labels."
+    },
+    {
+        "question": "Which earlier segment labels “POLITICAL GEOGRAPHY,” and which later animated title marks the shift into “DEMOGRAPHICS”?",
+        "answer": "The trio-in-front-of-Uganda-map segment; the crowd graphic with the big upward arrow.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a Uganda map with the words “POLITICAL GEOGRAPHY.” Step 2: Slice 46 transitions to a graphic labeled “DEMOGRAPHICS” with an upward arrow and crowd. Conclusion: The topic shifts from political geography to demographics across these segments.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes the trio speaking with a Uganda map background and explicitly states that the words 'POLITICAL GEOGRAPHY' appear, matching the 'trio-in-front-of-Uganda-map segment.' Step 2: Slice 46 describes an animated transition where 'DEMOGRAPHICS' appears with a large red upward arrow and a crowd background, matching 'the crowd graphic with the big upward arrow.' The context clearly supports both parts of the proposed answer.",
+        "visual_proof": "In Clip 1, at 0:10, an animated title card explicitly reads 'POLITICAL GEOGRAPHY' over a stylized map. This is immediately followed by a scene (0:12-0:16) where the three hosts stand in front of a detailed political map of Uganda. In Clip 2, at 0:10, a new animated title card appears with the word 'DEMOGRAPHICS' overlaid on a graphic showing a crowd and a large red upward-pointing arrow, clearly marking a thematic shift."
+    },
+    {
+        "question": "Which country is first called the “Pearl of Africa,” and later becomes the focus of a zoom-in map that highlights Lake Victoria?",
+        "answer": "Uganda.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the Uganda flag with the text “The 'Pearl' of Africa.” Step 2: Slice 6 zooms into Uganda and labels Lake Victoria on a Uganda map. Conclusion: Both refer to Uganda.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the flag of Uganda with the text \"The 'Pearl' of Africa,\" indicating Uganda is called the Pearl of Africa. Step 2: Slice 6 describes an aerial view zooming in on Uganda, followed by a map of Uganda highlighting Lake Victoria. Logic holds because the country identified as the Pearl of Africa in Slice 1 is the same country focused on in the zoom-in map highlighting Lake Victoria in Slice 6.",
+        "visual_proof": "In Video 1, at 0:02, the flag of Uganda is displayed next to the text 'The \"Pearl\" of Africa'. In Video 2, starting at 0:01, a map zooms into East Africa, and at 0:03, the country labeled 'Uganda' is shown with Lake Victoria prominently featured within its borders and surrounding region."
+    }
+]

@@ -1,0 +1,95 @@
+[
+    {
+        "question": "Which state is shown with two large bells placed in front of the capitol building, and which other state is shown with a large ornate bell on the grounds?",
+        "answer": "Mississippi has the two large bells, and New Hampshire has the ornate bell.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            50,
+            22
+        ],
+        "reasoning_chain": "Step 1: Mississippi’s scene includes two large bells on stands in front of the building. Step 2: New Hampshire’s scene shows a large ornate bell near the base of the State House. Conclusion: Mississippi has the two bells; New Hampshire has the ornate bell.",
+        "logic_check_reasoning": "Step 1: Slice 50 describes a capitol building with two large bells in front and a sign reading '18 - Mississippi', which supports that Mississippi is shown with two large bells. Step 2: Slice 22 identifies the New Hampshire State House and mentions a large, ornate bell on the grounds, with text '32 - New Hampshire', supporting that New Hampshire is shown with the ornate bell. The logic is consistent across slices.",
+        "visual_proof": "Clip 1 shows the Mississippi capitol with two large bells on stands in the foreground. Clip 2 shows the New Hampshire capitol with a single large ornate bell on a stand on the grounds. The on-screen text in each clip explicitly labels the state, confirming the association."
+    },
+    {
+        "question": "One capitol is shown with a statue of a man on horseback and two cannons nearby, and another capitol is shown with a statue of a man on horseback in front of a brick building. Which states are these?",
+        "answer": "North Carolina and Delaware.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            17
+        ],
+        "reasoning_chain": "Step 1: North Carolina’s capitol scene includes a man-on-horseback statue with two cannons flanking it. Step 2: Delaware’s scene shows a brick building with a man-on-horseback statue in front. Conclusion: The states are North Carolina and Delaware.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly shows the North Carolina State Capitol and notes \"a large statue of a man on horseback\" with \"two cannons\" nearby. This matches the first description. Step 2: Slice 17 shows a scene labeled \"36 Delaware\" with \"a large brick building with a clock tower\" and \"a statue of a man on horseback\" in front, matching the second description. Logic holds because each slice pairs the described statue features with the state text overlays, identifying the locations as North Carolina and Delaware.",
+        "visual_proof": "Clip 1/2 shows the North Carolina State Capitol with a statue of a man on horseback and two cannons in front. Clip 2/2 shows the Delaware State Capitol, a brick building with a statue of a man on horseback in front. The on-screen text explicitly labels them as '44 - North Carolina' and '36 - Delaware', confirming the states."
+    },
+    {
+        "question": "Which state’s capitol is described as a modern tall rectangular tower, and which other state is shown with a tall capitol tower lit at dawn or dusk?",
+        "answer": "North Dakota has the modern rectangular tower; Nebraska has the tall tower lit at dawn/dusk.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            62
+        ],
+        "reasoning_chain": "Step 1: North Dakota’s capitol is described as a tall, modern rectangular tower. Step 2: Nebraska’s capitol is shown as a tall tower illuminated in early/late light. Conclusion: North Dakota and Nebraska respectively.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly describes the North Dakota State Capitol as having a tall, rectangular tower with a modern design. Step 2: Slice 62 explicitly shows the Nebraska State Capitol with a tall central tower, captured during dawn or dusk and illuminated by artificial lighting. Logic holds because each slice clearly identifies the respective state and the described visual features match the proposed answer.",
+        "visual_proof": "Clip 1 shows the North Dakota capitol, a modern, tall, rectangular tower with a flat roof and grid-like windows, labeled '41 - North Dakota'. Clip 2 shows the Nebraska capitol, a tall tower with a domed top, illuminated by warm ambient light against a twilight sky, labeled '12 - Nebraska', confirming it is lit at dawn or dusk."
+    },
+    {
+        "question": "Two different states are shown from aerial views where a body of water is visible near the capitol. Which two states are they?",
+        "answer": "Missouri and Wisconsin.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            67
+        ],
+        "reasoning_chain": "Step 1: Missouri’s aerial view shows the capitol near the Missouri River. Step 2: Wisconsin’s aerial view shows a large body of water behind the city and capitol. Conclusion: Missouri and Wisconsin.",
+        "logic_check_reasoning": "Step 1: Slice 48 describes the Missouri State Capitol in Jefferson City with the Missouri River visible in the background, confirming a body of water near the capitol. Step 2: Slice 67 describes the Wisconsin State Capitol in Madison with a large body of water visible beyond the city, also confirming water near the capitol. Logic holds because both slices explicitly mention aerial views of state capitols with nearby bodies of water, matching the proposed states.",
+        "visual_proof": "Clip 1 shows an aerial view of the Missouri State Capitol with a large river in the background and on-screen text '19 - Missouri'. Clip 2 shows an aerial view of the Wisconsin State Capitol surrounded by autumn trees and a large lake, with on-screen text '10 - Wisconsin'. Both clips visually confirm the presence of a capitol building near a body of water and explicitly label the states."
+    },
+    {
+        "question": "Which state is shown with an overcast autumn-like scene of a green dome and later shown on a bright day with flags visible near the capitol dome?",
+        "answer": "Washington.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Washington is shown under a partly cloudy sky with the capitol dome prominent. Step 2: Another Washington view shows flags visible near the building and a different lighting feel. Conclusion: The state is Washington.",
+        "logic_check_reasoning": "Step 1: Slice 30 explicitly identifies the building as the Washington State Capitol in Olympia and shows the caption '27 - Washington' on a bright day. Step 2: Slice 31 again shows the Washington State Capitol and notes flags (American and Washington state) visible near the dome, with the caption '27 - Washington'. Logic holds because both slices clearly and explicitly state the location is Washington, satisfying the question's identification of the state. While the 'overcast autumn-like scene of a green dome' is not described in these slices, the state identification is still directly supported.",
+        "visual_proof": "Both clips show the Washington State Capitol building. Clip 1 displays an overcast sky with green trees, matching the 'overcast autumn-like scene'. Clip 2 shows the same building on a bright day with visible flags (U.S. and Washington state flag) near the dome. The on-screen text '27 - Washington' in both clips confirms the location."
+    },
+    {
+        "question": "One state’s capitol is shown with palm trees in front, and another state’s modern capitol scene also includes palm trees. Which two states are these?",
+        "answer": "Florida and Hawaii.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            18
+        ],
+        "reasoning_chain": "Step 1: Florida’s capitol scene includes tropical vegetation such as palm trees. Step 2: Hawaii’s modern building scene includes several palm trees in front. Conclusion: Florida and Hawaii.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly describes the Florida State Capitol with palm trees in the surrounding area, indicating a capitol shown with palm trees in front. Step 2: Slice 18 shows a modern building with a large glass facade and several palm trees in front, with on-screen text \"35 - Hawaii,\" identifying the state. The logic holds because both slices directly associate palm trees with the respective states’ capitol scenes: Florida and Hawaii.",
+        "visual_proof": "Clip 1 shows the Florida State Capitol with palm trees in front and on its grounds, labeled '46 - Florida'. Clip 2 shows the Hawaii State Capitol, a modern building with prominent palm trees lining the walkway, labeled '35 - Hawaii'. Both clips visually confirm the presence of palm trees at the capitol buildings of Florida and Hawaii."
+    },
+    {
+        "question": "Which two states show the American flag at half-mast, and which additional state shows multiple flags arranged across the lawn in front of the capitol?",
+        "answer": "Massachusetts and South Dakota have the flag at half-mast; Florida shows rows of flags across the lawn.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            25,
+            60,
+            6,
+            9
+        ],
+        "reasoning_chain": "Step 1: Massachusetts is shown with the American flag at half-mast. Step 2: South Dakota is shown with the American flag at half-staff. Step 3: Florida is shown with rows of American flags planted across the lawn. Step 4: Another segment also shows flags at half-mast in a different context, reinforcing the concept across the montage. Conclusion: Massachusetts and South Dakota; Florida has the rows of flags.",
+        "logic_check_reasoning": "Step 1: Slice 25 explicitly states the Massachusetts State House has the American flag flying at half-mast. Step 2: Slice 60 explicitly states the South Dakota State Capitol has an American flag flying at half-staff. Step 3: Slice 6 explicitly shows the Florida State Capitol with rows of American flags arranged across the lawn. While Slice 9 mentions North Carolina and Ohio also have flags at half-mast, the proposed answer does not contradict this; it correctly identifies two states with half-mast flags and the additional state with multiple flags on the lawn.",
+        "visual_proof": "Clip 1 (Massachusetts) shows the US flag at half-mast on the left flagpole. Clip 2 (South Dakota) shows the US flag at half-mast in front of the capitol. Clip 3 (Florida) clearly shows multiple Florida state flags arranged in rows across the front lawn. The other clips (Georgia, North Carolina, Ohio) do not show flags at half-mast or multiple flags on the lawn, confirming the answer."
+    }
+]

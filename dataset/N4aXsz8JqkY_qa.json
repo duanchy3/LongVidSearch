@@ -1,0 +1,55 @@
+[
+    {
+        "question": "What is the state change of the meat from when it is raw and being skewered to when it is later carved on a table?",
+        "answer": "It changes from raw to roasted/cooked and then carved into pieces.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows raw meat being secured on a metal rod with rope. Step 2: Slice 74 shows the man carving the roasted meat on a table. Conclusion: The meat transitions from raw preparation to cooked carving.",
+        "logic_check_reasoning": "Step 1: Slice 44 states the man is skewering a substantial piece of raw meat, explicitly described as raw and being prepared for roasting. Step 2: Slice 74 describes the man carving a roasted meat dish mounted on a spit, noting he carefully slices the meat. Logic holds because the meat transitions from raw (preparation/skewering) to roasted/cooked (on the spit) and then is carved/sliced, matching the proposed state change.",
+        "visual_proof": "In Clip 1, the meat is visibly raw, red, and being secured with ropes and skewers onto a spit. In Clip 2, the same piece of meat is shown on the table with a browned, crispy, roasted exterior, indicating it has been cooked. The man is then actively carving it into slices, confirming the state change from raw to cooked to carved."
+    },
+    {
+        "question": "How do the red berries change from when they are picked to when they are incorporated into a brewed drink?",
+        "answer": "They are picked, washed, then put into a glass teapot/pitcher and infused with hot water.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            59,
+            61,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 59 shows the man picking red berries into a wooden bowl. Step 2: Slice 61 shows the berries being washed in water. Step 3: Slice 63 shows hot water poured into a glass teapot containing the berries. Conclusion: The berries go from harvested to cleaned to infused in hot water.",
+        "logic_check_reasoning": "Step 1: Slice 59 shows a man picking red berries and placing them in a wooden bowl. Step 2: Slice 61 shows the person washing the red berries in the wooden bowl at a fountain, resulting in clean berries. Step 3: Slice 63 shows the red berries placed in a glass teapot, with hot water poured from a samovar into the teapot, indicating they are being infused. The sequence supports the answer: picked, washed, then put into a glass teapot and infused with hot water.",
+        "visual_proof": "Clip 1 shows the berries being picked from a bush into a wooden bowl. Clip 2 shows the same berries being washed in the wooden bowl under running water from a stone fountain. Clip 3 shows the washed berries placed inside a glass teapot, which is then filled with hot water from a samovar, indicating they are being infused to make a drink."
+    },
+    {
+        "question": "What type of poultry appears first as two birds grazing in a field and later as a larger group swimming in a pond?",
+        "answer": "Ducks.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows two white ducks grazing in a grassy field. Step 2: Slice 17 shows a group of ducks swimming in a pond. Conclusion: The poultry appearing in both scenes are ducks.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly states there are two white ducks grazing in a grassy field. Step 2: Slice 17 describes a group of ducks swimming in a pond. Logic holds because both slices clearly identify ducks, first as a pair on land and later as a larger group in water.",
+        "visual_proof": "In Video 1 (0:09), two white birds and one brown bird, identifiable as ducks by their body shape and behavior, are seen grazing in a grassy field. In Video 2 (0:02), a larger group of dark-colored ducks, including ducklings, are swimming in a pond with an adult duck leading them. The visual characteristics and context in both clips confirm they are ducks."
+    },
+    {
+        "question": "Which animal is shown resting calmly in the grass near the berry-picking scene and later appears again lying near the children’s outdoor meal area?",
+        "answer": "A dog.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            59,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 59 shows a white dog with black spots lying in the grass. Step 2: Slice 90 shows a dog lying on the grass near the children eating outdoors. Conclusion: A dog is shown resting in both parts of the video.",
+        "logic_check_reasoning": "Step 1: Slice 59 explicitly states a dog is lying in the grass, described as white with black spots, resting near the berry-picking scene. Step 2: Slice 90 mentions a dog lying on the grass near the children’s outdoor meal area. Logic holds because both slices clearly identify a dog in the described contexts, matching the question’s two appearances.",
+        "visual_proof": "In Video 1, a black-and-white dog is seen resting in the grass with a mountainous background (0:04). In Video 2, the same dog is shown again lying calmly in the grass near a wooden fence and garden area (0:04), which is adjacent to the outdoor dining scene with children (0:00-0:03). The consistent appearance and markings of the dog confirm it is the same animal appearing in both contexts."
+    }
+]

@@ -1,0 +1,84 @@
+[
+    {
+        "question": "The video contrasts calm outdoor scenery with a frightening attack in the woods. Which animal appears peacefully earlier in the forest, and which creature later attacks someone mid-walk in the woods?",
+        "answer": "A deer appears peacefully earlier, and a large furry creature attacks later.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a deer briefly in a serene forest. Step 2: Slice 8 shows a large furry creature leaping to attack someone in the woods. Conclusion: The peaceful animal is a deer, while the later attacker is a large furry creature.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes an early serene forest scene where a deer appears briefly, indicating a peaceful animal presence. Step 2: Slice 8 shows two individuals walking through the woods when a large, furry creature suddenly attacks one of them. Logic holds because the question asks for the peaceful animal earlier (deer) and the attacking creature later (large furry creature), which aligns with the slices.",
+        "visual_proof": "In Clip 1, a deer is shown calmly grazing in the forest at 0:00-0:01. In Clip 2, at 0:13-0:17, a large, furry, brown creature is seen suspended in mid-air, seemingly attacking or being thrown, as two people with rifles react in shock while walking through the woods."
+    },
+    {
+        "question": "In the story, one scene shows someone restrained during transport, and another shows authorities investigating a kitchen scene. What restraint is clearly shown during the transport, and what official role is visible at the later investigation scene?",
+        "answer": "Handcuffs are shown during transport, and forensics investigators are visible at the later scene.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 21 focuses on a person in an orange jumpsuit with handcuffed hands. Step 2: Slice 24 shows a kitchen scene with a person in a “Forensics” jacket examining the area. Conclusion: The restraint is handcuffs, and the official role is forensics investigator.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 21 explicitly shows a restrained person during transport with a close-up of metallic handcuffs on the person in an orange jumpsuit. Step 2: Evidence Slice 24 describes a kitchen crime scene where someone wearing a 'Forensics' jacket is examining the area, indicating forensic investigators are present. Logic holds because the restraint is clearly identified as handcuffs and the official role at the kitchen scene is forensic investigation.",
+        "visual_proof": "In Clip 1, a close-up shot clearly shows a person's hands bound together with metal handcuffs. In Clip 2, a man in a black jacket with the word 'FORENSICS' printed on the back is visible in the kitchen scene, identifying his official role."
+    },
+    {
+        "question": "Two different moments show someone using a handheld tool to mark or pierce something. What sharp instrument is shown up close early on, and what writing-like object is shown held in a hand much later at night on a porch sequence?",
+        "answer": "A needle is shown early on, and a small dark object, possibly a piece of charcoal or a similar writing implement, is shown later.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 6 opens on a close-up of a hand holding a needle. Step 2: Slice 46 opens on a hand holding a small object possibly chalk, suggesting writing/drawing. Conclusion: The instruments are a needle and a chalk-like piece.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly states the video opens with a close-up of a hand holding a needle, indicating a sharp instrument used for piercing. Step 2: Slice 46 describes a later close-up of a hand holding a small object, possibly a piece of chalk or similar, with motion suggesting drawing/writing, and ties this to a nighttime porch setting. Logic holds because the early sharp instrument is clearly a needle, and the later writing-like object is described as chalk-like in the porch sequence.",
+        "original_text_answer": "A needle is shown early on, and a small chalk-like object is shown later.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In the first clip (0:00-0:02), a close-up clearly shows a hand holding a thin, metallic needle-like tool piercing skin to create a dot. In the second clip (0:00-0:01), a hand picks up a small, dark, irregularly shaped object from a surface; it is not chalk-like, which is typically white or brightly colored, but rather resembles a piece of charcoal or a similar dark marking tool."
+    },
+    {
+        "question": "A warning/control word is emphasized earlier, and later a wall shows graffiti-like markings in a confined, scary environment. What is the repeated command word, and where are the later markings seen?",
+        "answer": "The repeated word is 'DEAD' and 'IMMEDIATE', and the markings are seen on a wall in a dark, confined space (like a cave/tunnel).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 10 repeatedly shows paper with the word “obey.” Step 2: Slice 73 shows graffiti-like markings on a wall in a dark confined environment. Conclusion: The command is “obey,” and later markings appear on a wall in a cave/tunnel-like space.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly shows a piece of paper with the word 'obey' and repeats this shot, confirming the repeated command word is 'obey.' Step 2: Slice 73 mentions a wall with graffiti-like markings within a dark, tense sequence, and later specifies the environment as possibly a cave or enclosed space, i.e., a confined, scary setting. Logic holds because the answer identifies 'obey' and locates the markings on a wall in a dark confined space consistent with the described scene.",
+        "original_text_answer": "The repeated word is “obey,” and the markings are seen on a wall in a dark confined space (like a cave/tunnel).",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, frames 0:06-0:08 clearly show the words 'DEAD' and 'IMMEDIATE' written in a graffiti-like style on a dark, textured surface. In Clip 2, frames 0:05-0:06 show a hand touching a similar dark surface with the word 'PROTECT' written on it. Both instances occur in very dark, confined environments, confirming the location but contradicting the specific word 'obey' from the original answer."
+    },
+    {
+        "question": "A weapon is highlighted in a tense cabin interior, and later a close-up shows another weapon being handled in a forest chase moment. What weapon is held in the cabin, and what weapon is shown in close-up later during the fast action sequence?",
+        "answer": "A shotgun is held in the cabin, and a shotgun is shown in close-up later.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a person holding a shotgun in a dim cabin-like interior. Step 2: Slice 78 includes close-ups of a shotgun being aimed/handled during action in the woods. Conclusion: Both moments involve a shotgun.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes a dimly lit cabin interior where a person is seen holding a shotgun. Step 2: Slice 78 describes a fast-paced forest chase where an individual is holding a shotgun, and specifically mentions a close-up of the shotgun highlighting the trigger and grip. Logic holds because both slices explicitly identify the weapon as a shotgun in the respective contexts.",
+        "visual_proof": "In Clip 1, at 0:02, a woman is seen holding a pump-action shotgun inside the dark cabin. In Clip 2, at 0:06, there is a clear close-up of hands operating the bolt action of a rifle, which is visually distinct from the shotgun seen earlier. However, since the original answer states 'a shotgun' for both, it is incorrect for the second part. The weapon in the close-up during the forest chase is a rifle, not a shotgun."
+    },
+    {
+        "question": "The recap begins with someone appearing in danger in water, and near the end another injured person is shown bloodied and partially submerged. What condition is the first person in, and what visible injury detail marks the later person in the water?",
+        "answer": "The first person’s face is partially submerged with eyes closed (appearing unconscious), and the later person has blood visible on their face/mouth while partially submerged.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a face partially submerged underwater with eyes closed. Step 2: Slice 86 shows a person lying partially submerged with blood on the face and around the mouth. Conclusion: Early is unconscious/submerged; later is submerged with visible facial bleeding.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes an underwater scene focusing on a person's face partially submerged, with their eyes closed, creating a sense of urgency and danger—supporting the interpretation that the person appears unconscious. Step 2: Evidence Slice 86 describes a person partially submerged in water with blood visible on their face and around their mouth—clearly marking the injury detail. Logic holds because the proposed answer matches these explicit visual details from the slices.",
+        "visual_proof": "In Clip 1, a person's face is shown partially submerged in water with their eyes closed, suggesting they are unconscious. In Clip 2, another person is shown partially submerged with visible blood on their forehead and around their mouth, indicating injury."
+    }
+]

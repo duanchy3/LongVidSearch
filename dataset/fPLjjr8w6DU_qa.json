@@ -1,0 +1,42 @@
+[
+    {
+        "question": "In the video, a travel creator is repeatedly shown talking at a desk with a big “FOLLOW” message behind him. What major milestone later appears as a standalone graphic for his channel?",
+        "answer": "His channel reaches 100,000 subscribers.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows the creator speaking at a desk with “FOLLOW” on the wall, indicating a content-creator setup. Step 2: Slice 30 shows the “Lost LeBlanc” subscriber counter climbing to 100,000. Conclusion: The milestone shown later is hitting 100,000 subscribers.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows a man talking at a desk with a large 'FOLLOW' sign behind him, matching the described recurring scene of the creator. Step 2: Slice 30 shows a standalone graphic of the YouTube channel 'Lost LeBlanc' with a live subscriber count increasing from 99,998 to 100,000. Logic holds because the milestone explicitly shown is the channel reaching 100,000 subscribers, which directly answers the question about the major milestone later appearing as a standalone graphic.",
+        "visual_proof": "Clip 1 shows the creator at a desk with 'FOLLOW' on the wall behind him. Clip 2 displays a graphic for his channel 'Lost LeBlanc' showing the subscriber count increasing from 99,998 to 99,999 and then to 100,000, which is a major milestone for YouTube channels."
+    },
+    {
+        "question": "Which vehicle appears both in the intense corridor ride showing a visible license plate and later in a calmer daytime ride on a rural road with buildings in the background?",
+        "answer": "A motorcycle.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a man riding a motorcycle through a narrow hallway with the license plate visible. Step 2: Slice 33 shows a man riding a motorcycle on a road in daylight. Conclusion: The recurring vehicle is a motorcycle.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a man riding a motorcycle through a narrow hallway, explicitly noting a visible license plate (\"DK 8189 VU\"). Step 2: Slice 33 describes a man riding a motorcycle on a rural/semi-urban road with buildings in the background. Logic holds because both slices explicitly mention a motorcycle being ridden by a man, matching the question's description of the two scenes.",
+        "visual_proof": "Clip 1 shows a person riding a motorcycle through a narrow corridor, with its red taillight and license plate (DK 8189 VJ) clearly visible. Clip 2 shows a different person on a scooter/motorcycle on a rural road during the day, also with a visible license plate (1A-755). Both clips feature two-wheeled motor vehicles, which are commonly referred to as motorcycles or scooters. The question asks for the type of vehicle appearing in both contexts — which is consistently a motorcycle/scooter."
+    },
+    {
+        "question": "How does the mood shift from the creator’s indoor talk setup to the nighttime travel/social footage where he’s with friends in a moving vehicle?",
+        "answer": "It shifts from calm, controlled indoor narration to a lively, social nighttime atmosphere with friends in a car.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            21,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a man speaking calmly in a studio-like setup. Step 2: Slice 21 shows another indoor talk scene with the “FOLLOW” wall. Step 3: Slice 45 shows friends laughing together in a car at night. Conclusion: The tone changes from indoor narration to social nighttime energy.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows an indoor, controlled setup with soft lighting, a monologue-style vlog, and a friendly but calm, intimate tone. Step 2: Slice 21 reinforces the indoor talk setup—he's explaining/instructing at a table, again a controlled environment. Step 3: Slice 45 depicts a nighttime scene in a moving car with multiple friends, laughter, and a casual, social vibe. Logic holds because the context contrasts the indoor, controlled narration with the lively, social nighttime car footage.",
+        "visual_proof": "Clip 2 shows the creator in a well-lit, organized indoor setting (desk, camera gear, wall art) speaking directly to the camera in a composed manner. Clip 3 shows him and others in a dark, moving car at night, smiling and laughing, indicating a spontaneous, energetic, and social mood."
+    }
+]

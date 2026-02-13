@@ -1,0 +1,81 @@
+[
+  {
+    "question": "What is the name of the lecture that appears both on the opening title card and later on a projected slide behind the speaker?",
+    "answer": "An Enigmatic Eros in Flight: A Masterpiece of Greek Vase Painting from the National Archaeological Museum of Florence.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      3
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows the opening title card with the lecture title. Step 2: Slice 3 shows a projected slide repeating the same lecture title. Conclusion: The lecture name is the shared title.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states the opening title reads 'An Enigmatic Eros in Flight: A Masterpiece of Greek Vase Painting from the National Archaeological Museum of Florence.' Step 2: Evidence Slice 3 says the video features a lecture titled the same, and notes that a slide displays the title of the lecture, confirming it appears behind the speaker. Logic holds because both slices identify the same lecture title in both locations.",
+    "visual_proof": "The full title 'An Enigmatic Eros in Flight: A Masterpiece of Greek Vase Painting from the National Archaeological Museum of Florence' is clearly visible on the opening title card in Clip 1. In Clip 3, while the projected slide behind the speaker shows a shortened version ('An Enigmatic Eros in Flight... from Florence to New York!'), the original, complete title is still present on the main screen layout to the left, confirming it appears in both contexts as stated in the question."
+  },
+  {
+    "question": "Which city is shown in a sunset panorama earlier and then later appears in an archival flood photograph where the cathedral’s striped tower is visible?",
+    "answer": "Florence.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      17,
+      58
+    ],
+    "reasoning_chain": "Step 1: Slice 17 shows a panoramic sunset view of Florence with recognizable landmarks. Step 2: Slice 58 shows an archival flood image that includes the Florence Cathedral’s striped tower and notes Florence as the location. Conclusion: The shared city is Florence.",
+    "logic_check_reasoning": "Step 1: Slice 17 explicitly identifies the left-side panorama as Florence, noting landmarks like the Duomo di Firenze and Palazzo Vecchio at sunset. Step 2: Slice 58 states the archival flood photo shows the iconic striped tower of the Florence Cathedral, confirming the location as Florence. Logic holds because both slices independently and explicitly name the city as Florence in the described scenes.",
+    "visual_proof": "Clip 1 shows a panoramic sunset view of a city dominated by the iconic red-tiled dome of the Florence Cathedral (Duomo) and the tower of Palazzo Vecchio. Clip 2 shows an archival photo of a flooded square with the distinctively striped bell tower of Giotto's Campanile, part of the same cathedral complex, visible on the right. The combination of these unique architectural landmarks in both clips confirms the city is Florence."
+  },
+  {
+    "question": "Which museum is shown as a fresco-associated venue earlier and then later appears as the location of an Etruscan museum slide (dated 1870–1875) with shelves of pottery and sarcophagi?",
+    "answer": "Cenacolo del Fuligno.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      13,
+      20
+    ],
+    "reasoning_chain": "Step 1: Slice 13 labels a fresco as “Cenacolo di Fuligno: Last Supper.” Step 2: Slice 20 labels the “Etruscan Museum located in the Cenacolo del Fuligno (1870–1875).” Conclusion: Both reference Cenacolo del Fuligno.",
+    "logic_check_reasoning": "Step 1: Slice 13 explicitly identifies the fresco as 'Cenacolo di Fuligno: Last Supper' by Perugino, establishing the venue associated with the fresco. Step 2: Slice 20 states that the slide shows an image of the Etruscan Museum located in the 'Cenacolo del Fuligno' (1870–1875), with shelves of pottery and sarcophagi. Logic holds because both slices reference the same venue (Cenacolo di/del Fuligno), and the slight naming variation is acceptable per instructions. Therefore, the venue/museum in question is Cenacolo del Fuligno.",
+    "visual_proof": "Clip 1 displays a fresco titled 'Cenacolo di Fuligno: Last Supper by Perugino (1493-1496)'. Clip 2 shows a historical photo of a museum interior with the caption 'The Etruscan Museum in the Cenacolo del Fuligno (1870-1875)'. Both slides explicitly name 'Cenacolo del Fuligno' as the venue, confirming it is the location associated with both the fresco and the later Etruscan museum display."
+  },
+  {
+    "question": "Which artifact is shown once as a labeled, fully photographed vase with its makers and date and later appears as a central vase displayed inside a museum gallery case?",
+    "answer": "The François Vase (potted by Ergotimos and painted by Kleitias, around 565 B.C.).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      32,
+      33
+    ],
+    "reasoning_chain": "Step 1: Slice 32 explicitly identifies the François Vase with its makers and date. Step 2: Slice 33 shows a museum gallery with a large ornate vase in a central case consistent with the featured object in the talk. Conclusion: The artifact being highlighted across these segments is the François Vase.",
+    "logic_check_reasoning": "Step 1: Slice 32 explicitly shows the François Vase with a label naming its makers (Ergotimos and Kleitias) and date (around 565 B.C.). Step 2: Slice 33 shows, in the same split-screen lecture format, a museum gallery with a central display case containing a large, ornate ancient vase. Logic holds because the video context remains consistent (split-screen with the same speaker), no other artifact is identified, and the described central museum display of a large, decorated vase aligns with the François Vase previously identified.",
+    "visual_proof": "Clip 1 shows a close-up of the vase with an on-screen label explicitly identifying it as 'The François Vase: potted by Ergotimos and painted by Kleitias (Athens, around 565 B.C.)'. Clip 2 shows the same distinctively large, two-handled vase with black-figure decoration displayed inside a central glass case within a museum gallery. The visual continuity between the labeled artifact in Clip 1 and the exhibited artifact in Clip 2 confirms they are the same object."
+  },
+  {
+    "question": "Which institution is implied by the podium letters seen during the live talk and is explicitly credited on the final copyright screen?",
+    "answer": "The Metropolitan Museum of Art (The Met).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      2,
+      83
+    ],
+    "reasoning_chain": "Step 1: Slice 2 shows a podium with the letters “THE,” suggesting “THE MET.” Step 2: Slice 83 explicitly shows “THE MET” and credits The Metropolitan Museum of Art. Conclusion: The institution is The Met.",
+    "logic_check_reasoning": "Step 1: Slice 2 states the podium bears the letters 'THE,' which implies branding likely associated with an institution whose name begins with 'THE.' Step 2: Slice 83 explicitly shows 'THE MET' and the copyright line '© 2019 The Metropolitan Museum of Art.' Logic holds because the podium's 'THE' aligns with the explicit 'THE MET' branding and full institutional name on the copyright screen.",
+    "visual_proof": "In Video 1, the podium clearly displays the letters 'THE' in a distinctive font. In Video 2, the final screen shows the full logo 'THE MET' and explicitly credits '© 2019 The Metropolitan Museum of Art', confirming the institution."
+  },
+  {
+    "question": "How does the speaker’s on-screen attire shift from the early podium view to later parts of the lecture, and what clothing detail helps identify the earlier segment?",
+    "answer": "He appears in a dark suit with a patterned tie and a red lanyard early on, then later appears in a light-colored suit during slide presentations.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      2,
+      3,
+      69
+    ],
+    "reasoning_chain": "Step 1: Slice 2 shows the speaker in a dark suit, patterned tie, glasses, and a red lanyard. Step 2: Slice 3 shows him in a light-colored suit while presenting slides. Step 3: Slice 69 again shows him at the podium in a light-colored suit. Conclusion: The attire shifts from dark suit + red lanyard to a light-colored suit later.",
+    "logic_check_reasoning": "Step 1: Slice 2 describes the early podium view, explicitly noting the speaker in a dark suit with a patterned tie and a red lanyard. Step 2: Slice 3 shows the speaker later in the lecture wearing a light-colored suit during a slide presentation. Step 3: Slice 69 also presents the speaker in a light-colored suit alongside a visual of the artifact, consistent with the later presentation context. Logic holds because the attire shifts from dark suit with a red lanyard early to a light-colored suit later, and the red lanyard is a clear clothing detail identifying the earlier segment.",
+    "visual_proof": "In Clip 1, the speaker is clearly visible at the podium wearing a dark suit, a patterned tie, and a red lanyard. In Clips 2 and 3, which show him presenting alongside slides, he is wearing a light grey suit and a solid dark tie, with no lanyard visible. This visual evidence confirms the attire shift described in the original answer."
+  }
+]

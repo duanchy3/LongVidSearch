@@ -1,0 +1,28 @@
+[
+    {
+        "question": "A historical statue on horseback is shown early with an identifying sign, and later the video returns to a similar horseback statue at night with visitors photographing it. What is the name of the figure associated with the horseback statue across these moments?",
+        "answer": "Date Masamune.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the horseback statue next to a sign reading “Date Masamune 1567–1636.” Step 2: Slice 87 shows a nighttime park scene with a horseback statue and on-screen text about Masamune’s one eye. Conclusion: The horseback statue is associated with Date Masamune.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly shows a samurai on horseback with a sign reading 'Date Masamune 1567-1636,' identifying the statue. Step 2: Slice 87 later shows a horseback statue at night with on-screen text referencing 'Masamune,' aligning with the earlier identification. Logic holds because both moments reference a horseback statue tied to Masamune, with the first giving the full name 'Date Masamune' and the second reinforcing it.",
+        "visual_proof": "In the first clip, text on screen explicitly identifies the statue as 'Date Masamune' with his lifespan (1567-1636) and his Japanese name '伊達政宗'. The second clip shows the same statue at night, confirming it is the same subject. The subtitles in the second clip also refer to 'Masamune', directly linking the name to the statue being photographed."
+    },
+    {
+        "question": "A gift from Masamune to a shogun is shown as a specific food item, and elsewhere a quote connects cooking ability with character. What is the gift, and what virtue is implied by the quote about cooking?",
+        "answer": "Salted sea cucumber entrails; the quote implies that being able to cook reflects having heart (good character).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows the bowl labeled “Salted sea cucumber entrails” and says Masamune sent it as a gift. Step 2: Slice 47 overlays the quote “He who cannot cook is a man of poor heart.” Conclusion: The gift is that dish, and cooking is linked to having heart/virtue.",
+        "logic_check_reasoning": "Step 1: Slice 39 explicitly states \"Masamune sent him a gift of salted sea cucumber entrails,\" and shows a bowl of that item, supporting the gift identification. Step 2: Slice 47 includes the quote \"He who cannot cook is a man of poor heart,\" which connects cooking ability with the virtue of having heart (good character). Logic holds because the first slice identifies the specific food gift, and the second slice’s quote directly links cooking ability to heart/character.",
+        "visual_proof": "Clip 1 visually shows a bowl of 'Salted sea cucumber entrails' with subtitles stating 'Masamune sent him a gift of salted sea cucumber entrails'. Clip 2 shows a statue of a samurai with the quote 'He who cannot cook is a man of poor heart,' directly linking cooking ability to having 'heart' or good character."
+    }
+]

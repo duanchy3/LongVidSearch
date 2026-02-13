@@ -1,0 +1,55 @@
+[
+    {
+        "question": "Where do we see the masked man speaking indoors with city lights behind him, and later see him taking a selfie in front of a large night crowd outside?",
+        "answer": "Indoors by large windows at a restaurant/bar, then outside on a crowded night street.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the masked man speaking inside with large windows and neon-lit city outside. Step 2: Slice 11 shows him taking a selfie in front of a large crowd on a street at night. Conclusion: He transitions from an indoor windowed venue to an outdoor crowded nightlife street.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a masked man speaking indoors in a restaurant/bar setting with large windows showing a cityscape and neon lights at night. Step 2: Slice 11 describes a man wearing a black mask and jacket taking a selfie in front of a large crowd on a street at night. Logic holds because both slices consistently depict the same type of masked man in the two scenarios: indoors by large windows at a restaurant/bar, and later outside on a crowded night street.",
+        "visual_proof": "In Clip 1, the man is seen indoors, wearing a mask and speaking, with bright city lights and billboards visible through large windows behind him. In Clip 2, an aerial shot shows a large crowd of people on a street at night, which is the scene he is implied to be taking a selfie in front of, as indicated by the transition from his indoor setting to the outdoor view."
+    },
+    {
+        "question": "Which tower is seen in daylight at the end of a transit-heavy sequence and is also shown later as an illuminated skyline focal point at dusk?",
+        "answer": "Tokyo Tower.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            56,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 56 ends with the camera panning up Tokyo Tower in daylight. Step 2: Slice 33 shows Tokyo Tower illuminated in red at dusk within the skyline. Conclusion: Both scenes feature Tokyo Tower.",
+        "logic_check_reasoning": "Step 1: Slice 56 states that the final sequence showcases the iconic Tokyo Tower in daylight after scenes of public transit, confirming it appears at the end of a transit-heavy sequence. Step 2: Slice 33 describes an aerial view at dusk with Tokyo Tower illuminated and prominently centered in the skyline, confirming it as the focal point later. Logic holds because both slices explicitly identify Tokyo Tower in the described contexts.",
+        "visual_proof": "Clip 1 shows a red and white lattice tower, identifiable as Tokyo Tower, in bright daylight after scenes of a person on the street and inside a crowded train. Clip 2 shows the same iconic tower, now illuminated in orange against the darkening sky, serving as the focal point of the city's dusk skyline."
+    },
+    {
+        "question": "Track the masked man across locations: where is he first seen inside a moving vehicle at night, then speaking in a windowed indoor venue, and later standing on a rooftop with the Skytree behind him?",
+        "answer": "Inside public transit at night, then in a restaurant/bar with city lights through windows, then on a rooftop/elevated platform near the Tokyo Skytree.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            9,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the masked man seated in a moving vehicle at night. Step 2: Slice 9 shows him indoors in a restaurant/bar with night city lights through large windows. Step 3: Slice 22 shows him on a rooftop/elevated platform speaking with the Tokyo Skytree in the background. Conclusion: These are the three sequential settings.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 explicitly shows a man in a black face mask and dark jacket over a white shirt inside a moving vehicle at night, with city lights visible through windows. Step 2: Evidence Slice 9 shows the same-looking man (black face mask, dark jacket over white shirt) speaking and gesturing in a windowed indoor venue identified as a restaurant/bar, with city lights and neon visible outside. Step 3: Evidence Slice 22 shows a man in a dark jacket over a light-colored shirt standing on a rooftop/elevated platform with the Tokyo Skytree illuminated behind him; while the mask is not mentioned here, the consistent attire and role support the continuity. Therefore, the proposed answer correctly lists the sequence of locations: public transit at night, then a restaurant/bar with windows, then a rooftop near the Skytree.",
+        "visual_proof": "Clip 1 and 2 show the man inside a moving vehicle (likely public transit) at night, with reflections of city lights and billboards on the window. Clip 3 shows him outdoors on an elevated platform or rooftop at night, with the illuminated Tokyo Skytree clearly visible in the background."
+    },
+    {
+        "question": "What type of venue is visited twice for sushi—first a specific named sushi restaurant with chefs behind a counter, and later a conveyor-belt chain with branded plates?",
+        "answer": "Sushi restaurants—first 'Sushi Tokyo Ten,' then Kura Revolving Sushi Bar.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows the entrance of 'Sushi Tokyo Ten' and chefs preparing sushi behind a counter. Step 2: Slice 83 shows 'KURA REVOLVING SUSHI BAR' with a conveyor belt and branded plates. Conclusion: The two sushi venues are Sushi Tokyo Ten and Kura Revolving Sushi Bar.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows a visit to a specific sushi restaurant named 'Sushi Tokyo Ten,' with chefs preparing sushi behind a counter. Step 2: Slice 83 shows a visit to 'KURA REVOLVING SUSHI BAR,' a conveyor-belt sushi chain with branded plates (KURA logo) and tablet ordering. Logic holds because both slices depict sushi restaurant venues visited at different times, matching the described characteristics.",
+        "visual_proof": "Clip 1 clearly shows the exterior and interior of 'SUSHI TOKYO TEN,' featuring chefs in white uniforms preparing sushi behind a counter for seated customers. Clip 2 shows the interior of 'KURA REVOLVING SUSHI BAR,' identifiable by its logo and the signature conveyor belt with plates of sushi moving past diners, who select items as they pass."
+    }
+]

@@ -1,0 +1,86 @@
+[
+  {
+    "question": "After the map shows Alexander’s route advancing toward Syria near the Nur Mountains, what named battle title card appears next in the timeline?",
+    "answer": "The Battle of Issus.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      29,
+      28
+    ],
+    "reasoning_chain": "Step 1: Slice 29 shows the advance toward Syria and the Nur Mountains with opposing force pins. Step 2: Slice 28 presents the title card “THE BATTLE OF ISSUS.” Conclusion: The next named battle title card is The Battle of Issus.",
+    "logic_check_reasoning": "Step 1: Slice 29 shows the animated map focusing on Alexander’s advance toward Syria, zooming into Cilicia near the Nur Mountains and indicating an impending confrontation. Step 2: Slice 28 depicts the next frames as an introduction/title card explicitly labeled 'THE BATTLE OF ISSUS.' Logic holds because the map setup of the imminent battle near the Nur Mountains is followed by the titled battle card, confirming the next named battle shown is The Battle of Issus.",
+    "visual_proof": "Clip 1 ends with the map zooming into the Nur Mountains near Syria, marking the location of the Persian Royal Army. Clip 2 immediately follows with a title card that explicitly reads 'THE BATTLE OF ISSUS' alongside an illustration of ancient warriors, confirming this is the next named event in the timeline."
+  },
+  {
+    "question": "The Macedonian campaign begins with a crossing from Macedonia into Asia (334 B.C.); later, which two named battles are introduced as major set pieces along the early part of that campaign?",
+    "answer": "The Granicus and Issus.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      1,
+      13,
+      28
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows the 334 B.C. start of the invasion from Macedonia into Asia. Step 2: Slice 13 introduces the battle name “THE GRANICUS.” Step 3: Slice 28 introduces “THE BATTLE OF ISSUS.” Conclusion: The early named battles are The Granicus and Issus.",
+    "logic_check_reasoning": "Step 1: Slice 1 shows the campaign beginning in 334 B.C. with a red arrow crossing from Macedonia across the Hellespont into Asia, establishing the start of Alexander’s invasion. Step 2: Slice 13 explicitly introduces a major battle with the title 'THE GRANICUS' and focuses on the location 'The Granicus,' confirming it as a key set piece in this early phase. Step 3: Slice 28 explicitly introduces another major battle with the title 'THE BATTLE OF ISSUS,' serving as a second set piece. Logic holds because the campaign start is depicted in Slice 1 and the two named battles are clearly introduced in Slices 13 and 28.",
+    "visual_proof": "Clip 2 (ID: 13) explicitly displays the title card 'THE GRANICUS' at 0:01, followed by a map showing the location of this battle in 334 B.C. Clip 3 (ID: 28) displays the title card 'THE BATTLE OF ISSUS' at 0:00, indicating it as another major battle in the campaign. Both battles are visually presented as key events."
+  },
+  {
+    "question": "Which later event label appears on a Central Asian map after the earlier 'Cleitus Killed' callout is shown?",
+    "answer": "The Pages’ Plot.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      85,
+      86,
+      89
+    ],
+    "reasoning_chain": "Step 1: Slice 85 shows a map with the text box “CLEITUS KILLED.” Step 2: Slice 86 again highlights the same event on a map/timeline context. Step 3: Slice 89 later shows a 327 B.C. map with the label “THE PAGES’ PLOT.” Conclusion: The later event label is The Pages’ Plot.",
+    "logic_check_reasoning": "Step 1: Slice 85 shows a Central Asian map with a callout 'CLEITUS KILLED' at 328 B.C. Step 2: Slice 89 shows a later map (327 B.C.) in the same region with labeled events, including 'THE PAGES' PLOT'. Logic holds because 327 B.C. is later than 328 B.C., and the later event label explicitly appears on the Central Asian map.",
+    "visual_proof": "Clip 1 (0:03) and Clip 2 (0:04) both show the 'CLEITUS KILLED' label on the map dated 328 B.C. Clip 3 (0:01-0:03) then shows a map dated 327 B.C. with the 'THE PAGES’ PLOT' label appearing at Baçtra, clearly indicating it is the subsequent event shown after 'Cleitus Killed'."
+  },
+  {
+    "question": "The narrative moves from a key desert battle title card to a labeled breakdown of many Persian contingents; which named battle is this, and what unusual battlefield unit type is prominently shown among the Persians?",
+    "answer": "It is Gaugamela, and war elephants are prominently shown among the Persian contingents.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      59,
+      60,
+      63,
+      64
+    ],
+    "reasoning_chain": "Step 1: Slice 59 presents the title card “THE BATTLE OF GAUGAMELA.” Step 2: Slice 60 lists many contingents (Babylonians, Syrians, Armenians, Scythians, Bactrians, Indians) and shows war elephants. Step 3: Slice 63 continues the battle depiction with strategic overlays and mixed unit types. Step 4: Slice 64 shows large formations of war chariots, reinforcing the Persian reliance on distinctive arms. Conclusion: The battle is Gaugamela, and war elephants are a prominently shown unusual unit type.",
+    "logic_check_reasoning": "Step 1: Slice 59 explicitly shows a title card reading \"THE BATTLE OF GAUGAMELA,\" establishing the named battle. Step 2: Slice 60 describes labeled Persian contingents (Babylonians, Syrians, Armenians, Scythians, Bactrians, Indians) and notes that a few are riding war elephants, which are prominently featured in the center of the formation. Logic holds because the sequence moves from the title card to a detailed breakdown of Persian units, and the elephants are highlighted among them.",
+    "visual_proof": "Clip 1 opens with a title card explicitly stating 'THE BATTLE OF GAUGAMELA'. Clip 2 visually identifies various Persian contingents (Babylonians, Syrians, etc.) and then clearly shows a large formation of 'WAR ELEPHANTS' labeled on screen, confirming their prominent presence in the Persian army."
+  },
+  {
+    "question": "Which sequence shows the campaign moving from a 331 B.C. Persia-focused map to a named desert battle and then to a labeled lineup of multinational Persian forces?",
+    "answer": "331 B.C. Persia map → The Battle of Gaugamela → the labeled contingents (Babylonians, Syrians, Armenians, Scythians, Bactrians, Indians).",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      58,
+      59,
+      60,
+      62
+    ],
+    "reasoning_chain": "Step 1: Slice 58 shows the Persian Empire map labeled 331 B.C. with army markers. Step 2: Slice 59 introduces “THE BATTLE OF GAUGAMELA.” Step 3: Slice 60 presents the labeled multinational Persian contingents. Step 4: Slice 62 reinforces the transition from battlefield scale to strategic overview of the confrontation. Conclusion: The sequence is 331 B.C. map → Gaugamela title → multinational contingent lineup.",
+    "logic_check_reasoning": "Step 1: Slice 58 explicitly shows a detailed map of the Persian Empire in 331 BC with positions of Alexander's and the Persian armies, satisfying the '331 B.C. Persia-focused map.' Step 2: Slice 59 opens with the title 'THE BATTLE OF GAUGAMELA' and shows a desert battlefield with two armies poised to clash, fulfilling the 'named desert battle.' Step 3: Slice 60 depicts a labeled lineup of units including 'Babylonians,' 'Syrians,' 'Armenians,' 'Scythians,' 'Bactrians,' and 'Indians,' which, alongside separate highlighting of Greek units, supports these as multinational Persian contingents. The sequence map → Gaugamela → labeled contingents is directly supported.",
+    "visual_proof": "Clip 1 opens with a map showing '331 B.C.' and the 'PERSIAN EMPIRE'. Clip 2 begins with a title card explicitly stating 'THE BATTLE OF GAUGAMELA' followed by visuals of the battlefield. Clip 3 then displays a split-screen view where the top half shows the Persian army on the field, and the bottom half features an animated diagram that labels various contingents including 'BABYLONIANS', 'SYRIANS', 'ARMENIANS', 'SCYTHIANS', 'BACTRIANS', and 'INDIANS' as they are shown in the live-action footage above."
+  },
+  {
+    "question": "Which long spear is named on-screen when the Macedonian army is being discussed, and which unit later is specifically shown marching with long spears in dense formation?",
+    "answer": "The spear is the Sarissa, and the unit shown marching with long spears is the Phalanx.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      10,
+      12
+    ],
+    "reasoning_chain": "Step 1: Slice 10 shows the word “Sarissa,” naming the Macedonian long spear. Step 2: Slice 12 labels the unit “Phalanx” and shows them in dense formation with long spears. Conclusion: Sarissa corresponds to the spear, and the Phalanx is the spear-armed unit shown later.",
+    "logic_check_reasoning": "Step 1: Slice 10 states that the word 'Sarissa' appears on screen, referring to the long spear used by Macedonian phalanx soldiers, within the context of Macedon and the Hellenic League. Step 2: Slice 12 describes the 'Phalanx' unit as marching in tight rows with long spears in a dense formation. Logic holds because the first part identifies the specific long spear (Sarissa) in the Macedonian context, and the second part identifies the unit (Phalanx) shown later using long spears in dense formation.",
+    "visual_proof": "In Video 1 (0:02-0:05), the text 'ΣΑΡΙΣΑ SARISSA' appears on screen over an image of soldiers holding very long spears. In Video 2 (0:01-0:08), a large unit of soldiers is shown marching in dense formation with identical long spears, and the on-screen graphic identifies this unit as '9,000 PHALANGITES'."
+  }
+]

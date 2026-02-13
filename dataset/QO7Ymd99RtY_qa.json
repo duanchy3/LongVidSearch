@@ -1,0 +1,82 @@
+[
+    {
+        "question": "A statement about shipping within Europe appears early, and later a scene shows travel via a passport from a specific country. What is the highlighted region in the shipping message, and which country’s passport is shown later?",
+        "answer": "The region highlighted is Europe, and the passport is from St. Kitts and Nevis.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the text 'Shipping from within' with 'Europe' highlighted. Step 2: Slice 9 shows a passport labeled St. Kitts and Nevis. Conclusion: The region is Europe and the later passport country is St. Kitts and Nevis.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the video begins with text 'Shipping from within' and specifically highlights 'Europe' in yellow, identifying the highlighted region as Europe. Step 2: Slice 9 shows a passport with the text 'ST KITTS AND NEVIS CITIZENSHIP PROGRAM' on the cover, explicitly indicating it is from St. Kitts and Nevis. The two slices logically correspond to the question’s two parts.",
+        "visual_proof": "In Video 1, the text 'Shipping from within Europe' appears with 'within Europe' highlighted in yellow. In Video 2, a blue passport is shown with the text 'ST. CHRISTOPHER (ST. KITTS) AND NEVIS' clearly visible on its cover."
+    },
+    {
+        "question": "A man is seen unlocking a numbered door with a key card, and later he opens curtains to reveal a balcony view. What is the room/door number, and what feature is revealed when he pulls back the curtains?",
+        "answer": "The number is 474, and he reveals a balcony with an ocean view.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            50,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 50 shows a man using a key card at door number 474. Step 2: Slice 52 shows him pulling back curtains to reveal a sliding door to a balcony overlooking the ocean. Conclusion: Door 474 leads to a room with a balcony ocean view.",
+        "logic_check_reasoning": "Step 1: Slice 50 states the man uses a key card to unlock a door with the number '474' visible next to it. Step 2: Slice 52 describes the same-looking individual (blue shirt, backpack) pulling back curtains to reveal a sliding glass door leading to a balcony that overlooks calm ocean waters, i.e., an ocean view. Logic holds because the visual attributes and actions align, and the instructions allow for minor naming/color discrepancies. Both details explicitly support the proposed answer.",
+        "visual_proof": "In Clip 1, the man uses a key card to unlock a door clearly labeled '474'. In Clip 2, he pulls back sheer curtains to reveal a balcony with a white railing, overlooking red-roofed buildings, lush greenery, and a clear blue sky above a visible expanse of ocean."
+    },
+    {
+        "question": "A historical date appears over a ship-at-sea scene, and later a sign highlights a specific birthplace tied to a historical figure. What is the date shown, and whose birthplace is mentioned later?",
+        "answer": "The date is 1493, and it later mentions the birthplace of Alexander Hamilton.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a maritime exploration scene with the date “1493.” Step 2: Slice 33 shows a sign reading “Nevis Island Assembly (Birthplace of Alexander Hamilton).” Conclusion: The date is 1493 and the birthplace reference is Alexander Hamilton.",
+        "logic_check_reasoning": "Step 1: Slice 24 describes a maritime exploration scene with a ship on turbulent waters and explicitly states the date '1493' appears prominently. Step 2: Slice 33 mentions a sign reading 'Nevis Island Assembly (Birthplace of Alexander Hamilton),' clearly identifying the historical figure and birthplace. Logic holds because the date from the ship scene (Slice 24) and the later sign about a birthplace (Slice 33) directly correspond to the question.",
+        "visual_proof": "In Video 1, the number '1493' is clearly displayed as text over the image of a sailing ship. In Video 2, a white sign mounted on a stone wall explicitly reads 'NEVIS ISLAND ASSEMBLY (Birthplace of Alexander Hamilton)'."
+    },
+    {
+        "question": "A person requests help while walking near the ocean, and later a woman in a car says she will get someone. What is the exact request shown in subtitles, and what promise is made later in response to needing help?",
+        "answer": "The request is “Can you just help us?” and the later promise is “Let me get someone… and I’ll be right back.”",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows subtitles reading “Can you just help us?” near a shoreline. Step 2: Slice 39 shows text overlays “Let me get someone” and “and I’ll be right back.” Conclusion: The help request is followed by a promise to get someone and return.",
+        "logic_check_reasoning": "Step 1: Slice 38 explicitly states that as the man approaches the shoreline, subtitles read, 'Can you just help us?'. Step 2: Slice 39 reports text overlays saying, 'Let me get someone' and 'and I'll be right back' during the interaction with the woman in the car. Logic holds because the question asks for the exact request and the subsequent promise; both phrases are directly quoted from the slices.",
+        "visual_proof": "In Video 1, at 0:07, the subtitle 'Can you just help us?' appears as a person walks near the ocean. In Video 2, at 0:00-0:02, the subtitle 'Let me get someone and I’ll be right back' is shown while a woman in a car speaks to someone outside."
+    },
+    {
+        "question": "After a flat tire is discovered and worked on, a later scene shows a group using a red jack while changing a tire. What problem starts the roadside teamwork, and what red tool is later used during tire work?",
+        "answer": "The problem is a flat tire with a large tear, and the red tool is a jack.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows two men stopping because the car has a flat tire with a large tear and they try to fix it. Step 2: Slice 44 shows someone changing a tire using a red jack. Conclusion: The flat tire triggers the repair effort, and the red tool used is a jack.",
+        "logic_check_reasoning": "Step 1: Slice 37 describes the discovery of a flat tire and shows a close-up revealing a large tear. The two men work together to fix it, indicating the problem that starts the roadside teamwork is a flat tire with a large tear. Step 2: Slice 44 later shows a group changing a tire using a red jack, explicitly mentioning the red jack and a lug wrench. Logic holds because the first slice establishes the flat tire and teamwork, and the second slice confirms the red jack used during subsequent tire work.",
+        "visual_proof": "Clip 1 (0:04-0:05) clearly shows a close-up of a deflated tire with a visible large gash or tear on its sidewall. Clip 2 (0:00) shows a man actively using a red hydraulic floor jack to lift the car, which is the standard tool for changing a tire."
+    },
+    {
+        "question": "A tire problem escalates from discovery to community assistance to a reflective night drive mentioning an 'angel.' What key events occur in order, from the initial car trouble to the later nighttime reflection?",
+        "answer": "First they discover a badly torn flat tire, then a small community gathers to help change the tire using a jack, and later there is a nighttime drive where the subtitle says 'God sent angel today.'",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            37,
+            43,
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows the car stopped with a flat tire that has a large tear and the group tries to fix it. Step 2: Slice 43 shows a group gathering on a residential street, suggesting community involvement and coordination. Step 3: Slice 44 shows the tire being changed with a red jack while others watch/assist. Step 4: Slice 45 shows a night drive with the subtitle “God sent angel today,” implying reflective gratitude after receiving help. Conclusion: Car trouble leads to community help and then to a grateful nighttime reflection.",
+        "logic_check_reasoning": "Step 1: Slice 37 shows the initial car trouble: two men discover a flat tire and a close-up reveals a large tear, confirming a badly torn tire. They begin working on it with tools. Step 2: Slices 43 and 44 depict a communal assistance scene: multiple people are present; Slice 44 explicitly shows a man changing the tire using a red jack and lug wrench, with others assisting or documenting, matching a small community helping to change the tire. Step 3: Slice 45 shows a later nighttime drive with the subtitle 'God sent angel today,' providing the reflective moment mentioned. The sequence and details align with the proposed answer.",
+        "visual_proof": "Clip 1 shows the men discovering the flat tire with a visible tear. Clip 2 and 3 show multiple local men gathering around the car, with one using a red jack to lift the vehicle for a tire change, indicating community assistance. Clip 4 shows a nighttime drive from inside the car, with the subtitle 'God sent angel today' appearing on screen, confirming the reflective moment."
+    }
+]

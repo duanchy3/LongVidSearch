@@ -1,0 +1,72 @@
+[
+    {
+        "question": "What ingredient is handled in a basket close-up before being added into the large pan of meat and vegetables later?",
+        "answer": "Tomatoes.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            59,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 59 shows hands selecting red tomatoes from a basket of vegetables. Step 2: Slice 60 shows tomatoes being added into a large pan with meat and vegetables. Conclusion: The ingredient is tomatoes.",
+        "logic_check_reasoning": "Step 1: Slice 59 describes a close-up of hands selecting red tomatoes from a basket of vegetables. Step 2: Slice 60 shows a man adding tomatoes to a large pan with meat and vegetables. Logic holds because both slices explicitly reference tomatoes, first being handled in a basket and later being added to the pan.",
+        "visual_proof": "In Video 1, a close-up shot clearly shows hands handling bright red tomatoes in a wicker basket. In Video 2, the same type of tomatoes are then poured from a wooden bowl into the large pan containing meat and vegetables, confirming they are the ingredient handled in the basket before being added to the pan."
+    },
+    {
+        "question": "Which consistent clothing detail helps identify the same main cook across the tea-making scenes and later the meal-eating scenes?",
+        "answer": "A green jacket (often paired with green pants).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows the tea-maker wearing a green jacket and pants while using a samovar. Step 2: Slice 96 shows the man eating at an outdoor table wearing a green jacket over a purple shirt. Conclusion: The green jacket is the consistent identifier.",
+        "logic_check_reasoning": "Step 1: Slice 27 describes the tea-making scene with a man wearing a green jacket and pants. Step 2: Slice 96 describes the meal-eating scene with a man wearing a green jacket over a purple shirt. Logic holds because the green jacket is present in both scenes, serving as the consistent clothing detail linking the same main cook. The mention of green pants appears only in Slice 27, but the green jacket is the consistent identifier.",
+        "visual_proof": "In both clips, the main person is wearing the same olive-green fleece jacket. In Clip 1, he is also seen wearing matching green pants while preparing tea. In Clip 2, he is seated at the table eating, still wearing the identical green jacket over a purple shirt. The consistent outerwear across both distinct activities confirms it is the same individual."
+    },
+    {
+        "question": "What item is added to the rice-and-tomato pan late in cooking, and what later herb is sprinkled over the final plated rice-and-meat dish?",
+        "answer": "A white sauce is poured over the dish; chopped parsley is sprinkled over the plated dish later.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            65,
+            70,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows a paella-like pan with rice, tomatoes, and meat being stirred over flame. Step 2: Slice 65 shows a white sauce being poured over the dish while cooking. Step 3: Slice 70 shows chopped basil being sprinkled over a plated rice-and-meat dish. Conclusion: White sauce is added during cooking; basil is used as a finishing herb.",
+        "logic_check_reasoning": "Step 1: Slice 64 explicitly describes a rice-and-tomato paella-style pan with meat cooking outdoors. Step 2: Slice 65 states that a white sauce is poured over the dish late in the cooking process; while it does not say 'paella pan,' it matches the same outdoor cooked dish with meat and tomatoes, consistent with Slice 64. Step 3: Slice 70 explicitly shows the final plated dish with yellow rice and meat, and clearly states that chopped basil is sprinkled over it. Step 4: Therefore, the item added late in cooking is the white sauce (Slice 65), and the herb sprinkled later on the plated dish is chopped basil (Slice 70). The slices logically refer to the same dish and sequence.",
+        "original_text_answer": "A white sauce is poured over the dish; chopped basil is sprinkled over the plated dish later.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 (0:02-0:03), a white, creamy sauce is visibly poured from a wooden bowl onto the rice and meat in the pan. In Clip 2 (0:04-0:05), the man is seen sprinkling finely chopped green herbs over the finished dish; these herbs are visually identifiable as parsley due to their leaf shape, not basil. The herb being chopped on the table in Clip 2 (0:00-0:03) also appears to be parsley."
+    },
+    {
+        "question": "What gets seasoned first with salt during cooking, and later what gets seasoned with salt in a large pan during the vegetable-and-meat cook?",
+        "answer": "Fish in a pot; yellow vegetables in a pan.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            56,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows salt being sprinkled into a pot containing raw fish. Step 2: Slice 56 shows salt being sprinkled onto a pan of yellow vegetables. Step 3: Slice 57 shows the pan containing potatoes and meat being stirred, continuing that pan-cooking stage. Conclusion: Salt is used first on fish and later on vegetables in the pan.",
+        "logic_check_reasoning": "Step 1: Slice 17 states the person sprinkles salt into a large metal pot with water and raw fish, indicating the fish in the pot is seasoned first with salt. Step 2: Slice 56 shows a man sprinkling salt onto a large pan filled with yellow vegetables during an outdoor cook where meat is later added, so the yellow vegetables in the pan are seasoned with salt during the vegetable-and-meat cook. Logic holds because both actions are explicitly described and match the query's sequence.",
+        "visual_proof": "In Clip 1, salt is visibly sprinkled over fish pieces in a large metal pot. In Clip 2, the same person sprinkles salt from a dark bowl onto yellow vegetables (sliced onions and mushrooms) cooking in a large black pan over an open fire."
+    },
+    {
+        "question": "How do the dogs’ roles change from being near the cooking prep area earlier to later resting and playing together in the meadow?",
+        "answer": "Earlier a dog wanders around the cooking area; later two dogs rest together with one playfully rolling on its back.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            48,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a dog wandering around near the cooking setup. Step 2: Slice 48 shows a black dog lying calmly on the grass in the same rustic environment. Step 3: Slice 83 shows two dogs lying in the meadow, with the white-and-black dog rolling playfully. Conclusion: The dogs shift from wandering near cooking to later resting and playful meadow behavior.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes a rustic outdoor cooking scene with a dog wandering around the area, indicating the dog's presence near the cooking setup. Step 2: Slice 83 shows a meadow scene with two dogs resting, and one playfully rolling on its back, clearly depicting resting and play. Step 3: The transition from a single dog near the cooking area (Slice 22) to two dogs resting and playing in the meadow (Slice 83) aligns with the proposed answer. Slice 48 further supports the rural setting and a dog relaxing near food prep, but the key elements are fully covered by Slices 22 and 83.",
+        "visual_proof": "In Clip 1, a white dog is seen wandering in the background near the cooking setup. In Clip 2, a black dog is lying down resting near the fire pit. In Clip 3, both the black and white dogs are shown resting together on the grass, with the white dog playfully rolling onto its back."
+    }
+]

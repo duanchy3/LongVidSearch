@@ -1,0 +1,55 @@
+[
+    {
+        "question": "The video shows a tiny handgun alongside a coin for scale and later shows the same handgun lying near a soldier in a damaged interior. What is this handgun called in the noir sequence?",
+        "answer": "The Hummingbird.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a hand holding a small handgun explicitly labeled 'Hummingbird.' Step 2: Slice 24 shows a very small black handgun (also shown earlier with a coin for scale) now lying in a battle-damaged interior near a soldier. Conclusion: The tiny handgun is the Hummingbird.",
+        "logic_check_reasoning": "Step 1: Slice 24 describes a tiny black handgun shown with a coin for scale, and later the same handgun lying near a soldier in a damaged interior. Step 2: Slice 21, set in a noir-inspired sequence, explicitly shows a hand holding a small black handgun labeled \"Hummingbird\" with the word written above it. Step 3: The noir slice provides the name of the handgun, which matches the small black handgun depicted elsewhere. Logic holds because both slices refer to the same visually consistent handgun, and Slice 21 names it.",
+        "visual_proof": "In the first clip, during the noir sequence, a close-up of the tiny handgun held in a hand is shown with the text 'Hummingbird' displayed directly above it. The second clip shows the same handgun model next to a coin for scale and later lying on a surface near a soldier, confirming it is the same firearm referenced in the question."
+    },
+    {
+        "question": "Which firearm is first described with a Cold War underwater label and later appears in an underwater scene near a submarine with a diver holding it?",
+        "answer": "The APS underwater assault rifle.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 45 labels the weapon as 'Cold War Tech: APS Underwater Assault Rifle.' Step 2: Slice 46 shows underwater divers and then a diver near a large submarine holding a rifle. Conclusion: The weapon is the APS underwater assault rifle.",
+        "logic_check_reasoning": "Step 1: Slice 45 explicitly shows and labels the firearm as 'Cold War Tech: APS Underwater Assault Rifle.' Step 2: Slice 46 later shows an underwater scene where a diver in full scuba gear is holding a rifle near a large submarine. Logic holds because the video is focused on the APS underwater assault rifle, and the later underwater-submarine scene depicts a diver holding the rifle, indicating it is the same firearm introduced earlier.",
+        "visual_proof": "In Clip 1, the firearm is explicitly labeled 'COLD WAR TECH: APS UNDERWATER ASSAULT RIFLE' while shown next to a diver near a submarine. In Clip 2, the same distinct firearm (with its curved magazine and overall shape) is shown again being held by a diver in an underwater scene near a submarine, confirming it is the APS."
+    },
+    {
+        "question": "Which rifle is first introduced as a 'secret weapon' with an on-screen label and later is associated with a diagram showing a 160-round drum magazine and a 20-round stick magazine?",
+        "answer": "The Hellriegel 1915.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            81,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 81 labels the weapon 'Hellriegel 1915 (SECRET WEAPON).' Step 2: Slice 82 shows diagrams including the 9x23mm Steyr bullet and large drum/stick magazines associated with that weapon. Conclusion: The weapon is the Hellriegel 1915.",
+        "logic_check_reasoning": "Step 1: Slice 81 explicitly shows the on-screen label \"Hellriegel 1915 (SECRET WEAPON)\" alongside a man aiming a large gun, establishing the rifle introduced as a secret weapon. Step 2: Slice 82 describes the same video later showing a rifle with a diagram of its ammunition, including a 160-round drum magazine and a 20-round stick magazine. Logic holds because the continuity of the video ties the initially labeled 'secret weapon' (Hellriegel 1915) to the subsequent ammo diagram, and no conflicting rifle is introduced.",
+        "visual_proof": "Clip 1 visually introduces the rifle with an on-screen label explicitly reading 'Hellriegel 1915 (SECRET WEAPON)'. Clip 2 displays diagrams of the same rifle's ammunition, showing a '160 round drum' and a '20 round stick', directly associating these magazines with the weapon introduced in Clip 1."
+    },
+    {
+        "question": "Underwater weapon content escalates from an underwater assault rifle to an underwater pistol. Which two labeled Cold War weapons appear, and in what order?",
+        "answer": "First the APS underwater assault rifle, then the SPP-1 underwater pistol.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            46,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 45 labels the APS Underwater Assault Rifle. Step 2: Slice 46 continues underwater divers/submarine context consistent with underwater rifle use. Step 3: Slice 49 explicitly labels 'SPP-1 Underwater Pistol Cold War Tech.' Conclusion: The order is APS rifle first, then SPP-1 pistol.",
+        "logic_check_reasoning": "Step 1: Slice 45 explicitly shows a labeled weapon: 'Cold War Tech: APS Underwater Assault Rifle' at the beginning of the video. Step 2: Slice 49 later shows a labeled weapon: 'SPP-1 Underwater Pistol Cold War Tech.' Step 3: The question's sequence (from assault rifle to pistol) matches the order indicated by the slices: APS first (Slice 45), then SPP-1 (Slice 49). Slice 46 supports the underwater weapons theme but is not needed for labels. Therefore, the answer is fully supported.",
+        "visual_proof": "Clip 1 opens with a title card explicitly labeling the weapon as \"COLD WAR TECH: APS UNDERWATER ASSAULT RIFLE\". Later in Clip 3, a different title card appears, labeling another weapon as \"SPP-1 UNDERWATER PISTOL COLD WAR TECH\". This sequence visually confirms the escalation from the assault rifle to the pistol."
+    }
+]

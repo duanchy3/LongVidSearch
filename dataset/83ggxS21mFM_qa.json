@@ -1,0 +1,41 @@
+[
+    {
+        "question": "Which artist is tied to both an early still-life painting of a dead rabbit and later gallery visitors viewing a large white flower painting?",
+        "answer": "Georgia O'Keeffe.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a painting titled \"Dead Rabbit With a Copper Pot\" attributed to Georgia O'Keeffe. Step 2: Slice 26 shows museum visitors viewing \"Jimson Weed/White Flower\" by Georgia O'Keeffe. Conclusion: The same artist connected to both works is Georgia O'Keeffe.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly states a painting titled 'Dead Rabbit With a Copper Pot' is by Georgia O'Keeffe (1907), establishing the early still-life of a dead rabbit by her. Step 2: Slice 26 explicitly states visitors are viewing 'Jimson Weed/White Flower' by Georgia O'Keeffe (1932), the large white flower painting. Logic holds because both slices name Georgia O'Keeffe as the artist for the respective works, tying her to both contexts.",
+        "visual_proof": "Clip 1 displays the painting 'Dead Rabbit With a Copper Pot' with an on-screen caption identifying the artist as 'Georgia O'Keeffe, 1907'. Clip 2 shows the painting 'Jimson Weed/White Flower' with a caption identifying the artist as 'Georgia O'Keeffe, 1932', while gallery visitors observe it. Both captions explicitly attribute the artworks to Georgia O'Keeffe."
+    },
+    {
+        "question": "Which person is shown as a credited photographer on an iconic shipboard image and also appears in a later labeled desk portrait?",
+        "answer": "Alfred Stieglitz.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 20 introduces \"The Steerage\" by Alfred Stieglitz. Step 2: Slice 43 shows a labeled image \"Stieglitz at his Desk\" (Ansel Adams, 1938), identifying the same person. Conclusion: The person is Alfred Stieglitz.",
+        "logic_check_reasoning": "Step 1: Slice 20 states the iconic shipboard photograph 'The Steerage' is by Alfred Stieglitz, making him the credited photographer. Step 2: Slice 43 shows a later labeled desk portrait titled 'Stieglitz at his Desk' by Ansel Adams, indicating the person depicted is Alfred Stieglitz. Logic holds because the same person (Stieglitz) is both the credited photographer of the shipboard image and the subject of the later desk portrait.",
+        "visual_proof": "Clip 1 displays the photograph 'The Steerage' with the on-screen credit 'Alfred Stieglitz, 1907'. Clip 2 shows a black-and-white portrait of an elderly man at a desk, with the on-screen credit 'Stieglitz at his Desk, Ansel Adams, 1938', explicitly identifying the subject as Stieglitz. The name 'Stieglitz' is visually present in the text for both images."
+    },
+    {
+        "question": "Across the film, a branded educational platform appears first as a logo on a deep blue background and later as a web-style content grid; what is the platform name?",
+        "answer": "Wondrium (spelled WONDRIUM/WONDRUM in the visuals).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the logo \"WONDRIUM\" on a deep blue background. Step 2: Slice 91 shows a yellow \"W\" and the word \"WONDRUM\" on a web interface with categories. Conclusion: The platform name is Wondrium (with variant spelling shown).",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly states that a logo with the word \"WONDRIUM\" appears on a deep blue background with a large yellow W. Step 2: Slice 91 shows a white screen with a large yellow W and the word \"WONDRUM\" beneath it, followed by a web-style content grid of educational categories. Step 3: The naming discrepancy (WONDRIUM vs. WONDRUM) can be treated as VLM noise, as the visual attributes (large yellow W logo and educational platform interface) align. Step 4: The question asks for the platform name that appears first as a logo and later as a web content grid; Slice 1 directly names it as Wondrium, and Slice 91's interface corroborates this contextually.",
+        "visual_proof": "In Clip 1, the logo 'WONDRIUM' appears clearly below a stylized 'W' on a deep blue background at 0:05. In Clip 2, the same 'WONDRIUM' logo is displayed at the top of a web interface showing a content grid at 0:03, confirming the platform's name across both visual contexts."
+    }
+]

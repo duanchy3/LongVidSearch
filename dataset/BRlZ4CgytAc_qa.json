@@ -1,0 +1,126 @@
+[
+  {
+    "question": "In the Haiti evacuation story, how is the airport setting established visually before the breaking-news split-screen about U.S. citizens arriving in Florida?",
+    "answer": "First, a private jet taxiing and an airport-terminal shot establish the airport setting before the split-screen breaking-news report about arrivals in Florida.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      9,
+      10
+    ],
+    "reasoning_chain": "Step 1: Slice 9 shows a jet taxiing and an airport terminal environment. Step 2: Slice 10 shows the split-screen breaking-news banner about U.S. citizens fleeing Haiti arriving in Florida with the correspondent in an airport-like hub. Conclusion: The airport visuals in Slice 9 set the scene for the Florida-arrivals report in Slice 10.",
+    "logic_check_reasoning": "Step 1: Slice 9 describes an exterior shot of a private jet taxiing on a tarmac and then an interior shot of an airport terminal with a man in a dark polo shirt, clearly establishing the airport setting. Step 2: Slice 10 presents the breaking-news split-screen about U.S. citizens fleeing Haiti arriving in Florida. Logic holds because Slice 9 provides the visual establishment of the airport before the split-screen in Slice 10.",
+    "visual_proof": "Clip 1 visually establishes the airport setting with a wide shot of a white private jet taxiing on the tarmac, followed by a medium shot of a reporter standing inside a modern airport terminal. Clip 2 then immediately transitions to a split-screen format showing the same reporter in the terminal alongside a news anchor, with a chyron explicitly stating 'U.S. CITIZENS FLEEING HAITI ARRIVE IN FLORIDA'. This sequence confirms the airport visuals precede the breaking news report."
+  },
+  {
+    "question": "Which visual identifiers show that the same impeachment inquiry theme continues from a named witness at the table to a broader hearing-room wide shot?",
+    "answer": "The repeated impeachment-inquiry lower-third and the hearing-room setting with witnesses/panel show continuity from the named witness shot to the wide room shot.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      18,
+      20
+    ],
+    "reasoning_chain": "Step 1: Slice 18 shows a named witness at a microphone with the impeachment inquiry lower-third. Step 2: Slice 20 shows wide shots of the same type of congressional hearing room with the same impeachment inquiry topic banner. Conclusion: The consistent lower-third and hearing environment indicate continuation of the same inquiry coverage.",
+    "logic_check_reasoning": "Step 1: Slice 18 describes a named witness at a table with a nameplate and explicitly notes a lower-third banner reading 'IMPEACHMENT INQUIRY FIREWORKS HUNTER BIDEN'S FORMER ASSOCIATES TESTIFY,' confirming the impeachment inquiry theme. Step 2: Slice 20 describes a wider hearing-room shot and states that the lower third displays the same topic ('IMPEACHMENT INQUIRY FIREWORKS' and 'HUNTER BIDEN'S FORMER ASSOCIATES TESTIFY'), and shows the formal panel/witness setting. Logic holds because both slices explicitly mention the same lower-third text and consistent hearing-room setting, showing visual continuity from the named witness shot to the wide room shot.",
+    "visual_proof": "The lower-third graphic 'IMPEACHMENT INQUIRY FIREWORKS / HUNTER BIDEN'S FORMER ASSOCIATES TESTIFY' is present in both Clip 1 (showing Mr. Bobulinski at the witness table) and Clip 2 (showing a wide view of the hearing room with multiple members and witnesses). The consistent setting, including the wooden paneling, American flag, and formal seating arrangement, confirms it is the same event. This visual evidence links the individual witness testimony to the broader committee hearing context."
+  },
+  {
+    "question": "Which two different on-screen descriptions of the victim’s age appear across the stabbing coverage, and how do later slices clarify the commonly repeated age?",
+    "answer": "One part shows 11 years old while another mentions 13 years old; later repeated headlines and segments consistently refer to the victim as 11 years old.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      29,
+      32,
+      33
+    ],
+    "reasoning_chain": "Step 1: Slice 29 headline states an 11-year-old boy was killed protecting his pregnant mom. Step 2: Slice 32 shows a handwritten note describing a 13-year-old boy killed protecting his pregnant mother. Step 3: Slice 33 again labels the story as an 11-year-old killed protecting pregnant mom. Conclusion: Despite a conflicting 13-year mention, the broadcast repeatedly frames the victim as 11.",
+    "logic_check_reasoning": "Step 1: Slice 29 shows the lower third headline stating \"11-YEAR-OLD KILLED PROTECTING PREGNANT MOM,\" clearly indicating the age as 11. Step 2: Slice 32 describes a handwritten note mentioning a \"13-year-old boy\" killed while protecting his pregnant mother, presenting a different age. Step 3: Slice 33 again displays the title card with \"11-YEAR-OLD KILLED PROTECTING PREGNANT MOM,\" reinforcing 11 as the repeatedly shown age in later coverage. Logic holds because slices 29 and 33 consistently present 11, while slice 32 uniquely mentions 13, and the repeated headlines confirm 11 as the commonly repeated age.",
+    "visual_proof": "Clip 1 (0:00-0:09) and Clip 2 (0:00-0:09) both display the on-screen text '11-YEAR-OLD KILLED PROTECTING PREGNANT MOM'. Clip 3 (0:05-0:06) displays a graphic with the date 'March 13' and the word 'Deadly' partially visible, which may be misinterpreted as referring to the victim's age. However, no clip visually states the victim was 13 years old. The consistent on-screen text across all clips identifies the victim as 11 years old, confirming the original answer's claim that later segments clarify the age as 11."
+  },
+  {
+    "question": "How is the 'homework harassment' story visually built from a police department setting to call transcripts and then to body-camera footage showing charges?",
+    "answer": "It shows the Oxford Police Department and related mugshots/call interactions, then on-screen operator transcripts, and then body-cam footage with on-screen text listing the harassment and menacing charges.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      45,
+      46,
+      54
+    ],
+    "reasoning_chain": "Step 1: Slice 45 establishes Oxford Police Department context with an exterior shot and the story framing. Step 2: Slice 46 shows a transcript-style on-screen conversation with an operator and the caller. Step 3: Slice 54 shows AXON body-cam footage with overlays listing two telecommunications harassment counts and one menacing count. Conclusion: The segment escalates from location/context to evidence excerpts to enforcement footage and charges.",
+    "logic_check_reasoning": "Step 1: Slice 45 shows visuals tied to the police department: a man speaking in an office setting, a mugshot labeled with Oxford Police Department, and an exterior shot of the Oxford Police Department building, establishing the law enforcement context. Step 2: Slice 46 presents on-screen operator call transcript text (operator asks what help is needed; Sizemore asks to talk to the chief), reinforcing the call interaction element and the 'HOMEWORK HARASSMENT' banner. Step 3: Slice 54 shows AXON body-camera footage with on-screen text explicitly listing charges ('two counts of telecommunications harassment' and 'one count of menacing'), completing the progression to body-cam footage with charges. Logic holds because each slice contributes a distinct visual phase: PD/mugshot, call transcript, then body-cam with charges, matching the proposed sequence.",
+    "visual_proof": "Clip 1 shows a police detective from the Oxford Police Department, followed by an exterior shot of the department building. Clip 2 displays a mugshot alongside on-screen text transcribing a phone call between an operator and 'Sizemore'. Clip 3 presents body-camera footage with overlaid text explicitly stating 'TWO COUNTS OF TELECOMMUNICATIONS HARASSMENT' and 'ONE COUNT OF MENACING', confirming the charges."
+  },
+  {
+    "question": "How does the broadcast transition from the stabbing outrage story into the next set of crime-themed segments about a home explosion and a mother-daughter poison plot?",
+    "answer": "After the stabbing story and interviews, it pivots to a 'deadly home explosion' tease and then to a studio segment explicitly labeled 'Mother-Daughter Poison Plot?'",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      35,
+      36,
+      37
+    ],
+    "reasoning_chain": "Step 1: Slice 35 concludes the stabbing segment with interviews and mentions a new story about a deadly home explosion. Step 2: Slice 36 shows the 'DEADLY HOME EXPLOSION' graphic and then 'MOM MURDER CONNECTION?' plus 'HOMEWORK ARREST' teases. Step 3: Slice 37 begins the studio story labeled 'MOTHER-DAUGHTER POISON PLOT?'. Conclusion: The broadcast uses sequential teasers to move from one crime story to the next.",
+    "logic_check_reasoning": "Step 1: Slice 35 states the stabbing segment concludes with a brief mention of a deadly home explosion, showing footage and a text overlay that introduces the new story, indicating a transition. Step 2: Slice 36 shows a graphic explicitly labeled 'DEADLY HOME EXPLOSION,' supporting that the broadcast pivots to that segment next. Step 3: Slice 37 shows a studio segment with the on-screen text 'MOTHER-DAUGHTER POISON PLOT?', confirming the subsequent crime-themed segment. Logic holds because the sequence aligns with the proposed answer: stabbing story -> deadly home explosion tease/segment -> studio segment labeled 'Mother-Daughter Poison Plot?'.",
+    "visual_proof": "Clip 1 ends with the anchor in New York introducing a 'COMING UP' segment titled 'DEADLY HOME EXPLOSION'. Clip 2 begins with visuals of the explosion and text confirming 'DEADLY HOME EXPLOSION', followed by a teaser for 'MOM MURDER CONNECTION?'. Clip 3 shows the same anchor in the studio with a screen graphic explicitly reading 'MOTHER-DAUGHTER POISON PLOT?'. This sequence visually confirms the transition described in the original answer."
+  },
+  {
+    "question": "How does the broadcast move from the homework harassment discussion to a teaser about an airport security breach involving a boarding pass photo?",
+    "answer": "After studio discussion of homework harassment, it teases an upcoming security breach segment with airport/Delta visuals and then shows the boarding-pass photo breach headline near a Delta plane at the gate.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      57,
+      58,
+      61
+    ],
+    "reasoning_chain": "Step 1: Slice 57 shows the anchors discussing homework harassment and a 'COMING UP SECURITY BREACH' tease with planes. Step 2: Slice 58 shows the show/title transition into a news-feed studio format. Step 3: Slice 61 shows the airport terminal and Delta plane with the headline about a boarding pass photo letting a man on a flight. Conclusion: The broadcast transitions from the homework segment into the security breach airport story through teasers and the news-feed handoff.",
+    "logic_check_reasoning": "Step 1: Slice 57 describes anchors discussing 'Homework Harassment' and then a brief transition to a graphic 'TOP STORY' with 'COMING UP SECURITY BREACH' accompanied by Delta Air Lines visuals, indicating a teaser for a security breach story. Step 2: Slice 61 shows airport terminal footage with a Delta plane and on-screen text 'Delta' and 'Photo of Stranger's Boarding Pass Lets Man on Flight,' explicitly tying the security breach to a boarding pass photo incident. Step 3: The proposed answer summarizes this sequence: discussion of homework harassment, teaser with Delta visuals, followed by the boarding-pass photo breach headline near a Delta plane. Logic holds because both slices show the transition and the specific headline imagery.",
+    "visual_proof": "Clip 1 shows the end of the homework harassment segment with anchors in New York and Chicago. It then cuts to a teaser graphic 'COMING UP' over a shot of a Delta plane, followed by the text 'SECURITY BREACH'. Clip 3 then visually confirms the next story by showing airport scenes and a Delta plane at the gate, with a lower-third headline reading 'PHOTO OF STRANGER'S BOARDING PASS LETS MAN ON FLIGHT', directly linking the teaser to the specific story."
+  },
+  {
+    "question": "What cross-story link shows that the broadcast reuses airport visuals for two different narratives: Haiti evacuee arrivals and a later airline security breach?",
+    "answer": "Airport terminal and aircraft visuals appear in the Haiti arrivals coverage and later reappear with Delta planes/terminal scenes for the boarding-pass security breach story.",
+    "category": "Visual_Tracking",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      9,
+      11,
+      57,
+      61
+    ],
+    "reasoning_chain": "Step 1: Slice 9 shows airport operations (jet taxiing) and terminal interior. Step 2: Slice 11 continues airport-terminal reporting tied to Haiti arrivals. Step 3: Slice 57 teases a 'security breach' with aircraft visuals during the broadcast flow. Step 4: Slice 61 shows Delta plane/terminal visuals tied to a boarding-pass photo breach story. Conclusion: Similar airport imagery is used across two separate narratives—evacuation arrivals and airline security breach.",
+    "logic_check_reasoning": "Step 1: Slice 11 describes the Haiti evacuee arrivals coverage, explicitly showing airport terminal interiors and exterior runway shots of an aircraft. Step 2: Slice 57 teases a later story about a security breach using visuals of Delta Air Lines planes on the tarmac. Step 3: Slice 61 continues the security breach story with people in an airport terminal and a Delta plane at the gate, tied to the headline about a boarding-pass breach. Logic holds because both narratives prominently feature airport terminal and aircraft visuals, demonstrating the broadcast's reuse of similar airport imagery across different stories.",
+    "visual_proof": "Clip 2 (Haiti arrivals) shows a generic airport terminal interior and exterior tarmac shots. Clip 4 (security breach) shows identical or very similar terminal architecture and tarmac scenes, but now featuring Delta-branded aircraft and a 'SECURITY BREACH' chyron, indicating reuse of footage across different news segments."
+  },
+  {
+    "question": "Which story transition shows the broadcast moving from the escaped inmate manhunt to national weather coverage, and what visual cue indicates the new topic?",
+    "answer": "The transition is shown when the manhunt segment gives way to a weather map labeled winter radar/forecast, indicating dangerous winter weather coverage.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      15,
+      16
+    ],
+    "reasoning_chain": "Step 1: Slice 15 focuses on the escaped inmate manhunt with barbed-wire graphics and a reporter. Step 2: Slice 16 shifts to 'Tracking Dangerous Winter Weather' with winter radar and snowfall forecast maps. Conclusion: The new topic is identified by the winter radar/forecast visuals.",
+    "logic_check_reasoning": "Step 1: Slice 15 describes the escaped inmate manhunt segment, featuring prison imagery and a reporter. Step 2: Slice 16 begins with the anchor introducing a segment on dangerous winter weather and shows a weather map labeled 'Winter Radar' along with snowfall forecasts. Logic holds because the transition from the manhunt to the weather coverage is represented by the appearance of the weather map and the 'Winter Radar' label, which visually signals the new topic.",
+    "visual_proof": "The first clip ends with a correspondent discussing the 'ESCAPED INMATE MANHUNT'. The second clip immediately begins with a new anchor introducing a segment on 'TRACKING DANGEROUS WINTER WEATHER', which is visually confirmed by the large weather map on screen labeled 'WINTER RADAR' and 'SNOWFALL FORECAST'. This direct visual shift from the manhunt graphic to the weather graphics marks the transition."
+  },
+  {
+    "question": "How does the broadcast connect a 'Make America Great Again' hat visual to later election results coverage involving Ohio’s GOP Senate primary?",
+    "answer": "A MAGA-hat speaker appears in the Trump-related legal/political discussion, and later similar pro-Trump rally visuals appear during the Ohio GOP Senate primary segment highlighting Trump coalition influence.",
+    "category": "Visual_Tracking",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      22,
+      26,
+      27
+    ],
+    "reasoning_chain": "Step 1: Slice 22 shows a man in a red 'Make America Great Again' hat speaking. Step 2: Slice 26 shows a red-hat crowd and rally-style podium visuals during Ohio GOP Senate primary coverage and notes Trump coalition support. Step 3: Slice 27 shows Trump rally footage and discussion of Trump’s campaign. Conclusion: The repeated pro-Trump rally/hats imagery links the political visuals across segments.",
+    "logic_check_reasoning": "Step 1: Slice 22 describes a news program discussing a legal case involving Donald Trump, including a man wearing a red 'Make America Great Again' hat speaking into a microphone. Step 2: Slice 26 covers the Ohio GOP Senate primary, showing a man in a suit and red hat addressing a crowd at a campaign-style event and noting analysis that the Trump coalition bolstered Moreno. Step 3: Slice 27 further shows footage of Donald Trump at a campaign rally and explicitly frames the discussion as 'Trump Coalition Boosts Moreno in Ohio GOP Senate Race.' Logic holds because the broadcast first presents a MAGA hat visual in a Trump-related segment, and later returns to pro-Trump rally visuals in the election results context while highlighting Trump’s influence on the Ohio GOP Senate primary.",
+    "visual_proof": "Clip 1 (0:27) shows Donald Trump wearing a red 'Make America Great Again' hat during a segment on his legal battles. Clip 2 (0:25-0:28) then features Bernie Moreno at a rally with supporters also wearing MAGA hats, directly linking the visual motif to the Ohio GOP Senate primary coverage. The lower third explicitly connects this to the 'Trump Coalition' boosting Moreno."
+  }
+]

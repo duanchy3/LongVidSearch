@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What platform is promoted early on as a developer-first MLOps tool, and later another segment shifts to a Google Research weather-forecasting model—what is the name of that weather model?",
+        "answer": "MetNet-2",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 2 frames the video as focusing on Weights & Biases as an MLOps platform. Step 2: Slice 36 shows an article titled “MetNet-2: Deep Learning for 12-Hour Precipitation Forecasting.” Conclusion: the weather model is MetNet-2.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 describes an early segment promoting Weights & Biases, a platform for experiment tracking, dataset versioning, model management, and prediction visualization—consistent with a developer-first MLOps tool. Step 2: Evidence Slice 36 explicitly mentions an article titled 'MetNet-2: Deep Learning for 12-Hour Precipitation Forecasting' from Google Research, identifying the weather-forecasting model as MetNet-2. Therefore, the name of the weather model is directly supported by the context.",
+        "visual_proof": "The first clip (0:08) displays a promotional graphic for 'Weights & Biases,' which is described as an MLOps platform with features like Experiment Tracking and Model Management. The second clip (0:00) shows a blog post titled 'MetNet-2: Deep Learning for 12-Hour Precipitation Forecasting' by Google Research, clearly identifying the name of the weather model being discussed."
+    },
+    {
+        "question": "A segment shows job listings for a machine-learning company, and another later segment shows a coding tool’s landing page with three calls-to-action. What is the company with the careers page, and name one of the landing page buttons later shown for the coding tool?",
+        "answer": "The company is Weights & Biases, and one button on the coding tool's landing page is \"Get API key.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a careers/jobs listings webpage for Weights & Biases. Step 2: Slice 89 shows the CodeGenX landing page with buttons including “Try it free,” “Request demo,” and “Sign up.” Conclusion: company is Weights & Biases; one later button is “Try it free.”",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 states the job listings page is from 'Weights & Biases,' confirming the company with the careers page. Step 2: Evidence Slice 89 describes the coding tool landing page showing buttons labeled 'Try it free,' 'Request demo,' and 'Sign up.' The proposed answer names 'Try it free' as one of the buttons. Logic holds because both elements are explicitly mentioned in the provided slices.",
+        "original_text_answer": "The company is Weights & Biases, and one button is “Try it free.”",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 clearly shows the 'Weights & Biases' logo at the top of the careers page. Clip 2 displays the landing page for 'CodeGenX', which features three prominent buttons: 'Get API key', 'Github', and 'Docs'. The button 'Try it free' is not visible in either clip."
+    },
+    {
+        "question": "A robotics segment explicitly labels robots for everyday tasks, and a later segment explicitly labels a different kind of tech story about beverages. What phrase is used for the robots, and what phrase is used for the beverage-company segment?",
+        "answer": "“helper robots” and “Beverage companies big into AI.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 29 overlays text reading “helper robots” during a robot-arm cafe example. Step 2: Slice 70 overlays “Beverage companies big into AI” over a ranking table. Conclusion: those are the phrases used in the two segments.",
+        "logic_check_reasoning": "Step 1: Slice 29 states that when the scene shows a robot arm in a cafe, the on-screen text reads \"helper robots,\" explicitly labeling robots for everyday tasks. Step 2: Slice 70 states that a later segment shows a webpage about beverage companies with a text overlay reading \"Beverage companies big into AI,\" explicitly labeling the beverage-company tech story. The phrases in the proposed answer match these exact on-screen texts.",
+        "visual_proof": "In the first clip, the text 'helper robots' is clearly visible as a large heading on the screen. In the second clip, a red banner at the bottom of the screen explicitly reads 'Beverage companies big into AI'."
+    },
+    {
+        "question": "Which platform is first shown as a developer tool for machine learning, and later which documentation topic is shown as an early alpha release related to graph neural networks?",
+        "answer": "Weights & Biases, and TensorFlow GNN.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows “Weights & Biases: Developer Tools for Machine Learning.” Step 2: Slice 83 shows text about the early alpha release of TensorFlow GNN. Conclusion: the platform is Weights & Biases; the later doc topic is TensorFlow GNN.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly mentions a computer screen displaying a graph titled 'Weights & Biases: Developer Tools for Machine Learning,' indicating that Weights & Biases is shown as a developer tool for machine learning early in the video. Step 2: Slice 83 describes text on the screen about TensorFlow GNN, specifically noting information about the 'early alpha release' and its purpose/components, which clearly identifies a documentation topic related to graph neural networks. The sequence ('begins' in Slice 1 and later content in Slice 83) supports the 'first' and 'later' framing. Therefore, the context fully supports the proposed answer: Weights & Biases, and TensorFlow GNN.",
+        "visual_proof": "In the first clip, at timestamp 0:27, a screenshot of the 'Weights & Biases' platform is shown with the text 'DEVELOPER TOOLS FOR MACHINE LEARNING'. In the second clip, starting at 0:00, the README.md for 'TensorFlow GNN' is displayed, which explicitly states 'This is an early (alpha) release to get community feedback.'"
+    },
+    {
+        "question": "The video switches from a green-screen talk to a stormy lightning background during the weather-forecasting theme, and later it shows maps comparing different precipitation forecasts. What dramatic background effect appears first, and what is one of the map labels used later in the forecast comparison?",
+        "answer": "A stormy sky with lightning, and one map label is “MRMS.”",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            37,
+            43,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows the presenter composited over a stormy lightning background. Step 2: Slice 43 shows precipitation comparison maps labeled MRMS, MetNet-2, and HREF. Step 3: Slice 36 anchors the context as MetNet-2 precipitation forecasting. Conclusion: the effect is lightning storm; one map label is MRMS.",
+        "logic_check_reasoning": "Step 1: Slice 37 describes a transition from a green screen to a stormy weather background with dark clouds and lightning, confirming the first dramatic background effect is a stormy sky with lightning. Step 2: Slice 43 states the opening scene shows three maps labeled \"MRMS,\" \"MetNet-2,\" and \"HREF,\" confirming that \"MRMS\" is one of the map labels used later in the forecast comparison. Logic holds because both elements directly match the question's components.",
+        "visual_proof": "In Clip 1 (0:03-0:05), the background visibly changes from a green screen to a dark, stormy sky with animated rain and lightning. In Clip 2 (0:00-0:04), the first map on the left in the three-panel comparison is clearly labeled 'MRMS'."
+    },
+    {
+        "question": "When the presenter discusses TinyML for stopping dog barks, what word appears on the dog clip, and which later project demonstrates AI controlling a classic racing game on real hardware?",
+        "answer": "The word is “Shhh!”, and the later project is AI learning to drive Mario Kart 64 on real hardware.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows the “TinyML Dog Bark Stopper” page with a dog clip where “Shhh!” appears. Step 2: Slice 51 shows the claim “AI learns to drive Mario Kart 64 on real hardware.” Conclusion: the word is “Shhh!” and the later project is AI driving Mario Kart 64 on real hardware.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes the TinyML Dog Bark Stopper and explicitly states that in the embedded dog video, the word 'Shhh!' appears on the screen. Step 2: Slice 51 describes a project with text overlay 'AI learns to drive Mario Kart 64 on real hardware,' and shows an AI controlling Mario Kart 64 on a physical Nintendo 64, which is a classic racing game. Logic holds because the question asks for the word shown during the dog bark project (supported by Slice 45) and identifies the later project demonstrating AI control of a classic racing game on real hardware (supported by Slice 51).",
+        "visual_proof": "In Clip 1 (0:05-0:07), the video shows a dog with the text 'Shhh!' overlaid, which is part of the 'TinyML Dog Bark Stopper' project. In Clip 2 (0:03-0:05), a YouTube video title explicitly states 'AI learns to drive Mario Kart 64 on real hardware', confirming the second part of the answer."
+    },
+    {
+        "question": "In the early portion the show uses an 'ML NEWS' title card, and later a different title card appears for a NYC AI-hiring story. What is the first title text, and what is the later altered title text?",
+        "answer": "First: “ML NEWS”; later: “MEMZ NEWS.”",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 10 displays a graphic with “ML NEWS.” Step 2: Slice 56 starts the NYC AI-hiring segment with a title card reading “MEMZ NEWS.” Conclusion: the titles are ML NEWS then MEMZ NEWS.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 10 explicitly states a graphic with the text 'ML NEWS' appears early in the video. Step 2: Evidence Slice 56 describes the NYC AI-hiring story segment starting with a title card featuring the words 'MEMZ NEWS.' Logic holds because the question refers to an early 'ML NEWS' title and a later altered title for the NYC story, which matches the slices: early 'ML NEWS' and later 'MEMZ NEWS.'",
+        "visual_proof": "In Clip 1, the title card at 0:15 clearly displays 'ML NEWS' in white text on a pink background. In Clip 2, at 0:00, a similar title card is shown, but the text has been altered to read 'MEMZ NEWS', with the 'M' and 'L' replaced by 'M' and 'EMZ'. This visual evidence confirms the original answer."
+    },
+    {
+        "question": "In the Weights & Biases portion, a link to get started appears, and later the show again uses a prominent 'ML NEWS' title card. What is the call-to-action URL, and what is the title text that appears later?",
+        "answer": "https://wandb.com, and the title text is “ML NEWS.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows “get started: https://wandb.com”. Step 2: Slice 35 displays an ML NEWS graphic title. Conclusion: the URL is wandb.com; later title text is ML NEWS.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 6 explicitly states a black screen with white text reading 'Weights & Biases' and 'get started: https://wandb.com', which directly provides the call-to-action URL. Step 2: Evidence Slice 35 describes an animated graphic where the text 'ML NEWS' appears prominently, confirming the title text used later. The two slices jointly support the proposed answer.",
+        "visual_proof": "In the first clip (0:00-0:01), the 'Weights & Biases' title card clearly displays the text 'get started: https://wandb.com'. In the second clip (0:05), a large, prominent title card with the text 'ML NEWS' is shown over an animated background. Both pieces of information are directly visible in the provided clips."
+    },
+    {
+        "question": "The presenter begins discussing job openings at a machine learning tooling company and later discusses a TinyML pet project on a maker site. What is the company with the job listings, and what is the maker site hosting the TinyML project page?",
+        "answer": "Weights & Biases, and Hackster.io.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows job listings on Weights & Biases’ careers page. Step 2: Slice 45 shows the “TinyML Dog Bark Stopper” project hosted on hackster.io. Conclusion: company is Weights & Biases; maker site is Hackster.io.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 explicitly states the job listings webpage is from 'Weights & Biases,' a company specializing in machine learning and data science tools. Step 2: Evidence Slice 45 explicitly states the TinyML project page is on 'hackster.io' and shows the 'TinyML Dog Bark Stopper' project. Logic holds because the question asks for the company with job listings and the maker site hosting the project, both of which are directly named in the slices.",
+        "visual_proof": "In Video 1, the job listings page is clearly titled 'Weights & Biases' at the top. In Video 2, the TinyML project page is shown with the URL 'hackster.io' visible at the bottom of the screen."
+    }
+]

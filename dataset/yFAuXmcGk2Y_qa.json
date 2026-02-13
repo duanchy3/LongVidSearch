@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Which token is shown being used inside the platform’s architecture diagrams and is also shown with a price and market statistics on a blockchain explorer page later in the video?",
+        "answer": "The AGI token (SingularityNET token).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the cognitive synergy diagram explicitly referencing AGI tokens exchanged among AI nodes and external software. Step 2: Slice 33 shows an Etherscan page for the SingularityNET (AGI) token with price and supply stats. Conclusion: The same token referenced in the diagram is the AGI token.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 states the architecture diagram includes 'AGI Tokens' exchanged among AI nodes and external software, indicating AGI is used inside the platform’s diagrams. Step 2: Evidence Slice 33 shows an Etherscan page focused on the SingularityNET (AGI) token with price and market statistics. Logic holds because both slices reference the same token (AGI) being used in the architecture and later shown with market data on a blockchain explorer.",
+        "visual_proof": "In the first clip, the architecture diagram explicitly labels 'AGI Token' as the currency used for transactions between various AI nodes. In the second clip, the Etherscan page is for the 'SingularityNET' token, which is identified as the AGI token, and displays its price ($0.0787) and market statistics like market cap and holders."
+    },
+    {
+        "question": "Which service is highlighted with a detailed project page showing a fixed token cost, and also appears earlier among the marketplace service cards?",
+        "answer": "DeOldify Photos.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 25 lists marketplace services including DeOldify Photos. Step 2: Slice 26 shows the DeOldify Photos project page with rating and a fixed price in tokens plus a DEMO button. Conclusion: The same service is DeOldify Photos.",
+        "logic_check_reasoning": "Step 1: Slice 25 lists multiple services shown as marketplace cards, explicitly including 'DeOldify Photos.' Step 2: Slice 26 highlights a detailed project page for 'DeOldify Photos' with a stated fixed cost of 0.02000000 AI tokens. Logic holds because the service appears earlier among the marketplace cards (Slice 25) and is later shown with a detailed page and fixed token cost (Slice 26).",
+        "visual_proof": "In Video 1 (0:04-0:05), the 'DeOldify Photos' service card is clearly visible among the initial set of marketplace services. In Video 2 (0:02-0:03), the detailed project page for 'DeOldify Photos' is shown, which explicitly displays a 'Fixed price' of '0.02000000 AGI TOKENS'. This confirms the service is both listed early in the marketplace and has a dedicated page with a fixed cost."
+    },
+    {
+        "question": "Which governance body is introduced in a blog page about progressive decentralization and later described as gaining more power and responsibility in Phase Two governance plans?",
+        "answer": "The Supervisory Council.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows the “SingularityNET Supervisory Council” blog page discussing progressive decentralization. Step 2: Slice 45 discusses Phase Two plans enhancing the role and power of the Supervisory Council elected by token holders. Conclusion: The governance body is the Supervisory Council.",
+        "logic_check_reasoning": "Step 1: Slice 44 describes a webpage titled 'SingularityNET Supervisory Council' and includes a section 'Progressive Decentralization: Making It Real,' introducing decentralized governance and the role of the Supervisory Council. Step 2: Slice 45 explicitly states that in Phase Two, the role of the Supervisory Council (elected by token holders) will be enhanced, giving it more power and responsibility. Logic holds because the governance body introduced in the progressive decentralization blog is the Supervisory Council, and it is later described as gaining more power in Phase Two plans.",
+        "visual_proof": "Clip 1 (0:04) shows a blog page titled 'SingularityNET Supervisory Council' and introduces the concept of 'decentralized democratic governance'. The text in Clip 1 (0:16-0:18) under the heading 'Progressive Decentralization: Making It Real' explicitly states, 'We've had a Supervisory Council elected by the token holders for quite some time, but in Phase Two we want to beef up their role — we want to give them more power and more work to do...'. This is directly confirmed in Clip 2 (0:01-0:03), which continues the same paragraph, reinforcing that the 'beefed-up Supervisory Council' will have increased responsibilities in Phase Two."
+    },
+    {
+        "question": "Which AI node type is highlighted in the cognitive synergy diagrams early on and later appears as part of the marketplace offerings where text-focused services are sold?",
+        "answer": "A text summarization/text generation type of AI service (text-focused AI).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a “Text Summarization AI Node” as a key agent in the cognitive synergy diagram. Step 2: Slice 25 shows a marketplace service category called “Text Generation,” indicating text-focused AI services offered on the marketplace. Conclusion: Both reference text-focused AI services/nodes.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes the cognitive synergy diagram with central nodes including a \"Text Summarization AI Node\" (blue), indicating a text-focused AI capability. Step 2: Slice 25 shows the SingularityNET AI Marketplace featuring text-focused services such as \"Text Generation.\" Logic holds because the early diagram highlights a text-focused AI node (Text Summarization), and later the marketplace showcases text-focused offerings (Text Generation), supporting the proposed answer that a text-focused AI (text summarization/text generation) is the type appearing in both contexts.",
+        "visual_proof": "In the first clip, the 'Text Summarizer AI Node' is explicitly highlighted with a green circle in the 'Cognitive synergy between AI Agents' diagram. In the second clip, the SingularityNET marketplace displays services like 'Text Summaries' and 'Text Generation,' which are text-focused AI offerings that directly correspond to the function of the highlighted node from the first clip."
+    },
+    {
+        "question": "What is the relationship between the “cognitive synergy between AI agents” figure shown repeatedly and the later platform “key components” figure—what do they represent at different layers?",
+        "answer": "The cognitive synergy figure represents interactions among AI agents/nodes, while the key components figure represents the broader network/platform architecture for deploying, discovering, and paying for services across regions.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            14,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows Figure 2 about cognitive synergy among AI agents like text summarizer and entity extraction. Step 2: Slice 14 introduces Figure 5 about platform key components (consumers/providers/registry/regions). Step 3: Slice 30 shows a detailed version of Figure 5 emphasizing service execution and multi-party executor/payment gateway. Conclusion: Figure 2 is an agent-level workflow; Figure 5 is platform-level infrastructure.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 describes 'Figure 2. Cognitive Synergy between AI Agents' with components like Text Summarizer, Word Sense Disambiguation, Entity Extraction, and Video Summarizer, plus arrows indicating inputs/outputs (e.g., Disambiguated Words, Labeled Entities). This supports that the figure represents interactions among AI agents. Step 2: Evidence Slices 14 and 30 describe 'Figure 5. The key components of our platform' with Service Consumers, Service Providers, Discovery Service, Registry, Multi-Party Protocol/Executor, Regions, APIs, and Payment Gateway, clearly depicting a platform-level architecture for service discovery, registration, execution, and payments across regions. Step 3: The scope difference indicates they represent different layers: agent-level cognitive interactions vs platform-level system architecture. The proposed answer aligns with these descriptions, including discovery and payment elements and regions.",
+        "visual_proof": "Clip 1 shows 'Figure 2. Cognitive synergy between AI Agents,' depicting specific AI nodes (Text Summarizer, Entity Extraction) and their data flow (Disambiguated Words, Labeled Entities). Clip 2 and 3 show 'Figure 5. The key components of our platform,' which is a much larger architectural diagram including Service Consumers, Service Providers, Regions, a Registry, Multi-Party Escrow, and On/Off Chain components. The visual scope and labeled elements clearly differentiate the first as a micro-level agent interaction model and the second as a macro-level platform infrastructure."
+    },
+    {
+        "question": "Which component is highlighted as a central list/record of services in later architecture diagrams, and how does that relate to the earlier marketplace concept presented to users?",
+        "answer": "The Registry; it underpins marketplace discovery so users can browse and access services via the marketplace.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            16,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces the user-facing AI marketplace concept. Step 2: Slice 16 shows the architecture including a Registry as a central component. Step 3: Slice 28 explicitly circles the Registry and describes it as maintaining a list of AI services. Conclusion: The registry enables the marketplace’s service discovery/listing.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 28 explicitly states that the Registry is a smart contract responsible for maintaining a list of AI services available on the platform, highlighting it as the central record/list of services. Step 2: Evidence Slice 16 shows the Registry as a key architectural component alongside Marketplace APIs and other systems, reinforcing its role in the platform’s service management. Step 3: Evidence Slice 1 presents the user-facing marketplace concept (\"The Global AI Marketplace\" with a call-to-action \"VISIT AI MARKETPLACE\") designed for users to explore AI services. Logic holds because a centralized list of services (the Registry) directly supports how a marketplace can present and enable discovery of services to users; the captions describe the Registry’s role as maintaining the service list and the marketplace’s role as the user interface for exploring those services.",
+        "visual_proof": "In Clip 2 and Clip 3, the 'Registry' component is clearly visible in the architecture diagram. In Clip 3, a green circle highlights the 'Registry' box, visually emphasizing its role as a central record. The accompanying text in Clip 3 explicitly states that the 'AI marketplace supplements that registry (a smart contract) with a centralized source for which services are curated,' directly linking the Registry to the user-facing marketplace concept introduced in Clip 1."
+    }
+]

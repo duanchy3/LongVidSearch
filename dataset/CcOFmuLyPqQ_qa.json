@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Which policy is presented as a money cost on a map and later appears again as a roadside sign as part of a segment about net-zero targets?",
+        "answer": "The Ultra Low Emission Zone (ULEZ).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows a ULEZ map labeled with £12.50 per day. Step 2: Slice 71 later shows a ULEZ sign in an environmental/net-zero themed sequence. Conclusion: The repeated policy is ULEZ.",
+        "logic_check_reasoning": "Step 1: Slice 44 explicitly shows a map of London with a green area labeled 'Ultra Low Emission Zone (ULEZ)' and a price of £12.50 per day, establishing a policy presented with a monetary cost on a map. Step 2: Slice 71 describes a segment about net-zero targets and later shows an outdoor scene featuring a roadside sign for the Ultra Low Emission Zone (ULEZ), indicating the policy appears again as part of the net-zero segment. Logic holds because both slices reference ULEZ in the specified contexts.",
+        "visual_proof": "In Video 1, the map at 0:01 explicitly labels the green highlighted zone as 'Ultra Low Emission Zone (ULEZ)' and displays a cost of '£12.50 a day' at 0:03. In Video 2, at 0:00, a roadside sign with the ULEZ logo (a red circle with a car icon) is visible, indicating restrictions for vehicles not meeting emission standards, which ties into the broader context of net-zero targets shown later in the same clip with the UK Parliament document on net zero."
+    },
+    {
+        "question": "Which iconic London landmark is shown in the background when a driver is in a car, and is also referenced by an image on a studio poster behind a seated presenter?",
+        "answer": "Big Ben (and the Houses of Parliament).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 27 cuts to Big Ben while the driver is in/around a car. Step 2: Slice 21 shows a poster behind the presenter featuring Big Ben/Houses of Parliament. Conclusion: The shared landmark is Big Ben.",
+        "logic_check_reasoning": "Step 1: Slice 27 states that the camera pans out to show the Big Ben clock tower in London while a man is sitting in the driver's seat of a car, indicating the landmark is shown in the background during a car scene. Step 2: Slice 21 describes a studio poster behind a seated presenter that features an image of Big Ben and the Houses of Parliament. Logic holds because both slices explicitly mention Big Ben (and the Houses of Parliament) in the specified contexts: during the car scene and on the studio poster.",
+        "visual_proof": "In Video 1, at timestamp 0:03, a clear shot from inside a car shows the iconic clock tower of Big Ben and the adjacent Houses of Parliament in the background. In Video 2, at timestamp 0:02, a poster is taped to the blue studio wall behind the presenter; this poster features a black-and-white image that prominently displays the same landmark, Big Ben, as part of its design."
+    }
+]

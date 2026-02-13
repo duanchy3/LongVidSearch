@@ -1,0 +1,41 @@
+[
+    {
+        "question": "Two different hidden gadgets are shown being built into everyday items: one is inside footwear and the other is inside a cosmetic product. What are those two disguised weapons/devices?",
+        "answer": "A transmitter hidden in a shoe heel and a gun disguised as a lipstick (a “lipstick gun”).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 2 explicitly labels a “shoe with a heel transmitter” and shows the device embedded in the heel. Step 2: Slice 4 introduces and labels a “lipstick gun,” a weapon disguised as cosmetics. Conclusion: The two disguised items are a heel-transmitter shoe and a lipstick gun.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly shows a 'SHOE WITH A HEEL TRANSMITTER' and describes a small device embedded in the heel connected to a battery, confirming a transmitter hidden in footwear. Step 2: Slice 4 explicitly labels an object as 'LIPSTICK GUN,' identifying a gun disguised as a lipstick, which is a cosmetic product. Logic holds because both items are clearly named and depicted as hidden gadgets integrated into everyday objects.",
+        "visual_proof": "Clip 1 shows a pair of shoes with text identifying them as having a 'HEEL TRANSMITTER', followed by a close-up of the heel's internal mechanism. Clip 2 shows a lipstick tube with its cap removed, revealing a barrel, with on-screen text explicitly labeling it a 'LIPSTICK GUN'."
+    },
+    {
+        "question": "A concealed weapon is shown being fired from clothing, and later a shooting happens during a drinking gathering. What is the concealed weapon, and what is the later violent act?",
+        "answer": "The concealed weapon is a glove pistol, and the later act is a soldier shooting another soldier at a table while they are drinking wine.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 3 labels and shows a hidden “GLOVE PISTOL.” Step 2: Slice 64 depicts a sudden shooting at a table during a wine-drinking conversation among uniformed men. Conclusion: The earlier concealed weapon is the glove pistol, and the later violent act is the table-side shooting.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly shows a gloved hand holding a small black pistol labeled 'GLOVE PISTOL', which supports identifying the concealed weapon as a glove pistol. Step 2: Slice 64 describes soldiers drinking wine at a table, and one soldier pulls out a gun and shoots another soldier in the head, which matches the later violent act described in the proposed answer. Logic holds because the first slice establishes the specific concealed weapon, and the second slice clearly depicts the shooting during a drinking gathering.",
+        "visual_proof": "Clip 1 explicitly shows a 'GLOVE PISTOL' device attached to a yellow glove. Clip 2 depicts a scene where a man in a grey coat pulls out two pistols and shoots multiple soldiers seated at a table with wine glasses and bottles, confirming the violent act during a drinking gathering."
+    },
+    {
+        "question": "A Soviet political-security theme is introduced with a title card, and later the video highlights a specific Cold War confrontation using a map and dates. What organization is introduced first, and what crisis is highlighted later?",
+        "answer": "The KGB is introduced first, and the Cuban Missile Crisis (Oct 16–28, 1962) is highlighted later.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows the title card “THE KGB: WHO THEY WERE AND WHAT THEY DID.” Step 2: Slice 19 shows a map and the text “THE CUBAN MISSILE CRISIS OCT 16–28 1962.” Conclusion: KGB first, Cuban Missile Crisis later.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 6 states the video shows a title card reading 'THE KGB: WHO THEY WERE AND WHAT THEY DID,' clearly introducing the KGB, a Soviet political-security organization. Step 2: Evidence Slice 19 describes a map highlighting the U.S. and Cuba with the text 'THE CUBAN MISSILE CRISIS OCT 16–28 1962,' explicitly identifying the crisis with dates. Logic holds because the first part introduces the KGB and later the video highlights the Cuban Missile Crisis using a map and specific dates.",
+        "visual_proof": "Clip 1 opens with a title card that explicitly reads 'THE KGB' followed by 'WHO THEY WERE AND WHAT THEY DID'. Clip 2 features a map of the United States and Cuba with a title card that reads 'THE CUBAN MISSILE CRISIS' and the dates 'OCT 16-28 1962'. This sequence visually confirms the order and content described in the answer."
+    }
+]

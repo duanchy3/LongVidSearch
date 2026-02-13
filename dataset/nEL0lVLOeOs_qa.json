@@ -1,0 +1,121 @@
+[
+    {
+        "question": "Which snack item shown during a kitchen moment later appears again as the woman's 'midnight snack'?",
+        "answer": "Mochi.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a package of Pocky sticks (snack context) but Slice 47 explicitly shows a box labeled 'Mochi' during a 'midnight snack.' Step 2: Slice 47 identifies the snack as mochi. Conclusion: The snack item for the midnight snack is mochi.",
+        "logic_check_reasoning": "Step 1: Slice 47 shows a kitchen moment where the woman is holding a box labeled 'Mochi' and appears to be eating from it. Step 2: The same slice notes text overlays including 'midnight snack,' indicating that the item being eaten is presented as the midnight snack. Step 3: Slice 12 mentions Pocky, but there is no link to 'midnight snack' there. Therefore, the item shown in the kitchen that later appears as the woman's midnight snack is Mochi.",
+        "visual_proof": "In Clip 1, the woman is seen in the kitchen, but no mochi is shown. However, in Clip 2, she retrieves a box of 'Mochi Ice Cream' from the freezer at 1 AM, as indicated by the on-screen text, and proceeds to eat it. The question asks which snack item *shown during a kitchen moment* later appears as the midnight snack. While mochi isn't shown in Clip 1, the context implies the kitchen moments are part of the same continuous video. The only snack explicitly identified and consumed as a 'midnight snack' in the provided clips is the mochi ice cream."
+    },
+    {
+        "question": "What specific coffee-making tool is used in the mid-day coffee segment and later used again when coffee is poured into a mug at breakfast?",
+        "answer": "A French press.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows coffee being brewed with a French press. Step 2: Slice 33 shows coffee being poured from a French press into a mug. Conclusion: The repeated tool is a French press.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly describes making coffee using a French press during the mid-day segment, including adding grounds and pouring hot water into the press. Step 2: Slice 33 states that a hand holding a French press pours hot coffee into a mug in a breakfast setting. Logic holds because both slices explicitly mention and depict a French press being used in the respective segments.",
+        "visual_proof": "In Video 1, a clear glass coffee maker with a metal plunger and lid is shown being used to brew coffee; this is a French press. In Video 2, the same type of device (glass carafe with a plunger mechanism) is used to pour coffee into a mug. The visual design, including the handle, glass body, and plunger top, is consistent across both clips, confirming it is a French press."
+    },
+    {
+        "question": "After the woman seasons salmon with lemon slices for dinner, what leafy green side is shown being stirred before the final bowl is served with salmon and greens?",
+        "answer": "Spinach (or similar leafy greens).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            42,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows salmon being seasoned and topped with lemon slices. Step 2: Slice 45 shows a pot of green leafy vegetables being stirred as part of the same meal prep. Conclusion: The leafy green side is spinach/leafy greens.",
+        "logic_check_reasoning": "Step 1: Slice 42 describes salmon being seasoned and topped with lemon slices, establishing the dish context. Step 2: Slice 45 shows a pot where green leafy vegetables are being stirred and states they appear to be spinach or a similar leafy green. This directly answers the question about the leafy green side shown being stirred. The proposed answer ('Spinach or similar leafy greens') aligns with the explicit wording in Slice 45.",
+        "visual_proof": "In Video 1, a person is shown placing lemon slices on seasoned salmon. In Video 2, fresh green leaves are added to a pot on the stove and then stirred with chopsticks; these leaves are visually identifiable as spinach due to their shape, color, and texture."
+    },
+    {
+        "question": "What breakfast item is baked/reheated in the oven and later turned into a sandwich with butter and strawberry jam?",
+        "answer": "Waffles.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            28,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows a waffle placed in a tray and put into the oven. Step 2: Slice 31 shows waffles being buttered and spread with strawberry jam to form a sandwich. Conclusion: The item is waffles.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows a waffle being placed into a baking tray and then into an oven, indicating it is being baked or reheated. Step 2: Slice 31 shows two waffles being prepared with butter and strawberry jam and then combined into a sandwich. Logic holds because both slices consistently reference waffles as the item being heated and then used to make a sandwich with butter and jam.",
+        "visual_proof": "Clip 1 shows waffles being placed on a baking tray and put into an oven. Clip 2 shows the same type of waffles being taken out, placed on a plate, and one is spread with strawberry jam (Bonne Maman brand) while butter is also present on the counter, indicating they are being prepared as a sandwich."
+    },
+    {
+        "question": "Which two different beverages appear with meals: first alongside noodles with kimchi, and later as a pink drink next to a Korean stew meal?",
+        "answer": "Orange juice and a pink beverage.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            50,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 50 shows noodles/shrimp/kimchi with a glass of orange juice nearby. Step 2: Slice 75 shows the woman eating stew and drinking a pink beverage. Conclusion: The beverages are orange juice and a pink drink.",
+        "logic_check_reasoning": "Step 1: Slice 50 explicitly mentions a jar of kimchi and a glass of orange juice visible alongside the noodles/shrimp dish, confirming orange juice with noodles and kimchi. Step 2: Slice 75 describes a woman eating a hot soup/stew and picking up a glass filled with a pink beverage, confirming a pink drink next to the stew meal. The beverages identified are orange juice and a pink beverage, matching the question.",
+        "visual_proof": "In Video 1, orange juice is poured into a glass next to a bowl of noodles with kimchi. In Video 2, a woman is seen eating a meal (Korean stew) with a glass of pink-colored beverage beside her, which she later drinks."
+    },
+    {
+        "question": "How does the salmon dish progress from being prepared and seasoned to being cooked and then presented as a composed bowl ready to eat?",
+        "answer": "The salmon is seasoned and topped with lemon, then baked/handled as cooked food, and finally served sliced over rice with greens and lemon wedges.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            42,
+            44,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows seasoning and lemon slices placed on salmon. Step 2: Slice 44 shows a tray being removed from the oven, indicating baking completion. Step 3: Slice 46 shows the final bowl with rice, greens, salmon slices, and lemon wedges. Conclusion: Prep → bake → plated bowl.",
+        "logic_check_reasoning": "Step 1: Slice 42 shows salmon being placed on foil, seasoned with herbs/spices, and topped with lemon slices—this supports the preparation/seasoning phase. Step 2: Slice 44 shows a foil-covered baking tray being removed from an oven, indicating a baked/handled cooked item; while it doesn’t explicitly state salmon, the use of foil and oven aligns logically with the prior prep and represents the cooking step. Step 3: Slice 46 shows a composed bowl with white rice, greens, slices of salmon, and lemon wedges, matching the presentation as a ready-to-eat dish. The proposed answer summarizes these stages without adding unsupported specifics.",
+        "visual_proof": "Clip 1 shows raw salmon being seasoned with herbs and topped with lemon slices on foil. Clip 2 shows the person placing the foil-wrapped salmon into an oven and later removing it, indicating a baking/cooking process. Clip 3 displays the final dish: cooked salmon, now flaked or sliced, served in a bowl over white rice with a side of greens and the same lemon slices from preparation."
+    },
+    {
+        "question": "Which two separate moments show a cat first being actively played with and later being calmly present during a resting scene on the bed?",
+        "answer": "The cat is played with using a blue object and later is shown sleeping beside the woman on the bed.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows a person teasing/playing with a cat using a blue object on a shelf. Step 2: Slice 47 shows the woman lying on a bed with a black-and-white cat sleeping beside her. Conclusion: Cat goes from active play to calm resting companionship.",
+        "logic_check_reasoning": "Step 1: Slice 29 describes a cat being actively engaged in play as a person waves a blue object, with the cat jumping and swatting at it. Step 2: Slice 47 shows a woman lying on a bed with a black-and-white cat sleeping beside her, indicating a calm, resting scene. Logic holds because the first moment clearly depicts active play with a blue object, and the second moment shows the cat calmly present during rest on a bed.",
+        "visual_proof": "In Video 1, a woman is seen actively engaging a tabby cat with a blue feather toy as it jumps between wall-mounted shelves. In Video 2, the same cat is shown curled up and sleeping peacefully on a bed right next to the woman's head."
+    },
+    {
+        "question": "Which sponsor mentioned at the very start is later tied to a personalized vitamin pack that the woman opens at the table?",
+        "answer": "Care/of.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a sponsorship thank-you message for Care/of. Step 2: Slice 19 shows the woman opening a personalized vitamin box and packet. Conclusion: The sponsor tied to the vitamin pack is Care/of.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly states \"thank you to care/of for sponsoring this video! <3,\" identifying the sponsor as care/of. Step 2: Slice 19 shows the woman opening and promoting a personalized vitamin pack at the table. Logic holds because the video’s later promotion of a personalized vitamin pack aligns with the sponsor mentioned at the start, indicating the sponsor tied to that pack is care/of.",
+        "visual_proof": "The video opens with a title card explicitly thanking 'care/of' for sponsoring. Later, the woman unboxes a red package from 'care/of' which contains personalized vitamin packs labeled 'Made for Linh' and 'Hi Linh', directly linking the sponsor to the product shown."
+    },
+    {
+        "question": "Which outdoor food-related storyline goes from introducing a Japanese market location to later showing a branded donut event and then the donut being eaten outside?",
+        "answer": "The Japanese market outing transitions later to a Krispy Kreme event and then to eating a glazed donut outdoors.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            75,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 10 introduces the Hana Market (Japanese market) on a sunny day. Step 2: Slice 75 shows a neon 'Krispy Kreme Original Glazed' sign/event reference. Step 3: Slice 76 shows a Krispy Kreme bag and a glazed donut being eaten outside. Conclusion: Outdoor food outings include Japanese market and later Krispy Kreme donut eaten outdoors.",
+        "logic_check_reasoning": "Step 1: Slice 10 introduces a Japanese market location ('the Hana Market') in an outdoor, sunny neighborhood setting, aligning with an outdoor food-related start. Step 2: Slice 75 shows a transition to a branded donut event via a neon sign for 'Krispy Kreme Original Glazed,' explicitly indicating a promotional event. Step 3: Slice 76 depicts a Krispy Kreme bag and a glazed donut being eaten outside in a park-like environment. Logic holds because the sequence clearly progresses from the Japanese market introduction to the Krispy Kreme event and culminates in outdoor donut consumption.",
+        "visual_proof": "Clip 1 introduces 'Japanese Market' with text overlays and shows the exterior of 'the Hana Market'. Clip 3 shows a neon 'Krispy Kreme' sign, followed by a hand holding a Krispy Kreme bag with the date 'Saturday, March 13', and then a person eating a glazed donut outdoors in a park setting. This sequence visually confirms the transition from the Japanese market location to the Krispy Kreme event and finally to consuming the donut outside."
+    }
+]

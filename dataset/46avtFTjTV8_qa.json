@@ -1,0 +1,28 @@
+[
+    {
+        "question": "What later event shows her preparing an elegant outfit after earlier emphasizing a general goal to have fun with outfits?",
+        "answer": "Getting ready for a formal dance with a pink dress and black lace belt.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            60,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 60 presents the message 'Have fun with outfits!' as a fashion-focused intention. Step 2: Slice 27 shows detailed preparation of a pink dress and belt for 'a dance to remember.' Conclusion: The general outfit-enjoyment theme is later realized through formal dance preparation.",
+        "logic_check_reasoning": "Step 1: Slice 60 presents the general goal \"Have fun with outfits!\" establishing a broad, playful focus on fashion. Step 2: Slice 27 shows a later scene titled \"a dance to remember\" with a specific date, and depicts detailed preparation of an elegant pink dress with a black lace belt, emphasizing sophistication and readiness for a special event. Logic holds because the initial general message about enjoying outfits is followed by a concrete, elegant outfit preparation for a dance, matching the proposed event and details (pink dress and black lace belt).",
+        "visual_proof": "Clip 1 opens with a title card stating 'have fun with outfits!', setting a general theme. Clip 2 then shows specific preparation for an event titled 'a dance to remember' on December 6, 2021. The visuals include makeup tools, a perfume bottle, and the person steaming and putting on a pink dress with puffed sleeves. A close-up reveals they are adjusting a black lace corset or belt over the dress, confirming the elegant outfit preparation for the formal dance."
+    },
+    {
+        "question": "What object continuity links the decorated tree scenes with the later scene where two people play with a large stuffed penguin, suggesting gift-related or holiday toy moments?",
+        "answer": "Both feature prominent stuffed/toy elements during the holiday period: a toy train under the tree and a large stuffed penguin being handled later.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a Christmas tree scene with a toy train moving at the base and gift-opening. Step 2: Slice 46 shows two people in red shirts interacting with a large stuffed penguin toy. Conclusion: Holiday scenes prominently feature playful toy/stuffed items, linking the moments.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a decorated Christmas tree with a toy train set at its base and later a man holding a plush toy, clearly indicating toy elements in the holiday scene. Step 2: Slice 46 shows two people interacting with a large stuffed penguin toy. Logic holds because both slices explicitly feature toys, linking the decorated tree scene to the later penguin scene through a continuity of toy objects associated with the holiday/gift context.",
+        "visual_proof": "In Video 1 (0:08), a red and green toy train is clearly visible on tracks placed at the base of the decorated Christmas tree. Later in Video 1 (0:12-0:16) and Video 2 (0:00-0:01), two people are shown interacting with a large black and white stuffed penguin, which appears to be a gift they are opening or playing with. The presence of both the toy train (a decorative/holiday toy) and the stuffed penguin (a gift/toy) creates a visual continuity of playful, toy-related moments tied to the Christmas celebration."
+    }
+]

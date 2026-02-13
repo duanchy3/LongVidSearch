@@ -1,0 +1,192 @@
+[
+    {
+        "question": "What car model is introduced in a dated graphic and then immediately shown driving with its gull-wing doors open in a later segment?",
+        "answer": "The DeLorean (DMC-12).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a graphic titled \"Debut of the DeLorean\" with a date. Step 2: Slice 13 shows a DeLorean-like car with distinctive gull-wing doors open and moving. Conclusion: The model is the DeLorean.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows a dated graphic stating \"Debut of the DeLorean\" with \"JAN 27, 1981\" and identifies it as the DeLorean DMC-12. Step 2: Slice 13 describes a car with its doors open, noted as a DeLorean known for gull-wing doors, which then begins moving forward (driving). Logic holds because the model introduced in the dated graphic (DeLorean DMC-12) is the same model later shown driving with its distinctive doors open.",
+        "visual_proof": "In Clip 1, a graphic explicitly labels the event as the 'Debut of the DeLorean' on 'JAN 21, 1981,' showing an image of the car with its gull-wing doors open. In Clip 2, the same car model, identifiable by its unique stainless steel body and gull-wing doors, is shown driving with those doors open near a body of water."
+    },
+    {
+        "question": "Which retro video game franchise is first shown debuting in 1981 and later shown again with a sequel that includes a mission to save Donkey Kong?",
+        "answer": "Donkey Kong (followed by Donkey Kong Jr.).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 37 mentions \"Donkey Kong Debut\" dated July 9, 1981 with gameplay visuals. Step 2: Slice 39 shows \"Donkey Kong Junior\" gameplay and text about saving Donkey Kong. Conclusion: The franchise is Donkey Kong.",
+        "logic_check_reasoning": "Step 1: Slice 37 explicitly shows the debut of \"Donkey Kong\" on July 9, 1981, establishing the franchise's start. Step 2: Slice 39 shows gameplay and title art for \"Donkey Kong Junior,\" with on-screen text \"SAVE YOUR PAPA!\" indicating a mission to rescue Donkey Kong. Logic holds because the first slice introduces Donkey Kong in 1981 and the later slice presents its sequel focused on saving Donkey Kong, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows a title card for 'Donkey Kong Debut' dated 'JUL 9, 1981', featuring the original pixelated Donkey Kong. Clip 2 shows gameplay from 'Donkey Kong Junior', where the objective is to 'SAVE YOUR PAPA!', referring to the original Donkey Kong character being imprisoned."
+    },
+    {
+        "question": "Which event is shown as a protest involving air traffic controllers and then followed by a later segment where Reagan responds and a newspaper headline announces firings?",
+        "answer": "The PATCO air traffic controllers strike (Reagan vs. air traffic controllers).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows protesters with signs like \"PATCO ON STRIKE\" and \"AIR TRAFFIC CONTROLLERS ON STRIKE.\" Step 2: Slice 50 shows \"Reagan Responds\" and a newspaper headline \"They're Fired.\" Conclusion: It refers to the PATCO strike and Reagan’s response.",
+        "logic_check_reasoning": "Step 1: Slice 48 explicitly shows protesters with signs reading \"PATCO ON STRIKE\" and \"AIR TRAFFIC CONTROLLERS ON STRIKE,\" identifying the event as the PATCO air traffic controllers strike. Step 2: Slice 50 shows a segment titled \"Reagan Responds\" dated AUG 5, 1981, followed by a newspaper headline \"They're Fired,\" indicating Reagan’s response involved firings. Logic holds because the protest is clearly about PATCO/air traffic controllers, and the subsequent segment shows Reagan responding with firings, matching the known sequence of the PATCO strike coverage within the provided context.",
+        "visual_proof": "Clip 1 shows protestors holding signs with 'PATCO' and 'AIR TRAFFIC CONTROLLERS ON STRIKE'. Clip 2 shows a segment titled 'Reagan Responds' dated Aug 5, 1981, followed by a newspaper headline reading 'They're Fired', directly linking the protest to Reagan's response and the firings."
+    },
+    {
+        "question": "Which product is shown launching in 1981 and later shown vanishing in 1985?",
+        "answer": "The McRib sandwich.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a graphic \"McRib Launches\" dated May 23, 1981. Step 2: Slice 31 shows \"McRib Vanishes\" with the year 1985. Conclusion: The product is the McRib.",
+        "logic_check_reasoning": "Step 1: Slice 30 explicitly states 'McRib Launches' with the date May 23, 1981 and shows the McRib sandwich. Step 2: Slice 31 explicitly shows 'McRib Vanishes' with the year 1985 and features the McRib sandwich. Logic holds because the same product (McRib) is depicted launching in 1981 and vanishing in 1985.",
+        "visual_proof": "Clip 1 explicitly shows a title card at 0:09-0:11 stating 'McRib Launches MAY 23, 1981' alongside an image of the sandwich. Clip 2 shows a subsequent title card at 0:02-0:03 stating 'McRib Vanishes 1985', also with an image of the same sandwich. The visual evidence directly links the product name 'McRib' to both the 1981 launch and the 1985 disappearance."
+    },
+    {
+        "question": "Which case is introduced as a mysterious death in 1981 and later shown as being reopened in 2011?",
+        "answer": "Natalie Wood’s death/case.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            81,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 81 displays \"Natalie Wood's Mysterious Death\" dated Nov 29, 1981. Step 2: Slice 83 shows \"Natalie Wood's Case Reopened\" with year 2011. Conclusion: Natalie Wood’s case is reopened.",
+        "logic_check_reasoning": "Step 1: Slice 81 explicitly shows a portrait of Natalie Wood and includes the text \"Natalie Wood's Mysterious Death\" with the date \"Nov 29, 1981,\" introducing her death as mysterious in 1981. Step 2: Slice 83 explicitly includes the text \"Natalie Wood's Case Reopened\" alongside \"2011,\" indicating her case was reopened in 2011. Logic holds because both slices consistently refer to Natalie Wood and directly connect the 1981 mysterious death to the 2011 reopening.",
+        "visual_proof": "Clip 1 displays text 'Natalie Wood's Mysterious Death' with the date 'NOV 29, 1981'. Clip 2 shows text 'Natalie Wood's Case Reopened' with the year '2011', directly linking the same case across both time points."
+    },
+    {
+        "question": "Which rock band is shown as forming in 1981 and then later shown performing live on stage with their logo behind them?",
+        "answer": "Metallica.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            74,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 74 shows a timeline card \"Metallica Forms\" dated Oct 28, 1981. Step 2: Slice 76 shows a live performance with the large \"METALLICA\" logo on stage. Conclusion: The band is Metallica.",
+        "logic_check_reasoning": "Step 1: Slice 74 explicitly shows a graphic with the text 'Metallica Forms' and the date 'Oct 28, 1981,' indicating the band's formation in 1981. Step 2: Slice 76 describes a live performance with a large 'METALLICA' logo behind the band, identifying the performers as Metallica. Logic holds because both slices refer to Metallica: first their formation, then their live performance with their logo.",
+        "visual_proof": "Clip 1 displays a graphic with the text 'Metallica Forms' and the date 'OCT 28, 1981', directly indicating the band's formation. Clip 2 shows a live performance with the band members on stage and the iconic 'METALLICA' logo clearly visible in the background, confirming their identity."
+    },
+    {
+        "question": "Which show is identified with a date in early 1981 using a blue grid/timeline style, and which other show title appears shortly after in a similar timeline graphic format later in the video?",
+        "answer": "\"Dynasty\" (Jan 12, 1981) and \"The People's Court\" (Sep 14, 1981).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows \"Dynasty\" with date Jan 12, 1981 on a grid-like background. Step 2: Slice 61 shows \"The People's Court Debuts\" dated Sep 14, 1981 in a similar timeline-card style. Conclusion: The two shows are Dynasty and The People's Court.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 describes a black screen with a blue grid pattern where the word 'Dynasty' appears above a man and woman, with the date 'Jan 12, 1981' below. This supports the show identified with a date in early 1981 using a blue grid/timeline style. Step 2: Evidence Slice 61 shows a later transition to a title card reading 'The People's Court Debuts' with the date 'SEP 14, 1981,' presented with graphic elements (blue/purple bars) consistent with a timeline/title card format. Logic holds because both slices depict shows linked to specific 1981 dates via stylized title/timeline graphics, matching the question’s description.",
+        "visual_proof": "Clip 1 visually displays a blue grid/timeline graphic with the text '\"Dynasty\" Premieres' and the date 'JAN 12, 1981'. Clip 2 shows a similar blue grid/timeline graphic with the text '\"The People's Court\" Debuts' and the date 'SEP 14, 1981'."
+    },
+    {
+        "question": "Which boxing-related name appears in a celebratory montage about teeth and boxing, and which different boxing legend is featured later in a rescue news story?",
+        "answer": "Spinks and Muhammad Ali.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 8 is a boxing-themed montage centered on Spinks (with text about revealing his teeth). Step 2: Slice 10 focuses on Muhammad Ali saving a man from suicide with a dated news clip. Conclusion: The two boxing figures are Spinks and Muhammad Ali.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes a celebratory, stylized boxing montage with the explicit text 'Spinks Revealed His Teeth,' clearly identifying 'Spinks' as the boxing-related name tied to a teeth/boxing celebration. Step 2: Slice 10 details a later segment focused on Muhammad Ali, including a CBSN news clip stating 'MUHAMMAD ALI SAVES MAN FROM SUICIDE' on January 15, 1981, which is a rescue news story. Logic holds because the question asks for the name in the celebratory montage (Spinks) and the different boxing legend in the rescue story (Muhammad Ali), both explicitly supported by the slices.",
+        "visual_proof": "Clip 1 features a title card that reads 'Spinks Robbed of His Teeth' with a photo of Leon Spinks. Clip 2 features a title card reading 'Ali Saves a Life' with a photo of Muhammad Ali, followed by news footage and photos of Muhammad Ali rescuing a man from a ledge."
+    },
+    {
+        "question": "Which sequence shows labor protests first, then a government-style speaker addressing the strike, and finally Reagan’s response accompanied by a headline about firings?",
+        "answer": "The PATCO air traffic controllers dispute leading to Reagan’s response and the firing headline.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            48,
+            49,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows air traffic controller strike protest signs. Step 2: Slice 49 overlays protest imagery with a modern control-room scene, reinforcing labor-rights conflict framing. Step 3: Slice 50 shows \"Reagan Responds\" and \"They're Fired\" headline. Conclusion: The sequence narrates the escalation to Reagan’s action.",
+        "logic_check_reasoning": "Step 1: Slice 48 shows labor protests with signs like \"PATCO ON STRIKE\" and \"AIR TRAFFIC CONTROLLERS ON STRIKE,\" then shifts to a man in a suit speaking in front of an American flag, consistent with a government-style speaker addressing the strike. Step 2: Slice 50 shows \"Reagan Responds\" dated AUG 5, 1981 and a newspaper headline \"They're Fired,\" which matches Reagan’s response accompanied by a firing headline. The proposed answer succinctly describes this sequence: the PATCO dispute leading to Reagan’s response and the firing headline.",
+        "visual_proof": "Clip 1 shows protesters holding 'PATCO AIR TRAFFIC CONTROLLERS ON STRIKE' signs. Clip 2 overlays a black-and-white protest image over a control room, reinforcing the strike context. Clip 3 features a purple-tinted image of Reagan with the text 'Reagan Responds' dated Aug 5, 1981, followed by a newspaper headline reading 'They're Fired,' directly linking the protest to Reagan's action."
+    },
+    {
+        "question": "Which couple’s romance is shown in an intimate public setting and later echoed by a different couple kissing outside the 'General Hospital' building?",
+        "answer": "An embracing/kissing couple in a bar/club setting is echoed by Luke and Laura’s romance from General Hospital.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            79,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a man and woman passionately kissing in a lively public place near a TV. Step 2: Slice 79 shows a dated card \"Luke & Laura Married\" (Nov 16, 1981), establishing the General Hospital couple. Step 3: Slice 80 shows the General Hospital building and the couple sharing a kiss outdoors. Conclusion: The video thematically connects romance scenes, culminating in Luke & Laura.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows a man and woman passionately embracing and kissing in a public venue (bar/club), clearly an intimate public setting. Step 2: Slice 79 explicitly displays text \"Luke & Laura Married\" with a date, identifying the famous couple. Step 3: Slice 80 begins with a shot of the \"General Hospital\" building and then shows a couple outdoors kissing, reasonably linking to Luke & Laura given Slice 79. Logic holds because the first couple is an unnamed public-setting couple (Slice 17), and the later scene echoes this with Luke & Laura associated with General Hospital (Slices 79 and 80).",
+        "visual_proof": "Clip 1 shows a couple (a man in a red shirt and a woman in pink) embracing intimately in what appears to be a club or backstage area, with a 'No Smoking' sign visible. Clip 3 explicitly shows the 'General Hospital' building and then cuts to the iconic wedding scene of Luke and Laura kissing outside. The question asks for a thematic echo between two different couples in public settings, which is visually supported by these clips."
+    },
+    {
+        "question": "What is the narrative progression from a 'mysterious death' title card, to footage of a boat and a death headline, and then to a later card announcing the case is reopened?",
+        "answer": "Natalie Wood’s death is introduced, then shown with boat and headline coverage, and later the video states her case was reopened in 2011.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            81,
+            82,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 81 introduces \"Natalie Wood's Mysterious Death\" with a date in 1981. Step 2: Slice 82 shows a boat on the water and a newspaper headline about her death plus a news anchor. Step 3: Slice 83 announces \"Natalie Wood's Case Reopened\" with year 2011. Conclusion: The video moves from initial death framing to reportage imagery to reopening.",
+        "logic_check_reasoning": "Step 1: Slice 81 shows a title card explicitly labeled 'Natalie Wood's Mysterious Death' with the date, establishing the initial theme. Step 2: Slice 82 presents footage of a boat and a newspaper headline 'Actress Natalie Wood Dies,' indicating coverage of the death and its context. Step 3: Slice 83 displays a later card stating 'Natalie Wood's Case Reopened' with '2011,' confirming the case reopening. Logic holds because the progression moves from introduction of the death, to visual and headline coverage, to a subsequent update about the case being reopened in 2011.",
+        "visual_proof": "Clip 1 opens with a title card reading 'Natalie Wood's Mysterious Death' dated Nov 29, 1981. Clip 2 shows footage of a boat and newspaper headlines about her death in a boating accident. Clip 3 concludes with a title card stating 'Natalie Wood's Case Reopened' dated 2011. This sequence visually confirms the narrative progression described."
+    },
+    {
+        "question": "Which four slices together build a timeline from early-1980s computer history to an IBM PC marketing-style demonstration, using both a dated milestone and later close-up hardware visuals?",
+        "answer": "The DOS-compatible PC release milestone, a circuit-board-to-desktop reveal, an IBM PC ad demo, and earlier computer/terminal office footage.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            52,
+            53,
+            54,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 52 shows a dated milestone \"DOS-compatible PC Released\" (Aug 12, 1981). Step 2: Slice 53 shows a circuit board and then an early desktop PC with floppy drives and DOS/IBM PC books. Step 3: Slice 54 shows an IBM Personal Computer advertisement with a presenter demonstrating it. Step 4: Slice 55 includes office footage of a suited man interacting with a computer terminal, reinforcing computing adoption context. Conclusion: These slices form a cohesive computing-history thread.",
+        "logic_check_reasoning": "Step 1: Slice 52 explicitly shows the dated milestone 'DOS-compatible PC Released' with Aug 12, 1981, matching the 'early-1980s computer history' anchor. Step 2: Slice 53 provides 'close-up hardware visuals' by starting on a circuit board and zooming to a retro desktop setup. Step 3: Slice 54 is an IBM PC advertisement/demo, fulfilling the 'IBM PC marketing-style demonstration'. Step 4: Slice 55 includes 'earlier computer/terminal office footage' (man at a computer terminal in an office), supporting the timeline context. The proposed answer correctly identifies these four components corresponding to Slices 52, 53, 54, and 55.",
+        "visual_proof": "Clip 1 shows a graphic with the text 'DOS-compatible PC Released' dated Aug 12, 1981. Clip 2 transitions from a circuit board to a shot of the IBM PC on a desk with manuals. Clip 3 features a stylized ad with a man in a bowler hat using an IBM PC, with the text 'The IBM Personal Computer'. Clip 4 includes footage of people using early computer terminals in an office setting. Together, these clips visually construct the requested timeline."
+    },
+    {
+        "question": "Which two separate slices reference a long baseball game, and what later slice shows the same theme culminating in team celebration on the field?",
+        "answer": "The long-game references are shown in the 'Longest Baseball Game Ever' segment and the 'Ballgame Halted After 32 Innings' headline, culminating in a team celebration clip.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            23,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 22 introduces \"Longest Baseball Game Ever\" dated April 10, 1981 and includes game visuals. Step 2: Slice 23 shows a headline \"Ballgame Halted After 32 Innings\" dated June 23, 1981 with Pawtucket Red Sox context. Step 3: Slice 66 shows live baseball action and reinforces the broader baseball montage theme including on-field play. Conclusion: The video ties long-game history to ongoing baseball footage and celebratory baseball moments.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly references a long baseball game via the title card 'Longest Baseball Game Ever' and Pawtucket Red Sox context. Step 2: Slice 23 explicitly references a long game with the headline 'Ballgame Halted After 32 Innings' and details about the Pawtucket Red Sox game. Step 3: Slice 23 also shows a team celebrating on the field at the end, making it the later slice that culminates in celebration. The proposed answer correctly identifies these segments and the culmination.",
+        "visual_proof": "Clip 1 shows a title card reading 'Longest Baseball Game Ever' with a date of April 18, 1981. Clip 2 displays a newspaper headline mentioning a '32-inning, eight-hour game' between the Pawtucket Red Sox and Rochester Red Wings, followed by a graphic stating 'Pawtucket Wins!' on June 23, 1981. Clip 3 visually depicts players celebrating on the field after the game's conclusion, confirming the culmination theme."
+    },
+    {
+        "question": "How does the video trace the McRib across four different time points: a man eating it, its official launch, its disappearance, and its later comeback promotions?",
+        "answer": "It shows someone eating a McRib, then a 1981 launch card, then a 1985 'vanishes' card, and then multiple later-year 'back' promotions (e.g., 1994/2006/2007).",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            30,
+            31,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a man holding and eating a McRib-like sandwich with on-screen text \"McRib Sandwich.\" Step 2: Slice 30 shows \"McRib Launches\" dated May 23, 1981. Step 3: Slice 31 shows \"McRib Vanishes\" in 1985. Step 4: Slice 32 shows multiple comeback promos (1994, 2006, 2007) and people gathering at McDonald’s. Conclusion: The McRib’s timeline is consumption → launch → disappearance → repeated returns.",
+        "logic_check_reasoning": "Step 1: Slice 2 states a man is holding and biting a sandwich identified by on-screen text as a 'McRib Sandwich,' supporting the 'man eating it' time point. Step 2: Slice 30 explicitly shows a graphic 'McRib Launches' with the date May 23, 1981, supporting the official launch. Step 3: Slice 31 shows a yellow frame with 'McRib Vanishes' and the year 1985, supporting the disappearance. Step 4: Slice 32 shows multiple later promotions: 'McRib IS BACK!' in 1994, 'McRib Farewell Tour '06' (with 'McRib Back... 2006'), and 'THE LEGEND RETURNS' in 2007, confirming later comeback promotions. Logic holds because each specified time point is directly depicted in the slices with matching text and visuals.",
+        "visual_proof": "Clip 1 shows a man eating the sandwich. Clip 2 displays a title card reading 'McRib Launches MAY 23, 1981'. Clip 3 shows a card stating 'McRib Vanishes 1985'. Clip 4 includes cards for 'McRib Back 1994', 'McRib Farewell Tour 2005', and 'McRib Back... 2007', confirming the timeline of its appearances and disappearances."
+    }
+]

@@ -1,0 +1,55 @@
+[
+    {
+        "question": "After oil is spread in a pan with a brush, what is the very next cooking action involving a thick green batter?",
+        "answer": "The thick green batter is poured into the pan to start cooking.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a blue brush spreading vegetable oil in the pan. Step 2: Slice 11 shows a ladle pouring thick pale green batter into the oiled pan. Conclusion: The next action is pouring the green batter into the pan.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly shows oil being spread in a pan using a blue brush. Step 2: Slice 11 describes the subsequent cooking step where a ladle pours a thick, pale green batter into the pan. While Slice 11 mentions oil spread with a spoon, the critical action involving the batter is clearly the pouring into the pan. The sequence logically follows oiling then batter pouring, and the tool mismatch is acceptable per instructions.",
+        "visual_proof": "Clip 1 (0:06-0:09) shows vegetable oil being brushed into a black frying pan. Clip 2 (0:01-0:03) immediately follows this action by showing a spoon pouring a dollop of thick, light green batter into the center of that same oiled pan, which is the next step in the cooking process."
+    },
+    {
+        "question": "Which ingredient is labeled as half a piece when it is prepared, and how is it used shortly afterward as a topping?",
+        "answer": "Tomato; it is sliced and then placed on top of the dish as tomato slices.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows tomato being sliced with the text 'Tomato 0.5 pcs'. Step 2: Slice 20 shows fresh tomato slices arranged on top of the creamy-topped layered dish. Conclusion: The half-piece tomato is used as sliced topping.",
+        "logic_check_reasoning": "Step 1: Slice 19 explicitly shows a tomato being sliced and includes the on-screen text \"Tomato 0.5 pcs,\" identifying the ingredient labeled as half a piece. Step 2: Slice 20 describes fresh tomato slices being placed in a circular pattern on top of the creamy base, indicating their use shortly afterward as a topping. Logic holds because the tomato identified in Slice 19 is then used in Slice 20 as topping slices.",
+        "visual_proof": "In Video 1, at 0:05, a text overlay explicitly labels 'Tomato 0.5 pcs' while a hand is slicing a tomato. In Video 2, from 0:01 to 0:08, the freshly sliced tomato pieces are shown being arranged on top of the layered dish."
+    },
+    {
+        "question": "Which two ingredients are combined into a batter before being spooned into hot oil as small patties?",
+        "answer": "A mixed batter containing shredded vegetables and flour/eggs is spooned into hot oil.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            48,
+            50,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows eggs and flour being added into a bowl with chopped greens/meat. Step 2: Slice 50 shows the mixture being stirred into a combined batter. Step 3: Slice 52 shows spoonfuls of this mixture placed into hot oil to form patties. Conclusion: A flour-and-egg bound vegetable mixture is fried as patties.",
+        "logic_check_reasoning": "Step 1: Slice 48 shows two cracked eggs and flour being added to a bowl that already contains chopped meat and green vegetables. Step 2: Slice 50 describes mixing flour, eggs, ham, and shredded vegetables into a smooth mixture, implying a batter. Step 3: Slice 52 shows spooning portions of the vegetable mixture into hot oil to form small patties. The proposed answer states the batter contains shredded vegetables and flour/eggs and is spooned into hot oil, which is directly supported by these slices.",
+        "visual_proof": "Clip 1 shows eggs and flour being added to a bowl with shredded green vegetables (likely zucchini) and diced ham. Clip 2 shows all these ingredients being thoroughly mixed into a cohesive batter. Clip 3 shows this exact mixed batter being spooned into a hot, oiled pan to form small patties. The visual evidence confirms the batter is made from shredded vegetables combined with flour and eggs."
+    },
+    {
+        "question": "What liquid-and-leavening combination is added after eggs and salt are mixed, and what dry ingredient is then incorporated to thicken the mixture?",
+        "answer": "Kefir with baking soda is added, and then flour is incorporated.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            86,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 86 shows eggs mixed with salt, then kefir is poured in and baking soda added. Step 2: Slice 87 shows flour poured in and whisked until smooth. Conclusion: Kefir+soda follow eggs+salt, then flour thickens the mixture.",
+        "logic_check_reasoning": "Step 1: Slice 86 states that after adding eggs and salt and whisking, the person pours kefir into the bowl and adds baking soda. Step 2: Slice 87 shows that flour is then poured into the bowl and mixed until smooth. Logic holds because the question asks for the liquid-and-leavening combination added after eggs and salt (kefir and baking soda) and the subsequent dry ingredient to thicken the mixture (flour), all explicitly shown in the slices.",
+        "visual_proof": "In Video 1, after the eggs and salt are whisked, kefir is poured into the bowl (0:06-0:07), followed by the addition of baking soda (0:08-0:09). In Video 2, flour is then added to the liquid mixture (0:01-0:02) and whisked in to thicken it into a batter (0:03-0:05)."
+    }
+]

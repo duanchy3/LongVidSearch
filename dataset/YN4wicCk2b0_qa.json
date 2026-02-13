@@ -1,0 +1,84 @@
+[
+    {
+        "question": "What later activity shows she’s still using travel time to read, similar to what she was doing early in the trip on the train?",
+        "answer": "She’s reading again on the train ride at the end of the vlog.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows her on a train wearing headphones and reading a book. Step 2: Slice 93 shows her seated on a moving train reading again as she wraps up the solo NYC trip. Conclusion: The recurring activity is reading on a train.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows early in the trip a woman reading a book while riding a moving train. Step 2: Slice 93 shows a person again reading a book on a moving train with text overlays indicating it's the end of the solo NYC trip. Logic holds because both slices depict reading on a train, and Slice 93 explicitly situates the scene at the end, matching the answer's claim.",
+        "visual_proof": "In both clips, the woman is seated on a train and actively reading a physical book. The first clip shows her reading during the day with sunlight coming through the window, while the second clip, which includes text indicating it's the end of her trip ('okay, that is it for my solo nyc trip'), shows her in a similar posture, reading the same or a similar book. This visual continuity confirms she is still reading on the train later in her journey."
+    },
+    {
+        "question": "Which museum visit includes a rule about placing a sticker on your clothing, and what does she do afterward in a grand art-filled room?",
+        "answer": "The Morgan Library & Museum requires the sticker, and afterward she walks through a grand museum room with painted ceilings.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a Morgan Library & Museum ticket and her placing a pink sticker on her coat for admission. Step 2: Slice 4 shows her exploring a grand museum interior with high ceilings and paintings. Conclusion: The sticker is for the Morgan Library & Museum, followed by her walking through a grand museum room.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows a ticket for The Morgan Library & Museum and explicitly states, 'you need to put the sticker on your clothes,' indicating a rule for that museum visit. Step 2: Slice 4 depicts a grand museum room with high ceilings adorned with intricate paintings and shows a woman walking through and exploring the exhibits. Logic holds because the museum context in Slice 3 leads into the museum interior in Slice 4, and the described action matches 'walking through a grand museum room with painted ceilings.'",
+        "visual_proof": "Clip 1 shows an admission ticket for 'The Morgan Library & Museum' followed by the person peeling off a pink sticker and attaching it to their coat. Clip 2 then shows the same person walking through a grand hall with ornate, painted ceilings and bookshelves, confirming the sequence of events described in the answer."
+    },
+    {
+        "question": "How does her museum filming restriction compare across her earlier museum admission process and her later modern art museum visit?",
+        "answer": "Earlier she follows an admission step by putting a sticker on her coat, while later at the modern art museum she’s told she can’t take videos and will show photos instead.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            4,
+            64,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a museum entry process requiring a sticker on clothing. Step 2: Slice 4 shows her calmly exploring museum interiors afterward. Step 3: Slice 64 shows her at the Museum of Modern Art describing that videos aren’t allowed (photos are okay). Step 4: Slice 66 confirms staff said no videos anywhere in the museum and she’ll show pictures instead. Conclusion: Museum rules shift from sticker-based entry procedures to strict no-video filming at MoMA.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 shows the earlier museum context (The Morgan Library & Museum) where the person follows an admission procedure by placing a sticker on their coat; there is no mention of filming restrictions. Step 2: Evidence Slice 64 states at the Museum of Modern Arts she wasn't allowed to take videos (but photos are ok). Step 3: Evidence Slice 66 reinforces that staff told her no videos throughout the entire museum and she will show pictures instead. Logic holds because the answer contrasts the earlier admission step (sticker) with the later explicit no-video rule and intent to share photos.",
+        "visual_proof": "In Clip 1 (0:10-0:12), the woman is visually shown peeling off and applying a pink admission sticker to her coat. In Clip 3 (0:03) and Clip 4 (0:00-0:04), text overlays explicitly state she was not allowed to take videos at the Museum of Modern Arts and will instead show pictures, confirming the restriction."
+    },
+    {
+        "question": "What links her late-night walk to Grand Central with her later statement about leaving New York the next day?",
+        "answer": "She walks her friend to the train at Grand Central late at night, and later she says she’s leaving New York the next day at 2 PM.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            80,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 80 shows it’s late and she’s walking Sana to the train at Grand Central. Step 2: Slice 83 shows her walking at night mentioning she’s leaving New York the next day at 2 PM. Conclusion: The Grand Central farewell happens shortly before her departure plans.",
+        "logic_check_reasoning": "Step 1: Slice 80 shows it's late at night in NY (11:11 PM) and includes the subtitle 'walking Sana to the train right now' plus 'I haven't been here (Grand Central) in so long,' which links the walk to Grand Central and the train. Step 2: Slice 83 states via subtitles that the person is leaving New York the next day at 2 PM. Logic holds because the first scene establishes a late-night walk involving Grand Central and a train, and the later scene explicitly mentions her departure from New York the following day at a specific time.",
+        "visual_proof": "In Clip 1, the woman states it's 11:11 PM and that she is walking 'Sana to the train' near Grand Central. In Clip 2, she explicitly says, 'that's it for my new york trip basically' and 'I'm leaving tomorrow at like 2pm,' directly linking the late-night activity with her imminent departure."
+    },
+    {
+        "question": "Which earlier scene foreshadows her later statement that she gets anxious around crowds?",
+        "answer": "She says her anxiety got the best of her after an embarrassing payment mix-up, and later she discusses crowds making her anxious.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 7 introduces anxiety taking over, tied to an embarrassing moment. Step 2: Slice 16 explicitly connects crowded cozy cafes with her feeling anxious around many people. Conclusion: The anxiety theme starts with the embarrassing incident and continues in her crowd-related reflections.",
+        "logic_check_reasoning": "Step 1: Slice 7 opens with the text 'and then my anxiety got the best of me' and shows her recounting an embarrassing payment mix-up, explicitly tying the incident legit to her anxiety. Step 2 NB: Slice 16 NB cran states she dislikes crowded places because they make her anxious. Logic holds because the earlier explicit reference to her anxiety in the NB Its payment scene foreshadows her later statement about anxiety in crowded settings.",
+        "visual_proof": "In Clip 1, the text overlay at 0:00 reads 'and then my anxiety got the best of me,' followed by her recounting an embarrassing moment. In Clip 2, she explicitly states, 'I just don't like it when there's a lot of people in there,' visually linking her anxiety to crowded spaces."
+    },
+    {
+        "question": "Across the trip, what places does she visit that involve reading or books, and how does the setting shift from retail browsing to traveling?",
+        "answer": "She visits bookstores (including Kinokuniya) and later reads on the train; the setting shifts from browsing shelves in stores to reading while in transit.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            8,
+            9,
+            22,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows her speaking in a bookstore/library-like space with shelves. Step 2: Slice 9 places her in Kinokuniya among manga shelves. Step 3: Slice 22 shows her browsing books in a bookstore aisle and table area. Step 4: Slice 93 shows her reading on the train while concluding the trip. Conclusion: The video repeatedly returns to books, moving from store browsing to travel-time reading.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly identifies Kinokuniya New York and shows the woman browsing manga, confirming a bookstore visit. Step 2: Slice 8 depicts the same woman in a bookstore/library setting with shelves of books, reinforcing that she is in a book-related retail environment. Step 3: Slice 22 shows her browsing in a bookstore, looking at covers and titles, which supports retail browsing. Step 4: Slice 93 shows her reading a book on a moving train, with text overlay referencing a solo NYC trip, indicating a shift to reading while traveling. Logic holds because the context clearly shows bookstore visits (including Kinokuniya) and later reading on a train, matching the described shift from store browsing to in-transit reading.",
+        "visual_proof": "Clip 1 shows her inside a bookstore with manga shelves, and text identifies it as 'Kinokuniya New York'. Clip 3 shows her in another bookstore, browsing books on display tables. Clip 4 shows her sitting on a train, reading a physical book, indicating a shift from stationary retail browsing to reading during transit."
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "question": "During the official public meeting with flags and microphones, what drink container is the sheriff holding, and what different drink does he later use in a quieter personal moment?",
+        "answer": "He holds a green mug at the press-conference table, and later he drinks from a white cup.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows Sheriff Peters at the microphones holding a green mug. Step 2: Slice 18 later shows a calmer shot of the sheriff drinking from a white cup. Conclusion: green mug at the meeting, white cup in the personal moment.",
+        "logic_check_reasoning": "Step 1: Slice 19 explicitly states that during the official meeting with flags and microphones, Sheriff Peters is holding a green mug while gesturing. Step 2: Slice 18 describes a later, quieter personal moment where the sheriff is drinking from a white cup. Logic holds because both slices refer to the sheriff in official and personal contexts, and each provides the specific drink container used in those moments.",
+        "visual_proof": "In Clip 1, during the public meeting, the sheriff is seated at a table with flags and microphones, and he is clearly holding a light green ceramic mug. In Clip 2, during a quieter moment in the same setting (as seen in the wide shot at 0:15), the sheriff is shown taking a sip from a plain white disposable cup."
+    },
+    {
+        "question": "Identify the woman associated with 'Brandt Research' early on, and later describe how her role shifts when she appears at a larger social gathering with name tags.",
+        "answer": "It’s the short-blonde woman with glasses and a 'Brandt Research' name tag; later she is seen at a conference-style social gathering wearing a 'Brandt' name tag while conversing with attendees.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a short-blonde bob-haired woman with glasses and a name tag reading 'Brandt Research.' Step 2: Slice 11 shows a short-blonde woman with a 'Brandt' name tag talking at a larger event. Conclusion: the same 'Brandt' woman is tracked from office/library setting to public gathering.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes a woman with short blonde hair, glasses, and a name tag reading 'Brandt Research,' identifying her as associated with a research organization. Step 2: Slice 11 shows a woman with short blonde hair at a larger event with name tags; her tag reads 'Brandt,' and she is conversing with attendees, consistent with a conference/seminar setting. Logic holds because the visual attributes and name tag continuity ('Brandt Research' to 'Brandt') reasonably indicate the same character, and the answer accurately reflects her identification and later appearance at the social gathering.",
+        "visual_proof": "In Clip 1, the woman has short blonde hair, wears glasses, and has a visible name tag that reads 'brandt research'. In Clip 2, the same woman appears without glasses in a social setting, wearing a different name tag that clearly says 'brandt' (partially visible as 'brandt res...'), indicating her continued association with the organization in a different context."
+    },
+    {
+        "question": "What physical object changes hands between the suited man and the sheriff in the office, and how does this relate to the later moment when the sheriff speaks to the public at microphones?",
+        "answer": "A stack of documents/papers is handed to the sheriff, and later he appears using information in an official press-style setting with microphones and flags.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the suited man handing a stack of papers to the sheriff at a desk. Step 2: Slice 18 shows the sheriff at a formal public meeting/press conference speaking into a microphone. Conclusion: the document handoff precedes and plausibly feeds into the sheriff’s public briefing.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly states that the suited man hands over a stack of papers/documents to the sheriff in the office. Step 2: Slice 18 shows the sheriff later speaking at a press conference with microphones and American flags, explaining something important to the public. Logic holds because the physical object is clearly identified in Slice 4, and the later scene in Slice 18 supports the sheriff addressing the public in an official setting; while it doesn't explicitly link the documents to his speech, the answer's phrasing that he appears using information aligns with the depiction of him explaining important details.",
+        "visual_proof": "In Clip 1 (0:15-0:16), the suited man hands a stack of papers to the sheriff. In Clip 2 (0:18-0:25), the sheriff is seen speaking at a table with microphones in front of an audience, with American flags and a map in the background, indicating an official public address or press conference where he is likely discussing the contents of those documents."
+    },
+    {
+        "question": "Which scene introduces a printed security warning about an investigation and quarantine, and later what kind of outdoor enforcement presence echoes that crisis feeling?",
+        "answer": "The typewritten document with 'SECURITY: ATN INVESTIGATION PENDING' appears first; later there are armed military personnel with rifles patrolling outdoors.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows a typewritten warning about an ATN investigation and military quarantine. Step 2: Slice 78 shows armed soldiers and a military vehicle in a forest search/patrol. Conclusion: the security/quarantine warning aligns with later visible military enforcement activity.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 32 explicitly describes a close-up of a typewritten document reading 'SECURITY: ATN INVESTIGATION PENDING' and mentions an emergency involving military quarantine, which introduces the printed security warning about an investigation and quarantine. Step 2: Scene 2 describes a man in military attire holding a rifle on guard/patrol and another military figure walking through the forest, clearly indicating armed military personnel outdoors. Logic holds because the initial printed warning establishes a crisis, and the subsequent outdoor scenes show an enforcement presence that echoes that crisis feeling.",
+        "visual_proof": "Clip 1 shows a close-up of a typewritten document explicitly stating 'SECY STATE - SECURITY: ATTN INVESTIGATION PNL' and 'ORDERED FOR LOCATION: PECKHAM, CALIFORNIA.' Clip 2 visually confirms the outdoor enforcement presence by showing soldiers in green uniforms, one holding a rifle while sitting on a jeep, and another soldier running through a wooded area, indicating a patrol or response to the crisis."
+    },
+    {
+        "question": "Which man is identified by a name tag as 'James Conway' during the meeting-room interrogation, and later what different name tag appears on a man in the same yellow-shirt-and-red-tie style?",
+        "answer": "James Conway; later a similar yellow-shirt/red-tie man is labeled 'Frank Thomas.'",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            75,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 75 shows a yellow-shirt, red-tie man with a name tag reading 'James Conway.' Step 2: Slice 76 shows a yellow-shirt, red-tie man with a name tag reading 'Frank Thomas.' Conclusion: the distinctive outfit style is reused but the name tag changes.",
+        "logic_check_reasoning": "Step 1: Slice 75 explicitly states that the man on the left, wearing a bright yellow shirt with a red tie, has a name tag reading 'James Conway' during an interrogation-like scene. Step 2: Slice 76 later shows a man in the same yellow-shirt-and-red-tie style with a name tag reading 'Frank Thomas.' Logic holds because both slices describe the same visual style (yellow shirt/red tie) and provide clear, explicit name tags, matching the proposed answer.",
+        "visual_proof": "In both clips, the man in the yellow shirt and red tie has a visible name tag. In Clip 1 (0:00), the name tag clearly reads 'James Conway'. In Clip 2 (0:03-0:06), the same man's name tag is shown again, and it now clearly reads 'Frank Thomas'. This visual evidence directly supports the original answer."
+    },
+    {
+        "question": "What chain of events moves from a tense phone call in a bedroom to a formal office confrontation and then to a bedside crisis scene?",
+        "answer": "A woman has a serious phone call in bed, later two men discuss papers intensely in an office/lab-like setting, and afterward a distressed man lies in bed being attended by two people.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            41,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a woman in bed on the phone in a serious conversation. Step 2: Slice 41 shows an urgent office phone call and tense interaction between two men. Step 3: Slice 45 shows a man in bed in distress with two people at his side. Conclusion: escalating communications culminate in a medical/emotional bedside crisis.",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly shows a woman having a serious phone call while lying in bed, establishing the tense bedroom call. Step 2: The same Slice 17 immediately shifts to two men in an office/lab setting, with one in a suit gesturing to a paper, supporting an intense office discussion; Slice 41 further reinforces a tense office confrontation atmosphere (heated phone call, another man approaching concerned). Step 3: Slice 45 shows a distressed man lying in bed with two people attending him, matching a bedside crisis scene. The proposed answer summarizes this progression without adding unsupported details.",
+        "visual_proof": "Clip 1 shows a woman (Gretchen) in bed on a tense phone call. Clip 2 shows two men in what appears to be a lab or office; one is on the phone while the other observes, and they later have a close conversation. Clip 3 shows a distressed, sweating man lying in bed, with a man and a woman leaning over him, appearing concerned and attending to him."
+    },
+    {
+        "question": "How does the story visually connect nature imagery of insects/arthropods to later scenes of horror-like transformation and infestation?",
+        "answer": "It first shows close-ups of bees and a spider (and other insect imagery), and later shows a grotesque face transformation paired with swarming insects.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            46,
+            47,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows bees on honeycomb and a spider on its web. Step 2: Slice 47 shows a praying mantis eating an insect (continuing the nature motif). Step 3: Slice 54 shows a disturbing face transformation and a surface swarming with insects. Conclusion: early nature close-ups foreshadow later body-horror/infestation imagery.",
+        "logic_check_reasoning": "Step 1: Slice 46 shows close-ups of insects/arthropods (bees on a honeycomb and a spider on its web), explicitly establishing nature imagery. Step 2: Slice 47 adds more insect imagery with a praying mantis eating another insect. Step 3: Slice 54 presents horror-like transformation (grotesque face covered in a plaster-like substance) followed by a swarm of insects, implying infestation. The logic holds because the context first features detailed insect visuals, then later depicts a disturbing transformation accompanied by swarming insects, matching the proposed answer.",
+        "visual_proof": "Clip 1 opens with bees on a honeycomb and a black widow spider in its web. Clip 2 continues the insect theme with a praying mantis and another spider. Clip 3 concludes with a grotesque, white-painted face that is then shown covered in swarming bees, visually linking the initial natural insect imagery to the final horrific infestation."
+    },
+    {
+        "question": "How does the narrative escalate from a security document about quarantine, to field measurement of gamma levels, and then to laboratory gamma analysis equipment?",
+        "answer": "It goes from a typed security/quarantine notice, to outdoor use of a 'Gamma Count' device, and then to lab work involving a 'Gamma Spectrometer.'",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            32,
+            78,
+            81,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows the typed warning about an investigation and military quarantine. Step 2: Slice 78 shows armed military presence in the woods consistent with enforcement/search. Step 3: Slice 81 shows a 'Gamma Count' device being adjusted outdoors, implying field measurement. Step 4: Slice 86 shows a 'Gamma Spectrometer' in a lab for detailed analysis. Conclusion: crisis notice leads to enforcement, measurement in the field, and lab confirmation/analysis.",
+        "logic_check_reasoning": "Step 1: Slice 32 describes a typewritten document stating \"SECURITY: ATN INVESTIGATION PENDING\" and mentions an emergency situation involving military quarantine, supporting the initial security/quarantine notice. Step 2: Slice 81 shows a close-up of a handheld device labeled \"Gamma Count\" being adjusted outdoors, indicating field measurement of gamma levels. Step 3: Slice 86 shows a woman in a lab with equipment labeled \"Gamma Spectrometer,\" supporting lab-based gamma analysis. The progression from security document to field measurement to lab analysis is explicitly depicted across these slices, so the logic holds.",
+        "visual_proof": "Clip 1 shows a printed document with text including 'SECURITY: ATTN INVESTIGATION PSNL' and 'IMMEDIATE MILITARY QUARANTINE'. Clip 3 shows hands operating a handheld device labeled 'GAMMA COUNT' outdoors. Clip 4 shows a woman in a lab setting next to a large machine clearly labeled 'GAMMA SCINTILLATION SPECTROMETER'. The sequence visually confirms the escalation described in the answer."
+    },
+    {
+        "question": "Link the sheriff’s early office investigation to later public accountability and then to a final serious close-up: what are the three stages shown?",
+        "answer": "He searches through files in his office, then appears at a press conference/community meeting with microphones and flags, and later is shown in a serious close-up in an office with blinds.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            18,
+            19,
+            94
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the sheriff rummaging through files in his office. Step 2: Slice 18 shows him at an official public meeting speaking into a microphone. Step 3: Slice 19 continues the press-conference table context with flags and microphones. Step 4: Slice 94 shows a tight, serious close-up of the sheriff against window blinds. Conclusion: investigation → public briefing → continued official scrutiny → reflective/concerned close-up.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows the sheriff in his office rummaging through a file cabinet, indicating an early investigation. Step 2: Slices 18 and 19 depict the sheriff at a community meeting/press conference with microphones and flags, reflecting public accountability. Step 3: Slice 94 presents a serious close-up of the sheriff with horizontal blinds in the background, matching the described final close-up. The sequence logically connects investigation → public address → serious close-up.",
+        "visual_proof": "Clip 1 shows the sheriff in his office searching through file drawers. Clip 2 and Clip 3 show him seated at a table on a stage in front of an audience, with American flags and microphones, indicating a public meeting or press conference. Clip 4 provides a close-up of the sheriff's serious expression in an office setting with window blinds visible in the background."
+    },
+    {
+        "question": "Track the yellow-shirt-and-red-tie figure across civic and corporate settings: where is he first seen addressing a community, where is he later seen in a boardroom-style meeting, and what dramatic incident happens to him at night near a truck?",
+        "answer": "He addresses a community meeting in a hall, later appears in a formal conference-room meeting taking notes/participating, and at night he is violently thrown from a car near a red truck and crawls away injured.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            22,
+            66,
+            73,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the yellow-shirt man speaking at a town-hall/community meeting. Step 2: Slice 66 shows a formal conference-room meeting with a man in a yellow shirt and red tie taking notes. Step 3: Slice 73 shows the same outfit combination continuing in the meeting-room discussion. Step 4: Slice 26 shows the yellow-shirt man at night being thrown from a car near a red truck and then crawling away. Conclusion: the same distinctive figure is linked across public speaking, boardroom discussion, and a nighttime violent incident.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows a man in a yellow shirt addressing an audience in a community hall setting with flags and officials, clearly a civic/community meeting. Step 2: Slice 66 depicts the same visual identifier (yellow shirt, red tie) in a dim conference room engaged in a formal discussion and note-taking, and Slice 73 further supports this with the yellow shirt/red tie figure in a professional meeting setting. Step 3: Slice 26 describes a nighttime incident where a man in a yellow shirt is violently ejected from a car near a red pickup truck and then crawls away injured. The proposed answer matches these details exactly across the slices.",
+        "visual_proof": "Clip 1 shows the man in a yellow shirt and suspenders (not a red tie) addressing an audience in a hall with officials on a stage. Clip 2 and 3 show him in a yellow shirt and red tie sitting at a conference table, taking notes. Clip 4 shows him being ejected from a car at night, landing near a red truck, and crawling away."
+    },
+    {
+        "question": "What is the progression from a man reading/handling a personal letter to a later display of official security paperwork, and what does that shift imply about the story stakes?",
+        "answer": "It moves from an intimate handwritten apology/love letter being read and used in a confrontation to an official typewritten security notice about an investigation and quarantine, implying stakes escalate from personal conflict to institutional crisis.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            34,
+            35,
+            32,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows a handwritten personal letter being read and used in a confrontation. Step 2: Slice 35 continues the tense interpersonal confrontation in the book-lined room. Step 3: Slice 32 shows an official typewritten security document about investigation/quarantine. Step 4: Slice 78 shows armed military presence consistent with a large-scale emergency response. Conclusion: narrative stakes rise from personal betrayal/conflict to official crisis requiring militarized response.",
+        "logic_check_reasoning": "Step 1: Slice 34 shows a close-up of a handwritten, intimate letter being read, with its affectionate content explicitly quoted. It is then used in a tense confrontation between two men, indicating a personal conflict driven by the letter. Step 2: Slice 35 reinforces this confrontation setting in a formal library with a bruised man, maintaining the personal tension. Step 3: Slice 32 presents a close-up of official, typewritten paperwork stating 'SECURITY: ATN INVESTIGATION PENDING' and references an emergency with military quarantine, indicating an institutional-level issue. Step 4: The progression from a personal letter and confrontation (Slices 34/35) to official security documentation and military context (Slice 32) supports the inference that stakes escalate from personal conflict to an institutional crisis.",
+        "visual_proof": "Clip 1 shows a man reading a handwritten letter with emotional content ('I love you Darling Henry... Please Forgive Your Baby'). This leads to a physical confrontation. Clip 3 then shows a typewritten, official document from 'SEC'Y STATE' detailing an 'IMMEDIATE MILITARY QUARANTINE' for 'PECKHAM, CALIFORNIA,' indicating a shift from personal drama to a formal, large-scale emergency response."
+    }
+]

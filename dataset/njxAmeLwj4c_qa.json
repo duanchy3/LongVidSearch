@@ -1,0 +1,112 @@
+[
+    {
+        "question": "What item on the shelves in the space-themed studio is not present in the later minimalist “Creation” set where the speaker sits on an orange chair?",
+        "answer": "A small telescope.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows shelves with items including a small telescope in the space-themed studio. Step 2: Slice 10 shows a minimalist white background with “Creation” and an orange chair, with no shelves or telescope visible. Conclusion: The telescope appears only in the studio scene and is absent in the later set.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes the space-themed studio and explicitly mentions shelves holding items including \"a small telescope.\" Step 2: Slice 10 describes a later minimalist set with a white background, the word \"Creation,\" and the speaker on an orange chair, with no mention of shelves or any items like a telescope. Logic holds because the telescope is explicitly present in the first setting and the second setting is described as minimalist with no shelves or objects, implying the telescope is not present there.",
+        "visual_proof": "In Clip 1, the space-themed studio features shelves with various items, including a small, silver-colored telescope on the top shelf to the left of the speaker. In Clip 2, the minimalist 'Creation' set has no shelves or any objects on them; it is a plain background with only the speaker and an orange chair visible. Therefore, the small telescope from Clip 1 is not present in Clip 2."
+    },
+    {
+        "question": "What is the title of the person shown in the live-action name/title card segment, and what accessory does the recurring cartoon mascot wear in the animated segments that follow?",
+        "answer": "He is an “Executive Director and Speaker (AIG Canada),” and the mascot wears a red bow tie.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 displays “Calvin Smith” with the title “Executive Director and Speaker (AIG Canada).” Step 2: Slice 11 shows the animated rhinoceros mascot wearing a red bow tie. Conclusion: The title is Executive Director and Speaker, and the rhino’s accessory is a red bow tie.",
+        "logic_check_reasoning": "Step 1: Slice 9 states the live-action segment shows 'Calvin Smith' with the on-screen title 'Executive Director and Speaker (AIG Canada).' Step 2: Slice 9 also notes the animated rhino wears a red bow tie. Step 3: Slice 11 corroborates that the animated rhino wears a red bow tie. Logic holds because the title is explicitly given in Slice 9, and the accessory is consistently described in both slices.",
+        "visual_proof": "In Clip 1, the name card clearly displays 'Calvin Smith' with the title 'Executive Director and Speaker (AiG Canada)'. In Clip 2, the animated rhinoceros mascot is visibly wearing a red bow tie around its neck."
+    },
+    {
+        "question": "Which word appears behind the live-action speaker in one segment and is also printed at the bottom of a later quote slide?",
+        "answer": "“Creation basics.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows a green backdrop reading “Creation Basics.” Step 2: Slice 59 shows a quote slide with “Creation basics” written at the bottom. Conclusion: The shared wording is “Creation basics.”",
+        "logic_check_reasoning": "Step 1: Slice 25 states that behind the live-action speaker are the words 'Creation Basics.' Step 2: Slice 59 states that at the bottom of the quote slide, the words 'Creation basics' are printed. Despite minor case differences, both slices explicitly mention the same phrase appearing in both segments. Therefore, the proposed answer is supported by the context.",
+        "visual_proof": "In Clip 1, the words 'reation' and 'sics' are partially visible behind the speaker, clearly part of the phrase 'Creation basics'. In Clip 2, the full phrase 'Creation basics' is printed in green and orange text at the bottom of the quote slide."
+    },
+    {
+        "question": "In the sedimentology slide with bed-thickness terms, what accessory does the mascot wear, and which later geology-focused scene shows the mascot paired with depositional/evaporite diagrams?",
+        "answer": "The mascot wears a red bow tie, and the depositional/evaporite diagrams appear in the later diagram scene.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows the bed-thickness slide with a rhinoceros mascot wearing a red bow tie. Step 2: Slice 27 shows the rhino beside diagrams including depositional environments and “EVAPORITE DEPOSITS.” Conclusion: The bow tie is the accessory, and the later diagram scene is the one with depositional/evaporite diagrams.",
+        "logic_check_reasoning": "Step 1: Slice 20 states the mascot is a cartoon rhinoceros wearing a red bow tie next to the sedimentology slide about bed thickness terms. Step 2: Slice 27 describes a later scene with the same rhino in front of a screen showing diagrams titled 'Schematic diagram showing the main sedimentary depositional environments' and 'EVAPORITE DEPOSITS,' which are the depositional/evaporite diagrams. Logic holds because Slice 27 is clearly a later geology-focused diagram scene featuring those specific diagrams.",
+        "visual_proof": "In both clips, the cartoon rhinoceros mascot is consistently shown wearing a red bow tie. The first clip displays the 'Terms to describe bed thickness' slide. The second clip shows two subsequent slides: first, the 'Schematic diagram showing the main sedimentary depositional environments,' and then the 'EVAPORITE DEPOSITS' diagram. This confirms the mascot is paired with these later geology-focused diagrams."
+    },
+    {
+        "question": "What natural feature is shown in a photo next to the rhino in one scene, and what kind of scientific diagram explicitly references that same feature in a later scene?",
+        "answer": "An upright tree trunk/stump, and a stratigraphic diagram associated with an upright tree stump.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows an image of a large tree trunk embedded in a rock wall beside the rhino. Step 2: Slice 47 presents a stratigraphic diagram labeled as being associated with an upright tree stump. Conclusion: The photo feature is an upright tree trunk/stump, and the later diagram is a stratigraphy diagram tied to an upright tree stump.",
+        "logic_check_reasoning": "Step 1: Slice 45 states that next to the cartoon rhino there is an image of a large tree trunk embedded in a rock wall, identifying the natural feature as a tree trunk. Step 2: Slice 47 shows a stratigraphic diagram explicitly labeled “Stratigraphy in association with an upright tree stump, Joggins, Nova Scotia,” directly referencing an upright tree stump. Step 3: The logic holds because the first scene shows a tree trunk (the natural feature), and the later scene presents a stratigraphic diagram that explicitly references an upright tree stump, clearly tying to the same type of feature.",
+        "visual_proof": "In Clip 1, a photo next to the rhino clearly shows a vertical, fossilized tree trunk embedded in rock layers. In Clip 2, a scientific diagram is displayed with the explicit caption 'Stratigraphy in association with an upright tree stump, Joggins, Nova Scotia,' directly referencing the same type of feature shown in the photo."
+    },
+    {
+        "question": "Which two different backdrops (with different themes) feature a live-action presenter: one about nutrition science and another about creation?",
+        "answer": "Nutrition Genomics and Creation",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows the speaker in front of a “Nutrition Genomics” logo. Step 2: Slice 41 shows the speaker in front of the word “Creation.” Conclusion: The two different backdrops are Nutrition Genomics and Creation.",
+        "logic_check_reasoning": "Step 1: Slice 35 explicitly describes a live presenter with a backdrop/logo reading 'Nutrition Genomics,' clearly indicating a nutrition science theme. Step 2: Slice 41 explicitly describes a live presenter with the word 'Creation' prominently displayed on the backdrop, indicating a creation theme. Logic holds because both slices show live-action presenters with distinct themed backdrops.",
+        "original_text_answer": "“Nutrition Genomics” and “Creation.”",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the backdrop text 'tion' in green and 'ics' in orange, which visually corresponds to 'Nutrition Genomics'. Clip 2 clearly displays the word 'Creation' in green with a leaf symbol above the 'i', confirming the second theme. The presenter is the same in both clips, seated against these distinct backdrops."
+    },
+    {
+        "question": "Which recurring presenter is identified by a name/title card early on, and later another live-action segment shows a different backdrop referencing a major media brand—what brand is it?",
+        "answer": "The name card identifies Calvin Smith, and the later media brand shown is 'Creation' with a leaf logo.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            49,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the name/title card for Calvin Smith. Step 2: Slice 10 establishes the live-action interview/presentation style (orange chair, white background) used in other speaker segments. Step 3: Slice 49 shows a similar live-action speaker setup but with “National Geographic” text in the background. Conclusion: Calvin Smith is identified early, and the later brand shown is National Geographic.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly shows a name/title card identifying 'Calvin Smith' as 'Executive Director and Speaker (AIG Canada)'. Step 2: Slice 49 shows a later live-action segment with a backdrop that includes the text 'National Geographic' in green letters, clearly referencing the major media brand. Step 3: The question asks who is identified early on and what brand appears later; the proposed answer matches these details.",
+        "original_text_answer": "The name card identifies Calvin Smith, and the later media brand shown is National Geographic.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 and Clip 3, a green title card clearly identifies the presenter as 'Calvin Smith, Executive Director and Speaker (AiG Canada)'. In Clip 2, the backdrop behind him shows the word 'Creation' in green letters with a small leaf logo above the 'i', which is visually distinct from the National Geographic logo. No part of the video shows the National Geographic brand."
+    },
+    {
+        "question": "What single character visually ties together the stratigraphy laws diagram, the depositional/evaporite diagrams, and the bed-thickness terminology slide?",
+        "answer": "The cartoon rhinoceros wearing a red bow tie.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            23,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows the red-bow-tie rhino next to the bed/lamina thickness slide. Step 2: Slice 23 shows the same rhino next to a stratigraphy laws diagram. Step 3: Slice 27 shows the same rhino next to depositional environments and evaporite deposit diagrams. Conclusion: The recurring connector is the red-bow-tie cartoon rhino.",
+        "logic_check_reasoning": "Step 1: Slice 20 (bed-thickness terminology) explicitly mentions a cartoon rhinoceros wearing a red bow tie standing by the slide. Step 2: Slice 23 (stratigraphy laws diagram) again features an animated rhinoceros with a red bow tie as a visual anchor next to the diagram. Step 3: Slice 27 (depositional and evaporite diagrams) shows the same gray rhino with a red bow tie in front of the screen while diagrams change. Logic holds because the same character—cartoon rhino with a red bow tie—appears consistently across all three contexts, tying them together.",
+        "visual_proof": "In all three video clips, the same cartoon rhinoceros character is consistently positioned on the left side of the screen. It is depicted with gray skin, two horns, and a distinct red bow tie around its neck. This character appears alongside each of the different educational diagrams: the bed-thickness terminology slide (Clip 1), Steno's laws of stratigraphy diagram (Clip 2), and the depositional environments/evaporite deposits diagrams (Clip 3), visually tying them together as part of a single presentation."
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "question": "After discussing Córdoba with inset images of its university and local music, which drink is later shown as a labeled graphic and then appears as a real bottle in the presenter’s hand?",
+        "answer": "Fernet.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 19 is part of the Córdoba segment (National University, Lago Mar Chiquita, Cuarteto). Step 2: Slice 21 shows the man holding a bottle labeled 'Fernet' following the earlier drink graphic (from the Córdoba discussion sequence). Conclusion: The drink associated in the later continuation is Fernet.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes a discussion about Córdoba with inset images of the National University of Córdoba and local music (Cuarteto), matching the setup in the question. Step 2: Slice 21 explicitly states that one of the men is holding a bottle labeled 'Fernet,' providing direct evidence of the drink's identity in a later scene. The logic holds because the later scene features the drink by name, matching the question's description of it appearing as a real bottle in the presenter’s hand after the Córdoba discussion.",
+        "visual_proof": "In the first clip, the presenters discuss Córdoba with inset images of the 'National Uni. of Córdoba' and 'Cuarteto' music. In the second clip, which follows chronologically, a labeled graphic appears showing a bottle of 'Fernet Branca' next to Coca-Cola, with the text 'Fernet'. Immediately after this graphic, the presenter on the right is visibly holding a small black bottle, consistent with the Fernet Branca shown in the graphic."
+    },
+    {
+        "question": "Which UNESCO-listed natural site shown later matches the earlier inset image of the same landmark that appears while the presenters discuss a yerba mate festival website?",
+        "answer": "Iguazú Falls.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 49 includes an inset with a 'Yerba Mate & Tea Festival' page and an image of Iguazu Falls. Step 2: Slice 50 shows full footage labeled 'Iguazú Falls.' Conclusion: The UNESCO/natural landmark appearing in both places is Iguazú Falls.",
+        "logic_check_reasoning": "Step 1: Slice 49 states that while the presenters discuss a yerba mate festival website, an inset image shows Iguazú Falls. Step 2: Slice 50 shows Iguazú Falls later in the video, explicitly labeled on screen. Step 3: The question asks which UNESCO-listed natural site shown later matches the earlier inset image. The only landmark matching the inset is Iguazú Falls, which is shown later. The logic holds because the same landmark (Iguazú Falls) appears in both contexts, fulfilling the match.",
+        "visual_proof": "In Clip 1 (0:05), an inset image of a large, multi-tiered waterfall surrounded by lush greenery appears while the presenters discuss the 'Yerba mate & Tea festival'. In Clip 2 (0:00), a full-screen shot of the same landmark is shown with the text overlay 'Iguazú Falls', confirming it is the matching UNESCO-listed natural site."
+    },
+    {
+        "question": "A Welsh-community term is introduced in an indoor talk and then its pronunciation is taught by a curly-haired man outdoors with sheep. What is that term?",
+        "answer": "Y Wladfa / Y Wladychfa Gymreig.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 15 introduces Welsh communities and displays 'Y Wladfa / Y Wladychfa Gymreig.' Step 2: Slice 16 shows an outdoor Instagram clip teaching how to pronounce that same term. Conclusion: The term is Y Wladfa / Y Wladychfa Gymreig.",
+        "logic_check_reasoning": "Step 1: Slice 15 explicitly shows an indoor discussion where the text 'Y Wladfa / Y Wladychfa Gymreig (Welsh communities)' appears, indicating the term is introduced in that indoor talk. Step 2: Slice 16 shows a curly-haired man outdoors among sheep teaching pronunciation, with on-screen text stating 'This is how you pronounce it...' and focusing on 'Y Wladfa / Y Wladychfa Gymreig'. Logic holds because both slices reference the same term being introduced indoors and then pronounced outdoors.",
+        "visual_proof": "In Clip 1, two men are indoors discussing 'Welsh communities' with a map of Patagonia. The text overlay clearly displays the term 'Y Wladfa / Y Wladychfa Gymreig (Welsh communities)'. In Clip 2, a curly-haired man is outdoors with black cattle (not sheep, but close) and says, 'This is how you pronounce it....', followed by the same text overlay: 'Y Wladfa / Y Wladychfa Gymreig'. The term is visually presented in both clips as the subject of discussion and pronunciation."
+    },
+    {
+        "question": "Which two locations are both labeled as UNESCO sites—one a colorful mountain and the other Jesuit ruins?",
+        "answer": "Mountain of 7 Colors and the Jesuit mission ruins.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 31 labels the 'Mountain of 7 Colors' as a UNESCO site. Step 2: Slice 50 labels the 'Jesuit mission ruins (UNESCO).' Conclusion: The two UNESCO-labeled sites are the Mountain of 7 Colors and the Jesuit mission ruins.",
+        "logic_check_reasoning": "Step 1: Slice 31 states the 'Mountain of 7 Colors' is shown with a text overlay identifying it as a UNESCO site. Step 2: Slice 50 states the 'Jesuit mission ruins' are shown with the text 'Jesuit mission ruins (UNESCO)' indicating it is a UNESCO World Heritage site. Logic holds because both locations are explicitly labeled as UNESCO sites in the provided context.",
+        "visual_proof": "Clip 1 shows a mountain with vibrant, multi-colored strata, overlaid with the text 'Mountain of 7 colors (UNESCO)'. Clip 2 shows the ruins of a large stone structure, identified by on-screen text as 'Jesuit mission ruins (UNESCO)'. Both labels explicitly identify them as UNESCO sites."
+    },
+    {
+        "question": "Which two separate food items are highlighted in different province-related segments—one a milanesa sandwich and the other empanadas—and which provinces are they tied to?",
+        "answer": "Milanesa sandwich is tied to Tucumán; empanadas are tied to Salta.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            83,
+            63,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 83 shows 'Milanesa sandwich' and a Tucumán soccer statue labeled 'TUCUMÁN.' Step 2: Slice 63 ends with 'Empanadas Salta.' Step 3: Slice 78 explicitly labels Tucumán and shows a lemon prop. Conclusion: Milanesa sandwich aligns with Tucumán, while empanadas are highlighted for Salta.",
+        "logic_check_reasoning": "Step 1: Slice 63 explicitly shows a title screen with 'Empanadas Salta' and images of empanadas, directly tying empanadas to Salta. Step 2: Slice 83 shows an image labeled 'Milanesa sandwich' and then a statue labeled 'TUCUMÁN', indicating the segment is about Tucumán and associating the milanesa sandwich with that province. Step 3: Slice 78 presents 'Tucumán Capital: San Miguel de Tucumán', reinforcing that the content is about Tucumán. The logic holds because the food items are shown within segments that are clearly labeled with the respective provinces.",
+        "visual_proof": "In Clip 1, a 'Milanesa sandwich' is shown at the start, followed by a discussion of Tucumán, including a statue with 'TUCUMÁN' written on it. In Clip 2, after introducing the province of Salta, the presenters discuss and show images of 'Empanadas Saltas'. This visual sequence directly links the milanesa sandwich to Tucumán and the empanadas to Salta."
+    },
+    {
+        "question": "Which province’s segment includes holding up a lemon as a prop, and which drink is later featured via a real bottle prop in a different province segment?",
+        "answer": "Tucumán uses the lemon; Córdoba features Fernet via a bottle.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            78,
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 78 shows Tucumán and the presenter holding a lemon. Step 2: Slice 20 shows a drink graphic labeled 'Fernet.' Step 3: Slice 21 shows a bottle labeled 'Fernet' being held. Conclusion: Lemon prop corresponds to Tucumán; Fernet bottle corresponds to the Córdoba-related drink segment.",
+        "logic_check_reasoning": "Step 1: Slice 78 explicitly shows the text 'Tucumán Capital: San Miguel de Tucumán' while the man on the right holds up a lemon toward the camera, confirming the lemon prop is in the Tucumán segment. Step 2: Slice 21 states one man is holding a bottle labeled 'Fernet' and then shows locations labeled 'Cordoba gateway', 'Canada stream', and 'Villa general Belgrano', tying the real bottle prop (Fernet) to the Córdoba segment. Step 3: This establishes that the lemon is used in Tucumán and the real bottle prop is Fernet in a different segment associated with Córdoba.",
+        "visual_proof": "In Clip 1, during the Tucumán segment, an image of lemons appears on screen. In Clip 2, during the Córdoba segment, a real bottle of Fernet is shown as a prop while the presenters discuss it."
+    },
+    {
+        "question": "Which two distinct Patagonia-related indigenous groups are referenced in different segments, and what are their names?",
+        "answer": "Mapuche and Tehuelches.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            58,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows the label 'Mapuche' with a crowd/flags image. Step 2: Slice 70 shows an inset labeled 'Tehuelches.' Conclusion: The two indigenous groups referenced are Mapuche and Tehuelches.",
+        "logic_check_reasoning": "Step 1: Slice 58 explicitly states that the text 'Mapuche' appears on screen alongside imagery of a Mapuche community, indicating the Mapuche are referenced. Step 2: Slice 70 explicitly notes that the text 'Tehuelches' appears and identifies them as an indigenous group from Patagonia, indicating the Tehuelches are referenced. Step 3: These references occur in different segments (Slice 58 vs. Slice 70), and they are distinct groups. Therefore, the names 'Mapuche' and 'Tehuelches' are fully supported by the context.",
+        "visual_proof": "In the first clip, the text 'Mapuche' is overlaid on an image of a crowd with flags. In the second clip, the text 'Tehuelches' is overlaid on an image of people with a kite, followed by an image of handprints on rock. These are the only two indigenous group names explicitly shown as text overlays in the provided clips."
+    },
+    {
+        "question": "Which natural landscape is labeled with a specific tree name, and which later desert shot shows water-filled circular depressions that contrast with that earlier greenery?",
+        "answer": "The Caldén Tree landscape; the later contrasting scene is the desert with water-filled circular depressions.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a greenish pastoral scene labeled 'Caldén Tree.' Step 2: Slice 61 shows an arid desert with circular depressions, one holding water with a narrow green ring. Conclusion: The video contrasts a named tree landscape with a harsh desert water-source scene.",
+        "logic_check_reasoning": "Step 1: Slice 39 explicitly shows a serene outdoor scene labeled 'Caldén Tree,' identifying the natural landscape with a specific tree name. Step 2: Slice 61 describes a later desert aerial shot featuring circular depressions, one filled with water and surrounded by greenery, emphasizing contrast with the surrounding desolate terrain. Logic holds because the first part matches the labeled tree landscape in Slice 39, and the second part matches the desert scene with water-filled circular depressions in Slice 61.",
+        "visual_proof": "Clip 1 opens with a clear shot of a tree in a grassy field labeled 'Caldén Tree'. Clip 2 shows an aerial view of a barren, brown desert landscape dotted with numerous dark, circular features identified as water-filled depressions. The visual contrast between the green, tree-filled landscape in Clip 1 and the arid, water-pocked desert in Clip 2 directly supports the answer."
+    }
+]

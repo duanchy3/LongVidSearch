@@ -1,0 +1,29 @@
+[
+    {
+        "question": "A person with long braids appears giving commentary in the gallery, and later the same braided person is shown again while the camera zooms in on artworks. What outerwear is she wearing in that later gallery shot?",
+        "answer": "A black leather jacket.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            33,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows a woman with long braids speaking in a gallery setting. Step 2: Slice 50 shows the braided woman again in the gallery, explicitly wearing a black leather jacket. Conclusion: Her outerwear in the later shot is a black leather jacket.",
+        "logic_check_reasoning": "Step 1: Slice 33 introduces a woman with long braids in an art gallery, explicitly noting she is wearing a black leather jacket. Step 2: Slice 50 again shows a woman with long braids in the gallery and explicitly states she is wearing a black leather jacket, then describes the camera zooming in on artworks. Logic holds because both slices describe the same braided woman in the gallery, and Slice 50 ties her presence directly to the sequence where the camera zooms in on artworks, confirming her outerwear in that later shot.",
+        "visual_proof": "In both Clip 1 (0:00-0:02, 0:11-0:15) and Clip 2 (0:00-0:04), the person with long braids is consistently shown wearing a shiny, dark-colored jacket with a high collar. The material has a distinct sheen and texture characteristic of black leather or a similar synthetic material, which matches the description in the original answer."
+    },
+    {
+        "question": "The phrase about flying appears as a book title in one close-up and also appears as signage in a miniature house display. What is the phrase, and where does it appear in each case?",
+        "answer": "“The People Could Fly” appears as a book title on a bookshelf and as “COULD FLY” signage inside the miniature house exhibit.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            37,
+            44,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows a book titled \"The People Could Fly\" on a bookshelf. Step 2: Slice 44 shows a miniature room with a sign reading \"COULD FLY.\" Step 3: Slice 91 reinforces the broader theme with the exhibit title containing \"We Could Fly.\" Conclusion: The phrase about flying recurs as a book title and as miniature-exhibit signage.",
+        "logic_check_reasoning": "Step 1: Slice 37 explicitly states that the camera zooms in on a book titled 'The People Could Fly' by Virginia Hamilton on a bookshelf. Step 2: Slice 44 describes a miniature house exhibit with a sign that reads 'COULD FLY' on the right side of the frame. Logic holds because both slices reference the phrase 'could fly' appearing in the two different contexts asked about: as a book title (Slice 37) and as signage in a miniature house display (Slice 44).",
+        "visual_proof": "In Clip 1, a close-up at 0:15-0:19 clearly shows a book titled \"THE PEOPLE COULD FLY\" by Virginia Hamilton on a shelf. In Clip 2, at 0:02-0:04, a vertical black sign with white text reading \"COULD FLY\" is visible inside the miniature house display on the right side of the frame."
+    }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "question": "Which city is first introduced through a landmark sculpture and later shown with its river dyed green for a holiday celebration?",
+        "answer": "Chicago.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows Cloud Gate (“The Bean”), an iconic Chicago landmark. Step 2: Slice 17 shows the Chicago River dyed green for a celebration (St. Patrick’s Day). Conclusion: Both point to Chicago.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a landmark sculpture, the Cloud Gate ('The Bean'), explicitly identified as being in Chicago. Step 2: Slice 17 shows the Chicago River dyed green for a festive occasion (likely St. Patrick's Day). Logic holds because both slices explicitly reference Chicago, first via the sculpture and later via the river, linking the city consistently.",
+        "visual_proof": "Clip 1 shows the iconic 'Cloud Gate' sculpture (The Bean) in Millennium Park, a well-known Chicago landmark, surrounded by the city's downtown skyline. Clip 2 shows the Chicago River dyed bright green, a tradition for St. Patrick's Day celebrations in Chicago. The presence of both these unique and famous visual identifiers confirms the city is Chicago."
+    },
+    {
+        "question": "Which city is shown at twilight across a large lake and later shown again in a daytime aerial view featuring a very tall tower that stands out?",
+        "answer": "Chicago.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows Chicago’s skyline at twilight viewed across Lake Michigan. Step 2: Slice 19 shows an aerial of Chicago with the Willis Tower prominent. Conclusion: Both scenes depict Chicago.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly describes a twilight panoramic view of Chicago's skyline across Lake Michigan, naming landmarks like Willis Tower and Trump Tower. Step 2: Slice 19 explicitly describes a daytime aerial view of Chicago, noting Willis Tower prominently, Grant Park, Shedd Aquarium, and Lake Michigan. Logic holds because both slices clearly identify the city as Chicago under the described conditions (twilight across a large lake and daytime aerial with a very tall tower).",
+        "visual_proof": "Clip 1 shows the Chicago skyline at twilight, with the Willis Tower (formerly Sears Tower) prominently visible and its lights reflected in Lake Michigan. Clip 2 provides a daytime aerial view of the same city, clearly showing the Willis Tower as the tallest skyscraper in the skyline, along with Grant Park and the Museum Campus adjacent to the lake."
+    },
+    {
+        "question": "Which venue is presented first as a nighttime exterior sign and later referenced on a T-shirt worn by a speaker?",
+        "answer": "Legends (Buddy Guy’s Legends Chicago).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            99
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows a building sign for “Legends Bar & Grill.” Step 2: Slice 99 shows a man wearing a shirt reading “Buddy Guy’s Legends Chicago.” Conclusion: The repeated venue is Legends.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows a nighttime exterior sign reading 'Legends Bar & Grill' with 'LEGENDS.COM,' clearly indicating the venue name 'Legends.' Step 2: Slice 99 shows a speaker wearing a T-shirt that says 'Buddy Guy's Legends Chicago,' again referencing 'Legends.' Logic holds because both slices reference the venue name 'Legends,' first via the exterior sign and later via the T-shirt. The parenthetical detail matches the T-shirt text.",
+        "visual_proof": "Clip 1 shows the exterior of a building at night with a large, illuminated sign that reads 'Buddy Guy's Legends' and 'LIVE BLUES'. Clip 2 features a man wearing a grey T-shirt with the text 'Buddy Guy's Legends Chicago' printed on it, along with a graphic of a guitar and a glass of wine. The name and branding are consistent across both clips, confirming the venue is 'Buddy Guy's Legends Chicago'."
+    },
+    {
+        "question": "A Chicago neighborhood is highlighted using a map pin, and later another Chicago location is also pinpointed on a map. What are the two pinned places?",
+        "answer": "Bridgeport and Logan Square, IL.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            58,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows a map with a pin on Bridgeport in Chicago. Step 2: Slice 36 shows a map with a pin on Lombard, IL near Chicago. Conclusion: The pinned places are Bridgeport and Lombard.",
+        "logic_check_reasoning": "Step 1: Slice 58 explicitly states that a map pin marks the Chicago neighborhood 'Bridgeport.' Step 2: Slice 36 explicitly states that the area around 'Lombard, IL' is marked with a pin on a map centered on Chicago. Therefore, the two pinned places are Bridgeport and Lombard, IL, matching the proposed answer.",
+        "original_text_answer": "Bridgeport and Lombard, IL.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "The first clip clearly shows a map pin on 'Bridgeport, IL'. The second clip shows a different map pin located in 'Logan Square, IL', which is visibly labeled on the map. The original answer incorrectly states 'Lombard, IL' for the second location, which is not shown or pinned in either clip."
+    },
+    {
+        "question": "Which food is shown as a whole dish first and then immediately shown again with a slice being lifted to reveal stretchy cheese?",
+        "answer": "Chicago-style deep-dish pizza.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            87,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 87 shows the full deep-dish pizza. Step 2: Slice 88 shows a slice lifted with cheese stretching. Conclusion: The food is Chicago-style deep-dish pizza.",
+        "logic_check_reasoning": "Step 1: Slice 87 shows a whole deep-dish pizza, described as likely Chicago-style, focusing on the entire dish with sauce and cheese visible. Step 2: Slice 88 shows a slice of a Chicago-style deep-dish pizza being lifted, explicitly noting stretchy melted mozzarella. Logic holds because the first slice presents the whole dish and the next immediately depicts a slice being lifted from the same type of pizza, revealing stretchy cheese.",
+        "visual_proof": "Clip 1 shows a whole Chicago-style deep-dish pizza with a thick crust, topped with tomato sauce and cheese, with one slice already cut. Clip 2 immediately follows, showing a slice being lifted from the same pizza, revealing a significant amount of stretchy, melted mozzarella cheese between the slice and the rest of the pie. The visual continuity and distinct characteristics (thick crust, sauce on top, cheese pull) confirm it is a Chicago-style deep-dish pizza shown first as a whole dish and then with a slice being lifted."
+    },
+    {
+        "question": "Which sports-related location is shown as a stadium entrance and is later echoed by a group of fans wearing team gear while eating at a table?",
+        "answer": "Chicago sports fandom (Wrigley Field and Chicago team fan gear at a table).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows Wrigley Field, home of the Chicago Cubs. Step 2: Slice 20 shows men wearing Chicago Bears hats/jerseys while eating. Conclusion: Both scenes highlight Chicago sports culture.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly identifies the stadium entrance as Wrigley Field, with the red marquee reading 'Wrigley Field.' Step 2: Slice 20 shows four men wearing Chicago Bears hats and jerseys while eating at a table, which echoes the Chicago sports context. Logic holds because both slices reference Chicago sports, and the proposed answer names Wrigley Field and the Chicago team fan gear, matching the visuals.",
+        "visual_proof": "Clip 1 shows the exterior of Wrigley Field, clearly labeled as 'HOME OF CHICAGO CUBS'. Clip 2 shows four men at a table wearing apparel for Chicago teams: two wear 'BEARS' gear, one wears a 'C' logo jacket (Chicago Cubs), and another wears an orange sweater with a 'B' logo (likely Chicago Bulls). This visually connects the stadium to local fan culture."
+    },
+    {
+        "question": "How does the depiction of Chicago’s river change from a normal daytime river scene with a red bridge to a festive aerial scene?",
+        "answer": "It changes from a typical river view to the river being dyed bright green for a celebration.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            17,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a normal river scene with a red bridge and calm water. Step 2: Slice 17 shows the river dyed a vivid green for a festivity. Step 3: Slice 18 returns to a calmer greenish river appearance in the city. Conclusion: The river’s portrayal shifts from normal to dyed green celebration and then back to calmer greenish tones.",
+        "logic_check_reasoning": "Step 1: Slice 16 depicts a normal daytime river scene with a red bridge, calm water, and a cityscape—this supports the 'typical river view.' Step 2: Slice 17 shows an aerial view of the Chicago River dyed a vibrant green for a festive occasion (likely St. Patrick's Day), clearly indicating a celebration. Logic holds because the question asks about the change from a normal scene to a festive aerial scene, and the answer describes exactly that transition.",
+        "visual_proof": "Clip 1 shows the Chicago River with its natural water color under a blue sky, featuring a red bridge and surrounding skyscrapers. Clip 2 presents an aerial view of the same river, now vividly dyed bright green, surrounded by city buildings and bridges, indicating a festive event (St. Patrick’s Day). This visual transition directly supports the answer."
+    },
+    {
+        "question": "A map explains historic migration routes, and later the video shows archival black-and-white urban life footage. What historical topic is being set up by pairing these two segments?",
+        "answer": "The Great Migration and the resulting urban African American population shifts in northern cities.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            13,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows “The Great Migration” map with routes and destination cities. Step 2: Slice 13 shows black-and-white archival urban life scenes. Step 3: Slice 14 shows a detailed map of Chicago districts, grounding the discussion in the city’s neighborhoods. Conclusion: Together they set up the Great Migration’s impact on urban neighborhood life.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows a map titled \"The Great Migration\" depicting African American migration from the South to the North and West (1916–1970), including routes and destination cities. Step 2: Slice 13 presents archival black-and-white urban life scenes from mid-20th century America, consistent with the era and settings where such migrants settled. Step 3: Slice 14 shows a detailed map of Chicago neighborhoods, a northern city and common destination in the Great Migration. Logic holds because the migration map sets the historical context (African American movement north/west), and the subsequent urban footage and Chicago map indicate the urban environments and population shifts in northern cities that resulted from that migration.",
+        "visual_proof": "Clip 1 explicitly labels a map 'THE GREAT MIGRATION' showing routes from Southern states to Northern and Western cities. Clip 2 shows black-and-white archival footage of African American communities in urban settings (street scene, tenements, children on porches), visually representing the destination populations. Clip 3 displays a detailed map of Chicago neighborhoods, a major destination city for migrants, further contextualizing the urban demographic changes."
+    },
+    {
+        "question": "The video highlights multiple Chicago downtown attractions and then later shows the city as a leisure waterfront with beaches. Which set of scenes supports the idea that Chicago is both a landmark city and a recreational lakefront city?",
+        "answer": "Cloud Gate and the Chicago Theatre for landmarks, plus the beach and waterfront aerials for recreation.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            7,
+            15,
+            95,
+            97
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows Cloud Gate (“The Bean”), a major landmark. Step 2: Slice 15 shows the Chicago Theatre downtown. Step 3: Slice 95 shows an aerial of the waterfront with beach and skyline. Step 4: Slice 97 shows a crowded sunny beach with the skyline behind it. Conclusion: Together, these show Chicago as both landmark-rich and lakefront-recreational.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly shows Cloud Gate (The Bean) in Chicago, a downtown landmark. Step 2: Slice 15 explicitly shows the Chicago Theatre, another iconic downtown landmark. Step 3: Slice 95 shows an aerial view of a waterfront with a sandy beach, supporting recreational lakefront imagery. Step 4: Slice 97 shows a busy beach scene with people enjoying activities, further supporting recreational use of the lakefront. The proposed answer cites Cloud Gate and the Chicago Theatre for landmarks and the beach plus waterfront aerials for recreation, which directly match Slices 7, 15, 95, and 97. Therefore, the logic is consistent and fully supported by the context.",
+        "visual_proof": "Clip 1 shows Cloud Gate (The Bean), a famous landmark sculpture in Millennium Park. Clip 2 features the iconic Chicago Theatre with its vertical marquee. Clip 3 provides an aerial view of the city's shoreline and beaches, showcasing the recreational waterfront. Clip 4 shows a crowded public beach with people sunbathing and relaxing, directly illustrating leisure activities along the lakefront. Together, these scenes visually support the dual identity of Chicago as both a landmark-rich downtown and a recreational lakefront city."
+    }
+]

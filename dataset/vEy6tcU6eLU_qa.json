@@ -1,0 +1,206 @@
+[
+    {
+        "question": "Which major international airport is first shown as an inset while the presenter talks, and later appears again in a montage alongside other Indian airports?",
+        "answer": "Delhi Indira Gandhi International Airport (IATA: DEL).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 6 includes an inset of Delhi Indira Gandhi International Airport labeled with its IATA code. Step 2: Slice 7’s airport montage explicitly includes Delhi Indira Gandhi International Airport (DEL) as the first featured airport. Conclusion: The recurring airport is Delhi IGI (DEL).",
+        "logic_check_reasoning": "Step 1: Slice 6 describes the presenter speaking with inset images, and the final inset explicitly shows 'Delhi Indira Gandhi International Airport (IATA: DEL)'. Step 2: Slice 7 details a montage of Indian airports, beginning with 'Delhi Indira Gandhi International Airport (IATA: DEL)'. Logic holds because the same airport is shown during the presenter's segment and later appears in the montage alongside other airports.",
+        "visual_proof": "In Clip 1, the first city shown as an inset while the presenter is talking is New Delhi (0:07), which is served by the Indira Gandhi International Airport. In Clip 2, the very first airport shown in the montage is explicitly labeled 'Delhi Indira Gandhi int (IATA: DEL)' at 0:00-0:02. This confirms that the airport associated with the first city mentioned is also the first one featured in the airport montage."
+    },
+    {
+        "question": "Across the video, what shift occurs from explaining India’s internal political divisions to showing real-world transportation hubs, and which hubs are used as examples?",
+        "answer": "It shifts from states/union territories to airports, using Delhi (DEL), Mumbai (BOM), Bengaluru (BLR), and Chennai (MAA) as examples.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 5 presents India’s administrative breakdown (states and union territories) and major cities. Step 2: Slice 7 transitions into real-world airport footage, listing major hubs with IATA codes (DEL, BOM, BLR, MAA). Conclusion: The narrative moves from political geography to transportation infrastructure exemplified by these airports.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes an administrative map of India with '29 STATES' and '7 UNION TERRITORIES,' focusing on internal political divisions and regions. Step 2: Slice 7 showcases real-world transportation hubs, specifically airports, and lists four examples with IATA codes: Delhi (DEL), Mumbai (BOM), Bengaluru (BLR), and Chennai (MAA). Logic holds because the question asks about a shift from explaining internal divisions to showing transportation hubs, and the examples provided match those in Slice 7.",
+        "visual_proof": "Clip 1 ends by displaying a map of India with its 29 states and 7 union territories highlighted. Clip 2 immediately follows with scenes of four major international airports: Delhi Indira Gandhi (DEL), Mumbai Chhatrapati Shivaji (BOM), Bengaluru Kempegowda (BLR), and Chennai (MAA), each identified with on-screen text showing their IATA codes. This sequence visually confirms the shift from political geography to transportation infrastructure."
+    },
+    {
+        "question": "Which geopolitical boundary is first marked with a red dashed line on a zoomed-in map and later connected to a specific high-altitude contested area labeled on a detailed map?",
+        "answer": "The India–Pakistan Line of Control (LOC), connected to the Siachen Glacier/NJ-9842 area.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 18 zooms from Earth to South Asia and highlights the LOC with a red dashed line, plus a militarized border image. Step 2: Slice 23 shows a detailed map with labels like “NJ-9842” and “SIACHEN GLACIER,” indicating a specific contested zone. Conclusion: The LOC discussion links to the Siachen/NJ-9842 contested area.",
+        "logic_check_reasoning": "Step 1: Slice 18 explicitly states that the zoomed-in map highlights the Line of Control (LOC) between India and Pakistan, marked by a red dashed line. Step 2: Slice 23 shows a detailed topographical map labeled with 'NJ-9842' and 'SIACHEN GLACIER,' along with conflict-suggestive markings ('ACTUAL GROUND POSITION,' 'GROUND ZERO'), indicating a specific high-altitude area of interest. Logic holds because the video first identifies the LOC (red dashed line) and later focuses on NJ-9842/Siachen Glacier, thereby connecting the boundary to that specific area.",
+        "visual_proof": "Clip 1 visually identifies the 'Line of Control' with a red dashed line on a map of South Asia, specifically highlighting the region between India and Pakistan. Clip 2 then zooms into this area, showing the same red dashed line extending to the high-altitude terrain labeled 'NJ-9842' and 'SIACHEN GLACIER', explicitly connecting the geopolitical boundary to this contested region."
+    },
+    {
+        "question": "Which major mountain range is explained as forming due to tectonic collision and is later reinforced by visuals of snowy peaks next to the presenter?",
+        "answer": "The Himalayas.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 30 explains the Indian Plate colliding with the Eurasian Plate, forming the Himalayas, and shows peaks like Everest/Kangchenjunga. Step 2: Slice 31 shows a snowy mountain landscape inset during the presenter segment. Conclusion: The reinforced mountain range is the Himalayas.",
+        "logic_check_reasoning": "Step 1: Slice 30 explicitly states the animation explains the tectonic collision between the Indian Plate and the Eurasian Plate responsible for forming the Himalayas, with inset images of the Himalayas and notable peaks. Step 2: Slice 31 shows a presenter with an inset image of snowy mountain peaks, reinforcing the mountain visuals. Logic holds because the mountain range identified in the tectonic explanation (Himalayas) is the same category of visuals later shown next to the presenter (snowy peaks), supporting the answer.",
+        "visual_proof": "Clip 1 visually explains the formation of the Himalayas through the collision of the Indian and Eurasian tectonic plates, with text labels 'INDIAN PLATE', 'EURASIAN PLATE', and 'HIMALAYAS' appearing on screen. Clip 2 reinforces this by showing a presenter next to an inset image of snowy mountain peaks, which are characteristic of the Himalayas, as shown in the visual from Clip 1."
+    },
+    {
+        "question": "Which animal is shown in a wildlife montage and then later reappears as a smaller inset image while the presenter continues speaking?",
+        "answer": "A tiger.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            34,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 34 includes a tiger lounging on a log during a wildlife sequence. Step 2: Slice 35 shows an inset image of a tiger while the presenter speaks. Conclusion: The recurring animal is the tiger.",
+        "logic_check_reasoning": "Step 1: Slice 34 describes a wildlife montage that prominently features a tiger lounging on a log and later returning to the tiger. Step 2: Slice 35 shows a presenter speaking with a small inset image in the top left corner that displays a tiger lying on the grass. Logic holds because the animal appearing in both the wildlife montage and later as a smaller inset image is explicitly identified as a tiger in both slices.",
+        "visual_proof": "In Video 1, a tiger is shown lying on a log in a lush green environment at timestamp 0:04. In Video 2, the same image of the tiger on the log appears as a smaller inset picture in the top left corner while the presenter speaks, starting at timestamp 0:00."
+    },
+    {
+        "question": "When the video shifts from wildlife imagery to agriculture, what thematic change occurs, and which harvested product appears prominently?",
+        "answer": "It shifts from animals/nature to farming/production, and bananas appear prominently in harvest scenes.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            34,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 34 focuses on wildlife (peacock, elephant, tiger, snake). Step 2: Slice 36 transitions to agriculture montages, starting with banana harvesting. Conclusion: The theme shifts from wildlife to agriculture, featuring bananas.",
+        "logic_check_reasoning": "Step 1: Slice 34 describes wildlife imagery, featuring a peacock, elephant, tiger, and snake, emphasizing natural animal scenes. Step 2: Slice 36 shifts to agriculture, detailing a montage of crops and farming activities, with the opening scene specifically showing workers harvesting green bananas. Logic holds because the thematic change from wildlife to farming/production is explicit across the slices, and bananas are clearly highlighted as the prominent harvested product.",
+        "visual_proof": "Clip 1 displays a sequence of wild animals (peacock, dolphin, snake, elephant, tiger) in natural settings, establishing a wildlife/nature theme. Clip 2 immediately transitions to agricultural scenes: a field of millet, a market stall with oranges, ginger root, and finally, a close-up of harvested bananas hanging in bunches. The prominent visual of bananas in the final frame of Clip 2 confirms they are a key harvested product shown."
+    },
+    {
+        "question": "What are the two specific population-related figures shown in separate contexts—one as a general India population claim and another as a later numeric callout in a film/flags inset?",
+        "answer": "1.3 billion (India population graphic) and \"2 Bil / 10 Bil\" (later inset numeric callouts).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows “POPULATION 0.7 BILLION” in an India ethnicity graphic. Step 2: Slice 58 shows changing inset text including “2 Bil” and “10 Bil.” Conclusion: The two separate numeric population-style callouts are 0.7 billion and 2 Bil/10 Bil.",
+        "logic_check_reasoning": "Step 1: Slice 40 explicitly shows the text \"POPULATION 0.7 BILLION\" in the India ethnicity graphic. Step 2: Slice 58 describes an inset window that displays changing text including numeric values \"2 Bil\" and \"10 Bil.\" Logic holds because the question asks for two population-related figures in separate contexts: the general India population claim (0.7 billion) and later numeric callouts in the film/flags inset (2 Bil and 10 Bil). The proposed answer matches both elements explicitly mentioned in the slices.",
+        "original_text_answer": "“0.7 billion” (India population graphic) and “2 Bil / 10 Bil” (later inset numeric callouts).",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1, the circular graphic at 0:02 explicitly states \"POPULATION 1.3 BILLION\" for India. In Video 2, at 0:20-0:22, the inset shows the Indian flag with \"2 Bil\" and the US flag with \"10 Bil\". The original answer incorrectly stated \"0.7 billion\" for the first figure, which is visually contradicted by the text in the first clip."
+    },
+    {
+        "question": "How does the presentation move from language diversity to an explicit bilingual label, and what is that label?",
+        "answer": "After discussing languages/scripts, it explicitly labels a bilingual pairing as “Hindi + English.”",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            42,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 42 discusses India’s many ethno-linguistic groups and shows language distribution on a map. Step 2: Slice 46 shows the on-screen label “Hindi + English.” Conclusion: The language diversity discussion culminates in an explicit bilingual label: Hindi + English.",
+        "logic_check_reasoning": "Step 1: Slice 42 describes the presenter discussing India's linguistic diversity, including multiple language families and distributions across regions. Step 2: Slice 46 explicitly shows the on-screen text \"Hindi + English,\" indicating a bilingual label. Logic holds because the content moves from general language diversity (Slice 42) to a specific bilingual pairing (Slice 46), and the label is clearly stated as \"Hindi + English.\"",
+        "visual_proof": "Clip 1 ends with the speaker discussing Dravidian languages like Tamil and Telugu. Clip 2 immediately follows, showing the same speaker with large white text on screen that reads 'Hindi + English', indicating a direct transition to this explicit bilingual label."
+    },
+    {
+        "question": "In the staged debate scenes, how does the number of participants change between the earlier discussion and the later restrained scene?",
+        "answer": "It changes from two men debating to three men shown restrained with their hands tied.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows two men (orange shirt and gray shirt) in a discussion. Step 2: Slice 56 shows three men (gray, blue, orange) with hands tied by rope. Conclusion: The participant count increases from two to three, and their state shifts to being restrained.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes an earlier discussion with two men (one in gray, one in orange) engaged in a debate-like scene. Step 2: Slice 56 describes a later scene with three men (gray, light blue, orange) restrained with their hands tied. Logic holds because the number of participants increases from two in the earlier discussion to three in the later restrained scene.",
+        "visual_proof": "In the first clip, two men are shown facing each other in a debate-like interaction. In the second clip, the same two men are now joined by a third man standing behind them; all three have their hands bound with rope, indicating they are restrained."
+    },
+    {
+        "question": "How does the video connect a militarized boundary concept to an escalated dramatic reenactment with flags, and which countries’ flags become central to that reenactment?",
+        "answer": "It goes from explaining the Line of Control to a staged confrontation using India and Pakistan flags prominently.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 18 introduces the LOC with soldiers at a fortified border, establishing militarized tension. Step 2: Slice 20 shows a two-person debate with flags overhead, including the Indian flag. Step 3: Slice 21 escalates to a more tense tableau featuring the Indian and Pakistani flags (and a third flag) above distressed poses. Conclusion: The geopolitical boundary discussion is echoed by a dramatized reenactment centered on India and Pakistan.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows an informative zoom-in to the Line of Control (LOC) between India and Pakistan, with imagery of soldiers and a fortified border, establishing the militarized boundary concept. Step 2: Slice 21 depicts a tense, dramatic scene with two men making distressed and surrender-like gestures, and flags above them including the Indian flag (left) and Pakistani flag (center), indicating an escalated reenactment involving these countries. Step 3: The progression from Slice 18’s LOC explanation to Slice 21’s dramatic flag-centered confrontation connects the boundary concept to a staged conflict, with India and Pakistan’s flags central. Slice 20 reinforces the debate setup with the Indian flag present, though the other flag there is unspecified, and is not necessary for the conclusion.",
+        "visual_proof": "Clip 1 visually introduces the 'Line of Control' with a map and an inset image of soldiers at a barbed-wire fence. Clip 2 shows two men facing off, with the Indian flag positioned near one man and a red logo (representing Pakistan) near the other. Clip 3 escalates this into a physical altercation between two men, now clearly under the flags of India and Pakistan, while a third man reacts dramatically. This sequence directly connects the geopolitical concept to a dramatized conflict centered on these two specific national flags."
+    },
+    {
+        "question": "How does the video connect Indian religious/cultural visuals to a real-world mass gathering event shown later, and what is that event?",
+        "answer": "It shows Hinduism-related imagery and cultural symbols and later cuts to footage of the Kumbh Mela gathering.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            48,
+            51,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows Hinduism visuals and religious statues/artwork during the lecture. Step 2: Slice 51 cycles through cultural/social overlays including religious symbols and crowds. Step 3: Slice 49 shows labeled festival footage “Kumbh Mela” with huge crowds. Conclusion: Religious/cultural framing leads into real-world mass religious gathering footage: Kumbh Mela.",
+        "logic_check_reasoning": "Step 1: Slice 48 describes the speaker alongside visuals tied to Hinduism (deities, temple artwork, religious ceremonies, a procession, and a statue labeled Bharat Mata), establishing Indian religious/cultural imagery. Step 2: Slice 51 adds further religious context with an inset cycling through religious symbols (including Om) and celebrations, reinforcing the thematic focus on religion/culture. Step 3: Slice 49 explicitly shows a large crowd at a festival with on-screen text 'Kumbh Mela,' identifying a real-world mass gathering event. Logic holds because the video includes Indian religious/cultural visuals and also shows the Kumbh Mela gathering; the proposed answer matches both the theme and the event named in the context.",
+        "visual_proof": "Clip 1 displays multiple images associated with Hinduism, including deities like Vishnu and Durga, a Ganesha procession, and the Bharat Mata statue. Clip 2 continues this theme with visuals of the caste system and other major Indian religions. Clip 3 then transitions to wide shots of a massive crowd gathered at a river, explicitly labeled 'Kumbh Mela,' which is a well-known Hindu religious festival. The sequence visually connects the earlier religious/cultural symbols to this specific real-world event."
+    },
+    {
+        "question": "How does the video connect a specific border-country discussion labeled as possibly outdated to a later detailed map segment that zooms into a named Bangladesh region?",
+        "answer": "It flags Bangladesh-related information as “Outdated” and later shows a detailed Bangladesh map around towns like Patgram and Dahagram.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            15,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows a Bangladesh flag with the word “Outdated,” introducing a caution about the information. Step 2: Slice 15 presents a detailed Bangladesh map with multiple labeled towns and boundaries. Step 3: Slice 22 shows a South Asia map with Islamabad marked, continuing the region’s geopolitical mapping context. Conclusion: The Bangladesh ‘outdated’ flag precedes a more detailed Bangladesh map within a broader South Asia mapping thread.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows the speaker with a Bangladesh flag and the word 'Outdated,' indicating a discussion about Bangladesh labeled as possibly outdated. Step 2: Slice 15 presents a detailed map segment focused on a region in Bangladesh, naming towns such as Patgram and Dahagram. Logic holds because the video first flags Bangladesh-related content as 'Outdated' and then zooms into a specific Bangladesh region with named towns, matching the proposed connection.",
+        "visual_proof": "Clip 1 visually displays the word 'Outdated' overlaid on a map showing Bangladesh and India, with the Bangladesh flag. Clip 2 provides a zoomed-in map focusing on specific regions in Bangladesh including Patgram and Dahagram, confirming the transition from a general outdated label to a detailed regional view."
+    },
+    {
+        "question": "Which sequence shows the presenter moving from general India mapping to detailed physical features, and then to a tectonic explanation for the mountains shown?",
+        "answer": "It progresses from a general India map, to labeled rivers/plateaus/ranges, and then to plate tectonics forming the Himalayas.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            32,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows the presenter beside a general map of India with marked locations. Step 2: Slice 32 provides a labeled physical geography map (Indus-Ganga, Vindhyas, Satpuras, Deccan Plateau, Ghats, etc.). Step 3: Slice 30 explains tectonic collision of plates forming the Himalayas. Conclusion: The video builds from general map context to physical features to their geological cause.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows a presenter beside a general map of India, indicating an initial broad mapping context. Step 2: Slice 32 presents a detailed India map with labeled physical features (rivers, plateaus, mountain ranges), matching the move to specifics. Step 3: Slice 30 provides an animation explaining plate tectonics forming the Himalayas, aligning with a tectonic explanation for the mountains. Logic holds because the sequence 29 -> 32 -> 30 directly matches the described progression.",
+        "visual_proof": "Clip 1 starts with a presenter next to a simple map of India. Clip 2 zooms into a detailed topographic map, labeling major physical features like the Indus-Ganga plain, Vindhyas, Satpuras, Deccan Plateau, Ghats, Chota Nagpur, Sundarbans, Thar Desert, and Rann of Kutch. Clip 3 transitions to a tectonic map showing the Indian Plate colliding with the Eurasian Plate, explicitly highlighting the formation of the Himalayas and mentioning Kangchenjunga."
+    },
+    {
+        "question": "How does the video connect the discussion of Indian cultural heritage sites to an iconic monument inset and then to broader historical narration about India’s past political structure?",
+        "answer": "It showcases heritage sites, spotlights the Taj Mahal inset, and then broadens to historical/political narration including princely states and later history timelines.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            26,
+            27,
+            55,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows a montage of Indian landmarks and cultural sites (temples, forts, caves, etc.). Step 2: Slice 27 singles out the Taj Mahal as an inset beside the presenter. Step 3: Slice 55 moves into political-historical framing with a “Princely States” map and democracy imagery. Step 4: Slice 54 provides a broad historical timeline from ancient civilizations through empires and colonial era to modern times. Conclusion: Cultural heritage visuals lead into iconic monuments and then expand into political and historical narrative.",
+        "logic_check_reasoning": "Step 1: Slice 26 describes an educational video highlighting numerous Indian cultural heritage sites (Taj Mahal, Ajanta, Golden Temple, forts, temples), supporting 'showcases heritage sites.' Step 2: Slice 27 explicitly mentions an inset image of the Taj Mahal alongside the presenter, supporting 'spotlights the Taj Mahal inset.' Step 3: Slice 55 shows a map labeled 'Princely States' and references India's democracy and royal descendants, which connects to broader historical/political narration about past political structure. Step 4: Slice 54 presents a full historical timeline from ancient civilizations through empires to colonial and modern periods, supporting 'later history timelines.' The logic holds as the video moves from heritage sites to an iconic monument inset, then expands to political/historical context.",
+        "visual_proof": "Clip 1 visually presents a montage of Indian heritage sites (Golconda Fort, Ajanta Caves, Golden Temple, etc.). Clip 2 features an inset of the Taj Mahal while the speaker continues. Clip 3 transitions to discussing India's political past with visuals of 'Princely States' on a map and images of former royals. Clip 4 further expands into historical timelines showing empires like the Chola, Vijayanagara, and British E.I.C., confirming the progression from cultural sites to political history."
+    },
+    {
+        "question": "How does the video link India’s internal divisions to special union-territory cases and then to a highlighted northeast connectivity constraint?",
+        "answer": "It starts with states/union territories, then focuses on unusual union territories/exclaves, and finally highlights the Siliguri Corridor constraint for the northeast.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 5 presents India’s administrative structure (29 states and 7 union territories). Step 2: Slice 9 zooms into union territories and special cases like islands and exclaves (e.g., Mahe, Yanam). Step 3: Slice 11 highlights the northeast and the Siliguri Corridor bottleneck connecting it to the rest of India. Conclusion: Administrative divisions lead into special territories, then into the northeast connectivity issue.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows an administrative map of India with \"29 STATES\" and \"7 UNION TERRITORIES,\" establishing the internal divisions. Step 2: Slice 9 focuses on union territories and unique cases, highlighting Andaman and Nicobar, Lakshadweep, Daman and Diu, Dadra and Nagar Haveli, Puducherry, and exclaves like Mahe and Yanam, which supports the focus on special union-territory/exclave cases. Step 3: Slice 11 highlights the northeastern \"Seven Sister States\" and the Siliguri Corridor (\"Chicken's Neck\") as a narrow connectivity constraint, matching the final part of the proposed sequence. The logic holds because the slices collectively depict a progression from internal divisions to union territory specifics and then to the northeast connectivity issue.",
+        "visual_proof": "Clip 1 (0:04) shows '29 STATES' and '7 UNION TERRITORIES' overlaid on India's map. Clip 2 (0:06-0:15) zooms in on specific union territories like Delhi, Chandigarh, Lakshadweep, Andaman & Nicobar Islands, Daman & Diu, Dadra & Nagar Haveli, Puducherry, and Karaikal, explicitly labeling them as 'EXCLAVES'. Clip 3 (0:01-0:02) then shifts focus to the northeast, highlighting the 'SEVEN SISTER STATES' and specifically pointing out the 'SILIGURI CORRIDOR 27KM' as a narrow land link."
+    }
+]

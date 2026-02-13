@@ -1,0 +1,95 @@
+[
+    {
+        "question": "Which institution is associated with the expectation of a summer rate cut, and which later headline suggests that hopes for rate moves may be premature?",
+        "answer": "The European Central Bank (ECB) is linked to the expectation of a summer rate cut, and the later headline says it is \"early to get hopes up on rates.\"",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 11 states \"FUEST: EXPECT ECB RATE CUT IN SUMMER,\" tying rate-cut expectations to the ECB. Step 2: Slice 21 shows the headline \"ECB's Wunsch: Early to get hopes up on rates,\" signaling caution. Conclusion: ECB is the institution, and the later headline warns not to get hopes up.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows an overlay stating \"FUEST: EXPECT ECB RATE CUT IN SUMMER,\" explicitly associating the expectation of a summer rate cut with the ECB. Step 2: Slice 21 shows a ticker reading \"ECB's Wunsch: Early to get hopes up on rates,\" which directly suggests that hopes for rate moves may be premature. Logic holds because both statements explicitly reference the ECB and align with the question's two parts.",
+        "visual_proof": "Clip 1 displays a lower-third graphic stating \"FUEST: EXPECT ECB RATE CUT IN SUMMER,\" directly associating the ECB with the expectation. Clip 2 shows a different lower-third graphic reading \"ECB'S WUNSCH: EARLY TO GET HOPES UP ON RATES,\" which suggests that hopes for rate moves may be premature."
+    },
+    {
+        "question": "After the segment about Germany’s business confidence figures, what later chart topic visualizes a different issue discussed by the same guest?",
+        "answer": "The later chart topic is the IFO business climate survey / business climate line graph.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the breaking news about Germany’s Feb IFO business confidence index. Step 2: Slice 7 later shows an \"IFO BUSINESS CLIMATE SURVEY\" line graph while discussing slow productivity growth. Conclusion: the later chart is the IFO business climate survey visualization.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 shows a segment about Germany’s business confidence figures: 'GERMANY FEB IFO BUSINESS CONFIDENCE INDEX 85.5, EST. 85.5,' featuring Clemens Fuest live from Berlin. Step 2: Evidence Slice 7 later shows a chart overlay titled 'IFO BUSINESS CLIMATE SURVEY' with a line graph, during an interview with the same guest (Clemens Fuest), discussing slow productivity growth. Step 3: The question asks what later chart topic visualizes a different issue discussed by the same guest. The later chart topic explicitly shown is the 'IFO BUSINESS CLIMATE SURVEY' line graph, which is different from the initial business confidence figures. Therefore, the proposed answer is supported by the context.",
+        "visual_proof": "Clip 1 (0:00-0:24) features a lower-third graphic about 'GERMANY FEB. IFO BUSINESS CONFIDENCE INDEX'. Clip 2 (0:07-0:23) shows a large screen displaying a line graph titled 'IFO BUSINESS CLIMATE SURVEY', which is a different visualization of economic data, confirming the transition to a new topic discussed by the same guest, Clemens Fuest."
+    },
+    {
+        "question": "What bank is connected both to a CEO interview about a buyback and later to shares jumping on a profit beat?",
+        "answer": "Standard Chartered.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows a CEO interview labeled for Standard Chartered. Step 2: Slice 62 shows the headline \"STANCHART SHARES JUMP ON PROFIT BEAT.\" Conclusion: both refer to Standard Chartered.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows an interview with Bill Winters, identified as the CEO of Standard Chartered, with on-screen text 'STANDARD CHARTERED CEO ON BLOOMBERG,' linking the bank to the CEO interview context. Step 2: Slice 62 displays the caption 'STANCHART SHARES JUMP ON PROFIT BEAT,' where 'Stanchart' is a common shorthand for Standard Chartered, linking the same bank to shares jumping on a profit beat. Logic holds because both slices clearly reference Standard Chartered, connecting the CEO interview and the later stock movement.",
+        "visual_proof": "Clip 1 identifies Bill Winters as the 'STANDARD CHARTERED CEO' during an interview. Clip 2 features a news ticker stating 'STANCHART SHARES JUMP ON PROFIT BEAT'. The name 'Stanchart' is a common abbreviation for Standard Chartered, directly linking both clips to the same bank."
+    },
+    {
+        "question": "Which guest’s comments about ambition with a buyback are followed later by a headline about roles disappearing due to cost cuts?",
+        "answer": "Bill Winters.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows \"WINTERS: NOT LACKING AMBITION WITH BUYBACK\" with Bill Winters identified. Step 2: Slice 50 later shows \"WINTERS: SOME ROLES WILL 'DISAPPEAR' AS A RESULT OF COST CUTS.\" Conclusion: the same guest is Bill Winters.",
+        "logic_check_reasoning": "Step 1: Slice 45 identifies Bill Winters, Standard Chartered CEO, with an on-screen headline stating 'WINTERS: NOT LACKING AMBITION WITH BUYBACK,' indicating his comments about buyback ambition. Step 2: Slice 50 shows a later segment featuring the same guest, with headlines including 'WINTERS: SOME ROLES WILL 'DISAPPEAR' AS A RESULT OF COST CUTS.' Logic holds because both slices explicitly attribute the statements to Bill Winters, showing his buyback ambition comments followed later by a headline about roles disappearing due to cost cuts.",
+        "visual_proof": "Clip 1 shows Bill Winters with the on-screen headline 'WINTERS: NOT LACKING AMBITION WITH BUYBACK'. Clip 2, which is a later segment from the same interview, shows Bill Winters again, and the headline changes to 'WINTERS: SOME ROLES WILL 'DISAPPEAR' AS A RESULT OF COST CUTS'. This sequence visually confirms that Bill Winters's comments on ambition with buybacks were followed by comments about roles disappearing due to cost cuts."
+    },
+    {
+        "question": "Which expert appears in a remote split-screen about Standard Chartered shares jumping and is later also used to discuss HSBC’s buyback announcement?",
+        "answer": "Steven Arons.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            63,
+            64,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 63 identifies Steven Arons of Bloomberg News. Step 2: Slice 64 shows him in split-screen discussing Stanchart and other buyback headlines. Step 3: Slice 66 shows a man in a white shirt (same remote setup) discussing HSBC’s $2B buyback and dividend. Conclusion: the remote expert is Steven Arons.",
+        "logic_check_reasoning": "Step 1: Slice 64 explicitly identifies the expert in the remote split-screen as Steven Arons from Bloomberg News, with the headline 'STANCHART SHARES JUMP ON PROFIT BEAT,' confirming he appears in the segment about Standard Chartered shares. Step 2: Slice 63 also shows Steven Arons (name and affiliation displayed) discussing Stanchart’s performance, reinforcing his role in that topic. Step 3: Slice 66 describes a man in a white shirt with a beard, speaking in a similar indoor, blurred-background setting about HSBC’s $2B buyback; while the name isn’t repeated, the visual attributes match Steven Arons from the previous slices and it is a Bloomberg News segment. Per the instruction to handle VLM noise, the consistent visuals logically indicate the same expert. Therefore, the expert is Steven Arons.",
+        "visual_proof": "The expert Steven Arons is visually identified by his nameplate in Clip 1 (0:04) and Clip 2 (0:13) during the discussion of StanChart's share jump. He is also shown in Clip 3 (0:06) with the same nameplate while discussing HSBC's buyback announcement, confirming he is the same person appearing across both segments."
+    },
+    {
+        "question": "How does the China segment connect street-level visuals to a specific housing-market headline and then to a chart about easing declines?",
+        "answer": "It moves from general China street scenes to the headline that China’s home prices are falling at a slower pace, then to a chart titled that Chinese home price declines are easing.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            29,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows busy urban China visuals labeled \"China's Challenges.\" Step 2: Slice 29 introduces the headline \"CHINA'S HOME PRICES FALL AT SLOWER PACE.\" Step 3: Slice 32 shows the chart \"Chinese Home Price Declines Ease.\" Conclusion: the visuals lead into the housing headline and then supporting chart evidence.",
+        "logic_check_reasoning": "Step 1: Slice 28 opens with street-level visuals in China, establishing the setting. Step 2: Slice 29 shows the program segment with on-screen text stating 'CHINA'S HOME PRICES FALL AT SLOWER PACE,' providing the specific housing-market headline. Step 3: Slice 32 presents a chart titled 'Chinese Home Price Declines Ease,' visually supporting the headline about slower declines. Logic holds because the context explicitly shows a progression from China street visuals to the headline and then to a chart illustrating easing declines.",
+        "visual_proof": "Clip 1 opens with street-level visuals of pedestrians and cyclists in China under the text 'CHINA'S CHALLENGES'. Clip 2 transitions to the anchor, Francine Lacqua, presenting the headline 'CHINA'S HOME PRICES FALL AT SLOWER PACE'. Clip 3 then displays a Bloomberg chart explicitly titled 'Chinese Home Price Declines Ease', visually connecting the narrative from the street scene to the specific housing market data."
+    },
+    {
+        "question": "Which company is first shown with a large stock surge headline, and which later firm is highlighted as surging after a moon-landing milestone?",
+        "answer": "NVIDIA is first shown with the large surge headline, and Intuitive Machines is later highlighted as surging after the moon landing.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            95
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows \"NVIDIA TOPS META RECORD WITH $277 BILLION SURGE IN VALUE.\" Step 2: Slice 95 shows \"Intuitive Machines Surges After Moon Landing.\" Conclusion: NVIDIA is the first surge headline; Intuitive Machines is the later surge after landing.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a stock market update with the headline 'NVIDIA TOPS META RECORD WITH $277 BILLION SURGE IN VALUE,' identifying NVIDIA as the company first shown with a large stock surge headline. Step 2: Slice 95 shows a control room scene with the text 'Intuitive Machines Surges After Moon Landing,' highlighting Intuitive Machines as the later firm surging after a moon-landing milestone. Logic holds because the slices present these headlines in sequence within the video context.",
+        "visual_proof": "In Video 1 (0:03-0:12), a graphic clearly displays 'NVIDIA' with a stock price of 803.66 and a 2.33% increase, accompanied by the headline 'NVIDIA TOPS META RECORD WITH $277 BILLION SURGE IN VALUE'. Later in the same video (0:13-0:16) and continuing into Video 2 (0:08-0:10), the focus shifts to 'INTUITIVE MACHINES INC' with its stock ticker LUNR, showing a massive 64.73% surge, paired with the headline 'FIRST PRIVATE FIRM LANDS INTACT LUNAR VESSEL' and later 'INTUITIVE MACHINES SURGES AFTER MOON LANDING'. This sequence visually confirms the order and context described in the original answer."
+    }
+]

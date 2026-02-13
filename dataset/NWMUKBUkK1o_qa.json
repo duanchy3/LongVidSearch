@@ -1,0 +1,154 @@
+[
+    {
+        "question": "What new danger is introduced after the flight attendant is calmly pushing a cart down the aisle?",
+        "answer": "An armed man moving through the cabin with a gun, turning the situation into a hijacking-like threat.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a flight attendant calmly walking the aisle with a cart and normal passenger activity. Step 2: Slice 3 shows an individual in a brown jacket moving down the aisle holding a gun and passengers looking fearful. Conclusion: The calm cabin routine shifts into a dangerous, armed takeover.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a flight attendant calmly moving down the aisle with a beverage cart, establishing a non-threatening moment. Step 2: Slice 2 then notes rising tension as a man rushes toward the front, suggesting an urgent situation. Step 3: Slice 3 explicitly introduces a new, concrete danger: an individual in the aisle holding a gun, moving with authority and creating a hijacking-like threat. Step 4: Therefore, the context supports that after the calm cart-pushing, the new danger is the presence of an armed man in the cabin.",
+        "visual_proof": "In Clip 1, a flight attendant is seen calmly pushing a cart down the aisle. In Clip 2, which follows chronologically, a man in a brown suit is clearly visible walking down the same aisle holding a black assault rifle, creating an immediate and severe threat to the passengers and crew."
+    },
+    {
+        "question": "What piece of evidence is handled digitally earlier and then later appears as a physical item being exchanged during a tense meeting?",
+        "answer": "An investigative image/article about a Royal Air Force incident appears first on a tablet and later a photograph is handed over as key evidence.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a tablet displaying an RAF-related article with images, being scrolled and examined. Step 2: Slice 17 shows a photograph being physically handed to someone in a serious discussion. Conclusion: Investigation media shifts from digital tablet content to a tangible photo used as evidence.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 13 shows a tablet displaying an investigative article about a Royal Air Force incident, and the article includes photographs (cityscape and images of the three men). This is digital handling of visual evidence. Step 2: Evidence Slice 17 describes a later indoor tense meeting where one man hands over a photograph to another, emphasizing its significance to the plot. Logic holds because the question asks for a piece of evidence that is first handled digitally and later appears physically; the context explicitly shows photos in the digital article and later a physical photograph being exchanged, fitting the proposed answer’s description.",
+        "visual_proof": "In Clip 1, a tablet clearly displays an article with the headline 'Royal Air Force Promet De Faire Toute La Lumière Suite Aux Allégations De Viol Et De Meurtres À Kaboul' alongside photos of three men. In Clip 2, during a tense indoor meeting, a man in a dark jacket hands a physical photograph to another person, which visually matches the content shown on the tablet in Clip 1."
+    },
+    {
+        "question": "Across the story, how does the woman with an afro appear in two very different roles and locations?",
+        "answer": "She appears first in a formal office-like setting in professional attire and later as part of a group moving through a dark corridor/garage during a dangerous search.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            49,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows a woman with an afro in a professional office environment wearing a blazer. Step 2: Slice 40 shows the same afro-haired woman close-up with a cross necklace, reinforcing her identity. Step 3: Slice 49 shows an afro-haired woman in a green jacket moving with a group through a dark industrial/garage setting. Conclusion: The afro-haired woman is tracked across formal office scenes and later a dangerous field/search setting.",
+        "logic_check_reasoning": "Step 1: Slice 36 describes a woman with a voluminous afro in a formal, office-like setting, wearing a dark blazer over a white shirt, reinforcing a professional environment. Step 2: Slice 40 again shows the same woman (afro, dark blazer, white shirt) in an indoor professional/institutional setting, confirming the first role/location. Step 3: Slice 49 depicts a group in a dark, tense, underground/urban environment; it specifically notes a woman with an afro in a green jacket moving through shadowy corridors and includes a police car in a garage, plus scenes of confrontation and escape, indicating a dangerous search-like scenario. Step 4: The proposed answer aligns with these slices: first in a formal office setting with professional attire (Slices 36, 40), then later as part of a group moving through dark corridors/garage during a dangerous situation (Slice 49). The visual attributes connect logically across slices.",
+        "visual_proof": "In Clip 1 and Clip 3, the woman with an afro is shown in a dimly lit room, wearing a dark blazer over a white top with a cross necklace, suggesting a formal or professional role. In Clip 2, she is seen in a different context, wearing a green jacket and helping to carry an unconscious man through a large, dark, industrial-looking space (like a garage or hospital corridor), indicating a shift to a more active, crisis-response role."
+    },
+    {
+        "question": "How does the older gray-haired, mustached man’s role shift from a nighttime operations room into direct involvement aboard the airplane cabin?",
+        "answer": "He goes from being a serious authority figure in a monitoring/operations setting to standing in the airplane aisle addressing or briefing passengers alongside a woman.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            59,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 59 shows an older gray-haired mustached man in a NATO-linked operations room, gesturing while briefing someone. Step 2: Slice 82 shows a gray-haired mustached man in a light suit standing in an airplane aisle addressing passengers. Conclusion: His role shifts from ground-based operations authority to onboard leadership/announcement.",
+        "logic_check_reasoning": "Step 1: Slice 59 presents an older gray-haired, mustached man in a dimly lit control/operations room, acting with authority and urgency while briefing a younger military officer. Step 2: Slice 82 shows a gray-haired, mustached man standing in an airplane aisle, appearing to address passengers, with a woman beside him engaged in the interaction. Logic holds because both slices depict the same type of individual (older, gray hair, mustache) shifting contexts: from an authoritative operations setting to directly addressing people in an airplane cabin, alongside a woman.",
+        "visual_proof": "In Clip 1, the older gray-haired, mustached man is seated in a dimly lit operations room with NATO monitors and maps, appearing engaged in a serious discussion with a uniformed officer. In Clip 2, he is standing in an airplane cabin aisle next to a woman, both looking down toward seated passengers, suggesting a shift from command center to direct passenger interaction."
+    },
+    {
+        "question": "How does a tense corridor conversation involving a handheld device foreshadow later high-stakes team coordination in a room filled with screens and planning tools?",
+        "answer": "A device handoff in a corridor sets up later coordinated briefing/strategy scenes in high-tech rooms with monitors and maps.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            14,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a serious corridor exchange where a tablet is handed over for review. Step 2: Slice 14 shows a high-tech control room discussion tied to aircraft operations. Step 3: Slice 59 shows a NATO-marked operations room with maps/monitors and a formal briefing dynamic. Conclusion: Early device-based intel sharing foreshadows formalized coordination in operations centers.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a tense corridor/room scene where a person in a light blue shirt hands a tablet/electronic device to a man in a dark shirt, who interacts with it amid serious, urgent communication—explicitly a device handoff in a tense setting. Step 2: Slice 59 depicts a dimly lit control/office room with multiple monitors and a map (planning tools), where a serious briefing occurs between an authoritative older man and a younger uniformed officer—explicit team coordination in a high-stakes context. Step 3: Slice 14 further reinforces high-stakes coordination in a high-tech environment with numerous screens and urgent conversation, connecting to operations involving an aircraft. Logic holds because the earlier device handoff (Slice 12) indicates the transfer of critical information that plausibly sets up or foreshadows later coordinated briefings/strategy in rooms filled with screens and maps (Slices 59 and 14).",
+        "visual_proof": "Clip 1 shows a tense interaction in a dimly lit corridor where a man hands a tablet to a woman, indicating a transfer of critical information. Clip 3 visually confirms the 'high-tech room' setting with multiple monitors displaying NATO logos and large wall maps, where two men are engaged in a serious discussion, suggesting strategic planning. The narrative progression from a private handoff to a formal briefing room implies the device's role in enabling the later team coordination."
+    },
+    {
+        "question": "What chain of events links a tense airplane cabin with a speaker addressing passengers, to later a formal aisle address by a suited older man, and finally to a private, serious one-on-one exchange between the older man and another man?",
+        "answer": "First someone addresses passengers in the aisle, later the older mustached man formally addresses passengers, and then he has a tense private conversation with another man.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            82,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a man in dark clothing standing in the aisle addressing passengers. Step 2: Slice 82 shows an older gray-haired mustached man in a light suit addressing passengers with a woman beside him. Step 3: Slice 83 shows the older mustached man in a serious face-to-face conversation with another man indoors. Conclusion: Public cabin addresses transition into a more private, tense discussion involving the older suited figure.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows a tense airplane cabin with a man in a dark polo standing in the aisle addressing passengers, matching the first event ('someone addresses passengers in the aisle'). Step 2: Slice 82 shows an older, gray-haired, mustached man in a light-colored suit formally addressing passengers in the aisle, aligning with the second event ('the older mustached man formally addresses passengers'). Step 3: Slice 83 shows a gray-haired, mustached man in a serious one-on-one conversation with another man, supporting the third event ('then he has a tense private conversation with another man'). The gray-haired mustached man in Slices 82 and 83 is consistent despite outfit differences, which is acceptable per VLM noise handling. The sequence is logically coherent and fully supported by the slices.",
+        "visual_proof": "Clip 1 shows a man in a polo shirt standing in the airplane aisle, gesturing as if speaking to seated passengers. Clip 2 shows an older man with a mustache and a woman standing in the same aisle, appearing to address the cabin. Clip 3 shows a close-up of the older mustached man in a serious, one-on-one conversation with another man who is visibly distressed or injured. The sequence of events and character actions across the three clips visually support the described chain of events."
+    },
+    {
+        "question": "How does the narrative connect ‘a pilot communicating’ to ‘ground search with a flashlight’ to ‘a later hidden captive tied up in a storage-like room’?",
+        "answer": "It moves from cockpit communications, to searching confined spaces with a flashlight, to revealing a bound and gagged captive in a cluttered room.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            21,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows a pilot in the cockpit speaking into a communication device. Step 2: Slice 21 shows two people in a confined area using a flashlight as if searching. Step 3: Slice 72 shows a man bound and gagged on the floor in a cluttered storage/basement-like room. Conclusion: Communication and search activity leads into the discovery/implication of captivity.",
+        "logic_check_reasoning": "Step 1: Slice 18 and Slice 21 both show a pilot in the cockpit communicating (Slice 18: pilot speaking into a radio/intercom; Slice 21: pilot focused and engaged in conversation/instruction). Step 2: Slice 21 then transitions to a confined space where two individuals search with a flashlight, indicating a ground-level search scene. Step 3: Slice 72 presents a man bound and gagged in a cluttered, storage-like room, revealing a captive. Logic holds because the slices depict a progression from cockpit communications to a flashlight search in tight quarters, culminating in the discovery/reveal of a restrained captive in a storage setting. The proposed answer succinctly summarizes this flow without adding unsupported details.",
+        "visual_proof": "Clip 1 shows the pilot communicating via radio in the cockpit. Clip 2 depicts characters searching a dark, confined space (likely the aircraft's underbelly or cargo hold) using flashlights. Clip 3 reveals a man lying on the floor, restrained with handcuffs and seemingly incapacitated in a storage-like area, confirming he is a captive."
+    },
+    {
+        "question": "How does a concern-focused close-up of the woman in a light sweater relate to her later active role speaking to a seated man on the plane and then standing beside an older suited man addressing the cabin?",
+        "answer": "She is shown reflective and serious, then actively conversing with a seated passenger, and later appears as a partner/assistant beside the older suited man addressing everyone.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            80,
+            79,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 80 shows a close-up of the woman in a light sweater looking serious and contemplative. Step 2: Slice 79 shows her standing in the aisle speaking directly to a seated man. Step 3: Slice 82 shows her beside an older suited man while addressing passengers. Conclusion: Her role shifts from private contemplation to direct passenger interaction to public cabin-facing presence.",
+        "logic_check_reasoning": "Step 1: Slice 80 shows a close-up of a woman with shoulder-length brown hair wearing a light-colored sweater over a collared shirt, looking serious and reflective. Step 2: Slice 79 shows the same-looking woman (same hair and outfit) actively speaking to a seated man in an airplane aisle, conveying urgency. Step 3: Slice 82 shows the same woman (same appearance) standing beside an older man in a suit, with both addressing the passengers in the cabin. Logic holds because the consistent visual attributes across slices link the character, and the progression from reflective close-up to active interaction to formal addressing is directly depicted.",
+        "visual_proof": "Clip 1 shows a close-up of the woman with a serious, contemplative expression. Clip 2 shows her standing in the aisle, leaning towards and speaking to a seated man. Clip 3 shows her standing next to an older man in a light suit, both looking forward as if addressing the cabin, indicating a shift from personal concern to active participation and partnership in a public situation."
+    },
+    {
+        "question": "How does the video connect a late-night calm domestic moment to a hospital bedside vigil involving someone with curly hair?",
+        "answer": "A quiet late-night sleeping scene is followed by a somber hospital scene where a curly-haired woman holds an injured man’s hand.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            64,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows a peaceful late-night scene with someone asleep and a clock reading 2:59. Step 2: Slice 65 shows a hospital room where a curly-haired woman holds the hand of a man in a hospital bed with monitors. Conclusion: The narrative transitions from nighttime calm to medical aftermath and caregiving.",
+        "logic_check_reasoning": "Step 1: Slice 64 describes a calm late-night domestic scene with a person sleeping and a clock showing 2:59, emphasizing quiet and stillness. Step 2: Slice 65 depicts a somber hospital room where a curly-haired woman holds a man's hand as he lies in a hospital bed, with medical equipment indicating he may be ill or injured. Logic holds because the two slices juxtapose a tranquil nighttime home setting with a hospital bedside vigil featuring a curly-haired woman, matching the proposed sequencing. While the answer specifies 'injured,' Slice 65 supports illness or injury, and the core connection remains accurate.",
+        "visual_proof": "Clip 1 shows a dimly lit bedroom at 2:59 AM with a person lying in bed, suggesting a late-night domestic moment. Clip 2 transitions to a hospital setting where a woman with curly hair, wearing scrubs, is seen holding the hand of a patient lying in a hospital bed, indicating a bedside vigil."
+    },
+    {
+        "question": "How does the video track a ‘man in yellow’ from being present around a fallen person in a confined space to being present in multiple tense, high-tech or confrontational contexts?",
+        "answer": "He appears standing over a man on the floor in a confined area, shows up in a high-tech setting entering a doorway, and later appears again in serious discussion scenes.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            35,
+            33,
+            73,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows a man in a yellow shirt standing over a man lying on the floor in a confined space. Step 2: Slice 33 shows a man in a yellow shirt entering a high-tech room through a doorway, startled. Step 3: Slice 73 shows a person in a mustard/yellow sweater in a serious three-person discussion with a tablet present. Step 4: Slice 89 shows a man in a casual yellow sweater seated in a tense airplane-cabin conversation. Conclusion: The yellow-clothed male figure appears across confinement aftermath, high-tech tension, planning discussions, and aircraft dialogue.",
+        "logic_check_reasoning": "Step 1: Slice 35 shows a man in a yellow shirt in a confined space, looking down at a fallen person, matching the 'present around a fallen person in a confined space.' Step 2: Slice 33 shows a man in a yellow shirt entering a doorway in a high-tech facility, matching 'shows up in a high-tech setting entering a doorway.' Step 3: Slice 73 presents the middle person in a mustard yellow sweater engaged in a serious discussion, supporting 'later appears again in serious discussion scenes.' Step 4: Slice 89 further shows a man in a yellow sweater in a tense conversation in an airplane cabin, reinforcing multiple tense/confrontational contexts. The visual attribute of yellow clothing logically links these appearances across slices, consistent with VLM noise handling.",
+        "visual_proof": "Clip 1 shows the man in yellow standing near a fallen person in a narrow, dimly lit corridor. Clip 2 shows him entering a doorway in what appears to be a high-tech or industrial environment. Clip 3 and Clip 4 show him engaged in serious discussions with others — first in a control room setting with a tablet, then seated on an airplane in conversation with two other men, one of whom is injured. These visuals confirm his presence across multiple tense contexts as described."
+    },
+    {
+        "question": "How does the storyline connect an airport attack shown on a TV broadcast, to later onboard danger, to later covert movement through dark industrial spaces with bodies on the floor?",
+        "answer": "It connects an initial airport violence report, then escalates into a dangerous situation on a plane, and later shows a team navigating dark corridors where multiple people are down.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            3,
+            45,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a news broadcast with people on the ground, implying an attack/disaster at an airport. Step 2: Slice 3 shows an armed person with a gun in the aircraft cabin, creating onboard danger. Step 3: Slice 45 shows intense turbulence with an injured/unconscious person on the floor, heightening in-flight crisis. Step 4: Slice 49 shows a group moving through dark industrial spaces encountering multiple bodies on the floor. Conclusion: The narrative sustains a thread of mass-casualty danger from airport to plane to later ground operations in dark facilities.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows an airport context with a man watching a TV news broadcast depicting chaos and people lying on the ground, suggesting an attack or disaster. Step 2: Slices 3 and 45 depict onboard danger: a hijacker in the airplane cabin, fearful passengers, an injured person on the floor, and pilots dealing with a tense situation. Step 3: Slice 49 then shows a group covertly moving through dark industrial spaces, ultimately finding rooms with multiple bodies on the floor. Logic holds because the proposed answer summarizes this progression: initial airport violence report, escalation to a dangerous situation on the plane, and later movement through dark corridors with multiple people down, all of which are directly supported by the slices.",
+        "visual_proof": "Clip 1 shows a news report of bodies at an airport (0:12-0:14), followed by a man with a gun confronting pilots in a cockpit (0:19-0:25) and a woman signaling for help onboard (0:31-0:32). Clip 3 continues the onboard danger with a pilot lying injured on the floor (0:01-0:02). Clip 4 shows characters moving through dark industrial spaces (0:00-0:02, 0:08-0:09) and entering a room filled with numerous bodies lying on the floor (0:13-0:14)."
+    }
+]

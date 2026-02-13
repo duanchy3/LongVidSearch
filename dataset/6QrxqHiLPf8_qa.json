@@ -1,0 +1,167 @@
+[
+  {
+    "question": "What object does the presenter first demonstrate while correcting how to say a word, and which country’s flag later appears as a small icon while he continues presenting?",
+    "answer": "He demonstrates a pair of tongs, and the flag is Tonga’s.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      2
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows the presenter correcting “Tong” with text and then holding and clicking a pair of tongs. Step 2: Slice 2 shows the same red-polo presenter with a small Tonga flag icon on screen. Conclusion: The object is tongs and the flag is Tonga’s.",
+    "logic_check_reasoning": "Step 1: Slice 1 describes the presenter showing text about pronunciation ('Tong -a' with a red X) and then picking up and demonstrating a pair of tongs while emphasizing the correct pronunciation ('Tong-AHH!'). This supports that the object demonstrated during the correction is a pair of tongs. Step 2: Slice 2 mentions a small, static image of the flag of Tonga in the upper left corner while the same presenter continues speaking. This supports that the flag is Tonga’s. Logic holds because both slices consistently depict the same presenter (red polo, glasses, dark background) and the events can occur sequentially in the same video.",
+    "visual_proof": "In Clip 1, at 0:06, the presenter holds up a pair of metal tongs while saying 'Tong-AHH!'. In Clip 2, starting at 0:03, the flag of Tonga (red field with a white canton containing a red cross) appears in the top-left corner of the screen as he continues speaking."
+  },
+  {
+    "question": "Which drink is demonstrated being mixed outdoors, and what type of cup does the studio presenter later say is used to serve it?",
+    "answer": "Kava is mixed outdoors, and it’s served in a coconut cup called a kava bilo.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      54,
+      55
+    ],
+    "reasoning_chain": "Step 1: Slice 54 shows an outdoor preparation and mixing of kava. Step 2: Slice 55 shows the studio presenter stating they use coconut cups—“a Kava bilo.” Conclusion: The drink is kava and the serving vessel is a coconut cup (kava bilo).",
+    "logic_check_reasoning": "Step 1: Slice 54 states that outdoors a man prepares and mixes kava and refers to the serving cup as a 'Kava bilo,' a coconut cup. Step 2: Slice 55 shows a studio presenter saying, 'we use our coconut cups which is like a Kava bilo,' confirming the type of cup used to serve it. Logic holds because both slices consistently identify the drink as kava and the serving vessel as a coconut cup referred to as a Kava bilo.",
+    "visual_proof": "In Clip 1, the man outdoors explicitly states 'KAVA! The traditional drink of Tonga!' while mixing it in a bowl. He then holds up a coconut cup and says, 'And we use our coconut cups which is like a Kava bilo.' In Clip 2, the studio presenter repeats this information, reinforcing that the drink is Kava and it is served in a coconut cup referred to as a kava bilo."
+  },
+  {
+    "question": "Which two specific locations are highlighted via satellite labels—first a port, then an airport—while the video zooms over Tongatapu?",
+    "answer": "Nuku'alofa Port and Lulepau'u International Airport (UTP).",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      9
+    ],
+    "reasoning_chain": "Step 1: Slice 8 zooms to a satellite label reading “Nuku’alofa Port.” Step 2: Slice 9 zooms to “Lulepau’u International Airport (UTP)” after highlighting Tongatapu. Conclusion: The port is Nuku’alofa Port and the airport is Lulepau’u International Airport.",
+    "logic_check_reasoning": "Step 1: Slice 8 explicitly states the camera focuses on a location labeled \"Nuku'alofa Port\" in green text, identifying the port. Step 2: Slice 9 shows the camera focusing on Tongatapu and then zooming in to reveal \"Lulepau'u International Airport (IATA: UTP)\" marked by a green label. Logic holds because the two slices clearly highlight, via satellite labels, first a port and then an airport during the zoom over Tongatapu.",
+    "visual_proof": "Clip 1 visually identifies 'Nuku'alofa Port' with a green label over the port area. Clip 2, which focuses on Tongatapu, shows a green label for 'Lulepau'u Int. IATA: UTP' over an airport runway. The sequence of the clips, showing the port first and then the airport on Tongatapu, matches the question's description."
+  },
+  {
+    "question": "Which year is shown for a citizenship-related endpoint alongside a Chinese flag and Tongan passport, and what strict citizenship rule is stated later in the same theme?",
+    "answer": "1998 is shown as ended, and the rule stated is “Citizens of Tongan bloodline only.”",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      40,
+      42
+    ],
+    "reasoning_chain": "Step 1: Slice 40 shows a Chinese flag and a Tongan passport with the text “1998 (Ended).” Step 2: Slice 42 displays text stating “Citizens of Tongan bloodline only.” Conclusion: The endpoint year is 1998 and the rule is bloodline-only citizenship.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 40 states that an image of a Chinese flag and a Tongan passport appears with the text '1998 (Ended),' indicating a year tied to the discussed theme. Step 2: Evidence Slice 42 further clarifies the theme as Tonga's citizenship policies and explicitly shows the text 'Citizens of Tongan bloodline only.' Logic holds because the year is shown alongside the Chinese flag and Tongan passport, and later a strict citizenship rule is stated in the same context.",
+    "visual_proof": "In Video 1, at 0:07, the year '1998 (Ended)' is displayed next to a Chinese flag and a Tongan passport. In Video 2, at 0:04, the text 'Citizens of Tongan bloodline only' appears alongside the Tongan flag and an image of a house, indicating a citizenship restriction."
+  },
+  {
+    "question": "What does the presenter use like an improvised microphone at one point, and what does he hold while presenting in an earlier studio segment?",
+    "answer": "He uses a white cup as an improvised microphone, and earlier he holds a white mug/cup while presenting.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      59
+    ],
+    "reasoning_chain": "Step 1: Slice 3 shows the red-shirt presenter holding a white mug/cup while speaking. Step 2: Slice 59 shows him speaking/singing into a white cup as if it were a microphone. Conclusion: The improvised mic is the cup; earlier he is also holding a white mug/cup.",
+    "logic_check_reasoning": "Step 1: Slice 59 states the man (glasses, red shirt) holds a white cup with a blue logo and appears to be speaking or singing into the cup, using it as an improvised microphone. Step 2: Slice 3 states the same man (glasses, red shirt) is holding a white mug while speaking/presenting against a black background in an educational geography video. Step 3: The answer matches these facts: improvised microphone = white cup (Slice 59), and in an earlier presenting segment he holds a white mug/cup (Slice 3). The minor cup/mug terminology difference is acceptable and logically consistent.",
+    "visual_proof": "In Clip 1 (0:10-0:11), the presenter is seen holding a white cup to his mouth in a manner that mimics using a microphone. In both Clip 1 (e.g., 0:07, 0:13) and Clip 2 (e.g., 0:00, 0:02), he is consistently holding the same white cup/mug with a logo on it while speaking to the camera in the studio setting."
+  },
+  {
+    "question": "Which traditional pre-match performance is shown being performed by a team in red uniforms, and which prop appears in a separate black-background skit involving a man and a woman?",
+    "answer": "A haka-style performance is shown by the team in red, and a bright toy hammer/mallet appears in the skit.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      69,
+      61
+    ],
+    "reasoning_chain": "Step 1: Slice 69 shows rugby players in red jerseys performing a traditional haka-like dance. Step 2: Slice 61 shows a man and woman on a black background with a bright toy hammer being held. Conclusion: The performance is haka-style, and the prop is a toy hammer/mallet.",
+    "logic_check_reasoning": "Step 1: Slice 69 explicitly states that rugby players in red jerseys and white shorts are performing a traditional haka dance. This directly supports identifying the performance as a haka. Step 2: Slice 61 describes a man holding a bright yellow and red toy hammer during a skit against a black background with a woman, which supports the identification of the prop as a bright toy hammer/mallet. The logic holds because both elements in the proposed answer are explicitly described in the respective slices.",
+    "visual_proof": "Clip 1 shows a rugby team in red uniforms performing a synchronized, aggressive pre-match dance with stomping and chest-thumping, characteristic of a haka. Clip 2 shows a man holding a large, bright yellow-green plastic toy hammer with a red handle against a black background while interacting with a woman."
+  },
+  {
+    "question": "What demographic majority percentage is shown for Tonga, and how does that connect to the earlier mention of ‘33 noble families’ in a separate political discussion segment?",
+    "answer": "The graphic shows 97% Tongan, connecting to the political/social structure discussion that references 33 noble families.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      19,
+      62,
+      18
+    ],
+    "reasoning_chain": "Step 1: Slice 19 mentions “33 Noble families” alongside the 2006 Nuku’alofa riots topic. Step 2: Slice 62 shows a demographics pie chart where the largest segment is “97% Tongan” (population 110,000). Step 3: Slice 18 provides monarchy/lineage context that frames elite structures historically. Conclusion: The demographic majority is 97% Tongan and it contextualizes the earlier mention of noble-family political structure.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 62 explicitly shows a Tonga demographics graphic with the largest segment labeled '97% Tongan.' Step 2: Evidence Slice 19 explicitly mentions a political discussion segment where the presenter talks about '33 Noble families.' Step 3: The proposed answer states the majority percentage (97%) and notes a connection to the political/social structure discussion referencing the 33 noble families. The context supports both the percentage and the existence of that discussion, making the linkage appropriate within the video's segments.",
+    "visual_proof": "Clip 2 (0:21-0:24) displays a pie chart under the title 'Tonga Demographics' with a label pointing to the largest segment, clearly stating '97% Tongan'. Clip 1 (0:00-0:05) shows an image of men in traditional attire with the text '33 Noble families', establishing the context of a political/social structure being discussed. The connection is implied by the sequence of topics presented in the same video."
+  },
+  {
+    "question": "Which garment is defined as a unisex waistwrap, and what are the names of the other two traditional wrap/skirts introduced immediately afterward?",
+    "answer": "Tupenu is the unisex waistwrap; the other two are Kiekie and Ta'ovala.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      80,
+      81,
+      74
+    ],
+    "reasoning_chain": "Step 1: Slice 80 explicitly defines “TUPENU = Unisex waistwrap garment.” Step 2: Slice 81 introduces “Kiekie (string skirt)” and “Ta’ovala (woven mat wraps).” Step 3: Slice 74 shows the same cultural presentation style with traditional-attire inset images, reinforcing the cultural-clothing topic. Conclusion: Tupenu is the unisex wrap, and Kiekie/Ta’ovala are the additional garments introduced.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 80 explicitly shows the on-screen text 'TUPENU = Unisex waistwrap garment,' establishing that the tupenu is defined as a unisex waistwrap. Step 2: Evidence Slice 81, featuring the same presenter (woman with long hair in a light green top), immediately introduces two other traditional garments in subsequent scenes: the 'Kiekie' (string skirt) and the 'Ta'ovala' (woven mat wraps). The continuity of presenter and format indicates these follow the tupenu segment. Therefore, the answer is fully supported by the provided slices.",
+    "visual_proof": "Clip 1 explicitly defines 'TUPENU = Unisex waistwrap garment'. Clip 2 then introduces 'Kiekie (String skirt)' and 'Ta'ovala (Woven mat wraps)', showing images of each. The sequence of presentation in the clips directly supports the answer."
+  },
+  {
+    "question": "How does the video connect a comedic correction about misnaming sea creatures with a separate comedic correction about pronunciation near the beginning?",
+    "answer": "It uses visual ‘wrong vs right’ cues in both places: later it labels a bluebottle as ‘NOT Jellyfish,’ and earlier it marks “Tong” as wrong with a red X while teaching the correct pronunciation using tongs.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      47,
+      46,
+      1,
+      6
+    ],
+    "reasoning_chain": "Step 1: Slice 47 explicitly shows a correction gag: bluebottle labeled “NOT Jellyfish,” plus naming/etymology humor about “heptapus” vs octopus. Step 2: Slice 46 builds the identification theme with labeled dangerous species and caution imagery. Step 3: Slice 1 shows a red X over “Tong” while the presenter demonstrates tongs to teach “Tong-AHH!” Step 4: Slice 6 shows another stylized language/grammar text overlay (“Shall’st d’t”), reinforcing the recurring correction/wordplay device. Conclusion: The video repeatedly uses humorous, visualized corrections for both biology terms and pronunciation/grammar.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 shows an early segment where the word 'Tong' is marked with a large red X and the presenter uses actual tongs to teach the correct pronunciation ('Tong-AHH!'), indicating a visual wrong-vs-right correction. Step 2: Evidence Slice 47 shows a later segment where a bluebottle (Portuguese man o' war) is labeled 'NOT Jellyfish,' again using on-screen text to correct a common misidentification, which is a visual wrong-vs-right cue. Step 3: The proposed answer states the video connects these by using visual wrong-vs-right cues in both places, which is directly supported by the slices. The logic holds because both segments employ explicit visual indicators to mark incorrect vs correct identification/pronunciation.",
+    "visual_proof": "In Clip 3, the presenter is shown correcting the pronunciation of 'Tonga' by first displaying the incorrect version \"Tong\"-a with a large red X over it. He then humorously uses a pair of tongs to demonstrate the correct pronunciation. In Clip 1, the video visually corrects a misnomer by showing an image of the Pacific Man o'war next to text that explicitly states 'NOT Jellyfish', establishing a parallel comedic structure of visual correction for both misnaming and mispronunciation."
+  },
+  {
+    "question": "Which four different ‘text-on-screen’ teaching moments appear across the video—covering pronunciation, grammar wording, language pairing, and a cultural role definition?",
+    "answer": "Pronunciation correction with “Tong-AHH!”; a stylized grammar phrase like “Shallist’ed’th’ed”; the “Tongan/English” label; and the definition “Fahu = usually paternal aunt.”",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      1,
+      93,
+      64,
+      76
+    ],
+    "reasoning_chain": "Step 1: Slice 1 uses on-screen text and a red X to teach the correct pronunciation “Tong-AHH!” while showing tongs. Step 2: Slice 93 shows the stylized grammar text “Shallist’ed’th’ed.” Step 3: Slice 64 shows “Tongan/English,” indicating language instruction. Step 4: Slice 76 defines “Fahu” as “Usually paternal aunt,” teaching a cultural kinship role. Conclusion: These are four separate text-driven teaching moments across topics.",
+    "logic_check_reasoning": "Step 1: Slice 1 explicitly shows a pronunciation teaching moment, with text changing to 'Tong-AHH!' after marking 'Tong' with a red X, supporting the pronunciation correction item. Step 2: Slice 93 shows the on-screen text 'Shallist'ed'th'ed', which aligns with a stylized grammar wording, supporting the grammar phrase item. Step 3: Slice 64 displays the text 'Tongan/English' alongside a Tongan flag, supporting the language pairing label item. Step 4: Slice 76 defines 'Fahu' on-screen as 'Usually paternal aunt,' supporting the cultural role definition item. All four elements in the proposed answer match explicit on-screen texts from the slices.",
+    "visual_proof": "Clip 1 shows the text 'Tong'-AHH! as a pronunciation correction. Clip 2 displays the stylized grammar phrase 'Shallist'ed'ith'ed'. Clip 3 presents the 'Tongan/ English' language pairing next to the Tongan flag. Clip 4 defines 'Fahu (Usually paternal aunt)' alongside an image of a woman."
+  },
+  {
+    "question": "Which natural hazard theme is established by the Ring of Fire and deep trench information, and what later on-screen claim ties Tonga specifically to a distinctive political status in Oceania?",
+    "answer": "The hazard theme is volcanism/seismic activity (Ring of Fire, trench/subduction), and the later claim is that Tonga is the only indigenous monarchy-ruled country in Oceania.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      32,
+      17,
+      18
+    ],
+    "reasoning_chain": "Step 1: Slice 32 highlights Ring of Fire context, the Tonga Trench, fast subduction, and major eruptions. Step 2: Slice 17 displays text claiming “Only indigenous Monarchy-ruled Country in Oceania.” Step 3: Slice 18 reinforces monarchy focus by showing a timeline of kings/queens. Conclusion: The hazard context is volcanism/seismicity, and the political status claim is the indigenous monarchy-ruled distinction.",
+    "logic_check_reasoning": "Step 1: Slice 32 describes Tonga’s position on the Ring of Fire, mentions the Tonga Trench and fastest subduction zone, and shows active volcanic eruptions, clearly establishing a volcanism/seismic activity hazard theme. Step 2: Slice 17 explicitly shows on-screen text stating 'Only indigenous Monarchy-ruled Country in Oceania,' which ties Tonga to a distinctive political status. Logic holds because the first part addresses natural hazards (tectonics/volcanism) and the second part cites a direct on-screen claim about political uniqueness.",
+    "visual_proof": "Clip 1 visually establishes the hazard theme by showing the 'Ring of Fire' with a fiery animation, labeling the 'Tonga Trench' as the '2nd Deepest in the World', and identifying the 'Lau Basin' as the 'Fastest Subduction Zone on Earth'. It also highlights the 'Tofua Arc Volcanic Front' with images of erupting volcanoes. Clip 2 then presents the political claim with on-screen text stating 'Only indigenous Monarchy-ruled Country in Oceania' next to an image of a crowned monarch."
+  },
+  {
+    "question": "What chain of topics links a volcanic hazard explanation, then environmental/land-use constraints, then food/agriculture examples, and finally an outdoor demonstration of a traditional drink?",
+    "answer": "Volcanic/seismic hazards (Ring of Fire) → limited arable land (“1/4 Arable”) → local crops/food and fish examples → traditional drink preparation of kava outdoors.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      32,
+      37,
+      38,
+      54
+    ],
+    "reasoning_chain": "Step 1: Slice 32 explains Tonga’s geologic hazards (Ring of Fire, trench/subduction, volcanoes). Step 2: Slice 37 states a land-use constraint with “1/4 Arable.” Step 3: Slice 38 shows crops/food items and fish imagery, representing agriculture and diet. Step 4: Slice 54 shows an outdoor cultural food/drink practice: preparing and serving kava. Conclusion: The video moves from hazard context to land constraints to food examples to a traditional drink demonstration.",
+    "logic_check_reasoning": "Step 1: Slice 32 explicitly covers volcanic/seismic hazards, highlighting Tonga’s location on the Ring of Fire and showcasing active eruptions and the Hunga Tonga-Hunga Ha'apai event. Step 2: Slice 37 shows a man presenting with on-screen text '1/4 Arable,' indicating land-use constraints. Step 3: Slice 38 lists food/agriculture items (Squash, Coconuts, Bananas, Vanilla) and shows a skipjack tuna image, providing local crops and fish examples. Step 4: Slice 54 demonstrates the outdoor preparation of kava, a traditional Tongan drink, with detailed visuals of mixing and serving. The sequence matches the proposed chain exactly.",
+    "visual_proof": "Clip 1 visually details Tonga's location on the 'Ring of Fire' with labels for the 'Tonga Trench' and 'Fastest Subduction Zone,' establishing volcanic hazards. Clip 2 shows a man speaking while an inset image displays farmland, with text overlay stating '1/4 Arable,' indicating land-use constraints. Clip 3 continues this theme by showing agricultural fields with the Tongan flag and text listing crops like 'Squash, Coconuts, Bananas, Vanilla,' followed by an illustration of tuna, covering food/agriculture. Finally, Clip 4 depicts a man outdoors preparing and drinking from a bowl, with subtitles identifying it as 'KAVA! The traditional drink of Tonga!' and explaining the use of a 'Kumete' and 'coconut cups,' confirming the final topic."
+  }
+]

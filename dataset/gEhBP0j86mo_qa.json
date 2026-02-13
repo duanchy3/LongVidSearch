@@ -1,0 +1,80 @@
+[
+    {
+        "question": "What item placed on a table symbolizes remembrance in the hall, and what national symbol appears behind the main speaking area in other shots?",
+        "answer": "A bouquet of white flowers, and the German eagle emblem.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a bouquet of white flowers set on a table in the foreground as a tribute. Step 2: Slice 39 shows the Bundestag chamber with the large German eagle emblem behind the stage area. Conclusion: The symbolic item is white flowers, and the national symbol is the eagle emblem.",
+        "logic_check_reasoning": "Step 1: Slice 45 explicitly states there is a table with a bouquet of white flowers that symbolizes respect and remembrance. Step 2: Slice 39 explicitly describes a large eagle emblem dominating the backdrop above the stage area, identifying it as a symbol of German unity and strength, i.e., the national symbol behind the main speaking area. Logic holds because both items are directly mentioned in the respective slices and match the proposed answer.",
+        "visual_proof": "In Clip 1, multiple bouquets of white flowers are clearly visible on a central table in the hall. In Clip 2, a large, stylized silver eagle emblem, which is the coat of arms of Germany, is prominently displayed on the wall behind the main speaking podium."
+    },
+    {
+        "question": "What action by an audience member suggests personal documentation of the event, and what broadcast cue indicates the ceremony is being shown in real time?",
+        "answer": "An attendee holds up a smartphone to record, and the on-screen 'LIVE' indicator shows it is real time.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a man in the audience holding up a smartphone, likely recording. Step 2: Slice 35 includes a 'LIVE' label in the broadcast graphics. Conclusion: Recording by phone coincides with a live-broadcast event.",
+        "logic_check_reasoning": "Step 1: Slice 13 states an audience member is holding up a smartphone, likely recording or taking photos, which indicates personal documentation. Step 2: Slice 35 explicitly mentions the word 'LIVE' displayed on the screen, indicating a live broadcast in real time. The logic holds because each part of the answer maps directly to these descriptions.",
+        "visual_proof": "In the first clip (0:00-0:05), a man in the audience is clearly seen holding a smartphone horizontally, pointing it forward as if recording or taking a photo. In both clips, the red banner at the bottom right corner of the screen displays the word 'LIVE', indicating a live broadcast."
+    },
+    {
+        "question": "Which flags are shown in the chamber in later wide shots, and what earlier wide-shot feature anchors the front of the chamber behind the speaker?",
+        "answer": "German and EU flags are shown; earlier shots emphasize the large German eagle emblem behind the speaker area.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            87,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 87 shows the German flag and the European Union flag near the podium. Step 2: Slice 39 shows the chamber anchored by the prominent German eagle emblem behind the stage. Conclusion: The flags are German and EU, and the earlier anchoring feature is the eagle emblem.",
+        "logic_check_reasoning": "Step 1: Slice 87 explicitly states that the platform is adorned with the German flag and the European Union flag, supporting the claim about flags shown in later wide shots. Step 2: Slice 39 describes a large, imposing eagle emblem dominating the backdrop above the stage area, which aligns with the earlier wide-shot feature anchoring the front of the chamber behind the speaker. Logic holds because each part of the proposed answer directly matches details provided in the respective slices.",
+        "visual_proof": "In Clip 1, a wide shot reveals both the German flag (black-red-gold) and the EU flag (blue with yellow stars) positioned on either side of the central podium. In Clip 2, which is a later, wider shot, these same two flags are clearly visible. The same clip prominently features the large, metallic German eagle emblem mounted on the wall directly behind the speaker's podium, anchoring the front of the chamber."
+    },
+    {
+        "question": "What visual media is displayed on a large screen earlier in the ceremony, and later what different type of historical image is shown on a screen?",
+        "answer": "A black-and-white photo of a young girl is shown earlier, and later a black-and-white photo of a woman holding a baby is shown.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows a large screen with a black-and-white photograph of a young girl. Step 2: Slice 79 shows a large screen with a black-and-white photo of a woman holding a baby. Conclusion: The ceremony features different historical photos at different times.",
+        "logic_check_reasoning": "Step 1: Slice 14 states that a large screen displays a black-and-white photograph of a young girl during the ceremony. Step 2: Slice 79 states that later the screen shows an old black-and-white photograph of a woman holding a baby. The sequence and content align with the question (earlier vs later), and the proposed answer matches both descriptions.",
+        "visual_proof": "In the first clip (0:07-0:11), a large screen displays a black-and-white photograph of a young girl with braids. In the second clip (0:00-0:05), a different black-and-white photograph is shown on a screen, depicting a smiling woman holding a baby. Both images are clearly visible and match the description in the original answer."
+    },
+    {
+        "question": "Which later wide shot suggests music is part of the ceremony, and what earlier shot shows a speaker continuing formal remarks at the podium?",
+        "answer": "A grand piano (and musicians) suggest music is part of the ceremony; earlier Eva Szepesi is shown delivering formal remarks at the podium.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            89,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 89 shows a stage area with a piano and musicians, implying a musical segment. Step 2: Slice 52 shows Eva Szepesi speaking at the podium during the ceremony. Conclusion: The event combines musical elements with formal speeches.",
+        "logic_check_reasoning": "Step 1: Slice 89 describes a wide shot of the ceremony showing a conductor and musicians near a piano on stage, which clearly suggests that music is part of the ceremony. Step 2: Slice 52 shows Eva Szepesi, identified as a Holocaust survivor, speaking at a podium in the Bundestag, indicating formal remarks being delivered. Logic holds because the later wide shot (Slice 89) supports the music aspect, and the earlier shot (Slice 52) shows the speaker at the podium.",
+        "visual_proof": "Clip 1 (the later wide shot) clearly shows a black grand piano on the floor of the Bundestag, positioned near the front, with individuals seated nearby who appear to be musicians. Clip 2 (the earlier shot) provides a close-up of Eva Szepesi standing at a podium, reading from papers, consistent with delivering formal remarks."
+    },
+    {
+        "question": "Which audience reaction shows someone covering their mouth due to emotion, and what separate shot shows attendees wiping tears with a tissue?",
+        "answer": "A woman in a black leather jacket covers her mouth, and later attendees are shown wiping their eyes with a tissue/hand.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows a woman in a black leather jacket covering her mouth, visibly moved. Step 2: Slice 53 shows attendees wiping tears with a tissue/hand. Conclusion: The ceremony produces strong emotional reactions across different audience members.",
+        "logic_check_reasoning": "Step 1: Slice 47 describes an audience reaction where a woman in a black leather jacket covers her mouth with her hand, appearing visibly moved. Step 2: Slice 53 describes a separate shot where attendees are emotional: one wipes his face with his hand and another uses a tissue to wipe their eyes. Logic holds because the first part matches the covering-the-mouth reaction in Slice 47, and the second part matches attendees wiping tears with a tissue (and hand) in Slice 53.",
+        "visual_proof": "In Clip 1 (0:00-0:03), a woman with curly hair wearing a black leather jacket is seen covering her mouth with her hand, displaying an emotional reaction. In Clip 2 (0:00-0:06), two attendees—a man and a woman—are visibly wiping tears from their eyes using tissues/hands, confirming the second part of the answer."
+    }
+]

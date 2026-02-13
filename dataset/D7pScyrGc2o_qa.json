@@ -1,0 +1,196 @@
+[
+    {
+        "question": "Which athlete is first honored via a TV memorial caption and later shown again through an official Hall of Fame plaque display?",
+        "answer": "Roberto Clemente.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            86,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 86 shows a TV caption: 'Roberto Clemente Passes Dec. 31st 1972.' Step 2: Slice 89 shows a plaque dedicated to Roberto Clemente Walker in a museum/Hall of Fame setting. Conclusion: Both refer to Roberto Clemente.",
+        "logic_check_reasoning": "Step 1: Slice 86 shows a vintage TV displaying a memorial caption for Roberto Clemente with the text 'Roberto Clemente Passes Dec. 31st 1972.' Step 2: Slice 89 shows a Hall of Fame plaque dedicated to Roberto Clemente Walker, highlighting his career and induction. Logic holds because the same athlete, Roberto Clemente, is first honored via a TV memorial and later shown via an official Hall of Fame plaque.",
+        "visual_proof": "Clip 1 shows a vintage TV screen displaying a photo of Roberto Clemente with the caption 'Roberto Clemente Passes Dec. 31st 1972'. Clip 2 shows a bronze Hall of Fame plaque with the name 'ROBERTO CLEMENTE WALKER' and his career statistics, confirming he is the same individual honored in both clips."
+    },
+    {
+        "question": "Which early video game is shown on a retro TV release graphic and then immediately demonstrated by close-ups of the cabinet gameplay and its credited creator?",
+        "answer": "Pong (created by Allan Alcorn).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            80,
+            81
+        ],
+        "reasoning_chain": "Step 1: Slice 80 shows a TV graphic reading 'Pong Released Nov. 29th 1972.' Step 2: Slice 81 shows the Pong cabinet gameplay and an ID badge naming Allan Alcorn as 'Creator of Pong.' Conclusion: The game is Pong and the creator is Allan Alcorn.",
+        "logic_check_reasoning": "Step 1: Slice 80 describes a retro television set showing an inset with the text 'Pong Released Nov. 29th 1972,' identifying the early video game on a release graphic. Step 2: Slice 81 then shows close-ups of a Pong arcade cabinet in action, followed by an ID badge and photo crediting 'Allan Alcorn' as the 'Creator of Pong.' Logic holds because the retro TV graphic (Slice 80) is followed by cabinet gameplay and explicit creator credit (Slice 81), matching the sequence in the question. Minor VLM noise ('POAG') is resolved by Slice 81’s explicit Pong identification.",
+        "visual_proof": "Clip 1 shows a retro TV graphic with the text 'Pong Released Nov. 29th 1972'. Clip 2 immediately follows with visuals of the Pong arcade cabinet, gameplay footage showing the score '2-0', and an employee badge for 'ALLAN ALCORN' with the Atari logo, followed by a photo of him credited as 'Creator of Pong'."
+    },
+    {
+        "question": "A TV card announces a mob hit with a date; which nearby scene shows the famous restaurant associated with that event from the outside?",
+        "answer": "Umberto’s Clam House appears outside after the 'Joe Gallo whacked' TV card.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a TV screen reading 'Joe Gallo Whacked April 7th, 1972.' Step 2: Slice 23 shows the exterior of 'Umberto’s Clam House.' Conclusion: The restaurant scene follows and matches the event context.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes a TV screen showing the text 'Joe Gallo Whacked April 7th, 1972.' Step 2: Slice 23 shows the exterior of a building identified as 'Umberto's Clam House,' with men standing outside. Logic holds because the TV card announces the mob hit, and the next nearby scene explicitly shows the famous restaurant from the outside. The answer matches the context without relying on external knowledge.",
+        "visual_proof": "Clip 1 ends with a TV screen displaying a card that reads 'Joe Gallo Whacked, April 7th, 1972'. Clip 2 immediately follows, showing an exterior black-and-white shot of a building with a large sign that clearly reads 'Umberto's Clam House'. The temporal sequence and the direct visual identification of the restaurant confirm the answer."
+    },
+    {
+        "question": "Which TV-announced news event about a famous FBI director’s death is followed by a segment that explicitly identifies him as the first Director of the FBI?",
+        "answer": "J. Edgar Hoover’s death, followed by his identification as the first FBI Director.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows a TV announcement: 'J. Edgar Hoover Dies May 2nd 1972.' Step 2: Slice 27 shows archival imagery labeled 'J. Edgar Hoover, First Director of the FBI.' Conclusion: The later segment expands on the person announced as deceased.",
+        "logic_check_reasoning": "Step 1: Slice 26 describes a TV news broadcast explicitly showing the text 'J. Edgar Hoover Dies May 2nd 1972.' Step 2: Slice 27 then presents a segment that identifies 'J. Edgar Hoover, First Director of the FBI.' Logic holds because the TV-announced death of J. Edgar Hoover is immediately followed by a segment that explicitly identifies him as the first Director of the FBI.",
+        "visual_proof": "Clip 1 shows a television screen with a news report announcing 'J. Edgar Hoover Dies' dated May 2nd 1972. Clip 2 immediately follows with a black-and-white photo of J. Edgar Hoover and on-screen text explicitly identifying him as 'First Director of the FBI'."
+    },
+    {
+        "question": "Which political figure is shown being re-elected on a vintage TV and then appears soon after in celebratory podium-and-waving footage?",
+        "answer": "Richard Nixon.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            76,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 76 shows a TV banner 'Nixon Re-Elected Nov 7th 1972.' Step 2: Slice 77 shows suited men at a podium waving and smiling in a celebratory context. Conclusion: The celebration corresponds to Nixon’s re-election.",
+        "logic_check_reasoning": "Step 1: Slice 76 shows a vintage TV with a banner explicitly reading \"Nixon Re-Elected Nov 7th 1972,\" clearly identifying the political figure as Richard Nixon. Step 2: Slice 77 shows celebratory podium-and-waving footage of two suited men, consistent with a re-election celebration. Logic holds because the video sequence presents Nixon’s re-election on the TV and then shows celebratory podium footage, implying the re-elected figure appears soon after. There is no contradictory information, and the named figure in Slice 76 is Nixon.",
+        "visual_proof": "Clip 1 shows a vintage TV screen with text explicitly stating 'Nixon Re-Elected Nov. 17th 1972' alongside an image of the figure. Clip 2 shows the same man, identifiable as Richard Nixon, standing at a podium with the Presidential Seal, waving to a crowd in a celebratory manner."
+    },
+    {
+        "question": "A TV graphic announces 'Lennon’s Final Concert'; which later performance footage shows a long-haired singer in sunglasses and a white jacket leading a band on stage?",
+        "answer": "The John & Yoko / Plastic Ono Band performance with the long-haired singer in sunglasses and a white jacket.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows a TV caption 'Lennon's Final Concert Aug 30th 1975.' Step 2: Slice 59 shows the performance labeled 'John & Yoko Plastic Ono Band' with a long-haired singer wearing sunglasses and a white jacket. Conclusion: The later footage depicts the concert context referenced.",
+        "logic_check_reasoning": "Step 1: Slice 58 shows a TV graphic announcing 'Lennon's Final Concert' and features a long-haired man with sunglasses holding a microphone. Step 2: Slice 59 later shows performance footage introduced by the text 'John & Yoko Plastic Ono Band,' featuring a long-haired singer in sunglasses wearing a white jacket (with red and blue stripes) leading a band on stage. Logic holds because the question asks which later performance matches the described singer, and Slice 59 explicitly identifies it as John & Yoko Plastic Ono Band.",
+        "visual_proof": "Clip 1 shows a TV graphic explicitly announcing 'Lennon's Final Concert'. Clip 2 then shows performance footage of a long-haired man wearing sunglasses (John Lennon) singing into a microphone, followed by another shot of him in a white jacket with red stripes performing on stage with his band. The album cover shown in Clip 2 also identifies the group as 'John & Yoko / Plastic Ono Band', confirming the context."
+    },
+    {
+        "question": "Which sports storyline starts with a TV-labeled baseball highlight and then shifts into a magazine cover shown again on a television set?",
+        "answer": "The Phillies-related baseball storyline: 'Luzinski Rings The Bell' followed by a Sports Illustrated cover 'The Phillies Bull Ahead' shown on TV.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            32,
+            33,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows a TV frame 'Luzinski Rings The Bell May 16th 1974' over baseball footage. Step 2: Slice 33 shows a stadium baseball game and a baseball illustration, continuing the baseball theme. Step 3: Slice 34 shows a Sports Illustrated cover 'The Phillies Bull Ahead' and then that cover displayed on an old TV. Conclusion: These slices form a linked baseball highlight-to-magazine presentation.",
+        "logic_check_reasoning": "Step 1: Slice 32 shows a vintage TV with a labeled baseball highlight, explicitly reading \"Luzinski Rings The Bell\" (May 16th, 1974), depicting a red-uniformed player swinging—a clear Phillies-related moment. Step 2: Slice 34 presents a magazine cover titled \"Sports Illustrated\" with the text \"The Phillies Bull Ahead,\" and then shows that same cover displayed on a television. Step 3: The proposed answer identifies the storyline as the Phillies-related sequence: the TV-labeled Luzinski highlight followed by the Sports Illustrated cover shown on TV. This matches the elements in Slices 32 and 34. The logic holds because both components are explicitly described and connected to the Phillies, and the magazine cover is shown again on a TV as stated.",
+        "visual_proof": "Clip 1 shows a vintage TV displaying a baseball highlight with the text 'Luzinski Rings The Bell, May 16th 1972'. Clip 3 first shows a close-up of the Sports Illustrated magazine cover featuring Greg Luzinski and the headline 'THE PHILLIES BULL AHEAD', and then cuts back to the same vintage TV from Clip 1, which now displays an image of that exact magazine cover. This sequence visually confirms the described storyline."
+    },
+    {
+        "question": "What storyline connects a TV announcement about an FBI director’s death to a follow-up profile identifying him, then transitions into Watergate imagery involving the DNC, and finally presents a dated 'first article' TV card tied to investigative reporting?",
+        "answer": "It links Hoover’s death and profile to the broader political scandal environment (Watergate/DNC) and then to Woodward and Bernstein’s first article milestone.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            26,
+            27,
+            39,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 26 announces 'J. Edgar Hoover Dies May 2nd 1972.' Step 2: Slice 27 identifies Hoover as the first FBI Director in an archival/profile frame. Step 3: Slice 39 marks June 17, 1972 with DNC imagery (Watergate). Step 4: Slice 53 shows 'Woodward and Bernstein's First Article Aug 1st 1972.' Conclusion: The montage connects law-enforcement leadership history to Watergate and the investigative journalism response.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows a TV announcement explicitly stating \"J. Edgar Hoover Dies May 2nd 1972,\" which matches the prompt's \"TV announcement about an FBI director’s death.\" Step 2: Slice 27 provides a follow-up identification with text \"J. Edgar Hoover, First Director of the FBI,\" matching the \"follow-up profile identifying him.\" Step 3: Slice 39 displays the date \"JUNE 17, 1972\" and a sign reading \"DEMOCRATIC NATIONAL COMMITTEE\" along with investigative visuals, aligning with the question’s \"Watergate imagery involving the DNC\" characterization. Step 4: Slice 53 shows a TV card explicitly labeled \"Woodward and Bernstein's First Article\" dated \"Aug 1st 1972,\" which matches the \"dated 'first article' TV card tied to investigative reporting.\" Logic holds because each slice sequentially supports the storyline elements the answer summarizes.",
+        "visual_proof": "Clip 1 shows a TV announcing 'J. Edgar Hoover Dies' on May 2nd, 1972. Clip 2 immediately follows with a profile of J. Edgar Hoover as 'First Director of the FBI'. Clip 3 transitions to imagery of the 'Democratic National Committee' door and figures associated with Watergate, dated June 17, 1972. Clip 4 concludes with a TV card for 'Woodward and Bernstein's First Article' dated Aug. 1st, 1972. The sequence visually connects these historical events in chronological order, establishing a narrative link from Hoover's death through the Watergate scandal to the journalists' first major report."
+    },
+    {
+        "question": "Which timeline thread connects a TV-labeled Munich Olympics tragedy to later footage showing armed figures and rescue logistics, and then to a TV caption about a film released decades later based on the same event?",
+        "answer": "The Munich Olympics siege thread leading to the film 'Munich' (released in 2005).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            60,
+            61,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows a TV caption 'Munich Olympics Siege Sep. 5 & 1972' and tense archival imagery. Step 2: Slice 61 continues with urban-building observation footage consistent with unfolding crisis/monitoring. Step 3: Slice 62 shows tactical scenes and a TV caption 'Munich Released, Dec. 23rd 2005.' Conclusion: The montage links the 1972 tragedy to later dramatized/film representation.",
+        "logic_check_reasoning": "Step 1: Slice 60 explicitly shows a TV caption reading 'Munich Olympics Siege Sep. 5 & 1972,' establishing the Munich tragedy. Step 2: Slices 61 and 62 depict armed figures, tactical gear, and a helicopter landing on a stadium roof, consistent with rescue/security logistics tied to that event. Step 3: Slice 62 shows a TV caption 'Munich Released, Dec. 23rd 2005,' indicating the later film based on the same event. The sequence logically connects the Munich siege to armed/rescue scenes and then to the 2005 film 'Munich.'",
+        "visual_proof": "Clip 1 opens with a retro TV displaying 'Munich Olympics Siege Sep. 5th 1972' and shows archival footage of the event. Clip 3 continues this narrative with more archival footage of armed figures, helicopters, and distressed crowds, culminating in a shot of the same retro TV now showing a caption for the film 'Munich Released Dec. 23rd 2005', explicitly linking the historical event to its cinematic adaptation."
+    },
+    {
+        "question": "Which chain links a TV release graphic for a famous glam-rock album to a live performer with bright red hair, and then to additional performance montage shots that keep returning to a spiky-haired guitarist-singer on stage?",
+        "answer": "David Bowie-era glam rock: 'Ziggy Stardust Released' → red-haired singer performing → continued stage-performance montage featuring a spiky-haired guitarist-singer.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            37,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows a TV caption 'Ziggy Stardust Released June 4th 1972.' Step 2: Slice 37 shows album imagery and a live performer with bright red hair singing into a microphone. Step 3: Slice 38 continues with multiple stage clips repeatedly featuring a spiky-haired guitarist-singer and performance montage. Conclusion: The montage tracks glam-rock imagery from release card to performance to broader concert compilation.",
+        "logic_check_reasoning": "Step 1: Slice 36 shows a vintage TV with the on-screen text \"Ziggy Stardust Released June 4th 1972,\" which matches the TV release graphic for a famous glam-rock album. Step 2: Slice 37 features a live performer with bright red hair singing into a microphone, aligning with the \"red-haired singer performing.\" It also explicitly references David Bowie's album \"Aladdin Sane,\" tying to the Bowie/glam context. Step 3: Slice 38 presents a montage with repeated focus on a male musician with spiky hair singing and playing guitar on stage, satisfying the description of additional performance shots that keep returning to a spiky-haired guitarist-singer. Logic holds because each slice sequentially supports the chain: TV release graphic → red-haired performer → recurring spiky-haired guitarist-singer in montage.",
+        "visual_proof": "Clip 1 shows a TV graphic announcing 'Ziggy Stardust Released June 6th 1972'. Clip 2 immediately follows with live performance footage of David Bowie with bright red hair. Clip 3 contains a montage of various stage performances, repeatedly cutting back to Bowie, who is seen both singing and playing guitar with his signature spiky hairstyle from the Ziggy Stardust era."
+    },
+    {
+        "question": "What is the full arc of the Andes storyline from the initial TV title card, to the routine airplane interior, to the crash aftermath in the snow, and finally to the rescue being announced?",
+        "answer": "It goes from 'Andes Flight Disaster' to passengers inside a plane, then the wreckage and survivors in the snow, and finally a TV report announcing the Andes survivors were rescued.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            69,
+            70,
+            71,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows a TV caption 'Andes Flight Disaster Oct 13th 1972.' Step 2: Slice 70 shows passengers seated in an airplane cabin (pre-disaster normalcy). Step 3: Slice 71 shows the crash aftermath and survivors in snowy mountains. Step 4: Slice 72 shows a TV broadcast 'Andes Survivors Rescued.' Conclusion: The montage constructs a beginning-to-resolution disaster narrative.",
+        "logic_check_reasoning": "Step 1: Slice 69 shows a TV title card reading 'Andes Flight Disaster Oct 13th 1972,' establishing the Andes storyline. Step 2: Slice 70 depicts passengers inside an airplane cabin in a routine, calm setting, aligning with 'passengers inside a plane.' Step 3: Slice 71 presents the crash aftermath in snowy mountains, with wreckage and survivors visible, matching 'wreckage and survivors in the snow.' Step 4: Slice 72 includes a vintage TV broadcast titled 'Andes Survivors Rescued,' confirming the rescue announcement. The sequence is coherent and directly supported by the slices.",
+        "visual_proof": "The sequence is visually confirmed: Clip 1 shows a TV with the title card 'Andes Flight Disaster Oct. 13th 1972'. Clip 2 shows passengers inside an airplane. Clip 3 shows the crashed plane wreckage in the snow with survivors nearby. Clip 4 concludes with a TV showing the title card 'Andes Survivors Rescued Dec. 23rd 1972', followed by footage of the rescue operation."
+    },
+    {
+        "question": "How does the montage connect John Lennon and Yoko Ono as activists to a later TV caption about Lennon’s final concert and then to a full-band stage performance labeled with their group name?",
+        "answer": "It shows Lennon and Yoko at a peace protest, later announces Lennon’s final concert on TV, and then shows the John & Yoko / Plastic Ono Band performing live on stage.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            58,
+            59,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows John Lennon and Yoko Ono speaking at a protest with a 'PEACE' banner. Step 2: Slice 58 shows a TV caption 'Lennon's Final Concert Aug 30th 1975.' Step 3: Slice 59 shows 'John & Yoko Plastic Ono Band' performing live. Step 4: Slice 17 includes broader protest/media-history montage context, reinforcing the activism/media theme around the era. Conclusion: The video connects activism identity to later concert milestone and performance footage.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows black-and-white footage of John Lennon and Yoko Ono speaking at a protest rally with a 'PEACE' banner, establishing them as activists. Step 2: Slice 58 shows a vintage TV displaying the caption 'Lennon's Final Concert Aug 30th 1975', connecting to a later TV announcement about Lennon’s concert. Step 3: Slice 59 presents a full-band live stage performance labeled 'John & Yoko Plastic Ono Band', showing their group performing. Logic holds because the slices sequentially cover activism (Slice 15), a TV caption about a final concert (Slice 58), and a labeled full-band performance (Slice 59), matching the proposed answer.",
+        "visual_proof": "Clip 1 shows Lennon and Yoko at a protest with a 'PEACE' banner. Clip 2 features a TV screen announcing 'Lennon's Final Concert Aug. 30th 1972'. Clip 3 transitions to live performance footage of the band, followed by a shot of their album cover explicitly labeled 'John & Yoko / Plastic Ono Band'. This sequence visually connects their activism, the announcement of the concert, and the performance under that group name."
+    },
+    {
+        "question": "Which sequence shows a New Year’s TV premiere title card, then a framed performance of the same band on the special, then a close-up of a suited lead singer performing, and finally Times Square crowd footage with a suited host speaking into a microphone?",
+        "answer": "The New Year’s Rockin’ Eve thread: the premiere card → Three Dog Night performance → close-up of the suited singer → Times Square crowd with a suited host speaking.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            90,
+            91,
+            92,
+            94
+        ],
+        "reasoning_chain": "Step 1: Slice 90 shows 'New Year's Rockin' Eve Premiere Dec. 31st 1972' on a vintage TV. Step 2: Slice 91 shows 'Three Dog Night's New Years Rockin' Eve' performance framed in a retro graphic. Step 3: Slice 92 shows a suited male lead vocalist singing into a microphone on stage. Step 4: Slice 94 shows Times Square crowd footage and a suited man addressing the crowd via microphone/broadcast. Conclusion: The montage tracks the New Year’s broadcast from premiere to performance and public celebration context.",
+        "logic_check_reasoning": "Step 1: Slice 90 shows a vintage TV with the text 'New Year's Rockin' Eve Premiere' and date, which matches the New Year’s TV premiere title card. Step 2: Slice 91 presents a framed inset of Three Dog Night performing on the New Year's Rockin' Eve special, matching the framed performance of the same band on the special. Step 3: Slice 92 focuses on a close-up of a suited lead singer performing, aligning with the next described element. Step 4: Slice 94 depicts Times Square crowd footage with a man in a suit speaking into a microphone, consistent with a suited host addressing the crowd. The sequence and elements align logically and are explicitly supported by the slices.",
+        "visual_proof": "Clip 1 shows the 'New Year's Rockin' Eve Premieres Dec. 31st 1972' title card on a TV. Clip 2 displays the 'Three Dog Night's New Year's Rockin' Eve' performance. Clip 3 features a close-up of the lead singer in a suit performing. Clip 4 concludes with Times Square footage and Dick Clark, the suited host, speaking into a microphone."
+    },
+    {
+        "question": "Which storyline moves from a TV caption about a mobster being killed, to visuals centered on the restaurant location, and then to a broader documentary portrayal labeling the mobster by name?",
+        "answer": "Joe Gallo: his killing is announced, Umberto’s Clam House is shown, and then Joe Gallo is labeled and profiled as a mobster.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows 'Joe Gallo Whacked April 7th, 1972.' Step 2: Slice 23 shows 'Umberto’s Clam House,' a location tied to the event context. Step 3: Slice 24 labels 'Joe Gallo' as a mobster and expands into documentary imagery. Conclusion: The montage builds a multi-step narrative around Joe Gallo.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows a TV screen with the caption \"Joe Gallo Whacked April 7th, 1972,\" explicitly identifying a mobster (Joe Gallo) and noting his killing. Step 2: Slice 23 focuses on the exterior of \"Umberto's Clam House,\" providing visuals centered on a restaurant location. Step 3: Slice 24 presents a documentary-style portrayal that explicitly labels Joe Gallo by name as a \"Mobster,\" along with additional profiling imagery. Logic holds because the sequence moves from the killing caption (Slice 22) to the restaurant visuals (Slice 23) and then to the broader labeled portrayal of Joe Gallo (Slice 24), matching the proposed storyline.",
+        "visual_proof": "Clip 1 shows a TV screen with the caption 'Joe Gallo Whacked April 7th, 1972'. Clip 2 shows the exterior of 'Umberto's Clam House'. Clip 3 features a black-and-white photo of Joe Gallo with text identifying him as 'Joe Gallo Mobster', followed by a shot of him in a hat. This sequence visually confirms the narrative progression described in the answer."
+    }
+]

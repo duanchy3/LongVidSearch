@@ -1,0 +1,54 @@
+[
+    {
+        "question": "In one scene a baker decorates desserts; in another, a person studies anatomy books. What are the two main activities being shown?",
+        "answer": "Decorating cupcakes and studying from anatomy/science textbooks.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows a baker frosting cupcakes and drizzling caramel. Step 2: Slice 67 shows academic textbooks and someone studying at a desk. Conclusion: The activities are cupcake decoration and studying.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows a baker in a professional bakery applying frosting and caramel drizzle to cupcakes, clearly indicating cupcake decoration. Step 2: Slice 67 shows anatomy and microbiology textbooks, a brain diagram, and a person studying at a desk, indicating studying from anatomy/science materials. Logic holds because each slice directly depicts the respective activity described in the proposed answer.",
+        "visual_proof": "Clip 1 shows a person in a bakery kitchen using a piping bag to apply caramel sauce onto cupcakes with white frosting, clearly depicting the activity of decorating desserts. Clip 2 shows a stack of textbooks including 'Human Anatomy & Physiology' and 'Microbiology,' followed by close-ups of anatomical diagrams (heart, brain) and a person studying at a desk with these books and a laptop, confirming the activity of studying science textbooks."
+    },
+    {
+        "question": "Which location identifier appears on screen when a couple is shown celebrating on a cliff, and what website is displayed alongside it?",
+        "answer": "The text says “WE ARE TEAM GET LOST,” and the website shown is www.christian-renata.com.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 41 displays “WE ARE TEAM GET LOST” and shows branding for Christian Renata. Step 2: Slice 54 shows a compass graphic with “YouTube Christian Renata,” aligning with the same creator identity. Conclusion: The identifier is “WE ARE TEAM GET LOST,” and the website is www.christian-renata.com.",
+        "logic_check_reasoning": "Step 1: Slice 41 states the screen shows the text 'WE ARE TEAM GET LOST' and displays the website 'www.christian-renata.com' before transitioning to a couple celebrating on a cliff. Step 2: The proposed answer identifies the on-screen text and the website exactly as presented in Slice 41. Logic holds because the elements cited in the answer are explicitly described in the same slice that features the couple celebrating.",
+        "visual_proof": "In Video 1, from 0:00 to 0:03, a couple is visible on a cliff. Overlaid on the scene is the hashtag \"#WEARETEAMGETLOST\" and directly below it, the URL \"www.christian-renata.com\". The text is clearly legible against the bright sky background."
+    },
+    {
+        "question": "A bearded man vlogs on a beach later in the video and also appears walking through an airport terminal. What consistent travel-related item does he carry in both situations?",
+        "answer": "A backpack.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows a bearded man walking on a beach wearing a backpack. Step 2: Slice 52 shows a bearded man in an airport with a backpack while vlogging. Conclusion: The consistent item is a backpack.",
+        "logic_check_reasoning": "Step 1: Slice 43 says the bearded man on the beach is carrying a backpack. Step 2: Slice 52 says the bearded man in the airport is wearing a backpack on his shoulders. Logic holds because both slices explicitly state he has a backpack in each scenario, making it the consistent travel-related item.",
+        "visual_proof": "In both clips, the bearded man is visibly wearing a gray backpack with shoulder straps. In Clip 1 (beach), the backpack straps are clearly visible over his blue shirt. In Clip 2 (airport terminal), the same backpack is worn and visible from the front as he walks through the hallway."
+    },
+    {
+        "question": "What animal is shown swimming underwater earlier, and which large animals does a man approach on land later?",
+        "answer": "A shark is shown underwater earlier, and later a man approaches elephants on land.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 4 includes an underwater shot of a shark swimming. Step 2: Slice 92 shows a man walking toward a group of elephants. Conclusion: The earlier animal is a shark, and the later animals are elephants.",
+        "logic_check_reasoning": "Step 1: Slice 4 states there is an underwater shot where a shark is swimming near the surface, which supports the 'animal shown swimming underwater earlier' being a shark. Step 2: Slice 92 describes a man walking toward a group of elephants on land, which supports the 'large animals a man approaches later' being elephants. The sequence and details align logically.",
+        "visual_proof": "In the first clip (0:04-0:05), a shark with a distinct dorsal fin and tail is clearly visible swimming underwater near a person. In the second clip (0:07-0:11), a man is seen walking towards and then standing among several large elephants on a dirt path next to a river."
+    }
+]

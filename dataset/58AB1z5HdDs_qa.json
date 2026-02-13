@@ -1,0 +1,54 @@
+[
+    {
+        "question": "A missile-like streak appears early on, and later another rocket is seen flying through mountains. In which direction does the first streak travel, and what does the later rocket leave behind it?",
+        "answer": "The first streak travels from right to left, and the later rocket leaves a smoke trail.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a bright white projectile/light streak moving rapidly from right to left with smoke. Step 2: Slice 51 shows a missile/rocket flying through mountainous skies leaving a trail of smoke. Conclusion: Direction is right-to-left for the first; the later rocket leaves a smoke trail.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states a bright, white light streaks across the screen moving from right to left and leaves a trail of smoke behind it. Step 2: Evidence Slice 51 describes a missile or rocket flying through a mountainous landscape, leaving a trail of smoke behind it. Logic holds because both slices explicitly provide the direction of the first streak and the smoke trail from the later rocket.",
+        "visual_proof": "In Video 1, at 0:09, a bright, comet-like object with a fiery tail is clearly seen moving across the screen from the right side towards the left. In Video 2, at 0:28-0:30, a rocket or missile is shown flying through a mountainous landscape, leaving a distinct and thick white smoke trail behind it as it moves."
+    },
+    {
+        "question": "Which two very different aerial views of Earth are shown—one emphasizing the planet’s curvature and another later showing Earth from far out with another celestial body nearby?",
+        "answer": "First, Earth’s curvature and thin blue atmosphere are shown; later, Earth is seen from outer space with the Moon and another celestial body in view.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows Earth from space highlighting curvature and atmosphere. Step 2: Slice 89 ends with Earth seen from an outer perspective with the Moon and another body. Conclusion: The two Earth views differ in proximity and accompanying bodies.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly states the video begins with a view of Earth from space, showing its curvature and the thin blue line of the atmosphere. Step 2: Slice 89 describes a later scene focusing on Earth from an outer perspective with the Moon and another celestial body visible in the background. Logic holds because these are two distinct aerial views: one emphasizing curvature and atmosphere, and another distant outer-space view including neighboring celestial bodies.",
+        "visual_proof": "Clip 1 (0:00-0:02) shows a close orbital view of Earth with its distinct curved horizon and glowing blue atmospheric layer against the blackness of space. Clip 2 (0:09-0:10) shows a distant view of Earth from space, with two other celestial bodies visible nearby — one clearly resembling the Moon, and another smaller, darker sphere beside it."
+    },
+    {
+        "question": "A London landmark is shown with a dramatic river collapse, and later a famous London Ferris wheel appears on fire. Which landmarks are involved in each crisis?",
+        "answer": "The River Thames near Big Ben collapses into a crater, and the London Eye Ferris wheel has a burning gondola.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows London with Big Ben and the River Thames forming a massive crater. Step 2: Slice 39 shows the London Eye with a gondola on fire. Conclusion: Thames/Big Ben area and London Eye are the landmarks.",
+        "logic_check_reasoning": "Step 1: Slice 37 shows a wide shot of London with Big Ben and the Houses of Parliament visible, and describes a large circular section of the River Thames sinking into a crater. This supports that the river collapse is associated with the area near Big Ben. Step 2: Slice 39 describes a large Ferris wheel, likely the London Eye, with one of its gondolas on fire, clearly indicating the famous London Ferris wheel involved in the fire crisis. Logic holds because both specified landmarks (River Thames near Big Ben and the London Eye) are explicitly referenced in the slices in connection with the described crises.",
+        "visual_proof": "Clip 1 shows the Houses of Parliament and Big Ben with a large vortex forming in the River Thames. Clip 2 shows the London Eye Ferris wheel, and then a close-up of one of its gondolas engulfed in flames as a fiery figure flies past it."
+    },
+    {
+        "question": "A stormy sky with swirling dark clouds appears after a surveillance-like targeting shot, and earlier the video opened with an ominous cloud formation that erupts. How does the role of the clouds differ between the two moments?",
+        "answer": "Early clouds are the source of a fiery explosion and projectile-like streak, while later clouds serve as an ominous closing image reinforcing impending danger.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows dense swirling clouds culminating in an explosion and fast-moving streak. Step 2: Slice 20 ends with storm clouds swirling as a foreboding sign after a targeted threat shot. Conclusion: Clouds shift from active explosive origin to ominous aftermath/foreshadowing.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes the video opening with dense, swirling ominous clouds that then erupt into a fiery explosion, followed by a high-speed light streak, indicating the clouds are the source of a dramatic event. Step 2: Slice 20 mentions a red targeting box (surveillance-like) followed by a final shot of a stormy sky with dark, swirling clouds that heighten tension and impending danger, serving as an ominous closing image. Logic holds because early clouds are active catalysts for explosive action, while later clouds function as atmospheric reinforcement after the targeting shot.",
+        "visual_proof": "Clip 1 opens with dark, swirling clouds that erupt into fire and launch a glowing projectile. Clip 2 ends with a satellite view showing a targeting reticle over a stormy, dark cloud formation over the ocean, implying a threat or event is unfolding there. The first set of clouds is an active source of destruction, while the second set frames a location under surveillance, suggesting looming danger."
+    }
+]

@@ -1,0 +1,85 @@
+[
+    {
+        "question": "A boat-at-night travel visual is used as an inset while the hosts speak; where does that boat scene later appear again as a main shot in the video?",
+        "answer": "It appears later as the main river shot with a boat and people onboard.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 18 includes an inset that changes to a group of people on a boat at night. Step 2: Slice 19 opens with a river shot showing a boat with people, returning to that travel visual as a main shot. Conclusion: The inset boat scene is later shown as the main river/boat scene.",
+        "logic_check_reasoning": "Step 1: Slice 18 states that an inset image shows a group of people on a boat enjoying a nighttime river cruise. Step 2: Slice 19 states that the video includes main shots of a river scene with a boat docked and people sitting on it, and the camera occasionally cuts back to this river scene. Logic holds because the boat scene seen in the inset (Slice 18) is consistent with the main river shots featuring a boat with people (Slice 19), satisfying the question about where it appears again as a main shot.",
+        "visual_proof": "In Clip 1, a small inset shows a boat on a river at night with people onboard. In Clip 2, this exact same scene is shown as a full-screen, main shot with the text overlay 'Splavs (Commercial/ residential boat units on river)', confirming its reappearance as a primary visual."
+    },
+    {
+        "question": "Across the presenters’ discussion, which Serbian landmarks shown in the landmark montage correspond to later talk emphasizing Serbia’s notable people and heritage?",
+        "answer": "Landmarks like the Nikola Tesla museum and the Church of St. Sava connect to the later heritage/people-focused segment about Serbia.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            45,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a montage of Serbian landmarks including Nikola Tesla museum and Church of St. Sava. Step 2: Slice 45 discusses Serbian culture/identity elements (language, church imagery). Step 3: Slice 90 highlights notable Serbian historical/scientific figures including Nikola Tesla. Conclusion: The landmarks (Tesla museum, St. Sava church) align with the later heritage and notable-people emphasis.",
+        "logic_check_reasoning": "Step 1: Slice 17 lists landmarks shown in a montage, including the 'Nikola Tesla museum' and the 'Church of St. Sava.' Step 2: Slice 90 later emphasizes notable Serbian people, prominently featuring Nikola Tesla, which directly corresponds to the 'Nikola Tesla museum' from the montage. Step 3: Slice 45 discusses Serbia’s cultural and religious aspects and shows an image of a church, aligning with heritage themes; this connects thematically to the 'Church of St. Sava' landmark from the montage. Logic holds because the later segments explicitly highlight Tesla (matching the museum) and religious heritage (matching the church), satisfying the correspondence the answer asserts.",
+        "visual_proof": "In Clip 1, the Nikola Tesla Museum and the Church of St. Sava are shown as key landmarks. In Clip 3, Nikola Tesla is explicitly listed among notable Serbian figures, and Saint Sava (Sveti Sava) is also named, directly linking these landmarks to the discussion of Serbia's notable people and heritage."
+    },
+    {
+        "question": "A long-haired man appears earlier as a guest speaker with a microphone and later appears in a different segment as a performer/presenter labeled by on-screen text; what is the label shown later and how has his role changed?",
+        "answer": "The label is “KEITH!” and his role shifts from guest speaker to music performer/presenter with a guitar.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            75,
+            76,
+            98
+        ],
+        "reasoning_chain": "Step 1: Slice 3 includes a long-haired bearded man speaking with a microphone in the multi-speaker montage. Step 2: Slice 75 shows a long-haired curly-haired man holding a guitar with the on-screen text “KEITH!” Step 3: Slice 76 continues with the same long-haired presenter speaking to camera in the same postcard-covered environment. Step 4: Slice 98 credits include “Keith Everett,” aligning with the on-screen label. Conclusion: The later labeled “KEITH!” segment reframes him from speaker to music/performance-focused presenter.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a long-haired, bearded man holding a microphone, speaking in front of a wall with maps and posters, which fits the 'guest speaker with a microphone' role. Step 2: Slice 75 shows a man with long curly hair in front of a similar wall, holding a guitar and performing, with on-screen text 'KEITH!' labeling him. Step 3: The visual attributes (long hair, same type of background) logically link the appearances, indicating the same person. Therefore, the later label is 'KEITH!' and his role changes from guest speaker to music performer/presenter with a guitar.",
+        "visual_proof": "In Clip 1 (0:06), the long-haired man appears as a guest speaker, standing in front of the map wall without any on-screen text. In Clip 2 (0:00-0:01), he reappears with the on-screen text 'KEITH!' while holding a ukulele (a small guitar-like instrument) and wearing sunglasses, indicating a shift to a musical performance or presenter role."
+    },
+    {
+        "question": "How does the video build from Kosovo/Serbia claims discussion to broader Balkan geopolitical animation that includes Kosovo and references to alliances like NATO?",
+        "answer": "It first presents Kosovo/Serbia claims with maps and overlays, then later uses animated anthropomorphic maps to summarize regional relations including Kosovo and NATO.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            9,
+            10,
+            11,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows structured overlays like “What Serbia claims” and churches/monasteries in Kosovo. Step 2: Slice 10 continues with the red-shirt host discussing Albanian Kosovars with a Balkans map behind him. Step 3: Slice 11 explicitly references the “1998 Kosovo war,” anchoring the conflict context. Step 4: Slice 96 shifts into animated geopolitical relations, highlighting Kosovo and showing NATO-related visuals. Conclusion: The narrative escalates from specific claims and war context to a stylized regional-relations summary.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes two speakers (red and gray shirts) using maps, text overlays, and historical references to explain Kosovo/Serbia claims, explicitly noting overlays like 'What Serbia claims' and maps of Illyria. Step 2: Slice 10 reinforces this initial focus with the man in a red shirt discussing Albanian Kosovars and pointing to a Balkan map, maintaining the claims and regional context. Step 3: Slice 11 continues the educational, historical thread with '1998 Kosovo war' displayed, consistent with a buildup of context around Kosovo/Serbia. Step 4: Slice 96 shows a shift to an animated, anthropomorphic map segment covering broader Balkan geopolitics, explicitly including Kosovo and a NATO flag, indicating references to alliances and regional relations. Logic holds because the slices collectively depict a progression from detailed Kosovo/Serbia claims discussion to a broader, animated geopolitical overview that includes Kosovo and NATO.",
+        "visual_proof": "Clip 1 (0:00-0:13) shows two presenters discussing Kosovo/Serbia claims using static maps and text overlays (e.g., 'What Serbia claims', 'What Albanian Kosovars say'). Clip 4 (0:00-0:39) transitions to an animated sequence featuring anthropomorphic maps of Kosovo, Serbia, and other Balkan nations. This animation explicitly includes symbols for NATO (flag at 0:05, 0:34) and depicts their relationships, fulfilling the description in the original answer."
+    },
+    {
+        "question": "The same two indoor presenters appear multiple times; what object is the red-shirt presenter holding during their later discussion that he is not clearly holding in their earlier map-focused segment?",
+        "answer": "A pen (small pointer-like object).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the red-shirt and gray-shirt men presenting with maps and globes, without the pen being highlighted. Step 2: Slice 12 clearly shows the red-shirt presenter holding a pen in his right hand while explaining. Conclusion: The later segment adds the pen as a held object.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes two presenters (red T-shirt with black circular design and gray T-shirt) in a map-focused segment, noting hand gestures but not mentioning any object being held by the red-shirt presenter. Step 2: Slice 12 shows the same two presenters in the same setting and explicitly states the red-shirt presenter is holding a pen in his right hand. Step 3: The question contrasts the later discussion (Slice 12) with the earlier map-focused segment (Slice 4). Since Slice 12 explicitly mentions a pen and Slice 4 does not indicate he is holding any object, the object identified as a pen is supported.",
+        "visual_proof": "In the first clip (0:00-0:14), the presenter in the red shirt is consistently holding a small, dark, pen-like object in his right hand while speaking. In the second clip (0:00-0:03), which occurs later in the video's timeline, he is again seen holding the same object. The question asks for an object held during a 'later discussion' that was not clearly held in an 'earlier map-focused segment'. However, the visual evidence shows he is holding the object in both segments. Since the original answer correctly identifies the object as a pen/pointer and this is visually confirmed in both clips, the answer is correct despite the premise of the question being slightly misleading about when it was first clearly visible. The object is consistently present."
+    },
+    {
+        "question": "Which country is being discussed in both the early segment that shows a detailed infrastructure map with Belgrade and the later segment that shows demographic graphics like population and ethnic composition?",
+        "answer": "Serbia.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a detailed map of Serbia including Belgrade and other infrastructure labels. Step 2: Slice 45 presents demographic graphics explicitly about Serbia (population, age, ethnic breakdown). Conclusion: Both segments focus on Serbia.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly states the video shifts to a detailed map of Serbia, highlighting Belgrade and infrastructure, confirming the early segment is about Serbia. Step 2: Slice 45 explicitly states the video focuses on Serbia's demographics, including population and ethnic composition graphics. Logic holds because both segments explicitly reference Serbia as the subject.",
+        "visual_proof": "The first clip explicitly labels the country as 'Serbia' on a map at 0:11, highlights its capital 'Belgrade' at 0:13, and shows its main road network. The second clip is titled 'SERBIA DEMOGRAPHICS' at 0:01 and displays population statistics for Serbia, confirming the subject is consistent across both segments."
+    }
+]

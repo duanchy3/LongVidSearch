@@ -1,0 +1,69 @@
+[
+  {
+    "question": "Which topic is shown as a newspaper headline in an early montage and later becomes a specific on-screen front page next to a presenter in a studio shot?",
+    "answer": "The Daily Mail headline: “PLOT TO CROWN MORDAUNT AS PM.”",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      5,
+      17
+    ],
+    "reasoning_chain": "Step 1: Slice 5’s montage includes the Daily Mail front page with the headline about crowning Mordaunt as PM. Step 2: Slice 17 shows a presenter with an inset of the Daily Mail front page carrying the same headline. Conclusion: The repeated headline/topic is “PLOT TO CROWN MORDAUNT AS PM.”",
+    "logic_check_reasoning": "Step 1: Slice 5 describes an early montage of various UK newspaper front pages, explicitly noting the Daily Mail with the bold headline 'PLOT TO CROWN MORDAUNT AS PM.' Step 2: Slice 17 describes a studio Press Preview segment where, on the right side of the screen next to the presenter, an inset graphic shows the Daily Mail front page with the same headline 'PLOT TO CROWN MORDAUNT AS PM.' Logic holds because the identical headline appears in the early montage and later as the specific on-screen front page beside the presenter.",
+    "visual_proof": "In the first clip (0:31-0:37), the front page of the Daily Mail is clearly displayed with the headline 'PLOT TO CROWN MORDAUNT AS PM'. In the second clip (0:01-0:07), the same Daily Mail front page is shown on-screen to the right of the presenter in the studio, confirming it was featured in both segments."
+  },
+  {
+    "question": "Which front page headline advocating expanded voting appears on the main studio screen in one later discussion and is shown again in another later studio shot?",
+    "answer": "The Mirror headline: “Give us all a vote now.”",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      78,
+      98
+    ],
+    "reasoning_chain": "Step 1: Slice 78 shows the Mirror front page with the headline “Give us all a vote now.” Step 2: Slice 98 again shows the Mirror front page with the same headline on the main studio screen. Conclusion: The repeated voting-rights headline is “Give us all a vote now.”",
+    "logic_check_reasoning": "Step 1: Slice 78 explicitly states the main studio screen shows The Mirror front page with the headline 'Give us all a vote now,' noted as political and related to voting rights. Step 2: Slice 98 again describes the large screen displaying The Mirror front page with the bold headline 'Give us all a vote now.' Logic holds because both slices independently confirm the same headline appears on the main studio screen in separate later shots, matching the question's description.",
+    "visual_proof": "In both clips, the large screen behind the presenters clearly displays the front page of 'The Mirror' newspaper with the prominent headline 'Give us all a vote now.' This is visible in Clip 1 at 0:00 and again in Clip 2 from 0:03 to 0:10, confirming it appears in multiple studio shots as stated."
+  },
+  {
+    "question": "Which recurring visual prompt encourages viewers to access additional front pages, appearing first with a solo presenter and later in multi-presenter studio shots?",
+    "answer": "The on-screen instruction to scan a QR code to see the front pages.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      6,
+      8
+    ],
+    "reasoning_chain": "Step 1: Slice 6 shows a solo presenter with a QR code and text prompting scanning for front pages. Step 2: Slice 8 shows the trio in studio with the same QR scan prompt and code. Conclusion: The recurring prompt is scanning a QR code to see more front pages.",
+    "logic_check_reasoning": "Step 1: Slice 6 describes a solo presenter with a 'Press Preview' screen that includes a QR code and suggests scanning it to access tomorrow's front pages. Step 2: Slice 8 shows a multi-presenter studio shot with a banner explicitly stating 'PRESS PREVIEW' and 'Scan QR code to see front pages,' along with a QR code visible. Logic holds because both slices feature the same prompt—scan a QR code to view front pages—appearing in different settings (solo and multi-presenter), indicating it is a recurring visual cue.",
+    "visual_proof": "In Clip 1, a solo presenter is shown next to a graphic that reads 'PRESS PREVIEW' and includes a QR code with the text 'Scan the QR code to see tomorrow's front pages.' In Clip 2, a multi-presenter studio shot features the same 'PRESS PREVIEW' banner at the bottom of the screen, again displaying the QR code and the text 'Scan QR code to see front pages.' This recurring visual prompt appears in both contexts as described."
+  },
+  {
+    "question": "A woman with long red hair appears as a remote-style talking head and also as a studio desk presenter later. What clothing color/theme identifies her across these two appearances?",
+    "answer": "She is dressed in blue in both appearances (blue sweater/top/blazer).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      15,
+      30
+    ],
+    "reasoning_chain": "Step 1: Slice 15 shows a red-haired woman in a blue sweater speaking to camera with press preview graphics. Step 2: Slice 30 shows the red-haired woman in a blue top at a studio desk with a bald man. Conclusion: The consistent clothing theme is blue.",
+    "logic_check_reasoning": "Step 1: Slice 15 describes a woman with red hair appearing as a remote-style talking head wearing a blue sweater during a 'Press Preview' segment. Step 2: Slice 30 describes the same 'Press Preview' studio setting where a woman with red hair is at the desk wearing a blue top. Step 3: The consistent clothing color across both appearances is blue, linking the remote and studio appearances logically.",
+    "visual_proof": "In both video clips, the woman with long red hair is consistently wearing a bright blue turtleneck sweater. In Clip 1, she appears as a solo talking head, and in Clip 2, she is seated at a desk with a male co-host, still wearing the same blue top. The color and style are identical across both appearances."
+  },
+  {
+    "question": "How can you track the same red-haired woman across different production modes (remote shot, studio desk with co-host, and solo-style shot with a front-page graphic), and what consistent visual cues identify her?",
+    "answer": "She is identifiable by long red hair and blue clothing, appearing as a remote talking head, then at a studio desk with the bald co-host, and again in a solo-style shot with front pages and a QR code.",
+    "category": "Visual_Tracking",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      15,
+      20,
+      30,
+      38
+    ],
+    "reasoning_chain": "Step 1: Slice 15 shows a long red-haired woman in a blue sweater speaking to camera with press-preview graphics. Step 2: Slice 20 shows a red-haired woman in a blue top at a studio desk with a bald man. Step 3: Slice 30 again shows the same pair (red-haired woman in blue and bald man) at the glass desk. Step 4: Slice 38 shows a red-haired woman in blue in a solo-style frame with a front-page graphic and QR code. Conclusion: Long red hair + blue outfit + press-preview front-page graphics allow tracking her across modes.",
+    "logic_check_reasoning": "Step 1: Multiple slices consistently describe a woman with red hair wearing a blue top/shirt/sweater (Slice 15: red hair, blue sweater; Slice 20: red hair, blue top; Slice 30: red hair, blue top; Slice 38: long red hair, blue shirt), establishing a stable visual identity. Step 2: A remote/standalone talking head is suggested by Slice 15, which shows her alone in front of a camera with a non-studio background (windows and a red curtain) plus on-screen QR code and front pages. Step 3: A studio desk with co-host is shown in Slices 20 and 30 (Sky News Press Preview) where she sits at a desk with newspapers alongside a bald male co-host. Step 4: A solo-style shot with a front-page graphic is shown in Slice 38, where she appears alone with a newspaper cover graphic on-screen and a QR code. Step 5: The consistent visual cues across modes are her red hair and blue clothing, and the Press Preview context with QR code/front pages reinforces continuity. The proposed answer matches these supported elements.",
+    "visual_proof": "The woman appears consistently with long red hair and a blue turtleneck top across all clips. In Clip 1 (0:00-0:14), she is shown in a solo shot against a studio background with a 'Front Pages' graphic. In Clip 2 (0:00-0:15) and Clip 3 (0:00-0:10), she is seated at a desk with a bald male co-host, both reviewing newspapers. In Clip 4 (0:00-0:02), she is again shown in a solo shot, similar to Clip 1, with the same attire and background elements. The consistent visual cues of her red hair and blue top allow for easy tracking across these different production modes."
+  }
+]

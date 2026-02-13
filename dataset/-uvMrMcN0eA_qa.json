@@ -1,0 +1,250 @@
+[
+    {
+        "question": "What is the time change from when she starts doing her makeup in the morning to when she later says it’s 11:00 am at the cafe?",
+        "answer": "About 5 hours (from 6:00am to 11:00am).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the text '6:00am make up.' Step 2: Slice 7 states it’s '11:00 am' at the cafe. Conclusion: The change is about five hours.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly shows the text overlay \"6:00am make up,\" indicating the makeup starts at 6:00am. Step 2: Slice 7 states the woman later says it's 11:00 am while at the cafe. Step 3: The time difference from 6:00am to 11:00am is 5 hours. The scenes appear to be from the same continuous vlog, so the linkage is logical.",
+        "visual_proof": "In Clip 1, at timestamp 0:05, the on-screen text clearly states '6:00am make up'. In Clip 2, at timestamp 0:22, the on-screen text reads '11:00am cafe time'. The visual evidence from both clips provides the start and end times, allowing for a direct calculation of the time elapsed."
+    },
+    {
+        "question": "After she complains the drink is bitter because she didn’t mix it, what does she do later while working on her assignment?",
+        "answer": "She continues working while holding a plastic cup drink (finishing up the assignment).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows her reacting to a bitter drink and trying to shake/stir it. Step 2: Slice 10 shows a drink cup while the overlay says 'finishing up assignment.' Conclusion: After the bitter-drink moment, she’s later working on her assignment with a drink beside her.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows the woman trying a drink without mixing, finding it bitter, and then shaking the cup to stir it. Step 2: Slice 10 shows a person in a similar cafe setting holding a plastic cup with a drink, with on-screen text 'finishing up assignment.' Logic holds because the later slice indicates she is working on her assignment while holding the drink, matching the proposed action.",
+        "visual_proof": "In Clip 1, she reacts to the drink being bitter and is seen looking for something to stir it. In Clip 2, which shows her later, text on screen says 'finishing up assignment' while she is seated with the same type of plastic cup drink in front of her, confirming she continued working with the drink."
+    },
+    {
+        "question": "Which book is shown during her train ride and then later shown again when she reacts on the train?",
+        "answer": "\"The Vegetarian.\"",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows the book titled 'The Vegetarian' being read on transit. Step 2: Slice 25 shows her on a train with a red book and the text about gasping on the train. Conclusion: The repeated book is 'The Vegetarian.'",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly shows a person on a train holding and reading a red paperback titled 'The Vegetarian,' confirmed by the on-screen caption: 'READING A BOOK YOU GUYS RECOMMENDED: \"THE VEGETARIAN\".' Step 2: Slice 25 shows a woman on a train holding a red book, reading, and reacting ('lol I gasped on the train'). The visual attributes (train setting, red book, reading) align, indicating it’s the same book shown again. Logic holds because Slice 14 identifies the book, and Slice 25 depicts the same red book during her reaction.",
+        "visual_proof": "In Clip 1, the text overlay explicitly states, 'READING A BOOK YOU GUYS RECOMMENDED: \"THE VEGETARIAN\"' while showing the person holding the book on a train. In Clip 2, the same person holds up the red-covered book, and the title 'THE VEGETARIAN' is clearly visible on its cover as she reacts to it."
+    },
+    {
+        "question": "How does her attitude toward the recommended book change from the earlier train reading to the later commentary about it?",
+        "answer": "It shifts from calmly reading it to feeling angry and unsure if she can continue.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows her quietly reading 'The Vegetarian' on the train. Step 2: Slice 26 includes the text 'I got so angry reading it. I don't know if I can continue.' Conclusion: Her attitude changes from calm engagement to anger/doubt.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows a first-person view on public transit with the caption 'READING A BOOK YOU GUYS RECOMMENDED: \"THE VEGETARIAN\"', indicating calm, engaged reading of the recommended book. Step 2: Slice 26 shows the woman holding a book and the on-screen text 'I got so angry reading it. I don't know if I can continue.', explicitly expressing frustration and uncertainty about continuing. Logic holds because the earlier scene establishes reading the recommended book and the later commentary directly states anger and doubt about continuing, indicating a shift from calm engagement to frustration.",
+        "visual_proof": "In Clip 1, the woman is shown calmly holding and reading 'The Vegetarian' on a train. In Clip 2, she is speaking directly to the camera with a frustrated expression, holding the same book, and the subtitles explicitly state, 'i got so angry reading it. idek if I can continue it,' confirming the shift in her attitude."
+    },
+    {
+        "question": "After finishing painting pottery, what reading-related activity does she show again later in the video?",
+        "answer": "She shows the book 'The Vegetarian' again, presenting it as a recommendation from viewers.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 22 says she finished painting her pottery and discusses painting a plate. Step 2: Slice 24 shows her holding up 'The Vegetarian' with text about it being recommended. Conclusion: After pottery, she returns to highlighting the recommended book.",
+        "logic_check_reasoning": "Step 1: Slice 22 states the woman says \"I finished painting my pottery,\" confirming the pottery activity. Step 2: Slice 24 later shows the same woman holding a book titled \"The Vegetarian\" with on-screen text \"this book you guys recommended me,\" indicating a reading-related activity where she presents a viewer-recommended book. Logic holds because the later slice follows the pottery mention and explicitly shows her presenting the book recommendation.",
+        "visual_proof": "In Clip 1, she states she finished painting pottery. In Clip 2, which occurs later in the same video, she holds up the book 'The Vegetarian' by Han Kang and says, 'this book you guys recommended me,' visually confirming she is showing the book again as a viewer recommendation."
+    },
+    {
+        "question": "How does her clothing change from when she’s painting pottery to when she later talks in front of the paint-splatter wall about finishing?",
+        "answer": "She goes from wearing a white dress/top with black polka dots to wearing a black jacket with headphones around her neck.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            20,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows her painting pottery in a white polka-dot dress. Step 2: Slice 20 continues the painting close-ups with polka-dot clothing. Step 3: Slice 22 shows her in a black jacket with headphones around her neck while saying she finished painting. Conclusion: Outfit shifts from polka-dot attire to black jacket + headphones.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows the woman painting pottery while wearing a white dress with black polka dots. Step 2: Slice 20 also shows her painting pottery, noting she is wearing a white sweater with black polka dots, confirming the polka-dot outfit during painting. Step 3: Slice 22 shows the woman later in front of a paint-splatter wall, stating she finished painting her pottery, and she is wearing a black jacket with headphones around her neck. Logic holds because the slices describe the same activity timeline and clearly indicate different outfits at each stage.",
+        "visual_proof": "In clips 1 and 2, the woman is clearly visible wearing a white top or dress with small black heart-shaped patterns (which can be interpreted as polka dots) while painting. In clip 3, she is shown in front of a paint-splattered wall, now wearing a black jacket over her top, with large black headphones resting around her neck."
+    },
+    {
+        "question": "How do her nails get described differently earlier in the day versus during the pottery painting close-ups?",
+        "answer": "Earlier in the day, her nails are described as a nude or light pink color. During the pottery painting close-ups, they appear to be a deeper, more saturated red or dark pink color, which is likely the same set of press-on nails shown from different angles and under different lighting.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            18,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows her showing off pink nails she just got done. Step 2: Slice 18 shows close-ups of hands painting pottery with red nail polish. Step 3: Slice 20 also shows red nail polish while painting. Conclusion: Nail color presentation changes from pink to red.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly states the woman shows her nails, which are painted pink, and mentions she just got them done. Step 2: Slice 18 describes the person painting ceramics as having red nail polish. Step 3: Slice 20 again confirms during pottery painting the woman has red nail polish. Logic holds because the question contrasts earlier (Slice 7) with pottery painting close-ups (Slices 18 and 20), showing a clear difference: pink earlier, red during painting.",
+        "original_text_answer": "Earlier her nails are shown as pink (freshly done), but during pottery painting her nails appear red.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 (0:02), the woman shows her freshly applied press-on nails, which are a light, glossy nude-pink shade. In Clips 2 and 3 (0:00-0:22), during the pottery painting activity, the same nails are visible. Under the different lighting conditions of the studio, they appear significantly darker and more saturated, taking on a deep red or dark pink hue, but they are clearly the same manicure."
+    },
+    {
+        "question": "Across the video, what are two different drink scenes that show she spends time in cafes working or hanging out?",
+        "answer": "An iced coffee at a cafe earlier and a matcha latte with a heart design later.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            37,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows her at a cafe with an iced coffee on the table. Step 2: Slice 37 shows a matcha latte with heart foam art next to a laptop. Step 3: Slice 38 shows her drinking from a cup and commenting about liking it cold. Conclusion: The drinks indicate multiple cafe visits/hangouts.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 explicitly shows the woman at a cafe with a cup of iced coffee on the table, supporting \"an iced coffee at a cafe earlier.\" Step 2: Evidence Slice 37 explicitly shows a matcha latte with a heart-shaped foam design next to an open laptop, supporting \"a matcha latte with a heart design later.\" The cafe context is clear for the iced coffee (Slice 7). For the matcha latte (Slice 37), while the caption says \"possibly a café or a similar setting,\" the latte art and laptop strongly indicate a cafe-like scene where she could be working or hanging out. Thus, the two drink scenes described in the answer are present across the video.",
+        "visual_proof": "Clip 1 shows the woman with an iced coffee in a plastic cup at a cafe, working on her laptop. Clip 2 and 3 show a matcha latte in a ceramic cup with a distinct white heart-shaped foam design, which she is seen sipping from while at another cafe setting."
+    },
+    {
+        "question": "How does her relationship to the book 'The Vegetarian' progress from recommendation, to surprising reaction, to strong negative feeling?",
+        "answer": "She first presents it as a viewer-recommended read, then reacts with a gasp on the train, and later says it made her angry and she may not continue.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            14,
+            24,
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows her reading 'The Vegetarian' on transit as a recommended book. Step 2: Slice 24 explicitly highlights it as 'this book you guys recommended me.' Step 3: Slice 25 says she gasped on the train while reading. Step 4: Slice 26 says she got so angry reading it and might not continue. Conclusion: Her engagement escalates from recommendation to shock to anger.",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly shows the book 'The Vegetarian' with the caption 'READING A BOOK YOU GUYS RECOMMENDED: 'THE VEGETARIAN',' establishing it as viewer-recommended. Slice 24 reiterates this with on-screen text 'also guys' and 'this book you guys recommended me' while she holds the book. Step 2: Slice 25 shows her reading the red book on a train with text 'lol I gasped on the train,' indicating a surprising reaction. Step 3: Slice 26 displays her holding the book with text 'I got so angry reading it. I don't know if I can continue,' which clearly conveys a strong negative feeling and consideration of stopping. The progression from recommendation to surprise to anger is directly supported.",
+        "visual_proof": "Clip 1 shows her reading the book on a train with text stating it was recommended by viewers. Clip 3 shows her saying 'lol i gasped on the train' while holding the book. Clip 4 shows her stating 'i got so angry reading it. idek if I can continue it,' confirming her strong negative reaction."
+    },
+    {
+        "question": "During the try-on sequence, which two outfits does she explicitly say are too small, and how do their colors differ?",
+        "answer": "A light blue button-front dress is a bit small, and a light green puff-sleeve top is too small; the colors are light blue vs light green.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 44 says the light blue dress is 'a bit small' and mentions buttons might snap open. Step 2: Slice 45 says the light green puff-sleeve top is 'too small' and not flattering. Conclusion: Two too-small outfits are identified with different colors.",
+        "logic_check_reasoning": "Step 1: Slice 44 shows a light blue button-front dress with the text overlay stating \"color was nice but a bit small,\" explicitly indicating the dress is small. Step 2: Slice 45 shows a light green puff-sleeve top with the text overlay stating \"it's too small,\" explicitly indicating the top is too small. Logic holds because both slices are part of a try-on sequence and each explicitly comments on the fit (small) and provides clear color descriptions (light blue vs light green).",
+        "visual_proof": "In clip 1, the woman is wearing a light blue/grey ribbed top with buttons down the front, and the on-screen text says 'color was nice but a bit small'. In clip 2, she is wearing a light green top with puff sleeves, and the on-screen text says 'i like puff sleeves but it's too small and color is not flattering on me'. The colors are clearly distinct: one is a muted grey-blue, the other is a pastel mint green."
+    },
+    {
+        "question": "What time is shown when she wants a new book, and what earlier afternoon activity shown with a time stamp happens shortly before that?",
+        "answer": "She wants a new book at 4:35 PM, and earlier she is on the 2:15 PM train.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            14,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows '2:15pm train.' Step 2: Slice 14 shows her reading on transit, reinforcing the train segment. Step 3: Slice 31 shows '4:35 PM wanted a new book.' Conclusion: The book-shopping moment at 4:35 PM follows the 2:15 PM train period earlier.",
+        "logic_check_reasoning": "Step 1: Slice 31 explicitly states the time '4:35 PM' alongside the text 'wanted a new book.' Step 2: Slice 13 shows the woman on a train with the caption '2:15pm train,' indicating an earlier afternoon activity with a clear time stamp. Logic holds because the question asks for the time when she wants a new book (4:35 PM) and an earlier afternoon activity with a time stamp (the 2:15 PM train), both directly supported by the slices.",
+        "visual_proof": "Clip 3 (ID: 31) shows a timestamp '4:35pm' with the text 'wanted a new book' while the woman is in a bookstore. Clip 1 (ID: 13) shows a timestamp '2:15pm' with the text 'train' while the woman is seated on a train. These timestamps and activities are clearly visible and sequential."
+    },
+    {
+        "question": "How does the video show a shift from being alone earlier to being social later, and what does she say caused a positive feeling in that social setting?",
+        "answer": "She frames the day as spending Valentine’s Day alone early on, but later she’s talking with another person at a cafe; she says employees giving out free heart glasses was really nice.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 1 sets the theme 'spending VALENTINE'S DAY alone.' Step 2: Slice 8 shows her conversing with another person at a cafe and mentions employees giving out free heart glasses. Conclusion: The narrative shifts from alone to a social interaction with a positive trigger.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the subject spending Valentine's Day alone, with the overlay 'spending VALENTINE'S DAY alone' and solitary self-care activities, establishing the 'alone' phase. Step 2: Slice 8 shows a later scene with two people conversing at a café, indicating a social interaction. Step 3: Slice 8 overlays state 'the employees were giving out free heart glasses <333' and 'it was literally so nice T^T,' which attributes the positive feeling to the employees giving out heart glasses. Logic holds because the slices depict an early solitary context followed by a later social setting, and explicitly state the cause of the positive feeling.",
+        "visual_proof": "Clip 1 shows text overlays like 'spending VALENTINE'S DAY alone' and scenes of her solo activities (buying flowers, eating chocolate). Clip 2 shows her at a cafe interacting with another person, with text stating 'the employees were giving out free heart glasses <333' and 'it was literally so nice T^T', indicating the social interaction and the cause of her positive feeling."
+    },
+    {
+        "question": "How does her dessert-prep storyline progress from choosing a fruit at the store to a final plated result that includes more than one kind of fruit?",
+        "answer": "She selects strawberries at the store, then later dips strawberries (and includes grapes too) in chocolate, ending with a final results plate containing strawberries and grapes.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            35,
+            54,
+            59,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows her choosing strawberries while shopping. Step 2: Slice 54 shows grapes being added and the idea of covered fruits. Step 3: Slice 59 shows dipping strawberries into melted chocolate. Step 4: Slice 60 shows 'final results' with strawberries and grapes on a plate. Conclusion: Shopping leads to multi-fruit chocolate prep and a finished mixed-fruit plate.",
+        "logic_check_reasoning": "Step 1: Slice 35 shows the woman selecting and purchasing strawberries at the store. Step 2: Slice 54 shows preparation for chocolate-covered fruits, explicitly involving grapes being added to a bowl that already contains strawberries, with text overlays indicating chocolate-covered fruits. Step 3: Slice 59 shows strawberries being dipped in melted chocolate. Step 4: Slice 60 shows the 'final results' plate featuring multiple fruits, specifically strawberries and grapes. Logic holds because the sequence progresses from choosing strawberries, through preparing chocolate-covered fruits that include grapes, to a final plate with both strawberries and grapes.",
+        "visual_proof": "Clip 1 shows her selecting strawberries in the store. Clip 2 shows her preparing both strawberries and grapes for dipping. Clip 3 shows her dipping both fruits into melted chocolate. Clip 4 displays the final plated result, which clearly contains both chocolate-covered strawberries and grapes."
+    },
+    {
+        "question": "What is one recurring self-reflection theme that appears early in the day and then returns during her night-time talk?",
+        "answer": "The idea that things are temporary.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 1 includes text like 'the good things are temporary.' Step 2: Slice 72 shows her saying she needs to remind herself everything is temporary. Conclusion: The 'temporary' theme appears both early and late.",
+        "logic_check_reasoning": "Step 1: Slice 1 includes the on-screen text 'the good things are temporary' during an early-day outdoor scene, establishing a theme of temporariness. Step 2: Slice 72, during a later dimly lit, reflective talk, shows the on-screen text 'i need to constantly remind myself everything is temporary,' reiterating the same theme. Logic holds because both slices explicitly mention temporariness, showing it recurs from earlier in the day to the night-time talk.",
+        "visual_proof": "The theme is first introduced visually at 0:06 with the text overlay 'are temporary' during her morning routine. It reappears later in the video at 1:29, where she writes on a notepad, and the text 'i need to constantly remind myself everything is temporary' is clearly visible, confirming it as a recurring self-reflection theme."
+    },
+    {
+        "question": "What sequence of events explains why she is carrying flowers while shopping for groceries later in the day?",
+        "answer": "She buys/picks out a bouquet at the flower shop and then keeps carrying it into the grocery store while choosing items like strawberries and chocolate.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            29,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows her handpicking flowers and saying it’s her favorite part of the day. Step 2: Slice 29 shows the bouquet being wrapped and her confirming she picked out her flowers. Step 3: Slice 35 shows her holding the bouquet while selecting strawberries and browsing chocolate. Conclusion: The flower-shop purchase leads to her carrying the bouquet during grocery shopping.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows a woman in a flower shop carefully selecting and arranging flowers, indicating she is creating a bouquet. Step 2: Slice 29 shows the bouquet being wrapped, priced at $20, with text 'guys I picked out my flowers,' and the woman happily holding the bouquet outside—confirming she purchased it. Step 3: Slice 35 shows the same woman in a grocery store carrying the wrapped bouquet while selecting strawberries and examining chocolate. Logic holds because the timeline flows from purchasing the bouquet to carrying it during grocery shopping.",
+        "visual_proof": "Clip 1 shows her selecting flowers in a shop. Clip 2 shows the bouquet being wrapped and her holding it outside, confirming she purchased it. Clip 3 shows her inside a grocery store, still holding the same bouquet while picking up strawberries and chocolate, establishing the direct sequence of events."
+    },
+    {
+        "question": "How does the bouquet’s appearance shift from when it is being priced and wrapped to when she later arranges flowers at home?",
+        "answer": "It starts as a wrapped bouquet (noted as $20 and wrapped in decorative paper) and later becomes separated stems arranged into a vase at home.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            50,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows the bouquet being wrapped and priced at $20. Step 2: Slice 50 shows her unwrapping it at home and cutting stems. Step 3: Slice 51 shows her placing roses and baby's breath into a glass vase and finishing the arrangement. Conclusion: The bouquet changes from wrapped purchase to a home vase arrangement.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows the bouquet being priced at $20 and carefully wrapped in decorative paper with a ribbon, confirming the initial state as a wrapped bouquet. Step 2: Slice 50 shows a woman unwrapping the bouquet, cutting stems, and arranging them in a vase, indicating the transition to separated stems. Step 3: Slice 51 further depicts arranging individual flowers in a clear glass vase in a home environment. Logic holds because the context explicitly describes the bouquet shifting from wrapped and priced to unwrapped, cut, and arranged into a vase at home.",
+        "visual_proof": "In Clip 1, the bouquet is shown being wrapped in white paper with red floral patterns while the on-screen text mentions the $20 price. In Clip 2 and Clip 3, the same flowers are visibly unwrapped, with stems being cut and arranged individually into a clear glass vase at home."
+    },
+    {
+        "question": "Across her shopping trip, what two different types of items does she pick up—one at the bookstore and one at a grocery-type store—while still carrying flowers?",
+        "answer": "She browses for a new book at the bookstore and later picks up ingredients like strawberries/chocolate at the grocery store while holding the bouquet.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            33,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows her at a bookstore at 4:35 PM wanting a new book while holding the bouquet. Step 2: Slice 33 shows her walking into a store and picking up a package of pickled plum while still with flowers. Step 3: Slice 35 shows her selecting strawberries and looking at chocolate while holding the bouquet. Conclusion: While carrying flowers, she shops for reading material and also for food/ingredients.",
+        "logic_check_reasoning": "Step 1: Slice 31 shows the woman in a bookstore, holding the bouquet, with text overlays 'wanted a new book' and 'romance book or maybe not,' which supports that she is browsing for a book while carrying flowers. Step 2: Slice 35 shows her in a grocery-type store, still holding the bouquet, where she picks up strawberries and also picks up (then puts back) a chocolate bar, and eventually carries strawberries out. This supports that she picked up grocery items like strawberries/chocolate while carrying flowers. The answer's claims are directly supported by these slices.",
+        "visual_proof": "In Clip 1, she is seen inside a bookstore with shelves labeled 'Science & Math' and text overlay stating 'wanted a new book', all while holding the bouquet. In Clips 2 and 3, she is shown in grocery stores (Japanese supermarket and Trader Joe's), selecting items like pickled plums, strawberries, and chocolate bars, consistently carrying the same bouquet throughout."
+    },
+    {
+        "question": "How do the video’s text overlays about ‘today is so far so good’ appear at two different points in the day, and what different contexts surround them?",
+        "answer": "Early it appears during outdoor clips about the day going well, and later it appears after class/food updates as she plans the pottery activity.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            11,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 1 includes outdoor text 'today is so far so good' early in the vlog. Step 2: Slice 11 repeats 'today is so far so good' after class/food and mentions pottery plans. Step 3: Slice 13 shows her continuing the day with later transitions (bathroom concern then train). Conclusion: The same phrase recurs in different day contexts—early outdoor optimism versus later post-class planning.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly shows the text overlay 'today is so far so good' during an outdoor scene where the person stands by a tree, indicating early-day contentment. Step 2: Evidence Slice 11 explicitly shows the same text overlay later, after classroom and food updates, and mentions plans for a pottery activity for Valentine’s Day. Logic holds because both slices independently confirm the same overlay appearing at distinct times with different surrounding contexts (outdoor early vs. post-class/food with pottery planning).",
+        "visual_proof": "The text 'today is so far so good' first appears at 0:04 in Clip 1, overlaid on an outdoor scene where she is walking. It reappears at 0:14 in Clip 2, immediately after she finishes eating her sandwich (post-class) and announces her plan to go paint pottery, indicating a positive update on her day's progress."
+    }
+]

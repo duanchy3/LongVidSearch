@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Two different textile close-ups show star-based quilt designs with different background colors. What are the background colors of these two star quilts?",
+        "answer": "One has a purple background and the other has a green background.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a star quilt on a rich purple background. Step 2: Slice 7 shows a star quilt on a vibrant green background. Conclusion: The backgrounds differ as purple vs green.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes a quilt with a central star-like pattern and explicitly states the background is a rich, textured purple fabric. Step 2: Slice 7 describes another star quilt and explicitly states the background is vibrant green. Logic holds because both slices refer to distinct quilts with star designs and clearly specify their background colors as purple and green respectively.",
+        "visual_proof": "The first video clip clearly displays a quilt with a prominent star design set against a solid purple, textured background. The second video clip shows a different quilt, also featuring a star design, but this one is set against a bright green, textured background. The colors are distinct and directly observable in each respective clip."
+    },
+    {
+        "question": "Which museum is associated with the exhibition mentioned at the very start, and which other museum is explicitly credited later for images used in the project?",
+        "answer": "The Metropolitan Museum of Art (The Met Fifth Avenue) is associated with the exhibition at the start, and the Joslyn Art Museum is credited later for images.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces an event/exhibition at The Met Fifth Avenue. Step 2: Slice 82 lists credited image sources including the Joslyn Art Museum and shows The Metropolitan Museum of Art branding. Conclusion: The Met is the exhibition venue and Joslyn is an explicitly credited image source.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the exhibition 'Karl Bodmer's North American Portraits' is at The Met Fifth Avenue, identifying The Metropolitan Museum of Art as the associated museum at the start. Step 2: Slice 82 lists sources of images used, explicitly including the Joslyn Art Museum among others. Logic holds because the first part identifies the hosting museum and the second part identifies a museum credited for images.",
+        "visual_proof": "At 0:02 in Clip 1, the text states the exhibition 'Karl Bodmer: North American Portraits' is 'On view at The Met Fifth Avenue'. At 0:04 in Clip 2, the credits list 'Joslyn Art Museum, Omaha, NE' under 'Images courtesy of'."
+    }
+]

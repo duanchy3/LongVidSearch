@@ -1,0 +1,100 @@
+[
+    {
+        "question": "During the Seattle trip, which game shown later matches the earlier “noobs” theme, and where is it played?",
+        "answer": "Chess, played on a rooftop with oversized pieces.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 12 introduces “Chess (with two noobs)” and shows oversized pieces. Step 2: Slice 14 shows the same oversized chess setup being played on a rooftop. Conclusion: The game is chess, and it’s played on a rooftop.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a title 'Chess (with two noobs)' and depicts a person contemplating moves on a large board with oversized white chess pieces, establishing the 'noobs' theme and the game as chess. Step 2: Slice 14 later shows two people actively playing chess on a rooftop with large white pieces, explicitly stating the rooftop setting. Logic holds because the later scene matches the earlier 'noobs' chess theme and clearly identifies the location (rooftop) and the oversized pieces.",
+        "visual_proof": "Clip 1 shows a person playing chess with oversized pieces on a tiled outdoor area, with on-screen text reading 'chess (with two noobs)'. Clip 2 confirms the same game is being played on a rooftop with a city skyline in the background, featuring the same oversized white and black pieces and the same player in the brown coat. The context of 'noobs' is reinforced by dialogue about incorrect moves and taking pieces back."
+    },
+    {
+        "question": "What sequence shows the creator moving from documenting travel and friendship to emphasizing creative learning and then ending on a personalized animated sign-off?",
+        "answer": "Travel/friendship vlog moments, then Skillshare learning/art segments, ending with an animation reading “WITH LOVE, Linh.”",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            27,
+            57,
+            60,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 27 is a Seattle memories montage centered on friends. Step 2: Slice 57 transitions from performance footage into a Skillshare talk about returning to art. Step 3: Slice 60 shows an illustration class and sketchbook learning visuals. Step 4: Slice 65 ends with a cozy animated desk scene labeled “WITH LOVE, Linh.” Conclusion: The narrative shifts from lived memories to creativity/learning and a signed closing.",
+        "logic_check_reasoning": "Step 1: Slice 27 depicts a warm, nostalgic montage of friends in Seattle, clearly documenting travel and friendship, with text \"thank you for having my seattle <3.\" Step 2: Slice 57 shows a woman discussing Skillshare and returning to artwork, emphasizing creative learning; Slice 60 further supports this with a focus on an illustration class and techniques. Step 3: Slice 65 features an animated cozy scene ending with the on-screen text \"WITH LOVE, Linh,\" which serves as a personalized animated sign-off. The sequence described in the answer aligns with these slices.",
+        "visual_proof": "Clip 1 shows a photo collage of travel and friends with text 'thank you for having my seattle <3'. Clip 2 transitions to a performance but is followed by Clip 3 where the creator discusses her return to drawing via Skillshare, showing her sketchbook. Clip 4 concludes with an animated illustration signed 'WITH LOVE, Linh', confirming the sequence described."
+    },
+    {
+        "question": "Across the friend scenes at home and then out exploring campus, what recurring accessory helps identify one of the friends?",
+        "answer": "A bucket hat (seen as white earlier and later as green-checkered/green-toned in similar cozy couch scenes).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            5,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a friend on a couch wearing a white bucket hat and glasses. Step 2: Slice 5 shows a similar couch hangout with a green-and-white checkered bucket hat. Step 3: Slice 6 continues the couch scene with a woman in a green hat and glasses, then transitions into the next day’s campus exploring. Conclusion: The bucket-hat/green-hat accessory recurs across friend-focused segments.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows a cozy couch scene with one friend \"wearing a white bucket hat and glasses,\" establishing the accessory. Step 2: Slice 5 shows another cozy couch scene where the woman on the left is \"wearing a green and white checkered bucket hat,\" confirming the same type of accessory recurring with a different color. Step 3: Slice 6 begins with a couch scene where one woman is \"wearing a green hat and glasses,\" consistent with the bucket hat motif, and then transitions to exploring campus. While the campus scene doesn’t explicitly mention the hat, the recurring accessory across the home scenes that identify the same friend is clearly the bucket hat, aligning with the question’s focus on identification across the linked home-to-campus sequence.",
+        "visual_proof": "In Video 1, one friend is clearly seen wearing a white bucket hat while lounging on the couch. In Video 2, the same friend is shown again on the couch, this time wearing a green-and-white checkered bucket hat. The consistent presence of a bucket hat across different home scenes serves as a recurring visual identifier for her."
+    },
+    {
+        "question": "Which city is explicitly the place being left behind, and what later chapter title signals the narrative shift away from that trip?",
+        "answer": "Seattle; the later chapter is “Looking Inward — chapter four.”",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            41,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 28 displays “hope to see you soon, seattle!” indicating departure. Step 2: Slice 41 introduces “Looking Inward” (chapter four). Step 3: Slice 42 continues chapter four with April 15 and internship/badge-photo storyline. Conclusion: The story moves from leaving Seattle to an inward-focused chapter.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 28 shows on-screen text, \"hope to see you soon, seattle!\", which explicitly references Seattle in a farewell-like context, implying it's the place being left behind. Step 2: Evidence Slices 41 and 42 display a title card reading \"Looking Inward\" with \"chapter four\" and the subtitle \"to be your own loving friend,\" clearly identifying the later chapter title. The logic holds because Seattle is explicitly named, and the chapter title \"Looking Inward — chapter four\" is explicitly shown later, marking a shift to a new segment.",
+        "visual_proof": "Clip 1 explicitly displays the text 'hope to see you soon, seattle!' over a window scene. Clip 2 and Clip 3 both show the title card 'Looking Inward — chapter four' overlaid on scenes of the vlogger in a different location (Washington D.C.), signaling a narrative shift away from the Seattle trip."
+    },
+    {
+        "question": "What clothing item links the traveler waiting at the airport early in the trip to the person walking through the city at dusk later?",
+        "answer": "An orange jacket.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the traveler in an orange jacket at the airport. Step 2: Slice 18 shows a woman in a bright orange “GOLF le FLEUR” jacket walking at dusk. Conclusion: The orange jacket visually links the traveler across scenes.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the traveler at the airport is dressed in a cozy orange jacket. Step 2: Slice 18 describes a woman walking through the city at dusk wearing a bright orange jacket with 'GOLF le FLEUR' written on it. Logic holds because both scenes explicitly mention an orange jacket, linking the early airport traveler to the later city walker.",
+        "visual_proof": "In Clip 1 (0:03), the traveler at the airport is wearing a distinct orange and white varsity-style jacket. In Clip 2 (0:01-0:03), the same person is seen walking through the city at dusk, clearly wearing the identical orange jacket with the 'GOLF le FLEUR' logo on the back."
+    },
+    {
+        "question": "How do the video’s ‘memory lane’ friendship reflections connect the outdoor friend-walk montage to later introspective writing prompts in the greenhouse?",
+        "answer": "It moves from reflecting on friends and shared experiences outdoors to reflecting on family, food, and ‘what tastes like home’ through writing in the greenhouse.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            11,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 9 overlays text about close friends and growing up. Step 2: Slice 11 continues reflective text about lived experiences and gratitude to friends. Step 3: Slice 48 turns reflection inward via a prompt (“What tastes like home?”) and writing/pinning notes. Conclusion: The reflective arc shifts from friendships to family-rooted identity and memory.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows an outdoor walk with reflective overlays about friends, struggles, and gratitude, indicating a 'memory lane' friendship montage. Step 2: Slice 9 reinforces friendship reflection in a natural setting with text about first close Viet friends. Step 3: Slice 48 shifts to a greenhouse where the narrative becomes introspective about family and food, culminating in a writing prompt ('What tastes like home?'). Logic holds because the video transitions from outdoor friendship memories to indoor, written reflection on family/food/home, exactly as the proposed answer states.",
+        "visual_proof": "Clip 1 shows outdoor scenes with text about 'first close Viet friends' and 'cultural upbringing.' Clip 2 transitions to urban settings with similar themes of friendship. Clip 3 shifts to a greenhouse with text linking plants to family memories ('mom's garlic chicken,' 'grandma's canh chua') and ends with a hand writing on a card for 'What tastes like home?' This visual progression connects the outdoor friendship reflections to the introspective, family/food-themed writing prompts indoors."
+    },
+    {
+        "question": "Track the ‘orange outerwear’ person across the video: where are they first seen traveling, later seen playing a game, and later seen walking a city street at night?",
+        "answer": "At the airport traveling to Seattle, then at oversized chess, then walking a lively street at dusk/night.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            12,
+            14,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the traveler in an orange jacket at the airport. Step 2: Slice 12 shows a person in an orange jacket at an oversized chessboard. Step 3: Slice 14 shows chess continuing with an orange-outfit player. Step 4: Slice 18 shows a woman in a bright orange jacket walking in a lively evening street scene. Conclusion: The orange outerwear helps track the same main subject through travel, chess, and nightlife.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows the traveler in an orange jacket at an airport, heading to Seattle. Step 2: Slices 12 and 14 show the same orange-outfitted person playing an oversized chess game. Step 3: Slice 18 shows a woman in a bright orange jacket walking along a lively city street at dusk/early evening. The visual attributes (orange outerwear) and sequence align, supporting the proposed tracking.",
+        "visual_proof": "The person in orange outerwear is first seen at 0:03 in an airport terminal with a plane visible outside, confirming travel. Later, at 0:01 and 0:02, they are seen playing on the giant chessboard. Finally, at 0:03 and 0:04, they are walking down a city street at night, identifiable by the illuminated storefronts and streetlights."
+    }
+]

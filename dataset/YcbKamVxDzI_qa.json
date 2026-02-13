@@ -1,0 +1,68 @@
+[
+    {
+        "question": "Which character type is shown in a formal corridor walk and later is seen preparing for a ceremony with a cape and sword?",
+        "answer": "A royal/high-ranking figure associated with formal authority (the queen/royal entourage context) is shown in the corridor and later the royal figure is prepared for a ceremony with a cape and sword.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a highly formal royal-feeling corridor scene led by a woman in a dark blue suit with pearls (queen-like authority). Step 2: Slice 44 shows a man in a decorated military/royal uniform being assisted into ceremonial attire including a cape and sword. Conclusion: The video links royal formality in official spaces to later ceremonial preparation of a royal figure.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes a woman, presumably a queen, walking confidently in a formal indoor corridor, indicating a royal/high-authority figure. Step 2: Slice 44 shows a man in a formal military-style uniform with medals being assisted into a cape and sword for a ceremony, explicitly suggesting a high-ranking officer or royal figure. Logic holds because both scenes depict a royal/high-ranking character type in formal contexts: first in a corridor walk, later in ceremonial preparation.",
+        "visual_proof": "In Clip 1, a woman identified by on-screen text as 'QUEEN PATRICIA' walks formally down a corridor with an attendant, establishing her royal status. In Clip 2, a man in an ornate military-style uniform with medals and epaulets is being assisted by another man who is draping a sash or cape over his shoulder and handing him what appears to be a ceremonial sword or baton, indicating preparation for a formal ceremony. The consistent title 'A ROYAL IN PARADISE' links both scenes to the same narrative."
+    },
+    {
+        "question": "Who is shown placing importance on phone conversations at sunset by the water, and which later indoor scene shows a different person urgently on the phone under warm lamps?",
+        "answer": "A bearded man in a suit is shown on the phone at sunset by the water, and later a blonde woman in a blue blazer is shown urgently on the phone indoors under warm lamps.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            33,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows a bearded man in a suit on the beach at sunset speaking on a phone. Step 2: Slice 32 shows a blonde woman in a blue blazer holding a phone to her ear in a warmly lit room with multiple lamps. Conclusion: The video features separate phone calls by two different characters in distinct settings.",
+        "logic_check_reasoning": "Step 1: Slice 33 describes a man in a suit with short dark hair and a beard, standing on a beach at sunset, holding a phone to his ear and engaged in a conversation by the water. Step 2: Slice 32 describes an indoor scene lit by warm lamps where a blonde woman in a blue blazer is holding a phone to her ear with a serious, urgent demeanor. Logic holds because the proposed answer correctly identifies the man at sunset by the water and the later indoor scene with a different person urgently on the phone under warm lamps, matching the visual attributes and actions in both slices.",
+        "visual_proof": "Clip 1 shows a bearded man in a dark suit holding a phone to his ear against a sunset beach backdrop. Clip 2 shows a blonde woman in a blue blazer, also on the phone, with a concerned expression, seated indoors under two lit table lamps emitting warm light."
+    },
+    {
+        "question": "Which sequence shows a leisure mood interrupted by a sudden serious/urgent environment, and what later beach image returns the story to relaxation?",
+        "answer": "The poolside fun is interrupted by the clinical emergency-room scene, and later beach walking scenes return the tone to relaxation.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            22,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows carefree poolside leisure followed immediately by a paramedic/clinical hallway, signaling an interruption by urgency. Step 2: Slice 22 returns to a calm beach walk tone. Step 3: Slice 23 continues the relaxed beach romance. Conclusion: The narrative swings from leisure to urgency and back to relaxation.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly shows a leisure scene at the pool (women on floats, playful mood) followed by a sudden shift to a clinical/emergency room setting with a paramedic, indicating urgency. Step 2: Slices 22 and 23 depict relaxed, romantic beach walking scenes under bright skies, restoring a calm tone. Logic holds because the first sequence demonstrates the interruption from leisure to urgency, and the later beach imagery clearly re-establishes relaxation.",
+        "visual_proof": "Clip 1 shows women relaxing on inflatable floats in a sunny pool (leisure mood), which is immediately followed by a man entering a sterile, blue-lit lab or medical facility with an AED sign visible (serious/urgent environment). Clip 3 then shows the same couple from earlier walking peacefully along a sunny beach, holding drinks, which re-establishes a relaxed, leisurely atmosphere."
+    },
+    {
+        "question": "A man is shown resting on a bed early on, and later a man is shown leaning against a railing on a dark bridge at night—what shared mood connects these two moments?",
+        "answer": "Both moments convey a subdued, reflective tone—resting or contemplation rather than action.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 11 opens with a man lying on a bed, resting. Step 2: Slice 71 shows a man leaning contemplatively against a railing at night. Conclusion: Both depict low-energy reflective states.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes an opening scene with a man lying on a bed, seemingly asleep or resting, in a relaxed environment, which indicates a subdued, non-action mood. Step 2: Slice 71 describes a man leaning against a railing on a dimly lit bridge at night, appearing contemplative or distressed, suggesting deep thought—clearly reflective and subdued. Logic holds because both scenes emphasize calm, introspective states rather than active events.",
+        "visual_proof": "In the first clip, a man is seen lying still on a bed in a dimly lit room, surrounded by crumpled tissues, suggesting illness or emotional exhaustion. In the second clip, a man stands alone at night on a dark bridge, leaning against a railing with streetlights casting long shadows, creating a solitary and pensive atmosphere. Both scenes lack dynamic action and emphasize quiet, introspective states."
+    },
+    {
+        "question": "Which destination is confirmed on the tablet message, and which brochure later reinforces that this is a tropical getaway?",
+        "answer": "The confirmed destination is “paradise,” and the brochure later shown is for “The Haven Isles,” reinforcing it as a tropical getaway.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a tablet confirmation reading “CONFIRMED. WE'LL SEE YOU IN PARADISE!” Step 2: Slice 11 shows a brochure for “The Haven Isles,” presented as a tropical resort destination. Conclusion: The plan is confirmed for “paradise,” and “The Haven Isles” brochure supports the tropical trip context.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly states there is a close-up of a tablet screen displaying the confirmation message: 'CONFIRMED. WE'LL SEE YOU IN PARADISE!', which confirms the destination as 'paradise.' Step 2: Slice 11 mentions a close-up of a brochure for 'The Haven Isles,' described as a tropical resort or vacation destination, reinforcing the tropical getaway theme. Logic holds because the question asks for the destination confirmed on the tablet and the brochure that supports the tropical setting; both are directly referenced in the slices.",
+        "visual_proof": "In Video 1, at 0:07, the tablet screen clearly displays the message 'CONFIRMED. WE'LL SEE YOU IN PARADISE!'. In Video 2, at 0:07, a close-up of a brochure shows the title 'THE HAVEN ISLES' with an image of palm trees and the text 'YOUR TROPICAL ADVENTURE AWAITS!', directly reinforcing the tropical theme."
+    }
+]

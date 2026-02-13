@@ -1,0 +1,135 @@
+[
+    {
+        "question": "Which presenter is associated with the talk about imagining the Black Tudor trumpeter, and what distinctive clothing helps you track him later when he speaks again?",
+        "answer": "It is the man presenting “The John Blanke Project,” and he can be tracked later by his purple blazer, light blue shirt, and glasses.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            12
+        ],
+        "reasoning_chain": "Step 1: The talk titled “The John Blanke Project: Imagine the Black Tudor Trumpeter” is shown with a male speaker at a podium. Step 2: Later, a male speaker in a distinctive purple blazer and glasses speaks at a transparent podium. Conclusion: The speaker can be tracked across time by the purple blazer/light blue shirt/glasses.",
+        "logic_check_reasoning": "Step 1: Slice 8 states the event is titled \"The John Blanke Project: Imagine the Black Tudor Trumpeter\" and is led by a speaker at a transparent podium, identifying the presenter associated with that talk. Step 2: Slice 12 describes a man presenting at a transparent podium, wearing a purple blazer, light blue shirt, and glasses. Step 3: The shared details (transparent podium, formal presentation setting) logically link the presenter in Slice 8 to the man described in Slice 12. Step 4: The proposed answer identifies the presenter as \"the man presenting 'The John Blanke Project'\" and specifies the distinctive clothing (purple blazer, light blue shirt, glasses) to track him later, which matches Slice 12. Therefore, the context fully supports the answer.",
+        "visual_proof": "Clip 1 shows a presentation slide for 'The John Blanke Project' with the name Michael I. Ohajuru FRSA. Clip 2 shows a man speaking at a podium wearing a distinct purple blazer over a light blue collared shirt and glasses, matching the description in the answer."
+    },
+    {
+        "question": "Which slide provides a detailed timeline of John Blanke’s activities, and what later on-screen text-based display repeats that same timeline information?",
+        "answer": "The slide titled “John Blanke (fl. 1507–1512) in the Archives,” and a later static display of the same John Blanke timeline repeats it.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            23
+        ],
+        "reasoning_chain": "Step 1: A slide titled “John Blanke (fl. 1507–1512) in the Archives” lists dated events. Step 2: Later, another static image shows the same titled timeline with the same dates and events. Conclusion: The later display repeats the same John Blanke timeline slide.",
+        "logic_check_reasoning": "Step 1: Slice 19 explicitly describes a slide titled “John Blanke (fl. 1507–1512) in the Archives” that presents a detailed timeline of his activities with highlighted dates and events. Step 2: Slice 23 describes a later on-screen text-based display—a historical document—with the same title, presenting the same set of timeline entries (paid 8d in 1507, plays at Henry VII’s funeral in 1509, coronation, wage petition, marriage in 1512, not mentioned in 1514). Although there is a minor discrepancy about the petition year (1511 vs 1512), per the instruction to handle VLM noise, the core timeline information is clearly repeated. Logic holds because both slices refer to the same titled content and timeline presented first as a slide and later as a static document display.",
+        "visual_proof": "Both video clips show an identical static slide with the title 'John Blanke (fl. 1507–1512) in the Archives' and a central list detailing his activities from 1507 to 1514, including key events like being paid 8d per day, playing at royal events, marrying in 1512, and not being mentioned in 1514. The visual content is unchanged between the clips, confirming that the same timeline information is displayed repeatedly."
+    },
+    {
+        "question": "In the lecture, what visual evidence ties the ‘Black Presence in Tudor England’ event branding to The Metropolitan Museum of Art?",
+        "answer": "The event title appears on the screen, and later the podium explicitly shows the “MET” branding.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            52
+        ],
+        "reasoning_chain": "Step 1: The screen shows the event topic “The Black Presence in Tudor England.” Step 2: A later segment shows the speaker at a podium bearing the “MET” logo. Conclusion: The event is tied to The Metropolitan Museum of Art through the podium branding.",
+        "logic_check_reasoning": "Step 1: Slice 30 states the slide on the screen reads 'The Black Presence in Tudor England,' confirming the event title is visibly presented. Step 2: Slice 52 states the podium bears the 'MET' logo, indicating Metropolitan Museum of Art branding is visible. Logic holds because these two visual elements—the event title on the screen and the MET logo on the podium—tie the event branding to the institution.",
+        "visual_proof": "In Clip 1, the presentation slide clearly displays the event title 'The Black Presence in Tudor England'. In both Clip 1 and Clip 2, the clear acrylic podium at which the speaker stands has the red logo 'THE MET' prominently displayed on its front panel, visually linking the event to The Metropolitan Museum of Art."
+    },
+    {
+        "question": "Which speaker’s segment includes a candle near a vase of white flowers, and how can you connect that setting to his repeated appearances at the podium?",
+        "answer": "The man in the purple blazer; the candle and white flowers appear in his setup and match his later repeated podium shots with the same clothing and Dell laptop.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            22
+        ],
+        "reasoning_chain": "Step 1: A male speaker in a purple blazer appears with a white-flower vase and a candle nearby. Step 2: Another close segment shows the same man and same staging elements at the transparent podium. Conclusion: The candle/white-flowers staging helps connect his repeated appearances.",
+        "logic_check_reasoning": "Step 1: Slice 17 describes a man in a purple blazer behind a transparent podium with a Dell-logo laptop, and explicitly notes a small candle near a vase of white flowers to the left. Step 2: Slice 22 shows the same man (purple blazer, glasses) at the podium with a laptop and microphone, and again mentions the vase with white flowers in the same dimly lit setting, indicating repeated appearances at the podium. Step 3: The connection holds because the distinctive setup (vase with white flowers, podium, laptop) and the man's consistent attire link the candle-including segment to his repeated podium shots, with the Dell laptop identified in Slice 17 and the laptop presence maintained in Slice 22.",
+        "visual_proof": "Both video clips show the same man in a purple blazer and blue shirt at a clear podium with a Dell laptop. In the background, to his left, there is a dark vase with white flowers and a small lit candle visible on the surface below it. The consistent presence of these items, along with his identical attire and equipment across both clips, confirms they are from the same continuous segment."
+    },
+    {
+        "question": "What two different types of historical sources are shown: a parish register example and a legal deposition, and how are they labeled on-screen?",
+        "answer": "Parish registers are labeled as recording baptisms, marriages, burials, and occupations; the legal deposition is labeled “Deposition of Edward Swarthye ‘alias negro’… 1597.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            42,
+            66
+        ],
+        "reasoning_chain": "Step 1: The presentation shows parish registers with an explicit label describing what they record. Step 2: Later, a slide shows a titled legal document deposition for Edward Swarthye alias “negro” in 1597. Conclusion: The video uses both parish registers and court depositions as historical sources, each labeled on-screen.",
+        "logic_check_reasoning": "Step 1: Slice 42 states the on-screen title 'Parish Registers record baptisms, marriages, burials, AND occupations,' clearly labeling the parish register content. Step 2: Slice 66 states the title 'Deposition of Edward Swarthye 'alias negro' to the Court of Star Chamber, 1597,' labeling the legal deposition. Step 3: The proposed answer reflects these labels: it accurately paraphrases the parish register label and cites the deposition title with ellipsis while retaining the key elements and year. The logic holds as both labels are directly supported by the provided slices.",
+        "visual_proof": "Clip 1 displays a slide with the on-screen text: 'Parish Registers record baptisms, marriages, burials, AND occupations' above three images of handwritten documents. Clip 2 displays a single document with the on-screen text: 'Deposition of Edward Swarthye ‘alias negro’ to the Court of Star Chamber, 1597'. Both labels are clearly visible and match the original answer."
+    },
+    {
+        "question": "Which presenter is speaking when the slide focuses on Drake’s Caribbean raid, and what is the next time the map itself is shown without the speaker?",
+        "answer": "A woman at the podium is speaking during the Drake’s raid slide, and later the map appears alone as a full-screen display.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            63,
+            64
+        ],
+        "reasoning_chain": "Step 1: A woman presents with a slide titled “Duke’s/Drake’s Caribbean Raid 1585–1586.” Step 2: The next segment shows the map alone with the title “Drake’s Caribbean Raid 1585–1586.” Conclusion: The map transitions from being behind the speaker to being displayed full-screen.",
+        "logic_check_reasoning": "Step 1: Slice 63 describes a woman at a podium speaking, with a large screen behind her displaying a map titled (likely mis-captioned) “Duke’s Caribbean Raid 1585-1586,” indicating she is presenting the Drake/Duke Caribbean raid slide. Step 2: Slice 64 shows the same map of Drake’s Caribbean Raid 1585-1586 on a black background, with no mention of the speaker or audience, implying the map is shown alone as a full-screen display. Logic holds because the topic and visual (the raid map) are consistent across slices, and the second slice focuses solely on the map without the presenter.",
+        "visual_proof": "In Video 1, a woman with red hair is visibly standing at a podium and gesturing toward a large screen displaying the 'Drake’s Caribbean Raid 1585-1586' map. In Video 2, the identical map is shown in full-screen without any presenter or audience visible, confirming it appears alone after the presentation segment."
+    },
+    {
+        "question": "Which female speaker is repeatedly shown at the podium across the mid-to-late sections, and what visual feature (hair color) helps confirm it’s the same person?",
+        "answer": "The woman with short red hair; her short red hair repeatedly identifies her across those podium segments.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            55
+        ],
+        "reasoning_chain": "Step 1: A woman with short red hair speaks at a podium with a laptop. Step 2: Later, a woman with the same short red hair appears again at the podium with similar setup elements. Conclusion: The repeated red-haired woman is the same presenter.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a woman with short red hair, wearing a black top, standing behind a podium with a microphone and a laptop, giving a speech. Step 2: Slice 55 also describes a woman with short red hair, wearing a black top, at a transparent podium with a microphone and a laptop, delivering a speech. Logic holds because both slices depict the same visual attributes (short red hair, black top, podium with microphone and laptop), indicating the same female speaker is repeatedly shown. The hair color (short red hair) is a consistent feature confirming it’s the same person.",
+        "visual_proof": "Both video clips show the same female speaker at a podium. Her most prominent and consistent visual feature is her short, reddish-brown hair with bangs. This distinct hairstyle is clearly visible in every frame of both clips, confirming it is the same person across the different segments."
+    },
+    {
+        "question": "How do the slides connect an early-modern map by John Speed to a later slide pinpointing a specific burial in Cambridgeshire?",
+        "answer": "The John Speed map introduces historical geography, and later a burial slide includes a map of England with a pin marking Bluntisham-cum-Earith in Cambridgeshire.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            32,
+            33,
+            35
+        ],
+        "reasoning_chain": "Step 1: The presenter shows a slide labeled “Map by John Speed, c. 1600.” Step 2: The map is then shown full-screen as an old detailed map of Britain. Step 3: Later, another slide about a burial includes a map of England with a red pin marking a specific location (Bluntisham-cum-Earith, Cambridgeshire). Conclusion: The presentation uses historical mapping first broadly, then for locating a specific archival record site.",
+        "logic_check_reasoning": "Step 1: Slice 32 describes a presentation with a screen showing a historical map labeled \"Map by John Speed, c. 1600,\" establishing the use of early-modern cartography and a historical geography context. Step 2: Slice 33 shows a detailed John Speed map of England, Scotland, and Ireland, reinforcing the early-modern map component. Step 3: Slice 35 presents a later slide titled about a specific burial in Bluntisham-cum-Earith, Cambridgeshire, and includes a map of England with a red pin marking that location. Logic holds because the sequence moves from an early-modern John Speed map to a subsequent slide that uses a map to pinpoint a specific burial site in Cambridgeshire, matching the proposed connection.",
+        "visual_proof": "Clip 2 shows the 'Map by John Speed, c.1600' which depicts the historical geography of England, Scotland, and Ireland. Clip 3 presents a slide titled 'Burial of \"Dido And (a More)\", Bluntisham-cum-Earith, Cambridgeshire, 9 December 1594', which includes a modern map of England with a red pin precisely located on Bluntisham-cum-Earith in Cambridgeshire. The visual sequence connects the broad historical context of the Speed map to the specific geographical location of the burial record."
+    },
+    {
+        "question": "How does the John Blanke topic move from a stage talk title, to a detailed timeline slide, to a later text-heavy ‘artists’ interpretation screen about imagining him?",
+        "answer": "It starts with “The John Blanke Project” talk title, then presents a “John Blanke in the Archives” timeline slide, and later shows an ‘62 Artists’ screen describing imagined interpretations of John Blanke.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            19,
+            78
+        ],
+        "reasoning_chain": "Step 1: The stage presentation is explicitly about imagining the Black Tudor trumpeter (John Blanke). Step 2: A later slide provides archival timeline facts about John Blanke. Step 3: Later, a screen labeled with “62 Artists” presents interpretive text about imagining John Blanke. Conclusion: The narrative moves from theme introduction, to archival evidence, to modern artistic re-imaginings.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows the stage talk titled \"The John Blanke Project: Imagine the Black Tudor Trumpeter,\" establishing the event title. Step 2: Slice 19 presents a detailed slide titled \"John Blanke (fl. 1507–1512) in the Archives\" with a timeline of dates and events, matching the described timeline slide. Step 3: Slice 78 shows a later text-heavy screen with \"62 Artists\" and content about imagining John Blanke, including a quote and description of creative interpretation, aligning with an artists’ interpretation screen. Logic holds because the sequence from talk title to archival timeline to artists’ imagining is explicitly reflected across these slices.",
+        "visual_proof": "Clip 1 shows the presentation title slide 'The John Blanke Project'. Clip 2 displays a slide titled 'John Blanke (fl. 1507–1512) in the Archives' with a timeline of events. Clip 3 shows a screen headed '62 Artists' featuring text from Jon Daniel about imagining John Blanke as a 'trump card', confirming the progression described."
+    },
+    {
+        "question": "What visual evidence shows a female presenter switching her supporting materials from maps to document-based evidence about death/burial records?",
+        "answer": "She first presents a historical map (John Speed map), then later her slides show specific death/burial record titles and images of handwritten documents with location pins.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            32,
+            36,
+            35
+        ],
+        "reasoning_chain": "Step 1: A woman presents with a screen showing “Map by John Speed, c. 1600.” Step 2: Later, the screen shows a slide titled about a death in Elizabethan London (dated 1594). Step 3: Another slide shows burial documents with a map pin for Cambridgeshire and a dated burial (1594). Conclusion: Her visual aids shift from cartography to documentary evidence of death/burial records.",
+        "logic_check_reasoning": "Step 1: Slice 32 shows a female presenter at a podium with a slide displaying a historical map labeled 'Map by John Speed, c. 1600,' indicating use of a map as supporting material. Step 2: Slice 36 shows the same presentation context with a slide titled 'Death of 'Sida and Je M'ord', Elizabethan London, 2 December 1594,' indicating a shift to death-related content. Step 3: Slice 35 shows a slide titled 'Burial of 'Dido And (a More)', ... 9 December 1594' including images of handwritten documents with arrows and a map with a location pin, which constitutes document-based evidence about burial records. Logic holds because the sequence demonstrates moving from a map slide to slides featuring death/burial records with document images and location pins.",
+        "visual_proof": "In Clip 1, the presenter is standing next to a screen displaying a 'Map by John Speed, c.1600'. In Clip 2, the same presenter is at the podium, but the screen now displays text titled 'Burial of \"Dido And (a More)\", Bluntisham-cum-Earith, Cambridgeshire, 9 December 1594', indicating a shift to burial records. Clip 3 provides a close-up view of this slide, which clearly shows an image of a handwritten document with red arrows pointing to specific entries and a map of England with a pin on Bluntisham-cum-Earith, confirming the switch from maps to document-based evidence."
+    }
+]

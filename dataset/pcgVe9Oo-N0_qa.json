@@ -1,0 +1,55 @@
+[
+    {
+        "question": "Which market is described with a “Newton’s law of gravity doesn’t exist” joke during an overheated period, and is later linked to an official trying to cool the economy?",
+        "answer": "Japan’s stock market.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 20 quotes a Japanese stockbroker joking that Newton’s law of gravity doesn’t exist in Japan’s stock market. Step 2: Slice 24 describes the Bank of Japan governor Mieno trying to cool an unsustainable economy. Conclusion: It refers to Japan’s stock market bubble.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly states a joke by a Japanese stockbroker: “Newton’s law of gravity doesn’t exist in Japan’s stock market,” clearly identifying the market as Japan’s stock market during an overheated period. Step 2: Slice 24 states that when Mieno took office in 1989, he “poured buckets of ice water on the red hot iron that was the Japanese economy,” indicating an official’s effort to cool the overheating. Logic holds because the joke targets Japan’s stock market and the later scene links the period to an official cooling the economy, maintaining a coherent narrative about the same context.",
+        "visual_proof": "Clip 1 explicitly shows text stating, 'One Japanese stockbroker joked, “Newton’s law of gravity doesn’t exist in Japan’s stock market.”' Clip 2 links this to economic policy with text stating, 'When Mieno took office in 1989, he sensed that Japan’s economic growth was unsustainable... He poured buckets of iced water on the red hot iron that was the Japanese economy.' The combination of these clips directly connects the joke about gravity to Japan’s stock market and then to an official’s attempt to cool the overheated economy."
+    },
+    {
+        "question": "What chain of events links a policy to strengthen the yen, a later interest-rate drop, and then a land-price boom described in the video?",
+        "answer": "The Plaza Accord led to a stronger yen, which helped push Japan to cut interest rates, fueling borrowing that drove land prices sharply higher.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            13,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the Plaza Accord and notes a more expensive yen hurt exports. Step 2: Slice 13 states interest rates were dropped from 5% (1985) to about 2.5% (1989) to stimulate the economy. Step 3: Slice 16 explains banks eagerly lent money and borrowers bought land, pushing land prices up sharply. Conclusion: Plaza Accord → rate cuts → borrowing/land bubble.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows the Plaza Accord labeled on a graph and explicitly states \"A more expensive yen was not good news for Japan's export sector,\" indicating a policy-led strengthening of the yen and its negative impact on exports. Step 2: Slice 13 states \"To stimulate the economy, the interest rate was dropped from 5 percent in 1985 to about 2.5 percent in 1989,\" which logically follows from the need to counteract economic weakness implied by the stronger yen hurting exports. Step 3: Slice 16 explains that banks were eager to lend to almost everyone, borrowers used funds to purchase more land, and this cycle contributed to a rapid increase in land prices by 1986, linking easier borrowing to a land-price boom. Logic holds because the video presents a coherent sequence: yen-strengthening policy → economic strain (exports) → interest-rate cuts to stimulate → widespread lending → land-price surge.",
+        "visual_proof": "Clip 1 shows a graph where the 'Plaza Accord' is marked at the start of a steep yen appreciation. Clip 2's subtitle explains this led to an interest rate drop to stimulate the economy. Clip 3's subtitles describe how banks lent eagerly, borrowers bought land, and land prices increased by as much as 5,000 percent by 1986, visually linking the policy, rate cut, and land boom."
+    },
+    {
+        "question": "Which country is shown experiencing a post-war rebuild before later being described as suffering a decades-long post-bubble “hangover”?",
+        "answer": "Japan.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 4 discusses Japan in 1946 rebuilding after WWII. Step 2: Slice 28 states Japan spent the last three decades trying to shake off a post-bubble hangover. Conclusion: The country is Japan.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly states the video goes back to Japan in 1946 and details its post-WWII rebuild (ruins, dismantling zaibatsu, government prioritizing raw materials, aid leading to growth). Step 2: Slice 28 explicitly includes the caption \"Japan has spent the last three decades trying to shake off a post-bubble 'hangover'.\" Logic holds because both slices refer to Japan, first in the post-war rebuild and later in the decades-long post-bubble period.",
+        "visual_proof": "Clip 1 explicitly shows black-and-white footage labeled 'Hiroshima, Japan 1945' and 'Tokyo 1945/1946,' depicting war ruins and reconstruction efforts. Clip 2 shows color footage from 'Tokyo, October 1993' with text describing Japan's 'post-bubble hangover.' The visual evidence across both clips directly links Japan to the post-war rebuild and later economic struggles."
+    },
+    {
+        "question": "Which country is shown as benefiting from Cold War/Korean War-linked aid and then later becoming a global symbol of electronics innovation in the 1980s?",
+        "answer": "Japan.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 4 says Cold War and Korean War brought economic aid to Japan, enabling growth. Step 2: Slice 8 highlights Japanese electronics brands like Sony and Panasonic as worldwide innovation symbols in the 1980s. Conclusion: Japan is the country transitioning from aid-supported rebuilding to innovation leadership.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly states Japan in 1946 and notes that in the late 1940s and 50s, the onset of the Cold War and the Korean War flooded Japan with economic aid, indicating Japan benefited from that aid. Step 2: Slice 8 discusses Japan's technological advancements in the 1980s and says electronics brands like Sony and Panasonic became symbols of innovation worldwide, with a US trade deficit with Japan cited, showing Japan later became a global symbol of electronics innovation. Logic holds because both slices refer to Japan and connect the earlier aid to later technological prominence.",
+        "visual_proof": "Clip 1 explicitly shows text stating 'Then in the late 1940s and 50s, the onset of the Cold War and the Korean war flooded Japan with economic aid' (0:15-0:18), directly identifying Japan as the beneficiary. Clip 2 then shows electronics products (Sony camcorder, National laptop) and text stating 'electronics brands like Sony and Panasonic became symbols of innovation worldwide' (0:00-0:02), with a source tag 'Reuters Tokyo 1986', confirming Japan's role as a global electronics innovator in the 1980s."
+    }
+]

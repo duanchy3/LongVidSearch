@@ -1,0 +1,103 @@
+[
+    {
+        "question": "After the time jump, what does the host do to the pot that was previously filled with rice and water?",
+        "answer": "He removes the lid and stirs the pot vigorously.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows the host pouring water from a pitcher into a pot of rice and leaving it covered. Step 2: Slice 12 shows “20 minutes later,” where the host removes the lid and stirs the pot. Conclusion: After the time jump, he removes the lid and stirs.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows the man filling a pot with water over rice, establishing a pot with rice and water. Step 2: Slice 12 starts with '20 minutes later' and shows the man removing the lid from a large pot and then stirring its contents vigorously. Logic holds because the time-jump implies continuity with the previously prepared pot, and the described actions after the jump match the proposed answer.",
+        "visual_proof": "In Clip 2, after the '20 minutes later' title card, the host is shown removing the lid from the pot with a cloth. He then picks up two forks and vigorously stirs the cooked rice inside the pot, as seen in both the overhead and front-facing shots."
+    },
+    {
+        "question": "Which ingredient is being chopped shortly after the host is shown holding up produce while talking to the camera?",
+        "answer": "Avocado",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            56,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 56 shows the host presenting a large green vegetable/produce while speaking. Step 2: Slice 52 shows hands chopping green apples on a cutting board. Conclusion: The chopped ingredient is green apples.",
+        "logic_check_reasoning": "Step 1: Slice 56 describes the host (Peter) holding up produce (a large green vegetable) while speaking to the camera. Step 2: Slice 52 shows a close-up of someone chopping green apples on a cutting board. Logic holds because the question asks what is being chopped shortly after the host is shown holding produce; the context includes a chopping scene that follows, and the ingredient being chopped is explicitly identified as green apples.",
+        "original_text_answer": "Green apples.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the host, Peter, standing next to a sushi roll topped with sliced green produce. Clip 2, which follows, shows a close-up of hands slicing the same green produce on a cutting board. The texture, color, and shape of the produce being sliced are characteristic of avocado, not green apples. The original answer 'Green apples' is visually contradicted by the clear visual evidence of avocado being prepared."
+    },
+    {
+        "question": "What visual cue indicates a transition from preparation to assembly, and what is assembled immediately afterward?",
+        "answer": "A blue screen saying “ready to roll,” followed by laying plastic wrap and nori and spreading sushi rice on it.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            23,
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 23 ends with a dark blue screen reading “ready to roll.” Step 2: Slice 24 shows plastic wrap and nori laid out and rice spread on nori. Step 3: Slice 25 shows rolling sushi on a bamboo mat and cutting it. Conclusion: The cue is “ready to roll,” and assembly begins with rice-on-nori setup and rolling.",
+        "logic_check_reasoning": "Step 1: Slice 23 states the video concludes with a dark blue screen displaying the text 'ready to roll,' indicating a transition point. Step 2: Slice 24 then shows the next actions in the kitchen: laying out plastic wrap, placing nori, and spreading sushi rice on it, which constitutes the start of assembly. Logic holds because the 'ready to roll' cue signals moving from preparation to assembly, and the immediate assembly steps are described directly afterward.",
+        "visual_proof": "Clip 1 ends with a blue screen displaying the text 'ready to roll'. Clip 2 immediately shows the chef laying down plastic wrap on a bamboo mat, placing a sheet of nori on top, and then spreading sushi rice over the nori. This sequence visually confirms the transition cue and the immediate assembly steps described in the original answer."
+    },
+    {
+        "question": "What evidence shows the sushi is not only made but also tasted and then later eaten as part of a mukbang segment?",
+        "answer": "The host bites a sushi roll during prep, and later both people eat sushi from the large boat during the mukbang.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            27,
+            80,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows the host holding sushi and taking a bite. Step 2: Slice 80 introduces “mukbang time” with a large sushi boat in front of two people. Step 3: Slice 86 shows both participants picking up sushi and eating. Conclusion: Tasting occurs during prep, then eating continues in the mukbang.",
+        "logic_check_reasoning": "Step 1: Slice 27 shows the man preparing sushi (bamboo mat, tray of rolls) and explicitly taking a bite of a sushi roll, proving it was tasted during prep. Step 2: Slice 80 announces 'mukbang time' and shows the two individuals with a large wooden boat-shaped platter of sushi, setting the mukbang context. Step 3: Slice 86 shows the same two individuals (pink hoodie and apron) eating sushi from the large wooden boat, confirming both people later eat the sushi during the mukbang. Clothing color mismatches are acceptable VLM noise; the consistent boat platter and participants align the scenes.",
+        "visual_proof": "In Clip 1, the host is seen picking up a sushi roll from a plate and eating it. In Clip 2, a title card reads 'mukbang time' and shows the host and a woman sitting in front of a large boat of sushi. In Clip 3, both the host and the woman are visually confirmed eating large sushi rolls from the boat."
+    },
+    {
+        "question": "What sequence shows the build-up from cooking rice to seasoning it and finally using it on nori for rolling?",
+        "answer": "Rice is cooked in a pot, then mixed/seasoned in a bowl, then spread onto nori to start rolling.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            10,
+            11,
+            22,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows cooked rice being transferred from a bowl into a larger pot. Step 2: Slice 11 shows water poured into a pot with rice (cooking/soaking step shown in the process). Step 3: Slice 22 shows fluffy rice being mixed vigorously in a large bowl. Step 4: Slice 24 shows sushi rice being spread onto nori on plastic wrap. Conclusion: The workflow goes from rice handling/cooking to seasoning/mixing, then to spreading on nori for rolling.",
+        "logic_check_reasoning": "Step 1: Slices 10 and 11 show rice being transferred into a pot and water poured over it, indicating the cooking step. Step 2: Slice 22 shows the cooked rice in a bowl being mixed vigorously, which aligns with the mixing/seasoning stage typically done for sushi rice. Step 3: Slice 24 shows the prepared sushi rice being spread onto nori on plastic wrap, indicating it is used for rolling. The sequence logically progresses from cooking to mixing/seasoning to application on nori.",
+        "visual_proof": "Clip 1 shows rice being poured into a pot for cooking. Clip 3 shows the cooked rice being transferred to a bowl and mixed with a wooden paddle, indicating seasoning. Clip 4 shows the seasoned rice being spread by hand onto a sheet of nori on a bamboo mat, preparing it for rolling. This sequence visually confirms the steps described in the original answer."
+    },
+    {
+        "question": "How does the show connect the playful plush-toy interruptions to the final mukbang scene with the sushi boat?",
+        "answer": "A person in pink appears with a large plush toy during the sushi presentation, and later the same pink-clad participant joins the host for “mukbang time” in front of the sushi boat.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            75,
+            76,
+            80,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 75 shows a person in pink entering during the sushi tray presentation. Step 2: Slice 76 shows the person in pink holding up a large plush toy while the host talks. Step 3: Slice 80 introduces “mukbang time” with the pink-clad participant and the host behind the sushi boat. Step 4: Slice 86 shows them actively eating sushi. Conclusion: The playful plush moments lead into the shared mukbang with the sushi boat.",
+        "logic_check_reasoning": "Step 1: Slice 76 shows the playful interruption: the person in a bright pink outfit holds a large round plush toy and playfully hides their face, establishing the 'plush-toy' bit. Step 2: Slice 75 shows the pink-clad person appearing alongside the host during a sushi-focused presentation, linking the playful character to the sushi segment. Step 3: Slices 80 and 86 show 'mukbang time' with the same pink-hoodie participant and the host eating from a large boat-shaped sushi platter. Logic holds because the same pink-clad participant appears first in the playful plush-toy moment and later joins the host for the final sushi boat mukbang.",
+        "visual_proof": "Clip 1 shows a person in a pink outfit holding a large white plush toy with a pink bow, interacting with the host next to the sushi boat. Clip 3 and Clip 4 show the same person, now without the plush toy but still in the pink hoodie, sitting with the host at the sushi boat for the mukbang segment. The plush toy is also visible on the counter in the background of Clip 3, confirming the continuity of the scene."
+    },
+    {
+        "question": "What indicates that the video shifts from making individual rolls to presenting a large variety all at once, and what are two presentation surfaces used for that variety?",
+        "answer": "A title card and a large display of many rolls indicate the shift; the variety is presented on a rectangular plate and on a wooden boat-shaped platter.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            58,
+            69,
+            71,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 58 frames a big build (giant roll), implying scaling up and more output. Step 2: Slice 69 shows a large tray filled with many sushi rolls. Step 3: Slice 71 shows many pieces arranged in a wooden boat. Step 4: Slice 73 shows “one rectangle plate later” and a rectangular plate of assorted rolls. Conclusion: The format shifts to variety presentation on both a boat platter and a rectangular plate.",
+        "logic_check_reasoning": "Step 1: Slice 58 shows the chef making individual sushi (a giant salmon roll), establishing the initial focus on single-roll preparation. Step 2: Slice 73 introduces a title card 'one rectangle plate later,' explicitly signaling a transition, and then shows an assortment of many rolls on a rectangular plate, indicating the shift to presenting a large variety. Slice 69 further supports the presence of many rolls displayed at once. Step 3: For presentation surfaces, Slice 73 shows the rectangular plate, and Slice 71 shows rolls being presented in a decorative wooden boat-shaped dish. Thus, the indicator (title card and display of many rolls) and the two surfaces (rectangular plate and wooden boat) are explicitly supported.",
+        "visual_proof": "Clip 1 begins with a title card 'giant salmon roll (roll 4 of 4)', indicating the end of individual roll making. Clip 4 features another title card 'one rectangle plate later', followed by the chef presenting a large variety of sushi on both a white rectangular plate and a wooden boat-shaped platter, confirming the shift and the two presentation surfaces."
+    }
+]

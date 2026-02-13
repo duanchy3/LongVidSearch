@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What link is suggested between ash-related airborne particles and human breathing by showing microscopic jagged particles and then a labeled respiratory system diagram?",
+        "answer": "Crystalline silica particles entering and affecting the respiratory system (lungs/airways).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows microscopic crystalline silica particles (jagged) and then lung anatomy. Step 2: Slice 34 provides additional microscopic/biological visuals reinforcing particle-like hazards. Conclusion: The implied link is inhalation of fine silica particles affecting the lungs/airways.",
+        "logic_check_reasoning": "Step 1: Slice 35 explicitly shows microscopic crystalline silica particles with jagged shapes. Step 2: Slice 35 then transitions to a labeled diagram of the human respiratory system (trachea, bronchial tubes) and later focuses on bronchioles and alveoli. Step 3: Slice 35’s summary states the video provides an overview of crystalline silica, its impact on volcanic eruptions, and its relevance to human health, implying a health link via inhalation. Logic holds because the juxtaposition of silica particles and respiratory anatomy suggests that these particles can enter and affect the lungs/airways. Slice 34 reinforces the microscopic particle theme but is not necessary for the core link.",
+        "visual_proof": "The first clip begins with a microscopic view of jagged, irregular particles (0:00-0:10), which are visually consistent with ash or crystalline silica. This is immediately followed by an anatomical diagram of the human respiratory system, labeling the trachea and bronchial tubes (0:22-0:26). The sequence strongly suggests a causal link: these airborne particles enter the labeled respiratory structures. The subsequent chart on magma types and eruption products (0:27-0:49) reinforces the volcanic origin of such particles. The video then zooms into the lungs, showing alveoli and capillaries (0:50-1:03), further detailing where these particles would lodge and cause damage, confirming the suggested link between the particles and the respiratory system."
+    },
+    {
+        "question": "Which geothermal feature is explicitly labeled on screen and is later shown as a site with a sign listing roughly 150°C and +13 mbar?",
+        "answer": "Fumaroles.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 10 ends with the label 'FUMAROLES' while showing steam vents. Step 2: Slice 11 shows a steam vent area with a sign giving 'TEMP ~150°C' and 'PRESS +13 mbar.' Conclusion: The labeled geothermal feature is fumaroles.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly states the video ends with the word \"FUMAROLES\" displayed and shows a close-up of a fumarole (steam vent). Step 2: Slice 11 shows a steam vent with a sign reading \"TEMP ~150°C ~302°F\" and \"PRESS +13 mbar.\" Step 3: The question asks which geothermal feature is labeled on screen and later shown with that sign; the label \"FUMAROLES\" directly matches the steam vent setting with the temperature and pressure sign, indicating the same feature.",
+        "visual_proof": "In Video 1, the text 'FUMAROLES' is explicitly overlaid on a shot of steaming vents. In Video 2, a sign is shown with the readings 'TEMP ~150°C ~302°F' and 'PRESS. +13 mbar', situated directly beside similar steaming ground features, visually linking the label to this specific site."
+    },
+    {
+        "question": "Which hazard is presented via a title about a chemical’s effects on humans and is followed later by a title stating that burning rain is falling days after the eruption?",
+        "answer": "Hydrogen fluoride exposure.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows the title 'Effects of Hydrogen Flouride Upon Contact With Human Beings' with a hazard symbol. Step 2: Slice 52 shows '9 DAYS AFTER...' with the line 'THE RAIN... IT BURNS...' implying corrosive/chemical precipitation. Conclusion: The chemical hazard being emphasized is hydrogen fluoride exposure.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 37 explicitly shows a title screen reading \"Effects of Hydrogen Flouride Upon Contact With Human Beings,\" indicating a hazard related to hydrogen fluoride exposure. Step 2: Evidence Slice 52 later shows titles stating \"9 DAYS AFTER THE ERUPTION OF CAMPi FLEGREI\" and \"THE RAIN... IT BURNS...,\" describing burning rain after an eruption. Logic holds because the question asks which hazard is presented via the earlier chemical-effects title and later followed by the burning rain title, which is clearly hydrogen fluoride exposure.",
+        "visual_proof": "The first clip displays a title card explicitly stating 'EFFECTS OF HYDROGEN FLUORIDE UPON CONTACT WITH HUMAN BEINGS' followed by detailed text about its corrosive and toxic effects. The second clip begins with a title card reading '9 DAYS AFTER THE ERUPTION OF CAMPI FLEGREI' and immediately follows with the text 'THE RAIN... IT BURNS...', directly linking the chemical hazard (hydrogen fluoride) to the phenomenon of burning rain after a volcanic eruption."
+    },
+    {
+        "question": "Which two time-markers in the video explicitly describe how the situation worsens from immediate global isolation to a later stage where burning rain is mentioned?",
+        "answer": "One day after the eruption and nine days after the eruption.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 27 states 'One Day After the Eruption... The Isolation Begins.' Step 2: Slice 52 states '9 DAYS AFTER...' and describes burning rain. Conclusion: The marked progression is from Day 1 isolation to Day 9 burning rain.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly includes the text \"One Day After the Eruption of Campi Flegrei, The Isolation Begins,\" indicating immediate global isolation. Step 2: Slice 52 explicitly begins with \"9 DAYS AFTER THE ERUPTION OF CAMPi FLEGREI\" and follows with \"THE RAIN... IT BURNS...\", indicating a later stage where burning rain is mentioned. Logic holds because these two slices provide clear time markers and describe the progression from isolation to burning rain.",
+        "visual_proof": "Clip 1 ends with a title card stating 'ONE DAY AFTER THE ERUPTION OF CAMPI FLEGREI' followed by 'THE ISOLATION BEGINS'. Clip 2 begins with a title card stating '9 DAYS AFTER THE ERUPTION OF CAMPI FLEGREI' followed by text describing 'THE RAIN... IT BURNS...', indicating a worsening situation."
+    },
+    {
+        "question": "Which map-based explanation of ancient volcanic history is echoed later by a tectonic-plate-focused map that again emphasizes the same Italian volcanic region?",
+        "answer": "Campi Flegrei/Phlegraean Fields.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a detailed map of the Phlegraean Fields with calderas and vents across historical periods. Step 2: Slice 70 shows a map of Italy with tectonic plates and highlights Campi Flegrei. Conclusion: Both map explanations center on the Campi Flegrei/Phlegraean Fields region.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes a map-based explanation of the ancient volcanic history of the Phlegraean Fields (Campi Flegrei), detailing calderas and past activity. Step 2: Slice 70 shows a later tectonic-plate-focused map that again highlights the Campi Flegrei region. Logic holds because both slices focus on the same Italian volcanic region, with the second echoing the first through a different mapping emphasis.",
+        "visual_proof": "The first clip (0:00-0:16) shows a map of the Phlegraean Fields, explicitly labeling 'FIRST PHLEGRAEAN MEGA ERUPTION CALDERA' and 'SECOND PHLEGRAEAN MEGA ERUPTION CALDERA' over the Campi Flegrei region. The second clip (0:11-0:51) features a tectonic plate map centered on Italy, repeatedly highlighting 'CAMPI FLEGREI' as the focal point of the 'CAMPANIAN VOLCANIC ARC' and explaining its power through plate collisions. Both maps visually emphasize the same specific Italian volcanic area."
+    },
+    {
+        "question": "How does the video connect volcanic eruption magnitude claims to tsunami devastation and then to later ocean turmoil imagery?",
+        "answer": "It claims a massive, long-lasting eruption, shows tsunami maps and flooded Mediterranean visuals, and later returns to scenes of violent ocean conditions and blasts at sea.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            23,
+            22,
+            49,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 23 explains the eruption's immense reach and introduces a tsunami triggered by the event with catastrophic flooding. Step 2: Slice 22 shows a huge ocean explosion and turbulent water. Step 3: Slice 49 shows a boat battling severe storm seas with low visibility. Step 4: Slice 50 shows a large cylindrical object emerging/sinking in stormy waters, emphasizing ongoing ocean violence and hazards. Conclusion: Massive eruption → tsunami/ocean blasts → sustained dangerous sea conditions.",
+        "logic_check_reasoning": "Step 1: Slice 23 explicitly describes a dramatic volcanic eruption with magnitude claims (audible thousands of kilometers away, continuing for days/weeks) and then shows tsunami maps and visuals of catastrophic flooding in the Mediterranean. Step 2: Slice 22 shows a massive explosion in the ocean with turbulent water, and Slices 49 and 50 depict stormy, violent ocean conditions (a boat struggling through a storm and a large object emerging/sinking in choppy seas). Logic holds because the answer summarizes the sequence: eruption magnitude -> tsunami devastation -> later ocean turmoil imagery, all directly supported by the slices.",
+        "visual_proof": "Clip 1 visually establishes the eruption's scale with maps showing its audible range (China/NY) and compares it to Krakatoa. It then presents 'BEFORE/AFTER' maps illustrating a hypothetical mega-tsunami flooding the Mediterranean. Clip 2 shows a large wave and an explosion at sea, consistent with tsunami or eruption aftermath. Clip 3 depicts chaotic, stormy seas viewed from a ship, reinforcing the theme of ongoing oceanic turmoil. Clip 4 shows a dark object emerging from turbulent water, suggesting continued disturbance. The sequence logically connects the initial eruption claim to the tsunami scenario and then to lingering, violent ocean imagery."
+    },
+    {
+        "question": "How does the video connect the concept of explosive eruptions (by silica-rich magma) to caldera-scale events in the Campi Flegrei region, using both magma-silica tables and caldera maps?",
+        "answer": "It links high-silica, very explosive magma (rhyolite) to caldera-forming eruptions, and the Campi Flegrei maps show mega-eruption calderas formed by such massive explosive events.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            35,
+            6,
+            1,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows a table where high silica (rhyolite) is 'very explosive' and associated with calderas. Step 2: Slice 6 shows maps of the First and Second Phlegraean Mega Eruption Calderas in the Campi Flegrei area. Step 3: Slice 1 states they simulate a VEI 8 eruption releasing enormous fallout, consistent with caldera-forming explosivity. Step 4: Slice 70 again highlights Campi Flegrei in Italy’s tectonic context, reinforcing the region’s capacity for such eruptions. Conclusion: Silica-driven explosivity is tied to caldera-scale Campi Flegrei mega eruptions.",
+        "logic_check_reasoning": "Step 1: Slice 35 presents a magma-silica table showing that rhyolite has high silica (65-75%), is very explosive, and can lead to caldera formation. Step 2: Slice 6 shows maps of Campi Flegrei with two major calderas explicitly described as formed by massive volcanic eruptions (mega-eruption calderas). Step 3: Slice 1 further emphasizes the scale of explosive events with a VEI 8 simulation, reinforcing the connection to caldera-scale outcomes. Logic holds because the table links silica-rich magma to explosive, caldera-forming eruptions, and the Campi Flegrei maps display such calderas, connecting the concept to this specific region.",
+        "visual_proof": "Clip 1 displays a table explicitly connecting 'RHYOLITE' magma (65-75% silica content) with 'VERY EXPLOSIVE' eruption types and 'CALDERA' volcano types. Clip 2 and Clip 3 then show maps of the Campi Flegrei region, labeling the 'FIRST PHLEGRAEAN MEGA ERUPTION CALDERA' and 'SECOND PHLEGRAEAN MEGA ERUPTION CALDERA,' visually establishing that these massive calderas were formed by the type of explosive eruptions associated with rhyolitic magma."
+    }
+]

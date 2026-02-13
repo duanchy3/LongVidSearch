@@ -1,0 +1,72 @@
+[
+    {
+        "question": "Which country is shown as having the largest defense budget in the spending chart, and which later graphic emphasizes that it was among the military-aid contributors to South Korea?",
+        "answer": "The United States.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows the U.S. at $877B, the highest bar. Step 2: Slice 49 lists flags for 'MILITARY AID TO SOUTH KOREA (16 COUNTRIES),' including the United States. Conclusion: The United States is both the top spender and a listed military-aid contributor.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 37 lists defense spending with the United States at $877 billion, explicitly described as the tallest bar that dwarfs others, confirming it has the largest budget in the chart. Step 2: Evidence Slice 49 shows a graphic titled 'MILITARY AID TO SOUTH KOREA (16 COUNTRIES)' and includes the United States among the flags, emphasizing that it was a contributor. Logic holds because the same country (United States) is identified as the largest spender and is later shown among aid contributors.",
+        "visual_proof": "In Video 1, the bar chart titled 'HOW MUCH DO COUNTRIES SPEND ON DEFENSE?' shows the United States with a red bar labeled '$877 Billion', which is visibly taller than any other country's spending, including China at '$849 Billion'. In Video 2, the graphic titled 'MILITARY AID TO SOUTH KOREA (16 COUNTRIES)' includes the flag of the United States in the bottom right corner, confirming its role as a contributor."
+    },
+    {
+        "question": "How does the video connect international diplomacy rooms with the final emphasis that the conflict is not technically a war?",
+        "answer": "It shows multinational conference/negotiation settings (with country nameplates and UN symbolism) and later frames the outcome as an unresolved, non-technically-war status.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            44,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 31 depicts an international meeting with UN and U.S. flags in a formal negotiation setup. Step 2: Slice 44 shows a conference with multiple country nameplates (e.g., U.S.A., U.K., U.S.S.R., China). Step 3: Slice 57 states 'THE WAR IS NOT TECHNICALLY A WAR.' Conclusion: The video links multinational diplomacy to the unresolved legal status of the conflict.",
+        "logic_check_reasoning": "Step 1: Slice 31 depicts a formal, multinational diplomatic/military meeting with visible flags including the UN and the US, supporting the presence of international diplomacy rooms and UN symbolism. Step 2: Slice 44 shows a conference room with country nameplates (Cuba, China, Ecuador, France, Norway, U.S.S.R., U.K., U.S.A., Yugoslavia), reinforcing the multinational negotiation setting. Step 3: Slice 57 presents a formal address with a UN-like emblem and on-screen text stating \"THE WAR IS NOT TECHNICALLY A WAR,\" which is the final emphasis about the conflict's status. Step 4: The description in Slice 57 mentions discussing an ongoing conflict, which supports the notion that the situation is not resolved. Therefore, the answer's points about diplomatic settings (with nameplates/UN symbolism) and the later emphasis that the conflict is not technically a war are directly supported.",
+        "visual_proof": "Clip 1 shows a negotiation table with UN and North Korean flags. Clip 2 shows a round-table meeting with delegates from multiple nations (Cuba, China, U.S.S.R., U.S.A., etc.). Clip 3 features the UN emblem and large text stating 'THE WAR IS NOT TECHNICALLY A WAR,' directly linking the diplomatic efforts to the legal/political framing of the conflict."
+    },
+    {
+        "question": "How does the video connect winter warfare suffering to later statistical summaries about the war’s human cost?",
+        "answer": "It shows snowbound battles and wounded soldiers requiring treatment, then later presents an infographic highlighting that civilians suffered the largest death toll.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            17,
+            21,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 15 depicts December 1950 winter combat with explosions in snowy terrain. Step 2: Slice 17 shows a soldier down and comrades mourning in the snow. Step 3: Slice 21 shows wounded soldiers receiving care in a medical tent. Step 4: Slice 56 presents the 'KOREAN WAR DEATHS' infographic where civilians are the largest bar. Conclusion: Personal winter suffering is tied to broader casualty statistics emphasizing massive civilian losses.",
+        "logic_check_reasoning": "Step 1: Slice 15 depicts harsh winter combat with explosions and soldiers in snowy conditions, showing battlefield suffering. Step 2: Slice 17 further shows a somber scene with soldiers mourning a fallen comrade, reinforcing the human toll of winter warfare. Step 3: Slice 21 shows a field hospital where injured soldiers receive treatment, connecting the combat scenes to medical aftermath. Step 4: Slice 56 presents a statistical infographic on Korean War deaths, with the civilians' bar clearly the tallest, highlighting the largest toll among civilians. Logic holds because the video transitions from visual depictions of winter suffering and medical care to a summarized statistical view emphasizing civilian casualties.",
+        "visual_proof": "Clip 1 visually establishes winter warfare with soldiers fighting in a snowy, mountainous landscape. Clip 2 depicts wounded soldiers being attended to in the snow, emphasizing suffering. Clip 3 shows injured soldiers receiving medical care inside a field hospital. Finally, Clip 4 presents an infographic titled 'KOREAN WAR DEATHS,' where the 'Civilians' category is represented by a vastly larger grid of icons than any military group, visually confirming they suffered the largest death toll. The sequence connects the human experience of combat and injury to the statistical summary of loss."
+    },
+    {
+        "question": "What multi-scene evidence shows the war being framed as international participation: a text claim about international effort, a list of military-aid flags, and a diplomatic meeting with many country nameplates?",
+        "answer": "The video states the war was an international effort, shows 16 countries providing military aid, and depicts multinational diplomatic talks with many nations represented.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            43,
+            49,
+            44,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 43 explicitly says 'THE WAR WAS AN INTERNATIONAL EFFORT.' Step 2: Slice 49 lists 16 countries’ flags for military aid to South Korea. Step 3: Slice 44 shows a conference room with many countries labeled (U.S.A., U.K., U.S.S.R., China, etc.). Step 4: Slice 51 repeats the multinational table format with the same set of country nameplates. Conclusion: Multiple segments reinforce international participation through text, aid lists, and diplomacy visuals.",
+        "logic_check_reasoning": "Step 1: Slice 43 explicitly shows the text overlay 'THE WAR WAS AN INTERNATIONAL EFFORT,' directly supporting the text claim about international effort. Step 2: Slice 49 presents a graphic titled 'MILITARY AID TO SOUTH KOREA (16 COUNTRIES)' with 16 national flags, evidencing a list of military-aid contributors. Step 3: Slices 44 and 51 depict a formal diplomatic meeting with many countries identified by nameplates (e.g., Cuba, China, France, U.S.S.R., U.K., U.S.A., etc.), supporting the depiction of multinational diplomatic talks. Logic holds because these three distinct scenes collectively illustrate international participation via explicit text, visual enumeration of aiding countries, and a multinational diplomatic setting.",
+        "visual_proof": "Clip 1 displays text stating 'THE WAR WAS AN INTERNATIONAL EFFORT' over marching soldiers. Clip 2 shows a grid of 16 national flags with the title 'MILITARY AID TO SOUTH KOREA (16 COUNTRIES)'. Clips 3 and 4 depict a diplomatic meeting with nameplates for multiple countries including Cuba, China, Ecuador, France, Norway, U.S.S.R., U.K., U.S.A., and Yugoslavia."
+    },
+    {
+        "question": "Which military branch label appears on one aircraft in the sky scene with two planes flying together, and later is reinforced by the aircraft-carrier deck scene?",
+        "answer": "Navy.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a plane marked 'NAVY' flying alongside another marked 'USAF.' Step 2: Slice 88 shows a Navy fighter plane on an aircraft carrier deck with 'Navy' markings. Conclusion: The repeated branch label is Navy.",
+        "logic_check_reasoning": "Step 1: Slice 3 states that in the sky scene with two planes flying together, one aircraft is marked with 'NAVY' on its tail, while the other is marked 'USAF.' Step 2: Slice 88 depicts a Navy fighter plane on an aircraft carrier deck, explicitly marked 'Navy,' reinforcing the presence of the 'Navy' label. Logic holds because the same branch label ('Navy') appears in both the sky formation and the carrier deck scene.",
+        "visual_proof": "In the sky scene (Clip 1, 0:02-0:04), a dark blue jet is clearly labeled 'NAVY' on its fuselage. This is reinforced in the aircraft-carrier deck scene (Clip 2, 0:00-0:01), where a parked plane also has 'NAVY' and 'VF-2' markings, confirming the military branch."
+    }
+]

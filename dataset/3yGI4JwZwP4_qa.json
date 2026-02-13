@@ -1,0 +1,143 @@
+[
+    {
+        "question": "What type of machine is shown operating in the computer-lab environment before the camera pans across students at computers?",
+        "answer": "A large printer/plotter feeding paper.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 23 establishes a computer-lab/classroom with posters and a projector presentation context. Step 2: Slice 24 begins with a large printer/plotter in operation before panning across students at computers. Conclusion: The machine is a printer/plotter.",
+        "logic_check_reasoning": "Step 1: Slice 24 explicitly states the video opens with a close-up of a large printer or plotter in operation, with paper feeding through it. Step 2: It then says the camera pans across the room to students at computers. Logic holds because the question asks what machine is shown operating before the pan, which matches the description in Slice 24.",
+        "visual_proof": "In both clips, a large, industrial-looking machine is prominently featured in the foreground. In Clip 1 (0:02-0:08) and Clip 2 (0:03-0:05), a large roll of white paper is visibly being fed through this machine, which has the characteristic design of a wide-format printer or plotter. The machine is situated in what is clearly a computer lab with students at workstations in the background."
+    },
+    {
+        "question": "What drink-making activity appears earlier that matches the later theme of using a festive mug in the kitchen?",
+        "answer": "Making coffee with a red coffee maker.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows coffee being made with a red coffee maker and a pod. Step 2: Slice 3 shows a man holding a festive red polka-dot mug in the kitchen. Conclusion: The earlier drink-making activity is making coffee.",
+        "logic_check_reasoning": "Step 1: Slice 2 states that an earlier scene shows a person making coffee using a red coffee maker in the kitchen. Step 2: Slice 3 shows a later scene in the kitchen where a young man is holding a festive red mug. Logic holds because the earlier drink-making activity (making coffee) directly aligns with the later theme of using a festive mug in the kitchen.",
+        "visual_proof": "In the first clip (0:18-0:25), a hand is shown preparing and operating a red coffee machine, which then pours coffee into a festive red mug. In the second clip (0:00-0:06), the same young man is seen holding that exact festive red mug in the kitchen, confirming the activity of making coffee with the red maker precedes the use of the mug."
+    },
+    {
+        "question": "Across the home scenes, which animals are shown receiving food directly from a person?",
+        "answer": "A rabbit (given a carrot).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a small dog being petted (affection, but no feeding). Step 2: Slice 6 shows a carrot taken from the refrigerator and offered to a rabbit. Step 3: Slice 7 shows the rabbit nibbling the carrot. Conclusion: The fed animal shown is the rabbit receiving a carrot.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows a dog being gently petted in a rustic wooden structure, with no mention of food being given. Step 2: Slice 6 shows a person taking a carrot from a refrigerator and handing it directly to a small gray rabbit, who takes it and hops away—this is direct feeding. Step 3: Slice 7 explicitly states it is inside a home and shows a person holding a carrot while a large gray rabbit nibbles on it—again direct feeding. Therefore, in the home scenes, the animal shown receiving food directly from a person is a rabbit, and the food is a carrot.",
+        "visual_proof": "Clip 1 shows a person petting a large grey rabbit under a table. Clip 2 shows the person retrieving a carrot from the refrigerator and then offering it to the same rabbit as it enters through a doorway. Clip 3 provides a close-up of the rabbit actively eating the carrot directly from the person's hand. No other animals are shown receiving food."
+    },
+    {
+        "question": "After entering a school building quickly, what classroom activity is later shown that involves technology-focused learning materials and displays?",
+        "answer": "A computer-lab/classroom session with projector presentations and students working at computers.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            21,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows rushing through a school entrance past lockers and classrooms. Step 2: Slice 21 shows a classroom with computers and a person presenting to students. Step 3: Slice 24 shows the same type of computer-lab environment with projector slides and students at desks. Conclusion: The later activity is a technology-focused class with computers and projector presentations.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows rapid entry into a school building, moving through doors and down stairs, setting up a transition to interior scenes. Step 2: Slice 21 depicts a classroom with students at computers and a young man presenting, indicating an active computer-based session. Step 3: Slice 24 further confirms a technology-focused classroom with a large printer/plotter, students at computers, and a projector screen displaying slides while a presenter gestures. Logic holds because the later classroom scenes clearly involve computers and projector presentations, matching the described activity after the initial school entry.",
+        "visual_proof": "Clip 1 shows a person entering a school building. Clips 2 and 3 clearly show an indoor classroom setting with multiple students seated at desks, each using a computer. A large projector screen is visible at the front of the room displaying content, confirming a technology-focused learning environment."
+    },
+    {
+        "question": "Which item is consistently used by a student speaking to the camera, and which other student is seen nearby with a different colored bottle on her desk?",
+        "answer": "A black water bottle; nearby, a student has a pink water bottle on her desk.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            34,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows a young woman holding a black water bottle while talking to the camera. Step 2: Slice 34 shows a student in a yellow hoodie with a pink water bottle on her desk. Step 3: Slice 35 again features the black water bottle speaker with the yellow-hoodie student visible. Conclusion: The recurring item is the black water bottle, and the other bottle is pink.",
+        "logic_check_reasoning": "Step 1: Slice 33 states a young woman is holding a black water bottle and speaking to the camera. Step 2: Slice 35 reinforces this, noting a young woman in a black hoodie is holding a black water bottle and speaking directly to the camera, confirming consistency. Step 3: Slice 34 describes a seated woman in a yellow hoodie with a pink water bottle on her desk. Step 4: Slice 35 places the yellow-hoodie student to the right in the same scene, establishing proximity ('nearby'). Logic holds because multiple slices consistently describe the speaker with a black bottle and another student with a pink bottle on her desk in the same classroom context.",
+        "visual_proof": "In Clip 1 and Clip 3, the student speaking to the camera is holding a black water bottle. In Clip 2 and Clip 3, another student sitting at a desk is visible with a distinct pink water bottle placed on her desk."
+    },
+    {
+        "question": "How does the video move from home life with pets to commuting by car and then to school interiors with lockers?",
+        "answer": "Pet feeding/interaction at home → car travel in rainy conditions → entering school hallways with lockers.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            7,
+            10,
+            18,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows feeding a rabbit a carrot at home. Step 2: Slice 10 shows a rainy-day transition into a car and fastening a seatbelt. Step 3: Slice 18 shows rushing into a school building past lockers. Step 4: Slice 40 shows unlocking a door into a locker-lined hallway. Conclusion: The narrative transitions from home/pets to commuting to school interiors.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows a home setting with a person feeding a large gray rabbit, clearly depicting home life with a pet. Step 2: Slice 10 shifts to a rainy outdoor scene and then inside a car where the young man fastens a seatbelt, supporting the idea of commuting by car in rainy conditions. Step 3: Slices 18 and 40 both depict rapid movement inside a school, including hallways with lockers and entry through a door, indicating entering school interiors with lockers. The sequence aligns with the proposed progression.",
+        "visual_proof": "Clip 1 shows a rabbit being fed a carrot inside a house. Clip 2 shows the person walking outside in what appears to be rainy weather, getting into a car. Clip 3 shows approaching and entering a school building. Clip 4 shows walking through school hallways with visible lockers and classrooms, confirming the transition from home to car to school."
+    },
+    {
+        "question": "What chain links classroom computer work to later detailed design work and then to travel-shopping content on a screen?",
+        "answer": "Students in computer-focused classrooms → 3D modeling/design on monitors → browsing flight deals for European cities.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            21,
+            27,
+            28,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a classroom where students work at computers while someone presents. Step 2: Slice 27 shows a 3D architectural model being manipulated. Step 3: Slice 28 shows an interior design 3D project being navigated in software. Step 4: Slice 30 shows a screen displaying flight deals to European destinations. Conclusion: Computer usage progresses from classroom learning to design work to browsing travel deals.",
+        "logic_check_reasoning": "Step 1: Slice 21 depicts a classroom with students at computers and a presenter, supporting 'students in computer-focused classrooms.' Step 2: Slices 27 and 28 show detailed 3D modeling/design work on monitors in an office/classroom setting, supporting '3D modeling/design on monitors.' Step 3: Slice 30 shows a computer screen with flight deals to European cities, supporting 'browsing flight deals for European cities.' The sequence logically links classroom computer work to design work and then to travel-shopping content.",
+        "visual_proof": "Clip 1 shows a classroom setting with students at computers. Clip 2 and 3 show close-ups of a monitor displaying 3D architectural models being manipulated by a student. Clip 4 shows a screen with flight deals for European cities like London, Amsterdam, and Milan. The sequence visually connects the classroom environment to design work and then to travel shopping."
+    },
+    {
+        "question": "During the rainy car sequence, who is the person shown driving while wearing glasses?",
+        "answer": "A woman wearing glasses and a light-colored sweater.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a woman with glasses driving a modern sedan. Step 2: Slice 14 continues the rainy driving context with windshield views and traffic. Conclusion: The driver with glasses is the woman in the light-colored sweater.",
+        "logic_check_reasoning": "Step 1: Slice 14 describes the rainy car sequence, focusing on a person in the driver's seat but does not specify their appearance. Step 2: Slice 12, from the same video context of an in-car, suburban, overcast drive, explicitly identifies the driver as a woman wearing glasses and a light-colored sweater. Step 3: The settings align (interior car shots, suburban environment, overcast/rainy conditions), so it is reasonable to link the driver in the rainy sequence to the identified driver in Slice 12. Therefore, the driver during the rainy sequence is the woman wearing glasses and a light-colored sweater.",
+        "visual_proof": "In both clips, the driver is clearly a woman with short hair and glasses. She is wearing a light gray or pale blue zip-up sweater over a lighter blue collared shirt. This is consistently visible in multiple frames from different angles (e.g., 0:02, 0:03, 0:04, 0:05, 0:08 in Clip 1; 0:01 in Clip 2)."
+    },
+    {
+        "question": "Which two distinct hand-hygiene moments are shown in different school-related restroom sequences, and what do they emphasize?",
+        "answer": "A restroom poster about stopping germs followed by handwashing, and another bathroom scene showing handwashing/paper towels; both emphasize hygiene.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            41,
+            42,
+            51,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 41 highlights a bathroom visit and a 'STOP THE SPREAD OF GERMS' poster. Step 2: Slice 42 demonstrates proper handwashing with soap and drying. Step 3: Slice 51 ends in a cramped restroom with multiple men and handwashing visible. Step 4: Slice 53 starts with a man washing hands and someone reaching for paper towels. Conclusion: Multiple restroom sequences reinforce hand hygiene.",
+        "logic_check_reasoning": "Step 1: Slice 42 shows a restroom poster about respiratory diseases (COVID-19) emphasizing 20-second handwashing, followed by a young man thoroughly washing and drying his hands—this is a clear hand-hygiene moment emphasizing proper technique to prevent disease spread. Step 2: Slice 53 shows another restroom scene where a man washes his hands and someone reaches for a paper towel dispenser; the slice then moves to a classroom setting, tying it to a school context—this is a distinct hand-hygiene moment emphasizing washing and drying as routine hygiene. Step 3: Slice 41 also reinforces the poster theme with “STOP THE SPREAD OF GERMS,” supporting the answer’s mention of a germs poster. The proposed answer summarizes these as (1) a poster plus handwashing and (2) another bathroom scene with handwashing/paper towels, both emphasizing hygiene, which aligns with the evidence.",
+        "visual_proof": "Clip 1 shows a 'STOP THE SPREAD OF GERMS' COVID-19 poster. Clip 2 immediately follows with the same person washing hands at a sink and using paper towels, directly linking the poster's message to action. Clip 4 shows a different individual in another restroom washing hands and using a paper towel dispenser, reinforcing the theme of hygiene in school restrooms."
+    },
+    {
+        "question": "In the school setting, which moment shows a student acknowledging the camera, and which later moment shows students posing and laughing together in a classroom?",
+        "answer": "A young woman in glasses waves to the camera; later, two girls smile and laugh together in class.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            32,
+            45,
+            46,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows a young woman with glasses waving toward the camera in a classroom. Step 2: Slice 45 shows moving through school hallways and entering classrooms. Step 3: Slice 46 shows two girls (one standing behind the other) smiling and laughing in a classroom. Step 4: Slice 68 shows friendly hallway interactions with smiles and a thumbs-up. Conclusion: Camera-aware interaction includes the wave and later posed laughter among students.",
+        "logic_check_reasoning": "Step 1: Slice 32 describes a young woman wearing glasses who waves toward the camera, clearly acknowledging it. Step 2: Slice 46 shows two girls in a classroom smiling and laughing together, matching the later moment described. Logic holds because the first moment is the wave (acknowledgment) and the later moment is the duo laughing in class.",
+        "visual_proof": "In Video 1 (0:03-0:05), a young woman with glasses is clearly seen smiling and waving directly at the camera. In Video 3 (0:03-0:04 and 0:08-0:12), two girls are shown standing close together, smiling and laughing while looking towards the camera, confirming they are posing and interacting joyfully in the classroom setting."
+    }
+]

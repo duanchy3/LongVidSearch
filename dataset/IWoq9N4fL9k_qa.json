@@ -1,0 +1,170 @@
+[
+    {
+        "question": "Which Thai wildlife fact about elephants is presented first as a captivity statistic and later contrasted with a wild-population statistic?",
+        "answer": "About 3,500 elephants in captivity, contrasted with \"1000 and growing\" wild elephants.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 23 states around 3,500 elephants are in captivity. Step 2: Slice 24 shows a wild elephant statistic: \"1000 and growing (Wild).\" Conclusion: Captive vs wild numbers are contrasted across the two segments.",
+        "logic_check_reasoning": "Step 1: Slice 23 states the presenter mentions there are around 3,500 elephants in captivity. Step 2: Slice 24 shows on-screen text '1000 and growing (Wild)' about elephants, indicating a wild population figure. Step 3: The presenter is consistently described (hat, red/maroon shirt, black background), so the slices logically refer to the same segment. Therefore, the captivity statistic (3,500) is later contrasted with the wild-population statistic ('1000 and growing').",
+        "visual_proof": "In Clip 1 (frame 0:28), the text overlay explicitly states \"~3500 (Captivity)\" next to an image of elephants. In Clip 2 (frame 0:00), the text overlay states \"~1000 and growing (Wild)\" next to a similar image of elephants. This sequence visually presents the captivity statistic first, followed by the wild population statistic as a direct contrast."
+    },
+    {
+        "question": "Which political institution term appears earlier and is later connected to the claim about Thailand having many coup d'états?",
+        "answer": "The National Assembly.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 7 displays the term \"National Assembly\" during a political discussion. Step 2: Slice 51 states Thailand has had over 30 coup d'états since 1912, continuing the political theme. Conclusion: The earlier institution reference aligns with the later coup-history claim.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 explicitly states that the text 'National Assembly' appears on the screen, which is a political institution term and occurs early in the described video. Step 2: The Scene Breakdown (point 3) later mentions a text overlay stating '*Yes Thailand has had over 30 Coup d'états since 1912,' indicating the discussion shifts to Thailand's political history. Step 3: The presence of 'National Assembly' earlier and the later coup-related text within the same video sequence reasonably connects the institution term to the claim, with no other political institution terms noted in the context.",
+        "visual_proof": "In Video 1, the term 'National Assembly' appears as on-screen text at 0:08, accompanied by an image of a parliamentary chamber. In Video 2, which is a later segment from the same video, the on-screen text '*Yes Thailand has had over 30 Coup d'etats since 1912' appears at 0:08. The temporal sequence shows 'National Assembly' appearing first, followed later by the claim about coups, establishing the connection as described in the answer."
+    },
+    {
+        "question": "Which Thai-language learning segment first shows consonants/vowel indicators and later expands to a full school-taught chart plus tones?",
+        "answer": "It begins with a chart labeled 14 consonants and 16 vowel indicators, then expands to the school-taught alphabet chart and the 5 tones.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a grid chart labeled \"14 consonants\" and \"16 Vowel Indicators.\" Step 2: Slice 46 shows the Thai alphabet chart taught in every school and introduces \"5 tones.\" Conclusion: The lesson progresses from basic chart counts to full chart + tonal system.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a segment with two presenters and a chart labeled '14 consonants' and '16 Vowel Indicators,' indicating the initial focus on consonants and vowel indicators. Step 2: Slice 46 shows the same presenters later displaying a school-taught Thai alphabet chart ('They teach this in every school') and introducing '5 tones' with a tone diagram. Logic holds because the progression from the initial chart to the school chart and tones matches the proposed answer’s sequence.",
+        "visual_proof": "Clip 1 shows a chart with Thai consonants and text stating '14 consonants' and '16 Vowel Indicators'. Clip 2 transitions to a different, more detailed chart with images next to each letter, accompanied by the text 'They teach this in every school', and later shows a diagram illustrating '5 tones'. This sequence matches the description in the original answer."
+    },
+    {
+        "question": "Which northern-highland cultural topic appears first through ethnic group collages and later through a specific noodle dish associated with northern Thailand?",
+        "answer": "Northern highland ethnic groups are shown first, and later the dish is Khao Soi (curry noodles).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            29,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows tribal communities (Hmong, Lahu, Karen, Lisu) mostly in northern highlands. Step 2: Slice 29 introduces food culture and shows Khao Soi. Step 3: Slice 30 focuses on Khao Soi as curry noodles. Conclusion: Northern cultural identity is linked via ethnic highlands and a northern-associated dish segment.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows collages of ethnic groups (Hmong, Lahu, Karen, Lisu) and explicitly notes most reside in Thailand’s northern highlands, establishing the northern-highland cultural topic. Step 2: Slices 29 and 30 later feature the presenter showing and discussing Khao Soi (labeled 'curry noodles'), a specific Thai noodle dish. Logic holds because the video first presents northern-highland ethnic communities, then later presents Khao Soi, matching the proposed answer’s sequence.",
+        "visual_proof": "Clip 1 (0:07-0:10) visually presents collages of various tribal communities like Hmong, Lahu, Karen, and Lisu, explicitly labeling them as being in the 'North highland areas.' Clip 3 (0:00-0:04) then shows a bowl of 'Khao Soi (Curry noodles)' with text identifying it as such. The temporal sequence across the clips confirms that the ethnic group topic appears first, followed by the noodle dish."
+    },
+    {
+        "question": "How does the video build from general Thai-letter instruction to tone practice and then to a humorous extension of the same tone phrase by a different presenter?",
+        "answer": "It moves from Thai alphabet charts to tone diagrams and practice phrases, then another presenter repeats the same phrase in a playful segment.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            46,
+            47,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 46 introduces the alphabet chart and \"5 tones.\" Step 2: Slice 47 practices tones with repeated Thai words and the multi-meaning phrase example. Step 3: Slice 48 shows a different presenter reusing the same phrase with humor. Conclusion: Instruction progresses to practice and then comedic reinforcement.",
+        "logic_check_reasoning": "Step 1: Slice 46 shows the presenters introducing the Thai alphabet with a chart and specific letters, establishing general Thai-letter instruction. Step 2: Slice 46 also introduces the concept of tones with a '5 tones' diagram, and Slice 47 further emphasizes tone practice using color-coded tone lines and repeated syllables ('นา นา นา นา นา' and 'ไหมไหมไหมไหม' with pronunciation and translation), clearly indicating tone practice. Step 3: Slice 48 presents a playful segment with a longer, related tone phrase ('ใหม่ไหมไหมไหมไหมไหม') that shares the same English translation ('new silk doesn't burn'), indicating a humorous extension of the earlier tone phrase. The presenters appear in a different arrangement, suggesting a different presenter is leading the playful segment. Therefore, the proposed answer aligns with the progression shown across the slices.",
+        "visual_proof": "Clip 1 opens with a Thai alphabet chart and transitions to a diagram of the 5 tones. Clip 2 shows the presenters practicing the tone phrase 'ใหม่ไหมไม่ไหม' (mǎi mài mâi māi). Clip 3 introduces a new presenter, Anya, who volunteers to repeat the same phrase, confirming the humorous extension by a different person as described."
+    },
+    {
+        "question": "How does the video link Thai astrology’s day-based color concepts to the earlier introduction of a Thai cultural object used for breathing relief?",
+        "answer": "It demonstrates the Yadom nasal inhaler and then transitions into Thai astrology with day-of-week guidance and color charts (including a warning about Wednesday).",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            70,
+            71,
+            72,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 70 introduces nasal inhalers visually (Vicks and inhalers). Step 2: Slice 71 shows the Yadom inhaler demonstration and then introduces Thai astrology and day-based color charts. Step 3: Slice 72 emphasizes a specific day cue with a red X over Wednesday. Step 4: Slice 73 continues cultural-calendar style content by introducing a festival with a specific month and location (Magic Tattoo Fest in March, Nakhon Pathom). Conclusion: Practical cultural item (inhaler) leads into day-based astrology/color guidance and calendar-linked cultural practices.",
+        "logic_check_reasoning": "Step 1: Slice 70 introduces the topic of respiratory relief with visuals of nasal inhalers and Vicks jars, establishing the breathing relief theme. Step 2: Slice 71 explicitly shows the woman demonstrating a Thai Yadom nasal inhaler and then transitioning into Thai Astrology, including day-of-week context and a color chart tied to days. Step 3: Slice 72 provides a visual warning about Wednesday with a red X over 'Wednesday,' reinforcing day-based guidance. The logic holds because the sequence connects the Thai cultural breathing aid (Yadom) to a subsequent segment on Thai astrology’s day-based color concepts, including a specific Wednesday caution.",
+        "visual_proof": "In Clip 2, the video shows the presenter holding and using a 'Yadom (inhaler)'. In Clip 3, it transitions to 'Thai Astrology (Brahmic-based)' with a chart linking days of the week to colors and planets. The same clip also visually warns against cutting hair on Wednesday, reinforcing the day-based concept. This sequence directly links the cultural object (inhaler) to the astrological system based on days and colors."
+    },
+    {
+        "question": "Which Thai cultural rule about public behavior is discussed, and what additional detail is given about its length?",
+        "answer": "The national anthem is played publicly at 8am and 6pm, and it is described as a short anthem.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 35 states the national anthem plays publicly at 8am/6pm. Step 2: Slice 36 adds the clarification that it's a short anthem. Conclusion: Anthem timing plus the note on its short length.",
+        "logic_check_reasoning": "Step 1: Slice 35 explicitly shows the on-screen text '8am/6pm National anthem plays publicly,' indicating the Thai cultural rule about public behavior. Step 2: Slice 36 shows the on-screen text '(it's a short anthem),' providing the additional detail about its length. Logic holds because both slices refer to the national anthem and together specify both the public timing and that it is short.",
+        "visual_proof": "In clip 1 (0:20-0:23), the text overlay explicitly states '8am/ 6pm National anthem plays publicly' while showing an image of people standing for the anthem. In clip 2 (0:00), the text overlay '(it's a short anthem)' appears directly above the speakers, confirming the detail about its length."
+    },
+    {
+        "question": "How does the video connect Thailand’s export/industry discussion to the later segment about informal or unreported economic activity?",
+        "answer": "It first highlights exports/industry (including a Thai car brand) and later explains informal or shadow economies and related regions like the Golden Triangle.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 18 discusses forest protection, industry, and exports (including Thai Rung car brand). Step 2: Slice 19 defines informal/shadow economy and maps Golden Triangle/Crescent. Step 3: Slice 20 discusses trafficking/drug busts and tourism GDP—topics intersecting with formal vs illicit economies. Conclusion: The narrative contrasts formal export industry with informal/illicit economic activity.",
+        "logic_check_reasoning": "Step 1: Slice 18 explicitly shows the discussion of Thailand’s formal economy, including exports (~1/5 exports), industry (factory imagery), and a domestic car brand (Thai Rung). Step 2: Slice 19 then moves to explaining the informal economy with on-screen terms like 'informal sector,' 'Shadow economy,' 'Unreported/misreported,' and 'Black market,' and contextualizes it with maps of the Golden Triangle (and Golden Crescent). Logic holds because the proposed answer describes this sequence—first formal exports/industry, then informal/shadow economies and their regions—which is directly supported by the visual and textual content of the slices.",
+        "visual_proof": "Clip 1 shows a factory setting with workers, implying industrial production. Clip 2 introduces terms like 'informal sector,' 'Shadow economy,' and 'Black market' alongside a map of the 'Golden Triangle.' This visual sequence connects Thailand's formal industry to its informal economic activities."
+    },
+    {
+        "question": "What sequence of cultural examples links a city nightlife location, a national-behavior rule, and a major festival scene later shown as an inset?",
+        "answer": "Khao San Road in Bangkok, then the public national anthem at 8am/6pm, then the Koh Phangan Full Moon Festival party scene.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            35,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows Khao San Road (Bangkok) nightlife street scene. Step 2: Slice 35 introduces the public national anthem behavior rule. Step 3: Slice 89 shows an inset of the Koh Phangan Full Moon Festival crowd scene. Conclusion: Urban nightlife, public civic ritual, and party-festival culture are connected across the timeline.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows a city nightlife location with neon signs and the text 'Khao San Road (Bangkok)'. Step 2: Slice 35 explicitly shows the national-behavior rule with on-screen text '8am/6pm National anthem plays publicly'. Step 3: Slice 89 shows a major festival scene later as an inset labeled 'Koh Pangan Full Moon Festival'. The sequence city nightlife location -> national-behavior rule -> festival inset matches the proposed answer.",
+        "visual_proof": "Clip 1 shows an inset of Khao San Road with text identifying it. Clip 2 shows an inset of people standing for the national anthem with text '8am/6pm National anthem plays publicly'. Clip 3 shows an inset of a large, colorful festival crowd with text 'Koh Phangan Full moon festival'. The sequence of these cultural examples is presented in this exact order across the clips."
+    },
+    {
+        "question": "How does the video connect Thai cultural-region labeling to later demographic breakdown of regional Thai groups?",
+        "answer": "It first divides Thailand into four cultural regions (North, Northeast, Central, South) and later shows demographic segments like Isan/Thai Lao, Southern Thai, and Khon Muang.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            5,
+            37,
+            43,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 5 introduces \"4 distinct cultural regions\" (North, Northeast/Isan, Central/Siam, South). Step 2: Slice 37 presents a demographics pie chart including Isan/Thai Lao, Southern Thai, and Khon Muang. Step 3: Slice 43 introduces the \"Tai language group\" concept, implying linguistic roots across regions. Step 4: Slice 44 maps the Tai language region across countries and discusses related language consumption. Conclusion: Regional cultural labels are later quantified demographically and contextualized linguistically.",
+        "logic_check_reasoning": "Step 1: Slice 5 explicitly shows the video dividing Thailand into four cultural regions (North/Lan Na, Northeast/Isan, Central/Siam/Phak Klang, South/Phākh fī). Step 2: Slice 37 shows a demographic pie chart breaking down Thai groups into segments such as 28% Isan/Thai Lao, 10% Southern Thai, and 10% Khon Muang (among others). Logic holds because the video first labels the cultural regions and later presents demographic segments that correspond to those regional identities, matching the examples given in the proposed answer.",
+        "visual_proof": "Clip 1 visually labels the four cultural regions of Thailand: North (Lan Na), Northeast (Isan), Central, and South. Clip 2 then displays a pie chart under 'THAILAND DEMOGRAPHICS' that breaks down ethnic groups, including 'Isan / Thai Lao' (28%), 'Southern Thai' (9%), and 'Khon Muang' (10%), directly linking the earlier regional labels to specific demographic categories."
+    },
+    {
+        "question": "How does the video connect Thai tourism’s economic importance to specific tourist visuals and then to street-market imagery used while addressing stereotypes?",
+        "answer": "It states tourism is a major part of GDP, shows crowded beach tourism, and also uses city/market images while telling viewers to stop stereotypes.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            18,
+            20,
+            15,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 18 includes city/market visuals while addressing stereotypes (“Stop your stereotypes!”). Step 2: Slice 20 shows beach tourism and a statistic about tourism’s GDP share. Step 3: Slice 15 shows a famous tourist nightlife street in Bangkok (Khao San Road). Step 4: Slice 89 shows a major tourist party event (Koh Phangan Full Moon Festival) as an inset. Conclusion: Tourism economics is reinforced through repeated tourist-crowd visuals and stereotype-challenging framing.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly shows a crowded beach image and text indicating tourism’s economic impact (~1/5 GDP, 30% by 2030), directly linking tourism visuals to economic importance. Step 2: Slice 18 includes the presenters addressing stereotypes with the woman saying “Stop your stereotypes!” and shows inset images of a bustling cityscape and a crowded street market, tying street-market imagery to the stereotype discussion. Logic holds because the video uses tourist visuals to underscore economic significance (Slice 20) and then employs city/market imagery during the segment addressing stereotypes (Slice 18).",
+        "visual_proof": "In Video 2 (0:05), text explicitly states tourism contributes '~1/5 GDP' and '30% by 2030', accompanied by an image of a crowded beach. In Video 1 (0:04-0:05), a bustling street market scene is shown alongside the hosts, immediately followed by the on-screen text 'Stop your stereotypes!' at 0:09, visually linking the market imagery to the message against stereotypes."
+    },
+    {
+        "question": "What sequence connects a festival involving monkeys, a separate visual of monkeys in a city segment, and the mention of a street known for tourists in Bangkok?",
+        "answer": "Monkey Buffet in Lopburi, monkeys shown earlier in a monkey/rock inset, and Khao San Road in Bangkok as a tourist street.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            74,
+            14,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows Lopburi and a street scene filled with monkeys. Step 2: Slice 15 includes a monkey inset image before switching to Khao San Road (Bangkok). Step 3: Slice 74 explicitly labels the Monkey Buffet festival in Lopburi. Step 4: Slice 35 later shows busy street crowd visuals while discussing Thai public rituals, reinforcing public-space behaviors where such festivals/street scenes occur. Conclusion: Lopburi monkeys recur across festival and street visuals, and Bangkok’s tourist street is shown as another public-crowd setting.",
+        "logic_check_reasoning": "Step 1: Scene 1 and Evidence Slice 74 establish the video as an informative piece about Thai festivals and explicitly show 'Monkey Buffet (Nov. Lopburi),' confirming a festival involving monkeys. Step 2: Evidence Slice 15 describes a small screen inset displaying monkeys sitting on rocks while the presenter speaks, providing a separate visual of monkeys earlier in the segment. Step 3: Evidence Slice 15 then shows the background changing to a busy street scene with a neon sign reading 'Khao San Road (Bangkok),' clearly identifying the tourist street. The logic connects these in order: Monkey Buffet (Lopburi) → monkey/rock inset → Khao San Road (Bangkok).",
+        "visual_proof": "Clip 2 (0:01) shows the 'Monkey Buffet (Nov. Lopburi)' with text overlay. Clip 1 (0:00-0:03) features an inset image of monkeys on rocks/ruins while discussing Khao San Road (0:03). Clip 3 (0:04) explicitly labels 'Lopburi' next to a monkey holding a toothbrush near ruins, visually connecting the location to monkeys. The sequence links the Monkey Buffet event, the earlier visual of monkeys, and Khao San Road as a tourist destination."
+    }
+]

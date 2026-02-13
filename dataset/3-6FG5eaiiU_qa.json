@@ -1,0 +1,15 @@
+[
+    {
+        "question": "Two different on-screen graphics focus on politics: one shows a U.S. Senate elections map and another shows poll percentages about concerns over Biden’s health. Which of these two graphics appears later in the video?",
+        "answer": "The U.S. Senate elections map appears later.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows a graphic with poll percentages about concern over Biden’s mental and physical health. Step 2: Slice 45 shows a U.S. map graphic about the 2024 Senate elections. Conclusion: The Senate elections map appears later than the health-concern poll.",
+        "logic_check_reasoning": "Step 1: Slice 37 describes a segment that includes a graphic showing poll percentages about concerns over Biden’s health. Step 2: Slice 45 describes a later part of the video that transitions to a U.S. Senate elections map graphic. Since Slice 45 occurs after Slice 37 and presents the map, the map graphic appears later than the poll graphic.",
+        "visual_proof": "Clip 1 (ID: 37) shows the poll graphic about concerns over Biden’s health (76% of all voters, etc.) at 0:07-0:18. Clip 2 (ID: 45) shows the U.S. Senate elections map titled '2024 SENATE ELECTIONS' at 0:13-0:29. Since Clip 2 is a later time-slice from the same continuous video, the Senate map appears later than the Biden health poll graphic."
+    }
+]

@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which location is explicitly labeled as a Swedish central station, and which museum later is clearly about salvaging a famous Swedish warship?",
+        "answer": "Stockholm Central and the Vasa museum exhibit about salvaging the Vasa.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            58,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 58 displays the text 'Sweden Stockholm Central'. Step 2: Slice 68 shows museum exhibits labeled about 'Salvaging the Vasa'. Conclusion: Stockholm Central and the Vasa salvage museum context.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 58 explicitly shows the text 'Sweden Stockholm Central,' identifying Stockholm Central Station as the labeled Swedish central station. Step 2: Evidence Slice 68 describes a museum with exhibits labeled 'Bärgningen' and 'Salvaging the Vasa,' focused on the salvage of the 17th-century Swedish warship Vasa, and shows the actual Vasa on display, clearly indicating a museum exhibit about salvaging the Vasa. Logic holds because both elements are directly described in the slices.",
+        "visual_proof": "Clip 1 ends with a clear shot of a sign reading 'Stockholm Central' with 'Sweden' above it. Clip 2 opens with a sign that reads 'BÄRGNINGEN SALVAGING THE VASA,' indicating the exhibit's subject, which is consistent with the Vasa Museum in Stockholm."
+    },
+    {
+        "question": "What recurring promotional pairing appears at both the beginning and near the end of the video, including a specific URL?",
+        "answer": "CuriosityStream + Nebula with the URL curiositystream.com/simonclark.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a CuriosityStream and Nebula promo with the URL curiositystream.com/simonclark. Step 2: Slice 91 repeats the same paired advertisement and URL. Conclusion: The recurring pairing is CuriosityStream + Nebula with that URL.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the video begins with a promotional graphic featuring CuriosityStream and Nebula, with a plus sign indicating a pairing and shows the URL 'curiositystream.com/simonclark'. Step 2: Evidence Slice 91 describes an advertisement again featuring CuriosityStream and Nebula, and explicitly notes the same URL 'curiositystream.com/simonclark'. Logic holds because the same promotional pairing and URL appear at the beginning (Slice 1) and again later (Slice 91), indicating recurrence.",
+        "visual_proof": "Both clips show an identical promotional graphic. The left side features the 'Curiosity Stream' logo over a collage of video thumbnails, and the right side features the 'Nebula' logo over images of devices displaying content. A yellow plus sign is between them. At the bottom, the URL 'curiositystream.com/simonclark' is clearly visible in both clips."
+    },
+    {
+        "question": "In the video’s later explanatory section about Norway, which vehicle type dominates the sales pie chart, and what physical action involving an electric car is shown shortly afterward?",
+        "answer": "Pure electric vehicles dominate; an EV charger is plugged into a car.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            81,
+            83,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 81 shows a pie chart where pure electric vehicles are the largest segment. Step 2: Slice 83 shows plugging an EV charger into a car. Step 3: Slice 84 returns to the presenter speaking, framing it as explanation. Conclusion: EVs dominate and the action is plugging in a charger.",
+        "logic_check_reasoning": "Step 1: Slice 81 states that in the pie chart of Norway’s 2021 car sales, 'pure electric vehicles' occupy the largest portion, emphasizing their dominance. Step 2: Slice 83 shows a close-up of a hand plugging an electric vehicle charger into a car, which is the physical action involving an EV shown shortly afterward. Logic holds because the first part identifies the dominant vehicle type, and the subsequent scene depicts the charger being plugged into an EV.",
+        "visual_proof": "In Clip 1, the pie chart for '2021 car sales (Norway)' clearly shows the largest segment, colored blue and labeled 'pure electric vehicles'. In Clip 2, a person's hand is shown plugging a charging cable into the port of a black electric car. These two visuals directly support the original answer."
+    },
+    {
+        "question": "Which two separate visuals of 'linking out' appear—one as a 'link below' graphic with two cartoon faces and another as an explicit promotional URL for a streaming bundle—and what are they?",
+        "answer": "A 'link below' page with two cartoon faces and the URL curiositystream.com/simonclark for the CuriosityStream + Nebula promotion.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            60,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows a webpage with two cartoon faces and the text 'link below' (also on a phone). Step 2: Slice 91 shows the CuriosityStream + Nebula ad including curiositystream.com/simonclark. Conclusion: Two different link-out visuals: 'link below' graphic and the explicit promo URL.",
+        "logic_check_reasoning": "Step 1: Slice 60 describes a webpage (also shown on a phone) featuring two cartoon faces and the text 'link below,' which matches the first visual of 'linking out.' Step 2: Slice 91 shows an advertisement for CuriosityStream and Nebula with a clear URL 'curiositystream.com/simonclark,' serving as an explicit promotional link associated with both platforms. Logic holds because the first is a generic 'link below' indicator, and the second is a specific URL tied to the dual-platform promotion.",
+        "visual_proof": "Clip 1 (0:08-0:12) shows a screenshot of an Apple Podcasts page for 'The Wikicast' featuring two cartoon faces, overlaid with a red banner that reads 'link below'. Clip 2 (0:02-0:07) displays a promotional graphic for 'CuriosityStream + Nebula' with the explicit URL 'curiositystream.com/simonclark' at the bottom. Both visuals are distinct and match the description in the question."
+    },
+    {
+        "question": "After the traveler is shown inside Copenhagen’s station with the 'KOBENHAVN' sign, which Swedish city name later appears on screen when he’s on a platform with his backpack?",
+        "answer": "GÖTEBORG.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 12 places the journey at Copenhagen with 'KOBENHAVN' signage. Step 2: Slice 17 later shows the traveler on a platform with the on-screen label 'GÖTEBORG' in Sweden. Conclusion: The Swedish city is Göteborg.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows the interior of Copenhagen’s station with the 'KOBENHAVN' sign. Step 2: Slice 17 shows the man on a train platform wearing a blue jacket and carrying a backpack, and states that the word 'GÖTEBORG' appears on the screen, indicating a location in Sweden. Logic holds because the video documents travel from Denmark to Sweden, and the platform scene with the backpack is tied to the Swedish city name shown on screen.",
+        "visual_proof": "The first clip ends with the text 'KØBENHAVN' appearing over a shot of a station platform. The second clip shows the traveler on another platform with his backpack, and at 0:09, the text 'GÖTEBORG' is clearly displayed on screen, identifying the Swedish city."
+    },
+    {
+        "question": "What is the departure time shown for the night train heading to Trondheim via multiple stops, and what time is later shown on the traveler’s phone at night?",
+        "answer": "22:50 departure and 10:10 PM on the phone.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a departure board for Trondheim with time 22:50. Step 2: Slice 25 shows a phone clock reading 10:10 PM. Conclusion: 22:50 and 10:10 PM.",
+        "logic_check_reasoning": "Step 1: Slice 24 explicitly states a departure board for a train to Trondheim via Hamar, Lillehammer, and Dombås with the departure time listed as 22:50. Step 2: Slice 25 explicitly shows a smartphone displaying the time as 10:10 PM at night. Step 3: Both pieces directly answer the two parts of the question with no contradictions.",
+        "visual_proof": "The first clip clearly shows a station departure board at 0:01 with 'Trondheim' listed and a departure time of '22:50'. Later in the same clip, at 0:06, the traveler holds up his phone, which displays the time as '22:10', confirming the second part of the answer."
+    },
+    {
+        "question": "Which day-number overlay appears when the traveler starts Day 3 with a coastal train view, and which later day-number overlay is shown when he boards trains again with an international-station feel and flags visible?",
+        "answer": "Day 3 and Day 9.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows the text 'Day 3' during a coastal train journey. Step 2: Slice 74 shows the text 'Day 9' alongside station/boarding scenes with flags. Conclusion: The day overlays are Day 3 and Day 9.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly states that the transition to an outdoor coastal train view is marked by the text 'Day 3' in the upper left. Step 2: Slice 74 describes train scenes including boarding and a station with flags indicating an international feel, and then explicitly notes that the final scene shows 'Day 9' appearing on the screen. Logic holds because the first scene's overlay is directly 'Day 3' and the later train-related scene culminates with the 'Day 9' overlay, matching the question's descriptions.",
+        "visual_proof": "The first clip shows a 'Day 3' overlay at the beginning, followed by scenes of a train journey with coastal views. The second clip later shows a 'Day 9' overlay as the traveler is seen at a station with international flags and signage (e.g., 'København H', 'Tickets to train, bus & metro'), indicating an international-station feel."
+    },
+    {
+        "question": "The video repeatedly uses maps with red route lines. Identify the country-to-country route shown on the map, and name the Swedish city later labeled when the traveler stands on a platform with a backpack.",
+        "answer": "Denmark to Sweden; Göteborg.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            12,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a Europe map with a red route line (London to another location). Step 2: Slice 12 shows a specific red-line route from Denmark to Sweden. Step 3: Slice 17 displays the on-screen location 'GÖTEBORG' on a platform. Conclusion: Denmark-to-Sweden route and the labeled city is Göteborg.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12 explicitly states there is a map of Europe with a red line indicating a route from Denmark to Sweden. This directly supports the country-to-country route. Step 2: Evidence Slice 17 describes a scene where the traveler is standing on a train platform with a backpack, and the word 'GÖTEBORG' appears on screen, indicating the Swedish city. Step 3: While Slice 3 mentions a different map (London to another location), it does not contradict Slice 12; Slice 12 provides the specific Denmark-to-Sweden map route, and Slice 17 clearly labels Göteborg when the traveler is on the platform with a backpack.",
+        "visual_proof": "Clip 2 shows a map with a red line traveling from a point in Denmark (labeled 'Denmark' at 0:08) to a point in Sweden. Clip 3 then shows the traveler on a platform, and at 0:06, text appears on screen identifying the location as 'GÖTEBORG', which is in Sweden."
+    }
+]

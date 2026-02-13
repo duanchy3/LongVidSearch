@@ -1,0 +1,84 @@
+[
+    {
+        "question": "What medical detail shown early in the story is later echoed by a similar piece of equipment visible during a friendly kitchen-table conversation?",
+        "answer": "An IV setup (IV drip/stand).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a hospital IV drip as a key medical detail. Step 2: Slice 48 shows an IV stand visible in the home kitchen/living space during a conversation. Conclusion: The repeated medical detail is an IV setup.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes an early scene featuring a close-up of an IV drip in a hospital, establishing a medical detail. Step 2: Slice 48 mentions an IV stand visible in the background during a friendly kitchen-table conversation at home. Logic holds because an IV drip and an IV stand are components of the same IV setup, making the later appearance an echo of the early medical detail.",
+        "visual_proof": "In Video 1, multiple scenes show medical settings with IV drips and stands, including a close-up of an IV drip chamber and a wider shot of a patient in a hospital bed with an IV stand beside them. In Video 2, during the kitchen-table conversation, an IV stand is clearly visible in the background between the two men, directly echoing the medical equipment from the earlier scenes."
+    },
+    {
+        "question": "A man seeks emotional support by writing a message about feeling isolated; later, what repeated friendly action among men visually contradicts that isolation theme?",
+        "answer": "Hugging/embracing between friends.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a typed message asking for support because they feel alone and isolated. Step 2: Slice 56 shows two men warmly hugging in a kitchen, signaling social support. Conclusion: The repeated contradicting action is hugging/embracing.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows a man composing a message expressing feeling \"alone and isolated,\" seeking emotional support. Step 2: Slice 56 depicts two men in a kitchen sharing a warm hug, clearly displaying friendship and affection. Logic holds because the affectionate hug between men visually counters the theme of isolation introduced earlier, and the friendly action is hugging/embracing.",
+        "visual_proof": "Clip 1 shows a man writing a message about someone feeling isolated due to illness. Clip 2 visually contradicts this theme by showing multiple men, including the writer from Clip 1 (identifiable by his glasses and beanie), engaging in warm, repeated hugs with other men in a friendly, supportive manner."
+    },
+    {
+        "question": "What repeated pattern shows friends using phones for connection in casual life and again during the formal wedding period?",
+        "answer": "Smartphone video calls appear both in casual home scenes and during the wedding timeframe (people in formal attire calling someone).",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            8,
+            69,
+            77,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a casual bedroom video call on a smartphone. Step 2: Slice 69 shows another close-up of a smartphone video call with a man in a backward cap and a woman beside him. Step 3: Slice 77 shows a man in suspenders making a video call to a bearded man with glasses. Step 4: Slice 80 shows a smartphone call with a smiling woman on-screen in a warm indoor setting with tables. Conclusion: Video calling by phone is a repeated connection method in both everyday and wedding-period contexts.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows a man casually sitting on a bed engaged in a smartphone video call with a smiling woman, indicating casual life use. Step 2: Slice 69 depicts another casual scenario with a smartphone video call in a warmly lit home setting, reinforcing the pattern in everyday life. Step 3: Slice 80 further shows a casual indoor setting (café/lounge) with a smartphone video call. Step 4: Slice 77 shows a man in formal attire (white shirt, brown suspenders, green flower pinned) making a video call, which suggests a formal/wedding-like period. Logic holds because the repeated pattern of smartphone video calls appears in multiple casual contexts and also in a formal context consistent with a wedding timeframe.",
+        "visual_proof": "Clip 1 shows a man in a casual setting (on a bed) on a video call. Clip 2 shows another person in a casual indoor setting, also on a video call. Clips 3 and 4 show the same man from Clip 1, now dressed in formal wedding attire (white shirt, suspenders, bow tie, boutonniere), actively engaged in a video call, confirming the pattern of using phones for connection in both casual and formal contexts."
+    },
+    {
+        "question": "What emotional arc is conveyed by showing repeated hugs among friends and then later cutting to a time-jump title card indicating weeks have passed?",
+        "answer": "A supportive bond is emphasized through hugs before the story advances in time with a “2 weeks later” jump.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            56,
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 56 shows a warm hug between two men in a kitchen. Step 2: Slice 58 shows another hug involving the beanie-and-glasses man, reinforcing support/friendship. Step 3: Slice 59 introduces a title card “2 weeks later,” advancing the timeline. Conclusion: The arc highlights support before moving forward in time.",
+        "logic_check_reasoning": "Step 1: Slice 56 shows two men in a kitchen hugging warmly with clear happiness and affection, indicating a supportive bond. Step 2: Slice 58 shows another scene with friends in a living room where a man hugs the beanie-wearing man; the atmosphere is friendly and casual, reinforcing repeated supportive interactions. Step 3: Slice 59 explicitly presents a title card '2 weeks later' and a subsequent scene, indicating a time jump. Logic holds because the context first emphasizes supportive, affectionate moments among friends (multiple hugs) and then clearly advances the timeline with a labeled time jump.",
+        "visual_proof": "Clip 1 and Clip 2 both show two men embracing warmly, smiling, and interacting closely, indicating a strong, positive relationship. Clip 3 then displays a black screen with the text '2 weeks later,' explicitly marking a temporal leap in the narrative. The sequence visually establishes an emotional connection before progressing the timeline."
+    },
+    {
+        "question": "Which date card appears later in the video that comes after an earlier aerial city date card, indicating the timeline has moved forward?",
+        "answer": "September 26th, 2019.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows an aerial cityscape dated August 9th, 2019. Step 2: Slice 39 shows a black title card reading September 26th, 2019. Conclusion: The later date card is September 26th, 2019.",
+        "logic_check_reasoning": "Step 1: Slice 20 indicates the video opens with an aerial city shot dated August 9th, 2019. Step 2: Slice 39 shows a later black screen with white text displaying the date 'September 26th, 2019.' Logic holds because Slice 39 clearly presents a date card occurring after the earlier aerial city date, indicating the timeline has moved forward.",
+        "visual_proof": "The first clip opens with a date card reading 'August 9th, 2019' overlaid on an aerial city view. The second clip begins with a black screen that then displays the date card 'September 26th, 2019'. Since these clips are from the same continuous video and presented in sequence, the September date card appears later in the timeline, indicating a forward progression from August."
+    },
+    {
+        "question": "During the home-gathering arc, what object first appears as a large blue box on the bed and later becomes something the glasses-and-beard man opens and reads from?",
+        "answer": "The blue box becomes a blue book (opened and read aloud).",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows the man on the bed holding a large blue box. Step 2: Slice 25 continues focusing on the same large blue box as the center of attention. Step 3: Slice 26 shows him holding a blue book and opening/reading it while others watch. Conclusion: The blue box leads to a blue book that he reads.",
+        "logic_check_reasoning": "Step 1: Slice 24 describes a man with glasses and a beard lying on a bed holding a blue box. Step 2: Slice 25 reinforces this, detailing the same man holding a large rectangular blue box with gold lettering, explaining it to others. Step 3: Slice 26 shows the same man on the bed now holding a blue book, which he opens and starts reading while others watch. The progression from a blue box to a blue book that is opened and read matches the proposed answer.",
+        "visual_proof": "In all three clips, the man with glasses and a beard is holding a large, rectangular blue object on his lap. In Clip 1 and Clip 2, he gestures while talking, keeping the object closed. In Clip 3, at 0:01, he is clearly seen opening the object, revealing it to be a book with pages, and then looking down at it as if reading. The text 'SEEN DIPLOMATIC' is visible on the cover in multiple frames, confirming it's a book."
+    }
+]

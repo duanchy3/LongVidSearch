@@ -1,0 +1,84 @@
+[
+    {
+        "question": "Which firing-pattern term is shown on screen when the overhead view labels the ship's orientation for a broadside attack, and later another firing-pattern term appears next to a battleship approaching a yellow submarine-like craft?",
+        "answer": "Broadside; Ladder Salvo.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: One segment explicitly labels an overhead ship view as \"Broadside.\" Step 2: Another segment shows a battleship labeled \"Ladder Salvo\" near a yellow submarine-like vessel. Conclusion: The two terms are Broadside and Ladder Salvo.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 explicitly states that an overhead view of the battleship is labeled \"Broadside,\" indicating the orientation for a broadside attack. Step 2: Evidence Slice 8 describes a scene where a large battleship approaches a yellow submarine-like vessel, and the text \"Ladder Salvo\" is displayed prominently next to the battleship. Logic holds because both terms are directly mentioned in the respective scenes with the described visuals.",
+        "visual_proof": "In Video 1, at 0:24, the text 'Broadside' appears on screen over an overhead view of the ship. In Video 2, at 0:11, the text 'Ladder Salvo' appears on screen during a close-up of a battleship's bow, which is shown approaching a yellow submarine-like craft in the subsequent frames (e.g., 0:16-0:18)."
+    },
+    {
+        "question": "Which defensive concept is introduced as a title card and then later reappears as a specific labeled technique where a tank uses debris as protection in a city?",
+        "answer": "Defensive; Obstacle Hull Down.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            54
+        ],
+        "reasoning_chain": "Step 1: A sequence begins with the theme \"Defensive\" and shows defensive fire concepts. Step 2: Later, an urban scene labels a tank technique as \"OBSTACLE HULLDOWN.\" Conclusion: The defensive concept is introduced generally as Defensive and later as Obstacle Hull Down.",
+        "logic_check_reasoning": "Step 1: Slice 14 states the video begins with a title card reading 'Defensive,' establishing the defensive concept. Step 2: Slice 54 shows a tank in a city using debris as protection with the on-screen label 'OBSTACLE HULLDOWN,' identifying the specific technique. Logic holds because the initial defensive theme is introduced and later a defensive technique is explicitly labeled in the urban tank scene.",
+        "visual_proof": "Clip 1 opens with a title card displaying the word 'DEFENSIVE'. Clip 2 shows a tank positioned behind rubble in an urban setting, with a title card explicitly labeling this tactic as 'OBSTACLE HULLDOWN'. The sequence confirms that the general concept of 'Defensive' is introduced first, and then a specific defensive technique, 'Obstacle Hull Down', is shown later."
+    },
+    {
+        "question": "What technique label appears for tanks using terrain cover early on, and later another label specifies using the reverse side of a slope for a similar purpose?",
+        "answer": "Hull-Down Position; Backslope Hulldown.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            49
+        ],
+        "reasoning_chain": "Step 1: A tank tactic screen explicitly says \"Hull-Down Position.\" Step 2: Later, text reads \"BACKSLOPE HULLDOWN\" in a desert tactical context. Conclusion: The labels are Hull-Down Position and Backslope Hulldown.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 43 explicitly states that the scene transitions to a tank with the text 'Hull-Down Position' and labels it as a 'TANK TACTIC,' indicating a technique using terrain cover. Step 2: Evidence Slice 49 explicitly mentions the on-screen text 'BACKSLOPE HULLDOWN,' which denotes using the reverse side of a slope for positioning. Logic holds because both labels appear in the provided context and match the described tactics in the question.",
+        "visual_proof": "In the first clip, at 00:17, a tank is shown partially concealed by terrain with the text 'HULL-DOWN POSITION TANK TACTIC' displayed. In the second clip, at 00:04, tanks are depicted on the reverse slope of a hill with the text 'BACKSLOPE HULLDOWN' visible."
+    },
+    {
+        "question": "The video shifts from soldiers and trenches to tank tactics. Which three different hull-down tactics are explicitly labeled across the tank segments?",
+        "answer": "Hull-Down Position, Downslope Hull Down, and Obstacle Hull Down.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            43,
+            52,
+            54
+        ],
+        "reasoning_chain": "Step 1: A tank tactic screen labels \"Hull-Down Position.\" Step 2: Another segment labels \"Downslope Hull Down.\" Step 3: An urban tank-behind-debris segment labels \"OBSTACLE HULLDOWN.\" Conclusion: The three labeled tactics are Hull-Down Position, Downslope Hull Down, and Obstacle Hull Down.",
+        "logic_check_reasoning": "Step 1: Slice 43 explicitly shows the text 'Hull-Down Position' as a labeled tank tactic. Step 2: Slice 52 explicitly describes and labels the tactic as 'Downslope Hull Down.' Step 3: Slice 54 shows the on-screen text 'OBSTACLE HULLDOWN,' which corresponds to 'Obstacle Hull Down.' The proposed answer lists these three labels, matching the captions despite minor formatting differences.",
+        "visual_proof": "The answer is visually confirmed by the on-screen text labels in each clip. Clip 1 (0:17) displays the text 'HULL-DOWN POSITION TANK TACTIC'. Clip 2 (0:00) shows the text 'DOWNSLOPE HULLDOWN'. Clip 3 (0:00) clearly shows the text 'OBSTACLE HULLDOWN'. These three distinct labels directly correspond to the tactics mentioned in the original answer."
+    },
+    {
+        "question": "A tank marked with the number 31 is shown with soldiers in a lush area and later there is a desert lineup of three tanks. What continuity does this suggest about the video’s focus on armored units across environments?",
+        "answer": "It repeatedly follows armored units (tanks) as central subjects while shifting settings from lush terrain to desert operations.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            46,
+            48
+        ],
+        "reasoning_chain": "Step 1: A tank with \"31\" appears as the centerpiece with soldiers in a tropical/lush setting and fires. Step 2: Later, three tanks are shown lined up in a desert environment. Step 3: Another segment shows three tanks moving in unison across the desert and firing. Conclusion: The focus stays on tanks/armored units while the environment changes.",
+        "logic_check_reasoning": "Step 1: Slice 45 explicitly shows a tank marked '31' with soldiers in a lush setting and emphasizes the tank as central, later moving through different terrains. Step 2: Slice 46 depicts a desert scene with three tanks lined up, focusing on their positioning and military context. Step 3: Slice 48 also shows three tanks moving in a desert, maintaining tanks as the central subject. Logic holds because across these slices, the environment shifts (lush to desert), while tanks remain the consistent focus, indicating continuity of armored units across environments.",
+        "visual_proof": "Clip 1 shows a tank marked '31' with soldiers in a lush, palm-tree-filled environment. Later in Clip 1 and prominently in Clip 3, three tanks are shown lined up in a barren, desert-like landscape with mountains in the background. This visual transition confirms the video's focus on armored units across different environments."
+    },
+    {
+        "question": "How does the battlefield imagery transition from marching soldiers in a barren landscape, to trench defenders with fire barriers, to a 'secret' map of a named WWI battlefield region?",
+        "answer": "It goes from open-ground marching to trench-line confrontation and then to strategic mapping of Passchendaele marked SECRET.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            23,
+            25,
+            29,
+            20
+        ],
+        "reasoning_chain": "Step 1: Soldiers march across barren open terrain. Step 2: The scene shifts to trench defenders behind sandbags/barbed wire with a line of fire. Step 3: A \"SECRET\" military map is shown referencing Passchendaele with trench networks. Step 4: This ties the earlier marching/open-field imagery to trench warfare and then to high-level strategic planning. Conclusion: The video moves from frontline movement to trench defense to strategic WWI mapping.",
+        "logic_check_reasoning": "Step 1: Slice 23 describes soldiers in beige uniforms marching across a barren landscape, matching 'open-ground marching.' Slice 20 similarly shows marching soldiers in a desolate terrain. Step 2: Slice 23’s second scene shows trench defenders with a line of burning stakes (fire barrier), and Slice 25 reinforces trench defense with sandbags, barbed wire, and a visible line of fire. Step 3: Slice 29 features a military map labeled 'SECRET' specifically referencing the Passchendaele region in WWI, aligning with 'strategic mapping of Passchendaele marked SECRET.' The sequence and elements are explicitly supported.",
+        "visual_proof": "Clip 1 shows soldiers marching across a barren, muddy field. Clip 2 transitions to a view from within a trench, showing defenders facing an enemy line with fire barriers. Clip 3 clearly displays a map labeled 'PASSCHENDAELE' and 'SECRET,' indicating the strategic planning phase. This sequence visually confirms the transition described in the answer."
+    }
+]

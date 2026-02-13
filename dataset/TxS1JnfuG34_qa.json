@@ -1,0 +1,15 @@
+[
+    {
+        "question": "A group gathers around a black SUV early on, and later another group gathers around a black car in a forested nighttime location. What two distinct settings host these group-and-black-vehicle gatherings?",
+        "answer": "First on a sidewalk next to a black SUV, later in a secluded forested area at night around a black car.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows people standing on the sidewalk next to a black SUV. Step 2: Slice 32 shows a group gathered around a black car in a forested, secluded nighttime area. Conclusion: The settings are a sidewalk scene and a forested nighttime location.",
+        "logic_check_reasoning": "Step 1: Slice 12 states the video starts with a group of people standing on the sidewalk next to a black SUV, clearly identifying the first setting as a sidewalk. Step 2: Slice 32 describes a dimly lit, forested area at night with a group gathered around a black car, indicating the second setting is a secluded forest at night. Logic holds because both slices explicitly describe group-and-black-vehicle gatherings in distinct settings that match the proposed answer.",
+        "visual_proof": "Clip 1 (0:00-0:02) shows a group of people standing on a paved urban street/sidewalk next to a black Mercedes-Benz G-Wagon. Clip 2 (0:00-0:02) shows a different group of people in a dark, wooded area at night, gathered around a black sedan parked among trees."
+    }
+]

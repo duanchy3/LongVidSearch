@@ -1,0 +1,28 @@
+[
+    {
+        "question": "At the start the video identifies a specific village in Azerbaijan; later, what activity becomes the main focus in the same kind of mountainous environment?",
+        "answer": "Wilderness-style outdoor cooking and roasting meat over open fires.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces the setting with on-screen location text for a village in Azerbaijan. Step 2: Slice 27 shows a man roasting a whole animal over an open fire in the mountains. Conclusion: After the location intro, the video focuses heavily on outdoor wilderness cooking.",
+        "logic_check_reasoning": "Step 1: Slice 1 identifies the location as 'Azerbaijan Gabala Qamarvan Village' in a mountainous environment. Step 2: Slice 27 later describes a scene in a similar snowy mountainous setting where the main focus is a man roasting a whole animal over an open fire. Logic holds because the question asks what activity becomes the focus later, and Slice 27 explicitly details wilderness-style outdoor cooking and roasting meat over an open fire.",
+        "visual_proof": "The first clip ends with text identifying 'AZERBAIJAN GABALA QAMARVAN VILLAGE' in a mountainous setting. The second clip shows a man in a similar snowy, mountainous environment tending to a whole animal carcass roasted on a spit over an open fire, with the text 'WILDERNESS COOKING' visible, confirming the activity."
+    },
+    {
+        "question": "A person is shown squeezing lemons into a bowl; later, what other use of a lemon is shown in the food-prep sequence?",
+        "answer": "Lemons are sliced on a cutting board as part of preparation.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a lemon being squeezed to extract juice. Step 2: Slice 31 shows a man slicing lemons on a cutting board. Conclusion: Lemons are used both for juice and as sliced ingredients.",
+        "logic_check_reasoning": "Step 1: Slice 30 describes a person squeezing lemon juice into a bowl. Step 2: Slice 31 states that the man begins by slicing lemons on a wooden cutting board. This directly provides another use of the lemon in the prep sequence. The answer matches the explicit detail in Slice 31.",
+        "visual_proof": "In Video 2, after the person is shown squeezing lemons into a bowl, there are clear close-up shots (0:02-0:03) of hands using a knife to slice a lemon in half on a wooden cutting board. This action directly follows the squeezing and is part of the same food-prep sequence."
+    }
+]

@@ -1,0 +1,230 @@
+[
+    {
+        "question": "After a piece of cheese (or similar solid) is placed into the large cream-colored pitcher with a blue band, what is done next to that same vessel to continue the preparation?",
+        "answer": "Its contents are stirred with a wooden stick and then the jug is covered with a white cloth.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a solid piece (cheese-like) placed into a cream-colored pitcher with a blue band. Step 2: Slice 8 shows a blue-striped jug being stirred with a wooden stick and then covered with a cloth. Conclusion: After adding the solid, the vessel is stirred and covered.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a person placing a small object (cheese-like) into a large cream-colored ceramic pitcher with a blue band. Step 2: Slice 8 shows the contents of a ceramic jug with a blue stripe being stirred with a wooden stick and then the jug being covered with a white cloth. Logic holds because both slices refer to the same vessel (ceramic pitcher/jug with a blue band/stripe on a wooden table in a rustic setting), and the actions in Slice 8 logically follow the placement described in Slice 7.",
+        "visual_proof": "In Video 1, a person places a cross-shaped wooden object into the cream-colored pitcher. In Video 2, the same pitcher is shown with its lid off, and the person uses a long wooden stick to stir the contents. Immediately after stirring, they place the lid back on and then cover the entire top of the pitcher, including the stick protruding from the lid, with a white cloth."
+    },
+    {
+        "question": "What tool is used when the person rolls out dough on the table, and what different tool is later used to cut dough into circles?",
+        "answer": "A rolling pin is used to roll out the dough, and a bayonet is used to cut it into circles.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows dough being rolled out using a long wooden rolling pin. Step 2: Slice 44 shows dough being cut into circles using a bayonet. Conclusion: The dough preparation switches from rolling pin to bayonet for cutting.",
+        "logic_check_reasoning": "Step 1: Slice 4 states the person in a blue dress and white apron rolls out dough using a long wooden rolling pin. Step 2: Slice 44 states the woman in a blue dress and white apron later uses a bayonet to cut the dough into circular shapes. Logic holds because both slices describe the same setting and attire, indicating continuity, and each explicitly names the tool used for the respective task.",
+        "visual_proof": "In Video 1, the person is holding a wooden rolling pin. In Video 2, the same person uses a long metal tool with a handle, identified by the on-screen text as a 'bayonette', to press down and cut circular shapes from the dough."
+    },
+    {
+        "question": "Which unlit household object is shown earlier, and later what cooking heat source is shown burning strongly in the hearth?",
+        "answer": "An unlit white candle is shown, and later a fireplace fire is burning strongly.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a white candle in a holder that is unlit. Step 2: Slice 46 shows a roaring fire in a stone hearth. Conclusion: The video contrasts an unlit candle with an actively burning fireplace.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly shows an unlit white candle in a holder, satisfying the 'unlit household object' part. Step 2: Slice 46 explicitly describes a fire burning in a rustic stone hearth with vigorous flames, satisfying the 'burning strongly in the hearth' heat source part. The answer matches these details without relying on external assumptions.",
+        "visual_proof": "Clip 1 shows a close-up of a white, cylindrical object with a wick, consistent with an unlit candle, resting on a white cloth. Clip 2 shows a fireplace hearth with logs actively burning with bright orange flames, indicating a strong fire."
+    },
+    {
+        "question": "What food item is strained from a brown liquid, and what is later peeled easily after that preparation step?",
+        "answer": "Small red beans (or seeds) are strained, and these same beans are later peeled easily.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a brown liquid poured through a colander revealing small red beans/seeds. Step 2: Slice 25 shows chestnuts in a colander being peeled, with text noting the skin falls off. Conclusion: Two successive prep steps show straining beans and peeling chestnuts.",
+        "logic_check_reasoning": "Step 1: Slice 24 states that a brown liquid is poured into a colander, revealing and straining small red beans or seeds. Step 2: Slice 25 shows chestnuts in a colander being peeled easily, with on-screen text noting the skin now falls right off, indicating a preparation step led to easy peeling. Logic holds because the question asks for the item strained and the item later peeled easily; Slice 24 supports small red beans/seeds being strained, and Slice 25 supports chestnuts being peeled easily afterward.",
+        "original_text_answer": "Small red beans (or seeds) are strained, and chestnuts are later peeled easily.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 visually shows small, oval, reddish-brown items being strained from a brown liquid. Clip 2 shows a hand taking one of these exact same items from the colander and easily peeling off its skin, with on-screen text confirming 'the skin now falls right off'. The item being peeled is not a chestnut; it is clearly one of the beans that was just strained."
+    },
+    {
+        "question": "What is put into a brick oven earlier, and later what finishing topping is sprinkled onto baked goods after baking?",
+        "answer": "A tray of uncooked doughnuts is put into the oven, and powdered sugar is later sprinkled on the baked pastries.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a tray of cookies being placed into a brick oven. Step 2: Slice 69 shows powdered sugar being sprinkled over baked goods on a tray. Conclusion: The baked items go from being oven-loaded to being finished with powdered sugar.",
+        "logic_check_reasoning": "Step 1: Slice 45 explicitly states that a woman places a tray of cookies into an old-fashioned brick oven. Step 2: Slice 69 explicitly shows a person sprinkling powdered sugar over baked goods (described as pastries) on a tray. Logic holds because the question asks what was put into the brick oven earlier (cookies) and later what topping was sprinkled after baking (powdered sugar), both directly supported by the slices.",
+        "original_text_answer": "A tray of cookies is put into the oven, and powdered sugar is later sprinkled on baked pastries.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, a person places a metal tray containing ring-shaped dough (doughnuts) into a brick oven. In Clip 2, a person is seen sprinkling powdered sugar from a bowl onto baked, twisted pastries on a plate. The original answer incorrectly identifies the items put in the oven as 'cookies' when they are clearly doughnuts."
+    },
+    {
+        "question": "How does the dairy mixture change from being poured into a ceramic vessel to being stirred and then finally appearing as a yellow butter-like substance?",
+        "answer": "Milk is poured into a ceramic pot/jug, then stirred and covered, and later it appears as a yellow butter-like mixture being worked in a pot/bowl.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            8,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a pale dairy liquid poured into a larger white ceramic pot. Step 2: Slice 8 shows the jug stirred with a wooden stick and covered with cloth. Step 3: Slice 13 shows a yellowish butter-like substance being stirred in a ceramic pot with milk and cloth nearby. Conclusion: The process transitions from pouring dairy liquid to stirring/covering, culminating in a yellow butter-like product being worked.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a pale, milk-like liquid being poured from a metal pitcher into a white ceramic pot, supporting the idea of a dairy mixture being poured into a ceramic vessel. Step 2: Slice 8 depicts the contents of a ceramic jug being stirred with a wooden stick and then covered with a white cloth, matching 'then stirred and covered.' Step 3: Slice 13 shows a person stirring a yellowish substance in a ceramic pot, described as possibly butter or a similar dairy product, with a metal pitcher of milk and a white cloth nearby, supporting 'later it appears as a yellow butter-like mixture being worked in a pot.' The minor vessel naming differences (pot vs jug) align logically and are acceptable per the instructions, and the sequence is coherent across slices.",
+        "visual_proof": "Clip 1 shows milk being poured into a ceramic vessel. Clip 2 shows the same vessel being stirred with a wooden plunger and then covered with a cloth. Clip 3 shows the contents of the vessel have transformed into a thick, yellow, butter-like substance that is being agitated by the same wooden plunger."
+    },
+    {
+        "question": "What sequence of steps shows butter being handled from scraping it out of a bowl, to keeping it cool, to incorporating it into flour?",
+        "answer": "Butter is scraped from a bowl onto a spatula, then placed in a cold-water bath to prevent melting, and then transferred into a larger bowl of flour.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            18,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows butter-like substance scraped from a bowl and moved onto a wooden spatula. Step 2: Slice 18 shows butter placed over cold water with the instruction to prevent melting. Step 3: Slice 38 shows butter scooped and added into a bowl of flour. Conclusion: The butter is extracted, cooled to maintain texture, then mixed into flour.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows butter-like substance being scraped from a bowl onto a wooden spatula. Step 2: Slice 18 shows a bowl with butter being placed into a larger bowl over cold water to keep it from melting. Step 3: Slice 38 shows butter being transferred from the bowl into a larger bowl of flour. The sequence aligns with the proposed steps.",
+        "visual_proof": "Clip 1 shows hands scraping butter from a white bowl with a blue rim using wooden tools. Clip 2 shows the same bowl with the butter being placed inside a larger terracotta bowl filled with water, with on-screen text confirming it's to 'keep from melting'. Clip 3 shows the butter being transferred from the small bowl into a large wooden bowl containing flour."
+    },
+    {
+        "question": "Which dairy-related steps lead from heating/pouring milk to churning butter to then using the resulting buttermilk in baking?",
+        "answer": "Milk is heated/poured in preparation, then cream is churned into butter, and the resulting buttermilk is later poured into the baking mixture.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            6,
+            11,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a bubbling dairy liquid being heated in a metal pot. Step 2: Slice 6 shows a milk-like liquid poured into a larger ceramic pot as part of dairy prep. Step 3: Slice 11 shows butter being churned from cream. Step 4: Slice 37 shows buttermilk labeled as from earlier butter making being poured into a bowl of dry ingredients. Conclusion: Early milk handling leads into butter-making, which produces buttermilk used later in baking.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows milk being heated in a pot; Slice 6 shows milk being poured, supporting the initial heating/pouring milk step. Step 2: Slice 11 explicitly depicts a woman churning cream into butter, supporting the butter-making step. Step 3: Slice 37 states the buttermilk is from earlier butter making and shows it being poured into a baking mixture, supporting the use of resulting buttermilk in baking. Logic holds because the slices sequentially depict handling milk, churning butter, and then using the byproduct (buttermilk) in baking.",
+        "visual_proof": "Clip 1 shows milk being heated. Clip 2 shows milk being poured into a crock, which is part of the preparation for churning. Clip 3 shows a woman actively churning butter with a plunger in a crock. Clip 4 shows buttermilk, explicitly labeled as 'buttermilk from our earlier butter making,' being poured into a bowl of flour for baking. This sequence visually confirms the steps described in the original answer."
+    },
+    {
+        "question": "How does the video build context that the sweet baked items shown at the end come from an earlier oven stage and are later decorated?",
+        "answer": "The oven is opened to reveal round baked items on a tray, and later pastries are shown dusted with powdered sugar alongside the meal.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            68,
+            69,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 68 shows the brick oven opened with round items on a tray inside. Step 2: Slice 69 shows powdered sugar being sprinkled on baked goods. Step 3: Slice 78 shows the sugar-dusted pastries served on a plate next to a savory dish. Conclusion: The baked goods are checked in the oven, decorated with sugar, then served.",
+        "logic_check_reasoning": "Step 1: Slice 68 shows an oven being opened to reveal a tray with two round objects, indicating an earlier baking stage. Step 2: Slice 69 shows a person sprinkling powdered sugar over pastries on a tray, indicating a decorating step. Step 3: Slice 78 shows the final scene with pastries dusted with powdered sugar plated alongside a meal. Logic holds because the sequence clearly progresses from baking (oven), to decorating (powdered sugar), to serving (plated pastries), matching the proposed answer.",
+        "visual_proof": "Clip 1 shows a person opening an oven to reveal round baked goods on a metal tray. Clip 2 shows hands dusting similar-looking twisted pastries with powdered sugar. Clip 3 displays the final plated meal, including the sugar-dusted pastries, confirming they were prepared from the earlier baking stage and decorated before serving."
+    },
+    {
+        "question": "Which steps show the dish moving from ingredients being added into the pot, to simmering and stirring, to being finished with a ladled sauce on the plate?",
+        "answer": "Ingredients are added (including greens and a dark liquid), the pot simmers while being stirred, and then a dark sauce/gravy is ladled onto the plated dish.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            63,
+            65,
+            73,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 63 shows greens added and a dark liquid poured into the pot, then stirred. Step 2: Slice 65 shows additional liquid poured from a metal container into a pot with vegetables and meat. Step 3: Slice 73 indicates extended cooking ('30 minutes later') with stirring over the fire. Step 4: Slice 74 shows a dark thick liquid ladled from a pot onto the plated dish. Conclusion: The dish evolves from assembly to simmering to final saucing.",
+        "logic_check_reasoning": "Step 1: Slice 63 shows ingredients being added into the pot (green vegetables and a dark liquid) and stirring. Step 2: Slice 73 shows the pot cooking over an open fire with stirring and a time lapse ('30 minutes later'), which supports the simmering/stirring phase. Step 3: Slice 74 shows a dark, thick sauce/gravy being ladled from a pot onto the plated dish, indicating the finishing step. The sequence aligns with the proposed answer.",
+        "visual_proof": "Clip 1 shows ingredients like greens and a dark liquid being prepared and placed near the pot. Clip 2 visually confirms a dark liquid being poured into the pot over other ingredients. Clip 3 shows the pot hanging over a fire with a person stirring its contents, indicating simmering. Clip 4 shows the final plated dish with a person ladling a dark sauce from the pot onto it, completing the process described."
+    },
+    {
+        "question": "How do the visuals show a transition from dairy preparation to pastry preparation using tools and ingredients?",
+        "answer": "Milk is handled in pitchers/jugs during dairy prep, then flour and eggs are mixed into dough/batter, and finally the dough is shaped and cut for baking.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            5,
+            31,
+            35,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows milk poured from a metal pitcher into a ceramic pot (dairy handling). Step 2: Slice 31 shows flour stirred in a wooden bowl (start of baking). Step 3: Slice 35 shows egg poured into flour and mixed (building batter/dough). Step 4: Slice 42 shows dough shaped and cut into uniform pieces (pre-bake forming). Conclusion: The timeline moves from dairy work to structured pastry making.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows dairy preparation with a milk-like white liquid being poured from a metal pitcher into a ceramic pot, indicating the use of dairy and the tool (pitcher). Step 2: Slices 31 and 35 depict flour in a large bowl being mixed, and an egg added and mixed with a wooden spoon, clearly showing the transition to pastry preparation ingredients (flour, egg) and tool (spoon). Step 3: Slice 42 shows the dough being shaped into discs and cut with a metal cup, demonstrating the final step of forming pastries for baking using tools and the prepared dough. Logic holds because the visuals sequentially move from handling dairy to mixing pastry dough to shaping and cutting for baking.",
+        "visual_proof": "Clip 1 shows milk being poured from a metal pitcher into a ceramic jug. Clip 2 shows flour being stirred in a wooden bowl. Clip 3 shows eggs being added to the flour and mixed with a wooden spoon. Clip 4 shows a person shaping dough balls and using a metal cup to flatten them on a floured surface, indicating preparation for baking."
+    },
+    {
+        "question": "After dough is shaped and cut into uniform rounds, what later oven-related action shows the baked goods progressing toward being finished?",
+        "answer": "The rounds are baked in the brick oven and later the oven is opened to check the baked items.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            42,
+            45,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows dough being shaped and cut into uniform pieces (using a metal cup). Step 2: Slice 45 shows a tray of cookies put into a brick oven. Step 3: Slice 68 shows the oven door opened and a tray with round items inside being checked. Conclusion: The cut rounds go from preparation to baking and then to being checked in the oven.",
+        "logic_check_reasoning": "Step 1: Slice 42 shows the dough being shaped and cut into uniform rounds. Step 2: Slice 45 shows the tray being placed into the brick oven, indicating baking begins. Step 3: Slice 68 shows the oven being opened to check the items inside, demonstrating a later oven-related action indicating progress toward completion. The proposed answer matches these actions: baking in the brick oven and later opening the oven to check.",
+        "visual_proof": "Clip 1 shows the woman shaping and cutting dough into uniform rounds. Clip 2 shows her placing a tray of these rounds into a brick oven. Clip 3 shows her opening the same oven door again, indicating she is checking on the progress of the baking."
+    },
+    {
+        "question": "Which earlier fireplace-tending action helps explain how the pot ends up cooking long enough to show a time jump, and who is tending the fire at that later moment?",
+        "answer": "The fire is tended/stoked earlier, and later the man is shown stirring the pot after the time jump.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            66,
+            71,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows a man manipulating coals in a brick fireplace with a long tool. Step 2: Slice 71 shows pots hanging over an active hearth fire being managed for cooking heat. Step 3: Slice 73 shows '30 minutes later' with the man stirring a pot over the fire. Conclusion: Earlier fire management supports sustained cooking, culminating in the later time-jump scene with the man.",
+        "logic_check_reasoning": "Step 1: Slice 66 shows an earlier action where a man in a white shirt and dark pants uses a long-handled tool to adjust/stoke the coals in a brick fireplace, tending the fire. Step 2: Slice 73 shows \"30 minutes later\" with a man in a white shirt kneeling by the fireplace, stirring a pot suspended over the flames. Logic holds because the earlier stoking helps maintain the fire for continued cooking, and the later scene explicitly shows a man working at the fire after the time jump.",
+        "visual_proof": "In Clip 1, the man is seen tending to the fire by placing a pot over it. In Clip 2, the woman adjusts the pot's position over the fire and adds ingredients, indicating ongoing cooking. Clip 3 shows the text '30 minutes later' with the man now sitting and stirring the same pot, confirming he is tending to it at that later moment."
+    },
+    {
+        "question": "How does the savory dish progress from raw prep to simmering to being served with sauce on a plate?",
+        "answer": "Meat and vegetables are chopped/prepared, then the pot simmers as it is stirred, and finally a dark sauce/gravy is spooned onto the plated dish.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            50,
+            53,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 50 shows ingredients being prepped: onions sliced and meat cut, with vegetables on the table. Step 2: Slice 53 shows a simmering copper pot stirred with spices/ingredients inside. Step 3: Slice 74 shows a dark thick liquid spooned from a black pot onto a plated meat-and-vegetable dish. Conclusion: The meal moves from raw prep to simmering cook to final plating with sauce.",
+        "logic_check_reasoning": "Step 1: Slice 50 shows raw prep with onions being sliced and meat cut, alongside other vegetables on the table. Step 2: Slice 53 shows a pot of liquid gently simmering while being stirred with a wooden spoon. Step 3: Slice 74 shows a plated meat-and-vegetable dish being finished by spooning a dark, thick sauce from a pot onto the plate. Logic holds because the slices sequentially depict preparation, simmering, and final saucing for serving.",
+        "visual_proof": "Clip 1 shows raw meat and vegetables (carrots, onions, celery) being chopped on a cutting board. Clip 2 shows hands stirring ingredients in a simmering pot. Clip 3 shows the finished dish plated with a dark sauce being spooned over it from a cauldron."
+    },
+    {
+        "question": "How does the video show a continuous baked-goods pipeline from rolling and cutting dough, to baking in the brick oven, to finishing the baked items with a topping?",
+        "answer": "The dough is rolled and cut into rounds, baked in the brick oven, and then the baked goods are dusted with powdered sugar.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            44,
+            45,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows dough rolled out with a rolling pin. Step 2: Slice 44 shows rounds cut from the dough. Step 3: Slice 45 shows a tray of cookies placed into the brick oven. Step 4: Slice 69 shows powdered sugar sprinkled over baked goods. Conclusion: The baking workflow goes from shaping to baking to sugaring.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows dough being rolled out with a rolling pin. Step 2: Slice 44 shows the dough being cut into circular shapes (rounds), reinforcing the cutting step. Step 3: Slice 45 shows a tray of cookies being placed into an old-fashioned brick oven, covering the baking stage. Step 4: Slice 69 shows baked goods being dusted with powdered sugar, completing the finishing/topping step. The sequence logically connects rolling and cutting, baking in a brick oven, and finishing with powdered sugar.",
+        "visual_proof": "Clip 1 shows rolling the dough. Clip 2 shows cutting the rolled dough into rounds using a bayonet. Clip 3 shows placing the tray of cut dough into a brick oven for baking. Clip 4 shows the finished baked goods on a plate being dusted with powdered sugar."
+    },
+    {
+        "question": "What chain of actions connects making butter (including keeping it from melting) to then building the dough and flavoring it before shaping?",
+        "answer": "Butter is worked and kept cool in a cold-water bath, then incorporated into flour, and later rose water is added to the dough before shaping/cutting.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            18,
+            38,
+            41,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows butter placed over cold water to keep it from melting. Step 2: Slice 38 shows butter transferred into a bowl of flour (building the dough base). Step 3: Slice 41 shows rose water added and folded into the dough. Step 4: Slice 42 shows the dough being shaped and cut into uniform pieces. Conclusion: Cooling butter preserves texture, then it’s mixed into flour, flavored with rose water, and shaped.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows butter being placed in a bowl set over cold water with an overlay \"to keep from melting place over cold water,\" supporting the claim that the butter is kept cool. Step 2: Slice 38 shows the butter being scooped and mixed into a larger bowl of flour, supporting incorporation of butter into flour as part of building the dough. Step 3: Slice 41 shows rose water being added and folded into the dough, supporting flavoring the dough. Step 4: Slice 42 shows shaping and cutting the dough with a metal cup, supporting the final shaping/cutting step. The logical chain from keeping butter cool to incorporating it into flour, flavoring with rose water, and shaping is fully supported.",
+        "visual_proof": "Clip 1 shows butter being placed in a bowl over cold water to prevent melting. Clip 2 shows the butter being added to a flour mixture. Clip 3 visually confirms the addition of 'rose water' to the dough as text appears on screen while it's being mixed. Clip 4 shows the finished dough being portioned and shaped, confirming the sequence."
+    }
+]

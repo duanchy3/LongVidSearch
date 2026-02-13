@@ -1,0 +1,178 @@
+[
+    {
+        "question": "Across the tax-related visuals, which two different types of taxes are mapped in separate moments of the video?",
+        "answer": "Top state marginal individual income tax rates and mean effective property tax rates on owner-occupied housing.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 4 is a U.S. map of 'Top State Marginal Individual Income Tax Rate (2018).' Step 2: Slice 46 is a U.S. map of 'Mean Effective Property Tax Rates on Owner-Occupied Housing.' Conclusion: The video covers both income tax and property tax via separate maps.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly describes a map titled 'Top State Marginal Individual Income Tax Rate (2018),' clearly indicating it maps individual income tax rates by state. Step 2: Slice 46 explicitly describes a map titled 'Mean Effective Property Tax Rates on Owner-Occupied Housing,' clearly indicating it maps property tax rates by state. Logic holds because these are two distinct tax types presented in separate visuals, matching the proposed answer.",
+        "visual_proof": "Clip 1 displays a map titled 'Top State Marginal Individual Income Tax Rate (2016)' with states color-coded by their top marginal rate. Clip 2 displays a different map titled 'Mean Effective Property Tax Rates on Owner-Occupied Housing' with states color-coded by their effective property tax rate. The titles and data presented in each clip clearly identify the two distinct types of taxes being mapped."
+    },
+    {
+        "question": "Two different state maps use red and blue county coloring; which states are shown with that same visual encoding?",
+        "answer": "South Carolina and North Carolina.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows South Carolina counties colored red/blue. Step 2: Slice 7 shows North Carolina counties colored red/blue. Conclusion: Both states are presented with the same red/blue county-level political-style coloring.",
+        "logic_check_reasoning": "Step 1: Slice 6 states that South Carolina is shown as a county map with counties colored red and blue. Step 2: Slice 7 states that North Carolina is shown as a county map with counties colored red and blue. Logic holds because both slices explicitly describe the same visual encoding (red/blue county coloring) for two different states.",
+        "visual_proof": "Clip 1 displays a map labeled 'South Carolina' with counties colored red and blue. Clip 2 displays a map labeled 'North Carolina' with counties also colored red and blue. Both maps use the same two-color scheme (red and blue) to differentiate counties."
+    },
+    {
+        "question": "Which two separate segments explicitly label Southern California locations as counties, one being an urban skyline and the other being a palm-lined pedestrian area?",
+        "answer": "San Diego County (urban skyline) and Orange County (palm-lined pedestrian walkway).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows an aerial urban skyline labeled 'San Diego County.' Step 2: Slice 13 shows a sunny palm-lined pedestrian walkway labeled as Orange County. Conclusion: These are two labeled county segments—one urban skyline and one pedestrian coastal/tourist area.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows an urban skyline and states that the text 'San Diego County' is displayed, matching the 'urban skyline' county label. Step 2: Slice 13 describes a palm-lined pedestrian walkway set in 'Orange County, California,' explicitly identifying the location as a county. Logic holds because each slice names a Southern California county and matches the described scene types.",
+        "visual_proof": "Clip 1 shows a city skyline with the text 'San Diego County' overlaid at the bottom. Clip 2 shows a palm-lined pedestrian area with the text 'Orange County' overlaid at the bottom. Both clips explicitly label the locations as counties, matching the description in the question."
+    },
+    {
+        "question": "One location is shown first as a tranquil natural lake landscape and later as a small-town street with colorful buildings; which county is it?",
+        "answer": "Lake County.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 18 transitions to a serene lake scene labeled 'Lake County.' Step 2: Slice 19 shows a street view in Lake County with colorful vintage buildings. Conclusion: The same county is depicted in two different settings: nature landscape then town street.",
+        "logic_check_reasoning": "Step 1: Slice 18 explicitly states that the video shifts to a serene natural setting in Lake County, showing a tranquil lake landscape with the text 'Lake County' on screen. Step 2: Slice 19 describes a later scene showing a small-town street with colorful buildings and specifies it is in Lake County. Logic holds because both the tranquil lake and the later small-town street are identified as being in Lake County.",
+        "visual_proof": "Clip 1 (0:09-0:12) shows a tranquil natural lake landscape with hills, and the text 'Lake County' is overlaid. Clip 2 (0:00-0:04) shows a small-town street with colorful buildings, and the same text 'Lake County' is overlaid. This confirms both scenes are identified as being in Lake County."
+    },
+    {
+        "question": "Which two segments both emphasize redwood forests, one with a labeled county and a visible hiker and the other focusing on the trees without a county label?",
+        "answer": "Humboldt County with the hiker, and the later redwood forest close-up scene.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a redwood forest labeled 'Humboldt County' with a person hiking on a path. Step 2: Slice 31 shows towering redwood trees and forest details without an explicit county label. Conclusion: Both depict redwood forest environments, with the earlier one explicitly tied to Humboldt County.",
+        "logic_check_reasoning": "Step 1: Slice 21 explicitly shows a dense redwood forest in Humboldt County, includes on-screen text 'Humboldt County,' and features a visible hiker walking along a path. Step 2: Slice 31 describes a serene scene dominated by towering redwood trees, focusing on their grandeur and the forest environment, with no mention of any county label or a hiker. Logic holds because both segments emphasize redwood forests, and the first includes the county label and hiker while the second focuses solely on the trees.",
+        "visual_proof": "Clip 1 shows a person walking on a path between massive redwoods with the text 'Humboldt County' overlaid at the bottom. Clip 2 is a low-angle shot focusing solely on the towering trunks of redwoods with lush green undergrowth, with no text or human figures visible. This matches the description in the original answer."
+    },
+    {
+        "question": "The video includes an environmental disaster and then an official briefing; what sequence suggests that government agencies are responding to the crisis?",
+        "answer": "A forest fire and firefighters are shown first, followed by a formal Cal OES press conference briefing.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 43 depicts a forest fire and firefighters actively fighting it. Step 2: Slice 44 shows a serious press conference at a podium labeled 'Cal OES' (Office of Emergency Services). Conclusion: The disaster imagery followed by the official briefing implies government response and public communication about the emergency.",
+        "logic_check_reasoning": "Step 1: Slice 43 describes an environmental disaster (a forest fire) and shows firefighters actively battling the blaze, indicating an emergency response. Step 2: Slice 44 describes a formal press conference with a podium labeled 'Cal OES' (California Office of Emergency Services), indicating an official government briefing. Logic holds because the sequence of an active disaster scene followed by an official Cal OES briefing suggests government agencies are responding to the crisis.",
+        "visual_proof": "Clip 1 visually depicts a large-scale forest fire with active flames engulfing trees and firefighters in full gear using hoses to combat the blaze. Clip 2 shows a formal press briefing at a podium bearing the 'Cal OES' (California Office of Emergency Services) logo, with officials including law enforcement and military personnel standing behind it, indicating an official government response to the disaster shown previously."
+    },
+    {
+        "question": "Several county segments highlight both agriculture and demographics; which three visuals together connect a county name landmark, a demographic projection chart, and farm labor footage?",
+        "answer": "Merced County’s landmark street scene, the Central California demographic projection chart including Merced, and the farm-worker harvesting scenes.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            23,
+            59,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows Merced County with a building labeled 'Merced.' Step 2: Slice 59 shows a chart projecting demographic changes for Central California counties including Merced. Step 3: Slice 54 shows intensive farm labor harvesting strawberries. Conclusion: These connect place identity (Merced), projected population/demographic change, and the agricultural labor that characterizes the region’s economy.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows a landmark street scene in Merced County with the word 'Merced' on a building, satisfying the 'county name landmark' element. Step 2: Slice 59 presents a demographic projection chart for Central California counties that explicitly includes Merced, satisfying the 'demographic projection chart' element. Step 3: Slice 54 shows workers harvesting strawberries, satisfying the 'farm labor footage' element. Logic holds because the proposed answer identifies these three visuals as the connecting set.",
+        "visual_proof": "Clip 1 visually identifies 'Merced County' with a prominent building labeled 'MERCED'. Clip 2 displays a demographic chart titled 'Population changes' for Central California counties, explicitly listing 'Merced' with its 2015 and 2060 data. Clip 3 shows agricultural labor in a field, consistent with the farming context of Merced County. Together, these three clips provide the visual evidence requested."
+    },
+    {
+        "question": "Which three different California-county segments move from Southern California tourism/urban scenes to Northern California nature/coast scenery?",
+        "answer": "Orange County tourism imagery, Humboldt County redwood forest, and Mendocino County lighthouse coast.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            21,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows Disneyland-style characters in Orange County (tourism). Step 2: Slice 21 shows Humboldt County redwood forest (nature). Step 3: Slice 22 shows Mendocino County lighthouse on a rocky coast (coastal nature). Conclusion: The video traverses from Southern California tourism to Northern California forest and coastline.",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly shows Disney characters at a castle with on-screen text 'Orange County,' clearly indicating a Southern California tourism scene. Step 2: Slice 21 shows a redwood forest with on-screen text 'Humboldt County,' indicating a Northern California nature scene. Step 3: Slice 22 shows a lighthouse on a rocky coast with on-screen text 'Mendocino County,' indicating Northern California coastal scenery. Logic holds because the three identified county segments are distinct and collectively represent a move from SoCal tourism (Orange County) to NorCal nature (Humboldt) and coast (Mendocino), exactly as the question describes.",
+        "visual_proof": "Clip 1 shows Disney characters at a castle with the text 'Orange County', representing Southern California tourism. Clip 2 shows a person walking through a massive redwood forest with the text 'Humboldt County', depicting Northern California nature. Clip 3 displays a coastal lighthouse on cliffs with the text 'Mendocino County', illustrating Northern California's scenic coast. The visual content and text labels in each clip directly support the original answer."
+    },
+    {
+        "question": "What visual progression suggests a theme of public safety incidents followed by official or institutional response, across three separate moments?",
+        "answer": "A CHP vehicle is shown, then a highway crash scene, then an emergency-services press conference.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            42,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows a California Highway Patrol car, signaling law enforcement/public safety. Step 2: Slice 42 shows a serious highway accident with responders. Step 3: Slice 44 shows an official Cal OES press conference. Conclusion: The sequence aligns with incident visibility and institutional coordination/communication.",
+        "logic_check_reasoning": "Step 1: Slice 41 describes a California Highway Patrol vehicle, indicating law enforcement/public safety presence. Step 2: Slice 42 shows a highway car accident with emergency responders handling the scene, clearly a public safety incident. Step 3: Slice 44 shows a Cal OES press conference, an official institutional response/briefing. The proposed answer matches this sequence: CHP vehicle, then crash scene, then emergency-services press conference.",
+        "visual_proof": "Clip 1 shows a California Highway Patrol (CHP) car on a road. Clip 2 depicts a severe multi-vehicle crash on a highway with first responders and a tow truck. Clip 3 features officials, including one in a sheriff's uniform and another in military attire, at a podium with the 'Cal OES' (California Office of Emergency Services) logo, indicating an official briefing or response."
+    },
+    {
+        "question": "Across the video’s different 'map on black background' segments, what different topics are shown using that visual style?",
+        "answer": "County-level red/blue political-style maps (e.g., California/South Carolina) and a black-background California movement map ('New California').",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            6,
+            11,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows California counties colored red/blue on a black background. Step 2: Slice 6 shows South Carolina’s red/blue county map on a black background. Step 3: Slice 11 shows a black-background California map in blue with stars promoting 'New California.' Step 4: Slice 16 shows county-labeled footage (Imperial County) that contrasts with the abstract map style, reinforcing that black-background maps are a recurring design choice for informational segments. Conclusion: The black-background map style is used for both political-style county coloring and for a California movement graphic.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows a black-background county-level map of California with red/blue counties indicating political affiliations. Step 2: Slice 6 shows a black-background county-level map of South Carolina with red/blue counties, indicating a political/voting theme. Step 3: Slice 11 shows a black-background map of California labeled with regions and a central star reading 'New California', indicating an initiative/movement rather than a red/blue political map. Step 4: These cover two topics: political county-level red/blue maps (CA and SC) and a California movement map ('New California'). The proposed answer reflects both.",
+        "visual_proof": "Clip 1 shows a county-level map of California with red and blue shading on a black background. Clip 2 shows a county-level map of South Carolina, also with red and blue shading on a black background. Clip 3 shows a map of California divided into 'California' and 'New California' regions, presented on a black background. These are the only three segments using the 'map on black background' visual style, and they cover the topics mentioned in the answer."
+    },
+    {
+        "question": "How do the video’s visuals connect demographics about Hispanic-majority areas to projected county-level Hispanic percentages in Central California?",
+        "answer": "A national map highlights counties with Hispanic populations over 50%, and a separate Central California projection chart shows rising Hispanic percentages in specific counties like Fresno and Tulare by 2060.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            60,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 60 maps where Hispanic population exceeds 50% across U.S. counties. Step 2: Slice 59 projects Hispanic percentages for Central California counties (e.g., Fresno, Tulare) increasing over time. Conclusion: The national distribution visualization aligns with and is complemented by detailed county-level projections in Central California.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 60 describes a national map titled 'Hispanic population greater than 50 percent,' highlighting counties across the U.S. where Hispanic populations exceed 50%. Step 2: Evidence Slice 59 presents a chart titled 'Projected demographic changes in Central California counties, 2015-2060,' including Hispanic percentages for counties like Fresno and Tulare, which increase by 2060 (e.g., Fresno 52%→61%, Tulare 63%→73%). Logic holds because the visuals together connect a broad national view of Hispanic-majority areas to specific, county-level projections in Central California showing rising Hispanic shares.",
+        "visual_proof": "Clip 1 displays a U.S. map with shaded counties indicating Hispanic population percentages above 50%, using a color-coded legend. Clip 2 presents a bar chart titled 'Population changes' showing projected Hispanic percentages for Central California counties (including Fresno and Tulare) for 2015 and 2060, with clear increases shown in the blue bars for each county."
+    },
+    {
+        "question": "Which four moments collectively show the video’s shift from city/county travel imagery to policy/economics visuals and then back to a presenter-led explanation?",
+        "answer": "A cityscape view, a county montage, national tax visuals, and a presenter speaking in front of maps.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            8,
+            24,
+            46,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a tranquil cityscape with river and bridge (travel/scene-setting imagery). Step 2: Slice 24 shows a montage of California counties (Fresno, Stanislaus, San Joaquin) blending place imagery with labels. Step 3: Slice 46 presents a policy/economics infographic (property tax rates). Step 4: Slice 52 returns to a presenter in front of framed maps delivering an explanation. Conclusion: The video alternates between scenic geography, labeled county montage, policy data visuals, and presenter commentary.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows a panoramic cityscape with river and skyline, fitting a city travel image. Step 2: Slice 24 shows multiple California counties (Fresno, Stanislaus, San Joaquin) with varied shots, supporting a county montage. Step 3: Slice 46 is a national infographic on property tax rates, clearly policy/economics visuals. Step 4: Slice 52 shows a man presenting in front of maps, aligning with a presenter-led explanation. Logic holds because these four slices cover the transition from city/county imagery to policy visuals and then to a presenter.",
+        "visual_proof": "Clip 1 shows a cityscape (Austin, TX). Clip 2 is a montage featuring Fresno, Stanislaus, and San Joaquin Counties. Clip 3 displays a U.S. map with data on property tax rates, representing policy/economics visuals. Clip 4 features a presenter speaking directly to the camera in front of world maps, indicating a return to a presenter-led explanation."
+    },
+    {
+        "question": "Two different agriculture scenes show different crops and different protective clothing; what crops are being harvested, and what protection is clearly visible in one of the scenes?",
+        "answer": "Strawberries and red cabbage; in the strawberry scene a worker wears a face mask and gloves.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            54,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 54 shows workers harvesting strawberries, with a foreground worker wearing a protective face mask and blue gloves. Step 2: Slice 55 shows workers harvesting red cabbage, with a man in a green hoodie and blue gloves. Conclusion: The crops differ (strawberries vs cabbage) and explicit face-mask protection is visible in the strawberry harvest scene.",
+        "logic_check_reasoning": "Step 1: Slice 54 explicitly describes a strawberry field and notes a worker wearing blue gloves and a protective face mask. Step 2: Slice 55 explicitly describes harvesting red cabbage. Step 3: The proposed answer correctly identifies the two crops (strawberries and red cabbage) and the visible protection in the strawberry scene (face mask and gloves), which is supported by Slice 54.",
+        "visual_proof": "Clip 1 shows rows of green strawberry plants with workers harvesting; one central worker clearly wears a white face mask, a cap, and white gloves. Clip 2 shows workers harvesting leafy red vegetables, identifiable as red cabbage, with one worker in the foreground holding a head of it while wearing blue gloves and a hooded sweatshirt."
+    }
+]

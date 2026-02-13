@@ -1,0 +1,198 @@
+[
+    {
+        "question": "Which recurring activity links the man in the plaid shirt at home to the later footage showing a computer timeline and coding screens?",
+        "answer": "Working on video production/editing (and related technical work like coding).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            72
+        ],
+        "reasoning_chain": "Step 1: The man in plaid sits at a monitor with video editing software, implying editing work. Step 2: Later, the video shows editing timelines, a tablet with notes, and a terminal with code. Conclusion: The recurring activity is technical creation work centered on video editing (plus coding).",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a man in a red/black plaid shirt sitting at a computer with a video editing software interface visible, indicating he is engaged in video production/editing. Step 2: Slice 72 shows a computer monitor with a video editing timeline, then a tablet with script/notes, and a terminal window with coding, illustrating ongoing work in video editing and related technical tasks. Logic holds because the recurring activity present in both slices is video editing; coding appears in the later footage as part of the broader workflow, which the proposed answer acknowledges parenthetically.",
+        "visual_proof": "In Clip 1, the man in the plaid shirt is seated at a desk with a computer monitor displaying a video editing timeline interface. In Clip 2, the same desk setup is shown, featuring the identical video editing software on the monitor. The clip then transitions to a laptop screen displaying lines of code, indicating technical work. This visual continuity and content directly link the man's activity to video editing and coding."
+    },
+    {
+        "question": "What later event visually echoes the choir imagery shown earlier at an indoor fair booth poster?",
+        "answer": "A real choir singing in a candlelit church service.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            77
+        ],
+        "reasoning_chain": "Step 1: At the indoor fair, someone points at a poster featuring a choir. Step 2: Later, the video shows an actual choir holding candles and singing in a church. Conclusion: The choir poster is echoed by the candlelit choir performance.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes an indoor fair booth where a person points to a large poster featuring a choir, suggesting choir imagery earlier. Step 2: Slice 77 shows a later scene inside a church with a choir holding candles, singing or preparing to sing during a candlelight service. Logic holds because the later event (an actual choir in a candlelit church) directly mirrors the earlier choir imagery on the poster.",
+        "visual_proof": "Clip 1 shows a poster at an indoor fair booth featuring a group of people dressed in white and black robes, holding songbooks, clearly depicting a choir. Clip 2 visually echoes this by showing a live choir, dressed in similar dark robes, performing in a church with lit candles, directly mirroring the imagery from the poster."
+    },
+    {
+        "question": "Across the week, which two date cards establish that the rally/crowd footage happens earlier than the busy indoor mall footage?",
+        "answer": "Tuesday 19th September 2017 comes before Friday 22nd September 2017.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            31
+        ],
+        "reasoning_chain": "Step 1: The crowd/rally segment shows the date Tuesday 19th September 2017. Step 2: The mall segment shows Friday 22nd September 2017. Conclusion: Tuesday’s crowd footage occurs earlier than Friday’s mall footage.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 shows rally/crowd footage with an on-screen date card 'Tuesday 19th September 2017.' Step 2: Evidence Slice 31 shows busy indoor mall footage with an on-screen date card 'FRIDAY 22nd SEPTEMBER 2017.' Step 3: The 19th precedes the 22nd within the same month, establishing the rally/crowd footage happens earlier than the mall footage. The proposed answer lists these two date cards correctly.",
+        "visual_proof": "Clip 1 displays a date card reading 'TUESDAY 19th SEPTEMBER 2017' over outdoor rally/crowd footage. Clip 2 displays a date card reading 'FRIDAY 22nd SEPTEMBER 2017' over busy indoor mall footage. The chronological order of the dates (19th before 22nd) visually establishes that the rally footage occurs earlier in the week than the mall footage."
+    },
+    {
+        "question": "What evidence indicates the same creator is involved in both office-based speaking segments and technical demonstrations on screens?",
+        "answer": "He speaks to camera in an office wearing green, and later the video focuses on code/screens and technical graphs being pointed at—consistent with a creator explaining technical work.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            37,
+            74
+        ],
+        "reasoning_chain": "Step 1: In an office, a green-shirted man speaks directly to camera in an explanatory manner. Step 2: The video later shows Python code on-screen for scientific calculations. Step 3: Another segment shows a graph on a computer screen being pointed to, as if explaining results. Conclusion: The same creator persona/role (technical explainer) links these segments.",
+        "logic_check_reasoning": "Step 1: Slice 33 shows a man in an office, wearing a green shirt, speaking directly to the camera about a tech/software topic. Step 2: Slice 37 shifts to a close-up of Python code on a screen within the same video. Step 3: Slice 74 shows a screen with a technical graph and a hand pointing/explaining, indicating an on-screen demonstration. Logic holds because the slices are from the same video and depict both an on-camera speaker in a tech context and subsequent technical screen demos (including a pointing hand), indicating the same creator is involved in both segments.",
+        "visual_proof": "Clip 1 shows a man in a green shirt speaking directly to the camera in an office setting. Clip 2 displays Python code on a screen, indicating technical work. Clip 3 shows a hand pointing at a graph and terminal output, suggesting active explanation of results. The sequence from personal address to technical display implies the same person is presenting their own work."
+    },
+    {
+        "question": "What sequence shows the creator moving from public social spaces into more private, cozy home/office commentary spaces?",
+        "answer": "He’s in a bustling indoor campus/mall environment, then later appears speaking in a personal room with bookshelves and a microphone setup.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            32,
+            84,
+            71
+        ],
+        "reasoning_chain": "Step 1: He is shown in a busy indoor public space with many people and signage. Step 2: Another segment shows him speaking in a public lobby/café area with others around. Step 3: Later he appears in a private indoor room with bookshelves and a microphone, speaking directly to camera. Conclusion: The sequence depicts a transition from public to private settings.",
+        "logic_check_reasoning": "Step 1: Slice 32 describes a man speaking to the camera in a busy public indoor space (mall/campus), with people, signs, and activity—supporting the 'bustling indoor campus/mall environment.' Step 2: Slice 84 adds more public social settings (lobby/café/food court), reinforcing the public social context. Step 3: Slice 71 shows a man speaking directly to the camera in a private, cozy home/office setting with a bookshelf and microphone—matching 'personal room with bookshelves and a microphone setup.' Logic holds because the slices collectively depict a progression from public social spaces to a private commentary environment, which aligns with the proposed answer.",
+        "visual_proof": "Clip 1 shows the creator in a large, crowded public space with banners for the 'Students' Guild,' indicating a campus or mall setting. Clip 2 continues in a public venue (cinema lobby) with other people around. Clip 3 clearly transitions to a private indoor space — a bedroom or home office — featuring bookshelves, a bed, and a professional RØDE microphone on a boom arm, confirming the shift to a cozy, personal commentary environment."
+    },
+    {
+        "question": "What is the progression from academic work pressure to a calm reflective religious setting later in the video?",
+        "answer": "It goes from code/thesis countdown and technical work to a candlelit church service with a choir and seated attendees.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            38,
+            37,
+            60,
+            77
+        ],
+        "reasoning_chain": "Step 1: The thesis countdown suggests looming academic pressure. Step 2: Python code segments reinforce technical research work. Step 3: The whiteboard lecture shows formal teaching/derivation work. Step 4: The church choir candlelight scene shifts to a calm, reflective mood. Conclusion: The video transitions from academic intensity to contemplative worship/performance.",
+        "logic_check_reasoning": "Step 1: Slice 38 shows a computer screen with Python code and a tablet displaying a thesis countdown (\"PREPARE FOR FULL THESIS CRAZY IN: 3\"), clearly indicating academic work pressure. Step 2: Slice 37 further supports the academic/technical setting with close-up Python code related to scientific calculations. Step 3: Slice 60 depicts an educational whiteboard lecture on spherical geometry, reinforcing the academic focus. Step 4: Slice 77 transitions to a calm, reflective religious setting with a candlelit church service, choir, and attendees holding candles. Logic holds because the proposed answer accurately describes the progression from the academic/technical scenes to the serene church scene shown later.",
+        "visual_proof": "Clip 1 shows Python code for a thesis and a phone screen with 'PREPARE FOR FULL THESIS CRAZY IN: 3', indicating academic pressure. Clip 2 continues with more complex code, reinforcing the technical work theme. Clip 4 then transitions to a serene, dimly lit church interior with a choir singing by candlelight and an audience seated in pews, representing a calm, reflective religious setting. This visual sequence directly supports the described progression."
+    },
+    {
+        "question": "What object briefly connects the indoor vlog world to the outdoor cat interaction later in the video?",
+        "answer": "A backpack (the cat climbs onto a purple backpack).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            67
+        ],
+        "reasoning_chain": "Step 1: Earlier, the vlogger is seen with a backpack during the outdoor event footage. Step 2: Later, the cat climbs onto a purple backpack while being petted outdoors. Conclusion: A backpack is the connecting object.",
+        "logic_check_reasoning": "Step 1: Slice 8 states the video starts with a man wearing a backpack while vlogging near a brick building. Step 2: Slice 67 shows a cat climbing onto a purple backpack or bag, likely belonging to the person filming. Logic holds because a backpack is explicitly present in both scenes, serving as the common object linking the early vlog segment to the later cat interaction. The indoor/outdoor wording in the question can be treated as caption noise; the object connection remains supported.",
+        "visual_proof": "In Clip 1, the man is visibly wearing a dark-colored backpack with blue straps. In Clip 2, an orange cat is shown climbing onto and interacting with a purple backpack that has matching blue straps, which strongly suggests it is the same backpack from the first clip, serving as a visual bridge between the two scenes."
+    },
+    {
+        "question": "How does the video show a shift from research/programming pressure to a public campus exploration mood?",
+        "answer": "It goes from Python code and a thesis countdown to a lively campus atrium scene framed as a playful nature-documentary-style campus tour.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            38,
+            37,
+            22
+        ],
+        "reasoning_chain": "Step 1: The video shows code and a thesis countdown implying pressure. Step 2: Other close-ups show Python code for scientific work. Step 3: It later shows a bustling campus atrium with humorous overlay about making a nature documentary of the campus. Conclusion: The tone shifts from thesis stress to playful campus exploration.",
+        "logic_check_reasoning": "Step 1: Slice 37 and Slice 38 show close-ups of Python code related to scientific computations and a tablet with a thesis progress bar and countdown, indicating research/programming pressure and urgency. Step 2: Slice 22 depicts a lively campus atrium scene with students, tables, and banners, along with humorous text about switching from PhD work to a nature-documentary-style tour of Exeter’s campus, signaling a playful public campus exploration mood. Step 3: The proposed answer accurately describes this transition from coding/thesis pressure to a campus tour tone.",
+        "visual_proof": "Clip 1 shows Python code related to 'Mass fluxes/thesis' and a phone screen with 'PREPARE FOR FULL THESIS CRAZY IN: 2', indicating academic pressure. Clip 3 transitions to a bustling campus atrium with students and booths, overlaid with text humorously announcing a 'David Attenborough nature documentary about Exeter's campus,' signaling a deliberate shift in tone and subject matter from stressful research to lighthearted exploration."
+    },
+    {
+        "question": "How does the video connect outdoor exploration with later indoor study/recording spaces using the same green-shirted speaker?",
+        "answer": "He appears walking outdoors with a backpack and later appears indoors in rooms with bookshelves and a microphone setup while continuing to address the camera.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            70,
+            71,
+            82,
+            90
+        ],
+        "reasoning_chain": "Step 1: He walks outdoors in a green shirt with a backpack, narrating. Step 2: He appears indoors with bookshelves and a visible microphone stand, continuing his talk. Step 3: He is later seen walking outside at night while narrating in the same green-shirt style. Step 4: He appears again indoors in a home office with bookshelves, a mic stand, and computer equipment. Conclusion: The same speaker ties together exploration and indoor study/recording spaces.",
+        "logic_check_reasoning": "Step 1: Slice 70 shows a man in a green shirt with a backpack walking outdoors, speaking/narrating, then transitioning indoors to a room with bookshelves where he continues speaking. Step 2: Slice 71 shows the same green-shirted man indoors with a bookshelf and a visible microphone, speaking directly to the camera. Step 3: Slice 90 further shows him indoors in a home office with bookshelves and a microphone on a stand, addressing the camera. Step 4: Slice 82 shows him outdoors at night in a green shirt, walking and narrating, reinforcing the same speaker across settings. Logic holds because the video explicitly moves from outdoor walking narration to indoor study/recording spaces (bookshelves, microphone) with the same green-shirted speaker continuing to address the camera.",
+        "visual_proof": "Clip 1 shows the man walking outdoors on cobblestone streets with a backpack. Clip 2, 3, and 4 show him indoors in different settings: one with bookshelves and clothes racks (Clip 2), another at night outdoors briefly (Clip 3), and finally seated in a room with bookshelves and a visible microphone setup (Clip 4). In all clips, he is wearing the same green shirt and speaking directly to the camera, creating a visual narrative that connects his outdoor exploration with indoor recording/study activities."
+    },
+    {
+        "question": "What evidence shows the video shifts from an outdoor crowd gathering to an indoor campus-style atrium event with booths and banners?",
+        "answer": "It moves from a tent-filled outdoor crowd scene to a bright indoor atrium with tables and banners like “CHALLENGES” and “STUDENT GUILD.”",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            22
+        ],
+        "reasoning_chain": "Step 1: The outdoor scenes show a large daytime crowd with tents and banners. Step 2: Later, the setting is an indoor campus atrium with event tables and banners labeled “CHALLENGES” and “STUDENT GUILD.” Conclusion: This indicates the shift from outdoor gathering to indoor campus event.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes an outdoor crowd scene with tents and banners at a university-like open space, indicating an event with booths. Step 2: Slice 22 describes an indoor campus atrium with large glass windows, tables, and specific banners such as 'CHALLENGES' and 'STUDENT GUILD.' Logic holds because these two slices explicitly show the video depicting first an outdoor event with tents and then an indoor atrium event with tables and banners, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows an outdoor scene with green tents labeled 'Exeter University Lacrosse Club' and a large crowd walking on paved ground under trees. Clip 2 transitions to an indoor atrium with modern architecture, visible staircases, and booths with banners such as 'CHALLENGES' and 'Students Guild,' confirming the shift from outdoors to indoors with event setups."
+    },
+    {
+        "question": "How does the educational whiteboard lesson evolve from a simple shape to a complex spherical diagram with differential area elements?",
+        "answer": "It starts with basic shapes and equations, then becomes a blue circle/sphere diagram with lines and angle markings, and later includes expressions like a·sin(θ)·dλ combined with dθ.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            53,
+            58,
+            60
+        ],
+        "reasoning_chain": "Step 1: The presenter begins by drawing a rectangle and writing equations, establishing the lesson format. Step 2: He later draws a large blue circle with many intersecting lines/angles (spherical geometry). Step 3: He writes differential expressions involving dθ and a·sin(θ)·dλ, indicating a more advanced derivation. Conclusion: The lesson escalates from basic drawings to spherical differential elements.",
+        "logic_check_reasoning": "Step 1: Slice 53 describes the presenter drawing a rectangle and writing various equations, indicating a beginning with simple shapes and equations. Step 2: Slice 58 shows progression to a large blue circle representing a sphere with lines and angular labels (e.g., 10, 20, 30), supporting the move to a spherical diagram. Step 3: Slice 60 explicitly mentions the presenter writing 'a dθ' and then '× a sin θ dλ', indicating differential elements on a sphere. Logic holds because the sequence moves from basic shapes/equations to a detailed spherical diagram and then to specific differential area expressions exactly matching the proposed answer.",
+        "visual_proof": "Clip 1 shows the man drawing a rectangle and writing the area formula A=H×W, then expressing H and W as integrals. Clip 2 transitions to him drawing a blue sphere with latitude/longitude lines and marking angles (10, 20, etc.). Clip 3 shows him writing the expression 'a dθ × a sinθ' next to the sphere, which corresponds to the differential area element on a sphere."
+    },
+    {
+        "question": "How can you track the creator’s on-camera persona across early pink-lit event footage, later outdoor campus crowds, and then office/classroom explanation segments?",
+        "answer": "He repeatedly addresses the camera directly while moving through different locations: a studio/event-like pink-lit room, outdoor campus crowds, and later indoor office/classroom settings where he explains things.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            10,
+            33,
+            52
+        ],
+        "reasoning_chain": "Step 1: Early, he addresses the camera in a pink-lit room with a large screen behind him. Step 2: Later, he addresses the camera at an outdoor crowd event. Step 3: Later still, he addresses the camera in an office setting wearing green. Step 4: He also addresses the camera in a classroom-like room, continuing the explanatory direct-to-camera style. Conclusion: The consistent direct-address style tracks the creator across disparate settings.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows a man speaking directly to the camera in a pink-lit, event-like room with a screen and balloons, supporting a studio/event introduction. Step 2: Slice 10 shows an outdoor crowd and then focuses on a man in a green shirt addressing the camera with serious commentary, supporting the outdoor crowd setting with direct-to-camera engagement. Step 3: Slice 33 shows the same type of man in an office setting explaining something in a vlog/instructional manner, again directly engaging the camera. Step 4: Slice 52 shows a similar indoor office/classroom environment with the man speaking directly to the camera, animated and explanatory. Logic holds because in all contexts (pink-lit event, outdoor crowd, office/classroom), the consistent trait is direct address to the camera, which matches the proposed tracking method.",
+        "visual_proof": "In Clip 1, the man is in a pink-lit room with event equipment, looking at the camera. In Clip 2, he is outdoors on a campus, speaking to the camera amidst crowds. In Clip 3, he is in an office setting, talking directly to the camera while gesturing. In Clip 4, he is in another indoor setting (classroom/office), again addressing the camera directly. His consistent direct address across these distinct environments confirms the answer."
+    },
+    {
+        "question": "What chain of evidence indicates the creator moves from campus-life social scenes to food/café socializing and then back into personal talk-to-camera segments indoors?",
+        "answer": "He appears in a campus atrium event, then in a café/food court scene with candy boxes, then later in a cozy indoor room speaking to camera.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            22,
+            84,
+            85,
+            89
+        ],
+        "reasoning_chain": "Step 1: The campus atrium shows an organized student-life event atmosphere. Step 2: The video shifts to a café/food court table covered with Haribo boxes and social interaction. Step 3: It then shows him smiling in a restaurant/café setting. Step 4: Later, he is back indoors in a personal cluttered room speaking directly to camera. Conclusion: The video moves from campus event → food social scene → café moment → private indoor monologue.",
+        "logic_check_reasoning": "Step 1: Slice 22 depicts a bustling campus atrium with banners like 'CHALLENGES' and 'STUDENT GUILD,' clearly indicating campus-life social scenes. Step 2: Slice 84 shows a progression into a café/food court setting, including a group around a table with Haribo Star Mix candy boxes, confirming food/café socializing; Slice 85 further reinforces a café scene. Step 3: Slice 89 presents a personal, indoor talk-to-camera segment in a bedroom-like setting, indicating a move back into a personal monologue indoors. Logic holds because the slices sequentially cover campus social environment, then café socializing, and finally an indoor personal talk-to-camera segment, matching the proposed chain.",
+        "visual_proof": "Clip 1 shows a bustling campus atrium with event booths and students. Clip 2 transitions to the creator walking through an indoor space and then standing near a counter with Haribo candy boxes, indicating a food/café area. Clips 3 and 4 show him seated indoors in what appears to be a personal room or office, speaking directly to the camera, confirming the shift to personal talk-to-camera segments."
+    },
+    {
+        "question": "What sequence shows the educational content being built, displayed, and then removed—indicating the end of a teaching segment?",
+        "answer": "He develops the spherical diagram and equations on the whiteboard, points to and explains it closely, then erases the board.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            58,
+            60,
+            61,
+            64
+        ],
+        "reasoning_chain": "Step 1: The whiteboard contains a developed spherical diagram with angle markings. Step 2: He adds differential expressions and continues the derivation on the board. Step 3: A close-up hand points around the equations and diagram, emphasizing explanation. Step 4: He later wipes the whiteboard clean, signaling wrap-up/end of that segment. Conclusion: Build → explain → point → erase.",
+        "logic_check_reasoning": "Step 1: Slice 58 describes the man drawing and annotating a spherical diagram on the whiteboard, indicating he is building the educational content. Step 2: Slice 60 and Slice 61 show him writing equations (e.g., 'a dθ', 'a sin θ dλ') and pointing to parts of the diagram, explaining them closely, which confirms the display and explanation phase. Step 3: Slice 64 explicitly states he turns around and erases the whiteboard, indicating the removal of the content and the end of a segment. The sequence in the proposed answer aligns with these slices.",
+        "visual_proof": "Clip 1 shows the man drawing the spherical diagram with latitude/longitude lines and labeling them. Clip 2 shows him writing the equation 'a dθ x a sinθ dλ' next to the diagram. Clip 3 provides close-ups of his finger pointing to specific parts of the diagram and the equation, indicating explanation. Clip 4 shows him actively erasing the entire whiteboard, which concludes the segment."
+    }
+]

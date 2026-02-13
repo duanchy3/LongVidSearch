@@ -1,0 +1,107 @@
+[
+  {
+    "question": "Which two international airports are shown on the transport map, and later what percentage of the language called Bislama is said to be English vocabulary?",
+    "answer": "Santo Pekoa International Airport (SON) and Bauerfield International Airport (VLI); Bislama is shown as ~90% English vocabulary.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      5,
+      45
+    ],
+    "reasoning_chain": "Step 1: Slice 5 lists Santo Pekoa (SON) and Bauerfield (VLI) airports on the Vanuatu map. Step 2: Slice 45 shows “Bislama” with the note “~90% English vocab.” Conclusion: Those are the airports and the English-vocabulary percentage.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 5 explicitly states the map showcases two international airports: Santo Pekoa International Airport (IATA: SON) and Bauerfield International Airport (IATA: VLI). Step 2: Evidence Slice 45 shows on-screen text reading 'Bislama' with additional text '~90% English vocab Melanesian grammar,' which directly indicates that Bislama is ~90% English vocabulary. The details align and are explicitly supported by the slices.",
+    "visual_proof": "In Clip 1, the map clearly labels 'Santo Pekoa Int. IATA: SON' and 'Bauerfield Int. IATA: VLI'. In Clip 2, a graphic next to the speaker displays the flag of Vanuatu with the text 'Bislama' and below it, '~90% English vocab Melanesian grammar'."
+  },
+  {
+    "question": "After the video introduces a specific volcano eruption on Ambae Island, what volcanic soil type is later shown as a labeled example?",
+    "answer": "Andosol (volcanic soil).",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      16,
+      17
+    ],
+    "reasoning_chain": "Step 1: Slice 16 introduces the Manaro Voui volcano eruption (Ambae island, 2005). Step 2: Slice 17 later labels a soil type as “Andosol (Volcanic soil).” Conclusion: The volcanic soil example is Andosol.",
+    "logic_check_reasoning": "Step 1: Slice 16 states the video begins with a title screen introducing the Manaro Voui volcano eruption on Ambae Island (2005). Step 2: Slice 17 describes the same presentation style (man against a black background with inset visuals) and explicitly shows an inset labeled \"Andosol (Volcanic soil)\". Logic holds because the question asks what volcanic soil type is later shown after the eruption introduction, and Slice 17 provides that labeled example.",
+    "visual_proof": "The first clip introduces the 'Manaro Voui volcano eruption (Ambae island, 2005)'. The second clip, which follows chronologically in the same video, features a presenter who then displays an image labeled 'Andosol (Volcanic soil)' on the screen to his right. This directly links the volcanic event to the specific soil type shown later."
+  },
+  {
+    "question": "What does the on-screen definition say ‘Ni-Vanuatu’ means, and later how many languages are claimed for Vanuatu’s language density graphic?",
+    "answer": "“Ni-Vanuatu” means a Melanesian native to Vanuatu, and the graphic claims 130 languages.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      34,
+      35
+    ],
+    "reasoning_chain": "Step 1: Slice 34 defines “Ni-Vanuatu” as “Melanesian native to Vanuatu.” Step 2: Slice 35’s demographics graphic states “130 languages.” Conclusion: The meaning and the language count are as given.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 34 explicitly states that the on-screen text defines 'Ni-Vanuatu' as 'Melanesian native to Vanuatu.' Step 2: Evidence Slice 35 shows the language diversity graphic claiming 'Highest density of languages per capita' followed by '130 languages.' Step 3: These directly match the proposed answer's two parts.",
+    "visual_proof": "In Clip 1 (0:10-0:17), the on-screen text explicitly defines 'Ni-Vanuatu' as 'Melanesian native to Vanuatu'. In Clip 2 (0:06-0:07), the demographic graphic displays the text '130 languages' under the heading 'Highest density of languages per capita'."
+  },
+  {
+    "question": "When the presenter discusses the currency ‘Vatu’ alongside a traffic rule sign, what driving instruction is shown, and later which preposition/possessive word does the Bislama coach emphasize?",
+    "answer": "The sign says “KEEP RIGHT,” and the coach emphasizes “blong” (and also contrasts it with “long”).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      36,
+      46
+    ],
+    "reasoning_chain": "Step 1: Slice 36 shows a “KEEP RIGHT” sign while referencing the Vatu banknote. Step 2: Slice 46 features the Bislama coach teaching usage of “blong” (and “long”). Conclusion: Keep right; “blong” is the emphasized word.",
+    "logic_check_reasoning": "Step 1: Slice 36 states the man points at a sign that says 'KEEP RIGHT' while a banknote labeled 'Vatu' appears, confirming the driving instruction is 'KEEP RIGHT.' Step 2: Slice 46 explains that the Bislama coach (Christella) introduces and emphasizes the use of 'blong' and contrasts it with 'long' as prepositions/possessives. Logic holds because the first slice directly supports the sign and currency context, and the second slice directly supports the emphasis on 'blong' (and its contrast with 'long').",
+    "visual_proof": "In Video 1, a traffic sign clearly displaying the text 'KEEP RIGHT' with an arrow pointing right is shown next to the presenter. In Video 2, the Bislama coach, Christella, explicitly states that 'Blong' is used to indicate possession and contrasts it by stating that 'Long' is used as a preposition, providing examples for both."
+  },
+  {
+    "question": "Which marine mammal is shown feeding on seagrass at the reefs, and later what Pokémon name is used as a joke connected to that animal?",
+    "answer": "A dugong, and the Pokémon name referenced is “Dewgong.”",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      22,
+      24
+    ],
+    "reasoning_chain": "Step 1: Slice 22 shows a dugong feeding on seagrass. Step 2: Slice 24 shows an inset of the Pokémon “Dewgong” as a naming joke. Conclusion: The animal is dugong; the Pokémon pun is Dewgong.",
+    "logic_check_reasoning": "Step 1: Slice 22 explicitly describes an underwater scene where a dugong is feeding on seagrass near the 'North Efate Coral reefs.' Step 2: Slice 24 notes an inset image of the Pokémon 'Dewgong' used in a playful segment, indicating a joke/reference. Logic holds because the marine mammal shown is a dugong, and later the video makes a joke using the similarly named Pokémon 'Dewgong.'",
+    "visual_proof": "In Video 1 (0:11-0:13), a large marine mammal, identified by context as a dugong, is shown swimming and feeding on seagrass. In Video 2 (0:09-0:13), a man discusses this animal, and an image of the Pokémon 'Dewgong' appears on screen with text attributing the joke to 'Barbs,' who calls it 'the most lazy... Named Pokemon ever.' The visual evidence directly links the dugong to the Pokémon 'Dewgong' as a humorous comparison."
+  },
+  {
+    "question": "Which group is labeled as a cargo cult in the discussion, and later what specific village/associated cult name appears on a flag during the hut scene?",
+    "answer": "Cargo cults like John Frum are mentioned, and the flag later references the “Yaohnanen village Prince Philip cult.”",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      49,
+      50
+    ],
+    "reasoning_chain": "Step 1: Slice 49 explicitly labels “Cargo cults (John Frum, Tom Navy…etc).” Step 2: Slice 50 shows a flag reading “Yaohnanen village Prince Philip cult.” Conclusion: Cargo cults include John Frum; the later village cult is the Yaohnanen Prince Philip cult.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 49 shows on-screen text reading \"Cargo cults (John Frum, Tom Navy...etc),\" explicitly labeling John Frum as part of the cargo cult discussion. Step 2: Evidence Slice 50 describes a flag in the hut scene with the words \"Yaohnanen village Prince Philip cult.\" Logic holds because the first slice identifies the cargo cult example (John Frum) and the second slice clearly states the specific village/associated cult name on the flag.",
+    "visual_proof": "Clip 1 shows text overlay 'Cargo cults (John Frum, Tom Navy...etc)' while the speaker talks. Clip 2 displays a flag with the text 'Yaohnanen village Prince Philip cult' overlaid on images of men holding photos in front of huts, visually confirming both parts of the answer."
+  },
+  {
+    "question": "Identify the clothing change the presenter makes before discussing reefs and bats, and later which outfit is he wearing when he explains dugongs versus manatees.",
+    "answer": "He removes a gray jacket to reveal a green hoodie, then adds a black cap; when explaining dugongs versus manatees, he is in the green hoodie with the black cap.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      19,
+      20,
+      23
+    ],
+    "reasoning_chain": "Step 1: Slice 19 shows the presenter in a gray jacket, then taking it off to reveal a green hoodie and later putting on a black cap. Step 2: Slice 20 continues with him in the green hoodie and black cap while discussing animals. Step 3: Slice 23 shows the same hoodie+cap presenter discussing dugongs vs manatees. Conclusion: The change is jacket off → green hoodie, then black cap; that same outfit is used for the dugong/manatee explanation.",
+    "logic_check_reasoning": "Step 1: Slice 19 states the man starts in a grey jacket, then takes it off to reveal a green hoodie. Immediately after, a coral reef image appears, and later he puts on a black cap before pointing at a bat image. This supports the sequence: jacket removed (green hoodie revealed) before reefs, and black cap added before bats. Step 2: Slice 23 explicitly shows the man wearing a green hoodie and a black cap while discussing dugongs vs manatees. Step 3: Slice 20 also corroborates that during wildlife discussions he is in a green hoodie and black cap. Logic holds because the clothing changes and topics align across slices.",
+    "visual_proof": "In Clip 1, the presenter starts in a gray button-up jacket over a black shirt. He then appears in a green hoodie and a black cap while discussing Vanuatu's wildlife, including bats. In Clip 3, when discussing dugongs vs. manatees, he is consistently wearing the same green hoodie and black cap."
+  },
+  {
+    "question": "What is the website shown when the presenter promotes a limited-edition figure, and later which island’s capital city is highlighted on the map segment?",
+    "answer": "The website is FIGIME.COM, and the capital highlighted later is Port Vila.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      2,
+      4
+    ],
+    "reasoning_chain": "Step 1: Slice 2 shows a “Limited edition!” figure promotion with the on-screen text “FIGIME.COM.” Step 2: Slice 4 shows a map zoom into Vanuatu and labels/mentions the capital city Port Vila. Conclusion: FIGIME.COM and Port Vila are the two requested details.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 2 explicitly states a graphic overlay reading 'Limited edition!' and that the text 'FIGIME.COM' is prominently displayed, indicating the website shown during the promotion. Step 2: Evidence Slice 4 describes the map zooming in on Vanuatu and then panning to show the country's capital city, Port Vila, which is the capital highlighted on the map segment. Logic holds because both details are directly provided in the slices.",
+    "visual_proof": "In the first clip (0:00-0:01), the text 'FIGIME.COM' is clearly displayed in large white letters at the bottom of the screen while the presenter holds a figure. In the second clip (0:20), a map zooms into the island of Efate, and an orange label explicitly points to 'PORT VILA' as its capital city."
+  }
+]

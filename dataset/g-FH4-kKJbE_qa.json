@@ -1,0 +1,155 @@
+[
+    {
+        "question": "One segment shows an \"ARTICHOKE PIZZA\" price overlay, and a later segment highlights a different restaurant serving square pizza with a slogan on-screen. What is the price of the artichoke pizza slice, and what slogan is used for the square pizza?",
+        "answer": "The artichoke pizza is $6.5, and the slogan is \"SQUARE PIZZA IS LIFE.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            81
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows \"ARTICHOKE PIZZA - $6.5\" on screen. Step 2: Slice 81 shows the restaurant segment with the overlay \"SQUARE PIZZA IS LIFE.\" Conclusion: $6.5 and the square-pizza slogan.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 40 explicitly shows the overlay 'ARTICHOKE PIZZA - $6.5', which provides the price of the artichoke pizza slice. Step 2: Evidence Slice 81 explicitly shows the on-screen text 'SQUARE PIZZA IS LIFE' in the Village Square Pizza segment, which is the slogan used for the square pizza. Logic holds because both details are directly stated in the provided slices and match the question’s two parts.",
+        "visual_proof": "In Video 1, a text overlay at 0:04 clearly states \"ARTICHOKE PIZZA - $6.5\". In Video 2, a text overlay at 0:12 over a close-up of square pizza reads \"SQUARE PIZZA IS LIFE\"."
+    },
+    {
+        "question": "A man is seen with a blue jacket and backpack walking near the bull statue earlier, and later a subway entrance sign is shown as he exits the station. What is the landmark statue he walks by earlier, and what is the station name on the subway entrance sign later?",
+        "answer": "The landmark is the Charging Bull statue, and the station sign reads Metropolitan Av Station.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 8 describes the man in a blue jacket with a backpack passing the famous bull statue. Step 2: Slice 26 shows the subway exit with the sign \"Metropolitan Station.\" Conclusion: Bull statue + Metropolitan Station.",
+        "logic_check_reasoning": "Step 1: Slice 8 states the man in a blue jacket with a backpack passes by a statue of a bull, identifying the landmark as a bull statue. Step 2: Slice 26 explicitly mentions that the subway entrance sign reads 'Metropolitan Station' when the man exits the station. Logic holds because the answer directly matches these explicit details from the slices.",
+        "original_text_answer": "The landmark is the bull statue, and the station sign reads Metropolitan Station.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 (0:10-0:11), a large bronze bull statue, known as the Charging Bull, is clearly visible on a cobblestone street. In Clip 2 (0:14), the entrance sign for the subway station explicitly reads 'Metropolitan Av Station' with the G and L line symbols."
+    },
+    {
+        "question": "Earlier, the video introduces a travel-guide style title card, and later it shows an end screen style graphic with a neon phrase. What is the travel-guide title, and what neon phrase appears at the end?",
+        "answer": "The title is \"30 Things to Do in New York,\" and the neon phrase is \"GET LOST IN THE SAUCE.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the title card \"30 Things to Do in New York.\" Step 2: Slice 91 shows a promotional graphic with the neon phrase \"GET LOST IN THE SAUCE.\" Conclusion: Those are the two texts.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly states the video transitions to a title card reading \"30 Things to Do in New York,\" clearly identifying the travel-guide title. Step 2: Slice 91 describes an end screen-style promotional graphic featuring a neon sign with the phrase \"GET LOST IN THE SAUCE.\" Logic holds because the question asks for the earlier travel-guide title and the later neon phrase, both of which are directly provided in the respective slices.",
+        "visual_proof": "Clip 1 clearly displays the yellow text \"30 THINGS TO DO IN NEW YORK\" over shots of American flags and the Brooklyn Bridge. Clip 2 shows a pink neon sign on a brick wall with the phrase \"GET LOST IN THE SAUCE\" written in white letters."
+    },
+    {
+        "question": "A man with a black beanie appears eating in a bright breakfast restaurant, later he appears on a busy night street in Times Square-like lighting, and later a full end-screen graphic prompts viewers to subscribe. What clothing accessory helps track him across these scenes, and what two calls-to-action appear on the end screen?",
+        "answer": "His black beanie helps track him, and the end screen says \"WATCH THIS\" and \"SUBSCRIBE HERE.\"",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            45,
+            87,
+            90,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a man in a black beanie at breakfast. Step 2: Slice 87 shows a man in a beanie on a bright night city street (Times Square-like). Step 3: Slice 90 shows the same promotional overlay style in Times Square at night. Step 4: Slice 91 shows the end screen with the calls-to-action \"WATCH THIS\" and \"SUBSCRIBE HERE.\" Conclusion: The black beanie tracks him; CTAs are WATCH THIS and SUBSCRIBE HERE.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a man in a bright breakfast restaurant wearing a white sweater and a black beanie. Step 2: Slices 87 and 90 show the man later on a busy night street wearing a black jacket and a beanie, indicating the black beanie is the consistent accessory across scenes. Step 3: Slices 90 and 91 describe the end-screen with text elements including 'WATCH THIS' (top left) and 'SUBSCRIBE HERE' (top right), which are the two calls-to-action. Therefore, the proposed answer matches the evidence.",
+        "visual_proof": "In Clip 1, the man is clearly wearing a black beanie while eating in the restaurant. In Clip 2, he is again seen wearing the same black beanie on the busy night street. In Clips 3 and 4, the end screen graphics prominently display the text \"WATCH THIS\" in the top left corner and \"SUBSCRIBE HERE\" in the top right corner."
+    },
+    {
+        "question": "The vlog opens on a famous bridge at golden hour and later shows a street sign for a major financial district street. What is the name of the bridge and what is the street on the sign?",
+        "answer": "The bridge is the Brooklyn Bridge, and the street sign says Wall Street.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 4 explicitly identifies the location as the Brooklyn Bridge and shows the title card while on the bridge. Step 2: Slice 7 shows a street sign labeled \"Wall Street.\" Conclusion: The pair is Brooklyn Bridge + Wall Street.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 explicitly states the video opens on the Brooklyn Bridge during warm, golden light, confirming the bridge is the Brooklyn Bridge. Step 2: Evidence Slice 7 explicitly mentions a street sign labeled 'Wall Street,' which aligns with the question's later scene. Logic holds because the opening bridge scene is supported by Slice 4 and the later street sign scene is supported by Slice 7.",
+        "visual_proof": "Clip 1 opens with a low-angle shot of a suspension bridge at golden hour, identifiable as the Brooklyn Bridge by its iconic stone towers and cable structure. At 0:08 in Clip 2, a clear street sign is shown that reads 'Wall St'."
+    },
+    {
+        "question": "A man is shown kneeling at a famous bull statue earlier, and later another segment shows him eating a hot dog and then renting a bike with a price overlay. Which landmark statue is he at first, and what is the bike rental price per hour shown later?",
+        "answer": "He is at the bronze bull statue, and the bike rental price shown is $3.25 per hour.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the man kneeling in front of the large bronze bull statue. Step 2: Slice 54 shows the bike rental overlay \"#26 - RENT A BIKE\" with \"$3.25/HOUR.\" Conclusion: Bull statue + $3.25/hour.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 9 states the man is kneeling in front of a large bronze bull statue, explicitly identifying the statue as a bronze bull. Step 2: Evidence Slice 54 explicitly shows a text overlay for renting a bike with the price \"$3.25/HOUR.\" Logic holds because the question asks for the landmark statue seen first and the bike rental price shown later, both of which are directly stated in the slices. The proposed answer matches these explicit details.",
+        "visual_proof": "In Video 1 (0:02-0:05), the man is kneeling under a large, shiny bronze bull statue, which is identifiable as the Charging Bull in NYC. In Video 2 (0:09-0:10), a text overlay explicitly states 'BIKE RENTAL - $3.25 / HOUR' while he is standing next to a Citi Bike."
+    },
+    {
+        "question": "A man is shown in front of Rockefeller Center and then later the video shows an observation deck view that mentions a cost per person. What landmark is he visiting first, and how much does the observation experience cost per person later?",
+        "answer": "He visits Rockefeller Center first, and the observation experience costs $40 per person.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 49 identifies the building as Rockefeller Center. Step 2: Slice 50 shows an observation-deck skyline view with an overlay stating $40 USD per person. Conclusion: Rockefeller Center and $40/person.",
+        "logic_check_reasoning": "Step 1: Slice 49 states the man is in front of a building that appears to be Rockefeller Center and later shows views from the top, reinforcing the Rockefeller Center visit. Step 2: Slice 50 describes an observation deck scene with a text overlay indicating the experience costs $40 USD per person. Logic holds because the first part identifies Rockefeller Center as the initial landmark, and the second part explicitly provides the cost for the observation experience.",
+        "visual_proof": "In Clip 1, the man is shown at Rockefeller Center with the ice rink and Prometheus statue visible. In Clip 2, a text overlay explicitly states 'COOL VIEW - $40 USD / PER PERSON' while showing the observation deck view from the same location."
+    },
+    {
+        "question": "Track the bright yellow hoodie traveler across locations: he walks in Williamsburg by a storefront, then drinks from a mason jar inside a café, and later eats a bacon-filled sandwich with a \"VIBES\" overlay. What neighborhood/storefront name appears, what container does he drink from, and what word appears on-screen during the later café scene?",
+        "answer": "The neighborhood/storefront shown is Williamsburg with \"Bistro Bell,\" he drinks from a mason jar, and the word on-screen is \"VIBES.\"",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            27,
+            28,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows the yellow-hoodie traveler in Williamsburg passing a storefront labeled \"Bistro Bell.\" Step 2: Slice 28 shows him indoors drinking from a mason jar. Step 3: Slice 29 shows him eating and later standing with the overlay \"VIBES.\" Conclusion: Williamsburg/Bistro Bell + mason jar + VIBES.",
+        "logic_check_reasoning": "Step 1: Slice 27 states the scene is set in Williamsburg and explicitly mentions a storefront named 'Bistro Bell,' with the person in a bright yellow hoodie walking there. Step 2: Slice 28 shows the same man in a yellow hoodie inside a café/restaurant drinking from a mason jar. Step 3: Slice 29 shows the man in the yellow hoodie eating a bacon-filled sandwich in the café, and explicitly notes the word 'VIBES' appears on-screen. The visual attributes and sequence align across slices, supporting the proposed answer.",
+        "visual_proof": "Clip 1 shows the man in the yellow hoodie walking in Williamsburg, passing a storefront clearly labeled \"Bibber & Bell\" (not \"Bistro Bell\"). Clip 2 shows him inside a café drinking from a glass mason jar, with the text \"MASON JAR ✓\" appearing on screen. Clip 3 shows him eating a sandwich inside the same café, with the text \"VIBES ✓\" overlaid on the screen."
+    },
+    {
+        "question": "The video shows a modern illuminated landmark where someone says it is free, and later it shows a subway segment explicitly labeled as an activity. What is the free landmark structure, and what is the labeled activity later?",
+        "answer": "The free landmark is the illuminated multi-staircase structure (the Vessel-like structure), and the labeled activity later is \"#13 - RIDE THE SUBWAY.\"",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a man approaching a dramatic lit architectural structure of stairs/platforms. Step 2: Slice 25 highlights the structure at night and the person says it is free, then transitions to the subway. Step 3: Slice 26 displays the overlay \"#13 - RIDE THE SUBWAY.\" Conclusion: Free staircase landmark + Ride the subway.",
+        "logic_check_reasoning": "Step 1: Slice 25 describes an illuminated modern landmark where a person announces it's free. It explicitly notes the structure consists of interconnected staircases and platforms, which supports calling it an illuminated multi-staircase structure. Step 2: Slice 26 shows on-screen text '#13 - RIDE THE SUBWAY,' clearly labeling the subway segment as an activity. Step 3: The proposed answer identifies the free landmark as the illuminated multi-staircase structure and the labeled activity as '#13 - RIDE THE SUBWAY,' both directly supported by the slices.",
+        "visual_proof": "Clip 2 shows the man inside the illuminated, honeycomb-like staircase structure with the on-screen text \"IT'S FREE!\". Clip 3 explicitly displays the text \"#13 - RIDE THE SUBWAY\" while showing a subway train and station platform."
+    },
+    {
+        "question": "A man is shown kneeling at the bull statue, later the video shows the \"Wall Street\" sign, and later a high-end skyline experience mentions a per-person cost. How do these three moments together describe the shift from street-level finance landmarks to a paid viewpoint, and what is the cost?",
+        "answer": "They move from the bull statue and Wall Street (street-level finance landmarks) to a paid observation deck experience that costs $40 per person.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            9,
+            7,
+            50,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the bull statue scene (Finance District vibe). Step 2: Slice 7 shows the Wall Street sign confirming the finance-area landmark. Step 3: Slice 50 shows a skyline viewpoint with a stated price of $40 per person. Step 4: Slice 51 reinforces the rooftop/skyline viewpoint context with the man on a rooftop against the cityscape. Conclusion: Finance-district street landmarks → rooftop paid viewpoint at $40/person.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows a man kneeling in front of a large bronze bull statue, a street-level finance landmark. Step 2: Slice 7 shows a street sign labeled 'Wall Street,' reinforcing the finance-themed street-level setting. Step 3: Slice 50 presents a rooftop/observation deck experience with a text overlay stating it costs $40 USD per person, indicating a paid viewpoint. Logic holds because the sequence moves from ground-level financial icons to a premium skyline viewing spot, with the cost explicitly stated.",
+        "visual_proof": "Clip 1 shows the man kneeling at the Charging Bull statue. Clip 2 shows the 'Wall St' street sign. Clip 3 explicitly displays on-screen text stating 'COOL VIEW - $40 USD / PER PERSON' while showing the man and a woman on a high-rise observation deck overlooking the city skyline. This sequence visually confirms the transition from street-level landmarks to a paid viewpoint with the specified cost."
+    },
+    {
+        "question": "The trip includes a famous bridge introduction, then later a subway-riding segment labeled on-screen, then later an observation deck skyline with a stated price, and finally an end-screen promotional neon phrase. What are the bridge name, the subway activity label, the observation deck cost, and the final neon phrase?",
+        "answer": "Brooklyn Bridge; \"#13 - RIDE THE SUBWAY\"; $40 per person; \"GET LOST IN THE SAUCE.\"",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            26,
+            50,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 4 identifies the Brooklyn Bridge and introduces the travel-guide theme. Step 2: Slice 26 shows the overlay \"#13 - RIDE THE SUBWAY.\" Step 3: Slice 50 states the observation experience costs $40 USD per person. Step 4: Slice 91 shows the neon phrase \"GET LOST IN THE SAUCE\" on the end screen. Conclusion: Brooklyn Bridge → Ride the subway → $40/person → GET LOST IN THE SAUCE.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly identifies the opening scene on the Brooklyn Bridge, confirming the bridge name. Step 2: Slice 26 states the on-screen label '#13 - RIDE THE SUBWAY' for the subway segment, confirming the activity label. Step 3: Slice 50 mentions a text overlay indicating the observation experience costs $40 USD per person, confirming the cost. Step 4: Slice 91 cites the neon sign phrase 'GET LOST IN THE SAUCE' on the end-screen, confirming the final phrase. All elements are directly supported by the provided slices.",
+        "visual_proof": "Clip 1 shows the Brooklyn Bridge with on-screen text \"#1 - THE BROOKLYN BRIDGE\". Clip 2 shows a subway station and train with on-screen text \"#13 - RIDE THE SUBWAY\". Clip 3 shows an observation deck view with on-screen text \"COOL VIEW - $40 USD / PER PERSON\". Clip 4 displays a neon sign with the phrase \"GET LOST IN THE SAUCE\"."
+    }
+]

@@ -1,0 +1,69 @@
+[
+    {
+        "question": "What drink is prepared using the brass samovar and then poured into a glass cup at the table?",
+        "answer": "Tea.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows hot water being dispensed from a brass samovar into a teapot to make tea. Step 2: Slice 45 shows the man pouring from the ornate teapot into a glass cup. Conclusion: The drink is tea.",
+        "logic_check_reasoning": "Step 1: Slice 41 explicitly states that a traditional brass samovar is being used to prepare tea, with a teapot placed under the spout to fill with hot water for brewing. Step 2: Slice 45 describes a man pouring tea from an ornate teapot into a glass cup at a table. Logic holds because Slice 41 establishes tea preparation via the brass samovar, and Slice 45 shows the tea being poured into a glass cup, matching the question’s sequence.",
+        "visual_proof": "In Clip 1, hot water is poured from the brass samovar into a glass teapot containing dark tea leaves. In Clip 2, the same glass teapot, now filled with a dark red liquid (brewed tea), is placed on top of the samovar to keep warm, and the man is seen drinking from a small glass cup, which is consistent with the traditional method of serving tea from a samovar."
+    },
+    {
+        "question": "One animal is fed fruit at a picnic table, and later another animal is fed grapes by hand. Which two animals are being fed?",
+        "answer": "A goat and a goat.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows a man feeding fruit to a dog standing on the table. Step 2: Slice 59 shows grapes being offered to a goat. Conclusion: The animals are a dog and a goat.",
+        "logic_check_reasoning": "Step 1: Slice 58 describes a man at a picnic table feeding a dog a piece of fruit. Step 2: Slice 59 describes a person feeding a goat grapes by hand. Logic holds because the two slices clearly identify the animals (dog and goat) and the feeding contexts (picnic table fruit and hand-fed grapes).",
+        "original_text_answer": "A dog and a goat.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Both video clips show the same animal, a goat with long fur and horns, being fed. In Clip 1, the goat is on the picnic table eating fruit from bowls. In Clip 2, the same goat is being hand-fed grapes by the man. There is no dog visible in either clip."
+    },
+    {
+        "question": "Which vegetable washed at the outdoor sink later appears skewered beside the whole chickens during grilling?",
+        "answer": "Eggplants.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows vegetables being washed, including eggplants. Step 2: Slice 53 shows eggplants skewered upright next to whole chickens on the grill. Conclusion: The washed vegetable later grilled is eggplant.",
+        "logic_check_reasoning": "Step 1: Slice 23 states that the person is washing vegetables at an outdoor sink, specifically eggplants and tomatoes. Step 2: Slice 53 shows eggplants skewered beside whole chickens during grilling. Logic holds because the vegetable identified in the washing scene (eggplants) is the same vegetable shown later skewered next to the chickens.",
+        "visual_proof": "In Clip 1, eggplants are visibly washed in the outdoor stone sink. In Clip 2, the same type of eggplants are shown skewered vertically on metal rods alongside whole seasoned chickens, ready for grilling. This directly links the washed vegetable to the one appearing on the skewer."
+    },
+    {
+        "question": "After the barrel is modified and later used as a cooking pit, what material is first packed into it during preparation and later becomes the fire that cooks the hanging chickens?",
+        "answer": "Dry branches/twigs (wood).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the barrel being filled with dry branches and twigs. Step 2: Slice 51 shows chickens hanging over a fire inside the barrel. Conclusion: The branches/wood are what later burn to provide heat for cooking.",
+        "logic_check_reasoning": "Step 1: Slice 3 states the man fills the barrel with dry branches and twigs, packing them tightly. Step 2: Slice 51 describes the barrel being used as a cooking setup with fire visible through gaps between branches, indicating branches are the fuel for the fire. Logic holds because the only material explicitly packed into the barrel earlier is dry branches/twigs, and the later scene explicitly mentions branches associated with the fire that cooks the chickens.",
+        "visual_proof": "In Clip 1, the man is seen gathering and placing dry branches/twigs into the blue barrel after modifying it with a metal frame. In Clip 2, the same barrel is shown in use as a cooking pit with chickens hanging around it, and flames are visibly rising from within the barrel, indicating that the previously placed wood has been ignited to create the fire for cooking."
+    },
+    {
+        "question": "A sauce is mixed in bowls and later rubbed into chicken by hand. What is the color of that sauce at both stages?",
+        "answer": "Red.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows a thick glossy red sauce being mixed. Step 2: Slice 20 shows chicken being rubbed with a red sauce. Conclusion: The sauce is red in both stages.",
+        "logic_check_reasoning": "Step 1: Slice 18 explicitly describes the prepared mixture becoming a rich, thick, glossy red sauce during mixing. Step 2: Slice 20 states the chicken pieces have been seasoned with red sauce, and the man rubs this sauce into the chicken. Logic holds because both stages explicitly identify the sauce as red.",
+        "visual_proof": "In Video 1, the sauce is visibly red as it's mixed in the wooden bowl with turmeric and other spices. In Video 2, the same red sauce is shown being rubbed by hand onto raw chicken pieces, coating them thoroughly."
+    }
+]

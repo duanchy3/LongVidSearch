@@ -1,0 +1,138 @@
+[
+  {
+    "question": "How does the host’s clothing change from when he introduces the geography segment in front of the postcard wall to when he teaches Slovak/Czech vocabulary on the studio set?",
+    "answer": "He goes from a white T-shirt in front of the postcard wall to a green T-shirt on the studio set.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      43
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows the main host in a white T-shirt in front of the travel-photo/map wall. Step 2: Slice 43 shows a man in a green T-shirt teaching vocabulary with the Slovak flag behind him. Conclusion: The clothing changes from white T-shirt to green T-shirt.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 describes the host in front of a wall covered with travel photos and a world map, wearing a white T-shirt with a large 'G' logo. This matches the 'postcard wall/geography segment' setting. Step 2: Evidence Slice 43 shows the host in a studio-like setting with a black background and a Slovakian flag, wearing a green T-shirt while teaching Slovak/Czech vocabulary. Logic holds because the two slices clearly depict different settings and explicitly note the clothing colors, supporting the transition from white T-shirt to green T-shirt.",
+    "visual_proof": "In Clip 1, the host is wearing a white T-shirt with a green and blue logo while standing in front of a wall covered in postcards and a world map. In Clip 2, he is wearing a solid olive green T-shirt while standing in front of a screen displaying the Slovak flag and text about 'Blueberry' in Slovak and Czech."
+  },
+  {
+    "question": "What prop does the presenter hold while discussing travel/geography in the postcard-wall room, and what different prop does he hold when explaining a small souvenir replica later?",
+    "answer": "He holds a pen earlier, and later he holds a small wooden souvenir replica (a miniature instrument-like object).",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      5,
+      37
+    ],
+    "reasoning_chain": "Step 1: Slice 5 shows the host in front of postcards holding a small black object described as a pen/stylus. Step 2: Slice 37 shows him holding a small wooden souvenir replica. Conclusion: The prop changes from pen/stylus to a wooden souvenir replica.",
+    "logic_check_reasoning": "Step 1: Slice 5 describes the presenter in front of a wall of postcards and a map, holding a small black object, explicitly noted as possibly a pen or stylus, while discussing travel/geography. Step 2: Slice 37 shows the same presenter in a similar postcard-wall setting picking up a small wooden object described as a miniature replica of a traditional musical instrument, with on-screen text confirming it as a small wooden souvenir replica. Logic holds because both slices depict the same setting and presenter, with different props aligning with the proposed answer.",
+    "visual_proof": "In the first clip, the presenter is holding a thin black object with a small microphone head, which resembles a lavalier mic or a pen. In the second clip, he is clearly holding a dark brown, carved wooden object that looks like a miniature axe or tool, with text on it, and a subtitle confirms it's 'a small wooden souvenir replica'."
+  },
+  {
+    "question": "What shifts in the visuals when the video goes from the host’s indoor postcard-wall narration into a segment that breaks down population percentages?",
+    "answer": "It shifts from live-action narration in the postcard-wall room to an animated demographics graphic/pie chart for Slovakia.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      21,
+      38
+    ],
+    "reasoning_chain": "Step 1: Slice 21 shows live-action narration by the host in front of postcards and a world map. Step 2: Slice 38 shows an animated Slovakia demographics chart with percentages. Conclusion: The video transitions from live-action narration to animated demographic infographics.",
+    "logic_check_reasoning": "Step 1: Slice 21 describes a live-action scene with a man speaking in front of a postcard-covered wall and a world map, indicating an indoor narration. Step 2: Slice 38 describes an animated graphic segment labeled 'SLOVAKIA DEMOGRAPHICS' featuring a pie chart breaking down population percentages. Logic holds because the question asks about the visual shift from the host’s indoor narration to a demographics breakdown, and the slices correspond to those two distinct visuals.",
+    "visual_proof": "Clip 1 shows a man speaking in a room with a world map and many postcards on the wall. Clip 2 immediately transitions to a teal background with animated text 'SLOVAKIA DEMOGRAPHICS' and a pie chart breaking down population percentages, confirming the shift from live-action to animated graphics."
+  },
+  {
+    "question": "Which animal is shown as a protected species during the wildlife discussion, and later a different animal is physically held by the presenter in the postcard room?",
+    "answer": "A chamois is shown as protected, and later the presenter holds a small green frog.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      30,
+      33
+    ],
+    "reasoning_chain": "Step 1: Slice 30 shows an inset labeled “Chamois (Protected).” Step 2: Slice 33 shows a presenter holding a green frog in his hand. Conclusion: The protected animal shown is the chamois; the animal later held is a frog.",
+    "logic_check_reasoning": "Step 1: Slice 30 explicitly states there is an inset image of a chamois with the text 'Chamois (Protected),' confirming the protected species shown during the wildlife discussion. Step 2: Slice 33 describes the presenter in a postcard-covered room holding a small green frog with black spots while speaking, confirming the different animal physically held later. Logic holds because these directly match the question's two parts and refer to the same presenter's context.",
+    "visual_proof": "In Clip 1, an inset image of a chamois with the text 'Chamois (Protected)' is displayed. In Clip 2, the presenter is holding a small object that visually matches the green frog shown in the inset image next to the Slovakian flag. The presenter's gestures and focus on the object confirm he is holding it."
+  },
+  {
+    "question": "How does the video move from explaining physical geography with animation to later presenting Slovakia’s natural attractions on a studio screen and then showing wildlife species?",
+    "answer": "It starts with a “Physical Geography” animation, then shows Slovakia landscapes on a studio screen, and later displays labeled wildlife species like bear/fox/mink.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      12,
+      18,
+      29
+    ],
+    "reasoning_chain": "Step 1: Slice 12 introduces an animated ‘PHYSICAL GEOGRAPHY’ segment. Step 2: Slice 18 shows studio presentation with Slovakia imagery like mountains/waterfalls behind the presenter. Step 3: Slice 29 shows labeled wildlife images (European bear, wild foxes, mink). Conclusion: The narrative escalates from abstract physical geography animation to real landscapes to specific fauna examples.",
+    "logic_check_reasoning": "Step 1: Slice 12 explicitly shows a transition to an animated segment labeled 'PHYSICAL GEOGRAPHY' with stylized graphics, supporting the start with a physical geography animation. Step 2: Slice 18 shows a presenter in a studio-like setting with a large screen displaying the Slovakian flag and natural scenes (mountains, waterfall), supporting the presentation of Slovakia’s natural attractions on a studio screen. Step 3: Slice 29 shows labeled wildlife segments (text labels 'European Bear', 'Wild Foxes', 'Mink'), supporting the later display of wildlife species. The minor Slovenia/Slovakia mention in Slice 29 pertains to a map but does not contradict the claim that wildlife species are shown afterward; VLM naming noise is acceptable per instructions. Therefore, the proposed sequence is supported by the slices.",
+    "visual_proof": "Clip 1 ends with an animated title card reading 'PHYSICAL GEOGRAPHY'. Clip 2 shows a presenter in a studio with a screen displaying the Slovak flag and images of Slovakian mountains and streams. Clip 3 presents still images of wildlife (European Bear, Fox, Mink) with text labels against a blurred Slovak flag background."
+  },
+  {
+    "question": "What chain of visuals connects the early Slavic-group flag comparisons to later Slovak language vocabulary lessons and then to a demographics breakdown?",
+    "answer": "Flags used to compare Slavic groups lead into Slovak/Czech vocabulary translation screens, followed by an animated Slovakia demographics pie chart.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      2,
+      6,
+      45,
+      38
+    ],
+    "reasoning_chain": "Step 1: Slice 2 uses multiple Slavic flags (Ukraine/Croatia/Slovakia) to frame the Slavic discussion. Step 2: Slice 6 shows Slovenia/Slovakia flags and on-screen syllables, emphasizing Slovak naming/language cues. Step 3: Slice 45 presents explicit Slovak vs Czech vocabulary (“Turtle” translations) with the Slovak flag behind the instructor. Step 4: Slice 38 switches to an animated demographics pie chart for Slovakia. Conclusion: The video flows from flag-based identity, to language terms, to population composition.",
+    "logic_check_reasoning": "Step 1: Slice 2 shows an educational segment with flags (Ukraine, Croatia, Slovakia) and the topic 'EASTERN SLAVS,' indicating early Slavic-group flag comparisons. Step 2: Slice 6 further features flags for Slovenia and Slovakia with the speaker discussing these countries, continuing the flag-based comparison theme. Step 3: Slice 45 presents a screen with the Slovakia flag and text comparing Slovak and Czech words for 'turtle,' clearly a Slovak/Czech vocabulary translation segment. Step 4: Slice 38 displays 'SLOVAKIA DEMOGRAPHICS' with an animated pie chart breaking down the population, matching a demographics breakdown. The sequence logically connects flags → vocabulary → demographics as described.",
+    "visual_proof": "Clip 1 visually establishes the context with 'Eastern Slavs,' 'Balkan Slavs,' and 'Central Slavs' using flags. Clip 2 continues this by comparing the flags of Slovenia and Slovakia, introducing the 'Sloven...' root. Clip 3 transitions to a specific vocabulary lesson, showing the Slovak and Czech words for 'Turtle' against the Slovak flag. Clip 4 then presents an animated pie chart titled 'SLOVAKIA DEMOGRAPHICS,' detailing population statistics. This sequence of visuals directly supports the described chain."
+  },
+  {
+    "question": "Which two different flags appear in the video in two separate contexts: one as a brief cultural reference in a garage-like vlog, and another repeatedly as the main country focus in studio lessons?",
+    "answer": "The Welsh flag appears in the garage-like vlog, and the Slovak flag appears repeatedly in the studio lessons.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      11,
+      45
+    ],
+    "reasoning_chain": "Step 1: Slice 11 shows a garage/workshop vlog with a Welsh flag graphic. Step 2: Slice 45 shows the Slovak flag behind a presenter teaching Slovak/Czech word translations. Conclusion: The two flags are Welsh (brief reference) and Slovak (main recurring focus).",
+    "logic_check_reasoning": "Step 1: Slice 11 describes a garage-like vlog setting with a young man speaking casually and explicitly mentions a graphic of the Welsh flag appearing, indicating a brief cultural reference. Step 2: Slice 45 shows a studio-like educational setting with a screen displaying the flag of Slovakia while discussing language terms, indicating the Slovak flag as the main country focus in lessons. Logic holds because each slice matches the specified contexts and flags: Welsh in the vlog, Slovak in the studio lesson.",
+    "visual_proof": "In Clip 1, the Welsh flag (red dragon on a green and white field) is displayed in the top left corner of the screen while the man speaks in what appears to be a garage or workshop. In Clip 2, the Slovak flag (white cross on a red shield over blue and red horizontal stripes) is prominently displayed on a large monitor behind the presenter in a studio setting, with text above it referencing Slovak and Czech translations."
+  },
+  {
+    "question": "How does the video link a “breaking news” style segment to later historical-migration visuals using maps and illustrations?",
+    "answer": "It introduces a breaking-news style announcement in the postcard/map room and later switches into historical invasion and migration map visuals.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      13,
+      74,
+      75
+    ],
+    "reasoning_chain": "Step 1: Slice 13 shows a ‘BREAKING NEWS’ style overlay in the same map/postcard room. Step 2: Slice 74 transitions from a modern host shot to a historical battle illustration labeled ‘Invasion years.’ Step 3: Slice 75 continues with historical maps of Slav migration and later political entities. Conclusion: The tone shift from ‘news’ framing supports moving into historical invasion/migration explanations.",
+    "logic_check_reasoning": "Step 1: Slice 13 shows a home office with a world map and a bulletin board of photos/postcards, where a woman delivers a segment with the text overlay 'BREAKING NEWS ON ŚWINICA PEAK.' Step 2: Slice 74 describes a subsequent abrupt transition from a similar personal, map/poster-filled room to a historical illustration labeled 'Invasion years (5th century-ish).' Step 3: Slice 75 details later frames using maps and text overlays to depict Slavic migrations and historical states (Great Moravia, Austro-Hungarians, Czechoslovakia). Logic holds because the video begins with a breaking-news style in the postcard/map room and then switches to historical visuals (illustrations and maps), matching the proposed linkage.",
+    "visual_proof": "Clip 1 shows a woman delivering a 'BREAKING NEWS' segment in front of a wall covered with maps and postcards. Clip 2 transitions to the male host in the same room, who then introduces historical content, including a map of Celtic tribes and an illustration of an invasion. Clip 3 continues this historical theme with a sequence of maps depicting Slav migration, Samo's empire, Great Moravia, and later political entities, confirming the shift from the news segment to historical visuals."
+  },
+  {
+    "question": "How does the video visually build from listing notable Slovak figures to then presenting a different set of ‘notable artists’ as a text overlay?",
+    "answer": "It first shows a collage listing notable Slovak figures, then later a long-haired presenter appears with an on-screen list titled ‘Notable artists.’",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      77,
+      71
+    ],
+    "reasoning_chain": "Step 1: Slice 77 presents a collage of notable Slovak figures with many names. Step 2: Slice 71 shows a presenter with a text overlay explicitly titled ‘Notable artists’ listing bands/musicians. Conclusion: The video moves from notable figures to a dedicated notable-artists list.",
+    "logic_check_reasoning": "Step 1: Slice 77 describes a collage-style presentation featuring images and text of notable Slovak figures, which supports the claim that the video first shows a collage listing notable Slovak figures. Step 2: Slice 71 shows a long-haired presenter speaking with a text overlay titled 'Notable artists' listing various artists, which supports the claim that later a presenter appears with an on-screen list of notable artists. Logic holds because the two slices depict sequentially different segments: first a collage of notable figures, then a presenter with a 'Notable artists' overlay.",
+    "visual_proof": "Clip 1 visually displays a collage with names like 'Earl \"Svätopluk\"', 'L'udovít Štúr', and 'Marek Hamšík', identifying them as notable Slovak figures. Clip 2 then shows a man with long curly hair presenting, with a text overlay in the top-left corner explicitly titled 'Notable artists:' followed by a different list of names like 'Polemic', 'Horkýže Slíže', and 'Katarína Knechtová'. This sequence visually confirms the transition described."
+  },
+  {
+    "question": "Which repeated Slovakia-related visual symbols appear across the narrative from early flag-on-screen segments to historical timeline maps and finally to the split animation?",
+    "answer": "The Slovak flag and Slovakia highlighted on maps, culminating in the animated separation of Czechoslovakia into Slovakia and the Czech Republic.",
+    "category": "Visual_Tracking",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      4,
+      76,
+      75,
+      80
+    ],
+    "reasoning_chain": "Step 1: Slice 4 shows the Slovak flag on screen during the Slovakia-focused Geography Now segment. Step 2: Slice 76 overlays historical labels (WWII Slovak Republic, Communist Czechoslovakia) on maps with Slovak flag imagery. Step 3: Slice 75 includes the Czechoslovakia (1918) map in the historical sequence. Step 4: Slice 80 animates the split between Czechoslovakia and Slovakia with a handshake. Conclusion: The recurring symbols are Slovakia’s flag and mapped identity, evolving into the Czechoslovakia split narrative.",
+    "logic_check_reasoning": "Step 1: Slice 4 explicitly shows the Slovak flag appearing on screen, indicating the flag as an early recurring visual symbol. Step 2: Slice 76 shows maps highlighting the Slovak Republic (WWII location and current borders) and again mentions the Slovak flag in the background, reinforcing both the flag and Slovakia-on-maps as repeated visuals. Step 3: Slice 75 presents historical timeline maps (including Czechoslovakia 1918), maintaining the map-based Slovakia-related visuals through historical context. Step 4: Slice 80 describes an animation symbolizing the division of Czechoslovakia into the Czech Republic and Slovakia, confirming the culminating split animation. Logic holds because the proposed answer identifies the recurring flag and map highlights and the final split animation, all directly supported by the slices.",
+    "visual_proof": "The Slovak flag is shown prominently in Clip 1 (0:06) and Clip 4 (0:00). Slovakia is highlighted on a map of Europe in Clip 2 (0:00). The animated sequence in Clip 4 visually depicts the split of Czechoslovakia, with Slovakia represented as one of the two resulting entities."
+  }
+]

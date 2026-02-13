@@ -1,0 +1,41 @@
+[
+    {
+        "question": "What institution is hosting the exhibition that is introduced on the purple title card, and what is the lecture series name shown earlier on the black event slide?",
+        "answer": "The exhibition is hosted by The Metropolitan Museum of Art (The Met), and the lecture series is called MetSpeaks.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 2 introduces the exhibition title card for “SAHEL: ART AND EMPIRES ON THE SHORES OF THE SAHARA.” Step 2: Slice 1 explicitly shows it is a MetSpeaks event at The Metropolitan Museum of Art (The Met). Conclusion: The host is The Met and the series name is MetSpeaks.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the event is part of the MetSpeaks series at The Metropolitan Museum of Art (The Met) and that it is presented in conjunction with the exhibition 'Sahel: Art and Empires on the Shores of the Sahara' on view at The Met Fifth Avenue. Step 2: Slice 2 shows a purple title card introducing that same exhibition. Logic: Therefore, the institution hosting the exhibition is The Metropolitan Museum of Art (The Met), and the lecture series name on the black slide is MetSpeaks.",
+        "visual_proof": "The black title card in Clip 1 clearly displays 'THE MET' logo and mentions the exhibition is on view at 'The Met Fifth Avenue'. It also shows 'MetSpeaks' in the top right corner. The purple title card in Clip 2, which introduces the exhibition, is part of the same program as indicated by the consistent branding and speaker presence, confirming the host is The Met."
+    },
+    {
+        "question": "According to the opening event slide, when was the recording made, and what year appears in the exhibition dates on the purple exhibition graphic?",
+        "answer": "The recording was made on August 25, 2020, and the exhibition dates are in 2020.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 1 states the recording was made on August 25, 2020. Step 2: Slice 69 shows the exhibition dates “January 30–October 26, 2020.” Conclusion: Recording date is Aug 25, 2020 and the exhibition year is 2020.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states the recording was made on August 25, 2020. Step 2: Evidence Slice 69 shows the purple exhibition graphic with dates listed as January 30–October 26, 2020, indicating the year 2020. Logic holds because both parts of the question are directly supported by the provided slices.",
+        "visual_proof": "The first clip (0:00-0:08) displays a black title card with white text that explicitly states 'Recorded August 25, 2020' at the bottom. The second clip (0:00-2:37) shows a purple graphic for the exhibition 'SAHEL: ART AND EMPIRES ON THE SHORES OF THE SAHARA', which includes the date range 'January 30–October 26, 2020'. Both pieces of information are clearly legible in the provided frames."
+    },
+    {
+        "question": "Which topic is introduced with a black screen title before showing a salt plaque and a crowded market, and what type of material is the plaque made from?",
+        "answer": "The topic is “Sahelian Markets,” and the plaque is made of salt.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 21 introduces the section with the black screen title “Sahelian Markets.” Step 2: Slice 22 shows the Sali Plaque and specifies it is made of salt. Conclusion: The segment is Sahelian Markets and the plaque material is salt.",
+        "logic_check_reasoning": "Step 1: Slice 21 states the video begins and ends with a black screen showing the white text 'Sahelian Markets,' establishing the topic title. Step 2: Slice 22 describes the left-side artifact as a Sali Plaque from Mali and explicitly notes it is made of salt. Step 3: Slice 22 also mentions the right-side shows a bustling market scene, aligning with the 'crowded market' reference. Therefore, the topic title and the plaque material are both explicitly supported.",
+        "visual_proof": "The first clip (0:01-0:02) displays a black screen with the white text 'Sahelian Markets'. The subsequent frames in both clips show a slide with an image of a 'Salt Plaque' from Mauritania, explicitly labeled 'Salt and pigments' as its material. This directly confirms both parts of the answer."
+    }
+]

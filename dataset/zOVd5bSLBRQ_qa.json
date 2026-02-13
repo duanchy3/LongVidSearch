@@ -1,0 +1,154 @@
+[
+    {
+        "question": "What drink brand shown earlier matches the workspace setting later where a mug is labeled with the place name?",
+        "answer": "Compass Coffee earlier, and later a WeWork mug in the workspace setting.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a Compass Coffee vanilla cream cold brew cup. Step 2: Slice 17 shows a mug labeled “WeWork” in a work/study setup. Conclusion: The coffee brand appears earlier, and the later scene confirms the workspace via the WeWork mug.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the cup is branded with 'Compass Coffee.' Step 2: Slice 17 shows a black mug labeled 'WeWork' in a workspace setting. The question asks for the drink brand shown earlier and the place name on the mug later. The proposed answer lists 'Compass Coffee' earlier and 'WeWork' later, which matches the provided slices.",
+        "visual_proof": "In Video 1 (Clip 1/2), the text overlay identifies the drink as 'compass coffee's vanilla cream cold brew', and the cup has 'REAL GOOD COFFEE' printed on it, which is associated with Compass Coffee. In Video 2 (Clip 2/2), the woman is working at a desk with a black mug clearly labeled 'wework'. This visually confirms the brand names mentioned in the original answer."
+    },
+    {
+        "question": "Which drink appears as a pair of bottled sodas and later as a single convenience-store soda brand?",
+        "answer": "Soda—Jarritos bottles earlier and a 7-Eleven brand soda later.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows two bottles of Jarritos soda (Mandarin and Pineapple). Step 2: Slice 58 shows someone holding a 7-Eleven brand soda bottle in a convenience store. Conclusion: Soda appears in both moments (Jarritos, then 7-Eleven soda).",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly shows two bottles of Jarritos soda (Mandarin and Pineapple), which fits \"a pair of bottled sodas.\" Step 2: Slice 58 explicitly shows a person holding a bottle of 7-Eleven brand soda in a convenience store, which fits \"a single convenience-store soda brand.\" Logic holds because both scenes feature soda, first as Jarritos in a pair, later as a single 7-Eleven brand soda.",
+        "visual_proof": "In Video 1, at 0:09, two bottled sodas are clearly visible on a counter with the 'JARRITOS' brand label (Mandarin and Pineapple flavors). In Video 2, at 0:05-0:06, a hand is holding a clear plastic cup with the '7-ELEVEN' logo, and the context of the scene (inside a 7/11 store with Slurpee machines) confirms it is a 7-Eleven branded drink."
+    },
+    {
+        "question": "Which person’s hobby switches from practicing writing to participating in an online business meeting?",
+        "answer": "The person in green sleeves who practices Chinese writing and then joins a Zoom business meeting.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows Chinese practice with a person wearing a green long-sleeved shirt. Step 2: Slice 16 shows hands in green sleeves typing on an academic panel document. Conclusion: The same green-sleeved person is associated with school/work tasks, shifting from writing practice to formal/academic work.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows a person practicing Chinese writing, explicitly noting they are wearing a green long-sleeved shirt and includes the caption \"- more chinese practice :P.\" Step 2: The same slice transitions to a scene labeled \"- business meeting via zoom,\" showing a person inside a room and then a laptop with a Zoom interface, implying the same individual is now participating in an online business meeting. Step 3: The continuity (same video sequence and recurring laptop with stickers) supports that the person practicing writing is the one joining the Zoom business meeting. The proposed answer identifies this person by their green sleeves and the activity transition, which is directly supported by Slice 13.",
+        "visual_proof": "In the first clip, a person wearing a green sleeve is shown writing Chinese characters on paper. The same person's hands, identifiable by the green sleeve, are later seen typing on a laptop during a Zoom meeting, as indicated by the on-screen text 'business meeting via zoom' and the subsequent frames showing the person joining the meeting. This visual continuity confirms the same individual transitions from writing practice to the business meeting."
+    },
+    {
+        "question": "What repeating visual motif from the opening title card returns later behind someone using a machine?",
+        "answer": "Smiley faces on a yellow background.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a yellow title card with smiley faces. Step 2: Slice 59 shows a vibrant yellow background with repeating smiley faces behind a person using a machine. Conclusion: The smiley-face yellow motif repeats.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes the opening title card as having a warm yellow background adorned with cheerful smiley faces. Step 2: Slice 59 describes a later scene where someone is using a machine, with a vibrant yellow background featuring a repeating pattern of smiley faces. Logic holds because the same visual motif—smiley faces on a yellow background—appears in both the opening title card and the later machine scene.",
+        "visual_proof": "The opening title card at 0:02 features a repeating pattern of light blue smiley faces on a mustard-yellow background. This exact same visual motif reappears in Clip 2 (starting at 0:00), serving as the background behind the central frame showing a person using a soda machine."
+    },
+    {
+        "question": "Which two different social call platforms are shown at different times in the video?",
+        "answer": "Discord and Zoom.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a Discord call screenshot. Step 2: Slice 13 shows a Zoom meeting interface and mentions a business meeting via Zoom. Conclusion: The platforms are Discord and Zoom.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12 explicitly describes a 'Discord call' with an on-screen text '- discord call !!! losers server :)', confirming Discord is shown. Step 2: Evidence Slice 13 describes a 'business meeting via zoom' and shows a laptop displaying a Zoom meeting interface, confirming Zoom is shown. Logic holds because the question asks for two different social call platforms shown at different times; the slices depict Discord and Zoom in separate scenes.",
+        "visual_proof": "In Clip 1, the Discord interface is clearly visible with its characteristic server layout, channel list (e.g., 'loser server', 'video-game-stuff'), and video call grid. The text overlay also reads '- discord call !!! losers server >:)'. In Clip 2, the Zoom interface is shown, including a pop-up dialog asking to 'Open zoom.us' and the subsequent 'Launch Meeting' button. Later in Clip 2, the woman is seen joining a meeting via Zoom, as indicated by the text overlay '- business meeting via zoom' and the laptop screen showing the Zoom join interface."
+    },
+    {
+        "question": "Which storyline shows movement from a birthday celebration with candles to a themed birthday brunch setup afterward?",
+        "answer": "The birthday candle moment is followed later by a Studio Ghibli-inspired birthday brunch spread.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            79,
+            81,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 79 introduces “Dustin’s 19th” celebration. Step 2: Slice 81 shows a playful candle moment (“trick candle”). Step 3: Slice 83 shows an elaborate Studio Ghibli-inspired brunch setup for the same birthday. Conclusion: The celebration progresses from candles to a curated brunch.",
+        "logic_check_reasoning": "Step 1: Slice 81 depicts a birthday candle moment, explicitly mentioning Dustin and a trick candle. Step 2: Slice 83 shows a Studio Ghibli-inspired brunch setup celebrating Dustin's 19th birthday. Step 3: The slices indicate a sequence within the same video from the candle celebration to the themed brunch, with Slice 79 providing overall birthday context. Therefore, the storyline of candle celebration followed by a themed brunch is supported.",
+        "visual_proof": "Clip 1 and Clip 2 show a birthday celebration with a person (Linh) singing 'Happy Birthday' to Dustin, who is presented with a cupcake with a lit candle. The scene is set in a bedroom with purple lighting. Clip 3 then shows a completely different setting: a dining table with a carefully arranged brunch spread, including bento boxes, cupcakes, and a No-Face figurine from Studio Ghibli, as confirmed by the on-screen text. This visual sequence confirms that the candle moment was followed by the themed brunch setup."
+    },
+    {
+        "question": "After the day starts with breakfast, what later lunch choice is shown from a salad restaurant?",
+        "answer": "A Sweetgreen kale Caesar salad (with mushrooms instead of chicken).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows breakfast (scrambled eggs and orange slices). Step 2: Slice 8 shows lunch food at Sweetgreen, specifically a kale Caesar with mushrooms. Conclusion: The later lunch choice is the Sweetgreen kale Caesar salad.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 shows the day starting with breakfast (scrambled eggs and orange slices) and morning coffee. Step 2: Evidence Slice 8 shows a visit to Sweetgreen, including a prepared kale Caesar salad specifically noted as having mushrooms instead of chicken. Logic holds because the question asks for the later lunch choice from a salad restaurant, and Slice 8 explicitly depicts Sweetgreen and the exact salad configuration.",
+        "visual_proof": "In Video 2, frame 0:02, a hand is shown selecting ingredients for a salad at a restaurant. The on-screen text explicitly identifies the location as 'sweetgreen' and the dish as '[kale caesar with mushrooms instead of chicken]'. This directly confirms the lunch choice after breakfast, which was shown in Video 1, frame 0:05."
+    },
+    {
+        "question": "Which sequence shows the same friend-group vibe moving from a park picnic to an organized outdoor tournament game later?",
+        "answer": "Friends picnicking in the park, then playing in an ultimate spikeball tournament.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            41,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows friends picnicking on grass with bags and food. Step 2: Slice 41 continues the park hangout with timing text. Step 3: Slice 44 transitions to an ultimate spikeball tournament in a park-like grassy area. Conclusion: The social park gathering evolves into a more structured outdoor game/tournament.",
+        "logic_check_reasoning": "Step 1: Slice 36 shows three individuals having a relaxed picnic in a park, clearly conveying a casual friend-group vibe. Step 2: Slice 41 likewise shows three people sitting on the grass in a park/campus setting with bags and a water bottle, engaged in conversation—again a casual, friendly group atmosphere. Step 3: Slice 44 explicitly presents an 'Ultimate Spikeball Tournament (ft. 3 noobs)' in a park with active play and noted camaraderie, indicating an organized outdoor game later. Logic holds because the context depicts a sequence from a park picnic/hangout to a structured spikeball tournament, aligning with the proposed answer.",
+        "visual_proof": "Clip 1 and Clip 2 show the same three individuals (one with green hair, one in a purple shirt, one in an orange cap) sitting together on the grass having a picnic. Clip 3 transitions to the same two men (purple shirt and orange cap) actively playing spikeball on the same lawn, with text overlay confirming it's an 'Ultimate Spikeball Tournament'. The consistent setting and recurring characters confirm the sequence of events."
+    },
+    {
+        "question": "How does the video connect indoor social calls to in-person social fun activities, moving from online chatting to arcade and then to a fairground game?",
+        "answer": "It goes from a Discord call to an arcade scene, then later to carnival/fair shooting gallery games.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            13,
+            68,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a Discord group call. Step 2: Slice 13 shows a Zoom meeting context (online interaction continues). Step 3: Slice 68 shows in-person amusement park activities. Step 4: Slice 69 shows people playing a shooting gallery game at the fair. Conclusion: The social connection shifts from online calls to in-person arcade/fair activities.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12 explicitly shows a progression from an online Discord call to an in-person arcade scene, noting a smooth transition between these two. Step 2: Evidence Slices 68 and 69 depict in-person fairground/carnival activities, including a shooting gallery game. Logic holds because the proposed answer summarizes this flow: online chatting (Discord) -> arcade -> fairground shooting gallery, which is directly reflected in the provided slices.",
+        "visual_proof": "Clip 1 shows a Discord video call with multiple participants. Clip 3 transitions to an outdoor amusement park (Six Flags) and includes a scene at a fairground game booth where people are playing a shooting gallery game. Clip 4 provides a closer view of the same shooting gallery game being played. The sequence visually connects online social interaction to in-person recreational activities."
+    },
+    {
+        "question": "What recurring location landmark appears multiple times and is later linked to a farewell message at the end of the video?",
+        "answer": "The National Cathedral appears repeatedly, and the farewell message later appears with the Washington Monument.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            75,
+            76,
+            95
+        ],
+        "reasoning_chain": "Step 1: Slice 75 labels the National Cathedral. Step 2: Slice 76 shows the cathedral again (including scaffolding). Step 3: Slice 95 ends with a farewell message over the Washington Monument. Conclusion: The video emphasizes DC landmarks, culminating in a goodbye message.",
+        "logic_check_reasoning": "Step 1: Slice 75 explicitly identifies a large cathedral labeled 'National Cathedral.' Step 2: Slice 76 shows the same cathedral multiple times (early in the video and again at the end with scaffolding), confirming it is a recurring landmark. Step 3: Slice 95 shows the Washington Monument along with the farewell message ('here's to a good summer, thanks for watching! xx'). Therefore, the recurring landmark is the National Cathedral, and the farewell message is linked to the Washington Monument, matching the proposed answer.",
+        "visual_proof": "The National Cathedral is prominently featured in multiple shots across clips 1 and 2, including wide establishing shots, scenes of a picnic on its grounds, and people walking in its gardens. The final clip (clip 3) concludes with a shot of the Washington Monument at dusk, overlaid with the farewell text 'here's to a good summer. thanks for watching! xx :)', clearly linking this landmark to the end message."
+    },
+    {
+        "question": "How does the video transition from city neighborhood walking shots to surreal imagery and then back to everyday convenience-store purchasing?",
+        "answer": "It shows friends walking in a charming brick neighborhood with a large wave mural, then continues with more neighborhood walking shots including a stop sign and trees, then transitions to a street corner with a 'GEORGETOWN' sign, and finally to buying a Slurpee at a 7/11.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            54,
+            56,
+            57,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 54 shows friends walking through a picturesque brick neighborhood. Step 2: Slice 56 introduces a surreal floating rock above the street. Step 3: Slice 57 returns to calm neighborhood architecture without people. Step 4: Slice 58 shows an ordinary street corner and a convenience store soda purchase. Conclusion: The narrative swings from everyday city life to surreal imagery back to mundane errands.",
+        "logic_check_reasoning": "Step 1: Slice 54 describes a warm, charming brick neighborhood with a group of young people walking and interacting, which supports the 'friends walking in a charming brick neighborhood' portion. Step 2: Slice 56 introduces surreal imagery with a large floating rock in the sky over a calm suburban street, matching 'then a floating rock in the sky.' Step 3: Slice 58 shows a city street corner followed by the interior of a convenience store where a person is holding a 7-Eleven soda and the label is zoomed in, supporting the transition 'then a street corner and buying a soda in a convenience store' (buying is implied by the in-store context and focus on the product). The logic holds across slices and matches the proposed sequence.",
+        "original_text_answer": "It shows friends walking in a charming brick neighborhood, then a floating rock in the sky, then a street corner and buying a soda in a convenience store.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows walking past a brick building with a Hokusai-style wave mural. Clip 2 continues the walk with a stop sign and trees. Clip 3 shows more architecture and trees. Clip 4 shows the Georgetown sign and then cuts to the interior of a 7/11 where a Slurpee is being purchased. There is no floating rock in the sky visible in any of the clips."
+    }
+]

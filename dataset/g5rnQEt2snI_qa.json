@@ -1,0 +1,220 @@
+[
+    {
+        "question": "What brand name appears after the science-themed grid intro, and what animal is later introduced into the conversation setting?",
+        "answer": "SciShow, and an African crested porcupine (Kizmit).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            50
+        ],
+        "reasoning_chain": "Step 1: The opening sequence ends on the SciShow logo. Step 2: Later, the video shows an African crested porcupine named Kizmit being featured. Conclusion: The brand is SciShow and the later introduced animal is Kizmit the porcupine.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes the science-themed grid intro transitioning to a circular logo with the text 'SciShow,' identifying the brand. Step 2: Evidence Slice 50 shows an African Crested Porcupine named Kizmit in an indoor, likely educational setting, indicating the animal introduced later. The logic holds: the brand after the intro is 'SciShow' and the later featured animal is an African crested porcupine named Kizmit.",
+        "visual_proof": "In Clip 1, the 'SciShow' logo appears in green text after the science-themed grid animation. In Clip 2, a large porcupine with black and white quills is shown, and on-screen text identifies it as 'KIZMIT African Crested Porcupine'."
+    },
+    {
+        "question": "In the conversation setup, where is the man seated and where is the woman seated, and later where does the porcupine walk across relative to the seated women?",
+        "answer": "The man is in a green armchair and the woman is on a purple couch; later the porcupine walks across the floor in front of the women on the purple couch.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            61
+        ],
+        "reasoning_chain": "Step 1: The interview layout shows the man in a green armchair facing the woman on a purple couch. Step 2: Later, two women remain seated on the purple couch while a porcupine walks across the floor in front of them. Conclusion: The seating arrangement is green armchair vs purple couch, and the porcupine crosses in front on the floor.",
+        "logic_check_reasoning": "Step 1: Slice 12 states the man is seated on a green armchair and the woman is seated on a purple couch during the conversation. Step 2: Slice 61 states that later two women are seated on a purple couch and a porcupine walks across the floor in front of them. Logic holds because the answer combines these details: the initial seating (man in green armchair, woman on purple couch) and the later event (porcupine walking across the floor in front of the women on the purple couch).",
+        "visual_proof": "In Clip 1, the man is visibly seated in a green armchair while the woman sits on a purple couch. In Clip 2, the same purple couch is shown with two women seated on it, and a porcupine is seen walking across the floor directly in front of them."
+    },
+    {
+        "question": "What text topic appears while the pair discuss reducing waste, and what later topic focuses on justice and inclusion?",
+        "answer": "“Reduce total consumption & waste,” and later “Practice justice & inclusion in conservation.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            34,
+            36
+        ],
+        "reasoning_chain": "Step 1: A text overlay reads “REDUCE TOTAL CONSUMPTION & WASTE.” Step 2: Another segment displays “Practice Justice & Inclusion in Conservation.” Conclusion: The two topics are reducing consumption/waste and practicing justice/inclusion in conservation.",
+        "logic_check_reasoning": "Step 1: Slice 34 explicitly states that the text overlay reads 'REDUCE TOTAL CONSUMPTION & WASTE' while they discuss reducing consumption and waste. Step 2: Slice 36 explicitly states that the on-screen text is 'Practice Justice & Inclusion in Conservation,' focusing on justice and inclusion. Logic holds because Slice 34 provides the first topic and Slice 36 provides the later topic, matching the proposed answer's phrasing.",
+        "visual_proof": "In the first clip, the text overlay 'REDUCE TOTAL CONSUMPTION & WASTE' is clearly visible at the bottom of the screen while the two individuals are talking. In the second clip, a different text overlay, 'PRACTICE JUSTICE & INCLUSION IN CONSERVATION,' appears in the same position during their conversation."
+    },
+    {
+        "question": "Which concept is highlighted when the man is shown speaking alone, and what later overlay expands the discussion to technology and investment?",
+        "answer": "“Internalize externalities & telecouplings,” and later “Ensure technology, innovation, & investment.”",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            42
+        ],
+        "reasoning_chain": "Step 1: The man speaking solo is accompanied by the overlay “INTERNALIZE EXTERNALITIES & TELECOUPLINGS.” Step 2: A later segment includes the overlay “ENSURE TECHNOLOGY, INNOVATION, & INVESTMENT.” Conclusion: The discussion moves from internalizing externalities/telecouplings toward technology/innovation/investment.",
+        "logic_check_reasoning": "Step 1: Slice 38 shows a man speaking alone with the on-screen text 'INTERNALIZE EXTERNALITIES & TELECOUPLINGS,' indicating the highlighted concept in that scene. Step 2: Slice 42 later shows an interview setup with text overlays that include 'ENSURE TECHNOLOGY, INNOVATION, & INVESTMENT,' expanding the discussion to technology and investment. Logic holds because the first scene identifies the initial concept, and the subsequent overlay explicitly adds the technology and investment focus.",
+        "visual_proof": "In Clip 1, the text overlay 'INTERNALIZE EXTERNALITIES & TELECOUPLINGS' is visible while the man speaks. In Clip 2, the same man is shown with the woman, and the text overlay changes to 'ENSURE TECHNOLOGY, INNOVATION, & INVESTMENT' as she speaks, confirming the sequence of concepts presented."
+    },
+    {
+        "question": "When the man and woman are first shown in the full interview layout with a device on the table, what is displayed on the device, and later what shows up instead as a close-up educational graphic?",
+        "answer": "The device shows an image of a person; later an illustrated porcupine skeleton appears as a graphic.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            85
+        ],
+        "reasoning_chain": "Step 1: The early setup includes a tablet showing an image of a person on the table between them. Step 2: Later, the video cuts to an illustration of a porcupine skeleton. Conclusion: The visual aid shifts from a person’s image on a device to an anatomy-style skeleton illustration.",
+        "logic_check_reasoning": "Step 1: Slice 12 states that in the full interview layout, a wooden coffee table holds a tablet displaying an image of a person. Step 2: Slice 85 indicates that the video transitions to an illustration of a porcupine skeleton, which serves as an educational graphic. Logic holds because the first scene features the device content (image of a person), and later the video presents an illustrative graphic (porcupine skeleton).",
+        "visual_proof": "In Clip 1 (0:07-0:14), the tablet on the small table between the man and woman clearly displays a photo of a person in what appears to be an astronaut suit. In Clip 2 (0:04-0:06), a full-screen, sepia-toned educational graphic of a porcupine's skeleton is shown."
+    },
+    {
+        "question": "What closing company logo appears at the end, and what earlier circular logo identifies the science show brand?",
+        "answer": "Complexly, and SciShow.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            100,
+            1
+        ],
+        "reasoning_chain": "Step 1: The end screen displays the “COMPLEXLY” logo. Step 2: The opening includes the circular “SciShow” logo. Conclusion: The closing brand is Complexly and the earlier show brand is SciShow.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes an opening sequence culminating in a circular logo with the text 'SciShow,' clearly identifying the science show brand early in the video. Step 2: Slice 100 describes a 'Complexly' company logo, suggesting it appears later; given typical video structure and the high slice number, this reasonably indicates the closing company logo at the end. Logic holds because Slice 1 covers the earlier show brand logo (SciShow) and Slice 100 presents the later company logo (Complexly).",
+        "visual_proof": "Clip 1 shows the 'COMPLEXLY' logo with a stylized 'C' at the beginning. Clip 2 ends with the green 'SciShow' logo, which is also preceded by a circular blueprint-style logo containing the text 'Sci' and 'SCI-OCULAR 200x', identifying the science show brand."
+    },
+    {
+        "question": "Which on-screen theme is displayed when the conversation emphasizes resilience and uncertainty, and later which animal is shown exploring the floor with a cardboard box nearby?",
+        "answer": "“Decision making in context of resilience & uncertainty,” and later an African crested porcupine.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            50
+        ],
+        "reasoning_chain": "Step 1: A segment is titled “Decision Making in Context of Resilience & Uncertainty.” Step 2: Later, an African crested porcupine moves around indoors with a cardboard box visible nearby. Conclusion: The theme is decision-making under uncertainty and the later animal is the porcupine.",
+        "logic_check_reasoning": "Step 1: Slice 26 explicitly states that the on-screen text overlay reads \"Decision Making in Context of Resilience & Uncertainty,\" which matches the theme asked about. Step 2: Slice 50 describes an African Crested Porcupine named Kizmit walking on a carpeted floor with a cardboard box nearby, directly answering the second part. Logic holds because the theme and the animal are both clearly identified in the provided slices.",
+        "visual_proof": "In Clip 1, the on-screen text explicitly reads \"DECISION MAKING IN CONTEXT OF RESILIENCE & UNCERTAINTY\" while two people are conversing. In Clip 2, the on-screen text identifies the animal as \"KIZMIT African Crested Porcupine,\" and it is visibly exploring the floor near a cardboard box."
+    },
+    {
+        "question": "What object between the interview participants is used to show another person earlier, and later what object is seen on the floor between the seated group during the animal interaction scene?",
+        "answer": "A tablet (or laptop) on the table shows another person; later a roll of paper towels is on the floor between them.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            25,
+            97
+        ],
+        "reasoning_chain": "Step 1: The setup includes a laptop on a table between them showing another person. Step 2: Another discussion view again shows a tablet/monitor between them as part of the set. Step 3: Later, during the floor-seated group scene, a roll of paper towels is visible between participants. Conclusion: The between-participants object shifts from a screen device to paper towels on the floor.",
+        "logic_check_reasoning": "Step 1: Slice 8 states there is a small table between the two interview participants with a laptop displaying an image of a person, indicating an object used to show another person. Step 2: Slice 25 corroborates this with a small tablet/monitor on the table between them showing an image of a person, reinforcing the idea of a screen device used to show another person. Step 3: Slice 97 shows a later scene with three people seated on the floor and explicitly mentions a roll of paper towels on the floor between them. Logic holds because both parts of the answer (screen device earlier; paper towels later) are directly supported by the slices.",
+        "visual_proof": "In clips 1 and 2, a framed photograph, which appears to be a tablet or laptop displaying an image of a woman in an astronaut suit, sits on the small table between the two seated participants. In clip 3, during the scene where three people are sitting on the floor, a white roll of paper towels is clearly visible on the carpet between them."
+    },
+    {
+        "question": "Near the end, what text indicates an association with another channel or group during the floor scene, and what two logos bracket the video from beginning to end?",
+        "answer": "“Nature League,” and the video is bracketed by the SciShow logo at the start and the Complexly logo at the end.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            99,
+            1,
+            100,
+            52
+        ],
+        "reasoning_chain": "Step 1: A floor scene later in the video displays text referencing “Nature League.” Step 2: The video begins with SciShow branding. Step 3: The video ends with the Complexly logo. Step 4: The floor-based animal interaction context ties the “Nature League” mention to the later portion of the video. Conclusion: The mid/late text is Nature League, and the video is bracketed by SciShow then Complexly.",
+        "logic_check_reasoning": "Step 1: Slice 99 describes the floor scene and explicitly notes that text on screen indicates an association with 'Nature League,' supporting the first part of the answer. Step 2: Slice 1 details the opening sequence culminating in a 'SciShow' logo, confirming the start bracket logo. Step 3: Slice 99 mentions a later transition to a circular design with a 'C' at its center, and Slice 100 identifies a 'Complexly' logo with a stylized 'C,' supporting that the end bracket logo is Complexly. The sequence—SciShow logo at the start and Complexly logo later—logically brackets the video from beginning to end.",
+        "visual_proof": "Clip 1 shows text overlays for 'YouTube.com/NatureLeague' and 'YouTube.com/SciShowPsych' during the floor scene, indicating an association. Clip 2 displays the SciShow logo as the opening title sequence. Clip 3 displays the Complexly logo as the closing brand identifier. This confirms the original answer."
+    },
+    {
+        "question": "Which two environmental acronyms are shown during the early couch discussion, and what later on-screen theme encourages sharing knowledge?",
+        "answer": "IPBES and IPCC; “Promote education & knowledge generation & sharing.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            45
+        ],
+        "reasoning_chain": "Step 1: Early in the discussion, the acronyms IPBES and IPCC appear on screen. Step 2: Later, a text overlay reads “PROMOTE EDUCATION & KNOWLEDGE GENERATION & SHARING.” Conclusion: The acronyms are IPBES/IPCC and the later theme is promoting education and knowledge sharing.",
+        "logic_check_reasoning": "Step 1: Slice 5 explicitly states that during the early couch discussion, the acronyms \"IPBES\" and \"IPCC\" appear on screen, indicating a focus on biodiversity and climate change. Step 2: Slice 45 later shows the text \"PROMOTE EDUCATION & KNOWLEDGE GENERATION & SHARING\" at the bottom of the screen. Logic holds because the first part matches the acronyms shown early in the discussion, and the second part matches the later on-screen theme encouraging knowledge sharing.",
+        "visual_proof": "In the first clip, the acronyms 'IPBES' and 'IPCC' appear as on-screen text during the couch discussion. In the second clip, the phrase 'PROMOTE EDUCATION & KNOWLEDGE GENERATION & SHARING' is displayed as on-screen text while the woman speaks."
+    },
+    {
+        "question": "What is the discussion topic shown on screen when the woman holds a piece of paper, and later what animal is being fed from a small container by hand?",
+        "answer": "“Pre-emptive action,” and later an African crested porcupine is fed.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            70
+        ],
+        "reasoning_chain": "Step 1: The woman holding paper discusses a segment labeled “Pre-emptive Action.” Step 2: Later, a person offers food from a small container to a porcupine. Conclusion: The earlier labeled topic is pre-emptive action, and the later fed animal is a porcupine.",
+        "logic_check_reasoning": "Step 1: Slice 24 explicitly states the on-screen text shows 'Pre-emptive Action' while the woman holds a piece of paper and explains to the man. Step 2: Slice 70 explicitly describes an African crested porcupine being fed from a small container by hand in a domestic setting. Logic holds because each slice directly answers each part of the question.",
+        "visual_proof": "In the first clip, when the woman holds up a piece of paper (0:11-0:13), the on-screen text clearly reads 'PRE-EMPTIVE ACTION'. In the second clip (0:01-0:02), a person is seen feeding a large rodent with black-and-white quills from a small plastic container, which is visually identifiable as an African crested porcupine."
+    },
+    {
+        "question": "What topic overlay appears when the discussion is about environmental law, what later overlay encourages diverse visions of the good life, and what animal later becomes the hands-on demonstration subject?",
+        "answer": "“Environmental law & implementation,” “Embrace diverse visions of the good life,” and an African crested porcupine.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            30,
+            50
+        ],
+        "reasoning_chain": "Step 1: The video displays “Environmental Law & Implementation.” Step 2: Later, it displays “EMBRACE DIVERSE VISIONS OF THE GOOD LIFE.” Step 3: Later still, an African crested porcupine is introduced as a featured animal. Conclusion: The sequence connects environmental law, then good-life visions, then the porcupine segment.",
+        "logic_check_reasoning": "Step 1: Slice 28 explicitly states that during the discussion about environmental law, the on-screen text reads \"Environmental Law & Implementation.\" Step 2: Slice 30 explicitly shows the overlay \"EMBRACE DIVERSE VISIONS OF THE GOOD LIFE,\" encouraging diverse visions. Step 3: Slice 50 explicitly identifies the animal as an African Crested Porcupine named Kizmit in an interactive/educational setting, supporting that it is the hands-on demonstration subject. The proposed answer matches all three points.",
+        "visual_proof": "Clip 1 shows the text overlay 'ENVIRONMENTAL LAW & IMPLEMENTATION' during the discussion. Clip 2 displays the overlay 'EMBRACE DIVERSE VISIONS OF THE GOOD LIFE' while the hosts interact. Clip 3 features a porcupine with on-screen text identifying it as 'KIZMIT African Crested Porcupine'."
+    },
+    {
+        "question": "How does the focus of the video shift from the initial science branding, to the policy-themed couch discussion, and then to the animal segment—name the brand, a policy-related overlay topic, and the animal’s name.",
+        "answer": "SciShow; one policy-related overlay is “Internalize externalities & telecouplings” (among others); and the animal is Kizmit the African crested porcupine.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            41,
+            50
+        ],
+        "reasoning_chain": "Step 1: The intro branding shows SciShow. Step 2: Mid-video overlays include policy/environment concepts like “INTERNALIZE EXTERNALITIES & TELECOUPLINGS.” Step 3: Later, the animal segment introduces an African crested porcupine named Kizmit. Conclusion: The video moves from SciShow branding to environmental policy themes to Kizmit the porcupine.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly shows the SciShow logo, supporting the brand identification as SciShow. Step 2: Evidence Slice 41 shows a couch discussion with the on-screen text 'INTERNALIZE EXTERNALITIES & TELECOUPLINGS,' supporting the policy-related overlay topic. Step 3: Evidence Slice 50 identifies the animal as an African Crested Porcupine named Kizmit, supporting the animal’s name and type. The proposed answer names SciShow, cites the overlay 'Internalize externalities & telecouplings,' and names the animal Kizmit the African crested porcupine, all directly supported by the slices.",
+        "visual_proof": "Clip 1 shows the 'SciShow' logo with science-themed graphics. Clip 2 features two hosts on a couch with an on-screen text overlay reading 'INTERNALIZE EXTERNALITIES & TELECOUPLINGS'. Clip 3 displays an African crested porcupine with a lower-third graphic identifying it as 'KIZMIT African Crested Porcupine'. All elements are directly visible in the provided clips."
+    },
+    {
+        "question": "When the porcupine segment begins, where is the porcupine first brought near the seated host, where is it later shown walking independently, and what is its name?",
+        "answer": "It is brought near the woman on the purple couch, then later shown walking on the carpeted floor, and it is named Kizmit.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            49,
+            50,
+            52
+        ],
+        "reasoning_chain": "Step 1: A person kneels beside the woman on the couch and introduces the porcupine. Step 2: The porcupine is shown walking on the floor in a separate shot. Step 3: Later, the group sits on the floor interacting with it, reinforcing continuity of the same animal. Conclusion: The animal is introduced near the couch, then roams on the carpet, and is named Kizmit.",
+        "logic_check_reasoning": "Step 1: Slice 49 states that another person kneels next to the woman seated on a purple couch and introduces a porcupine, indicating it is first brought near the seated host on the purple couch. Step 2: Slice 50 explicitly names the porcupine as Kizmit and describes it walking on a carpeted floor, showing it later moving independently. Step 3: These details align with the proposed answer, and Slice 52 further supports the indoor interaction context.",
+        "visual_proof": "In Clip 1 (0:05-0:08), a handler brings the porcupine out of its crate and kneels down with it directly in front of the woman seated on the purple couch. In Clip 2 (0:00-0:05), the porcupine, identified by the on-screen text as 'KIZMIT', is shown walking independently across the carpeted floor. This sequence visually confirms all parts of the original answer."
+    },
+    {
+        "question": "Identify a moment when the porcupine shows a defensive posture, and connect it to a later calmer feeding moment by describing what changes and who is interacting in each case.",
+        "answer": "The porcupine raises its quills defensively while the group watches from the floor; later it calmly accepts food from a person’s hand/container during feeding.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            81,
+            71,
+            70,
+            90
+        ],
+        "reasoning_chain": "Step 1: The porcupine moves around the seated group and sometimes raises quills in a defensive posture. Step 2: Another shot explicitly shows quills raised while someone feeds it and others watch. Step 3: Later, a close-up shows calm feeding from a small container. Step 4: Another close-up shows a hand offering food and the porcupine taking it calmly. Conclusion: The animal’s apparent state shifts from defensive quills-up to relaxed feeding interaction.",
+        "logic_check_reasoning": "Step 1: Slice 81 describes three people seated on the floor with the porcupine occasionally raising its quills in a defensive posture, matching the first part of the answer where the group watches from the floor during a defensive moment. Step 2: Slice 71 also shows three people on the floor, the porcupine with quills raised in a defensive posture, and one person feeding it from their hand while the others watch, reinforcing the defensive context with group presence. Step 3: Slice 70 shows a calm, close-up feeding moment where a person offers food in a container and the porcupine cautiously takes a bite, supporting the later calmer feeding scenario. Step 4: Slice 90 shows a person offering food by hand, with the porcupine calmly accepting it, further supporting the calm feeding moment. Logic holds because the answer connects a defensive quill-raising moment with a subsequent calm feeding interaction, and the involvement shifts from a group watching to a single person feeding by hand or container, both supported by the slices.",
+        "visual_proof": "In Clip 1, the porcupine is seen with its quills fully erect and fanned out, indicating a defensive posture, while all three people are seated on the floor observing. In Clips 2, 3, and 4, the same porcupine is shown approaching and eating food offered by the woman in the black shirt (and later from a container), with its quills visibly lowered and relaxed, showing a calm state during feeding."
+    },
+    {
+        "question": "Track the identity of the main male speaker: what consistent clothing feature identifies him in the early interview, what furniture does he usually sit on, and where is he positioned during the later floor-based porcupine interaction?",
+        "answer": "He consistently wears glasses and a plaid shirt; he usually sits on a green armchair; later he sits on the floor with the group near the porcupine.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            9,
+            12,
+            52,
+            91
+        ],
+        "reasoning_chain": "Step 1: Early, the man is identifiable by glasses and a plaid shirt. Step 2: In the interview layout, he sits in a green armchair. Step 3: During the porcupine segment, the same glasses/plaid man is present seated on the floor with others. Step 4: Another floor scene shows him still in plaid, participating while the porcupine is handled. Conclusion: The same man is tracked via glasses/plaid, moving from green armchair interview to floor interaction.",
+        "logic_check_reasoning": "Step 1: Slice 9 identifies the main male speaker as wearing glasses and a plaid shirt, seated on a green chair during an interview. Step 2: Slice 12 confirms the same man (glasses and plaid shirt) seated on a green armchair in the early interview setting. Step 3: Slice 52 shows a later scene with three people on the floor interacting with a porcupine, including the man in a plaid shirt and glasses sitting on the floor. Step 4: Slice 91 corroborates that in the porcupine interaction, there is one man in a plaid shirt sitting on the floor with two women. The logic holds because the consistent clothing (glasses, plaid shirt) and the early seating (green armchair) tie the same person across scenes, and the later positioning is explicitly on the floor near the porcupine.",
+        "visual_proof": "In Clips 1, 2, and 3, the man is clearly visible wearing glasses and a dark plaid shirt. In Clips 1, 2, and 3, he is seated in a green armchair during the interview segments. In Clip 4, he is shown sitting cross-legged on the floor alongside the two women and the porcupine."
+    }
+]

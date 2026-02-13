@@ -1,0 +1,29 @@
+[
+    {
+        "question": "One slice shows an infographic about Morocco’s common languages, and another shows a street sign written in two languages. Which two languages appear together on both the infographic context and the street signage?",
+        "answer": "Arabic and French.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 10 states Morocco’s official languages include Arabic and French and presents language statistics. Step 2: Slice 83 shows a directional sign with text in Arabic and French. Conclusion: The overlapping languages are Arabic and French.",
+        "logic_check_reasoning": "Step 1: Slice 10 (infographic) explicitly lists Arabic and French among Morocco’s common languages and highlights both in text. Step 2: Slice 83 states the street sign is written in both Arabic and French. Logic: The same two languages, Arabic and French, appear in both the infographic and the street signage.",
+        "visual_proof": "Clip 1 (infographic) explicitly lists Arabic, Berber, and French as the three official languages of Morocco and features them prominently in its bar chart. Clip 2 (street sign) displays directional signs with text in both Arabic script (e.g., 'مراكش', 'الرباط') and French (e.g., 'MARRAKECH', 'RABAT', 'PLACE DES NATIONS UNIES'). Therefore, Arabic and French are the two languages that appear together in both visual contexts."
+    },
+    {
+        "question": "Across the video, several city maps are highlighted by red arrows. Name three cities that are each specifically pointed to by a red arrow on separate map shots.",
+        "answer": "Casablanca, Marrakech, and Tangier.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            32,
+            40,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 32 highlights Casablanca with a red arrow. Step 2: Slice 40 highlights Marrakech with a red arrow. Step 3: Slice 51 highlights Tangier with a red arrow. Conclusion: The three cities are Casablanca, Marrakech, and Tangier.",
+        "logic_check_reasoning": "Step 1: Slice 32 states a map of Morocco with a red arrow pointing directly at Casablanca, labeled \"Casablanca.\" Step 2: Slice 40 describes a map with a bold red arrow pointing towards Marrakesh/Marrakech. Step 3: Slice 51 shows a map with a red arrow labeled \"Tangier\" pointing to the city. These are separate map shots, each highlighting a different city with a red arrow, matching the proposed cities.",
+        "visual_proof": "Clip 1 shows a map with a red arrow pointing to 'Casablanca'. Clip 2 shows a map with a red arrow pointing to 'Marrakesh/Marrakech'. Clip 3 shows a map with a red arrow pointing to 'Tangier'. Each clip highlights one of the three cities mentioned in the answer."
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "question": "Which underwater feature near Madagascar is labeled with an area of 300,000 km², and later the video shows Madagascar again alongside Africa from a high-altitude view without that area label?",
+        "answer": "The Mascarene Plateau",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 40 labels the Mascarene Plateau and states '300,000 km²'. Step 2: Slice 45 shows Madagascar and Africa from above again, providing regional context without that specific area tag. Conclusion: The 300,000 km² feature in the Madagascar region is the Mascarene Plateau.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 40 explicitly states that a label appears identifying the 'Mascarene Plateau,' and notes its size as 300,000 km² near Madagascar. Step 2: Evidence Slice 45 describes a later high-altitude view of Madagascar alongside Africa without mentioning any labels, matching the second part of the question. Logic holds because the feature named with the 300,000 km² area in Slice 40 is the Mascarene Plateau, and the subsequent scene in Slice 45 shows the region without that area label.",
+        "visual_proof": "In Video 1, the underwater feature is explicitly labeled 'Mascarene Plateau' with the area '300,000 km²' displayed next to it. In Video 2, the island of Madagascar is shown from a high-altitude view next to the African continent, but no labels or area measurements are present on the screen."
+    },
+    {
+        "question": "Which set of segments shows the video’s recurring 'zoom from space to a specific named region' pattern by first labeling a Pacific feature pair, later labeling an Indian Ocean plateau, later labeling an Atlantic plateau, and also labeling a rise near South America?",
+        "answer": "Ontong Java/Manihiki → Kerguelen Plateau → Azores Plateau → Rio Grande Rise(s)",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            28,
+            57,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 15 zooms from space and labels Ontong Java and Manihiki. Step 2: Slice 28 zooms in and labels the Kerguelen Plateau with its area. Step 3: Slice 57 zooms in and labels the Azores Plateau with its area. Step 4: Slice 49 zooms in and labels Rio Grande Rise(s) with its area. Conclusion: These demonstrate the repeated space-to-named-feature zoom template.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows a zoom from space to the Pacific with labels for 'Ontong Java' and 'Manihiki,' matching the 'Pacific feature pair' requirement. Step 2: Slice 28 shows a zoom to the Indian Ocean with the 'Kerguelen Plateau' outlined and labeled, satisfying the Indian Ocean plateau. Step 3: Slice 57 shows a zoom to the Atlantic with 'Azores Plateau' labeled and sized, satisfying the Atlantic plateau. Step 4: Slice 49 shows a zoom to 'Rio Grande Rise(s)' near South America, satisfying the labeled rise near South America. The sequence Ontong Java/Manihiki → Kerguelen Plateau → Azores Plateau → Rio Grande Rise(s) aligns with these slices and the recurring zoom-and-label pattern.",
+        "visual_proof": "Clip 1 shows the Pacific with 'Ontong Java' and 'Manihiki' labeled. Clip 2 zooms into the Indian Ocean, labeling the 'Kerguelen Plateau'. Clip 3 focuses on the Atlantic, labeling the 'Azores Plateau'. Clip 4 shows the 'Rio Grande Rise(s)' near the coast of South America. This sequence perfectly matches the pattern described in the question."
+    }
+]

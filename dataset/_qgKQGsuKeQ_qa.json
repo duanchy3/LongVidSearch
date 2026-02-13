@@ -1,0 +1,108 @@
+[
+  {
+    "question": "At the beginning, what lecture topic is shown on the title slide, and later what application slide mentions automating tracking as a use case?",
+    "answer": "The title slide topic is “Interest Point Detection (Lecture-4),” and later a “Where can we use it?” slide mentions “Automate object tracking.”",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      10
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows the title slide “Interest Point Detection” labeled Lecture-4. Step 2: Slice 10 shows the application slide “Where can we use it?” with the bullet “Automate object tracking.” Conclusion: The lecture topic is Interest Point Detection, and the later use-case slide mentions automating object tracking.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 describes the title slide as 'Interest Point Detection' with 'Lecture-4' below it, clearly supporting the first part of the answer. Step 2: Evidence Slice 10 describes a slide titled 'Where can we use it?' that includes a bullet 'Automate object tracking,' which supports the second part of the answer. Logic holds because both pieces of information are explicitly stated in the provided slices and align with the question's timeline (beginning title slide, later application slide).",
+    "visual_proof": "In Clip 1, the PowerPoint title slide clearly displays 'Interest Point Detection' with 'Lecture-4' underneath. In Clip 2, the slide titled 'Where can we use it?' shows a bullet point that reads 'Automate object tracking'. Both pieces of information are directly visible in the respective clips."
+  },
+  {
+    "question": "What slide introduces the goal of detecting the same points in both images, and what later slide states the goal of reliably determining which point goes with which?",
+    "answer": "The “Goal: interest operator repeatability” slide introduces detecting the same points in both images, and the “Goal: descriptor distinctiveness” slide states reliably determining which point goes with which.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      15,
+      17
+    ],
+    "reasoning_chain": "Step 1: Slice 15 shows “Goal: interest operator repeatability” with the statement about detecting the same points in both images. Step 2: Slice 17 shows “Goal: descriptor distinctiveness” stating reliable correspondence (which point goes with which). Conclusion: These two slides introduce repeatability and distinctiveness goals respectively.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 15 explicitly shows a slide titled 'Goal: interest operator repeatability' with the subtitle 'We want to detect (at least some of) the same points in both images,' directly supporting the first part of the answer. Step 2: Evidence Slice 17 explicitly shows a slide titled 'Goal: descriptor distinctiveness' with the text 'We want to be able to reliably determine which point goes with which,' directly supporting the second part. The sequence (Slice 17 after Slice 15) also aligns with 'later slide.'",
+    "visual_proof": "Clip 1 (0:00-0:27) shows a slide titled 'Goal: interest operator repeatability' with the text 'We want to detect (at least some of) the same points in both images.' Clip 2 (0:00-0:57), which follows chronologically, shows a slide titled 'Goal: descriptor distinctiveness' with the text 'We want to be able to reliably determine which point goes with which.' This directly confirms the sequence and content described in the original answer."
+  },
+  {
+    "question": "After the aperture problem slide, which mathematical operation is introduced next with a double-summation equation, and what are the two entities being related in that definition?",
+    "answer": "Correlation is introduced next, relating an image f and a kernel h.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      28,
+      29
+    ],
+    "reasoning_chain": "Step 1: Slice 28 shows the topic transition from “Aperture Problem” to “Correlation.” Step 2: Slice 29 defines correlation with a double sum and labels f as Image and h as Kernel. Conclusion: Correlation is introduced, relating an image and a kernel.",
+    "logic_check_reasoning": "Step 1: Slice 28 states that after the 'Aperture Problem' slide, the presentation transitions to a new title 'Correlation'. Step 2: Slice 29 shows a slide titled 'Correlation' with a double-summation equation f ⊗ h = Σ_k Σ_l f(k,l) h(i+k, j+l), and explicitly defines f as Image and h as Kernel. Logic holds because the next introduced operation is correlation, and the two entities in the definition are an image f and a kernel h.",
+    "visual_proof": "Clip 1 ends with the 'Aperture Problem' slide. Clip 2 immediately begins with a new slide titled 'Correlation'. On this slide, the equation `f ⊗ h = Σ_k Σ_l f(k,l)h(i+k,j+l)` is displayed. Below this equation, the text explicitly defines 'f = Image' and 'f = Kernel', which appears to be a typo in the source material, as the context implies 'h = Kernel'. The subsequent visual of two matrices labeled 'f' and 'h' being operated on confirms that 'f' represents the image and 'h' represents the kernel."
+  },
+  {
+    "question": "What mathematical series is introduced before the Harris detector derivation, and how is it used afterward in the Harris mathematics slide?",
+    "answer": "Taylor Series is introduced, and it is then used as an approximation step in deriving the Harris detector’s equations for E(u,v).",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      43,
+      49
+    ],
+    "reasoning_chain": "Step 1: Slice 43 introduces the Taylor Series formula. Step 2: Slice 49 shows “Mathematics of Harris Detector” and explicitly uses a Taylor Series approximation to rewrite intensity changes. Conclusion: Taylor Series is introduced and then applied in the Harris derivation.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 43 explicitly shows a slide titled 'Taylor Series' with the Taylor expansion formula, indicating the series is introduced. Step 2: Evidence Slice 49 describes the Harris Detector slide and states that the second equation uses the Taylor Series approximation to linearize intensity changes, directly connecting Taylor Series to the derivation of E(u,v). Logic holds because the series introduced earlier (Taylor Series) is then applied as an approximation in the Harris mathematics slide.",
+    "visual_proof": "Clip 1 explicitly displays a slide titled 'Taylor Series' with its formula. Clip 2, titled 'Mathematics of Harris Detector', shows the derivation of E(u,v) and includes an annotation 'Taylor Series' next to the second equation, indicating that the Taylor Series approximation was applied to transition from the first to the second equation."
+  },
+  {
+    "question": "Which formula defines a cornerness response using determinant and trace, and which later slide shows selecting points based on thresholding that response?",
+    "answer": "Cornerness is defined by R = det(M) − k(trace(M))^2, and later points are selected using R > threshold.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      63,
+      68
+    ],
+    "reasoning_chain": "Step 1: Slice 63 presents the Harris response R = det M − k(trace M)^2. Step 2: Slice 68 instructs “Find points with large corner response: R > threshold.” Conclusion: The response is computed by the determinant/trace formula and then thresholded to select points.",
+    "logic_check_reasoning": "Step 1: Slice 63 explicitly shows the formula for cornerness: R = det M - k(trace M)^2, tying cornerness to determinant and trace. Step 2: Slice 68 explicitly shows the instruction 'Find points with large corner response: R > threshold,' indicating selection by thresholding the R response. Logic holds because the first slice defines R, and the later slice shows using R for threshold-based selection, matching the proposed answer.",
+    "visual_proof": "Clip 1 visually displays the formula 'R = det M - k(trace M)^2' under the heading 'Mathematics of Harris Detector'. Clip 2 shows a subsequent slide with the text 'Find points with large corner response: R > threshold', confirming the use of thresholding on the R value defined in the first clip."
+  },
+  {
+    "question": "Which slide shows the instruction to keep only local maxima of the corner response, and which later algorithm slide includes the same step as part of a full pipeline?",
+    "answer": "The local-maxima instruction appears on the slide about taking only local maxima of R, and it reappears in the “Algorithm” slide as “Find local maxima above some threshold.”",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      69,
+      75
+    ],
+    "reasoning_chain": "Step 1: Slice 69 says to take only points of local maxima of R and defines local maxima via neighbors. Step 2: Slice 75 includes in the algorithm step 5: find local maxima above a threshold. Conclusion: The local-maxima concept is first explained and then embedded in the algorithm pipeline.",
+    "logic_check_reasoning": "Step 1: Slice 69 explicitly describes a slide titled \"Take only the points of local maxima of R\" and defines local maxima in pixel terms, directly supporting the instruction to keep only local maxima of the corner response R. Step 2: Slice 75 outlines an \"Algorithm\" slide where Step 5 states \"Find local maxima above some threshold as detected interest points,\" which includes the same concept as part of the pipeline. Logic holds because the first slide introduces the local maxima rule for R, and the later algorithm slide integrates that step as the final stage.",
+    "visual_proof": "Clip 1 shows a slide with the exact text 'Take only the points of local maxima of R'. Clip 2 shows an 'Algorithm' slide with a bullet point that reads 'Find local maxima above some threshold as detected interest points.' These two pieces of text directly correspond to the steps mentioned in the original answer."
+  },
+  {
+    "question": "Which slide introduces the eigenvector/eigenvalue relationship Ax = λx, and later which computer-vision topic explicitly uses eigenvalues (λ1, λ2) for measuring cornerness?",
+    "answer": "Eigenvectors/eigenvalues are introduced with Ax = λx, and later the Harris detector uses eigenvalues λ1 and λ2 to measure cornerness.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      59,
+      63
+    ],
+    "reasoning_chain": "Step 1: Slice 59 defines eigenvectors/eigenvalues via Ax = λx. Step 2: Slice 63 discusses measuring cornerness in terms of λ1, λ2 for the Harris detector. Conclusion: Eigenvalues are introduced in linear algebra, then used in Harris cornerness.",
+    "logic_check_reasoning": "Step 1: Slice 59 describes a slide titled 'Eigen Vectors and Eigen Values' and explicitly shows the relationship Ax = λx, introducing eigenvectors/eigenvalues. Step 2: Slice 63 describes a slide titled 'Mathematics of Harris Detector' with a bullet 'Measure of cornerness in terms of λ₁, λ₂' and the formula R = det M - k(trace M)^2, explicitly indicating the Harris detector uses eigenvalues λ1 and λ2 to measure cornerness. Logic holds because the first slice introduces the concept and the second slice applies it in the Harris Corner Detector context.",
+    "visual_proof": "Clip 1 displays a slide titled 'Eigen Vectors and Eigen Values' with the equation 'Ax = λx' clearly visible. Clip 2 shows a slide titled 'Mathematics of Harris Detector' with the text 'Measure of cornerness in terms of λ1, λ2', explicitly linking eigenvalues to the Harris detector's cornerness measurement."
+  },
+  {
+    "question": "Across the lecture, what sequence links local feature components to goals and then to an application: first the pipeline (detection/description/matching), then the repeatability/distinctiveness goals, and finally an application of the method?",
+    "answer": "The pipeline is Detection → Description → Matching; the goals are interest operator repeatability (detect same points) and descriptor distinctiveness (reliably match points); an application listed is automating object tracking.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      8,
+      15,
+      17,
+      10
+    ],
+    "reasoning_chain": "Step 1: Slice 8 lists the full pipeline: Detection, Description, Matching. Step 2: Slice 15 states the goal of repeatability—detect the same points in both images. Step 3: Slice 17 states the goal of descriptor distinctiveness—reliably determine which point corresponds to which. Step 4: Slice 10 lists an application: “Automate object tracking.” Conclusion: The lecture connects the pipeline to its goals and then to a real application.",
+    "logic_check_reasoning": "Step 1: Slice 8 explicitly lists the local features pipeline as Detection → Description → Matching. Step 2: Slice 15 presents the goal of interest operator repeatability, defined as detecting the same points in both images. Step 3: Slice 17 presents the goal of descriptor distinctiveness, emphasizing reliable matching and invariance to geometric/photometric differences. Step 4: Slice 10 lists an application, specifically 'Automate object tracking.' The proposed answer matches each of these slices, maintaining the sequence: pipeline, goals, application.",
+    "visual_proof": "Clip 1 shows the 'Local features: main components' slide listing Detection, Description, and Matching. Clip 2 introduces the goal of 'interest operator repeatability'. Clip 3 introduces the goal of 'descriptor distinctiveness'. Clip 4 presents the application 'Automate object tracking'. This sequence directly matches the structure described in the answer."
+  }
+]

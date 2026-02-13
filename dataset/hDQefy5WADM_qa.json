@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Which mission title comes later in the timeline: the title card for Apollo 8 or the emblem introducing Apollo 10 as “The Dress Rehearsal”?",
+        "answer": "Apollo 10 (“The Dress Rehearsal”) comes later than Apollo 8.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 8 introduces Apollo 8. Step 2: Slice 28 introduces Apollo 10 and labels it “May 1969.” Conclusion: Apollo 10 is later than Apollo 8.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows a title card labeled \"APOLLO 8.\" Step 2: Slice 28 shows an emblem labeled \"APOLLO 10\" with the subtitle \"THE DRESS REHEARSAL\" and a date \"MAY 1969.\" Step 3: In a numbered series, 10 follows 8, so \"APOLLO 10\" comes later than \"APOLLO 8.\" The context thus supports that the Apollo 10 title comes later in the timeline than the Apollo 8 title.",
+        "visual_proof": "Clip 1 displays the title card for 'APOLLO 8' with a timeline showing '1969' and months from August to April, indicating its launch in December 1968 (as historically known, though not explicitly stated in the clip). Clip 2 displays the emblem for 'APOLLO 10' with the explicit date 'MAY 1969' and the subtitle 'THE DRESS REHEARSAL'. Since May 1969 is chronologically after December 1968, the Apollo 10 title card comes later in the timeline."
+    },
+    {
+        "question": "What is the program alarm number that first appears as a spoken/quoted issue and later appears on the Apollo Guidance Computer display?",
+        "answer": "1202.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            61,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows the subtitle asking for a reading on the “1202 program alarm.” Step 2: Slice 60 shows the Apollo Guidance Computer display with the number 1202 highlighted. Conclusion: The alarm number is 1202.",
+        "logic_check_reasoning": "Step 1: Slice 61 includes the subtitle, \"Give us a reading on the 1202 program alarm,\" explicitly naming the program alarm number as 1202. Step 2: Slice 60 shows the Apollo Guidance Computer display with the numbers \"05,\" \"09,\" and \"1202,\" confirming that 1202 appears on the display. Logic holds because the same program alarm number (1202) is both spoken/quoted and shown on the computer display.",
+        "visual_proof": "In Video 1, the subtitle explicitly states, 'Give us a reading on the 1202 program alarm.' In Video 2, the Apollo Guidance Computer's display clearly shows the number '1202' in the bottom row, labeled as the 'PROGRAM ALERT'. The number is consistent across both clips."
+    },
+    {
+        "question": "Which object is explicitly labeled with measurements and then later shown in cinematic close-ups with a mechanical component extending outward?",
+        "answer": "The Lunar Module (LM).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 23 presents a graphic with LM specs (height, diameter, weight, crew compartment). Step 2: Slice 24 shows cinematic close-ups of a module where a mechanism extends outward. Conclusion: Both refer to the Lunar Module.",
+        "logic_check_reasoning": "Step 1: Slice 23 explicitly identifies the Lunar Module (LM) and provides measurements (height, diameter, weight, crew compartment), clearly labeling that object. Step 2: Slice 24 describes later scenes in the same video showing cinematic close-ups of a spacecraft, noted as likely a lunar module, with a mechanical component extending outward. Logic holds because both slices refer to the same video and the later scene’s visual attributes align with the LM described earlier; the 'likely' phrasing is acceptable under the instruction to handle VLM noise.",
+        "visual_proof": "Clip 1 explicitly labels the object as 'LUNAR MODULE' and displays its measurements (Height, Diameter, Weight, Crew compartment). Clip 2 shows cinematic close-ups of the same module, including a detailed view of a mechanical component, specifically an antenna or sensor boom, extending outward from its body against the blackness of space."
+    },
+    {
+        "question": "Which appears earlier: the Apollo 11 mission emblem on the lunar surface or the scene of astronauts waving from inside a quarantine/observation chamber?",
+        "answer": "The Apollo 11 mission emblem appears earlier.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows the Apollo 11 emblem and introduces the first landing. Step 2: Slice 77 shows astronauts in a quarantine/observation chamber waving to a crowd. Conclusion: The emblem appears earlier in the video sequence.",
+        "logic_check_reasoning": "Step 1: Slice 35 states \"The video starts with an emblem of Apollo 11 mission on the moon's surface,\" clearly indicating the emblem appears at the beginning. Step 2: Slice 77 describes a separate scene with astronauts waving from inside a quarantine/observation chamber, with no indication it occurs at the start. Therefore, the emblem appears earlier than the quarantine scene.",
+        "visual_proof": "Clip 1 (0:00-0:05) opens with the Apollo 11 mission emblem displayed over a lunar surface background. Clip 2 (0:00-0:03) shows the astronauts inside a quarantine chamber, which is a post-mission event. Since Clip 1 precedes Clip 2 in the sequence and visually depicts the pre-mission or mission branding, it logically and visually appears earlier than the post-mission quarantine scene."
+    },
+    {
+        "question": "Which set of scenes links mission control’s key personnel to an onboard emergency indication—showing the control room, then the flight director, then the alarm screen?",
+        "answer": "Mission control room view → Gene Kranz at the FLIGHT console → the “1202 ALARM” screen.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            57,
+            62,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows the MOCR with specialized consoles and a featured guidance officer image. Step 2: Slice 62 focuses on Gene Kranz as Apollo 11 Flight Director at the FLIGHT console. Step 3: Slice 63 shows a “1202 ALARM” display. Conclusion: The narrative ties mission control leadership to handling an onboard computing alarm.",
+        "logic_check_reasoning": "Step 1: Slice 57 shows the Mission Operations Control Room (MOCR) with labeled consoles, supporting the 'mission control room view.' Step 2: Slice 62 focuses on Gene Kranz, the Apollo 11 Flight Director, at the FLIGHT console, satisfying 'the flight director.' Step 3: Slice 63 shows a screen with '1202 ALARM' and flashing indicators, which is an emergency indication, fulfilling 'the alarm screen.' Logic holds because the three slices explicitly depict the control room, the flight director, and the alarm screen in distinct scenes that match the proposed sequence.",
+        "visual_proof": "Clip 1 opens with a wide view of the MOCR. Clip 2 transitions to a close-up of the FLIGHT console, where an inset photo identifies Gene Kranz as the Apollo 11 Flight Director. Clip 3 then cuts to a detailed shot of the DSKY display showing the '1202' error code, followed by a graphic explicitly labeling it '1202 ALARM'. This sequence visually links the control room environment, the specific personnel (Gene Kranz), and the onboard emergency alarm."
+    },
+    {
+        "question": "What timeline chain connects early 1961 momentum to the first lunar landing: the year marker and orbital craft, the presidential speech to Congress, and the later landing confirmation?",
+        "answer": "1961 marker/orbital craft → Kennedy’s May 25, 1961 address → Apollo 11 landing confirmation (“The Eagle has landed”).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            3,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces 1961 and spaceflight context. Step 2: Slice 3 shows Kennedy’s May 25, 1961 address to Congress. Step 3: Slice 70 shows the Apollo 11 touchdown confirmation. Conclusion: The video links early space-race impetus to the eventual lunar landing.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the year '1961' prominently and a spacecraft orbiting Earth, establishing early 1961 momentum with a year marker and orbital craft. Step 2: Slice 3 explicitly presents President John F. Kennedy’s May 25, 1961 address to a joint session of Congress. Step 3: Slice 70 presents the Apollo 11 landing moment with the confirmation text 'Tranquility base here. The Eagle has landed.' Logic holds because these slices collectively depict a chronological chain from early 1961 visuals to Kennedy’s speech and then to the later Apollo 11 landing confirmation, matching the proposed sequence.",
+        "visual_proof": "Clip 1 shows the year '1961' with a spacecraft in orbit. Clip 2 displays archival footage of President Kennedy with an on-screen caption identifying his 'Address to Joint Session of Congress May 25, 1961'. Clip 3 shows grainy footage from the lunar surface, followed by the text 'The Eagle has landed,' confirming the Apollo 11 landing. These three distinct visual elements establish the chronological chain described in the answer."
+    }
+]

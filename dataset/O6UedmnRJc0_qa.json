@@ -1,0 +1,117 @@
+[
+    {
+        "question": "In two different professional consultation scenes, what kind of document-handling happens in each: first in the medical aesthetics consultation and later in the office consultation?",
+        "answer": "In the medical aesthetics consultation, the blonde woman in a white coat is seen pointing to and discussing a document on the desk with the man; later in the office consultation, she reviews and points to documents spread on the desk while talking to the man, who listens attentively.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a blonde woman in a white coat handing a paper to the man during the aesthetics consultation. Step 2: Slice 76 shows an office consultation where documents are laid out and discussed. Conclusion: Paper handoff happens in the medical consult, and document review/discussion happens in the office consult.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a medical aesthetics consultation where the woman in a white coat hands the man a piece of paper, he looks at it briefly, then places it back on the table. Step 2: Slice 76 describes an office/business consultation with documents spread out on the desk; the woman gestures to and discusses these documents while the man listens and nods. Logic holds because the proposed answer matches the explicit document-handling actions in each slice.",
+        "original_text_answer": "In the medical aesthetics consultation, the blonde woman in a white coat hands the man a piece of paper; later in the office consultation, documents are spread on the desk and reviewed while discussing them.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the woman in the white coat holds a pen and gestures toward a single document on the table while speaking to the man; she does not hand it to him. In Clip 2, multiple documents are visible on the dark desk, and the woman, now in black scrubs, actively points to them while explaining things to the man, who is listening. The action is one of review and discussion, not handing over."
+    },
+    {
+        "question": "In the cooking montage, which vegetables are combined with pasta, and later what food is shown as a boxed pepperoni pizza brand?",
+        "answer": "Carrots, bell peppers, mushrooms, and spinach are mixed into pasta, and later the boxed pepperoni pizza is from Little Caesars.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows mushrooms sautéed with cherry tomatoes and added into boiling pasta. Step 2: Slice 37 shows a pepperoni pizza in a box identified as Little Caesars. Conclusion: The pasta add-ins are mushrooms and cherry tomatoes; the boxed pizza brand is Little Caesars.",
+        "logic_check_reasoning": "Step 1: Slice 10 describes washing and slicing red cherry tomatoes and sautéing mushrooms, then explicitly states the sautéed vegetables (mushrooms and tomatoes) are added into the pot of boiling pasta. Step 2: Slice 37 shows a pepperoni pizza inside a box identified as from Little Caesars. Logic holds because the first part specifies the vegetables combined with pasta (mushrooms and cherry tomatoes), and the second part clearly identifies the boxed pepperoni pizza brand (Little Caesars).",
+        "original_text_answer": "Mushrooms and cherry tomatoes are mixed into pasta, and later the boxed pepperoni pizza is from Little Caesars.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the cooking montage shows carrots being chopped (0:02), a red bell pepper being sliced (0:04), mushrooms being prepared (0:06), and spinach being added to the pot (0:10). The final dish (0:12) clearly contains all these vegetables with pasta. In Clip 2, the box for the pepperoni pizza (0:03) explicitly displays the 'Little Caesars' brand name."
+    },
+    {
+        "question": "In the outdoor sofa interview setting, what decorative object appears near the glass door, and earlier in the health talk what cartoon figure is shown on the slide?",
+        "answer": "A driftwood-like sculpture/art piece, and a cartoon heart lifting weights.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows an outdoor/semi-outdoor couch scene with driftwood art by a glass door. Step 2: Slice 5 shows a stage slide titled \"Health\" featuring a cartoon heart lifting weights. Conclusion: The decor is driftwood art and the slide shows a weightlifting cartoon heart.",
+        "logic_check_reasoning": "Step 1: Slice 35 describes the outdoor/semi-outdoor couch interview setting and explicitly notes a piece of driftwood art near the glass door. Step 2: Slice 5 describes a health talk slide titled 'Health' that features a cartoon heart lifting weights. Logic holds because the first part answers the decorative object near the glass door, and the second part identifies the cartoon figure on the slide during the health talk.",
+        "visual_proof": "In Clip 1, a light-colored, gnarled wooden sculpture resembling driftwood is clearly visible on a side table to the left of the man on the sofa. In Clip 2, during the health talk segment, the presentation slide explicitly displays a cartoon image of a red heart with arms and legs, lifting a barbell."
+    },
+    {
+        "question": "In the remote-work sequence, what identifying sticker is on the laptop, and how does the video alternate between showing the speaker’s face and the listener taking notes?",
+        "answer": "The sticker reads \"SEEK 140.6,\" and the video alternates between close-ups of the bald man in a green T-shirt speaking and wider shots of the other man at a table with a notebook and pen taking notes while watching the laptop.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            55,
+            60,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 55 shows a laptop with the sticker \"SEEK 140.6.\" Step 2: Slice 60 shows the laptop on a table during a video call with workspace items around it. Step 3: Slice 65 shows the listener at the table writing in a notebook beside the same stickered laptop while on the call. Conclusion: The sticker is \"SEEK 140.6\" and the alternation is speaker close-ups vs listener note-taking wide shots.",
+        "logic_check_reasoning": "Step 1: Slice 55 explicitly states the laptop has a sticker that reads \"SEEK 140.6.\" Slice 65 also confirms the laptop has a sticker reading \"SEEK 140.6,\" reinforcing the identification. Step 2: Slice 60 shows the speaker on the laptop screen (a bald man with a beard wearing a green shirt) engaged in conversation, indicating the speaker’s face is shown. Step 3: Slice 65 shows the listener at a table holding a pen and taking notes in a notebook while on a video call, indicating shots of the listener taking notes. Step 4: Although Slice 65 describes the on-screen speaker as having short hair, both slices identify the on-screen speaker wearing a green shirt; per the VLM noise instruction, minor discrepancies in hair description are acceptable. Step 5: The alternation between showing the speaker’s face and the listener taking notes is supported by Slices 60 and 65.",
+        "visual_proof": "Clip 1 (0:05) clearly shows the 'SEEK 140.6' sticker on the laptop lid. Clip 2 (0:00-0:03) shows the bald man speaking on the laptop screen, representing the speaker's view. Clips 1 (0:00-0:02) and 3 (0:00-0:02, 0:05) show the listener in profile or from the front, sitting at a desk with a notebook and pen, looking at the laptop screen, confirming the alternating shot pattern described."
+    },
+    {
+        "question": "What shared visual cue connects multiple outdoor interview shots, and what playful physical interaction happens between the two men during one of those outdoor sofa moments?",
+        "answer": "They are consistently seated on a white outdoor sofa with greenery and a palm tree visible in the background, and during one moment, the man in the black shirt playfully grabs the arm of the man in the white shirt and pulls him closer while both laugh.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows the recurring white outdoor sofa interview setting with greenery/palm tree. Step 2: Slice 45 shows the same setting where the man in the white button-up grabs the other man’s arm playfully. Conclusion: The cue is the white outdoor sofa setting; the interaction is the arm-grab/pull.",
+        "logic_check_reasoning": "Step 1: Slice 36 describes two men sitting on a white couch outdoors with greenery and a palm tree visible, indicating a relaxed daytime setting. Step 2: Slice 45 similarly shows two men on a white outdoor sofa in a bright, sunny patio/garden with greenery including a palm tree, reinforcing the shared visual cue across multiple outdoor shots. Step 3: The Actions and Interactions section in the context explicitly states that the man on the right (white shirt) playfully grabs the arm of the man on the left (black shirt) and pulls him closer, confirming the playful physical interaction.",
+        "original_text_answer": "They are consistently seated on a white outdoor sofa with greenery and a palm tree nearby, and the man in the white shirt playfully grabs the black-shirt man’s arm and pulls him closer.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In both clips, the men are seated on the same white outdoor sofa with consistent background elements including green foliage and a palm tree reflection in the window. In Clip 2 (0:02-0:03), the man in the black shirt initiates physical contact by grabbing the other man’s forearm and pulling it toward himself in a playful manner; both men are smiling and laughing during this interaction."
+    },
+    {
+        "question": "In the video-call sequence, who is shown as the main speaker in close-up, and who appears on the laptop screen in a later shot as the call continues?",
+        "answer": "A bald man with a short beard wearing a green T-shirt is the close-up speaker, and later the same bald man with a short beard wearing a green T-shirt appears on the laptop screen as the call continues.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            54,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 54 shows a close-up of a bald, bearded man in a green T-shirt speaking in a video call layout. Step 2: Slice 63 shows a laptop call where an older man with glasses is visible on the screen. Conclusion: The speaker is the bald bearded man in green, and later the on-screen participant is an older man with glasses.",
+        "logic_check_reasoning": "Step 1: Slice 54 states the main focus is a man speaking directly to the camera, described as bald with a neatly trimmed beard and wearing a green T-shirt, indicating a close-up main speaker. Step 2: Slice 63 shows a later shot where an older man wearing glasses appears on the laptop screen and is speaking. Logic holds because the question asks for who is in close-up initially and who appears on the laptop later, and both descriptions are explicitly provided in the slices and match the proposed answer.",
+        "original_text_answer": "A bald man with a short beard wearing a green T-shirt is the close-up speaker, and later an older man wearing glasses appears on the laptop screen.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the main view is a close-up of a bald man with a short beard in a green T-shirt speaking. In Clip 2, the laptop screen clearly displays the same bald man with a short beard in a green T-shirt, confirming he is the person being spoken to, not an older man with glasses."
+    },
+    {
+        "question": "What does the man in the yellow shirt do with an apple when greeting his friend in the produce-stocked kitchen, and how is that friendly greeting echoed later when he is hugged again during grocery unpacking?",
+        "answer": "He hands an apple to the other man, and later the two embrace again while moving toward and unpacking a grocery box.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows the yellow-shirt man hugging his friend and handing him an apple. Step 2: Slice 23 shows the yellow-shirt man walking to a grocery box and then being embraced again. Conclusion: He offers an apple first, and later a hug is repeated during grocery unpacking.",
+        "logic_check_reasoning": "Step 1: Slice 19 states two men (one in a yellow shirt, one in a white shirt) hug and are in a kitchen with shelves of fruits/vegetables. The yellow-shirted man picks up an apple and hands it to the other man, who then puts it back. This supports the part about handing an apple during a friendly greeting in a produce-stocked kitchen. Step 2: Slice 23 describes the same yellow-shirted man and another man (described here as wearing blue/khaki, likely the same person per VLM naming variance) near a cardboard box of groceries; the yellow-shirted man appears to be unpacking/organizing, and the other man follows and embraces him warmly. This supports the part about a later embrace in the context of moving toward and unpacking a grocery box. Logic holds because the actions (apple handoff, later hug during grocery unpacking) align across slices despite minor clothing description differences.",
+        "visual_proof": "In Clip 1 (0:09), the man in the yellow shirt is seen handing an apple to Robby Barbaro. In Clip 2 (0:08-0:09), the same man in the yellow shirt is shown hugging another person as they approach a kitchen counter where groceries are being unpacked from a box."
+    },
+    {
+        "question": "Across multiple food-related shots, how does the video move from home meal prep to close-up eating/assembling food and then to a branded pizza segment?",
+        "answer": "It starts with home cooking and blending, then shifts to a close-up of hands adding sauce to a burrito, and later shows a boxed Little Caesars pepperoni pizza (with factory meat-processing imagery).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            10,
+            28,
+            29,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows home cooking steps (tomatoes/mushrooms/pasta) and a smoothie being blended. Step 2: Slice 28 shows more home meal prep with chopped vegetables, oven dishes, tortillas, rice, and salad. Step 3: Slice 29 shows a close-up assembly moment: hands spooning yellow sauce onto a burrito. Step 4: Slice 37 switches to a branded pizza segment highlighting a Little Caesars pepperoni pizza and cutting to meat processing. Conclusion: The food arc goes from home prep, to close-up eating/assembly, to branded pizza with ingredient processing imagery.",
+        "logic_check_reasoning": "Step 1: Slices 10 and 28 depict home meal prep: washing/slicing vegetables, sautéing, cooking pasta, serving, and making a smoothie (Slice 10 Scene 4). Slice 28 shows chopped vegetables, oven dishes, and other meal components, reinforcing home cooking. Step 2: Slice 29 shows a close-up of hands adding yellow sauce to a burrito, which fits the 'close-up eating/assembling' stage. Step 3: Slice 37 shows a boxed Little Caesars pepperoni pizza and includes a cut to meat processing in a factory, matching the branded pizza segment with factory imagery. Logic holds because the proposed answer summarizes this progression accurately and is directly supported by the slices.",
+        "visual_proof": "Clip 1 shows home meal prep (chopping vegetables, cooking in a pan) and blending. Clip 3 features a close-up of hands assembling food by adding sauce to a burrito. Clip 4 transitions to a branded Little Caesars pizza box and reveals the pizza inside, followed by footage of meat processing on a conveyor belt in a factory setting."
+    }
+]

@@ -1,0 +1,151 @@
+[
+    {
+        "question": "After the segment title announces a taste test for the black-garlic butter cod course, what dish close-up is shown later as one of the taste-test items?",
+        "answer": "A close-up of grilled fish with green beans and a lemon wedge.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 48 introduces 'FINALLY: taste test' for the final course segment context. Step 2: Slice 47 shows a plated close-up of grilled fish with green beans and a lemon wedge being garnished. Conclusion: The later close-up taste-test item is the grilled fish plate with green beans and lemon.",
+        "logic_check_reasoning": "Step 1: Slice 48 shows the title card 'FINALLY: taste test,' indicating a taste test segment is beginning. Step 2: Slice 47 describes a later close-up of a plate with grilled fish, green beans, and a lemon wedge. Logic holds because the question asks what close-up is shown later as one of the taste-test items, and Slice 47 explicitly describes such a dish close-up, matching the proposed answer.",
+        "visual_proof": "Clip 1 displays the title card 'FINALLY: taste test'. Clip 2 then shows a close-up of a plated dish featuring a piece of grilled fish (cod), accompanied by green beans and garnished with a lemon wedge, which matches the description in the original answer."
+    },
+    {
+        "question": "What kitchen appliance is central to both the early pastry/toast segments and the later dessert-cookie plan segment?",
+        "answer": "A toaster.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows bread being put into a toaster and popping out. Step 2: Slice 19 shows the host gesturing toward a toaster while introducing the lace-cookie segment. Conclusion: The shared central appliance is the toaster.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 15 shows the woman cutting bread, putting it into a toaster, and examining the toast—clearly making the toaster central to the early toast segment. Step 2: Evidence Slice 19 shows waffle cookies, then the woman gestures toward a toaster while preparing to explain a recipe, indicating the toaster is central to the later dessert-cookie plan segment. Logic holds because both slices explicitly reference and focus on the toaster.",
+        "visual_proof": "In Clip 1, the woman is shown preparing a pastry and then placing it into a silver, four-slot toaster. In Clip 2, she stands in front of the same toaster while discussing a recipe for cookies, gesturing towards it as a key appliance. The toaster is consistently present and central to the actions in both segments."
+    },
+    {
+        "question": "Which ingredient is added to seafood in a bowl earlier and then later appears again as a wedge on a plated seafood dish?",
+        "answer": "Lemon.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows fish being mixed in a bowl with lemon slices. Step 2: Slice 47 shows a plated fish dish garnished with a lemon wedge that is squeezed. Conclusion: Lemon is the ingredient appearing in both steps.",
+        "logic_check_reasoning": "Step 1: Slice 13 states that the woman adds ingredients to a bowl, including fish and lemon slices, establishing lemon as an ingredient added to seafood. Step 2: Slice 47 shows a plated fish with a lemon wedge used for garnishing and squeezing over the fish. Logic holds because lemon is explicitly present in both the earlier bowl preparation and later as a wedge on the plated seafood.",
+        "visual_proof": "In the first clip, at timestamp 0:32, the woman is seen grating a lemon into a bowl containing what appears to be a seafood mixture (salmon and cream). In the second clip, at timestamp 0:02, she is shown plating a cooked seafood dish, and two wedges of lemon are placed on top as a garnish. This confirms the lemon is used both in preparation and as a final garnish."
+    },
+    {
+        "question": "Which cooking tool is used first to spread or mix ingredients in a bowl and later to lift cooked fish out of foil?",
+        "answer": "A spatula (blue spatula).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the woman using a spatula to mix ingredients in a bowl. Step 2: Slice 44 shows a blue spatula lifting fish out of aluminum foil. Conclusion: The shared tool is a spatula, specifically depicted as blue later.",
+        "logic_check_reasoning": "Step 1: Slice 7 states the woman is using a spatula to mix ingredients in a bowl. Step 2: Slice 44 states the person uses a blue spatula to lift fish out of foil. Logic holds because the same tool type (spatula) is used in both actions as described, and the color detail (blue) is explicitly supported in the second slice.",
+        "visual_proof": "In Video 1, a woman uses a blue spatula to mix ingredients in a glass bowl. In Video 2, the same blue spatula is used to lift cooked fish from aluminum foil on a baking tray. The tool is visually consistent across both clips."
+    },
+    {
+        "question": "What clothing change marks the shift from the toaster/pastry segments to the hair-tools segment featuring unconventional methods?",
+        "answer": "She shifts from a black shirt with an orange apron to a denim/light-blue shirt with a brown apron.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows the host in a black T-shirt with an orange apron. Step 2: Slice 56 introduces 'Episode 3 Hair Tools' with the host in a denim/light-blue shirt and brown apron. Conclusion: The outfit changes from black+orange apron to denim/light-blue+brown apron.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes a woman in a kitchen with a stainless steel toaster visible, wearing a black T-shirt and an orange apron, consistent with a toaster/pastry-related segment. Step 2: Slice 56 explicitly introduces the 'CHEF OUT OF WATER' Episode 3: Hair Tools segment, showing a woman in a denim/light-blue shirt with a brown apron. Logic holds because the clothing in Slice 11 (black shirt, orange apron) differs from the clothing in Slice 56 (denim/light-blue shirt, brown apron), marking the shift between the segments.",
+        "visual_proof": "In Clip 1, the woman is wearing a black t-shirt and a brown/orange apron while using a toaster. In Clip 2, which introduces the 'HAIR TOOLS' segment, she is visibly wearing a light blue polo shirt with the same brown apron. This change in her top marks the transition between segments."
+    },
+    {
+        "question": "What is the progression of the host’s relationship with seafood across the video—from mixing it with citrus, to naming a cod course, to finally plating it with sides?",
+        "answer": "She first mixes fish with lemon slices, later introduces a black garlic-butter cod course, and then plates the cooked fish with green vegetables and lemon.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            40,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows fish in a bowl with lemon slices being mixed. Step 2: Slice 40 titles the final course as black garlic-butter cod. Step 3: Slice 47 shows the finished fish plated with green beans and a lemon wedge. Conclusion: Seafood evolves from prep, to named course, to final plated dish with sides.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows the host adding fish and lemon slices to a bowl and mixing them, which matches 'mixes fish with lemon slices.' Step 2: Slice 40 includes a title card 'LAST COURSE: black garlic-butter cod' and the host presenting raw cod, supporting 'introduces a black garlic-butter cod course.' Step 3: Slice 47 depicts plating a grilled fish with green beans and a lemon wedge, aligning with 'plates the cooked fish with green vegetables and lemon.' The progression is coherent and supported across the slices.",
+        "visual_proof": "In Clip 1, the host is seen mixing salmon pieces with lemon zest and juice in a bowl. In Clip 2, a title card explicitly states 'LAST COURSE: black garlic-butter cod,' which she then discusses. In Clip 3, she is shown plating a cooked fish fillet (cod) with roasted green vegetables and lemon wedges as a garnish."
+    },
+    {
+        "question": "What evidence shows the video uses playful time-skip text during toaster/pastry work and later uses a different time-skip before waffle-iron prep?",
+        "answer": "It shows 'ANOTHER POP LATER...' during toaster pastry toasting and '10 MINUTES LATER...' before waffle-iron ingredient prep.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            32,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 17 contains the playful interlude text 'ANOTHER POP LATER...' while working with toaster pastry. Step 2: Slice 32 sets up the waffle-iron episode context. Step 3: Slice 34 shows the '10 MINUTES LATER...' title card before top-down waffle-iron prep. Conclusion: Two different time-skip styles are used in different appliance segments.",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly mentions a humorous interlude with the on-screen text 'ANOTHER POP LATER...' occurring during the sequence where the woman cuts puff pastry and places pieces into a toaster, confirming playful time-skip text during toaster/pastry work. Step 2: Slice 34 explicitly shows a title card '10 MINUTES LATER...' and then transitions to a setup with waffle makers and ingredients, indicating a different time-skip used before waffle-iron ingredient preparation. Logic holds because both slices directly describe the respective time-skip texts and their contexts.",
+        "visual_proof": "Clip 1 (at 0:18) displays the text 'ANOTHER POP LATER...' on a teal background, immediately following scenes of the woman using a toaster. Clip 3 (at 0:00-0:02) displays the text '10 MINUTES LATER...' on a white brick wall background, immediately preceding a top-down shot of hands preparing ingredients next to waffle irons."
+    },
+    {
+        "question": "How does the video transition from baking lace cookies to introducing the next savory segment, and which dish title signals that change?",
+        "answer": "After showing the lace-cookie result, it transitions to a title announcing 'LAST UP: Shrimp Kabobs.'",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows the lace-cookie segment context and finished cookie visuals. Step 2: Slice 22 cuts to a title screen reading 'LAST UP: Shrimp Kabobs.' Conclusion: The shift from sweet lace cookies to a savory segment is signaled by the shrimp-kabobs title card.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows the video opening with a close-up of crispy cookies (described as waffle cookies), implying the cookie result before moving on. Step 2: Slice 22 states the scene transitions to a title screen displaying 'LAST UP: Shrimp Kabobs.' Logic holds because the cookies serve as the prior baking segment, and the title screen explicitly introduces the next savory dish, signaling the change.",
+        "visual_proof": "Clip 1 ends with the host in the kitchen after discussing baking. Clip 2 begins with a clear title card that reads 'LAST UP: shrimp kabobs' against a teal background, directly signaling the transition from the previous dessert segment to the next savory dish."
+    },
+    {
+        "question": "How do the segment title cards structure the video’s pastry/dessert progression from elephant ears to lace cookies to steak-sandwich taste testing?",
+        "answer": "It introduces elephant ears first, then switches to 'NEW PLAN: lace cookies,' and later introduces 'LAST UP: steak sandwiches' followed by a taste test of the prepared items.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            18,
+            71,
+            81
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the title card 'FIRST UP: elephant ears.' Step 2: Slice 18 shows the title card 'NEW PLAN: lace cookies.' Step 3: Slice 71 shows the title card 'LAST UP: steak sandwiches.' Step 4: Slice 81 shows a 'FINALLY: taste test' title for that later segment. Conclusion: The title cards guide viewers through changing recipes and culminate in a taste-test finale for the steak-sandwich segment.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows the title card 'FIRST UP: elephant ears,' introducing that segment. Step 2: Slice 18 shows the title card 'NEW PLAN: lace cookies,' indicating a switch to lace cookies. Step 3: Slice 71 shows 'LAST UP: steak sandwiches,' marking the final cooking segment. Step 4: Slice 81 shows 'FINALLY: taste test,' implying a concluding tasting of the prepared items. The proposed answer accurately reflects this sequence and structure.",
+        "visual_proof": "The title cards in the clips explicitly show this progression: Clip 1 shows 'FIRST UP: elephant ears'. Clip 2 shows 'NEW PLAN: lace cookies'. Clip 3 shows 'LAST UP: steak sandwiches'. Clip 4 shows 'FINALLY: taste test', with the presenter standing behind plates of the previously mentioned food items, confirming the sequence."
+    },
+    {
+        "question": "Across the elephant-ears segment, what tool is used to roll dough and what appliance is later used to toast pastry pieces?",
+        "answer": "A rolling pin is used to roll the dough, and a toaster is used to toast the pastry pieces.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            4,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 3 introduces elephant ears with baking tools laid out including a rolling pin and a toaster present. Step 2: Slice 4 shows dough being rolled with a rolling pin and cut into strips. Step 3: Slice 17 shows puff pastry being cut and placed into a toaster to toast. Conclusion: Rolling pin for dough prep; toaster for toasting the pastry pieces.",
+        "logic_check_reasoning": "Step 1: Slice 3 opens the elephant-ears segment and notes the presence of a rolling pin and a toaster on the counter. Step 2: Slice 4 explicitly states the woman rolls out dough with a rolling pin and shows a toaster on the counter. Step 3: Slice 17 shows pastry pieces being placed into a toaster and later retrieved toasted, confirming the toaster is used to toast the pastry pieces. Logic holds because the segment context and actions align across slices.",
+        "visual_proof": "In Clip 2 (0:08), the woman is clearly seen using a wooden rolling pin to flatten the dough on the counter. In Clip 3 (0:06, 0:07, 0:08), she is shown placing cut pastry pieces into the slots of a silver four-slot toaster and later removing them with tongs after they have been toasted."
+    },
+    {
+        "question": "How does the cooking method progress from preparing lace-cookie mixture in a pot and baking it to later making chocolate-covered strawberries without a stove?",
+        "answer": "She bakes the lace-cookie mixture in the oven, then later melts chocolate using a hairdryer instead of a stove or microwave.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            21,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 18 introduces the 'NEW PLAN: lace cookies' segment. Step 2: Slice 21 shows mixture cooked in a pot, poured into a lined dish, baked in an oven, and peeled from parchment. Step 3: Slice 57 shows chocolate being melted with a hairdryer to make chocolate-covered strawberries. Conclusion: The method shifts from oven-baked cookie preparation to hairdryer-melted chocolate without a stove.",
+        "logic_check_reasoning": "Step 1: Slice 18 establishes the tutorial is about lace cookies. Step 2: Slice 21 shows the woman mixing ingredients in a pot on the stove, pouring into a baking dish, and baking it in the oven, which supports the lace-cookie preparation and baking. Step 3: Slice 57 shows a later segment where she makes chocolate-covered strawberries and explicitly melts chocolate using a hairdryer, noted as a method without a stove or microwave. Logic holds because the first part involves oven baking of the lace-cookie mixture and the later part uses a hairdryer to melt chocolate without using a stove.",
+        "visual_proof": "In Clip 1 and 2, the woman prepares a lace-cookie mixture in a pot and places it on a baking sheet into a toaster oven. In Clip 3, she is shown melting chocolate chips in a bowl using a purple hairdryer, with no stove or microwave involved in that step."
+    }
+]

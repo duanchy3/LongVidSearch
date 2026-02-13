@@ -1,0 +1,208 @@
+[
+    {
+        "question": "What sponsor is shown immediately after the opening title, and which later subscription page welcomes that same brand’s subscribers?",
+        "answer": "Magellan TV; the later page says “Welcome Simple History Subscriber!”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the title card stating the show is brought to you by MAGELLAN TV. Step 2: Slice 8 shows a subscription webpage welcoming “Simple History” subscribers. Conclusion: The sponsor is Magellan TV and the later subscriber page is for Simple History.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the video begins with 'SIMPLE HISTORY' and immediately follows with 'is brought to you by MAGELLAN TV,' identifying the sponsor as Magellan TV. Step 2: Slice 8 shows a subscription webpage with a banner reading 'Welcome Simple History Subscriber!' which welcomes subscribers of the brand shown in the opening title (Simple History). Logic holds because the question asks for the sponsor after the title (Magellan TV) and the later page that welcomes the same title brand’s subscribers (Simple History).",
+        "visual_proof": "Clip 1 displays the text 'SIMPLE HISTORY is brought to you by MAGELLAN TV' with the Magellan TV logo. Clip 2 shows a webpage header that reads 'WELCOME SIMPLE HISTORY SUBSCRIBER!' directly below the Magellan TV logo, confirming the sponsorship and targeted welcome message."
+    },
+    {
+        "question": "Which two different genre pages on the same streaming platform are shown, and what are their genre headings?",
+        "answer": "A “War & Military” page and a “TRUE CRIME” page.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 2 displays a curated collection titled “War & Military.” Step 2: Slice 5 displays a curated page titled “TRUE CRIME.” Conclusion: The platform shows both War & Military and True Crime genre pages.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 describes a genre page titled \"War & Military\" with a streaming-style layout and a navigation bar including \"Explore,\" \"Genres,\" and \"Articles.\" Step 2: Evidence Slice 5 describes a Magellan streaming service page with the same navigation bar layout, specifically a genre page titled \"TRUE CRIME.\" Step 3: The shared interface elements and structure indicate both are genre pages on the same platform, and Slice 5 explicitly names the platform (Magellan). Therefore, the two genre headings shown are \"War & Military\" and \"TRUE CRIME.\"",
+        "visual_proof": "Clip 1 clearly displays the heading 'WAR & MILITARY' at the top of the page. Clip 2 clearly displays the heading 'TRUE CRIME' at the top of its page. Both clips show the same platform header 'MAGELLAN TV', confirming they are from the same streaming service."
+    },
+    {
+        "question": "In the Victorian crime story, which location is labeled with an early-morning time for the investigation, and which later title card gives a different location and time for another crime scene?",
+        "answer": "Buck’s Row, Whitechapel at 3:40 AM; later, 29 Hanbury Street, Spitalfields at about 6:00 AM.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 12 explicitly labels Buck’s Row, Whitechapel at 3:40 AM with officers investigating. Step 2: Slice 20 provides a new title card for the back yard of 29 Hanbury Street at approximately 6 A.M. Conclusion: The two labeled scenes are Buck’s Row (3:40 AM) and Hanbury Street (6 A.M.).",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12 explicitly states the scene is set in Buck's Row, Whitechapel at 3:40 AM, with police investigating a blood-covered ground, supporting the early-morning investigation location and time. Step 2: Evidence Slice 20 explicitly presents a title card: 'Back Yard of 29 Hanbury Street, Spitalfields at approximately 6 A.M.,' providing a different location and later time for another crime scene. Logic holds because both slices clearly provide the locations and times matching the proposed answer.",
+        "visual_proof": "Clip 1 displays a title card stating \"3:40 A.M. ON FRIDAY 31ST, AUGUST 1888 IN BUCK'S ROW, WHITECHAPEL\" over a crime scene with police officers. Clip 2 displays a different title card stating \"SATURDAY 8TH SEPTEMBER, 1888 BACK YARD OF 29 HANBURY STREET, SPITALFIELDS AT APPROXIMATELY 6 A.M.\", confirming the second location and time."
+    },
+    {
+        "question": "Which piece of evidence is shown as a red-stained box in an evidence room, and what specific organ is later shown inside a box as a close-up?",
+        "answer": "A red-stained cardboard box; a kidney is shown inside a box.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows investigators around a table focusing on a cardboard box with a red stain. Step 2: Slice 33 shows a red kidney model placed inside an open white box. Conclusion: The investigation focuses on a stained box, later revealed in close-up to contain a kidney.",
+        "logic_check_reasoning": "Step 1: Slice 32 describes an investigation scene in a library/archive-like evidence room, highlighting a cardboard box with a noticeable red stain as the focal point. This supports 'a red-stained cardboard box' as the piece of evidence. Step 2: Slice 33 shows a close-up of a red kidney model placed inside a white box, clearly identifying the specific organ shown as a kidney. Logic holds because the first slice establishes the red-stained box in an investigative context, and the second slice explicitly shows a kidney inside a box.",
+        "visual_proof": "In Video 1, a man opens a cardboard box stained with red marks on its exterior. In Video 2, a close-up shot shows a red, anatomically correct human kidney inside a box, next to a handwritten letter."
+    },
+    {
+        "question": "Which violent indoor crime-scene setting is shown with blood on walls and broken window glass, and which later scene shows investigators walking down a street using a flashlight beam as they search?",
+        "answer": "A room with blood-splattered walls and a broken window; later, three men walk down a street led by a flashlight beam.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 41 depicts a gruesome room (blood on walls, broken window panes) with a man inspecting. Step 2: Slice 42 shows three men walking outside with one holding a bright flashlight beam, implying continued searching/investigation. Conclusion: The indoor discovery is followed by an outdoor flashlight-led search.",
+        "logic_check_reasoning": "Step 1: Slice 41 describes a dark, eerie room with blood-splattered walls and a window with broken glass panes, matching the violent indoor crime-scene setting. Step 2: Slice 42 shows three men in formal attire walking down a street, with one leading using a bright flashlight beam, suggesting an investigative search. The proposed answer accurately restates both scenes: a blood-splattered room with a broken window, and three men walking down a street led by a flashlight beam.",
+        "visual_proof": "Clip 1 shows a dimly lit room with red blood splatters on the wall and a broken pane of glass in a multi-paned window. Clip 2 shows two police officers and a civilian walking down a dark street at night, with one officer holding a flashlight that casts a large beam illuminating their path."
+    },
+    {
+        "question": "A man is shown reacting in distress at one named crime scene location; later a mustached man stands at a door at a different named location—what are the two locations?",
+        "answer": "29 Hanbury Street, Spitalfields; and 13 Miller’s Court, off Dorset Street, Spitalfields.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 20 labels the scene as the back yard of 29 Hanbury Street, Spitalfields, where a man reacts in distress. Step 2: Slice 40 labels a later scene at 13 Miller’s Court, off Dorset Street, Spitalfields, with a mustached man at the door. Conclusion: The narrative moves from Hanbury Street to Miller’s Court.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly states the location as the back yard of 29 Hanbury Street, Spitalfields, and describes a man reacting in distress. Step 2: Slice 40 explicitly states the location as 13 Miller's Court, off Dorset Street, Spitalfields, and describes a mustached man standing at a door. Logic holds because each slice clearly names a distinct location matching the actions described in the question.",
+        "visual_proof": "Clip 1 displays text identifying the location as 'BACK YARD OF 29 HANBURY STREET, SPITALFIELDS'. Clip 2 displays text identifying the location as '13 MILLER'S COURT, OFF DORSET STREET, SPITALFIELDS'. Both locations are explicitly written on screen during their respective scenes."
+    },
+    {
+        "question": "What is the first specific London area highlighted on a map early on, and what later street name is explicitly shown when a man hands a knife to a woman?",
+        "answer": "Whitechapel in the East End; Buck’s Row.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a map of London highlighting Whitechapel/East End. Step 2: Slice 67 explicitly labels a street as “Buck’s Row, E.” during a knife handoff. Conclusion: The story situates events in Whitechapel/East End and later narrows to Buck’s Row.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 states the television shows a map of London highlighting Whitechapel, with 'East End' prominently displayed. This supports 'Whitechapel in the East End.' Step 2: Evidence Slice 67 Scene 2 describes a street labeled 'Buck's Row, E.' where the man hands a woman a knife. This explicitly supports 'Buck’s Row.' Logic holds because both details are directly mentioned in the provided slices.",
+        "visual_proof": "In Clip 1, a map of London is shown with 'WHITECHAPEL ROAD' highlighted in yellow, and the text 'EAST END' is superimposed over it. In Clip 2, the scene where the man hands a knife to the woman takes place on a street with a sign that clearly reads 'BUCK'S ROW, E.'"
+    },
+    {
+        "question": "How does the investigative focus shift from a bloodstained table under spotlights to a medical-style examination table with doctors and an official observer?",
+        "answer": "It moves from officers illuminating a bloodstained surface to a formal forensic/medical exam where doctors discuss a blood-stained covered table while an investigator and a constable watch.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            18,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a blood-stained table being examined under spotlights by uniformed figures. Step 2: Slice 18 reinforces the crime-scene discovery with two uniformed figures illuminating a large bloodstain on the ground. Step 3: Slice 50 shows a more formal medical/forensic room with two doctors pointing at a blood-stained covered table while an investigator and a constable observe. Conclusion: The narrative escalates from discovery/illumination of blood evidence to structured forensic examination.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes a bloodstained table illuminated by spotlights held by two uniformed guards/officers, establishing the initial investigative focus. Step 2: Slice 18 reinforces this initial focus by showing two dark-uniformed figures illuminating a bloodstained area with flashlights, consistent with officers highlighting evidence. Step 3: Slice 50 shifts the focus to a medical-style examination setup: two doctors in white coats gesture and point at a blood-stained covered table, while an official/investigator (black suit and hat with a clipboard) and a constable observe. Logic holds because the scenes transition from on-site illumination of blood evidence by officers to a formal forensic/medical examination led by doctors with official observers.",
+        "visual_proof": "Clip 2 (ID: 18) shows two police officers holding flashlights that illuminate a bloodstained table, establishing a crime scene investigation. Clip 3 (ID: 50) transitions to a different setting with a medical-style examination table covered in a sheet stained with blood. Around this table are two men in white coats (doctors), one taking notes, and another man in a black suit and bowler hat (official observer/investigator), with a police constable standing guard. This visual progression confirms the shift from initial illumination by officers to a formal forensic examination."
+    },
+    {
+        "question": "Which two separate time-and-place title cards identify murders in September 1888, and what is the later November 1888 location that appears afterward in the timeline?",
+        "answer": "29 Hanbury Street at about 6 A.M. on Saturday 8 September 1888, and Mitre Square at about 1:45 A.M. on Sunday 30 September 1888; later the story goes to 13 Miller’s Court on Friday 9 November 1888.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            27,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 20 provides the Hanbury Street (8 Sept 1888, ~6 A.M.) title card. Step 2: Slice 27 provides the Mitre Square (30 Sept 1888, ~1:45 A.M.) title card. Step 3: Slice 40 provides the Miller’s Court (9 Nov 1888, 10:45 A.M.) title card. Conclusion: The timeline includes two September murders and then a later November Miller’s Court event.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly shows a title card: \"Saturday 8th September, 1888 Back Yard of 29 Hanbury Street, Spitalfields at approximately 6 A.M.\" This matches the first part of the proposed answer. Step 2: Slice 27 states the scene is set on \"Sunday, 30th September 1888, at approximately 1:45 AM in Mitre Square,\" matching the second part of the proposed answer. Step 3: Slice 40 identifies a later November location: \"13 Miller's Court, off Dorset Street, Spitalfields\" on \"Friday, November 9th, 1888,\" which aligns with the proposed answer's later location and date.",
+        "visual_proof": "Clip 1 shows a title card for 'SATURDAY 8TH SEPTEMBER, 1888, BACK YARD OF 29 HANBURY STREET, SPITALFIELDS AT APPROXIMATELY 6 A.M.'. Clip 2 shows a title card for 'SUNDAY 30TH SEPTEMBER, 1888. AT APPROXIMATELY 1:45 A.M. IN MITRE SQUARE'. Clip 3 shows a title card for '10:45 A.M. ON FRIDAY 9TH NOVEMBER 1888. 13 MILLER'S COURT, OFF DORSET STREET, SPITALFIELDS.' All text is clearly legible and directly matches the original answer."
+    },
+    {
+        "question": "A top-hatted figure appears alone in a corridor early on; later a similar top-hatted, caped figure is shown in the fog holding a red knife; and later police confront him—what is the sequence of escalation?",
+        "answer": "He is first shown moving/posing mysteriously in an interior corridor, then shown armed with a red knife in the fog, and finally confronted by police at a bloody wall.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            53,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a mysterious top-hatted figure in an interior corridor, emphasizing anonymity. Step 2: Slice 53 shows a top-hatted cloaked figure in a dark street holding a red knife. Step 3: Slice 28 shows officers facing a top-hatted cloaked man holding a red knife near blood evidence. Conclusion: The narrative escalates from mysterious presence to armed threat to confrontation by police.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows a solitary, formally dressed, top-hatted figure in a minimalist corridor, moving and exiting the frame, supporting the initial mysterious interior appearance. Step 2: Slice 53 shows the same styled figure (top hat, cape/coat) alone at night holding a red knife, indicating escalation to being armed; Slice 28 further describes a foggy nighttime setting with the figure holding a red knife, supporting the 'in the fog' detail. Step 3: Slice 28 explicitly shows police confronting the man with blood on the wall behind him, matching the final confrontation at a bloody wall. The sequence—alone in corridor, then armed (with fog present in the later/night scenes), then police confrontation—is logically linked and supported.",
+        "visual_proof": "Clip 1 shows the top-hatted figure from behind, walking through a misty, arched corridor. Clip 2 shows the same figure, now facing forward in a foggy alley, holding a bloodied knife. Clip 3 shows two police officers in bowler hats confronting a blood-splattered victim against a brick wall, implying the aftermath of the figure's actions. The sequence of events visually matches the described escalation."
+    },
+    {
+        "question": "What links the knife handoff on Buck’s Row to the later close-up of a blood-stained knife with a red handle, and to the later depiction of the killer holding a red knife in an alley?",
+        "answer": "The knife is presented as a handled object (given and pocketed), then emphasized as a bloodied weapon, and finally shown in the killer’s hand in a threatening alley scene.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            67,
+            52,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 67 shows a man handing a knife to a woman and then the knife being tucked into his vest pocket. Step 2: Slice 52 shows a close-up illustration of a blood-stained knife with a red handle. Step 3: Slice 53 shows a cloaked top-hatted figure holding a red knife in an alley. Conclusion: The narrative builds from possession of a knife to its bloody symbolism to its use as an active threat.",
+        "logic_check_reasoning": "Step 1: Slice 67 shows the knife being handed on Buck’s Row and then tucked into the man's vest pocket, establishing it as a handled object. Step 2: Slice 52 presents a close-up illustration of a knife with a red handle and blood on the tip, emphasizing it as a bloodied weapon. Step 3: Slice 53 depicts a figure in a dark alley holding a red knife, framing it in a threatening context. Logic holds because each slice centers the knife and escalates its narrative role from handled to bloodied to menacingly wielded, matching the proposed answer's linkage.",
+        "visual_proof": "Clip 1 shows the man receiving a knife with a dark handle and pocketing it. Clip 2 provides a close-up of a knife with a red handle covered in blood. Clip 3 shows the shadowy killer figure holding a knife with a red handle, stained with blood, in a foggy alley. The progression from a mundane object to a bloody weapon held by the killer links all three scenes."
+    },
+    {
+        "question": "In the evidence storyline, how do the library evidence-room scene, the close-up of the kidney in a box, and the later reappearance of the kidney in a box reinforce the same clue?",
+        "answer": "Investigators examine a stained box in a library-like evidence room, the box is shown to contain a kidney, and the kidney-in-box close-up is repeated to stress its importance.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            32,
+            33,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows a group examining a red-stained box amid bookshelves and “MURDER” signage. Step 2: Slice 33 shows the box contains a kidney model. Step 3: Slice 57 repeats the kidney-in-box close-up. Conclusion: Repetition across scenes underscores the kidney package as a central piece of evidence.",
+        "logic_check_reasoning": "Step 1: Slice 32 shows men in a library/archive-like setting engaged in investigation, gathered around a table with a cardboard box featuring a noticeable red stain, indicating the box is significant evidence. Step 2: Slice 33 presents a close-up of a red kidney model inside an open box, clearly showing the contents of such a box and reinforcing that the box contains a kidney. Step 3: Slice 57 again shows a red kidney model in a box, with the focus remaining on it, indicating a repeated close-up to emphasize its importance. Logic holds because the initial investigative scene highlights the box as a key item, and subsequent close-ups reveal and then re-emphasize the kidney-in-box as the crucial clue.",
+        "visual_proof": "Clip 1 shows multiple investigators in a library setting examining a stained box. One man opens it to reveal a red organ (a kidney) and a letter. Clips 2 and 3 are identical, static close-ups of the kidney inside the box next to the handwritten letter, visually reinforcing the significance of this specific piece of evidence by repeating the shot."
+    },
+    {
+        "question": "Trace the progression of the ‘From hell’ evidence thread from its first appearance, to the evidence-room examination, to the kidney reveal, and finally to the letter’s close-up reappearance—what is the chain?",
+        "answer": "A mysterious letter is shown, investigators later study a stained evidence box, the box is revealed to contain a kidney, and the ominous letter is shown again in close-up reading “From hell.”",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            32,
+            33,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 3 introduces an old handwritten letter on a TV as part of the case atmosphere. Step 2: Slice 32 shows investigators examining a stained box as evidence. Step 3: Slice 33 reveals the organ inside the box (kidney) in close-up. Step 4: Slice 58 returns to a close-up letter beginning “From hell,” tying documents to the gruesome evidence. Conclusion: The narrative links letters and the boxed kidney as connected case artifacts.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows the first appearance of a mysterious old handwritten letter in red ink, establishing the 'From hell' evidence thread's initial presence. Step 2: Slice 32 depicts investigators in a library/archive setting examining a cardboard box with a red stain, indicating an evidence-room examination connected to the same crime/mystery context. Step 3: Slice 33 reveals the box contains a red kidney model, matching the 'kidney reveal' step. Step 4: Slice 58 presents a close-up of an aged handwritten letter explicitly beginning with 'From hell,' confirming the letter's reappearance and tying the thread together. The logic holds because each slice sequentially advances the same evidence narrative: initial letter, investigative focus on a stained box, contents of that box (kidney), and finally a close-up of the letter with 'From hell.'",
+        "visual_proof": "Clip 1 shows the initial letter with 'Yours truly, Jack the Ripper'. Clip 2 shows investigators in a library examining a stained box. Clip 3 reveals the contents of the box: a human kidney next to the letter, which begins with 'From hell'. Clip 4 provides a close-up of this same letter, clearly showing the 'From hell' heading and the handwritten text."
+    },
+    {
+        "question": "How is police involvement escalated across the early Buck’s Row lantern investigation, the backyard Hanbury Street investigation with multiple men and a body, and the later indoor medical examination with doctors and an officer?",
+        "answer": "It starts with two officers investigating blood with lanterns, expands to a larger group of police/civilians around a body at Hanbury Street, and culminates in a formal forensic/medical examination attended by doctors and a constable.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            21,
+            50,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows two officers with lanterns examining blood at Buck’s Row. Step 2: Slice 21 shows multiple men including police gathered at a bloody yard with a victim/body. Step 3: Slice 50 shows doctors and an investigator examining a blood-stained covered table with a police officer present. Step 4: Slice 62 shows three police officers around a bed with a bloodied body while a man speaks and notes are taken. Conclusion: Police presence grows from initial discovery to large-scene response to formalized forensic/official procedures.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes the early Buck’s Row scene with two police officers using lanterns to investigate blood, matching the 'two officers investigating blood with lanterns' stage. Step 2: Slice 21 shows a larger group including police officers and civilians gathered around a body near a wooden fence in an urban yard, supporting the escalation to a broader investigation with multiple men and a body (the question labels this as Hanbury Street; while not named in the slice, the visuals align). Step 3: Slice 50 depicts an indoor forensic/medical examination with two doctors, an official, and a police officer (constable), matching the 'formal forensic/medical examination attended by doctors and a constable' stage. The progression from small-scale police presence to larger group to formal examination is supported by the slices.",
+        "visual_proof": "Clip 1 shows two police officers with lanterns at a bloody scene. Clip 2 depicts a larger group, including multiple officers and civilians, gathered around a body outdoors. Clip 3 shows a formal indoor setting with two doctors and one police officer conducting an examination on a body on a table. This visual progression from minimal to expanded to formalized police involvement directly supports the answer."
+    },
+    {
+        "question": "Follow the visual track of the red-scarf woman: when is she shown crying with blood appearing on her scarf, when is she shown in conversation with a mustached man, when is she shown holding a document with a man’s hand on her shoulder, and what later location title card sets the context for a major event near that part of the story?",
+        "answer": "She is shown crying and then blood-splattered; later she calmly talks with a mustached man; later she holds a document while a man touches her shoulder; and then a major context card appears for 13 Miller’s Court, Spitalfields (Friday, Nov 9, 1888).",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            22,
+            38,
+            39,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a distressed woman with a red scarf, with blood splatters appearing on it. Step 2: Slice 38 shows the red-scarf blonde woman speaking with a mustached man outside a building. Step 3: Slice 39 shows the same red-scarf woman holding a document while a man places a hand on her shoulder. Step 4: Slice 40 provides a key contextual title card for Miller’s Court, anchoring the timeline/location near these interactions. Conclusion: The red-scarf woman is tracked across emotional trauma, discussion, documentation, and then a major named crime-location context.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows the red-scarf woman crying, with tears and blood splatters appearing on her scarf. Step 2: Slice 38 shows the same red-scarf woman speaking with a mustached man in a calm conversation. Step 3: Slice 39 shows the red-scarf woman holding a document while a man has his hand on her shoulder. Step 4: Slice 40 presents a location/date title card: London, Friday, November 9, 1888, at 13 Miller's Court, off Dorset Street, Spitalfields, which sets major contextual framing near that part of the story. The proposed answer matches these elements and sequence.",
+        "visual_proof": "Clip 1 shows the woman with blood on her scarf against a brick wall. Clip 2 shows her in conversation with a mustached man. Clip 3 shows her holding a white document with a man's hand on her shoulder. Clip 4 displays the title card for '13 MILLER'S COURT, OFF DORSET STREET, SPITALFIELDS' dated Friday 9th November 1888."
+    }
+]

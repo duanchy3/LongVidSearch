@@ -1,0 +1,15 @@
+[
+  {
+    "question": "Which island is first introduced with an aerial view and later emphasized again as having a potentially active volcano?",
+    "answer": "Saba.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      11,
+      32
+    ],
+    "reasoning_chain": "Step 1: Slice 11 shows an aerial view labeled Saba, including the short runway context. Step 2: Slice 32 later shows Saba with the text about Mt. Scenery being a potentially active volcano. Conclusion: The repeated island is Saba.",
+    "logic_check_reasoning": "Step 1: Slice 11 shows an aerial view of Saba, labeled \"SABA,\" introducing the island. Step 2: Slice 32 shows Saba again with the text \"SABA MT SCENERY POTENTIALLY ACTIVE VOLCANO,\" emphasizing its volcanic nature. Logic holds because the same island, Saba, is first introduced via aerial view and later highlighted for being potentially active volcanically.",
+    "visual_proof": "In the first clip, the island 'SABA' is introduced with an aerial view at 0:02. In the second clip, the same island is shown again at 0:25 with the text 'SABA MT SCENERY POTENTIALLY ACTIVE VOLCANO', confirming it is the island being referenced in both instances."
+  }
+]

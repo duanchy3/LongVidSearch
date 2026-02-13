@@ -1,0 +1,43 @@
+[
+  {
+    "question": "Two different weapon-tech illustrations feature a cage attachment. Which pistol model is explicitly labeled with a catching cage, and later what is shown firing with a cage-like structure around it?",
+    "answer": "The labeled pistol is the M1911; later a silver gun with a cage-like structure is shown firing bullets.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      11
+    ],
+    "reasoning_chain": "Step 1: Slice 8 explicitly labels an 'M1911 Pistol with Extended Magazine and Catching Cage.' Step 2: Slice 11 shows a silver gun with a cage-like structure firing bullets on a black background. Conclusion: The M1911 is the labeled cage pistol, and later a caged gun is shown firing.",
+    "logic_check_reasoning": "Step 1: Slice 8 explicitly states the gun is labeled 'M1911 Pistol with Extended Magazine and Catching Cage,' confirming the pistol model with a catching cage. Step 2: Slice 11 describes a silver gun with a black handle firing bullets and having a cage-like structure around it. Logic holds because the question asks for the labeled pistol and then what is shown firing with a cage-like structure; the proposed answer matches both details.",
+    "visual_proof": "Clip 1 explicitly labels the pistol as 'M1911 PISTOL WITH EXTENDED MAGAZINE AND CATCHING CAGE' while showing a silver-colored pistol with a cage. Later in Clip 1 and repeatedly in Clip 2, the same silver M1911 with the cage is shown firing, with muzzle flashes and smoke visible, confirming the action described."
+  },
+  {
+    "question": "In one segment a man threatens another in a bedroom, and later armed figures in suits surround a woman in an urban setting. What is the common escalation element in both situations?",
+    "answer": "A firearm standoff/confrontation where one side points guns at the other person.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      49,
+      51
+    ],
+    "reasoning_chain": "Step 1: Slice 49 shows a bedroom confrontation where a second man enters aiming a rifle, forcing the first to surrender. Step 2: Slice 51 shows multiple suited figures pointing guns at a woman in a white coat and pink scarf. Conclusion: Both depict gun-based standoffs where targets are threatened at gunpoint.",
+    "logic_check_reasoning": "Step 1: Slice 49 describes a bedroom scene where another man enters holding a rifle and aims it at the first man, who raises his hands in surrender—indicating a firearm threat/standoff. Step 2: Slice 51 describes an urban scene where suited figures point guns at a central woman, indicating a confrontation/standoff with firearms. Logic holds because in both cases, guns are pointed at a person as the key escalation element.",
+    "visual_proof": "Clip 1 shows a soldier pointing a rifle at a man with raised hands in a bedroom. Clip 2 shows multiple armed figures in suits pointing handguns at a woman in an urban setting, confirming a firearm standoff in both scenes."
+  },
+  {
+    "question": "Across the video, instruction shifts between battlefield scenes and classroom-like instruction. Which later scene most clearly resembles a lecture or study moment about firearms, and what earlier scene similarly shows a character studying a weapons manual?",
+    "answer": "The desk-and-bookshelves scene with a uniformed man holding a rifle resembles a lecture/study moment, and earlier a soldier reads the 'Soviet Manual of Arms' in a tent.",
+    "category": "Visual_Tracking",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      57,
+      89,
+      90,
+      59
+    ],
+    "reasoning_chain": "Step 1: Slice 57 shows an indoor desk scene with bookshelves and a man in uniform holding a rifle, implying instruction/lecture. Step 2: Slice 89 shows a soldier reading 'Soviet Manual of Arms' in a tent beside a bayoneted rifle. Step 3: Slice 90 shows another instructional handoff of 'The Kalashnikov Manual' to an elderly man examining a rifle. Step 4: Slice 59 presents labeled stance/technique illustrations, reinforcing the instructional framing. Conclusion: The lecture-like scene is the uniformed man at a desk with books, and the earlier study moment is the soldier reading the Soviet manual.",
+    "logic_check_reasoning": "Step 1: Slice 57 describes a later indoor scene with a man in a military uniform seated at a desk with bookshelves, holding a rifle, and the atmosphere is described as academic or instructional, suggesting a lecture or demonstration. Step 2: Slice 89 describes an earlier scene in a tent where a soldier is reading a book titled 'Soviet Manual of Arms,' clearly indicating studying a weapons manual. Step 3: These directly match the proposed answer’s identification of the later lecture/study scene and the earlier manual-reading scene.",
+    "visual_proof": "Clip 1/4 shows a man in uniform at a desk with bookshelves, assembling a rifle, which fits the 'lecture or study moment' description. Clip 2/4 shows a soldier in a tent reading a book explicitly titled 'SOVIET MANUAL OF ARMS', directly confirming the 'earlier scene' detail. Both scenes are visually present and accurately described in the original answer."
+  }
+]

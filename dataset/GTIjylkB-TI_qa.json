@@ -1,0 +1,126 @@
+[
+    {
+        "question": "What is the key problem shown on a phone screen, and what planned goal in the handwritten to-do list would that problem likely interfere with?",
+        "answer": "An account is blocked; it could interfere with finding 15–30 guests for the party.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a phone alert stating an account has been blocked. Step 2: Slice 12 shows a “72 Hour To-Do List” that includes “Find 15–30 Guests.” Conclusion: If their account is blocked, it would likely make recruiting guests harder.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly shows a phone alert stating an account has been blocked and provides options to request removal, confirming the key problem is a blocked account. Step 2: Slice 12 shows a handwritten 72 Hour To-Do List that includes the item \"Find 15-30 Guests.\" Step 3: It is reasonable that a blocked account would likely interfere with efforts to find or recruit 15–30 guests (e.g., via an app), aligning the problem with that specific to-do item. While the answer mentions \"for the party,\" the core goal \"Find 15–30 Guests\" is directly supported by the text.",
+        "visual_proof": "Clip 1 shows a phone screen with a message: 'This account has been blocked for violations such as harassment, malicious marketing, or fraud.' Clip 2 displays a handwritten to-do list titled '72 Hour To-Do List' with the item 'Find 15-30 Guests' checked off. The blocked account, likely used for communication or social media outreach, would logically hinder efforts to find and coordinate with guests."
+    },
+    {
+        "question": "Which repeated setting detail ties together the outdoor conversations where a brown-jacket man appears, and what logo is visible behind them?",
+        "answer": "They’re outside a building with panda-themed signage; a panda logo/design is visible behind them.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows two men outside with a glass wall featuring a panda design. Step 2: Slice 21 again shows two men outside with a panda logo sign in the background. Conclusion: The repeated location cue is panda-themed signage/logos.",
+        "logic_check_reasoning": "Step 1: Slice 20 describes an outdoor conversation with a man in a brown jacket, and notes a glass wall with a panda design behind them. Step 2: Slice 21 also shows an outdoor conversation with a man in a brown jacket and mentions a sign with a panda logo in the background. Logic holds because both slices feature the brown-jacket man outdoors with panda-themed imagery visible behind them, indicating a repeated setting detail and the specific logo.",
+        "visual_proof": "In both clips, the outdoor setting consistently features a white building facade with a prominent, illuminated sign depicting a stylized panda face. This logo is positioned directly behind the men during their conversation, serving as a clear and repeated visual anchor for the location."
+    },
+    {
+        "question": "What does the invitation message ask for in the office promotion, and what is the exact question printed later on a handheld sign while walking down the street?",
+        "answer": "The invitation message asks if someone wants to come to their party; later, the sign held while walking down the street asks, 'Can the party be at your house?'",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows office promotion using a laptop and sign asking if someone wants to come to their party. Step 2: Slice 25 shows a street sign explicitly reading “Can we host a party at your house?” Conclusion: The invitation evolves from asking people to come to a party to asking for a house to host it.",
+        "logic_check_reasoning": "Step 1: Slice 14 states a laptop displays a message asking if someone wants to come to their party, and a sign with a similar message in the office. This supports the first part of the answer. Step 2: Slice 25 explicitly quotes the handheld sign while walking down the street: 'Can we host a party at your house?' This matches the second part of the answer exactly. Logic holds because both parts are directly described in the provided slices.",
+        "original_text_answer": "It asks if someone wants to come to their party; later the sign asks, “Can we host a party at your house?”",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the laptop screen clearly displays the text 'DO YOU WANT TO COME TO OUR PARTY?'. Later in Clip 1 and again in Clip 2, a blue printed sign is shown with the exact text 'CAN THE PARTY BE AT YOUR HOUSE?'. The original answer incorrectly states the latter question as 'Can we host a party at your house?', which is not what is visually printed on the sign."
+    },
+    {
+        "question": "What item list is shown as the plan for the next phase, and what later activity suggests they start setting up the home to host people?",
+        "answer": "A “72 Hour To-Do List” (including finding a stranger’s house and 15–30 guests); later they assemble furniture/make a bed and bring in a large plant to set up the space.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 12 presents a 72-hour plan to find a host house and guests. Step 2: Slice 46 shows home-setup tasks like assembling a chair, making a bed, and moving a large plant indoors. Conclusion: The plan is the to-do list, and the setup activity indicates preparing the venue for hosting.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows a close-up of a paper titled '72 Hour To-Do List' with items 'Find a Stranger's House' and 'Find 15-30 Guests,' supporting the first part of the answer. Step 2: Slice 46 details later activities including assembling furniture (a white chair), making a bed, and delivering a large potted plant, as well as a living room setup, which collectively suggest they are preparing a home to host people. The proposed answer cites assembling furniture/making a bed and bringing in a large plant, which are directly depicted in Slice 46. Logic holds because the initial plan to find a house and guests is followed by activities that set up the space to accommodate people.",
+        "visual_proof": "Clip 1 shows a crumpled paper titled '72 Hour To-Do List' with checkboxes for 'Find a Stranger's House' and 'Find 15-30 Guests'. Clip 2 visually confirms the setup phase: men are assembling white stools and wooden bed frames, making a bed, and bringing in a large potted plant into the living room, indicating preparation for hosting."
+    },
+    {
+        "question": "After someone declines the invitation in an office, what later outcome shows that at least one stranger accepts the invitation?",
+        "answer": "A man on a bench says he’d enjoy the party very much.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows an office worker politely declining: “I can’t make it.” Step 2: Slice 18 shows a street interaction where a man on a bench responds positively and says he would enjoy the party very much. Conclusion: Despite an early refusal, later they secure an acceptance.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows an office scene where Person 2 invites Person 1 to a party, and Person 1 declines (“I can’t make it”). Step 2: Slice 18 shows a man inviting strangers in an Asian city, and a man sitting on a bench explicitly responds positively, saying he would enjoy the party very much. Logic holds because the later slice provides evidence that at least one stranger accepts the invitation after the initial decline in the office.",
+        "visual_proof": "In Clip 1, a man in an office is asked to a party and declines. In Clip 2, later in the video, a different man sitting on a bench outside is shown being asked the same question, and he responds with 'I would enjoy this party very much,' as seen in the subtitle at 0:11."
+    },
+    {
+        "question": "Which book appears as a prop earlier during a warm reunion and is later held up again by someone speaking directly to the camera in a cozy room?",
+        "answer": "“Talk to Strangers.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 2 includes a scene where someone holds up the book titled “Talk to Strangers.” Step 2: Slice 55 shows a man in a cozy room holding up the same book while addressing the camera. Conclusion: The recurring book is “Talk to Strangers.”",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 describes a cozy living room with a warm reunion where one of the men holds up a book titled 'Talk to Strangers.' Step 2: Evidence Slice 55 shows a man speaking directly to the camera in a cozy room and holding up a book titled 'Talk to Strangers' by Matt D'Avella. Logic holds because the same book title appears in both the earlier reunion scene and the later direct-to-camera scene.",
+        "visual_proof": "In Video 1 (clip ID: 55), at timestamp 0:09, a person is shown holding the book 'Talk to Strangers' by Matt D'Avila during what appears to be a warm reunion scene. Later, in Video 2 (clip ID: 2), at timestamp 0:35, the same book is held up again by a man speaking directly to the camera in a cozy room setting."
+    },
+    {
+        "question": "What earlier concern about space is stated during a street conversation, and what later scenes show that they still end up hosting a sizable indoor gathering?",
+        "answer": "Someone says “My house is too small”; later scenes show many guests gathered in a home party setting.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            52,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 17 includes the subtitle “My house is too small,” expressing a space limitation. Step 2: Slice 52 shows a lively home gathering with multiple adults and children arriving and mingling. Step 3: Slice 70 shows a packed room where a man addresses a group during the party. Conclusion: Despite the ‘too small’ concern, they later host a sizable gathering.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows a street conversation with the subtitle explicitly stating, \"My house is too small,\" indicating a concern about limited space. Step 2: Slices 52 and 70 depict a lively indoor home gathering with many attendees, decorations, food, and people addressing a crowd—clearly a sizable party. Logic holds because the early concern about a small house is followed by scenes of hosting many guests indoors.",
+        "visual_proof": "In Video 1, a woman sitting on a bench states via subtitle, 'My house is too small.' In Videos 2 and 3, the same man from Video 1 is seen inside a well-lit, decorated home with numerous guests, including children, interacting, eating, and celebrating. The crowded indoor scenes clearly depict a sizable gathering, visually contradicting the earlier concern about space."
+    },
+    {
+        "question": "Which chain of events shows them recruiting a host from the street and then depicting the home’s interior spaces (living room and bedroom) before the gathering fills up?",
+        "answer": "They befriend a bicyclist and enter an apartment, then show the bedroom and living room, and later the home becomes crowded with guests.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            28,
+            29,
+            30,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows a street interaction leading to entering an apartment building and going inside. Step 2: Slice 29 shows a bedroom interior with a large bed. Step 3: Slice 30 shows a family living room interior with children and a man pointing things out. Step 4: Slice 52 shows many people arriving and mingling in a home party setting. Conclusion: Street recruitment leads to an apartment; its rooms are shown, then it fills with guests.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows a man on the street interacting with a bicyclist, then they walk together to an apartment and go inside, which supports the idea of recruiting/connecting with a host from the street and entering a home. Step 2: Slice 29 depicts a bedroom interior, aligning with showing the home’s bedroom. Step 3: Slice 30 depicts a living room interior, aligning with showing the home’s living room. Step 4: Slice 52 shows a lively gathering with many attendees in a home, supporting the claim that later the home fills up with guests. Logic holds because the slices collectively depict meeting someone outside, entering a home, showing interior spaces (bedroom and living room), and then a fuller gathering scene.",
+        "visual_proof": "Clip 1 shows the group interacting with a man on a bicycle at a crosswalk, who then leads them to an apartment building. Clip 2 shows the interior of a bedroom. Clip 3 shows the family in the living room, which is initially empty except for the hosts and children. Clip 4 depicts the same living room now filled with numerous guests, indicating a gathering has taken place after the initial tour."
+    },
+    {
+        "question": "How does the video show the party becoming more formal/performative over time, from casual mingling to a highlighted performer, and what clothing signals the performer’s distinct role?",
+        "answer": "It moves from general mingling and speeches to a standout performance; the performer wears a formal black suit with a white shirt.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            63,
+            70,
+            75,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 63 shows general socializing in a cozy party setting. Step 2: Slice 70 shows a person addressing the group, indicating a more organized moment. Step 3: Slice 75 shows animated storytelling/gesturing among guests. Step 4: Slice 76 highlights a central figure performing/monologuing while wearing a formal black suit, contrasting with casually dressed attendees. Conclusion: The party shifts toward a more performative, structured highlight led by a suited performer.",
+        "logic_check_reasoning": "Step 1: Slice 63 describes a cozy, casual gathering with people mingling and conversing, indicating an informal start. Step 2: Slice 70 shows a man in a striped shirt addressing the group, possibly giving a speech, signaling a shift toward performative elements. Step 3: Slice 75 depicts the same striped-shirt figure gesturing animatedly, telling a story, reinforcing the emerging performative aspect while still casual. Step 4: Slice 76 introduces a central figure in a formal black suit with a white shirt delivering a humorous monologue, with the audience laughing and clapping, clearly highlighting a performer and a more formal/performative tone. The clothing detail (formal black suit with white shirt) explicitly signals the performer’s distinct role.",
+        "visual_proof": "The video begins with casual mingling in a kitchen (Clip 1) and a group listening to a speech (Clip 2). Later, a man in a distinct black suit and white collared shirt enters (Clip 4), performs magic tricks for an attentive, seated audience, and becomes the clear center of attention, signaling a shift to a more performative event. His formal attire contrasts sharply with the casual clothes of the other guests."
+    }
+]

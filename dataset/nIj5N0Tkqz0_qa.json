@@ -1,0 +1,98 @@
+[
+    {
+        "question": "How is the JR Joban Line recovery story told from planning to construction challenges to ceremonial reopening?",
+        "answer": "It shows relocation/planning diagrams for areas along the line, then depicts large construction sites and tunnel-building challenges, and finally shows a formal Dec. 2016 ribbon-cutting for the line’s reopening.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            41,
+            46,
+            47,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows a relocation plan diagram referencing the JR Joban Line and residential areas. Step 2: Slice 46 shows an aerial view of a major construction site near a tunnel entrance. Step 3: Slice 47 shows a JR East representative explaining tunneling difficulties due to soft soil and its importance for resuming operations. Step 4: Slice 50 shows the ceremonial ribbon-cutting for the JR Joban Line reopening (Dec. 2016). Conclusion: The narrative moves from planning to heavy construction/tunneling to reopening ceremony.",
+        "logic_check_reasoning": "Step 1: Slice 41 shows a relocation plan diagram labeled with 'JR Joban Line' and 'Residential area,' indicating the planning phase. Step 2: Slice 46 shows an aerial view of a construction site near a tunnel entrance with machinery, and Slice 47 features a JR East representative explaining tunneling challenges due to soft soil—these support construction challenges. Step 3: Slice 50 depicts a ribbon-cutting ceremony and train arrival for the JR Joban Line in Dec. 2016, clearly marking the ceremonial reopening. Logic holds as the slices sequentially cover planning, construction challenges, and reopening.",
+        "visual_proof": "Clip 1 displays a diagram labeled 'Relocation plan' showing the JR Joban Line's new route. Clip 2 shows an aerial view of a major construction site with heavy machinery and a tunnel entrance. Clip 3 features an engineer from JR East discussing the difficulty of tunneling through soft soil. Clip 4 shows a ribbon-cutting ceremony dated 'Dec. 2016' followed by a train running on the newly opened line."
+    },
+    {
+        "question": "Which railway line is shown being welcomed back by crowds, and in what later scene is its reopening marked by a ribbon-cutting ceremony (with a specific date)?",
+        "answer": "The JR Joban Line; its reopening is marked by a ribbon-cutting ceremony in Dec. 2016.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows banners saying “Welcome back Joban Line!” at a station celebration. Step 2: Slice 50 shows a formal ribbon-cutting for the JR Joban Line with the date Dec. 2016. Conclusion: Both scenes refer to the JR Joban Line and the dated reopening ceremony.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 explicitly mentions a banner reading 'Welcome back Joban Line!', indicating the railway line welcomed back by crowds is the Joban Line. Step 2: Evidence Slice 50 specifies a ribbon-cutting ceremony for the JR Joban Line, with the date 'Dec. 2016' shown on screen, marking its reopening in that later scene. Logic holds because both slices consistently identify the JR Joban Line and provide the specific date for the ribbon-cutting ceremony.",
+        "visual_proof": "Clip 1 (0:00-0:03) shows a banner with Japanese text 'おかえり常磐線' ('Welcome back Joban Line!') and an English subtitle confirming 'Welcome back Joban Line!', identifying the line. Clip 2 (0:00) shows a ribbon-cutting ceremony with a sign reading 'JR常磐線相馬～浜吉田間運転再開記念式典' ('JR Joban Line Soma-Hamayoshida Section Reopening Commemoration Ceremony'), dated 'Dec. 2016', directly linking the ceremony to the line's reopening."
+    },
+    {
+        "question": "A man in a white shirt instructs students inside a train—what disaster-related infrastructure damage does he point out, and what group is shown receiving instruction inside the train?",
+        "answer": "He points out a floodgate whose top is bent from the tsunami, and the group receiving instruction is students in school uniforms on the train.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows students boarding a train and listening to an instructor in a white shirt and glasses. Step 2: Slice 16 shows the instructor discussing the tsunami and highlighting a floodgate bent by it while the car is filled with students. Conclusion: The instruction is given to students, and the highlighted damage is the tsunami-bent floodgate.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly states, “Do you see how the top of that floodgate is slightly bent? It was damaged by the tsunami,” indicating disaster-related infrastructure damage (a floodgate bent by a tsunami). Step 2: Slice 15 shows students in school uniforms on a train receiving instructions from a man in a white shirt; Slice 16 also shows a man in a white shirt and tie speaking to young people in school uniforms inside a train. Logic holds because both slices consistently depict the group as students in school uniforms on a train being instructed by a man in a white shirt, and Slice 16 provides the floodgate detail.",
+        "visual_proof": "In Video 2 (0:00-0:02), an exterior shot shows a large floodgate with a visibly bent top, and subtitles confirm it was 'damaged by the tsunami.' In both Video 1 and Video 2, a man in a white shirt is seen inside the train instructing students wearing school uniforms (sailor-style and dark jackets). The text overlay in Video 1 identifies the setting as a 'Disaster Education Train,' confirming the context of the instruction."
+    },
+    {
+        "question": "Which organization is shown holding a formal meeting about the JR Kesennuma Line, and what kind of local briefing format is shown for residents about a proposed construction segment?",
+        "answer": "Japan’s Ministry of Land, Infrastructure, Transport and Tourism; residents attend a tatami-room briefing with a screen showing a map of a proposed 2.1 km construction segment.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            33,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows the Ministry of Land, Infrastructure, Transport and Tourism hosting a formal meeting (Dec. 2015) discussing the JR Kesennuma Line. Step 2: Slice 29 shows residents in a tatami-room briefing watching a presentation map for a proposed 2.1 km construction. Conclusion: National-level ministry meetings and local resident briefings both appear, with the latter shown in a traditional tatami setting with map presentation.",
+        "logic_check_reasoning": "Step 1: Slice 33 explicitly shows the exterior signage of the 'Ministry of Land, Infrastructure, Transport and Tourism' and a formal meeting inside, with subtitles indicating discussion related to the JR Kesennuma Line, supporting that this organization is holding the meeting. Step 2: Slice 29 describes an indoor local briefing in a tatami-mat room with shoji screens, low tables, and a screen displaying a map of a proposed construction plan along the JR Kesennuma Line, specifically noting a 2.1 km stretch, matching the described format for residents. Logic holds because Slice 33 identifies the organization and the meeting context, while Slice 29 details the resident briefing format and content.",
+        "visual_proof": "Clip 1 opens with the exterior of the 'Ministry of Land, Infrastructure, Transport and Tourism' building and then shows an indoor conference labeled 'Conference regarding the JR Kesennuma Line'. Clip 2 shows a briefing in a room with tatami mats and low tables, labeled 'JR briefing for local residents', followed by a slide showing a map titled 'Proposed construction' with a highlighted section marked 'L=2.1km'."
+    },
+    {
+        "question": "What is the line shown operating peacefully at a station in Miyagi Prefecture before the disaster, and what other segment elsewhere in the video shows extensive March 2011 destruction of rail-related infrastructure for contrast?",
+        "answer": "The JR Kesennuma Line is shown operating peacefully before the disaster, and another segment shows March 2011 destruction with debris and damaged tracks/structures.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows JR Kesennuma Line station scenes “before the Great East Japan Earthquake.” Step 2: Slice 37 contrasts pre-quake aerial views with March 2011 destruction, including damaged buildings and train cars on their sides. Conclusion: A calm pre-disaster rail scene is contrasted with explicit post-disaster destruction footage.",
+        "logic_check_reasoning": "Step 1: Slice 26 explicitly identifies the JR Kesennuma Line in Miyagi Prefecture and describes it operating peacefully before the earthquake. Step 2: Slice 37 describes another segment showing March 2011 earthquake aftermath with extensive destruction of rail-related infrastructure, including damaged tracks, train cars on their sides, and a damaged station. Logic holds because the first part confirms the specific line and location, and the second part provides the contrasting post-disaster rail destruction elsewhere in the video.",
+        "visual_proof": "Clip 1 (0:00-0:03) clearly displays a train at a station with an on-screen graphic identifying it as the 'JR Kesennuma Line' in 'Miyagi Pref.' under the text 'Before the Great East Japan Earthquake'. Clip 1 (0:04-0:09) and Clip 2 (0:13-0:18) show scenes labeled 'March 2011', depicting widespread devastation including destroyed buildings, twisted and broken railway tracks, collapsed bridges, and derailed train cars, providing a direct visual contrast to the pre-disaster scenes."
+    },
+    {
+        "question": "Which segment shows a restricted zone sign connected to the nuclear disaster, and how is that restriction visually linked to a nearby rail corridor?",
+        "answer": "The restricted zone sign appears near the Fukushima Daiichi area, and it is linked by shots of railway tracks running parallel to the road immediately after the sign is shown.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            53,
+            54,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 53 shows the Fukushima Daiichi Nuclear Power Plant and then a restricted zone sign due to radiation. Step 2: Slice 54 shows a ‘Restricted Zone’ sign and then railway tracks running parallel to the road. Step 3: Slice 36 situates the JR Joban Line geographically along the coast with map overlays. Conclusion: The nuclear-disaster restriction is connected to the rail corridor visually via the sign and parallel tracks, within the broader rail geography shown.",
+        "logic_check_reasoning": "Step 1: Slice 53 explicitly shows a restricted zone sign due to radiation concerns and places it in the context of the Fukushima Daiichi Nuclear Power Plant, connecting the sign to the nuclear disaster. Step 2: Slice 54 states the video starts with a restricted zone sign and then pans to railway tracks running parallel to the road, visually linking the restriction to a nearby rail corridor. Logic holds because the nuclear disaster connection comes from Slice 53, and the immediate visual linkage to the rail corridor is described in Slice 54.",
+        "visual_proof": "In Clip 1, a yellow sign with Japanese text reading '帰還困難区域' (Difficult-to-Return Zone) is shown next to a road, with a subtitle confirming 'Restricted zone'. In Clip 2, the video immediately transitions to a view of railway tracks running alongside a road, visually connecting the restricted zone signage to the rail corridor. The sequence implies proximity and linkage between the nuclear disaster zone and the railway infrastructure."
+    },
+    {
+        "question": "How does the documentary show the transition from damaged rail infrastructure to large-scale civil engineering work, culminating in a renewed rail service milestone?",
+        "answer": "It shows broken or devastated infrastructure from 2011, then depicts major construction sites including tunnel works and heavy equipment, and finally shows a dated reopening ceremony for rail service resumption.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            37,
+            44,
+            48,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows March 2011 destruction including damaged tracks and overturned train cars. Step 2: Slice 44 shows an active large construction site with machinery and workers. Step 3: Slice 48 shows tunnel construction with heavy machinery and workers reinforcing tunnel walls. Step 4: Slice 50 shows the JR Joban Line reopening ceremony (Dec. 2016) and train operation. Conclusion: The documentary links disaster damage to intensive rebuilding work to the reopening milestone.",
+        "logic_check_reasoning": "Step 1: Slice 37 explicitly shows the rail area post-March 2011 earthquake with damaged tracks, train cars on their sides, and a ruined station, supporting 'broken or devastated infrastructure from 2011.' Step 2: Slices 44 and 48 depict large-scale civil engineering work: a bustling construction site with heavy machinery and cranes (Slice 44) and a tunnel under construction with excavators and drills (Slice 48), matching 'major construction sites including tunnel works and heavy equipment.' Step 3: Slice 50 shows a formal, dated (Dec. 2016) reopening ceremony for the JR Joban Line, including ribbon-cutting and train arrival, clearly indicating 'a reopening ceremony for rail service resumption.' Logic holds because the slices collectively present a progression from damage, through reconstruction, to renewed service.",
+        "visual_proof": "Clip 1 visually documents the destruction of rail infrastructure in March 2011, showing a derailed train and flooded areas. Clip 2 and Clip 3 show active, large-scale civil engineering work with heavy machinery, workers, and tunnel construction. Clip 4 shows a formal ribbon-cutting ceremony dated December 2016, followed by a modern train operating on newly built elevated tracks, indicating the milestone of renewed service."
+    }
+]

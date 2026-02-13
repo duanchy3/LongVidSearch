@@ -1,0 +1,113 @@
+[
+    {
+        "question": "Which single letter appears as a logo on a teal USB drive and also appears as a small floating icon near the phone in a smartphone animation?",
+        "answer": "The letter S.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a floating teal circle icon with a white 'D' near the smartphone. Step 2: Slice 8 shows a turquoise USB drive with a circular logo containing a stylized 'D.' Conclusion: The repeated logo letter is D.",
+        "logic_check_reasoning": "Step 1: Slice 4 states that a small, floating teal circle with a white 'D' appears near the phone in the smartphone animation. Step 2: Slice 8 states that the USB drive has a circular logo on its side that appears to be a stylized letter 'D'. Step 3: Both slices explicitly mention the letter 'D' in the described locations, so the logic holds.",
+        "original_text_answer": "The letter D.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1, a small teal circular icon with a white stylized 'S' floats near the top right of the smartphone screen. In Video 2, the same stylized white 'S' logo is prominently displayed on the side of the teal USB drive-like object."
+    },
+    {
+        "question": "What altitude value appears both in the high-altitude capsule display and in the horizon/eye-level diagrams featuring a balloon labeled with a person’s name?",
+        "answer": "127,520 feet.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows an altitude readout of 127,520 feet in the capsule. Step 2: Slice 41’s diagram labels the balloon scenario at 127520 feet. Conclusion: The common altitude is 127,520 feet.",
+        "logic_check_reasoning": "Step 1: Slice 32 explicitly states the capsule's on-screen data displays indicate the current altitude as 127,520 feet. Step 2: Slice 41 describes a diagram with a hot air balloon labeled 'Felix' at an altitude of 127,520 feet. Logic holds because both slices mention the same altitude value in their respective contexts.",
+        "visual_proof": "In Video 1, the digital display inside the capsule clearly shows the altitude as '127,520 ft'. In Video 2, the diagram features a hot air balloon with the text 'FELIX @ 127520 FT' next to it. The value '127,520' is identical in both clips, confirming it appears in both contexts."
+    },
+    {
+        "question": "What is the main presenter’s visual setting that ties the sponsor URL segment to the later discussion of a distance/curvature calculator?",
+        "answer": "He presents in front of a space-themed Earth-from-orbit backdrop in a studio with shelves.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the presenter with the Earth-from-space backdrop and shelves while a sponsor URL/code appears. Step 2: Slice 40 shows a calculator demo then returns to the same style of presenter setup with Earth backdrop and shelves. Conclusion: The common setting is the space-themed Earth-backdrop studio.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes the sponsor URL segment, showing a man in a hoodie in front of an Earth-from-space backdrop within a studio/office that has shelves with various items. Step 2: Slice 40 describes the later discussion of a distance/curvature calculator, again showing the man speaking against a backdrop featuring a large image of Earth from space with shelves containing items. Logic holds because both slices depict the same visual setting (space-themed Earth backdrop and shelves in a studio), tying the sponsor segment to the calculator discussion.",
+        "visual_proof": "In both clips, the presenter is consistently shown against the same background: a large image of the Earth as seen from space, set against a starry sky. To his left (viewer's right), there are dark shelves holding various items like books and a YouTube Creator Award. This identical setting visually connects the segment where the sponsor URL appears (Clip 1) to the later discussion involving the calculator (Clip 2)."
+    },
+    {
+        "question": "Which two different “space race” companies are discussed via a news webpage that first focuses on one billionaire’s company and later highlights another company’s achievements?",
+        "answer": "Blue Origin and SpaceX.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            51,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows a Guardian article about Jeff Bezos’s Blue Origin failing to dominate the space race. Step 2: Slice 54 shows Guardian text highlighting SpaceX accomplishments. Conclusion: The two companies are Blue Origin and SpaceX.",
+        "logic_check_reasoning": "Step 1: Slice 51 describes a Guardian article explicitly focused on Jeff Bezos's company, Blue Origin, discussing its challenges in the billionaire space race. Step 2: Slice 54 shows a Guardian webpage that highlights the achievements of SpaceX, detailing its orbital booster landings, satellite production, and missions carrying astronauts. Logic holds because the two slices clearly reference two different companies discussed on Guardian webpages: first Blue Origin, then SpaceX.",
+        "visual_proof": "Clip 1 shows a Guardian article titled 'How did Jeff Bezos’s Blue Origin fail to dominate the billionaire space race?', explicitly naming Blue Origin. Clip 2 displays the continuation of the same article, which states, 'In actuality, there is SpaceX - and everyone else,' and proceeds to list SpaceX's achievements, directly contrasting it with Blue Origin."
+    },
+    {
+        "question": "Which creator-brand title appears at the start as text and later returns as a dedicated animated logo card?",
+        "answer": "Sci Man Dan.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 2 displays the text 'Sci Man Dan Flat Earth Fridays.' Step 2: Slice 63 shows an animated 'Sci Man Dan' logo/title card. Conclusion: The recurring creator-brand is Sci Man Dan.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the video begins with white text reading 'Sci Man Dan Flat Earth Fridays,' which contains the creator-brand title 'Sci Man Dan.' Step 2: Slice 63 describes a stylized animated logo card explicitly featuring the text 'Sci Man Dan' as a brand identity. Logic holds because the same creator-brand title appears first as on-screen text and later as a dedicated animated logo card.",
+        "visual_proof": "In Clip 1, the text 'Sci Man Dan' appears over a globe at 0:05. In Clip 2, this same text is displayed as part of a dedicated animated logo card, featuring the cartoon character and globe against a blue network background, confirming it returns as a logo card."
+    },
+    {
+        "question": "What chain of visuals connects online privacy/sponsorship to a specific cyber threat diagram: sponsor branding, a phishing animation, and then a labeled threat wheel?",
+        "answer": "Surfshark branding leads into a phishing/cybersecurity animation, followed by a diagram listing threats like email/password leaks and data breaches.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            6,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 3 introduces Surfshark branding alongside the presenter, implying privacy/security context. Step 2: Slice 6 visualizes phishing and stolen credentials as a danger. Step 3: Slice 11 summarizes threats (email leaks, password leaks, data breach, identity theft, hacked websites) around a protective shield. Conclusion: Sponsorship/security branding connects to phishing risks and then to a threat summary diagram.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly mentions the Surfshark logo appearing prominently, indicating sponsor branding related to online privacy/security. Step 2: Slice 6 describes an animated scene about cybersecurity and phishing, matching the 'phishing animation.' Step 3: Slice 11 shows a circular diagram (threat wheel) labeled with threats like 'EMAIL LEAKS,' 'PASSWORD LEAKS,' and 'DATA BREACH.' Logic holds because the sequence transitions from sponsor branding (Surfshark) to a phishing-focused animation and then to a labeled cybersecurity threat diagram.",
+        "visual_proof": "Clip 1 shows the Surfshark logo appearing on screen next to the speaker. Clip 2 displays an animation of red tentacles attacking digital assets like 'Banking credentials,' 'Passwords,' and 'Logins,' representing a cyber threat. Clip 3 presents a circular diagram with a central shield icon and labels for specific threats: 'EMAIL LEAKS,' 'PASSWORD LEAKS,' 'DATA BREACH,' 'IDENTITY THEFT,' and 'HACKED WEBSITES.' The sequence visually connects the sponsor brand to the general threat animation and then to the specific threat wheel."
+    },
+    {
+        "question": "How does the video build a ‘horizon calculation’ explanation from a web tool to computed numbers and then to a simplified diagram?",
+        "answer": "It shows the Earth curve calculator interface, then the calculated hidden-height result, then a diagram illustrating eye levels and the horizon distance.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            34,
+            35,
+            37,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 34 introduces a distance-to-the-horizon calculator webpage. Step 2: Slice 35 shows an Earth curve calculator with inputs including 438.2 miles. Step 3: Slice 37 shows the computed result (hidden height ~127,661 ft) from that calculator setup. Step 4: Slice 41 presents a simplified diagram comparing eye levels (ground vs balloon at 127,520 ft) and explaining the horizon distance. Conclusion: The explanation progresses from tool → inputs → numerical output → conceptual diagram.",
+        "logic_check_reasoning": "Step 1: Slice 34 shows a web tool (Distance to the Horizon Calculator) being demonstrated, establishing the use of an online calculator interface. Step 2: Slice 35 shows the Earth Curve Calculator interface with inputs (h0=0, d0=438.2), reinforcing the web tool aspect. Step 3: Slice 37 displays computed results from the Earth Curve Calculator, including horizon distance and target hidden height, fulfilling the 'computed numbers' stage. Step 4: Slice 41 presents a simplified diagram with eye levels, horizon distance (438 miles), and hidden height values (e.g., 127661 feet), illustrating the concepts visually. The proposed answer accurately summarizes this progression: interface → calculated hidden-height result → diagram illustrating eye levels and horizon distance.",
+        "visual_proof": "Clip 2 displays the 'Earth Curve Calculator' web interface with input fields. Clip 3 shows the same interface after calculation, displaying the output 'h1 = Target hidden height 127661.6453 feet'. Clip 4 presents a simplified diagram with text labels for 'FELIX'S EYE LEVEL', 'MY EYE LEVEL', and 'THE HORIZON IS 438 MILES AWAY', visually summarizing the concept."
+    },
+    {
+        "question": "How does the video connect social media visuals to security branding by showing platform icons around a product-like object and also showing a phone interface before introducing a USB-like device with a logo?",
+        "answer": "It first shows social media icons orbiting a cylinder, then a phone social interface/keyboard, and later a turquoise USB drive with a logo—linking online platforms to security/storage branding visuals.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            9,
+            4,
+            8,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows social media icons (Facebook/Instagram/Twitter/LinkedIn) around a rotating cylinder-like branded object. Step 2: Slice 4 shows a smartphone social media interface and typing keyboard with a notification-like icon. Step 3: Slice 8 shows a turquoise USB drive with a circular logo and feature icons. Step 4: Slice 6 frames the cybersecurity risk context (phishing and stolen credentials). Conclusion: The visuals tie social platforms and messaging to devices/branding elements in a broader cybersecurity narrative.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows social media platform icons (Facebook, Instagram, Twitter, LinkedIn) orbiting a stylized cylindrical product-like object, supporting the first part of the answer. Step 2: Slice 4 shows a hand-held phone displaying a social media interface and then a keyboard, matching the phone interface/keyboard description. Step 3: Slice 8 introduces a turquoise USB-like device with a logo, aligning with the later USB drive mention. Step 4: The overall sequence links social media visuals to branded product/tech imagery; the context also contains a cybersecurity-themed segment (Slice 6), which supports the notion of security-related branding. Therefore, the proposed sequence and linkage are supported by the provided slices.",
+        "visual_proof": "Clip 1 and Clip 3 show a turquoise cylinder with a white 'S' logo, surrounded by social media icons (Facebook, Instagram, YouTube) and a globe labeled 'www'. Clip 2 shows a hand holding a smartphone displaying a social media profile that transitions into a keyboard filled with random characters, suggesting data entry or password generation. The sequence visually links social media interaction (Clip 2) with the branded security device (Clip 1 & 3), implying protection of online activities."
+    }
+]

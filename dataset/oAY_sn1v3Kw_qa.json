@@ -1,0 +1,68 @@
+[
+  {
+    "question": "Which headline about medical appointments stays consistent when it appears in a wide studio discussion and later in a close-up with a polka-dot presenter?",
+    "answer": "\"The Doctor Will See You Now... But Only for Five Minutes.\"",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      14,
+      15
+    ],
+    "reasoning_chain": "Step 1: A wide studio shot shows a front page about doctors only seeing patients for five minutes. Step 2: A close-up of a blonde woman with glasses and a black top with pink polka dots shows the same 'five minutes' headline behind her. Conclusion: The repeated headline is the 'Doctor will see you... only for five minutes' story.",
+    "logic_check_reasoning": "Step 1: Slice 14 describes a wide studio discussion with a large screen showing The Daily Telegraph front page bearing the headline: 'The Doctor Will See You Now...But Only For Five Minutes.' Step 2: Slice 15 shows a close-up of a presenter in a polka-dot top with a screen displaying the Daily Express headline: 'THE DOCTOR WILL SEE YOU NOW... BUT ONLY FOR FIVE MINUTES.' Logic holds because both slices explicitly show the same headline text (differences only in capitalization/spacing), confirming consistency across both scenes.",
+    "visual_proof": "In Clip 1, during the wide studio shot, the Daily Express front page is visible on the right side of the screen with the headline 'THE DOCTOR WILL SEE YOU NOW ...BUT ONLY FOR FIVE MINUTES'. In Clip 2, during the close-up of the blonde presenter wearing a black and purple polka-dot top, the same Daily Express front page and identical headline are displayed in the same position on the right. The text remains unchanged across both clips."
+  },
+  {
+    "question": "Which topic is shown on a newspaper front page earlier and then later appears again as a wider panel discussion topic under The Independent branding?",
+    "answer": "Violence against women / women attacked or murdered by violent partners.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      23,
+      69
+    ],
+    "reasoning_chain": "Step 1: A close-up with The Independent shows a headline about women being murdered by violent partners. Step 2: Later, the panel discusses The Independent front page about women attacked by violent partners. Conclusion: The repeated topic is violence against women by violent partners.",
+    "logic_check_reasoning": "Step 1: Slice 23 shows a Sky News Press Preview segment with The Independent's front page headline: 'No wonder so many women are being murdered by violent partners,' clearly indicating the topic of violence against women by violent partners. Step 2: Slice 69 shows another Press Preview segment with a large screen displaying The Independent's front page headline: 'Why are so many women still attacked by violent partners?' and a panel discussing the front pages, indicating the same topic reappears as a wider panel discussion under The Independent branding. Logic holds because both slices explicitly reference The Independent front pages with closely related headlines on violence against women by violent partners, first as a displayed front page and later within a broader panel discussion context.",
+    "visual_proof": "In Clip 1, the front page of The Independent is displayed with the headline 'No wonder so many women are attacked by violent partners'. In Clip 2, this same newspaper front page is shown on a large screen behind three panelists during a discussion, confirming it is the topic being discussed under The Independent branding."
+  },
+  {
+    "question": "How does the composition of the on-air group change from the early studio discussion to a later two-person desk setup featuring the bald male presenter?",
+    "answer": "It shifts from three people around a table to two presenters at a desk (the bald man and a woman) with newspapers spread out.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      12
+    ],
+    "reasoning_chain": "Step 1: Early, three people sit around a table discussing press preview. Step 2: Later, the bald male presenter appears in a two-person desk format with a female co-presenter. Conclusion: The format changes from a three-person panel to a two-presenter desk.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 3 describes an early scene with three people sitting around a table in a news studio discussing a press preview, indicating a three-person setup. Step 2: Evidence Slice 12 describes a later scene with two presenters at a desk, specifying a bald male on the left and a female on the right, confirming a two-person setup featuring the bald male presenter. Step 3: Slice 12 also notes the desk is cluttered with papers and shows newspaper front pages on screen, which aligns with the answer’s mention of newspapers being spread out, or at least papers related to newspapers. Therefore, the shift from three people at a table to two presenters (the bald man and a woman) at a desk is explicitly supported.",
+    "visual_proof": "The first clip clearly shows three individuals (one female host and two guests, including the bald male presenter) seated at a large white table. The second clip, which appears later in the same segment, shows a tighter shot of only the bald male presenter and the female guest seated at the same desk, with newspapers visible in front of them. This visual transition confirms the change in group composition as described."
+  },
+  {
+    "question": "Which three newspapers form a repeated set used to compare different angles on health-related issues, including medical appointment access and air pollution impacts?",
+    "answer": "Daily Express (five-minute appointments), The Guardian (air pollution/health), and The Times (policy headline often adjacent in the display).",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      5,
+      39,
+      20
+    ],
+    "reasoning_chain": "Step 1: A segment shows Daily Express with the five-minute appointment headline alongside other papers. Step 2: Another segment focuses on The Guardian front page about doctors considering air pollution risks. Step 3: A later wide shot shows Express, Guardian, and Times visible together during the panel discussion. Conclusion: Express, Guardian, and Times repeatedly appear as a comparative trio around health-related themes.",
+    "logic_check_reasoning": "Step 1: Slice 20 explicitly lists three newspapers shown together on the background screen: Daily Express (\"The Doctor Will See You Now... But Only for Five Minutes.\"), The Guardian (pollution/health risks), and The Times (border plans/passports). This directly matches the proposed set and links two to health-related issues. Step 2: Slice 5 again shows The Guardian (air pollution/health) and The Times (border plan/passports), indicating recurrence of these titles within the segment; it also mentions The Mirror, but the question focuses on the set that includes the health angles identified in Slice 20. Step 3: Slice 39 focuses on The Guardian’s air pollution/health story, reinforcing that health impacts are part of the discussion. Logic holds because the segment displays and discusses these newspapers; Daily Express covers medical appointment access, The Guardian covers air pollution impacts, and The Times appears alongside them in the display.",
+    "visual_proof": "The three newspapers are consistently shown across all clips. Clip 1 displays The Daily Telegraph, The Guardian, and The Times on screen. Clip 2 focuses on The Guardian's front page about air pollution and shows The Times' 'No need for a passport' headline. Clip 3 features The Daily Express with its 'THE DOCTOR WILL SEE YOU NOW...BUT ONLY FOR FIVE MINUTES' headline, alongside The Guardian and The Times. This confirms the repeated set of three papers used to compare health-related issues."
+  },
+  {
+    "question": "Which political controversy headline appears later in the program after earlier segments mostly focused on healthcare and passport-related front pages?",
+    "answer": "The headline about anger over the Prime Minister's secret Cummings meetings.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      29,
+      55
+    ],
+    "reasoning_chain": "Step 1: Earlier, the discussion prominently features healthcare and passport gender front pages. Step 2: Later, the screen switches to a political controversy headline about secret Cummings meetings. Conclusion: The later political controversy headline is 'Anger over PM's secret Cummings meetings.'",
+    "logic_check_reasoning": "Step 1: Evidence Slice 29 shows an earlier segment with the Daily Express headline about healthcare ('THE DOCTOR WILL SEE YOU NOW... BUT ONLY FOR FIVE MINUTES') and mentions other front pages like the Daily Mail ('GENDER IS THE CHOICE'), indicating non-political topics. Step 2: Evidence Slice 55 explicitly displays a newspaper headline reading 'Anger over PM's secret Cummings meetings,' which is a political controversy. Logic holds because the question asks which political controversy headline appears later; Slice 55 provides that exact headline.",
+    "visual_proof": "Clip 1 shows front pages focused on healthcare ('THE DOCTOR WILL SEE YOU NOW...') and passport issues ('GENDER CHANGE LOOPHOLE ON UK PASSPORTS'). Clip 2, which follows later in the program, displays a large screen with the headline 'Anger over PM's secret Cummings meetings', indicating this political controversy was presented after the earlier segments."
+  }
+]

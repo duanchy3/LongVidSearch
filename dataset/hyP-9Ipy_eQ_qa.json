@@ -1,0 +1,111 @@
+[
+    {
+        "question": "What is the container used for heating water earlier, and what drink is later poured into a glass cup at the table?",
+        "answer": "A samovar is used for heating water, and tea is later poured into a glass cup.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            52,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 52 shows an ornate samovar being heated with steam rising. Step 2: Slice 59 shows tea being poured from a teapot into a glass cup. Conclusion: The heated-water setup supports the later tea-serving.",
+        "logic_check_reasoning": "Step 1: Slice 52 explicitly states the man is heating water inside a samovar; steam rises from it, confirming it is the container used for heating water. Step 2: Slice 59 explicitly says the man is pouring tea from a teapot into a glass cup. Step 3: The visual details (dark shirt/T-shirt and light pants) align, suggesting continuity. Therefore, the container is a samovar and the drink poured later is tea, as supported by the captions.",
+        "visual_proof": "In Clip 1, a large, ornate metal container with a chimney-like top, characteristic of a samovar, is shown being heated with charcoal. In Clip 2, the same man pours a dark red liquid from a glass teapot (which would have been filled with concentrated tea brewed using the hot water from the samovar) into a traditional tulip-shaped glass cup, which is clearly identifiable as tea."
+    },
+    {
+        "question": "What is applied to salmon using a brush in one scene, and what powder is later sprinkled onto salmon slices in another scene?",
+        "answer": "A yellow sauce/marinade is brushed on, and flour is later sprinkled on the salmon slices.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows a brush spreading a yellow sauce over salmon fillets. Step 2: Slice 39 shows flour being sprinkled generously over sliced salmon on a plate. Conclusion: The salmon is first coated with sauce, later coated with flour.",
+        "logic_check_reasoning": "Step 1: Slice 26 explicitly states that a person uses a brush to spread a yellow sauce over salmon fillets. Step 2: Slice 39 explicitly describes a person sprinkling a generous amount of white flour over salmon slices. Logic holds because the first scene shows brushing on a yellow sauce and the later scene shows sprinkling flour, matching the proposed answer.",
+        "visual_proof": "In Clip 1, a person uses a wooden spoon to brush a thick, yellow-orange sauce onto a large fillet of salmon. In Clip 2, the same salmon, now cut into portions, is being dusted with a fine white powder from a bowl, which is clearly identifiable as flour due to its texture and common culinary use in this context."
+    },
+    {
+        "question": "What animal is shown swimming in the pond earlier, and which different animal is later shown resting near the boys during the meal?",
+        "answer": "White ducks are shown swimming earlier, and a dog is later shown resting near the boys.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows two white ducks swimming in a pond. Step 2: Slice 90 shows a dog lying on the ground near the boys at the table. Conclusion: The earlier animal is ducks, while the later resting animal is a dog.",
+        "logic_check_reasoning": "Step 1: Slice 36 states that two white ducks are swimming in a small pond at the beginning of the video. Step 2: Slice 90 describes four boys eating at an outdoor table and then shows a dog lying on the ground nearby, resting with eyes closed and tongue out. Logic holds because the first animal in the pond is clearly identified as ducks, and later a different animal (a dog) is shown resting near the boys during their meal.",
+        "visual_proof": "In Video 1 (0:00-0:02), two white ducks are clearly visible swimming in a pond. In Video 2 (0:03), a white dog with black patches is shown lying on the ground near the table where the boys are eating."
+    },
+    {
+        "question": "What tool is used to cut the fish in one earlier preparation scene, and what cutting tool is used in a later fish-prep close-up?",
+        "answer": "A knife is used in both the earlier preparation scene and the later fish-prep close-up.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a man holding a knife and cutting a fish on a wooden table. Step 2: Slice 8 shows hands using scissors to make cuts along a salmon on a cutting board. Conclusion: The cutting tool changes from knife to scissors.",
+        "logic_check_reasoning": "Step 1: Slice 7 states the man 'begins to cut the fish with the knife,' clearly indicating a knife is used in the early scene (the video begins). Step 2: Slice 8 describes a close-up where the person 'use[s] a pair of scissors to make precise cuts,' indicating scissors in the later close-up. Logic holds because the earlier scene uses a knife and the later close-up features scissors, matching the proposed answer.",
+        "original_text_answer": "A knife is used earlier, and scissors are used later.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1 (0:02-0:03), a man is clearly using a large kitchen knife to cut into the fish on the wooden table. In Video 2 (0:00-0:02), the same type of knife is being used for detailed cutting, specifically along the backbone of the fish. No scissors are visible or used in either clip."
+    },
+    {
+        "question": "What is done to the salmon before any cooking over the fire is shown, and what cooking setup is later placed over the open flames?",
+        "answer": "The salmon is seasoned first, and later a metal grill is placed over the fire.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the man sprinkling a salt-and-pepper blend over raw salmon to season it. Step 2: Slice 43 shows him carrying and placing a rectangular metal grill over an open fire pit. Conclusion: Seasoning precedes setting up the grill for cooking.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes the man preparing a seasoning blend of salt and pepper and then generously seasoning a large piece of raw salmon, ensuring it is evenly coated. Step 2: Slice 43 later shows the man placing a rectangular metal grill over an open fire pit. Logic holds because the first slice explicitly covers seasoning the salmon before any fire is shown, and the second slice explicitly shows the subsequent setup of a metal grill over the flames.",
+        "visual_proof": "In Clip 1 (0:02-0:05), a man is seen sprinkling salt from a wooden bowl onto sliced salmon on a wooden table. In Clip 2 (0:00-0:03), the same man carries a large, rectangular metal grill and places it over an open wood fire burning inside a log structure."
+    },
+    {
+        "question": "Which device screen appears alongside fish preparation earlier, and which different on-screen code appears later during garlic prep?",
+        "answer": "A smartphone showing an online shopping app appears earlier, and a QR code appears later.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a smartphone screen in the foreground displaying an online shopping app with tools and a QR code. Step 2: Slice 69 shows a smartphone screen displaying a QR code while garlic is being cut. Conclusion: The video repeatedly uses a phone screen, later emphasizing a QR code during garlic preparation.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes fish preparation and explicitly notes a smartphone screen displaying an online shopping app alongside the scene. Step 2: Slice 69, during garlic prep, states the smartphone screen displays a QR code and some text. Logic holds because the earlier segment features the device showing an app, and the later segment highlights a QR code on the screen.",
+        "visual_proof": "In the first clip (0:00-0:06), a smartphone screen displaying the 'homewild.shop' online store is visible next to the fish being prepared. In the second clip (0:02-0:05), during the garlic preparation, the same smartphone screen now displays a large QR code with a 'SCAN ME' button, replacing the previous shopping interface."
+    },
+    {
+        "question": "What is the item the man carries toward the beehives, and what does he later remove from inside a hive during inspection?",
+        "answer": "He carries a yellow bucket, and later he removes a honeycomb frame from the hive.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows the man in a yellow hat carrying a yellow bucket toward the beehives and placing it on one. Step 2: Slice 31 shows close-up hands lifting out a wooden frame filled with honeycomb and bees. Conclusion: After approaching with equipment, he proceeds to remove a honeycomb frame during inspection.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly states the man is carrying a yellow bucket toward the beehives and places it on one hive. Step 2: Slice 31 describes a beekeeper removing a wooden frame filled with honeycomb from inside a beehive during an inspection. Logic holds because both slices depict beekeeping actions in the same video; regardless of minor attire differences, the actions clearly support that he carries a yellow bucket and later removes a honeycomb frame.",
+        "visual_proof": "In Video 1 (0:01-0:02), the man is clearly seen carrying a bright yellow plastic bucket as he walks toward the beehives. In Video 2 (0:01-0:02), during the hive inspection, he is shown lifting a wooden-framed honeycomb filled with bees out of the hive box."
+    },
+    {
+        "question": "Which animal appear around the pond earlier in the video, and which different animal appears later walking through the flower garden?",
+        "answer": "Ducks appear earlier, and a black-and-white dog appears later.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            28,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows three white geese swimming in a pond. Step 2: Slice 28 shows geese walking near the pond while ducks swim. Step 3: Slice 83 shows a black-and-white dog walking through a flower garden. Conclusion: Pond birds (geese and ducks) appear earlier, and later the garden features a dog.",
+        "logic_check_reasoning": "Step 1: Slice 28 explicitly describes a pond scene with several white geese along the edge and a few ducks swimming, identifying the two animals around the pond earlier. Step 2: Slice 18 also supports the presence of geese at a pond, reinforcing the pond context. Step 3: Slice 83 describes a black-and-white dog walking through a vibrant garden filled with colorful flowers, which fits the 'later walking through the flower garden' part. Logic holds because the animals around the pond are geese and ducks, and the later garden scene features a dog.",
+        "original_text_answer": "Geese and ducks appear earlier, and a black-and-white dog appears later.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 clearly shows two white ducks with orange beaks swimming near the pond. Clip 3 shows a black-and-white dog walking through a flower garden. No geese are visible in any of the clips."
+    }
+]

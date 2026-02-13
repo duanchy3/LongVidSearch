@@ -1,0 +1,70 @@
+[
+    {
+        "question": "What item appears as a quirky set decoration early on and is later shown among several taxidermy animals on the coffee table during a discussion?",
+        "answer": "A taxidermy fox.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a taxidermy fox perched as part of the couch set decor. Step 2: Slice 35 shows multiple taxidermy animals on the coffee table including a fox. Conclusion: The recurring item is the taxidermy fox.",
+        "logic_check_reasoning": "Step 1: Slice 2 states that a taxidermy fox is perched on one of the couches as a quirky set decoration. Step 2: Slice 35 mentions that on the coffee table there are several taxidermy animals, including a fox, during a discussion. Logic holds because the fox appears first as a quirky decoration and later among multiple taxidermy animals on the coffee table.",
+        "visual_proof": "In Clip 1 (0:06-0:10), a taxidermy fox is clearly visible sitting on the left side of the black couch. In Clip 2 (0:00-0:07), the same taxidermy fox is still present on the couch, while other taxidermy animals like a bird and a squirrel are now on the coffee table for discussion. The fox serves as both an early set decoration and part of the group of specimens later in the scene."
+    },
+    {
+        "question": "Which animal is first identified on-screen by its scientific name and later appears holding a small flag that says “Sci”?",
+        "answer": "A squirrel (the American red squirrel, Tamiasciurus hudsonicus).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 6 displays the on-screen text “Tamiasciurus hudsonicus,” identifying a squirrel species. Step 2: Slice 34 shows a squirrel holding a flag labeled “Sci.” Conclusion: The animal connecting both moments is a squirrel (American red squirrel).",
+        "logic_check_reasoning": "Step 1: Slice 6 states that the text 'Tamiasciurus hudsonicus' appears on screen, indicating the species of the small animal being held, which aligns with a squirrel (American red squirrel). Step 2: Slice 34 explicitly describes a squirrel holding a small flag that says 'Sci'. Logic holds because the animal identified by its scientific name in Slice 6 (a squirrel) is later shown as a squirrel holding the 'Sci' flag in Slice 34.",
+        "visual_proof": "In Clip 1, a man holds a taxidermied squirrel, and the on-screen text explicitly identifies it as 'Tamiasciurus hudsonicus'. In Clip 2, the same type of squirrel is shown holding a small flag with the 'Sci' logo. The visual continuity and matching species confirm the answer."
+    },
+    {
+        "question": "Which animal is introduced with a specific species identification on-screen and later is shown being fed by hand in a close-up interaction?",
+        "answer": "The green parrot (introduced with species identification, later fed by hand).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            42,
+            45,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 42 identifies a green parrot as a Red Lored Amazon Parrot (Amazona autumnalis). Step 2: Slice 45 shows a close-up of the green parrot perched calmly on a hand. Step 3: Slice 56 shows the parrot being fed from the handler’s hand. Conclusion: The identified parrot is later shown in close-up and then being fed.",
+        "logic_check_reasoning": "Step 1: Slice 42 explicitly identifies the animal: a green parrot named Zoe, specified as a Red Lored Amazon Parrot (Amazona autumnalis), satisfying the 'species identification on-screen' part. Step 2: Slice 45 shows a close-up interaction with the same type of green parrot, noting gentle interaction and possible offering of food. Step 3: Slice 56 clearly shows the parrot being fed by hand, confirming the feeding interaction. The visual attributes (green parrot with red patch) are consistent across slices, linking the identification to the later close-up feeding scene.",
+        "visual_proof": "In Clip 1, a text overlay at 0:10 identifies the bird as 'ZOE Red Lored Amazon parrot - Amazona autumnalis'. In Clips 2 and 3, the same green parrot is shown in close-up being fed by hand by the woman holding it."
+    },
+    {
+        "question": "Which animal appears as a taxidermy or specimen-style theme early in the couch set and later is replaced as the central live-animal focus during the guest segment?",
+        "answer": "Early focus: taxidermy animals like the fox; later central live-animal focus: the green parrot.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            35,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 2 features a taxidermy fox as a quirky couch prop. Step 2: Slice 35 expands the specimen theme with several taxidermy animals on the table. Step 3: Slice 48 shows a later group scene centered around interacting with a live green parrot. Conclusion: The video shifts from taxidermy props to a live parrot as the main animal focus.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a taxidermy fox on the couch in the early studio setting, indicating a specimen-style theme. Step 2: Slice 35 explicitly lists several taxidermy animals on the coffee table, including a fox, reinforcing the early focus on taxidermy. Step 3: Slice 48 shows a later scene with a guest holding a green parrot, which is a live animal and the clear central focus of the interaction. Logic holds because the early theme centers on taxidermy (with a fox noted), and later the focus shifts to a live green parrot during the guest segment.",
+        "visual_proof": "In Clip 1 and Clip 2, a taxidermy fox is prominently displayed on the couch next to the host. In Clip 3, the taxidermy fox is no longer on the couch but is now on the cabinet in the background. The central live animal during this segment is a green parrot being held by a guest, making it the new focal point."
+    },
+    {
+        "question": "Which animal is first shown being carefully handled in close-up and later is highlighted for a specific anatomical feature with on-screen text?",
+        "answer": "The green parrot (handled closely, then labeled for its zygodactyl feet).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            44,
+            68,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows close interaction as the red-haired woman handles the green parrot affectionately. Step 2: Slice 68 shows the handler holding the parrot’s foot to demonstrate its structure. Step 3: Slice 69 displays on-screen text “zygodactyl feet.” Conclusion: Close handling leads into an explicit anatomical explanation.",
+        "logic_check_reasoning": "Step 1: Slice 68 states the video begins with a close-up of a green parrot on a woman's hand, where she gently holds the parrot's foot, highlighting its zygodactyl feet—this satisfies 'carefully handled in close-up.' Step 2: Slice 69 specifies that on-screen text 'zygodactyl feet' appears while showing the same green parrot, highlighting the anatomical feature. Step 3: Slice 44 also shows a woman interacting affectionately with a green parrot, consistent with the setting, though the key evidence is in Slices 68 and 69. The logic holds because both slices consistently refer to a green parrot being closely handled and then labeled for its zygodactyl feet with on-screen text.",
+        "visual_proof": "Clip 1 shows a woman in close-up carefully handling a green parrot. Clip 2 provides a close-up of the parrot's foot gripping her finger, followed by a wider shot where on-screen text explicitly labels 'zygodactyl feet' while the parrot is still perched on her hand. Clip 3 reinforces this with another close-up of the parrot and its foot, again with the 'zygodactyl feet' text visible."
+    }
+]

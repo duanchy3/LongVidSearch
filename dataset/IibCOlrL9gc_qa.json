@@ -1,0 +1,15 @@
+[
+  {
+    "question": "Two different segments discuss traders scaling back expectations for Federal Reserve rate cuts. What specific expectation is stated in the later segment compared with the earlier “Fed-pivot rethink” framing?",
+    "answer": "The later segment states that traders are pricing in just two Fed cuts in 2024, whereas the earlier framing highlights a general “Fed-pivot rethink” due to hot CPI.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      9
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows the headline “FED-PIVOT RETHINK ON HOT CPI,” setting the theme that hot inflation is changing Fed-cut expectations. Step 2: Slice 9 explicitly states “TRADERS PRICE IN JUST TWO FED CUTS IN 2024.” Conclusion: The later segment quantifies the reduced cut expectations as two cuts in 2024.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 shows the headline 'FED-PIVOT RETHINK ON HOT CPI,' indicating a general reconsideration of the Fed pivot due to inflation without specifying a number of cuts. Step 2: Evidence Slice 9 explicitly states 'TRADERS PRICE IN JUST TWO FED CUTS IN 2024,' providing a specific expectation. Logic holds because the later segment gives a concrete figure (two cuts), whereas the earlier segment presents a general rethink without quantification.",
+    "visual_proof": "Clip 1 (at 0:18) displays a 'MARKET CHECK' graphic with the headline 'FED-PIVOT RETHINK ON HOT CPI'. Clip 2 (at 0:00) shows a three-person panel with a lower-third banner explicitly stating 'TRADERS PRICE IN JUST TWO FED CUTS IN 2024'. This visual evidence directly supports the claim that the later segment provides the specific expectation of two cuts, contrasting with the earlier, more general 'rethink' framing."
+  }
+]

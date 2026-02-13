@@ -1,0 +1,124 @@
+[
+    {
+        "question": "After Computer Graphics appears on the Applications slide, what is the next new application that gets added later?",
+        "answer": "Image Retrieval.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 9 lists Object Recognition, Robotics, and Computer Graphics. Step 2: Slice 10 adds Image Retrieval as the fourth bullet. Conclusion: Image Retrieval is the next new application.",
+        "logic_check_reasoning": "Step 1: Slice 9 lists three applications: Object Recognition, Robotics, and Computer Graphics. Step 2: Slice 10 later shows the slide with a fourth item added: Image Retrieval, alongside Object Recognition, Robotics, and Computer Graphics. Logic holds because the only new application after Computer Graphics is Image Retrieval.",
+        "visual_proof": "In Video 1, the slide lists 'Object Recognition', 'Robotics', and 'Computer Graphics'. In Video 2, which occurs later in the same presentation, the same three items are present, and a new bullet point, 'Image Retrieval', has been added below them. This visually confirms that 'Image Retrieval' is the next application added after 'Computer Graphics' appears."
+    },
+    {
+        "question": "Between the earlier Applications slide and the later expanded one, which two application areas are newly introduced together?",
+        "answer": "Geo-localization and Archeology.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 10 lists up to Image Retrieval. Step 2: Slice 11 includes additional bullets: Geo-localization and Archeology. Conclusion: Those two are newly introduced together.",
+        "logic_check_reasoning": "Step 1: Slice 10 lists the Applications as Object Recognition, Robotics, Computer Graphics, and Image Retrieval. Step 2: Slice 11 lists the Applications as Object Recognition, Robotics, Computer Graphics, Image Retrieval, Geo-localization, and Archeology. Logic holds because the later slide includes the original four plus two new entries, which are Geo-localization and Archeology.",
+        "visual_proof": "The first clip shows a slide with four bullet points: Object Recognition, Robotics, Computer Graphics, and Image Retrieval. The second clip shows the same slide but with two additional bullet points added below: Geo-localization and Archeology. These two are the only new items introduced between the two clips."
+    },
+    {
+        "question": "After the gesture test-case grids, what demonstration is introduced to support the statement that humans can recover 3D from motion?",
+        "answer": "A Moving Light Display made of white dots on a black background.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows the last gesture test-case (subtle differences) grid. Step 2: Slice 24 transitions to a slide titled Moving Light Display with the text 'Humans are able to recover 3D from motion' and a dot display. Conclusion: The introduced demonstration is the Moving Light Display of white dots.",
+        "logic_check_reasoning": "Step 1: Slice 23 describes the presenter discussing gesture test-case grids, indicating the segment about gesture recognition. Step 2: Slice 24 shows the next segment with a slide titled 'Moving Light Display' and text stating 'Humans are able to recover 3D from motion,' alongside an image of white dots on a black background that likely serves as the demonstration. Logic holds because Slice 24 directly introduces the demonstration following the gesture grid discussion and it matches the proposed answer.",
+        "visual_proof": "The first clip ends with a grid of gesture recognition results. The second clip immediately follows, showing a slide titled 'Moving Light Display' with a black screen containing several moving white dots. Text on the slide explicitly states, 'Humans are able to recover 3D from motion,' directly linking this visual demonstration to the claim."
+    },
+    {
+        "question": "When the lecture moves from the Moving Light Display to a new slide, what is the next slide topic that follows?",
+        "answer": "Shape from Motion.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            28,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 28 still shows the Moving Light Display slide. Step 2: Slice 29 shows the next slide titled Shape from Motion. Conclusion: The following topic is Shape from Motion.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows the lecturer presenting a slide titled 'Moving Light Display'. Step 2: Slice 29 shows the same lecturer, in the same setting, presenting a slide titled 'Shape from Motion'. Logic holds because the context implies a transition between slides in the same lecture, making 'Shape from Motion' the next slide topic after 'Moving Light Display'.",
+        "visual_proof": "The first clip displays a slide titled 'Moving Light Display'. The second clip immediately following it shows a new slide with the title 'Shape from Motion' at the top. This visual sequence confirms that 'Shape from Motion' is the topic of the slide that follows 'Moving Light Display'."
+    },
+    {
+        "question": "Which older lecture theme introduced at the beginning matches the later slide that lists many researchers like S. Ullman and Kanade?",
+        "answer": "Structure from Motion.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces the lecture as Structure from Motion (Lecture 15). Step 2: Slice 34 shows a Structure from Motion slide listing researchers (e.g., S. Ullman, Kanade). Conclusion: The shared theme is Structure from Motion.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the lecture begins with a slide titled 'Structure from Motion.' Step 2: Evidence Slice 34 shows a later slide also titled 'Structure from Motion' that lists researchers like S. Ullman and Kanade. Logic: The later slide’s topic matches the initial theme introduced at the beginning, which is 'Structure from Motion.'",
+        "visual_proof": "The first clip (0:00-0:06) displays a title slide with the text 'Structure from Motion' and 'Lecture-15'. The second clip (0:00-0:09) shows a subsequent slide under the same main title 'Structure from Motion', which then lists researchers such as S. Ullman and Kanade. This confirms that the theme introduced at the beginning matches the later slide."
+    },
+    {
+        "question": "What new named technology is introduced after the Structure from Motion researcher list slides?",
+        "answer": "Photosynth.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 35 continues listing Structure from Motion researchers. Step 2: Slice 36 shows a new slide with the title Photosynth. Conclusion: The newly introduced technology is Photosynth.",
+        "logic_check_reasoning": "Step 1: Slice 35 describes a slide titled 'Structure from Motion' listing researchers, indicating a segment focused on SfM history. Step 2: Slice 36 shows a subsequent frame with a large black screen bearing the word 'Photosynth' at the top during the same lecture-style presentation. Logic holds because the appearance of 'Photosynth' on the presentation screen after the SfM researcher list suggests the new named technology introduced following those slides is 'Photosynth'.",
+        "visual_proof": "The first clip displays a slide titled 'Structure from Motion' with a list of researchers. The second clip immediately following shows a new slide with the title 'Photosynth' in blue text at the top, indicating this is the new technology introduced after the previous topic."
+    },
+    {
+        "question": "Which person is consistently the on-screen lecturer across early slides (Shape From X/Applications) and later mathematical slides (Approximate Rank), based on appearance and setting?",
+        "answer": "The male presenter in a light/white shirt (often near the left side of the frame, later sometimes with glasses and a microphone).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            16,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a male presenter in a light-colored shirt beside slides. Step 2: Slice 16 shows the same style lecturer in a white shirt presenting Gesture Lexicons. Step 3: Slice 61 shows a presenter inset (glasses, light shirt) explaining Approximate Rank. Conclusion: The consistent lecturer is the man in a light/white shirt (later sometimes with glasses/microphone).",
+        "logic_check_reasoning": "Step 1: Slice 2 describes the early 'Shape From X' slide with a male presenter wearing a light-colored shirt, positioned on the left side, gesturing while speaking in an academic setting. Step 2: Slice 61 shows a later 'Approximate Rank' slide with an inset of the presenter wearing glasses and a light-colored shirt, speaking into a microphone and gesturing, also in an academic setting with the same copyright style. Step 3: Slice 16 reinforces the consistent presentation style, showing the presenter on the left side using hand gestures during another slide. Logic holds because the consistent attributes—male presenter, light-colored shirt, left-side positioning, academic lecture format, and later inclusion of glasses/microphone—match across the slices, supporting the proposed description.",
+        "visual_proof": "In all three clips, the same male lecturer is visible in the top-left corner. He has a bald head, wears a light-colored collared shirt, and is positioned in front of a yellow wall with an American flag partially visible. In Clip 1 and Clip 3, he is seen speaking and gesturing. In Clip 3, he is also wearing glasses and has a microphone clipped to his shirt, consistent with the description of him 'later sometimes with glasses and a microphone'. The consistent appearance and setting across clips confirm he is the same person."
+    },
+    {
+        "question": "How does the video demonstrate the idea of recovering 3D from motion both in human perception and in software reconstruction?",
+        "answer": "It shows a moving light dot display for human 3D perception from motion, then later shows Photosynth constructing navigable 3D models/wireframes from photo sets.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            24,
+            29,
+            39,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 24 introduces Moving Light Display stating humans recover 3D from motion. Step 2: Slice 29 moves into Shape from Motion as a computational topic. Step 3: Slice 39 shows a landmark photo transitioning to a wireframe reconstruction. Step 4: Slice 40 shows the rotating wireframe 3D model in Photosynth. Conclusion: The video links perceptual 3D-from-motion to algorithmic 3D reconstruction.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows a slide titled 'Moving Light Display' with text 'Humans are able to recover 3D from motion' and an animation of moving white dots, directly supporting the human perception aspect of recovering 3D from motion. Step 2: Slice 29 shows a slide titled 'Shape from Motion' with multiple illustrative images, further reinforcing the concept of inferring shape/3D from motion. Step 3: Slices 39 and 40 depict a demonstration of 'Photosynth' where multiple photographs are processed into a rotating 3D wireframe model with UI elements for interaction, supporting the software reconstruction part and implying navigability. Logic holds because the video content explicitly demonstrates human 3D perception via motion displays and software-based 3D reconstruction from photo sets.",
+        "visual_proof": "Clip 1 visually demonstrates the 'Moving Light Display' with dots that form a 3D human figure in motion, accompanied by text stating 'Humans are able to recover 3D from motion'. Clips 3 and 4 show the 'Photosynth' software actively processing images to build a 3D point cloud and wireframe model of a building, which is a form of software reconstruction from motion (via multiple photos)."
+    },
+    {
+        "question": "How does the lecture connect gesture datasets to later formal discussion of noisy measurements and rank approximation?",
+        "answer": "It first visualizes recognition successes/failures (noise/variation in gestures), then introduces 'Noisy Measurements' affecting matrix rank and finally presents Approximate Rank via SVD.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            20,
+            21,
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows recognition outcomes with torso motion adding noise. Step 2: Slice 21 shows another test case with successes/failures (variability). Step 3: Slice 58 explicitly discusses noisy measurements breaking the rank-3 condition and mentions SVD. Step 4: Slice 59 presents Approximate Rank using singular values for the best rank-3 approximation. Conclusion: The video moves from empirical noise in recognition to formal noisy-measurement rank approximation.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows a gesture recognition test (\"Torso motion adds noise\") with green/red borders indicating success/failure, explicitly tying gestures to noise and recognition variability. Step 2: Slice 21 similarly presents a grid for \"Improvisations\" with successful and failed recognitions, reinforcing the visualization of dataset outcomes under variation. Step 3: Slice 58 introduces the formal topic of \"Noisy Measurements,\" explaining how noise affects matrix rank and mentions SVD, directly connecting to handling noise in image-based measurements. Step 4: Slice 59 elaborates on \"Approximate Rank,\" presenting the best rank-3 approximation via SVD, which follows from the noisy measurements discussion. Logic holds because the lecture first demonstrates practical recognition variability/noise in gesture datasets and then transitions to the mathematical framework for dealing with noise and rank via SVD.",
+        "visual_proof": "Clip 1 (Test Case 1) and Clip 2 (Test Case 2) show grids of gesture recognition results, explicitly labeling 'Instances of Successful Recognition' (green) and 'Instances of Failed Recognition' (red), visually representing noise and variation. Clip 3 transitions to the 'Noisy Measurements' slide, explaining that noise corrupts images and affects matrix rank. Clip 4 then details 'Approximate Rank' using SVD, showing how to compute the best rank-3 approximation from the noisy matrix, directly linking the initial gesture data problem to the mathematical solution."
+    }
+]

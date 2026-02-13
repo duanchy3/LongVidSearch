@@ -1,0 +1,142 @@
+[
+    {
+        "question": "Which dish is baked in the oven and then later cut into square pieces for serving?",
+        "answer": "The pizza/flatbread-style baked dish on a tray.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            51,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows a tray with a pizza being placed in the oven with an instruction to bake 10–15 minutes. Step 2: Slice 53 shows the baked pizza being cut into square slices on the tray. Conclusion: The baked tray pizza/flatbread is cut into squares.",
+        "logic_check_reasoning": "Step 1: Slice 51 shows a pizza on a baking tray being placed into an oven with on-screen text indicating baking time. Step 2: Slice 53 shows a freshly baked pizza on a tray being cut into square slices. Logic holds because both slices consistently depict a pizza baked in the oven and then cut into squares. The proposed answer aligns with this, identifying it as the pizza on a tray.",
+        "visual_proof": "Clip 1 shows a rectangular, cheese-topped dish being placed into an oven for baking. Clip 2 shows the same dish, now golden-brown and fully cooked, being cut into square pieces with a knife. The visual continuity confirms it is the same dish undergoing the described process."
+    },
+    {
+        "question": "In the dough/batter preparation segment, which liquids are added after whisking eggs, and what resting instruction is shown later for the mixture?",
+        "answer": "Milk and boiling water are added, and then the mixture is left about 30 minutes in a warm place.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            58,
+            59,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows milk being poured into eggs (1.5 cups/350 ml). Step 2: Slice 59 shows boiling water added (1.25 cups) while whisking. Step 3: Slice 64 instructs to leave the mixture ~30 minutes in a warm place. Conclusion: Add milk + boiling water, then rest warm ~30 minutes.",
+        "logic_check_reasoning": "Step 1: Slice 58 shows milk being poured into a bowl containing eggs, with a label indicating 1.5 cups. Step 2: Slice 59 explicitly states 'Milk - 1.5 cups' and then 'Boiling water - 1.25 cups' are added while whisking the egg mixture. Step 3: Slice 64 displays the instruction 'Leave for ~30 minutes in a warm place,' indicating the resting step for the mixture. Logic holds because the sequence confirms the liquids added after whisking eggs (milk and boiling water) and the subsequent resting instruction.",
+        "visual_proof": "Clip 1 shows eggs being whisked. Clip 2 visually confirms milk being poured into the bowl with text overlay 'Milk - 1.5 cups', followed by boiling water being poured in with text overlay 'Boiling water - 1.25 cups'. Clip 3 shows the final mixture covered with plastic wrap and a text overlay stating 'Leave for ~30 minutes in a warm place'."
+    },
+    {
+        "question": "What ingredient is chopped as a green herb after diced tomatoes are poured into a bowl, and later another similar green herb mixture is shown being added into a liquid mixture in a larger bowl?",
+        "answer": "Dill (then chopped green herbs are later added into a liquid mixture).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            72,
+            73,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 72 shows dill being chopped after tomatoes are poured into a bowl. Step 2: Slice 73 continues chopping the same green herb. Step 3: Slice 77 shows chopped vegetables and green herbs poured into a larger bowl with a liquid mixture. Conclusion: The chopped herb is dill, which matches the later use of chopped herbs added to a liquid mixture.",
+        "logic_check_reasoning": "Step 1: Slice 72 shows diced tomatoes being poured into a bowl, then explicitly shows the chopping of green dill with on-screen text identifying it as 'Dill'. Step 2: Slice 73 reinforces the scene of chopping fresh green herbs (appearing to be dill or similar), aligning with the first part. Step 3: Slice 77 shows a white bowl with chopped vegetables, including green herbs, being poured into a larger bowl containing liquid, matching the description of a similar green herb mixture being added later. The answer identifies the herb as Dill and acknowledges that chopped green herbs are later added to a liquid mixture, which is supported by the slices.",
+        "visual_proof": "In Clip 1, diced red tomatoes are poured into a bowl. Immediately after, dill is shown being chopped on a wooden board, with the word 'Dill' appearing as a text overlay at 0:05. In Clip 3, the same chopped dill (mixed with the diced tomatoes) is poured from a bowl into a larger glass bowl containing a creamy liquid mixture. This visually confirms that dill is the green herb chopped after the tomatoes and later added to the liquid mixture."
+    },
+    {
+        "question": "Which recipe line shows eggs being whisked with added flour, then later a creamy mixture is poured over a bowl of vegetables, and then the combined mixture is transferred onto a baking sheet?",
+        "answer": "The baked tray recipe: eggs-and-flour batter becomes a creamy mixture poured over vegetables and then laid out on a baking sheet.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            35,
+            38,
+            41,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows eggs cracked and seasoned (starting the batter). Step 2: Slice 38 shows flour added and mixed into the egg mixture. Step 3: Slice 41 shows the creamy mixture poured over vegetables in a glass bowl. Step 4: Slice 44 shows that combined mixture poured onto a parchment-lined baking tray. Conclusion: The batter becomes the creamy base used to bind vegetables and is then placed on a baking sheet.",
+        "logic_check_reasoning": "Step 1: Slice 35 shows eggs being cracked into a green bowl and seasoned, establishing the egg mixture. Step 2: Slice 38 shows the person whisking the yellow liquid in the green bowl and adding flour, which supports 'eggs being whisked with added flour.' Step 3: Slice 41 shows a creamy mixture being poured over a bowl of chopped vegetables, aligning with the next step described. Step 4: Slice 44 shows the combined vegetable-and-creamy mixture being transferred onto a parchment-lined baking sheet, matching the final step. The sequence logically connects and matches the proposed summary.",
+        "visual_proof": "Clip 1 shows eggs being cracked into a bowl. Clip 2 shows the eggs being whisked, followed by flour and baking powder being added and mixed into a batter. Clip 3 shows this creamy batter being poured over a bowl of chopped vegetables. Clip 4 shows the combined vegetable-batter mixture being transferred onto a parchment-lined baking sheet. This sequence perfectly matches the description in the question."
+    },
+    {
+        "question": "Which ingredient is chopped after the cabbage-and-carrot mixture is shown cooking in a pan, and then is later added together with salt and cabbage seasoning?",
+        "answer": "Garlic.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows garlic being crushed and chopped after showing the pan of cabbage and carrots. Step 2: Slice 11 shows chopped garlic added to the cabbage-carrot mixture along with salt and a cabbage seasoning mix. Conclusion: The ingredient is garlic.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows the cabbage-and-carrot mixture cooking in a pan, then the video cuts to chopping a clove of garlic. Step 2: Slice 11 states that finely chopped garlic is added to the bowl with cabbage and carrots, followed by salt and a seasoning for cabbage. Logic holds because the same ingredient (garlic) is chopped after the pan scene and later added with salt and cabbage seasoning.",
+        "visual_proof": "In Video 1, the cabbage and carrot mixture is shown being stirred in a pan. Immediately after, the video cuts to hands chopping garlic cloves on a wooden board. In Video 2, the freshly chopped garlic is added to the pan with the cabbage-carrot mixture, followed by salt and seasoning, as explicitly labeled on screen ('Salt', 'Seasoning for cabbage')."
+    },
+    {
+        "question": "Across the video, eggs are cracked into bowls more than once. In the first recipe, how many eggs are used, and in the later recipe labeled as Recipe #3, how many eggs are used?",
+        "answer": "Five eggs in the first recipe and two eggs in Recipe #3.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows 'Egg - 5 pcs' being cracked into a bowl. Step 2: Slice 55 shows 'Egg - 2 pcs' for Recipe #3. Conclusion: 5 eggs first, 2 eggs in Recipe #3.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 shows the introduction and preparation of the first recipe with text overlays explicitly stating 'Egg - 5 pcs' and 'Ei - 5 Stk,' confirming five eggs are used. Step 2: Evidence Slice 55, labeled 'Recipe #3,' shows the cracking of two eggs with text overlays 'Egg - 2 pcs' and 'Ei - 2 Stk,' confirming two eggs are used. Logic holds because each slice clearly specifies the egg counts for the respective recipes.",
+        "visual_proof": "In Clip 1, at 0:02, text on screen reads 'Egg - 5 pcs' as eggs are cracked into a bowl. In Clip 2, at 0:06, text on screen reads 'Egg - 2 pcs' as eggs are cracked into a different bowl for Recipe #3."
+    },
+    {
+        "question": "Which two vegetables are sautéed first in the second long recipe before colorful bell peppers are added later?",
+        "answer": "Onions and carrots.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            25,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows diced onions moved into a pan with oil. Step 2: Slice 25 shows carrots added into the pan with onions. Step 3: Slice 28 shows bell peppers added afterward into the pan with other vegetables. Conclusion: Onions and carrots are sautéed before peppers.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows diced onions being added to hot oil in a pan, indicating onions are sautéed first. Step 2: Slice 25 shows sliced carrots being added to the pan that already contains onions, so carrots are sautéed next alongside onions. Step 3: Slice 28 shows colorful bell peppers being added later to the pan with the already cooking onions and carrots. Logic holds because the sequence clearly establishes onions and carrots as the first two vegetables sautéed before peppers are added.",
+        "visual_proof": "Clip 1 shows onions being diced and then added to a pan with oil. Clip 2 shows carrots being sliced and then added to the same pan, which already contains the sautéing onions. Clip 3 shows bell peppers being diced and then added to the pan, which already contains the onions and carrots. This sequence visually confirms that onions and carrots are sautéed first before the bell peppers are added."
+    },
+    {
+        "question": "Which cooking sequence shows vegetables being transferred from a bowl into a pan, and later the pan contents becoming an egg-based omelette that is cooked covered with a lid?",
+        "answer": "The cabbage-and-carrot mixture is moved into a pan, then later combined with egg batter and cooked as a covered omelette.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            16,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows mixed shredded vegetables transferred from a bowl into a pan with oil. Step 2: Slice 16 shows a yellowish egg batter with vegetables cooking and being covered with a lid. Step 3: Slice 17 shows the finished golden omelette being lifted and sliced. Conclusion: The vegetables become part of a covered-cooked omelette.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 14 explicitly shows mixed vegetables (including carrots and cabbage) being transferred from a bowl into a hot pan. Step 2: Evidence Slice 16 explicitly shows the pan contents as a vegetable omelette coated in an egg-based (yellow) batter and instructs to cover with a lid to cook (~5 minutes each side). Logic holds because the sequence transitions from vegetables in a pan to an egg-based omelette cooked covered, matching the described progression. Minor differences in listed vegetables are acceptable per VLM noise handling.",
+        "visual_proof": "Clip 1 shows shredded cabbage and carrots being mixed in a bowl. Clip 2 shows this mixture being poured into a pan with oil, spread out, and covered with a lid to cook. The final product in Clip 3 is a golden-brown, circular omelette-like dish that was flipped from the pan onto a plate, confirming it was cooked covered and is egg-based."
+    },
+    {
+        "question": "How does the onion progress through the second long recipe: from cutting, to brief frying, to being combined with additional vegetables and later mixed into potatoes?",
+        "answer": "It is chopped, fried briefly in oil, then cooked with carrots/peppers/eggplant and later mixed into grated potatoes.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            22,
+            23,
+            31,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows onion chopped and moved into oil in a pan. Step 2: Slice 23 shows the onions frying briefly (~1 minute). Step 3: Slice 31 shows a pan of mixed vegetables (including onions) as eggplant is added and stirred. Step 4: Slice 34 shows cooked vegetables (including onion) added into grated potatoes and mixed. Conclusion: Onion goes from chopped to fried to part of mixed sautéed vegetables to being mixed into potatoes.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows the onion being chopped and then transferred into a pan with hot oil, establishing the cutting and start of cooking. Step 2: Slice 23 shows the onions frying in the pan with the on-screen text 'Fry ~1 minute,' confirming a brief fry. Step 3: Slice 31 shows onions in a pan together with added eggplant, bell peppers, and carrots, indicating the onions are cooked with these vegetables. Step 4: Slice 34 shows cooked vegetables (including onions, bell peppers, eggplant) being mixed into a bowl of grated potatoes, confirming the final mixing step. The sequence matches the proposed answer.",
+        "visual_proof": "Clip 1 shows onions being finely chopped on a wooden board. Clip 2 shows the chopped onions being stirred in a pan with oil for about a minute, as indicated by the on-screen text. Clip 3 shows eggplant being chopped and added to the pan containing the already-fried onions and other vegetables (carrots and peppers). Clip 4 shows the fully cooked vegetable mixture, including the onions, being poured into a bowl of grated potatoes."
+    },
+    {
+        "question": "What sequence shows a tray mixture being laid out, spread evenly, topped with cheese, and then baked in the oven?",
+        "answer": "The creamy vegetable tray mixture is laid out, distributed evenly, sprinkled with cheese, then baked.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            43,
+            45,
+            49,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows the mixture laid out on a parchment-lined baking sheet. Step 2: Slice 45 shows it being distributed evenly across the tray. Step 3: Slice 49 shows cheese being sprinkled over the tray dish. Step 4: Slice 51 shows the tray placed in the oven to bake another 10–15 minutes. Conclusion: Lay out → spread evenly → top with cheese → bake.",
+        "logic_check_reasoning": "Step 1: Slice 43 shows a mixture being laid out on a parchment-lined baking sheet with the instruction 'Lay out on a baking sheet'. Step 2: Slice 45 shows the same type of tray mixture being spread evenly with the instruction 'Distribute evenly'. Step 3: Slice 49 shows the tray item being topped with shredded cheese, with the instruction 'Sprinkle with cheese'. Although it is described as pizza here, the visual attributes (tray, parchment, similar toppings) align with the prior steps. Step 4: Slice 51 shows the tray being placed into the oven with the instruction 'Bake another 10-15 minutes'. The sequence of actions (lay out, spread evenly, top with cheese, bake) is fully supported.",
+        "visual_proof": "Clip 1 shows the mixture being stirred in a bowl. Clip 2 visually confirms the mixture is transferred to a baking tray and spread evenly with a spatula. Clip 3 shows a hand sprinkling shredded cheese over the partially baked mixture inside the oven. Clip 4 shows the fully topped dish being placed back into the oven for further baking, with on-screen text confirming 'Bake another ~10-15 minutes'."
+    }
+]

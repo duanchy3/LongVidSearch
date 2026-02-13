@@ -1,0 +1,83 @@
+[
+    {
+        "question": "Across the video, which project connects the webpage about a creator community event to later work designing a brochure layout in InDesign?",
+        "answer": "Creator Camp.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a website titled 'Creator Camp' and mentions Park City, Utah and October 2022. Step 2: Slice 52 shows Adobe InDesign being used to design a brochure for 'Creator Camp.' Conclusion: The shared project is Creator Camp.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows a webpage titled 'Creator Camp' describing a creator community event (e.g., Park City, Utah, October 2022). Step 2: Slice 52 shows Adobe InDesign being used to design a brochure for an event called 'Creator Camp.' Logic holds because both slices explicitly reference the same project name, connecting the webpage to the brochure work.",
+        "visual_proof": "Clip 1 shows a webpage for 'Creator Camp' with the tagline 'Bringing together the next generation of storytellers.' Clip 2 displays an InDesign layout for a 'Creator Camp' brochure and invite postcard, explicitly linking the website content to the design project. The speaker's subtitle in Clip 1 also mentions 'Creator Camp' as one of the businesses started."
+    },
+    {
+        "question": "Which two different business/creative websites are shown earlier, and how is that online work later echoed by the person speaking about early successes during a virtual meeting?",
+        "answer": "The Creator Camp site and the Circle Park (creative agency) site; later he talks about early successes during a video call.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            12,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows the 'Creator Camp' webpage. Step 2: Slice 12 shows the 'Circle Park' agency website focused on storytelling/campaigns. Step 3: Slice 45 shows a multi-person virtual meeting with text about 'early successes' only taking you so far. Conclusion: Earlier web/agency work connects to later reflective talk about business progress in a meeting.",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly shows a webpage for 'Creator Camp,' a platform for creators, with details like Park City, Utah and October 2022. Step 2: Slice 12 explicitly shows a website for 'Circle Park,' a creative agency focused on storytelling and advertising. Step 3: Slice 45 shows a virtual meeting where a speaker says, 'And although I've had some early successes, those can only take you so far,' which aligns with the query's 'echo' of online creative/business work through a later discussion of early successes in a video call. The logic holds because the earlier slices present two distinct creative/business websites, and the later slice depicts someone reflecting on early successes during an online meeting, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows the 'Creator Camp' website with its tagline. Clip 2 shows the 'Circle Park' website, identified as a creative agency. Clip 3 shows a person on a laptop in bed during a video call, with subtitles stating, 'And although I've had some early successes, those can only take you so far,' directly echoing the earlier discussion of his businesses."
+    },
+    {
+        "question": "Across the video, how is the person visually tracked from working alone at a laptop in his room to later presenting himself speaking to the camera in the same kind of personal, cluttered environment?",
+        "answer": "He is first shown quietly working at a laptop in his poster-filled room, then later appears speaking animatedly to the camera in a similarly cluttered room with a map and fridge covered in notes.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            69,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a young man working on a laptop in a cozy poster-decorated room. Step 2: Slice 69 shows the same style of personal room (map on wall, magnets/notes on fridge) with him speaking animatedly. Step 3: Slice 75 again shows him speaking in a similar cluttered bedroom/dorm setup. Conclusion: The same individual is tracked across work and vlog segments via consistent room features and appearance.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes a young man working alone at a laptop in his room, with posters/pictures on the walls—supporting 'quietly working at a laptop in his poster-filled room.' Step 2: Slice 69 shows the same young man speaking animatedly to the camera in a cluttered personal room featuring a map and a refrigerator covered with magnets, notes, and pictures—supporting 'speaking animatedly to the camera in a similarly cluttered room with a map and fridge covered in notes.' Step 3: Slice 75 further corroborates the speaking-to-camera scene in a similarly cluttered personal space with posters, a map, and books, strengthening the continuity of environment. Logic holds because the slices depict the progression from working to presenting in consistent, personal, cluttered rooms with the specified details.",
+        "visual_proof": "Clip 1 shows the person focused on a laptop in a room decorated with numerous posters and photos. Clips 2 and 3 show the same person, now facing the camera and speaking, in a different but similarly personal and cluttered room featuring a large map on a cabinet and a fridge door covered in notes and magnets. The transition from quiet work to direct address is visually clear."
+    },
+    {
+        "question": "Which object stays central as the person moves from preparing to travel in a dorm room to later loading luggage into a car at night?",
+        "answer": "A suitcase.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a man picking up a black suitcase in a dorm room and leaving. Step 2: Slice 40 shows a man pulling a suitcase and placing it into a car trunk at night. Conclusion: The suitcase is the tracked object across travel preparation and departure.",
+        "logic_check_reasoning": "Step 1: Slice 30 shows a man in a dorm room picking up a black suitcase and carrying it out, indicating travel preparation. Step 2: Slice 40 shows a man at night pulling a suitcase, placing it in a car trunk, and driving off. Logic holds because in both scenes the suitcase is the focal object associated with the person's actions, linking preparation in the dorm to loading the car.",
+        "visual_proof": "In Clip 1, a blue suitcase is prominently featured as the person prepares to leave their dorm room, placing items on it and then putting on shoes nearby. In Clip 2, the same person (or another traveler) is seen at night pulling a black rolling suitcase towards a car, indicating that the suitcase is the central object connecting the two scenes of travel preparation and departure."
+    },
+    {
+        "question": "What destination is mentioned early on, and later repeated again as the person shows their workspace and interacts with their dog?",
+        "answer": "Los Angeles (L.A.).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a man in a convertible mentioning he is heading to L.A. Step 2: Slice 29 repeats the caption 'And I'm leaving for L.A.' while he is in his room and pets a black dog. Conclusion: The destination mentioned in both moments is L.A.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the man \"mentions heading to L.A.,\" clearly naming Los Angeles as a destination early in the video. Step 2: Evidence Slice 29 includes a caption, \"And I'm leaving for L.A.,\" which repeats the same destination while showing the workspace and interaction with the dog. Logic holds because both slices explicitly reference L.A./Los Angeles as the destination, matching the question's description of early mention and later repetition.",
+        "visual_proof": "In Video 2, at 0:00, the subtitle 'And I'm leaving for L.A.' is displayed as the camera pans across a room. This is followed by the subtitle 'and then Austin.' at 0:01. The mention of 'L.A.' is the first destination stated in this clip and fits the context of the question regarding an early mention that is later repeated. While 'Austin' is also mentioned, 'L.A.' is the primary destination referenced first."
+    },
+    {
+        "question": "Which clothing items are being developed digitally for the brand, and how does that connect to the later real-world shirts being discussed in a group?",
+        "answer": "Digital mockups of pants and hoodies connect to later physical shirt samples being reviewed.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            74,
+            61,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 74 shows Photoshop mockups for Perspectopia garments (pants and hoodies). Step 2: Slice 61 shows a group reviewing printed shirt samples (green and black with white text). Step 3: Slice 62 shows sewing/folding garments in a workshop. Conclusion: Digital apparel design transitions into physical samples and production work.",
+        "logic_check_reasoning": "Step 1: Slice 74 explicitly shows Photoshop mockups featuring two pairs of pants and two hoodies, with on-screen text about figuring out mockups for garments. Step 2: Slice 61 shows a group physically reviewing shirts (green and black) with printed white text, indicating real-world shirt samples being discussed. Logic holds because the answer correctly identifies the digital items (pants and hoodies) from Slice 74 and accurately connects this to the later scene in Slice 61 where shirts are being reviewed physically, without overclaiming that shirts were the digital mockups.",
+        "visual_proof": "Clip 1 shows a Photoshop interface with digital mockups of two sets of garments: a black hoodie with brown pants and a black hoodie with green pants. Clip 2 shows people physically handling and discussing sample shirts (a green one and a black one) with text prints, confirming the transition from digital design to physical review. The connection is established by the context of garment development shown across both clips."
+    }
+]

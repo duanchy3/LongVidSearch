@@ -1,0 +1,191 @@
+[
+    {
+        "question": "Which desert name is explicitly labeled on a map earlier, and later what other desert is shown with people riding horses through it?",
+        "answer": "The Taklamakan Desert is labeled earlier, and later the Gobi Desert is shown with horseback riders.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 6 labels the Taklamakan Desert on a map of China. Step 2: Slice 45 labels the Gobi Desert and shows riders crossing it. Conclusion: Taklamakan first, Gobi later with horses.",
+        "logic_check_reasoning": "Step 1: Slice 6 states the video focuses on China and specifically the Taklamakan Desert, which is labeled on the screen and prominently marked on a detailed map. Step 2: Slice 45 shows an image labeled 'Gobi desert' and then transitions to a scene of people riding horses through the desert. Logic holds because the earlier labeled desert is Taklamakan, and the later desert shown with horseback riders is indicated as the Gobi Desert.",
+        "visual_proof": "In Video 1 (0:09-0:10), a map clearly labels the 'Taklamakan Desert' with text and an arrow pointing to its location. In Video 2 (0:00-0:03), an inset image explicitly labels the 'Gobi desert', and subsequent frames (0:04, 0:07) show people riding horses in a desert environment, visually confirming the presence of horseback riders in the Gobi Desert."
+    },
+    {
+        "question": "What city is marked as China’s capital on a map, and what governance phrase appears later alongside the handover timeline imagery?",
+        "answer": "Beijing is marked as the capital, and the phrase is \"One country, 2 systems.\"",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a map marking Beijing as the capital. Step 2: Slice 14 shows a timeline graphic with flags and the phrase \"One country, 2 systems.\" Conclusion: Capital is Beijing; phrase is One country, 2 systems.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 13 states the video begins with a map of China highlighting Beijing as the capital, with a yellow star marking Beijing's location. Step 2: The Visual Elements section describes flags with dates (1997 and 1999) indicating handover timeline imagery, and explicitly notes the text overlay 'One country, 2 systems' appearing on the screen. Logic holds because the first part identifies Beijing as the capital and the second part ties the governance phrase to the timeline visuals, both explicitly supported by the provided context.",
+        "visual_proof": "In Clip 1, a map of China is shown with a yellow star labeled 'Beijing (Capital)'. In Clip 2, after showing the handover years 1997 and 1999, the text '\"One country, 2 systems\"' appears below the flags of China, Hong Kong, and Macau."
+    },
+    {
+        "question": "Which two special years are shown for sovereignty handovers, and which two regions later appear connected to a language map with a Guangdong highlight?",
+        "answer": "The years are 1997 and 1999, and the regions are Hong Kong and Macau.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows the timeline years 1997 and 1999 alongside British/Portuguese and Chinese flags. Step 2: Slice 69 shows Cantonese with a Guangdong dot and flags for Hong Kong and Macau. Conclusion: The handover years are 1997/1999 and the regions tied in later language context are Hong Kong and Macau.",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly shows the British, Chinese, and Portuguese flags with the dates '1997' under the Chinese and British flags and '1999' under the Chinese and Portuguese flags, indicating sovereignty handovers. Step 2: Slice 69 shows a map of China with Guangdong highlighted and displays flags for Hong Kong and Macau in the context of Cantonese. Logic holds because Slice 14 provides the two special handover years, and Slice 69 identifies the two regions linked to the language map with Guangdong highlighted.",
+        "visual_proof": "In Video 1 (0:03-0:05), the flags of Hong Kong and Macau are shown with the years '1997' and '1999' respectively below them. In Video 2 (0:04-0:08), a map highlights the Guangdong province, and then the flags of Hong Kong and Macau appear over this map, visually connecting these two regions to the language context presented."
+    },
+    {
+        "question": "After the presenter demonstrates holding a metal bowl up to his face, what later segment shows him reacting to something unexpected entering the frame?",
+        "answer": "Later, a large sword appears in the frame and he looks shocked.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows the presenter covering his mouth/nose with a metal bowl. Step 2: Slice 36 shows a sword suddenly held into frame and the presenter’s surprised reaction. Conclusion: The later unexpected object is a sword and he reacts with shock.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes a man in a red shirt against a black background holding a metal bowl up to his face, indicating the initial demonstration. Step 2: Slice 36 describes the same setup (red shirt, black background) and notes that a large sword unexpectedly enters the frame, partially obscuring the person's face, and the individual reacts with surprise/shock. Logic holds because the visual attributes match and the later segment clearly shows the unexpected sword and the shocked reaction, directly answering the question.",
+        "visual_proof": "In Clip 1, the presenter is shown holding a metal bowl to his face. In Clip 2, at timestamp 0:02-0:05, the same presenter is seen reacting with a wide-eyed, surprised expression as a large sword enters the frame from the left, partially obscuring him. This visually confirms the sequence described in the answer."
+    },
+    {
+        "question": "Which cold northeastern provinces are highlighted with snowflake icons, and which winter-themed festival later shows illuminated ice sculptures in a major city?",
+        "answer": "Inner Mongolia, Heilongjiang, and Jilin are highlighted, and the Harbin Ice and Snow Festival is shown later in Harbin.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 41 highlights Inner Mongolia, Heilongjiang, and Jilin with snowflake icons indicating cold climate. Step 2: Slice 42 shows Harbin and the Harbin Ice and Snow Festival with ice sculptures. Conclusion: The cold-region highlight is Inner Mongolia/Heilongjiang/Jilin, and the festival is Harbin’s ice festival.",
+        "logic_check_reasoning": "Step 1: Slice 41 states that a map highlights Inner Mongolia, Heilongjiang, and Jilin, and that snowflake icons appear over these highlighted regions, indicating cold conditions. Step 2: Slice 42 explicitly describes the Harbin Ice and Snow Festival in Harbin, featuring illuminated ice sculptures and cultural performances. Logic holds because the first part identifies the regions with snowflake icons, and the second part identifies the winter-themed festival in a major city (Harbin).",
+        "visual_proof": "Clip 1 visually highlights Inner Mongolia, Heilongjiang, and Jilin with purple shading and snowflake icons. Clip 2 shows a city labeled 'Harbin, China' followed by scenes of large ice sculptures and festival activities, consistent with the Harbin Ice and Snow Festival."
+    },
+    {
+        "question": "What demographic statistic is shown on the \"China Ethnicity\" slide, and what later chart indicates the dominant ethnic group percentage?",
+        "answer": "It shows a population of 1.4 billion (about 19% of the world), and later the chart shows about 90% Han Chinese.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            59,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 59 displays \"POPULATION 1.4 BILLION\" and \"About 19% of world's population.\" Step 2: Slice 62 shows a pie chart indicating ~90% Han Chinese. Conclusion: 1.4B/19% and ~90% Han.",
+        "logic_check_reasoning": "Step 1: Slice 59 describes a 'China Ethnicity' slide stating 'POPULATION 1.4 BILLION' and 'About 19% of world's population.' Step 2: Slice 62 mentions a pie chart showing China's ethnicity distribution with approximately 90% Han Chinese. Logic holds because the proposed answer directly reflects these two pieces of information.",
+        "visual_proof": "The first clip displays a slide titled 'China Ethnicity' with text stating 'POPULATION 1.4 BILLION' and 'MOST POPULATED About 19% of world's population'. The second clip shows a pie chart under the same title, where a large red segment is labeled '~ 90% Han'."
+    },
+    {
+        "question": "Which cave in southern China is labeled as a location, and what later nature segment shows an animal eating bamboo in a forested setting?",
+        "answer": "Reed Flute Cave in Guangxi is labeled, and later a panda is shown eating bamboo.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            55,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 55 labels \"Reed flute cave, Guangxi.\" Step 2: Slice 56 shows a panda eating bamboo in a green forest. Conclusion: The cave is Reed Flute Cave (Guangxi) and the animal is a panda eating bamboo.",
+        "logic_check_reasoning": "Step 1: Slice 55 explicitly mentions an inset image labeled \"Reed flute cave, Guangxi,\" identifying the cave in southern China. Step 2: Slice 56 describes a later nature segment where \"a panda bear [is] eating bamboo leaves in a lush green forest.\" Logic holds because the cave identification and the panda eating bamboo in a forested setting are both directly stated in the provided captions.",
+        "visual_proof": "In Clip 1, at 0:05, an inset image of a brightly lit cave is displayed with the text 'Reed flute cave, Guangxi'. In Clip 2, at 0:13 and 0:14, a giant panda is clearly visible sitting in a lush green forest, actively chewing on bamboo stalks."
+    },
+    {
+        "question": "Which region is shown as a very large province with only a small percentage of habitable land, and which earlier desert label helps explain why parts of that region are so harsh?",
+        "answer": "Xinjiang is shown as huge with only about 5% habitable land, and the earlier Taklamakan Desert label helps explain the harshness.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            46,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 46 outlines and labels Xinjiang on a map. Step 2: Slice 47 states Xinjiang is 1.5 million km² with only 5% habitable land. Step 3: Slice 6 labels the Taklamakan Desert inside China, providing a desert reason for low habitability in that area. Conclusion: Xinjiang is huge/5% habitable, consistent with desert conditions like the Taklamakan.",
+        "logic_check_reasoning": "Step 1: Slice 47 explicitly states that Xinjiang covers 1.5 million square kilometers and only 5% is habitable, showing it as a very large province with a small percentage of habitable land. Step 2: Slice 46 shows Xinjiang as a large outlined region with diverse terrain, including apparent desert areas, reinforcing the context of low habitability. Step 3: Slice 6 earlier labels the Taklamakan Desert in China, establishing the presence of a harsh desert environment. Logic holds because the earlier desert label (Taklamakan) provides context for why parts of the later-highlighted region (Xinjiang) are harsh, consistent with the visuals of deserts in Xinjiang.",
+        "visual_proof": "Clip 2 (0:03) and Clip 3 (0:04) both display a map of Xinjiang outlined in orange with text explicitly stating 'Only 5% habitable'. Clip 1 (0:09-0:10) labels the 'Taklamakan Desert' within the same geographical area, visually establishing it as a major feature contributing to the region's harsh conditions. The size of Xinjiang is also emphasized by its depiction on the globe and satellite maps."
+    },
+    {
+        "question": "What is the main topic header that appears before the ethnicity breakdown, and what two key points about China’s population and ethnic majority are presented across the later graphics?",
+        "answer": "The header is \"DEMOGRAPHICS,\" and the key points are that China has about 1.4 billion people and roughly 90% are Han Chinese.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            58,
+            59,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 58 displays the word \"DEMOGRAPHICS.\" Step 2: Slice 59 shows \"POPULATION 1.4 BILLION\" (most populated, ~19% of world). Step 3: Slice 62 shows a pie chart with ~90% Han Chinese and 50+ other groups. Conclusion: Demographics section emphasizes 1.4B population and ~90% Han majority.",
+        "logic_check_reasoning": "Step 1: Slice 58 shows a collage with the word 'DEMOGRAPHICS' prominently, establishing the main topic header before the ethnicity breakdown. Step 2: Slice 59 provides a graphic titled 'China Ethnicity' stating 'POPULATION 1.4 BILLION', confirming the population key point. Step 3: Slice 62 presents a pie chart indicating approximately 90% of the population is Han Chinese, confirming the ethnic majority key point. Logic holds because the header precedes the specific China slides, and the later graphics explicitly state the two key points.",
+        "visual_proof": "Clip 1 shows the word \"DEMOGRAPHICS\" appearing as a large title over a collage of diverse people. Clip 2 displays a graphic with the header \"China Ethnicity\" and states \"POPULATION 1.4 BILLION.\" Clip 3 continues with the \"China Ethnicity\" header and presents a pie chart indicating \"~90% Han.\""
+    },
+    {
+        "question": "Which northeastern city is shown with a famous ice festival, and which earlier map segment highlights its surrounding cold-region context by labeling nearby provinces with snowflakes?",
+        "answer": "Harbin is shown with the ice festival, and the earlier cold-region map highlights Inner Mongolia, Heilongjiang, and Jilin with snowflakes.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            42,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows Harbin and the Harbin Ice and Snow Festival. Step 2: Slice 41 highlights NE regions (Inner Mongolia, Heilongjiang, Jilin) with snowflakes. Step 3: Slice 43 discusses Manchuria (the NE area) with a highlighted map region. Conclusion: Harbin’s ice festival fits the snowflake-marked NE/Manchuria context.",
+        "logic_check_reasoning": "Step 1: Slice 42 explicitly shows Harbin, China, and details the Harbin Ice and Snow Festival with ice sculptures and performances, confirming the northeastern city with a famous ice festival. Step 2: Slice 41 describes a map highlighting Inner Mongolia, Heilongjiang, and Jilin, with snowflake icons appearing over these regions to indicate cold conditions, matching the earlier map segment highlighting nearby provinces with snowflakes. Logic holds because the map context (Slice 41) precedes the city festival depiction (Slice 42) and directly references the specific provinces named in the proposed answer.",
+        "visual_proof": "Clip 2 explicitly shows 'Harbin, China' with large ice sculptures and people at a festival. Clip 1 displays a map where the provinces of Inner Mongolia, Heilongjiang, and Jilin are highlighted in purple and overlaid with animated snowflake icons to indicate cold regions, which geographically surround Harbin."
+    },
+    {
+        "question": "Across the video’s language segments, which language is labeled on screen first, and which later segment explicitly compares two Chinese languages side-by-side?",
+        "answer": "Mandarin is labeled first, and later Cantonese and Mandarin are compared together.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            65,
+            69,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows text \"普通话 (Mandarin).\" Step 2: Slice 69 shows \"Cantonese\" with Guangdong and Hong Kong/Macau flags. Step 3: Slice 71 shows both \"Cantonese\" and \"Mandarin\" together with additional flags. Conclusion: Mandarin appears first as a label; later a direct Cantonese-vs-Mandarin comparison is shown.",
+        "logic_check_reasoning": "Step 1: Slice 65 explicitly states the text '普通话 (Mandarin)' is displayed while the man speaks, indicating Mandarin is labeled on screen. Step 2: Slice 69 later shows 'Cantonese' labeled, with contextual visuals (Guangdong, Hong Kong, Macau), suggesting the Cantonese segment follows. The consistent setting (same man, red shirt, black background) links the slices logically. Step 3: Slice 71 mentions both 'Cantonese' and 'Mandarin' displayed together, indicating an explicit side-by-side comparison of the two Chinese languages in a later segment.",
+        "visual_proof": "In Clip 1, the on-screen text clearly reads '普通话 (Mandarin)' at the start. In Clip 3, the text explicitly displays '洗手間- Cantonese' and '洗手間- Mandarin' side-by-side, directly comparing the two languages."
+    },
+    {
+        "question": "What earlier graphic explains the meaning of the Chinese flag’s stars using class labels, and which later segment references communist symbolism again using a historical revolutionary figure?",
+        "answer": "The stars are explained with labels like Communist Party, peasantry, working class, and urban petty bourgeoisie; later, Lenin appears with communist symbols.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            77,
+            94
+        ],
+        "reasoning_chain": "Step 1: Slice 4 breaks down the Chinese flag stars with arrows and class labels including the Communist party. Step 2: Slice 77 shows an inset of Lenin with a red star and hammer-and-sickle. Step 3: Slice 94 uses personified Russia/China with oil and factory icons, continuing the communist-style symbolic storytelling. Conclusion: Flag-star class explanation is revisited later through Lenin/communist iconography and related political-economy visuals.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a graphic of the Chinese flag where arrows label the stars as 'Communist party,' 'Urban petty bourgeoisie,' 'Peasantry,' and 'Working class,' explicitly explaining the stars' meanings using class labels. Step 2: Slice 77 shows a man presenting with an inset image of Vladimir Lenin alongside a red star and hammer-and-sickle, clearly referencing communist symbolism via a historical revolutionary figure. Logic holds because the first segment matches the class-labeled flag explanation, and the later segment features Lenin with communist symbols.",
+        "visual_proof": "Clip 1 visually explains the Chinese flag's stars with text labels: 'Communist party' for the large star, and 'Working class', 'Peasantry', and 'Urban petite bourgeoisie' for the smaller stars. Clip 2 shows a man speaking while an inset image of Lenin appears next to him, set against a backdrop featuring the hammer and sickle, a prominent communist symbol."
+    },
+    {
+        "question": "What is the title shown early in the video, and which country’s flag is highlighted shortly afterward during the symbolism explanation?",
+        "answer": "The title is \"Geography Now!!!\" and the highlighted flag is China’s flag.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the on-screen title \"Geography Now!!!\" during the intro. Step 2: Slice 3 highlights the Chinese flag during a graphic explanation. Conclusion: The title is Geography Now!!! and the flag is China’s.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 states the video begins with a man speaking and the title 'Geography Now!!!' displayed on the screen, confirming the early title. Step 2: Evidence Slice 3 describes a focus on the Chinese flag with symbolism text 'Red = Revolution,' indicating the highlighted flag during the symbolism explanation is China’s. Logic holds because the title appears early (Slice 2) and the Chinese flag is subsequently highlighted with symbolic context (Slice 3).",
+        "visual_proof": "In Clip 1, at 0:02, the text \"GEOGRAPHY NOW!!\" is clearly visible over a world map collage. In Clip 2, starting at 0:01, the flag of China is prominently displayed against a radiating background, followed by an explanation of its symbolism, confirming it is the highlighted flag."
+    },
+    {
+        "question": "Which sequence connects China’s regional diversity visuals (map insets of landscapes and city), then a specific Inner Mongolia focus, then a desert horseback scene, and finally a Xinjiang size/habitability explanation?",
+        "answer": "It goes from diverse China insets, to Inner Mongolia labeling, to the Gobi Desert horseback scene, and then to Xinjiang being huge with only about 5% habitable land.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            40,
+            44,
+            45,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows varied China insets (rural hills, coastal city, red fields, festival crowd). Step 2: Slice 44 labels and focuses on Inner Mongolia. Step 3: Slice 45 labels the Gobi Desert and shows horseback travel. Step 4: Slice 47 explains Xinjiang’s vast area and low habitability with scenic shots. Conclusion: The video transitions from general diversity to specific northern/arid regions and then to Xinjiang’s scale and livability.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows an aerial map of China followed by diverse inset images (rural landscape, coastal city, agricultural field, cultural festival), which matches 'China’s regional diversity visuals.' Step 2: Slice 44 focuses specifically on Inner Mongolia with clear labeling and a circled map, fulfilling 'a specific Inner Mongolia focus.' Step 3: Slice 45 presents the Gobi Desert with people riding horses, aligning with 'a desert horseback scene.' Step 4: Slice 47 explains Xinjiang’s size (1.5 million sq km) and that only 5% is habitable, matching 'Xinjiang size/habitability explanation.' The proposed sequence exactly aligns with these slices in order.",
+        "visual_proof": "Clip 1 shows a map of China with insets of diverse landscapes (grasslands, city, beach). Clip 2 highlights Inner Mongolia with its name and visuals of yurts and desert. Clip 3 features a presenter with an inset labeled 'Gobi desert' showing people on horseback. Clip 4 displays a map of Xinjiang with text stating '1 1/2 Mil sq KM Only 5% habitable'. This sequence perfectly matches the described order."
+    }
+]

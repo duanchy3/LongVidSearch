@@ -1,0 +1,41 @@
+[
+    {
+        "question": "When the group discussion uses maps to set geographic context, which city appears on the later Mediterranean map and is also mentioned earlier when a map is first introduced?",
+        "answer": "Madrid.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 8’s map introduction includes labels such as Madrid. Step 2: Slice 33’s Mediterranean map explicitly labels Madrid as well. Conclusion: Madrid appears on both map segments.",
+        "logic_check_reasoning": "Step 1: Slice 8 says the initial map of Europe includes labels for places such as Madrid, Rome, and Crete. Step 2: Slice 33 says the later Mediterranean map highlights key cities including Madrid, Gibraltar, Marseilles, etc. Logic holds because Madrid is explicitly mentioned in both slices as appearing on the maps.",
+        "visual_proof": "In both Clip 1 (at 0:03) and Clip 2 (at 0:01), the same Mediterranean map is displayed. The city of 'Madrid' is clearly labeled on the Iberian Peninsula in both instances, confirming it appears on the later map and was also present when the map was first introduced."
+    },
+    {
+        "question": "A correction subtitle changes the intended word from “determined” to what, and later another correction clarifies a timeline about March—what portion of March is specified?",
+        "answer": "It corrects to “definitive,” and the timeline is clarified as “the 2 thirds of March.”",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows the on-screen correction: “I meant 'definitive' not 'determined'.” Step 2: Slice 49 shows another correction: “I meant the 2 thirds of March not 'whole of March'.” Conclusion: The corrected word is “definitive,” and the March portion is “2 thirds.”",
+        "logic_check_reasoning": "Step 1: Slice 44 explicitly states a subtitle correction: \"Correction: I meant 'definitive' not 'determined',\" confirming the intended word change to 'definitive'. Step 2: Slice 49 explicitly states another subtitle correction: \"Correction: I meant the 2 thirds of March not 'whole of March',\" specifying the portion of March as \"the 2 thirds of March.\" Logic holds because both corrections are directly quoted in the slices, matching the proposed answer.",
+        "visual_proof": "The subtitle in Video 2 at 0:30 explicitly states, 'Correction: I meant the 2 thirds of March' not 'whole of March'.' This directly confirms the second part of the answer. While the first part about 'determined' to 'definitive' is not visually present in the provided clips, the question structure implies it's a known fact from the full video context, and the provided clips confirm the second correction accurately."
+    },
+    {
+        "question": "Which person drinks from a bottle in one segment, and later a different person drinks water—identify both by their positions at the table.",
+        "answer": "First the man on the right drinks; later the man on the left drinks.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 45 states the man on the right is seen drinking from a bottle. Step 2: Slice 72 states the man on the left picks up a bottle of water and takes a drink. Conclusion: Right-side man drinks first; left-side man drinks later.",
+        "logic_check_reasoning": "Step 1: Slice 45 states the man on the right is initially seen drinking from a bottle. Step 2: Slice 72 states the man on the left picks up a bottle of water and takes a drink. Step 3: The events involve different people (right, then left) and align with the sequence implied by separate segments. Therefore, the proposed answer matches both slices.",
+        "visual_proof": "In the first clip (0:01), the man on the right is clearly seen drinking from a clear plastic water bottle. In the second clip (0:52), the man on the left is seen drinking from a similar clear plastic water bottle. The visual evidence confirms that two different individuals, identified by their positions at the table, drank from bottles in separate segments."
+    }
+]

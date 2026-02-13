@@ -1,0 +1,107 @@
+[
+    {
+        "question": "What object is used to make contact with the supernatural early on, and what weapon does a woman later hold while cautiously moving through a hallway as if bracing for danger?",
+        "answer": "A Ouija board is used early on, and later a woman holds a hammer in the hallway.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows hands using a Ouija board/planchette. Step 2: Slice 45 shows a woman (Frances) holding a hammer in a dark hallway. Conclusion: The supernatural tool is the Ouija board, and the later defensive weapon is a hammer.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly shows a person interacting with a Ouija board, described as a tool associated with communication with the dead, supporting the 'supernatural contact' object. Step 2: Evidence Slice 45 states that a woman (Frances) is in a hallway holding a hammer, looking cautious and alert, matching the description of a woman holding a weapon while cautiously moving through a hallway. Logic holds because Slice 1 covers the early supernatural element and Slice 45 covers the later hallway scene with the hammer.",
+        "visual_proof": "In Clip 1, at 0:07, hands are clearly shown moving a planchette on a Ouija board. In Clip 2, from 0:00 to 0:04 and again at 0:07, a woman named Frances is visibly holding a hammer while standing in a dimly lit hallway, looking cautious."
+    },
+    {
+        "question": "Which labeled chemical is shown in one scene, and what tool is used to shine light into a dark space in another scene where something unusual is being searched for?",
+        "answer": "Diethyl ether is shown, and a flashlight is used.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            55,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 55 shows a bottle labeled DIETHYL ETHER. Step 2: Slice 20 shows a hand holding a flashlight while exploring a dark area and spotting a green glowing object. Conclusion: The chemical is diethyl ether, and the search tool is a flashlight.",
+        "logic_check_reasoning": "Step 1: Slice 55 explicitly states the woman is holding a bottle labeled 'DIETHYL ETHER,' confirming the chemical shown. Step 2: Slice 20 explicitly describes a hand holding a flashlight illuminating a dark room, revealing a green glowing object, which supports the idea of shining light into a dark space to find something unusual. Logic holds because both elements are directly described in the captions.",
+        "visual_proof": "In Clip 1, a hand holds a bottle with a clear label reading 'DIETHYL ETHER'. In Clip 2, a person shines a bright beam of light from a handheld device (flashlight) into a dark space, illuminating a door and later a green-lit object on the floor."
+    },
+    {
+        "question": "What small puzzle-like object is handled during a serious table conversation, and what other labeled media item later reveals a specific past event when played?",
+        "answer": "A Rubik's cube, and a VHS tape labeled “Moving Day.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a woman manipulating a Rubik's cube at the table. Step 2: Slice 14 shows a VHS tape labeled 'Moving Day' being inserted and playing dated family footage. Conclusion: The objects are a Rubik's cube and the 'Moving Day' VHS tape.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes a serious table conversation between a woman and a man, and later explicitly states the woman is holding and manipulating a Rubik's cube. Step 2: Slice 14 shows a VHS tape labeled 'Moving Day' being inserted into a VCR, and when played, it reveals a specific past family event dated August 24, 1984. Both items and their contexts align with the question.",
+        "visual_proof": "In Clip 1, at 0:27, the young woman is clearly seen holding a multi-colored Rubik's cube during the table conversation. In Clip 2, at 0:00, a hand inserts a VHS tape into a player, and the label 'MOVING DAY' is visible on the tape's spine. The tape is then played, showing a family video dated August 24, 1984."
+    },
+    {
+        "question": "A family is shown gathered outdoors in dated footage; later, a newspaper headline reports a tragedy involving a family. What contrast about family fate is presented across these two moments?",
+        "answer": "A cheerful family moment in old footage contrasts with a later report of a family of four found dead.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows a happy family outdoors on dated footage (Aug 24, 1984). Step 2: Slice 38 shows a newspaper headline 'Family of Four Found Dead' dated Apr 23, 1985. Conclusion: The video contrasts a normal family scene with a later tragic family death report.",
+        "logic_check_reasoning": "Step 1: Slice 14 describes dated footage from August 24, 1984 showing a family gathered outdoors, with the scene noted as bright and cheerful, evoking nostalgia. Step 2: Slice 38 presents a newspaper headline reading 'Family of Four Found Dead' dated April 23, 1985, indicating a tragic event. Logic holds because the first moment depicts a happy family scene, while the later moment reports a family tragedy, matching the proposed contrast.",
+        "visual_proof": "Clip 1 shows dated home video footage (dated Aug 24, 1984) of a smiling family of four posing outdoors. Clip 2 shows a newspaper headline from April 23, 1985, which reads 'Family of Four Found Dead,' creating a direct visual contrast between a happy past and a tragic future for the same family."
+    },
+    {
+        "question": "Which missing person is named in a later investigative clue, and what handheld tool does the same named person later carry as if defending herself?",
+        "answer": "Frances Nichols is the missing person, and she later carries a hammer.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a newspaper clipping: 'Missing: Young Lakeshore Girl, Frances Nichols.' Step 2: Slice 45 shows 'Frances' holding a hammer in a hallway. Conclusion: The missing person is Frances Nichols, and she later holds a hammer.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 30 shows a newspaper clipping stating 'Missing: Young Lakeshore Girl, Frances Nichols,' clearly naming the missing person as Frances Nichols. Step 2: Evidence Slice 45 depicts 'a woman named Frances' holding a hammer in a defensive posture in a hallway. The narrative continuity and the 'STORY RECAPPED' context indicate this is the same Frances from the investigative clue. Thus, the missing person is Frances Nichols, and she later carries a hammer as if defending herself.",
+        "visual_proof": "In Clip 1, a newspaper headline clearly reads 'Missing: Young Lakeshore Girl, Frances Nichols'. In Clip 2, the character identified by on-screen text as 'Frances' is shown holding a hammer in a defensive posture while confronting another person."
+    },
+    {
+        "question": "A woman plays an instrument in a cluttered room; in a later scene, a woman speaks on a white telephone receiver in a tense moment. What kind of communication or sound-related action links these two scenes?",
+        "answer": "Both involve focused use of devices associated with sound—playing a clarinet and using a phone to communicate.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a woman actively producing sound by playing a clarinet. Step 2: Slice 33 shows a woman using a white telephone receiver during a tense call. Conclusion: Both scenes center on sound/communication actions (music performance vs phone call).",
+        "logic_check_reasoning": "Step 1: Slice 10 shows a woman playing a clarinet in a cluttered room, which is a sound-producing, focused activity using a musical instrument. Step 2: Slice 33 shows a woman holding a white telephone receiver during a tense moment, indicating phone communication (listening/speaking), another sound-based, focused activity. Logic holds because both scenes involve deliberate engagement with devices centered on sound—music performance and telephone communication.",
+        "visual_proof": "Clip 1 shows a woman actively playing a clarinet, an instrument that produces sound. Clip 2 shows a woman holding a telephone receiver to her ear and speaking into it, a device used for verbal communication. Both actions are centered on producing or receiving sound through a specific device."
+    },
+    {
+        "question": "Identify the two different door-viewing details used to imply surveillance or intrusion: one involving a door feature used to look through, and another involving a door feature being turned to enter.",
+        "answer": "A peephole with an eye looking through it, and a doorknob being turned.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a peephole with a menacing eye visible through it. Step 2: Slice 19 shows a doorknob being turned slowly, implying entry. Conclusion: Peephole surveillance and doorknob turning imply intrusion.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly describes a close-up of a peephole with a large, menacing eye visible through it, indicating surveillance via a door feature used to look through. Step 2: Slice 19 explicitly describes a close-up of a doorknob being turned slowly, indicating an attempt to enter via a door feature being turned. Logic holds because both details directly match the two types of door-related actions requested: looking through and turning to enter.",
+        "visual_proof": "Clip 1 at 0:04-0:05 shows a close-up of an eye looking through a peephole. Clip 2 at 0:15-0:16 shows a hand turning a doorknob in a dark setting, implying an attempt to enter."
+    },
+    {
+        "question": "A woman in a blue cardigan is shown in a dim room; later, the same light-blue-cardigan look appears as she reacts in a chandelier-lit space; later, she is in an intense face-to-face exchange with another woman. How does her emotional state change across these scenes?",
+        "answer": "She starts serious/neutral, then becomes visibly shocked or surprised, and then engages in a tense, serious confrontation.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            47,
+            49,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows a woman in a light blue cardigan with a neutral/somber expression. Step 2: Slice 49 shows her looking surprised/shocked under a chandelier. Step 3: Slice 51 shows her in an intense conversation with another woman, maintaining tension. Conclusion: Her state shifts from calm seriousness to shock to confrontation.",
+        "logic_check_reasoning": "Step 1: Slice 47 describes a young woman in a light blue cardigan with a neutral expression in a dim room, supporting 'serious/neutral.' Step 2: Slice 49 shows the same light-blue-cardigan look in a chandelier-lit space where she appears surprised or shocked, supporting 'visibly shocked or surprised.' Step 3: Slice 51 depicts an intense, serious conversation between two women, with one in a light-colored top, and the tone is tense, supporting 'tense, serious confrontation.' Despite minor appearance description differences (likely VLM noise), the emotional progression is directly supported by the slices.",
+        "visual_proof": "In Clip 1, the woman in the blue cardigan has a neutral, slightly concerned expression. In Clip 2, her eyes are wide and mouth is open in a clear expression of shock as she turns away. In Clip 3, she is shown in close-up with furrowed brows and a tense, distressed look while facing another woman, indicating a serious confrontation."
+    }
+]

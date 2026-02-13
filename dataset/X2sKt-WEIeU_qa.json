@@ -1,0 +1,149 @@
+[
+    {
+        "question": "Which herb is torn by hand near the end of the cooking process and later appears as a bowl of green sauce on the counter?",
+        "answer": "Parsley.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows the man tearing parsley leaves from the stems. Step 2: Slice 51 shows a bowl of green sauce on the cutting board area, consistent with an herb-based sauce. Conclusion: The herb used is parsley.",
+        "logic_check_reasoning": "Step 1: Slice 49 explicitly states there is a bunch of fresh parsley on the cutting board and the man tears off parsley leaves from the stem by hand. Step 2: Slice 51 shows, in the same kitchen context, a bowl of green sauce on the counter. While the sauce’s exact contents aren’t specified, the question only asks which herb was torn by hand; Slice 49 clearly identifies it as parsley. The scenes are consistent and support the identification.",
+        "visual_proof": "In Clip 1, the man is shown tearing green leafy herbs by hand and placing them into a blender cup. The herb's appearance, with its flat, serrated leaves, is characteristic of parsley. In Clip 2, a bowl of green sauce is on the counter next to the blender cup, which is the result of blending the herbs from Clip 1. The continuity between tearing the parsley and the resulting sauce confirms the answer."
+    },
+    {
+        "question": "What evidence shows the cook transitions from preparing vegetables to cooking a seafood-and-vegetable mixture in the pot?",
+        "answer": "He chops and sautés vegetables earlier, and later shrimp appear being stirred together with vegetables in the pot.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            26,
+            38,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows chopping onions/carrots/garlic. Step 2: Slice 38 shows sautéing mixed vegetables in a pot. Step 3: Slice 47 shows shrimp added and stirred with vegetables. Conclusion: The pot contents progress from vegetables to a shrimp-and-vegetable mixture.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows the cook chopping vegetables (onions, carrots, garlic), indicating preparation. Step 2: Slice 38 shows those vegetables being sautéed in a pot, confirming the cooking of a vegetable mix. Step 3: Slice 47 shows shrimp being stirred together with carrots and green vegetables in the pot, demonstrating the transition to a seafood-and-vegetable mixture. Logic holds because the scenes consistently depict the same kitchen setup and tattooed arm, linking the steps from prep to sauté to adding shrimp.",
+        "visual_proof": "Clip 1 shows the cook chopping onions, carrots, and garlic. Clip 2 shows these chopped vegetables being sautéed in a pot. Clip 3 shows raw shrimp being added to and stirred with the same vegetables in the pot, demonstrating the transition from vegetable prep to cooking the seafood-and-vegetable mixture."
+    },
+    {
+        "question": "What ingredient is added to the pot after vegetables are being stirred, and is also shown clearly as a labeled bottle in a close-up later?",
+        "answer": "Verjuice",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows wine being poured into the pot after stirring vegetables. Step 2: Slice 42 shows a close-up of a labeled bottle of Verdicchio wine. Conclusion: The ingredient is white wine.",
+        "logic_check_reasoning": "Step 1: Slice 11 states the man pours wine into the pot after stirring vegetables. Step 2: Slice 42 shows a close-up of a labeled bottle of white wine, specifically Verdicchio (Maggi). Logic holds because the ingredient added (wine) is later shown clearly as a labeled bottle, specifying it as white wine (Verdicchio).",
+        "original_text_answer": "White wine (Verdicchio).",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1, after stirring vegetables, the chef pours a liquid from a green bottle into the pot. In Video 2, a close-up clearly shows the label on this same bottle, which reads 'MAGGIE BEER VERJUICE', not 'White wine (Verdicchio)'."
+    },
+    {
+        "question": "Which ingredient is added to a jar to make a dressing and later is shown being poured onto chopped tomatoes in a bowl?",
+        "answer": "Lemon juice.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            66,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows olive oil poured into a jar to make a dressing. Step 2: Slice 62 shows olive oil added to chopped tomatoes in a metal bowl. Conclusion: The shared ingredient is olive oil.",
+        "logic_check_reasoning": "Step 1: Slice 66 states the man making a dressing \"pours olive oil into the jar\" along with lemon juice and mustard. Step 2: Slice 62 shows the same man adding olive oil to chopped tomatoes in a bowl. Logic holds because olive oil is explicitly mentioned in both actions—added to the jar for the dressing and then poured onto the tomatoes.",
+        "original_text_answer": "Olive oil.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1, the man is shown squeezing lemon juice into a jar using a yellow citrus squeezer (0:03-0:04). He then adds mustard and other ingredients to this jar to make a dressing. In Video 2, he is later seen pouring olive oil directly from a bottle onto chopped tomatoes in a bowl (0:09), which is a separate action from adding the contents of the jar. The ingredient added to the jar that is later used as part of the dressing is clearly lemon juice, not olive oil."
+    },
+    {
+        "question": "Which two different cooking liquids are shown being added at different times—one poured into a pot early and one later shown as a labeled bottle used for cooking?",
+        "answer": "A liquid from a white squeeze bottle is poured in early, and verjuice (from a bottle labeled 'MAGGIE BEER VERJUICE') is later shown as a labeled bottle used for cooking.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            11,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a liquid poured from a white container into a pot. Step 2: Slice 11 shows wine poured into the pot during cooking. Step 3: Slice 42 confirms the wine via a labeled Verdicchio bottle close-up. Conclusion: Two liquids are introduced: an initial poured liquid plus white wine later.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows the man pouring a liquid from a white container into the pot early. Step 2: Slice 11 shows the man later pouring wine into the pot while cooking. Step 3: Slice 42 shows a labeled bottle of white wine (Verdicchio, Maggi), indicating the wine used for cooking. Logic holds because the early liquid is unspecified but clearly from a white container, and the later cooking liquid is explicitly identified as white wine from the labeled bottle.",
+        "original_text_answer": "A liquid from a white container is poured in early, and white wine (Verdicchio) is later shown as a labeled bottle.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the chef pours a clear liquid from a white squeeze bottle into the pot at the beginning of the cooking process. In Clip 3, a close-up shot clearly shows a bottle labeled 'MAGGIE BEER VERJUICE', which the chef handles, indicating it is the second cooking liquid. The original answer incorrectly identifies this as 'white wine (Verdicchio)'."
+    },
+    {
+        "question": "What step happens after the green beans are cooled in ice water that helps remove excess water before they are covered?",
+        "answer": "They are drained in a colander and laid out on a towel to dry before being covered.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows green beans moved from boiling water to ice water. Step 2: Slice 18 shows draining vegetables in a colander and placing them on a towel. Step 3: Slice 19 shows green beans covered with a striped cloth. Conclusion: The drying step is draining and towel-drying before covering.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows the man taking green beans from boiling water and placing them into a bowl of ice water, indicating cooling. Step 2: Slice 18 shows him pouring the vegetables into a colander to drain, then placing them on a towel—both actions help remove excess water. Step 3: Slice 19 shows the beans being covered with a cloth. The sequence supports that after cooling, the beans are drained and laid on a towel to dry before being covered.",
+        "visual_proof": "After the green beans are shown cooling in ice water (Clip 1, 0:14-0:15), Clip 2 shows them being poured from the bowl into a colander to drain (0:06). The man then places the colander with the beans onto a black towel (0:13) and pours the beans out onto it to lay flat (0:16-0:17). Finally, Clip 3 shows him covering the beans on the towel with another towel (0:01-0:02), confirming the drying step occurred before covering."
+    },
+    {
+        "question": "What sequence shows tomatoes being processed from whole to dressed pieces that can be used for topping a plated salad?",
+        "answer": "Whole tomatoes are sliced, cut into quarters, moved into a bowl, and mixed with olive oil before being spooned onto a plated salad.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            61,
+            62,
+            69,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows slicing a tomato on a cutting board. Step 2: Slice 62 shows tomatoes cut into quarters and put into a metal bowl with olive oil. Step 3: Slice 69 shows a bowl of chopped tomatoes on the counter. Step 4: Slice 72 shows tomatoes spooned from a bowl onto the plated salad. Conclusion: Tomatoes progress from whole → sliced/quartered → dressed in a bowl → used as salad topping.",
+        "logic_check_reasoning": "Step 1: Slice 61 shows two whole tomatoes on the cutting board and the man slicing a tomato, establishing the start from whole tomatoes. Step 2: Slice 62 explicitly says he cuts the tomatoes into quarters, puts them into a metal bowl, and adds olive oil, which dresses them. Step 3: Slice 69 shows a metal mixing bowl with chopped tomatoes, consistent with the processed state in a bowl. Step 4: Slice 72 shows him spooning tomatoes from a bowl onto a plated salad, using them as a topping. The sequence in the proposed answer—whole, sliced/quartered, into a bowl, mixed with olive oil, then spooned onto the salad—is directly supported across these slices.",
+        "visual_proof": "The sequence is visually confirmed across the clips. Clip 1 shows whole tomatoes being sliced on a cutting board. Clip 2 continues this, showing the tomatoes being quartered and then transferred to a metal bowl. In Clip 2 and 4, the man adds olive oil to the bowl of chopped tomatoes and mixes them. Finally, Clip 4 shows him spooning these dressed tomato pieces from the bowl onto a white plate, which already has greens, indicating they are being used as a topping for a salad."
+    },
+    {
+        "question": "What is the sequence of actions that turns green beans from raw prep to being dried under a cloth?",
+        "answer": "They are prepared (trimmed/snapped), boiled, shocked in ice water, and then covered with a cloth to dry.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            13,
+            15,
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows trimming/slicing green beans. Step 2: Slice 15 shows boiling them and moving them into ice water. Step 3: Slice 18 shows draining vegetables in a colander and laying them on a towel to dry. Step 4: Slice 19 shows green beans covered with a striped cloth. Conclusion: The process is prep → blanch/boil → ice bath → drain/dry → cover to finish drying.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes the man trimming and slicing the green beans, showing the raw prep. Step 2: Slice 15 shows him snapping the beans, then boiling them, and shocking them in ice water. Step 3: Slice 18 shows draining the beans and placing them on a towel, which indicates drying. Step 4: Slice 19 shows the beans being covered with a cloth, consistent with being dried under a cloth. The sequence in the proposed answer aligns with these steps.",
+        "visual_proof": "Clip 1 shows the man trimming green beans. Clip 2 shows him boiling the beans and then transferring them to a bowl of ice water (shocking). Clip 3 shows him draining the beans from the ice water and spreading them on a black towel. Clip 4 shows him covering the beans on the towel with another cloth. This sequence visually confirms the original answer."
+    },
+    {
+        "question": "What cooking actions indicate the pot contents are being built up in stages from aromatics to added fat and then later seafood appears?",
+        "answer": "Vegetables are added and stirred first, olive oil/fat is added later, and then shrimp are shown in the pot afterward.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            9,
+            39,
+            47,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows adding aromatics/vegetables (carrots, onions, garlic) to the pot and stirring. Step 2: Slice 39 shows adding olive oil while stirring vegetables. Step 3: Slice 47 shows shrimp in the pot with vegetables. Step 4: Slice 74 shows shrimp appearing in a plated salad, implying the cooked shrimp mixture is used for serving. Conclusion: The pot is built in stages: aromatics → oil/fat → shrimp → plated dish.",
+        "logic_check_reasoning": "Step 1: Slice 9 states the man adds carrots, onions, and garlic to the pot and stirs, indicating aromatics/vegetables first. Step 2: Slice 39 shows the pot with sliced vegetables and explicitly mentions he then adds olive oil while continuing to stir, indicating fat is added after the vegetables. Step 3: Slice 47 shows shrimp in the pot along with vegetables, indicating seafood appears later. The slices depict a coherent progression in the same modern kitchen with the same man (black shirt, tattoos), supporting the staged build-up.",
+        "visual_proof": "In Clip 1, chopped carrots and onions are added to a pot and stirred. In Clip 2, the chef pours a liquid (likely olive oil or wine) into the pot with the vegetables. In Clip 3, shrimp are visibly added to the pot containing the cooked vegetables, confirming the staged cooking process."
+    },
+    {
+        "question": "What final meal elements are shown together at the end that tie back to earlier preparation steps in the video?",
+        "answer": "Bread, greens/salad, and a roasted meat component are presented together, connecting back to earlier bread slicing/plating, salad prep, and meat cooking/removal from the pot.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            63,
+            72,
+            74,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 63 shows cooked meat being transferred to a tray, indicating a main protein component. Step 2: Slice 72 shows salad being plated with tomatoes. Step 3: Slice 74 shows bread being handled and dishes being plated (salad with shrimp/veg, meat plate, bread). Step 4: Slice 75 shows the final presentation table with bread, greens, and a roasted meat item. Conclusion: The ending presentation combines components prepared across earlier segments.",
+        "logic_check_reasoning": "Step 1: Slice 75 shows final elements together on the table: a roasted chicken (roasted meat component), a loaf of bread, and a bowl of greens. Step 2: Slice 74 shows earlier bread slicing and salad-related plating, connecting to the bread and greens. Step 3: Slice 72 explicitly shows salad preparation, reinforcing the greens/salad element. Step 4: Slice 63 shows meat being cooked and removed from a pot, linking to the meat component featured at the end. Logic holds because the final display (Slice 75) includes bread, greens, and roasted meat, which correspond to earlier steps of bread handling, salad preparation, and meat cooking shown in Slices 74, 72, and 63.",
+        "visual_proof": "In Clip 3 (0:14-0:20), the chef plates the cooked meat with sauce and garnishes. In Clip 3 (0:20-0:22) and Clip 4 (0:00-0:03), all prepared dishes are shown together on the counter: the sliced bread (from Clip 3, 0:00-0:05), the greens/salad (from Clip 2, 0:00-0:04), and the plated roasted meat (from Clip 1, 0:00-0:02 and Clip 3, 0:14-0:20). This confirms the final meal elements are presented together as described."
+    }
+]

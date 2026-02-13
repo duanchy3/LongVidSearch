@@ -1,0 +1,162 @@
+[
+    {
+        "question": "Which public transport option is shown going toward Ponte Vecchio, and what price is shown for the ticket used for it?",
+        "answer": "An ATAF bus; the ticket price shown is $1.50 USD.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            48
+        ],
+        "reasoning_chain": "Step 1: A bus from ATAF is shown with its destination sign indicating 'Ponte Vecchio,' and a close-up shows a ticket priced at $1.50. Step 2: Later, Ponte Vecchio is shown at sunset as an itinerary stop. Conclusion: The transport is the ATAF bus and the ticket costs $1.50.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows an ATAF bus with its destination sign indicating it is heading toward 'Ponte Vecchio.' Step 2: Slice 12 then shows a close-up of a bus ticket for 'Il Giglietto' priced at $1.50 USD, clearly identifying it as a bus ticket. Step 3: The sequence links the bus and the ticket, supporting that the ticket price shown applies to the bus going toward Ponte Vecchio. Slice 48 reinforces the location but is not necessary for the transport and price details. The logic holds and is directly supported by Slice 12.",
+        "visual_proof": "Clip 1 visually confirms an 'ATAF Bus Service' with a bus displaying route 13, which includes 'P. MICHELANGELO' (Piazzale Michelangelo), a common starting point for buses heading toward the city center including Ponte Vecchio. The same clip shows a close-up of an 'Il Giglietto' ticket priced at €1.20, with a text overlay explicitly converting this to '$1.50 USD'. Clip 2 shows Ponte Vecchio, confirming the location context."
+    },
+    {
+        "question": "What is the cost range shown for the luxury accommodation, and what other luxury-related experience is highlighted later during dinner with a stated price?",
+        "answer": "$150–$300 USD per night; Bistecca alla Fiorentina dinner is shown as $50 USD for two.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            54
+        ],
+        "reasoning_chain": "Step 1: The accommodation price range is shown as $150–$300 USD per night. Step 2: Later, dinner highlights Bistecca alla Fiorentina with a price of $50 USD for two. Conclusion: These are the two priced luxury/paid experiences.",
+        "logic_check_reasoning": "Step 1: Slice 10 states the luxury accommodation has a displayed price range of \"$150-$300 USD per night.\" Step 2: Slice 54 shows a dinner featuring Bistecca alla Fiorentina with an on-screen price of \"$50 USD for two.\" Logic holds because the question asks for the accommodation cost range and the highlighted dinner experience with its price, both explicitly provided in the slices.",
+        "visual_proof": "In Video 1, a text overlay at 0:02 clearly states '$150-$300 USD per night' for the luxury hotel. In Video 2, a text overlay at 0:08 explicitly states '$50 USD for two' for the Bistecca alla Fiorentina dinner."
+    },
+    {
+        "question": "Which gelato shop is highlighted near Ponte Vecchio, and what later gelato brand is shown with a staff apron and a stated price?",
+        "answer": "Gelateria La Carraia; GROM is shown later at $5 USD.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            50,
+            87
+        ],
+        "reasoning_chain": "Step 1: Near Ponte Vecchio, the video highlights Gelateria La Carraia with gelato cups. Step 2: Later, a GROM apron is shown holding a cup of ice cream with a price label of $5 USD. Conclusion: The two gelato spots are La Carraia and GROM ($5).",
+        "logic_check_reasoning": "Step 1: Slice 50 explicitly mentions Gelateria La Carraia in a scene near Ponte Vecchio. Step 2: Slice 87 shows a person wearing a GROM apron and includes a price tag of $5 USD for the ice cream. Logic holds because the first slice identifies the gelato shop near the bridge, and the later slice identifies the brand with staff apron and stated price.",
+        "visual_proof": "Clip 1 visually identifies 'Gelateria La Carraia' with its storefront and gelato cups featuring the shop's logo, set against the backdrop of Ponte Vecchio. Clip 2 shows a staff member wearing an apron with the 'GROM' logo holding a cup of gelato, with an on-screen text overlay explicitly stating '$5 USD'."
+    },
+    {
+        "question": "What natural overlook is labeled as a rose garden, and which famous museum visit is shown shortly after in another segment?",
+        "answer": "Giardino delle Rose; the Uffizi Gallery.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            62,
+            65
+        ],
+        "reasoning_chain": "Step 1: The garden overlook is labeled 'GIARDINO DELLE ROSE.' Step 2: Later, the video transitions to the interior corridors of the Uffizi Gallery. Conclusion: The itinerary pairs Giardino delle Rose with a Uffizi visit afterward.",
+        "logic_check_reasoning": "Step 1: Slice 62 explicitly states the garden is labeled 'GIARDINO DELLE ROSE' and shows it as a scenic overlook of the city. Step 2: Slice 65 explicitly mentions a visit to the interior of the Uffizi Gallery in Florence. Logic holds because the question asks for the labeled rose garden and the famous museum shown in another segment, both directly named in the slices.",
+        "visual_proof": "Clip 1 explicitly labels the location as 'GIARDINO DELLE ROSE' with on-screen text, showing a garden with rose bushes and a view of Florence. Clip 2 explicitly labels the location as 'UFFIZI GALLERY' with on-screen text, showing its courtyard and interior hallways filled with statues and visitors."
+    },
+    {
+        "question": "Which landmark is featured as the bus destination earlier and later explicitly labeled as an evening sunset stop?",
+        "answer": "Ponte Vecchio.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            48
+        ],
+        "reasoning_chain": "Step 1: The ATAF bus destination sign reads 'Ponte Vecchio.' Step 2: Later, the itinerary segment is labeled 'Evening: Ponte Vecchio at Sunset.' Conclusion: The shared landmark is Ponte Vecchio.",
+        "logic_check_reasoning": "Step 1: Slice 12 states the bus destination sign indicates it is heading towards 'Ponte Vecchio.' Step 2: Slice 48 shows text 'Evening: Ponte Vecchio at Sunset,' explicitly labeling the evening sunset stop. Logic holds because both slices reference the same landmark, Ponte Vecchio, first as a bus destination and later as the evening stop.",
+        "visual_proof": "In Clip 1, the ATAF bus's destination sign reads 'CAMPO MARTE FS P. MICHELANGELO', which is a location near the Ponte Vecchio area in Florence. In Clip 2, the video explicitly labels the scene as 'EVENING: PONTE VECCHIO AT SUNSET' with text overlays and shows the iconic bridge over the Arno River, confirming it as the landmark featured."
+    },
+    {
+        "question": "Which two different paid food experiences are shown—one as gelato with a listed price and another as a steak dinner with a listed price?",
+        "answer": "GROM gelato for $5 USD and Bistecca alla Fiorentina dinner for $50 USD for two.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            87,
+            54
+        ],
+        "reasoning_chain": "Step 1: A GROM cup of ice cream is shown with a $5 USD label. Step 2: A dinner segment shows Bistecca alla Fiorentina priced at $50 USD for two. Conclusion: The two priced food items are GROM gelato ($5) and the bistecca dinner ($50 for two).",
+        "logic_check_reasoning": "Step 1: Slice 87 explicitly shows GROM-branded gelato with a price tag of \"$5 USD,\" indicating a paid gelato experience. Step 2: Slice 54 explicitly features Bistecca alla Fiorentina with text showing the price \"$50 USD for two,\" indicating a paid steak dinner experience. Logic holds because the proposed answer identifies these two experiences and matches the listed prices exactly as described in the slices.",
+        "visual_proof": "Clip 1 shows a person holding a GROM gelato cup with the price '$5 USD' displayed in the bottom right corner. Clip 2 shows a Bistecca alla Fiorentina on a platter, with the text '$50 USD for two' appearing in the bottom right corner during the latter part of the clip."
+    },
+    {
+        "question": "Which transportation line shown earlier connects to the segment about where to stay in the city?",
+        "answer": "The Tramvia T2 line.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: The Tramvia T2 line is explicitly shown on a train/tram. Step 2: The following segment shows an interior tram view and then overlays 'WHERE TO STAY IN FLORENCE.' Conclusion: The Tramvia T2 line is the transport line tied to that segment.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly shows a train labeled 'Tramvia T2 line'. Step 2: Slice 8 shows an interior view from the Tramvia T2 line and then transitions to the segment with the text 'WHERE TO STAY IN FLORENCE'. Logic holds because the transportation line shown earlier (Tramvia T2) directly precedes and connects to the 'where to stay' segment.",
+        "visual_proof": "Clip 1 ends with a shot of the 'Tramvia T2 line' at a station. Clip 2 begins with an exterior view of the same tram line, followed by a point-of-view shot from inside the tram traveling down the tracks. This is immediately followed by a title card that reads 'WHERE TO STAY IN FLORENCE', visually linking the Tramvia T2 line to the subsequent segment about accommodation."
+    },
+    {
+        "question": "What time-of-day label is used when the Duomo is featured, and what later scene continues the day by labeling an evening stop at a different landmark?",
+        "answer": "Mid-morning for the Duomo; evening at Ponte Vecchio at sunset.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            48
+        ],
+        "reasoning_chain": "Step 1: The Duomo scene is labeled 'MID-MORNING: DUOMO.' Step 2: A later segment shows 'Evening: Ponte Vecchio at Sunset.' Conclusion: The itinerary moves from mid-morning at the Duomo to evening at Ponte Vecchio.",
+        "logic_check_reasoning": "Step 1: Slice 19 explicitly shows the text overlay \"MID-MORNING: DUOMO\" when featuring the Duomo, confirming the time-of-day label as mid-morning. Step 2: Slice 48 explicitly displays the text \"Evening: Ponte Vecchio at Sunset\" when showing the Ponte Vecchio, confirming an evening stop at a different landmark. Logic holds because the question asks for the time-of-day label at the Duomo and a later evening-labeled scene at another landmark, both of which are directly stated in the slices.",
+        "visual_proof": "The first clip clearly displays a text overlay in the bottom-left corner reading 'MID-MORNING: DUOMO' while showing aerial and ground views of the cathedral. The second clip features a matching text overlay stating 'EVENING: PONTE VECCHIO AT SUNSET' as it shows the crowded bridge and river scene, confirming the transition from mid-morning to evening at a different landmark."
+    },
+    {
+        "question": "Which viewpoint is shown in the morning with crowds and a David statue, and later again at sunset with a warm sky?",
+        "answer": "Piazzale Michelangelo.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            57,
+            58
+        ],
+        "reasoning_chain": "Step 1: Piazzale Michelangelo is shown in the morning with visitors around the David statue. Step 2: The same place is shown again at sunset with orange-pink skies and crowds enjoying the view. Conclusion: The repeated location across times is Piazzale Michelangelo.",
+        "logic_check_reasoning": "Step 1: Slice 57 explicitly states the morning scene is at Piazzale Michelangelo, mentioning crowds and the prominent statue of David. Step 2: Slice 58 explicitly states a sunset scene at Piazzale Michelangelo with a warm, orange-pink sky. Logic holds because both slices name the same viewpoint and describe the specified features (morning with David statue and later at sunset).",
+        "visual_proof": "Both video clips explicitly display the text overlay 'MORNING: PIAZZALE MICHELANGELO' in the bottom left corner. Clip 1 shows a large statue (David) on a pedestal surrounded by crowds, with the Florence skyline in the background during what appears to be morning or late afternoon light. Clip 2 shows the same piazza at sunset, with a warm, orange sky and people walking around, confirming the location is shown at different times of day as described."
+    },
+    {
+        "question": "Which district shown on the map is associated with the basilica featured in an early aerial view with a white facade and bell tower?",
+        "answer": "Duomo",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            9
+        ],
+        "reasoning_chain": "Step 1: An early aerial view highlights the Basilica di Santa Croce with its white facade and bell tower. Step 2: A later map explicitly labels the Santa Croce district. Conclusion: The district associated with the basilica is Santa Croce.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly identifies the basilica in the early aerial view as the Basilica di Santa Croce, noted for its white facade and bell tower. Step 2: Slice 9 states that the map highlights the districts of Duomo and Santa Croce. Step 3: Since the basilica is the Basilica di Santa Croce, the associated district shown on the map is Santa Croce.",
+        "original_text_answer": "Santa Croce.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "The early aerial view in Clip 1 (0:00-0:01) shows the Basilica of Santa Croce, identifiable by its white facade and tall bell tower. The map in Clip 2 (0:01) explicitly labels this basilica within a red circle under the heading 'DISTRICTS OF DUOMO AND SANTA CROCE', clearly associating it with the 'Duomo' district, not the 'Santa Croce' district which is shown as a separate area on the map."
+    },
+    {
+        "question": "Which famous outdoor square contains both a large David statue and an equestrian statue shown later from closer angles?",
+        "answer": "Piazza della Signoria.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            71,
+            72
+        ],
+        "reasoning_chain": "Step 1: Piazza della Signoria is shown with David and the Palazzo Vecchio backdrop. Step 2: The same square is later shown featuring a bronze statue of a man on horseback with crowds. Conclusion: Both statues appear in Piazza della Signoria.",
+        "logic_check_reasoning": "Step 1: Slice 71 explicitly states the scene is Piazza della Signoria in Florence and mentions the famous statue of David prominently in the square. Step 2: Slice 72 explicitly states the equestrian statue is located in Piazza della Signoria. Logic holds because both slices identify the same square and each describes one of the statues, confirming that Piazza della Signoria contains both.",
+        "visual_proof": "The on-screen text in both clips explicitly identifies the location as 'PIAZZA DELLA SIGNORIA'. The first clip shows a wide view of the square with crowds and historic buildings. The second clip provides closer views of the 'Majestic Fountain Of Neptune' and the 'Equestrian Monument of Cosimo I', and also clearly shows the replica of Michelangelo's David statue standing at the entrance of the Palazzo Vecchio, confirming that both statues are located within this square."
+    },
+    {
+        "question": "How does the video build a food day that starts with market-style appetizers, moves to famous sandwiches, then gelato near the river, and finally a steak dinner?",
+        "answer": "Appetizer-style Italian food display → All’Antico Vinaio sandwiches → gelato near Ponte Vecchio (Gelateria La Carraia) → Bistecca alla Fiorentina dinner.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            27,
+            50,
+            54
+        ],
+        "reasoning_chain": "Step 1: Early on, the video shows small containers of Italian appetizers being sampled. Step 2: It later highlights large sandwiches at All’Antico Vinaio. Step 3: In the evening, gelato is shown near Ponte Vecchio at Gelateria La Carraia. Step 4: Dinner features Bistecca alla Fiorentina with a stated price. Conclusion: The food progression is appetizers → sandwiches → gelato → steak dinner.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows a display of Italian appetizers in small containers (olives, pickled vegetables), supporting the 'market-style appetizers' start. Step 2: Slice 27 features All'Antico Vinaio with a large sandwich, supporting the 'famous sandwiches' stop. Step 3: Slice 50 shows Gelateria La Carraia with gelato and Ponte Vecchio in the background, supporting 'gelato near the river.' Step 4: Slice 54 presents a Bistecca alla Fiorentina dinner, confirming the steak finale. The sequence in the proposed answer matches these evidenced elements.",
+        "visual_proof": "Clip 1 shows a market-style food display with olives and cheeses. Clip 2 features Osteria All'antico Vinaio, known for sandwiches, with patrons eating outside. Clip 3 shows Gelateria La Carraia near Ponte Vecchio at sunset, with gelato being served and held up in front of the bridge. Clip 4 displays Bistecca alla Fiorentina as the dinner item, both plated and being served to diners."
+    }
+]

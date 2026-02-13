@@ -1,0 +1,134 @@
+[
+  {
+    "question": "A money-focused shot appears near the start; later the traveler is again shown discussing money at a currency exchange area. What clothing color is associated with the early money shot, and what setting is associated with the later money explanation?",
+    "answer": "The early money shot involves a person in a white shirt, and the later money explanation happens in an airport/currency exchange setting.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      5
+    ],
+    "reasoning_chain": "Step 1: Slice 1 ends with a close-up of someone holding a stack of money while wearing a white shirt. Step 2: Slice 5 shows the traveler holding IDR and explaining exchange rates in an airport/travel hub with an exchange board. Conclusion: White shirt; airport currency exchange setting.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 describes an early money-focused shot showing a person holding a stack of money and explicitly states they are wearing a white shirt. Step 2: Evidence Slice 5 describes a later scene with a man discussing currency conversion in an airport/travel hub, with a currency exchange board visible, clearly indicating a currency exchange setting. Logic holds because the early shot's clothing color (white shirt) and the later scene's setting (airport/currency exchange) directly match the proposed answer.",
+    "visual_proof": "In Clip 1 (0:08-0:09), a man is shown lying on a couch holding a stack of cash while wearing a white t-shirt. In Clip 2 (0:00-0:05, 0:10-0:13), the same man, now wearing a green tank top, is standing in what appears to be a currency exchange office, with a digital rate board and money counting machines visible in the background, confirming the setting for the later money discussion."
+  },
+  {
+    "question": "A long scooter journey includes a stop where the rider speaks to someone in a red truck; later the same red truck scene expands to show an unexpected animal on the road. What vehicle does he stop next to, and what animal is lying near it?",
+    "answer": "He stops next to a red truck, and a cow or water buffalo is lying on the road near it.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      47,
+      48
+    ],
+    "reasoning_chain": "Step 1: Slice 47 shows the rider stopping next to a red truck and talking to someone inside. Step 2: Slice 48 shows the red truck scene and reveals a large animal (cow/water buffalo) lying on the road. Conclusion: Red truck; cow/water buffalo.",
+    "logic_check_reasoning": "Step 1: Slice 47 states the rider approaches a red truck, stops next to it, and engages in conversation with someone inside. Step 2: Slice 48 shows the same red truck scene with a large animal, described as possibly a cow or a water buffalo, lying on the road near the truck. Logic holds because both slices consistently reference the red truck and explicitly note the animal lying near it, matching the proposed answer.",
+    "visual_proof": "Clip 1 shows the man standing beside a large red dump truck, talking. Clip 2, which appears to be a later moment from the same scene, clearly shows the same red truck parked on the side of the road with a large, dark-colored animal, identifiable as a cow or water buffalo, lying on the asphalt directly in front of it."
+  },
+  {
+    "question": "Early on, a travel poster referencing Bali is shown in a living room; later the traveler reaches a beach with a BBQ buffet. What Bali-related phrase is on the poster, and what is the beach BBQ place called?",
+    "answer": "The poster says \"CANGGU BALI,\" and the place is called \"Echo Beach BBQ.\"",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      20
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows a framed poster reading \"CANGGU BALI.\" Step 2: Slice 20 shows the man at a food stall labeled \"Echo Beach BBQ.\" Conclusion: The poster phrase is CANGGU BALI and the BBQ place is Echo Beach BBQ.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states that a framed poster on the wall reads 'CANGGU BALI,' confirming the Bali-related phrase. Step 2: Evidence Slice 20 states the traveler is at an outdoor dining area near a food stall labeled 'Echo Beach BBQ' with text about an all-you-can-eat buffet, matching the beach BBQ buffet context. Logic holds because both requested details are directly named in the provided slices.",
+    "visual_proof": "In Video 1, a framed poster on the wall behind the couch clearly displays the text 'CANGGU BALI'. In Video 2, a close-up shot of a chalkboard menu at the beach location has the words 'ECHO BEACH BBQ' written in yellow text at the bottom."
+  },
+  {
+    "question": "A sign instructs the traveler to leave the airport on foot; later a daily rental price appears while riding a scooter. What does the airport sign instruct, and what is the scooter rental price per day?",
+    "answer": "The sign instructs to \"WALK OUTSIDE OF THE AIRPORT,\" and the scooter rental is 60,000 IDR per day.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      12,
+      30
+    ],
+    "reasoning_chain": "Step 1: Slice 12 shows the traveler pointing at a sign that says \"WALK OUTSIDE OF THE AIRPORT.\" Step 2: Slice 30 shows an overlay \"60,000 IDR / DAY SCOOTER RENT\" during a scooter ride. Conclusion: Walk outside; 60,000 IDR/day.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 12 states the man points at a sign that says 'WALK OUTSIDE OF THE AIRPORT,' which directly supports the airport sign instruction. Step 2: Evidence Slice 30 shows text '60,000 IDR / DAY SCOOTER RENT' during a first-person scooter ride, explicitly giving the daily rental price. Both parts of the proposed answer are directly supported by the respective slices.",
+    "visual_proof": "In Video 1, at 0:03, a green directional sign with a white arrow pointing right and the text 'WALK OUTSIDE OF THE AIRPORT' is clearly visible above the man's head as he exits the parking garage. In Video 2, at 0:04, yellow text overlay appears on screen stating '60,000 IDR / DAY SCOOTER RENT' while the man is standing next to a scooter."
+  },
+  {
+    "question": "At one point the trip budget overlay shows what remains for day 2; later a different remaining amount is shown for day 3. What is the remaining amount for day 2, and what is the remaining amount for day 3?",
+    "answer": "Day 2 remaining is 271,000 IDR, and Day 3 remaining is 141,000 IDR.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      51,
+      63
+    ],
+    "reasoning_chain": "Step 1: Slice 51 shows the overlay \"BALI DAY 2 REMAINING 271,000.\" Step 2: Slice 63 shows \"BALI DAY 3 REMAINING 141,000 IDR.\" Conclusion: 271,000 IDR then 141,000 IDR.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 51 explicitly shows the overlay text 'BALI DAY 2 REMAINING 271,000', establishing the remaining amount for day 2 as 271,000. Step 2: Evidence Slice 63 explicitly shows the overlay text 'BALI DAY 3 REMAINING 141,000 IDR', establishing the remaining amount for day 3 as 141,000 IDR. Step 3: The video consistently uses IDR for amounts (Slice 63 and '75,000 IDR'), so treating day 2's 271,000 as IDR is consistent with the context. Therefore, the proposed answer matches the evidence.",
+    "visual_proof": "In Clip 1 (0:02), a text overlay clearly reads 'BALI DAY 2 REMAINING 271,000'. In Clip 2 (0:03), another text overlay states 'BALI DAY 3 REMAINING 141,000 IDR'. These are direct visual confirmations of the amounts for each day."
+  },
+  {
+    "question": "A beach location named earlier appears again at a buffet food stall. What is the shared beach name, and what type of deal is advertised at the food stall?",
+    "answer": "The shared beach name is Echo Beach, and the deal is \"all you can eat from the buffet.\"",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      19,
+      20
+    ],
+    "reasoning_chain": "Step 1: Slice 19 labels a beach scene as \"Echo Beach.\" Step 2: Slice 20 shows the stall near \"Echo Beach BBQ\" with overlay \"ALL YOU CAN EAT FROM THE BUFFET.\" Conclusion: Echo Beach; all-you-can-eat buffet.",
+    "logic_check_reasoning": "Step 1: Slice 19 explicitly states the beach scene is labeled 'Echo Beach.' Step 2: Slice 20 shows a food stall labeled 'Echo Beach BBQ' with a text overlay stating 'ALL YOU CAN EAT FROM THE BUFFET.' Logic holds because the same beach name reappears at the buffet stall, and the deal is clearly described in the overlay.",
+    "visual_proof": "In Video 1 (0:14), the text 'ECHO BEACH' is displayed over a wide shot of the beach. In Video 2 (0:05), the same name 'ECHO BEACH BBQ' appears on screen next to a chalkboard sign that clearly reads 'All You Can Eat'. This confirms both the shared location name and the advertised deal."
+  },
+  {
+    "question": "The traveler shows a cost for a drink while holding a green bottle; later he shows a small transaction using a 10,000 IDR note at a table. What is the displayed cost near the green bottle, and what denomination note is handed over later?",
+    "answer": "The displayed cost is 20,000 IDR, and the note handed over is 35,000 IDR.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      21,
+      24
+    ],
+    "reasoning_chain": "Step 1: Slice 21 shows a man holding a green bottle with \"20,000 IDR\" on screen. Step 2: Slice 24 shows a table transaction where a 10,000 IDR note is handed over. Conclusion: 20,000 IDR and 10,000 IDR.",
+    "logic_check_reasoning": "Step 1: Slice 21 states a man holding a green bottle with '20,000 IDR' displayed on screen, indicating the cost near the green bottle. Step 2: Slice 24 describes a scene at a table where another person hands over a 10,000 IDR note, indicating a small transaction. The two slices together explicitly support the proposed values: 20,000 IDR for the displayed cost and a 10,000 IDR note handed over later.",
+    "original_text_answer": "The displayed cost is 20,000 IDR, and the note handed over is 10,000 IDR.",
+    "verdict_meta": "REFINED",
+    "visual_proof": "In Video 1 at 0:00, the text '20,000 IDR' is clearly visible on screen while the traveler holds a green Bintang beer bottle. In Video 2 at 0:02, a hand places a 50,000 IDR banknote on the table during the transaction; the number '50000' is legible on the note."
+  },
+  {
+    "question": "A cost for exchanging 100 USD into Indonesian Rupiah is shown near the airport; later an entrance ticket shows a different rupiah amount. What rupiah amount is shown for 100 USD, and what is the entrance fee amount on the ticket?",
+    "answer": "100 USD is shown as 1.41 million IDR, and the entrance fee is 50,000 IDR (over 2 days).",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      5,
+      69
+    ],
+    "reasoning_chain": "Step 1: Slice 5 displays \"100 USD CONVERTED INTO 1.41 MILLION IDR.\" Step 2: Slice 69 shows a receipt/ticket stating \"ENTRANCE FEE 50,000 OVER 2 DAYS.\" Conclusion: 1.41 million IDR and 50,000 IDR.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 5 states that a currency exchange board highlights 100 USD and a text overlay explicitly reads '100 USD CONVERTED INTO 1.41 MILLION IDR,' confirming the rupiah amount for 100 USD. Step 2: Evidence Slice 69 shows a ticket/receipt with text indicating 'ENTRANCE FEE 50,000 OVER 2 DAYS,' confirming the entrance fee amount on the ticket. Logic holds because both amounts are directly stated in the provided captions.",
+    "visual_proof": "In Clip 1/2, a screen displays currency exchange rates with text overlay stating '100 USD CONVERTED INTO 1.41 MILLION IDR'. In Clip 2/2, a hand holds an entrance ticket showing 'Rp 50.000' for '2 Hari' (2 days)."
+  },
+  {
+    "question": "The traveler is shown crossing from the airport to the street; later he’s in a nighttime dining area with a promotional text overlay. What transition happens at the airport exit, and what free resource is promoted at night?",
+    "answer": "He walks outside and crosses the street, and a \"FREE BALI VIDEO GUIDE\" is promoted as linked in the description.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      12,
+      61
+    ],
+    "reasoning_chain": "Step 1: Slice 12 shows the traveler exiting the airport, walking outside, and crossing the street. Step 2: Slice 61 shows nighttime dining with the overlay \"FREE BALI VIDEO GUIDE LINKED IN THE DESCRIPTION.\" Conclusion: Exit/crossing street; free Bali video guide.",
+    "logic_check_reasoning": "Step 1: Slice 12 shows the man at the airport pointing to a sign to walk outside, then walking outside and crossing the street—this confirms the transition at the airport exit. Step 2: Slice 61 shows the man at a nighttime dining area with on-screen text stating 'FREE BALI VIDEO GUIDE LINKED IN THE DESCRIPTION,' confirming the promoted free resource. Logic holds because the scenes align with the question and the answer matches the explicit details from both slices.",
+    "visual_proof": "In Video 1 (0:04-0:05), the traveler is seen exiting a covered area and walking across a marked crosswalk onto a street with cars and trees. In Video 2 (0:06), while he is speaking at night in an outdoor dining area, yellow text appears at the bottom of the screen reading: \"FREE BALI VIDEO GUIDE LINKED IN THE DESCRIPTION\"."
+  },
+  {
+    "question": "The vlogger gives a transportation tip involving a ride-hailing app while walking on a busy street; later he shows the price of a motorbike taxi ride to a specific place. Which app does he mention, and what destination is the motorbike taxi heading to?",
+    "answer": "He mentions the Go-Jek app, and the motorbike taxi is heading to Canggu.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      14,
+      16
+    ],
+    "reasoning_chain": "Step 1: Slice 14 includes an overlay about tips for using the Go-Jek app. Step 2: Slice 16 shows a motorbike taxi service heading to Canggu for 70K. Conclusion: Go-Jek and Canggu.",
+    "logic_check_reasoning": "Step 1: Slice 14 states that the vlogger is giving tips about using the Go-Jek app for transportation and food delivery while walking on a busy street. Step 2: Slice 16 indicates a text overlay showing a 'motorbike taxi' heading to Canggu for 70K. Logic holds because Slice 14 identifies the app mentioned (Go-Jek) and Slice 16 specifies the destination of the motorbike taxi (Canggu).",
+    "visual_proof": "In Clip 1, the vlogger is walking on a busy street while subtitles explicitly state 'DOESN'T HURT TO INSTALL THE GO JEK APP FOR TRANSPORT AND FOOD DELIVERY'. In Clip 2, a text overlay during a shot of motorbikes in traffic reads 'MOTORBIKE TAXI TO CANGGU 70K', directly indicating the destination."
+  }
+]

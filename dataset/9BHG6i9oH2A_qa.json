@@ -1,0 +1,16 @@
+[
+    {
+        "question": "A special hydrogen-hybrid train is shown in a depot with its branding, and later the roof is shown carrying many hydrogen tanks. What is the train’s name, and roughly how many roof tanks are described?",
+        "answer": "It is the HYBARI, and it has 20 hydrogen tanks.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            35,
+            36,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 35 introduces the hydrogen-hybrid train branding (HIBARI/HYBARI) in a depot. Step 2: Slice 36 clarifies the HYBARI identity and branding details. Step 3: Slice 39 describes roof-mounted hydrogen tanks and specifies there are 20 tanks. Conclusion: The train is HYBARI and it has 20 tanks.",
+        "logic_check_reasoning": "Step 1: Slice 36 explicitly identifies the train as HYBARI, showing its branding and full name, confirming the train’s name. Step 2: Slice 39 describes the roof components and states via text overlay that there are 20 hydrogen tanks. Logic holds because the question asks for the train’s name and the number of roof tanks, both of which are directly supported by these slices. Any JR West vs. JR East mention in Slice 35 is treated as VLM noise per instructions and does not affect the identification of HYBARI.",
+        "visual_proof": "The train's branding 'HYBARI' is clearly visible on its side in Clip 2 (0:04-0:09). In Clip 3, a subtitle at 0:09 explicitly states, 'There are 20 tanks in total, holding around 40kg of hydrogen,' while showing the roof-mounted equipment."
+    }
+]

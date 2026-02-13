@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Which spice is visibly used to coat raw meat, and later what drink is poured into a glass cup during the cooking scenes?",
+        "answer": "Turmeric coats the meat, and tea is poured into a glass cup later.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows raw meat being seasoned with yellow turmeric powder. Step 2: Slice 58 shows tea being poured from a teapot into a glass cup. Conclusion: Turmeric is used on meat; tea is served later.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly describes raw meat being coated with vibrant yellow turmeric powder, and the person further sprinkles turmeric, confirming the spice used. Step 2: Slice 58 describes a person pouring tea from a teapot into a glass cup during the cooking scene. Logic holds because both slices are part of the same video context, and each directly supports one part of the proposed answer.",
+        "visual_proof": "In Clip 1, raw meat pieces are visibly coated with a bright yellow spice, consistent with turmeric. In Clip 2, a dark amber liquid is poured from a metal pot into a traditional Turkish tea glass, which is unmistakably tea."
+    },
+    {
+        "question": "What is chopped into slices and then seasoned with a red spice mix, and what different citrus ingredient is squeezed over that same type of mixture later?",
+        "answer": "Onions are sliced and seasoned; lemon juice is squeezed over the mixture later.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows onions sliced into a bowl and sprinkled with a red spice mix. Step 2: Slice 43 shows a hand squeezing lemon over onions in a wooden bowl. Conclusion: Onions are the base; lemon juice is added later.",
+        "logic_check_reasoning": "Step 1: Slice 41 explicitly shows onions being sliced and then seasoned with a vibrant red spice mix in a wooden bowl. Step 2: Slice 43 shows lemon being squeezed over sliced red onions in the bowl, indicating the same type of onion mixture is involved. Logic holds because both slices consistently describe sliced onions first seasoned with red spices and later with lemon juice.",
+        "visual_proof": "In Clip 1, a person is visibly slicing white onions on a wooden board and then transferring them to a bowl. They then sprinkle a red spice mix over the onions. In Clip 2, the same bowl of seasoned onions is shown, and a hand squeezes a yellow citrus fruit (a lemon) over the mixture, with juice visibly dripping onto the onions."
+    },
+    {
+        "question": "What ingredient is being washed under running water first, and what different ingredient is later cut into chunks on a wooden board?",
+        "answer": "Chicken feet are washed first, and later onions are cut into pieces.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows chicken wings being rinsed under running water and placed on a wooden plate. Step 2: Slice 9 shows hands cutting red bell peppers on a wooden cutting board. Conclusion: The washed item is chicken wings, while the later cut item is red bell pepper.",
+        "logic_check_reasoning": "Step 1: Slice 5 explicitly shows chicken wings being washed under running water, confirming the first ingredient is chicken wings. Step 2: Slice 9 explicitly shows red bell peppers being cut into small pieces on a wooden cutting board, confirming the later action involves red bell peppers being cut. Logic holds because the two slices describe sequential actions on different ingredients: washing chicken wings first and later cutting red bell peppers into pieces.",
+        "original_text_answer": "Chicken wings are washed first, and later red bell peppers are cut into pieces.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the person is washing chicken feet under running water, which are clearly visible on a wooden board in the subsequent shot. In Clip 2, the person is cutting onions on a wooden board, with onion skins scattered around, while red bell peppers are shown whole in a bowl nearby, not being cut."
+    },
+    {
+        "question": "After the meat is placed into a steaming pot of boiling water, what other type of ingredient is added into a steaming pot later in the video?",
+        "answer": "Vegetables (peeled/sliced potatoes or similar root vegetables) are added later.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a man placing meat into a pot of boiling water with steam rising. Step 2: Slice 10 shows peeled/sliced vegetables being placed into a steaming pot. Conclusion: Meat goes in first; later, vegetables are added to a steaming pot.",
+        "logic_check_reasoning": "Step 1: Slice 7 states the man in a green jacket places pieces of meat into a steaming pot of boiling water. Step 2: Slice 10 shows the same outdoor cooking setup with a large steaming pot and describes the man placing peeled and sliced vegetables (potatoes or similar root vegetables) into the pot. Logic holds because both slices depict the same rustic outdoor cooking scene with a steaming pot, and Slice 10 explicitly mentions adding vegetables into the steaming pot later in the video context.",
+        "visual_proof": "In Video 1, meat is placed into a steaming pot. In Video 2, peeled round vegetables (visually identifiable as potatoes or similar root vegetables) are shown on a cutting board and then added to the same steaming pot in subsequent frames."
+    },
+    {
+        "question": "Which animals are shown calmly resting in a field near colorful beehives, and which animals are later shown wandering around the communal dining area?",
+        "answer": "Two dogs rest near the beehives, and sheep and goats wander near the dining area.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows two dogs lying on grass with beehives in the background. Step 2: Slice 93 shows sheep and goats moving around a rustic dining area. Conclusion: Dogs rest near beehives; sheep/goats wander near diners.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes a field with colorful beehives and explicitly mentions two dogs (one white with black patches, one entirely black) resting calmly in the foreground. Step 2: Slice 93 describes a communal outdoor dining area where several sheep and goats are grazing/moving around, indicating they are wandering. It also mentions a small white dog, but the question focuses on the animals wandering, which are clearly sheep and goats. Logic holds because the animals near the beehives are identified as two dogs, and the animals wandering near the dining area are identified as sheep and goats.",
+        "visual_proof": "In Clip 1, two dogs (one black and white, one black) are lying down in a grassy field with colorful beehives visible in the background. In Clip 2, multiple sheep and at least one goat are seen walking around a thatched-roof outdoor dining area where people are seated."
+    },
+    {
+        "question": "What cooked items are served onto a platter near the end, and what earlier scene shows those same items actively cooking over embers?",
+        "answer": "Grilled meat skewers are served onto a platter, and earlier meat skewers are shown cooking over open flame/embers.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            80,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows skewers of meat sizzling over open fire with smoke. Step 2: Slice 80 shows hands placing grilled meat skewers onto a wooden platter. Conclusion: The cooking over fire leads to the served skewers.",
+        "logic_check_reasoning": "Step 1: Slice 80 describes a person placing skewers of grilled meat onto a wooden platter, indicating the cooked items served. Step 2: Slice 61 shows close-up skewers of meat sizzling over an open fire, depicting those items actively cooking earlier. Logic holds because both slices explicitly mention skewers of meat; the later scene serves them, and the earlier scene cooks them over flames/embers.",
+        "visual_proof": "In Video 1 (0:01-0:04), hands are seen placing cooked meat skewers onto a wooden platter. In Video 2 (0:05-0:06), the same type of meat skewers are visibly sizzling and smoking over glowing embers on a grill, confirming they were cooked there before being served."
+    }
+]

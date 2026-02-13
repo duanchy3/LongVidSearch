@@ -1,0 +1,102 @@
+[
+    {
+        "question": "A tough biker-type character is shown in a bar talking with a suited man; what clothing detail identifies the biker, and where else is he shown in a similar bar environment?",
+        "answer": "He’s identified by a bandana, beard, and a leather jacket with a \"ROAD CAPTAIN\" patch, and he is shown again in another bar shot with similar leather-and-bandana styling.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a biker-looking man wearing a bandana and leather jacket with a \"ROAD CAPTAIN\" patch. Step 2: Slice 8 shows a bearded man in a leather jacket and bandana in a bar setting. Conclusion: The bandana/leather look (and the ROAD CAPTAIN patch) tracks the same biker figure across the bar scenes.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a biker-type character in a bar talking with a suited man, identified by a bandana, full beard, and a leather jacket with a patch reading 'ROAD CAPTAIN.' Step 2: Slice 8 shows a man in a similar bar setting wearing a black leather jacket, a bandana, and having a long beard, indicating the same biker-type character appearing again. Logic holds because the visual attributes match and the setting is consistent across slices.",
+        "visual_proof": "In both clips, the biker character consistently wears a patterned bandana, has a full beard, and dons a black leather jacket. In Clip 1 (0:00-0:04), a patch reading 'ROA CPT' (likely 'ROAD CAPTAIN') is visible on his jacket. In Clip 2 (0:01-0:02), he is shown in a wider bar scene with other patrons, still wearing the same attire, confirming his presence in a similar bar environment."
+    },
+    {
+        "question": "A tattoo is shown on an inmate’s arm early on; later another tattoo is revealed on someone’s chest. What name is written on the chest tattoo, and how does this connect to the prison-group imagery?",
+        "answer": "The chest tattoo says \"BIG STAN,\" connecting by showing tattooed bodies among groups associated with the prison setting.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            90,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 29 highlights an inmate arm tattoo during prison transport. Step 2: Slice 90 shows a prison-yard-like supervised group of people in blue uniforms outdoors. Step 3: Slice 96 reveals a chest tattoo reading \"BIG STAN\" amid a lively group gathering. Conclusion: The named chest tattoo is \"BIG STAN,\" and the link is the recurring prison/group context with visible tattoos.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly shows an inmate in orange with a tattoo on the arm in a prison context. Step 2: Slice 90 shows a group of inmates in blue uniforms in a structured prison-yard activity, confirming prison-group imagery. Step 3: Slice 96 explicitly identifies a chest tattoo that says \"BIG STAN.\" Step 4: The proposed answer correctly identifies the name on the chest tattoo (Slice 96) and connects it to the broader prison-group imagery by noting tattoos are shown alongside scenes of inmate groups (Slices 29 and 90). The logic holds without requiring unsupported assumptions.",
+        "visual_proof": "Clip 1 shows a tattoo on an inmate's arm featuring a face and the word \"Momma\" (0:04-0:05, 0:08-0:10). Clip 3 shows a close-up of a chest tattoo with the words \"BIG STAN\" above a face surrounded by hearts (0:04). The context of both tattoos being on inmates in prison settings (orange jumpsuits in Clip 1, blue prison uniforms in Clip 3) connects them to the prison-group imagery."
+    },
+    {
+        "question": "In the office/study storyline, what container is opened on a desk, and what drink appears in a separate nearby scene with the same older man?",
+        "answer": "A wooden box is opened, and later the older man holds a glass of amber liquor (likely whiskey/brandy).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows the older man opening a wooden box on a desk. Step 2: Slice 45 shows the older man holding a glass of amber liquor while conversing in a room with blinds. Conclusion: The key objects are the wooden box and the amber drink.",
+        "logic_check_reasoning": "Step 1: Slice 43 describes an older man in a study-like setting with a desk, holding a wooden box with a lid, which he opens and then sets on the desk. This supports that the container opened in the office/study storyline is a wooden box. Step 2: Slice 45 shows (likely the same) older man in a similar warm, indoor setting wearing a blue checkered shirt, holding a glass of amber-colored liquid, described as likely whiskey or brandy. Logic holds because both slices feature an older man in similar attire and ambiance, making it reasonable they are the same person in nearby scenes.",
+        "visual_proof": "In Clip 1, the older man is seen opening a rectangular wooden box on a desk. In Clip 2, the same older man is shown holding a snifter glass containing an amber-colored liquid, consistent with whiskey or brandy."
+    },
+    {
+        "question": "A tense bathroom confrontation leads to a shocking moment with a wet, frightened man; what is he wearing then, and how does that contrast with the earlier confrontation scene?",
+        "answer": "He is wearing a white towel wrapped around his waist and appears wet and alarmed, contrasting with the earlier confrontation where the men are upright and arguing near the sink/shower area.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows a tense confrontation in a bathroom between a clothed man and a shirtless tattooed man. Step 2: Slice 49 shows a wet, shocked man in white underwear holding onto handles/grips. Conclusion: The state shifts from tense verbal confrontation to a vulnerable, startled moment with the man half-undressed and wet.",
+        "logic_check_reasoning": "Step 1: Slice 48 describes a tense confrontation between two men in an industrial bathroom, with one shirtless and the other in a brown shirt, upright and engaged near the sink/shower area. Step 2: Slice 49 describes a man who is shirtless, wearing only white underwear, wet, and visibly shocked/frightened, holding onto handles for support. Logic holds because the proposed answer correctly identifies the wet, frightened man as wearing white underwear (Slice 49) and contrasts this with the earlier upright confrontation near the sink/shower area (Slice 48).",
+        "original_text_answer": "He is in white underwear and appears wet and alarmed, contrasting with the earlier confrontation where the men are upright and arguing near the sink/shower area.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 2 (0:02), the man is on his knees on the wet floor, clearly wearing a white towel around his waist. In Clip 1 (0:02-0:05), the other men involved in the confrontation are also seen wearing white towels, not underwear. The frightened man's state of alarm is evident from his facial expression in Clip 2 (0:03-0:06)."
+    },
+    {
+        "question": "Which outdoor nighttime gathering includes a fire and a flaming performance, and what earlier indoor action helps set a disturbing tone later echoed by that gathering’s violence-related imagery?",
+        "answer": "The nighttime gathering around a fire includes an older man with long white hair holding a flaming stick over a shirtless man lying on the ground; earlier, an indoor scene shows the same older man smoking and holding a knife while standing over a couple in bed, setting a tense and threatening tone.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            15,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 14 includes a tense bed scene where a woman holds a knife threatening a man. Step 2: Slice 15 shows a nighttime gathering by a fire pit with a shirtless man dancing with a flaming stick. Step 3: Slice 16 escalates to overt violence (a bound shirtless man threatened with a knife), echoing the earlier threat tone. Conclusion: The fire/flaming performance occurs at the nighttime gathering, and the earlier knife threat foreshadows later violence.",
+        "logic_check_reasoning": "Step 1: Slice 15 describes an outdoor nighttime gathering in front of a large house, with people around a fire pit and a shirtless man dancing with a flaming stick, clearly indicating a fire and a flaming performance. Step 2: Slice 14 includes an indoor bedroom scene where a woman is holding a knife and appears to be threatening a man, and notes that the emotional atmosphere can be tense. Step 3: The proposed answer correctly identifies the outdoor gathering with fire and flaming performance (Slice 15) and the earlier indoor action (knife-threatening scene in Slice 14) that contributes to a disturbing/tense tone. The logic holds as both elements are explicitly supported by the provided slices.",
+        "original_text_answer": "The nighttime gathering around a fire pit includes a shirtless man dancing with a flaming stick; earlier, an indoor scene shows a woman in bed holding a knife threatening a man, setting a tense tone.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 (0:05-0:06) shows the older man with long white hair holding a knife over a couple in bed. Clip 2 (0:04-0:08) shows the same man outdoors at night holding a flaming stick over a shirtless man lying on the ground, with a woman in a bikini nearby. This directly contradicts the original answer's claim that a 'woman in bed' was holding the knife and that a 'man was dancing' with the flaming stick."
+    },
+    {
+        "question": "In the prison yard escalation, what happens to the person lying on the ground that draws a crowd, and what later indoor scene mirrors this conflict with a one-on-one fight?",
+        "answer": "A crowd gathers around someone lying on the ground in the yard, and later an indoor bathroom scene mirrors the conflict with two shirtless men fighting and one ending up on the floor.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            48,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows a prison-yard group gathered around a central figure lying on the ground, implying an incident. Step 2: Slice 48 introduces a tense confrontation between two men in a bathroom. Step 3: Slice 50 escalates to a physical fight where a shirtless man is on the floor while another stands over him. Conclusion: The yard incident (someone down, crowd gathers) is echoed by a later bathroom fight with a man downed on the floor.",
+        "logic_check_reasoning": "Step 1: Slice 41 describes a prison yard where a group of men in blue uniforms gather around a central figure lying on the ground, indicating a crowd drawn to the prone person. Step 2: Slice 50 shows an indoor bathroom scene with a physical altercation between two shirtless men, with one ending up on the floor defensively, mirroring the conflict as a one-on-one fight despite a third observer entering. Step 3: Slice 48 adds context of a tense bathroom interaction but Slice 50 explicitly confirms the fight and the person on the floor. Logic holds because the yard crowd around the prone figure is supported by Slice 41, and the mirrored indoor one-on-one fight with one on the floor is supported by Slice 50.",
+        "visual_proof": "Clip 1 shows a man lying on the ground in a prison yard surrounded by a large group of inmates. Clip 2 and Clip 3 show a confrontation in a prison shower room between two shirtless men, which escalates into a fight, culminating in one man being knocked to the floor, mirroring the earlier outdoor scene."
+    },
+    {
+        "question": "Track the escalation from verbal conflict to physical violence: where does a heated argument happen first, and where do we later see an all-out physical fight in a professional indoor space?",
+        "answer": "The heated argument happens first in a courtroom, and later an all-out physical fight occurs in an office-like room with desks and blinds.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            75,
+            83,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows an intense verbal argument in a courtroom. Step 2: Slice 75 shows a serious conversation between a blue-shirted man and an older suited man, maintaining tension in a professional context. Step 3: Slice 83 shows a blue-shirted man physically attacking a suited man in an office setting. Step 4: Slice 86 continues office violence with an ongoing fight. Conclusion: The narrative escalates from courtroom shouting to office-room physical brawling.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 describes a heated argument in a courtroom, explicitly noting shouting and a tense, chaotic atmosphere under the judge's observation. Step 2: Evidence Slice 83 and Evidence Slice 86 both depict an intense physical altercation in a professional indoor setting resembling an office, with details such as desks, bookshelves, framed pictures, and windows with blinds. Logic holds because the first scene is clearly a verbal conflict in a courtroom, and the later scenes are clearly physical fights in an office-like environment with desks and blinds.",
+        "visual_proof": "Clip 1 shows a courtroom setting with individuals in suits arguing heatedly before a judge. Clip 3 and Clip 4 show the same individuals engaged in a violent physical fight within an office environment, characterized by desks, chairs, bookshelves, and window blinds."
+    }
+]

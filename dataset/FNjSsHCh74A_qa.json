@@ -1,0 +1,31 @@
+[
+    {
+        "question": "The video highlights a sea cucumber underwater and later emphasizes sea urchins both on the chart and in real footage. What broader marine invertebrate theme ties these scenes together?",
+        "answer": "Echinoderms (marine invertebrates like sea cucumbers and sea urchins) being discussed/illustrated and then shown in nature footage.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            34,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 6 includes underwater footage of a sea cucumber after diagram work. Step 2: Slice 34 points to Echinoidea (sea urchins) on the tree chart. Step 3: Slice 36 shows a real sea urchin on sand. Conclusion: The linking theme is echinoderm marine invertebrates shown both in classification context and in nature.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows an underwater marine invertebrate identified as a sea cucumber. Step 2: Slice 34 shows an educational evolutionary chart focusing on Echinoidea (sea urchins), and the chart includes illustrations of both sea urchins and sea cucumbers, indicating a unified grouping being discussed/illustrated. Step 3: Slice 36 presents real footage of a sea urchin. Logic holds because the chart and footage together emphasize sea cucumbers and sea urchins as part of the same broader marine invertebrate theme, which the proposed answer identifies as echinoderms, matching the evidence of these organisms being highlighted.",
+        "visual_proof": "Clip 1 shows an octopus (a mollusk, not an echinoderm) but the context is a phylogenetic tree. Clip 2 provides the crucial link: a finger traces the tree to the 'Echinoidea' branch, explicitly labeled 'sea urchins, sand dollars,' and also points near 'sea cucumbers.' Clip 3 then shows a real sea urchin on the beach. The sequence of pointing to the Echinoidea group on the chart and then showing a sea urchin visually confirms the theme is echinoderms."
+    },
+    {
+        "question": "The video includes real underwater animals, then later shows a chart section about echinoderms, and later cuts to a real sea urchin on sand. Which chain of evidence shows the video connecting a real organism to its classification on the diagram?",
+        "answer": "Underwater echinoderm footage (sea cucumber) plus the diagram’s Echinoidea section plus the real sea urchin on the beach connect real organisms to their taxonomy.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            34,
+            36,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows real underwater footage of a sea cucumber (an echinoderm), linking nature footage to the taxonomy theme. Step 2: Slice 4 establishes the interactive diagram-and-card teaching format about animal groups. Step 3: Slice 34 explicitly highlights Echinoidea on the diagram. Step 4: Slice 36 shows real sea urchin footage. Conclusion: The video bridges real echinoderms and their classification via the diagram segments.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a real underwater echinoderm (a likely sea cucumber) moving along the ocean floor. Step 2: Slice 34 shows an educational evolutionary diagram focusing on echinoderms, specifically highlighting Echinoidea (sea urchins) and also depicting sea cucumbers among other marine organisms. Step 3: Slice 36 shows a real sea urchin on a sandy beach. Logic holds because the video presents real echinoderms (sea cucumber and sea urchin) and then displays their taxonomic context on the diagram (echinoderms/Echinoidea), thereby connecting real organisms to their classification.",
+        "visual_proof": "Clip 1 shows a real sea cucumber (an echinoderm) underwater. Clip 2 shows a finger pointing to the 'Echinoidea' section of the phylogenetic tree, which includes illustrations of sea urchins and sand dollars. Clip 3 shows a real sea urchin (a member of Echinoidea) on sandy ground. The sequence visually links real animals (sea cucumber, sea urchin) to their taxonomic group (Echinoidea) on the chart."
+    }
+]

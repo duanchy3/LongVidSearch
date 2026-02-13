@@ -1,0 +1,135 @@
+[
+  {
+    "question": "Which sign suggests the man has reached an arcade brand location, and what kind of retail section is shown later inside a major electronics store with that brand’s president being interviewed?",
+    "answer": "The sign is “GIGO,” and later the video shows large home appliances like refrigerators and washing machines inside the electronics store.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      4,
+      43
+    ],
+    "reasoning_chain": "Step 1: Slice 4 shows the man standing under a sign reading “GIGO.” Step 2: Slice 43 shows an electronics retailer interior with displays of refrigerators and washing machines. Conclusion: The first is the GIGO sign, and later the retail sections are major appliances.",
+    "logic_check_reasoning": "Step 1: Slice 4 explicitly states the man stands in front of a building with a sign that reads \"GIGO,\" which supports the answer's identification of the sign. Step 2: Slice 43 shows the interior of a major electronics store (Onoden) with displays of refrigerators and washing machines, matching the answer's description of large home appliances shown later. The answer does not make unsupported claims about a brand president; it only states what is shown, which is supported by the context.",
+    "visual_proof": "In Clip 1, at 0:07-0:10, the man gestures towards a building with a prominent red sign that reads \"GiGO\". In Clip 2, from 0:06 to 0:13, the interior of a large electronics store is shown, displaying rows of refrigerators and washing machines. The exterior shot in Clip 2 at 0:00 also features the same \"GiGO\" building, confirming it is the same location."
+  },
+  {
+    "question": "In the electronics-store discussion, what major technology is described as a turning point, and what DIY audio project is described later by a woman in the parts store?",
+    "answer": "PCs are described as the turning point, and later a woman describes making her own speakers using different parts.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      52,
+      40
+    ],
+    "reasoning_chain": "Step 1: Slice 52 states, “The turning point was when PCs came on the scene.” Step 2: Slice 40 shows a woman explaining how she builds speakers from parts to shape sound. Conclusion: PCs are the turning point, and the later DIY project is speaker-building.",
+    "logic_check_reasoning": "Step 1: Slice 52 explicitly states, 'The turning point was when PCs came on the scene,' during a discussion in an electronics store. Step 2: Slice 40 describes a woman explaining her DIY project of making her own speakers using different parts to achieve different sounds. Logic holds because the first slice identifies the major technology (PCs) as the turning point, and the second slice details the woman's DIY speaker-making.",
+    "visual_proof": "In Clip 1, an older man states, 'The turning point was when PCs came on the scene.' In Clip 2, a woman says, 'I make my own speakers. Using different parts gives you a different sound,' directly confirming both parts of the answer."
+  },
+  {
+    "question": "What change in the meaning of ‘otaku’ is discussed, and what later statement of collective support in Akihabara echoes that social acceptance theme?",
+    "answer": "It’s said ‘otaku’ has become a positive term (whereas it used to be hidden), and later a maid states “We’re all on the same team… If someone’s in a fix, we’ll get through it together.”",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      81,
+      95
+    ],
+    "reasoning_chain": "Step 1: Slice 81 discusses ‘otaku’ becoming a positive term compared with the past. Step 2: Slice 95 presents a message of unity and mutual help in Akihabara. Conclusion: The acceptance shift is echoed by the later explicit community-support statement.",
+    "logic_check_reasoning": "Step 1: Slice 81 explicitly states via subtitles that 'Today \"otaku\" has become a positive term... But in the past, I hid my interests,' which describes the shift from negative/hidden to positive. Step 2: Slice 95 quotes the maid saying, 'We're all on the same team. Team Akihabara, united,' and 'If someone's in a fix, we'll get through it together,' indicating collective support. Logic holds because the proposed answer reflects both the stated shift in 'otaku' meaning and the later communal support quote from Akihabara.",
+    "visual_proof": "In Clip 1, the subtitle explicitly states 'Today \"otaku\" has become a positive term' and 'But in the past, I hid my interests,' indicating a shift from stigma to acceptance. In Clip 2, the same maid character says, 'We're all on the same team. Team Akihabara, united. If someone's in a fix, we'll get through it together,' which visually reinforces the theme of community and mutual support among otaku, echoing the social acceptance mentioned earlier."
+  },
+  {
+    "question": "Which seasonal decoration appears inside the maid café scenes, and which later group photo context shows maid culture being organized as a broader association?",
+    "answer": "Halloween decorations appear, and later the group photo identifies the “Sotokanda Maid Association.”",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      88,
+      92
+    ],
+    "reasoning_chain": "Step 1: Slice 88 shows Halloween-themed décor inside a maid café/shop setting. Step 2: Slice 92 shows a group photo labeled “Sotokanda Maid Association.” Conclusion: The seasonal décor is Halloween, and the organized group is the Sotokanda Maid Association.",
+    "logic_check_reasoning": "Step 1: Slice 88 describes maid café scenes with a 'HALLOWEEN' banner and a pumpkin decoration, explicitly indicating Halloween seasonal decorations. Step 2: Slice 92 shows a group photo of women in maid outfits with the text 'Sotokanda Maid Association' at the bottom, explicitly identifying an organized association context. Logic holds because the first slice provides the seasonal decoration and the second slice names the broader association.",
+    "visual_proof": "In Clip 1, an orange balloon with a black jack-o'-lantern face is visible on the right side of the counter, alongside a partially visible 'HAPPY HALLOWEEN' banner. In Clip 2, a group photo of maids is displayed with the text 'Sotokanda Maid Association' overlaid at the bottom, indicating an organized association."
+  },
+  {
+    "question": "What promotional discount text appears near the retro game cartridges, and what later price-tagged audio product is highlighted with a specific yen amount?",
+    "answer": "The promo says “10% UP,” and later a turntable is highlighted with a price tag of 37,400 yen.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      49
+    ],
+    "reasoning_chain": "Step 1: Slice 8 shows signage including “10% UP” near the game cartridge display. Step 2: Slice 49 highlights a turntable with a visible price tag of 37,400 yen. Conclusion: The discount is 10% UP and the later highlighted price is 37,400 yen for a turntable.",
+    "logic_check_reasoning": "Step 1: Slice 8 describes retro game cartridges and explicitly mentions a sign displaying '10% UP' near them. Step 2: Slice 49 describes an audio equipment store segment where a specific turntable is highlighted with a price tag of 37,400 yen. Logic holds because the question asks for the promotional text near the cartridges and the later price-tagged audio product, both of which are directly stated in the respective slices.",
+    "visual_proof": "In Video 1 (0:06-0:08), a red sign above the game cartridges clearly reads '10% UP'. In Video 2 (0:09-0:10), a shelf of turntables includes one with a prominent yellow price tag showing '¥37,400'."
+  },
+  {
+    "question": "What product does the man first examine in the store with retro game cartridges, and what console in original packaging is shown soon after in a different shop?",
+    "answer": "He examines a retro-style game cartridge, and later a Nintendo Super Famicom console in its original packaging is shown.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      9
+    ],
+    "reasoning_chain": "Step 1: Slice 8 shows a man examining a retro game cartridge in a shop. Step 2: Slice 9 shows a Nintendo Super Famicom console in original packaging in another store. Conclusion: The items are a game cartridge first, then the Super Famicom package.",
+    "logic_check_reasoning": "Step 1: Slice 8 describes a store with retro-style game cartridges and explicitly states that a man examines one of the cartridges closely. Step 2: Slice 9 states the video starts with a close-up of a Nintendo Super Famicom console in its original packaging. Logic holds because the first item examined is clearly a cartridge in the retro game store, and the subsequent scene shows a Nintendo Super Famicom console in original packaging in another store.",
+    "visual_proof": "In the first clip, the man is seen picking up and inspecting a beige game cartridge from a rack of similar items. In the second clip, a Nintendo Super Famicom console, still sealed in its original plastic wrapping, is clearly visible on a metal shelf."
+  },
+  {
+    "question": "When the narrative discusses long-standing businesses surviving different historical stages, what earlier example of a decades-old shop is emphasized, and what later modern specialization shop further supports that Akihabara keeps niche stores alive?",
+    "answer": "A long-running store is praised as having ‘withstood the test of time,’ and later a specialized amateur radio shop with shelves of radios supports the idea of niche stores persisting.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      64,
+      67,
+      63
+    ],
+    "reasoning_chain": "Step 1: Slice 64 explicitly says a store has been in business for decades and survived over time. Step 2: Slice 67 discusses businesses from different historical stages still thriving. Step 3: Slice 63 shows a dedicated amateur radio shop with specialized equipment. Conclusion: The decades-old store plus thriving-stage commentary is reinforced by continued niche specialty retail like ham radio shops.",
+    "logic_check_reasoning": "Step 1: Slice 64 explicitly states, via on-screen text, that the store the two men are in front of \"has been in business for decades\" and has \"withstood the test of time,\" which serves as the earlier example of a long-standing shop. Step 2: Slice 63 shows a specialized amateur radio shop with shelves of radios and communication equipment, demonstrating a niche store thriving. Step 3: Slice 67 discusses enduring businesses across historical stages, aligning with the narrative about longevity. Thus, the proposed answer—citing a decades-old store praised as withstanding the test of time and a specialized amateur radio shop—matches the evidence and supports the idea of niche stores persisting.",
+    "visual_proof": "Clip 1 shows the older man gesturing at a storefront while the subtitle says, 'This place has been in business for decades. It's withstood the test of time.' Clip 3 then visually confirms the specialization by showing shelves packed with amateur radios and the subtitle explicitly calling it 'a destination for amateur radio enthusiasts,' directly supporting the claim about niche stores."
+  },
+  {
+    "question": "What retail product category is displayed when the exterior Onoden sign is shown, and what later explanation links Akihabara’s early retail growth to wholesalers becoming retailers?",
+    "answer": "Major home appliances (refrigerators and washing machines) are displayed, and later the president explains wholesalers set up shop in the early 1940s and shifted to retail, leading to more retailers opening.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      43,
+      44
+    ],
+    "reasoning_chain": "Step 1: Slice 43 shows the Onoden exterior and inside appliance displays like fridges and washing machines. Step 2: Slice 44 features the Onoden president explaining how early wholesalers shifted into retail, prompting more retailers. Conclusion: Appliances are displayed and the causal business-history explanation is wholesalers-to-retail expansion.",
+    "logic_check_reasoning": "Step 1: Slice 43 shows an exterior shot of Onoden and then immediately transitions indoors to displays of refrigerators and then washing machines, indicating the retail product category shown is major home appliances. Step 2: Slice 44 quotes the President of Onoden explaining that electronics wholesalers set up shop in the early 1940s, then began retailing, which led to more retailers opening in Akihabara. Logic holds because the first part answers the visual category shown after the exterior sign, and the second part directly cites the later explanation linking early retail growth to wholesalers becoming retailers.",
+    "visual_proof": "Clip 1 visually shows rows of refrigerators and washing machines inside Onoden. Clip 2 features Ono Kazushi, President of Onoden, stating via subtitle: 'A few electronics wholesalers set up shop in the early 1940s. Then they started to do retail. That led to more retailers opening up in Akihabara.' This directly links the product category shown and the historical explanation."
+  },
+  {
+    "question": "What earlier on-screen title identifies the Tokyo exploration, and what later on-screen identity card-like label names an electronics shop owner?",
+    "answer": "The earlier title is “Dive in Tokyo,” and later the owner is identified as Kubota Yasuro.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      38
+    ],
+    "reasoning_chain": "Step 1: Slice 3 shows the animated title “Dive in Tokyo.” Step 2: Slice 38 identifies the shop owner as Kubota Yasuro in an interview segment. Conclusion: The program title is Dive in Tokyo and the named owner is Kubota Yasuro.",
+    "logic_check_reasoning": "Step 1: Slice 3 explicitly states the video opens with an animated title sequence featuring the words 'Dive in Tokyo,' identifying the Tokyo exploration. Step 2: Slice 38 says a man is identified as Kubota Yasuro, the owner of the shop 'Kajin Musen,' which implies an on-screen label naming him. Logic holds because the earlier title and the later on-screen identification are both directly described in the provided context.",
+    "visual_proof": "In Clip 1, at 0:01-0:03, the on-screen title clearly reads 'Dive in Tokyo' with 'Akihabara A Tech and Pop Culture Wonderland' underneath. In Clip 2, at 0:03, an on-screen label identifies the shop owner as 'Kubota Yasuro, Owner, Kaijin Musen'."
+  },
+  {
+    "question": "How does the video track the blue-jacketed host from browsing retro electronics to later exploring audio nostalgia products in a large store?",
+    "answer": "He is shown browsing vintage consoles/electronics earlier, then later he handles or points out cassette players/boomboxes as nostalgic audio items in a retail display.",
+    "category": "Visual_Tracking",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      9,
+      11,
+      46,
+      47
+    ],
+    "reasoning_chain": "Step 1: Slice 9 shows a man in a blue jacket and glasses browsing vintage consoles. Step 2: Slice 11 shows the blue-jacketed man continuing an electronics-hunting vibe while holding remote controls. Step 3: Slice 46 shows the blue-jacketed person engaging with a white Sony cassette player display. Step 4: Slice 47 shows him discussing boomboxes and their nostalgic use. Conclusion: The host’s interest tracks from retro electronics browsing to retro audio nostalgia.",
+    "logic_check_reasoning": "Step 1: Slice 9 shows a man in a blue jacket browsing vintage electronics, including a Nintendo Super Famicom and other retro consoles/accessories, supporting the 'browsing vintage consoles/electronics earlier' part. Step 2: Slice 46 shows an NHK World Japan segment where a blue-jacketed individual points out and discusses a white Sony cassette player in a well-lit electronics store, indicating exploration of nostalgic audio products. Step 3: Slice 47 further shows the blue-jacketed man holding and explaining boomboxes in the same store, emphasizing audio nostalgia. Logic holds because the same visually described person (blue jacket) moves from retro electronics browsing to highlighting cassette players/boomboxes in a retail display, matching the proposed answer.",
+    "visual_proof": "In Clip 1 and Clip 2, the host in the blue jacket is seen examining a Nintendo Super Famicom and other retro electronics like remote controls and handheld devices at an outdoor stall. In Clip 3 and Clip 4, the same host is inside a large store, pointing at a Sony cassette player and later holding up a boombox, explicitly discussing their nostalgic value with a store employee."
+  }
+]

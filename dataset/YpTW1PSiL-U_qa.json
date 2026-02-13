@@ -1,0 +1,15 @@
+[
+    {
+        "question": "The video begins with a cold outdoor detail and later shows the house at dusk. What is the winter feature that appears in both the early close-up and the later exterior house shot?",
+        "answer": "Icicles hanging from the roof/eaves.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a close-up of icicles against a blue sky. Step 2: Slice 52 shows a snowy house exterior with icicles hanging from the eaves. Conclusion: The shared winter feature is icicles.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes a close-up of icicles hanging from an unseen surface against a blue sky. Step 2: Slice 52 describes a house exterior at dusk with icicles hanging from the eaves. Logic holds because both slices explicitly feature icicles, making them the common winter feature across the early close-up and the later house shot.",
+        "visual_proof": "Clip 1 shows a close-up of several clear, melting icicles against a blue sky. Clip 2 shows the exterior of a house at dusk with a thick layer of snow on the roof and numerous icicles hanging from the eaves, directly connecting the 'cold outdoor detail' to the 'exterior house shot'."
+    }
+]

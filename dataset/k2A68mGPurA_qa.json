@@ -1,0 +1,67 @@
+[
+    {
+        "question": "What region name shown on a close-up map corresponds to the area that earlier was highlighted from space with a percentage label?",
+        "answer": "Australasia.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows Earth from space labeled “Australasia” with a percentage. Step 2: Slice 14 shows a close-up map around Australia with “Australasia” labeled inside a dotted boundary. Conclusion: The region name is Australasia.",
+        "logic_check_reasoning": "Step 1: Slice 10 states the Earth from space focuses on a region labeled \"Australasia\" with a percentage of 67%. Step 2: Slice 14 describes a close-up map where the term \"Australasia\" is prominently labeled within a dotted red line. Logic holds because the same region name appears in both the earlier space view and the later close-up map, indicating they correspond.",
+        "visual_proof": "In Clip 1, at 0:01, a view of Earth from space highlights the region of Australia and Southeast Asia with the text 'Indomalaya -8%'. In Clip 2, at 0:08-0:14, a close-up of a physical map shows a large area encompassing Australia, New Guinea, and surrounding islands outlined in red dots and labeled 'Australasia'. The geographical area highlighted as 'Indomalaya' in Clip 1 is visually contiguous with and immediately adjacent to the area labeled 'Australasia' in Clip 2. Since the question asks for the name shown on the *close-up map* that corresponds to the area highlighted earlier, 'Australasia' is the correct answer as it is the label directly visible on the map in Clip 2, representing the same general biogeographic zone."
+    },
+    {
+        "question": "Which animal shown as an intense close-up face later is also included as a moving icon on an animated map of Australian wildlife?",
+        "answer": "The Tasmanian devil.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows an animated map of Australia with animals including a Tasmanian devil. Step 2: Slice 32 shows a close-up of a Tasmanian devil’s face. Conclusion: The animal is the Tasmanian devil.",
+        "logic_check_reasoning": "Step 1: Slice 31 states that on the animated map of Australia, various animals appear and move, including a Tasmanian devil. Step 2: Slice 32 describes a later close-up shot featuring a Tasmanian devil’s face with an intense expression. Logic holds because the same animal (Tasmanian devil) is both on the animated map and later shown in an intense close-up.",
+        "visual_proof": "Clip 2 shows an intense close-up of a black, furry animal with a wet snout and prominent whiskers, which is visually identifiable as a Tasmanian devil. Clip 1 displays an animated map of Australia with several moving animal icons; among them is a small, dark-colored marsupial that matches the appearance of the Tasmanian devil shown in Clip 2."
+    },
+    {
+        "question": "The presenter appears in a green jacket in early indoor segments, while later he appears in a brown jacket in other indoor segments. Across these two wardrobe states, what constant background theme remains visible behind him?",
+        "answer": "A study-like room with bookshelves and Earth/globe imagery on a monitor.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the presenter in a green jacket in front of bookshelves and a monitor with Earth from space. Step 2: Slice 13 shows the presenter in a brown jacket with the same style of background (bookshelves and Earth imagery). Conclusion: The constant background theme is the bookshelf-filled study with Earth/globe visuals.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes the presenter in a green jacket with a background featuring bookshelves and a computer monitor displaying an image of Earth. Step 2: Slice 13 describes the presenter in a brown jacket with a background again featuring bookshelves and a computer monitor displaying an image of Earth. Logic holds because in both wardrobe states the environment consistently includes a study/office-like room with bookshelves and Earth imagery on a monitor.",
+        "visual_proof": "In both clips, the presenter is in the same indoor setting. Behind him, to his left (viewer's right), there is a computer monitor displaying a globe focused on Australia. To his right (viewer's left), there are wooden bookshelves filled with books and framed pictures of butterflies and other natural specimens. This consistent background is visible across both segments, regardless of the presenter's jacket color."
+    },
+    {
+        "question": "A segment shows a meteor entering Earth’s atmosphere after the presenter speaks; later a bleak, charred landscape with a small creature appears. What kind of cause-and-effect story does this pairing suggest across the video?",
+        "answer": "A catastrophic impact or disaster leading to a devastated landscape where small animals must survive.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            61,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows an animated meteor entering Earth’s atmosphere, implying a destructive event. Step 2: Slice 62 shows a charred, desolate landscape with a small creature surviving amid ash and burned trees. Conclusion: The pairing suggests disaster (impact) leading to devastation and survival.",
+        "logic_check_reasoning": "Step 1: Slice 61 shows a presenter followed by a dramatic meteor entering Earth's atmosphere, implying a catastrophic impact scenario. Step 2: Slice 62 depicts a bleak, charred, post-disaster landscape with a small creature navigating and surviving, explicitly framed as survival/resilience after catastrophe. Logic holds because the sequence suggests a cause (meteor/disaster) leading to an effect (devastated environment where small creatures must survive). The proposed answer captures this suggested cause-and-effect narrative without overcommitting to specifics.",
+        "visual_proof": "Clip 1 shows a presenter followed by a meteor entering Earth's atmosphere, implying a destructive event. Clip 2 shows a desolate, charred landscape with burnt tree stumps and a small, surviving creature perched on a branch, visually suggesting the aftermath of a catastrophe and the struggle for survival."
+    },
+    {
+        "question": "The video repeatedly shows Earth from space focusing on Australia, and it also shows an arid red-soil landscape from above. What terrestrial environment do these two segments suggest the space view is zooming into?",
+        "answer": "Australia’s arid outback/desert regions with red soil.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows a detailed space view zooming into Australia’s deserts and interior. Step 2: Slice 41 shows an aerial view of vivid red soil with sparse vegetation typical of arid regions. Conclusion: The zoom implies Australia’s red-soil outback/desert.",
+        "logic_check_reasoning": "Step 1: Slice 40 describes a realistic, scientific space view focusing on Australia, noting its vast deserts and a gradual zoom-in on the continent. Step 2: Slice 41 shows an aerial view of an arid, sparsely vegetated landscape with vivid red soil, characteristic of a desert or semi-desert environment, with no human activity. Logic holds because the video focuses on Australia and then presents a close-up of an arid red-soil desert scene, suggesting the zoom is into Australia’s desert regions. The proposed answer matches these descriptions without relying on external details.",
+        "visual_proof": "Clip 1 shows a space view centered on the continent of Australia, which is largely covered in reddish-brown hues characteristic of its interior. Clip 2 provides an aerial view of a vast, flat, arid landscape with bright red soil and sparse, dry vegetation, which is visually consistent with the iconic Australian outback. The transition from the continental view to this specific terrain strongly suggests the zoom-in is targeting these desert regions."
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What food does the young man use to lure the brown horse in the calm lakeside field, and later what affectionate gesture does a soldier make toward a horse in a wintry courtyard setting?",
+        "answer": "He offers an apple, and later a soldier gently holds the horse’s bridle and looks up at it affectionately.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a young man kneeling and holding out an apple to attract a brown horse. Step 2: Slice 74 shows a uniformed soldier tenderly handling a horse’s bridle in a snowy/wintry courtyard. Conclusion: The bait is an apple, and the later gesture is gentle, affectionate bridle-holding/interaction.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a young man kneeling and holding out an apple to a brown horse, clearly indicating the food used to lure the horse is an apple. Step 2: Slice 74 describes a soldier gently holding the horse’s bridle and looking up at it with a warm expression in a wintry outdoor setting, which matches the affectionate gesture stated. Logic holds because both details are explicitly stated in the respective slices.",
+        "visual_proof": "In Clip 1, the young man is clearly holding a red apple in his outstretched hand as he kneels before the brown horse in the field. In Clip 2, a soldier in uniform is seen gently holding the horse's bridle with both hands while looking up at its face with a tender expression."
+    },
+    {
+        "question": "In the village scene where soldiers take control of a horse, who is holding the reins, and later what object does an older bearded man hand to a young uniformed man?",
+        "answer": "A soldier holds the horse’s reins, and later the older man hands over a brown leather bag.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows soldiers gathered around a brown horse, with a soldier holding its reins as if taking it for military use. Step 2: Slice 75 shows an older bearded man handing a brown leather bag to a young man in uniform. Conclusion: Reins are held by a soldier, and the later handoff is a brown leather bag.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly states that in the village scene a soldier is holding the horse's reins. Step 2: Slice 75 explicitly shows an older bearded man handing a brown leather bag to a young man in military uniform. Logic holds because both elements directly match the question's two parts and are supported by the respective slices.",
+        "visual_proof": "In Clip 1, a soldier in uniform is clearly seen holding the reins of the horse while interacting with an older bearded man. In Clip 2, the same older bearded man (now with white hair) is shown handing a brown leather bag to a young man in a military uniform. The sequence of events and objects are visually confirmed in both clips."
+    },
+    {
+        "question": "Which setting shows soldiers standing in neat rows at attention, and which later setting shows soldiers marching through a dense forest toward a visible landmark?",
+        "answer": "The courtyard/barracks area shows soldiers in neat rows, and the forest march heads toward a windmill.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows soldiers in formation in a courtyard with a horse in the foreground. Step 2: Slice 40 shows a large group of soldiers marching through a forest toward a windmill visible in the distance. Conclusion: Formation occurs in a courtyard; the later march is toward a windmill.",
+        "logic_check_reasoning": "Step 1: Slice 25 describes soldiers standing in neat rows, at attention, in a courtyard or open area surrounded by buildings. Step 2: Slice 40 shows soldiers marching through a dense forest and approaching a windmill, a visible landmark. Logic holds because the first setting matches the courtyard formation and the later setting matches the forest march toward the windmill.",
+        "visual_proof": "Clip 1 shows soldiers in uniform standing in formation in a courtyard with buildings, including one large estate in the background. Clip 2 shows soldiers marching in a dense, dark forest, and the final shot of this clip reveals a windmill in the distance across a body of water, indicating it is their direction of travel."
+    },
+    {
+        "question": "What weapon discharge is shown immediately before horses flee through a forest, and later what kind of weapons do marching soldiers carry during another forest movement?",
+        "answer": "A gun is fired (muzzle flash) before the horses flee, and later marching soldiers carry rifles.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows a gun muzzle flash, followed by two horses galloping through the forest as if fleeing. Step 2: Slice 40 shows soldiers marching through a forest equipped with rifles. Conclusion: A gunshot precedes fleeing horses; later forest movement features rifle-armed soldiers.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 32 states a close-up of a gun muzzle emitting a bright flash and smoke, indicating it has been fired, immediately before showing horses galloping through the forest. This supports that a gun is fired (muzzle flash) before the horses flee. Step 2: Evidence Slice 40 describes a large group of soldiers marching through a dense forest and explicitly notes they are equipped with rifles. This supports that the marching soldiers carry rifles. Logic holds because both details are directly stated in the respective slices.",
+        "visual_proof": "In Video 1, a close-up of a rifle barrel shows smoke and a muzzle flash as it fires. Immediately after, horses are seen fleeing through a forest. In Video 2, during the forest march, soldiers are clearly carrying long rifles with bayonets attached, consistent with early 20th-century military equipment."
+    },
+    {
+        "question": "What calm interaction does a young man have with a horse in the countryside, and later what much more violent interaction happens in a dim stable involving two men?",
+        "answer": "He gently touches the horse’s face, and later one man grabs another by the throat during a fight.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a tender moment where a young man affectionately touches a horse’s face in an open countryside. Step 2: Slice 8 shows a violent altercation in a dim barn/stable where one man chokes another. Conclusion: The interaction shifts from gentle affection to choking violence.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly says the young man in the countryside gently interacts with the horse, touching its face affectionately. Step 2: Slice 8 describes a dim stable/barn where one man holds another by the throat during a physical altercation. Logic holds because the proposed answer directly restates these two supported actions: the calm face-touching with the horse and the violent throat-grab during a fight.",
+        "visual_proof": "In Clip 1, a young man is seen in a close-up, gently stroking the side of a horse's face with his hand. In Clip 2, inside a dim stable, one man is clearly shown grabbing another man by the throat in a violent confrontation."
+    },
+    {
+        "question": "Track the recurring ‘older bearded man’ figure: how is he first shown emotionally tied to a horse in a village street, later handing something to a young soldier, and finally appearing by a windmill with a black horse?",
+        "answer": "He is first shown anxiously attached to the horse during soldiers’ involvement, later he gives a brown leather bag to a young soldier, and later he stands near a windmill beside a black horse as a group gathers or moves.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            20,
+            75,
+            54,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows an older white-bearded civilian focused on a horse while soldiers handle it, signaling emotional attachment. Step 2: Slice 75 shows an older bearded man passing a brown leather bag to a young uniformed man. Step 3: Slice 54 shows an older white-haired/bearded man holding the reins of a black horse in a field. Step 4: Slice 55 places an older man beside a black horse with a windmill behind and a group moving forward. Conclusion: The same archetypal older-bearded figure is repeatedly associated with horses, a handoff to a soldier, and the windmill gathering.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows an older man with a white beard emotionally connected to a horse on a village street while soldiers are involved, matching the claim that he is first shown anxiously attached to the horse during soldiers’ involvement. Step 2: Slice 75 shows the older bearded man handing a brown leather bag to a young man in military uniform, aligning with the statement that he later gives a brown leather bag to a young soldier. Step 3: Slice 55 shows the older bearded man standing beside a black horse near a windmill with a group moving, supporting the claim that he finally appears by a windmill with a black horse as a group gathers or moves. The visual attributes and actions consistently link the figure across slices.",
+        "visual_proof": "Clip 1 shows the older bearded man in a village street, looking distressed as soldiers handle his horse. Clip 2 shows him handing a brown leather bag to a young soldier while standing next to the same horse. Clips 3 and 4 show him with a black horse near a windmill, with soldiers and civilians gathering around in a field."
+    }
+]

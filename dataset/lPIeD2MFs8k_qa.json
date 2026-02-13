@@ -1,0 +1,57 @@
+[
+    {
+        "question": "What mode of travel connects the cheerful group outside the building to their later arrival in the rural woods, and what vehicle type is it?",
+        "answer": "They travel by a black limousine.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the group approaching and riding in a black limousine. Step 2: Slice 8 shows the same kind of group gathered on a rural dirt road with the same distinctive clothing colors (yellow hoodie, black jacket). Conclusion: The limousine ride is the travel mode connecting the two scenes, and the vehicle is a limousine.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows a cheerful group outside a building approaching and getting into a black limousine, with detailed shots of its luxurious interior and a driver. Step 2: Slice 7 depicts them traveling through autumn scenery and ends with a man in a hat knocking on the window and chatting with the driver. Step 3: Slice 8 begins with a view from inside a car showing a man in a cowboy hat outside, then reveals the group in a rural wooded area. Step 4: The continuity (man in hat at the window, same group members like the yellow hoodie) logically links the limo ride to their arrival in the rural setting. Therefore, the mode of travel and vehicle type are explicitly a black limousine.",
+        "visual_proof": "In Clip 1, the group is seen gathering outside a building and then entering a large black vehicle with extended length, characteristic of a limousine (0:06-0:10). Later, in Clip 2, the same group is shown arriving at a rural location (0:02), establishing the limousine as the mode of transport connecting these two scenes."
+    },
+    {
+        "question": "Which recurring location feature appears both during the calm daytime scenic segment and later during the tense night exploration, indicating the same type of place is revisited?",
+        "answer": "A covered wooden bridge (and its tunnel-like interior).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            64,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows a covered bridge over a river in daylight. Step 2: Slice 42 shows the car driving into a dark, beam-lit tunnel/covered bridge structure at night. Conclusion: The repeated feature is a covered wooden bridge revisited in different conditions.",
+        "logic_check_reasoning": "Step 1: Slice 64 describes a calm daytime scene explicitly showing a covered bridge over a river. Step 2: Slice 42, during a night exploration, shows driving into what looks like a tunnel or covered bridge, with wooden beams and planked flooring consistent with a covered bridge interior. Step 3: The recurring feature—covered bridge—appears in both contexts (daytime scenic and nighttime exploration), indicating the same type of place is revisited.",
+        "visual_proof": "Clip 1 shows a light-colored covered wooden bridge over a river during the day, with people exploring the area around it. Clip 2 shows the interior of a dark, wooden-planked covered bridge at night, viewed from inside a car driving through it. The structure's defining feature — a covered wooden bridge — is present in both clips, confirming the same type of location is revisited."
+    },
+    {
+        "question": "What sequence of events shows the story moving from an official ‘Day 1’ start to a luxurious ride and then into an outdoor investigation-style meetup?",
+        "answer": "It goes from a ‘Day 1’ title and group exiting a building, to riding in a limousine, then to gathering outdoors in the woods/fields with discussion and exchanged materials.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            7,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 6 introduces 'Day 1' and shows the group exiting a modern building. Step 2: Slice 7 shows the same group entering and riding in a limousine. Step 3: Slice 14 shows the group outdoors in a field with a document exchange and focused discussion. Conclusion: The narrative progresses from day-start organization to luxury transit to an investigation-like outdoor meetup.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows an official start with the on-screen 'Day 1' title and a group exiting a building, setting the narrative kickoff. Step 2: Slice 7 depicts the group approaching and riding in a luxurious black limousine, clearly indicating a luxury ride. Step 3: Slice 14 moves to an outdoor field setting where the group interacts, discusses, and exchanges documents, suggesting an investigation-style meetup. The sequence aligns directly with the proposed answer.",
+        "visual_proof": "Clip 1 opens with a 'Day 1' title card, followed by a group of people exiting a hotel. Clip 2 shows the same group entering and riding inside a black limousine, with aerial shots of the town and a close-up of an official document. Clip 3 transitions to the group meeting outdoors in a field with autumn trees, where they discuss and exchange papers, confirming the sequence described."
+    },
+    {
+        "question": "How does the video connect the covered-bridge imagery from day to night, and then into the group’s walking exploration?",
+        "answer": "A covered bridge is shown in daylight, then the car passes through it at night like a tunnel, and later the group walks through the covered wooden bridge on foot at night.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            64,
+            42,
+            44,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows a covered bridge in daylight. Step 2: Slice 42 shows nighttime driving into a tunnel-like covered bridge. Step 3: Slice 44 shows the group walking into/through a covered wooden bridge at night. Step 4: Slice 87 again shows a dark tunnel/covered-bridge interior shot. Conclusion: The same type of structure recurs and is revisited across day/night and on foot.",
+        "logic_check_reasoning": "Step 1: Slice 64 shows a covered bridge in daylight, establishing the bridge imagery. Step 2: Slice 42 depicts a car at night entering and moving through what appears to be a covered bridge (wooden beams, planks), connecting the bridge imagery to nighttime by car. Step 3: Slice 44 shows a group walking at night and entering a covered wooden bridge, and Slice 87 further shows a person walking through a dark tunnel with wooden planks toward light, reinforcing the on-foot nighttime exploration. The sequence matches the proposed answer: day bridge shot, then car through the bridge at night, then group walking through it at night.",
+        "visual_proof": "Clip 1 shows the covered bridge in daylight with autumn foliage. Clip 2 shows a car driving through the same bridge at night, illuminated only by headlights and exit light. Clips 3 and 4 show the group walking inside the dark, wooden-covered bridge at night, confirming the transition from day to night and from vehicle to foot exploration."
+    }
+]

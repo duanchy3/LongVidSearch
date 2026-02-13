@@ -1,0 +1,81 @@
+[
+    {
+        "question": "How does the pumpkin’s state change from when it is first placed on the outdoor table to when it is shown finished as a jack-o'-lantern?",
+        "answer": "It goes from an uncarved pumpkin to a carved jack-o'-lantern with a face.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows a pumpkin being placed on an outdoor table, implying it is intact and ready for an activity. Step 2: Slice 43 shows the carved pumpkin with triangular eyes and a jagged mouth. Conclusion: The pumpkin changes from uncarved to carved with a face.",
+        "logic_check_reasoning": "Step 1: Slice 37 shows a woman placing a pumpkin on a wooden table and preparing for an activity involving it, possibly carving or decorating, with no mention of carved features. This implies the pumpkin is initially uncarved. Step 2: Slice 43 describes a close-up of a carved pumpkin with triangular eyes and a jagged mouth, clearly a finished jack-o'-lantern. The outdoor setting with stacked logs and a green structure links the scenes logically. Therefore, the pumpkin changes from uncarved to carved with a face.",
+        "visual_proof": "In Clip 1, the woman places a whole, uncarved orange pumpkin on the table. In Clip 2, the same pumpkin is shown on the table, but it has been carved with triangular eyes and a smiling mouth, clearly making it a jack-o'-lantern."
+    },
+    {
+        "question": "Which seasonal decoration seen outside near the cabin later reappears indoors beside the wood-burning stove?",
+        "answer": "A carved jack-o'-lantern pumpkin.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a carved pumpkin sitting on the cabin steps outside. Step 2: Slice 47 shows a carved pumpkin displayed near the indoor wood-burning stove. Conclusion: The recurring decoration is the carved jack-o'-lantern.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a small orange carved pumpkin with a classic jack-o'-lantern face on the steps outside the cabin. Step 2: Slice 47 describes a carved pumpkin with a smiling face prominently displayed indoors beside the wood-burning stove. Logic holds because both slices depict the same type of seasonal decoration (a carved jack-o'-lantern pumpkin) appearing outside and later indoors.",
+        "visual_proof": "In Clip 1, a carved jack-o'-lantern pumpkin is clearly visible sitting on the white metal steps outside the cabin entrance. In Clip 2, the same jack-o'-lantern is seen indoors, placed on a surface to the right of the wood-burning stove while a person tends to the fire."
+    },
+    {
+        "question": "What indoor heat source shown at the very beginning is later tended with a poker by someone in a green long-sleeved shirt?",
+        "answer": "A wood-burning stove/fireplace.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 2 opens with a fireplace burning in the dark. Step 2: Slice 47 shows someone in a green long-sleeved shirt using a metal poker to adjust logs in a wood-burning stove. Conclusion: The heat source is the wood-burning stove/fireplace.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the video begins with a fireplace burning in the dark, establishing an indoor heat source. Step 2: Slice 47 describes a person in a green long-sleeved shirt using a metal poker to tend a wood-burning stove, another indoor wood-fire heat source. Step 3: The question links the initial heat source to the later tending action. While the captions name it 'fireplace' initially and 'wood-burning stove' later, these are logically consistent descriptions of a similar indoor wood-fire appliance. Given VLM naming noise tolerance, identifying the heat source as a wood-burning stove/fireplace aligns with both slices.",
+        "visual_proof": "Clip 1 shows a glowing wood-burning stove in a dark room, with a carved pumpkin beside it. Clip 2 shows the same stove, now with its door open, being tended by a person in a green long-sleeved shirt who places a log inside. The visual continuity of the stove and the pumpkin confirms it is the same heat source being tended later in the video."
+    },
+    {
+        "question": "What common setting feature links the early kitchen cooking scenes and the later Scrabble-on-the-bed scenes?",
+        "answer": "Large windows with a forest view in a rustic wooden cabin.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows cooking in a rustic cabin kitchen with large windows looking out at greenery. Step 2: Slice 53 shows Scrabble being played on a bed with large windows showing the forest. Conclusion: Both occur in a rustic cabin with big windows facing the forest.",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly describes a rustic cabin-style kitchen with wooden walls and large windows offering a view of lush greenery/forest. Step 2: Slice 53 explicitly notes a setting that appears to be a cabin or room with large windows that offer a view of a lush, green forest. Step 3: The common feature present in both slices is large windows with a forest view. The cabin context is present in both (explicit in Slice 11 and suggested in Slice 53). While \"wooden/rustic\" is explicit in Slice 11 and not explicitly stated in Slice 53, the core linking feature—large windows with a forest view in a cabin setting—is supported across both.",
+        "visual_proof": "Both clips show the same interior setting. Clip 1 features a kitchen with light wood-paneled walls and large windows looking out onto trees. Clip 2 shows the couple on a bed, positioned directly in front of the same large window with an identical forest view, confirming it is the same rustic wooden cabin."
+    },
+    {
+        "question": "What recurring planning tool is first studied at a table indoors and later consulted in multiple outdoor trail shots?",
+        "answer": "A detailed paper map (topographical/hiking map).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            64,
+            73,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows a man studying a map spread on an indoor table. Step 2: Slice 73 shows the man in a forest holding and studying a topographical map. Step 3: Slice 76 shows hands pointing at locations on an unfolded map while standing on a forest path. Conclusion: The recurring planning tool is the paper map.",
+        "logic_check_reasoning": "Step 1: Slice 64 describes a man indoors at a wooden table studying a detailed geographical map. Step 2: Slice 73 shows the man outdoors in a forest holding and studying a detailed topographical map. Step 3: Slice 76 shows a person on a forest trail consulting an unfolded, detailed paper map. Logic holds because the same planning tool—a detailed paper map—is used first indoors and then repeatedly outdoors on trails, matching the question’s description.",
+        "visual_proof": "Clip 1 shows the man indoors, leaning over a table and studying a large paper map. Clip 2 shows him outdoors in a grassy area holding the same type of paper map. Clip 3 provides a close-up of his hands pointing to locations on the paper map while standing on a forest trail. The consistent object across all three clips is the paper map."
+    },
+    {
+        "question": "What did the woman pick up outside the cabin that later appears placed on top of an open book on a bench?",
+        "answer": "An autumn leaf.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the woman picking up a brown leaf and showing it to the camera outside the cabin. Step 2: Slice 18 shows an autumn leaf resting on the pages of an open book on a wooden bench. Conclusion: The shared item is an autumn leaf.",
+        "logic_check_reasoning": "Step 1: Slice 12 states the woman picks up a brown leaf from the ground outside the cabin and shows it to the camera. Step 2: Slice 18 shows an open book on a bench with a single autumn leaf resting on its pages. Logic holds because both slices feature a leaf; Slice 18 explicitly calls it an autumn leaf, and Slice 12 confirms the woman picked up a leaf. The answer identifies the object as an autumn leaf, which is consistent with Slice 18 and compatible with the leaf described in Slice 12.",
+        "visual_proof": "In Video 1, the woman is seen walking outside onto grass covered with fallen leaves. In Video 2, a close-up shot shows an open book on a wooden bench with a single, distinct orange-brown autumn leaf resting on its pages. The continuity of the scene and the presence of leaves in both clips strongly suggest she picked one up during her walk, which was later placed on the book."
+    }
+]

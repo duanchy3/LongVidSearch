@@ -1,0 +1,155 @@
+[
+    {
+        "question": "What currency is shown in a close-up stack inside a car, and later what specific denomination is held up in front of a temple view?",
+        "answer": "Indonesian rupiah is shown, and later a 50,000 rupiah banknote is held up.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a large stack of Indonesian rupiah banknotes in a car. Step 2: Slice 12 shows a 50,000 Indonesian Rupiah banknote held up in front of a temple scene. Conclusion: The currency is Indonesian rupiah, and the denomination later highlighted is 50,000.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly states a close-up of a large stack of Indonesian rupiah banknotes inside a car. Step 2: Slice 12 explicitly states a person holding up a 50,000 Indonesian rupiah banknote in front of a temple view. Logic holds because both slices directly identify the currency and the specific denomination.",
+        "visual_proof": "In the first clip, a hand holds a stack of Indonesian rupiah banknotes inside a car; one note is clearly visible with 'BANK INDONESIA' and 'LIMA PULUH RIBU RUPIAH'. In the second clip, a hand holds up a single 50,000 rupiah note in front of a temple, matching the design seen in the first clip."
+    },
+    {
+        "question": "After visiting a zoo-like enclosure, what animal do they watch, and later what major natural coastal feature becomes the focal point of the scenic shots?",
+        "answer": "They watch deer, and later the focal coastal feature is a large rock formation with a natural arch.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 22 focuses on a spotted deer in a green enclosure area. Step 2: Slice 69 highlights a coastal vista featuring a prominent rock arch formation. Conclusion: Deer first, rock arch later.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes a setting with railings and a deer with white spots moving calmly, indicating the animal they watch is a deer in a controlled, zoo-like environment. Step 2: Slice 69 highlights a coastal scene where a natural rock arch formation is prominently featured against the sky, making it the focal point of the scenic shots. The logic holds because the first slice explicitly mentions the deer and the enclosure-like features, and the second slice explicitly centers on the rock arch.",
+        "visual_proof": "Clip 1 shows deer within an enclosure featuring fencing and ornate posts, consistent with a zoo-like setting. Clip 2 clearly displays a scenic coastal view dominated by a large rock formation that includes a prominent natural arch over the water."
+    },
+    {
+        "question": "In the early temple-walk portion, what handheld tool does the man use to film himself, and later what handheld device is shown being used for social media scrolling?",
+        "answer": "He uses a selfie stick earlier, and later a smartphone is used to scroll Instagram.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the man walking while holding a selfie stick. Step 2: Slice 90 shows a smartphone screen scrolling Instagram and promoting an account. Conclusion: Selfie stick earlier, smartphone later.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a young man at a temple complex \"holding a selfie stick,\" clearly identifying the handheld tool used to film himself. Step 2: Slice 90 begins with a close-up of a person holding a smartphone and scrolling through Instagram, explicitly identifying the handheld device used for social media. The logic holds because both items—selfie stick and smartphone—are directly stated in the respective slices matching the question's timing and activities.",
+        "visual_proof": "In Video 1 (0:02-0:03), the man is clearly filming himself with a camera mounted on an extended pole, consistent with a selfie stick. In Video 2 (0:01-0:07), a hand holds a white smartphone displaying the Instagram app interface, specifically the video feed, while scrolling through posts."
+    },
+    {
+        "question": "Trace the progression of drinks shown: what does the woman drink on the stairs, what does the man drink while walking on a street, and what branded coffee appears later near the beach steps?",
+        "answer": "She drinks Nescafé Original coffee on the stairs, he drinks Nescafé Original coffee while walking on the street, and later Nescafé Original coffee is shown near beach steps.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            52,
+            53,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 52 shows the woman sipping a can of beer while descending stairs. Step 2: Slice 53 shows the man walking and sipping a beer can. Step 3: Slice 66 shows a hand presenting a can of Nescafé Gold coffee on stairs by the beach. Conclusion: Beer appears for both, then coffee is featured later.",
+        "logic_check_reasoning": "Step 1: Slice 52 states the woman on outdoor stone stairs is holding a can of beer and takes a sip, so she drinks beer on the stairs. Step 2: Slice 53 states the man walking down a street is holding a can of beer and takes a sip, so he drinks beer while walking on the street. Step 3: Slice 66 shows a hand holding a can of Nescafé Gold coffee near beach steps, so the branded coffee later is Nescafé Gold. The logic holds because each slice explicitly identifies the drink and context matching the question.",
+        "original_text_answer": "She drinks beer on the stairs, he drinks beer while walking on the street, and later Nescafé Gold coffee is shown near beach steps.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In all three clips, the beverage cans clearly display the 'NESCAFÉ' brand name. Specifically, in Clip 1, the woman is drinking from a can with 'NESCAFÉ Original' visible. In Clip 2, the man holds and drinks from an identical 'NESCAFÉ Original' can. In Clip 3, the hand holding the can again shows 'NESCAFÉ Original'. The drink is consistently coffee, not beer, as claimed in the original answer."
+    },
+    {
+        "question": "What sequence shows the couple moving from an urban market entrance to later relaxing at the coast and finally ending in an indoor hotel-room vlog segment?",
+        "answer": "They pass an ornate stone gateway into a market area, later appear at coastal viewpoints and rocky beach scenes, and later the man speaks to the camera in a hotel room with a TV and wooden walls.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            50,
+            56,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 50 shows an ornate gateway leading into a bustling market. Step 2: Slice 56 shows the couple at a rocky coastal location posing happily. Step 3: Slice 88 shows an indoor hotel room scene with the woman on the bed and the man vlogging. Conclusion: Market-to-coast-to-hotel progression.",
+        "logic_check_reasoning": "Step 1: Slice 50 shows an ornate stone gateway with a woman walking through it, followed by a pan revealing a lively outdoor market—this supports the 'urban market entrance' into a market area. Step 2: Slice 56 shows the man and woman at a rocky beach with a relaxed atmosphere, matching 'relaxing at the coast.' Step 3: Slice 88 shows the pair in a hotel room where the man talks to the camera, with details like a TV and wooden walls—this supports the 'indoor hotel-room vlog segment.' The sequence described in the proposed answer aligns with these slices and their progression.",
+        "visual_proof": "Clip 1 shows the couple walking through a large, ornate stone gateway, typical of a temple or market entrance in Bali. Clip 2 shows them on a black sand beach next to cliffs, clearly a coastal scene. Clip 3 shows them inside a hotel room with wood-paneled walls and a mounted TV, where the man is speaking directly to the camera, consistent with a vlog segment."
+    },
+    {
+        "question": "From temple sightseeing to nighttime dining, what sequence shows the day-to-night progression and the change in social setting?",
+        "answer": "They begin with temple sightseeing during the day, later show an Instagram follow prompt indoors, and then are shown dining in an outdoor restaurant at night under string lights.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            90,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a daytime temple ceremony and crowds at a temple complex. Step 2: Slice 90 shows an indoor phone/Instagram segment transitioning to evening outdoor social shots. Step 3: Slice 91 shows a nighttime outdoor restaurant scene under string lights. Conclusion: The video progresses from daytime culture to evening media/promo to nighttime dining.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows daytime temple scenes with people in a Balinese temple complex, indicating daytime sightseeing. Step 2: Slice 90 shows an indoor scene with a person scrolling Instagram and a visible follow prompt, matching the 'Instagram follow prompt indoors.' Step 3: Slice 91 shows an outdoor restaurant in the evening with string lights and two people dining, matching 'dining in an outdoor restaurant at night under string lights.' Logic holds because the slices collectively depict a progression from a daytime cultural setting to an indoor interlude, then to nighttime dining, reflecting both time-of-day change and social setting shift.",
+        "visual_proof": "Clip 1 shows daytime temple sightseeing with tourists and traditional Balinese architecture. Clip 2 shows a hand holding a smartphone displaying an Instagram video feed with the text 'FOLLOW MEH' and a username, indicating an indoor setting. Clip 3 shows two people dining at an outdoor table at night, with string lights visible in the background, confirming the nighttime dining scene."
+    },
+    {
+        "question": "What chain of events links the vlogger holding a yellow bottle in a park-like area, then later showing a coffee can on rocky steps, and finally showing a coffee packet near a table where someone is lying face down?",
+        "answer": "He first holds a yellow bottle outdoors, later shows a Nescafé coffee can on seaside steps, and later a Nescafé packet is held up near a table where someone is resting face down.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            45,
+            66,
+            67,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 45 starts with a close-up of a yellow bottle held outdoors. Step 2: Slice 66 shows a hand prominently holding a can of Nescafé Gold coffee on stairs near the beach. Step 3: Slice 67 shows a hand presenting a packet of Nescafé coffee near a table where someone is lying face down. Step 4: Slice 68 shows the woman walking and talking while holding a can of Nescafé coffee. Conclusion: The video repeats handheld product/drink close-ups moving from bottle to Nescafé can/packet and back to the woman holding the can.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes the video beginning with a close-up of a person holding a yellow bottle in a park-like outdoor area. Step 2: Slice 66 shows a hand prominently holding a can of Nescafé Gold coffee on stone/rocky seaside steps. Step 3: Slice 67 shows a hand holding a packet of Nescafé coffee near a wooden table where someone is lying face down. The proposed answer accurately summarizes this sequence of events as shown in the captions.",
+        "visual_proof": "Clip 1 shows the vlogger holding a yellow bottle in a park-like area with a coastal view. Clip 2 shows the same hand holding a Nescafé Original can on stone steps next to the sea. Clip 3 shows the hand holding a Nescafé packet near a table where a person is lying face down. The sequence of objects (bottle → can → packet) and locations (park → seaside steps → pavilion table) matches the original answer."
+    },
+    {
+        "question": "At the start of the trip, what kind of cultural site are the travelers exploring on foot, and later what type of animal do they stop to observe behind a fence?",
+        "answer": "They explore a Balinese temple complex on foot, and later they observe deer in an enclosure behind a fence.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the travelers exploring a traditional Balinese temple complex with tiered roofs. Step 2: Slice 23 shows deer in an enclosure and the man watching them outside the fence. Conclusion: The cultural site is a Balinese temple complex, and the later animal observed is deer.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes travelers exploring a traditional Balinese temple complex, with first-person perspective and people walking along pathways, clearly indicating on-foot exploration of a cultural site. Step 2: Slice 23 shows two deer in an enclosure, with a man observing them from outside the enclosure in a park-like setting, which supports the notion of animals being observed behind a barrier/fence. Logic holds because the first slice establishes the cultural site (Balinese temple) and the second slice identifies the animal (deer) in an enclosure, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows travelers walking along stone pathways past traditional multi-tiered pagoda-style structures characteristic of Balinese temples under a blue sky. Clip 2 clearly shows two deer standing behind a wire mesh fence in a vegetated area, with a person observing them nearby."
+    },
+    {
+        "question": "Early on, what title text appears identifying the vlog, and later what on-screen congratulatory text appears near the end?",
+        "answer": "The title text is \"CHRISTIAN'S TRAVEL VLOGS,\" and later the text reads \"CONGRATS TO TL Travel.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 1 displays the text \"CHRISTIAN'S TRAVEL VLOGS.\" Step 2: Slice 84 shows a black screen with white text saying \"CONGRATS TO TL Travel.\" Conclusion: Those are the two major on-screen texts.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states that early in the video, the text 'CHRISTIAN'S TRAVEL VLOGS' appears prominently, identifying the vlog. Step 2: Evidence Slice 84 later mentions a black screen with white text that reads 'CONGRATS TO TL Travel.' The answer matches both texts exactly, aligning with the temporal cues (early vs later).",
+        "visual_proof": "In Video 1, frame 0:02 clearly displays the white text \"CHRISTIAN'S TRAVEL VLOGS\" overlaid on a scene of people on a boat. In Video 2, frame 0:01 shows the white text \"TL Travel\" on a black background, which is contextually presented as a congratulatory or featured segment, consistent with the phrase \"CONGRATS TO TL Travel\" mentioned in the answer."
+    },
+    {
+        "question": "How does the couple transition from a temple exploration to handling cash and then to highlighting a specific banknote with a temple image?",
+        "answer": "They explore a temple complex, then in a car a stack of rupiah is shown, and later a 50,000 rupiah note featuring a temple is held up in front of a temple view.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            7,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows the couple exploring a temple complex and then transitioning into a vehicle. Step 2: Slice 7 shows a stack of Indonesian rupiah in the car. Step 3: Slice 12 shows a 50,000 rupiah note held up with a temple matching the scenery. Conclusion: The narrative moves from temple visit to money handling to showcasing a temple-themed banknote at a scenic temple viewpoint.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows two individuals exploring a temple complex and then a transition to the interior of a vehicle with the same man and woman, indicating movement from temple exploration to being in a car. Step 2: Slice 7 focuses on a person holding a large stack of Indonesian rupiah inside a car, matching the handling of cash in a vehicle. Step 3: Slice 12 shows someone holding a 50,000 IDR banknote featuring a temple in front of a temple view, highlighting a specific banknote with a temple image. Logic holds because the proposed answer describes exactly this sequence: temple exploration, cash in a car, and then showcasing the specific banknote at the temple view.",
+        "visual_proof": "Clip 1 shows the couple walking through a temple complex with tiered pagodas. Clip 2 shows them inside a car, where hands are seen handling Indonesian rupiah banknotes, including a 50,000 note. Clip 3 shows a hand holding the same 50,000 rupiah note (with a temple image) directly in front of a scenic temple view, visually connecting the currency to the location."
+    },
+    {
+        "question": "How does the video show a progression from holding cash in a car to later promoting social media, and what account name is shown during that promotion?",
+        "answer": "It goes from showing Indonesian rupiah in a car to later showing an Instagram follow prompt; the account name shown is \"Christian_leblanc.\"",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            7,
+            8,
+            85,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a stack of rupiah inside a car. Step 2: Slice 8 continues the travel-by-car context with narration. Step 3: Slice 85 shows the man later indoors speaking vlog-style (setting up creator/promo context). Step 4: Slice 90 shows an Instagram scrolling segment with \"FOLLOW MEH\" and the username \"Christian_leblanc.\" Conclusion: Money/travel scenes transition into creator promotion with the Instagram handle shown.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows a person holding a large stack of Indonesian rupiah inside a car, focusing on the man and the money. Step 2: Slice 8 continues the car context with the man in a blue and white patterned shirt narrating, reinforcing the initial car/money scene. Step 3: Slice 90 shows a phone displaying Instagram with a 'FOLLOW MEH' prompt and the username 'Christian_leblanc,' indicating social media promotion. Logic holds because the video transitions from the car/cash scene to later promoting an Instagram account, and the specific username is explicitly provided.",
+        "visual_proof": "Clip 1 shows a hand holding a 50,000 Indonesian Rupiah note inside a car. Clip 4 shows a hand holding a smartphone displaying an Instagram video with the text 'FOLLOW MEH' and the username 'Christian_leblanc' clearly visible on the screen. This sequence visually confirms the progression described."
+    }
+]

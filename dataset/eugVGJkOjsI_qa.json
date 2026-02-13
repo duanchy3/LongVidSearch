@@ -1,0 +1,197 @@
+[
+    {
+        "question": "Who is shown filming the cooking action in the jelly-making segment and also filming during the pâté attempt discussion segment?",
+        "answer": "A camera operator/cameraperson filming the cook.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a cameraman filming the apron-wearing cook during jelly cooking. Step 2: Slice 35 shows a man holding a professional camera filming the apron-wearing cook and discussing the process. Conclusion: A camera operator is present filming in both segments.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a man cooking while another person with a professional camera is positioned behind him, capturing the scene—clearly a cameraman filming the cooking action. Step 2: Slice 35 describes a man in a black shirt holding a professional camera, filming/directing during the pâté attempt discussion. Logic holds because both slices explicitly show a camera operator filming the cook in each segment.",
+        "visual_proof": "In Video 1, a man with a camera is visibly filming the cook as he stirs a pot. In Video 2, the same man with the camera is present, interacting with the cook during the pâté segment, confirming he is the consistent cameraperson for both scenes."
+    },
+    {
+        "question": "Which ingredient is added to the pot in the jelly tutorial near the beginning and also appears later as orange produce used in plating or prep?",
+        "answer": "Mandarin (mandarin puree / mandarin-like orange fruit).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows 500 grams of mandarin puree being added to a pot. Step 2: Slice 69 shows a small orange fruit (mandarin/tangerine-like) on a cutting board with toasted bread. Conclusion: Mandarin/orange produce connects early jelly prep and later food prep/plating.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly states that 500 grams of mandarin puree are added to the pot near the beginning. Step 2: Slice 69 describes a small orange fruit with leaves on a cutting board, noted as likely a mandarin or tangerine, being handled for prep. Logic holds because the ingredient (mandarin) is clearly present early as puree and later appears as an orange fruit consistent with mandarin, and the proposed answer accounts for this with 'mandarin-like orange fruit.'",
+        "visual_proof": "In Clip 1, at 0:20-0:23, the on-screen text explicitly identifies '500 g MANDARIN PUREE' as an ingredient being added to the pot. In Clip 2, at 0:00-0:04, a small, whole orange fruit with green leaves, visually identifiable as a mandarin or similar citrus, is shown being used for plating next to a slice of bread. The visual and textual evidence across both clips confirms the same type of produce is used in both contexts."
+    },
+    {
+        "question": "What time-passage card appears during the jelly cooking process, and later a different time card appears during the tomato dipping process—what are the two time markers?",
+        "answer": "“5 MIN LATER” and “1 MIN IN THE FRIDGE.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a yellow card reading “5 MIN LATER.” Step 2: Slice 60 shows a title card reading “1 MIN IN THE FRIDGE.” Conclusion: The two time markers are 5 minutes later and 1 minute in the fridge.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 10 explicitly states a yellow screen with the text \"5 MIN LATER\" during the cooking demonstration. Step 2: Evidence Slice 60 explicitly states the video opens with a title card that reads \"1 MIN IN THE FRIDGE,\" and this slice describes the tomato dipping process. Logic holds because each slice clearly presents the respective time-passage card mentioned in the proposed answer.",
+        "visual_proof": "In Video 1, after the man cuts and soaks the gelatin sheets, a yellow card with the text '5 MIN LATER' appears at 0:11. In Video 2, during the tomato dipping process, a teal card with the text '1 MIN IN THE FRIDGE' is shown at 0:00 and again at 0:07. Both time markers are explicitly displayed as on-screen text cards."
+    },
+    {
+        "question": "Which two different cooking projects are explicitly separated by on-screen title cards, and what are those titles?",
+        "answer": "The jelly segment (“PART 1 JELLY”) and the pâté segment (“PÂTÉ ATTEMPT II”).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 6 displays “PART 1 JELLY.” Step 2: Slice 35 displays “PÂTÉ ATTEMPT II.” Conclusion: The video is segmented into jelly and pâté parts using title cards.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly states the video opens with a pink title card displaying 'PART 1 JELLY,' introducing a culinary tutorial on making jelly. Step 2: Slice 35 reports a transition to a title card reading 'PÂTÉ ATTEMPT II,' indicating a segment focused on pâté. Logic holds because both slices identify distinct cooking projects marked by on-screen title cards, and the proposed answer correctly names both titles and their associated projects.",
+        "visual_proof": "Clip 1 begins with a title card that reads 'PART I JELLY' on a pink background. Clip 2 ends with a title card that reads 'PÂTÉ ATTEMPT II' on a light beige background. These two distinct title cards explicitly separate the two cooking projects shown in the clips."
+    },
+    {
+        "question": "What indicates that the orange dipping process includes chilling between coats, and what later close-up shows the glossy result on a skewer?",
+        "answer": "A card says “1 MIN IN THE FRIDGE,” and later the skewered orange sphere is shown with a glossy smooth coating.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            60,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows the title card “1 MIN IN THE FRIDGE,” implying chilling during the process. Step 2: Slice 63 shows a glossy orange-coated sphere on a skewer (candy-apple-like finish). Conclusion: Chilling is part of the process leading to the glossy coated result.",
+        "logic_check_reasoning": "Step 1: Slice 60 explicitly states the video opens with a title card reading \"1 MIN IN THE FRIDGE,\" which indicates a chilling step in the dipping process. Step 2: Slice 63 describes a close-up of a spherical orange object on a skewer with a glossy, smooth coating, showing the result after the process. Logic holds because the card signals chilling in the workflow, and the later close-up demonstrates the glossy outcome on the skewered item.",
+        "visual_proof": "In Clip 1, a title card explicitly states '1 MIN IN THE FRIDGE' at 0:00-0:01. Later in Clip 2 (0:02-0:04), a close-up shows the man holding the orange sphere on a skewer, which has a very glossy, smooth, and evenly coated surface, confirming the result after chilling."
+    },
+    {
+        "question": "How does the orange garnish/fruit relate to the final pâté presentation after earlier orange handling during prep?",
+        "answer": "Oranges are handled/prepped earlier, and the final sliced pâté/terrine is presented topped with an orange and a green leaf garnish.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            61,
+            68,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows a gloved cook closely examining an orange. Step 2: Slice 68 shows an orange fruit with attached leaves placed near toasted bread during prep while being filmed. Step 3: Slice 74 shows the final terrine/pâté being sliced with an orange (and leaf) on top as garnish. Conclusion: Orange handling earlier connects to the orange-topped final presentation.",
+        "logic_check_reasoning": "Step 1: Slice 61 shows a man in a kitchen handling an orange during food prep, indicating oranges are involved earlier. Step 2: Slice 68 further shows a man holding an orange with green leaves attached, reinforcing earlier handling and the presence of leaves. Step 3: Slice 74 depicts the final terrine/pâté presentation with an orange on top as a garnish, adorned with a green leaf, and being sliced. Logic holds because the context explicitly shows earlier orange handling and later the orange serving as the garnish on the final dish.",
+        "visual_proof": "Clip 1 shows the chef handling an orange. Clip 2 shows him placing a green leaf onto an orange on a cutting board next to toast. Clip 3 confirms the final presentation: a slice of pâté/terrine is revealed inside the orange, which is topped with the green leaf garnish, demonstrating the direct relationship between the prep and the final dish."
+    },
+    {
+        "question": "Across the video, what are two distinct moments where someone tastes something and gives a positive reaction, and what are those reactions?",
+        "answer": "A bearded man gives a thumbs-up after tasting a chocolate mixture from a spoon, and later the cook nods in approval after tasting the strained orange liquid.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            42,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows a bearded man taking a sip and giving a thumbs-up. Step 2: Slice 20 shows the cook tasting the strained orange liquid with a spoon and nodding. Conclusion: Two positive tasting reactions are thumbs-up and nodding approval.",
+        "logic_check_reasoning": "Step 1: Slice 42 states that a bearded man takes a sip from a glass and gives a thumbs-up gesture, which is a clear positive reaction after tasting something. Step 2: Slice 20 describes the man in the kitchen tasting the orange liquid (which has been strained) from a glass container and nodding in approval, another explicit positive reaction. Logic holds because both slices depict distinct tasting moments with positive reactions that match the proposed answer.",
+        "original_text_answer": "A bearded man gives a thumbs-up after sipping a drink, and later the cook nods in approval after tasting the strained orange liquid.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the bearded man is shown tasting a brown/chocolate-colored mixture from a spoon and then gives a clear thumbs-up gesture. In Clip 2, the cook is shown tasting the strained orange liquid and gives a subtle nod of approval. The original answer incorrectly stated the bearded man sipped a drink; he actually tasted from a spoon."
+    },
+    {
+        "question": "In the jelly-making portion, which ingredients are measured and added early, and later what coloring step is used to fine-tune the mixture’s appearance?",
+        "answer": "Corn syrup and mandarin puree are measured and added early, and later orange and yellow food coloring drops are used.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            15,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows adding measured corn syrup and mandarin puree to a pot. Step 2: Slice 15 again shows mandarin puree being poured into a pot and stirred, reinforcing the base. Step 3: Slice 14 shows adding orange food coloring (and 1 drop yellow) to tune the final color. Conclusion: The base ingredients are corn syrup + mandarin puree, later refined by food coloring.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly shows the jelly segment ('PART 1 JELLY') where 40g of corn syrup and 500g of mandarin puree are measured and added to a pot. Step 2: Slice 14 documents the later coloring steps, stating 'SOME DROPS ORANGE FOOD COLORING' and '1 DROP YELLOW FOOD COLORING' added to the mixture in the pot. Step 3: The scenes are consistent with a cooking tutorial in the same kitchen setting, and the actions logically follow from ingredient addition to color fine-tuning.",
+        "visual_proof": "Clip 1 shows the man measuring and adding 40g of corn syrup and 500g of mandarin puree to the pot. Clip 3 shows a close-up of orange food coloring being added to a bowl, followed by the addition of one drop of yellow food coloring, which is then stirred before being poured into the pot. This sequence visually confirms the order and types of ingredients added."
+    },
+    {
+        "question": "Which tool is used both to blend a mixture and later to process a meat-based mixture for pâté?",
+        "answer": "A blender.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows the cook pouring a mixture into a blender and blending it. Step 2: Slice 31 shows transferring cooked meat into a blender and adding brandy and butter. Conclusion: A blender is used for both blending steps.",
+        "logic_check_reasoning": "Step 1: Slice 16 states the man pours a mixture into a blender and blends it, showing a blender is used to blend a mixture. Step 2: Slice 31 shows seared meat being transferred into a blender with brandy and butter, indicating the blender is used to process a meat-based mixture. Logic holds because the same tool (a blender) is explicitly used in both contexts. The mention of pâté aligns with the meat, brandy, and butter processing, but even without that label, the tool identification is supported.",
+        "visual_proof": "In Video 1, the man pours a cooked orange mixture through a sieve into a clear blender pitcher (0:14-0:16). In Video 2, he pours a cooked meat mixture from a pot into the same type of blender pitcher (0:06-0:08) and then adds brandy to it (0:10), indicating the blender is being used for processing the meat-based mixture."
+    },
+    {
+        "question": "Which ingredient is highlighted with a pronunciation sign in one moment and earlier is explicitly chopped and cooked with duck fat and spices?",
+        "answer": "Shallots.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows on-screen text calling out shallots and the cook chopping and cooking them with duck fat and spices. Step 2: Slice 38 shows a wall sign reading “SHALLOTS” with pronunciation. Conclusion: Both moments refer to shallots.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly shows the man chopping shallots and cooking them with duck fat, salt, and spices, with text overlays stating 'THOSE ARE SHALLOTS' and 'A BUNCH SHALLOTS.' Step 2: Slice 38 describes a pronunciation sign on the wall reading 'SHALLOTS' with 'SHAL-LOOTS.' Logic holds because the ingredient identified in both slices is shallots: it is the one cooked with duck fat and spices earlier and later highlighted with a pronunciation sign.",
+        "visual_proof": "In Clip 1, the man is shown chopping shallots (0:04-0:05), adding them to a pan with duck fat (0:17), and seasoning them with salt and spices (0:22-0:29). In Clip 2, the word 'SHALLOTS' appears on screen with phonetic pronunciations ('SHAL-LOTS', 'SHALL-OOHS') at 0:02, directly highlighting the ingredient."
+    },
+    {
+        "question": "What step shows raw liver being prepared, and what later step shows the mixture being processed into a smooth pâté-like blend with added dairy?",
+        "answer": "The liver is shown being cooked in a pan with onions, then transferred to a food processor. Later, brandy and butter are added before heavy cream is poured in to create a smooth pâté-like blend.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            31,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows handling and cutting raw liver on a cutting board. Step 2: Slice 31 shows cooked contents moved into a blender with brandy and butter, beginning emulsification. Step 3: Slice 33 shows heavy cream being added into a food processor. Conclusion: Liver prep leads to blending/emulsifying and further smoothing with cream.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly shows raw liver on a cutting board being cut into smaller pieces, which supports the first part of the answer (raw liver being prepared). Step 2: Slice 33 shows ingredients being added to a food processor, including heavy cream, which is dairy, indicating a step toward processing the mixture into a smooth blend. While Slice 31 also shows blending with butter (another dairy), the proposed answer focuses on the heavy cream in Slice 33. The logic holds because the context supports both the liver preparation and the later addition of dairy in a processing step.",
+        "original_text_answer": "The liver is cut into pieces, then later heavy cream is added to a processor to make it smoother.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows raw liver being added to a hot pan with onions. Clip 2 shows the cooked liver mixture being poured into a food processor, followed by the addition of brandy (text overlay: '2 TBSP BRANDY') and butter (text overlay: '1 STICK BUTTER'). Clip 3 shows heavy cream being measured and added to the processor, which is then turned on to create a smooth blend."
+    },
+    {
+        "question": "Which sequence shows a collaborative filming setup around blending, followed later by another collaborative filming setup around dipping and mounting the skewered tomato?",
+        "answer": "First, a cameraperson joins while blending, and later an assistant helps hold the skewered tomato while it’s dipped and placed onto a cardboard box with green tape.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            32,
+            34,
+            60,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows a cameraperson entering as the man blends and comments on darkness. Step 2: Slice 34 shows an apron-wearing cook being filmed by a camera operator in the kitchen. Step 3: Slice 60 shows a second person assisting by holding the skewered tomato and helping with placement on a green frame. Step 4: Slice 62 shows the skewered tomato being blended/dipped and then briefly frozen, with filming implied by the professional setup. Conclusion: Collaboration/filming occurs in both blending and dipping/mounting sequences.",
+        "logic_check_reasoning": "Step 1: Slice 32 shows a man blending while another person holding a camera enters and films him, indicating a collaborative filming setup around blending. Step 2: Slice 34 also depicts a man in an apron with a blender while another man films him, reinforcing the collaborative filming context during blending. Step 3: Slice 60 shows a gloved assistant helping hold a skewered tomato as it is dipped into an orange liquid and then placed onto a green frame, indicating a later collaborative setup around dipping and mounting the tomato. Step 4: This matches the proposed sequence: first a cameraperson joins during blending, then an assistant collaborates during dipping and mounting.",
+        "original_text_answer": "First, a cameraperson joins while blending, and later an assistant helps hold the skewered tomato while it’s dipped and placed onto a green frame.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 2, a cameraperson is clearly filming the man as he blends. In Clip 3, another person (the assistant) is seen helping to hold the skewered tomato as it's being dipped and then placed onto a cardboard box secured with green tape, which serves as a mounting structure, not a 'green frame'."
+    },
+    {
+        "question": "During the pâté process, what liquid is added into the blender along with butter, and earlier what other alcohol bottle is shown being held up as part of the flavoring steps?",
+        "answer": "Brandy is added in the blender, and red wine is shown earlier.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 27 ends with the cook holding a bottle of red wine during the shallot/spice steps. Step 2: Slice 31 shows text overlays “2 Tbsp Brandy” and “1 Stick Butter” added to the blender. Conclusion: Red wine is shown, and brandy is added.",
+        "logic_check_reasoning": "Step 1: Slice 31 explicitly states the man adds '2 Tbsp Brandy' into the blender followed by '1 Stick Butter,' confirming the liquid added with butter is brandy. Step 2: Slice 27 notes that earlier the man holds up a bottle of red wine at the end of the seasoning/spices segment, suggesting it might be used in the recipe, which supports that the other alcohol shown earlier is red wine. The visual context across slices aligns (same kitchen/man), so the logic holds.",
+        "visual_proof": "In Video 2, frame 0:06, the chef pours a liquid from a bottle into the blender, and the on-screen text explicitly identifies it as '2 TBSP BRANDY'. In Video 1, frame 0:14, the chef holds up a dark bottle with a yellow label, which is visually identifiable as a bottle of red wine, before proceeding to add other ingredients."
+    },
+    {
+        "question": "What is the full multi-step path from creating an orange liquid base to forming small orange items and packaging them for later work?",
+        "answer": "Make and refine an orange liquid base (blend/strain), then fill molds to create small orange pieces, then place the small orange items into a vacuum-sealed bag.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            20,
+            43,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows building an orange base using mandarin puree and corn syrup. Step 2: Slice 20 shows blending/straining the orange mixture to refine it. Step 3: Slice 43 shows filling a mold tray with liquid to form small pieces. Step 4: Slice 49 shows a tray of small round orange items being placed into a vacuum-sealed bag. Conclusion: Orange base → refined liquid → molded pieces → vacuum bag packaging.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows making an orange base by combining mandarin puree and corn syrup; Slice 20 explicitly shows blending the orange mixture and straining it, which supports the 'make and refine (blend/strain)' step. Step 2: Slice 43 shows the liquid being carefully poured into a silicone mold, supporting the step of filling molds to form small pieces. Step 3: Slice 49 shows small, round, orange items being placed into a vacuum-sealed bag, matching the packaging step. The sequence is logically consistent across slices despite minor naming/context shifts.",
+        "visual_proof": "Clip 1 shows the man adding corn syrup and mandarin puree to a pot. Clip 2 shows him straining the resulting orange liquid. Clip 3 shows him filling red silicone molds with this liquid and then sealing them in a plastic bag. This sequence visually confirms the entire process described in the original answer."
+    }
+]

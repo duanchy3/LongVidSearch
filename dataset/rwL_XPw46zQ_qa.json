@@ -1,0 +1,140 @@
+[
+    {
+        "question": "What is the name of the pistol model that is shown as a title over a soldier aiming a handgun, and later reappears as a labeled semi-automatic pistol illustration?",
+        "answer": "Glisenti M1910 (Glisenti Model 1910).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 12 overlays the text \"Glisenti Model 1910\" while soldiers aim pistols. Step 2: Slice 41 shows a labeled illustration reading \"GLISENTI M1910 SEMI-AUTOMATIC PISTOL.\" Conclusion: Both refer to the Glisenti M1910.",
+        "logic_check_reasoning": "Step 1: Slice 12 states that the third frame introduces text reading 'Glisenti Model 1910' over a soldier aiming a pistol. Step 2: Slice 41 shows an illustration labeled 'GLISENTI M1910 SEMI-AUTOMATIC PISTOL.' Step 3: The naming variation ('Model 1910' vs 'M1910') is consistent and clearly refers to the same pistol in both slices. Therefore, the context supports that the pistol model is Glisenti M1910 / Glisenti Model 1910.",
+        "visual_proof": "In Video 1, at 0:13, the text 'Glisenti Model 1910' is displayed over an image of a pistol. In Video 2, at 0:08, an illustration of the same pistol is shown with the label 'GLISENTI M1910 SEMI-AUTOMATIC PISTOL'. Both clips explicitly identify the pistol by this name."
+    },
+    {
+        "question": "After the segment that labels the pistol as a Glisenti Model 1910, what caliber is later shown on a standalone bullet card for that same pistol’s ammunition?",
+        "answer": "9×19mm Glisenti.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 12 introduces the pistol topic with the label \"Glisenti Model 1910.\" Step 2: Slice 15 shows a bullet card labeled \"9X19mm Glisenti.\" Conclusion: The later shown caliber for that pistol’s ammo is 9×19mm Glisenti.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows the pistol labeled as \"Glisenti Model 1910.\" Step 2: Slice 15 shows a standalone bullet card with text \"9X19mm Glisenti\" under the bullet. Logic holds because the later segment explicitly displays the caliber associated with Glisenti, matching the question’s reference to the pistol’s ammunition.",
+        "visual_proof": "Clip 1 ends with a title card identifying the pistol as 'Glisenti Model 1910'. Clip 2, which follows this segment, displays a standalone bullet on a black background with the text '9X19mm Glisenti' clearly visible beneath it. This directly answers the question about the caliber shown for that pistol's ammunition."
+    },
+    {
+        "question": "What weapon category title appears immediately before the Carcano M1891 rifle is shown as a labeled illustration?",
+        "answer": "RIFLES.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 44 displays a title card reading \"RIFLES.\" Step 2: Slice 45 shows the labeled rifle illustration \"CARCANO M1891.\" Conclusion: The preceding category title is RIFLES.",
+        "logic_check_reasoning": "Step 1: Slice 44 describes a scene transition to a title card with the word 'RIFLES', introducing the rifles segment. Step 2: Slice 45 shows the Carcano M1891 rifle as a labeled illustration. Logic holds because the 'RIFLES' title card introduces the rifles segment, and the Carcano M1891 is a rifle shown in that segment, so the category title immediately preceding it is 'RIFLES'.",
+        "visual_proof": "The final frame of Video 1 (0:17-0:19) displays the word 'RIFLES' in a stylized font over a background featuring an Italian coat of arms and part of a rifle. The very next clip, Video 2 (0:00-0:15), immediately shows the labeled illustration of the 'CARCANO M1891' rifle. This establishes a direct temporal sequence where the title 'RIFLES' appears right before the specific rifle is shown."
+    },
+    {
+        "question": "Which two different Carcano-related ammunition calibers are later listed for the rifle after the Carcano M1891 is presented?",
+        "answer": "6.5×52mm rounds and 7.35×51mm rounds.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 45 presents the Carcano M1891 rifle. Step 2: Slice 47 lists the rifle ammunition types: \"6.5 x 52 mm rounds\" and \"7.35 x 51mm rounds.\" Conclusion: Those are the two calibers shown for the Carcano segment.",
+        "logic_check_reasoning": "Step 1: Slice 45 presents the Carcano M1891 rifle. Step 2: Slice 47 states that later the video shows ammunition labeled \"6.5 x 52 mm rounds\" and \"7.35 x 51mm rounds.\" Logic holds because the question asks which two calibers are listed after the rifle is presented, and Slice 47 explicitly lists these two calibers following the rifle depiction.",
+        "visual_proof": "Clip 2 explicitly shows two separate ammunition types with their calibers labeled. The first is a cartridge with the text '6.5 x 52 mm rounds' displayed below it. The second is a different cartridge, shown afterward, with the text '7.35 x 51mm rounds' displayed below it. These are presented after the initial view of the Carcano M1891 rifle in Clip 1."
+    },
+    {
+        "question": "Which handgun is shown as a 3D model earlier and then later a different 3D handgun is showcased in a similar dark, smoky product-style presentation—what is the earlier handgun identified as?",
+        "answer": "A Mauser C96.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 17 explicitly describes a 3D handgun identified as a Mauser C96. Step 2: Slice 29 later shows another 3D handgun in a dark smoky showcase style. Conclusion: The earlier identified handgun is the Mauser C96.",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly identifies the showcased 3D handgun as a Mauser C96. Step 2: Slice 29 describes a later, similar dark, smoky 3D presentation of a handgun without specifying its model, implying a different depiction. Logic holds because the question asks for the identity of the earlier handgun, which Slice 17 clearly provides as Mauser C96.",
+        "visual_proof": "The handgun shown in Video 1 is a 3D model with a distinctively long barrel, a rectangular receiver, and a grip that angles sharply backward. These are the signature design features of the Mauser C96 pistol. The video presents it against a dark, smoky background, consistent with a product showcase. Video 2 shows a different handgun, which has a shorter barrel and a more conventional grip angle, confirming that two different models are being presented sequentially from the same source video."
+    },
+    {
+        "question": "Across the video, one section transitions from pistols to rifles; which labeled rifle appears after that transition and what ammo calibers are later shown for the Carcano rifles?",
+        "answer": "Carcano M1891; 6.5×52mm and 7.35×51mm rounds.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            44,
+            45,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 44 signals a transition with the title \"RIFLES.\" Step 2: Slice 45 shows the labeled rifle \"CARCANO M1891.\" Step 3: Slice 47 lists the ammunition calibers \"6.5 x 52 mm\" and \"7.35 x 51mm.\" Conclusion: The rifle is Carcano M1891 and the later shown calibers are 6.5×52mm and 7.35×51mm.",
+        "logic_check_reasoning": "Step 1: Slice 44 describes a transition from pistols to rifles with a 'RIFLES' title card. Step 2: Slice 45 shows a labeled rifle, specifically 'CARCANO M1891,' which logically appears after the rifles transition. Step 3: Slice 47 later presents ammunition labeled '6.5 x 52 mm rounds' and '7.35 x 51mm rounds.' The sequence is consistent: the video transitions to rifles, shows the Carcano M1891, and then shows ammo calibers that are presented in the context of the rifle segment.",
+        "visual_proof": "Clip 1 ends with a title card 'RIFLES' over an Italian flag, indicating a transition from pistols to rifles. Clip 2 visually identifies the 'CARCANO M1891' rifle. Clip 3 then displays two types of ammunition with text labels: '6.5 x 52 mm rounds' and '7.35 x 51mm rounds', which are the calibers associated with the Carcano rifles."
+    },
+    {
+        "question": "In the video’s Italian weapons theme, which sequence establishes pistols first, then rifles, and then shows a specific Carcano rifle name as an example?",
+        "answer": "It goes from the pistols segment (including Glisenti M1910) to the 'RIFLES' title, then to the Carcano M1891 rifle.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 41 introduces Italian pistol content and names the Glisenti M1910. Step 2: Slice 44 shows the transition title \"RIFLES.\" Step 3: Slice 45 presents the labeled rifle \"CARCANO M1891.\" Conclusion: The sequence is pistols → rifles title → Carcano M1891 example.",
+        "logic_check_reasoning": "Step 1: Slice 41 shows the video introducing pistols with Italian context (flag and crown) and explicitly names the Glisenti M1910, establishing a pistols segment. Step 2: Slice 44 presents a transition to a title card reading 'RIFLES' after pistol handling, indicating the sequence moves from pistols to rifles. Step 3: Slice 45 displays the Carcano M1891 rifle with its name, providing a specific Carcano example. Logic holds because the slices collectively depict the progression: pistols (including Glisenti M1910) -> 'RIFLES' title -> Carcano M1891.",
+        "visual_proof": "Clip 1 shows the 'PISTOLS' title card followed by an illustration of the 'Glisenti M1910'. Clip 2 concludes with the 'RIFLES' title card. Clip 3 immediately follows with a static image of the 'Carcano M1891' rifle. This sequence visually confirms the order: pistols (with Glisenti example), then rifles (title card), then the specific Carcano M1891 example."
+    },
+    {
+        "question": "How does the video build the Carcano rifle thread from a named rifle, to ammunition options, to a variant label shown with a rifle-and-bullet illustration?",
+        "answer": "It introduces Carcano M1891, then lists 6.5×52mm and 7.35×51mm rounds, then shows an M1891/38 labeled variant with a bullet illustration.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            45,
+            47,
+            48,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 45 labels the rifle \"CARCANO M1891.\" Step 2: Slice 47 lists two ammunition types: 6.5×52mm and 7.35×51mm. Step 3: Slice 48 shows a rifle-and-bullet illustration labeled \"M1891/38,\" indicating a variant. Step 4: Slice 46 shows a soldier aiming a rifle in the field, connecting the labeled rifle family to use in action. Conclusion: The Carcano thread progresses from named rifle → ammo → variant label → depiction of rifle use.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows an illustration labeled \"CARCANO M1891,\" establishing the named rifle. Step 2: Slice 47 shifts focus to ammunition, explicitly showing and labeling 6.5×52 mm and 7.35×51 mm rounds. Step 3: Slice 48 presents a rifle labeled \"M1891/38\" with a bullet illustration beneath it, satisfying the variant label with rifle-and-bullet illustration. Slice 46 is unrelated to this thread and does not contradict it. The proposed answer mirrors this sequence accurately.",
+        "visual_proof": "Clip 1 visually labels the rifle as 'CARCANO M1891'. Clip 2 displays illustrations of both '6.5 x 52 mm rounds' and '7.35 x 51mm rounds'. Clip 3 shows a rifle labeled 'M1891/38' positioned above an illustration of a bullet. This sequence directly matches the description in the original answer."
+    },
+    {
+        "question": "How does the video connect the 'pistols' introduction to a later Beretta pistol model and then to a submachine gun ammo label that contrasts with the Beretta’s alternative calibers?",
+        "answer": "It introduces pistols first, then shows Beretta M1934 with 9×17mm and 7.65×17mm, and later shows the M1938A using 9×19mm Parabellum.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            41,
+            43,
+            50,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 41 introduces the pistols segment in an Italian-themed format. Step 2: Slice 43 presents the Beretta M1934 and compares two pistol calibers: 9×17mm and 7.65×17mm. Step 3: Slice 50 introduces the \"SUBMACHINE GUNS\" segment. Step 4: Slice 52 labels the M1938A submachine gun ammo as \"9×19mm Parabellum.\" Conclusion: The video moves from pistols → Beretta pistol calibers → SMGs → 9×19mm Parabellum, contrasting with the Beretta’s calibers.",
+        "logic_check_reasoning": "Step 1: Slice 41 explicitly introduces the topic with a \"PISTOLS\" title and Italian context, setting up a pistols segment. Step 2: Slice 43 presents the Beretta M1934 pistol and shows two ammunition options labeled 9×17 mm and 7.65×17 mm, confirming the alternative calibers. Step 3: Slice 52 later shows the M1938A submachine gun with ammunition labeled 9×19 mm Parabellum, which contrasts with the Beretta pistol’s 9×17 and 7.65×17 options. The sequence and contrast described in the proposed answer align with the slices.",
+        "visual_proof": "Clip 1 ends with a title card 'PISTOLS' over an Italian flag. Clip 2 shows the Beretta M1934 pistol and explicitly labels its calibers as '9 x 17 mm' and '7.65 x 17 mm'. Clip 3 transitions to a 'SUBMACHINE GUNS' title card. Clip 4 shows the Beretta M1938A submachine gun and explicitly labels its ammunition as '9 x 19mm Parabellum', which is visually distinct from the calibers listed for the earlier Beretta pistol."
+    },
+    {
+        "question": "How does the video connect the earliest 'cursed guns' framing to later structured educational sections that categorize weapon types by headings?",
+        "answer": "It starts with a sensational 'cursed guns' intro and later uses structured headings like 'PISTOLS,' 'RIFLES,' and 'MACHINE GUNS' to present weapon categories.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            41,
+            44,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 1 opens with the text \"Cursed Guns That Shouldn't Have Been Made,\" framing the topic broadly. Step 2: Slice 41 introduces a formal category card \"PISTOLS\" in an Italian-themed layout. Step 3: Slice 44 shows the category title \"RIFLES.\" Step 4: Slice 56 shows the category title \"MACHINE GUNS.\" Conclusion: The video shifts from a sensational hook to structured educational categorization by weapon type.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly shows the video opening with the text 'Cursed Guns That Shouldn't Have Been Made,' establishing a sensational intro. Step 2: Slice 41 shows a heading 'PISTOLS' and an illustrated pistol, indicating structured categorization. Step 3: Slice 44 shows a title card 'RIFLES,' continuing the categorized sections. Step 4: Slice 56 shows a title screen 'MACHINE GUNS,' further supporting organized headings by weapon type. Logic holds because the slices collectively demonstrate a transition from the initial 'cursed guns' framing to later educational sections labeled by category.",
+        "visual_proof": "Clip 1 opens with the text 'CURSED GUNS THAT SHOULDN'T HAVE BEEN MADE' and 'Cursed Guns IN HISTORY', establishing a sensational theme. Subsequent clips (2, 3, and 4) show distinct title cards with the headings 'PISTOLS', 'RIFLES', and 'MACHINE GUNS' respectively, each introducing a specific weapon model (Glisenti M1910, Breda M1930 LMG), demonstrating a clear shift to a structured, categorical presentation of weapons."
+    }
+]

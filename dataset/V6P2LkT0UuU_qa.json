@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Which two separate moments show a family-related airplane seat interaction, and who is the child interacting with in each?",
+        "answer": "Both moments are on an airplane: first a child looks up at an adult man in a family row, and later a young boy sits beside an adult man in a light blue checkered shirt.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a family seated together on an airplane with a child between adults looking up at the man. Step 2: Slice 5 shows a man in a light blue checkered shirt seated on an airplane with a young boy beside him. Conclusion: Both slices depict family/child interactions in airplane seats.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly describes an airplane cabin with a family (man, woman, young child) seated together, and the child looks up at the man. This supports the first moment and identifies the interaction as child-to-adult man in a family row. Step 2: Slice 5 opens with an airplane scene where a man in a light blue checkered shirt is seated beside a young boy, indicating an interaction between the child and an adult man. Both moments are distinct airplane seat interactions involving a child and an adult man. The proposed answer accurately reflects these details without adding unsupported claims.",
+        "visual_proof": "Clip 1 (0:16-0:17) shows a young boy sitting between a man and a woman on an airplane; the boy looks up at the man. Clip 2 (0:00-0:04) shows the same young boy sitting next to the same man, who is wearing a light blue checkered shirt, confirming the second interaction."
+    },
+    {
+        "question": "Two different scenes depict NYPD presence at night. What are the two distinct NYPD indicators shown across these scenes?",
+        "answer": "One scene shows an officer hat labeled 'NYPD,' and another shows a black cap labeled 'NYPD' worn while walking through neon-lit streets.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows officers at night, with one wearing an 'NYPD' hat. Step 2: Slice 26 shows a person in a green jacket wearing a cap that says 'NYPD' while moving through a crowded neon street. Conclusion: The NYPD text on headwear is the linking indicator.",
+        "logic_check_reasoning": "Step 1: Slice 23 explicitly describes two police officers walking at night, with one wearing a hat that has 'NYPD' on it. This supports the first indicator: an officer hat labeled 'NYPD.' Step 2: Slice 26 shows two individuals walking through a neon-lit street at night, with one wearing a black cap that has 'NYPD' written on it. This supports the second indicator: a black NYPD cap in the neon-lit street scene. Logic holds because both slices depict nighttime settings and each includes a visible NYPD-labeled headwear item.",
+        "visual_proof": "In Clip 1 (0:13-0:16), a uniformed police officer is visible wearing a traditional police hat with the NYPD badge. In Clip 2 (0:02-0:04), a woman is seen walking in a crowded, neon-lit area (Times Square) wearing a black beanie clearly labeled 'NYPD'. These are two distinct visual indicators of NYPD presence."
+    },
+    {
+        "question": "Which two moments depict a stage speaker addressing an audience, and how do the speaker’s visible gestures differ between them?",
+        "answer": "One shows a man raising his right hand while presenting on stage, and another shows a man on stage speaking with his back to the camera facing seated rows; the first emphasizes a raised-hand gesture while the second emphasizes the speaker’s stance facing the crowd.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows two speakers on stage, with the man raising his right hand while addressing the audience. Step 2: Slice 45 shows a man on stage (white shirt, jeans) facing an audience from behind as he speaks/perform. Conclusion: Both are public speaking scenes but with different emphasized gestures and camera angles.",
+        "logic_check_reasoning": "Step 1: Slice 43 shows two people on a stage with an audience; the man is raising his right hand while presenting, clearly depicting a speaker addressing an audience and a raised-hand gesture. Step 2: Slice 45 shows a man on stage in front of an audience, viewed from behind, speaking or performing; the visible detail emphasizes his stance facing the crowd rather than a specific hand gesture. Logic holds because both slices depict a stage speaker and the described differences in visible gestures (raised hand vs. stance/back-to-camera) match the captions.",
+        "visual_proof": "In Clip 1, a man on stage is visibly raising his right hand toward the audience while standing beside a woman. In Clip 2, a different man (or same man in different attire) is shown from behind, standing at a podium facing rows of seated audience members, with both hands slightly raised but not emphasizing a single hand gesture. The contrast in gestures — one focused on a raised right hand, the other on an open stance facing the crowd — is visually evident."
+    },
+    {
+        "question": "A frightened domestic crisis escalates into a later scene where a woman is being choked. Which earlier moments foreshadow danger in the home before the choking scene?",
+        "answer": "Earlier, a woman appears alarmed upon entering a dim room and later another woman is shown distressed on the floor; these foreshadow the later choking confrontation.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            90,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows a woman entering a dim room and looking shocked, implying something alarming at home. Step 2: Slice 90 shows a woman distressed on the floor in a domestic setting, indicating escalating danger. Step 3: Slice 69 shows a woman being held by the neck in a threatening act. Conclusion: The earlier shock and distress foreshadow the later violent choking scene.",
+        "logic_check_reasoning": "Step 1: Slice 33 describes a woman entering a dim room in a domestic setting and reacting with surprise or shock, indicating something alarming. Step 2: Slice 90 describes another woman in distress, bent over on the floor, appearing fearful or in pain within a home setting. Step 3: Slice 69 explicitly shows a later escalation where a woman is being choked, indicating danger materializing. Logic holds because the earlier alarming entry (Slice 33) and the distressed woman on the floor (Slice 90) both suggest mounting tension and threat inside the home that plausibly foreshadow the later choking confrontation depicted in Slice 69.",
+        "visual_proof": "Clip 1 shows a blonde woman entering a dark room with a terrified expression. Clip 2 shows a different woman in a bedroom, visibly distressed and crawling on the floor. Clip 3 shows a woman being choked in a dark space. The escalating fear and distress in Clips 1 and 2 visually foreshadow the violent choking scene in Clip 3."
+    },
+    {
+        "question": "What multi-scene evidence suggests a recurring theme of people moving through narrow, dim corridors as part of a covert operation?",
+        "answer": "Multiple sequences show suited or serious-looking men walking through blue-lit or concrete corridors, emphasizing secrecy and urgency.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            61,
+            63,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows a bald man leading a suited man through a narrow corridor with blue lighting. Step 2: Slice 63 shows three people (including an older suited man with an ID lanyard) walking purposefully down a dim hallway. Step 3: Slice 64 shows a man briskly moving through a concrete corridor with hanging chains, placing his hand on the wall. Conclusion: Repeated corridor traversal by serious, often formally dressed characters suggests a covert/mission-like throughline.",
+        "logic_check_reasoning": "Step 1: Slice 61 shows two men moving through a narrow, dim, blue-lit corridor; one is in a suit, the mood is serious and focused, and it suggests an important mission/investigation—supporting secrecy/urgency. Step 2: Slice 63 depicts a suited older man with two others walking purposefully down a narrow, dim hallway with a somber atmosphere—reinforcing the recurring motif of suited individuals in dim corridors. Step 3: Slice 64 presents a man walking briskly through a narrow, dim concrete/industrial corridor, with tense, suspenseful mood and narrative hints of secretive/high-stakes operations—explicitly supporting urgency and covert themes. Logic holds because multiple slices consistently show serious or suited people moving through dim, narrow corridors with blue lighting (Slice 61) or concrete industrial settings (Slice 64), emphasizing secrecy and urgency across scenes.",
+        "visual_proof": "Clip 1 shows two men, one in a suit and another in dark clothing, emerging from a narrow, blue-lit corridor. Clip 2 features three individuals, including a man in a suit with an ID badge, walking purposefully down a sterile, concrete hallway. Clip 3 includes scenes of characters moving through dim, confined spaces like an elevator shaft and a low-lit corridor, reinforcing the theme of covert movement through restricted environments."
+    },
+    {
+        "question": "Which scenes together imply a storyline moving from a dark alley confrontation with an explosion to later cockpit/map monitoring of a flight path, and what type of crisis does that suggest?",
+        "answer": "The alley explosion and injured bodies suggest an attack, and the cockpit plus map-monitoring scenes suggest an aviation crisis being tracked; together they suggest a coordinated security emergency escalating to an in-flight situation.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            14,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a police officer confronting an armed figure and an explosion that injures the officer, implying a major incident. Step 2: Slice 14 shows pilots in a cockpit and repeated map monitoring, implying an aircraft situation being tracked. Step 3: Slice 12 shows CIA-related documentation, implying intelligence involvement. Conclusion: The combined slices suggest a security crisis (attack) connected to an aviation incident monitored by intelligence/government.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 13 shows a dark alley confrontation involving a police officer, a visible explosion, debris, and injured/unconscious individuals—clearly suggesting a violent incident or attack. Step 2: Evidence Slice 14 shows pilots in a cockpit and repeated shots of a map being monitored on both the cockpit screen and a large external screen, indicating active tracking of a flight path. Step 3: Taken together, these scenes imply a narrative progression from a ground-level explosive incident to subsequent cockpit/map monitoring, consistent with an aviation-focused response or crisis tracking. Step 4: The crisis type suggested is an aviation/security emergency being monitored in real time (further consistent with the intelligence/security context in Slice 12), aligning with the proposed answer’s characterization.",
+        "visual_proof": "Clip 1 shows a dark alley confrontation with police, followed by a large outdoor explosion and a scene of an injured person being tended to. Clip 2 shows a cockpit with 'CRASH' warnings, pilots reacting in distress, and a wall map tracking a flight path labeled 'MONTESO AIRWAYS FLIGHT 839'. The sequence from ground-based violence/explosion to in-flight emergency monitoring implies a narrative escalation from an attack to an aviation crisis."
+    },
+    {
+        "question": "What multi-step chain links official intelligence paperwork, a high-tech monitoring room, a chaotic night emergency scene, and later a man behind bars—suggesting an investigation leading to detention?",
+        "answer": "CIA-related documentation and monitoring setups suggest an intelligence investigation that connects to a smoky emergency incident, culminating in someone being detained behind bars.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            51,
+            49,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a CIA 'Certificate of Acknowledgment' document, implying intelligence involvement. Step 2: Slice 51 shows a monitoring room with multiple screens and investigative materials. Step 3: Slice 49 shows a nighttime emergency scene with smoke and responders. Step 4: Slice 83 shows a distressed man behind bars, implying detention. Conclusion: The sequence supports a narrative of intelligence investigation -> crisis event -> arrest/detention.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows official intelligence paperwork—the CIA 'Certificate of Acknowledgment'—indicating an intelligence context. Step 2: Slice 51 depicts a high-tech monitoring room with multiple computer displays and a serious investigative atmosphere. Step 3: Slice 49 presents a chaotic, smoky night emergency scene with firefighters and urgency, implying an incident tied to the ongoing narrative. Step 4: Slice 83 later shows a man behind bars, alongside a roster/database display, reinforcing an investigation leading to detention. The sequence of these elements across slices logically suggests an intelligence-driven investigation, monitoring an emergency event, culminating in someone's detention.",
+        "visual_proof": "Clip 1 shows documents from 'The Central Intelligence' and people in an office setting. Clip 2 features a man in a high-tech monitoring room with data screens. Clip 3 depicts a chaotic night scene with smoke and emergency vehicles. Clip 4 concludes with a man behind prison bars, visually linking the investigation (paperwork and monitoring) to the emergency and subsequent detention."
+    }
+]

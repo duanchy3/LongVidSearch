@@ -1,0 +1,123 @@
+[
+    {
+        "question": "Which vehicle appears in the wide snowy field scene, and how do we later see the group traveling together afterward?",
+        "answer": "A white van is shown in the field, and later the group is seen riding together inside a car (three men in the back seat).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            31
+        ],
+        "reasoning_chain": "Step 1: A remote snowy landscape features a white van parked in a field. Step 2: Later, the travelers are shown together inside a car, smiling in the back seat. Conclusion: The travel sequence moves from the van-in-field setting to riding together in a car.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly describes a wide snowy field with a white van parked near the center. Step 2: Slice 31 shows three men sitting together in the back seat of a car, indicating they are traveling together. Logic holds because the first slice identifies the vehicle in the snowy field (white van) and the later slice shows the group traveling together in a car, matching the proposed answer.",
+        "visual_proof": "Clip 1 clearly shows a white van driving across a wide, snowy field. Clip 2 shows three men dressed in winter clothing sitting together in the back of a vehicle, confirming they are traveling as a group."
+    },
+    {
+        "question": "How does the video move from arriving in the region to meeting a 'local shaman' connection mentioned during travel?",
+        "answer": "They arrive via an airport pickup/connection into town, and later during a car ride a woman says her guru/shaman invited them, followed by an on-screen introduction of a local shaman in a kitchen.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            44,
+            72
+        ],
+        "reasoning_chain": "Step 1: At the airport, Drew is welcomed and it’s explained a local contact arranged entry into town. Step 2: In a car, a woman says her guru/shaman invited them, indicating the next destination is spiritually/culturally motivated. Step 3: Later, a kitchen scene explicitly labels “Olga Local Shaman.” Conclusion: The travel/arrival leads into a shaman-invitation thread culminating in meeting the local shaman.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows arrival at an airport/transportation hub with text overlay noting Drew connected with Maria via Instagram to take them into town, indicating the pickup/connection into town. Step 2: Slice 44 shows a car ride where the passenger says, 'My guru, my shaman has invited us,' explicitly introducing the shaman connection during travel. Step 3: Slice 72 shows a scene in a kitchen with an on-screen label 'Olga Local Shaman,' indicating they meet the local shaman. The sequence logically moves from arrival to the shaman mention in transit to meeting the shaman in a kitchen.",
+        "visual_proof": "Clip 1 shows the group at an airport terminal being picked up, with subtitles confirming Maria is there to take them into town. Clip 2 shows a woman in a car stating, 'My guru, my shaman has invited us.' Clip 3 features a woman identified by on-screen text as 'Olga, Local Shaman' speaking in a kitchen setting. This sequence visually confirms the narrative progression from arrival to meeting the shaman."
+    },
+    {
+        "question": "When the narrator is inside a transport hub with a police sign in Cyrillic, what temperature is shown there, and how does it compare to the street segment where a man walks smiling in the cold?",
+        "answer": "Both show about −37°C (−35°F), so they match.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: The transport hub scene with “ПОЛИЦИЯ” displays −37°C/−35°F. Step 2: The snowy street walking scene also displays −37°C/−35°F. Conclusion: The temperatures shown in both segments are the same.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes an indoor transport hub with a Cyrillic police sign and explicitly states the temperature displayed as -37°C/-35°F. Step 2: Slice 7 describes a man walking outdoors on a snowy street, and it also explicitly states the temperature displayed as -37°C/-35°F. Logic holds because both slices report the same temperature, so the comparison that they match is supported.",
+        "visual_proof": "In Video 1, at 0:05, the text '-37°C/-35°F' is displayed as the narrator exits the building with the Cyrillic 'ПОЛИЦИЯ' sign. In Video 2, the same temperature text '-37°C/-35°F' appears at 0:00 and remains on screen through the segment where the man walks smiling in the snow."
+    },
+    {
+        "question": "What is the safety warning shown about the snow area, and what activity later happens that requires entering that kind of opening in the ice?",
+        "answer": "A sign warns of a dangerous zone with an open hole; later people do ice swimming by entering a cut hole in the ice.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            36
+        ],
+        "reasoning_chain": "Step 1: A warning sign announces a dangerous zone with an open hole in the snow/ice. Step 2: Later, people purposefully use an ice hole for winter swimming, entering and emerging from it. Conclusion: The warned-about hazard corresponds to the kind of opening later used for ice swimming.",
+        "logic_check_reasoning": "Step 1: Slice 32 explicitly mentions a sign reading 'Attention! Dangerous Zone! Open Hole!' in Russian, indicating a safety warning about an open hole in the snow/ice area. Step 2: Slice 36 describes people engaging in ice swimming, with participants entering an 'ice hole' to submerge and swim. Logic holds because the warning about an open hole aligns with the later activity that involves entering such an opening in the ice.",
+        "visual_proof": "In Video 1, a sign is clearly visible with Russian text 'ВНИМАНИЕ! ОПАСНАЯ ЗОНА! ОТКРЫТАЯ ПРОРУБЬ!' which translates to 'ATTENTION! DANGEROUS ZONE! OPEN HOLE!'. In Video 2, multiple individuals are shown stripping down to swimwear and submerging themselves into a rectangular hole cut into the ice, which is the activity of ice swimming."
+    },
+    {
+        "question": "Track the recurring filming duo: where do we first see the man in a blue jacket with a fur-lined hood using a camera, and where do we later see him exploring an icy corridor with the man in black?",
+        "answer": "He first appears filming in the winter market, and later he is in the frost-covered corridor/cave exploring alongside the man in a black fur-lined hooded jacket.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            13,
+            25
+        ],
+        "reasoning_chain": "Step 1: In the market, a blue-jacketed man with a fur-lined hood holds a professional camera setup. Step 2: Another market view shows the same blue jacket and filming gear (camera mounted on his head). Step 3: In the cave-like tunnel with icicles, the blue-jacketed man and the black-jacketed host explore together. Conclusion: The blue-jacketed camera operator is consistently tracked from market filming to underground exploration.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows the man in a blue jacket with a fur-lined hood in an outdoor winter market area, with a camera mounted on his head, appearing to film. Slice 12 corroborates this winter market setting and notes the blue-jacketed person holding a professional camera setup. Step 2: Slice 25 shows the same duo (blue jacket with fur-lined hood and black puffer with fur-lined hood) exploring an underground tunnel with icicles (an icy corridor/cave), with the man in black leading and the blue-jacketed man accompanying. Logic holds because the clothing and roles match across scenes, showing the first appearance in the winter market filming and later in the icy tunnel exploring together.",
+        "visual_proof": "In Clip 1 (0:03-0:06) and Clip 2 (0:00-0:05), the man in the blue jacket with a fur-lined hood is clearly visible holding a camera with a microphone on a gimbal in a snowy outdoor market. In Clip 3 (0:00-0:04), the same man in the blue jacket is seen standing next to the man in the black jacket (who also has a fur-lined hood) inside an icy, cave-like corridor, confirming the locations described."
+    },
+    {
+        "question": "What repeated preparation motif appears before and during the ice-related outdoor activity, and how is it later continued indoors?",
+        "answer": "They gather/handle ice blocks outside and then later fill and manage buckets of ice (including adding bagged ice) indoors as preparation.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            49,
+            57,
+            58
+        ],
+        "reasoning_chain": "Step 1: Outdoors, a large pile of ice blocks is shown with people discussing/readying it. Step 2: Outside near a wooden structure, someone handles a blue bucket containing a block of ice. Step 3: Indoors, people continue preparing by adding ice (including a bag of ice) to a large blue bucket. Conclusion: The ice-work motif progresses from outdoor ice blocks to bucket-based ice preparation indoors.",
+        "logic_check_reasoning": "Step 1: Slice 49 shows a large pile of ice blocks outside with two individuals discussing/preparing around the ice, indicating an ice-preparation motif before the outdoor activity. Step 2: Slice 57 shows an outdoor scene where an individual manipulates a block of ice in a blue bucket, clearly demonstrating handling ice during the activity. Step 3: Slice 58 shows indoors they continue with a blue bucket of ice, adding a bag of ice and more ice, which continues the same preparation motif (managing buckets of ice) indoors. The proposed answer aligns with these details, noting outdoor handling of ice and later indoor filling/managing of buckets including adding bagged ice.",
+        "visual_proof": "Clip 1 shows people outdoors handling large, clear ice blocks. Clip 2 shows a person placing a large ice block into a blue bucket indoors. Clip 3 continues this indoor activity, showing another person adding a smaller, possibly bagged or wrapped, piece of ice to the same bucket, confirming the transition from outdoor gathering to indoor bucket preparation."
+    },
+    {
+        "question": "How does the video show the host’s shift from public outdoor exploration to private indoor hospitality?",
+        "answer": "He is first shown energetically speaking while walking in snowy city streets/markets, and later he enters a wooden cabin and is greeted with smiles, waves, and handshakes in a warm indoor setting.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            59,
+            60
+        ],
+        "reasoning_chain": "Step 1: The host in a black winter jacket with a white fur-lined hood speaks excitedly while moving through snowy urban space. Step 2: Later, he enters a rustic cabin, being guided inside. Step 3: Inside, people smile, wave, and shake hands with him, signaling hospitality. Conclusion: The host transitions from public winter exploration to warm indoor welcome.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows a man in a snowy urban environment, walking through city streets, recording himself, and behaving cheerfully and energetically with animated gestures. This supports the public outdoor exploration aspect. Step 2: Slice 59 shows entry into a wooden cabin/lodge with a cozy atmosphere and a sense of warmth and hospitality, indicating a transition to a private indoor setting. Step 3: Slice 60 shows the man inside the wooden room with two people who smile, wave, and a woman who shakes his hand, explicitly demonstrating indoor hospitality. The proposed answer matches these elements: outdoor energetic city walk followed by entry into a wooden cabin and being greeted with smiles, waves, and a handshake. While 'speaking' and 'markets' are not explicitly stated, the core claims (energetic outdoor city walk and indoor hospitality with greetings) are fully supported by the slices.",
+        "visual_proof": "Clip 1 shows the host outdoors in a snowy urban environment, gesturing and speaking to the camera. Clip 2 and Clip 3 show him indoors in a wooden cabin, where he is greeted warmly by several people who smile, wave, and shake his hand, confirming the transition from public outdoor exploration to private indoor hospitality."
+    },
+    {
+        "question": "Which local contact first appears as someone Drew connected with online, and where do we later see her working?",
+        "answer": "Maria; she is later seen working as a vendor at an outdoor winter market (notably at a fish stall).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            10
+        ],
+        "reasoning_chain": "Step 1: The airport scene explains Drew connected with Maria via Instagram and she arranged help getting into town. Step 2: The market scene introduces Maria as a local vendor interacting with visitors at stalls (including fish). Conclusion: The same Maria becomes the on-camera market vendor.",
+        "logic_check_reasoning": "Step 1: Slice 5 explicitly states that Drew connected with Maria through a friend on Instagram, identifying Maria as the local contact found online. Step 2: Slice 10 introduces Maria as a local vendor at an outdoor winter market, with focus around a fish stall where she engages visitors and explains products. Logic holds because the same named individual, Maria, first appears via online connection and later is shown working as a vendor at the market, notably associated with the fish stall.",
+        "visual_proof": "In Video 1, the subtitle explicitly states 'Drew connected with Maria through a friend on Instagram.' In Video 2, a woman identified by the on-screen text as 'Maria Local' is shown interacting with Drew and his group at the outdoor winter market. She is seen standing behind a stall displaying large frozen fish, indicating her role as a vendor at that location."
+    },
+    {
+        "question": "What outdoor food item is highlighted as being sold in the winter market, and what later preserved specimen in an exhibit echoes the theme of preserved life in the cold?",
+        "answer": "Fish hanging at a market stall, and a preserved/mummified animal in a glass display case (like a calf-sized mummy) in an exhibit.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            23
+        ],
+        "reasoning_chain": "Step 1: The market segment focuses on fish hanging from hooks as a prominent product. Step 2: The museum/exhibit segment shows a preserved, mummified animal in a display case. Conclusion: Both segments emphasize preservation/food and biological remains in cold contexts.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 10 explicitly describes an outdoor winter market where fresh fish are hanging from hooks at a stall, highlighting fish as a sold food item. Step 2: Evidence Slice 23 shows a later scene in an indoor exhibit featuring a preserved, mummified animal (likely an elephant calf) in a glass display case. Logic holds because the answer identifies the fish as the highlighted market food and the mummified animal in a glass case as the preserved specimen, both directly supported by the respective slices.",
+        "visual_proof": "Clip 1 clearly shows numerous large, frozen fish hanging for sale at outdoor market stalls. Clip 2 shows a preserved, mummified animal, resembling a small calf or horse, displayed inside a glass case in what appears to be a museum or exhibit, reinforcing the theme of preservation in cold conditions."
+    }
+]

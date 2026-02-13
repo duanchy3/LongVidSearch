@@ -1,0 +1,149 @@
+[
+    {
+        "question": "In the program, which airline is repeatedly shown in airport footage before the story pivots to maritime decarbonisation with an interview overlooking a port?",
+        "answer": "Singapore Airlines.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a Singapore Airlines aircraft on the tarmac with its branding visible. Step 2: Slice 12 is an interview about maritime decarbonisation with a port/harbor backdrop. Conclusion: The airline repeatedly shown before the pivot is Singapore Airlines.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 describes airport footage prominently featuring a Singapore Airlines Boeing 787 with clear branding. Step 2: Evidence Slice 12 shows an interview about maritime decarbonisation overlooking a port, indicating the pivot in the program’s narrative. Logic holds because the question asks which airline is shown before the pivot to the maritime interview; Slice 7 explicitly identifies Singapore Airlines, and Slice 12 confirms the subsequent maritime segment.",
+        "visual_proof": "Clip 1 clearly shows a large white passenger aircraft on the tarmac with 'SINGAPORE AIRLINES' written in large, dark blue letters along its fuselage. The airline's logo is also visible near the cockpit. This footage establishes the airline as the subject before Clip 2 transitions to an interview about maritime decarbonisation."
+    },
+    {
+        "question": "Which energy-related technology appears first as a car being charged and later as a large rooftop installation covering a building?",
+        "answer": "Solar/clean energy infrastructure (electric charging and solar panels).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows an electric car being plugged into a charging station (clean transport infrastructure). Step 2: Slice 18 shows a large rooftop solar panel installation. Conclusion: Both depict clean energy infrastructure, especially electrification and solar power.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows a Tesla Model 3 being plugged into a charging station, explicitly highlighting electric vehicle charging as part of sustainable/clean energy infrastructure. Step 2: Slice 18 shows a large rooftop installation of solar panels, another component of clean/renewable energy infrastructure. Logic holds because both slices depict different manifestations of clean energy infrastructure—first as EV charging and later as solar panels—matching the question's description.",
+        "visual_proof": "Clip 1 shows a red Tesla being plugged into a charging station, representing electric vehicle charging technology. Clip 2 shows a large array of solar panels installed on a building's rooftop, representing solar energy infrastructure. Both clips visually depict distinct components of clean energy technology, with the car charging appearing first in the sequence."
+    },
+    {
+        "question": "After the lecture about the cost of the energy transition, what major industrial facility is shown next that uses protective suits and hard hats?",
+        "answer": "An LNG/industrial storage facility with an SLNG tank.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows a classroom lecture slide about the high cost of commitment to the energy transition. Step 2: Slice 17 shows people in protective gear walking toward a large tank marked SLNG at an industrial facility. Conclusion: The next facility shown is the SLNG LNG storage tank site.",
+        "logic_check_reasoning": "Step 1: Slice 15 describes a lecture with a slide titled 'There is a high cost of commitment to the energy transition,' identifying the lecture referenced in the question. Step 2: Slice 17 shows the next scene featuring a large storage tank at an industrial facility with the 'SLNG' logo, and people wearing protective suits and hard hats. Logic holds because Slice 17 directly depicts an LNG industrial storage facility (SLNG) with protective gear, matching the question's sequence and details.",
+        "visual_proof": "The first clip ends with a lecture on energy transition. The second clip immediately following shows workers in protective suits and hard hats walking towards a large industrial facility. A prominent white storage tank is visible with the logo 'SLNG Singapore LNG Corporation' clearly displayed, identifying it as an LNG storage facility."
+    },
+    {
+        "question": "Which country is shown experiencing heavy rain under its national flags, and later is shown launching a report about participation at a major climate conference?",
+        "answer": "Malaysia.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            54,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 54 shows Malaysian flags and heavy rain imagery. Step 2: Slice 65 shows a stage event titled the launch of Malaysia’s participation report at UNFCCC COP28. Conclusion: The country is Malaysia.",
+        "logic_check_reasoning": "Step 1: Slice 54 explicitly shows Malaysian flags and describes heavy rain occurring under them, indicating the country is Malaysia. Step 2: Slice 65 explicitly references the 'Launch of Malaysia's Participation Report at UNFCCC COP28,' tying Malaysia to a major climate conference. Logic holds because both slices independently and clearly identify Malaysia in the contexts described.",
+        "visual_proof": "Clip 1 shows Malaysian flags (blue field with yellow crescent and star, red and white stripes) with rain falling underneath them. The on-screen text explicitly states 'CNA's Melissa Goh looks at the cost of climate change in Malaysia'. Clip 2 shows a presentation titled 'LAUNCH OF MALAYSIA'S PARTICIPATION REPORT AT UNFCCC-COP28', confirming the country is Malaysia."
+    },
+    {
+        "question": "In the disaster coverage, what physical evidence of flooding damage is shown before the segment shows newly built stilt houses intended to reduce flood risk?",
+        "answer": "Muddy debris and damaged buildings/homes after a flood or disaster.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            57,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows a village with damaged houses, mud-covered roads, and debris—aftermath of flooding/landslides. Step 2: Slice 61 shows newly constructed houses on stilts, a flood-adaptive design. Conclusion: The damage shown is muddy debris and damaged homes.",
+        "logic_check_reasoning": "Step 1: Slice 57 describes roads covered with mud and debris and several houses with red roofs that are damaged or partially destroyed—explicit physical evidence of flooding/landslide damage. Step 2: Slice 61 then shows newly constructed stilt houses designed for flood-prone areas. Logic holds because the question asks what evidence of damage is shown before the stilt houses, and the proposed answer matches Slice 57’s mud/debris and damaged homes.",
+        "visual_proof": "Clip 1 shows an aerial view of a village with extensive muddy debris, uprooted trees, and damaged or partially destroyed houses along a flooded road. Clip 2 shows newly constructed white stilt houses with blue roofs, clearly intended as flood-resilient housing. The sequence visually establishes the damage first, followed by the new construction."
+    },
+    {
+        "question": "Which set of scenes links electricity infrastructure in the landscape, a major government building with national emblem, and later a bustling city street filled with national flags at dusk?",
+        "answer": "Vietnam’s power/infrastructure and governance context leading into everyday urban life with Vietnamese flags.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            42,
+            43,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows high-voltage power lines and towers—electricity infrastructure. Step 2: Slice 43 shows a prominent Vietnamese government building and national emblem. Step 3: Slice 46 shows a Vietnam city street at dusk with Vietnamese flags lining the street. Conclusion: Together they connect infrastructure and governance to daily urban life in Vietnam.",
+        "logic_check_reasoning": "Step 1: Slice 42 and the opening of Slice 43 depict electricity infrastructure (power lines, pylons) in the landscape. Step 2: Slice 43 explicitly shows a major Vietnamese government building with the national emblem and the inscription identifying Vietnam. Step 3: Slice 46 shows a bustling city street at dusk with multiple Vietnamese flags. Logic holds because the scenes sequentially link power infrastructure, governance (with national symbolism), and urban life with national flags in Vietnam, matching the proposed summary.",
+        "visual_proof": "Clip 1 shows high-voltage electricity pylons and substations, indicating power infrastructure. Clip 2 features a large government building with the national emblem of Vietnam (a red star on a gold gear and rice stalks) and banners in Vietnamese script, confirming it as a major state building. Clip 3 displays a city street at dusk with numerous Vietnamese flags (red with a yellow star) lining the road and fluttering above traffic, depicting urban life. The consistent presence of Vietnamese national symbols across all clips confirms the country context."
+    },
+    {
+        "question": "What sequence shows a formal diplomatic event about energy transition partnerships and then cuts to extractive industry visuals, suggesting the real-economy sectors affected?",
+        "answer": "A handshake/signing-style EU–Vietnam energy transition event followed by mining trucks and open-pit mine footage.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            51,
+            52,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows an official EU–Vietnam energy transition partnership event with flags and a handshake. Step 2: Slice 52 contrasts a podium speech with a mining dump truck in a rugged site. Step 3: Slice 53 shows an expansive open-pit mine with heavy machinery. Conclusion: The sequence links policy/diplomacy to mining as an affected sector.",
+        "logic_check_reasoning": "Step 1: Slice 51 shows a formal EU event with podiums and a screen explicitly referencing EU–Vietnam energy transition partnerships (RMP/ETP), and a handshake between key figures, fitting a diplomatic handshake-style moment. Step 2: Slice 52 starts with a formal speech about a partnership initiative and then cuts to a mining scene with a large dump truck in a rocky terrain, highlighting extractive industry visuals. Step 3: Slice 53 further depicts an aerial view of an open-pit mine with heavy machinery, reinforcing the extractive sector imagery. Logic holds because the sequence transitions from a formal energy partnership event (EU–Vietnam) to mining trucks and open-pit mine footage, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows a formal event with EU, Vietnam, and UK flags, featuring officials shaking hands at a podium labeled 'European Union side events' and '#EUATCOP28', referencing the 'Just Energy Transition Partnership (JETP) with Viet Nam'. Clip 2 features a Vietnamese official speaking at the same podium. Clips 2 and 3 then cut to visuals of large yellow mining trucks operating in a vast, terraced open-pit mine, directly illustrating extractive industry activity."
+    },
+    {
+        "question": "Which interviewee is visually linked to the drilling project achievement scene by sharing the same type of industrial drilling backdrop?",
+        "answer": "Prof. Alessandro Romagnoli.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows a drilling rig site celebrating a record drilling depth. Step 2: Slice 20 shows Prof. Alessandro Romagnoli interviewed outdoors with drilling machinery behind him. Conclusion: The drilling-backdrop interviewee is Prof. Alessandro Romagnoli.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes a construction site centered around a large yellow drilling rig and a banner celebrating a deep drilling project achievement. Step 2: Slice 20 shows an interview with Prof. Alessandro Romagnoli, where the background includes visible machinery and what appears to be a drilling rig or similar apparatus. Logic holds because both slices feature an industrial drilling backdrop, linking the interviewee to the drilling project scene.",
+        "visual_proof": "In Clip 2, Prof. Alessandro Romagnoli is standing outdoors in front of the same yellow industrial drilling rig and red banner seen in Clip 1. The background elements, including the specific machinery, the red banner congratulating the deep drilling project, and the surrounding environment, are identical in both clips, visually linking him directly to the project achievement scene."
+    },
+    {
+        "question": "Which two different ‘speaker-at-podium’ moments are shown—one being a national leader and the other in an energy-transition partnership setting—and what do they have in common visually?",
+        "answer": "A Vietnamese Prime Minister speech and a partnership-event speech; both show a suited speaker at a podium with microphones and a formal backdrop.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            52,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows the Vietnamese Prime Minister speaking at a podium with microphones. Step 2: Slice 52 shows a suited man addressing an audience from a podium in a partnership setting. Step 3: Slice 51 shows a formal EU–Vietnam energy transition partnership event with podiums and flags. Conclusion: Both moments share the visual pattern of a formal podium speech with microphones and official backdrops.",
+        "logic_check_reasoning": "Step 1: Slice 36 explicitly shows Pham Minh Chinh, the Vietnamese Prime Minister, delivering a speech behind a podium with microphones and a light blue backdrop—clearly a national leader speaking at a podium. Step 2: Slice 52 shows a man in a suit and tie standing behind a podium addressing an audience, with a large screen about a partnership initiative; Slice 51 further clarifies the partnership context as an EU–Vietnam energy transition event with podiums and an official backdrop. Step 3: Both moments share visual elements: a suited speaker at a podium, microphones present, and a formal screen/backdrop. The logic holds because Slice 36 covers the national leader podium moment, and Slices 52/51 together establish the energy-transition partnership podium setting.",
+        "visual_proof": "Clip 1 shows Pham Minh Chinh, identified by on-screen text as 'Vietnamese Prime Minister', speaking at a podium with a plain light-blue backdrop. Clip 2 shows the same individual, now in a different suit and tie, speaking at a blue podium with a screen behind him displaying 'Just Energy Transition Partnership (JETP) with Viet Nam'. In both clips, he is formally dressed in a suit, standing at a podium equipped with microphones, against a formal, professionally lit backdrop."
+    },
+    {
+        "question": "A climate-change discussion introduces aviation visuals and then returns to airport scenes. What are the two aviation visuals shown before the later airport close-ups of the airline’s planes?",
+        "answer": "An airplane taking off and multiple aircraft parked on the tarmac.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            4,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows an airplane taking off (active departure). Step 2: Slice 4 shows several airplanes parked on the tarmac (static ground state). Step 3: Slice 7 shows a Singapore Airlines plane at a terminal gate. Conclusion: The two earlier visuals are takeoff and parked aircraft on the tarmac.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a climate-change discussion that cuts to an airplane taking off from a runway. Step 2: Slice 4 shows multiple aircraft parked on the tarmac at an airport. Step 3: Slice 7 later shows close-up scenes of a Singapore Airlines plane at a gate. Therefore, the two aviation visuals before the later airport close-ups are the airplane taking off and the parked aircraft on the tarmac.",
+        "visual_proof": "Clip 1 shows a Singapore Airlines plane taking off. Clip 2 then shows multiple aircraft, including a Singapore Airlines plane, parked at gates and on the tarmac, with jet bridges and airport infrastructure visible in the background. These visuals directly precede the later close-up shots of planes on the ground shown in Clip 3."
+    },
+    {
+        "question": "Which female anchor is shown presenting from the newsroom about Singapore’s sea-level vulnerability and is also part of the three-way simulcast panel with a pearl necklace?",
+        "answer": "The woman in a white blouse wearing a pearl necklace (the central anchor).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            73,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 73 shows the simulcast panel with a central female anchor in a white blouse and pearl necklace. Step 2: Slice 74 shows a newsroom segment delivered by a female anchor in a white top with a pearl necklace about sea-level rise. Conclusion: It’s the same central anchor with the pearl necklace.",
+        "logic_check_reasoning": "Step 1: Slice 73 describes a three-way simulcast where the center frame shows a female anchor wearing a white blouse and a pearl necklace. Step 2: Slice 74 describes a newsroom segment on Singapore’s sea-level vulnerability presented by an anchor dressed in a white top with a pearl necklace. Step 3: The clothing and accessory details (white top/blouse and pearl necklace) match across both slices, indicating the same female anchor appears in both contexts. Therefore, identifying her as the central anchor in the simulcast wearing a white blouse and pearl necklace is supported.",
+        "visual_proof": "In Clip 1, the central panelist is a woman with short black hair, glasses, and a white ribbed top with a prominent pearl necklace. In Clip 2, the same woman is shown solo in the newsroom, presenting on Singapore's sea-level vulnerability, with the same attire and necklace clearly visible. This confirms she is the anchor featured in both contexts."
+    }
+]

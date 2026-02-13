@@ -1,0 +1,136 @@
+[
+    {
+        "question": "What is one clear change in the fish’s condition from when it is prepared on foil-lined trays to when it is finally revealed for serving?",
+        "answer": "It goes from raw stuffed fish on a tray to cooked, golden-brown stuffed fish after baking.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            54,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 54 shows raw fish arranged on a foil-lined tray and stuffed with vegetables. Step 2: Slice 62 shows foil being unwrapped to reveal cooked fish with a golden-brown color. Conclusion: The fish changes from raw-prepped to fully cooked.",
+        "logic_check_reasoning": "Step 1: Slice 54 describes fish that are fresh, gutted, stuffed with vegetables, and arranged on a foil-lined baking tray, indicating they are raw and prepared for cooking. Step 2: Slice 62 shows the fish being unwrapped from foil in a dish, appearing cooked with a golden-brown color, and explicitly notes they have been baked or grilled. Logic holds because the fish transition from raw/prepared to cooked/golden-brown for serving. The mention of baking in the answer aligns with the caption's baked-or-grilled indication, and the core change (raw to cooked) is explicitly supported.",
+        "visual_proof": "In Clip 1, the fish are visibly raw with translucent flesh and bright, uncooked vegetables inside. In Clip 2, after being uncovered from foil, the fish flesh is opaque and white, the skin has a golden-brown hue, and the stuffing appears softened and cooked, indicating they have been baked."
+    },
+    {
+        "question": "What indicates a change from preparation to eating in the fish storyline, based on what the hands are doing with utensils?",
+        "answer": "Hands shift from stuffing/arranging fish for cooking to using a fork and knife to cut and eat cooked fish on a plate.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            53,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 53 shows hands spooning vegetable mixture into fish cavities during preparation. Step 2: Slice 86 shows hands using fork and knife to cut into cooked fish while eating. Conclusion: Actions move from prep/stuffing to dining/cutting for consumption.",
+        "logic_check_reasoning": "Step 1: Slice 53 describes preparation where hands use a spoon to stuff a mixture into the fish, indicating cooking prep. Step 2: Slice 86 describes eating where hands use a fork and knife to cut into the cooked fish on a plate. Logic holds because the hands' actions and utensils shift from stuffing for cooking to cutting/eating the finished dish.",
+        "visual_proof": "In Clip 1, hands are shown using a spoon to stuff raw fish with a vegetable mixture. In Clip 2, a hand is using a fork to lift a piece of cooked fish from a plate, indicating the transition from preparation to consumption."
+    },
+    {
+        "question": "Two different animals are shown resting near the rustic cooking setting at different times—what are they, and how do their appearances differ?",
+        "answer": "A black-and-white puppy appears earlier, and later a mostly white dog with black patches around its eyes appears.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a black-and-white puppy lying in the grass. Step 2: Slice 59 shows a mostly white dog with black patches around its eyes resting. Conclusion: The video features two different dogs with distinct coloring patterns.",
+        "logic_check_reasoning": "Step 1: Slice 10 describes a black-and-white puppy lying in the grass, followed by a transition to an outdoor kitchen with a brick oven, establishing the rustic cooking setting. Step 2: Slice 59 describes a white dog with black patches around its eyes and ears lying on its side, then transitioning to a man near a stone structure with a glass door (consistent with a rustic outdoor setup). Logic holds because both slices present an animal resting and then cut to a rustic outdoor cooking-related setting. The two animals are described differently: one is a black-and-white puppy; the other is a mostly white dog with black patches around the eyes (and ears).",
+        "visual_proof": "In Video 1 (0:00-0:02), a puppy with distinct black-and-white markings is seen lying down. In Video 2 (0:00-0:03), a different, larger dog that is mostly white with black patches around its eyes and ears is shown sleeping in the grass. The visual evidence confirms two different animals with the described appearances."
+    },
+    {
+        "question": "The video first emphasizes poppies in a wide field and later focuses on a different insect-related rural activity; what is that later activity?",
+        "answer": "Beekeeping, shown by colorful beehives in the landscape.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a man walking through a vast red poppy field. Step 2: Slice 9 shows colorful beehives clustered in a green area. Conclusion: The focus shifts from poppy fields to beehives/beekeeping.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a wide field of red poppies with a man walking and inspecting trees, establishing the initial focus on poppies. Step 2: Slice 9 later shows colorful beehives with buzzing bees in a rural landscape, clearly indicating beekeeping activity. Logic holds because the later segment explicitly features beehives, which directly represent beekeeping as an insect-related rural activity.",
+        "visual_proof": "The first clip (0:00-0:10) shows a wide field of red poppies and a man inspecting a young tree. The second clip (0:00-0:03) transitions to a rural scene featuring several brightly colored beehives (yellow and blue) placed in a grassy area surrounded by trees and stone walls, clearly indicating beekeeping as the subsequent activity."
+    },
+    {
+        "question": "What later action directly follows the step where the cook stuffs fish with a mixture of chopped vegetables and herbs?",
+        "answer": "The stuffed fish are arranged on a tray and then wrapped in foil to be baked in the stone oven.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            52,
+            54,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 52 shows the fish being seasoned and stuffed with chopped vegetables. Step 2: Slice 54 shows multiple stuffed fish laid out on a foil-lined tray ready for cooking. Step 3: Slice 55 shows a fish being sealed in aluminum foil and placed into the stone oven. Conclusion: Stuffing leads to tray arrangement and then foil-wrapping/oven baking.",
+        "logic_check_reasoning": "Step 1: Slice 52 shows the cook stuffing the fish with chopped vegetables and herbs. Step 2: Slice 54 then shows those stuffed fish arranged on a baking tray lined with aluminum foil, indicating the immediate next action after stuffing. Step 3: Slice 55 shows a fish being wrapped in aluminum foil and placed into a stone oven, supporting the claim that the fish are wrapped in foil for oven cooking. The sequence in the proposed answer aligns with the progression shown across the slices.",
+        "visual_proof": "Clip 2 shows the fish, already stuffed with vegetables, neatly arranged on a large metal tray. Clip 3 immediately follows this by showing hands covering the same tray of fish with aluminum foil. The first frame of Clip 3 also shows a stone oven with glowing embers, indicating the next step is baking."
+    },
+    {
+        "question": "After the man catches fish with a net and puts them into a black bucket, what later food-prep step shows those fish being turned into cooking portions?",
+        "answer": "He later cuts a large yellow fish into smaller pieces on a cutting board.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a man using a net to catch fish and placing them into a bucket. Step 2: Slice 12 shows a man taking a large yellow fish and cutting it into smaller pieces for cooking. Conclusion: The catch is followed by portioning the fish for preparation.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a man catching fish with a net and placing them into a bucket. Step 2: Slice 12 shows a man later picking up a large yellow fish from a cutting board and cutting it into smaller pieces with a knife. Logic holds because the later scene clearly depicts the food-prep step of turning fish into cooking portions by cutting them into smaller pieces, matching the proposed answer.",
+        "visual_proof": "In Video 1, the man is seen catching fish with a net from a pond. In Video 2, the same man is shown cleaning and then cutting a large yellow fish on a wooden cutting board, which is a direct food-prep step turning the caught fish into cooking portions."
+    },
+    {
+        "question": "Which rustic brand/theme appears engraved on a wooden bowl during prep and later reappears as signage near the oven?",
+        "answer": "\"Wilderness Cooking.\"",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows a wooden bowl engraved with the words \"Wilderness Cooking.\" Step 2: Slice 57 shows a sign in the background that reads \"Wilderness Cooking.\" Conclusion: The same theme/branding appears in both prep and oven scenes.",
+        "logic_check_reasoning": "Step 1: Slice 23 states that the wooden bowl used during prep has the words \"Wilderness Cooking\" engraved on it. Step 2: Slice 57 states that a sign visible near the oven reads \"Wilderness Cooking.\" Logic holds because the same brand/theme text appears in both contexts—engraved on the bowl during prep and as signage near the oven.",
+        "visual_proof": "In Clip 1, a wooden bowl clearly shows the engraved logo and text 'WILDERNESS COOKING'. In Clip 2, an Instagram profile overlay with the handle '@WILDERNESS.COOKING' is visible near the oven, confirming the brand/theme."
+    },
+    {
+        "question": "Across the salad-making sequence, what is the order of adding ingredients that transforms plain chopped vegetables into a dressed salad?",
+        "answer": "Carrots and cucumbers are combined first, then peas are added and mixed, and then a creamy dressing is poured in and tossed.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            67,
+            68,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 67 shows carrots being grated into a bowl already containing chopped cucumbers. Step 2: Slice 68 shows peas being added and mixed in. Step 3: Slice 69 shows creamy dressing being poured over and tossed. Conclusion: The salad evolves from vegetables to mixed salad to dressed salad.",
+        "logic_check_reasoning": "Step 1: Slice 67 states carrots are grated and added to a bowl already filled with chopped cucumbers, showing carrots and cucumbers combined first. Step 2: Slice 68 shows green peas being added to the bowl containing shredded carrots and cucumber slices and mixed with a wooden spoon. Step 3: Slice 69 shows a creamy white dressing being poured over the vegetables and then tossed to coat them. The sequence logically progresses from combining carrots and cucumbers, to adding and mixing peas, to pouring and tossing the dressing.",
+        "visual_proof": "Clip 1 shows carrots being grated over chopped cucumbers. Clip 2 shows green peas being added to the bowl of carrots and cucumbers and then mixed together. Clip 3 shows a white creamy dressing being spooned onto the vegetable mixture and then tossed."
+    },
+    {
+        "question": "The video revisits beehives later after the cooking storyline develops—what nature shots frame the beehives in the earlier and later appearances?",
+        "answer": "Earlier the beehives are shown in a quiet green landscape; later they are paired with a sweeping mountain-and-river view.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows colorful beehives in a calm green area. Step 2: Slice 90 shows a row of beehives and then pans to mountains and a river. Conclusion: The beehives are framed first by greenery and later by a broader mountain-river panorama.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes the early appearance: colorful beehives situated in a lush, green landscape with trees, grass, and wildflowers, emphasizing calm and serenity. This supports 'earlier the beehives are shown in a quiet green landscape.' Step 2: Slice 90 shows beehives and then pans up to reveal a mountainous landscape with a river and rapids, clear sky—i.e., a sweeping mountain-and-river view. This supports 'later they are paired with a sweeping mountain-and-river view.' The logic holds because both slices clearly frame the beehives with distinct nature shots matching the proposed descriptions.",
+        "visual_proof": "In Video 1 (earlier appearance), the beehives are nestled in a lush, green, grassy field framed by trees and a stone wall, conveying a tranquil, enclosed setting. In Video 2 (later appearance), the same beehives are shown from a wider perspective, with a backdrop of dense forested hills and distant snow-capped mountains, followed by sweeping aerial shots of a rocky riverbed and valley, confirming the transition to a grander natural vista."
+    },
+    {
+        "question": "If you track the use of aluminum foil in the cooking process, what are the main steps from shaping it to loading it into an oven and later revealing the cooked result?",
+        "answer": "Foil is folded/shaped, then used to wrap the food and placed into the oven, and later it is unwrapped to reveal cooked fish.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            56,
+            57,
+            55,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 56 shows hands folding and shaping aluminum foil on a wooden surface. Step 2: Slice 57 shows a man wrapping something in foil and carrying it to the oven. Step 3: Slice 55 shows foil-wrapped fish being put into a hot stone oven. Step 4: Slice 62 shows foil being unwrapped to reveal cooked stuffed fish. Conclusion: The foil progresses from preparation to wrapping, baking, and unveiling the final dish.",
+        "logic_check_reasoning": "Step 1: Slice 56 shows hands carefully folding and shaping aluminum foil, establishing the initial preparation of foil. Step 2: Slice 55 explicitly shows fish placed on herbs in aluminum foil, edges folded to seal, and the foil-wrapped fish placed into a stone oven. Step 3: Slice 57 reinforces the action of wrapping something in foil and placing it into an outdoor oven, consistent with the cooking process. Step 4: Slice 62 shows the foil being unwrapped to reveal cooked fish, completing the sequence. The slices align logically despite minor description differences, clearly supporting the steps: shaping, wrapping, loading into the oven, and unwrapping to reveal cooked fish.",
+        "visual_proof": "Clip 1 and 2 show hands shaping and folding aluminum foil over a dish. Clip 2 and 5 show the man placing the foil-covered dish into a stone oven. Clip 4 shows the foil being peeled back to reveal cooked fish inside the dish."
+    }
+]

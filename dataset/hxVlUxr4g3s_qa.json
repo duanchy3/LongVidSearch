@@ -1,0 +1,123 @@
+[
+    {
+        "question": "What same fruit appears on the prep table early on and is later the focus of an outdoor cutting sequence into neat slices?",
+        "answer": "Watermelon.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows watermelons among ingredients in the outdoor kitchen. Step 2: Slice 79 shows a person cutting a large watermelon into even slices. Conclusion: The repeated fruit is the watermelon.",
+        "logic_check_reasoning": "Step 1: Slice 10 states that on the prep table there are various ingredients, including fruits like watermelons and pineapples, indicating watermelon is present early on. Step 2: Slice 79 describes an outdoor sequence where a person skillfully cuts a large watermelon into neat slices, making watermelon the focus. Logic holds because the fruit noted early (watermelon) is the same one later highlighted during slicing.",
+        "visual_proof": "In Video 1 (0:00-0:02), a whole watermelon is clearly visible on the wooden prep table next to the meat. In Video 2 (0:00-0:07), the same type of green-striped watermelon is shown being cut into neat slices on an outdoor wooden board, confirming it is the fruit that appears in both contexts."
+    },
+    {
+        "question": "Which animal is shown resting near the cooking/eating storyline and later is shown close-up chewing on a stick?",
+        "answer": "A black-and-white dog.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            86,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 86 shows a black-and-white dog lying on the grass relaxed. Step 2: Slice 88 shows a black-and-white dog chewing on a stick on the grass. Conclusion: The same type of animal is the black-and-white dog.",
+        "logic_check_reasoning": "Step 1: Slice 86 describes a black-and-white dog resting on a grassy lawn. Step 2: Slice 88 shows a close-up of a dog with a white coat and black patches chewing on a stick. Logic holds because both slices depict the same animal (a black-and-white dog) first resting and later chewing a stick, matching the query's description. The specific mention of a cooking/eating storyline does not affect the identification of the animal.",
+        "visual_proof": "In both clips, a dog with distinct black and white fur is visible. In Clip 1, the dog is lying on grass in a garden setting, appearing to rest while holding a stick. In Clip 2, a close-up shows the same dog actively chewing on the stick. The consistent markings and behavior confirm it’s the same black-and-white dog across both scenes."
+    },
+    {
+        "question": "What food is repeatedly highlighted as being served at gatherings: first cut into slices on a table for sharing, and later eaten by boys sitting around a table?",
+        "answer": "Watermelon.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            90,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 90 shows a group gathered as a man cuts a watermelon into pieces and distributes slices. Step 2: Slice 91 shows boys sitting at a table eating slices of watermelon. Conclusion: Watermelon is the shared food in the gathering scenes.",
+        "logic_check_reasoning": "Step 1: Slice 90 describes a gathering where a large watermelon is being cut into slices and distributed on plates at a table. Step 2: Slice 91 shows boys sitting around a table eating slices of watermelon. Logic holds because both slices explicitly mention watermelon being prepared and then eaten at tables in group settings.",
+        "visual_proof": "In the first clip, boys are seen gathering around a table with a large watermelon being cut into slices. In the second clip, the same boys are shown sitting at the table eating large slices of watermelon. The red flesh and green rind of the fruit are clearly visible in both clips, confirming it is watermelon."
+    },
+    {
+        "question": "What tool is subtly promoted on a phone screen while the man seasons raw meat, and later another phone screen appears while he slices cooked meat?",
+        "answer": "A smartphone showing promotional/search content (first for a Damascus chef knife; later another food-related app/search).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a smartphone overlay with a Google search for 'Damascus Chef Knife' while seasoning meat. Step 2: Slice 77 shows a smartphone displaying a food-related app/list while slicing cooked meat. Conclusion: A smartphone overlay/promo appears in both stages.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly states there are overlays of a smartphone screen showing a Google search and product page for a premium Damascus chef knife, indicating subtle promotion of that tool. Step 2: Slice 77 describes a smartphone displaying a food-related app with various cuts of meat while the person slices cooked meat. The proposed answer reflects both: it identifies the Damascus chef knife as the promoted tool and notes the later appearance of a food-related app on a phone screen.",
+        "visual_proof": "In Video 1, a phone screen is overlaid showing the 'homewild.shop' website with a search for 'Damascus Chef Knife' and an 'ADD TO CART' button. In Video 2, another phone screen overlay appears showing the same website but focused on different kitchenware items while the man slices cooked meat. The visual evidence confirms the subtle promotion of kitchen tools via smartphone overlays during both raw seasoning and cooked slicing phases."
+    },
+    {
+        "question": "What ingredient is crushed into a paste before the man later pours oil into a wok to start cooking?",
+        "answer": "Garlic.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows garlic being crushed with salt in a mortar. Step 2: Slice 31 shows the man starting cooking by pouring oil into a wok. Conclusion: The earlier crushed ingredient is garlic.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 explicitly shows a person using a mortar and pestle to crush garlic into a fine paste, then adding salt and continuing to grind. Step 2: Evidence Slice 31 shows a man later pouring oil into a wok to start cooking in a similar rustic outdoor kitchen setting. Logic holds because Slice 2 provides the ingredient (garlic) and the action (crushing into paste), and Slice 31 establishes the subsequent cooking step (pouring oil). The setting continuity supports the sequence without requiring exact identity matching.",
+        "visual_proof": "In the first clip, the man is shown placing whole garlic cloves into a wooden mortar and then using a pestle to crush them into a paste. This action occurs before the second clip, where he pours oil into a wok. The visual sequence clearly establishes that garlic is the ingredient crushed prior to adding oil."
+    },
+    {
+        "question": "Which animal is shown visiting flowers in the garden and later also appears inside yellow squash blossoms near the cooking scene?",
+        "answer": "A bee.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a bee flying around a pink flower in the garden. Step 2: Slice 31 shows a bee visiting yellow squash blossoms. Conclusion: The same type of animal is a bee.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states that a bee is seen flying around a pink flower in the garden, indicating the animal visiting garden flowers. Step 2: Evidence Slice 31 describes a transition from the cooking scene to yellow squash blossoms and explicitly mentions that a bee is seen visiting one of the blossoms, collecting nectar. Logic holds because the same animal (bee) is identified in both contexts: garden flowers and yellow squash blossoms near the cooking scene.",
+        "visual_proof": "In Clip 1, a bee is clearly visible on a pink zinnia flower at 0:05 and again at 0:10. In Clip 2, a similar insect, identifiable as a bee by its shape and behavior, is shown inside a yellow squash blossom at 0:09-0:10. The visual evidence across both clips confirms the presence of a bee in both locations."
+    },
+    {
+        "question": "After the fire is started in a pit, what later evidence shows the fire being actively controlled with water, and then a pot of rice dish continuing to cook afterward?",
+        "answer": "The smoldering pile is sprayed with a hose, and later the rice-and-vegetable pot continues cooking with added water.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            45,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows the man lighting dry branches in a pit, creating a fire. Step 2: Slice 45 shows a hose spraying water onto charred, smoldering material to control/extinguish heat. Step 3: Slice 40 shows the man cooking yellow rice and vegetables and adding water to the pot. Conclusion: The storyline includes starting a fire, later cooling/extinguishing embers with water, and continuing cooking activity with water added to a pot.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes a man starting a fire in a pit by lighting dry branches, establishing the initial fire. Step 2: Slice 45 shows a hose spraying water onto a smoldering, charred pile, indicating active control/extinguishing of the fire. Step 3: Slice 40 depicts a man cooking a pot of yellow rice and vegetables and adding water, showing the rice dish continuing to cook afterward. The proposed answer matches these later evidences: hose-sprayed smoldering pile and the rice-and-vegetable pot continuing to cook with added water.",
+        "visual_proof": "Clip 1 shows a fire being started in a pit. Clip 2 visually confirms the smoldering embers are being sprayed with water from a hose, indicating active control of the fire. Clip 3 then shows a man adding water to a large pot containing what appears to be a rice-and-vegetable dish (likely bulgur or couscous with peppers), which is being cooked on an outdoor stove, confirming the continuation of cooking after the fire was managed."
+    },
+    {
+        "question": "How does the produce flow from harvesting tomatoes to prepping vegetables at the table to finally adding tomatoes into the cooking pot?",
+        "answer": "Tomatoes are harvested into a basket, vegetables are chopped at the rustic table, and then chopped tomatoes are added into the pot while cooking.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            26,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows tomatoes being picked and placed into a basket. Step 2: Slice 26 shows a prep table with tomatoes/peppers/onions and active chopping. Step 3: Slice 37 shows chopped tomatoes being added into a pot and stirred. Conclusion: Harvest → prep/chop → cook/add tomatoes.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows tomatoes being picked and placed into a basket, confirming harvest into a basket. Step 2: Slice 26 shows vegetables being chopped at an outdoor wooden table in a rustic setup, confirming prepping at the table. Step 3: Slice 37 shows chopped tomatoes being added into a large pot while cooking, confirming the final step. The sequence logically connects harvesting, prepping, and cooking as described.",
+        "visual_proof": "Clip 1 shows hands picking tomatoes and placing them in a wicker basket. Clip 2 shows the same person chopping green peppers and other vegetables on a wooden table with the basket of harvested produce nearby. Clip 3 shows the person taking a tray of chopped tomatoes and adding them to a large pot already containing other chopped vegetables, confirming the flow from harvest to prep to cooking."
+    },
+    {
+        "question": "Track the progression of corn from being washed to being cooked with vegetables to being combined with rice in a larger pot dish.",
+        "answer": "Corn is washed, then sautéed with onions/peppers, and later the cooked base is combined into a larger rice-and-vegetable mixture.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            32,
+            34,
+            37,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows corn kernels being washed under running water. Step 2: Slice 34 shows corn kernels cooking in a wok with peppers and onions. Step 3: Slice 37 shows tomatoes being added into a pot with vegetables, building the base. Step 4: Slice 39 shows yellow rice being poured into the pot of vegetables, forming a large mixed dish that would include earlier cooked components like corn. Conclusion: Corn moves from washing to sautéing to being part of the final rice-based pot.",
+        "logic_check_reasoning": "Step 1: Slice 32 shows the man washing yellow corn kernels under flowing water, establishing the initial washing of corn. Step 2: Slice 34 shows the corn kernels being cooked with green bell peppers and onions in a wok, supporting that the corn is sautéed with vegetables. Step 3: Slice 37 shows a large pot that already contains vegetables and the addition of chopped tomatoes, indicating the vegetable base is being built in a larger pot. Step 4: Slice 39 shows a vegetable mixture in the large pot (tomatoes, bell peppers, onions, and other ingredients) and the addition of yellow rice to this pot, supporting that the cooked vegetable base is combined into a rice-and-vegetable mixture. The logic holds across slices: washed corn, cooked with vegetables, then the vegetable mixture is combined with rice in a larger pot.",
+        "visual_proof": "Clip 1 shows the man washing grains (which are later revealed to be corn) in a large metal bowl under a water spout. Clip 2 shows chopped green vegetables being added to a wok containing corn and onions, which are then stirred together. Clip 3 shows chopped tomatoes being added to the same wok with the corn and other vegetables. Clip 4 shows the cooked vegetable and corn mixture being stirred before the man adds the previously washed and cooked yellow grains (corn/rice) into the wok, combining everything into one large pot dish."
+    }
+]

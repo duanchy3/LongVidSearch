@@ -1,0 +1,126 @@
+[
+    {
+        "question": "When he reflects on trusting someone based on Instagram messages during a long ride, what kind of vehicle is he in, and later what type of street scene confirms they are meeting up in the city?",
+        "answer": "He is in a taxi/car during the long ride, and later a busy Istanbul street scene with coordinating subtitles confirms the meet-up.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows the inside of a moving car/taxi and text about an almost two-hour taxi ride and trusting people from Instagram DMs. Step 2: Slice 18 shows a bustling Istanbul intersection with subtitles coordinating arrival (“We’re here… I will come in 5 minutes”). Conclusion: The ride is a taxi/car and the later street meet-up is shown in a busy Istanbul street scene.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly states the scene is inside a moving car during a taxi ride and includes the on-screen text 'After an almost two hour taxi ride,' along with the reflection about trusting Instagram DMs. This supports that he is in a taxi/car during the long ride. Step 2: Slice 18 describes a bustling urban street scene in Istanbul with subtitles like 'We're here,' 'Is this it?,' 'Okay, I will come in 5 minutes,' and 'We'll see you then,' indicating coordination for a meet-up. Thus, it confirms a busy city street meet-up scene. The logic connects the reflection in the taxi to the later meet-up scene.",
+        "visual_proof": "Clip 1 shows the man inside a moving vehicle with city traffic visible outside, and the subtitle explicitly mentions 'After an almost two hour taxi ride.' Clip 2 shows a bustling urban street with cars, pedestrians, storefronts (including one with Turkish text 'ET BALIK MAGAZALARI'), and a sign for 'İSTANBUL BÜYÜKŞEHİR BELEDİYESİ,' confirming the location as Istanbul. The subtitles in Clip 2 ('We're here,' 'Is this it?') confirm they have arrived at their meeting destination."
+    },
+    {
+        "question": "What document does the traveler handle while preparing at home, and later what type of passport does he say he presented during the trip?",
+        "answer": "He handles a passport at home, and later he says he presented an American passport.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows him preparing for a trip and picking up a passport from his desk. Step 2: Slice 12 has him explaining travel logistics and explicitly mentioning presenting an American passport. Conclusion: The document is a passport, and the passport type referenced later is American.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the young man, while preparing at home, picks up a passport from his desk. Step 2: Slice 12 explicitly mentions he discussed presenting an American passport during the trip. Logic holds because both slices depict the same traveler preparing and then recounting his travel, and the details directly answer the question.",
+        "visual_proof": "In Clip 1 (0:13-0:14), a person is seen asking another, 'do you have your passport?' while they are preparing to leave the house, visually confirming a passport is being handled. In Clip 2 (0:05), the traveler explicitly states, 'They just look at our American passport,' directly identifying the type of passport he presented."
+    },
+    {
+        "question": "After arriving and discussing finding a cheap place to sleep and shower, what does the vlogger later say the rent costs for the apartment in local currency?",
+        "answer": "2300 Turkish Liras.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows them in an airport lounge saying they arrived in Istanbul and need a cheap hotel to sleep and shower. Step 2: Slice 25 shows a conversation in the apartment about the rent being 2300 Turkish Liras. Conclusion: After seeking a cheap place, the rent mentioned later is 2300 TRY.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows the vlogger arriving in Istanbul and discussing finding a cheap hotel to sleep and shower, establishing the initial context. Step 2: Slice 25 later shows a conversation in a living room where the rent for the apartment is explicitly stated to be 2300 Turkish Liras. Logic holds because the later scene provides the rent amount in local currency, matching the question's request.",
+        "visual_proof": "In Video 2, at timestamp 0:04, a subtitle explicitly states '2300 Turkish Liras' in response to the question about rent. This directly answers the question based on the visual information provided."
+    },
+    {
+        "question": "What unusual drink do they try at night, and earlier what warm drink-making process is shown in the kitchen?",
+        "answer": "They try a salty yogurt drink (like ayran), and earlier they make coffee using a stovetop espresso maker.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows coffee being prepared with a stovetop espresso maker on a gas stove. Step 2: Slice 30 shows them trying a yogurt-and-salt drink and reacting to its salty taste at night. Conclusion: The night drink is ayran-like yogurt drink; the earlier kitchen process is stovetop espresso coffee-making.",
+        "logic_check_reasoning": "Step 1: Slice 30 describes a night-time urban scene where individuals try a yogurt-based drink explained as yogurt and salt, with reactions to its salty taste, and it is possibly ayran. Step 2: Slice 40 shows a kitchen scene where someone prepares coffee using a stovetop espresso maker on a gas stove. Logic holds because the answer matches the described unusual salty yogurt drink at night and the earlier warm drink-making process in the kitchen as coffee via a stovetop espresso maker.",
+        "visual_proof": "Clip 1 shows a person making coffee in a stovetop pot (cezve/ibrik) on a gas stove. Clip 2 shows a person tasting a white, milky drink at night, with subtitles confirming it's 'yogurt and salt' and the person reacting to its saltiness, which is characteristic of ayran."
+    },
+    {
+        "question": "Once they settle into the shared home, what drink do they prepare in the kitchen, and later what do the group enjoy together around the table?",
+        "answer": "They prepare coffee (including stovetop coffee-making), and later the group enjoys Turkish coffee together around the table.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            40,
+            41,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows kitchen gestures with a cup and playful approval, setting up drink-making in the home. Step 2: Slice 40 shows coffee being made on a gas stove using a stovetop espresso maker. Step 3: Slice 41 shows four people around a table enjoying Turkish coffee, with cups and saucers visible. Conclusion: Coffee preparation in the kitchen leads to a shared Turkish coffee moment at the table.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows a person preparing coffee using a stovetop espresso maker in a kitchen, which supports that they prepare coffee in the kitchen. Step 2: Slice 41 shows a group of four people around a table enjoying Turkish coffee, which supports that later the group enjoys Turkish coffee together. Step 3: The proposed answer matches both supported details.",
+        "visual_proof": "In Clip 1, a woman is shown preparing coffee using a cezve on a gas stove. In Clip 2, the same woman serves the prepared coffee to a group of people sitting around a table, and the subtitle explicitly confirms they are drinking 'Turkish coffee'."
+    },
+    {
+        "question": "What evidence shows they coordinated meeting their host before entering a home, and what later details confirm they ended up staying in a modest shared apartment?",
+        "answer": "They coordinate arrival with subtitles like “We’re here” and “I will come in 5 minutes,” then later they enter a modest yellow-walled room and discuss rent and shared living arrangements.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            18,
+            22,
+            23,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows coordination subtitles about arriving and someone coming in 5 minutes. Step 2: Slice 22 shows a hand entering through a doorway into an indoor space. Step 3: Slice 23 shows a modest room with yellow walls and dialogue about moving in today and long-term residents. Step 4: Slice 25 shows the living room conversation about rent (2300 TRY) with luggage nearby. Conclusion: They coordinated a meet-up and then entered and stayed in a modest shared apartment.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows arrival coordination via subtitles: “We’re here,” “Is this it?,” “Okay, I will come in 5 minutes,” and “We’ll see you then,” indicating a planned meeting before entering a home. Step 2: Slice 22 depicts entry into a domestic space, reinforcing the transition from street coordination to a home setting. Step 3: Slice 23 shows a modest yellow-walled room and conversation about moving in “today,” mention of another resident (Rumeysa) living there for years, and calling it a “cheap one,” supporting a shared, modest apartment. Step 4: Slice 25 confirms shared living and modest conditions by discussing rent (2300 TL), economic pressures, and showing multiple people in the apartment, indicating they stayed in a shared space.",
+        "visual_proof": "Clip 1 shows them on the street with subtitles 'We're here' and 'Okay, I will come in 5 minutes,' indicating coordination. Clip 3 and 4 show them inside a modest room with yellow walls, discussing how long they've lived there, that it's a small flat, and the rent (2300 Turkish Liras), confirming shared living arrangements."
+    },
+    {
+        "question": "What two separate moments show the travelers’ reliance on phones for coordination, and how does the later phone use differ when it becomes about connecting with people remotely rather than navigating?",
+        "answer": "They use phones to coordinate travel/meet-ups and to message/trust people via Instagram; later, phone use shifts to video calls with friends/family.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            16,
+            18,
+            27,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 16 references Instagram DMs and decision-making during a long taxi ride. Step 2: Slice 18 shows coordination subtitles arranging a meet-up (“I will come in 5 minutes”). Step 3: Slice 27 shows a smartphone video call with a person wearing glasses. Step 4: Slice 43 shows a woman holding up a phone to show a video call and turning it to show others at the table. Conclusion: Phone use evolves from coordination and planning to remote social connection via video calls.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly references relying on Instagram DMs (“Did I really trust them enough based off two Instagram, DMS back and forth?”), showing phone-based coordination. Step 2: Slice 18 shows on-screen dialogue like “We’re here,” “I will come in 5 minutes,” indicating real-time coordination of a meetup via phone. Step 3: Slices 27 and 43 show video calls, shifting phone use from coordinating travel/meetups to connecting remotely with people (friends/family), which differs from navigation/logistics.",
+        "visual_proof": "Clip 2 shows the travelers arriving at a location and using their phones to confirm they are in the right place ('Is this it?'). Clip 4 clearly shows them engaging in a video call with friends or family (introducing themselves as 'Rumeysa' and 'Eray', greeting 'Deb'), indicating a shift from logistical coordination to personal connection."
+    },
+    {
+        "question": "What destination-related anxiety is expressed around flying, and later what safety-related research is shown on screen that reflects continued worry?",
+        "answer": "They express fear/reluctance about flying and missing flights, and later they search travel-safety advisories about Istanbul/Turkey (including COVID restrictions).",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows airport/train rushing, talk about not wanting to fly on the same flight, fear about flying, and missing a flight. Step 2: Slice 20 shows a Google search with suggested terms about travel safety in Istanbul and COVID restrictions. Step 3: Slice 21 shows official travel advisories and alarming news (Level 4 advisory, winds, protests, bans). Conclusion: The flying anxiety continues into later safety research about Istanbul/Turkey.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly shows airport and plane scenes with dialogue expressing reluctance/fear about flying and worry about missing the flight. Step 2: Slice 20 shows a Google search page with suggested queries about travel safety in Istanbul, including COVID-19 restrictions, indicating safety-related research. Step 3: Slice 21 shows the U.S. State Department Level 4 Turkey Travel Advisory and related news about risks in Turkey, further reflecting continued worry through safety research. The logic holds: initial flying anxiety and later on-screen safety research about Istanbul/Turkey.",
+        "visual_proof": "In Clip 1, the subtitles show anxiety about flying ('I don't even want to fly on the same flight with dad', 'I don't want to talk about this') and a visual of going to the wrong gate. In Clip 2, the screen shows a Google search for 'is it safe to travel to istanbul', leading to a U.S. State Department advisory page in Clip 3 that explicitly mentions 'Do not travel to Turkey due to COVID-19' and 'terrorism and arbitrary detentions'."
+    },
+    {
+        "question": "In the travel sequence, what hoodie text identifies one of the travelers on the plane, and later what bag is that traveler shown carrying at baggage claim?",
+        "answer": "The hoodie reads “An Optimistic Way of Living,” and later he is shown holding a purple bag at baggage claim.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            10,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a traveler in a black hoodie with the text “An Optimistic Way of Living” on the plane. Step 2: Slice 10 shows a man in a black hoodie at baggage claim holding a purple bag and wearing a backpack. Step 3: Slice 13 continues to feature the man in a black hoodie narrating their arrival and plans in Istanbul. Conclusion: The identifiable hoodie traveler later appears with a purple bag at baggage claim and continues narrating in the airport.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly states that one traveler on the plane is wearing a black hoodie with the text 'An Optimistic Way of Living.' Step 2: Slice 10 shows a man at baggage claim wearing a black hoodie and holding a purple bag in his left hand. Step 3: Within the travel sequence, it is reasonable to link the black-hoodie traveler from Slice 9 to the black-hoodie man in Slice 10, per instructions to handle VLM noise. Therefore, the hoodie text and the purple bag are both supported by the context.",
+        "visual_proof": "In Clip 1, the traveler's black hoodie clearly displays the text 'An Optimistic Way of Living' during the in-flight scenes. In Clip 2, after arriving in Istanbul, the same traveler is seen at what appears to be baggage claim or an airport terminal, holding a distinct purple bag while looking at his phone."
+    }
+]

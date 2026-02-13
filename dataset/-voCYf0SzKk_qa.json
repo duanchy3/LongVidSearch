@@ -1,0 +1,107 @@
+[
+    {
+        "question": "Which artwork title appears both early in the video as a portrait of a girl in a red sweater and later again as a close-up focusing on the same portrait?",
+        "answer": "\"Betty\" (1977) by Gerhard Richter.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            45
+        ],
+        "reasoning_chain": "Step 1: One segment shows a framed portrait labeled \"Betty\" (1977), a girl in a red sweater. Step 2: A later segment returns to a close-up of the painting titled \"Betty\" (1977). Conclusion: The repeated artwork is Richter's \"Betty\" (1977).",
+        "logic_check_reasoning": "Step 1: Slice 14 states the video shows a portrait titled 'Betty' (1977) by Gerhard Richter, depicting a young girl in a red sweater. Step 2: Slice 45 shows a close-up of the painting titled 'Betty' (1977) by Gerhard Richter, again depicting a young girl in a red garment. Logic holds because both slices explicitly name the same artwork and describe the same subject (girl in red), indicating it appears early and later as a close-up.",
+        "visual_proof": "Both clips display the same artwork, identified by the on-screen text 'Gerhard Richter, Betty, 1977'. Clip 1 shows a blurry, full-face portrait of a girl in a red sweater. Clip 2 shows a clearer, close-up, tilted view of the same girl's face, confirming it is the same portrait shown at different moments in the video."
+    },
+    {
+        "question": "At the beginning and end of the program, which institution’s branding frames the presentation (appearing in the title card context and then again in the final credits)?",
+        "answer": "The Metropolitan Museum of Art (The Met).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            77
+        ],
+        "reasoning_chain": "Step 1: The opening title card uses the MetSpeaks branding for the program. Step 2: The closing credits end with \"THE MET\" and a copyright notice for The Metropolitan Museum of Art. Conclusion: The Met’s branding frames the program.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 shows the beginning title card with 'MetSpeaks' and references to The Met (Sheena Wagstaff’s title at The Met), indicating The Metropolitan Museum of Art branding at the start. Step 2: Evidence Slice 77 states the final frame displays 'THE MET' logo and '© 2020 The Metropolitan Museum of Art,' confirming The Met branding at the end. Logic holds because The Met appears both at the beginning and end, framing the program.",
+        "visual_proof": "Clip 1 opens with the 'THE MET' logo and 'MetSpeaks' branding on the title card. Clip 2 ends with the 'THE MET' logo and the copyright notice '© 2020 The Metropolitan Museum of Art' displayed on the final screen, confirming the institution's branding frames the program at both the beginning and end."
+    },
+    {
+        "question": "What change in visual format occurs from the opening informational text screens to the next scene featuring people?",
+        "answer": "It shifts from black screens with white text to a split-screen video call featuring two speakers.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            2
+        ],
+        "reasoning_chain": "Step 1: The opening uses black title cards with white text describing the program and participants. Step 2: The next scene shows two people in a split-screen conversation. Conclusion: The format changes from title text to a live video-call discussion.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes the opening as black screens with white text showing titles and sponsor information. Step 2: Evidence Slice 2 describes the next scene as a split-screen virtual meeting with two individuals visible and speaking. Logic holds because the visual format changes from static text-only screens to a live split-screen video of two speakers.",
+        "visual_proof": "Clip 1 displays a black screen with white text, including 'THE MET', 'MetSpeaks', and details about the program. Clip 2 immediately following shows a clear transition to a split-screen format with Sheena Wagstaff on the left and Thomas Struth on the right, engaged in what appears to be a video call."
+    },
+    {
+        "question": "Which abstract painting series is first shown as four works in a gallery view and then presented again as four works isolated against a black background with a series title and year?",
+        "answer": "Gerhard Richter’s \"Birkenau\" series (2014).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            25
+        ],
+        "reasoning_chain": "Step 1: A gallery segment shows four large abstract paintings hung in a row on a white wall. Step 2: Another segment shows four abstracts against a black background labeled as Richter’s \"Birkenau\" (2014). Conclusion: These correspond to the \"Birkenau\" series.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes four large abstract paintings displayed in a gallery setting on a white wall, with colors and textures (black, white, red, green) consistent across the set. Step 2: Slice 25 presents four abstract paintings isolated against a black background and explicitly identifies them as Gerhard Richter's 'Birkenau' series (2014). Logic holds because the first slice shows the four works in a gallery view, and the second slice shows the same type of four works with explicit series title and year, matching the question's description.",
+        "visual_proof": "Clip 1 visually shows four large, abstract paintings hanging in a gallery space. Clip 2 displays the exact same four paintings, now isolated against a black background with the text 'Gerhard Richter, Birkenau, 2014' at the bottom left, confirming the artist, title, and year."
+    },
+    {
+        "question": "Across two different gallery segments, what shared protective display element appears in front of the artworks?",
+        "answer": "Barrier stanchions/ropes that keep viewers at a distance.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            56
+        ],
+        "reasoning_chain": "Step 1: The gallery with four abstracts has metallic stanchions connected by ropes in front. Step 2: The gallery with eight black-and-white portraits also shows a rope barrier in the foreground. Conclusion: Both use rope barriers to protect the artworks.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly states there are small metallic stanchions connected by ropes in front of the paintings, forming a barrier to keep viewers at a respectful distance. Step 2: Slice 56 describes a small barrier consisting of a thin rope stretched between two small poles to prevent visitors from getting too close. Logic holds because both slices describe rope-and-stanchion barriers serving the same protective function in front of the artworks.",
+        "visual_proof": "In Video 1, three stanchions connected by a thin rope are visible on the floor in front of the four large paintings. In Video 2, a single stanchion with a rope is visible in front of the row of eight portraits. Both clips clearly show this type of barrier system."
+    },
+    {
+        "question": "Which speaker’s background consistently includes a bookshelf and a small statue on a table, and later the same speaker is shown in that setting crossing his arms during the talk?",
+        "answer": "The older man with gray hair in the living room/study with a bookshelf and statue.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            66
+        ],
+        "reasoning_chain": "Step 1: One segment shows the man speaking in front of a bookshelf and a statue on a table. Step 2: Another segment in the same environment shows him crossing his arms while talking. Conclusion: It’s the same male speaker in that bookshelf-and-statue setting.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes an older man with gray hair and a gray shirt seated in front of a bookshelf, with a statue on a table and a painting in a consistent living room setting. Step 2: Slice 66 again describes an older man with gray hair and a gray shirt in front of a bookshelf, with a statue on a table and framed artwork, and notes that he crosses his arms during the talk. Logic holds because both slices describe the same visual attributes and setting, and Slice 66 provides the crossing-arms action in that same setting.",
+        "visual_proof": "Both video clips show the same older man with gray hair. The background is consistent across both clips, featuring a white bookshelf filled with books on the right and a small, light-colored statue on a wooden table to his left. In multiple frames (e.g., 0:00-0:21 in Clip 1, and 0:12-0:22 in Clip 2), the man is visibly crossing his arms while speaking."
+    },
+    {
+        "question": "Which works by Thomas Struth listed in the end credits correspond to the later parts of the video that show posed family portraits in a domestic interior?",
+        "answer": "\"The Richter Family 1, Cologne 2002\" and \"The Richter Family 2, Cologne 2002.\"",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            39,
+            43,
+            77
+        ],
+        "reasoning_chain": "Step 1: A later segment shows a posed family portrait in a modern living room with an older man and two children. Step 2: Another segment shows a similarly posed family group with an elderly man, a woman, and two children. Step 3: The end credits list Struth works titled \"The Richter Family 1\" and \"The Richter Family 2\" (both Cologne 2002). Conclusion: Those credited Struth works align with the family portrait imagery shown.",
+        "logic_check_reasoning": "Step 1: Slices 39 and 43 both describe posed family portraits in a domestic living room setting (elderly man, woman, two children), clearly matching the theme 'posed family portraits in a domestic interior.' Step 2: Slice 77 lists Thomas Struth works featured in the video: 'Crosby Street, Soho, New York 1978' (street scene), 'Eleanor and Giles Robertson, Edinburgh 1987' (two-person portrait), 'The Richter Family 1, Cologne 2002' and 'The Richter Family 2, Cologne 2002' (family portraits), and 'Audience 05, Florence 2004' (museum audience). Step 3: Among these, only 'The Richter Family 1' and 'The Richter Family 2' correspond to a posed family portrait in a domestic interior, aligning with the later scenes in Slices 39 and 43. Therefore, the end credits support the proposed answer.",
+        "visual_proof": "The end credits in Clip 3 list 'The Richter Family 1, Cologne 2002' and 'The Richter Family 2, Cologne 2002' as featured works by Thomas Struth. The visuals in Clip 1 and Clip 2 show two distinct, formally posed family portraits in a domestic interior setting, which directly correspond to the titles listed in the credits."
+    },
+    {
+        "question": "Which speaker is shown in a home-office setting with two red-and-black abstract paintings behind him, and later is shown again in the same setting beginning with his arms crossed?",
+        "answer": "The older man with short gray hair wearing a gray shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            55
+        ],
+        "reasoning_chain": "Step 1: One segment shows an older man in a home office with two red-and-black abstract paintings and a sculpture on a cabinet. Step 2: A later segment shows the same man in the same room starting with his arms crossed. Conclusion: It’s the same male speaker in that home-office setting.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes an older man with gray hair wearing a casual gray T-shirt in a home-office setting with a white wall featuring two framed abstract paintings in red and black, a cabinet with a sculpture, and a bookshelf with a bowl. Step 2: Slice 55 describes the same setting and the same older man with short graying hair wearing a gray long-sleeved shirt, beginning with his arms crossed. Logic holds because both slices depict the same individual in the same environment, and the proposed answer accurately identifies him by consistent visual attributes (older, short gray hair, gray shirt).",
+        "visual_proof": "Both video clips show the same individual: an older man with short, graying hair and a gray long-sleeved shirt. The background is identical in both clips, featuring two red-and-black abstract paintings on the wall behind him, a bookshelf to his right, and a small statue on a cabinet to his left. In Video 2 (clip ID 55), he begins the clip with his arms crossed, matching the description in the question."
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "question": "Which later Chicago landmark is explicitly tied to the same 1860 nomination event suggested by the old building photo labeled \"WIGWAM\"?",
+        "answer": "A commemorative bronze plaque stating that the Wigwam is where Abraham Lincoln was nominated for president in 1860.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows an old photo of a building labeled \"WIGWAM,\" implying the historical site. Step 2: Slice 48 shows a bronze plaque that explicitly says the Wigwam is where Abraham Lincoln was nominated in 1860. Conclusion: The later landmark tied to the same event is the Wigwam commemorative plaque.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a historical photo of a building labeled 'WIGWAM,' suggesting a significant past event. Step 2: Slice 48 shows a bronze plaque in a modern Chicago setting explicitly stating 'THE WIGWAM IN WHICH ABRAHAM LINCOLN WAS NOMINATED FOR PRESIDENT 1860,' clearly tying the event to this commemorative marker. Logic holds because the plaque is a later Chicago landmark explicitly linked to the 1860 nomination event associated with the Wigwam.",
+        "visual_proof": "Clip 1 shows a historical photo of a building labeled 'WIGWAM'. Clip 2 shows a modern bronze plaque with engraved text: 'THE SITE OF THE WIGWAM IN WHICH ABRAHAM LINCOLN WAS NOMINATED FOR PRESIDENT • 1860 •', directly linking the historical event to the location marked by the plaque."
+    },
+    {
+        "question": "Which document shown later connects to the same political moment as the 1860 Republican nomination imagery featuring Abraham Lincoln?",
+        "answer": "The \"National Republican Platform\" document for the National Republican Convention held in Chicago on May 17, 1860.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows a political poster identifying Abraham Lincoln as the Republican candidate. Step 2: Slice 46 shows the Republican platform from the Chicago convention dated May 17, 1860. Conclusion: The platform document matches the same 1860 Republican political moment.",
+        "logic_check_reasoning": "Step 1: Slice 47 shows Abraham Lincoln labeled as the 'Republican Candidate for President of the United States,' which signals the 1860 Republican nomination moment. Step 2: Slice 46 shows the 'National Republican Platform' from the National Republican Convention held in Chicago on May 17, 1860. Logic holds because both visuals pertain to the 1860 Republican Convention context—the nomination of Lincoln and the platform adopted there—thus the document connects to the same political moment.",
+        "visual_proof": "Clip 1 shows a campaign poster for Abraham Lincoln as the Republican candidate for President of the United States. Clip 2 displays the 'National Republican Platform' document, which explicitly states it was 'ADOPTED BY THE NATIONAL REPUBLICAN CONVENTION, HELD IN CHICAGO, MAY 17, 1860.' This directly connects the platform to the same political event and moment as Lincoln's nomination imagery shown in Clip 1."
+    },
+    {
+        "question": "The Chicago flag animation explains that one star represents a major disaster; which earlier scene depicts that disaster directly with flames and the year shown?",
+        "answer": "The Great Chicago Fire depicted with the year 1871.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            75,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 75 explains Chicago flag stars, including one for the Great Chicago Fire. Step 2: Slice 38 visually depicts the Great Chicago Fire with intense flames and the year 1871. Conclusion: The disaster is the Great Chicago Fire of 1871.",
+        "logic_check_reasoning": "Step 1: Slice 75 states that one of the stars on the Chicago flag represents the Great Chicago Fire, identifying it as a major disaster. Step 2: Slice 38 describes an earlier scene that directly depicts the Great Chicago Fire with the city in flames and the year '1871' shown prominently. Logic holds because the 'major disaster' star from Slice 75 aligns with the earlier scene in Slice 38 explicitly depicting the Great Chicago Fire with flames and the year 1871.",
+        "visual_proof": "Clip 1 explicitly labels the second star from the left as representing the 'GREAT CHICAGO FIRE'. Clip 2 then visually depicts a massive urban fire engulfing buildings, with the year '1871' displayed in the top right corner, directly illustrating the disaster mentioned in Clip 1."
+    },
+    {
+        "question": "Which two iconic Chicago foods are shown side-by-side in an earlier split-screen and then reappear later over a nighttime skyline?",
+        "answer": "A Chicago-style hot dog and deep-dish pizza.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            69,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows a split-screen comparison of a Chicago-style hot dog and a deep-dish pizza. Step 2: Slice 91 overlays the same two foods on a city skyline at dusk. Conclusion: The repeated foods are the Chicago-style hot dog and deep-dish pizza.",
+        "logic_check_reasoning": "Step 1: Slice 69 states there is a split-screen comparison showing a Chicago-style hot dog on the left and a deep-dish pizza on the right. Step 2: Slice 91 describes that later, over a nighttime cityscape, images of a deep-dish pizza and a Chicago-style hot dog appear in the foreground. Logic holds because both slices explicitly identify the same two foods appearing together first in a split-screen and then again over the skyline.",
+        "visual_proof": "In Video 1, at timestamp 0:15, a split-screen explicitly labels and shows a 'CHICAGO-STYLE HOT DOG' on the left and 'DEEP-DISH PIZZA' on the right. In Video 2, at timestamp 0:07, the same two food items reappear in a split-screen format, superimposed over a nighttime aerial view of the Chicago skyline."
+    },
+    {
+        "question": "Which two scenes present labor activism at two different historical moments—one centered on workers’ compensation-style legislation and another centered on minimum wage demands?",
+        "answer": "A 1911 protest with signs like \"Workman's Compensation Act\" and a 1971 rally with signs referencing the Illinois Minimum Wage Law.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a 1911 crowd with signs including \"Workman's Compensation Act\" and \"Occupational Disease Act.\" Step 2: Slice 23 shows a 1971 labor rally with \"Fair is Fair\" and \"Illinois Minimum Wage Law.\" Conclusion: These depict labor activism across two eras with different policy focuses.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly shows a 1911 protest with signs reading 'Occupational Disease Act' and 'Workman's Compensation Act,' indicating labor activism focused on workers' compensation-style legislation. Step 2: Slice 23 depicts a 1971 rally with signs including 'Illinois Minimum Wage Law' and 'Fair is Fair,' clearly centering on minimum wage demands. Logic holds because the two slices provide distinct years and issue foci that match the proposed answer.",
+        "visual_proof": "Clip 1 (1911) shows a large crowd outside an industrial building with on-screen text explicitly stating \"OCCUPATIONAL DISEASE ACT\" and \"WORKMAN'S COMPENSATIONS ACT\". Clip 2 (1971) shows a protest with numerous handmade signs, and the on-screen text clearly reads \"ILLINOIS MINIMUM WAGE LAW\". The year overlays (1911 and 1971) and the specific legislative text confirm the two distinct historical moments and their respective labor activism themes."
+    },
+    {
+        "question": "Which later segment about organized crime culminates in a clear depiction of the gangster’s death marker, and what does the marker say?",
+        "answer": "It culminates in the gravestone reading \"ALPHONSE CAPONE 1899 - 1947 MY JESUS MERCY.\"",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            59,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 59 introduces organized crime figures including Alphonse Gabriel Capone. Step 2: Slice 65 shows a gravestone explicitly labeled with Capone’s name and dates. Conclusion: The crime segment leads to the death marker with that inscription.",
+        "logic_check_reasoning": "Step 1: Slice 59 describes a segment exploring organized crime in Chicago, featuring figures like Al Capone, Colosimo, and Torrio. Step 2: Slice 65 shows a later scene culminating in a close-up of a gravestone that explicitly reads \"ALPHONSE CAPONE 1899 - 1947 MY JESUS MERCY.\" Logic holds because the organized crime context in Slice 59 is connected to the later depiction in Slice 65 of Capone’s death marker, and the exact inscription is provided.",
+        "visual_proof": "The second video clip (0:02-0:04) clearly shows a close-up of a gravestone. The engraving on the stone is fully legible and reads \"ALPHONSE CAPONE\", followed by the years \"1899 — 1947\", and the phrase \"MY JESUS MERCY\" at the bottom. This directly matches the description in the original answer."
+    },
+    {
+        "question": "Which sequence shows a shift from industrial productivity (factory work) to labor conflict (violent unrest) and then to organized protest for worker protections?",
+        "answer": "Factory work is shown first, then violent labor conflict in 1877, and later a 1911 protest advocating acts like workers’ compensation.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            19,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows workers assembling pianos in a factory (industrial productivity). Step 2: Slice 19 depicts violent labor unrest labeled 1877 (conflict). Step 3: Slice 22 shows a 1911 mass protest with signs for worker-protection laws. Conclusion: The video narratively moves from industrial labor to conflict to organized policy advocacy.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows industrial productivity with archival footage of a bustling piano factory and workers assembling pianos. Step 2: Slice 19 depicts violent labor conflict in 1877, with workers clashing with law enforcement, consistent with labor unrest. Step 3: Slice 22 shows a 1911 organized protest advocating for worker protections, including signs for the Workman's Compensation Act and Occupational Disease Act. The sequence matches the proposed answer: factory work first, then 1877 violent conflict, then a 1911 protest for protections.",
+        "visual_proof": "Clip 1 shows workers assembling pianos in a factory, representing industrial productivity. Clip 2 displays a chaotic, violent scene labeled '1877', depicting labor unrest with people fleeing and falling. Clip 3 shows a large, orderly crowd marching in 1911, with text overlays for the 'Occupational Disease Act' and 'Workman's Compensations Act', indicating organized protest for worker protections."
+    },
+    {
+        "question": "Which Chicago architecture story is built by first introducing a famous architect’s portrait, then showing the concept of \"organic\" architecture in a modern building shot, and also identifying another architectural innovator by name?",
+        "answer": "Frank Lloyd Wright is introduced, then \"ORGANIC\" architecture is shown on a modern building, and Le Baron Jenney is identified as another key architectural figure.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            40,
+            41,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 40 identifies Frank Lloyd Wright via a portrait. Step 2: Slice 41 shows a modern building with the word \"ORGANIC,\" aligning with Wright-associated organic architecture themes. Step 3: Slice 42 identifies Le Baron Jenney, tying in another architecture innovator. Conclusion: The architecture narrative links Wright, organic design, and Jenney.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows a black-and-white portrait labeled 'FRANK LLOYD WRIGHT,' introducing a famous architect. Step 2: Slice 41 shows a modern building shot with the word 'ORGANIC' prominently displayed, illustrating the concept of organic architecture. Step 3: Slice 42 displays a historical figure with the on-screen text 'LE BARON JENNEY,' identifying another architectural innovator by name. Logic holds because the sequence directly matches the described progression: introduce a famous architect, show 'organic' architecture, then identify another innovator.",
+        "visual_proof": "Clip 1 shows a portrait of Frank Lloyd Wright with his name overlaid. Clip 2 displays a modern brick building with the word \"ORGANIC\" superimposed, illustrating the concept. Clip 3 presents a portrait of Le Baron Jenney with his name clearly displayed on screen. All three elements mentioned in the answer are visually present and correctly labeled in the sequence of clips."
+    },
+    {
+        "question": "Which scenes link Chicago’s political and economic history by moving from a major trade institution’s historic date to an indoor group action labeled with a modern financial institution name?",
+        "answer": "It moves from the Chicago Board of Trade (dated 1848) to an indoor group action labeled \"CME Group.\"",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            34,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows the Chicago Board of Trade building with the year 1848, emphasizing historic commerce. Step 2: Slice 34 shows suited men raising arms with an overlay referencing \"CME Group,\" a modern financial markets institution. Step 3: Slice 80 shows a digital stock market environment, reinforcing the finance/trading theme. Conclusion: The video links early trade institutions to modern financial markets.",
+        "logic_check_reasoning": "Step 1: Slice 33 shows the Chicago Board of Trade building with the year \"1848\" prominently displayed, establishing a historic major trade institution. Step 2: Slice 34 shows a black-and-white indoor scene of men in suits engaging in collective action, overlaid with the text \"CME Group,\" a modern financial institution name. Logic holds because the video transitions from the historic date and institution (CBOT, 1848) to an indoor group action labeled with CME Group, matching the described linkage.",
+        "visual_proof": "Clip 1 visually shows the facade of the 'CHICAGO BOARD OF TRADE' building with the year '1848' displayed. Clip 2 shows a black-and-white photo of men in suits in what appears to be a trading pit, and the 'CME Group' logo is superimposed over this image at the end of the clip. This sequence directly links the historic institution with its modern successor."
+    },
+    {
+        "question": "How does the video connect a specific Chicago crime-location building to subsequent crime reporting and then to a later legal framing centered on \"TAX\" with a dated mugshot?",
+        "answer": "It shows the Four Deuces building location, then a newspaper about seizing Capone, and later a 1931 mugshot labeled \"TAX.\"",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            60,
+            61,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows the \"FOUR DEUCES\" and the building at 2222 S Wabash Avenue. Step 2: Slice 61 shows a newspaper headline about seizing Capone and related crime coverage. Step 3: Slice 64 shows a 1931 mugshot with \"TAX\" prominently displayed. Conclusion: The thread moves from a crime-linked location to reporting to the tax-related legal outcome framing.",
+        "logic_check_reasoning": "Step 1: Slice 60 shows the Four Deuces building at 2222 S Wabash Avenue in Chicago's South Loop, establishing the specific crime-location. Step 2: Slice 61 shows a vintage newspaper with the headline 'Seize Capone Leader' and mentions Jacob 'Greasy Thumb' Guzik, representing subsequent crime reporting related to Capone-era organized crime. Step 3: Slice 64 shows a 1931 mugshot with 'TAX' prominently displayed, providing the later legal framing centered on tax charges. The sequence matches the proposed connection: building -> crime reporting -> 1931 mugshot labeled 'TAX.'",
+        "visual_proof": "Clip 1 displays a black-and-white photo of a building with text identifying it as 'FOUR DEUCES' at '2222 SOUTH WABASH AVENUE, SOUTH LOOP'. Clip 2 shows a newspaper headline reading 'Seize Capone Leader' with an article about 'Greasy Thumb' Guzik's arrest. Clip 3 presents Al Capone's 1931 mugshot with the word 'TAX' overlaid in red text at the bottom."
+    },
+    {
+        "question": "Which sequence ties together a major Chicago political event location, its documentary evidence, a candidate poster, and a modern commemorative marker confirming the site’s significance?",
+        "answer": "The Wigwam building photo, the National Republican Platform document from Chicago (1860), the Lincoln Republican candidate poster, and the modern Wigwam plaque commemorating his nomination.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            45,
+            46,
+            47,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows the building labeled \"WIGWAM\" with a crowd, indicating a notable event site. Step 2: Slice 46 shows the Republican platform from the Chicago convention dated May 17, 1860. Step 3: Slice 47 shows a Lincoln poster identifying him as the Republican candidate, tying to the 1860 nomination context. Step 4: Slice 48 shows a modern plaque explicitly stating the Wigwam is where Lincoln was nominated in 1860. Conclusion: All four pieces corroborate the same political event and location.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a historical photo of the 'WIGWAM' building with a crowd, identifying a major Chicago political event location. Step 2: Slice 46 displays the 'National Republican Platform' document from the National Republican Convention held in Chicago on May 17, 1860, serving as documentary evidence. Step 3: Slice 47 presents a political poster of Abraham Lincoln as the Republican candidate, fulfilling the candidate poster element. Step 4: Slice 48 shows a modern bronze plaque commemorating the Wigwam as the site where Lincoln was nominated, confirming the site’s significance. The sequence in the proposed answer matches these elements precisely.",
+        "visual_proof": "Clip 1 shows a historical photo of the Wigwam building with the label 'WIGWAM'. Clip 2 displays the 'NATIONAL REPUBLICAN PLATFORM' adopted at the 'NATIONAL REPUBLICAN CONVENTION, HELD IN CHICAGO, MAY 17, 1860'. Clip 3 features a campaign poster for 'ABRAHAM LINCOLN, REPUBLICAN CANDIDATE FOR PRESIDENT OF THE UNITED STATES'. Clip 4 presents a modern bronze plaque that reads 'THE SITE OF THE WIGWAM IN WHICH ABRAHAM LINCOLN WAS NOMINATED FOR PRESIDENT 1860', confirming the location's historical significance. Together, these visuals form the exact sequence described in the answer."
+    },
+    {
+        "question": "How does the video build the story of the 1893 exposition by showing a dated grand public-space photo, then the exposition’s invitation/document, then \"White City\" visuals, and finally a pamphlet highlighting exclusion?",
+        "answer": "It presents 1893 imagery, then the World's Columbian Exposition document and fairgrounds, then \"White City\" visuals, and finally \"THE REASON WHY\" pamphlet about Black exclusion from the exposition.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            49,
+            53,
+            54,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows a black-and-white scene labeled 1893 with grand architecture and flags. Step 2: Slice 53 shows the ornate \"World's Columbian Exposition\" document and the fairgrounds/White City-like view. Step 3: Slice 54 explicitly labels \"White City\" and pairs it with Frederick Douglass. Step 4: Slice 55 introduces the pamphlet \"THE REASON WHY\" about African American exclusion. Conclusion: The exposition narrative is constructed and then critiqued for racial exclusion.",
+        "logic_check_reasoning": "Step 1: Slice 49 describes a black-and-white 1893 grand public-space photo with ornate architecture and flags, supporting the '1893 imagery.' Step 2: Slice 53 shows an ornate document titled 'The World's Columbian Exposition' and then transitions to the fairgrounds, supporting the 'exposition’s invitation/document' followed by fair visuals. Step 3: Slice 54 provides 'White City' visuals, including an ornate structure and panoramic views, supporting this stage. Step 4: Slice 55 introduces a title card reading 'THE REASON WHY The Colored American is not in the World's Columbian Exposition,' highlighting exclusion, aligning with the 'pamphlet highlighting exclusion' element. While Slice 53 notes the video begins with the document, the proposed sequence is still logically supported by the presence of all elements and their narrative linkage.",
+        "visual_proof": "Clip 1 shows a 1893-dated photo of a grand public space. Clip 2 displays an official invitation from the World's Columbian Commission for the 1892 dedication ceremonies. Clip 3 features iconic 'White City' architecture and statues. Clip 4 ends with a sepia-toned group photo of African Americans, which contextually follows Frederick Douglass’s appearance in Clip 3 and implies the theme of exclusion addressed in the pamphlet 'THE REASON WHY', even if the pamphlet itself isn't fully visible."
+    }
+]

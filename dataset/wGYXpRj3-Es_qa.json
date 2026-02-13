@@ -1,0 +1,111 @@
+[
+    {
+        "question": "How does the scene show the meal’s dessert/fruit component being prepared and then appearing on the communal table with the children?",
+        "answer": "A watermelon is cut into slices and later bowls/platters of watermelon slices are on the long table where the children eat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            80,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 80 shows watermelon being sliced and arranged on a table. Step 2: Slice 85 shows bowls of watermelon slices on the long table with children. Conclusion: The prepared watermelon becomes part of the communal meal.",
+        "logic_check_reasoning": "Step 1: Slice 80 describes a person skillfully slicing a large watermelon and arranging the slices, clearly showing the preparation of the fruit component. Step 2: Slice 85 shows a communal outdoor table with children seated, and explicitly mentions two bowls filled with slices of watermelon in the center of the table. Logic holds because the fruit is first prepared (Slice 80) and then appears on the communal table with the children (Slice 85), matching the proposed answer.",
+        "visual_proof": "In Clip 1, a man is shown cutting a watermelon into triangular slices on a wooden table. The final shot of Clip 1 shows two bowls filled with these sliced watermelons arranged in a flower pattern. In Clip 2, the same bowls of sliced watermelon are visibly placed on the long communal table around which the children are seated, confirming the dessert/fruit component's preparation and placement."
+    },
+    {
+        "question": "How does the video connect the fire-lit cooking station to the final served bean-and-meat dish?",
+        "answer": "A large pot is placed over a live fire to cook, and later the cooked bean-and-meat mixture is served onto plates/bowls.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            54,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 54 shows placing a large metal pot onto a fire pit to begin cooking. Step 2: Slice 83 shows the cooked beans-meat-vegetable mixture being scooped and served onto a wooden plate. Conclusion: Cooking over the fire leads to the served dish.",
+        "logic_check_reasoning": "Step 1: Slice 54 describes a man placing a large metal pot over a small live flame in a circular fire pit, implying cooking is underway. Step 2: Slice 83 shows a cooked bean-and-meat mixture being scooped from a pot and served onto a wooden plate in the same outdoor rustic setup. Logic holds because the video first establishes the fire-lit cooking station with a pot and later shows the resultant dish being served from a pot, connecting the cooking process to the final served meal.",
+        "visual_proof": "In Clip 1, a man places a large pot with a lid directly over an open flame on a stone cooking station. In Clip 2, the final dish — a steaming mixture of beans and meat — is shown being scooped from a pot and served into a wooden bowl, visually connecting the initial cooking action to the final presentation."
+    },
+    {
+        "question": "What item is carried across the grassy field early on and later ends up feeding the fire that is lit?",
+        "answer": "Logs/firewood.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a man carrying a large log and placing it down as part of fire preparation. Step 2: Slice 16 shows the man lighting a fire and adding wood to keep it burning. Conclusion: The carried logs/firewood become the fuel for the lit fire.",
+        "logic_check_reasoning": "Step 1: Slice 1 states a man in a black shirt and jeans carries a large log across a grassy field and places it down, then builds a fire pit around it. Step 2: Slice 16 shows the same man lighting a fire and adding wood/firewood to keep it burning. Logic holds because the carried item early on is a log (firewood), and later wood/firewood is used to feed the fire, matching the description of the item carried and its later use.",
+        "visual_proof": "In Clip 1, the man is seen carrying a bundle of logs across the grassy field. Later in Clip 2, he places these same logs into the stone fire pit and lights them, confirming they are used to feed the fire."
+    },
+    {
+        "question": "What seasoning step happens after the meat is cut into pieces and before the meat is rubbed with red pepper flakes?",
+        "answer": "Salt is sprinkled on the meat.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the man sprinkling salt over the meat. Step 2: Slice 11 shows red pepper flakes added and then rubbed into the meat. Conclusion: Salting occurs before rubbing in red pepper flakes.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows several pieces of raw meat (indicating it has been cut) and explicitly states the man sprinkles salt over the meat. Step 2: Slice 11 shows the man then seasons with red pepper flakes and rubs the seasoning into the meat. Logic holds because the salt sprinkling occurs after the meat is in pieces and before the rubbing of red pepper flakes.",
+        "visual_proof": "In Video 1 (0:00-0:05), the man is seen picking up a small wooden bowl and sprinkling its contents, which appear to be salt crystals, onto the sliced meat. This action occurs after the meat has been cut into pieces. In Video 2 (0:00-0:01), a close-up shows red pepper flakes being sprinkled onto the meat, which happens after the salt has already been applied. The sequence of actions visually confirms that salting occurs between cutting and adding red pepper flakes."
+    },
+    {
+        "question": "What liquid preparation made from foraged berries is heated over a fire and then served as a hot drink?",
+        "answer": "Berry-infused tea (a hot berry drink heated in a teapot/kettle).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            26,
+            28,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows the man picking red berries. Step 2: Slice 28 shows berries placed into a teapot and the teapot set over embers. Step 3: Slice 29 shows hot liquid poured into a glass and stirred, like tea. Conclusion: Foraged berries are used to make and serve a hot berry tea.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows a man reaching up and picking/examining red berries in a forest, suggesting foraging. Step 2: Slice 28 shows a red berry being placed into a teapot, which is then set over a campfire to heat, explicitly implying steeping the berry to prepare a hot beverage. Step 3: Slice 29 shows the man pouring hot liquid from a kettle into a glass and stirring it, with steam visible, and the description identifies it as tea. The logic holds: foraged berries are infused in a teapot, heated over fire, and served as a hot drink, which matches 'berry-infused tea.'",
+        "visual_proof": "The video visually documents the entire process: the man forages red berries from a bush (Clip 1), places them into a black cast iron teapot (Clip 2), heats the pot directly on a campfire (Clip 2), and finally pours the resulting amber-colored liquid into a glass cup to serve as a hot drink (Clip 3)."
+    },
+    {
+        "question": "How does the video show the transition from daylight smoking/drying of meat to nighttime tending of the same cooking setup?",
+        "answer": "Meat is shown hanging and smoking near a fire in daylight, then later the man checks and tends the hanging meat by the fire at night.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            31,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows hanging meat with a fire burning and smoke rising in a daytime rustic setting. Step 2: Slice 31 again shows hanging meat and nearby smoke/fire with the wilderness theme in daylight. Step 3: Slice 32 shows the man at night by a fire pit with raw meat hanging above it, inspecting/adjusting it. Conclusion: The smoking/drying setup continues into night when he tends it.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows meat hanging from a tree branch with a fire burning nearby in a rustic outdoor setting with mountains visible, implying daytime conditions. Step 2: Slice 31 again shows meat strips hanging in a forested area with smoke and a panoramic mountain view under an overcast sky, reinforcing a daytime smoking/drying setup. Step 3: Slice 32 explicitly states it is nighttime; a man exits a cabin and goes to a fire pit where meat is hanging from branches, and he inspects/adjusts the meat, i.e., tending the same type of setup. Logic holds because the earlier slices depict daytime smoking/drying of hanging meat near a fire, and later slice shows nighttime tending of hanging meat by the fire, consistent with the proposed transition.",
+        "visual_proof": "Clip 1 and Clip 2 show meat hanging under a coniferous shelter with smoke rising from a fire during daylight hours, with a clear view of mountains and trees. Clip 3 transitions to nighttime; a man exits a wooden cabin, walks to the same setup, kneels by the fire pit, and inspects the hanging meat, confirming he is tending to it after dark."
+    },
+    {
+        "question": "How do the berry-foraging scenes connect to the later kettle-and-cup drinking scene, and what cooking heat source makes it possible?",
+        "answer": "Berries are collected and infused/heated in a teapot on embers, then a hot drink is poured and sipped; the campfire provides the heat.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            26,
+            28,
+            29,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows picking red berries. Step 2: Slice 28 shows placing berries into a teapot and setting it over glowing embers/fire. Step 3: Slice 29 shows hot tea-like liquid poured into a glass and stirred. Step 4: Slice 30 shows the man sipping from a cup near the outdoor setup. Conclusion: Berry foraging + heating on fire leads to a hot drink served and consumed.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows the man reaching for and picking red berries, indicating foraging. Step 2: Slice 28 explicitly shows a red berry being placed into a teapot and the teapot being set over the glowing embers of a campfire to steep, connecting the berries to a beverage preparation. Step 3: Slice 29 shows hot liquid being poured from a kettle into a glass and stirred, with steam visible, and Slice 30 shows the man sipping a hot beverage after heating a pot/kettle over a fire. Logic holds because the foraged berries are used to infuse the drink in the teapot, which is heated by the campfire embers, leading to the later scene of pouring and sipping the hot drink. Vessel naming differences (teapot/kettle) are acceptable VLM variance.",
+        "visual_proof": "Clip 1 shows the man foraging red berries. Clip 2 shows him placing these berries into a black kettle, which is then placed directly onto glowing embers of a campfire. Clip 3 shows him pouring the resulting amber-colored liquid from that same kettle into a glass cup. Clip 4 shows him drinking from that cup. The visual sequence explicitly connects the foraged berries to the heated beverage via the kettle and the campfire embers."
+    },
+    {
+        "question": "How does the structure built from branches and leaves evolve from a simple shelter-like build to being actively used in the meat-smoking process?",
+        "answer": "It is constructed from branches/leaves and later adjusted/covered with more foliage to control smoke while meat hangs above the fire.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows the man placing branches into a triangular structure like a shelter frame. Step 2: Slice 20 shows him adjusting the smoking structure by adding branches and foliage around hanging meat over fire. Step 3: Slice 21 shows him arranging sticks and leaves on top of rocks as part of that structure. Conclusion: The branch shelter evolves into an actively managed smoke-control setup.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows the man building a simple triangular structure from branches/logs, which resembles a shelter-like build. Step 2: Slice 21 shows the man arranging branches and foliage, reinforcing the idea of a structure made from natural materials that could be related to a campfire or shelter. Step 3: Slice 20 explicitly shows a makeshift wooden structure made from branches used to hang meat over a fire, and the man later adds more branches and foliage to enhance the smoking process, possibly to increase smoke or create a controlled environment. Logic holds because the context demonstrates a transition from a basic branch/foliage structure to its active use in smoking meat, including adjustments with foliage to control smoke while meat hangs above the fire.",
+        "visual_proof": "Clip 1 shows the man building a tripod structure from branches. Clip 2 shows him hanging raw meat on a crossbar of this structure over a fire pit, establishing its use for smoking. Clip 3 visually confirms the evolution: he gathers large amounts of green foliage and drapes it over the top and sides of the tripod, effectively enclosing the meat and fire to trap and direct smoke, which is the key step in the smoking process."
+    }
+]

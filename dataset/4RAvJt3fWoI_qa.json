@@ -1,0 +1,137 @@
+[
+    {
+        "question": "Early on, the presenter introduces a concept that combines chatbots with something else to form an assistant. Later, he switches to an API-focused section with a numbered slide. What phrase is used in the early concept, and what is the title of the later numbered section?",
+        "answer": "The early phrase is \"Chatbot + Tools = Assistant,\" and the later numbered section is titled \"2) Assistants API.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the on-screen phrase \"Chatbot + Tools = Assistant.\" Step 2: Slice 14 shows the transition slide reading \"2) Assistants API.\" Conclusion: The early concept phrase and the later section title are those two texts.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly states the on-screen text overlay reads 'Chatbot + Tools = Assistant,' which matches the early concept phrase. Step 2: Slice 14 notes a transition slide displaying '2) Assistants API,' which matches the title of the later numbered section. Logic holds because both phrases are directly quoted in the provided slices.",
+        "visual_proof": "Clip 1 clearly displays the text \"Chatbot + Tools = Assistant\" on screen during the presenter's introduction. Clip 2, at its final frame, shows a large, centered slide with the exact text \"2) Assistants API,\" confirming the title of the later numbered section."
+    },
+    {
+        "question": "In one segment, the assistant settings are shown using one GPT-4 variant. In a later live-coding segment, a different GPT-4 preview model is used when creating the assistant in code. Which model names are shown in each segment?",
+        "answer": "The playground segment shows \"gpt-4-turbo-preview,\" and the later code creation uses \"gpt-4-0125-preview.\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 19 lists the model as \"gpt-4-turbo-preview\" in the Assistants playground configuration. Step 2: Slice 26 shows code creating an assistant with model \"gpt-4-0125-preview.\" Conclusion: The model changes between the two segments.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 19 explicitly states that the model in the playground assistant settings is \"gpt-4-turbo-preview.\" Step 2: Evidence Slice 26 explicitly states that the code segment uses the model parameter \"gpt-4-0125-preview\" when creating the assistant. The proposed answer matches both explicitly stated model names for each segment.",
+        "visual_proof": "In Video 1, the 'Model' field in the Playground UI clearly displays 'gpt-4-turbo-preview'. In Video 2, the Python code cell explicitly sets the model parameter to 'gpt-4-0125-preview' within the client.beta.assistants.create() function call."
+    },
+    {
+        "question": "The presenter is shown on a landing page encouraging enrollment, and later he is shown responding to audience feedback in a comments interface. What is the call-to-action text on the landing page and what kind of viewer interface is shown later?",
+        "answer": "The call-to-action is \"Enroll Today,\" and later a YouTube comments section/interface is shown.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the \"AI Lemon Academy\" page with a button labeled \"Enroll Today.\" Step 2: Slice 45 shows a YouTube comments section being reviewed/responded to. Conclusion: The CTA and later interface type are identified across time.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12 explicitly states that the landing page for 'AI Lemon Academy' has a call-to-action button labeled 'Enroll Today.' Step 2: Evidence Slice 45 describes a screen recording of a YouTube comments section with the presenter responding to comments, indicating a YouTube comments interface. Logic holds because the first slice confirms the CTA text, and the second slice confirms the type of viewer interface shown later.",
+        "visual_proof": "In Video 1, the landing page for \"AI Lemon Academy\" clearly displays a prominent blue button with the text \"Enroll Today\". In Video 2, the screen shows a spreadsheet-like interface with two columns labeled \"Comment\" and \"Response\", which is explicitly titled \"YT-comments\" at the top, indicating it is a representation or export of YouTube comments."
+    },
+    {
+        "question": "A fine-tuning job is shown as successful in a web UI. Earlier, the presenter shows code that creates the fine-tuning job using training and validation files. What is the job outcome shown in the UI, and what base model is used in the earlier code to create the job?",
+        "answer": "The job is shown as successful, and the base model used in the code is gpt-3.5-turbo.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            67,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows code creating a fine-tuning job with base model \"gpt-3.5-turbo.\" Step 2: Slice 67 shows the fine-tuning job marked \"Successful\" in the UI. Conclusion: The coded job results in a successful outcome, and the base model is gpt-3.5-turbo.",
+        "logic_check_reasoning": "Step 1: Slice 67 explicitly states the fine-tuning job in the web UI is marked as 'Successful' with a green check on validation loss. Step 2: Slice 66 describes code that creates the fine-tuning job using training and validation files and specifies the base model chosen as 'gpt-3.5-turbo.' Logic holds because the question asks for the job outcome shown in the UI and the base model used in the earlier code; both details are directly supported by the slices.",
+        "visual_proof": "In Video 1 (0:14), the UI clearly displays a fine-tuning job with the status 'Succeeded'. In Video 2 (0:28), the Python code cell for creating the fine-tuning job explicitly sets the parameter `model = \"gpt-3.5-turbo\"`."
+    },
+    {
+        "question": "A section of the tutorial shows uploading training and validation files for fine-tuning, and later a GitHub example file is shown containing JSONL formatted chat messages. What file format is used for fine-tuning uploads, and what is the name of the example JSONL file shown on GitHub?",
+        "answer": "The format is JSONL, and the GitHub example file is named \"toy_chat_fine_tuning.jsonl.\"",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            66,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows creating training/validation files for fine-tuning using JSONL. Step 2: Slice 60 shows a GitHub file named \"toy_chat_fine_tuning.jsonl\" displayed as JSON lines. Conclusion: Fine-tuning uses JSONL, exemplified by that GitHub JSONL file.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 66 explicitly states that the training and validation files uploaded for fine-tuning are in JSONL format. Step 2: Evidence Slice 60 shows a GitHub file named 'toy_chat_fine_tuning.jsonl' containing JSONL-formatted chat messages. Logic holds because the question asks for the file format used during uploads (JSONL per Slice 66) and the name of the example JSONL file on GitHub (toy_chat_fine_tuning.jsonl per Slice 60).",
+        "visual_proof": "In Video 1, the code shows files being opened with names like 'training-data.jsonl' and 'validation-data.jsonl', indicating the JSONL format. In Video 2, the GitHub interface clearly displays the file path 'openai-cookbook/examples/data/toy_chat_fine_tuning.jsonl', confirming the exact name of the example file."
+    },
+    {
+        "question": "Across the video, the presenter keeps a consistent physical setup while the content shifts from talking-head explanations to documentation pages and coding notebooks. What consistent physical elements identify the presenter’s setting, and what are the three main content modes he cycles through?",
+        "answer": "Consistent setting elements include a cap, microphone, and guitars in the background; the content modes are talking-head explanation, documentation/web pages, and coding in Jupyter notebooks.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            41,
+            22,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the presenter with a microphone and guitars behind him. Step 2: Slice 41 shows documentation pages while the guitar remains part of the setting cue. Step 3: Slice 22 shows Jupyter notebook coding with the presenter visible. Step 4: Slice 69 returns to a clearer talking-head studio view with guitars and microphone. Conclusion: The physical cues remain consistent while content cycles through talking-head, docs, and notebooks.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 shows a talking-head setup with a man wearing a cap, speaking into a professional microphone, with multiple guitars visible in the background—establishing the consistent physical elements (cap, microphone, guitars). Step 2: Evidence Slice 69 similarly depicts the man in front of a microphone, wearing a black cap, with guitars mounted on the wall—reinforcing consistency of the setting. Step 3: Evidence Slice 41 shows a screen recording focused on documentation pages (Code Interpreter and Knowledge Retrieval), with a background glimpse of a guitar—supporting the documentation/web page content mode while maintaining the setting’s visual cues. Step 4: Evidence Slice 22 shows coding in a Jupyter notebook—supporting the coding/notebook content mode, with the presenter partially visible, consistent with the same environment. Logic holds because the slices collectively demonstrate the three content modes (talking-head, documentation pages, coding in Jupyter) and repeatedly reference the same environment elements (cap, microphone, guitars).",
+        "visual_proof": "In clips 1 and 4, the presenter is shown in a consistent physical setup: he wears a black cap, speaks into a large microphone on a boom arm, and has multiple guitars (acoustic and electric) mounted on the wall behind him. In clip 2, the main screen displays OpenAI's API documentation web page, representing the 'documentation' mode. In clip 3, the main screen shows a Jupyter notebook with Python code, representing the 'coding' mode. The presenter himself appears in a small window during these segments, confirming the same person is cycling through these content types."
+    },
+    {
+        "question": "At one point the presenter demonstrates an assistant prompt to write a tagline for a business. Much later, he demonstrates using a fine-tuned model by testing it on a gratitude-style comment. What is the business in the tagline prompt, and what is the gratitude comment used later?",
+        "answer": "The business is an ice cream shop, and the later gratitude comment is \"Great content, thank you!\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows the prompt \"Write a tagline for an ice cream shop.\" Step 2: Slice 68 shows testing the fine-tuned model with the comment \"Great content, thank you!\" Conclusion: These are the two referenced user prompts.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 15 explicitly states that the user types a prompt instructing the AI to 'Write a tagline for an ice cream shop,' confirming the business is an ice cream shop. Step 2: Evidence Slice 68 lists test comments for the fine-tuned model, including 'Great content, thank you,' which is a gratitude-style comment. Logic holds because both elements directly match the proposed answer.",
+        "visual_proof": "In Clip 1 (0:04), the text input box in the Playground clearly shows the prompt: 'Write a tagline for an ice cream shop.' In Clip 2 (0:00-0:01), the Python code cell defines a variable 'test_comment' with the string value '\"Great content, thank you!\"'. This directly confirms both pieces of information."
+    },
+    {
+        "question": "A custom GPT is first finalized with a specific name. Later, in the Assistants playground, that name is edited by adding a suffix. What was the original name and what did it get changed to?",
+        "answer": "It was originally \"ShawGPT\" and it was changed to \"ShawGPT-pg.\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 8 states the user finalizes the configuration of the AI model named \"ShawGPT.\" Step 2: Slice 19 shows the Name field edited from \"ShawGPT\" to \"ShawGPT-pg.\" Conclusion: Original and modified names are ShawGPT → ShawGPT-pg.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 8 states the custom GPT is finalized with the name \"ShawGPT.\" Step 2: Evidence Slice 19 shows in the Assistants playground the Name field initially contains \"ShawGPT\" and is later edited to \"ShawGPT-pg.\" Logic holds because the original finalized name matches Slice 8, and the subsequent edit with a suffix in the playground matches Slice 19.",
+        "visual_proof": "In Video 1, at 01:48, the 'Name' field for the custom GPT is clearly visible as 'ShawGPT'. In Video 2, at 00:00, the same 'Name' field in the Playground interface shows the text 'ShawGPT-pg', indicating the name was edited by adding the '-pg' suffix."
+    },
+    {
+        "question": "A few-shot prompting section shows example praise comments and short acknowledgments. Later, a live API thread example uses a gratitude message as the user input, and later still a fine-tuned model is tested on a similar gratitude comment. What gratitude/praise-style message appears in all these stages as an example input?",
+        "answer": "\"Great content, thank you!\"",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            27,
+            34,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows the user message \"Great content, thank you!\" being added to a thread. Step 2: Slice 34 notes placeholders like \"Great content, thank you!\" used to test the API flow. Step 3: Slice 68 uses \"Great content, thank you\" as a test for the fine-tuned model. Conclusion: The same gratitude input is reused across stages.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly states the code generates a user message \"Great content, thank you!\" and adds it to the thread (live API thread example). Step 2: Slice 34 says placeholders for user input include \"Great content, thank you!\", confirming its use in the API interaction tutorial. Step 3: Slice 68 notes one fine-tuned model test comment is \"Great content, thank you,\" showing the same gratitude/praise message used during fine-tuning tests. Despite minor punctuation differences, the message content is identical across all stages.",
+        "visual_proof": "The exact phrase 'Great content, thank you!' is visibly typed as the user_message variable in multiple code cells across all three clips. In Clip 1 (0:05), it's assigned to `user_message`. In Clip 2 (0:02), it's used again in a new thread. In Clip 3 (0:00), it's set as `test_comment` for the fine-tuned model. This consistent visual evidence confirms it is the recurring example input."
+    },
+    {
+        "question": "Track the presenter’s on-screen identity cues across the video: first a lower-third reveals his name, later a GPT is named after him, and later a PDF is attributed to the same person. What name ties these together, and where do the three cues appear?",
+        "answer": "The name is Shaw Talebi: it appears in the lower-third, in the GPT name \"ShawGPT,\" and as the author on the PDF about quantifying fat tails with Python.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            8,
+            35,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a lower-third with the name \"Shaw Talebi.\" Step 2: Slice 8 shows a custom GPT named \"ShawGPT.\" Step 3: Slice 35 mentions uploading/using a PDF titled about quantifying fat tails with Python. Step 4: Slice 36 explicitly references the PDF \"Articulated Ways to Quantify Fat Tails with Python\" by Shaw Talebi. Conclusion: The same name connects identity, GPT branding, and document authorship.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly states a lower-third appears with the name “Shaw Talebi,” establishing the presenter’s identity. Step 2: Slice 8 shows the user creating a custom AI model named “ShawGPT,” which is clearly named after the presenter’s first name, tying back to “Shaw Talebi.” Step 3: Slice 36 specifies a PDF titled “Articulated Ways to Quantify Fat Tails with Python” by Shaw Talebi, attributing the document to the same name. Despite minor naming noise elsewhere (e.g., ‘ShawGP’/‘shadoff’ in Slice 35/36), the three required cues are directly supported: lower-third (Slice 2), GPT name “ShawGPT” (Slice 8), and PDF attribution to Shaw Talebi (Slice 36).",
+        "visual_proof": "Clip 1 shows a lower-third graphic identifying the presenter as 'Shaw Talebi'. Clip 2 shows the user creating a GPT named 'ShawGPT' and later configuring it. Clip 3 and Clip 4 show Python code that references a file named '4 Ways to Quantify Fat Tails with Python _ by Shaw Talebi _ Towards Data Science.pdf', explicitly attributing the document to him."
+    }
+]

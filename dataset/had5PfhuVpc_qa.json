@@ -1,0 +1,126 @@
+[
+    {
+        "question": "A tech-network animation highlights device capacity; what is the stated number of devices, and what later online offer suggests this is part of a VPN promotion?",
+        "answer": "10 devices, and a later page advertises a VPN deal like “Get 83% OFF Now.”",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 14 displays an animation with the text '10 DEVICES.' Step 2: Slice 15 shows a webpage with VPN promotional text such as '1 Choice VPN' and 'Get 83% OFF Now.' Conclusion: The 10-device message aligns with a VPN promotion later shown via an online discount offer.",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly shows a tech-network animation where the text '10 DEVICES' appears, indicating the device capacity. Step 2: Slice 15 shows a webpage with '1 Choice VPN' and the offer 'Get 83% OFF Now,' clearly suggesting a VPN promotion. Logic holds because the question asks for the device number from the animation and the later online offer indicating a VPN promo, both of which are directly stated in the slices.",
+        "visual_proof": "Clip 1 (0:08) clearly displays the text '10 DEVICES' over a tech-network animation. Clip 2 (0:07) shows a webpage for 'Private Internet Access' with a prominent red button stating 'Get 83% Off Now', confirming the VPN promotion."
+    },
+    {
+        "question": "A performer-led music moment features guitars and a microphone; what later scene shows a large crowd similarly focused on a central activity in the same type of open event space?",
+        "answer": "The later scene is the packed art-gallery/event crowd watching a central activity around a big table.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            86,
+            89,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 86 shows a musical moment with guitars and someone holding a microphone, with an audience watching. Step 2: Slice 89 shows a guitarist performing while a crowd claps and cheers in a bright open room. Step 3: Slice 91 shows a very large crowd gathered around a central table activity in an art-gallery-like space. Conclusion: The performance dynamic (people oriented toward a central activity) scales up into the later crowded event scene.",
+        "logic_check_reasoning": "Step 1: Slice 86 describes a performer-led music moment with a man playing guitar and another person using a microphone, in a spacious indoor venue with an audience focused on them. Step 2: Slice 91 later shows an art gallery/studio space filled with people gathered around a central table, focused on a central activity led by someone, indicating a large crowd similarly engaged. Step 3: Both scenes are in open, communal indoor event spaces, supporting the 'same type of open event space' phrasing. The proposed answer matches Slice 91's description: a packed crowd focused on a central activity around a big table.",
+        "visual_proof": "Clip 3 shows a large, dense crowd of people in the same open event space seen in Clips 1 and 2. They are all focused on a central area where musicians are performing around a long table covered with an orange cloth. Many attendees are holding up their phones to record the performance, indicating a shared focus on the central activity, which matches the description in the original answer."
+    },
+    {
+        "question": "Which kitchen food-prep sequence leads into a hallway/event space with a drive banner, and what later buffet scene shows the meal-sharing outcome of such preparations?",
+        "answer": "Cooking vegetables in the kitchen leads into the hallway with the drive banner, and later a buffet line shows people serving themselves food.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            47,
+            75,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows active food preparation (chopping vegetables) before transitioning into a hallway with event signage. Step 2: Slice 75 shows a buffet-style serving line with multiple dishes. Step 3: Slice 76 shows people seated at a long table eating together. Conclusion: The food-prep sequence plausibly feeds into later communal serving and dining scenes.",
+        "logic_check_reasoning": "Step 1: Slice 47 describes a kitchen food-prep sequence (woman in red apron chopping broccoli, holding a bowl of chopped vegetables) that explicitly transitions into a hallway/communal area with a banner reading \"GOAT DRIVE.\" This supports the first part of the answer about the kitchen sequence leading into a hallway with a drive banner. Step 2: Slice 75 shows a later buffet scene where a man serves himself food from a buffet table, with others also serving themselves, indicating communal dining. This supports the second part of the answer that a buffet line shows people serving themselves food as the meal-sharing outcome. Logic holds because the narrative connects private meal preparation to a public event space and then to communal food serving.",
+        "visual_proof": "Clip 1 shows people preparing vegetables in a kitchen. The final frame of Clip 1 transitions to a man walking through a hallway with a 'GOAT DRIVE' banner visible on the wall. Clip 2 then shows a buffet line where people are serving themselves food from large bowls, which is the outcome of the earlier preparation."
+    },
+    {
+        "question": "Across the event timeline, what evidence suggests a progression from networking-style mingling to structured speaking/presentation moments to celebratory dining?",
+        "answer": "People mingle with name tags in hallways, then speakers address groups with monitors/microphone setups, and later the crowd shares food at long tables and celebrates with a turkey.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            57,
+            72,
+            76,
+            94
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows mingling in a hallway with many attendees wearing name tags. Step 2: Slice 72 shows a man addressing a group with monitors visible, indicating a structured speaking moment. Step 3: Slice 76 shows communal dining at a long table with food and conversation. Step 4: Slice 94 shows a celebratory highlight with a roasted turkey presented to cheering attendees. Conclusion: The event arc moves from social mixing to structured moments to shared meal celebration.",
+        "logic_check_reasoning": "Step 1: Slice 57 shows a hallway setting with people wearing name tags, forming small groups and conversing, consistent with networking-style mingling. Step 2: Slice 72 shows a man addressing a group in a classroom/meeting room with monitors displaying text, indicating a structured speaking/presentation moment (though a microphone is not explicitly mentioned, the speaking and monitors are). Step 3: Slice 76 depicts people seated around a long table with food, candles, and festive decorations, clearly indicating dining. Step 4: Slice 94 shows a man holding a roasted turkey while others cheer, evidencing a celebratory moment. The sequence logically supports a progression from mingling to presentation to celebratory dining.",
+        "visual_proof": "Clip 1 shows people mingling casually in a hallway with name tags visible. Clip 2 features a man speaking to an audience with monitors and a speaker setup behind him. Clip 3 depicts a large group seated at long tables sharing a meal. Clip 4 shows a celebratory group photo centered around a large roasted turkey, confirming the progression from mingling to presentation to dining."
+    },
+    {
+        "question": "Two different on-screen 'dad jokes counter' values appear at different moments; what number comes after 2 and where is the later update shown?",
+        "answer": "It becomes 3, shown when the woman sits in a DXRacer chair in the office.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows 'Brett's Dad Jokes COUNTER: 2' on a computer screen. Step 2: Slice 8 shows 'Brett's Dad Jokes COUNTER: 3' while a woman sits in a DXRacer chair. Conclusion: The counter increases from 2 to 3, with the later update in the DXRacer-chair office scene.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly shows the on-screen text 'Brett's Dad Jokes COUNTER: 2.' Step 2: Slice 8 explicitly mentions yellow text 'Brett's Dad Jokes COUNTER: 3' and specifies the scene with a woman seated in a DXRacer chair in a modern office. Logic holds because Slice 8 presents the later update and the setting is clearly described as the DXRacer chair in the office.",
+        "visual_proof": "In Clip 1 (0:07), the on-screen text 'Brett's Dad Jokes COUNTER: 2' is visible. In Clip 2 (0:03), the same counter is shown updated to 'COUNTER: 3' while the woman is seated in the black DXRacer gaming chair at her desk."
+    },
+    {
+        "question": "Which item is shown as a playful costume in a kitchen celebration and later appears as a balloon decoration in a more gallery-like interior?",
+        "answer": "A turkey (turkey costume and a turkey balloon).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a woman wearing a turkey costume during a kitchen celebration. Step 2: Slice 43 shows a large balloon shaped like a turkey in the indoor map/art space. Conclusion: Turkey imagery recurs as both costume and balloon decoration.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a kitchen celebration where a woman is wearing a turkey costume, clearly indicating a playful costume of a turkey. Step 2: Slice 43 describes an art gallery/museum-like interior featuring a large balloon shaped like a turkey. Logic holds because the same item—turkey—is presented first as a costume in a kitchen setting and later as a balloon decoration in a gallery-like setting.",
+        "visual_proof": "In Video 1, a woman is seen wearing a brown apron with a turkey design and later puts on a turkey hat in the kitchen. In Video 2, a large inflatable turkey balloon with 'Happy Thanksgiving' written on it is clearly visible in the gallery-like room."
+    },
+    {
+        "question": "Which indoor office speaker in a black hoodie transitions into a globe/VPN animation, and what earlier city/global imagery foreshadows this shift?",
+        "answer": "The man speaking at the desk in a black hoodie, foreshadowed by the rotating globe and global-city imagery earlier.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            12,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a man in a black sweatshirt/hoodie speaking at a desk in the office. Step 2: Slice 12 shows a man in a black hoodie at a computer desk transitioning into a globe animation forming 'VPN.' Step 3: Slice 2 earlier introduced a rotating globe and then a major city street, foreshadowing global connectivity themes. Conclusion: The black-hoodie desk speaker is linked to the later VPN animation, set up by earlier globe/city imagery.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows a man in a black hoodie speaking at a desk in an office setting, followed by a transition to a digital animation of a globe forming the word 'VPN'. Step 2: Slice 2 earlier features a rotating globe and then bustling city imagery (yellow taxis, street signs), providing global/city visuals. Step 3: The proposed answer identifies the correct speaker (the man at the desk in a black hoodie) and correctly cites the earlier globe and city imagery as foreshadowing. The logic holds and is directly supported by the slices.",
+        "visual_proof": "Clip 1 shows the man in the black hoodie speaking at his desk. Clip 2 immediately follows with the transition to the VPN animation. Clip 3, which precedes this sequence in the original video's narrative, displays a rotating globe and scenes of Times Square, establishing the global theme that is then visually linked to the VPN concept."
+    },
+    {
+        "question": "Which venue identifier appears as both an illuminated event sign and later as a neon sign, linking the coat-drive gathering space to the gallery/event scenes?",
+        "answer": "“368” (also shown as “368 NYC”).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            39,
+            40,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows an event hosted by '368' with signage in the indoor space. Step 2: Slice 40 shows the reception/space also marked '368' before moving outside at night. Step 3: Slice 54 shows a neon sign reading '368 NYC' in the event/gallery setting. Conclusion: The recurring venue identifier linking these scenes is 368/368 NYC.",
+        "logic_check_reasoning": "Step 1: Slice 39 states the coat drive is hosted by '368,' indicated by an illuminated sign, confirming '368' as the event identifier. Step 2: Slice 54 states there is a neon sign that reads '368 NYC,' showing the same identifier in neon form during gallery/event scenes. Step 3: The shared identifier '368' (with '368 NYC' as a variant) appears in both contexts, linking the spaces.",
+        "visual_proof": "In Clip 1, the illuminated event sign clearly reads '368 COAT DRIVE'. In Clip 2, a blue neon sign displays '368' above a doorway leading into the gallery/event space. In Clip 3, the same blue neon '368' sign is visible, and next to it, a larger wall graphic shows '368 NYC', confirming the identifier links both spaces."
+    },
+    {
+        "question": "Identify the phrase written on the world map that later becomes the backdrop for multiple group discussions and presentations, and name one decoration repeatedly present near that map.",
+        "answer": "The phrase is “GLOBAL FRIENDSGIVING,” and a turkey decoration (like a turkey balloon) appears near it.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            34,
+            36,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows 'GLOBAL FRIENDSGIVING' written on a world map. Step 2: Slice 36 shows the map being hung and used as part of the event setup. Step 3: Slice 43 shows activity in front of the map with a turkey balloon decoration visible. Conclusion: The map reading 'GLOBAL FRIENDSGIVING' becomes a recurring event backdrop with turkey-themed decor nearby.",
+        "logic_check_reasoning": "Step 1: Slice 34 explicitly states the man writes \"GLOBAL FRIENDSGIVING\" on a large world map. Step 2: Slice 36 again shows the map with \"GLOBAL FRIENDSGIVING\" written across it, confirming the phrase. It also shows a large inflatable turkey balloon with \"Happy Thanksgiving,\" establishing the recurring turkey-themed decoration in the same venue where the map is displayed. Step 3: Slice 43 shows people standing in front of the map (indicating it serves as a backdrop for group interaction) and mentions a large turkey-shaped balloon in the background, placing the turkey decoration near the map during these discussions. Logic holds because the same map with the phrase is seen multiple times and the turkey balloon appears in proximity to the map across scenes.",
+        "visual_proof": "In Clip 1, the man writes 'GLOBAL FRIENDSGIVING' on the world map. In Clip 3, this same map serves as the backdrop for a group of three people posing and talking. A large turkey-shaped balloon with 'Happy Thanksgiving' written on it is clearly visible to the right of the map in Clip 3, confirming its repeated presence near the map during group scenes."
+    }
+]

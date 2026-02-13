@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which ingredient does the striped-shirt man add to the egg mixture right before the on-screen instruction says to whisk until there are no streaks of egg whites?",
+        "answer": "A pinch of salt.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows the striped-shirt man working with flavoring (vanilla) and whisking a yellow mixture while following a paper recipe. Step 2: Slice 20 explicitly shows the striped-shirt person sprinkling salt with the on-screen instruction to whisk until fully combined with no streaks. Conclusion: The ingredient added at that step is salt.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly shows the striped-shirt person holding a small jar of salt and sprinkling it into the bowl. Step 2: In the same slice, the on-screen text reads: \"Add a pinch of salt and whisk until the whites and yolks are completely combined with no streaks of egg whites remaining,\" directly tying the added ingredient to the instruction about whisking. Step 3: This matches the question’s timing and subject (striped-shirt man, egg mixture, instruction about no streaks). Therefore, the ingredient is salt.",
+        "visual_proof": "In Video 2, at timestamp 0:04, the man in the striped shirt is shown adding a white granular substance from a small container into the bowl of eggs. Immediately following this action, at 0:05, an on-screen text overlay appears which reads: '2. Add a pinch of salt and whisk until the whites and the yolks are completely combined with no streaks of egg whites remaining.' This sequence visually confirms that he added salt right before the instruction to whisk appeared."
+    },
+    {
+        "question": "Which person who is seen cracking eggs into a bowl later holds up a fine mesh strainer to strain the egg mixture?",
+        "answer": "The man in the striped shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a man in a striped shirt cracking multiple eggs into a glass bowl. Step 2: Slice 42 shows a man in a striped shirt holding a fine mesh strainer and instructing to strain the egg mixture. Conclusion: It is the same striped-shirt man.",
+        "logic_check_reasoning": "Step 1: Slice 11 states that a man wearing a striped shirt is cracking eggs into a bowl. Step 2: Slice 42 states that a man wearing a striped shirt later holds a fine mesh strainer and explains straining the egg mixture. Logic holds because both slices consistently identify the person by the striped shirt and the actions are sequential within the same cooking tutorial, indicating it is the same individual.",
+        "visual_proof": "In clip 1, the man in the striped shirt is seen cracking eggs into a bowl. In clip 2, at 00:03, the same man is shown holding up a fine mesh strainer over a bowl, with an on-screen instruction to strain the egg mixture, directly linking him to both actions."
+    },
+    {
+        "question": "In the show’s game-like segments, what activity prompt appears after the rhyming prompt and before the later taste-test scenes with labeled plates?",
+        "answer": "“ACT IT!”",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            55,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows an interactive prompt about rhyming (“DRAW IT! RHYME IT!” / “RHIME IT!”). Step 2: Slice 55 introduces a new prompt, “ACT IT!”, as the next game-like instruction. Step 3: Slice 74 later shows the taste-test/competition with labeled dishes. Conclusion: The activity prompt between those phases is “ACT IT!”.",
+        "logic_check_reasoning": "Step 1: Slice 25 explicitly shows the rhyming prompt on screen (“DRAW IT! RHYME IT!” and later “RHIME IT!”), indicating a rhyming segment. Step 2: Slice 55 then shows the prompt “ACT IT!” appearing on screen for the next part of the game, which logically follows the rhyming segment. Step 3: Slice 74 describes later taste-test scenes with labeled plates (“Jasmine’s,” “Tucker’s”), occurring after the game-like prompts. Therefore, the activity prompt appearing after the rhyming prompt and before the taste-test is “ACT IT!”",
+        "visual_proof": "In Clip 1, the text 'SING IT!' appears as a prompt. In Clip 2, immediately following this, the text 'ACT IT!' is displayed on screen while the host is interacting with a steamer pot. This occurs before Clip 3, which shows the taste-test scenes with labeled plates ('JASMINE'S', 'TUCKER'S', etc.)."
+    },
+    {
+        "question": "Connect the playful question-mark kitchen, the interactive challenge prompts, and the final taste test: what is the overall arc from game prompt to judged outcome?",
+        "answer": "They introduce playful challenge prompts (like rhyming and acting), then return to cooking, and finally compare and taste-test dishes labeled “Tucker’s” and “Jasmine’s.”",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            25,
+            55,
+            72,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows the show’s interactive prompt emphasizing a game-like challenge (“DRAW IT! RHYME IT!” / “RHIME IT!”). Step 2: Slice 55 shows another prompt, “ACT IT!”, continuing the game structure. Step 3: Slice 72 shows the side-by-side labeled comparison of dishes (“Tucker’s” and “Jasmine’s”). Step 4: Slice 74 shows the taste-test/competition with labeled plates and participants tasting with forks. Conclusion: The arc moves from challenge prompts to cooking results and a labeled taste-test outcome.",
+        "logic_check_reasoning": "Step 1: Slice 25 shows a playful kitchen with colorful question marks and on-screen prompts like \"DRAW IT! RHYME IT!\" with the host encouraging a rhyming challenge, establishing interactive game elements. Step 2: Slice 55 continues the theme with \"ACT IT!\" and the host acting out a prompt, reinforcing the sequence of playful challenge prompts. Step 3: Slice 72 returns to the same question-mark kitchen with the host and a woman discussing and comparing two plates of food, explicitly labeled in a split-screen as \"Tucker's\" and \"Jasmine's.\" Step 4: Slice 74 presents a taste test/competition setup with plates labeled \"Jasmine's\" and \"Tucker's,\" where they sample and react to the dishes, indicating the judged outcome. Logic holds because the context moves from interactive prompts in the playful kitchen to a comparative taste test of labeled dishes by the participants.",
+        "visual_proof": "Clip 1 shows the host with a box of question marks and a graphic that says 'ACT IT!'. Clip 2 shows him reading a prompt from the box. Clips 3 and 4 show the host and a female co-host presenting and tasting three distinct plates of food, with on-screen text explicitly labeling them 'Tucker's' and 'Jasmine's', confirming the comparison and taste-test phase."
+    }
+]

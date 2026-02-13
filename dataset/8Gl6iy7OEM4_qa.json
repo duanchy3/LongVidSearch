@@ -1,0 +1,31 @@
+[
+  {
+    "question": "A male presenter in a straw hat discusses biodiversity with animal cutaways; later a long-haired, bearded presenter discusses wildlife with dolphin and crocodile insets; and later again an owl inset appears while the same long-haired presenter talks. What animals are featured across these three moments?",
+    "answer": "Spiny spider, frogmouth, skink, leaf frogs, and fruit bat (biodiversity cutaways), dolphins and a saltwater crocodile, and an owl inset.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      23,
+      24,
+      26
+    ],
+    "reasoning_chain": "Step 1: Slice 23 shows the straw-hat presenter and multiple labeled animals (spiny spider, skink, leaf frogs, giant bats). Step 2: Slice 24 shows dolphin inset transitioning to “San Cristobal saltwater crocs.” Step 3: Slice 26 shows an owl inset while the long-haired presenter speaks. Conclusion: Across these segments, the featured animals include the biodiversity set, dolphins and croc, and an owl.",
+    "logic_check_reasoning": "Step 1: Slice 23 shows the straw-hatted presenter discussing biodiversity with labeled animal cutaways: spiny spider, skink, leaf frogs, and giant bats. Step 2: Slice 24 shows the long-haired, bearded presenter with inset images of two dolphins and a saltwater crocodile, explicitly labeled \"San Cristobal saltwater crocs.\" Step 3: Slice 26 shows the same long-haired presenter with an owl inset in the top right. The proposed answer lists exactly these animals for each moment.",
+    "original_text_answer": "Spiny spider/skink/leaf frogs/giant bats (biodiversity cutaways), dolphins and a saltwater crocodile, and an owl inset.",
+    "verdict_meta": "REFINED",
+    "visual_proof": "Clip 1 shows the presenter with insets of a spiny spider, a frogmouth, a skink, leaf frogs, and a fruit bat. Clip 2 shows the same presenter with insets of dolphins and a San Cristobal saltwater croc. Clip 3 shows the presenter with an owl inset. The original answer incorrectly listed 'giant bats' instead of the visually confirmed 'fruit bat'."
+  },
+  {
+    "question": "Which island or province name is directly associated with a saltwater crocodile segment, and which earlier geography segment also names that same island as part of the islands’ trenches and features?",
+    "answer": "San Cristobal; it is also referenced earlier in the geography segment via the San Cristobal Trench.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      24,
+      18
+    ],
+    "reasoning_chain": "Step 1: Slice 24 shows “San Cristobal saltwater crocs.” Step 2: Slice 18 mentions the San Cristobal Trench in the physical geography discussion. Conclusion: The repeated island reference is San Cristobal.",
+    "logic_check_reasoning": "Step 1: Slice 24 explicitly shows an inset image of a saltwater crocodile with the text 'San Cristobal saltwater crocs,' directly associating the saltwater crocodile segment with San Cristobal. Step 2: Slice 18 mentions geological features including the 'San Cristobal Trench' in the earlier geography segment, thereby naming the same island/province. Logic holds because both slices explicitly reference 'San Cristobal' in their respective contexts.",
+    "visual_proof": "In Video 1 (0:01), a picture of a saltwater crocodile is shown with the text 'San Cristobal saltwater crocs'. In Video 2 (0:09-0:10), the map displays the 'San Cristobal Trench' as a major geological feature near the Solomon Islands, directly associating the name 'San Cristobal' with both the crocodiles and the trench."
+  }
+]

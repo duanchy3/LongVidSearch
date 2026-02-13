@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Across two different chases, what changes about the environment the pursued person runs through?",
+        "answer": "One chase moves through an industrial factory and out into streets/woods, while another chase unfolds in a gritty working-class alley/slum area with shacks and barriers.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a man running through a factory, then down a street, and into a forested area. Step 2: Slice 77 shows a different chase in a slum-like alley area with makeshift structures and a leap over a barrier. Conclusion: The chase environments shift from industrial-to-woods in one case, versus urban slum/yard obstacles in the other.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes a chase through an industrial factory with heavy machinery and workers, then out onto a street and into a forested area. Step 2: Slice 77 describes a chase in a gritty, working-class slum-like alley with dilapidated shacks, unpaved ground, and barriers. Logic holds because both slices depict pursuits but in distinctly different environments: industrial-to-street/woods versus a slum alley with makeshift structures.",
+        "visual_proof": "Clip 1 shows the pursued person running through a dark, cluttered industrial factory with machinery, then exiting into a narrow brick alley, followed by a street with horse-drawn carriages, and finally an aerial shot of him running on a dirt path through a wooded, rural area. Clip 2 depicts a different chase scene where the pursued man runs through a dilapidated, open-air slum area characterized by wooden shacks, tarps, and makeshift barricades, with impoverished families visible in the background."
+    },
+    {
+        "question": "In two separate scenes involving documents, where is a paper examined outdoors versus indoors?",
+        "answer": "Outdoors, a man studies a paper by a blue door; indoors, a gloved hand points to a handwritten letter in a library-like room.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows a man outside near a blue door holding and focusing on a document. Step 2: Slice 86 shows hands (one in white gloves) pointing at a handwritten letter indoors among bookshelves. Conclusion: Paper evidence appears both outdoors (by the blue door) and indoors (letter being examined).",
+        "logic_check_reasoning": "Step 1: Slice 36 describes a man outdoors near a blue door holding and focusing on a paper/document, clearly indicating an outdoor examination. Step 2: Slice 86 describes an indoor library/study setting with a close-up of hands (one gloved) pointing at a handwritten letter, indicating an indoor examination. Logic holds because the proposed answer matches both the locations and actions depicted in the two slices.",
+        "visual_proof": "Clip 1 shows a man in a dark coat outdoors holding and examining a paper, with a blue wooden structure (door/gate) visible in the background. Clip 2 transitions to an indoor scene with bookshelves, where a gloved hand is pointing at a handwritten letter on a table, surrounded by other people reacting."
+    },
+    {
+        "question": "What item appears as a symbol of restricted freedom in one elite-room scene, and how is confinement echoed later in a different setting?",
+        "answer": "A caged bird symbolizes captivity, and later barred windows and a prison-like bed area echo confinement.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows an elegant blue-walled room with a caged bird, implying control/captivity. Step 2: Slice 27 shows a bed near a barred window in a dark, prison-like space. Conclusion: The theme of confinement is reinforced visually through both a caged bird and barred windows.",
+        "logic_check_reasoning": "Step 1: Slice 15 describes an elegant room with a table holding a caged bird and notes themes of control and captivity, supporting the symbol of restricted freedom. Step 2: Slice 27 describes a later, darker setting featuring a bed near a window with bars, suggesting a prison-like environment, which echoes confinement. Logic holds because both elements are explicitly mentioned and align with the themes described.",
+        "visual_proof": "In Clip 1, a birdcage is clearly visible in the background of the elite room scene, symbolizing restricted freedom. In Clip 2, the dark bedroom scene features barred windows and an unmade bed surrounded by shadows, visually echoing confinement and imprisonment."
+    },
+    {
+        "question": "A woman is repeatedly associated with an elaborate white hat and a small white dog; in which two settings does she appear with these markers?",
+        "answer": "She appears at an outdoor social gathering/garden party and later indoors when she approaches a man who is writing.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows a woman in a white dress with a large feathered hat holding a small white dog at an outdoor event. Step 2: Slice 87 shows the same visual combination—woman in white with a wide-brimmed floral hat holding the small white dog—indoors approaching a man writing. Conclusion: The hat-and-dog pairing tracks the same woman across locations.",
+        "logic_check_reasoning": "Step 1: Slice 47 describes an outdoor scene resembling a garden party, with lush greenery and a tent-like structure. A woman in a white dress holds a small white dog and wears an elaborate hat (large feathered hat with floral crown). Step 2: Slice 87 describes an indoor room where a man is writing at a table. A woman enters holding a small white dog, wearing a white dress and a wide-brimmed hat adorned with flowers, and approaches the man. Logic holds because both slices consistently associate the woman with a white dress, an elaborate floral white hat, and a small white dog, and the settings match the proposed answer: outdoor social gathering/garden party and indoors with a man writing.",
+        "visual_proof": "In Clip 1, the woman (Dora) is seen outdoors in a garden setting with other guests, wearing her elaborate white hat and holding the small white dog. In Clip 2, she is shown indoors, still with the same hat and dog, approaching a man (David) who is seated at a desk and writing."
+    },
+    {
+        "question": "What consistent gesture signals formality in two different moments involving men in period dress?",
+        "answer": "A formal greeting/acknowledgment: a handshake in one scene and a top-hat tip in another.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a formal interaction where one man extends his hand toward another (handshake gesture). Step 2: Slice 29 shows a man in Victorian attire tipping his top hat in acknowledgment. Conclusion: Formal social ritual gestures recur—handshake and hat-tip.",
+        "logic_check_reasoning": "Step 1: Slice 17 describes a man in a period-like setting extending his hand toward another man, which the caption notes suggests a formal or significant interaction, perhaps a handshake. Step 2: Slice 29 describes a Victorian-dressed man tipping his top hat to acknowledge someone, a clear formal gesture. Logic holds because both moments depict men in period dress performing formal acknowledgment gestures: a likely handshake and a hat tip.",
+        "visual_proof": "In Clip 1, two men in period dress are shown engaging in a handshake at a doorway, a gesture of formal greeting. In Clip 2, a man in a top hat performs a clear tipping motion of his hat with his hand, another traditional formal acknowledgment. Both gestures are visually distinct and contextually appropriate for the period attire."
+    },
+    {
+        "question": "Which sequence suggests an escape attempt that moves from indoor urgency to a dangerous natural environment, and what is the final danger shown?",
+        "answer": "It moves from tense indoor urgency to stormy sea peril, ending with someone struggling in the water and reaching a hand up for help.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            91,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows urgent movement and flight—papers scattered and a maid carrying a child as if escaping danger. Step 2: Slice 91 shows the danger intensify into a night storm at sea with a struggling swimmer and a desperate hand reaching out. Step 3: Slice 92 shows a person collapsed on gravel/rock, implying the aftermath of the peril. Conclusion: Urgent escape leads into life-threatening exposure and a collapsed aftermath.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows indoor urgency and a likely escape attempt (a distressed boy, a concerned maid, and the woman fleeing down a hallway carrying a child). Step 2: Slice 91 presents the dangerous natural environment (a stormy sea, a struggling swimmer) and ends with a close-up of a hand reaching out of the water for help. Logic holds because the slices depict a progression from an urgent indoor escape to peril at sea, with the final danger being imminent drowning.",
+        "visual_proof": "Clip 1 shows intense indoor scenes with characters in distress, including a man being physically restrained. Clip 2 transitions to a dark, stormy sea at night with a ship in peril and people running on a beach, indicating an escape to a dangerous natural environment. Clip 3 culminates with a person lying on a pebbled shore, appearing exhausted or injured after emerging from the water, visually confirming the struggle in the water and the final state of peril."
+    },
+    {
+        "question": "What clues connect the indoor conflicts around weapons to later urgent flight through industrial spaces?",
+        "answer": "A gun threat and hostile confrontations at tables are followed by running/chase sequences through factories and streets, suggesting the negotiations break down into pursuit.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            41,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows a gun being used to threaten someone in a factory confrontation. Step 2: Slice 41 shows a gun pointed across a dining table, escalating interpersonal conflict. Step 3: Slice 22 shows a chase through a factory and into the street/forest. Conclusion: Weaponized conflict plausibly drives characters into flight and pursuit.",
+        "logic_check_reasoning": "Step 1: Slice 41 shows an indoor confrontation at a table where a gun is pointed at a seated man, clearly establishing a weapon-centered conflict. Step 2: Slice 15 depicts another indoor confrontation with a gun in a factory setting and then transitions to an elegant room with tense conversation/possible negotiation, reinforcing themes of power dynamics and conflict. Step 3: Slice 22 presents a high-stakes chase through a factory and into streets/forest, showing urgent flight through industrial spaces. Logic holds because the evidence includes multiple indoor, weapon-related confrontations (Slices 41 and 15) and a subsequent urgent chase through industrial environments (Slice 22). The answer’s phrasing that these confrontations are followed by a chase and that this suggests negotiations breaking down into pursuit aligns with the progression and tension described, without relying on external details.",
+        "visual_proof": "Clip 1 shows a tense indoor scene with a man holding a large knife over a child at a table, indicating a weaponized confrontation. Clip 2 shows another tense indoor scene with three men at a table, one looking alarmed, suggesting a breakdown in negotiation. Clip 3 visually confirms the consequence: rapid movement through industrial spaces (a factory), a chase sequence down an alley, and urgent running through streets, directly following the earlier conflicts."
+    },
+    {
+        "question": "Track the woman with the large white feathered hat and small white dog: how do her surroundings change from outdoors to indoors to a private sitting-room conversation?",
+        "answer": "She is first at an outdoor tented/garden event, later appears indoors approaching a writing man, and also sits in an elegant drawing room with the dog during a serious conversation.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            47,
+            49,
+            57,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows her outdoors at a formal social event holding the small white dog. Step 2: Slice 49 shows her still outdoors in a garden-like space with the dog near her while she talks with a man in a blue suit. Step 3: Slice 57 shows an elegant indoor drawing room where she sits with the dog while a man speaks to her. Step 4: Slice 87 shows her indoors again, walking toward a man writing while holding the dog. Conclusion: The same hat-and-dog visual signature spans public outdoor society to private indoor discussions.",
+        "logic_check_reasoning": "Step 1: Slices 47 and 49 show the woman in a white dress with a small white dog and notable hat outdoors at a tented/garden event, with lush greenery and social gathering elements. Step 2: Slice 87 shows her indoors approaching a man who is writing at a table; she enters holding the small white dog and they converse, confirming the shift to an indoor setting. Step 3: Slice 57 (Scene 2) places her in an elegant drawing room (a private sitting room), seated on a couch with the dog, engaged in a conversation with a man, which matches the private sitting-room conversation. Logic holds because the consistent visual attributes (white dress, small white dog) track her across outdoor, indoor, and drawing room settings.",
+        "visual_proof": "Clip 1 shows her outdoors under a large white tent with other guests. Clip 4 shows her indoors, standing behind a man who is writing at a desk. Clip 3 shows her sitting on a blue sofa in an elegant room with light blue walls and framed silhouettes, holding the dog while engaged in a conversation with the man."
+    }
+]

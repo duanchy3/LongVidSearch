@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Which earlier slide introduces the three related-work model families that later become the focus of the VAE-problem slides about overlapping latent distributions generating corrupted or morphed data?",
+        "answer": "The \"Related Works\" slide that lists Autoencoder, Variational Autoencoders, and VQ-VAE.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 6 lists the related-work families: Autoencoder, Variational Autoencoders, and VQ-VAE. Step 2: Slice 14 focuses on the VAE problem, explaining that overlapping latent distributions can generate corrupted data. Conclusion: The earlier slide that introduces the families later discussed via the VAE-problem content is the Related Works slide.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 6 describes a slide titled 'Related Works' that lists three model families: Autoencoder (encoder-decoder), Variational Autoencoders (continuous state space), and VQ-VAE (discrete quantized state space). Step 2: Evidence Slice 14 describes a later slide titled 'Related Work - VAE problem' focusing on latent space overlap generating corrupted data. Step 3: The question asks which earlier slide introduces the three related-work model families that later become the focus of the VAE-problem slides. Slice 6 explicitly matches this description, and Slice 14 provides the later focus on VAEs. Therefore, the proposed answer correctly identifies the earlier slide.",
+        "visual_proof": "Clip 1 (0:26-0:38) visually displays a slide titled \"Related Works\" with three bullet points: \"Autoencoder - (encoder - decoder)\", \"Variational Autoencoders (continuous state space)\", and \"VQ-VAE (discrete quantized state space)\". Clip 2 (0:00-0:04) shows a subsequent slide titled \"Related Work - VAE problem\" which discusses the issue of overlapping distributions in the latent space, a problem specifically associated with Variational Autoencoders (VAEs), one of the three models listed on the earlier slide. This establishes a clear temporal and thematic link between the two slides."
+    },
+    {
+        "question": "Which slide introduces stage two as a transformer that repeatedly predicts the next token until reaching a fixed count, and which later slide specifies that the image token grid is 32×32 (implying 1024 tokens)?",
+        "answer": "Stage Two is introduced in the slide titled \"Stage Two: Learning Prior Distribution,\" and the 32×32 image tokens detail appears in \"Stage Two: Transformer Characteristics.\"",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            28,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 28 says stage two uses a transformer to predict next-token distributions and sample until 1024 image tokens. Step 2: Slice 30 states images use 32×32 image tokens, which equals 1024. Conclusion: These two slides connect the sampling goal with the token-grid specification.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 28 shows a slide titled 'Stage Two: Learning Prior Distribution' with bullets under 'Transformer' stating 'Predict distribution for next token' and 'Sample distribution and repeat until 1024 image tokens.' This explicitly introduces Stage Two as a transformer that repeatedly predicts the next token until reaching a fixed count of 1024. Step 2: Evidence Slice 30 shows a slide titled 'Stage Two: Transformer Characteristics' listing '32x32 image tokens,' which specifies the image token grid size. The logic holds because the first slide defines the iterative prediction up to 1024 tokens, and the later slide specifies the 32×32 grid that corresponds to 1024 tokens.",
+        "visual_proof": "The first clip displays a slide titled \"Stage Two: Learning Prior Distribution\" which includes the bullet point \"Sample distribution and repeat until 1024 image tokens,\" describing the token prediction process. The second clip shows a slide titled \"Stage Two: Transformer Characteristics\" which explicitly lists \"32x32 image tokens\" as a characteristic of the transformer."
+    }
+]

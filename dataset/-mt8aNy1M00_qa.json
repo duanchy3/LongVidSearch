@@ -1,0 +1,30 @@
+[
+    {
+        "question": "There is a night scene with a headlamp-lit conversation around camping, and later an early-morning departure through the woods is shown. What lighting tools are used in these two scenes to see in the dark?",
+        "answer": "A headlamp is used at night, and a flashlight is used during the early-morning walk.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows a nighttime campfire scene where one man wears a headlamp. Step 2: Slice 48 shows a man walking through the woods with a flashlight at 4:30 AM. Conclusion: Headlamp first, flashlight later.",
+        "logic_check_reasoning": "Step 1: Slice 35 describes a night campfire scene where one man is explicitly wearing a headlamp, indicating use of a headlamp for lighting. Step 2: Slice 48 describes an early-morning scene where a man walks through the woods with a flashlight that illuminates his path, explicitly indicating use of a flashlight. Logic holds because each slice clearly identifies the specific lighting tool used in its respective dark setting.",
+        "visual_proof": "In Video 1 (0:02-0:05), a man is clearly wearing a headlamp on his forehead while talking in the dark. In Video 2 (0:15-0:23), a man is seen walking through the woods at 4:30 AM, holding and using a handheld flashlight to illuminate his path."
+    },
+    {
+        "question": "A modern living room with the “YES HOUSE” sign is shown repeatedly, and later the end credits include a title card for a film and a documentary title. What does this combination suggest about how informal house scenes relate to the final product?",
+        "answer": "The house scenes function as vlog-style narration/production segments that feed into a finished, titled documentary film.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            5,
+            39,
+            65,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the YES HOUSE location signage and a presenter speaking to camera. Step 2: Slice 39 shows additional narration in the striped-wall living room space. Step 3: Slice 65 shows the title “A film by YES THEORY,” implying a finished work. Step 4: Slice 70 shows closing credits and the documentary title “THE LOST PYRAMID.” Conclusion: House narration segments are part of producing a final documentary.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows a modern living room with a 'YES HOUSE' sign, where a man speaks directly to the camera in an interview/vlog-like manner. Step 2: Slice 39 again features a similar modern indoor setting (striped wall, blue couch, yellow pillows) with the same casual, direct-to-camera style, indicating repeated informal house scenes. Step 3: Slice 65 starts in the same living room with the man talking to the camera, then transitions to outdoor scenes and culminates in film credits with the title card 'A film by YES THEORY.' Step 4: Slice 70 presents the closing credits of a documentary titled 'THE LOST PYRAMID.' Logic holds because the repeated informal house scenes are directly connected within the same video to formal film/documentary credits, suggesting those house segments function as vlog-style narration or framing that leads into (and is part of) a finished, titled documentary/film.",
+        "visual_proof": "The 'YES HOUSE' living room appears multiple times with different individuals speaking directly to the camera (Clips 1, 3), suggesting a recurring setting for narration or interviews. This is followed by end credits that explicitly label the work as 'A FILM BY YES THEORY' and later as 'THE LOST PYRAMID' with special thanks for supporting 'THE DOCUMENTARY' (Clip 4). This structure implies the informal house segments are part of the documentary's production, serving as narrative or introductory elements."
+    }
+]

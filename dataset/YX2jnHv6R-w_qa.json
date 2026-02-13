@@ -1,0 +1,218 @@
+[
+    {
+        "question": "In one part of the story, two women are shown together in a moving car in daylight; later, a man and woman are shown together in a car at night. What changes between these two car moments regarding who is in the car and the time-of-day mood?",
+        "answer": "The earlier car scene is two women in daytime; later it becomes a man driving with a woman passenger at night in a more intimate, tense mood.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows two women in a car with daylight lighting, both serious. Step 2: Slice 45 shows a man driving at night with a woman passenger, city lights blurred outside. Conclusion: The pairing and lighting shift from daytime female-female to nighttime male-female, changing the mood to intimate tension.",
+        "logic_check_reasoning": "Step 1: Slice 12 states that in daylight, two women are in a moving car, with a serious/tense atmosphere. Step 2: Slice 45 shows a nighttime car scene with a man driving and a woman passenger, described as moody, intimate, and tense. Logic holds because the proposed answer correctly identifies the change in occupants (two women -> man and woman) and the time-of-day/mood shift (daytime -> night with a more intimate, tense mood).",
+        "visual_proof": "Clip 1 shows two women in a car with bright, natural daylight visible through the windows. Clip 2 shows a man and a woman in a car with dark, blurred city lights outside, indicating nighttime. The close-ups and dim lighting in Clip 2 create a more intimate and tense atmosphere compared to the brighter, more neutral daytime setting of Clip 1."
+    },
+    {
+        "question": "Which earlier clue foreshadows the later news report about a corporate death, and what is the later report about?",
+        "answer": "Earlier, a tense office storyline builds; later, a TV news report announces a Future Group finance-team head was found dead by hanging/strangulation.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows tense office activity with a trio moving urgently through an office/corridor. Step 2: Slice 46 shows a TV news broadcast about 'Future Group' finance-team head found dead. Conclusion: The corporate tension precedes and connects to the corporate death news.",
+        "logic_check_reasoning": "Step 1: Slice 44 presents a tense office environment with a trio urgently discussing matters in a professional setting, suggesting corporate seriousness and potential conflict, which can serve as foreshadowing. Step 2: Slice 46 explicitly shows a TV news report stating \"미래그룹 재무팀장 차모씨, 목매단 체 발견,\" meaning the Future Group finance team head was found hanged/with a strangled neck. Logic holds because the earlier tense corporate scenes plausibly foreshadow the later corporate death reported on TV.",
+        "visual_proof": "Clip 1 shows a tense interaction in an office environment between three individuals, establishing a corporate drama. Clip 2 features a TV news report with the headline '미래그룹 재무팀장 차모씨, 목매단 채 발견' (Future Group Finance Team Head Mr. Cha, found hanging), which directly confirms the content of the later report and is foreshadowed by the earlier office tension."
+    },
+    {
+        "question": "A woman appears calm at home holding red wine, while later an older woman is shown urgently on the phone. What is the contrast in their emotional tone and setting?",
+        "answer": "The wine scene is calm and contemplative in a living room, while the older woman’s phone scene is serious and concerned in a book-lined room.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows a woman relaxing on a beige couch holding red wine in a calm living room. Step 2: Slice 48 shows an older woman with glasses on a phone call, focused and concerned in a room with shelves/books. Conclusion: The mood shifts from calm reflection to urgent concern.",
+        "logic_check_reasoning": "Step 1: Slice 47 describes a woman sitting on a couch in a modern living room, relaxed and holding a glass of red wine; the atmosphere is calm and contemplative. Step 2: Slice 48 shows an older woman on a cell phone, with facial expressions suggesting focus and possible concern, in a room with shelves of books or items. Logic holds because the answer contrasts calm/contemplative in a living room with serious/concerned in a book-lined room, which matches both slices.",
+        "visual_proof": "In Clip 1, the young woman sits relaxed on a couch with a glass of red wine beside her, in a softly lit living room with modern decor, conveying calmness. In Clip 2, the older woman is shown in close-up, wearing glasses, speaking intently on the phone in a dimly lit room with visible bookshelves and a desk lamp, suggesting seriousness and concern. The contrast in lighting, facial expression, and environment supports the described emotional tones."
+    },
+    {
+        "question": "How does the video connect a nighttime chase/escape feeling on a wet road to a later indoor fight/struggle, and what are the two key moments?",
+        "answer": "It shows a car driving on a dark wet road at night, then later cuts to a chaotic physical altercation where someone is held back.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows a car driving down a dark, wet road surrounded by trees, creating tension. Step 2: Slice 24 shows a chaotic physical altercation with one person restraining another. Conclusion: The tense travel sequence transitions into direct conflict.",
+        "logic_check_reasoning": "Step 1: Slice 23 describes a car driving down a dark, wet road at night with headlights cutting through the darkness, establishing a tense, mysterious atmosphere. Step 2: Slice 24 later shows a physical altercation where one person is being held back by another, indicating a chaotic struggle. Logic holds because the proposed answer identifies two key moments that are explicitly present in the slices: the nighttime wet-road driving and the later fight where someone is restrained, and describes the connection as a cut from one scene to another.",
+        "visual_proof": "Clip 1 establishes the nighttime chase/escape feeling with shots of a white car driving on a dark, wet road at night (0:04-0:05, 0:14-0:15). Clip 2 provides the later indoor struggle, showing a chaotic physical altercation inside a car where the woman is being forcefully held back and restrained by another person (0:08-0:14)."
+    },
+    {
+        "question": "Across the story, what two different situations show a woman moving with urgency on a city street at night, and what does she carry in each?",
+        "answer": "One shows a woman in a teal blazer hurrying with a folder; another shows a woman in a white suit carrying a white bag as she approaches armed men.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows a woman in a teal blazer walking quickly down a dim street carrying a folder. Step 2: Slice 93 shows a woman in a white suit walking confidently at night carrying a white bag before a confrontation. Conclusion: Two nighttime street urgencies are linked by purposeful movement and carried items.",
+        "logic_check_reasoning": "Step 1: Slice 35 describes a woman in a teal blazer on a dimly lit street at night, walking hurriedly and carrying a folder under her arm, indicating urgency and specifying the item she carries. Step 2: Slice 93 shows a woman in a white suit at night, carrying a white bag, who breaks into a run toward men holding batons (armed), demonstrating urgency and specifying the item. Logic holds because both slices depict nighttime city urgency and clearly state what each woman carries, matching the proposed answer.",
+        "visual_proof": "In Clip 1, the woman is seen in a teal-colored top (described as a blazer) and is visibly distressed while holding a white folder. In Clip 2, a different woman in a white suit is shown running urgently down a street at night, carrying a white handbag, directly approaching a group of men who are holding weapons."
+    },
+    {
+        "question": "What recurring object links the tense reading of a note early in the video to the later living-room reading scene, and where is it read later?",
+        "answer": "A handwritten letter/note links them, and it is read later on a couch in a well-lit living room.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a hand holding a piece of paper in a dark setting, implying an important note. Step 2: Slice 77 shows a woman reading a handwritten Korean letter while seated on a couch in a modern living room. Conclusion: The paper/letter motif reappears as a key narrative object.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes an early scene with a close-up of a hand holding a piece of paper, implying a significant and tense moment tied to 'MY DEMON'. Step 2: Slice 77 explicitly shows a close-up of a handwritten letter and then the same letter being read by a woman on a couch in a modern, well-lit living room. Logic holds because both slices feature the same recurring object (a handwritten letter/note), and Slice 77 specifies the later setting where it is read (on a couch in a well-lit living room).",
+        "visual_proof": "Clip 1 (at 0:18) shows a close-up of a hand holding a small, folded piece of paper with Korean handwriting. Clip 2 then shows the same woman from Clip 1 reading a larger, unfolded sheet of paper with identical Korean handwriting while sitting on a light-colored couch in a brightly lit living room (0:07-0:09). The visual continuity of the handwriting and the character confirms the object is the same note, linking the two scenes."
+    },
+    {
+        "question": "How does the video show escalation from private distress in a hospital bed to a later high-stakes hospital emergency involving a child with an oxygen mask?",
+        "answer": "It moves from a distressed woman lying in a hospital bed to a critical pediatric emergency where a child is on oxygen and staff appear alarmed.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a woman distressed in a hospital bed with someone beside her. Step 2: Slice 53 shows an urgent hospital scene with a child wearing an oxygen mask and medical staff distressed. Conclusion: The hospital theme intensifies from adult patient care to life-or-death pediatric emergency.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows a woman lying in a hospital bed, distressed, in a relatively private, somber setting with a visitor or professional beside her. Step 2: Slice 53 depicts a later, more urgent hospital scenario with a child in critical condition wearing an oxygen mask, and a distressed medical professional engaged in serious communication, with concerned observers. Logic holds because the sequence clearly transitions from a private patient distress to a high-stakes emergency involving a critically ill child and visibly alarmed medical staff.",
+        "visual_proof": "Clip 1 shows a woman in distress lying in a hospital bed, reacting as another woman rushes to her side. Clip 2 transitions to a different scene showing a child in a hospital bed with an oxygen mask, surrounded by medical staff who are visibly distressed and concerned, indicating a high-stakes emergency."
+    },
+    {
+        "question": "What two scenes suggest the same emotional theme of solitary introspection, one in an empty auditorium and another with a man alone against a plain wall?",
+        "answer": "A man sits/stands in an empty red-seat auditorium, and later a man in a green shirt looks distressed against a plain indoor wall.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 20 depicts a solemn moment in an empty auditorium with red seats, emphasizing isolation. Step 2: Slice 41 shows a man in a green shirt alone against a plain wall, pensive and distressed. Conclusion: Both scenes visually reinforce loneliness and introspection.",
+        "logic_check_reasoning": "Step 1: Slice 20 describes a dimly lit auditorium with rows of red seats, largely empty, featuring a man in a dark suit standing and another person seated alone. The tone is contemplative and introspective, explicitly tied to 'MY DEMON'. Step 2: Slice 41 shows a man in a green shirt against a plain, light-colored wall, with a serious, pensive expression and an introspective tone, also under 'MY DEMON'. Logic holds because both scenes emphasize solitary introspection—one in an empty auditorium setting and the other with a single man against a plain wall—and the proposed answer accurately summarizes these visuals.",
+        "visual_proof": "Clip 1 shows two men in an empty auditorium with red seats; one is standing and the other is sitting, both appearing isolated. Clip 2 features a close-up of a man in a green shirt with a worried expression against a plain teal wall, reinforcing the theme of solitary introspection."
+    },
+    {
+        "question": "What three scenes together show the story’s shift between corporate urgency, personal reflection at home, and then renewed investigation through phone/contact details?",
+        "answer": "A tense office corridor scene, then a calm living-room wine scene, then a close-up of a phone contact profile and a letter being opened.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            44,
+            47,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows urgent movement and serious discussion in an office setting. Step 2: Slice 47 shows a woman at home calmly holding red wine, reflective. Step 3: Slice 76 shows a phone contact profile and a letter being read, suggesting investigation. Conclusion: The narrative oscillates from corporate pressure to private pause to investigative discovery.",
+        "logic_check_reasoning": "Step 1: Slice 44 describes a tense corridor interaction within a professional setting, matching the 'corporate urgency' scene. Step 2: Slice 47 shows a woman calmly drinking wine in a modern living room, aligning with 'personal reflection at home.' Step 3: Slice 76 features a close-up of a phone contact profile (Dodohee) and hands opening a letter, fitting 'renewed investigation through phone/contact details.' The proposed answer directly matches these scenes and their sequence.",
+        "visual_proof": "Clip 1 shows a woman in an office setting with colleagues, suggesting corporate urgency. Clip 2 shows the same woman alone on a sofa with a glass of wine, indicating personal reflection at home. Clip 3 shows a close-up of a phone screen displaying contact details (name, age, blood type) followed by the woman opening and reading a handwritten letter, which signifies renewed investigation through personal contacts."
+    },
+    {
+        "question": "What three moments connect a character’s distress in a bar/restaurant, to a later tearful close-up, suggesting ongoing emotional fallout?",
+        "answer": "A tense drinking-table scene, then a later bar conversation with heavy expressions, and finally a close-up of a man with a tear rolling down his cheek.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            87,
+            90,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 87 shows a tense group drinking scene where one man covers his face in distress. Step 2: Slice 90 shows a serious, emotionally heavy conversation between a woman in a white blazer and a man in a white shirt in a casual eatery. Step 3: Slice 79 shows a close-up of a man in a teal patterned shirt with a tear rolling down his cheek. Conclusion: Repeated alcohol/restaurant scenes build toward visible emotional breakdown.",
+        "logic_check_reasoning": "Step 1: Slice 87 shows a tense drinking-table scene in a dimly lit bar/restaurant, with characters displaying distress (e.g., a man in a white shirt covering his face, serious expressions, a woman drinking deliberately). Step 2: Slice 90 depicts a subsequent indoor eatery/café conversation between a woman in a white blazer and a man in a white shirt, with somber, heavy expressions and a tense mood, reinforcing ongoing emotional strain. Step 3: Slice 79 presents a close-up of a man with a tear rolling down his cheek, clearly showing emotional fallout. Logic holds because these three distinct moments escalate from initial distress in a social drinking setting, to a later intimate, tense dialogue, and culminate in a tearful close-up, matching the proposed sequence.",
+        "visual_proof": "Clip 1 shows a group at a table in a restaurant/bar with visible tension. Clip 2 features the same characters in a similar setting, displaying serious and heavy expressions during a conversation. Clip 3 provides a close-up of a man's face with a visible tear rolling down his cheek, indicating emotional distress."
+    },
+    {
+        "question": "What three scenes show a woman’s emotional journey from professional seriousness, to private breakdown, to a renewed confrontation outdoors at night?",
+        "answer": "She is serious in professional meetings, later distressed indoors with her hand on her head, and later faces a tense nighttime confrontation scene with a suited man in a city-lit setting.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            57,
+            71,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows a woman in a serious office meeting across a desk with a tablet. Step 2: Slice 71 shows the same white-blazer woman distressed indoors, hand to her head/face. Step 3: Slice 73 shows a nighttime outdoor confrontation-like conversation between a suited man and a woman. Conclusion: Her state moves from controlled professionalism to emotional turmoil to high-stakes confrontation.",
+        "logic_check_reasoning": "Step 1: Slice 57 shows a woman in a professional, serious office setting, matching 'serious in professional meetings.' Step 2: Slice 71 depicts a woman indoors who is distressed with her hand on her head, supporting 'distressed indoors with her hand on her head.' Step 3: Slice 73 presents a nighttime outdoor confrontation between a woman and a suited man with a city-lit backdrop, aligning with 'a tense nighttime confrontation scene with a suited man in a city-lit setting.' The scenes logically map to the described emotional journey.",
+        "visual_proof": "Clip 1 shows the woman in a formal office setting, engaged in a serious meeting. Clip 2 shows her indoors, visibly distressed, holding her head in apparent anguish. Clip 3 shows her outdoors at night, standing face-to-face with a man in a suit against a backdrop of city lights, indicating a tense confrontation."
+    },
+    {
+        "question": "How do four different scenes build the theme of pursuit and danger, moving from a foggy run, to a dark road drive, to a street ambush, and finally to an injured man shown close-up?",
+        "answer": "It starts with a frightened woman running in fog, then a car driving down a dark wet road, then an armed group confronting a woman in the street, and finally a close-up of a bloodied injured man.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            23,
+            93,
+            94
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a woman running away in a foggy, dangerous-feeling night scene. Step 2: Slice 23 shows a car driving down a dark wet road, heightening suspense. Step 3: Slice 93 shows a woman in a white suit facing an apparent street ambush by men in black suits with batons. Step 4: Slice 94 shows a close-up of a young man with blood on his face, distressed. Conclusion: The video escalates from pursuit atmosphere to confrontation and injury.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows a dark, foggy scene with a woman running and looking fearful, supporting 'a frightened woman running in fog.' Step 2: Slice 23 depicts a car driving down a dark, wet road with a tense mood, matching 'a car driving down a dark wet road.' Step 3: Slice 93 presents a woman confronting a group of men with batons and engaging in a fight, consistent with 'an armed group confronting a woman in the street.' Step 4: Slice 94 provides a close-up of a distressed young man with blood on his face, fitting 'a close-up of a bloodied injured man.' The sequence and elements in the proposed answer are directly supported by the described scenes.",
+        "visual_proof": "Clip 1 shows a woman running in a foggy, dimly lit environment, looking back in fear. Clip 2 shows a white car driving on a dark, wet road at night, followed by a close-up of the woman's anxious face inside the car. Clip 3 depicts a woman in a white suit being confronted by a group of men holding sticks or bats in a narrow, neon-lit alleyway. Clip 4 presents a close-up of a young man with blood on his face and neck, indicating he is injured."
+    },
+    {
+        "question": "How do four scenes illustrate the recurring motif of intimate hand contact evolving from symbolic closeness to active support during crisis?",
+        "answer": "Hands clasp in a symbolic close-up, then the pair walks hand-in-hand in the city, later the woman urgently embraces the man in a dark garden, and later their hands interlock again amid injury and distress.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            27,
+            40,
+            61,
+            94
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows a close-up of clasped hands forming an intimate symbolic shape. Step 2: Slice 40 shows a woman holding a man’s hand while guiding him through the night city, indicating support. Step 3: Slice 61 shows an urgent embrace in a dark garden/forest setting, escalating intimacy to desperation. Step 4: Slice 94 shows interlocked hands again alongside an injured, bloodied man, turning intimacy into crisis support. Conclusion: Hand contact progresses from symbolism to protective support and emergency bonding.",
+        "logic_check_reasoning": "Step 1: Slice 27 shows a close-up of clasped hands, framed symbolically (heart-like shape), establishing intimate, introspective closeness. Step 2: Slice 40 shows the pair walking in a city with the woman holding the man's hand and guiding him, indicating supportive hand contact. Step 3: Slice 61 depicts the woman urgently embracing the man in a dark garden, escalating the physical support during an emotionally intense moment. Step 4: Slice 94 opens with interlocked hands and then reveals the man injured and distressed, showing hand contact again functioning as support amid crisis. The progression from symbolic closeness to active support is consistently supported across the four slices.",
+        "visual_proof": "Clip 1 shows a close-up of hands clasping with a red cross symbol. Clip 2 shows the couple walking hand-in-hand on a city street at night. Clip 3 depicts the woman embracing the man in a dark, outdoor setting. Clip 4 shows their hands interlocked again, with the man visibly injured and bleeding."
+    },
+    {
+        "question": "What evidence suggests a shift from a mysterious foggy chase-like opening to a calm daytime corporate awards atmosphere, and what are the two contrasting settings?",
+        "answer": "It shifts from a foggy, dark night scene with a woman running to a bright, formal CEO awards event with a red carpet.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a dark, foggy night scene with a frightened woman running. Step 2: Slice 5 shows a modern, elegant 'Korea CEO Awards' red-carpet event in bright formal lighting. Conclusion: The video contrasts eerie pursuit-like atmosphere with a polished corporate celebration.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes a dark, foggy scene with a woman running and a tense, eerie atmosphere, clearly indicating a mysterious, chase-like opening. Step 2: Evidence Slice 5 describes a modern, elegant 'Korea CEO Awards' ceremony with chandeliers, formal attire, and a red carpet, indicating a calm, corporate awards atmosphere. Logic holds because the two slices present contrasting settings: the foggy nighttime chase versus the formal awards event, and the red carpet specifically supports the corporate awards setting mentioned in the answer.",
+        "visual_proof": "Clip 1 opens with a dark, teal-tinted, foggy scene at night where a woman is seen running, creating a mysterious and tense atmosphere. Clip 2 transitions to a brightly lit, daytime setting inside a grand hall for the '2023 KOREA CEO AWARDS,' featuring a red carpet, chandeliers, and formally dressed attendees, establishing a calm, corporate, and celebratory environment."
+    },
+    {
+        "question": "The video shows an underwater struggle and later a separate underwater fight. What changes about who seems to be involved, based on clothing color cues?",
+        "answer": "One underwater sequence shows a pink-dressed woman swimming; later it shows a fight between someone in a white shirt and someone in black.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 29 includes an underwater scene with a woman in a pink dress swimming. Step 2: Slice 34 shows an underwater altercation between a person in a white shirt and another dressed in black. Conclusion: The underwater imagery shifts from graceful swimming to violent conflict with contrasting outfits.",
+        "logic_check_reasoning": "Step 1: Slice 29 describes an underwater scene featuring a woman in a pink dress swimming. Step 2: Slice 34 describes a separate underwater fight between two individuals, one in a white shirt and the other in black. Logic holds because the clothing color cues change from a single pink-dressed swimmer to a confrontation involving white and black attire, matching the proposed answer.",
+        "visual_proof": "In the first clip, at 0:02-0:04, a woman in a distinct pink sweater is shown struggling underwater. In the second clip, at 0:01-0:02, two individuals are engaged in an underwater struggle; one is clearly wearing a white collared shirt, while the other is in a dark, likely black, top."
+    },
+    {
+        "question": "How does the story connect a woman’s urgent phone-driven tension to a later moment where she is shown walking into a dangerous street confrontation in a white suit?",
+        "answer": "She is first shown in urgent phone-related distress and later is shown taking direct action by confronting a group of armed men on a neon-lit street.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            60,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a woman in urgent distress during a phone call and then moving briskly through a hospital-like corridor. Step 2: Slice 60 shows phone text messages and the woman speaking seriously on the phone in a car at night. Step 3: Slice 93 shows a woman in a white suit walking into a confrontation with men in black suits holding batons. Conclusion: Repeated phone-driven urgency culminates in decisive physical action on the street.",
+        "logic_check_reasoning": "Step 1: Slice 7 and Slice 60 depict a woman experiencing urgent, serious tension tied to phone communication (phone call and text conversation). Step 2: Slice 93 shows a woman in a white suit walking into a tense, dangerous street scene and engaging in a fight with men holding weapons under neon-lit city lights. Step 3: The logic holds because the same video (“MY DEMON”) presents escalating narrative beats from phone-driven urgency to direct confrontation, and the visual details (urban night setting, recurring title) support continuity.",
+        "visual_proof": "In Clip 1, a woman is seen in distress while on the phone in a hospital setting. In Clip 2, another woman is shown on the phone in a car at night, looking tense. In Clip 3, a woman in a white suit walks purposefully down a neon-lit street toward a group of men, some holding sticks or weapons, culminating in a physical confrontation. The sequence visually links her earlier emotional state during phone calls to her later decisive, confrontational action."
+    }
+]

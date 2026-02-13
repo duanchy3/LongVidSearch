@@ -1,0 +1,80 @@
+[
+    {
+        "question": "A large Spanish-speaking population statistic appears early in the video. Later, a Spain population statistic is shown in a demographics graphic. What are those two numbers?",
+        "answer": "\"500 Mil+\" and \"48 million.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            42
+        ],
+        "reasoning_chain": "Step 1: Early overlay shows a speech bubble with the Spanish flag and '500 Mil+'. Step 2: Later 'Spain Demographics' shows '48 million'. Conclusion: The two numbers are 500 Mil+ and 48 million.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 describes an early graphic with a speech bubble and Spanish flag showing the text \"500 Mil+\", indicating a large Spanish-speaking population figure. Step 2: Evidence Slice 42 shows a demographics graphic stating \"48 million\" for Spain's population. Logic holds because the first number matches the early Spanish-speaking statistic and the second matches the later Spain population statistic.",
+        "visual_proof": "In the first clip, a speech bubble next to the speaker clearly displays the Spanish flag and the text '500 Mil+'. In the second clip, the 'SPAIN DEMOGRAPHICS' graphic prominently features the number '48 million' inside a large circle."
+    },
+    {
+        "question": "Which minor Latin-based languages are listed, and which separate segment names a distinct language associated with Sephardic Jews?",
+        "answer": "Astur-Leonese, Aragonese, and Occitan; and Ladino.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            48
+        ],
+        "reasoning_chain": "Step 1: One segment lists 'Minor Latin-based' languages: Astur-Leonese, Aragonese, Occitan. Step 2: Another segment labels 'Ladino (Sephardic Jews).' Conclusion: Those are the languages referenced.",
+        "logic_check_reasoning": "Step 1: Slice 47 explicitly shows the text 'Minor Latin-based' followed by a list including Astur-Leonese, Aragonese, and Occitan. Step 2: Slice 48 shows the text 'Ladino (Sephardic Jews)', naming Ladino as a distinct language associated with Sephardic Jews. Logic holds because the first part directly lists minor Latin-based languages from Slice 47, and the second part identifies Ladino from a separate segment in Slice 48.",
+        "visual_proof": "In Video 1 (0:13-0:19), the on-screen text explicitly lists 'Minor Latin-based: -Astur-Leonese -Aragonese -Occitan ....etc'. In Video 2 (0:00-0:05), the on-screen text clearly displays 'Ladino (Sephardic Jews)'. Both pieces of information are directly visible in the provided clips."
+    },
+    {
+        "question": "Two separate segments highlight Spanish films with posters. Name one joint Spanish/Mexican film mentioned and the historical drama film title shown later.",
+        "answer": "\"Pan’s Labyrinth\" and \"Juana La Loca.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            73,
+            74
+        ],
+        "reasoning_chain": "Step 1: The film segment shows the poster for Pan’s Labyrinth and notes it is Spanish/Mexican. Step 2: Another segment shows the poster for Juana La Loca. Conclusion: Pan’s Labyrinth and Juana La Loca.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 73 explicitly mentions the film 'Pan’s Labyrinth' and identifies it as a joint Spanish/Mexican production with its poster shown. Step 2: Evidence Slice 74 describes a later segment featuring a poster for 'Juana La Loca,' presented as a historical drama. Logic holds because the question asks for one joint Spanish/Mexican film and the historical drama shown later, which are directly supported by the two slices.",
+        "visual_proof": "In Clip 1, a poster for 'Pan's Labyrinth' is shown with text below it explicitly stating '*Joint Spanish/ Mexican production'. In Clip 2, a poster for the film 'Juana la Loca' is displayed next to the speaker, clearly showing its title."
+    },
+    {
+        "question": "Which two countries’ flags are shown at different times: one during the presenter’s early introduction sequence and the other during the end credits?",
+        "answer": "Spain and Sri Lanka.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            91
+        ],
+        "reasoning_chain": "Step 1: Early on, the presenter is shown with national flags cycling, including Spain. Step 2: In the closing credits, the Sri Lankan flag appears. Conclusion: The two countries are Spain and Sri Lanka.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes the early introduction with a man presenting while flags appear in the upper right, specifically listing Spain among them. Step 2: Evidence Slice 91 describes the end credits and explicitly notes the Sri Lankan flag appearing in the upper right. Logic holds because the question asks for one flag from the early introduction (Spain) and one from the end credits (Sri Lanka), both directly supported by the respective slices.",
+        "visual_proof": "In Video 1 (0:00-0:02), the flag of Spain is displayed in the top right corner while the presenter speaks. In Video 2 (0:02), during a group shot, the flag of Sri Lanka appears in the top right corner. These are the only two flags shown in these specific contexts — one during the early presentation and the other during the end credits sequence."
+    },
+    {
+        "question": "Which topic label appears when a board-game style segment is introduced, and later what word is shown to point viewers toward more information about Spain’s regions?",
+        "answer": "\"Political Geography\" and \"Autonomies.\"",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            57
+        ],
+        "reasoning_chain": "Step 1: The game/board segment is labeled 'Political Geography.' Step 2: Later a resource plug shows 'SPAIN Autonomies.' Conclusion: The labels are Political Geography and Autonomies.",
+        "logic_check_reasoning": "Step 1: Slice 6 states that the camera cuts to a game board with pieces and the words 'Political Geography' appear, identifying the topic label for the board-game style segment. Step 2: Slice 57 states that text appears saying 'Check this out for more!' accompanied by a logo that says 'SPAIN Autonomies,' which points viewers toward more information about Spain’s regions. Logic holds because the first slice explicitly names the topic label and the second explicitly shows the word associated with Spain’s regions.",
+        "visual_proof": "At 0:15 in Clip 1, a board-game style segment is introduced with a map and dice, which visually represents 'Political Geography.' In Clip 2 at 0:03, the text 'SPAIN Autonomies' appears on screen as the presenter points to it, directing viewers to more information about Spain's regions."
+    },
+    {
+        "question": "Which city is highlighted as Spain’s capital in the geographic map segment, and which statistic about Spain’s tourism rank is shown later?",
+        "answer": "Madrid, and \"2nd most visited ~83 million (2019).\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            15
+        ],
+        "reasoning_chain": "Step 1: The Spain map segment highlights Madrid as the capital. Step 2: Later a text overlay states '2nd most visited ~83 million (2019).' Conclusion: Madrid and the tourism statistic are the answers.",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly states that Madrid is highlighted as the capital city during the geographic map segment. Step 2: Slice 15 shows on-screen text reading \"2nd most visited ~83 million (2019)\", indicating Spain’s tourism rank and visitor count. Logic holds because the first part identifies the capital in the map portion, and the later slice presents the tourism statistic.",
+        "visual_proof": "In Clip 1, at 0:39, the map zooms in on Madrid, which is explicitly labeled with an orange tag and a white star. In Clip 2, at 0:00, text on screen clearly states '2nd most visited ~83 million (2019)' while three people are speaking."
+    }
+]

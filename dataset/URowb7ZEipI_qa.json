@@ -1,0 +1,136 @@
+[
+    {
+        "question": "What is the name shown in the space-themed intro logo, and what object in the host’s room visually matches that intro theme?",
+        "answer": "The name is “Sci Man Dan,” and the matching object is a globe on the bookshelf.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            1
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the space-themed intro logo text “Sci Man Dan.” Step 2: Slice 1 shows a globe on the bookshelf behind the host. Conclusion: The logo name is Sci Man Dan and the globe in the room matches the Earth/space theme.",
+        "logic_check_reasoning": "Step 1: Slice 12 states the intro ends with a stylized logo showing the text 'Sci Man Dan.' Step 2: Slice 1 notes there is a globe on the bookshelf in the host’s room. Logic holds because the intro is space/Earth-themed (explicitly showing Earth), and a globe visually matches that theme.",
+        "visual_proof": "In Clip 1, the animated intro clearly displays the text 'Sci Man Dan' over a stylized Earth. In Clip 2, a physical globe is visibly placed on the lower right shelf behind the host, directly echoing the planetary theme of the intro."
+    },
+    {
+        "question": "How does the video connect Earth imagery from a web search to a later cinematic view of the planet, and what shared subject ties them together?",
+        "answer": "It shows Earth images in a Google Images search and later shows a detailed Earth-from-space view; both are about Earth seen from space.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows Google Images results focused on Earth from space. Step 2: Slice 30 shows a detailed view of Earth from space centered on North America. Conclusion: Both segments share the subject of Earth imagery from space.",
+        "logic_check_reasoning": "Step 1: Slice 38 describes a Google Images search results page showing various images of Earth from space, with a central large Earth image and many thumbnails. Step 2: Slice 30 describes a detailed, cinematic view of Earth from space with a camera pan focusing on North America. Logic holds because both slices depict Earth imagery from space, and the proposed answer states the video shows Earth images via a web search and later shows a detailed Earth-from-space view, tied together by the shared subject of Earth seen from space.",
+        "visual_proof": "Clip 1 visually displays a Google Images search page filled with thumbnails of Earth from space, with one large image of Earth centered on the screen. Clip 2 provides a cinematic, high-resolution, rotating view of Earth from space, focusing on North America. The shared subject is clearly Earth as viewed from an orbital perspective."
+    },
+    {
+        "question": "How does the video shift its explanation of motion from a math formula graphic to a real-world maritime context mentioned in text?",
+        "answer": "It goes from distance–speed–time diagrams to text discussing navigation challenges (distance affecting speed) in the Southern Ocean.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            8,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 10 presents the formula relationships among distance, speed, and time. Step 2: Slice 8 shows text explicitly discussing distance and speed in maritime navigation (Southern Ocean). Step 3: Slice 2 visually reinforces the maritime theme with an image of a ship in icy waters. Conclusion: The video connects formula-based motion to maritime navigation examples.",
+        "logic_check_reasoning": "Step 1: Slice 10 describes a math-focused segment using diagrams and formulas (Distance = Speed x Time) and numerical examples, clearly covering motion via distance–speed–time graphics. Step 2: Slice 8 describes a later segment with text explaining maritime navigation in the Southern Ocean, specifically discussing the relationship between distance and speed and navigation challenges, including an emphasis that longer distances result in slower speeds. Step 3: Slice 2 reinforces the maritime context with visuals of a ship in icy waters alongside a speaker, supporting the real-world application. Logic holds because the video is shown to move from abstract math representations to applied maritime navigation text, exactly as the proposed answer states.",
+        "visual_proof": "Clip 1 visually displays the mathematical formulas for Distance, Time, and Speed using triangle diagrams. Clip 2 transitions to a text overlay that explicitly mentions 'the longer the distance the slower the speed' and references sailing in the 'southern ocean,' connecting the math to real-world maritime navigation challenges."
+    },
+    {
+        "question": "How does the video move from a conceptual question about the atmosphere moving with Earth to a different weather explanation involving pressure systems?",
+        "answer": "It asks whether the atmosphere moves with the spinning globe, then later shows an animation of air moving from high pressure to low pressure.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            23,
+            25,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows the ship/helicopter graphic with the question about the atmosphere moving with Earth. Step 2: Slice 25 repeats the same question in a static explanatory frame. Step 3: Slice 27 shows an animation explaining airflow from high pressure (HH) to low pressure (LL). Conclusion: The narrative shifts from a broad rotation/atmosphere question to a pressure-driven wind explanation.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows the text 'SO THE ATMOSPHERE MOVES WITH THE GLOBE AS IT SPINS?' above a ship labeled 'EARTH,' introducing a conceptual question about atmospheric movement with Earth's rotation. Step 2: Slice 25 reiterates the same question in a minimalist, static illustration, emphasizing the conceptual focus. Step 3: Slice 27 presents an educational animation about pressure systems, explicitly depicting air moving from high pressure (HH) to low pressure (LL) with an arrow and associated descriptions. Logic holds because the video transitions from posing a broad question about atmospheric motion to a concrete weather explanation demonstrating air movement from high to low pressure.",
+        "visual_proof": "Clip 1 and Clip 2 show a silhouette of a ship labeled 'EARTH' with a helicopter above it. Text appears asking, 'SO THE ATMOSPHERE MOVES WITH THE GLOBE AS IT SPINS?'. Clip 3 transitions to a different scene showing a landscape with a 'L' (low pressure) system and a 'H' (high pressure) system, with a large arrow indicating air movement from H to L, labeled 'rising warm air' and 'cool air'. This visually confirms the transition from the conceptual question about Earth's rotation to an explanation of pressure-driven wind."
+    },
+    {
+        "question": "How does the video visually link the channel branding to the Earth theme using both a logo and a later cartoon scene?",
+        "answer": "The intro shows “Sci Man Dan,” and later a cartoon features a globe with “Sci Man Dan” written on it.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 12 displays the channel name “Sci Man Dan” in the intro logo. Step 2: Slice 78 shows a cartoon globe with the words “Sci Man Dan.” Conclusion: Branding is reinforced through repeated Earth-themed logo usage.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes an intro that transitions to a stylized logo featuring a cartoon character and the text 'Sci Man Dan,' confirming the intro shows the channel name. Step 2: Slice 78 shows a later cartoon scene with a globe behind a cartoon man and the words 'Sci Man Dan' written on the globe, confirming the globe carries the channel branding. Logic holds because both slices explicitly show the channel name visually, first as a logo in the intro and later integrated with a globe, linking branding to the Earth theme.",
+        "visual_proof": "Clip 1 ends with the text 'Sci Man Dan' appearing over a stylized globe. Clip 2 opens with a cartoon character next to a globe logo that also has 'Sci Man Dan' written on it, visually linking the branding to the Earth theme across both scenes."
+    },
+    {
+        "question": "What is one major change in the host’s on-camera emotional state, and which later segment contrasts it by showing him presenting normally again?",
+        "answer": "He covers his face in frustration, then later he appears composed and speaking normally in front of the bookshelf.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows the host distressed, repeatedly covering his face. Step 2: Slice 65 shows him calmly speaking and gesturing in the same bookshelf setting. Conclusion: His visible emotional state changes from frustration to normal presentation.",
+        "logic_check_reasoning": "Step 1: Slice 43 describes the man repeatedly covering his face and being in distress or frustration, indicating a tense emotional state. Step 2: Slice 65 shows the same man in the same setting speaking to the camera, gesturing, and engaging in an informative dialogue, which indicates he is presenting normally. Logic holds because the first slice shows frustration and the later slice contrasts it with normal, composed presentation in the same environment.",
+        "visual_proof": "In Video 1 (0:01-0:02), the man is visibly covering his face with his hand, indicating a moment of frustration or exasperation. In Video 2 (0:03-0:42), he is sitting upright, making eye contact with the camera, and using hand gestures while speaking, which demonstrates a composed and normal presenting state."
+    },
+    {
+        "question": "How does the video tie together a globe shown as a standalone visual with the same kind of object repeatedly present behind the host?",
+        "answer": "A standalone close-up shows a globe on the floor, and the host’s bookshelf scenes repeatedly include a globe on a shelf.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            1
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows two images of a globe by itself on a wooden floor. Step 2: Slice 1 shows a globe on the bookshelf behind the host. Conclusion: The globe is emphasized both as an isolated object and as a recurring background item.",
+        "logic_check_reasoning": "Step 1: Slice 40 describes two side-by-side images focusing solely on a globe placed on a wooden floor, which supports the 'standalone close-up' aspect. Step 2: Slice 1 describes the host seated with a bookshelf behind him that includes a globe, and notes the setting remains consistent throughout the frames, implying the globe appears repeatedly in those scenes. Logic holds because both slices feature a globe—one as a standalone visual and one consistently present behind the host—matching the proposed tie-in.",
+        "visual_proof": "Clip 1 shows a close-up of a vintage-style globe resting on a wooden floor. Clip 2 features a man seated in front of a bookshelf, on which an identical globe is visibly placed on the bottom right shelf. The visual continuity of the same object in different contexts (isolated vs. in the host's environment) ties the clips together."
+    },
+    {
+        "question": "Across the video, how does the setting shift between an educational bookshelf talk and a minimalist symbolic animation, and what recurring topic connects them?",
+        "answer": "It alternates between the host speaking in front of the bookshelf and minimalist ship/helicopter graphics; the connecting topic is Earth/atmosphere/rotation ideas.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            23,
+            25,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows the host teaching in front of the bookshelf. Step 2: Slice 23 shows the minimalist ship labeled Earth with a question about atmosphere and rotation. Step 3: Slice 25 repeats the same conceptual graphic/question in a static illustration. Step 4: Slice 27 provides a related weather mechanism (pressure-driven wind). Conclusion: The video toggles between live talk and symbolic animation to discuss Earth/atmospheric behavior.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a man speaking in front of a bookshelf in an educational setting, indicating a host-led talk segment. Step 2: Slice 23 states the video begins with a minimalist animation (helicopter over a ship labeled 'EARTH') posing the question about whether the atmosphere moves with Earth's rotation. Step 3: Slice 25 reiterates the minimalist ship/helicopter graphic with the same atmosphere/rotation question. Step 4: Slice 27 presents another educational animation about air pressure and wind, reinforcing the atmospheric science theme. Logic: These slices demonstrate shifts between a host-in-front-of-bookshelf talk and minimalist educational animations. The content of the animations explicitly focuses on Earth's atmosphere, rotation, and air movement, which serves as the recurring connecting topic. The sequence (animation at start, host segment, then animation again) supports the characterization that it alternates between these settings.",
+        "visual_proof": "Clip 1 shows a man (the host) speaking directly to the camera in front of a detailed bookshelf. Clips 2 and 3 show minimalist black silhouettes of a ship labeled 'EARTH' and a helicopter, with text asking about the atmosphere moving with the globe. Clip 4 shows another minimalist animation related to air pressure ('rising warm air', 'cool air'). The consistent visual shift from the live host to symbolic animations and the recurring textual/visual themes of 'EARTH' and atmospheric movement confirm the original answer."
+    },
+    {
+        "question": "How does the video transition between the host’s bookshelf explanation and an unrelated meme-style outro speaker, and what viewer-facing message marks the outro?",
+        "answer": "It switches from the bookshelf host to a young man speaking to camera; the outro message is “Thank you for watching. Like and subscribe for more low-effort memes.”",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows the host in front of the bookshelf delivering content (BIGVU watermark present). Step 2: Slice 59 shows a different young man with the closing subtitle asking viewers to like and subscribe for more low-effort memes. Conclusion: The video shifts to an outro-style meme segment marked by that message.",
+        "logic_check_reasoning": "Step 1: Slice 58 describes a man speaking in front of a bookshelf with an educational/informative tone. Step 2: Slice 59 describes a different young man on a plain white background speaking directly to camera with a casual, meme-oriented tone and on-screen subtitles. Logic holds because the two distinct scenes indicate a switch from the bookshelf host to the outro speaker, and Slice 59 explicitly provides the viewer-facing outro message: \"Thank you for watching. Like and subscribe for more low-effort memes.\"",
+        "visual_proof": "Clip 1 shows a man seated in front of a bookshelf with visible items like books, a dinosaur model, and a globe. Clip 2 abruptly cuts to a different, younger-looking man in a dimly lit room with plain walls, speaking directly to the camera. Text overlays in Clip 2 clearly display the message: 'Thank you for watching. Like and subscribe for more low-effort memes.' The visual transition and text confirm the original answer."
+    },
+    {
+        "question": "Which handheld item does the host use as a prop later that parallels the earlier animation where Earth is represented as a ship?",
+        "answer": "He later holds a ball (globe-like) as a prop, paralleling the ship labeled “EARTH.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 19 depicts Earth symbolized as a ship labeled “EARTH.” Step 2: Slice 45 shows the host holding a green/white/blue ball resembling a globe/Earth. Conclusion: The globe-like ball parallels the earlier Earth-as-ship representation.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes an earlier static animation showing a ship labeled 'EARTH,' establishing the Earth-themed context. Step 2: Slice 45 shows the host later holding a green, white, and blue ball while speaking and gesturing, indicating he uses the ball as a prop. Logic holds because the question asks which handheld item the host uses later that parallels the earlier Earth-themed animation, and Slice 45 explicitly mentions the ball.",
+        "visual_proof": "In Video 1, Earth is visually represented as a black silhouette of a ship with the word 'EARTH' on its side. In Video 2, the host holds up a multi-colored ball (green, white, and blue sections) that resembles a stylized globe, using it as a prop while speaking. The ball serves as a physical, handheld representation of Earth, paralleling the conceptual representation in the animation."
+    }
+]

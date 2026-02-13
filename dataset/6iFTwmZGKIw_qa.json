@@ -1,0 +1,141 @@
+[
+    {
+        "question": "Which vegetable is first diced and transferred into a bowl, and later a different vegetable is identified on-screen as 'Paprika - 1 pc' while being cut?",
+        "answer": "Tomatoes are diced and transferred into a bowl first, and later a red bell pepper is shown as 'Paprika - 1 pc.'",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows tomatoes being diced and scooped into a bowl. Step 2: Slice 9 shows cutting a bell pepper with the overlay 'Paprika - 1 Stk.' Conclusion: Tomatoes come first; then the labeled bell pepper.",
+        "logic_check_reasoning": "Step 1: Slice 8 states that tomatoes are being diced and then transferred into a bowl. Step 2: Slice 9 indicates a red bell pepper is being cut, with an on-screen text overlay reading 'Paprika - 1 Stk' (Bell Pepper - 1 pc). Logic holds because the first vegetable (tomatoes) is clearly identified as diced and moved to a bowl, and the later scene explicitly labels the bell pepper as 'Paprika - 1 pc' during cutting.",
+        "visual_proof": "In Video 1, tomatoes are visibly diced on a wooden board and then transferred into a bowl containing shredded cabbage. In Video 2, a red bell pepper is placed on the same wooden board, cut open, and text appears on screen identifying it as 'Paprika - 1 Stk' (Stk being an abbreviation for Stück, meaning piece)."
+    },
+    {
+        "question": "What ingredient is grated directly into sour cream to make a sauce, and later what aromatic is crushed and minced on a cutting board as another prep step?",
+        "answer": "A cucumber is grated into sour cream, and garlic is crushed and minced.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows cucumber grated into sour cream for a sauce. Step 2: Slice 40 shows garlic cloves being crushed and minced. Conclusion: The sauce uses cucumber; garlic is prepped separately afterward.",
+        "logic_check_reasoning": "Step 1: Slice 38 states that a cucumber is grated directly into a bowl of sour cream, with an overlay confirming 'Cucumber - 1 pc'. Step 2: Slice 40 shows garlic cloves being crushed with the flat side of a knife and then minced on a cutting board. Logic holds because the two slices clearly depict the specific actions: grating cucumber into sour cream and crushing/mincing garlic.",
+        "visual_proof": "In Video 1, a green cucumber is visibly grated directly over a bowl of sour cream. In Video 2, two cloves of garlic are placed on a wooden cutting board, crushed with the flat side of a knife, and then finely minced."
+    },
+    {
+        "question": "Which ingredient is added to the sautéed vegetables to turn them into a red sauce, and later what topping is sprinkled over the baked tray dish?",
+        "answer": "Tomato paste is added to the vegetables, and shredded cheese is sprinkled on top of the baked tray dish.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            64,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows tomato paste being added and mixed into the vegetables, creating a red saucy mixture. Step 2: Slice 84 shows shredded cheese being sprinkled over the tray dish with the instruction 'Sprinkle with cheese.' Conclusion: Tomato paste creates the red base; cheese is the later topping.",
+        "logic_check_reasoning": "Step 1: Slice 64 says a spoonful of tomato paste is added to a pan of sautéed vegetables and mixed in, which addresses the ingredient added to make the mixture red. Step 2: Slice 84 shows a person sprinkling shredded cheese over a dish in a baking tray, with on-screen text confirming 'Sprinkle with cheese.' Logic holds because the first slice supports tomato paste being added to vegetables, and the second slice explicitly shows shredded cheese being sprinkled over the baked tray dish.",
+        "visual_proof": "In Video 1, a red tube labeled 'Tomato paste - 1 tbsp' is squeezed over sautéed vegetables. In Video 2, a hand sprinkles shredded white cheese over a baked tray dish, with text overlays confirming 'Sprinkle with cheese'."
+    },
+    {
+        "question": "After the initial egg mixture is whisked in a glass bowl, what liquid is added next, and what ingredient is later added in a measured amount of 200 g while whisking?",
+        "answer": "Milk is added next, and later flour (200 g) is added while whisking.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows milk (1 cup) being poured into the whisked egg mixture. Step 2: Slice 4 shows flour added with a label indicating 200 g (0.20 kg). Conclusion: The sequence is milk, then measured flour.",
+        "logic_check_reasoning": "Step 1: Slice 2 states that a liquid mixture, which appears to be eggs, is whisked and then milk (1 cup, 240 ml) is added next while whisking. Step 2: Slice 4 specifies that flour is later added from a measuring cup labeled 0.20 kg/200 g and is whisked into the mixture. Logic holds because the sequence clearly shows milk added after eggs, and flour (200 g) added later while whisking.",
+        "visual_proof": "In Clip 1, after the eggs are whisked, milk is poured into the bowl, confirmed by the on-screen text 'Milk - 1 cup' and 'Milch - 240 ml'. In Clip 2, flour is added to the mixture while whisking, with on-screen text stating 'Flour - 0.45 lb' and 'Mehl - 200 g', confirming the measured amount."
+    },
+    {
+        "question": "A bowl of shredded greens gets eggs and seasoning early on; later, flour and baking powder are added. What seasonings are added to the eggs before the flour step begins?",
+        "answer": "Salt and black pepper.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            26,
+            27,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows eggs added to shredded greens and salt sprinkled on top. Step 2: Slice 27 shows black pepper being added from a grinder to the egg-and-greens bowl. Step 3: Slice 33 shows flour added later as the mixture progresses. Conclusion: The seasonings before flour are salt and black pepper.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows eggs cracked into shredded greens and explicitly mentions salt being sprinkled; the on-screen text also says 'Salt'. Step 2: Slice 27 shows the same bowl with eggs and greens and explicitly notes black pepper being added from a grinder. Step 3: Slice 33 shows that later flour is added (along with cheese), confirming the seasoning occurred before the flour step. Therefore, the seasonings added before the flour step are salt and black pepper.",
+        "visual_proof": "In Video 1 (0:03-0:05), salt is visibly sprinkled over the eggs in the bowl, with on-screen text confirming 'Salt' and 'Salz'. In Video 2 (0:02-0:04), black pepper is ground over the same mixture, confirmed by on-screen text 'Black pepper' and 'Schwarzer Pfeffer'. These actions occur before any cheese or other ingredients are added, and no flour or baking powder is shown being added in any of the clips."
+    },
+    {
+        "question": "A savory batter is poured into an oiled pan, then later the cooking instruction says to brown it on each side for 3–5 minutes, and finally multiple pancakes are stacked on a plate. What cooking tool is used both to spread/flip in the pan and to handle the pancakes during stacking?",
+        "answer": "A spatula.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            17,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows batter poured into an oiled pan and spread with a spatula. Step 2: Slice 17 shows the omelette/pancake being checked and flipped with a spatula with timing guidance. Step 3: Slice 20 shows pancakes being flipped and stacked (with a spatula implied in the flipping action). Conclusion: The recurring tool is the spatula.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly states that the person uses a spatula to spread the savory batter in the pan. Step 2: Slice 17 explicitly mentions the spatula being used to lift and flip the omelette, aligning with the 3–5 minute browning instruction. Step 3: Slice 20 explicitly states the person flips the pancakes using a spatula and then stacks them on a plate; this indicates the spatula is the tool involved in handling the pancakes during the stacking process. Logic holds because the same tool (spatula) is mentioned as used for spreading/flip in the pan and is directly associated with the step where pancakes are handled and stacked.",
+        "visual_proof": "In Clip 1, a wooden spoon is used to stir the batter, but in Clip 2, a black slotted spatula is clearly shown flipping the pancake in the pan. In Clip 3, the same type of spatula is used to lift and stack the cooked pancakes onto a plate. This confirms the spatula is the tool used for both spreading/flip and handling during stacking."
+    },
+    {
+        "question": "In the pasta-bake sequence, what is used to transfer spaghetti into the tray, what ingredient is sprinkled on top later, and what happens immediately after baking when serving begins?",
+        "answer": "Wooden tongs transfer the spaghetti, shredded cheese is sprinkled on top, and then the baked dish is cut into squares for serving.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            79,
+            84,
+            87,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 79 shows wooden tongs transferring spaghetti into the parchment-lined tray. Step 2: Slice 84 shows shredded cheese being sprinkled on top. Step 3: Slice 87 shows the finished baked dish being removed from the oven. Step 4: Slice 90 shows the baked dish being cut into square pieces. Conclusion: Tongs → cheese topping → bake/remove → cut into squares.",
+        "logic_check_reasoning": "Step 1: Slice 79 states the person is using wooden tongs to transfer cooked spaghetti into a rectangular tray, confirming the utensil used. Step 2: Slice 84 explicitly shows shredded cheese being sprinkled on top, with on-screen text confirming the action. Step 3: Slice 87 shows the baked dish being removed from the oven, marking the end of baking. Step 4: Slice 90 shows the dish on a rectangular parchment-lined tray being cut into square pieces; although the caption says 'pizza,' the visual attributes (rectangular tray, melted cheese, parchment) align with the pasta-bake sequence, and per the instructions we should not fail due to naming mismatches. Therefore, the sequence supports that after baking, the dish is cut into squares for serving.",
+        "visual_proof": "Clip 1 shows a person using wooden tongs to pour spaghetti from a bowl into a baking tray. Clip 2 shows a hand sprinkling shredded white cheese over the pasta. Clip 4 shows the fully baked dish being cut into square portions with a large knife."
+    },
+    {
+        "question": "The cook prepares an egg-and-cream batter, adds flour, and then pours the yellow mixture over chopped vegetables in a glass bowl. Which dairy is added to the eggs before the flour step, and what is done with the finished batter afterward?",
+        "answer": "Heavy cream is added before the flour, and the finished batter is poured over chopped vegetables in a glass bowl.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            71,
+            72,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 71 shows heavy cream poured into whisked eggs. Step 2: Slice 72 shows flour being whisked into the yellow mixture. Step 3: Slice 73 shows the yellow mixture poured onto chopped vegetables in a glass bowl. Conclusion: Heavy cream is the dairy; the batter is poured over vegetables afterward.",
+        "logic_check_reasoning": "Step 1: Slice 71 shows eggs being whisked and heavy cream being poured in, confirming the dairy added to the eggs. Step 2: Slice 72 shows flour being added afterward, establishing the sequence (cream before flour). Step 3: Slice 73 shows the yellow mixture being poured over chopped vegetables in a glass bowl, confirming what is done with the finished batter.",
+        "visual_proof": "Clip 1 shows heavy cream being poured into the eggs (text overlay confirms 'Heavy Cream ~ 0.85 cups'). Clip 2 shows flour being added to this mixture afterward. Clip 3 shows the final batter being poured from the mixing bowl over chopped vegetables in a glass bowl."
+    },
+    {
+        "question": "A batter is made by cracking eggs, seasoning them, adding heavy cream, and then adding flour. What are the seasonings added before the heavy cream, and what thickening ingredient is added after the cream?",
+        "answer": "Salt and black pepper are added before the heavy cream, and flour is added after the cream.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            69,
+            70,
+            71,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows three eggs cracked into a bowl. Step 2: Slice 70 shows salt and black pepper added to the eggs. Step 3: Slice 71 shows heavy cream poured in while whisking. Step 4: Slice 72 shows flour added while whisking. Conclusion: Seasonings are salt and pepper; flour follows the cream.",
+        "logic_check_reasoning": "Step 1: Slice 69 shows eggs being cracked into a bowl. Step 2: Slice 70 explicitly shows salt and black pepper (Schwarzer Pfeffer) being added to the eggs, i.e., the seasonings. Step 3: Slice 71 shows heavy cream being poured into the whisked eggs, indicating cream is added after seasoning. Step 4: Slice 72 shows flour being added to the mixture, which follows the cream addition. This sequence supports that salt and black pepper are added before heavy cream, and flour is added after.",
+        "visual_proof": "In Clip 2, salt (labeled 'Salt'/'Salz') and black pepper (labeled 'Black pepper'/'Schwarzer Pfeffer') are visibly added to the eggs. In Clip 3, heavy cream (labeled 'Heavy Cream'/'Sahne') is poured into the bowl. In Clip 4, flour (labeled 'Flour'/'Mehl') is then added to the mixture after the cream has been incorporated."
+    },
+    {
+        "question": "Across the video, the cook switches from using a whisk for early mixtures to using tongs for mixing later dishes. Name one mixture that is whisked early and one dish later mixed with tongs.",
+        "answer": "An egg-and-milk batter is whisked early, and later a colorful salad/noodle mixture is mixed with tongs.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            4,
+            74,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows eggs being whisked and milk added while whisking. Step 2: Slice 4 shows flour added while whisking to form a batter/dough. Step 3: Slice 74 shows a salad mixture being tossed with tongs. Step 4: Slice 75 shows a noodle dish being mixed with tongs. Conclusion: Early whisked mixture is egg/milk/flour batter; later tongs are used for salad/noodles.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes whisking a liquid mixture that appears to be eggs and then adding 1 cup of milk while continuing to whisk, supporting 'an egg-and-milk batter is whisked early.' Step 2: Slice 74 shows a colorful salad being mixed with tongs. Step 3: Slice 75 shows a noodle dish being mixed with tongs. Thus, later dishes mixed with tongs include a salad and a noodle dish, supporting the answer's 'salad/noodle mixture' phrasing.",
+        "visual_proof": "Clip 1 (0:00-0:03) shows a person in a red dress whisking a yellow liquid (egg/milk) in a glass bowl. Clip 2 (0:00-0:02) continues this, showing flour being added to the same bowl and whisked. Clip 3 (0:00-0:03) and Clip 4 (0:00-0:02) show a different person (or same person in different attire) using black tongs to mix a colorful dish containing noodles, chopped green onions, and red ingredients in a glass bowl."
+    }
+]

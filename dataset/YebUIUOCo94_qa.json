@@ -1,0 +1,108 @@
+[
+    {
+        "question": "What Latin phrases are shown on the ceremonial baton at the beginning, and what later artifact in the video reinforces the same theme of military honor and display?",
+        "answer": "The phrases are “Terror Belli” and “Decus Pacis,” and the later artifact reinforcing military honor is the ornate ceremonial sword shown on a black background.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a ceremonial baton with the Latin phrases “Terror Belli” and “Decus Pacis.” Step 2: Slice 5 later presents a prominently displayed ceremonial sword as a commemorative/military-honor object. Conclusion: The baton’s dual war/peace motto is echoed by later ceremonial weapon display.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states that the close-up of the ceremonial baton/scepter shows the Latin phrases 'Terror Belli' and 'Decus Pacis.' Step 2: Evidence Slice 5 describes a later scene featuring a close-up of an ornate ceremonial sword resting on a black surface, which aligns with the answer's 'ornate ceremonial sword shown on a black background' and reinforces the theme of military honor and display. Logic holds because the first part identifies the phrases on the baton, and the second part identifies a later artifact consistent with the thematic description.",
+        "visual_proof": "In Clip 1 (0:06-0:19), the ceremonial baton clearly displays the Latin phrases 'Terror Belli' and 'Decus Pacis,' which are also translated as 'Terror in War' and 'Ornament in Peace.' In Clip 2 (0:23-0:31), an ornate ceremonial sword with a detailed hilt and scabbard is shown lying on a black velvet surface, serving as a later artifact that reinforces the theme of military honor and display."
+    },
+    {
+        "question": "Which marshal is explicitly introduced with the statement that Napoleon said no one else could replace him, and where is his more detailed biography page shown later?",
+        "answer": "Marshal Berthier; his detailed biography page is shown later in the illustrated history-book style segment.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 10 introduces “Marshal Berthier” and includes the quote “No one else could replace him.” Step 2: Slice 11 shows a book-like biography page for Louis-Alexandre Berthier with dates, honors, and titles. Conclusion: The quoted marshal is Berthier and his expanded bio appears later.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly introduces Marshal Berthier and displays a quote attributed to Napoleon: \"No one else could replace him.\" Step 2: Slice 11 later shows a page featuring Louis-Alexandre Berthier with portrait and detailed biographical information in an illustrated history-book style segment. Logic holds because both slices refer to the same figure (Berthier) and the second slice provides the detailed biography page mentioned.",
+        "visual_proof": "In Clip 1, a title card at 0:11 explicitly introduces '3. Marshal Berthier' and displays the quote 'No one else could replace him.' attributed to Napoleon. In Clip 2, an illustrated book opens to a detailed biography page for 'LOUIS-ALEXANDRE BERTHIER (1753 - 1815)' starting at 0:02, confirming this is the same individual."
+    },
+    {
+        "question": "Which battle is shown first as a labeled strategic map and later as a vivid painted battlefield scene featuring a leader on a white horse?",
+        "answer": "The Battle of Austerlitz.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            34,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 34 presents a labeled map of the Battle of Austerlitz (Dec 2, 1805). Step 2: Slice 35 shows a dramatic painting of the same battle with a central leader on a white horse. Conclusion: The mapped and painted depictions are both Austerlitz.",
+        "logic_check_reasoning": "Step 1: Slice 34 describes a labeled strategic map of the Battle of Austerlitz, with specific locations and army positions. Step 2: Slice 35 describes a vivid painted battlefield scene of the Battle of Austerlitz featuring a central military leader mounted on a white horse. Logic holds because both slices clearly identify the same battle and match the question's sequence and details.",
+        "visual_proof": "Clip 1 shows a labeled strategic map with the text 'Battle of Austerlitz 2nd December 1805' and troop placements. Clip 2 shows a painted battlefield scene with the identical text 'Battle of Austerlitz 2nd December 1805' in the top left corner, featuring a central figure on a white horse, confirming it depicts the same battle."
+    },
+    {
+        "question": "Which leader is described riding a white horse in a gray coat and bicorne earlier, and is later again shown mounted on a white horse raising his hat in another painting?",
+        "answer": "Napoleon Bonaparte.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 4 depicts Napoleon-like figure in gray coat and bicorne riding a white horse. Step 2: Slice 74 shows a painting of Napoleon on a white horse raising his hat. Conclusion: The repeated white-horse leader is Napoleon.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 describes a central figure, presumably Napoleon Bonaparte, riding a white horse, wearing a gray coat and a bicorne hat while leading troops. Step 2: Evidence Slice 74 explicitly identifies the central figure as Napoleon Bonaparte, mounted on a white horse and raising his hat in a military painting. Logic holds because both slices depict the same leader on a white horse with consistent Napoleonic attributes, and Slice 74 confirms the identity explicitly.",
+        "visual_proof": "Clip 1 shows a leader in a gray coat and bicorne hat riding a white horse, consistent with historical depictions of Napoleon. Clip 2 shows the same figure, again on a white horse, now raising his hat in a triumphant gesture, surrounded by troops. The consistent iconography (white horse, bicorne, central positioning) across both paintings strongly identifies the figure as Napoleon Bonaparte."
+    },
+    {
+        "question": "Which marshal is introduced with Napoleon’s quote about finding a pygmy but losing a giant, and where is he later shown in an open book page with his biography and a map of France?",
+        "answer": "Marshal Lannes; he is later shown in a book spread featuring his biography and a map of France.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows “Marshal Lannes” with Napoleon’s quote about losing a giant. Step 2: Slice 24 shows an open book with a “Jean Lannes” biography and a map of France. Conclusion: The quoted marshal is the same figure featured in the book pages.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows a static image titled '2. Marshal Lannes' with Napoleon’s quote including 'I found him a pygmy, but I lost a giant,' clearly identifying the marshal as Lannes. Step 2: Slice 24 describes an open book with a page titled 'Jean Lannes' containing biography information, and an adjacent page with a map of France, indicating he is later shown in a book spread featuring his biography and a map. Logic holds because 'Jean Lannes' is the same figure as Marshal Lannes, and the visuals directly match the answer’s description.",
+        "visual_proof": "Clip 1 opens with the title '2. Marshal Lannes' above his portrait, followed by Napoleon's quote: 'He had truly become a superior being... I found him a pygmy, but I lost a giant.' Clip 2 then shows an open book page with 'JEAN LANNES (1769 - 1809)' and his biography on the left, and a map of France highlighting Gascony on the right, confirming the same individual is featured across both clips."
+    },
+    {
+        "question": "Which marshal is shown both in a side-by-side comparison with Soult and also has earlier biography pages describing his rise from humble origins?",
+        "answer": "Jean Lannes.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 33 compares portraits of Marshal Lannes and Marshal Soult. Step 2: Slice 24 shows book pages titled “Jean Lannes” with biography content. Step 3: Slice 25 continues with Lannes’ biographical timeline and campaign/battle context. Conclusion: The marshal compared with Soult and expanded in earlier book-like bios is Lannes.",
+        "logic_check_reasoning": "Step 1: Slice 33 explicitly states there is a comparison between two military leaders: Marshal Lannes and Marshal Soult, shown side-by-side. Step 2: Slices 24 and 25 describe earlier biographical pages focused on Jean Lannes, including his portrait, rank, unit, timeline, and achievements. Step 3: Therefore, the marshal who appears both in the side-by-side comparison with Soult and in earlier biography pages is Jean Lannes. The mention of humble origins is implied by the biography context, but the key conditions (side-by-side with Soult and earlier biography pages) are explicitly supported.",
+        "visual_proof": "Clip 1 (0:03-0:08) shows a side-by-side comparison of Marshal Lannes and Marshal Soult. Clip 2 (0:01-0:04) displays a biography page for Jean Lannes, which explicitly states his background as 'Son of a farmer,' indicating humble origins. This information is consistently presented across the clips."
+    },
+    {
+        "question": "Which marshal is introduced with a black background slide and quote praising him as a glory of France, and where do later pages expand his life and achievements with timelines and titles?",
+        "answer": "Marshal Davout; his expanded biography pages appear later in the documentary-style segments detailing his career and titles.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 46 introduces Marshal Davout with a Napoleon quote praising him. Step 2: Slice 70 later provides extended biographical frames with timelines, titles, and legacy details (estate/tomb). Conclusion: The brief quote slide is expanded into later detailed biography.",
+        "logic_check_reasoning": "Step 1: Slice 46 describes a black-background slide featuring a portrait labeled 'Marshal Davout' and a quote from Napoleon: 'Davout was one of the purest glories of France,' clearly identifying the marshal and the praise. Step 2: Slice 70 details later biographical frames about Louis Nicolas Davout, including timelines of his career (education, promotions, battles) and his titles (Duke of Auerstedt, Prince of Eckmühl), matching the request for expanded pages with timelines and titles. Logic holds because both slices refer to the same figure and the progression from introductory slide to detailed segments is explicit.",
+        "visual_proof": "Clip 1 opens with a black background slide titled '1. Marshal Davout' followed by a quote from Napoleon: 'Davout was one of the purest glories of France.' Clip 2 then transitions to a series of documentary-style pages that expand on his life, including his full name (Louis Nicolas Davout), birth/death years (1770-1823), background, major battle honors, titles (Duke of Auerstedt, Prince of Eckmühl), and a detailed timeline of his military career from 1785 to 1815."
+    },
+    {
+        "question": "Which person is described as an overworked chief-of-staff figure with a quote about being killed by work, and which earlier segment already emphasized him as uniquely irreplaceable to Napoleon?",
+        "answer": "Louis-Alexandre Berthier; he is portrayed as overworked in the Russia campaign segment and earlier described as irreplaceable in the marshal introduction.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            18,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 10 introduces Marshal Berthier with Napoleon’s statement that no one else could replace him. Step 2: Slice 13 emphasizes Berthier’s staff role via organizational charts and his function translating orders into writing. Step 3: Slice 18 shows Berthier with the quote about being killed by work, reinforcing the burden of that role. Conclusion: The irreplaceable chief-of-staff is Berthier, whose workload is later highlighted.",
+        "logic_check_reasoning": "Step 1: Slice 18 presents Louis-Alexandre Berthier with the quote, \"A simple private is happier than I. I am being killed by all this work,\" and shows him working at a desk, clearly framing him as an overworked chief-of-staff figure. Step 2: Slice 10 earlier displays a portrait labeled \"3. Marshal Berthier\" with a quote attributed to Napoleon, \"No one else could replace him,\" emphasizing his unique irreplaceability to Napoleon. Logic holds because both slices explicitly identify Berthier and provide the described quotes and characterizations.",
+        "visual_proof": "Clip 1 (0:04-0:06) shows a portrait of 'Marshal Berthier' with Napoleon's quote, 'No one else could replace him.' Clip 2 (0:07-0:08) displays a page with Berthier's biography and his own quote, 'A simple private is happier than I. I am being killed by all this work,' directly linking him to the overworked chief-of-staff role during the Russian campaign context."
+    }
+]

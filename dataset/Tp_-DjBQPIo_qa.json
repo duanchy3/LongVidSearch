@@ -1,0 +1,84 @@
+[
+    {
+        "question": "Which two kinds of on-screen text-only educational title/explanation screens appear: one for a physics chapter and one for an energy formula?",
+        "answer": "A title card for “PHYSICAL SCIENCE PLAY CHAPTER 37 GRAVITATIONAL ATTRACTION” and a formula screen for gravitational potential energy (PE = m × g × h).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 23 displays the chapter title for gravitational attraction. Step 2: Slice 67 shows the gravitational potential energy formula and explanation. Conclusion: The video includes both the chapter title card and the PE formula screen.",
+        "logic_check_reasoning": "Step 1: Slice 23 explicitly describes a black screen with white text reading “PHYSICAL SCIENCE PLAY CHAPTER 37 GRAVITATIONAL ATTRACTION,” which is a text-only chapter title card. Step 2: Slice 67 explicitly shows a blue rectangle with white text explaining the gravitational potential energy formula, including the symbol version “PE = m x g x h,” which is a text-only formula explanation screen. Logic holds because the answer mentions both a physics chapter title card and a gravitational potential energy formula screen, exactly matching the described slices (typographical x vs × is equivalent in context).",
+        "visual_proof": "Clip 1 displays a black screen with white text reading 'FRAME 00034', 'PHYSICAL SCIENCE PLAY', and 'CHAPTER 37 GRAVITATIONAL ATTRACTION'. Clip 2 displays a light blue box with the formula 'Gravitational Potential Energy = mass X acceleration of free fall X change in height' and its shorthand 'PE = m x g x h', along with units for each variable. These visuals directly match the description in the original answer."
+    },
+    {
+        "question": "One segment shows a dramatic outdoor sky performance, while another shows a similar shape drawn on a globe. What is the shared shape, and where does it appear in each segment?",
+        "answer": "A figure-eight/S-like curve; it appears as a curved drone formation in the sky and as a yellow figure-eight marking on the globe.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows drones arranged in a curved, elongated S-shaped formation. Step 2: Slice 47 shows a yellow figure-eight shape drawn on a globe. Conclusion: Both segments feature a similar curved figure-eight/S-like shape, one in the sky and one on the globe.",
+        "logic_check_reasoning": "Step 1: Slice 49 describes drones arranged in a dynamic, elongated S-shaped curved formation in the sky. Step 2: Slice 47 describes a globe with a prominent yellow figure-eight shape drawn on it. Logic holds because the answer identifies a curvy figure-eight/S-like shape as the common element and correctly states its appearances: as the drone formation in the sky and as the yellow figure-eight on the globe.",
+        "visual_proof": "Clip 1 shows a formation of bright lights in the twilight sky arranged in a distinct figure-eight pattern over mountains. Clip 2 shows a close-up of a globe with a hand pointing to a pre-drawn yellow figure-eight shape on its surface, which is clearly visible against the blue ocean background."
+    },
+    {
+        "question": "What two different handheld devices does the studio host show to the camera at different times: one associated with gaming and one associated with a phone demonstration?",
+        "answer": "A smartphone with a green case and a smartphone with a white case.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            50,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 50 shows the host holding a game controller while speaking. Step 2: Slice 66 shows the host holding up a smartphone with a white case to demonstrate it. Conclusion: The devices are a game controller and a smartphone.",
+        "logic_check_reasoning": "Step 1: Slice 50 states the man in a reindeer-pattern sweater is holding a game controller while speaking, indicating a gaming-related device. Step 2: Slice 66 states the same man, in the same setting, is holding up a smartphone with a white case and demonstrating it, indicating a phone-related device. The consistent backdrop and attire link the slices to the same studio host. Therefore, the two devices are a game controller and a smartphone with a white case.",
+        "original_text_answer": "A game controller and a smartphone with a white case.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In the second clip, at 0:05, the host holds up a smartphone with a distinct green case. Later in the same clip, at 0:07, he holds up a different smartphone with a white case. The first clip shows him speaking but not holding any device. No game controller is visible in either clip."
+    },
+    {
+        "question": "What two different editing/branding elements appear: one as a green channel/brand logo animation and another as an editing watermark on a minimalist figure shot?",
+        "answer": "A glowing green “Flatzoid FE” logo animation and an “InShot FILM” watermark (with a small logo) on the minimalist figure shot.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            58,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows an animated green logo reading “Flatzoid FE.” Step 2: Slice 60 shows a minimalist standing figure shot with an “InShot FILM” watermark. Conclusion: The video includes both a green brand logo animation and an editing watermark.",
+        "logic_check_reasoning": "Step 1: Slice 58 describes an animated sequence forming a glowing green logo with the text 'Flatzoid FE,' which matches a green channel/brand logo animation. Step 2: Slice 60 describes a minimalist figure shot that includes a bottom-right 'InShot FILM' text with a small logo, which is an editing watermark. Logic holds because these are two distinct elements: the channel branding in Slice 58 and the editing watermark in Slice 60.",
+        "visual_proof": "Clip 1 clearly shows a dynamic animation with a glowing green logo and the text 'Flatzoid FE' against a cosmic background. Clip 2 displays a static shot of a man in a black suit against a white background, with the text 'InShot FILM' visible at the top center and a small green logo (matching the Flatzoid FE icon) plus a YouTube subscribe button in the bottom right corner, confirming both branding elements."
+    },
+    {
+        "question": "In the car storyline, what clothing detail stays consistent while the driver’s activity changes between talking on the phone and animated gesturing while driving?",
+        "answer": "He consistently wears a green jacket while his activity changes from phone conversation to animated gesturing/speaking.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            5,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the older driver in a green jacket driving and talking. Step 2: Slice 5 shows him still in the green jacket, now holding a phone to his ear. Step 3: Slice 17 shows him still in a green jacket, gesturing animatedly while driving. Conclusion: The green jacket identifies the same driver across changing actions.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows the driver talking on the phone while wearing a green jacket and a seatbelt. Step 2: Slice 4 shows the same driver gesturing and speaking animatedly while driving, explicitly wearing a green jacket over a gray shirt. Step 3: Slice 17 again shows the driver animatedly speaking/gesturing while driving, wearing a green jacket over a white shirt. Logic holds because across the different activities (phone conversation vs. animated gesturing), the green jacket remains consistently described, even though the shirt color varies.",
+        "visual_proof": "Across all three clips, the driver is visibly wearing the same olive-green zip-up jacket with a white Nike swoosh on the left chest. In Clip 1 and Clip 2, he is holding his hand to his ear as if on a phone call. In Clip 3, he is no longer on the phone but is instead gesturing emphatically with both hands while speaking. The jacket remains unchanged throughout these different activities."
+    },
+    {
+        "question": "How does the video connect a kitchen prop moment to later globe-based science demonstrations by the same older man (identified by clothing), and what are the key props?",
+        "answer": "The older man in a dark/green jacket plays with a pumpkin in the kitchen, and later the video uses globes with hands pointing/rotating for demonstrations; key props are the pumpkin and the globe(s).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            46,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows an older man in a dark green jacket holding a large pumpkin in a kitchen. Step 2: Slice 46 shows hands pointing at a globe for an educational demo (same broader production style). Step 3: Slice 56 shows a hand rotating a globe in a utilitarian room. Conclusion: The video juxtaposes a playful pumpkin prop moment with later globe-based demonstrations; the key props are pumpkin and globes.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows an older man wearing a dark green jacket in a kitchen, holding and playfully interacting with a large orange pumpkin—this supports the 'kitchen prop moment' and identifies the man by clothing. Step 2: Slices 46 and 56 both feature close-up shots of a globe on a stand with a hand pointing at/rotating it, described as educational or demonstrative—this supports 'globe-based demonstrations.' Step 3: The key props mentioned in the answer (pumpkin and globe[s]) align directly with the objects described in the slices. While the later slices do not confirm the same man by clothing, the proposed answer does not overclaim this; it simply notes the globe demonstrations and the props, which are fully supported by the context.",
+        "visual_proof": "Clip 1 shows an older man with gray hair wearing a dark green jacket holding a pumpkin in a kitchen. Clips 2 and 3 show close-ups of a globe on a stand with a hand (presumably the same person's) pointing to and rotating it. The consistent presence of the man in the same jacket across clips links the kitchen scene to the globe demonstrations, confirming the key props as the pumpkin and the globe."
+    }
+]

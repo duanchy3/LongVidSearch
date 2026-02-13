@@ -1,0 +1,214 @@
+[
+    {
+        "question": "What DIY project involves combining a CD with a mirror, and later what extra item is shown hanging directly beneath that finished piece?",
+        "answer": "A CD is placed onto a mirror to make a “CD mirror,” and later a pair of white headphones is shown hanging beneath it.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows the DIY step of placing a CD onto a mirror to create a “CD Mirror.” Step 2: Slice 91 shows the CD mirror hanging on the wall with white headphones hanging below it. Conclusion: The project is the CD mirror, and the item beneath it is white headphones.",
+        "logic_check_reasoning": "Step 1: Slice 41 states that a person places a CD onto a mirror, creating a makeshift 'CD Mirror,' clearly identifying the DIY project. Step 2: Slice 91 shows a CD mirror hanging on a wall, and explicitly mentions that below the CD mirror there is a pair of white headphones hanging from another hook. Logic holds because the second slice depicts the finished 'CD mirror' and the extra item directly beneath it, matching the described outcome.",
+        "visual_proof": "In Clip 1, a person is seen attaching a CD to the wall, which functions as a mirror, with the text 'CD Mirror' overlaid. In Clip 2, the finished CD mirror is visible on the wall, and directly beneath it, a pair of white over-ear headphones are clearly hanging from a hook, confirmed by the text overlay 'headphones'."
+    },
+    {
+        "question": "Which furniture item is shown being sanded and then painted green, and later what color is that same item shown as in the final desk setup?",
+        "answer": "A monitor riser is sanded and painted green, and later the monitor riser is shown green in the final setup.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows sanding a monitor riser and repainting it green. Step 2: Slice 76 shows a green monitor riser in the desk setup. Conclusion: The riser’s state changes to (and remains) green.",
+        "logic_check_reasoning": "Step 1: Slice 23 states the person is sanding a monitor riser and then painting it green. Step 2: Slice 76 shows a close-up of the monitor riser on the desk and explicitly notes that the riser is green. Logic holds because the same item (monitor riser) is described as being painted green and later shown as green in the final setup.",
+        "visual_proof": "In Clip 1, the person is seen sanding white wooden pieces (0:00-0:05) with a subtitle confirming it's for 'sanding the monitor riser'. They then paint these pieces green (0:07-0:14) and assemble them into a box-like structure (0:15-0:16). In Clip 2, the finished green item is shown under the monitor, identified by the subtitle 'monitor riser', confirming its identity and color in the final setup."
+    },
+    {
+        "question": "What is being framed while sitting on the floor, and later what is done with those framed pieces on the wall?",
+        "answer": "A variety of posters, including K-pop posters, art posters, and illustrations, are framed while sitting on the floor. Later, these framed pieces are hung and arranged on a wall.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows “kpop posters” and “Time to frame!” with posters placed into frames. Step 2: Slice 22 shows the woman standing on a chair hanging and aligning framed artworks on the wall. Conclusion: The framed posters are later installed on the wall.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows a woman in a red/black striped shirt sitting on the floor with posters; on-screen text says 'kpop posters' and 'Time to frame!', and she places a poster into a wooden frame. This supports that K-pop posters are being framed. Step 2: Slice 22 shows the same woman hanging various framed artworks on a wall, adjusting them to align properly. This supports that the framed pieces are later hung and aligned on a wall. The visual continuity (same person, same setting) logically links the two actions.",
+        "original_text_answer": "K-pop posters are framed first, and later the framed pieces are hung and aligned on a wall.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the person is seen holding up different types of posters with on-screen text identifying them as 'kpop posters', 'art posters', and 'illustrations' before beginning to frame them. In Clip 2, the same person is shown hanging multiple framed pieces, which include the various styles seen earlier, onto a wall in a gallery arrangement."
+    },
+    {
+        "question": "Which character-like blob toy is shown holding a pen, and what other desk object is shown being switched on nearby in another segment of the desk showcase?",
+        "answer": "A Smiski toy is holding a pen, and a desk lamp is switched on in another segment.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 58 labels and shows “smiski & pen,” with the toy holding a pen. Step 2: Slice 59 shows a desk lamp that gets turned on, illuminating the desk items. Conclusion: The desk showcase includes the Smiski pen holder moment and the lamp turning on.",
+        "logic_check_reasoning": "Step 1: Slice 58 explicitly describes a small light green blob-like toy referred to as 'smiski' holding a black pen upright. Step 2: Slice 59 describes a white desk lamp that is initially off and then switched on, illuminating the desk. Logic holds because both slices depict segments of the same desk setup, confirming the toy and the lamp action.",
+        "visual_proof": "In Clip 1, a small, light-blue, blob-like figure labeled 'smiski & pen' is visibly holding a black pen. In Clip 2, a hand is shown pressing the base of a white desk lamp, which then turns on, illuminating the area. The lamp also has a small blue koala figurine on top, as labeled 'koya lamp'."
+    },
+    {
+        "question": "What wall-mounted shelf system is explicitly labeled with an escape-related name, and what art-supply wall system is shown elsewhere serving a similar storage purpose?",
+        "answer": "The “fire escape shelves” are labeled as such, and pegboards are shown elsewhere as a wall storage system for tools and supplies.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            66,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 66 labels the wall shelf unit as “fire escape shelves.” Step 2: Slice 64 shows pegboards filled with art supplies and is labeled “pegboards.” Conclusion: Both are wall-mounted storage solutions: shelves and pegboards.",
+        "logic_check_reasoning": "Step 1: Slice 66 states that a wall-mounted shelf unit is labeled 'fire escape shelves,' explicitly providing an escape-related name. Step 2: Slice 64 describes pegboards on a wall holding art supplies and tools, and the word 'pegboards' appears on screen, indicating this is a wall system for storage. Logic holds because the first part identifies the escape-labeled shelf system, and the second part identifies a wall-mounted art-supply storage system serving a similar organizational purpose.",
+        "visual_proof": "Clip 1 visually displays black metal shelves shaped like fire escapes with the on-screen text 'fire escape shelves'. Clip 2 shows wooden pegboards mounted on the wall, holding art supplies like paint tubes, scissors, and tape, with the on-screen text 'pegboards'. Both systems serve as wall-mounted storage, and their names are explicitly labeled in the respective clips."
+    },
+    {
+        "question": "Which three moments together show the creator’s workspace evolving from inspiration gathering, to a physical creative studio, to actively working at the computer in that decorated room?",
+        "answer": "First the Pinterest moodboard is shown, then the creative studio is shown, and later the person is seen working at the computer in the decorated workspace.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            53,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a Pinterest moodboard and then a creative studio environment. Step 2: Slice 53 shows the organized art desk/studio setup. Step 3: Slice 71 shows someone seated at the desk working on a computer in the decorated office. Conclusion: Inspiration → studio buildout → real usage.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows a screen recording of a Pinterest moodboard, which represents inspiration gathering. Step 2: The same Slice 3 then transitions to a physical 'creative studio' with tools and materials, indicating the tangible workspace. Step 3: Slice 71 depicts the individual actively working at a computer in a decorated home office, confirming the final stage of working in the evolved workspace. The proposed answer aligns with these three moments.",
+        "visual_proof": "Clip 1 shows a screen recording of a Pinterest board titled 'future me', which serves as inspiration gathering. Clip 2 displays a well-organized 'Art Desk' with supplies and pegboards, representing the physical creative studio. Clip 3 features the creator sitting at a desk with a computer, surrounded by art and decorations, actively engaged in work within that same decorated space."
+    },
+    {
+        "question": "Across the makeover timeline, what sequence shows floor-level sorting, then wall installation, and then the finished wall display?",
+        "answer": "First posters are sorted and framed on the floor, then framed pieces are hung on the wall, and later the wall is shown filled with more framed art as a finished display.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            22,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows sorting and framing posters on the floor. Step 2: Slice 22 shows hanging framed art on the wall. Step 3: Slice 69 showcases a finished wall full of framed artwork (“more wall art!”). Conclusion: Floor prep → wall install → final reveal.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows the woman on the floor sorting K-pop posters and framing them (“Time to frame!”), which covers floor-level sorting and framing. Step 2: Slice 22 shows the same woman hanging framed pieces on the wall, aligning and arranging them, which covers wall installation. Step 3: Slice 69 shows a wall fully adorned with an eclectic collection of framed artwork, with the text “more wall art!”, indicating a finished display. Logic holds because the slices depict a coherent progression from preparing posters on the floor, to installing them, to showcasing the completed wall.",
+        "visual_proof": "Clip 1 shows the person sitting on the floor sorting posters and beginning to frame them. Clip 2 shows the same person standing on a chair, actively hanging the framed pieces on the wall. Clip 3 presents the final result: a fully decorated wall with numerous framed artworks, indicating the completion of the project."
+    },
+    {
+        "question": "How does the wall organization evolve from building the pegboards, to adding shelves to them, to finally showing them packed with tools and supplies?",
+        "answer": "Pegboards are mounted first, then metal shelves are attached, and finally the pegboards are shown filled with art supplies like paint, scissors, tape, and containers.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            17,
+            27,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows mounting multiple pegboards and adding metal shelves onto them. Step 2: Slice 17 shows organizing items onto wall-mounted shelves near the pegboard area. Step 3: Slice 27 shows placing tools and supplies directly onto the pegboard holders. Step 4: Slice 64 shows the pegboards in a packed, fully organized state labeled “pegboards.” Conclusion: The wall goes from installation → shelving → stocking → fully displayed organization.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows the woman assembling and mounting multiple pegboards on the wall and then attaching metal shelves to them. Step 2: Slice 17 shows the black metal shelves being used to organize items, with a pegboard visible in the background holding additional art supplies. Step 3: Slice 27 details the process of populating the pegboard with various tools and supplies like tape, scissors, markers, paint, and brushes, with shelves above holding plants and books. Step 4: Slice 64 provides a close-up of the pegboards filled with art supplies, including paint tubes, brushes, scissors, tape, and a blue container with colored pencils/markers. The progression from mounting pegboards to adding shelves to fully organizing with supplies is clearly supported.",
+        "visual_proof": "Clip 1 shows the person assembling and mounting the wooden pegboards to the wall. Clip 2 shows the person arranging items on the black metal 'fire escape' shelves that have been mounted next to the pegboards. Clip 3 and Clip 4 show a close-up of the fully organized pegboards, which are now packed with various art supplies including paint tubes, scissors, rolls of tape, and containers holding pens and pencils."
+    },
+    {
+        "question": "Track the ‘mirror’ across the video: after moving a mirror into the office, what DIY mirror project is demonstrated later, and how is that DIY mirror shown installed afterward?",
+        "answer": "A “CD mirror” DIY is demonstrated later, and afterward that CD mirror is shown hanging on the wall with headphones beneath it.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            10,
+            41,
+            91,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a mirror being moved into the office. Step 2: Slice 48 shows the room with a large mirror above a dresser, reinforcing mirrors as a recurring object in the space. Step 3: Slice 41 demonstrates a DIY “CD mirror” by placing a CD onto a mirror. Step 4: Slice 91 shows the CD mirror installed on the wall with headphones below it. Conclusion: Mirrors appear repeatedly, culminating in the installed CD mirror project.",
+        "logic_check_reasoning": "Step 1: Slice 10 states the woman moved a mirror into the office. Step 2: Slice 41 shows a DIY project where a person places a CD onto a mirror, labeled as a 'CD Mirror,' demonstrating the DIY mirror project. Step 3: Slice 91 shows the CD mirror installed hanging on a wall, with white headphones hanging from another hook below it. The sequence supports that after moving a mirror, a CD mirror DIY is demonstrated and then depicted installed with headphones beneath.",
+        "visual_proof": "Clip 1 (0:07) shows the person moving a large, ornate mirror into the office. Clip 2 (0:03-0:06) shows the same person installing a circular 'CD Mirror' on a wall shelf. Clip 3 (0:00-0:06) provides a clear view of the installed CD mirror, with two pairs of headphones visibly hanging on hooks directly beneath it."
+    },
+    {
+        "question": "What is the end-to-end chain for the LEGO hook idea: from painting the LEGO pieces, to using them as hooks for bags, to showing the dedicated LEGO accessory wall, to showing another use of LEGO hooks for fitness gear?",
+        "answer": "LEGO pieces are spray-painted, then used as wall hooks for bags, later a LEGO purse wall is shown for accessories, and LEGO hooks are also shown holding resistance bands.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            51,
+            87,
+            88,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows spray painting LEGO pieces and hanging them as hooks for bags. Step 2: Slice 87 shows a labeled “lego purse wall” featuring LEGO-made purses as a wall storage/display concept. Step 3: Slice 88 shows resistance bands hung on circular LEGO hooks. Step 4: Slice 42 shows a backpack with pins in the room context, reinforcing bags/accessories being part of what gets organized. Conclusion: LEGO-based organization is reused across bags/accessories and workout gear.",
+        "logic_check_reasoning": "Step 1: Slice 51 shows LEGO pieces being spray-painted. Step 2: The same slice shows the painted LEGO pieces used as wall hooks for hanging bags. Step 3: Slice 87 presents a 'lego purse wall'—a dedicated wall display of LEGO-made miniature purses for accessories, aligning with a LEGO accessory wall. Step 4: Slice 88 shows LEGO-branded hooks used to organize resistance bands, demonstrating another use of LEGO hooks for fitness gear. The sequence matches the proposed chain.",
+        "visual_proof": "Clip 1 shows LEGO pieces being spray-painted (blue, green, red) and then mounted on a wall to hold purses. Clip 2 explicitly labels this area the 'lego purse wall'. Clip 3 shows a close-up of a green LEGO hook holding orange resistance bands. This sequence visually confirms the entire end-to-end chain described in the answer."
+    },
+    {
+        "question": "What chain connects the sewing-focused desk area to the ‘Art Desk’ presentation and then to close-ups of the sewing machine and supply organizer?",
+        "answer": "The desk is shown with a sewing machine and supplies, then presented as an ‘Art Desk’ setup, and later close-ups highlight the Brother sewing machine and the art supplies organizer.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            8,
+            53,
+            56,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows the organized desk setup including a sewing machine and supplies. Step 2: Slice 53 labels the overall setup as “Art Desk” with the sewing machine present. Step 3: Slice 56 gives a close-up of the Brother sewing machine with fabric under the needle. Step 4: Slice 57 pans from the sewing machine to a labeled art supplies organizer. Conclusion: The same workspace theme is reinforced from wide shots to detailed close-ups.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows an adjustable desk setup that includes a sewing machine and various supplies, establishing the sewing-focused desk area. Step 2: Slice 53 explicitly presents the setup under the title 'Art Desk,' showing the same type of workspace with a sewing machine and art tools. Step 3: Slices 56 and 57 provide close-ups—Slice 56 focuses on a Brother sewing machine, and Slice 57 shows a sewing machine and an 'art supplies organizer.' The sequence matches the proposed chain: initial sewing-focused desk → 'Art Desk' presentation → close-ups of the Brother sewing machine and the organizer.",
+        "visual_proof": "Clip 1 shows the full desk with a sewing machine and various supplies. Clip 2 explicitly labels the setup as 'Art Desk' while showing the same desk area. Clip 3 provides a close-up of the white Brother sewing machine. Clip 4 zooms in on the colorful art supplies organizer filled with pens, pencils, and markers, confirming the sequence described."
+    },
+    {
+        "question": "How does the room’s wall decor theme connect between an early room with recognizable posters, later framing/hanging sessions, and then the final wall-art montages?",
+        "answer": "Early the room shows specific posters (like film/cartoon posters), later frames and posters are actively hung, and afterward multiple wall-art showcase shots highlight the finished curated wall displays.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            22,
+            63,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows early wall decor including recognizable posters (e.g., movie/cartoon-themed). Step 2: Slice 22 shows actively hanging and aligning framed pieces on a wall. Step 3: Slice 63 shows a curated “wall art!” area alongside pegboard. Step 4: Slice 70 shows close-ups of specific framed pieces (e.g., “Le Poisson” art and “THE GREATEST FIGHT IN HISTORY” poster). Conclusion: Wall decor is a continuous thread from early room identity to final curated displays.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows an early scene in a cozy room with recognizable posters (e.g., The Greatest Showman and Kim Possible), establishing a wall decor theme of personal, interest-driven posters. Step 2: Slice 22 depicts a woman actively hanging and aligning framed artworks on a wall, matching the 'later framing/hanging sessions' phase. Step 3: Slice 63 presents a neat wall art display with posters/prints (cat calendar, color wheel, motivational quotes) labeled 'wall art!', indicating a showcase of curated decor. Step 4: Slice 70 shows a wall adorned with various framed artworks and posters, with the camera panning across them in a montage-like manner, highlighting the finished curated display. Logic holds because the proposed answer describes a progression from early recognizable posters to active hanging, followed by showcase shots of completed wall art, all of which are explicitly supported by the slices.",
+        "visual_proof": "Clip 1 shows a person in a room with posters already on the wall, including a 'THE GREATEST FIGHT IN HISTORY' poster. Clip 2 visually documents the process of hanging framed art on the wall. Clips 3 and 4 provide close-up montages of the final, curated wall displays, featuring various pieces of art, calendars, and organized pegboards, confirming the progression from initial decor to active arrangement and finally to a completed, themed display."
+    },
+    {
+        "question": "What food is shown being eaten earlier, and what art-related activity involving paint is shown in a different later segment?",
+        "answer": "Ramen/noodles are eaten earlier, and later spray painting (green/blue spray paint) is shown as an art/DIY activity.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows a woman eating noodles with chopsticks. Step 2: Slice 13 shows purchasing spray paint and spraying green/holding blue spray paint. Conclusion: The video includes casual eating and DIY painting.",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly shows a young woman eating noodles from a bowl with chopsticks, confirming the food eaten earlier is noodles. Step 2: Slice 13 shows a person picking up spray paint cans, spraying green paint in a box, and holding blue spray paint—an art-related activity involving paint. It also includes a scene of ramen being eaten, but the key later segment clearly features spray painting. Logic holds because the context contains both the earlier food (noodles/ramen) and the later paint activity (spray painting with green/blue).",
+        "visual_proof": "In the first clip, a person is clearly seen eating ramen from a bowl with chopsticks. In the second clip, the same person is shown selecting cans of spray paint in a store and then using them to paint small objects (a blue container and a green square item) inside a cardboard box, indicating a DIY/art activity."
+    },
+    {
+        "question": "What is the relationship between the initial spray-paint shopping/usage and the later painted desk accessory seen in the final setup?",
+        "answer": "Spray paint is acquired/used earlier, and later a desk accessory (the monitor riser) is shown repainted green as part of the makeover outcome.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            23,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows buying and using spray paint (green/blue). Step 2: Slice 23 shows sanding and painting a monitor riser green. Step 3: Slice 76 shows the green monitor riser in the final desk arrangement. Conclusion: Earlier paint activities connect to the later green-painted desk accessory result.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows acquiring spray paint and using green spray paint (spraying inside a cardboard box). Step 2: Slice 23 shows a monitor riser being sanded and repainted green (with a paintbrush), indicating a desk accessory was repainted. Step 3: Slice 76 shows the final setup featuring a green monitor riser. Logic holds because the context depicts early spray-paint shopping/usage and later a green-painted desk accessory visible in the final setup. The answer does not assert that spray paint was used on the riser, only that repainting occurred and is shown later.",
+        "visual_proof": "Clip 1 shows the person buying spray paint cans (blue and green) to make items more colorful. Clip 2 shows them sanding and painting wooden pieces with green paint (using a roller, not spray paint) to assemble a monitor riser. Clip 3 displays the final setup with the green-painted monitor riser on the desk. The initial intent to use spray paint for color is stated, but the actual application for the riser uses brush/roller paint. The core relationship — acquiring paint for a makeover that results in a green riser — is visually confirmed."
+    },
+    {
+        "question": "What is the chain of actions that turns a cluttered personal collection of framed items into a final ‘more wall art’ display, and what tool helps with reaching high placements?",
+        "answer": "Frames/posters are sorted on the floor, then placed into frames, then hung and adjusted on the wall, and the person uses a chair/stool to reach higher spots.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            19,
+            20,
+            22,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows sorting through a stack of framed pictures on the floor. Step 2: Slice 20 shows posters being framed. Step 3: Slice 22 shows hanging framed artworks while standing on a chair. Step 4: Slice 40 also shows hanging posters on a chair/stool and aligning them. Conclusion: Sorting and framing lead to wall installation, using a chair/stool to reach.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows the woman sitting on the floor in a cluttered room, sorting and stacking framed pictures, supporting the 'sorted on the floor' part. Step 2: Slice 20 shows her sorting posters on the floor and explicitly framing a poster ('Time to frame!'), supporting 'then placed into frames.' Step 3: Slice 22 shows her hanging and adjusting framed artworks on the wall, confirming 'then hung and adjusted on the wall.' Step 4: Slice 22 also shows her standing on a chair to place artworks, and Slice 40 shows her standing on a chair or stool while hanging posters, supporting the tool used ('chair/stool') for reaching higher spots. The sequence from sorting to framing to hanging aligns across slices, and the clothing/name differences are acceptable VLM noise.",
+        "visual_proof": "Clip 1 shows the person sorting posters on the floor. Clip 2 shows them placing art into a frame. Clip 3 shows them standing on an office chair to hang framed art high on the wall. Clip 4 shows the final 'More wall art!' display, confirming the completion of the process."
+    }
+]

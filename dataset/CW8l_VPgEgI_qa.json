@@ -1,0 +1,150 @@
+[
+  {
+    "question": "What two processes are linked in the video as helping limit how high a mountain peak can grow: one involving the atmosphere and one involving downward bending of the crust under heavy mountains?",
+    "answer": "Glaciers forming high in the atmosphere and carving the summit, and the crust bending/sagging under a mountain’s weight (isostatic bending) that lowers the peak.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      5,
+      4
+    ],
+    "reasoning_chain": "Step 1: Slice 5 says once a peak reaches high enough into the atmosphere, glaciers begin to form and carve at the summit. Step 2: Slice 4 explains mountains are heavy and their mass bends and sags the crust, lowering the peak. Conclusion: The limiting processes are glacial carving and crustal sagging under weight.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 5 explicitly states that once a peak reaches high enough into the atmosphere, glaciers begin to form and slowly carve at the summit, indicating an atmospheric process that limits peak height. Step 2: Evidence Slice 4 states that mountains are very heavy and cause the underlying crust to bend and sag like a trampoline, which lowers the peak, and further notes that the weight can overpower uplift, clearly describing downward bending of the crust under heavy mountains as a limiting factor. Logic holds because the proposed answer names these two processes—glacial carving and crustal sagging—as the mechanisms limiting mountain height, directly matching the text in the slices.",
+    "visual_proof": "Clip 1 (0:26-0:31) shows text stating 'ONCE A PEAK REACHES HIGH ENOUGH INTO THE ATMOSPHERE GLACIERS BEGIN TO FORM WHICH THEN SLOWLY CARVE AT THE SUMMIT'. Clip 2 (0:01-0:09) shows text stating 'MOUNTAINS ARE REALLY HEAVY, AND THAT MASS CAUSES THE UNDERLYING CRUST TO BEND & SAG... WHICH LOWERS THE PEAK SOMWHAT'. These two distinct processes are explicitly described as limiting factors for mountain height."
+  },
+  {
+    "question": "What evidence does the video use to connect a huge Alaska earthquake to tsunamis?",
+    "answer": "A map showing the magnitude 9.2 Alaska earthquake and displacement, followed by footage labeled “TSUNAMIS” and a historical photo labeled “1964 Alaska earthquake.”",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      12,
+      14
+    ],
+    "reasoning_chain": "Step 1: Slice 12 presents the magnitude 9.2 Alaska earthquake and major ground movement. Step 2: Slice 14 introduces “TSUNAMIS” alongside 1964 Alaska earthquake aftermath imagery. Conclusion: The earthquake is presented as the event associated with tsunamis.",
+    "logic_check_reasoning": "Step 1: Slice 12 shows a map explicitly labeled “MAGNITUDE 9.2 EARTHQUAKE” with text “LURCH FORWARD MORE THAN 20 METERS,” establishing a huge Alaska earthquake. Step 2: Slice 14 shows a dramatic wave with on-screen text “TSUNAMIS,” and then a historical photo with text “1964 ALASKA EARTHQUAKE,” linking tsunami imagery to the Alaska earthquake context. Logic holds because the video presents the major earthquake (Slice 12) and then directly references tsunamis (Slice 14) alongside the specific Alaska earthquake, providing visual and textual evidence for the connection.",
+    "visual_proof": "Clip 1 displays a USGS map titled 'MAGNITUDE 9.2 EARTHQUAKE' on the 'ALASKA COAST', indicating tectonic movement. Clip 2 immediately follows with dramatic wave footage labeled 'TSUNAMIS' (with height data), then transitions to a black-and-white photo explicitly labeled '1964 ALASKA EARTHQUAKE' showing destruction, visually linking the seismic event to tsunami generation and historical impact."
+  },
+  {
+    "question": "According to the video, what surprising space-related phenomenon is used to measure erosion, and what isotope does it produce in rocks?",
+    "answer": "Cosmic rays from space, producing beryllium-10 in rocks.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      41,
+      42
+    ],
+    "reasoning_chain": "Step 1: Slice 41 says erosion rates were measured using something surprising: cosmic rays from space. Step 2: Slice 42 explains cosmic rays striking rock can produce beryllium-10. Conclusion: Cosmic rays are used, producing beryllium-10.",
+    "logic_check_reasoning": "Step 1: Slice 41 states that to measure the rate of erosion, they relied on something surprising, specifically noting 'COSMIC RAYS FROM SPACE.' Step 2: Slice 42 explains that when cosmic rays strike rock, they can interact with minerals to produce beryllium-10. Logic holds because the slices explicitly link cosmic rays to erosion measurement and identify beryllium-10 as the produced isotope in rocks.",
+    "visual_proof": "Clip 1 displays text stating 'AND TO MEASURE THE RATE OF EROSION, THEY RELIED ON SOMETHING SURPRISING COSMIC RAYS FROM SPACE'. Clip 2 follows with text explaining 'AND WHEN THEY STRIKE ROCK, THEY CAN SOMETIMES INTERACT WITH THE MINERALS INSIDE TO PRODUCE A FORM OF THE ELEMENT BERYLLIUM CALLED BERYLLIUM-10'. The visual text directly supports the answer."
+  },
+  {
+    "question": "What two different kinds of geological maps does the video show: one tied to a major earthquake and one tied to a major strike-slip fault?",
+    "answer": "A map of Alaska’s coast for a magnitude 9.2 earthquake, and a map of California highlighting the San Andreas Fault.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      12,
+      32
+    ],
+    "reasoning_chain": "Step 1: Slice 12 shows an annotated Alaska map for a magnitude 9.2 earthquake. Step 2: Slice 32 shows a map highlighting the San Andreas Fault as a strike-slip example. Conclusion: The two map types are an earthquake-impact map and a strike-slip fault map.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 12 explicitly describes a map of Alaska’s coast annotated with \"MAGNITUDE 9.2 EARTHQUAKE,\" the epicenter, aftershocks, and fault lines, clearly tying it to a major earthquake. Step 2: Evidence Slice 32 describes a map highlighting the San Andreas Fault in California as part of a segment explaining strike-slip faults, clearly tying it to a major strike-slip fault. The proposed answer matches these two maps directly.",
+    "visual_proof": "Clip 1 shows a geological map labeled 'ALASKA COAST' with text 'MAGNITUDE 9.2 EARTHQUAKE' and depicts plate boundaries and seismic activity. Clip 2 shows a map of California with a red line tracing the 'SAN ANDREAS FAULT' and arrows indicating lateral movement, which is characteristic of a strike-slip fault."
+  },
+  {
+    "question": "What mechanism is described for forming Mercury’s far-side mountains, and which named impact basin is cited as the triggering event?",
+    "answer": "Shockwaves from a massive impact converged at the antipode to deform the surface, triggered by the Caloris Planitia (Caloris) impact.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      75,
+      78
+    ],
+    "reasoning_chain": "Step 1: Slice 75 highlights the region labeled Caloris Planitia. Step 2: Slice 78 explains the Caloris impact sent shockwaves through the planet that converged at the antipode and created mountains. Conclusion: Antipodal shockwave convergence from the Caloris impact formed the mountains.",
+    "logic_check_reasoning": "Step 1: Slice 75 highlights the region labeled 'CALORIS PLANITIA,' identifying the named impact basin. Step 2: Slice 78 explicitly states that when the Caloris impact occurred, massive shockwaves converged at the antipode and their combined strength deformed Mercury's surface to create mountains; it also notes a possible additional contribution from ejecta reaching the far side. The proposed answer captures the primary mechanism (antipodal shockwave convergence) and correctly names Caloris Planitia as the triggering event.",
+    "visual_proof": "Clip 1 visually identifies 'CALORIS PLANITIA' on Mercury's surface. Clip 2 contains text explaining that when the 'CALORIS IMPACT OCCURRED, IT SENT MASSIVE SHOCKWAVES THROUGH THE PLANET' which 'CONVERGED AT THE ANTIPODE' and 'THEIR COMBINED STRENGTH DEFORMED MERCURY'S SURFACE AND CREATED THE MOUNTAINS'. This directly links the Caloris impact to the formation of mountains via shockwave convergence at the antipode."
+  },
+  {
+    "question": "Which specific ocean-floor process is shown as the setting for the evidence supporting an early continental-drift style idea, and who is the historical scientist shown alongside it?",
+    "answer": "Mid-ocean ridge seafloor-spreading/hydrothermal-vent plate motion, and the historical scientist is Alfred Wegener.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      22,
+      18,
+      19
+    ],
+    "reasoning_chain": "Step 1: Slice 22 shows a historical clip of Alfred Wegener and then a diagram with mid-ocean ridges and plate motion. Step 2: Slice 18 introduces the lithosphere and Earth’s layered structure used for tectonics context. Step 3: Slice 19 labels “CONVERGENT PLATE BOUNDARY,” reinforcing plate-tectonics framework. Conclusion: The video ties Wegener’s context to seafloor spreading at ridges (with vents) within a plate-tectonics/lithosphere framework.",
+    "logic_check_reasoning": "Step 1: Slice 22 explicitly shows a historical black-and-white clip featuring Alfred Wegener, identifying the historical scientist. Step 2: The same slice then shows a detailed diagram of ocean-floor processes, specifically highlighting hydrothermal vents and mid-ocean ridges with arrows indicating plate movement, described as visualizing mechanisms behind Wegener’s continental drift theory—i.e., seafloor spreading at mid-ocean ridges. Step 3: Slices 18 and 19 reinforce the geology/plate tectonics context (Earth’s layers, lithosphere, convergent boundaries), supporting that the video is about plate tectonics as evidence/context for Wegener’s idea. Step 4: Therefore, the ocean-floor process is mid-ocean ridge seafloor spreading (with hydrothermal vents), and the historical scientist is Alfred Wegener, matching the proposed answer.",
+    "visual_proof": "Clip 1 explicitly shows a black-and-white photo of 'ALFRED WEGENER' with text identifying him. Immediately following this, Clip 1 displays a diagram labeled with 'Mid-ocean Ridge' and 'Hydrothermal Vents (Black & White Smokers)', illustrating seafloor spreading and plate motion. This directly links the scientist to the specific ocean-floor process shown."
+  },
+  {
+    "question": "Which two different measurements of “tallness” are contrasted by the video when comparing a Hawaiian volcano to Everest, and what mechanism explains the underwater part being depressed downward?",
+    "answer": "Height from base (including underwater) versus height above sea level; the seafloor is depressed downward by the weight of the volcanoes.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      7,
+      8,
+      4
+    ],
+    "reasoning_chain": "Step 1: Slice 7 says Mauna Kea is technically taller than Everest because most of it is underwater. Step 2: Slice 8 says it and a neighboring volcano depress the seafloor by up to 6,000 m. Step 3: Slice 4 explains heavy mountains bend/sag the crust. Conclusion: The comparison uses base-to-peak vs above-sea-level height, and seafloor depression is explained by crustal sag under weight.",
+    "logic_check_reasoning": "Step 1: Slice 7 explicitly states Mauna Kea is 'technically taller than Everest, though the majority of it is underwater,' and the description clarifies this highlights height when considering both above and below sea level measurements, supporting the contrast between base-to-peak (including underwater) and height above sea level. Step 2: Slice 8 includes the text 'IT AND ITS NEIGHBOR MAUNA LOA DEPRESS THE SEAFLOOR BY AS MUCH AS 6,000m,' indicating the mechanism is the weight of the volcanoes depressing the seafloor. Step 3: Slice 4 further supports the mechanism by explaining that mountains are heavy and cause the crust to bend and sag, consistent with seafloor depression due to mass.",
+    "visual_proof": "Clip 1 explicitly states 'MAUNA KEA IS TECHNICALLY TALLER THAN EVEREST, THOUGH THE MAJORITY OF IT IS UNDERWATER,' establishing the two measurements. Clip 2 adds that Mauna Kea and Mauna Loa 'DEPRESS THE SEAFLOOR BY AS MUCH AS 6,000m.' Clip 3 explains the mechanism: 'MOUNTAINS ARE REALLY HEAVY, AND THAT MASS CAUSES THE UNDERLYING CRUST TO BEND & SAG... WHICH LOWERS THE PEAK SOMEWHAT,' directly linking the weight of the mountains to the depression of the crust/seafloor."
+  },
+  {
+    "question": "How does the video connect a specific continental collision claim to earlier explanations of crustal thickening and uplift in the Himalaya region?",
+    "answer": "It first explains that crustal shortening and thickening cause uplift (illustrated with Everest), then later claims that when India hit Asia, a large portion of continental crust may have been forced down into the mantle.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      3,
+      4,
+      64,
+      20
+    ],
+    "reasoning_chain": "Step 1: Slice 3 introduces crustal shortening/thickening leading to uplift and uses Mt. Everest as an example. Step 2: Slice 4 elaborates on mountain mass and how ongoing convergence can shift thickening to lower areas. Step 3: Slice 64 states a 2016 paper suggested that when India hit Asia, a substantial portion of continental crust was forced down into the mantle. Step 4: Slice 20 provides the subduction framework for crust being pushed downward into the mantle. Conclusion: The India–Asia collision claim is framed as an extreme outcome within the convergence/uplift and downward-into-mantle processes discussed earlier.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 3 shows the presenter highlighting 'crustal shortening,' 'crustal thickening,' and 'uplift,' with Mt. Everest as an example, establishing the Himalaya uplift context. Step 2: Evidence Slice 4 elaborates on how mountain mass affects uplift and describes continued shortening and thickening under lower peaks, reinforcing the earlier explanation of uplift mechanics. Step 3: Evidence Slice 64 later presents a specific claim tied to the India–Asia collision, stating a 2016 paper suggested a substantial portion of continental crust was forced into the mantle. Logic holds because the video first explains general uplift mechanisms (shortening/thickening with Everest) and then connects these to a specific continental collision scenario involving crustal loss to the mantle.",
+    "visual_proof": "Clip 1 introduces 'crustal shortening' and 'crustal thickening' as concepts, followed by a visual of Mt. Everest to illustrate uplift. Clip 2's text reinforces this, explaining how crustal pressure leads to 'shortening & thickening' which causes slopes to rise. Clip 3 then presents a contrasting model, stating that 'when India hit Asia, a substantial portion of the continental crust... ended up being forced down into the mantle,' directly linking the collision event to the earlier discussion on crustal dynamics."
+  },
+  {
+    "question": "What pair of rock types are compared visually in the video, and which later labeled ancient formation provides evidence of underwater volcanic rock?",
+    "answer": "Basalt and granite are compared, and the later evidence is labeled “ancient pillow lavas.”",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      51,
+      54
+    ],
+    "reasoning_chain": "Step 1: Slice 51 shows labeled close-ups of BASALT and GRANITE. Step 2: Slice 54 shows an image labeled “ANCIENT PILLOW LAVAS,” a classic underwater volcanic formation. Conclusion: Basalt/granite are compared, and ancient pillow lavas are the underwater-volcanic evidence.",
+    "logic_check_reasoning": "Step 1: Slice 51 explicitly states that the video shows close-up shots labeled 'BASALT' and then 'GRANITE,' indicating these two rock types are compared visually. Step 2: Slice 54 states the video later includes a still image labeled 'ANCIENT PILLOW LAVAS,' described as igneous rocks formed underwater, thus providing evidence of underwater volcanic rock. Logic holds because the pair of rocks compared (basalt and granite) appear earlier, and the later labeled formation (ancient pillow lavas) is directly linked to underwater volcanic activity.",
+    "visual_proof": "Clip 1 visually presents two rock types with on-screen labels: 'BASALT' (showing hexagonal columns) at 0:03 and 'GRANITE' (showing a coarse-grained, light-colored rock face) at 0:05. Clip 2 displays an image at 0:09 with the label 'ANCIENT PILLOW LAVAS', credited to Ashley Dace, which shows rounded, bulbous rock formations consistent with underwater volcanic activity."
+  },
+  {
+    "question": "Which mountain range is first used as an example of crustal thickening and uplift, and later appears in a study about erosion in river valleys using beryllium-10?",
+    "answer": "The Himalayas (including the Everest region).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      43
+    ],
+    "reasoning_chain": "Step 1: Slice 3 shows terms like crustal thickening/uplift and then a satellite image labeled Mt. Everest. Step 2: Slice 43 shows Himalayan mountains and discusses beryllium-10 erosion-rate work in Bhutan and Nepal. Conclusion: The Himalayas are used in both places.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 3 shows the presenter discussing crustal shortening, thickening, and uplift with a satellite image labeled 'Mt. Everest,' indicating the example involves the mountain range containing Everest. Step 2: Evidence Slice 43 explicitly references a 'Himalayan River Valleys Study' using beryllium-10 to link erosion to rainfall. Step 3: Since the later study is explicitly in the Himalayas and the earlier example centers on Mt. Everest within that mountain range, the mountain range in both contexts is the Himalayas. The logic holds within the provided context.",
+    "visual_proof": "In Video 1, a satellite image at 0:08 explicitly labels 'MT. EVEREST' within the Himalayan mountain range while discussing crustal thickening and uplift. In Video 2, text overlays at 0:05-0:06 state that researchers studied erosion in 'HIMALAYAN RIVER VALLEYS IN BHUTAN AND NEPAL', directly linking this same mountain range to the beryllium-10 study."
+  },
+  {
+    "question": "Which U.S. mountain range is described as geologically young but exposing very old rock, and what property of igneous rock enables that exposure over time?",
+    "answer": "The Adirondack Mountains; igneous rock is harder than the younger sea-floor sediments, so the newer sediments erode away and reveal the older igneous rock.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      43,
+      45,
+      47
+    ],
+    "reasoning_chain": "Step 1: Slice 43 states the Adirondacks have only existed for about five million years. Step 2: Slice 45 discusses Adirondack formation history and deep low-density rock contributing to uplift. Step 3: Slice 47 explains igneous rock is harder than sediments, so sediments erode away to reveal original billion-year-old rock. Conclusion: Adirondacks are young in current form but expose ancient igneous rock because it resists erosion relative to sediments.",
+    "logic_check_reasoning": "Step 1: Slice 43 states that the Adirondack Mountains are geologically young, with text overlays noting they have only existed for five million years, and it highlights their unique igneous composition (anorthosite). Step 2: Slice 47 explicitly explains that igneous rock is much harder than sea-bottom sediments, so over time the newer sediments erode away, revealing the original, billion-year-old rock. Step 3: Combining these, the Adirondacks (young mountains) expose very old rock, and the enabling property is the hardness of igneous rock relative to sediments. The logic holds because Slice 43 identifies the specific mountain range and its youth, and Slice 47 provides the mechanism of exposure through differential erosion.",
+    "visual_proof": "Clip 1 (0:35) visually identifies the 'ADIRONDACK MOUNTAINS' with on-screen text. Clip 2 (0:04-0:05) states they are geologically young, having been around for only five million years. Clip 3 (0:00-0:03) provides the reason for the exposure of old rock, stating 'IGNEOUS ROCK IS MUCH HARDER THAN THE SEDIMENTS DEPOSITED AT THE BOTTOM OF A SEA, SO, OVER TIME, THE NEWER STUFF ERODED AWAY, REVEALING THE ORIGINAL, BILLION-YEAR-OLD ROCK'."
+  }
+]

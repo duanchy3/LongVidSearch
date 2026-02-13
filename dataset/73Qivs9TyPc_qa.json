@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What ingredient is whisked into the egg mixture after the eggs are cracked, and later a similar creamy liquid is poured into another egg mixture for the baked vegetable dish?",
+        "answer": "Heavy cream.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            84
+        ],
+        "reasoning_chain": "Step 1: Early on, heavy cream is poured into a green bowl while whisking an egg mixture. Step 2: Later, heavy cream (1 cup/200 ml) is poured into a green bowl as part of the egg-based mixture for baking. Conclusion: The shared ingredient added to egg mixtures in both parts is heavy cream.",
+        "logic_check_reasoning": "Step 1: Slice 2 states that the person is whisking a mixture in a green bowl and explicitly mentions that heavy cream is poured into the bowl while whisking. This supports that heavy cream is the ingredient added to the mixture at that stage. Step 2: Slice 84 shows a close-up of heavy cream (labeled 'Heavy Cream - 1 cup' / 'Sahne - 200 ml') being poured into a creamy mixture in the same type of green bowl, consistent with a similar addition later. Logic holds because both slices explicitly show heavy cream being added to a whisked mixture, matching the question’s description of the ingredient added after eggs are cracked and later poured into another egg mixture for a baked dish.",
+        "visual_proof": "In both clips, a white, creamy liquid is poured from a small pitcher into a bowl containing a yellow egg mixture. The on-screen text in Clip 1 (0:05) and Clip 2 (0:03) explicitly labels this ingredient as 'Heavy Cream - 1 glass' and 'Heavy Cream - 1 cup' respectively, confirming its identity."
+    },
+    {
+        "question": "Which vegetable is first shown being divided into florets and later appears on top of the finished baked quiche/frittata slice on a plate?",
+        "answer": "Broccoli.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            100
+        ],
+        "reasoning_chain": "Step 1: The vegetable is explicitly divided into florets during prep. Step 2: The plated slice of the finished quiche shows broccoli pieces in the filling/topping. Conclusion: The tracked vegetable is broccoli.",
+        "logic_check_reasoning": "Step 1: Slice 46 explicitly states \"Broccoli divided into florets,\" confirming broccoli is the vegetable being prepped. Step 2: Slice 100 describes a plated slice of vegetable quiche and explicitly mentions that the filling includes broccoli. Logic holds because the vegetable shown being divided into florets (broccoli) is shown again in the final plated quiche slice as part of the ingredients.",
+        "visual_proof": "Clip 1 visually shows a person using a knife to cut a head of broccoli into florets, with text confirming 'Broccoli divided into florets'. Clip 2 shows the finished baked dish, which is clearly topped with and contains pieces of broccoli florets, matching the vegetable prepared in Clip 1."
+    },
+    {
+        "question": "What ingredient is seasoned with salt and black pepper during sautéing, and later that cooked mixture is poured into a bowl already containing a different green vegetable?",
+        "answer": "Mushrooms and carrots (the sautéed mixture).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            71,
+            73
+        ],
+        "reasoning_chain": "Step 1: Mushrooms and shredded carrots are sautéed and explicitly seasoned with salt and black pepper. Step 2: A cooked mushroom-and-carrot mixture is poured over broccoli florets in a glass bowl. Conclusion: The seasoned sautéed mushrooms and carrots are later added to broccoli.",
+        "logic_check_reasoning": "Step 1: Slice 71 shows thinly sliced mushrooms and julienned carrots being sautéed, with salt and black pepper added to this mixture. Step 2: Slice 73 shows cooked mushrooms and sliced carrots being poured into a bowl that already contains broccoli florets (a green vegetable). Logic holds because the mixture seasoned in Slice 71 is the same one later poured over the broccoli in Slice 73.",
+        "visual_proof": "Clip 1 visually confirms that sliced mushrooms and julienned carrots are being sautéed in a pan and are seasoned with salt ('Salt'/'Salz' text overlay) and then black pepper ('Black pepper'/'Schwarzer Pfeffer' text overlay). Clip 2 shows this exact cooked mixture of mushrooms and carrots being poured from the pan into a glass bowl that already contains fresh, raw broccoli florets. This directly matches the description in the question."
+    },
+    {
+        "question": "What tool is used to mix the shredded-vegetable salad after salt, pepper, and oil are added, and what different tool is used later to mix the vegetables once a creamy dressing is poured over them?",
+        "answer": "A wooden spoon is used in both cases.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            40
+        ],
+        "reasoning_chain": "Step 1: The shredded salad is mixed thoroughly using a wooden spoon. Step 2: Later, after creamy dressing is poured over a bowl of vegetables, the salad is tossed with a wooden spoon. Conclusion: The mixing tool in both moments is a wooden spoon.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly says the person \"uses a wooden spoon to mix the ingredients\" of the shredded-vegetable salad. Step 2: Slice 40 explicitly says after pouring a creamy dressing, the person \"uses a wooden spoon to gently toss the salad.\" Logic holds because both slices state the same tool—a wooden spoon—is used for mixing; there is no mention of a different tool later.",
+        "visual_proof": "In Video 1, a person uses a wooden spoon to mix the shredded vegetables (cabbage, carrots, peppers, green onions) after seasoning. In Video 2, a different person (wearing a red dress) also uses a wooden spoon to mix a vegetable salad (broccoli, tomatoes, carrots, green beans) after pouring a creamy dressing over it. The tool is visually identifiable as a wooden spoon in both instances."
+    },
+    {
+        "question": "After dill is chopped, what is it added into later as part of making a creamy mixture?",
+        "answer": "It is added into a green bowl with a creamy base (a sauce/dressing).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            92,
+            94
+        ],
+        "reasoning_chain": "Step 1: Fresh dill is chopped and moved into a bowl. Step 2: A green bowl shows a creamy mixture being stirred with chopped herbs incorporated. Conclusion: The chopped dill is used in the creamy sauce/dressing mixture.",
+        "logic_check_reasoning": "Step 1: Slice 92 shows chopped dill being scooped and placed into a ceramic/pottery bowl. Step 2: Slice 94 shows a green ceramic bowl containing a creamy mixture with finely chopped herbs being stirred. Logic holds because both slices depict a continuous cooking process and the later scene explicitly features a green bowl with a creamy base, consistent with the dill being added into that bowl as part of making the mixture.",
+        "visual_proof": "In Video 1, the chopped dill is shown being scraped off the cutting board and added directly into a green bowl that already contains a white, creamy substance. In Video 2, this same green bowl is shown as the person mixes the dill into the creamy base with a spoon, confirming it's part of a sauce or dressing."
+    },
+    {
+        "question": "What seasonings are added to the egg mixture at the start of the video, and later the same two basic seasonings are also added to a different egg-and-cream mixture?",
+        "answer": "Salt and black pepper.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            38
+        ],
+        "reasoning_chain": "Step 1: The initial egg mixture is seasoned with salt and black pepper (among other spices). Step 2: Later, an egg mixture with heavy cream is also seasoned with salt and black pepper before whisking. Conclusion: The shared seasonings are salt and black pepper.",
+        "logic_check_reasoning": "Step 1: Slice 1 states that after cracking eggs into a green bowl, the cook adds salt, black pepper, oregano, and paprika. This confirms salt and black pepper are part of the initial egg mixture. Step 2: Slice 38 shows heavy cream being added to an egg mixture in a green bowl, followed by the addition of salt and black pepper. Logic holds because the same two basic seasonings (salt and black pepper) appear in both contexts, regardless of differing clothing descriptions.",
+        "visual_proof": "In Video 1 (0:04-0:07), salt is sprinkled into the eggs, followed by black pepper from a grinder. In Video 2 (0:04-0:07), after heavy cream is added, salt is again sprinkled in, followed by black pepper from the same type of grinder. The on-screen text labels 'Salt' and 'Black pepper' confirm the ingredients in both instances."
+    },
+    {
+        "question": "Which vegetables are first sautéed together, then combined with broccoli in a bowl, and finally mixed as a colorful vegetable mixture?",
+        "answer": "Carrots and mushrooms (with onions involved in sautéing earlier), combined with broccoli and then mixed in the bowl.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            67,
+            73,
+            75
+        ],
+        "reasoning_chain": "Step 1: Mushrooms are added to the sautéed vegetables (carrots/onions) and cooked until moisture evaporates. Step 2: The cooked mushroom-and-carrot mixture is poured over broccoli in a bowl. Step 3: The bowl contents (broccoli, carrots, mushrooms) are vigorously mixed. Conclusion: The sautéed carrots and mushrooms are combined with broccoli and then mixed.",
+        "logic_check_reasoning": "Step 1: Slice 67 shows sautéing with sliced carrots and onions in the pan, then sliced mushrooms are added and stirred—so carrots and mushrooms (with onions) are sautéed together. Step 2: Slice 73 shows a strainer containing cooked mushrooms and sliced carrots being poured over fresh broccoli in a bowl—explicitly mushrooms and carrots are combined with broccoli. Step 3: Slice 75 shows the bowl being mixed, featuring broccoli, carrots, and mushrooms—confirming the colorful mixture includes these. Logic holds because carrots and mushrooms are the ones clearly shown through all stages; onions are present during sautéing but not explicitly shown in the bowl.",
+        "visual_proof": "Clip 1 shows carrots and onions being sautéed, followed by the addition of sliced mushrooms. Clip 2 shows the cooked carrot-mushroom mixture being poured over raw broccoli florets in a glass bowl. Clip 3 shows all vegetables—carrots, mushrooms, and broccoli—being stirred together in the bowl."
+    },
+    {
+        "question": "Which dairy ingredient is grated and collected in a pile earlier, and later a different cheese is grated right after the baking time and temperature are shown?",
+        "answer": "Mozzarella is grated earlier, and suluguni is grated later.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            41
+        ],
+        "reasoning_chain": "Step 1: Mozzarella is grated on a metal grater and collected. Step 2: After the bowl is placed in the oven at 200°C for ~30 minutes, suluguni cheese (200 g) is grated. Conclusion: The cheeses are mozzarella first and suluguni later.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly states that mozzarella cheese is grated on a metal grater and collected into a pile, indicating the earlier action. Step 2: Slice 41 shows the oven temperature and baking time (200°C for 30 minutes) and then says she grates cheese labeled as Suluguni, indicating a later, different cheese. Logic holds because the timeline distinguishes the earlier mozzarella grating from the later suluguni grating after the baking details are shown.",
+        "visual_proof": "In Video 1 (0:04-0:09), a person grates Mozzarella cheese (labeled 'Mozzarella Cheese - 0.45 lbs') onto a wooden board before the dish is placed in the oven. In Video 2 (0:07-0:09), after showing the baking instructions ('Bake ~30 minutes at 200°C'), a different person grates Suluguni cheese (labeled 'Suluguni cheese - 0.45 lb'). The sequence clearly shows Mozzarella grated first, followed by Suluguni after the baking step is displayed."
+    },
+    {
+        "question": "Which two different cheeses appear in two different baked-dish sequences: first a cheese is grated and used with a layered casserole, and later another cheese is grated after baking a separate vegetable-and-egg dish?",
+        "answer": "Mozzarella in the earlier layered casserole sequence, and suluguni in the later baked vegetable-and-egg dish sequence.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            13,
+            41,
+            42
+        ],
+        "reasoning_chain": "Step 1: Mozzarella is grated early in a sequence that also shows a vegetable dish on an oven rack. Step 2: The layered casserole is shown being topped with shredded cheese as assembly continues. Step 3: In a later recipe, after baking at 200°C for ~30 minutes, suluguni cheese (200 g) is grated. Step 4: That grated cheese is sprinkled over the dish and it goes back into the oven for additional baking. Conclusion: Mozzarella is used in the earlier casserole, while suluguni is used in the later baked dish.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows mozzarella being grated, and Slice 13 shows a layered casserole topped with shredded cheese, aligning the grated mozzarella with the earlier layered casserole sequence. Step 2: Slice 41 shows vegetables baked at 200°C for 30 minutes, followed by grating cheese explicitly labeled as Suluguni; Slice 42 shows the grated cheese being added and baked further, supporting that the later sequence uses suluguni after baking a vegetable dish. While eggs are not explicitly mentioned in the provided slices, the cheese identifications (mozzarella first, suluguni later) are fully supported by the context.",
+        "visual_proof": "Clip 1 (0:04) shows mozzarella cheese being grated for a layered casserole. Clip 3 (0:07) shows suluguni cheese being grated for a separate baked vegetable-and-egg dish. The text overlays explicitly identify 'Mozzarella Cheese' and 'Suluguni cheese', confirming the two different cheeses used in distinct sequences."
+    }
+]

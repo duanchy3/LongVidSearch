@@ -1,0 +1,115 @@
+[
+    {
+        "question": "What object does a bearded man spill in a playful moment, and what other item is he seen holding later in a more serious, work-site conversation?",
+        "answer": "He spills orange juice, and later he holds a yellow object (paper/booklet/tool).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows a bearded man pouring orange juice into his hand and spilling it. Step 2: Slice 28 shows a bearded man holding a yellow object while speaking seriously at an industrial site. Conclusion: The spilled object is orange juice; later he holds a yellow object.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly states that the bearded man holding a bottle of orange juice pours it into his hand, causing it to spill. This supports the claim that he spills orange juice. Step 2: Slice 28 describes the bearded man holding a yellow object during a serious conversation at a work site, noting it is possibly a piece of paper or a small booklet. This supports the claim that he is later seen holding a yellow object. While the proposed answer adds 'tool' as a possible interpretation, the context only supports paper/booklet; however, the core claim of a 'yellow object' is fully supported.",
+        "visual_proof": "In Clip 1, the bearded man is clearly seen pouring an orange-colored liquid from a bottle with a green label into his hand, which is consistent with spilling orange juice. In Clip 2, the same bearded man is seen holding a yellow envelope or booklet while standing outdoors near portable toilets and shipping containers, indicating a more serious, work-site context."
+    },
+    {
+        "question": "Across the gun-confrontation arc indoors, how does the threat intensify from a single man aiming a gun to a full room standoff with a raised-hands surrender?",
+        "answer": "It starts with a bearded man aiming a gun in a dark room, escalates to two people confronting each other at gunpoint, then to a shotgun being aimed in a chandelier-lit room, and culminates in a man holding another at gunpoint with the victim’s hands raised.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            49,
+            50,
+            52,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows a bearded man pointing a gun toward the camera in a dim room. Step 2: Slice 50 shows a two-person confrontation where one aims a gun and the other raises hands. Step 3: Slice 52 shows a shotgun aimed in a chandelier-lit room, increasing the stakes. Step 4: Slice 77 shows a direct surrender posture with hands raised while a gun is pointed. Conclusion: The threat escalates through progressively clearer and higher-stakes gun standoffs.",
+        "logic_check_reasoning": "Step 1: Slice 49 shows a single bearded man in a dimly lit room aiming a gun, establishing the initial threat. Step 2: Slice 50 escalates to two individuals indoors, one aiming a gun at the other, indicating a direct confrontation (with the second person's hands raised, reinforcing tension). Step 3: Slice 52 further escalates with a shotgun aimed in a chandelier-lit room, emphasizing a more intense standoff in a defined room setting. Step 4: Slice 77 culminates in a man holding another at gunpoint with the victim’s hands raised in surrender, clearly depicting the standoff endpoint. The logic holds and is fully supported by the slices, all indoors and progressively intensifying.",
+        "visual_proof": "Clip 1 shows a bearded man in a gold patterned shirt aiming a pistol indoors. Clip 2 depicts a tense standoff between two men with firearms in a dimly lit interior. Clip 3 features a man aiming a shotgun in a lavishly decorated room with hanging lights. Clip 4 shows a man in tactical gear pointing a handgun at the bearded man from Clip 1, who now has his hands raised in surrender."
+    },
+    {
+        "question": "How is a 'serious phone call' motif shown across different settings: from a dim blue-lit call, to a tense group phone call scene, to a daytime driving call?",
+        "answer": "It appears as a man on a blue-lit phone call, then a man in a group in a dim room using a phone, and later a man driving a Jeep while talking on a cellphone.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            35,
+            40,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows a man in dim blue lighting engaged in a serious phone conversation. Step 2: Slice 40 shows a camouflage-jacket man holding a phone in a tense group setting. Step 3: Slice 63 shows a man driving a black Jeep Wrangler while talking on a cellphone. Conclusion: The phone-call motif repeats across distinct environments (blue-lit interior, group tension indoors, and daytime driving).",
+        "logic_check_reasoning": "Step 1: Slice 35 describes a man engaged in a phone conversation in dim, predominantly blue lighting, with a serious/urgent tone, matching the 'blue-lit phone call.' Step 2: Slice 40 shows a group of men in a dim room with the man in the foreground holding a phone to his ear, serious expression, and an intense atmosphere, aligning with a tense group phone call scene. Step 3: Slice 63 depicts a man driving a Jeep during the daytime while talking on a cell phone, fitting the daytime driving call. The proposed answer succinctly maps these three settings to the motif without adding unsupported details.",
+        "visual_proof": "Clip 1 shows a man on a phone call under intense blue lighting. Clip 2 shows the same man in a fur coat on a phone call, surrounded by other men in a dimly lit, smoky environment. Clip 3 shows a different man driving a black Jeep during the day while holding a phone to his ear."
+    },
+    {
+        "question": "Which animal appears near a man at the start of the video, and what different animal becomes central later when men talk beside a saddled one?",
+        "answer": "A deer appears at the start, and later a horse becomes central (a saddled black horse).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a man standing next to a deer in the desert. Step 2: Slice 85 shows two men conversing beside a saddled black horse. Conclusion: The early animal is a deer; later the featured animal is a horse.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the video begins with a man standing next to a deer in a desert landscape, confirming the initial animal is a deer. Step 2: Slice 85 describes two men conversing beside a saddled black horse, indicating the later central animal is a horse. Logic holds because the question asks about the animal at the start and a later scene with a saddled animal, both directly described in the provided slices.",
+        "visual_proof": "In Clip 1, a deer is clearly visible in the desert environment at the beginning (0:03-0:04, 0:08). In Clip 2, which occurs later in the narrative, men are shown interacting with a saddled black horse inside a corral (0:01-0:02)."
+    },
+    {
+        "question": "What sequence shows a shift from domestic holiday calm to escalating urgency involving vehicles and pursuit?",
+        "answer": "It goes from an indoor Christmas-decor scene with a van outside, to tense driving/escape imagery in a car, and then to a speeding van chase through dust.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            30,
+            32,
+            36,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a calm indoor Christmas setting and a black van outside. Step 2: Slice 32 shows a man urgently entering a car and looking around frantically, implying danger. Step 3: Slice 36 shows a Mercedes-Benz van speeding through dust in a chase-like sequence. Step 4: Slice 31 reinforces the broader action escalation with tactical firefight and a highway chase montage. Conclusion: The narrative tone shifts from holiday calm to vehicle-driven urgency and pursuit.",
+        "logic_check_reasoning": "Step 1: Slice 30 shows a calm, domestic holiday setting (Christmas decorations) and then a black Mercedes-Benz Sprinter van outside, establishing the festive, low-intensity start with a vehicle present. Step 2: Slice 32 depicts a man in a car in visible distress and urgency, suggesting an escalation involving a vehicle. Step 3: Slice 36 escalates further to a high-speed chase with a Mercedes-Benz van driving through a dusty environment, indicating active pursuit. The sequence moves logically from holiday calm to tense driving to a full chase, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows an indoor scene with Christmas decorations and people, including a van visible outside. Clip 2 transitions to interior car shots with characters looking stressed and driving urgently. Clip 3 depicts vehicles, including a van, kicking up dust in what appears to be a high-speed chase or escape sequence. This progression visually supports the described shift from calm to urgency."
+    },
+    {
+        "question": "A man in a beige shirt is seen around vehicles early on; what does he do near a truck first, and what other vehicle is he later seen standing beside?",
+        "answer": "He loads something into the back of a truck first, and later he stands beside a white vehicle (truck/SUV).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a beige-shirted man putting something into the back of a truck. Step 2: Slice 2 shows a beige-shirted man outdoors near a white vehicle. Conclusion: He loads the truck first, then is seen by a white vehicle.",
+        "logic_check_reasoning": "Step 1: Slice 1 states that a man wearing a beige shirt is seen putting something into the back of a truck, indicating he is loading/unloading items. Step 2: Slice 2 shows a man in a beige shirt standing near a white vehicle, described as possibly a truck or SUV. Logic holds because both slices reference a man with the same clothing, and the actions (loading a truck, later standing by a white vehicle) align with the proposed answer.",
+        "visual_proof": "In Clip 1 (0:07), a man in a beige shirt is visually confirmed loading a large object, covered in black material, into the bed of a white pickup truck. In Clip 2 (0:02-0:03), the same man is seen standing beside the cab of a white vehicle, which appears to be the same or a similar white truck/SUV, with its side mirror and window visible."
+    },
+    {
+        "question": "What is the chain of events that ties a low-fuel warning to a continuing desert journey and later high-speed off-road action?",
+        "answer": "A semi-truck is shown traveling through the desert, then a low fuel gauge forces a stop to refuel, and later the action escalates to an off-road vehicle racing across desert terrain.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            29,
+            21,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows a semi-truck driving across a desert environment. Step 2: Slice 29 shows the truck’s fuel gauge nearly empty and the truck stopping at a desert fuel station. Step 3: Slice 21 shows continued desert travel with two men riding in a truck cab, reinforcing the journey theme after the stop. Step 4: Slice 65 shows a heavily modified off-road vehicle speeding across desert terrain, representing escalated action in the same broader travel setting. Conclusion: Travel pressure (fuel) leads to a stop and continues into later intense desert vehicle action.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows a semi-truck traveling through a desert and explicitly focuses on a nearly empty fuel gauge, followed by the truck approaching and stopping at a small fuel station to refuel. Step 2: Slices 21 and 29 depict continued desert travel by the semi-truck, reinforcing the ongoing journey theme. Step 3: Slice 65 later shows high-speed off-road action with a modified vehicle racing across desert terrain, indicating an escalation in action. Logic holds because the answer summarizes this sequence: desert truck travel, low-fuel prompting a refuel stop, and later off-road desert action.",
+        "visual_proof": "Clip 2 shows an aerial view of a semi-truck driving on a desert highway, followed by a close-up of its dashboard where the fuel gauge reads near empty. The same clip then shows the truck pulling into a gas station to refuel. Clip 4 transitions to a different vehicle, a black off-road jeep, speeding and kicking up dust in the desert, indicating a shift to high-speed action after the refueling event."
+    },
+    {
+        "question": "How does the video connect a person handling travel/mission gear to later rugged outdoor movement and then to armed preparation?",
+        "answer": "It shows a suitcase being opened with equipment inside, then a backpacked man in mountainous terrain, then men traversing rocky desert terrain, and finally weapons being inspected in a warehouse/armory.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            43,
+            39,
+            42,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows a suitcase opened to reveal equipment (camera/electronics), indicating mission preparation. Step 2: Slice 39 shows men navigating rocky terrain, suggesting the mission is underway. Step 3: Slice 42 shows the cap-wearing man moving between outdoor talk, a phone call, and then an armory aisle where a rifle is handled. Step 4: Slice 75 shows a person in a tactical vest with an assault rifle moving tactically in a desert setting. Conclusion: Gear preparation leads into rugged travel and culminates in armed readiness.",
+        "logic_check_reasoning": "Step 1: Slice 43 shows a rugged suitcase being opened with equipment inside, clearly indicating travel/mission gear handling. Step 2: Slice 43 then shows a backpacked man in a mountainous landscape, and Slice 39 depicts men traversing rugged, rocky, arid terrain, supporting the rugged outdoor movement. Step 3: Slice 42 depicts a warehouse/armory where weapons are inspected (a rifle is picked up and examined), directly supporting armed preparation. The sequence described in the proposed answer matches these supported transitions.",
+        "visual_proof": "Clip 1 shows a man opening a bag containing firearms. Clip 2 shows two men, one with a backpack, hiking through arid, rocky terrain. Clip 3 shows the same men in the desert, followed by a scene of a man retrieving a weapon from a hay bale and then walking through an armory filled with guns. Clip 4 shows a man actively handling a rifle in a desert setting. These scenes visually connect the preparation (gear/weapons) to the outdoor movement and armed readiness."
+    }
+]

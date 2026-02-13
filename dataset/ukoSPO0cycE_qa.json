@@ -1,0 +1,55 @@
+[
+    {
+        "question": "Across the video, which color hoodie is shown at a street performance-style moment and later becomes part of a playful indoor interaction and a living-room hangout?",
+        "answer": "A yellow hoodie.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            58,
+            66
+        ],
+        "reasoning_chain": "Step 1: A person is shown outdoors speaking energetically in a bright yellow hoodie. Step 2: Indoors, a yellow-hoodie person playfully interacts with someone in a black hoodie. Step 3: In a living room, a yellow-hoodie, cap-wearing man holds up a phone to the group. Conclusion: The yellow hoodie recurs across public, indoor, and hangout scenes.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a young man outdoors, speaking with expressive gestures, wearing a bright neon yellow hoodie—this fits the street performance-style moment. Step 2: Slice 58 shows an indoor scene where another individual enters wearing a yellow hoodie and engages playfully with the first person—this covers the playful indoor interaction. Step 3: Slice 66 depicts a living-room hangout where a man is wearing a yellow hoodie while interacting with friends—this matches the living-room context. Logic holds because the yellow hoodie appears in all three described contexts across the video.",
+        "visual_proof": "In Clip 1, a man in a bright yellow hoodie is seen outdoors on a street, gesturing animatedly as if performing or speaking to an audience. In Clip 2, the same man (identifiable by his cap and build) appears indoors, now part of a playful interaction with another man. In Clip 3, he is seated on a couch in a living room, actively engaged in conversation with a group, confirming the hoodie's presence across all three distinct scenes."
+    },
+    {
+        "question": "Which message format appears first as a big public poster and later as a wall filled with handwritten notes?",
+        "answer": "The format with prompts like “THIS IS WHAT SCARES ME:” and “THIS IS WHAT I'M GOING TO DO ABOUT IT:” appears first as a big poster and later as a wall filled with messages.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            48
+        ],
+        "reasoning_chain": "Step 1: The large poster shows the two-part prompts about fears and actions. Step 2: Later, a wall is shown covered in handwritten notes using the same prompts. Conclusion: The same fear/action prompt format is reused across locations.",
+        "logic_check_reasoning": "Step 1: Slice 43 describes a large public poster with sections labeled \"THIS IS WHAT SCARES ME:\" and \"THIS IS WHAT I'M GOING TO DO ABOUT IT:\". Step 2: Slice 48 describes a wall covered in handwritten notes featuring the phrases \"THIS IS WHAT SCARES ME\" and \"I'M GOING TO DO ABOUT IT,\" with people writing messages. Logic holds because the same prompt format appears on both the big poster (Slice 43) and later on the wall filled with handwritten notes (Slice 48).",
+        "visual_proof": "In Video 1 (0:00-0:03), two men are seen hanging a large white poster with the printed headings 'THIS IS WHAT SCARES ME:' and 'THIS IS WHAT I'M GOING TO DO ABOUT IT:'. In Video 2, frames 0:03-0:04 show close-ups of the same poster, now covered in handwritten notes under those exact headings. Frame 0:05 further confirms this, showing people actively writing on the poster/wall, which is filled with handwritten responses to those prompts."
+    },
+    {
+        "question": "From the couch scene with three men to the later planning scene, what new planning tool appears that wasn’t present during the couch conversation?",
+        "answer": "A whiteboard with a written plan (e.g., “THE PLAN,” “DAY 1,” etc.).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            26
+        ],
+        "reasoning_chain": "Step 1: The couch scene shows casual conversation/game with a remote and coffee table. Step 2: The planning scene introduces a whiteboard full of structured plan headings. Conclusion: The new tool is the planning whiteboard.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a casual couch scene with three men, mentioning a remote control, coffee table, and room decor, but no planning tools like a whiteboard. Step 2: Slice 26 shows a planning session where a whiteboard with handwritten notes ('THE PLAN,' 'DAY 1,' etc.) is explicitly present. Logic holds because the whiteboard appears in the later scene and is not mentioned in the couch scene.",
+        "visual_proof": "In Video 1, the scene is a casual living room with three men on a couch and a coffee table; no whiteboard is visible. In Video 2, a group of men are gathered around a large white paper or board labeled 'THE PLAN' with sections for 'DAY 1' and 'DAY 2' and handwritten tasks, which was not present in the first scene."
+    },
+    {
+        "question": "Which clothing detail is shared by the person laughing with a selfie camera open and the person later seen talking while holding a phone in a kitchen-like area?",
+        "answer": "Both are wearing a black shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            1
+        ],
+        "reasoning_chain": "Step 1: One scene shows a man in a black shirt laughing while using a selfie camera. Step 2: Another scene shows a man in a black shirt holding a phone and talking/gesturing in a kitchen area. Conclusion: The shared clothing detail is the black shirt.",
+        "logic_check_reasoning": "Step 1: Slice 7 states the man laughing with a selfie camera open is wearing a black shirt. Step 2: Slice 1 states the person talking while holding a phone in a kitchen-like area is a man in a black shirt. Logic holds because both scenes explicitly mention the individuals wearing black shirts.",
+        "visual_proof": "In the first clip, the man laughing while holding up his phone for a selfie is visibly wearing a black button-up shirt. In the second clip, the same man is seen in a kitchen-like area, talking and holding his phone, and he is wearing a black t-shirt. Both instances clearly show him in black shirts."
+    }
+]

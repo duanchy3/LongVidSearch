@@ -1,0 +1,180 @@
+[
+    {
+        "question": "When the man is shown cooking indoors, what utensil is he holding at first, and what different tool does he later hold while still in the kitchen?",
+        "answer": "He first holds a large black ladle, and later he holds a large knife.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the man in a kitchen wearing a green apron and holding a spatula. Step 2: Slice 8 shows the same green-apron kitchen scene but now he holds a large knife. Conclusion: The utensil changes from a spatula to a knife.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows the man indoors in a kitchen wearing a green apron over a white shirt and holding a spatula in his right hand. Step 2: Slice 8 later shows the same man indoors in a kitchen (same green apron over white shirt) holding a large knife in his right hand. Logic holds because both slices depict the same man in the same kitchen attire; first he holds a spatula, and later he holds a large knife while still in the kitchen.",
+        "original_text_answer": "He first holds a spatula, and later he holds a large knife.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In the first clip (0:00-0:06), the man is indoors in the kitchen holding a large black ladle. In the second clip (0:06-0:09), he is still in the kitchen but is now holding a large silver knife in one hand and an oven mitt in the other."
+    },
+    {
+        "question": "What number does the man display on a whiteboard earlier in the kitchen sequence, and what different number does he display later in a similar kitchen presentation?",
+        "answer": "He shows 87 earlier and 91 later.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows the man in the kitchen holding a whiteboard with '87'. Step 2: Slice 64 shows him holding a whiteboard with '91'. Conclusion: The displayed number changes from 87 to 91.",
+        "logic_check_reasoning": "Step 1: Slice 17 states the man in the kitchen holds up a whiteboard with the number '87'. Step 2: Slice 64 describes the same man and setting, later showing a whiteboard with the number '91'. Logic holds because both slices clearly depict the same person and environment, each explicitly listing the displayed number, supporting the claim that he shows 87 earlier and 91 later.",
+        "visual_proof": "In the first clip, the man holds up a whiteboard with the number '8.7' clearly written on it. In the second clip, he holds up a whiteboard with the number '9.1' clearly written on it. The question asks for the numbers displayed in an earlier and later sequence, which are visually confirmed as 8.7 and 9.1 respectively."
+    },
+    {
+        "question": "A woman is shown riding a bicycle in the city; later, what does she do with pizza while standing on a city street?",
+        "answer": "She eats pizza while standing on the street, holding a slice and a plate with more slices.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a woman with long hair in a black tank top riding a bicycle on city streets. Step 2: Slice 61 shows a blonde woman in a black tank top standing on a city street eating pizza while holding a slice and a plate. Conclusion: The biker woman later is shown eating pizza on the street.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows a woman riding a bicycle on a city street (black tank top, long hair). Step 2: Slice 61 shows a woman on a city street eating pizza—holding a slice in her right hand and a plate with more slices in her left, and taking a bite. The visual details (urban street, black tank top, long hair) align, and the question asks what she does later on the street with pizza. The proposed answer matches Slice 61 exactly.",
+        "visual_proof": "In Video 1, a woman is seen riding a bicycle on a city street. In Video 2, the same woman is standing on a city street, holding a slice of pizza in one hand and a paper plate with remnants of pizza in the other, clearly in the act of eating."
+    },
+    {
+        "question": "When the woman eats pizza at the red bench where a bicycle is parked nearby, what is the bench setting, and later what storefront type is she standing in front of while talking without actively eating?",
+        "answer": "She eats at a red bench with a bicycle nearby, and later she’s in front of a nail salon.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows the woman eating pizza while seated at a red bench with a bicycle parked behind/near it. Step 2: Slice 87 shows the blonde woman in a black tank top standing on a sidewalk in front of a nail salon, talking/holding a small object. Conclusion: She moves from the red-bench eating spot to standing outside a nail salon.",
+        "logic_check_reasoning": "Step 1: Slice 31 describes a woman with long blonde hair in a black tank top eating pizza at a red bench with a bicycle parked nearby in an urban daytime setting. This supports the bench setting as a red bench with a bicycle nearby. Step 2: Slice 87 shows a woman with long blonde hair in a black tank top standing on a sidewalk in front of a nail salon, smiling and engaged in conversation, not actively eating. This supports the storefront type as a nail salon. Logic holds because the visual attributes align and each slice explicitly provides the requested details.",
+        "visual_proof": "In Clip 1, the woman is seated on a bright red bench outdoors, with a white bicycle parked immediately beside her as she holds and eats a slice of pizza. In Clip 2, she is standing on a sidewalk in front of a storefront with a green awning clearly displaying the word 'NAIL', confirming it is a nail salon."
+    },
+    {
+        "question": "When the man is eating pizza against a graffiti-covered shutter/wall, how does his outfit differ between the first version of that scene and a later version featuring a beanie?",
+        "answer": "Initially he’s in a black T-shirt; later he’s in a denim jacket and gray beanie over a black shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            51,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows the man in a black shirt eating pizza in front of a graffiti-covered shutter. Step 2: Slice 53 shows a man in the same type of graffiti-wall setting but now wearing a denim jacket and gray beanie while eating/talking. Conclusion: The outfit changes from just a black T-shirt to denim jacket + beanie over black shirt.",
+        "logic_check_reasoning": "Step 1: Slice 51 describes the man eating pizza in front of a graffiti-covered metal shutter, wearing a black t-shirt. Step 2: Slice 53 describes a later scene with the man eating pizza in front of a graffiti-covered brick wall, wearing a gray beanie and a denim jacket over a black shirt. Logic holds because the question compares the outfits between the initial shutter/wall scene and a later beanie scene, and the slices explicitly provide those outfit details.",
+        "visual_proof": "In Video 1, the man is wearing only a plain black T-shirt. In Video 2, the same man is seen wearing a light-wash denim jacket over a black T-shirt and a gray beanie with a white patch on it. The background graffiti and shutter are identical in both clips, confirming it's the same location but different outfits."
+    },
+    {
+        "question": "In the kitchen, what food item is the man holding while preparing to cut in one moment, and later what protective item does he hold instead while still in the kitchen?",
+        "answer": "He holds garlic earlier, and later he holds black gloves.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows the man holding a knife and a piece of garlic. Step 2: Slice 70 shows him holding a pair of black gloves. Conclusion: The held item changes from garlic (prep) to gloves (protective gear).",
+        "logic_check_reasoning": "Step 1: Slice 35 states the man in the kitchen, wearing a green apron over a white shirt, is holding a knife and a piece of garlic, indicating he is preparing to cut garlic. Step 2: Slice 70 shows the similarly described man in the same kitchen holding a pair of black gloves. The visual attributes and setting align, indicating continuity. Therefore, the item first is garlic, and later it is black gloves.",
+        "visual_proof": "In the first clip, the man is clearly holding a small white bulb, identifiable as garlic, in his right hand. In the second clip, while still in the same kitchen setting, he is now holding a black oven mitt or glove in his left hand, which is a protective item."
+    },
+    {
+        "question": "Across the kitchen segments, which three different numbers does the man display on boards at different times?",
+        "answer": "He displays 87, 78, and 79.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            28,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows the man holding a board with '87'. Step 2: Slice 28 shows him holding a board with '78'. Step 3: Slice 90 shows him holding a board with '79'. Conclusion: The three displayed numbers are 87, 78, and 79.",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly states the man in the kitchen holds a whiteboard showing the number '87'. Step 2: Slice 28 explicitly states the man in the same kitchen setting holds a board with '78'. Step 3: Slice 90 explicitly states the man in the kitchen holds a whiteboard with '79'. All slices describe the same kitchen context and similar attire, indicating consistent segments with different numbers displayed. Therefore, the three numbers are 87, 78, and 79.",
+        "visual_proof": "In Clip 1, the man holds up a whiteboard showing the number '87'. In Clip 2, he holds up a board with the number '78'. In Clip 3, he holds up a board with the number '79'. Each clip clearly shows one of these three distinct numbers being displayed."
+    },
+    {
+        "question": "When the man is outside a pizza shop with a green awning, what sign detail appears later that emphasizes the storefront’s pizza theme, and what close-up shot style reinforces the focus on the slice itself?",
+        "answer": "A green neon 'PIZZA' sign appears later, and a close-up of a slice held up to the camera reinforces the focus on the pizza.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            65,
+            67,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows the man outside a pizza shop with a green awning holding a slice. Step 2: Slice 67 shows a green neon 'PIZZA' sign in the window of a pizza restaurant. Step 3: Slice 68 shows a close-up slice being held up, then the man outside with the neon sign behind him. Conclusion: The storefront is emphasized by the neon 'PIZZA' sign, and the slice is emphasized through close-up presentation to the camera.",
+        "logic_check_reasoning": "Step 1: Slice 65 establishes the man outside a pizza shop with a green awning. Step 2: Slice 67 notes a neon sign reading 'PIZZA' in bright green letters on the storefront, emphasizing the pizza theme. Step 3: Slice 68 describes a close-up shot of a slice of pizza being held up by a hand, reinforcing focus on the slice itself. The elements align logically and directly support the proposed answer.",
+        "visual_proof": "In Clip 1 and Clip 3, a green neon 'PIZZA' sign is clearly visible in the window of the storefront behind the man. In Clip 3, there is a distinct close-up shot focusing on the pizza slice being held on a white plate, highlighting its texture and size, which reinforces the visual focus on the pizza itself."
+    },
+    {
+        "question": "Across multiple food close-ups, what dipping item appears alongside the pizza, and how does the presentation move from a pure food close-up to an on-the-street eating scene with the man?",
+        "answer": "A small cup of marinara sauce appears, and the video shifts from close-ups of pizza with marinara to the man eating pizza on a city street.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            58,
+            60,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows a close-up slice with a small container of marinara sauce next to it. Step 2: Slice 60 again shows a close-up slice with a small cup of marinara sauce. Step 3: Slice 59 shows the man eating pizza on a city street (food now in use rather than just displayed). Conclusion: Marinara appears as the dip, and presentation shifts from food-only close-ups to the man eating the pizza outdoors.",
+        "logic_check_reasoning": "Step 1: Slice 58 shows a close-up of a pizza slice with a small container of marinara sauce next to it, confirming the dipping item. Step 2: Slice 60 also shows a close-up of a pizza slice with a small plastic cup of marinara sauce for dipping, reinforcing that this item appears across multiple close-ups. Step 3: Slice 59 depicts a man eating pizza on a city street, indicating the presentation shifts from pure food close-ups to an on-the-street eating scene. Minor topping differences (pepperoni noted in Slice 59) are acceptable VLM noise and do not affect the core logic. Therefore, the answer is supported.",
+        "visual_proof": "Clips 1 and 2 show extreme close-ups of a pizza slice with a small plastic cup of red sauce (marinara) next to it. Clip 3 then shows a man in a black shirt eating a slice of pizza while standing on a city sidewalk, confirming the transition from food close-up to an on-the-street eating scene."
+    },
+    {
+        "question": "Which pizza place name and address are shown earlier in the outing, and which different pizza shop name is shown later from its exterior sign?",
+        "answer": "Earlier it shows Joe’s Pizza at 7 Carmine St; later it shows Bleecker Street Pizza.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the exterior sign for 'Joe’s Pizza' and includes the address 7 Carmine St. Step 2: Slice 11 ends with an exterior shot showing the sign 'Bleeker Street Pizza'. Conclusion: The earlier place is Joe’s Pizza (7 Carmine St) and the later one is Bleecker Street Pizza.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly shows the exterior of Joe's Pizza and gives the address as 7 Carmine St, indicating this is earlier in the outing. Step 2: Slice 11 ends with an exterior shot showing a sign that reads 'Bleeker Street Pizza,' clearly identifying a different pizza shop later in the video. Logic holds because the proposed answer cites Joe’s Pizza at 7 Carmine St earlier and a different shop later; the minor spelling discrepancy ('Bleecker' vs 'Bleeker') is likely caption noise and does not change the identified shop.",
+        "visual_proof": "Clip 1 clearly shows the exterior sign for 'Joe's Pizza' with the address '7 Carmine St.' visible below. Clip 2 opens with a clear shot of the exterior sign for 'BLEECKER STREET PIZZA' with its address '69 7th AVE. SOUTH' displayed on the awning."
+    },
+    {
+        "question": "Starting from the outdoor steps where the couple shares pizza, what indoor activity does the man switch to afterward, and what specific item does he later hold up to communicate a number?",
+        "answer": "He switches to speaking in the kitchen wearing a green apron, and later he holds up a whiteboard showing the number 87.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            16,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows the couple eating pizza on steps and sharing a bite. Step 2: Slice 16 transitions to the man in a kitchen wearing a green apron, speaking/gesturing. Step 3: Slice 17 shows him holding up a whiteboard with '87'. Conclusion: After the steps meal, he shifts to an indoor kitchen segment and later presents the number 87.",
+        "logic_check_reasoning": "Step 1: Slice 15 and 16 describe the outdoor scene with a couple eating pizza on steps. Step 2: Slice 16 explicitly states the scene transitions to an indoor kitchen where a person wearing a green apron over a white T-shirt is actively communicating, likely explaining or giving instructions—supporting 'speaking in the kitchen wearing a green apron.' Step 3: Slice 17 shows the man in the kitchen holding up a whiteboard with '87' written on it, clearly indicating the specific item and number. Logic holds because the video transitions from the outdoor meal to the indoor instructional/speaking activity, and later he displays the whiteboard with 87.",
+        "visual_proof": "The first two clips show the man eating pizza outdoors on steps with a woman. The third clip shows the same man indoors in a kitchen, now wearing a green apron and holding a marker. He then picks up a whiteboard and displays it to the camera, clearly showing the handwritten number '87'."
+    },
+    {
+        "question": "How does the pizza-eating location for the blonde woman change from early seated scenes to later street-walking scenes, and which companion appears alongside her during the walking segment?",
+        "answer": "She goes from sitting and eating outdoors (park/bench seating) to walking down the sidewalk while eating, and she’s accompanied by a man in a denim jacket.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            31,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the blonde woman seated outdoors eating pizza while listening to the man. Step 2: Slice 31 shows her seated at a red bench eating pizza with a bicycle nearby. Step 3: Slice 88 shows her walking on a sidewalk holding food, alongside a man in a denim jacket. Conclusion: Her eating setting shifts from seated outdoor spots to walking on the street, with the denim-jacket man as her companion.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows a blonde woman seated outdoors in a park-like setting, holding a slice of pizza, indicating an early seated scene. Step 2: Slice 31 also shows the blonde woman sitting at a red bench outdoors with a slice of New York-style pizza, reinforcing the early seated context. Step 3: Slice 88 shows the blonde woman later walking along a sidewalk while holding a plate that includes pizza, indicating a shift to street-walking while eating. Step 4: In Slice 88, she is accompanied by a man wearing a denim jacket over a dark shirt. Logic holds because the early scenes establish seated outdoor eating (park/bench), and the later scene clearly shows walking on a sidewalk, with the companion explicitly described as a man in a denim jacket.",
+        "visual_proof": "In Clip 1, the blonde woman is seated next to a man on a bench behind a fence, eating pizza. In Clip 2, she is again seated on a red bench on a city sidewalk, eating pizza. In Clip 3, she is walking on the sidewalk while eating, accompanied by a man wearing a light-colored denim jacket."
+    },
+    {
+        "question": "If you follow the denim-jacket man across scenes, where is he first shown sitting and talking without a clear pizza focus, where is he later shown preparing to bite pizza at an outdoor table, and where is he shown again eating near graffiti?",
+        "answer": "He’s first at an outdoor café-style setting talking, then at an outdoor table preparing to bite a slice, and later he’s eating by a graffiti-covered wall.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            40,
+            44,
+            45,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows a man in a denim jacket and beanie at an outdoor table conversing (no pizza emphasized). Step 2: Slice 44 shows a person in a denim jacket and cap at an outdoor table holding a slice about to bite. Step 3: Slice 45 shows the denim-jacket person seated on yellow chairs with pizza, gesturing while speaking. Step 4: Slice 53 shows a denim-jacket man with a beanie eating/talking in front of graffiti. Conclusion: The denim-jacket man appears across these settings in a consistent outfit pattern, moving from conversation to eating at tables and then to graffiti-location eating.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows the denim-jacket man seated at a small round table in an outdoor café-style/public seating area, engaged in conversation with no mention of pizza, matching 'first shown sitting and talking without a clear pizza focus.' Step 2: Slice 44 shows the same denim-jacket person at an outdoor table, holding a slice of pizza and preparing to take a bite, matching 'later shown preparing to bite pizza at an outdoor table.' Step 3: Slice 53 shows the denim-jacket man in front of a graffiti-covered wall, holding a plate with pizza and taking a bite, matching 'shown again eating near graffiti.' The visual attributes and actions align across slices, supporting the proposed sequence.",
+        "visual_proof": "Clip 1 shows the man sitting at a yellow outdoor table with chairs, talking and gesturing without pizza in focus. Clip 2 shows him standing and holding a slice of pizza near his mouth as if about to eat, at what appears to be the same outdoor table area. Clip 4 clearly shows him eating the pizza while standing in front of a brick wall covered in graffiti. The sequence matches the answer exactly."
+    }
+]

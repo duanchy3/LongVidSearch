@@ -1,0 +1,87 @@
+[
+    {
+        "question": "Which outdoor moment happens later: the blonde woman walking down the street as a cat runs across in front of her, or the blonde woman sprinting out of a hotel after an encounter with a man?",
+        "answer": "The blonde woman sprinting out of the hotel happens later.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            30
+        ],
+        "reasoning_chain": "Step 1: The cat crossing in front of the blonde woman occurs during her daytime street walk. Step 2: A later sequence shows her running out of a hotel after being pulled onto a bed by a man. Conclusion: The hotel escape occurs later than the cat-crossing street walk.",
+        "logic_check_reasoning": "Step 1: Slice 8 states the video begins with bed shots and then shows a blonde woman walking down the street as a cat runs across. This places that outdoor moment at/near the start. Step 2: Slice 30 shows a sequence where the blonde woman enters a hotel, has an encounter with a man, and then the scene cuts to her running out of the hotel and down the street—an outdoor moment that occurs after preceding events. Step 3: Comparing these, the cat-crossing walk is described as an early scene, whereas the sprinting out of the hotel happens after an intervening hotel sequence, so it is later. The logic holds despite VLM phrasing noise (both saying “video starts”), because Slice 30 explicitly orders the sprint after the hotel encounter.",
+        "visual_proof": "Clip 1 shows the blonde woman walking down a street, followed by a cat running across her path. Clip 2 shows her entering a hotel, having an intense interaction with a man in a room, and then sprinting out of the hotel. The sequence of events within Clip 2 (entering hotel -> interaction -> sprinting out) clearly places the sprinting scene after the initial walk shown in Clip 1."
+    },
+    {
+        "question": "Which scene comes later: the blonde woman laughing warmly with a dark-haired friend on a bridge at dusk, or the rescue on the dock where someone jumps into the water to help a struggling person?",
+        "answer": "The dock rescue where someone jumps into the water happens later.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            65
+        ],
+        "reasoning_chain": "Step 1: The bridge scene shows two young women laughing and then shifting to concern in soft dusk light. Step 2: Later, a nighttime dock gathering turns urgent and someone dives in to rescue a struggling person. Conclusion: The dock rescue occurs later.",
+        "logic_check_reasoning": "Step 1: Slice 18 describes a scene at dusk or dawn with two women on a bridge, indicating late afternoon/early evening lighting. Step 2: Slice 65 describes a dock scene at night under artificial lighting. Step 3: Night follows dusk/early evening in temporal order. Step 4: Additionally, the evidence numbering (65 vs 18) suggests the dock scene appears later in the video sequence. Therefore, the dock rescue happens later.",
+        "visual_proof": "Clip 1 shows a blonde woman laughing with friends on a bridge during dusk, indicated by the ambient light and urban background. Clip 2 depicts a nighttime scene at a dock with artificial lighting, where a person is seen jumping into dark water to rescue another. The transition from dusk (Clip 1) to night (Clip 2) visually confirms that the dock rescue occurs later in time."
+    },
+    {
+        "question": "Which happens later: the blonde woman being restrained by a woman in a white lab coat in a medical waiting room, or the blonde woman speaking on the phone in the back seat of a car with a brunette friend beside her?",
+        "answer": "The car back-seat phone call happens later.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            77
+        ],
+        "reasoning_chain": "Step 1: In the medical setting, a white-coated woman grabs the blonde woman’s arm and pulls her back. Step 2: Later, two women sit in the back seat, and the blonde woman talks on the phone while the brunette looks at her. Conclusion: The back-seat phone call occurs later in the timeline.",
+        "logic_check_reasoning": "Step 1: Slice 26 states, \"The video starts with a woman...\" who then enters a medical setting where a woman in a white lab coat restrains her. This places the restraint scene at the beginning of the video. Step 2: Slice 77 describes a separate scene of a blonde woman speaking on the phone in the back seat of a car with a brunette beside her, with no indication it is at the start. Step 3: Since the restraint occurs at the start, and the car scene is another part of the video without being the start, the car back-seat phone call logically occurs later.",
+        "visual_proof": "In Clip 1, the blonde woman is shown in a clinical setting, interacting with a doctor and undergoing an examination, which suggests an earlier, more serious event. In Clip 2, she is seen in a relaxed, casual setting in the back of a truck with a friend, smiling while on the phone, indicating a later, more positive or routine moment. The shift from a medical environment to a social one implies a temporal progression."
+    },
+    {
+        "question": "Which later event most strongly contrasts with the early joyful outdoor dancing among friends, showing a life-or-death style urgency instead of carefree celebration?",
+        "answer": "The nighttime dock incident where someone struggles in the water and another person dives in to rescue them.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            65
+        ],
+        "reasoning_chain": "Step 1: Early scenes show joyful outdoor dancing among friends in a carefree mood. Step 2: Later, a tense dock scene involves a person struggling in the water and an urgent rescue dive. Conclusion: The dock rescue most strongly contrasts with the earlier carefree celebration.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes an early scene of young women dancing outdoors, conveying a carefree and joyful atmosphere. Step 2: Evidence Slice 65 details a later nighttime dock incident where someone is struggling in the water and another person urgently dives in to rescue them, emphasizing danger and urgency. Step 3: This later event clearly contrasts with the earlier carefree celebration, matching the question’s framing of a life-or-death style urgency vs. joyful dancing. Therefore, the proposed answer is directly supported by the provided context.",
+        "visual_proof": "Clip 1 shows a group of young women dancing and laughing outdoors in daylight, conveying a carefree, joyful mood. Clip 2 depicts a starkly different scene at night on a dock: a person is seen struggling in the dark water while others watch in alarm, followed by another person diving in to help. This sequence clearly portrays a life-or-death urgency, creating a strong contrast with the earlier celebration."
+    },
+    {
+        "question": "What evidence suggests the blonde woman is repeatedly shown trying to escape or flee situations across different locations (medical setting, hotel, and indoor hallway)?",
+        "answer": "She is shown being physically restrained by a medical professional in a clinic, appears distressed and leaves a hotel room after an encounter with a man, and later runs urgently through an indoor hallway.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            26,
+            30,
+            49
+        ],
+        "reasoning_chain": "Step 1: In the medical waiting room, a lab-coated woman grabs the blonde woman’s arm to stop her from leaving. Step 2: In the hotel sequence, the blonde woman is overpowered on a bed and then runs out into the street. Step 3: Later she runs through a hallway in panic/urgency. Conclusion: Across multiple scenes she is depicted attempting to flee and being pursued or driven by fear.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows a blonde woman in a medical waiting room trying to leave; as she opens the door, a woman in a lab coat pulls her back inside while she tries to pull away, indicating an attempted escape. Step 2: Slice 30 shows a blonde woman in a hotel room being overpowered on a bed and then running out of the hotel and down the street, clearly fleeing that situation. Step 3: Slice 49 shows a blonde woman running urgently through an indoor hallway, suggesting flight within a building. Logic holds because each slice depicts the blonde woman attempting to leave or flee tense situations across distinct locations: medical setting (Slice 26), hotel (Slice 30), and indoor hallway (Slice 49).",
+        "original_text_answer": "She is physically pulled back in a medical waiting room, runs out of a hotel after being overpowered, and later is shown running urgently through a hallway.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the woman is seen being held back by a doctor's gloved hands during an exam. In Clip 2, she is shown walking away from a hotel entrance after an interaction with a man inside a room. In Clip 3, she is seen running quickly down a hallway, looking over her shoulder with a concerned expression."
+    },
+    {
+        "question": "Across separate scenes, what shows the blonde woman moving from everyday normalcy to institutional control and then to frantic escape?",
+        "answer": "She first walks casually in daylight, then is examined and interacted with by a doctor in a medical office, and later runs urgently through indoor corridors and hallways.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            27,
+            26,
+            49,
+            35
+        ],
+        "reasoning_chain": "Step 1: The blonde woman is shown walking in daylight in a grey hoodie, seemingly uneventful. Step 2: In a medical setting, a woman in a white coat grabs her arm and pulls her back, implying control. Step 3: Later she runs through a hallway in urgency and panic. Step 4: Another later sequence shows frantic running and collapsing/falling in a tense indoor environment. Conclusion: Her state shifts from ordinary to controlled/restrained to frantic escape.",
+        "logic_check_reasoning": "Step 1: Slice 27 shows a blonde woman walking casually in daylight on a street, indicating everyday normalcy. Step 2: Slice 26 shows the same type of blonde woman entering a medical waiting room where a woman in a lab coat restrains her, demonstrating institutional control. Step 3: Slice 49 depicts a blonde woman running urgently through indoor hallways, reflecting frantic escape. The progression from casual walk to medical restraint to urgent running aligns with the proposed answer.",
+        "original_text_answer": "She first walks casually in daylight, then is restrained in a medical waiting room, and later runs urgently through indoor corridors and hallways.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 2 shows her walking casually outdoors in daylight. The same clip then shows her inside a medical office, being examined by a doctor (e.g., having her back touched, talking to the doctor), not restrained. Clip 1 clearly shows her running frantically through dark, graffiti-covered indoor corridors and hallways, indicating escape."
+    }
+]

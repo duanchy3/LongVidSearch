@@ -1,0 +1,157 @@
+[
+    {
+        "question": "What ingredient is added to boiling water before the long pasta goes in, and what tool is used later to mix the cooked pasta into the sauce?",
+        "answer": "Salt; tongs are used to mix the pasta into the sauce.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows salt being poured into boiling water before spaghetti is added. Step 2: Slice 18 shows cooked long pasta poured into red meat sauce and mixed using a spoon. Conclusion: Salt is added first, and a spoon mixes pasta into sauce later.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows boiling water and explicitly states that salt is added before uncooked spaghetti is placed into the pot. Step 2: Slice 18 shows cooked long pasta being added to a meat sauce and explicitly mentions that a spoon is used to mix the pasta with the sauce. Logic holds because the ingredient (salt) and the tool (spoon) directly match the described actions in the respective slices.",
+        "original_text_answer": "Salt; a spoon is used to mix the pasta into the sauce.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, salt is visibly added to the boiling water before the pasta is introduced. In Clip 2, after the cooked pasta is added to the sauce, black tongs (not a spoon) are clearly used to mix and toss the pasta with the sauce."
+    },
+    {
+        "question": "Which two seasonings are sprinkled onto the meat-and-vegetable mixture after tomato paste is visible, and which liquid dairy ingredient is added later to make the sauce creamier?",
+        "answer": "Black pepper and sugar; heavy cream.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows black pepper and sugar sprinkled over the mixture with a red paste. Step 2: Slice 44 shows heavy cream being poured into the pan to enrich the sauce. Conclusion: The seasonings are black pepper and sugar, and the later dairy is heavy cream.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly shows a dollop of tomato paste in the pan and then states that black pepper and sugar are sprinkled over the mixture. Step 2: Slice 44 shows heavy cream (\"Heavy cream - 180 ml\") being poured into the cooked mixture, with description indicating it lightens and thickens the sauce, making it creamier. The details align sequentially: seasonings after tomato paste (Slice 9) and later addition of a liquid dairy ingredient (Slice 44).",
+        "visual_proof": "In Video 1, after the tomato paste is added, text overlays explicitly label 'Black pepper' and 'Sugar' as they are sprinkled onto the mixture. In Video 2, a white liquid is poured into the pan, and an on-screen label identifies it as 'Heavy cream - 180 ml'."
+    },
+    {
+        "question": "In the later recipe sequence, which oil is poured into the pan before onions are fried, and which other vegetable is chopped earlier and later appears frying with those onions?",
+        "answer": "Olive oil; celery.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            62,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 62 shows olive oil poured into the pan before chopped onions are added. Step 2: Slice 66 shows onions frying together with chopped celery. Conclusion: Olive oil is used first, and celery is the other vegetable that ends up frying with the onions.",
+        "logic_check_reasoning": "Step 1: Slice 62 explicitly states that olive oil is poured into a black pan and then finely chopped onions are added and fried. Step 2: Slice 66 shows a pan with finely chopped onions and celery being fried together, indicating celery is the other chopped vegetable present with the onions. Logic holds because Slice 62 identifies the oil as olive oil and Slice 66 identifies celery alongside the onions during frying.",
+        "visual_proof": "In Clip 1, olive oil is visibly poured into the pan, with on-screen text confirming 'Olive oil' and 'Olivenöl'. Diced onions are then added and fried. In Clip 2, diced celery (light green, distinct from onions) is added to the pan with the already frying onions and stirred together, confirming it is the other vegetable that appears frying with the onions."
+    },
+    {
+        "question": "In the later recipe, what is chopped first as the aromatic base, what additional vegetable is chopped and added to fry with it, and what red ingredient is poured in to turn it into a sauce?",
+        "answer": "Onion; celery; tomato puree.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            60,
+            66,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows onions being chopped finely. Step 2: Slice 66 shows onions frying together with celery. Step 3: Slice 83 shows tomato puree poured into the pan to create a red sauce. Conclusion: Onion is the base, celery joins to fry, and tomato puree becomes the sauce.",
+        "logic_check_reasoning": "Step 1: Slice 60 shows onions being chopped, indicating onions are the first aromatic base. Step 2: Slice 66 shows finely chopped onions and celery frying together for ~2 minutes, so celery is the additional vegetable added to fry with the onions. Step 3: Slice 83 shows tomato puree being poured into the pan with the vegetables, providing the red ingredient that turns it into a sauce. The sequence is consistent across slices.",
+        "visual_proof": "Clip 1 shows onions being finely chopped. Clip 2 shows the chopped onions already in a pan, followed by chopped celery being added and stirred together. Clip 3 shows red bell peppers and garlic also being added before tomato puree is poured over the entire mixture, confirming the sequence of aromatic base (onion), additional vegetable (celery), and red sauce ingredient (tomato puree)."
+    },
+    {
+        "question": "Which vegetable is prepared by peeling its skin before being cut, and where does it later appear cooking with sautéed onions?",
+        "answer": "Bell pepper; it later appears diced and cooking in the pan with the sautéed onions.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            27,
+            23,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows a bell pepper being peeled with a vegetable peeler before cutting. Step 2: Slice 23 shows onions being sautéed in a pan. Step 3: Slice 29 shows chopped vegetables (including peppers) being poured into the pan with sautéed onions. Conclusion: The peeled vegetable is bell pepper, and it later cooks with the sautéed onions.",
+        "logic_check_reasoning": "Step 1: Slice 27 shows a bell pepper being peeled with a vegetable peeler and then cut into smaller pieces. Step 2: Slice 23 shows chopped onions being sautéed in a pan, establishing the sautéed onions. Step 3: Slice 29 shows chopped vegetables, including bell peppers, being added to a pan already containing sautéed onions and then stirred, indicating the bell pepper appears cooking with the onions. The slight color difference (green/orange vs red) is acceptable VLM variation; both refer to bell peppers.",
+        "visual_proof": "In Clip 1, a person is shown slicing a red and green bell pepper on a cutting board. In Clip 3, diced red and green bell peppers are poured into a pan containing sautéed onions, confirming they are cooked together."
+    },
+    {
+        "question": "What two vegetables are clearly chopped on the board and then shown together being stirred and fried in the pan for about two minutes?",
+        "answer": "Celery and red bell pepper.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            64,
+            72,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows celery chopped. Step 2: Slice 72 shows red bell pepper being chopped into small pieces. Step 3: Slice 75 shows both celery and red bell pepper diced in a pan being stirred with a 'Fry ~2 minutes' instruction. Conclusion: Celery and red bell pepper are chopped and then fried together.",
+        "logic_check_reasoning": "Step 1: Slice 64 shows celery being cut into small pieces on a wooden cutting board. Step 2: Slice 72 shows red bell peppers being sliced into small pieces on a wooden cutting board. Step 3: Slice 75 shows a pan containing diced celery and red bell peppers being stirred with a wooden spoon, with on-screen text indicating \"Fry ~2 minutes.\" Logic holds because the same two vegetables that were chopped on the board (celery and red bell peppers) are later shown together in the pan being fried for about two minutes.",
+        "visual_proof": "Clip 1 shows celery stalks being chopped. Clip 2 shows a red bell pepper being diced. Clip 3 visually confirms both the chopped celery and red bell pepper are combined in a pan and stirred together, indicating they are being cooked."
+    },
+    {
+        "question": "Which ingredients are presented as fresh add-ins for the creamy meat dish, and what later step shows those add-ins ending up inside the cooked pasta mixture topped with cheese?",
+        "answer": "Spinach and cherry tomatoes; later the pasta mixture shows greens and tomatoes mixed in and then gets topped with shredded cheese.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            49,
+            50,
+            52,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows fresh spinach and cherry tomatoes being presented and spinach being added into the pot. Step 2: Slice 50 shows spinach and cherry tomatoes stirred with the meat in the pan. Step 3: Slice 52 shows pasta drained and added to the sauce. Step 4: Slice 54 shows the pasta mixture (with meat/veg) being topped with shredded cheese. Conclusion: Spinach and cherry tomatoes are the fresh add-ins that end up in the sauced pasta before cheese is added on top.",
+        "logic_check_reasoning": "Step 1: Slice 49 shows fresh ingredients presented as add-ins: sliced cherry tomatoes and spinach, with spinach being added to the creamy meat mixture. Step 2: Slice 50 confirms the mixture includes ground meat, spinach leaves, and cherry tomatoes. Step 3: Slice 52 shows penne being drained and added to the sauce, followed by cheese grating. Step 4: Slice 54 shows the pasta mixture containing green leafy vegetables (spinach) and diced tomatoes, and then shredded cheese being sprinkled on top. Logic holds because the identified fresh add-ins (spinach and cherry tomatoes) are later visible in the pasta mixture that is topped with cheese.",
+        "visual_proof": "Clip 1 visually introduces halved cherry tomatoes and fresh spinach leaves being added to the creamy meat sauce. Clip 2 shows these ingredients being stirred into the sauce. Clip 3 shows cooked pasta being added to this mixture, which already contains the visible greens and tomatoes. Clip 4 confirms the final dish with the pasta fully integrated with the sauce, spinach, and tomatoes, and then topped with shredded cheese."
+    },
+    {
+        "question": "Across the later recipe, after the peppers and celery are frying, what ingredient is prepared next on the cutting board and then ultimately contributes to a thick red sauce added to the vegetables?",
+        "answer": "Mushrooms are prepared next; later tomato puree is added to form a thick red sauce with the vegetables.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            76,
+            82,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 76 shows vegetables frying, then transitions to mushrooms being sliced on a cutting board. Step 2: Slice 82 shows the pepper/celery/onion mix frying about 2 minutes. Step 3: Slice 83 shows tomato puree being added to those vegetables to make a red sauce. Conclusion: Mushrooms are the next prepped ingredient, and tomato puree later forms the thick red sauce with the vegetables.",
+        "logic_check_reasoning": "Step 1: Slice 76 shows peppers, celery, and onions frying, followed by a shot of mushrooms being sliced on a cutting board with labels indicating quantity, so mushrooms are prepared next. Step 2: Slice 83 shows tomato puree being added to the pan, explicitly described as creating a rich, red sauce with the vegetables. Logic holds because the sequence clearly transitions from frying vegetables to preparing mushrooms, and later adding tomato puree to form the red sauce.",
+        "visual_proof": "Clip 1 shows peppers and celery frying. Clip 2 visually confirms mushrooms being chopped on a cutting board and then added to the pan. Clip 3 shows tomato puree being poured into the pan with the vegetables, as indicated by the on-screen text 'Tomato puree - 1.25 cups'. This sequence directly supports the original answer."
+    },
+    {
+        "question": "How does the pasta component progress from boiling to being combined with sauce: what instruction is given during boiling, what draining-related instruction appears, and what final combination step happens afterward?",
+        "answer": "Cook until al dente; drain the water; then add the cooked pasta to the sauce and mix.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            17,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows pasta boiled with the instruction to cook until al dente. Step 2: Slice 17 shows an instruction about draining water. Step 3: Slice 18 shows cooked pasta added into the sauce and mixed. Conclusion: The process is al dente boiling, draining, then mixing pasta into sauce.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly shows pasta boiling and includes the on-screen instruction 'Cook until al dente.' Step 2: Slice 17 includes the on-screen instruction 'Drain the water,' indicating a draining step in the cooking process. Step 3: Slice 18 shows the cooked pasta being poured into the meat sauce and mixed, which matches the final combination step. Despite Slice 17's focus on a stew, the instruction 'Drain the water' is present in the video and logically fits the pasta preparation sequence when combined with Slices 4 and 18.",
+        "visual_proof": "Clip 1 shows pasta being added to boiling water with on-screen text 'Cook until al dente'. Clip 2 ends with a black screen displaying 'Drain the water' (and its German translation). Clip 3 visually shows the cooked pasta being poured into the sauce pan, followed by mixing with tongs, accompanied by the text 'Add pasta' and 'Mix well'."
+    },
+    {
+        "question": "In the first pasta-with-meat-sauce sequence, what gets added to the meat-and-vegetable pan after mushrooms go in, and what aromatic is prepared on the board and then added later to the sauce?",
+        "answer": "Tomato puree is added; garlic is chopped and then added later.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            13,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows mushrooms added to the pan and then tomato puree poured in. Step 2: Slice 13 shows garlic chopped on the board. Step 3: Slice 14 shows the chopped garlic transferred into the sauce and stirred. Conclusion: Tomato puree follows the mushrooms, and chopped garlic is later added as an aromatic.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows mushrooms being added to a pan with ground meat, carrots, and onions, followed by on-screen text \"Tomato puree - 1.2 cups\" and the tomato puree being poured in. Thus, after mushrooms, tomato puree is added. Step 2: Slice 13 shows garlic being chopped on a wooden cutting board, indicating preparation of an aromatic. Step 3: Slice 14 shows the chopped garlic being transferred into the red sauce in the pan and stirred, confirming that the prepared garlic is added later to the sauce. The logic links cleanly across the slices.",
+        "visual_proof": "Clip 1 shows sliced mushrooms being added to the pan with meat and vegetables, followed by a large pour of red tomato puree. Clip 2 visually demonstrates garlic cloves being smashed and finely chopped on a wooden board. Clip 3 shows the chopped garlic being scraped off the board and then added into the pan containing the meat, mushroom, and tomato puree mixture."
+    },
+    {
+        "question": "In the later recipe, after vegetables are fried and tomato puree is added, what two seasonings are added next, and what instruction later indicates the sauce is briefly cooked covered before pasta is dealt with?",
+        "answer": "Salt and black pepper; it is covered for about 10 minutes.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            83,
+            84,
+            88,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 83 shows tomato puree added to the vegetables. Step 2: Slice 84 shows salt and then black pepper added. Step 3: Slice 88 indicates the mixture is covered for about 10 minutes as it cooks. Step 4: Slice 90 shows pasta later being added to the vegetables/sauce. Conclusion: Season with salt and pepper, then cover to cook ~10 minutes before the pasta addition step.",
+        "logic_check_reasoning": "Step 1: Slice 83 shows the tomato puree being added after the vegetables are fried. Step 2: Slice 84 explicitly shows the addition of two seasonings next: salt and black pepper (with on-screen text). Step 3: Slice 88 shows the mixture being covered with a lid with an instruction to cover for approximately 10 minutes, followed by scenes of boiling pasta, indicating the sauce is briefly cooked covered before dealing with the pasta.",
+        "visual_proof": "Clip 2 visually shows salt being sprinkled onto the tomato puree, followed by black pepper, with on-screen text confirming 'Salt' and 'Black pepper'. Clip 3 shows a lid being placed on the pan, accompanied by on-screen text stating 'Cover with a lid and cook for ~10 minutes', directly supporting the instruction."
+    }
+]

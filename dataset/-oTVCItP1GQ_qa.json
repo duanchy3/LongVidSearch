@@ -1,0 +1,41 @@
+[
+    {
+        "question": "What ocean region is explicitly named when the cargo ship is shown in rough seas, and where is the marine research institute later shown to be located?",
+        "answer": "The ship is in the Philippine Sea, and the institute is in Hainan, China.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the cargo ship with the on-screen label “PHILIPPINE SEA.” Step 2: Slice 5 shows the building labeled “Oceanic Institute Hainan, China.” Conclusion: The named ocean region is the Philippine Sea, and the institute is located in Hainan, China.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 explicitly states that when the cargo ship is shown in rough seas, the words \"PHILIPPINE SEA\" appear on the screen, identifying the ocean region. Step 2: Evidence Slice 5 shows an aerial view of the \"Oceanic Institute Hainan, China\" and references the \"Wanming Whale Spirit Research Institute,\" indicating the institute is located in Hainan, China. Logic holds because both details are directly provided in the captions.",
+        "visual_proof": "Clip 1 explicitly displays the text 'PHILIPPINE SEA' overlaid on the cargo ship scene. Clip 2 shows an aerial view of a coastal facility with the text 'OCEANIC INSTITUTE HAINAN, CHINA' and Chinese characters '万溟鲸灵研究所' identifying the location."
+    },
+    {
+        "question": "At the formal event, who is introduced as the CEO speaking on stage, and what deep-sea vehicle label is later shown during the presentation imagery?",
+        "answer": "Hilary Driscoll is introduced as the CEO, and the vehicle label is “DIVE-1 Deep Submersible Vehicle.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 6 introduces Hilary Driscoll as CEO of Quantum Technologies speaking on a blue-lit stage. Step 2: Slice 8 shows the submersible labeled “DIVE-1 DEEP SUBMERSIBLE VEHICLE.” Conclusion: The CEO is Hilary Driscoll and the displayed vehicle is DIVE-1.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly states that Hilary Driscoll is introduced as the CEO of Quantum Technologies and is speaking on stage. Step 2: Slice 8 explicitly shows a submersible labeled \"DIVE-1 DEEP SUBMERSIBLE VEHICLE\" during the presentation imagery. Logic holds because the first detail identifies the CEO at the formal event, and the second provides the exact vehicle label shown later.",
+        "visual_proof": "Clip 1 shows a woman on stage with on-screen text identifying her as 'HILARY DRISCOLL, X-PLETANDUM TECHNOLOGIES', confirming her role as CEO. Clip 2 displays a presentation slide with a clear label reading 'DIVE-1 潜水1 DEEP SUBMERSIBLE VEHICLE', directly matching the vehicle name in the answer."
+    },
+    {
+        "question": "Which underwater boundary term is emphasized during the submersible presentation, and which related depth feature term is highlighted on a later diagram screen?",
+        "answer": "The boundary term is “thermocline,” and the related depth feature term is “trench.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows the word “THERMOCLINE” during the submersible segment. Step 2: Slice 9 shows a title/diagram with “THERMOCLINE” and “TRENCH.” Conclusion: The emphasized boundary is thermocline and the related feature is trench.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows a submersible labeled 'DIVE-1' operating in a dark underwater environment, and explicitly states that the words 'THERMOCLINE' appear on the screen, indicating the boundary depth. Step 2: Slice 9 describes a later title/diagram screen featuring the words 'THERMOCLINE' and 'TRENCH' with graphical elements (red circle and arrows), highlighting 'TRENCH' as a depth feature. Logic holds because the first term (thermocline) is emphasized during the submersible presentation, and the later screen highlights the related depth feature term (trench).",
+        "visual_proof": "Clip 1 shows a diagram screen with the word 'THERMOCLINE' clearly displayed in large, glowing letters. Clip 2 shows a subsequent diagram screen with the word 'TRENCH' displayed in the same style, directly below the thermocline layer, visually linking the two terms as requested in the question."
+    }
+]

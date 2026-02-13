@@ -1,0 +1,155 @@
+[
+    {
+        "question": "Which item she packed earlier shows up again during her midday work session, and what does it contain?",
+        "answer": "The lunch box shows up again, and it contains fruit like strawberries and blackberries.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows her closing a colorful lunch box with a wrapped sandwich and a small yellow-lidded container. Step 2: Slice 37 shows a lunch box at her desk filled with strawberries and blackberries. Conclusion: The packed lunch box reappears during the work session with fruit inside.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows a person in a beige/light-colored sweater packing a lunch box on a kitchen counter. Step 2: Slice 37 shows a woman in a light-colored sweater at a desk with a lunch box, opening it and taking out fruit (strawberries and blackberries). Logic holds because the same type of item (a lunch box) appears in both scenes, suggesting continuity. Slice 37 explicitly states the lunch box contains fruit, which answers the second part of the question.",
+        "visual_proof": "In Clip 1 (0:02), the person packs a small, white, rectangular container with a cartoon character on the lid into a larger lunch bag. In Clip 2 (0:03-0:05), the same white container is seen on the desk. The person opens it to reveal sliced strawberries and whole blackberries inside before eating them while working."
+    },
+    {
+        "question": "How does her environment change from getting ready to leave home to waiting outside before class, and what object helps connect these moments?",
+        "answer": "She goes from an indoor home entryway while putting on shoes to sitting outdoors by a brick pillar and fence, connected by her colorful backpack.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows her tying shoes indoors and picking up a colorful backpack. Step 2: Slice 13 shows her sitting outside near a brick pillar and fence with that backpack while waiting. Conclusion: The setting changes from home to outdoors, and the backpack links the scenes.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows an indoor home entryway setting: a cozy room with a shoe rack where the person ties their shoelaces and picks up a large, colorful backpack. Step 2: Slice 13 shows an outdoor setting: the person is sitting near a brick pillar and metal fence, carrying the same colorful backpack while waiting. Logic holds because the environment change from indoors (home entryway) to outdoors (by brick pillar and fence) is explicitly described, and the colorful backpack is present in both slices, connecting the moments.",
+        "visual_proof": "Clip 1 shows her indoors in a hallway with a shoe rack and plants, tying her shoes. Clip 2 shows her outdoors, crouching next to a brick pillar and metal fence. The same brown backpack is visible in both clips: she puts it on in Clip 1 and is wearing it in Clip 2, serving as the visual link between the two scenes."
+    },
+    {
+        "question": "What does she say about her skin earlier in the morning, and what later behind-the-scenes activity relates to managing her appearance for a shoot?",
+        "answer": "She mentions getting more breakouts lately, and later someone applies makeup to her during behind-the-scenes preparation.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 5 includes the note that she has been getting more breakouts lately during skincare and makeup. Step 2: Slice 41 shows behind-the-scenes prep where makeup is applied for a shoot. Conclusion: Appearance-focused routines connect her earlier concern and later shoot preparation.",
+        "logic_check_reasoning": "Step 1: In Evidence Slice 5, during the morning routine, the on-screen text explicitly says '[been getting more breakouts lately],' confirming she mentions more breakouts. Step 2: In Evidence Slice 41, during the behind-the-scenes segment, it shows another person applying makeup to a woman, which is an activity directly related to managing appearance for a shoot. Logic holds because the question connects the morning comment about skin to a later preparation activity (makeup application) shown in the BTS footage.",
+        "visual_proof": "In Clip 1, at 0:04-0:05, the on-screen text reads '[ been getting more breakouts lately ]' while she is shown with a wet face after washing. In Clip 2, the 'Behind the Scenes' montage shows multiple frames where another person is applying makeup to her face (e.g., frame 28 and 29), confirming active appearance management for a shoot."
+    },
+    {
+        "question": "Which fruit is washed earlier and then appears again as part of what she eats during a later work session?",
+        "answer": "Strawberries and blackberries are rinsed earlier and later appear in her lunch box during the work session.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows strawberries and blackberries being rinsed in a colander. Step 2: Slice 37 shows a lunch box filled with strawberries and blackberries at her desk. Conclusion: The same fruits appear in both preparation and later eating.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly shows strawberries and blackberries being rinsed in a colander. Step 2: Slice 37 shows a woman at a desk eating from a lunch box that contains fruits like strawberries and blackberries. Logic holds because the specific fruits washed earlier (strawberries and blackberries) are the same types that appear in the lunch box during the later work session.",
+        "visual_proof": "In Video 1, strawberries and blackberries are shown being washed in a colander under running water. In Video 2, the same types of fruit (strawberries and blackberries) are seen inside a container that the woman opens and eats from while working at her laptop, confirming they were washed earlier and reappear as part of her meal."
+    },
+    {
+        "question": "How does the day’s academic timeline progress from class attendance to finishing the lecture and then shifting into a work-focused location?",
+        "answer": "She attends Sociology Theory class, then the lecture finishes, and afterward she heads to the library to do work and take calls.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            29,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows the Sociology Theory class setting at 11:00 AM. Step 2: Slice 29 states class finished and it was her only lecture for the day. Step 3: Slice 30 notes she is heading to the library to do work and take calls. Conclusion: The storyline moves from class to completion to work mode.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows the person in a classroom during a Sociology Theory class at 11:00 AM, indicating class attendance. Step 2: Slice 29 includes the text overlay \"class finished up! my only lecture for the day,\" explicitly confirming the lecture has ended. Step 3: Slice 30 shows the person heading to the library with the text overlay \"[heading to the library to do work and take calls],\" confirming the shift to a work-focused location. The sequence from attending class to finishing it and then going to the library is explicitly supported across the slices.",
+        "visual_proof": "Clip 1 shows a laptop on a desk in a classroom with text overlay '11:00 AM Sociological Theory', indicating class attendance. Clip 2 shows an outdoor campus scene with text '[class finished up! my only lecture for the day]', confirming the lecture's end. Clip 3 continues with the text '[heading to the library to do work and take calls]' as the person walks toward a building, followed by scenes inside a room where she settles down, implying she has reached her work location."
+    },
+    {
+        "question": "What indicates she has a busy schedule between meetings, and what later editing-focused activity suggests she’s preparing deliverables to share publicly?",
+        "answer": "She says she finished one meeting and has another in 30 minutes, and later she shifts to Photoshop and shows final photo outputs meant for viewers to see.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            40,
+            44,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 40 includes subtitles about finishing a meeting and having another soon. Step 2: Slice 44 shows 'shifting gears to Photoshop' at her desk. Step 3: Slice 42 shows reviewing/editing shoot images on a laptop and phone and saying she can’t wait to show the photos. Conclusion: Time pressure from meetings aligns with quickly moving into editing and deliverable preparation.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows subtitles stating, 'I just got done with my first meeting... and I have another one in 30 minutes,' which directly indicates a busy schedule between meetings. Step 2: Slice 44 shows a laptop with Adobe Photoshop and the text '[shifting gears to Photoshop],' followed by 'the final photos :)' and 'Shop the line on En Route's website!' with magazine-cover-style outputs, clearly suggesting editing work and preparing public-facing deliverables. Logic holds because the first part establishes the schedule, and the second part demonstrates editing and promotion for public sharing.",
+        "visual_proof": "In Clip 1, the woman explicitly states via subtitles: 'I just got done with my first meeting, and I have another one in...30 minutes.' In Clip 2, a subtitle reads '[shifting gears to Photoshop]' as the screen shows her working on promotional images in Photoshop, culminating in a magazine-style layout titled 'the final photos :)' with a call to action 'Shop the line on En Route's website!' indicating public sharing. Clip 3 reinforces this with the subtitle 'I can't wait for y'all to see the photos,' confirming the intent to share the edited deliverables publicly."
+    },
+    {
+        "question": "What evidence shows she’s working on social-science ideas earlier, and what later museum exhibit topic connects with that kind of historical/political thinking?",
+        "answer": "Her notes reference sociology topics like sociality and performance, and later she visits exhibits about U.S. presidents and themes like the struggle for justice and imperial visions.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            21,
+            28,
+            66,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows handwritten notes with terms like 'Sociality' and 'Performance.' Step 2: Slice 28 places her in Sociology Theory class. Step 3: Slice 66 shows the 'America's Presidents' gallery. Step 4: Slice 67 highlights exhibit themes like 'The Struggle for Justice' and '1898 U.S. Imperial Visions and Revisions.' Conclusion: Her academic focus connects to the political/historical themes she later explores in the museum.",
+        "logic_check_reasoning": "Step 1: Slice 21 shows a notebook with handwritten notes including 'Sociality,' 'Performance,' and 'Reading,' explicitly indicating work on social behavior, which supports social-science ideas. Step 2: Slice 66 presents a museum gallery titled 'America's Presidents,' a historically/politically oriented exhibit. Step 3: Slice 67 features exhibits titled 'The Struggle for Justice' and '1898 U.S. Imperial Visions and Revisions,' clearly connected to historical/political themes. The proposed answer correctly ties the earlier social-science notes to later museum topics about U.S. presidents and justice/imperial visions, all explicitly supported by the slices.",
+        "visual_proof": "Clip 1 shows handwritten notes titled 'Sociability & Prostitution' with concepts like 'nature of satisfaction' and 'performance,' directly linking to sociological theory. Clip 2 confirms the course is 'Sociological Theory.' Clips 3 and 4 show her visiting museum exhibits titled 'America's Presidents,' 'A Struggle for Justice,' and '1898: U.S. Imperial Visions and Revisions,' which are historical/political topics that connect thematically with sociological analysis."
+    },
+    {
+        "question": "Track the fruit from preparation to packing to finally being eaten: what fruit is involved, and where does it end up being eaten?",
+        "answer": "Strawberries and blackberries; they’re rinsed and packed for lunch, then eaten later during a work session at her desk.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            8,
+            9,
+            10,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows strawberries and blackberries being rinsed. Step 2: Slice 9 shows strawberries/blackberries on the counter during lunch prep and packing. Step 3: Slice 10 shows the lunch box being closed. Step 4: Slice 37 shows her opening the lunch box and eating fruit while working. Conclusion: The fruit moves from washing to packing to consumption at the work desk.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows strawberries and blackberries being rinsed in a colander, establishing the fruit and preparation. Step 2: Slice 9 shows the same fruits (strawberries and blackberries) on the counter during lunch prep and explicitly mentions placing fruit into containers for packing. Step 3: Slice 10 shows the lunch box being packed, supporting the packing stage. Step 4: Slice 37 shows a woman at a desk eating from a lunch box that contains strawberries and blackberries, indicating they are eaten during a work session at her desk. The chain from rinsing to packing to eating is consistent and fully supported.",
+        "visual_proof": "Clip 1 shows strawberries and blackberries being rinsed in a colander. Clip 2 shows the woman preparing and packing these same fruits into a container labeled 'produce prep and packing my lunch'. Clip 3 shows the packed container being placed into a lunch bag. Clip 4 shows the woman at her desk, opening the container and eating the fruit while working on her laptop, with the text '[fruit and answering emails]' confirming the context."
+    },
+    {
+        "question": "What visual clue ties her morning departure to her later subway movement at night, and what is she carrying in both situations?",
+        "answer": "Her backpack ties the moments together; she carries a backpack when leaving home and also while walking down subway stairs at night.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            13,
+            57,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows her picking up and wearing a large backpack when leaving. Step 2: Slice 13 shows the same backpack beside her while waiting outside. Step 3: Slice 57 establishes the evening commute from campus to downtown. Step 4: Slice 59 shows her walking down subway stairs carrying a backpack. Conclusion: The backpack is a consistent carried object across the day’s travel.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows the person leaving home at 7:30 AM, explicitly picking up and adjusting a large, colorful backpack. Step 2: Slice 59 shows a person in a subway station, walking down the stairs while carrying a backpack. Logic holds because the backpack appears in both the morning departure and the later subway movement, serving as the visual link, and the person is carrying a backpack in both situations.",
+        "visual_proof": "In Clip 1, the person is seen putting on a brown backpack as she leaves her house at 7:30 AM. In Clip 4, a first-person view shows her descending subway stairs at night, clearly wearing the same brown backpack over her shoulder, which visually connects the two time points."
+    },
+    {
+        "question": "How does her creative project move from behind-the-scenes preparation to reviewing images and then to a final promotional presentation?",
+        "answer": "It goes from behind-the-scenes hair/makeup and posing, to reviewing photos on devices, to editing/Photoshop and presenting final magazine-like images.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            41,
+            42,
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows behind-the-scenes prep including makeup application and a subject posing. Step 2: Slice 42 shows reviewing the photos on a laptop and smartphone. Step 3: Slice 44 shows the creator shifting to Photoshop. Step 4: Slice 45 shows a fashion publication page on screen. Conclusion: The workflow progresses from production to review to editing to final promotional output.",
+        "logic_check_reasoning": "Step 1: Slice 41 shows behind-the-scenes preparation with hair adjustment, makeup application, and posing, indicating the shoot setup. Step 2: Slice 42 shows reviewing images on a laptop and smartphone, explicitly suggesting photo review/editing. Step 3: Slice 44 shows a laptop with Photoshop (editing) and then presents a collage of final magazine-style images with promotional text like 'Shop the line' and 'OUT NOW!', indicating the final promotional presentation. Step 4: Slice 45 further supports the promotional presentation by showing a magazine/catalog page on a screen. The sequence aligns with the proposed answer.",
+        "visual_proof": "Clip 1 shows 'Behind the Scenes' with makeup application and posing. Clip 2 shows reviewing photos on a laptop and phone. Clip 3 shows a laptop screen with Photoshop open, followed by the final magazine-style layout. Clip 4 confirms the final presentation is a polished, multi-image promotional spread."
+    },
+    {
+        "question": "What does she say about wanting to visit Smithsonian museums, and which specific Smithsonian museum is shown as the one she visits for an assignment?",
+        "answer": "She hopes to visit all the Smithsonian museums before leaving D.C., and the specific one shown for an assignment is the National Portrait Gallery.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            72,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 72 includes the caption about hoping to visit all the Smithsonian museums before leaving D.C. Step 2: Slice 58 states she is going to the National Portrait Gallery for a history assignment. Conclusion: Her broader goal is exemplified by a specific Smithsonian visit.",
+        "logic_check_reasoning": "Step 1: Slice 72 explicitly shows the caption '[hoping to visit all the Smithsonian museums before I leave D.C.]', which supports the statement about wanting to visit Smithsonian museums. Step 2: Slice 58 contains on-screen text 'To the National Portrait Gallery' and the subtitle '[I'm going to the National Portrait Gallery for a history assignment]', which explicitly identifies the specific museum visited for an assignment. Logic holds because Slice 72 establishes the Smithsonian context and Slice 58 names the National Portrait Gallery as the assignment destination.",
+        "visual_proof": "Clip 1 shows text overlay stating '[ hoping to visit all the Smithsonian museums before I leave D.C.! ]'. Clip 2 displays text overlay reading '8:00 PM To the National Portrait Gallery' and '[ I'm going to the National Portrait Gallery for a history assignment ]', directly identifying the museum visited for the assignment."
+    }
+]

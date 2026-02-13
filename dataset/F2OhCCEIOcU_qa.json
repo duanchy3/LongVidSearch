@@ -1,0 +1,29 @@
+[
+    {
+        "question": "The video shifts from skydiving scenes to a calm group relaxation practice on mats. What type of calm practice is explicitly led and described before the later shots of people lying on mats?",
+        "answer": "A breathwork session",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            45
+        ],
+        "reasoning_chain": "Step 1: A man named Chris is shown leading a breathwork session for a group (Slice 40). Step 2: Later, many people are shown lying on mats in a calm, meditation-like setting (Slice 45). Conclusion: The explicitly led practice is breathwork.",
+        "logic_check_reasoning": "Step 1: Slice 40 explicitly states that a man named Chris is leading a breathwork session, guiding participants through breathing exercises and emphasizing relaxation and mindfulness. Step 2: Slice 45 shows later shots of people lying on mats in a calm, relaxed setting consistent with yoga/meditation/breathing exercises. Logic holds because the question asks what practice is explicitly led and described before the later mat shots, and Slice 40 clearly identifies it as a breathwork session.",
+        "visual_proof": "In Clip 1, a man named 'Chris' is explicitly identified on-screen as the 'Breathwork Guide'. He is seen sitting and speaking to a group of people who are seated on mats, listening attentively. This directly establishes that a breathwork session is being led before the scene transitions to people lying down on mats in Clip 2."
+    },
+    {
+        "question": "A black title-like screen appears early, and near the very end a black screen shows a website address. What website is displayed on the final black screen?",
+        "answer": "www.seekdiscomfort.com",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            2,
+            94
+        ],
+        "reasoning_chain": "Step 1: Early the video includes a transition to a black screen (Slice 1). Step 2: Another segment also contains a strong text-overlay moment, showing the video’s reliance on on-screen text (Slice 2). Step 3: The final black title card displays a website (Slice 94). Conclusion: The website is \"www.seekdiscomfort.com.\"",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 mentions an early black screen as a transition, supporting the presence of a black title-like screen early in the video. Step 2: Evidence Slice 94 explicitly describes a black screen with white text reading 'www.seekdiscomfort.com'. Step 3: The question asks what website is displayed on the final black screen; Slice 94 provides that exact website text. The logic holds because Slice 1 accounts for the early black screen and Slice 94 identifies the website on a later black screen.",
+        "visual_proof": "The final clip (Clip 3) is a black screen with the white text 'www.seekdiscomfort.com' clearly displayed in the center. This matches the description of a black screen showing a website address near the end of the video."
+    }
+]

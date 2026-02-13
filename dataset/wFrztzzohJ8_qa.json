@@ -1,0 +1,93 @@
+[
+    {
+        "question": "What is the shared Bosch-related artwork format that is explicitly shown both when a man stands studying a multi-panel painting and later when a named speaker presents in front of it in a museum gallery?",
+        "answer": "A triptych (a three-panel painting).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a man standing in front of a large triptych painting. Step 2: Slice 71 shows Reindert Falkenburg speaking in front of a large triptych in the Museo Nacional del Prado. Conclusion: The shared format is a triptych.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a man standing in front of a large painting that 'appears to be a triptych,' with mention of a central panel and side panels. Step 2: Slice 71 describes Reindert Falkenburg standing in front of 'a large triptych painting' in a museum gallery. Logic holds because both slices explicitly identify the artwork as a triptych, shown in two separate moments: the man studying it and the named speaker presenting before it.",
+        "visual_proof": "Both clips visually show the same large, multi-panel artwork. In Clip 1, a man is seen from behind studying a painting composed of three distinct, hinged panels: a left panel, a central panel, and a right panel. In Clip 2, Reindert Falkenburg stands in front of this identical three-panel structure in the Museo Nacional del Prado. The consistent visual evidence across both clips confirms the artwork's format is a triptych."
+    },
+    {
+        "question": "Which geographic place is linked to Hieronymus Bosch across both a portrait and a busy town-square painting that explicitly names the same city?",
+        "answer": "Den Bosch (’s-Hertogenbosch).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 19 identifies a 'Portrait of Hieronymus Bosch' and then shows Market Square in Den Bosch. Step 2: Slice 18 shows a cityscape labeled 'S-Hertogenbosch (Den Bosch)'. Conclusion: The shared place associated with Bosch here is Den Bosch.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows a black-and-white portrait labeled 'Portrait of Hieronymus Bosch.' Step 2: The same slice immediately transitions to a colorful painting explicitly titled 'Market Square in Den Bosch,' depicting a busy town square. Step 3: Slice 18 includes a cityscape labeled 'S-Hertogenbosch (Den Bosch),' clarifying that Den Bosch and ’s-Hertogenbosch refer to the same city. Logic holds because the portrait of Bosch is presented alongside a town-square painting that explicitly names Den Bosch, and another slice confirms the equivalence of the names.",
+        "visual_proof": "Clip 1 shows a portrait of Hieronymus Bosch and immediately follows with a painting titled 'MARKET SQUARE, DEN BOSCH'. Clip 2 shows a painting titled ''S-HERTOGENBOSCH (DEN BOSCH)', explicitly linking the city to the artist's context. The consistent use of 'Den Bosch' in both clips confirms the geographic place linked to him."
+    },
+    {
+        "question": "What visual motif connects the medieval manuscript illustration labeled as whimsical marginalia and the later medieval scene of a hooded woman gathering fruit?",
+        "answer": "Medieval manuscript-style illustration (decorative script and stylized figures).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows a medieval manuscript illustration labeled 'DROLLERIES' with dense script and decorative borders. Step 2: Slice 40 shows a hooded woman picking fruit in a parchment-like manuscript aesthetic with faded script. Conclusion: Both share the medieval manuscript illustration style.",
+        "logic_check_reasoning": "Step 1: Slice 38 describes a medieval manuscript with elaborate calligraphy, dense old-script text, decorative borders, and illustrated figures (monk/cleric and layperson), labeled as whimsical marginalia ('DROLLERIES'). Step 2: Slice 40 describes an illustration inspired by illuminated manuscripts, with a parchment-like background, faded ancient-script text, and a stylized figure (hooded woman) interacting with a stylized tree. Logic holds because both slices explicitly reference the medieval manuscript/illuminated manuscript style featuring decorative/old script and stylized figures, which matches the proposed visual motif.",
+        "visual_proof": "Both clips display characteristics of medieval manuscript art: Clip 1 shows ornate, Gothic-style script with decorative borders and stylized human figures in the margins (drolleries). Clip 2 features a similarly stylized figure of a hooded woman gathering fruit from a fantastical tree, rendered in the same illustrative style with flat perspective and vibrant, non-naturalistic colors. The consistent artistic conventions across both scenes confirm they share the visual motif of medieval manuscript illustration."
+    },
+    {
+        "question": "Which animal appears both in a medieval bestiary-like illustration of labeled creatures and later as the central subject across multiple artworks (drawing, garden painting, and city-square painting)?",
+        "answer": "A giraffe.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 43 includes a bestiary-style illustration featuring a giraffe among other labeled creatures. Step 2: Slice 45 focuses on a giraffe across a drawing and paintings in different settings. Conclusion: The recurring animal is the giraffe.",
+        "logic_check_reasoning": "Step 1: Slice 43 describes a medieval bestiary-like illustration that includes a giraffe among labeled creatures. Step 2: Slice 45 details multiple artworks—a drawing, a garden painting, and a city-square painting—each focusing on a giraffe as the central subject. Logic holds because the giraffe is explicitly mentioned in both contexts as present in the bestiary illustration and as the subject of the later artworks.",
+        "visual_proof": "In Clip 1, a long-necked, spotted animal labeled 'Seraffa' is shown in a bestiary-style illustration. In Clip 2, the same type of animal (a giraffe) is featured as the central subject in three different artworks: a drawing by Cyriac of Ancona, a detail from Hieronymus Bosch's 'The Garden of Earthly Delights,' and Gentile Bellini's 'Procession in St. Mark's Square.'"
+    },
+    {
+        "question": "Which building is shown as the subject of a painting and later shown again in live footage from above as a major cathedral in a European city?",
+        "answer": "St. John's Cathedral.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a painting identified as St. John's Cathedral. Step 2: Slice 29 shows an aerial view of a large Gothic cathedral in a European city, consistent with the documentary’s St. John's Cathedral focus. Conclusion: The building tracked across art-to-footage is St. John's Cathedral.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly identifies a painting of St. John's Cathedral, describing its detailed architecture. Step 2: Slice 29 describes later live aerial footage focusing on a major Gothic cathedral in a European city. Logic holds because the question links the painting to the later cathedral footage, and the only building named in the context is St. John's Cathedral. The architectural details align, and there is no conflicting identification, so the building referred to in both instances is St. John's Cathedral.",
+        "visual_proof": "Clip 1 shows a painting explicitly labeled 'ST. JOHN'S CATHEDRAL' by an unknown 18th-century artist. Clip 2 shows aerial footage of a large, historic Gothic cathedral with distinctive towers and flying buttresses, situated in a European city, which is visually identifiable as the same building depicted in the painting from Clip 1."
+    },
+    {
+        "question": "What number is given for the variety of gargoyles on St. John's, and how is that idea reinforced by later close-ups of carved mythical creatures in the cathedral?",
+        "answer": "95; later carvings and gargoyle close-ups reinforce the cathedral’s many monstrous figures.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 32 states there are 95 different gargoyles on St. John's. Step 2: Slice 31 shows an intricately carved mythical creature in the choir stalls, reinforcing the abundance of such figures in the cathedral. Conclusion: 95 is the stated count, supported by additional creature carvings shown elsewhere.",
+        "logic_check_reasoning": "Step 1: Slice 32 explicitly states, via on-screen text, \"There are 95 different gargoyles on St. John's,\" providing the number. Step 2: Slice 31 shows a close-up of an intricately carved mythical creature in the choir stalls of St. John's Cathedral, reinforcing the idea of numerous fantastical/monstrous figures within the cathedral through detailed visuals of related carvings. Logic holds because the number (95) establishes variety, and the later close-up of carved creatures supports the theme of many such figures present.",
+        "visual_proof": "Clip 1 shows a moss-covered stone gargoyle with text overlay stating 'THERE ARE 95 DIFFERENT GARGOYLES ON ST. JOHN'S'. Clip 2 shows a detailed wooden carving of a mythical creature on a choir stall, labeled 'CHOIR STALLS IN ST. JOHN'S CATHEDRAL', visually reinforcing the presence of multiple carved monstrous figures within the same cathedral."
+    },
+    {
+        "question": "Which artist’s name is tied both to a portrait labeled as a commissioned work and to an explicitly named nude mythological painting noted as being in Henry III’s collection?",
+        "answer": "Jan Gossaert.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            55,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 55 shows a portrait of Henry III credited to Jan Gossaert (1516). Step 2: Slice 61 shows a classical nude painting by Jan Gossaert described as part of Henry III’s collection. Conclusion: Jan Gossaert is the connecting artist.",
+        "logic_check_reasoning": "Step 1: Slice 55 states the portrait 'Henry III, Count of Nassau-Breda' is by Jan Gossaert (1516) and displays '6. COMMISSION,' tying Gossaert to a work labeled as a commission. Step 2: Slice 61 describes a nude mythological painting that is by Jan Gossaert and is part of Henry III’s collection. Logic holds because both slices explicitly attribute the works to Jan Gossaert, satisfying the condition that the same artist is tied to both the commissioned portrait and the nude mythological painting in Henry III’s collection.",
+        "visual_proof": "Clip 1 shows a portrait labeled 'HENRY III, COUNT OF NASSAU-BREDA' with the artist credited as 'JAN GOSSAERT, 1516' and the word 'COMMISSION' overlaid, indicating it is a commissioned work. Clip 2 shows a nude painting with text stating 'THIS PAINTING BY JAN GOSSAERT WAS IN HENRY III'S COLLECTION,' explicitly tying the same artist to both works."
+    }
+]

@@ -1,0 +1,100 @@
+[
+    {
+        "question": "Which two different timestamped moments show the travelers dealing with overnight travel, one in Georgia and another later outside with a bus at 4:30 am?",
+        "answer": "2:39 am in Georgia and 4:30 am outside near a bus.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 16 displays '2:39 am' and 'Somewhere in Georgia' with tense dialogue. Step 2: Slice 24 displays '4:30 am' with a man outdoors near a bus. Conclusion: The overnight timestamps are 2:39 am and 4:30 am.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly shows the timestamp '2:39 am' and the text 'Somewhere in Georgia,' along with dialogue about seating and staying inside, indicating a travel situation at night. Step 2: Slice 24 explicitly shows the timestamp '4:30 am' in an outdoor urban setting with a bus in the background, indicating another overnight travel moment. Logic holds because these are two distinct timestamped moments tied to travel, one in Georgia at 2:39 am and another later outside near a bus at 4:30 am.",
+        "visual_proof": "Clip 1 explicitly displays the text '2:39 am' followed by 'Somewhere in Georgia', establishing the first timestamped moment. Clip 2 visually shows a man outdoors at night with a large bus in the background, and the text '4:30 am' is overlaid on the screen, confirming the second moment."
+    },
+    {
+        "question": "What recurring pattern shows the travelers explaining their situation to the camera in transit settings, first about bus logistics and later about waiting much longer?",
+        "answer": "They vlog updates from inside vehicles about travel problems—missing a bus/invoices and then anticipating a 12–24 hour wait.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows a man explaining a parking lot/driver issue that could make them miss the next bus. Step 2: Slice 38 shows talk inside a vehicle that they may have to wait another 12–24 hours. Conclusion: Both are vlog-style transit updates about delays/logistics.",
+        "logic_check_reasoning": "Step 1: Slice 37 shows a man speaking directly to the camera in a likely vehicle setting, discussing bus logistics (a driver supposed to take invoices, implying they might miss the next bus). This supports an on-the-go update about travel issues. Step 2: Slice 38 shows passengers inside a moving vehicle at night, with a subtitle about waiting another 12–24 hours, indicating a further travel-related update. Logic holds because both slices depict travelers explaining their situation to the camera while in transit, first about bus/invoice logistics and later about a long wait, matching the proposed pattern.",
+        "visual_proof": "In Clip 1, a man speaks directly to the camera inside a dimly lit vehicle (likely a bus), explaining they’ve been waiting for 2.5 hours and will miss their next bus due to a delayed driver replacement. In Clip 2, the same man (and another passenger) continue addressing the camera inside the same vehicle at night, stating they’ll probably have to wait another 12 to 24 hours. This shows a clear pattern of vlogging updates about logistical delays while in transit."
+    },
+    {
+        "question": "Which state is explicitly welcomed at night, and which later road sign shows the group leaving a different state during daytime travel?",
+        "answer": "They’re welcomed to Kansas City, Missouri; later they’re shown leaving Kansas.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            34,
+            40,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 33 sets 'Somewhere in Missouri' at 2 am. Step 2: Slice 34 shows the sign 'Welcome to Kansas City, MO.' Step 3: Slice 40 shows a sign 'Leaving Kansas.' Conclusion: Missouri is explicitly welcomed (Kansas City), and Kansas is later shown being left.",
+        "logic_check_reasoning": "Step 1: Slice 34 shows a nighttime scene with a sign reading \"Welcome to Kansas City, MO,\" explicitly indicating Missouri, thus the welcome at night is to Missouri (via Kansas City, MO). Step 2: Slice 40 depicts a bus journey with bright outdoor shots of green fields and a road sign reading \"Leaving Kansas,\" indicating the group is leaving Kansas during travel that appears to be daytime. Step 3: Slice 33 further supports the nighttime Missouri context with text \"2 am\" and \"Somewhere in Missouri.\" The proposed answer aligns: welcomed to Kansas City, Missouri at night; later shown leaving Kansas.",
+        "visual_proof": "In Video 1 (night scene), a sign clearly reads 'Welcome to Kansas City, MO'. In Video 2 (daytime scene), a road sign visible from the bus window says 'WELCOME TO COLORFUL COLORADO', with on-screen text '(Leaving Kansas)' confirming departure from Kansas."
+    },
+    {
+        "question": "Which scenes show the group’s travel storytelling moving from bus-based camaraderie, to city night visuals, to a surreal highway shot, and then to a formalized cross-country route map?",
+        "answer": "Bus camaraderie → Atlanta at night → surreal highway with hovering object → cross-country map route (not specifically Seattle-to-Washington D.C.).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            11,
+            23,
+            67,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows friendly conversation on a bus. Step 2: Slice 23 shows Atlanta at night after a Georgia map highlight. Step 3: Slice 67 shows a surreal highway shot with a hovering rock-like object and then a cross-country map. Step 4: Slice 41 adds another journey-map storytelling device (Denver to Grand Canyon), reinforcing the structured travel narrative. Conclusion: The storytelling escalates from candid bus moments to stylized city/surreal visuals and explicit route maps.",
+        "logic_check_reasoning": "Step 1: Slice 11 depicts a friendly, jovial scene inside a bus with three people conversing, matching 'bus-based camaraderie.' Step 2: Slice 23 explicitly shows Atlanta at night with illuminated skyline and bustling city life, satisfying 'city night visuals.' Step 3: Slice 67 begins with a surreal highway shot featuring a hovering translucent rock-like object, aligning with 'surreal highway shot.' Step 4: Slice 67 then transitions to a vintage US map with a red dotted route from Seattle to Washington D.C., which fits 'formalized cross-country route map.' The sequence in the proposed answer aligns with these slices.",
+        "original_text_answer": "Bus camaraderie → Atlanta at night → surreal highway with hovering object → Seattle-to–Washington D.C. map route.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows bus camaraderie. Clip 2 transitions to Atlanta at night with city lights. Clip 3 features a surreal highway scene with a floating crumpled paper object. Clip 4 displays a cross-country map route, but the starting point is not explicitly labeled as Seattle and the endpoint is not Washington D.C.; it shows a general eastward path across the U.S. without those specific cities marked."
+    },
+    {
+        "question": "Which self-improvement themed book appears during the bus ride and later reappears in a black-and-white scene about exhaustion?",
+        "answer": "A mental toughness book (HBR’s 10 Must Reads on Mental Toughness / mental toughness reading).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a passenger holding up a book about mental toughness. Step 2: Slice 45 shows someone holding 'HBR's 10 Must Reads on Mental Toughness' while someone asks if they've slept. Conclusion: The recurring object is a mental toughness book.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly states a man on the bus holds up a book titled \"On Mental Toughness,\" indicating a self-improvement theme. Step 2: Slice 45 describes a black-and-white scene where a person holds up \"HBR's 10 Must Reads on Mental Toughness.\" Logic holds because both slices reference a mental toughness book, and the Slice 45 title matches the proposed answer exactly; Slice 12's title is consistent with the same HBR series, supporting that the same themed book appears in both scenes.",
+        "visual_proof": "In Clip 1, a man in a yellow shirt holds up and reads a book titled 'HBR's 10 Must Reads On Mental Toughness'. In Clip 2, the same man is shown in a black-and-white close-up, looking exhausted, with the subtitle 'Have you slept at all?', visually linking the book to the theme of exhaustion."
+    },
+    {
+        "question": "How does the group’s travel destination shift from being described as heading to St. Louis to later being shown as arriving in Boise, and what on-screen time markers emphasize the long duration?",
+        "answer": "They go from heading to St. Louis to later being in Boise; the markers include '23 hours in' (St. Louis) and '68 hours in' (Boise).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            28,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 25 mentions heading straight to St. Louis, Missouri. Step 2: Slice 28 shows 'St. Louis 23 hours in.' Step 3: Slice 55 shows 'Boise Idaho' and '68 hours in.' Conclusion: The destination shifts from St. Louis to Boise, highlighted by 23 hours vs 68 hours markers.",
+        "logic_check_reasoning": "Step 1: Slice 25 states the group is \"heading straight to St. Louis, Missouri,\" establishing the initial destination. Step 2: Slice 28 shows a map with a route to St. Louis and explicitly displays the text \"St. Louis 23 hours in,\" providing a time marker tied to St. Louis. Step 3: Slice 55 shows scenes labeled \"Boise Idaho\" and later displays \"68 hours in\" with the group in Boise, indicating they are now in Boise with a later time marker. Logic holds because the slices explicitly show an initial plan/direction to St. Louis with a 23-hour marker and later show the group in Boise with a 68-hour marker, demonstrating the shift and emphasizing the long duration.",
+        "visual_proof": "Clip 1 shows a man stating they are going to St. Louis, Missouri, with on-screen text confirming this. Clip 2 displays a map with a red line ending at St. Louis, labeled '23 Hours in'. Clip 3 then shows an aerial view of Boise, Idaho, with on-screen text reading '68 hours in', indicating the group's arrival there after a significant passage of time."
+    },
+    {
+        "question": "How is the travel route visually updated from the Florida bus trip, to the St. Louis map, to the later cross-country route ending on the East Coast?",
+        "answer": "It goes from Florida bus travel, to a Tennessee-to–St. Louis route map, to a Seattle-to–Washington D.C. route map.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            28,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 12 documents long bus travel labeled 'Somewhere in Florida.' Step 2: Slice 28 shows a map route toward St. Louis. Step 3: Slice 67 shows a map route from Seattle to Washington D.C. Conclusion: The video escalates from regional travel to major cross-country routing.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a group traveling by bus in Florida, with overlays noting 'Somewhere in Florida,' establishing the Florida bus trip. Step 2: Slice 28 shows a map with a dotted red line route from Tennessee toward St. Louis, explicitly labeled 'St. Louis 23 hours in,' matching the Tennessee-to–St. Louis route map. Step 3: Slice 67 transitions to a vintage US map with a red dotted line from Seattle to Washington D.C., matching the Seattle-to–Washington D.C. route map. The sequence in the proposed answer aligns exactly with these slices.",
+        "visual_proof": "Clip 1 ends with text 'Somewhere in Florida' and shows passengers on a bus at night. Clip 2 displays a map highlighting a route from Tennessee to St. Louis with a bus icon. Clip 3 shows a map with a red dashed line tracing a cross-country route from the Pacific Northwest (near Washington state) to the East Coast (ending near Washington D.C.)."
+    }
+]

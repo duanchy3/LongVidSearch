@@ -1,0 +1,168 @@
+[
+    {
+        "question": "Which section title card introduces the segment where she starts presenting outfits like a green jacket and other tops?",
+        "answer": "The segment is introduced by the title card “CLOTHING.”",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 8 is a title card that reads “CLOTHING.” Step 2: Slice 10 shows her putting on a green jacket and adjusting it as an outfit demonstration. Conclusion: The clothing showcase segment is introduced by “CLOTHING.”",
+        "logic_check_reasoning": "Step 1: Slice 8 describes a title card with the word \"CLOTHING\" prominently displayed, explicitly suggesting it serves as an introductory or thematic highlight for fashion/apparel content. Step 2: Slice 10 shows the woman beginning to present outfits, including putting on a green jacket and adjusting it, clearly part of a clothing segment. Logic holds because the presence of a \"CLOTHING\" title card aligns with and reasonably introduces the subsequent outfit presentation segment depicted in Slice 10.",
+        "visual_proof": "Clip 1 displays a title card with the word 'CLOTHING' in green text on a crumpled paper background. Clip 2 immediately follows, showing the woman presenting a green jacket and other clothing items, confirming that the 'CLOTHING' title card introduces this outfit presentation segment."
+    },
+    {
+        "question": "After she is shown in a more assertive outfit at the doorway, what playful, energetic action does she do later while wearing a white shirt with green lettering?",
+        "answer": "She jumps and waves her arms playfully in front of the door.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows her standing in a doorway in a black leather jacket with a serious, arms-crossed pose. Step 2: Slice 15 shows her in a white shirt with green lettering, smiling and jumping with raised arms. Conclusion: She shifts from serious posing to playful jumping and arm movements.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows the woman at a doorway in a more assertive outfit (black leather jacket over a white top), establishing the 'assertive outfit at the doorway.' Step 2: Slice 15 later shows her wearing a white shirt with green lettering, in front of a door, moving her arms playfully, raising them above her head, and jumping up and down. The proposed answer states she jumps and waves her arms playfully in front of the door, which matches the described jumping and playful arm movements. The location (in front of the door) is also consistent.",
+        "visual_proof": "In Video 2, after being shown in a more assertive outfit (leather jacket) in Video 1, the woman is seen wearing a white shirt with green lettering. At 0:01, she performs a small jump while raising her arms in a playful manner, which matches the description."
+    },
+    {
+        "question": "Which printed message on a shirt that she holds up later is the same style of green-lettering shirt she is seen dancing in earlier?",
+        "answer": "The shirt reads “Hell Sweden.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows her dancing in a white shirt with green lettering. Step 2: Slice 18 shows her holding a white shirt with green lettering that reads “Hell Sweden.” Conclusion: The green-lettering shirt is “Hell Sweden.”",
+        "logic_check_reasoning": "Step 1: Slice 15 states the woman is dancing while wearing a white shirt with green lettering. The exact text on the shirt is not specified here. Step 2: Slice 18 shows the same woman holding up a white shirt with green lettering that explicitly reads \"Hell Sweden.\" Step 3: The question asks which printed message on the later shirt matches the style (white with green lettering) of the earlier shirt. Since Slice 18 provides the text on the white-green-lettering shirt, the message is \"Hell Sweden.\" The logic holds because both slices describe a white shirt with green lettering, and Slice 18 provides the printed message.",
+        "visual_proof": "In Video 1, the woman is dancing in a cream-colored shirt with green lettering that reads 'Hell Sweden'. In Video 2, she holds up the same shirt on a hanger, clearly showing the identical green-lettered text 'Hell Sweden' and matching design, confirming it is the same garment."
+    },
+    {
+        "question": "What clothing accessory is shown laid out for selection, and later what kind of footwear does she switch to showcasing in the same overall fashion-focused portion of the video?",
+        "answer": "Ties are shown laid out, and later she showcases sneakers.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows three ties on a white surface being picked up and compared. Step 2: Slice 38 shows her holding up a pair of sneakers to the camera. Conclusion: The video moves from ties to sneakers as featured fashion items.",
+        "logic_check_reasoning": "Step 1: Slice 24 describes three ties laid out on a white surface, with a hand picking them up one by one, clearly indicating ties are the clothing accessory shown for selection. Step 2: Slice 38 shows a woman holding and showcasing a pair of sneakers, indicating the footwear presented later. Logic holds because the first slice supports ties being laid out for selection, and the second slice explicitly shows sneakers being showcased, matching the question's sequence.",
+        "visual_proof": "Clip 1 visually displays four different ties (patterned, solid brown, polka-dotted black, and solid cream) laid out on a white shirt. Clip 2 shows the same person holding up a pair of white and blue sneakers, indicating a switch in showcased items within the same video segment."
+    },
+    {
+        "question": "When she compares two pairs of sneakers, what are their color schemes, and which pair is later shown alone on a shelf?",
+        "answer": "One pair is white with blue accents and the other is black with white laces; the white-with-blue pair is later shown alone on a shelf.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows her holding two pairs: white/blue and black/white. Step 2: Slice 39 shows a pair of white sneakers with blue accents displayed on a wooden shelf. Conclusion: The shelf pair is the white-with-blue sneakers.",
+        "logic_check_reasoning": "Step 1: Slice 40 describes a person comparing two pairs of sneakers: one pair is white with blue accents, and the other is black with white laces and detailing. Step 2: Slice 39 shows a pair of white sneakers with blue accents displayed alone on a wooden shelf. Logic holds because the colors and context match, indicating the white-with-blue pair is the one later shown alone on the shelf.",
+        "visual_proof": "In Clip 1, the woman holds up two pairs: one white sneaker with blue accents (New Balance 550) and one black high-top sneaker with white laces (Converse). In Clip 2, only the white sneakers with blue accents are shown sitting alone on a wooden shelf."
+    },
+    {
+        "question": "Which title card signals the start of the beauty segment, and what specific makeup product in a red tube is shown shortly after?",
+        "answer": "The title card is “BEAUTY,” and the red-tube product shown is mascara.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            51,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows the title card “BEAUTY.” Step 2: Slice 53 shows a red tube of mascara in hand. Conclusion: After the beauty title, a mascara product is featured.",
+        "logic_check_reasoning": "Step 1: Slice 51 shows a close-up of the word 'BEAUTY' as a focal text after an intro, indicating a title card signaling the beauty segment. Step 2: Slice 53 explicitly describes a person holding a red tube of mascara. Logic holds because the title card 'BEAUTY' introduces the segment and the next relevant slice shows the specific makeup product (mascara) in a red tube.",
+        "visual_proof": "Clip 1 displays a title card with the word 'BEAUTY' in green block letters on a crumpled paper background. Clip 2 shows a hand holding a red and black tube labeled 'CLIO Kill Lash Superproof Mascara,' confirming it is a mascara product."
+    },
+    {
+        "question": "How does the focus shift from her presenting items in her room to isolated product shots: name one clothing-related close-up and one tech-related close-up shown later?",
+        "answer": "A clothing-related close-up is the ties laid on a white surface, and a tech-related close-up is the vintage camera on a soft surface.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            78,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 24 presents a close-up selection of ties (clothing accessory). Step 2: Slice 78 introduces the “HOME TECH” title card, indicating a new segment. Step 3: Slice 80 shows a close-up of a vintage camera with a “Lomo” strap. Conclusion: The video uses isolated close-ups for both clothing accessories (ties) and later tech items (camera).",
+        "logic_check_reasoning": "Step 1: Slice 24 explicitly describes a close-up of ties on a white surface with a hand picking them up, which is a clothing-related close-up. Step 2: Slice 80 explicitly describes a close-up of a vintage-style camera on a soft surface, which is a tech-related close-up. Step 3: Both scenes are isolated product shots with stationary cameras and focused subjects, matching the described shift. The proposed answer directly matches these slices.",
+        "visual_proof": "Clip 1 shows four neckties (patterned, brown, black polka dot, cream) arranged on a white fabric surface. Clip 3 shows a Fujifilm mirrorless camera with a lens cap on, resting on a similar white fabric surface. These are clearly isolated product shots, fitting the description of a clothing-related and a tech-related close-up."
+    },
+    {
+        "question": "What tech device does she hold while talking after the “HOME TECH” title card, and what close-up shot emphasizes its brand strap?",
+        "answer": "She holds a Fujifilm camera, and a close-up emphasizes the 'W' logo on its strap.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            78,
+            79,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 78 shows the “HOME TECH” title card. Step 2: Slice 79 shows her holding and presenting a camera. Step 3: Slice 80 provides a close-up of the camera where the strap reading “Lomo” is visible. Conclusion: The home tech segment centers on a camera highlighted by its Lomo strap.",
+        "logic_check_reasoning": "Step 1: Slice 78 shows the 'HOME TECH' title card, setting up a tech segment. Step 2: Slice 79 shows a person holding and discussing a camera while talking, indicating the device is a camera. Step 3: Slice 80 provides a close-up of a vintage-style camera with a strap labeled 'Lomo,' emphasizing the brand. Logic holds because the camera discussed in Slice 79 is likely the one shown in Slice 80, and the close-up explicitly shows the 'Lomo' strap.",
+        "original_text_answer": "She holds a vintage-style camera, and a close-up emphasizes the “Lomo” strap.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 2 shows the woman holding a silver and black camera with visible 'FUJIFILM' branding on the top plate. Clip 3 provides a close-up of the same camera, clearly showing the brand name and a black strap with a white 'W' logo, not 'Lomo'."
+    },
+    {
+        "question": "How does the video structure its lifestyle categories using title cards, and which example item is shown shortly after each of two different category cards?",
+        "answer": "It uses category title cards; after “CLOTHING” she showcases outfits like a green jacket, and after “BEAUTY” she shows makeup such as a red mascara tube.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            8,
+            10,
+            51,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 8 displays the “CLOTHING” title card. Step 2: Slice 10 shows an outfit change featuring a green jacket. Step 3: Slice 51 displays the “BEAUTY” title card. Step 4: Slice 53 shows a red tube of mascara. Conclusion: Category cards segment the video into themes, followed by representative items.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes a static title card reading 'CLOTHING,' indicating a category card. Step 2: Slice 10 shows a woman putting on a green jacket, which serves as an example clothing item following the clothing card (the proximity of slice numbers suggests sequence). Step 3: Slice 51 includes a transition to a title card with the word 'BEAUTY,' indicating another category card. Step 4: Slice 53 shows a red mascara tube, which is a beauty item likely appearing shortly after the 'BEAUTY' card (again supported by slice order). Logic holds because both category title cards are explicitly shown, and each is followed by a relevant example item.",
+        "visual_proof": "Clip 1 shows the 'CLOTHING' title card. Clip 2 immediately follows, showing the woman presenting and modeling a green varsity jacket. Clip 3 displays the 'BEAUTY' title card. Clip 4 then shows a close-up of a hand holding a red and black mascara tube labeled 'CLIO'. This sequence visually confirms the structure described in the answer."
+    },
+    {
+        "question": "Across the video, what object category does she introduce with a title card, then later discuss with an app interface on screen, and what specific artist is referenced in that interface?",
+        "answer": "She introduces media (films/TV/books/music), and the interface references music by SZA.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            66,
+            73,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows the on-screen words “FILMS TV SHOWS BOOKS MUSIC,” signaling a media segment. Step 2: Slice 73 shows a Spotify interface appearing briefly, noting music by SZA. Step 3: Slice 77 continues with Spotify playlists changing on-screen while she talks. Conclusion: The media segment leads into music discussion featuring Spotify, including SZA.",
+        "logic_check_reasoning": "Step 1: Slice 66 shows a title card with the words 'FILMS TV SHOWS BOOKS MUSIC,' which introduces a media category. Step 2: Slice 73 notes a Spotify interface appearing and explicitly states that music by SZA is playing, indicating an app interface referencing a specific artist. Step 3: Slice 77 further supports the presence of a Spotify playlist on screen during the video. Logic holds because the title card introduces media, and later the app interface displays music by SZA.",
+        "visual_proof": "At 0:02 in Clip 1, a title card explicitly lists 'FILMS TV SHOWS BOOKS MUSIC'. Later, at 0:19 in Clip 2, a Spotify interface appears on screen showing the artist 'SZA' with her profile picture and song list. This confirms she introduced the category of 'Music' and later referenced the specific artist SZA via an app interface."
+    },
+    {
+        "question": "Which book cover appears while she talks about media, and how is that media discussion later reinforced by music playlists shown on screen?",
+        "answer": "The book is “Babel” by R.F. Kuang, and later Spotify playlists are shown changing on screen while she continues talking about music.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            72,
+            66,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 72 shows the book cover “Babel” by R.F. Kuang on screen. Step 2: Slice 66 labels the broader segment as “FILMS TV SHOWS BOOKS MUSIC.” Step 3: Slice 77 shows Spotify playlists changing while she discusses. Conclusion: The media segment includes books (Babel) and is reinforced later through on-screen music playlists.",
+        "logic_check_reasoning": "Step 1: Slice 66 shows the woman speaking with on-screen text 'FILMS TV SHOWS BOOKS MUSIC', indicating a media discussion. Step 2: Slice 72 explicitly states that an image of the book 'Babel' by R.F. Kuang appears on the screen, which identifies the book cover. Step 3: Slice 77 shows a Spotify playlist with different songs displayed on the right side of the screen that changes throughout the video, while the woman continues to talk and gesture, reinforcing the media discussion through music content. The answer aligns with these points: the book cover is 'Babel' and later Spotify playlists are shown changing on screen.",
+        "visual_proof": "In Clip 1 (0:05-0:06), the cover of \"Babel\" by R.F. Kuang is clearly displayed on screen next to the speaker. In Clip 3, multiple different Spotify artist pages (FIFTY FIFTY, LE SSERAFIM, Chillies, grentperez) appear sequentially on the right side of the screen as she talks, visually reinforcing her discussion of music."
+    },
+    {
+        "question": "Track the black bag across the video: when is it first shown while she sits and talks, when is it shown again as she moves from the door into the room, and what later shot shows her already wearing it on her shoulder?",
+        "answer": "It’s first shown while she sits and talks, then shown again as she carries it from the door into the room, and later she wears it over her shoulder while standing by the door.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            45,
+            49,
+            50,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows her seated, picking up and showing a black bag. Step 2: Slice 49 shows her holding the black bag near a door and then bringing it into the room. Step 3: Slice 50 shows her standing by a door with the black bag worn over her shoulder. Step 4: Slice 21 shows her transitioning from standing at the door into sitting on the bed, matching the repeated door-to-room movement motif. Conclusion: The black bag is presented, carried, and then worn over the shoulder in later doorway shots.",
+        "logic_check_reasoning": "Step 1: Slice 45 explicitly shows the woman sitting and talking, then picking up a black bag and showing it to the camera, satisfying the first point. Step 2: Slice 49 shows her holding a black bag while standing in front of a door, then walking into a room and sitting on a bed, matching the description of showing it again as she moves from the door into the room. Step 3: Slice 50 shows the woman standing in front of a white door with a black bag over her shoulder, fulfilling the later shot where she is already wearing it. Outfit changes across slices are acceptable per the instruction to handle VLM noise; the bag’s presence and actions align.",
+        "visual_proof": "In Clip 2 (0:02-0:06), the woman is sitting and talking while holding up the black bag. In Clip 3 (0:00-0:03), she is seen walking from a doorway into the room while carrying the same black bag. Finally, in Clip 3 (0:03) and Clip 1 (0:00-0:01), she is standing by the door with the bag already worn over her shoulder."
+    }
+]

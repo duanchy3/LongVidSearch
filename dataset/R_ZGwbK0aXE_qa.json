@@ -1,0 +1,142 @@
+[
+    {
+        "question": "Which man (by clothing) is speaking animatedly on the bus while wearing headphones around his neck and later appears talking again while seated beside the long-haired man?",
+        "answer": "The man in the light gray sweatshirt with headphones around his neck.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a short-haired bearded man in a light gray sweatshirt with headphones around his neck speaking and gesturing. Step 2: Slice 12 shows the same gray-sweater, headphones-around-neck man seated beside the long-haired man, gesturing while talking. Conclusion: It’s the gray sweatshirt man.",
+        "logic_check_reasoning": "Step 1: Slice 10 describes a man in a light gray sweatshirt with black headphones around his neck, gesturing while speaking in a bus-like setting with purple curtains. Step 2: Slice 12 shows two men seated on a bus; the man on the right is wearing a gray sweater, has headphones around his neck, and is gesturing while speaking, seated next to a long-haired man. Logic holds because the clothing (gray sweatshirt/sweater) and distinctive headphones around the neck match across slices, and both depict him speaking in the same bus-like environment with purple curtains, first standing and later seated beside the long-haired man.",
+        "visual_proof": "In Clip 1, a man in a light gray sweatshirt with black headphones around his neck is standing and speaking animatedly while holding water bottles. In Clip 2, the same man, identifiable by his clothing and headphones, is now seated next to a long-haired man and continues to speak and gesture towards the camera."
+    },
+    {
+        "question": "In the early city street interaction, what color is the SUV involved, and later what color are the bus curtains in the travel segments?",
+        "answer": "The SUV is maroon, and the bus curtains are purple.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a maroon SUV during a street interaction. Step 2: Slice 14 shows the bus interior with purple curtains. Conclusion: Maroon SUV and purple curtains.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 explicitly describes the SUV as maroon during the early city street interaction. Step 2: Evidence Slice 14 explicitly mentions the bus has purple curtains in the travel segment. Both details directly match the proposed answer, with no contradictions or naming issues.",
+        "visual_proof": "In Video 1, the SUV is clearly a deep red or maroon color. In Video 2, the interior of the bus features prominent purple curtains and matching purple seat covers."
+    },
+    {
+        "question": "What instrument is demonstrated in a close-up workshop setting and later exchanged and played in a dim indoor scene?",
+        "answer": "A wooden flute (or flute-like wooden instrument).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 23 focuses on hands handling a long slender wooden tool described as a flute/musical instrument. Step 2: Slice 47 shows hands exchanging a wooden flute and then playing it. Conclusion: The shared object is a wooden flute.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows a close-up in a workshop where a man handles a long, slender wooden object described as possibly a flute or musical instrument. Step 2: Slice 47 explicitly depicts the exchange of a wooden flute and then shows it being played, with clear references to fingers moving over the flute and its vibrations. Logic holds because the instrument identified clearly in Slice 47 as a wooden flute aligns with the wooden, flute-like object handled in the workshop scene of Slice 23, satisfying the question’s description across both settings.",
+        "visual_proof": "In Clip 1, a man is shown in a workshop examining a long, cylindrical wooden instrument with finger holes and markings, consistent with a flute. In Clip 2, the same man is seen in a dim indoor setting interacting with another person over a similar wooden instrument, which is then handled and played, confirming it is a flute-like object."
+    },
+    {
+        "question": "What currency is shown in a price overlay on a bus ride, and later what smaller price overlay appears during a handshake exchange?",
+        "answer": "Pesos; first '400 - 1000 PESOS' and later '250 PESOS EACH'.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows a bus scene with the text '400 - 1000 PESOS.' Step 2: Slice 53 shows a handshake with '250 PESOS EACH.' Conclusion: Both overlays reference pesos with those amounts.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows a bus interior with text overlay '400 - 1000 PESOS', indicating the currency is pesos. Step 2: Slice 53 shows a handshake with text overlay '250 PESOS EACH', which is a smaller price and occurs during the handshake interaction. Logic holds because both overlays are explicitly stated in the slices and match the contexts described.",
+        "visual_proof": "In Video 1, a yellow text overlay at the bottom left clearly reads '400 - 1000 PESOS' while the man is on the bus. In Video 2, during the handshake, a similar yellow text overlay appears at the bottom left reading '250 PESOS EACH'. Both overlays explicitly state the currency as 'PESOS'."
+    },
+    {
+        "question": "Which man (by clothing and hairstyle) is being assisted by an elderly woman applying something to his face, and earlier where was this same long-haired man shown filming himself with a Canon camera?",
+        "answer": "The long-haired blond-bearded man; earlier he was outside on a street filming himself with a Canon camera.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            41,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a long blonde-haired, bearded man holding a Canon camera on a street. Step 2: Slice 41 shows the same long-haired man seated indoors listening to the white-shirt speaker. Step 3: Slice 50 shows the long-haired bearded man sitting while an elderly woman applies makeup/cosmetic with a brush. Conclusion: It’s the long-haired blond-bearded man previously seen with the Canon on the street.",
+        "logic_check_reasoning": "Step 1: Slice 50 shows an elderly woman applying something to the face of a man described as having long hair and a beard. Step 2: Slice 6 describes a man with long blonde hair and a beard holding a Canon camera outside on a street, filming himself. Step 3: The proposed answer identifies the assisted man as the long-haired blond-bearded man, which aligns with the consistent description across slices (long hair, beard, and blonde hair noted in Slice 6). Step 4: The location where he was filming earlier—outside on a street with a Canon camera—is explicitly supported by Slice 6. Therefore, the answer’s claims are supported by the context.",
+        "visual_proof": "Clip 1 shows the long-haired, blond-bearded man holding a Canon camera and filming himself on a street with jeepneys in the background. Clip 3 shows the same man, identifiable by his long hair and beard, sitting as an elderly woman applies something to his arm (not face). The question's phrasing 'applying something to his face' is slightly inaccurate based on the visual evidence, which clearly shows the application on his forearm. However, since the core identification of the man and his prior action (filming himself with a Canon camera on the street) are both visually confirmed and the error is minor, the original answer is considered correct for the main intent of the question."
+    },
+    {
+        "question": "What two different indoor speaking-to-camera moments happen far apart in the video: one in a hallway with framed items and another in a modern lobby with promotional overlays?",
+        "answer": "A hallway vlog segment and a hotel lobby/lobby-like promotional segment with 'WATCH THIS' and 'SUBSCRIBE HERE' overlays.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a man with a backpack speaking in an indoor corridor with framed pictures. Step 2: Slice 72 shows a man speaking in a modern lobby-like space with promotional text overlays. Conclusion: These are two distinct indoor talk-to-camera moments.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes a man speaking directly to the camera in an indoor hallway/corridor with white walls and framed pictures or certificates, matching the 'hallway vlog segment.' Step 2: Slice 72 describes a man speaking directly to the camera in a modern, lobby-like space with on-screen promotional overlays 'WATCH THIS' and 'SUBSCRIBE HERE,' matching the 'hotel lobby/lobby-like promotional segment.' Logic holds because both slices explicitly depict distinct indoor speaking-to-camera moments with the specified environmental details and overlays.",
+        "visual_proof": "Clip 1 shows the man in a narrow, dimly lit indoor space resembling a hallway or corridor with white walls and framed pictures. Clip 2 shows him in a bright, spacious, modern interior with high ceilings and large windows, consistent with a hotel lobby, overlaid with text boxes reading 'WATCH THIS', 'SUBSCRIBE HERE', and other promotional content."
+    },
+    {
+        "question": "What chain of events links the rustic tattoo-design location to later close-up tattooing work and finally a completed tattoo shown on a foot?",
+        "answer": "They visit a traditional tattoo designs space, then show tattooing in progress using hand-tapping methods with a needle and mallet, and finally show the completed tattoo on a foot.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            20,
+            57,
+            60,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a rustic studio with signage suggesting 'Traditional Tattoo Designs.' Step 2: Slice 57 shows close-up tattooing with a machine creating an intricate circular pattern. Step 3: Slice 60 shows another intimate tattooing process focused on hands tattooing a hand. Step 4: Slice 61 shows a completed tattoo on a foot as a final showcase. Conclusion: The video progresses from tattoo place/context to tattooing action to finished tattoo reveal.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows a man in a rustic space marked by a sign 'Traditional Tattoo Designs,' establishing the tattoo-design location. Step 2: Slices 57 and 60 depict close-up tattooing in progress (57 with a machine creating a detailed pattern; 60 showing a man tattooing a hand with a traditional tool), confirming the transition to active tattooing work. Step 3: Slice 61 presents a close-up of a foot bearing a tattoo, implying a completed piece being showcased. The logic is a clear sequence from location/introduction to process to final result, which matches the proposed answer.",
+        "original_text_answer": "They visit a traditional tattoo designs space, then show tattooing in progress with needles/machines, and later show the finished tattoo on a foot.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the man in front of a 'Traditional Tattoo Designs' poster. Clip 2 and Clip 3 show close-ups of tattooing being done manually with a single needle and a mallet (hand-tapping), not machines. Clip 4 shows the finished tattoo on a foot. The original answer incorrectly states 'needles/machines' were used, when only hand-tapping tools are visually present."
+    },
+    {
+        "question": "How does the man in the white shirt with a necklace transition from explaining himself in a rustic indoor conversation to later conducting a priced handshake exchange outdoors?",
+        "answer": "He speaks animatedly indoors with the long-haired man listening, then later he smiles while shaking hands during a '250 PESOS EACH' exchange outdoors.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            41,
+            43,
+            52,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows the white-shirt, necklace-wearing man speaking animatedly while the long-haired man listens. Step 2: Slice 43 shows a similar two-shot conversation in a rustic/industrial setting, reinforcing his role as the speaker. Step 3: Slice 52 shows him outside a corrugated-roof building in the mountains, talking and then walking toward others. Step 4: Slice 53 shows him completing an exchange via handshake with the overlay '250 PESOS EACH.' Conclusion: His interaction shifts from indoor storytelling to an outdoor transactional handshake.",
+        "logic_check_reasoning": "Step 1: Slices 41 and 43 show the man in a white shirt with a necklace speaking animatedly indoors in a rustic/industrial setting while a long-haired man listens. Step 2: Slice 52 moves the same white-shirted man outdoors, talking and walking in a rural setting. Step 3: Slice 53 shows a handshake involving the person in the white shirt, with on-screen text '250 PESOS EACH' and the man smiling, indicating a priced exchange outdoors. Logic holds because the indoor conversation with the long-haired listener transitions to an outdoor interaction culminating in a handshake with a stated price.",
+        "visual_proof": "Clip 1 and Clip 2 show the man in the white shirt speaking animatedly indoors next to a long-haired man who is listening. Clip 4 shows the same man in the white shirt smiling as he shakes hands with another person, with on-screen text confirming '250 PESOS EACH'. The transition from indoor conversation to outdoor handshake exchange is visually documented across these clips."
+    },
+    {
+        "question": "What animal does the man with a backpack encounter while walking through the market, and later what larger animal is visible inside the rustic wooden structure?",
+        "answer": "He encounters a black pig, and later a horse is visible.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows the backpacked man briefly interacting with a black pig. Step 2: Slice 55 shows a horse partially visible inside a rustic wooden structure behind a long-haired man. Conclusion: Black pig first, horse later.",
+        "logic_check_reasoning": "Step 1: Slice 26 states a man with a backpack encounters a black pig while walking through a market. Step 2: Slice 55 describes a rustic wooden structure where a horse is partially visible in the background. Logic holds because the question asks about the animal encountered by the backpacked man and, later in the video, the larger animal visible in the rustic structure; both details are explicitly supported by the slices.",
+        "visual_proof": "In the first clip (0:06), a black pig is clearly visible walking on a narrow path as the man with the backpack passes by. In the second clip (0:00-0:05), a large brown horse is visible standing next to the man inside a rustic wooden structure."
+    },
+    {
+        "question": "What sequence of actions leads from entering a dim room with a woman on the floor to later showing hands exchanging and then playing a flute?",
+        "answer": "He enters a dim room and gives the woman a plastic bag of supplies, then later sits with her as she hands him a wooden flute which he begins to play.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            37,
+            46,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows the man entering a dark room, sitting next to a woman, and handing over his shoes and socks, indicating a respectful interaction. Step 2: Slice 46 shows a cooperative exchange where the man offers a small object to a seated person in a striped hoodie. Step 3: Slice 47 shows hands exchanging a wooden flute and then playing it. Conclusion: The cooperative, respectful exchanges culminate in the flute being handed over and played.",
+        "logic_check_reasoning": "Step 1: Slice 37 shows the man entering a dim room where a woman sits on the floor; he sets down his backpack, sits next to her, removes his shoes and socks, and hands them to her. Step 2: Slice 46 depicts hands exchanging a small object in a calm, collaborative scene. Step 3: Slice 47 clarifies the exchanged object as a wooden flute and shows it being played. The proposed answer summarizes this sequence: initial interaction in the dim room including giving shoes/socks, followed by a later hand-to-hand exchange of a flute and its playing.",
+        "original_text_answer": "He sits with the woman and shares items (including giving shoes/socks), then later a wooden flute is passed hand-to-hand and played.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 (0:06-0:07) shows the man handing a plastic bag labeled 'PURECO PLASTIC BAG' to the woman on the floor. Clip 2 (0:04-0:05) shows them sitting together, and Clip 3 (0:05-0:06) shows a close-up of their hands exchanging a wooden flute before the man plays it."
+    }
+]

@@ -1,0 +1,56 @@
+[
+    {
+        "question": "What repeated visual gesture connects the calm rooftop/sky-observation scenes with the later armed confrontation in a parking-lot-like area?",
+        "answer": "Pointing directly outward (a pointed hand/gun aimed forward).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 9 includes emphatic pointing toward the horizon/upward in rooftop/garage planning contexts. Step 2: Slice 30 shows a pointed hand and then a gun pointed straight at the camera. Conclusion: The shared gesture is forceful pointing outward (escalating into gun-aiming).",
+        "logic_check_reasoning": "Step 1: Slice 9, Scene 2 describes a rooftop setting where a suited individual \"gestures emphatically towards the horizon,\" which is an outward pointing/gesturing action. Step 2: Slice 30 shows a close-up of a hand pointing toward the camera and then men in suits pointing guns directly at the camera, clearly an outward pointing gesture. Logic holds because both sequences prominently feature an arm/hand extended in a forward, outward pointing direction, connecting the rooftop observation with the later armed confrontation.",
+        "visual_proof": "In Clip 1, the first man is shown pointing his finger upwards at the sky (0:01-0:04), followed by a scene in a parking garage where he makes a similar pointing gesture with both hands (0:08). In Clip 2, an older man is clearly seen pointing a handgun directly forward in a confrontational stance (0:02-0:03, 0:06, 0:09). The repeated visual motif is the act of pointing directly outward, whether with fingers or a firearm, linking the two distinct scenes."
+    },
+    {
+        "question": "What shared technology-related theme links the scenes of cryptic green text on a computer screen and the later scene of a young man urgently making a phone call in a dim room?",
+        "answer": "Using digital communication/tech (computer text and phone calls) to deal with a tense situation.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows a computer screen with green characters/URL, implying hacking or investigation. Step 2: Slice 48 shows a young man in a dim room making an urgent phone call. Conclusion: Both are about using technology/communication under tension.",
+        "logic_check_reasoning": "Step 1: Slice 44 describes a computer screen with cryptic green text and a URL, set within a dark, suspenseful, tech/espionage-feeling scene, indicating technology/internet communication in a tense context. Step 2: Slice 48 shows a young man urgently making a phone call in a dim room, with explicit mention of a tense, distressing situation tied to receiving important information. Logic holds because both scenes feature technology-mediated communication (computer/internet and phone) occurring within a suspenseful, tense atmosphere, aligning with the proposed theme.",
+        "visual_proof": "Clip 1 shows cryptic green text on a computer screen, indicating digital communication. Clip 2 shows a young man in a dim room with a tense expression, suggesting urgency or distress, which aligns with the theme of using technology to handle a tense situation."
+    },
+    {
+        "question": "Which public media format is shown first as a studio broadcast and later as the same kind of information being watched on a smartphone during a run?",
+        "answer": "A news broadcast.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a 'JBC NEWS' studio anchor delivering a report. Step 2: Slice 38 shows a smartphone screen displaying a news broadcast with an anchor. Conclusion: The shared media format is a news broadcast.",
+        "logic_check_reasoning": "Step 1: Slice 21 describes a man in a suit behind a desk in a studio setting labeled 'JBC NEWS,' clearly indicating a studio news broadcast. Step 2: Slice 38 shows a person running and a close-up of a smartphone screen displaying a news broadcast with a professional anchor and Chinese text. Logic holds because both slices depict a news broadcast—first in a studio and later watched on a smartphone during a run.",
+        "visual_proof": "Clip 1 shows a man in a suit at a news desk with 'JBC NEWS' visible, clearly a studio news broadcast. Clip 2 shows a person running while watching the same type of broadcast on a smartphone, featuring a female news anchor and Japanese text overlays, confirming it is a news broadcast being consumed on a mobile device."
+    },
+    {
+        "question": "How does the disaster storyline connect an early glimpse of futuristic action to later city-wide destruction and a human-versus-machine fight in rubble?",
+        "answer": "It starts with sci-fi combat imagery, escalates into city catastrophe imagery, and culminates in a rubble-filled fight between a shirtless human and a cyborg.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            27,
+            82,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 1 opens with futuristic high-tech combat imagery (weapon/armor). Step 2: Slice 27 shows a giant glowing entity looming over the city, implying catastrophe. Step 3: Slice 82 shows a shirtless man running through heavy urban destruction and rubble. Step 4: Slice 90 shows the shirtless human battling a cyborg in a devastated environment. Conclusion: The montage links early sci-fi action to a city-scale disaster and a climactic human-vs-machine struggle.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows an early futuristic, sci-fi combat setup (high-tech environment, person armed and combat-ready), establishing the initial sci-fi action tone. Step 2: Slice 27 escalates to city-wide catastrophe imagery (a colossal, glowing figure over a city, implying impending disaster). Step 3: Slice 82 shows the aftermath in rubble and destruction with a shirtless man navigating debris, reinforcing the disaster context. Step 4: Slice 90 culminates in a human-versus-machine confrontation in a debris-strewn, post-apocalyptic setting, explicitly a shirtless human fighting a cyborg. Logic holds because the sequence progresses from sci-fi action to large-scale catastrophe to a rubble-set human-vs-cyborg fight.",
+        "visual_proof": "Clip 1 shows a cyborg and a man pointing, hinting at conflict. Clip 4 shows a person falling from a great height over a city, suggesting large-scale disaster. Clips 3 and 4 show a shirtless man fighting amidst rubble and debris, clearly depicting a human-versus-machine battle in a destroyed urban environment."
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "question": "A train with a circular emblem and pink accents is shown at a platform and later another train with a similar emblem is shown stopped after tickets are displayed. What train number is visible in the first case, and what train number is visible in the later platform scene?",
+        "answer": "1101 first, and 1208 later.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the silver train with pink/black accents and a circular emblem labeled 1101. Step 2: Slice 35 shows tickets, then a train stopped at the platform labeled 1208. Conclusion: The numbers are 1101 and 1208.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a train at a platform with pink/black accents and a circular emblem, explicitly marked with the number 1101. Step 2: Slice 35 shows tickets, then a later platform scene with a train explicitly marked 1208. Logic holds because the first case matches Slice 9 and the later platform scene after tickets matches Slice 35.",
+        "visual_proof": "In the first clip (0:00-0:06), the train at the platform clearly displays the number '1101' on its front. In the second clip (0:13-0:17), a different train is shown stopped at a platform, and its front clearly displays the number '1208'. Both numbers are legible in their respective scenes."
+    },
+    {
+        "question": "Which hot-spring destination name is shown on station signage, and how is that same destination reinforced later by an interview about encouraging tourists to use trains instead of cars?",
+        "answer": "Iizaka Onsen; it appears on the platform sign and is later discussed in an interview about getting tourists to switch from cars to trains.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a platform sign reading 飯坂温泉 (Iizaka Onsen). Step 2: Slice 34 features an interview about encouraging tourists (to hot spring areas) to use trains rather than cars. Conclusion: The destination is Iizaka Onsen, supported by both signage and the tourism-focused interview.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly states that the station signage shows \"飯坂温泉 (Iizaka Onsen)\" and indicates direction toward this hot-spring destination. Step 2: Slice 34 shows a hot spring and features an interview where a man discusses encouraging tourists to switch from cars to trains, emphasizing sustainable travel for visitors to the area. Logic holds because the later interview about train travel for tourists visiting the hot-spring area reinforces the same destination context introduced by the Iizaka Onsen signage, even if the name isn’t repeated in the interview.",
+        "visual_proof": "In Clip 1, a station sign clearly reads '飯坂温泉 IIZAKAONSEN'. In Clip 2, an interview with Miura Kenichi, General Manager of the Railway Dept., includes subtitles stating, 'We think a significant number of tourists heading to Iizaka Onsen prefer using cars... We're always pondering if there's a way to encourage these people to switch to train travel.' This directly links the destination name to the interview's topic."
+    },
+    {
+        "question": "Which segment shows the line being introduced with an on-screen title, and which later segment shows official station signage pointing to the Iizaka Line within a larger hub station?",
+        "answer": "The title appears in the scenic intro segment, and the Iizaka Line signage appears later inside Fukushima Station.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 6 displays the on-screen title “Fukushima's Izaka Line: Keeping Business on Track.” Step 2: Slice 7 shows Fukushima Station and signage for the Iizaka Line operated by Fukushima Transportation. Conclusion: The title introduction is in Slice 6 and the hub signage is in Slice 7.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly mentions an on-screen title: \"Fukushima's Izaka Line: Keeping Business on Track\" shown during a scenic intro with trains and landscapes. Step 2: Slice 7 explicitly states that inside Fukushima Station (a larger hub with multiple lines), there are signs for the Iizaka Line operated by Fukushima Transportation. Logic holds because the first segment introduces the line with an on-screen title, and a later segment shows official station signage within the hub station.",
+        "visual_proof": "In Clip 1 (0:03-0:05), a purple on-screen title explicitly reads 'Fukushima's Iizaka Line: Keeping Business on Track' during a scenic shot of the train on a bridge. In Clip 2 (0:08), the camera shows a busy station entrance with a large blue sign that clearly points to the '阿武隈急行線' (Abukuma Express Line) and '福島交通飯坂線' (Fukushima Kotsu Iizaka Line), confirming the presence of official signage for the Iizaka Line at Fukushima Station."
+    }
+]

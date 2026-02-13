@@ -1,0 +1,15 @@
+[
+    {
+        "question": "A TV announces a jazz album release while showing a trumpet player, and later a live jazz performance prominently features trumpet playing tied to that same album. What album is being highlighted across both segments?",
+        "answer": "Miles Davis: Bitches Brew.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a TV caption 'Bitches Brew Released Mar. 30th 1970' with a trumpet player image. Step 2: Slice 22 shows the 'Miles Davis: Bitches Brew' record sleeve and jazz performance with trumpet. Conclusion: The album is 'Bitches Brew.'",
+        "logic_check_reasoning": "Step 1: Slice 21 shows a vintage TV with a trumpet player and explicit on-screen text stating \"Bitches Brew Released Mar. 30th 1970,\" clearly identifying the album. Step 2: Slice 22 displays a vinyl sleeve labeled \"Miles Davis: Bitches Brew\" and then features a live performance with trumpet playing, connecting the performance to that same album. Logic holds because both slices explicitly reference \"Bitches Brew\" and tie it to trumpet performances, indicating the same album is being highlighted.",
+        "visual_proof": "Clip 1 shows a TV screen with text explicitly stating 'Bitches Brew Released Mar. 30th 1970' alongside an image of a trumpet player. Clip 2 shows a live jazz performance featuring a trumpet player, and the album cover for 'Miles Davis: Bitches Brew' is superimposed over the performance, visually linking the live music to the album."
+    }
+]

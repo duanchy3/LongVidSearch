@@ -1,0 +1,178 @@
+[
+    {
+        "question": "What two materials are put into the circular brick pit before wooden planks are laid over a white layer on top?",
+        "answer": "Broken glass and then a white powder.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows broken glass being poured into the brick pit. Step 2: Slice 7 shows a bag of white powder poured into the same pit on top of the glass. Step 3: Slice 8 shows wooden planks being arranged over the white powder layer. Conclusion: The materials added before planks are broken glass and white powder.",
+        "logic_check_reasoning": "Step 1: Slice 6 states two men pour broken glass into a fire pit made of bricks. Step 2: Slice 7 shows a person pouring white powder into a circular pit that already contains broken glass. Step 3: Slice 8 shows wooden planks being laid over the white powder. Therefore, before the planks are laid, the two materials put into the brick pit are broken glass and white powder.",
+        "visual_proof": "Clip 1 shows two people pouring a large quantity of broken, colorful glass shards into the circular brick pit. Clip 2 shows a person pouring a white powdery substance from a bag directly onto the layer of broken glass. Clip 3 shows wooden planks being laid over the white layer, confirming the sequence of materials added before the wood."
+    },
+    {
+        "question": "Which tool is used to check whether the brick ring is level, and later what tool is used to stir onions cooking in butter over the fire?",
+        "answer": "A blue level tool is used to check the bricks, and a wooden spatula/spoon is used to stir the onions.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a blue level tool checking the brick alignment. Step 2: Slice 46 shows onions sautéing with a wooden spatula/spoon used for stirring. Conclusion: Level tool first, wooden stirrer later.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a 'blue level tool' with a green bubble being used to check and adjust the bricks to ensure they are level on a circular brick structure. This directly supports the first part of the answer. Step 2: Slice 46 shows onions sautéing in butter/oil over a campfire and explicitly mentions a 'wooden spatula' used to stir them. This supports the second part; while the answer says 'wooden spatula/spoon,' the spatula portion is explicitly confirmed by the context.",
+        "visual_proof": "In Video 1 (0:05-0:07), a man is seen placing a long blue level tool with a bubble vial across the brick ring to check for levelness. In Video 2 (0:00-0:03), a wooden spoon/spatula is visibly used to stir chopped onions in a black pan over a fire."
+    },
+    {
+        "question": "After the man washes the large raw meat at the stream, what seasonings are shown being applied to it later at the table?",
+        "answer": "Salt and pepper.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows the meat being washed in running water. Step 2: Slice 18 shows the meat placed on a table and seasoned with salt and pepper. Conclusion: It is later seasoned with salt and pepper.",
+        "logic_check_reasoning": "Step 1: Slice 17 describes a man in a rural outdoor setting washing a large piece of raw meat at a stream. He is wearing a black shirt and dark pants. Step 2: Slice 18 shows (likely the same) man, also in a rural outdoor setting and wearing a black shirt, placing the large raw meat on a wooden table and seasoning it. It explicitly states he begins to season it with salt and pepper. Logic holds because the visual attributes and continuity of actions (handling the same large raw meat) align across the slices, and Slice 18 explicitly names the seasonings.",
+        "visual_proof": "After washing the meat at the stream, the man carries it to a wooden table. At 0:04-0:05, he is seen sprinkling a white crystalline substance (visually consistent with salt) over the meat. At 0:06-0:07, he then sprinkles a dark, granular substance (visually consistent with ground black pepper) onto the meat. These are the only seasonings visibly applied in the provided clips."
+    },
+    {
+        "question": "What sweet ingredient is suggested by the tree hive/bee scenes, and what drink is prepared shortly afterward on the table?",
+        "answer": "Honey is suggested, and tea is prepared.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows beehive-like objects on a tree, implying honey/bee products. Step 2: Slice 28 shows hot water poured into a teapot and tea brewed outdoors. Conclusion: Honey is implied; tea is made next.",
+        "logic_check_reasoning": "Step 1: Slice 27 shows dark, spherical objects that resemble beehives hanging from a tree branch, which suggests the sweet ingredient honey. Step 2: Slice 28 describes the man pouring hot water into a glass teapot with tea leaves, adding berries, and then pouring the brewed tea into glasses, clearly indicating tea is prepared. Logic holds because bee/hive imagery commonly implies honey, and the scene explicitly shows tea being made.",
+        "visual_proof": "Clip 1 shows beehives in a tree, visually suggesting honey as the sweet ingredient. Clip 2 shows a man preparing tea by pouring hot water from a samovar into a glass teapot containing loose tea leaves, confirming tea preparation."
+    },
+    {
+        "question": "What two vegetable-prep actions happen before the chopped vegetables are poured into the cooking pot over the fire?",
+        "answer": "Carrots/peppers/onions are chopped on the table, and garlic is prepared/chopped.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            40,
+            48,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows chopping assorted vegetables on the outdoor table. Step 2: Slice 48 shows garlic being chopped. Step 3: Slice 49 shows the chopped vegetables being carried and poured into a pot over the flame. Conclusion: Vegetable chopping and garlic prep precede adding them to the pot.",
+        "logic_check_reasoning": "Step 1: Slice 40 describes the man chopping vegetables (including bell peppers and other vegetables) on the outdoor wooden table, establishing the vegetable-chopping action before cooking. Step 2: Slice 48 explicitly shows garlic being chopped on a wooden cutting board at the same table, confirming the garlic prep action. Step 3: Slice 49 shows that chopped vegetables (including bell peppers, carrots, and onions) are poured into the pot over the fire, indicating these chopping actions occurred beforehand. The two actions—chopping vegetables on the table and chopping garlic—are supported by Slices 40 and 48 and precede the pouring in Slice 49.",
+        "visual_proof": "Clip 1 shows the man chopping yellow, red, and green bell peppers on a wooden table. Clip 2 shows him mincing garlic cloves with a large knife on the same table, next to bowls of chopped carrots and whole tomatoes. Clip 3 then shows him pouring these prepped vegetables (carrots, peppers, and garlic) into a pot over a fire. The sequence visually confirms that chopping the peppers/carrots and preparing the garlic occurred before adding them to the pot."
+    },
+    {
+        "question": "What is cooked inside the oven earlier in foil, and what later happens to cooked food when it is emptied onto a serving tray?",
+        "answer": "Foil-wrapped food (likely meat) is cooked in the oven, and later a cooked rice/grain dish is poured from a pot onto a metal tray.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            71,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 71 shows foil-wrapped food being placed into a stone oven. Step 2: Slice 74 shows a foil-wrapped bundle opened to reveal a pot, then the cooked contents poured onto a metal tray. Conclusion: Foil cooking leads to later tray serving of cooked food.",
+        "logic_check_reasoning": "Step 1: Slice 71 states a man places a large foil-wrapped food item into a stone oven; it appears to be a large piece of meat or fish. This supports that foil-wrapped food is cooked in the oven (though the exact type is not definitively identified). Step 2: Slice 74 shows the man unwrapping foil to reveal a pot with a cooked meal, then pouring the contents onto a metal tray; the food appears to be a rice-based dish with vegetables. Logic holds because the earlier cooking of a foil-wrapped item is consistent, and later the cooked food is poured from a pot onto a metal tray. The proposed answer aligns with the evidence: foil-wrapped food is cooked, and later a rice/grain dish is poured onto a tray.",
+        "visual_proof": "In Clip 1, a man places a large foil-wrapped item into a brick oven. In Clip 2, after removing the foil-wrapped item, he pours a grain-based dish (appearing like bulgur or rice with spices) from a terracotta pot onto a metal serving tray."
+    },
+    {
+        "question": "What ingredient is prepared as a red drink in a glass teapot, and what later action shows someone actually tasting it from a glass cup?",
+        "answer": "Red tea (tea with red berries) is prepared, and later it is sipped from a glass cup.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            29,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows hot water poured into a glass teapot and red berries added; the tea turns red. Step 2: Slice 29 shows tea poured from a samovar into a glass. Step 3: Slice 30 shows a man sipping from a glass cup. Conclusion: Red tea is brewed/poured and then tasted.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows the man adding red berries to a glass teapot that already contains tea leaves and hot water, creating a tea brew. This supports the idea of a red-tinged tea made with red berries. Step 2: Slice 30 confirms the teapot contains a red liquid (likely the tea with berries) and shows the man picking up a glass cup and taking a sip, indicating someone actually tastes it. Step 3: Slice 29 also shows tea being poured into a glass cup outdoors, consistent with the overall activity. The logic holds because the preparation (tea with red berries) and later action (sipping from a glass cup) are both explicitly described.",
+        "visual_proof": "In Clip 1, dark tea leaves are poured into a glass teapot, followed by hot water from the samovar, creating a dark red liquid. In Clip 3, the man pours this red tea into a small glass cup and then brings it to his lips to sip, clearly tasting it."
+    },
+    {
+        "question": "What are two different times the video emphasizes the surrounding landscape rather than cooking, and what broad setting do both views share?",
+        "answer": "Early mountain vistas and the later aerial valley/village view; both show a lush mountainous region.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            98
+        ],
+        "reasoning_chain": "Step 1: Slice 1 opens with a mountainous landscape. Step 2: Slice 98 shows an aerial view of a green valley with mountains and a village. Conclusion: Both are scenic mountainous nature views.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes the video starting with a breathtaking view of a mountainous landscape with lush greenery, clearly emphasizing the surrounding landscape rather than any cooking. Step 2: Slice 98 presents an aerial view of a lush green valley surrounded by mountains, highlighting natural beauty and the setting rather than cooking. Logic holds because both instances focus on landscape visuals, and both are set in a lush mountainous region as explicitly noted in the descriptions.",
+        "visual_proof": "Clip 1 opens with wide shots of green, forested mountains under a cloudy sky, establishing the landscape. Clip 2 provides an aerial view of a valley nestled between similar lush, tree-covered mountains, showing a small settlement and riverbed. Both clips focus entirely on the natural scenery, not cooking activities, and clearly depict a verdant, mountainous environment."
+    },
+    {
+        "question": "What sequence shows raw meat being cleaned, then seasoned, then finally served as cooked meat alongside grains?",
+        "answer": "It is washed at the stream, seasoned on the table, then later cooked meat is carved and placed onto a grain dish for serving.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            17,
+            18,
+            75,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows washing a large raw meat cut in a stream. Step 2: Slice 18 shows seasoning the meat on a table. Step 3: Slice 75 shows carved roasted meat being cut after cooking. Step 4: Slice 86 shows carved meat placed onto bowls of grains. Conclusion: Clean → season → roast → serve with grains.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows a man washing a large piece of raw meat at a stream, confirming the cleaning stage. Step 2: Slice 18 shows the man placing raw meat on a wooden table and seasoning it with salt and pepper, confirming the seasoning stage. Step 3: Slice 86 shows cooked meat being carved and placed onto bowls of grains, confirming the final serving stage alongside grains. The sequence in the proposed answer aligns with these slices.",
+        "visual_proof": "Clip 1 shows the man washing raw meat under running water. Clip 2 shows him seasoning the meat on a wooden table with various bowls of spices nearby. Clip 4 shows the cooked meat being carved and served over a grain dish. This sequence directly matches the described process."
+    },
+    {
+        "question": "Which items are wrapped before cooking, and what later visual change indicates the wrapped contents have cooked through?",
+        "answer": "Food/meat is wrapped in aluminum foil, and later the foil is opened to reveal browned, cooked meat/dish inside.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            71,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows food being wrapped with cloth and aluminum foil. Step 2: Slice 71 shows foil-wrapped food placed into an oven. Step 3: Slice 72 shows foil partially opened to reveal golden-brown cooked meat with smoke. Conclusion: Wrapped items later appear cooked and browned when unwrapped.",
+        "logic_check_reasoning": "Step 1: Slice 71 explicitly shows a man placing a large piece of foil-wrapped food into a stone oven, indicating the item wrapped before cooking is food (likely meat). Step 2: Slice 72 shows the foil partially opened to reveal meat with a golden-brown crust and visible smoke, indicating it has cooked. Step 3: This directly supports that the wrapped item is food/meat in aluminum foil and that the later visual change is the browned, cooked appearance once the foil is opened.",
+        "visual_proof": "In Clip 1, a man wraps food (likely meat) first in parchment paper, then in aluminum foil. In Clip 2, he places the foil-wrapped package into a clay oven. In Clip 3, the foil is peeled back to reveal a golden-brown, fully cooked piece of meat inside, indicating it has been cooked through."
+    },
+    {
+        "question": "What evidence shows beekeeping nearby, and what later scene shows people eating with those beehives visible in the background?",
+        "answer": "A row of beehives is shown near the cooking area, and later children eat at a long table with yellow beehives behind them.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            63,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 63 shows beehives in the vicinity (including a row of colorful hives). Step 2: Slice 96 shows children seated and eating with yellow beehives visible in the background. Conclusion: The beehive presence carries into the group meal setting.",
+        "logic_check_reasoning": "Step 1: Slice 63 states there is a brief glimpse of a row of colorful beehives near the outdoor cooking scene, and also mentions a yellow beehive in the vicinity, indicating beekeeping nearby. Step 2: Slice 96 describes children eating at a long wooden table outdoors with yellow beehives visible in the background. Logic holds because the first slice provides evidence of beekeeping presence, and the later slice shows a scene of people eating with those beehives visible.",
+        "visual_proof": "In Clip 1 (0:03), multiple colorful beehives, including yellow ones, are visible in a grassy field. In Clip 2 (0:00-0:02), a group of children is seated at a long outdoor table eating, with the same row of beehives clearly visible in the background behind them."
+    },
+    {
+        "question": "What indicates a shift from preparing a fire pit for cooking to actually cooking vegetables in a skillet over that fire?",
+        "answer": "First the fire is started/arranged with logs, then a skillet appears with vegetables being sautéed and stirred over the flames.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            32,
+            43,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows arranging logs and lighting a fire. Step 2: Slice 43 shows placing a cast-iron skillet over the fire. Step 3: Slice 50 shows vegetables sautéing in the skillet and being stirred. Conclusion: Fire setup leads to active skillet cooking.",
+        "logic_check_reasoning": "Step 1: Slice 32 describes arranging logs, adding kindling, and lighting the fire—this is fire pit preparation. Step 2: Slice 43 shows the cast-iron skillet being placed over the fire, indicating the move toward cooking. Step 3: Slice 50 explicitly shows vegetables being sautéed and stirred in the skillet over the flames, confirming actual cooking. Logic holds because the progression from building the fire to placing a skillet and then sautéing vegetables is clearly depicted across the slices.",
+        "visual_proof": "Clip 1 shows hands arranging kindling and logs in a fire pit ring, followed by flames igniting. Clip 2 shows a person placing a black cast iron skillet directly onto the burning logs. Clip 3 provides a close-up of chopped vegetables (carrots, peppers, onions) sizzling and being stirred in the skillet over the active fire."
+    },
+    {
+        "question": "Which animal appears near the brickwork early on, and which different animal is later seen grazing near the oven while foil-wrapped food is cooked?",
+        "answer": "A goat appears early, and a cow appears later.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a goat standing near the man working on bricks. Step 2: Slice 26 shows a cow grazing nearby while food is placed into the oven. Conclusion: Goat early, cow later.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a man working on a brick structure with a goat nearby. Step 2: Slice 26 shows the same man cooking foil-wrapped food in an outdoor brick oven with a cow grazing nearby. Logic holds because the early scene with brickwork features a goat, and the later cooking scene features a cow.",
+        "visual_proof": "In the first clip (0:00-0:05), a goat with long hair and floppy ears is seen standing on the brickwork next to the man. In the second clip (0:04-0:06), a young calf (a type of cow) is shown walking through tall grass near the oven area, which is consistent with the timing of the foil-wrapped food being prepared and cooked."
+    }
+]

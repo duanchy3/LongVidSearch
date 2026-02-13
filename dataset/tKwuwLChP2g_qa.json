@@ -1,0 +1,71 @@
+[
+    {
+        "question": "What earlier clue indicates that the suited team later walking through an industrial alley is preparing for a gunfight?",
+        "answer": "Earlier, gloved hands are shown holding two pistols, signaling imminent armed conflict.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows gloved hands holding two pistols, implying a planned armed action. Step 2: Slice 34 shows a suited group moving through a dim hallway while being monitored, consistent with an operation about to turn violent. Conclusion: The pistols preview the later armed movement/operation.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12 describes the suited group walking through an alley/industrial area, suggesting they are on a mission. Step 2: The same slice explicitly mentions a subsequent scene focusing on gloved hands holding two pistols, highlighting danger or impending conflict. Step 3: The presence of the pistols serves as a clear clue that someone is preparing for a gunfight, which aligns with the team's tense movement through the industrial alley. Logic holds because the explicit mention of gloved hands with two pistols is a direct indicator of imminent armed conflict, supporting the proposed answer.",
+        "visual_proof": "In the first video clip, at timestamp 0:17-0:19, a close-up shot clearly shows a person's gloved hands holding and manipulating two silver handguns. This action directly precedes the scene where the suited team, including the same individuals, walks through an industrial alley, indicating they are preparing for a gunfight."
+    },
+    {
+        "question": "Which vehicle first appears as the team's arrival transport and later appears again in a garage-like planning area?",
+        "answer": "A white van.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows people in formal attire disembarking from a white van. Step 2: Slice 21 shows a dim garage/workshop with a white van parked while people plan. Conclusion: The recurring vehicle is a white van.",
+        "logic_check_reasoning": "Step 1: Slice 12 states that a group in formal attire is seen disembarking from a white van, indicating it is their arrival transport. Step 2: Slice 21 describes a garage/workshop scene where a white van is parked in the background during a planning session. Logic holds because the same vehicle type (white van) appears first as the arrival transport and later in the garage-like planning area.",
+        "visual_proof": "In Clip 1, a white van is clearly visible as the team arrives and exits from it. In Clip 2, the same white van is parked in the background of the garage-like planning area, confirming its reappearance."
+    },
+    {
+        "question": "What links the nighttime outdoor conversation at a table to the later control-room monitoring of activity in a parking lot and around cars?",
+        "answer": "The outdoor table conversation happens near cars/parking activity that is later shown from multiple surveillance camera angles.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            19,
+            20,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows two men talking at an outdoor table with a car nearby and a figure moving near the car. Step 2: Slice 20 places characters in a high-tech room with screens, implying coordinated monitoring. Step 3: Slice 23 returns to control-room dynamics and shows a man walking toward a car at night, reinforcing car-related surveillance/meetings. Conclusion: The car-adjacent meeting is part of a monitored, controlled operation around vehicles.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes the outdoor nighttime scene with two men at a table near a parked car in what appears to be a parking lot, including someone walking away from a vehicle in the background. Step 2: Slice 19 also details surveillance feeds showing multiple angles of a parking lot, people moving, cars being driven, and specifically mentions a person running toward a car that could relate to the earlier outdoor scene, explicitly creating a sense of connection between the outdoor scene and the control room monitoring. Step 3: Slice 23 reinforces the linkage by showing an outdoor night scene of a man walking toward a car and control-room monitoring of critical information, maintaining the theme of surveillance over parking lot/car activity. Logic holds because both the outdoor conversation and the later control-room monitoring center on activity in/around cars in a parking lot, with the surveillance footage presented as connected to the earlier outdoor events.",
+        "visual_proof": "In Clip 1, two men are seated at a table outdoors at night with a white van visible directly behind them. Later in the same clip, the scene cuts to a control room where these same two men are watching a bank of monitors displaying live surveillance footage. The footage on the monitors (e.g., 0:25-0:34) clearly shows the same type of vehicles and outdoor environment, including a black van being surrounded by people, confirming the link between the conversation location and the monitored activity."
+    },
+    {
+        "question": "How does the video show escalation from local street-level violence to a coordinated, timed operation run from a control room?",
+        "answer": "It moves from direct assaults and kidnappings on the street to surveillance-room planning and a countdown-driven mission with comms and hacking.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            15,
+            45,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 2 includes chaotic fighting and attacks, establishing street-level violence. Step 2: Slice 15 shows armed men threatening and forcing someone into a vehicle (organized violence). Step 3: Slice 45 shows a control room with a countdown and technical work coordinating action. Step 4: Slice 50 culminates with high-stakes outcomes (car speed and a large explosion). Conclusion: The narrative escalates from raw street violence to orchestrated, timed operations with major consequences.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 15 explicitly shows street-level violence and a kidnapping: suited men with guns threaten and forcibly push/drag a man into a vehicle from multiple angles, indicating direct assault and abduction. Step 2: Evidence Slice 2 adds further street-level tension with a chaotic fight scene and shadowy alley sequences, then transitions to an office with men in suits in a serious discussion, hinting at organized planning beyond street encounters. Step 3: Evidence Slice 45 shows a control room full of monitors, a visible countdown clock (\"0:30\"), people on headsets and communication devices, and someone working on a computer (described as possibly hacking or analyzing data), demonstrating a coordinated, timed operation run from a central hub. Step 4: Evidence Slice 50 reinforces the control-center coordination with a command post, devices, a serious phone call, a car speeding through the city, and a large explosion, consistent with a planned high-stakes operation. Logic holds because the sequence of slices collectively depicts an escalation from on-the-street violence to a mission coordinated via a control room with countdowns, comms, and technical computer work.",
+        "visual_proof": "The clips visually document this escalation. Clip 1 shows street-level violence: a man being beaten (0:13-0:18) and police responding to crime scenes (0:20). Clip 2 depicts a kidnapping/assault in an industrial area (0:01, 0:04-0:07). This transitions to Clip 4, which shows a high-tech control room with operatives monitoring screens (0:00, 0:03), using headsets for communication (0:00, 0:03), and executing a timed operation that culminates in a large explosion (0:06-0:08), implying a coordinated, planned attack."
+    },
+    {
+        "question": "A person is seen running toward or away from a car in earlier street scenes; later, surveillance feeds show similar car-related movement. What does this imply about the pursuit?",
+        "answer": "Car movement and running are key elements that are actively tracked, implying a coordinated pursuit/escape monitored by surveillance.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            19,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows urgency around a car (door opening and someone running toward it). Step 2: Slice 19 shows surveillance feeds of parking lots and mentions a person running toward a car on one feed. Step 3: Slice 79 shows continued running through neon streets, consistent with an ongoing chase. Conclusion: The chase involves cars and is monitored as part of the pursuit.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows a person running toward a car with an implied sense of urgency or escape in an urban setting. Step 2: Slice 19 explicitly depicts an indoor control room monitoring multiple surveillance feeds, including footage of a person running toward a car in a parking lot, and suggests tracking/monitoring activities. Step 3: Slice 79 reinforces the theme with scenes of a man running through city streets and a car driving at night, indicating pursuit/escape dynamics. Logic holds because the earlier street scene of running to/from a car is later mirrored in surveillance feeds, clearly indicating the movement is being actively tracked, supporting the implication of a monitored (and thus coordinated) pursuit/escape.",
+        "visual_proof": "Clip 1 shows a person running near cars during an action sequence. Clip 2 explicitly displays multiple surveillance camera feeds tracking vehicles and people moving around cars in real-time, confirming the monitoring of these movements. Clip 3 features a car driving away at night, reinforcing the theme of vehicle-based movement as part of the narrative."
+    }
+]

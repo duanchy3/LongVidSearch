@@ -1,0 +1,98 @@
+[
+    {
+        "question": "At first the toddler plays music, but later he faces a different challenge in the hallway. What instrument does he play early on, and what illusion does he later have to navigate?",
+        "answer": "He plays a toy piano early on, and later he navigates an optical-illusion “hole/sinkhole” on the floor in the hallway.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the toddler pressing keys on a toy piano. Step 2: Slice 2 shows the same striped-shirt toddler approaching a black-and-white checkered floor illusion that looks like a hole. Conclusion: The early activity is playing the toy piano, and the later challenge is the sinkhole-like optical illusion.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly states the toddler is interacting with a toy piano, pressing keys and enjoying the music. Step 2: Slice 2 describes the same child (matching striped shirt and pink pants with a smiley face) approaching a hallway with a black-and-white checkered floor pattern that creates an optical illusion of a hole, which he cautiously navigates. Logic holds because the clothing and actions align, indicating the same child, and both the toy piano and the floor-illusion are explicitly described.",
+        "visual_proof": "In Clip 1, at 0:02, the toddler is seen pressing keys on an orange toy piano. In Clip 2, from 0:05 to 0:13, a large black-and-white checkered circular pattern designed to look like a deep hole or sinkhole is clearly visible on the white floor of the hallway. The text overlay at 0:10 explicitly identifies it as a '싱크홀' (sinkhole)."
+    },
+    {
+        "question": "A child is encouraged to 'run powerfully' in one scene and later is described as wanting to go to the bathroom. Where is the child running, and where does the child head afterward when it seems like they need the bathroom?",
+        "answer": "The child runs through the bright hallway, and later heads across the playroom toward an open door as if going to the bathroom.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows the striped child running through a hallway during a playful chase. Step 2: Slice 46 shows the toddler walking across the playroom toward an open door with a caption about wanting the bathroom. Conclusion: The first location is the hallway run; later the child heads toward the door in the playroom to go to the bathroom.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly describes the child being encouraged to 'run powerfully' and states 'The child runs through a hallway, which is also brightly lit.' Step 2: Slice 46 describes the toddler in the playroom walking toward an open door, with a subtitle noting the child's desire to go to the bathroom. Logic holds because the first scene's location is a bright hallway, and the later scene shows the child heading across the playroom toward an open door associated with going to the bathroom.",
+        "visual_proof": "In Clip 1 (0:00-0:03), the child is seen running down a long, white, brightly lit hallway. In Clip 2 (0:12-0:14), the same child is shown running across a playroom filled with toys, heading directly towards an open doorway in the background, which aligns with the subtitle indicating a desire to go to the bathroom."
+    },
+    {
+        "question": "A father shares drinks with the toddler in one moment, and later the toddler drinks from a different type of cup. What drinkware is passed back and forth earlier, and what kind of lidded cup does the child use later?",
+        "answer": "Earlier they pass a glass back and forth, and later the child drinks from a blue lidded cup with a straw.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows the man and toddler exchanging a drinking glass and taking turns sipping. Step 2: Slice 45 shows the child drinking from a blue cup with a lid and straw. Conclusion: Glass earlier, lidded straw cup later.",
+        "logic_check_reasoning": "Step 1: Slice 44 states the man and toddler pass a glass of water back and forth, with both drinking from it. Step 2: Slice 45 states the child later drinks from a blue cup with a lid and straw. Logic holds because Slice 44 clearly identifies a glass being shared, and Slice 45 clearly identifies a blue lidded straw cup used by the child afterward.",
+        "visual_proof": "In Clip 1 (0:00-0:03), the father is seen handing a clear, handleless glass to the toddler. In Clip 2 (0:00-0:04) and throughout Clip 1 (e.g., 0:10, 0:21), the toddler is drinking from a light blue sippy cup with a distinct lid and a visible straw. The visual evidence confirms both the initial glass and the subsequent blue lidded cup."
+    },
+    {
+        "question": "The same father is associated with a distinctive black shirt in multiple play moments. What word is printed on the father's shirt when he crawls in the hallway, and what does he later do while wearing that shirt with the baby?",
+        "answer": "The shirt says “KOREA,” and later he lifts the baby up in the air playfully while wearing it.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a man in a black “KOREA” shirt crawling on the hallway floor. Step 2: Slice 27 shows the same “KOREA” shirt father holding and hoisting a baby up in the air. Conclusion: The word is KOREA, and he later lifts the baby up playfully.",
+        "logic_check_reasoning": "Step 1: Slice 6 states a man crawling in a hallway is wearing a black shirt with 'KOREA' written on it, confirming the printed word. Step 2: Slice 27 shows a man wearing a black T-shirt with 'KOREA' printed on it holding a baby up in the air, indicating he lifts the baby playfully while wearing the same shirt. Logic holds because both slices consistently describe the same distinctive shirt and align with the actions mentioned.",
+        "visual_proof": "In Clip 1, the father is crawling on the floor in a hallway wearing a black t-shirt with the word 'KOREA' clearly visible in white letters on the back. In Clip 2, the same man, identifiable by his features and the identical black 'KOREA' shirt, is shown lifting a baby high into the air in a playful manner."
+    },
+    {
+        "question": "A father prepares a green 'vitamin' drink in the kitchen and later the toddler drinks it eagerly. What form is the green drink shown in after preparation, and how is it served to the child later?",
+        "answer": "It’s shown as a measured green liquid/vitamin juice after preparation, and later it’s poured from a clear measuring cup into a small white cup for the child to drink.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            34,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows a vitamin baby-food/drink recipe with green liquid being poured and cooked. Step 2: Slice 34 shows the finished green liquid in a measuring cup labeled as completed vitamin juice and the father moving to serve it. Step 3: Slice 36 shows an adult pouring from a green bottle into a cup and the child drinking eagerly. Conclusion: Prepared vitamin liquid becomes a bottled/poured drink served to the child.",
+        "logic_check_reasoning": "Step 1: Slice 34 shows a measuring cup filled with a green liquid labeled as 'vitamin juice,' indicating the drink's form after preparation. Step 2: Slice 36 shows an adult pouring the green liquid from a green bottle into a cup held by the child, who then drinks eagerly. Step 3: These directly support that it is shown as a measured green liquid/vitamin juice and later served by pouring from a green bottle into a cup.",
+        "original_text_answer": "It’s shown as a measured green liquid/vitamin juice after preparation, and later it’s poured from a green bottle into a cup for the child to drink.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 2 (0:05-0:07), the finished green liquid is shown in a clear, square measuring cup with volume markings. In Clip 3 (0:08-0:10), the father is visually seen pouring this green liquid from that same clear measuring cup directly into a small white cup held by the toddler."
+    },
+    {
+        "question": "The toddler is sometimes described as wanting to eat quickly, and in another moment he shares drinks with the father. What does the child say they want to do quickly, and what repeated exchange do the father and child do with a drink later?",
+        "answer": "He says he wants to eat quickly, and later they repeatedly pass a glass back and forth and take turns drinking from it.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            44,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows the child expressing “I want to eat quickly.” Step 2: Slice 44 shows the father and toddler exchanging a glass and taking turns sipping. Step 3: Slice 46 continues the kitchen interaction theme with playful commentary about drinking behavior. Conclusion: The child’s impatience about eating contrasts with the later playful shared-drinking exchange.",
+        "logic_check_reasoning": "Step 1: Slice 41 explicitly includes the subtitle '빨리 먹고 싶은데...' translated as 'I want to eat quickly,' indicating the child wants to eat quickly. Step 2: Slice 44 describes a sequence where an adult man and a toddler repeatedly pass a glass of water back and forth, each taking turns drinking from it: toddler drinks, hands it to the man who drinks, then the toddler takes it again and drinks. Step 3: Although the adult is referred to as a 'man' rather than 'father,' the instructions allow for naming mismatches when visual/contextual attributes align, which they do here. Therefore, both parts of the proposed answer are supported.",
+        "visual_proof": "In Clip 1 (0:03), the subtitle '포x리 달라니까 갑자기 뭐죠...' indicates the child is talking about eating something quickly. In Clip 2 (0:01-0:06), the father hands the child a cup, and then the child returns it after taking a sip, which is visually confirmed by the action of passing the cup back and forth. The subtitle at 0:05 '고개 돌리고!' also implies a turn-taking game. This exchange is repeated multiple times throughout Clip 2."
+    },
+    {
+        "question": "The video shifts from home parenting scenes to a completely different promotional segment near the end. What is the family activity happening just before the transition, and what city is promoted afterward?",
+        "answer": "Just before the transition, a father is playing with children and cards/papers around a large cardboard box on the floor; afterward, Yeosu City is promoted.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            84,
+            85,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 84 shows the father pushing a large cardboard box with children inside. Step 2: Slice 85 shows the “KOREA” shirt adult sitting by the box with papers/cards around. Step 3: Slice 86 abruptly switches to a travel promo for Yeosu City. Conclusion: Family box-play precedes the Yeosu promotional segment.",
+        "logic_check_reasoning": "Step 1: Slice 84 describes a man (likely the father) playing with two children using a large cardboard box in a living room. Step 2: Slice 85 shows the same person (black shirt reading KOREA) on the floor with the large cardboard box, interacting with scattered papers/cards—this is the home/family activity immediately preceding the transition. Step 3: Slice 86 then shifts to a promotional segment clearly for Yeosu City, South Korea. The proposed answer aligns with these slices by describing the box-and-cards family play just before the promo and naming Yeosu City as the promoted destination.",
+        "visual_proof": "In Clip 2 (0:00-0:01), a father and child are seen interacting with a large pink cardboard box and scattered cards/papers on the floor. In Clip 3 (0:00-0:09), the scene abruptly changes to promotional footage of a city at night with text overlays like 'Happy Travel YEOSU' and '#Fantastic Yeosu', clearly identifying the promoted location as Yeosu City."
+    }
+]

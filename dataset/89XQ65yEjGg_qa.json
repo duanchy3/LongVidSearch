@@ -1,0 +1,88 @@
+[
+    {
+        "question": "After the woman cracks open the coconut, what later dessert is shown baked in a glass dish and then frosted?",
+        "answer": "Cinnamon rolls (baked in a glass dish and then frosted).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the coconut being cracked and its contents poured into a bowl. Step 2: Slice 19 shows baked cinnamon rolls in a glass baking dish being covered with frosting. Conclusion: The later dessert shown baked and frosted is cinnamon rolls.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes an earlier scene in the same kitchen where a coconut is cracked (man cracks it; woman in purple is present). Step 2: Slice 19 shows the woman in purple later frosting a dessert in a glass baking dish, explicitly identified as baked cinnamon rolls. Logic holds because the later scene clearly features cinnamon rolls being frosted in a glass dish, matching the question’s description of the later dessert.",
+        "visual_proof": "In Clip 1, the woman is shown with a coconut, which she later helps crack open. In Clip 2, the same woman is seen frosting a baked good in a clear glass dish. The baked good has the distinct spiral shape and brown cinnamon-sugar filling characteristic of cinnamon rolls."
+    },
+    {
+        "question": "Which appliance is introduced for blending ingredients and later another mixing appliance is shown kneading a yellow dough inside its bowl?",
+        "answer": "A food processor is introduced, and later a stand mixer is shown kneading dough.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 8 introduces and uses a food processor to blend ingredients. Step 2: Slice 48 shows a stand mixer mixing/kneading yellow dough. Conclusion: The video uses multiple appliances: a food processor and a stand mixer.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly states that a food processor is introduced and used to blend ingredients. Step 2: Slice 48 explicitly describes a stand mixer kneading a light yellow dough with its paddle attachment. Logic holds because the first appliance for blending is the food processor, and the later appliance kneading dough is the stand mixer.",
+        "visual_proof": "In the first clip, a woman is seen using a food processor with a clear bowl and a central blade to blend ingredients like nuts and butter. In the second clip, a different appliance, a stand mixer with a metal bowl and a dough hook attachment, is actively kneading a yellow dough. The distinct designs and functions of the two appliances are clearly visible."
+    },
+    {
+        "question": "Which tools or methods show the dough being shaped into circles and later those filled circles becoming the plated ravioli with sauce and toppings?",
+        "answer": "A metal ring cutter is used to cut circles, and those pasta pieces later become ravioli that are plated with creamy sauce, herbs, and crispy bits.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            66,
+            68,
+            76,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows using a metal ring to cut circles from rolled dough. Step 2: Slice 68 shows filling and sealing pasta dough into ravioli. Step 3: Slice 76 shows a cooked ravioli plated in a bowl and covered with creamy sauce and herbs. Step 4: Slice 77 shows adding crispy bits (bacon/shallot-like) on top. Conclusion: Cut circles → seal ravioli → sauce → crispy topping.",
+        "logic_check_reasoning": "Step 1: Slice 66 explicitly shows the dough being shaped into circles using a metal ring cutter, supporting the tool portion of the answer. Step 2: Slice 68 shows pasta dough being filled and sealed into ravioli, demonstrating the transition from dough pieces to filled pasta (despite the slice mentioning a square piece, it still supports the ravioli-making method). Step 3: Slice 76 shows the plated ravioli with creamy white sauce and herbs, matching the plating details. Step 4: Slice 77 shows crispy bits being sprinkled onto a creamy mixture in a white bowl, which aligns with adding toppings to the dish and is consistent with the sauce and herb garnish seen in Slice 76. Logic holds because the progression from cutting circles (Slice 66) to filled pasta (Slice 68) to plated ravioli with sauce and herbs (Slice 76) and added crispy toppings (Slice 77) is coherently depicted across the slices.",
+        "visual_proof": "Clip 1 shows a metal ring cutter being pressed into flat dough to create circles. Clip 2 shows the circular dough being filled and sealed. Clip 3 shows the finished ravioli in a bowl with a creamy, herb-flecked sauce being spooned over it. Clip 4 shows crispy bits being sprinkled on top of the sauced ravioli."
+    },
+    {
+        "question": "How does the video build the final plated ravioli presentation from making pasta shapes, to sealing filled pasta, to saucing, and then to showing a labeled close-up of the finished dish?",
+        "answer": "Pasta is cut into shapes, the filling is sealed into ravioli, the ravioli is sauced and garnished, and then the dish is shown in a labeled close-up as Coconut Ricotta Ravioli.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            65,
+            68,
+            76,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows cutting pasta sheets into rectangles (forming pasta pieces). Step 2: Slice 68 shows placing filling and sealing pasta into ravioli. Step 3: Slice 76 shows cooked ravioli plated and covered with creamy sauce and herbs. Step 4: Slice 85 shows a close-up explicitly labeled 'Coconut Ricotta Ravioli.' Conclusion: The plated, named dish is reached through cutting → sealing → saucing → final labeled presentation.",
+        "logic_check_reasoning": "Step 1: Slice 65 shows pasta being cut into rectangular shapes using a pasta cutter, supporting 'Pasta is cut into shapes.' Step 2: Slice 68 shows filling placed on pasta and the edges pressed to seal, supporting 'the filling is sealed into ravioli.' Step 3: Slice 76 shows a ravioli placed in a bowl and a creamy white sauce drizzled over it with herb garnish, supporting 'the ravioli is sauced and garnished.' Step 4: Slice 85 presents a labeled close-up with the text 'COCONUT RICOTTA RAVIOLI,' supporting 'then the dish is shown in a labeled close-up as Coconut Ricotta Ravioli.' The logic flows through the stages of preparation to final presentation, all explicitly depicted.",
+        "visual_proof": "Clip 1 shows pasta dough being cut into squares. Clip 2 shows a square of pasta being filled with ricotta and an egg yolk, then sealed with another square. Clip 3 shows the cooked ravioli being placed in a bowl and covered with a creamy sauce. Clip 4 presents the final plated dish with text overlay identifying it as 'COCONUT RICOTTA RAVIOLI'."
+    },
+    {
+        "question": "What connects the bright orange ingredient work (carrots) to the later ravioli plating where green herbs and crispy bits are added on top?",
+        "answer": "Both segments emphasize mixing/processing ingredients and then finishing with careful garnishing—carrots are mixed and drained, while ravioli is sauced and topped with herbs and crispy bits.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            23,
+            24,
+            76,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows mixing chopped carrots in a bowl. Step 2: Slice 24 shows draining the carrot mixture through a mesh strainer, refining texture. Step 3: Slice 76 shows ravioli plated with creamy sauce and herbs. Step 4: Slice 77 shows adding crispy bits as a final topping. Conclusion: Both parts show stepwise refinement (mix/drain vs sauce/top) leading to a finished texture-focused dish.",
+        "logic_check_reasoning": "Step 1: Slices 23 and 24 show the bright orange carrot work: the woman mixes chopped/grated carrots and then drains them through a mesh strainer, emphasizing processing/preparation (mixing and liquid removal). Step 2: Slice 76 shows plating a single ravioli with a creamy sauce, explicitly garnished with finely chopped green herbs, highlighting careful finishing. Step 3: Slice 77 adds that crispy bits (e.g., bacon) are sprinkled on top of the creamy, herb-garnished mixture, further supporting the careful garnishing on the ravioli. Step 4: Both segments have an instructional tone and methodical approach. The connection stated in the answer—that one segment focuses on mixing/processing (carrots) and the later segment focuses on finishing with garnishes (ravioli with herbs and crispy bits)—is directly supported by the slices.",
+        "visual_proof": "Clip 1 shows diced salmon (not carrots) being mixed in a bowl. Clip 2 shows the same salmon being strained through a sieve, which is a processing step. Clip 3 shows sauce being carefully spooned over ravioli. Clip 4 shows hands sprinkling crispy bits and herbs as a final garnish on the plated ravioli. The visual sequence demonstrates a consistent theme of preparation (mixing/draining) followed by finishing touches (sauces/garnishes)."
+    },
+    {
+        "question": "How does the coconut element move through the video from being cracked open, to appearing in a cinnamon-roll dessert context, and finally to being part of a ravioli dish name?",
+        "answer": "Coconut is cracked and used in prep, then appears in the coconut cinnamon roll dessert, and later appears again in the dish name Coconut Ricotta Ravioli.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            19,
+            82,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows cracking open a coconut and pouring its contents. Step 2: Slice 19 shows cinnamon rolls being frosted (the dessert segment). Step 3: Slice 82 explicitly shows a coconut cinnamon roll being eaten and rated. Step 4: Slice 87 shows the plated dish titled 'COCONUT RICOTTA RAVIOLI.' Conclusion: Coconut connects early ingredient work to multiple final dishes.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows the woman handing the man a coconut and a cleaver; he cracks the coconut and the contents are poured into a bowl, indicating coconut used in prep. Step 2: Slice 82 explicitly features a 'coconut cinnamon roll,' showing coconut in a cinnamon-roll dessert context. Step 3: Slice 87 shows a dish titled 'COCONUT RICOTTA RAVIOLI,' confirming coconut as part of a ravioli dish name. The progression from cracking to dessert to ravioli name is directly supported.",
+        "visual_proof": "Clip 1 shows a coconut being cracked open. Clip 3 features a close-up of a 'COCONUT CINNAMON ROLL' on a plate. Clip 4 displays a title card for 'COCONUT RICOTTA RAVIOLI'. This visual sequence confirms the coconut element's progression from raw ingredient to dessert to a named pasta dish."
+    }
+]

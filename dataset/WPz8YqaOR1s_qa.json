@@ -1,0 +1,29 @@
+[
+    {
+        "question": "Which appears later in the timeline: the café exterior labeled 'Cafe de Flore' or the newspaper page dated June 28, 1996 about a furry teacup?",
+        "answer": "The newspaper page dated June 28, 1996 appears later.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            65,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows “Cafe de Flore” and a furry cup inside the café context. Step 2: Slice 71 shows a New York Times page dated Friday, June 28, 1996 discussing the furry teacup. Conclusion: The dated newspaper segment comes later as a later cultural reference.",
+        "logic_check_reasoning": "Step 1: Slice 65 explicitly states, \"The video begins with a black and white image of a cafe called 'Cafe de Flore'\"—placing the café exterior at the start of the timeline. Step 2: Slice 71 describes a scene showing a close-up of a newspaper page dated June 28, 1996 about a furry teacup; its position relative to the start is not specified, but it is a different scene. Step 3: Since the café exterior is explicitly the opening scene, any other distinct scene (like the newspaper page) would occur later than the beginning. Therefore, the newspaper page appears later than the café exterior.",
+        "visual_proof": "The first clip (Clip 1/2) shows the exterior of the 'Café de Flore' at the beginning of its sequence. The second clip (Clip 2/2) shows a newspaper page from 'THE NEW YORK TIMES, FRIDAY, JUNE 28, 1996'. Since these are two distinct time-sliced clips from the same continuous video source, and Clip 2/2 is presented after Clip 1/2 in the provided sequence, the newspaper page appears later in the timeline."
+    },
+    {
+        "question": "Which artist is introduced by a name label in a studio-like black-and-white portrait and is later connected to a fur tea set displayed in museum-like close-ups and commentary?",
+        "answer": "Méret Oppenheim.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            62,
+            64,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 62 labels the woman as “Méret Oppenheim.” Step 2: Slice 64 shows the fur-covered tea set titled “Le Déjeuner en Fourrure.” Step 3: Slice 69 provides textual commentary about the “fur-lined tea set” provoking reactions. Conclusion: The labeled artist connected to the fur tea set is Méret Oppenheim.",
+        "logic_check_reasoning": "Step 1: Slice 62 describes a studio-like black-and-white portrait of a woman, with a rectangular frame around her face and the bold yellow text identifying her as 'Méret Oppenheim.' Step 2: Slice 64 shows a fur-covered cup, saucer, and spoon with the title 'Le Déjeuner en Fourrure' in a museum-like display. Step 3: Slice 69 provides commentary on the fur-lined tea set, emphasizing its impact. Logic holds because the video first introduces the artist by name in the portrait and later focuses on the fur tea set, connecting the earlier introduction to the subsequent artwork through the sequence and emphasis.",
+        "visual_proof": "Clip 1 visually identifies the artist as 'Méret Oppenheim' via a yellow text label overlaid on her black-and-white portrait. Clip 2 displays the fur-covered tea set, titled 'Le Déjeuner en Fourrure'. Clip 3 provides commentary on this specific 'fur-lined tea set', linking it to its profound cultural impact. The sequence of clips connects the named artist from Clip 1 directly to the artwork shown in Clips 2 and 3."
+    }
+]

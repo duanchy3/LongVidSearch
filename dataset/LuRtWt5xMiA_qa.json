@@ -1,0 +1,83 @@
+[
+    {
+        "question": "Which item associated with the Santa-like character is first searched for in a cluttered storage room and later shown close-up as a found object?",
+        "answer": "A red-and-white striped tie (Santa’s tie).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows the Santa-costumed person rummaging through clothing; text mentions Santa’s tie. Step 2: Slice 44 shows a close-up of a red-and-white striped tie presented as Santa’s tie. Conclusion: The searched-for item is the tie.",
+        "logic_check_reasoning": "Step 1: Slice 43 describes a Santa-costumed person rummaging through a cluttered storage-like room, sifting through garments including ties, with a text overlay noting \"There is even Santa's tie,\" implying the tie is among the items being sought. Step 2: Slice 44 begins with a close-up of a person holding a red-and-white striped tie that appears to be Santa's tie in the same storage-like environment. Logic holds because the item mentioned during the search (Santa's tie) is later shown in a close-up as a found object, specifically identified as red-and-white striped.",
+        "visual_proof": "In Clip 1, the Santa-like character is seen rummaging through a cluttered pile of clothes and accessories while the subtitle states, 'There is a bag full of ties.' He then pulls out a specific tie. In Clip 2, a close-up shot clearly shows a red-and-white striped tie with Christmas-themed patterns being held up, accompanied by the subtitle, 'There is even Santa's tie,' confirming it as the found object."
+    },
+    {
+        "question": "How does the Santa-like character’s smoking behavior change across the story from indoors at a table to an outdoor interview-like moment?",
+        "answer": "He smokes indoors at a table (cigar/coffee), and later is shown outdoors smoking a pipe while talking.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            46,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the Santa-like elderly man indoors at a table smoking a cigar and drinking coffee. Step 2: Slice 46 later shows him outdoors smoking a pipe while conversing. Step 3: Slice 47 continues the outdoor friendly interaction, reinforcing the outdoor conversational setting. Conclusion: Smoking shifts from indoor table leisure to outdoor pipe-smoking during conversation.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows an elderly man in a red coat and hat with a long white beard sitting at a table indoors, smoking a cigar and drinking coffee. Step 2: Slice 46 transitions to an outdoor scene where a similarly dressed elderly man with a long white beard (the Santa-like figure) is smoking a pipe while talking with another man in an interview-like setting. Step 3: This supports the change from cigar indoors to pipe outdoors during conversation.",
+        "visual_proof": "In Video 1, the Santa-like character is seen indoors at a counter, holding a small cup of coffee/espresso and then immediately lighting and smoking a pipe. In Videos 2 and 3, he is clearly outdoors, sitting on a stone ledge next to another man, with the pipe in his mouth as they interact and talk. This confirms the transition from indoor coffee/pipe smoking to outdoor pipe smoking during conversation."
+    },
+    {
+        "question": "Across the travel narrative, which comes later: the text card indicating a time jump (“The next day”) or the night-time car scene labeled “Later that night”?",
+        "answer": "The night-time car scene labeled “Later that night” comes later.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            49,
+            82,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows the on-screen text “The next day.” Step 2: Slice 82 shows a night car scene labeled “Later that night.” Step 3: Slice 83 continues that night-time sequence. Conclusion: “Later that night” occurs after “The next day.”",
+        "logic_check_reasoning": "Step 1: Slice 49 states the video begins with an aerial mountain view and shows the text card 'The next day,' indicating a time jump early in the narrative. Step 2: Slice 82 describes a night-time car scene and explicitly notes that the text 'Later that night' appears in some frames, indicating events occurring later that night. Step 3: Since 'Later that night' occurs after 'The next day' within the narrative timeline, the night-time car scene labeled 'Later that night' comes later than the 'The next day' card.",
+        "visual_proof": "Clip 1 shows a daytime aerial shot with the text 'The next day' overlaid, indicating a progression in time. Clip 2 then shows a scene inside a car at night with the text 'Later that night' overlaid. The sequence of these text cards clearly establishes that the night-time car scene occurs after the 'next day' scene."
+    },
+    {
+        "question": "Which happens first in the narrative: the Santa-like character sitting on a bench talking with a man in a green sweater, or the Santa-like character riding in the back seat of a red car with the message about being family?",
+        "answer": "The bench conversation happens first.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the Santa-like figure seated on a bench conversing with a man in a green sweater. Step 2: Slice 24 later shows him getting into a red car and the text “They are part of the family now.” Conclusion: Bench conversation precedes the car inclusion moment.",
+        "logic_check_reasoning": "Step 1: Slice 12 states 'The video opens with two individuals seated on a wooden bench,' including a person in a Santa costume speaking. This explicitly marks the bench scene as the beginning. Step 2: Slice 24 shows the Santa-like elderly man entering a red car and sitting in the back seat with on-screen text 'They are part of the family now,' but provides no indication it precedes the opening. Logic holds because the opening scene (Slice 12) must occur before later scenes like the car scene (Slice 24). The Santa-like descriptions align sufficiently to treat them as the same character for sequence purposes.",
+        "visual_proof": "Clip 1 (0:00-0:09) clearly shows the Santa-like character and the man in the green sweater sitting on a bench, engaged in conversation. Clip 2 (0:03-0:05) shows the same characters later, with the Santa-like character getting into a red car, accompanied by the subtitle 'They are part of the family now,' indicating a subsequent event in the narrative."
+    },
+    {
+        "question": "From the moment the video labels the next village as Town #3, what is the next scene type that follows: an interior exploration with old photos/papers or an animal montage?",
+        "answer": "An interior exploration with old photos/papers and investigation-like scenes.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            54,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 54 introduces “Town #3 APICE VECCHIA” via aerial view. Step 2: Slice 55 follows with exploration including archival photos and indoor rooms with frescoes/papers. Conclusion: The next scene type is interior/archival exploration.",
+        "logic_check_reasoning": "Step 1: Slice 54 explicitly identifies the location as 'Town #3 APICE VECCHIA' and describes an aerial view of the town. Step 2: Slice 55 follows with scenes including street-level exploration, nostalgic photographs, and indoor exploration featuring a room with scattered newspapers and ornate frescoes—clearly indicating interior exploration with old photos/papers and investigation-like scenes. There is no mention of an animal montage in either slice. Logic holds because the next described scenes after the town identification fit the interior exploration category.",
+        "visual_proof": "The video explicitly labels 'Town #3 APICE VECCHIA' at 0:01. The very next scene at 0:02 shows people shaking hands outdoors, followed by a man walking down a cobblestone street (0:04), looking at historical black-and-white photos on a wall (0:06-0:07), and then entering an old building to explore its interior, including climbing stairs (0:11) and examining old newspapers on the floor (0:17). There is no animal montage in the sequence."
+    },
+    {
+        "question": "A donkey is first seen alone near old buildings and later a man feeds a donkey by hand; what clothing color helps link the same human participant across these scenes?",
+        "answer": "Green (a green jacket/sweater).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a person in a green jacket approaching a donkey near ruins. Step 2: Slice 7 shows a young man in a light green sweater feeding/petting donkeys. Step 3: Slice 8 again shows a man feeding a donkey. Conclusion: The repeated green outerwear links the human across donkey interactions.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes a donkey near old buildings, then a person wearing a green jacket approaches it. Step 2: Slice 7 shows a man feeding/petting donkeys while wearing a light green sweater. Step 3: Both scenes feature the human participant in green upper clothing (jacket/sweater), logically linking the person across the scenes despite potential naming differences.",
+        "visual_proof": "In Clip 2, a man in a green sweater is seen crouching and interacting with donkeys near the old buildings. In Clip 3, the same man, identifiable by his appearance and consistent setting, is shown feeding a donkey by hand while still wearing the same green sweater. This confirms that the green clothing links the human participant across both scenes."
+    }
+]

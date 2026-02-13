@@ -1,0 +1,81 @@
+[
+    {
+        "question": "What year is shown at the start of the video, and later what later year is used for a population estimate of Rome?",
+        "answer": "534 A.D. is shown at the start, and 536 A.D. is later used for a population estimate of Rome.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 1 includes an on-screen date stating 534 A.D. Step 2: Slice 48 shows population estimates for Rome including circa 536 A.D. Conclusion: The video references 534 A.D. early and uses 536 A.D. for a later Rome population estimate.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states the opening scene is set in 534 A.D. via a text overlay. Step 2: Evidence Slice 48 mentions population estimates for Rome including a later year labeled 'CIRCA 536 A.D.' Logic holds because the question asks for the initial year shown and the later year used for a population estimate, both of which are directly provided in the slices.",
+        "visual_proof": "Clip 1 clearly displays the text '534 A.D.' overlaid on a scene of marching soldiers. Clip 2 shows an aerial view of Rome with an on-screen graphic titled 'POPULATION OF ROME (ESTIMATES)', which explicitly lists 'CIRCA 536 A.D.' alongside the population figure '100,000'. Both years are directly visible in the provided clips."
+    },
+    {
+        "question": "Which source text is shown as an open book and later shown again as a close-up page with a different chapter number?",
+        "answer": "Procopius’s \"History of the Wars.\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows an open book titled Procopius \"History of the Wars,\" Book V Chapter 1. Step 2: Slice 53 shows a close-up of the same work, Book V Chapter 20. Conclusion: The recurring source is Procopius’s \"History of the Wars,\" with chapter changing across time.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly shows an open book titled \"History of the Wars\" by Procopius, open to Book V, Chapter 1. Step 2: Slice 53 shows a close-up page of the same titled work, \"History of the Wars\" by Procopius, and specifies Book V, Chapter 20. Logic holds because both slices identify the same source text and author, with the second instance showing a different chapter number.",
+        "visual_proof": "Clip 1 shows an open book with the title 'Procopius HISTORY OF THE WARS Book V Chapter 1'. Clip 2 shows the same book, now displaying 'Book V Chapter 20', confirming the same source text is shown with a different chapter number."
+    },
+    {
+        "question": "Which specific gate in Rome is identified by on-screen text, and which fortification system is later labeled with its total length in miles/kilometers?",
+        "answer": "Porta Asinaria is identified, and the Aurelian Walls are labeled as 12 miles (19 km).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 46 displays the label \"Porta Asinaria Rome.\" Step 2: Slice 49 labels the Aurelian Walls and states they span 12 miles/19 km. Conclusion: The gate is Porta Asinaria and the fortification system is the Aurelian Walls.",
+        "logic_check_reasoning": "Step 1: Slice 46 explicitly states that on-screen text reads 'Porta Asinaria Rome,' identifying the specific gate. Step 2: Slice 49 describes a map where a label indicates the 'Aurelian Walls' and specifies their total length as 12 miles (19 kilometers). The two slices logically connect to answer both parts of the question.",
+        "visual_proof": "Clip 1 visually displays on-screen text identifying the structure as 'PORTA ASINARIA ROME'. Clip 2 shows a map with a label explicitly stating 'AURELIAN WALLS 12 MILES / 19 KM' over the depicted fortification line."
+    },
+    {
+        "question": "Which city is repeatedly marked as a key location on multiple Italy maps and is also later highlighted as the center of a siege time period?",
+        "answer": "Rome.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 43’s map of Italy marks Rome as a major city. Step 2: Slice 80 introduces \"The Siege of Rome\" (March 536–March 537), centering the narrative on Rome. Conclusion: The recurring focal city is Rome.",
+        "logic_check_reasoning": "Step 1: Slice 43 describes a historical map of Italy that lists key cities including Rome, with red flags marking their importance. Step 2: Slice 80 explicitly presents 'The Siege of Rome' as the focal event, highlighting Rome as the center of the siege period. Logic holds because the city identified as key on the map (Rome) is the same city later emphasized as the center of the siege.",
+        "visual_proof": "Clip 1 shows a map of the Kingdom of Italy with 'Rome' explicitly labeled and marked with a banner. Clip 2 visually confirms the answer with on-screen text reading 'THE SIEGE OF ROME' over an illustration of Roman soldiers and architecture, directly linking the city to a siege event."
+    },
+    {
+        "question": "Which historical figure is tied to a mausoleum shown in real-life footage, and what later visual device centers on the fact of his death in a genealogy-style graphic?",
+        "answer": "Theodoric; later a family tree/diagram centers on a coin stating \"Theoderic died 526.\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows the real Mausoleum of Theodoric in Ravenna, Italy. Step 2: Slice 19 shows a genealogy diagram centered on a coin stating \"Theoderic died 526.\" Conclusion: Theodoric is linked to both the mausoleum and the death-centered genealogical graphic.",
+        "logic_check_reasoning": "Step 1: Slice 18 explicitly states there is live-action footage of the 'Mausoleum of Theodoric, Ravenna, Italy,' tying the mausoleum to Theodoric. Step 2: Slice 19 describes a family tree diagram centered around a coin inscribed 'Theoderic died 526,' which is a genealogy-style graphic focusing on his death. The slight spelling variation ('Theodoric' vs. 'Theoderic') is acceptable per instructions. The logic holds: the mausoleum is linked to Theodoric, and the later visual device is a family tree centered on a coin noting his death.",
+        "visual_proof": "Clip 1 visually identifies the 'Mausoleum of Theoderic, Ravenna, Italy'. Clip 2 displays a genealogy-style graphic where 'THEODERIC DIED 526' is centered next to a coin image, confirming the historical figure and the visual device described."
+    },
+    {
+        "question": "Across the Italy-focused maps, which trio of cities repeatedly appears as labeled key points (including one that later becomes central to the siege narrative)?",
+        "answer": "Rome, Ravenna, and Naples.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            43,
+            50,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 43 labels Rome, Ravenna, and Naples on a Kingdom of Italy map. Step 2: Slice 50 again labels Rome, Ravenna, and Naples among marked cities. Step 3: Slice 72 repeats Rome and Naples prominently and includes Ravenna in the same political landscape. Conclusion: The recurring trio is Rome, Ravenna, and Naples.",
+        "logic_check_reasoning": "Step 1: Slice 43 lists the cities on a medieval Italy map as Rome, Naples, Ravenna, and Salona, indicating Rome, Naples, and Ravenna are labeled key points. Step 2: Slice 50 similarly lists Rome, Naples, Ravenna, and Salona on the Italy map, confirming repetition of the trio Rome, Naples, and Ravenna. Step 3: Slice 72 again notes Rome and Naples prominently, along with Ravenna and Salona, further confirming the trio appears repeatedly across the maps. The logic holds because each slice independently lists Rome, Naples, and Ravenna as labeled cities on the Italy-focused maps.",
+        "visual_proof": "All three clips show a map of the Kingdom of Italy where the cities of Rome, Ravenna, and Naples are consistently labeled and marked with flags. In Clip 1, all three are visible. In Clip 2, the map zooms in but still shows Rome, Ravenna, and Naples. In Clip 3, the map shows the same three cities, with Naples being the focal point of troop movements and naval activity, confirming its centrality to the siege narrative as described in the question."
+    }
+]

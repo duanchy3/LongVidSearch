@@ -1,0 +1,16 @@
+[
+    {
+        "question": "An ANC-related segment lists reasons for declining popularity, later the opposition leader speaks at a DA podium on similar issues, and then DA supporters march in blue. What political shift is being illustrated?",
+        "answer": "Growing opposition momentum (DA) as the ANC faces declining popularity due to governance and economic issues.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            66,
+            67,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 66 lists drivers of ANC declining popularity (corruption, unemployment, power cuts, inequality). Step 2: Slice 67 shows the opposition leader at a DA podium emphasizing similar problems. Step 3: Slice 68 shows DA supporters marching in coordinated blue, indicating organized opposition activity. Conclusion: The segments illustrate opposition momentum rising as the ANC weakens.",
+        "logic_check_reasoning": "Step 1: Slice 66 explicitly states the ANC's declining popularity and lists causes such as corruption, youth unemployment, power cuts, and inequality. Step 2: Slice 67 shows the DA leader (John Steenhuisen) speaking at a DA-branded event about similar issues, indicating the opposition is addressing these concerns. Step 3: Slice 68 shows DA supporters marching in blue, demonstrating organized activity and mobilization. Logic holds because the sequence juxtaposes ANC decline with visible DA engagement, supporting the idea of growing opposition momentum as ANC faces governance and economic issues.",
+        "visual_proof": "Clip 1 visually presents a list titled 'ANC'S DECLINING POPULARITY FUELLED BY:' citing corruption, youth unemployment, power cuts, and economic inequality. Clip 2 shows John Steenhuisen, identified as Leader of the Opposition, speaking at a DA podium, directly following the ANC's listed issues. Clip 3 shows a large march of DA supporters in blue shirts and umbrellas, with signs like 'Rescue SA Vote DA,' visually demonstrating organized public support for the opposition party. The sequence from ANC's problems to DA leadership and then to DA supporters marching illustrates a political shift towards growing opposition momentum."
+    }
+]

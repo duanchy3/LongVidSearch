@@ -1,0 +1,15 @@
+[
+    {
+        "question": "Two different women are interviewed in similar home-like settings with a window behind them. One wears a red shirt under a brown jacket, and another wears a black top. What topic-related artwork is shown right before or alongside each of their interviews?",
+        "answer": "The woman in a red shirt under a brown jacket is paired with a painting of a sewing machine and fabrics, while the woman in a black top is paired with a painting showing people behind bars (a confinement/prison-themed image).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows an older woman in a red shirt and brown jacket during an interview, paired with a painting of a sewing machine and fabrics. Step 2: Slice 20 shows an older woman in a black shirt in an interview setting, preceded by a painting of people behind bars. Conclusion: Each woman’s interview is linked with a different, topic-relevant artwork: sewing tools vs incarceration imagery.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 9 states the video begins with a colorful painting of a sewing machine and fabrics, then shifts to an older woman wearing a red shirt under a brown jacket in a home-like setting with a window, indicating the artwork is shown right before her interview. Step 2: Evidence Slice 20 states the video begins with a painting depicting people behind bars, then shifts to an older woman wearing a black top in a similar home-like setting with a window, indicating the artwork is shown right before her interview. Logic holds because each slice explicitly pairs the respective woman with the specified artwork shown immediately before or alongside their interview.",
+        "visual_proof": "In Clip 1, the interview with the woman in the red shirt and brown jacket is immediately preceded by a painting depicting a sewing machine with red fabric and scissors. In Clip 2, the interview with the woman in the black top is immediately preceded by a painting of several faces behind what appears to be wooden bars, with the word 'BLIND' visible, strongly suggesting a theme of confinement or imprisonment."
+    }
+]

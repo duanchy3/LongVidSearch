@@ -1,0 +1,111 @@
+[
+    {
+        "question": "What topic shown on the opening title screen is later illustrated with multiple Atari game screenshots on a slide?",
+        "answer": "Q-learning applied to playing Atari using deep reinforcement learning.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the title text about 'Q-Learning Playing Atari with Deep Reinforcement Learning.' Step 2: Slice 40 shows a slide with five Atari 2600 game screenshots used as examples in that discussion. Conclusion: The topic connecting them is Q-learning for playing Atari via deep reinforcement learning.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the opening title screen reads 'Q-Learning Playing Atari with Deep Reinforcement Learning,' indicating the topic is Q-learning applied to Atari via deep reinforcement learning. Step 2: Evidence Slice 40 describes a later slide showing multiple Atari game screenshots while discussing reinforcement learning concepts, illustrating the same topic. Logic holds because the later slide visually represents the Atari-focused RL topic introduced on the title screen.",
+        "visual_proof": "Clip 1 shows the title slide with the handwritten 'Q-Learning' and the typed title 'Playing Atari with Deep Reinforcement Learning'. Clip 2 shows a subsequent slide featuring screenshots of five different Atari 2600 games (Pong, Breakout, etc.), which visually illustrates the application of the topic introduced in Clip 1."
+    },
+    {
+        "question": "The presenter initially stands with a microphone in front of a plain background. Later he is seated and a microphone boom arm is visible. What stayed consistent about his appearance across these two moments?",
+        "answer": "He continues wearing sunglasses and a dark/black shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a man in sunglasses and a black shirt holding a microphone. Step 2: Slice 19 shows him seated with a microphone boom arm, still bald with sunglasses and a black shirt. Conclusion: Sunglasses and dark/black shirt remain consistent.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes the presenter standing in front of a white background, holding a microphone, and explicitly mentions he is wearing sunglasses and a black shirt. Step 2: Slice 19 describes the presenter seated with a microphone boom arm visible and states he is wearing sunglasses and a black shirt. Logic holds because both slices consistently report the same appearance features (sunglasses and black/dark shirt) across the two moments.",
+        "visual_proof": "In both clips, the presenter is visibly wearing dark sunglasses and a black t-shirt. In Clip 1, he is standing in front of a white background with text. In Clip 2, he is seated in front of a whiteboard covered in diagrams, with a microphone boom arm positioned near him. His attire remains unchanged across both scenes."
+    },
+    {
+        "question": "Which algorithm name is shown explicitly in a later step-by-step format, and which earlier slide about Atari screenshots provides the motivating application domain for that algorithm?",
+        "answer": "Algorithm 1: Deep Q-learning with Experience Replay; the motivating application domain is Atari 2600 games shown on the screenshot slide.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows Atari 2600 game screenshots used as the RL application context. Step 2: Slice 56 shows 'Algorithm 1 Deep Q-learning with Experience Replay' in structured steps. Conclusion: The algorithm is Deep Q-learning with Experience Replay, motivated by Atari game learning.",
+        "logic_check_reasoning": "Step 1: Slice 56 explicitly states the whiteboard title is \"Algorithm 1 Deep Q-learning with Experience Replay,\" presented in a step-by-step algorithmic format. Step 2: Slice 40 describes an earlier slide showing \"Figure 1: Screen shots from five Atari 2600 Games\" and mentions the Atari Learning Environment for testing RL algorithms, establishing Atari 2600 games as the motivating application domain. Logic holds because the later slice names the algorithm, and the earlier slice provides the domain context for applying RL.",
+        "visual_proof": "Clip 1 displays a slide titled 'Figure 1' showing screenshots of five Atari 2600 games (Pong, Breakout, etc.), explicitly mentioning 'Atari 2600' as the testbed. Clip 2 displays a slide titled 'Algorithm 1 Deep Q-learning with Experience Replay,' presenting the algorithm in a step-by-step format. The sequence of clips confirms that the Atari games slide precedes the algorithm slide, establishing the former as the motivating application domain for the latter."
+    },
+    {
+        "question": "Across the video, the presenter alternates between standing and seated positions. Name one time he is seated with a Bellman-style equation circled in red and one time he is standing in front of an algorithm written on a board.",
+        "answer": "Seated with a circled Bellman equation: the segment with Qπ(s,a)=r+γVπ(s'); standing with an algorithm: the segment showing 'Algorithm 1 Deep Q-learning with Experience Replay.'",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            66,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows him seated with Qπ(s,a)=r+γVπ(s') circled in red. Step 2: Slice 56 shows him standing next to 'Algorithm 1 Deep Q-learning with Experience Replay.' Conclusion: These identify one seated and one standing moment and what is displayed.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 66 explicitly states the presenter is seated in front of a whiteboard featuring a Bellman-style equation circled in red: Qπ(s,a)=r+γVπ(s'), which matches the first part of the proposed answer. Step 2: Evidence Slice 56 explicitly states the presenter is standing in front of a whiteboard displaying 'Algorithm 1 Deep Q-learning with Experience Replay,' which matches the second part of the proposed answer. Logic holds because both slices describe the same presenter (consistent visual attributes) in the two requested scenarios, and the proposed answer directly references those contexts.",
+        "visual_proof": "In Clip 1, the presenter is visibly seated in front of a whiteboard where a Bellman-style equation (Qπ(s,a) = r + γVπ(s')) is prominently circled in red. In Clip 2, he is standing in front of a board displaying the text 'Algorithm 1 Deep Q-learning with Experience Replay.'"
+    },
+    {
+        "question": "When the presenter is seated with green sticky notes on the whiteboard, what later kind of highlighting is used on text-heavy slides to emphasize key equations?",
+        "answer": "Green boxed highlights (and also red/green circles) are used on the slides to emphasize key equations.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            19,
+            42,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows green sticky notes on the whiteboard. Step 2: Slice 42 shows key equations highlighted with green boxes. Step 3: Slice 50 shows text with red/green circles highlighting important terms like max Q(s',a';θ). Conclusion: Emphasis shifts from physical sticky notes to green boxed highlights and colored circles on slides.",
+        "logic_check_reasoning": "Step 1: Slice 19 establishes the scene with the presenter seated in front of a whiteboard featuring green sticky notes. Step 2: Slice 42 states that later, on text-heavy slides, equations are highlighted with green boxes. Step 3: Slice 50 adds that certain parts of the equations are circled in red and green for emphasis. Therefore, the context supports that later slides use green boxed highlights and red/green circles to emphasize key equations.",
+        "visual_proof": "In Clip 1, green sticky notes are visible on the whiteboard while the presenter is seated. In Clips 2 and 3, which feature text-heavy slides, key parts of the equations are highlighted using green boxes (e.g., Q*(s,a) in Clip 2, and parts of the gradient equation in Clip 3). Additionally, red circles are drawn around specific terms in Clip 3, confirming the use of both green boxes and red circles for emphasis."
+    },
+    {
+        "question": "How does the video connect the Bellman equation on the board to the later training objective for a Q-network?",
+        "answer": "It first states Bellman-style relationships for Q-values, then defines a loss function L_i(θ) that trains a Q-network to match Bellman targets y_i based on r + γ max Q(s',a').",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            30,
+            42,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a Bellman equation form like Qπ(s,a)=r(s,a)+γQ(…). Step 2: Slice 42 highlights the Bellman optimality expectation involving r + γ max Q*. Step 3: Slice 44 defines Q-network training with loss L_i(θ) and target y_i built from r + γ max_{a'} Q(s',a';θ_{i-1}). Conclusion: Bellman equations provide the target; the Q-network loss enforces matching those targets.",
+        "logic_check_reasoning": "Step 1: Slice 30 shows Bellman-style relationships for Q-values (e.g., Q_pi(s,a) = r(s,a) + gamma Q) and explains updates based on r and gamma Q. Step 2: Slice 42 explicitly presents the Bellman optimality equation Q*(s,a) = E[r + gamma max_{a'} Q*(s',a') | s,a] and discusses iterative updates and the need for function approximators like neural networks. Step 3: Slice 44 introduces the Q-network objective with L_i(θ) = E[(y_i - Q(s,a;θ))^2] and targets y_i based on r + gamma max_{a'} Q(s',a'; θ_{i-1}), i.e., Bellman targets. Logic holds because the video transitions from presenting Bellman equations to defining a loss for training a Q-network to match those Bellman targets.",
+        "visual_proof": "Clip 1 shows the presenter writing a Bellman-style update for Q-values (Q_θ(s,a) = R̃). Clip 2 displays the standard Bellman equation Q*(s,a) = E[r + γ max Q*(s',a') | s,a]. Clip 3 explicitly connects this by defining the loss function L_i(θ_i) as the mean squared error between the network's output Q(s,a;θ_i) and the target y_i, which is defined as E[r + γ max Q(s',a';θ_{i-1}) | s,a], directly linking the training objective to the Bellman equation."
+    },
+    {
+        "question": "How does the video connect handwritten Bellman/Q-learning equations on a whiteboard to a close-up of a technical document discussing model-free reinforcement learning and optimization?",
+        "answer": "It moves from whiteboard derivations of Q-learning/Bellman relationships to document-style slides that describe model-free learning and stochastic gradient descent with Q(s,a;θ) and policy terms.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            31,
+            44,
+            48,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows whiteboard equations including Bellman and Q-learning update rules. Step 2: Slice 44 shows slide text defining the Q-network loss and targets. Step 3: Slice 48 shows a close-up document mentioning model-free algorithms, Q-learning, and optimization. Step 4: Slice 50 discusses stochastic gradient descent and highlights key terms in the equations. Conclusion: The lecture transitions from whiteboard derivation to formal document/slides about model-free RL and SGD optimization.",
+        "logic_check_reasoning": "Step 1: Slice 31 shows handwritten Bellman and Q-learning equations on a whiteboard, with the presenter explaining TD learning and Q-value updates. Step 2: Slice 44 presents a document-style slide detailing Q-networks, loss functions L_i(θ), targets y_i, and gradient updates, explicitly mentioning stochastic gradient descent. Step 3: Slice 48 shows a close-up of a technical document that discusses model-free reinforcement learning and optimization, including terms like Q(s,a;θ_i), π(a|s;θ_i), and mentions SGD and Q-learning. Step 4: Slice 50 reinforces the slide/document format, highlighting model-free algorithms and SGD in an educational lecture. Logic holds because the video content clearly transitions from whiteboard derivations of Bellman/Q-learning to slides/documents covering model-free RL and SGD with Q(s,a;θ) and policy terms.",
+        "visual_proof": "Clip 1 shows handwritten equations on a whiteboard, including T*(s) = max_a Q_T*(s,a) and Q_θ(s,a) = R̃, which are foundational to Q-learning. Clips 2, 3, and 4 transition to a formatted document discussing the loss function L_i(θ_i), the target y_i involving r + γ max_a' Q(s',a'; θ_{i-1}), and the gradient ∇_θ_i L_i(θ_i). The text explicitly mentions 'model-free' learning, 'stochastic gradient descent', and 'Q-network' with weights θ, directly connecting the conceptual derivations on the whiteboard to the formal algorithmic description in the document."
+    },
+    {
+        "question": "How does the concept of discounted return (a series involving γ) relate to the later highlighted Bellman optimality equation?",
+        "answer": "The discounted return series motivates using γ to discount future rewards, which then appears inside the Bellman optimality equation as r + γ max Q*(s',a').",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            42,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows discounted return written as R_T = R1 + γR2 + γ^2R3 + …. Step 2: Slice 42 explains Bellman-style maximization of expected r + γQ* terms, with key parts highlighted. Step 3: Slice 47 highlights the Bellman optimality equation in green. Conclusion: Discounted return explains why γ discounts future rewards, which is embedded in the Bellman optimality equation.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows equations with a discounted return series using γ: R_T = R_1 + γ R_2 + γ^2 R_3 + … and a summation ∑ γ^i R_i, indicating future returns are discounted by γ. Step 2: Slices 42 and 47 highlight the Bellman optimality equation Q*(s,a) = E[r + γ max_{a'} Q*(s',a') | s,a], where γ multiplies the future value term, discounting future rewards. Logic holds because both contexts explicitly feature γ as a discounting factor for future returns, and the Bellman equation applies this discounting within r + γ max Q*(s',a').",
+        "visual_proof": "In Clip 1 (0:09-0:12), the presenter writes the discounted return formula R_T = R_1 + γR_2 + γ²R_3 + ..., explicitly introducing the discount factor γ. In Clip 2 (0:05-0:07) and Clip 3 (0:01-0:04), the Bellman optimality equation is shown with the exact term 'r + γ max Q*(s', a')' highlighted, visually confirming that the same γ from the return series is used within the equation."
+    }
+]

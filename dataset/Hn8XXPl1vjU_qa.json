@@ -1,0 +1,81 @@
+[
+    {
+        "question": "Early on, one on-screen label later gets replaced by a different label on the right side; what is the new label, and who is shown speaking later alongside the Polish flag?",
+        "answer": "The new label is \"Germans,\" and later the man in the red polo shirt is shown speaking alongside the Polish flag.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the right-side label changing from \"Teutons\" to \"Germans.\" Step 2: Slice 7 shows a man in a red polo shirt presenting with the Polish flag on screen. Conclusion: The replacement label is \"Germans,\" and the later speaker by the Polish flag is the red polo presenter.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states that the right-side label 'Teutons' later gets replaced by 'Germans.' Step 2: Evidence Slice 7 shows the man in the red polo shirt speaking with the Polish flag visible on screen. Step 3: Therefore, the new label is 'Germans,' and the person shown speaking alongside the Polish flag is the man in the red polo shirt.",
+        "visual_proof": "In Video 1, at 0:06, the label on the right is \"Mongols.\" By 0:11, this label has been replaced by \"Germans\" while the same central figure remains. In Video 2, the man in the red polo shirt is clearly visible speaking directly to the camera with the Polish flag displayed on the left side of the screen."
+    },
+    {
+        "question": "A bear appears in a sequence about wildlife and then gets a named historical story; what is the bear’s name, and what type of wartime company is the bear shown with?",
+        "answer": "The bear is named Wojtek, and he is shown with soldiers in a wartime setting.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows a sequence of wild animals including a bear. Step 2: Slice 32 focuses on a specific bear story with the hashtag #Wojtek and shows archival footage with soldiers. Conclusion: The bear is Wojtek, depicted alongside soldiers.",
+        "logic_check_reasoning": "Step 1: Slice 31 shows a sequence including wildlife images culminating in a close-up of a bear, setting up relevance to a bear. Step 2: Slice 32 explicitly identifies the bear as Wojtek via the hashtag and narration, establishing the bear’s name. Step 3: Slice 32 describes archival footage of Wojtek standing next to two soldiers operating a mortar in a forested, WWII wartime setting, confirming he is shown with soldiers in a wartime context. Therefore, the answer aligns with the provided evidence.",
+        "visual_proof": "In Video 2, the first frame shows a black-and-white photo of a large bear sitting in a trench with two soldiers operating a mortar, clearly indicating a wartime setting. The subsequent frames show the same man from Video 1, who then points to a picture with the hashtag '#Wojtek', explicitly naming the bear. This visual evidence directly supports the claim that the bear's name is Wojtek and that he was associated with soldiers during wartime."
+    },
+    {
+        "question": "When the presentation shifts from Polish castles to a new geography topic, what is the new topic title, and which earlier title card introduced the previous geography topic?",
+        "answer": "The new topic title is \"PHYSICAL GEOGRAPHY,\" and the earlier topic was introduced with \"POLITICAL GEOGRAPHY.\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 4 displays \"POLITICAL GEOGRAPHY.\" Step 2: Slice 19 ends with the title card \"PHYSICAL GEOGRAPHY\" after showing castles. Conclusion: The shift is to Physical Geography, following an earlier Political Geography introduction.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 19 states that after showcasing Polish castles, the final frame shifts to an animated title card reading 'PHYSICAL GEOGRAPHY,' establishing the new topic title. Step 2: Evidence Slice 4 describes the video opening with a globe and the words 'POLITICAL GEOGRAPHY' in bold green letters, indicating an earlier title card introducing the previous geography topic. Logic holds because both slices refer to the same presentation style (man in red polo against a black background) and clearly identify the titles of the segments.",
+        "visual_proof": "Clip 1 opens with a title card displaying \"POLITICAL GEOGRAPHY\" over a globe. Clip 2 concludes with a title card displaying \"PHYSICAL GEOGRAPHY\" over an animated island scene, immediately following segments about Polish castles. This sequence visually confirms the transition between the two topics as stated."
+    },
+    {
+        "question": "A gray-shirt character is shown with claws attacking the red polo presenter; later, what does the red polo presenter look like immediately afterward regarding who is on screen?",
+        "answer": "Afterward, the red polo presenter is shown alone against the black background.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows the gray-shirt man with claws lunging at the red polo man, then cuts to the red polo man. Step 2: Slice 44 shows the red polo man presenting alone (with an inset image). Conclusion: The red polo presenter is shown by himself on screen in the aftermath.",
+        "logic_check_reasoning": "Step 1: Slice 43 explicitly states that after the dramatic impact, the scene cuts to the man in the red shirt standing alone against the black background. Step 2: Slice 44 shows the red polo presenter in front of a black background and mentions an inset image, but the question asks about immediately afterward, which Slice 43 covers. The description of the red polo presenter being alone is directly supported. Naming aligns (man in red shirt vs red polo presenter).",
+        "visual_proof": "In Video 1, after the gray-shirt character attacks with claws and a bright flash occurs (0:04-0:05), the scene cuts to the red polo presenter standing alone against the black background at 0:06. This visual evidence directly supports the claim that he is shown alone afterward."
+    },
+    {
+        "question": "Which two specific regions are contrasted as speaking a dialect versus speaking a language, and which later presenter segment explicitly names those two groups together?",
+        "answer": "Silesia is shown as speaking with a dialect and Kashubia as speaking a language; later they are named together as the \"Silesian & Kashubian groups.\"",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            72,
+            74,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 74 contrasts Silesia (“They speak with a DIALECT”) and Kashubia (“They speak a LANGUAGE”). Step 2: Slice 72 explicitly labels the topic as “Silesian & Kashubian groups” with flags. Step 3: Slice 47’s demographics chart lists Silesians and Kashubians as minority groups. Conclusion: The two regions are Silesia and Kashubia, and the later segment names them together as “Silesian & Kashubian groups.”",
+        "logic_check_reasoning": "Step 1: Slice 74 explicitly shows a map labeled \"Silesia\" with the text \"They speak with a DIALECT\" and then shifts to \"Kashubia\" with the text \"They speak a LANGUAGE,\" clearly contrasting the two regions on dialect vs language. Step 2: Slice 72 shows a presenter with the on-screen text \"Silesian & Kashubian groups,\" explicitly naming those two groups together. Logic holds because Slice 74 provides the dialect vs language contrast, and Slice 72 later names the same two groups together.",
+        "visual_proof": "Clip 2 explicitly shows a map of Silesia with the text 'They speak with a DIALECT' and a map of Kashubia with the text 'They speak a LANGUAGE'. Clip 1, which features a different presenter, displays text that reads 'Silesian & Kashubian groups' alongside their respective flags, directly naming both groups together."
+    },
+    {
+        "question": "Which city is highlighted as having airport code WAW, and later which statue is shown as a symbol of that same city in the landmarks montage?",
+        "answer": "Warsaw is marked with airport code WAW, and the \"Mermaid of Warsaw\" statue is shown later.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 5 identifies Warsaw and mentions Warsaw Chopin Airport with code WAW. Step 2: Slice 14 includes the landmark \"Mermaid of Warsaw.\" Conclusion: The city is Warsaw and its later symbolic statue shown is the Mermaid of Warsaw.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 5 explicitly states that Warsaw is highlighted and mentions Warsaw Chopin Airport with IATA code WAW. Step 2: Evidence Slice 14 lists the 'Mermaid of Warsaw' statue among landmarks, identifying it as associated with Warsaw. Logic holds because the city with WAW is Warsaw, and later the montage shows the 'Mermaid of Warsaw' statue as a symbol of that same city.",
+        "visual_proof": "In Video 1 (0:10), an aerial view of an airport is labeled \"WARSAW INT IATA: WAW,\" clearly identifying Warsaw with the code WAW. In Video 2 (0:03), a split-screen montage includes an image of the Mermaid of Warsaw statue on the left side, explicitly labeled as such, confirming it as a symbol shown for the city."
+    }
+]

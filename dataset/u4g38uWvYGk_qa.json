@@ -1,0 +1,149 @@
+[
+    {
+        "question": "Which on-screen phrase highlights that smaller bees treat flowers equally, and what earlier comparison about sugar concentration helps explain what they are ignoring?",
+        "answer": "“THE SMALLER BEES DIDN'T SEEM TO CARE THEY TREATED ALL FLOWERS EQUALLY”; they are ignoring differences like 20% vs 50% sugar content in nectar rewards.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 6 states smaller bees treated all flowers equally. Step 2: Slice 5 explains fake flowers had different rewards (e.g., 20% vs 50% sugar) and bigger bees worked harder to remember the more rewarding flowers. Conclusion: The phrase is from Slice 6, and the ignored difference is sugar concentration/reward level from Slice 5.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly shows the on-screen text: \"THE SMALLER BEES DIDN'T SEEM TO CARE THEY TREATED ALL FLOWERS EQUALLY,\" which directly answers the first part. Step 2: Slice 5 mentions a comparison of sugar concentrations (\"20%\" and \"50%\" sugar) and explains that bigger bees focused on more rewarding flowers. Therefore, the smaller bees treating all flowers equally implies they are ignoring these reward differences, specifically the 20% vs 50% sugar comparison. Logic holds because Slice 5 provides the context of varying rewards and Slice 6 states smaller bees' indifference.",
+        "visual_proof": "In Clip 1, the on-screen text explicitly states \"THE SMALLER BEES DIDN'T SEEM TO CARE\" followed by \"THEY TREATED ALL FLOWERS EQUALLY\". In Clip 2, the presenter gestures between on-screen text reading \"20% SUGAR\" and \"50% SUGAR\", indicating these are the different reward levels the bees are encountering. The text also states that even though the flowers and nectar were fake, the bees realized some were more rewarding, implying the smaller bees ignored this difference."
+    },
+    {
+        "question": "What is the “key variable” named during the bee discussion, and what later segment shifts to a different organism in nectar that affects pollinators?",
+        "answer": "Carrying capacity; yeast in nectar.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 8 displays “A KEY VARIABLE IS CARRYING CAPACITY.” Step 2: Slice 17 introduces yeasts that hang out in nectar and feed on its sugar. Conclusion: The key variable is carrying capacity, and later the focus shifts to yeast in nectar.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows the presenter with on-screen text reading 'A KEY VARIABLE IS CARRYING CAPACITY,' explicitly naming the key variable. Step 2: Slice 17 shows yeast and includes text stating 'SOME OF THEM ALSO HANG OUT IN NECTAR,' indicating a later segment focuses on yeast in nectar. Logic holds because the first part identifies the key variable and the later part identifies the organism in nectar.",
+        "visual_proof": "Clip 1 visually displays the text 'A KEY VARIABLE IS CARRYING CAPACITY' while a presenter speaks. Clip 2 shows microscopic images labeled 'YEAST' and later text stating 'SOME OF THEM ALSO HANG OUT IN NECTAR, WHERE THEY FEED ON ITS SUGAR,' directly linking yeast to nectar, which is relevant to pollinators."
+    },
+    {
+        "question": "Which parasite is mentioned during the bee-and-yeast discussion, and what explanation is given for why yeast might reduce the parasite’s success?",
+        "answer": "Crithidia bombi; yeast may out-compete the parasite for food in the bee’s gut.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            23,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the term “Crithidia bombi” during the yeast discussion. Step 2: Slice 23 states the team suspects yeast could be out-competing the parasite for food in the bee’s gut. Step 3: Slice 21 provides the experimental context involving yeast exposure and colony growth. Conclusion: The parasite is Crithidia bombi, and the mechanism proposed is resource competition in the gut.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly shows the term 'Crithidia bombi' during the bee-and-yeast discussion, indicating the specific organism mentioned. Step 2: Slice 23 states, 'THE TEAM ISN'T TOTALLY SURE WHY, BUT THEY SUSPECT THE YEAST COULD BE OUT-COMPETING THE PARASITE FOR FOOD IN THE BEE'S GUT,' which provides the explanation for reduced parasite success. Logic holds because Slice 22 identifies the parasite mentioned, and Slice 23 gives the mechanism by which yeast may reduce it.",
+        "visual_proof": "Clip 1 (at 0:24) visually displays the text 'Crithidia bombi' while the presenter speaks. Clip 2 (from 0:01-0:06) shows a text overlay on a honeycomb background stating, 'THE TEAM ISN'T TOTALLY SURE WHY, BUT THEY SUSPECT THE YEAST COULD BE OUT-COMPETING THE PARASITE FOR FOOD IN THE BEE'S GUT'. These two clips together provide the full answer."
+    },
+    {
+        "question": "Which small mammal behavior is described as marking good food spots with feces, and what separate pitcher-plant relationship later echoes this idea of animals using poop in or around pitchers?",
+        "answer": "A shrew marking good food places with poop; later, diving ants poop directly into the pitcher juice to return nutrients.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            60,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 60 states a species of shrew marks places where good food can be found with poop. Step 2: Slice 57 states ants poop directly into the pitcher juice. Conclusion: Both involve feces-related behavior connected to locating food or nutrient exchange.",
+        "logic_check_reasoning": "Step 1: Slice 60 explicitly states that a species of shrew marks places where good food can be found with poop. Step 2: Slice 57 explicitly states that ants poop directly into the pitcher juice of Nepenthes lowii and that this returns nutrients. The proposed answer mirrors these points: shrews marking with feces and ants defecating into pitcher juice to give back nutrients. The extra term 'diving ants' is not in the context, but the core behavior of ants pooping into the pitcher and returning nutrients is directly supported.",
+        "visual_proof": "Clip 1 visually confirms the shrew behavior with on-screen text stating 'THIS SPECIES OF SHREW MARKS PLACES WHERE GOOD FOOD CAN BE FOUND WITH POOP'. Clip 2 visually confirms the ant behavior with text stating 'THESE ANTS POOP DIRECTLY INTO THE PITCHER JUICE' and further explains they 'GIVE BACK SOME OF THE NUTRIENTS'."
+    },
+    {
+        "question": "What hypothesis is offered about pitcher plants protecting immature ‘toilet pitchers’ from shrews, and what earlier visuals show shrews associated with being inside or using pitchers?",
+        "answer": "That plants evolved a mechanism to protect immature toilet pitchers until they’re sturdy enough to support shrews; earlier visuals show a shrew climbing and illustrations of small mammals inside pitcher plants.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            62,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 62 states scientists hypothesize plants protect immature toilet pitchers from shrews until sturdy enough. Step 2: Slice 59 shows a small mammal (shrew-like) climbing and illustrations of animals inside pitcher plants. Conclusion: The hypothesis explains why protection is needed given shrews’ pitcher interactions.",
+        "logic_check_reasoning": "Step 1: Slice 62 explicitly states the hypothesis: scientists think pitcher plants evolved a mechanism to protect immature 'toilet pitchers' from shrews until the pitchers are sturdy enough to support them. Step 2: Slice 59 shows earlier visuals: a small mammal possibly a shrew climbing, followed by illustrations of small mammals inside pitcher plants, including one likely a shrew. This supports the claim that earlier visuals show shrews associated with being inside or using pitchers. The proposed answer accurately paraphrases both points.",
+        "visual_proof": "Clip 1 displays text stating scientists hypothesize that plants evolved a mechanism to protect immature toilet pitchers from shrews until they are sturdy enough. Clip 2 shows a photo of a shrew climbing a tree (associated with the habitat) and then an illustration by Chris Thorogood depicting three small mammals (shrew-like creatures) interacting with or sitting inside pitcher plants, visually supporting the association."
+    },
+    {
+        "question": "Which two pitcher plant species are compared as being very large, and what later claim states their pitchers are the biggest carnivorous plants known to science?",
+        "answer": "Nepenthes macrophylla and Nepenthes rajah; later it’s stated these species have pitchers so big they’re the biggest carnivorous plants known to science.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            61,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 61 compares Nepenthes macrophylla and Nepenthes rajah side-by-side. Step 2: Slice 64 states the pitchers of these plant species are so big they make them the biggest carnivorous plants known to science. Conclusion: The comparison pairs with the later size superlative.",
+        "logic_check_reasoning": "Step 1: Slice 61 explicitly shows a split-screen comparison of two pitcher plant species labeled Nepenthes macrophylla and Nepenthes rajah. Step 2: Slice 64 includes text overlays stating, \"THE PITCHERS OF THESE PLANT SPECIES ARE BIG\" and \"SO BIG, THAT THEY MAKE THEM THE BIGGEST CARNIVOROUS PLANTS KNOWN TO SCIENCE.\" Step 3: The question asks which species are compared and what later claim is made; the slices directly support both the identification of the species and the claim about their pitchers making them the biggest carnivorous plants known to science.",
+        "visual_proof": "Clip 1 visually displays side-by-side images of two pitcher plants labeled 'Nepenthes macrophylla' and 'Nepenthes rajah'. Clip 2 features a presenter with on-screen text that reads, 'THE PITCHERS OF THESE PLANT SPECIES ARE BIG' followed by 'SO BIG, THAT THEY MAKE THEM THE BIGGEST CARNIVOROUS PLANTS KNOWN TO SCIENCE', directly referencing the previously shown species."
+    },
+    {
+        "question": "What kind of insect is described as spreading a bacterium in Italy, and what plant disease is shown as the consequence in a later scene?",
+        "answer": "Meadow spittlebugs; Olive Quick Decline Syndrome affecting olive trees in Lecce, Italy.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 46 identifies the “MEADOW SPITTLEBUG” and notes nearly 100% tested positive for the bacteria in Italy’s Salento Peninsula. Step 2: Slice 45 shows “OLIVE QUICK DECLINE SYNDROME IN LECCE, ITALY” and describes widespread infection of olive trees. Conclusion: Meadow spittlebugs are tied to the bacterial spread associated with olive quick decline.",
+        "logic_check_reasoning": "Step 1: Slice 46 explicitly labels the insect as a 'MEADOW SPITTLEBUG' and states that nearly 100% collected in Italy's Salento Peninsula tested positive for the bacteria, indicating they carry the bacterium. Step 2: Slice 45 shows text 'OLIVE QUICK DECLINE SYNDROME IN LECCE, ITALY' and details the extent of infection, confirming the plant disease affecting olive trees. Logic holds because the insect identified with the bacterium in Italy is the meadow spittlebug, and the later scene shows Olive Quick Decline Syndrome impacting olive trees in Lecce.",
+        "visual_proof": "Clip 1 visually identifies the 'MEADOW SPITTLEBUG' with an arrow and text overlay. Clip 2 shows a field of dead olive trees with the text 'OLIVE QUICK DECLINE SYNDROME IN LECCE, ITALY'. The text in Clip 1 also states that nearly 100% of these bugs collected in Italy's Salento Peninsula tested positive for the bacteria, directly linking the insect to the disease shown in Clip 2."
+    },
+    {
+        "question": "What bacterium name appears during the spittlebug segment, and what two later plant examples show the kinds of damage associated with this pathogen in crops and trees?",
+        "answer": "Xylella fastidiosa; an infected grape leaf and widespread olive tree decline (Olive Quick Decline Syndrome).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            40,
+            43,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows a background image labeled “Xylella Fastidiosa.” Step 2: Slice 43 shows a grape leaf infected with Xylella fastidiosa. Step 3: Slice 45 shows Olive Quick Decline Syndrome in Lecce, Italy with massive infection spread. Conclusion: The bacterium is Xylella fastidiosa, and it’s associated with grape leaf infection and olive decline.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows an image of bacteria labeled 'Xylella Fastidiosa' during the man's explanatory segment, which aligns with the spittlebug topic context. Step 2: Slice 43 explicitly shows a 'GRAPE LEAF INFECTED WITH XYLELLA FASTIDIOSA'—a crop example. Step 3: Slice 45 describes 'OLIVE QUICK DECLINE SYNDROME IN LECCE, ITALY' with massive infection of olive trees—a tree example. The proposed answer matches these specifics.",
+        "visual_proof": "Clip 1 visually displays the text 'XYLELLA FASTIDIOSA' alongside a microscopic image of the bacteria. Clip 2 shows a close-up of a 'GRAPE LEAF INFECTED WITH XYLELLA FASTIDIOSA'. Clip 3 depicts dead olive trees with the on-screen text 'OLIVE QUICK DECLINE SYNDROME IN LECCE, ITALY', directly linking the bacterium to this specific damage in trees."
+    },
+    {
+        "question": "What food product is advertised at the beginning, and later reappears when a presenter eats noodles with chopsticks?",
+        "answer": "Vite Ramen.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows an ad with the brand name “vite RAMEN” and a discount code. Step 2: Slice 47 shows a presenter holding a bowl of noodles and then shows bags labeled “Vite Ramen.” Conclusion: The product advertised and later shown being eaten is Vite Ramen.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly shows an advertisement with the text 'vite RAMEN' and a URL ViteRamen.com, indicating the food product being advertised is Vite Ramen. Step 2: Slice 47 shows a presenter eating noodles with chopsticks and then displays three bags labeled 'Vite Ramen.' Logic holds because the product advertised at the beginning (Vite Ramen) is the same product shown later when the presenter eats noodles, confirmed by the labeled bags.",
+        "visual_proof": "The logo 'vite RAMEN' is prominently displayed at the beginning of the video (0:00-0:03). Later, a presenter is shown preparing and eating noodles from a bowl with chopsticks (0:12-0:15), and packages of 'vite RAMEN' are visible on the table next to him. The product name is clearly visible on the packaging and in the promotional graphics throughout the clips."
+    },
+    {
+        "question": "Which plant tissue is labeled in a stem cross-section model, and which insect is later discussed for consuming huge amounts of the sap associated with that transport system?",
+        "answer": "Xylem; a spittlebug.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 41 labels the plant stem layer as “XYLEM.” Step 2: Slice 38 discusses xylem sap and says a spittlebug can consume 280× its body mass in xylem sap in 24 hours. Conclusion: The labeled tissue is xylem and the insect is the spittlebug.",
+        "logic_check_reasoning": "Step 1: Slice 41 shows a plant stem cross-section model with a label explicitly identifying the tissue as 'XYLEM.' Step 2: Slice 38 discusses xylem sap and states 'ONE SPITTLEBUG CAN CONSUME 280x THEIR OWN BODY MASS IN XYLEM SAP,' clearly identifying the insect and the associated transport system. Logic holds because the labeled tissue (xylem) in the model is directly connected to the later discussion of an insect (spittlebug) consuming large amounts of xylem sap.",
+        "visual_proof": "In the first clip, a 3D model of a plant stem cross-section is shown with the label 'XYLEM' pointing to a specific tissue. In the second clip, an animated illustration of an insect labeled 'NYMPH' is shown, followed by on-screen text stating 'ONE SPITTLEBUG CAN CONSUME 280x THEIR OWN BODY MASS IN XYLEM SAP'. The host also verbally connects the spittlebug's feeding to xylem sap."
+    },
+    {
+        "question": "What are two different ‘bodyguard or partner’ relationships involving plants shown later in the video, and what earlier plant-animal example provides a simpler mutualism concept using nectar?",
+        "answer": "Pitcher plants with diving ants (nutrient exchange) and plants with ants attracted by extrafloral nectaries (protection); earlier, nectar is shown as meant to attract and reward pollinators like bees.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            69,
+            57,
+            68,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 68 explicitly frames “How Plants Attract Bodyguards” and shows nectar/pollinator labeling. Step 2: Slice 69 explains extrafloral nectaries producing nectar to recruit ants, reducing leaf damage. Step 3: Slice 57 describes a pitcher plant partnership with ants returning nutrients (pooping into pitcher juice). Step 4: Slice 70 continues plant defense/biology terms, reinforcing plant strategies (e.g., chitinases/thermogenesis) alongside insect interactions. Conclusion: Two plant-partner/bodyguard relationships are ants-for-protection and ants-for-nutrients, grounded in the earlier nectar-as-reward mutualism framing.",
+        "logic_check_reasoning": "Step 1: Slice 57 explicitly describes a symbiotic interaction between ants and the pitcher plant Nepenthes lowii, including ants fishing bugs out of the trap and returning nutrients by pooping into the pitcher juice, supporting the 'partner' nutrient-exchange relationship. Step 2: Slice 69 details extrafloral nectaries on plants (e.g., Inga edulis), producing extra nectar to attract ants that protect the plant, clearly a 'bodyguard' relationship. Step 3: Slice 68 shows visuals of a flower labeled 'NECTAR' and a bee labeled 'POLLINATOR,' illustrating the simpler nectar-based mutualism with pollinators. Step 4: Together, these slices support the two later plant relationships (pitcher plant–ant nutrient exchange and ant bodyguards via extrafloral nectaries) and the earlier simpler nectar–pollinator example.",
+        "visual_proof": "Clip 1 shows 'Extrafloral Nectaries' and text stating 'Nectars are meant to attract & reward animals' with a bee on a flower. Clip 2 details pitcher plants and ants pooping into the pitcher juice, giving back nutrients. Clip 4 discusses parasitic wasps as bodyguards for plants, which fits the 'partner' relationship. The initial example of nectar attracting pollinators is visually supported by the bee image and text in Clip 1."
+    }
+]

@@ -1,0 +1,68 @@
+[
+    {
+        "question": "Which topic is introduced as a section title on a blue slide and then immediately followed by a slide that contrasts two probabilistic worlds about images and labels?",
+        "answer": "Classification",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 18 introduces the section with the blue title slide 'Classification.' Step 2: Slice 19 presents 'World P' vs 'World Q' specifically about images and labels, which is the classification setup. Conclusion: The topic is Classification.",
+        "logic_check_reasoning": "Step 1: Slice 18 describes a blue slide with the word 'Classification' centered, serving as a section title. Step 2: Slice 19 describes the next slide that contrasts two probabilistic worlds (World P and World Q) about images and labels. Logic holds because the question asks which topic is introduced on the blue slide and then followed by the probabilistic worlds slide; Slice 18 explicitly shows 'Classification' and Slice 19 follows with the described contrast.",
+        "visual_proof": "The first clip shows a blue slide with the word 'Classification' centered in white text. The second clip immediately follows, showing a slide titled 'World P' and 'World Q', which contrasts two probabilistic models for images and labels. This sequence directly matches the description in the question."
+    },
+    {
+        "question": "Across the outline slide and the later section title card, what is the final big-picture topic that appears as a bullet point early and then becomes a standalone blue title later?",
+        "answer": "Prediction",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 2 (Outline) includes 'Prediction' as a subtopic under the Universal Recipe section. Step 2: Slice 60 later shows a blue slide titled 'Prediction.' Conclusion: The topic is Prediction.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows an outline slide listing several topics, including a sub-bullet \"Prediction\" under \"Universal Recipe,\" and it is the last sub-bullet mentioned. Step 2: Slice 60 shows a standalone blue title card with the word \"Prediction\" centered. Logic holds because the topic \"Prediction\" appears early as a bullet point in the outline and later reappears as a standalone blue title, matching the question’s description.",
+        "visual_proof": "The first clip shows a slide titled 'Outline' where 'Prediction' is listed as the last sub-point under 'Universal Recipe'. The second clip displays a full-screen blue title card with the word 'Prediction' in white text, confirming it is a standalone section title later in the video."
+    },
+    {
+        "question": "Which topic is introduced by a blue title card and then later presented as an equation slide where the key terms are labeled 'Classification Error' and 'Rate'?",
+        "answer": "Variational Information Bottleneck",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a blue title 'Variational Information Bottleneck.' Step 2: Slice 33 shows an equation slide labeled with 'Classification Error' and 'Rate' under the VIB framing. Conclusion: Variational Information Bottleneck.",
+        "logic_check_reasoning": "Step 1: Slice 30 describes a blue title card displaying the text 'Variational Information Bottleneck,' introducing the topic. Step 2: Slice 33 shows an equation slide titled 'Variational Information Bottleneck' with key terms labeled 'Classification Error' and 'Rate.' Logic holds because both slices reference the same titled topic, first as a blue title card and later as an equation slide with those labels.",
+        "visual_proof": "The first clip shows a blue title card with the text 'Variational Information Bottleneck'. The second clip displays a slide titled 'Variational Information Bottleneck' which presents an equation. Below this equation, the terms are explicitly labeled 'Classification Error' and 'Rate', confirming the topic introduced by the blue card is later detailed with these specific labels."
+    },
+    {
+        "question": "Which section title appears on a blue slide and later connects to a scatter plot about the rate–distortion trade-off while discussing a broken ELBO?",
+        "answer": "Variational Autoencoders",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 22 introduces the section 'Variational Autoencoders' on a blue title slide. Step 2: Slice 28 discusses 'Fixing A Broken ELBO' with a rate vs distortion scatter plot, which is a VAE/ELBO topic. Conclusion: Variational Autoencoders.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 22 describes a blue slide with the centered title 'Variational Autoencoders.' Step 2: Evidence Slice 28 shows a later part of the same presentation discussing 'Fixing A Broken ELBO' with a rate–distortion scatter plot. Logic: The question asks which section title appears on the blue slide and later connects to the rate–distortion/broken ELBO discussion; the blue slide title is 'Variational Autoencoders,' which frames the subsequent ELBO content.",
+        "visual_proof": "The first clip shows a blue slide with the title 'Variational Autoencoders'. The second clip, which appears later in the same video (as per context), displays a scatter plot analyzing rate vs. distortion and discusses 'Fixing A Broken ELBO', a concept central to Variational Autoencoders. This establishes a direct visual and thematic connection between the blue slide title and the subsequent content."
+    },
+    {
+        "question": "Which earlier 'Outline' bullet group later becomes a sequence of section title cards for at least two of its subtopics, including 'Variational Autoencoders' and 'Variational Information Bottleneck'?",
+        "answer": "Universal Recipe",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            22,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 2 lists 'Universal Recipe' with sub-bullets including 'Variational Autoencoders' and 'Variational Information Bottleneck.' Step 2: Slice 22 later appears as the title card 'Variational Autoencoders.' Step 3: Slice 30 later appears as the title card 'Variational Information Bottleneck.' Conclusion: These are subtopics under Universal Recipe.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows the Outline slide listing 'Universal Recipe' with sub-bullets including 'Variational Autoencoders' and 'Variational Information Bottleneck'. Step 2: Slice 22 shows a title card 'Variational Autoencoders'. Step 3: Slice 30 shows a title card 'Variational Information Bottleneck'. Logic: These later title cards match subtopics under the 'Universal Recipe' bullet group from the earlier outline, indicating that 'Universal Recipe' becomes a sequence of section title cards for at least these two subtopics.",
+        "visual_proof": "Clip 1 displays an 'Outline' slide where 'Universal Recipe' is a main bullet point with several sub-bullets, including 'Variational Autoencoders' and 'Variational Information Bottleneck'. Clip 2 and Clip 3 are title cards that visually correspond to these two specific sub-bullets from the 'Universal Recipe' section. This confirms that the 'Universal Recipe' group is the one that later becomes a sequence of section title cards."
+    }
+]

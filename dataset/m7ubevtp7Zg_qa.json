@@ -1,0 +1,194 @@
+[
+    {
+        "question": "After raw meat is mixed and moved into a lined tray, what is the next major preparation step shown before the meat reaches the grill?",
+        "answer": "Threading the meat onto skewers.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows raw meat being mixed and transferred into a parchment-lined baking tray. Step 2: Slice 11 shows the same type of meat being threaded onto skewers. Conclusion: The next major step is assembling the skewers.",
+        "logic_check_reasoning": "Step 1: Slice 10 describes the person mixing raw meat and transferring it into a baking tray lined with parchment paper. Step 2: Slice 11 shows the same tattooed person in a modern kitchen actively threading pieces of raw meat onto skewers, with a tray of skewers and a mixing bowl of meat visible. Logic holds because both slices depict sequential preparation steps by the same individual in the same setting, and Slice 11 explicitly shows the next major step—threading meat onto skewers—before grilling.",
+        "visual_proof": "Clip 1 shows the man mixing raw meat and onions in a bowl, then covering it with plastic wrap and placing it in the fridge. After retrieving it, he begins threading the marinated meat onto metal skewers, placing them on a metal tray. Clip 2 continues this action, showing him systematically filling multiple skewers from the same bowl of meat. This sequence clearly establishes that threading the meat onto skewers is the next major preparation step after the initial mixing and chilling."
+    },
+    {
+        "question": "After dough is mixed in a stand mixer, what is the next visible step that shows the dough being worked by hand on the counter?",
+        "answer": "The dough is transferred from the bowl onto a wooden surface, oil is drizzled on it, and then it is folded and shaped by hand.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            57,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows a stand mixer combining flour and water into dough. Step 2: Slice 58 shows the dough being taken from a mixing bowl and worked on a floured wooden countertop. Conclusion: The next step is hand-working/shaping the dough on the counter.",
+        "logic_check_reasoning": "Step 1: Slice 57 shows dough being mixed in a stand mixer. Step 2: Slice 58 shows the person transferring the dough from a bowl onto a floured wooden countertop and shaping/manipulating it by hand. Logic holds because Slice 58 directly follows with hand-working steps after the mixing shown in Slice 57.",
+        "original_text_answer": "The dough is transferred from the bowl onto a floured wooden surface and shaped by hand.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 2, after the dough is mixed (shown in Clip 1), the person removes the dough from the mixer bowl and places it on a wooden counter. They then pour oil directly onto the dough before beginning to fold and shape it with their hands. The surface is not visibly floured; instead, it is oiled."
+    },
+    {
+        "question": "During one tasting, there is a cereal bowl on the table, but later the group tastes a different bowl-based dish with spoons—what is the later dish they taste from a bowl?",
+        "answer": "A bowl of food topped with chopped nuts and herbs.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            6,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a bowl of cereal with spoons on the table during clipboard discussion. Step 2: Slice 6 shows a bowl topped with chopped nuts and herbs. Step 3: Slice 18 shows the group tasting something from a bowl with spoons. Conclusion: The later bowl-based tasting is the dish topped with chopped nuts and herbs.",
+        "logic_check_reasoning": "Step 1: Slice 7 establishes an earlier scene with a cereal bowl on the table during a discussion/tasting setup. Step 2: Slice 6 explicitly describes another bowl whose contents are revealed by a zoom-in: a dish topped with chopped nuts and herbs. Step 3: Slice 18 shows the group later tasting from a bowl with spoons, consistent with the later bowl-based dish referenced. Logic holds because Slice 6 provides the specific description of the later dish's contents (chopped nuts and herbs), and Slice 18 confirms the tasting activity from a bowl.",
+        "visual_proof": "In Clip 2, the group is seen tasting from a white bowl. A close-up shot at 0:16 clearly shows the dish is a creamy curry topped with chopped peanuts (nuts) and thin green herbs, matching the description in the original answer."
+    },
+    {
+        "question": "Trace the bread/flatbread pipeline: after dough is shaped into long strands and folded, what cooking step uses butter in a skillet, and what is the result shown afterward?",
+        "answer": "Butter is melted in a cast-iron skillet to cook the flatbread, resulting in a stacked plate of cooked flatbreads.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            61,
+            62,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows shaping and folding/twisting dough into compact forms. Step 2: Slice 62 shows butter added to a hot cast-iron skillet and flatbread cooked and stacked. Step 3: Slice 22 shows flatbread being served onto a plate. Conclusion: The butter-skillet step cooks the shaped dough into flatbreads that are stacked and served.",
+        "logic_check_reasoning": "Step 1: Slice 61 shows dough shaped into long strands and folded. Step 2: Slice 62 shows butter pieces added to a cast-iron skillet, melting, and a flatbread/roti being cooked in the skillet. Step 3: Slice 62 then shows the result as a stack of freshly cooked flatbreads placed on a wooden plate. This directly supports the stated cooking step and the resulting stacked flatbreads.",
+        "visual_proof": "Clip 1 shows the dough being shaped into long strands and then folded into coils. Clip 2 visually confirms butter being melted in a black cast-iron skillet on a gas burner, followed by the flatbread being placed in it to cook. The clip ends with a close-up of several cooked, golden-brown flatbreads stacked in a bowl. This sequence directly supports the claim that butter in a skillet is used for cooking and results in a stack of finished flatbreads."
+    },
+    {
+        "question": "Which items are physically on the table during two different evaluation scenes: one with grilled skewers and another with pizza tasting lists?",
+        "answer": "A tray/plate of skewered meat in the skewer judging scene, and pizza slices on the table during the list-based pizza tasting scene.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a tray of skewered meat on the table while people hold clipboards. Step 2: Slice 46 shows pizza slices on the table while people hold ranked clipboards. Conclusion: Skewers are on the table in one evaluation; pizza slices are on the table in the other.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly states that the table holds a tray of skewered meat (kebabs) during a collaborative cooking/judging scene. Step 2: Slice 46 explicitly states that during the pizza tasting with lists, the table is arranged with pizza slices (and also mentions clipboards). Step 3: The proposed answer claims the table has a tray/plate of skewered meat in the skewer scene and pizza slices in the list-based pizza tasting scene. Both claims are directly supported by the respective slices without contradiction.",
+        "visual_proof": "In Clip 1, a metal tray holding numerous grilled skewers is clearly visible on the wooden table. In Clip 2, several slices of pizza are placed on a black circular board on the same table, with the participants holding their ranking lists."
+    },
+    {
+        "question": "In the noodle dish segment, what liquid is poured into the bowl and then what two additions are placed on top afterward?",
+        "answer": "A creamy orange-colored soup/broth is poured in, then green herbs and fried chips are added on top.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows creamy orange broth being ladled over noodles. Step 2: Slice 27 shows herbs and fried chips added on top. Conclusion: Broth first, then herbs and chips.",
+        "logic_check_reasoning": "Step 1: Slice 26 states that a person pours a creamy, orange-colored soup/broth into a bowl filled with noodles. Step 2: Slice 27 states that after preparing the soup, the person adds green herbs (possibly cilantro) and fried chips on top. Logic holds because the liquid poured matches the description in Slice 26, and the two toppings are clearly listed in Slice 27.",
+        "visual_proof": "In Video 1 (0:00-0:04), a ladle pours a steaming, creamy orange broth into a bowl containing noodles and chicken. In Video 2 (0:02-0:05), hands are shown adding crispy fried chips followed by fresh green cilantro leaves on top of the finished dish."
+    },
+    {
+        "question": "Which dish is shown being baked in an oven and later judged by people holding clipboards while tasting it?",
+        "answer": "Pizza.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows a pizza being put into and removed from an oven. Step 2: Slice 46 shows a tasting/ranking session with clipboards while eating pizza slices. Conclusion: The baked-and-judged dish is pizza.",
+        "logic_check_reasoning": "Step 1: Slice 44 explicitly shows a classic Margherita pizza being prepared and baked in an oven. Step 2: Slice 46 shows three people holding clipboards while tasting and evaluating slices of pizza. Logic holds because the dish baked in Slice 44 is pizza, and the dish being judged in Slice 46 is also pizza, matching the question's description of a dish baked and later judged by people with clipboards.",
+        "visual_proof": "Clip 1 shows a pizza being prepared with tomato sauce, mozzarella, and basil, then placed into an oven and baked. Clip 2 shows three people tasting slices of the same type of pizza (with charred crust and basil) while holding clipboards that list 'PIZZA NAPOLETANA' as the first item to judge."
+    },
+    {
+        "question": "The same tattoo-armed cook appears in different segments; what two distinct cooking methods does he use across the video—one involving live fire and one involving a covered pan?",
+        "answer": "Grilling skewers over charcoal and cooking dumplings by adding water and covering the pan with a lid.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows skewers being cooked over glowing charcoal on a grill. Step 2: Slice 37 shows water poured into a pan of dumplings and then covered with a lid. Conclusion: He uses charcoal grilling and a covered pan steam-fry method.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes cooking skewers over glowing charcoal with flames visible, which is grilling over live fire. Step 2: Slice 37 shows a person cooking dumplings in a pan, pouring water, and placing a lid on the pan, which is a covered pan method (steam-fry/steam). Logic holds because the video clearly features both methods: live-fire grilling and adding water then covering a pan. Although the slices do not explicitly mention the tattooed arm or confirm the same individual, the question asks for the two methods used across the video, and these methods are explicitly depicted in the provided slices.",
+        "visual_proof": "In Video 1, the tattooed cook is seen grilling meat skewers over glowing charcoal embers. In Video 2, the same tattooed cook places a lid on a pan of dumplings after pouring water into it, indicating a steaming or pan-frying method."
+    },
+    {
+        "question": "Across the competition-style tastings, what two different foods are explicitly shown being tasted and evaluated by a small group with clipboards or lists?",
+        "answer": "Grilled meat skewers and pizza.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows people tasting cooked skewers while taking notes on clipboards. Step 2: Slice 46 shows people tasting pizza while holding ranked lists/clipboards. Conclusion: Two evaluated foods are skewers and pizza.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows skewers of meat on a grill, then three people with clipboards tasting and evaluating the cooked meat, explicitly noting one person bites a skewer while others take notes. Step 2: Slice 46 shows three people in a kitchen holding clipboards/lists, tasting and ranking pizza slices, with explicit visuals of the pizza and the evaluation process. Logic holds because both slices depict small groups using clipboards/lists to taste and evaluate specific foods: meat skewers and pizza.",
+        "visual_proof": "Clip 1 shows the preparation and grilling of meat skewers, followed by three people tasting them while holding clipboards with lists (e.g., 'ANDY', 'MITCH'). Clip 2 shows the same three people tasting slices of pizza from a black platter while again holding clipboards with lists ranking dishes, including 'PIZZA NAPOLETANA'."
+    },
+    {
+        "question": "Track the noodles dish from assembly to tasting: what two toppings are added to the bowl before the small bowl of pickles is placed beside it, and then later the group eats noodles with chopsticks?",
+        "answer": "Green herbs and fried chips.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            27,
+            29,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows noodles topped with green herbs and fried chips, and pickled vegetables placed beside the bowl. Step 2: Slice 29 shows close-ups of the noodle bowl with chips and herbs while a strand is lifted with chopsticks. Step 3: Slice 31 shows the group eating from bowls with chopsticks. Conclusion: The key toppings are herbs and fried chips.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly shows the bowl being topped with green herbs (possibly cilantro) and fried chips, then a small bowl of pickled vegetables is placed beside it. Step 2: Slice 29 shows a close-up of the same style dish (noodles with chips and herb garnishes) and someone lifting noodles with chopsticks, indicating tasting. Step 3: Slice 31 shows a group eating noodles from bowls with chopsticks, including the tattooed man in black, consistent with Slice 27. Logic holds that the two toppings added before the pickles are green herbs and fried chips, and later the group eats the noodles.",
+        "visual_proof": "In Clip 1, the video clearly shows hands adding crispy fried chips (0:01) followed by fresh green herbs, likely cilantro (0:02), to the noodle bowl. Immediately after, at 0:03-0:04, a small bowl of pickles is placed on the table beside the main dish. Later, in Clip 2 and Clip 3, the group is shown eating the noodles from individual bowls using chopsticks."
+    },
+    {
+        "question": "Across two different ranking moments, what dishes appear on the written tasting lists that correspond to dishes actually shown being made earlier in the video?",
+        "answer": "Pizza (Pizza Napoletana/Margherita) and dumplings (Xiao Long Bao).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            38,
+            46,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows dumplings completed and judged, matching the dumpling theme. Step 2: Slice 46 shows clipboards listing items including “Pizza Napoletana” and “Xiao Long Bao.” Step 3: Slice 44 shows pizza being made and baked, matching the pizza item on the list. Conclusion: Items that match earlier cooking include pizza and dumplings (Xiao Long Bao).",
+        "logic_check_reasoning": "Step 1: Slice 44 explicitly shows a Margherita pizza being prepared and baked. Step 2: Slice 46 shows written tasting lists that include \"Pizza Napoletana\" and also depicts tasting of a Margherita/Napoletana-style pizza, aligning with Slice 44. Step 3: Slice 38 shows dumplings being cooked and served, with participants using clipboards for evaluation (a ranking moment). Step 4: Slice 46 lists \"Xiao Long Bao\" on the written tasting lists. While Slice 38 does not name the dumplings as Xiao Long Bao, it clearly features dumplings; per instruction on handling naming mismatches, \"dumplings\" corresponds logically to \"Xiao Long Bao\" (a dumpling dish). Step 5: Therefore, across the two ranking moments (dumpling tasting in Slice 38 and pizza tasting in Slice 46), the dishes that appear on the written lists and are shown being made earlier are pizza (Margherita/Napoletana) and dumplings (Xiao Long Bao).",
+        "visual_proof": "Clip 1 shows dumplings being cooked and then tasted, with the lists held by Andy and Mitch clearly showing 'TANGBAO' (a type of dumpling) on their rankings. Clip 3 shows a Pizza Napoletana being prepared and baked. Clip 2 confirms this connection, as Katelyn's list explicitly ranks 'PIZZA NAPOLETANA' at #1, and the group is shown tasting pizza slices. The visual evidence directly links the dishes shown being made (dumplings in Clip 1, pizza in Clip 3) to the specific items listed on the tasting scorecards in Clip 2."
+    },
+    {
+        "question": "Connect the herb prep to the final plated meat-and-egg bowl: what herb-handling step happens before the wok cooking, and what topping appears on the served bowl at the end?",
+        "answer": "Herb leaves are separated and ground into a paste before cooking; the served bowl is topped with a fried egg.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            49,
+            51,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows separating herb leaves from stems. Step 2: Slice 51 shows grinding leaves (and later chili/garlic) before cooking meat. Step 3: Slice 53 shows the finished dish served in a bowl with a fried egg on top. Conclusion: Herb prep precedes wok cooking, and the final bowl is topped with a fried egg.",
+        "logic_check_reasoning": "Step 1: Slice 49 shows the person separating herb leaves from the stems. Step 2: Slice 51 shows the person placing the green leaves into a mortar and grinding them, then adding chili and garlic and continuing to grind; only after that does he cook/stir the ground meat in a pan, so the herb grinding occurs before the cooking. Step 3: Slice 53 shows the final bowl containing ground meat, vegetables, and clearly a fried egg on top. The answer aligns with these steps.",
+        "visual_proof": "In Clip 1, the chef is shown separating basil leaves from their stems. In Clip 2, he places these leaves, along with chilies and garlic, into a mortar and pestle to grind them into a paste before adding meat to the wok. In Clip 3, the final plated dish clearly shows a fried egg placed on top of the cooked meat mixture."
+    },
+    {
+        "question": "In the meat skewer segment, what happens to the meat from raw prep to cooking to group tasting?",
+        "answer": "It’s cut and mixed/seasoned, then threaded onto skewers and grilled over charcoal, and finally tasted by a group with clipboards.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows raw pork being cut and mixed with onions/seasoning for skewers. Step 2: Slice 11 shows meat being threaded onto skewers. Step 3: Slice 12 shows skewers cooking on a charcoal grill and later being tasted by people with clipboards. Conclusion: Prep → skewer assembly → grill → tasting/judging.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows the raw prep: a tattooed man cuts raw pork, seasons it, slices onion, and mixes pork and onions in a metal bowl. Step 2: Slice 11 shows the next stage: the seasoned/marinated meat is threaded onto skewers from a mixing bowl, indicating prep for cooking. Step 3: Slice 12 shows the cooking: skewers are grilled over glowing charcoal. It then shows group tasting: three people with clipboards taste and evaluate the cooked meat. Logic holds across slices, matching raw prep → skewering → charcoal grilling → group tasting.",
+        "visual_proof": "Clip 1 shows the meat being cut into cubes and mixed with onions in a bowl. Clip 2 shows the seasoned meat being threaded onto skewers. Clip 3 shows the skewers being grilled over charcoal, followed by the group tasting the cooked meat while holding clipboards."
+    },
+    {
+        "question": "Across the video’s evaluation segments, what are four different foods that are clearly shown being tasted or judged at the table by a small group?",
+        "answer": "Skewered grilled meat, dumplings, flatbread/naan, and pizza.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            38,
+            23,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows tasting/judging skewers with clipboards. Step 2: Slice 38 shows tasting/judging dumplings with notes. Step 3: Slice 23 shows tasting flatbread as a group. Step 4: Slice 46 shows tasting/ranking pizza with clipboards. Conclusion: The four foods are skewers, dumplings, flatbread, and pizza.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows skewered grilled meat being cooked, then three people around a table with clipboards tasting and evaluating the meat (one bites, others take notes). Step 2: Slice 38 shows dumplings and three participants with clipboards tasting the dumplings and recording evaluations. Step 3: Slice 23 shows flatbreads on a plate; three people with clipboards each take a bite and signal approval, clearly judging the flatbread. Step 4: Slice 46 shows slices of pizza on a wooden table; the three participants taste the pizza and rank it on their clipboards. Thus, the four foods clearly shown being tasted or judged are skewered grilled meat, dumplings, flatbread, and pizza. The proposed answer matches these items (the “flatbread/naan” phrasing is acceptable since flatbread is explicitly shown).",
+        "visual_proof": "Clip 1 shows skewered grilled meat being cooked and then tasted at the table. Clip 2 features dumplings being cooked and then tasted by the group. Clip 3 displays flatbread/naan on a plate, which is then picked up and eaten by the participants. Clip 4 clearly shows pizza slices on a serving board, with all three individuals tasting them while holding scorecards."
+    }
+]

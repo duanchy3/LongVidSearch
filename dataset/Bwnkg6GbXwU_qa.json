@@ -1,0 +1,124 @@
+[
+    {
+        "question": "Two different breaking-news topics in the video involve things descending from the sky. What are those two things?",
+        "answer": "Aid packages descending by parachute into Gaza, and heavy snow rapidly falling during the blizzard.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows intense snowfall with the on-screen rate '2–4 inches per hour.' Step 2: Slice 22 shows multiple parachutes descending carrying supplies for Gaza. Conclusion: The two descending-from-sky elements are snow and parachuted aid.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly shows multiple parachutes descending from the sky carrying supplies, with a news overlay stating 'BREAKING NEWS: U.S. BEGINS AIRDROPPING AID INTO GAZA,' supporting 'aid packages descending by parachute into Gaza.' Step 2: Slice 8 describes heavy snowfall with '2-4 INCHES PER HOUR' and visuals of falling snow on a snowy road, indicating snow is descending from the sky during a blizzard. Logic holds because both slices depict distinct news topics featuring items descending from the sky: aid packages and snow.",
+        "visual_proof": "Clip 1 visually depicts a severe blizzard with text indicating '2-4 INCHES PER HOUR' of snowfall, showing cars driving in whiteout conditions and snow piled high against a door. Clip 2 shows multiple aid packages being airdropped from an aircraft with parachutes, accompanied by the on-screen text 'U.S. BEGINS AIRDROPPING AID INTO GAZA'. Both clips clearly show things descending from the sky: snow and aid packages."
+    },
+    {
+        "question": "Which two very different situations show vehicles trying to move through dangerous crowded or low-visibility conditions at night?",
+        "answer": "Cars and trucks inching through a nighttime blizzard, and a white pickup truck moving through a crowded spring break street scene at night.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows vehicles navigating a blizzard at night with extremely low visibility. Step 2: Slice 62 shows a nighttime crowd scene where a white pickup truck drives through pedestrians during spring break chaos. Conclusion: Both depict vehicles moving in hazardous nighttime conditions.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes vehicles (cars and trucks) navigating through a nighttime blizzard with extremely low visibility, heavy snowfall, and slick roads—clearly a dangerous low-visibility condition. Step 2: Slice 62 shows a white pickup truck driving slowly through a densely packed crowd during a nighttime spring break scene—clearly a dangerous crowded condition. Logic holds because both slices explicitly depict nighttime scenarios where vehicles are moving through hazardous conditions: one due to low visibility (blizzard) and the other due to crowd density (spring break).",
+        "visual_proof": "Clip 1 shows vehicles, including cars and large trucks, driving slowly with brake lights on in heavy snowfall at night, indicating low visibility. Clip 2 shows a white pickup truck on a street at night surrounded by a large, chaotic crowd of people, as indicated by the 'Battling Spring Break Chaos' graphic and the visual of people running and milling about."
+    },
+    {
+        "question": "A thermal-style view is used to show activity in one story, and an aerial drone view is used to monitor a beach area in another story. Which stories use these surveillance-style visuals?",
+        "answer": "Thermal imagery is used for the Spring Break crackdown segment, and drone/aerial views are used for Miami Beach cracking down on wild spring breakers.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 5 includes a thermal imaging view used in the spring break crackdown context. Step 2: Slice 68 shows police using a drone controller with aerial views of Miami Beach. Conclusion: Both are surveillance-style visuals tied to spring break enforcement coverage.",
+        "logic_check_reasoning": "Step 1: Slice 5 explicitly describes a Nightly News segment focused on a 'Spring Break Crackdown' that includes a thermal imaging view of a cityscape, indicating surveillance-style thermal imagery used for that story. Step 2: Slice 68 explicitly describes a Miami Beach story with the text 'MIAMI BEACH CRACKS DOWN ON WILD SPRING BREAKERS' and shows a police officer operating a drone with aerial views and a live feed monitoring the beach, confirming drone/aerial surveillance for that story. Logic holds because each slice directly ties the specific surveillance visual (thermal vs drone) to the named story.",
+        "visual_proof": "Clip 1 (0:07-0:11) clearly shows thermal imagery of a cityscape and beach area, overlaid with the text 'SPRING BREAK CRACKDOWN'. Clip 2 (0:00-0:03, 0:07-0:10, 0:11-0:12) features a drone flying over a street and beach, with its camera feed shown on a controller screen, under the headline 'MIAMI BEACH CRACKS DOWN ON WILD SPRING BREAKERS'."
+    },
+    {
+        "question": "An outdoor Gaza scene shows people reacting to supplies, and another Gaza scene shows an elderly man holding up a small container from an aid package. What common event links these two moments?",
+        "answer": "The U.S. airdropping aid into Gaza and civilians receiving or observing the dropped supplies.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows parachutes descending and a crowd watching near water. Step 2: Slice 24 shows an elderly man holding up a small yellow container from an aid package. Conclusion: Both moments are linked by the airdropped aid being received/observed by civilians.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows a news overlay reading 'U.S. BEGINS AIRDROPPING AID INTO GAZA,' parachutes carrying supplies descending, and a crowd on the ground observing the drops—indicating civilians reacting to the airdropped supplies. Step 2: Slice 24 shows a Gaza scene where an elderly man holds a small container identified as part of an airdropped aid package, with the same ticker about U.S. airdropping aid into Gaza. Logic holds because both moments are explicitly tied to the U.S. airdrop operation and depict civilians observing or receiving those supplies.",
+        "visual_proof": "Clip 1 visually shows multiple aid packages descending by parachute over a coastal area, with an on-screen news banner explicitly stating 'U.S. BEGINS AIRDROPPING AID INTO GAZA'. Clip 2 shows a crowd of civilians in Gaza, including an elderly man holding up a small container (presumably from an aid package), with the same news banner confirming the context. The common event linking these moments is the U.S. airdrop operation and the subsequent civilian interaction with the delivered aid."
+    },
+    {
+        "question": "The Gaza aid mission is shown being prepared inside aircraft and then shown arriving to civilians on the ground. What is the sequence from preparation to receipt?",
+        "answer": "Aid bundles are secured and loaded for airdrop, then parachutes deliver supplies, and civilians gather and handle items from the aid packages.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            22,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows bundles of aid supplies strapped inside a military aircraft ready for deployment. Step 2: Slice 22 shows multiple parachutes descending with supplies. Step 3: Slice 24 shows civilians gathered around an elderly man holding up an aid-item container. Conclusion: Preparation → aerial delivery → receipt/interaction by civilians.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows preparation inside the aircraft with large bundles of aid supplies secured with straps and ready for deployment, supporting 'Aid bundles are secured and loaded for airdrop.' Step 2: Slices 2 and 22 show parachutes descending from the sky carrying supplies, supporting 'then parachutes deliver supplies.' Step 3: Slice 22 shows civilians gathered observing the parachutes, and Slice 24 shows an elderly man holding a small yellow container from the aid package with a crowd around him, supporting 'civilians gather and handle items from the aid packages.' The sequence from preparation to delivery to civilian receipt is logically consistent and explicitly depicted.",
+        "visual_proof": "Clip 1 shows aid bundles secured inside an aircraft. Clip 2 shows these bundles being airdropped with parachutes. Clip 3 shows civilians on the ground gathering and handling the received aid items."
+    },
+    {
+        "question": "Miami Beach enforcement is shown with crowded nightlife footage, then technology-assisted monitoring, and then thermal imaging. What combined approach is depicted for managing spring break crowds?",
+        "answer": "On-the-ground policing amid crowds plus aerial/drone surveillance and thermal-style imaging to gauge crowd activity.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            65,
+            68,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows dense nighttime spring break crowds and the crackdown framing. Step 2: Slice 68 shows police operating a drone controller with aerial views and live feed. Step 3: Slice 69 shows thermal imaging of the beach area. Conclusion: The approach combines street-level response with aerial and thermal monitoring.",
+        "logic_check_reasoning": "Step 1: Slice 65 shows chaotic, crowded spring break scenes with a news overlay stating 'MIAMI BEACH CRACKS DOWN ON WILD SPRING BREAKERS,' indicating on-the-ground enforcement context among crowds. Step 2: Slice 68 explicitly shows a police officer operating a drone and live aerial feed of the beach, clearly supporting technology-assisted monitoring via aerial/drone surveillance. Step 3: Slice 69 shows a thermal imaging view of the beach used to highlight areas of activity, supporting thermal-style imaging to gauge crowd presence/activity. Logic holds because the sequence depicts ground-level enforcement context, plus drones, plus thermal imaging as a combined crowd-management approach.",
+        "visual_proof": "Clip 1 shows dense nighttime crowds on the street, indicating on-the-ground enforcement challenges. Clip 2 features police officers operating a drone with a controller showing live aerial footage of the beach, confirming aerial/drone surveillance. Clip 3 displays thermal imaging of a crowded beach area, which is used to monitor crowd density and activity. Together, these clips visually depict the combined approach described in the answer."
+    },
+    {
+        "question": "The 'Super Tuesday showdown' thread includes a studio tease, rally footage, and then results showing a projected winner. What is the progression shown across these segments?",
+        "answer": "It starts with a studio segment about a Super Tuesday clash, shows rally scenes with candidates and supporters, and then shows projected outcomes such as Donald Trump winning Idaho.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            42,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows a studio anchor with 'SUPER TUESDAY SHOWDOWN.' Step 2: Slice 42 shows rally footage of Nikki Haley and Donald Trump addressing crowds. Step 3: Slice 45 shows 'Idaho Projected Winner Donald Trump' with delegates awarded. Conclusion: Studio framing → campaign rallies → projected results.",
+        "logic_check_reasoning": "Step 1: Slice 41 shows a studio news anchor with the screen reading 'SUPER TUESDAY SHOWDOWN,' indicating a studio tease about the event. Step 2: Slice 42 shows rally footage of Nikki Haley and Donald Trump with supporters, aligning with candidate rally scenes ahead of Super Tuesday. Step 3: Slice 45 shows a results screen 'Idaho Projected Winner Donald Trump' and related footage, which matches the projected outcomes phase. The sequence matches the proposed progression: studio tease -> rallies -> projected results (Trump winning Idaho).",
+        "visual_proof": "Clip 1 shows the news anchor in the studio introducing the 'SUPER TUESDAY SHOWDOWN' with images of Trump and Haley. Clip 2 shows footage from rallies in Raleigh, NC (Haley) and Greensboro, NC (Trump), with crowds holding signs for both candidates. Clip 3 displays on-screen graphics declaring Donald Trump the 'PROJECTED WINNER' in Idaho and Missouri, followed by footage of him at a rally."
+    },
+    {
+        "question": "The train collision coverage shows wreckage near a river, responders in action, and later a studio graphic about the collision. How do these pieces together establish the story from field to studio?",
+        "answer": "Field visuals show derailed cars near a river and emergency response, and the studio later summarizes it as breaking news about three Norfolk Southern trains colliding.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            34,
+            35,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows extensive wreckage in a wooded area near a river and interviews. Step 2: Slice 35 shows emergency responders and boats reaching cars. Step 3: Slice 33 shows a studio anchor with the headline about three Norfolk Southern trains colliding. Conclusion: The story is built from field aftermath and response to studio framing.",
+        "logic_check_reasoning": "Step 1: Slice 34 describes on-site visuals: wreckage near a river, overturned cars, responders working, and interviews at the crash site, establishing field coverage. Step 2: Slice 35 reinforces field details: three Norfolk Southern trains collided, debris, emergency responders (including boats), and witness/responders interviews, confirming the emergency response and river context. Step 3: Slice 33 shows the studio segment with an anchor and a screen reading 'BREAKING NEWS: THREE NORTHERN SOUTHERN TRAINS COLLIDE,' summarizing the incident as breaking news. Logic holds because the field footage (Slices 34 and 35) provides the on-the-ground visuals and response, while the studio segment (Slice 33) presents the concise headline summary. The 'Northern Southern' naming is likely VLM noise; the event clearly matches Norfolk Southern from the field slices.",
+        "visual_proof": "Clip 1 shows wreckage of trains near a river with responders in boats. Clip 2 reinforces this with aerial views of the crash site, rescue efforts, and an on-screen graphic from Norfolk Southern confirming no public threat. Clip 3 transitions to the studio, where a news anchor reports the incident as 'BREAKING NEWS: THREE NORFOLK SOUTHERN TRAINS COLLIDE,' tying the field footage to the official summary."
+    },
+    {
+        "question": "A horse-on-highway segment shows a single animal walking among traffic, and another related segment explains the broader context involving multiple horses escaping. How do these two clips relate?",
+        "answer": "One clip shows the horse(s) on the roadway; the other explains they escaped from a nearby farm and caused traffic chaos.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            64,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a horse walking lane-to-lane on a highway with drivers avoiding it. Step 2: Slice 64 shows a studio anchor reporting horses running loose on a highway and mentions they escaped a farm. Step 3: Slice 82 returns to an NBC studio context as part of the broader broadcast flow. Conclusion: The roadway footage is contextualized by the anchor’s explanation of the escape and chaos.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a news segment with a single horse walking among highway traffic. Step 2: Slice 64 shows an anchor explaining that multiple horses escaped from a nearby farm and caused chaos on the highway, with footage of horses running and cars swerving. Logic holds because the first clip depicts the on-road incident, while the second provides the broader context and explanation for why horses were on the highway.",
+        "visual_proof": "Clip 1 visually confirms horses on a multi-lane highway, causing cars to slow down or stop. Clip 2 shows a news anchor reporting on this event with on-screen text 'HORSES ON THE LOOSE STOP HIGHWAY TRAFFIC,' which implies multiple horses and the resulting traffic disruption. The context provided by the news report connects the visual of the horses on the road to the broader story of an escape and its consequences."
+    }
+]

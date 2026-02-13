@@ -1,0 +1,168 @@
+[
+    {
+        "question": "What is sprinkled onto a pastry after it is brushed with a yellow liquid, and later what is sprinkled onto a baked loaf shown near the oven?",
+        "answer": "Sesame seeds are sprinkled onto the pastry, and sesame seeds are also on the baked loaf.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            69,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows sesame seeds sprinkled over egg-washed pastry. Step 2: Slice 85 shows a baked loaf with sesame seeds on its crust. Conclusion: Sesame topping appears both before and after baking.",
+        "logic_check_reasoning": "Step 1: Slice 69 describes a pastry being brushed with a yellow liquid (likely egg wash) and then explicitly says sesame seeds are sprinkled over the top. Step 2: Slice 85 describes a baked loaf with a golden-brown crust that is sprinkled with sesame seeds. Logic holds because both slices explicitly state sesame seeds are the sprinkled topping in each scenario.",
+        "visual_proof": "In Clip 1, a person's hand is seen taking white sesame seeds from a wooden bowl and sprinkling them over a raw dough that has been brushed with a yellow liquid (egg wash). In Clip 2, the final baked loaf, resting on a tray near an outdoor oven, is visibly topped with the same white sesame seeds."
+    },
+    {
+        "question": "What is manipulated inside the oven to manage heat, and what is later removed from the oven using a long-handled tool once baking is done?",
+        "answer": "The embers are stirred/adjusted, and later baked flatbread is removed on a tray using a long-handled tool/peel.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            71,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 71 shows a tool stirring embers inside the oven. Step 2: Slice 77 shows a gloved hand using a long-handled tool to remove baked flatbread. Conclusion: Heat management is followed by retrieval of baked goods.",
+        "logic_check_reasoning": "Step 1: Slice 71 explicitly states that a long wooden stick with a metal hook is used to manipulate, stir, and adjust the embers inside the oven, which logically relates to managing heat. Step 2: Slice 77 explicitly shows a round, golden-brown flatbread on a metal tray being removed from the oven using a long-handled tool. Logic holds because the first action manages the oven's heat by adjusting embers, and later a baked flatbread is removed with a long-handled tool, matching the proposed answer.",
+        "visual_proof": "In Video 1, a long-handled tool (peel) is visibly used to stir and adjust the glowing embers inside the oven. In Video 2, a baked flatbread on a round metal tray is shown inside the oven, and then the same type of long-handled tool is used to remove it, confirming both parts of the answer."
+    },
+    {
+        "question": "Which rustic structure appears near stacked logs earlier, and later which cooking structure is used to bake bread or pastries?",
+        "answer": "A rustic wooden house/cabin appears earlier, and later a stone/brick oven is used for baking.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a wooden house with logs stacked nearby. Step 2: Slice 77 shows a stone oven being used to remove baked flatbread. Conclusion: The video features a rustic house and later a working baking oven.",
+        "logic_check_reasoning": "Step 1: Slice 17 describes a rustic wooden house in a forest with several large logs stacked in front, so the earlier rustic structure near the logs is a wooden house/cabin. Step 2: Slice 77 shows a stone oven made of rough-hewn bricks being used to bake a round flatbread, so the later cooking structure is a stone/brick oven used for baking bread. Logic holds because each slice explicitly mentions the structures and their contexts.",
+        "visual_proof": "Clip 1 shows a wooden cabin with a thatched roof situated near a large sculpture made of stacked logs in a grassy, mountainous area. Clip 2 clearly shows a rustic stone/brick oven with an arched opening, inside which a golden-brown baked good (likely bread or pastry) rests on a metal tray, confirming its use for baking."
+    },
+    {
+        "question": "What tool is used early on to cut logs, and what different tool is later used to spread a topping over rolled-out dough?",
+        "answer": "A chainsaw is used to cut logs, and a wooden spoon is used to spread the topping over the dough.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a person cutting wood with a chainsaw. Step 2: Slice 64 shows a man using a wooden spoon to spread a nut/seed mixture on dough. Conclusion: The tools differ—chainsaw for logs, spoon for dough topping.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly states the person is cutting wood using a chainsaw, which directly answers the first part about cutting logs. Step 2: Slice 64 explicitly states the man is using a wooden spoon to spread a mixture onto a large, flat piece of dough, which supports the second part about spreading a topping over rolled-out dough. Logic holds because each slice clearly identifies the specific tool and action described in the question.",
+        "visual_proof": "In Video 1, a person is clearly using a red and white chainsaw to cut through a log. In Video 2, the same person uses a light-colored wooden spoon to scoop and spread a dark, textured topping onto a flat sheet of dough laid out on a wooden board."
+    },
+    {
+        "question": "After the man chops onions at the outdoor table, what later ingredient is added into sizzling melted butter in a pan?",
+        "answer": "Chopped garlic is added into the melted butter.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows the man chopping onions at the prep table. Step 2: Slice 33 shows chopped garlic being poured into sizzling melted butter. Conclusion: After onion prep, garlic is later added to butter in a pan.",
+        "logic_check_reasoning": "Step 1: Slice 20 describes the man chopping onions at an outdoor table, setting the earlier context. Step 2: Slice 33 shows a pan with sizzling melted butter into which a hand pours chopped garlic, and the garlic sizzles in the butter. Logic holds because the later step explicitly identifies the ingredient added to the butter as chopped garlic.",
+        "visual_proof": "In Video 1, the man is shown chopping onions on a wooden table outdoors. In Video 2, a hand is seen adding chopped white pieces from a small bowl into a pan containing sizzling melted butter. The texture and shape of the pieces are consistent with chopped garlic, and this action directly follows the onion preparation in the sequence."
+    },
+    {
+        "question": "What two different “water sources” are shown, and how are they used in different contexts—one as scenery and one for cleanliness during cooking?",
+        "answer": "A flowing clay-pot water feature is shown as scenery, and a small stream/waterfall is used for washing hands during cooking.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a clay pot with water flowing over rocks. Step 2: Slice 46 shows the man washing hands at a stream/water source. Conclusion: Water appears both decoratively and functionally for hygiene.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 describes a large clay pot with water flowing down rocks in an outdoor setting, emphasizing a calm, peaceful atmosphere. This clearly serves as a scenic water feature. Step 2: Evidence Slice 46 states the man bends near a small stream or water source and washes his hands under running water, which is explicitly for cleanliness during cooking. Logic holds because the two slices describe distinct water sources with different uses: one as scenery (clay-pot water feature) and one for washing hands (small stream). The proposed answer aligns with these details.",
+        "visual_proof": "Clip 1 shows a cracked terracotta jug pouring water over rocks, functioning as a decorative water feature. Clip 2 shows the same man washing his hands in a natural rock-lined stream before returning to prepare food at a table, indicating its use for cleanliness during cooking."
+    },
+    {
+        "question": "What animal is first shown grazing in a close-up before the man works on a stump, and later what animal is fed a piece of bread by the man?",
+        "answer": "A goat is shown grazing first, and later a dog is fed bread.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 10 begins with a goat grazing before the stump-cutting sequence. Step 2: Slice 59 shows the man feeding a dog bread. Conclusion: The animals featured are a goat early and a dog later.",
+        "logic_check_reasoning": "Step 1: Slice 10 states the video begins with a close-up of a goat grazing before showing a man working on a stump. Step 2: The man is described with a black shirt and hat, consistent across slices. Step 3: Slice 59 clearly says the man feeds a dog a piece of bread. Logic holds because the first animal shown is a goat, and later the animal fed bread is a dog, matching the proposed answer.",
+        "visual_proof": "In Video 1 (0.2s), a brown and white goat with horns is seen grazing in tall grass. In Video 2 (0.2s), the same man feeds a piece of bread to a shaggy, light-colored dog that is standing on its hind legs."
+    },
+    {
+        "question": "Which ingredient is crushed with the flat side of a knife during prep, and later which tool is used to brush a yellow liquid over a pastry?",
+        "answer": "Garlic is crushed with the knife, and a red brush is used to apply the yellow liquid (egg wash).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows garlic being crushed with the flat side of a knife. Step 2: Slice 69 shows a red brush spreading a yellow liquid over pastry. Conclusion: The prep tool changes from knife-crush to brush-application.",
+        "logic_check_reasoning": "Step 1: Slice 27 states that garlic cloves are crushed using the flat side of a knife. Step 2: Slice 69 describes a red brush being used to spread a yellow liquid over a pastry. Logic holds because the first part identifies the ingredient and method (garlic crushed with knife), and the later scene specifies the tool (red brush) used to apply the yellow liquid.",
+        "visual_proof": "In Video 1 (0:02), a person uses the flat side of a large knife to crush garlic cloves on a wooden board. In Video 2 (0:01), the same person uses a red silicone brush to apply a yellow liquid, identified as egg wash from context, onto a rolled pastry."
+    },
+    {
+        "question": "What is being chopped before the man washes his hands under running water, and what does he chop right after returning to the table?",
+        "answer": "He chops onions before washing, and then he chops a mushroom afterward.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 22 focuses on chopping onions. Step 2: Slice 23 shows the man washing hands under a small waterfall/stream. Step 3: Slice 24 shows chopping mushrooms and handling minced meat. Conclusion: The ingredient changes from onion to mushroom around the hand-washing step.",
+        "logic_check_reasoning": "Step 1: Slice 23 states the video opens with finely chopped onions and then shows the man washing his hands under a stream. Step 2: Slice 23 continues that after washing, he returns to the table and begins chopping a mushroom. Step 3: Slice 22 also shows onion chopping, and Slice 24 confirms mushroom chopping afterward. The sequence is consistent: onions before washing, mushroom after returning.",
+        "visual_proof": "In Clip 1, the man is visibly chopping an onion on a wooden board. In Clip 2, the sequence shows him washing his hands under a stone fountain (at 0:02), and immediately after returning to the table (at 0:03-0:04), he begins chopping a mushroom with the same knife."
+    },
+    {
+        "question": "Which animal is shown in the forest floor scene, which animal later sits under the prep table, and which animal is later shown grazing in a mountain field?",
+        "answer": "A goat is shown first, then the same goat sits under the table, and later calves are grazing in a mountain field.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            52,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a goat lying and chewing on the forest floor. Step 2: Slice 52 shows a dog sitting under the table during bread prep. Step 3: Slice 78 shows two calves grazing in a field. Conclusion: Multiple animals appear across the timeline: goat, dog, and calves.",
+        "logic_check_reasoning": "Step 1: Slice 5 Scene 2 describes a goat lying on a forest floor with dry leaves and twigs, chewing, so the forest floor scene features a goat. Step 2: Slice 52 explicitly mentions a dog sitting under the outdoor prep table while bread is being prepared. Step 3: Slice 78 shows two calves grazing in a field with mountains visible, so the animals later shown grazing are calves. The answer aligns exactly with the explicit details from each slice.",
+        "original_text_answer": "A goat is shown first, then a dog sits under the table, and later calves are grazing in a mountain field.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a long-haired goat lying on the forest floor. Clip 2 shows the identical-looking goat sitting under the prep table. Clip 3 shows two calves grazing in a mountain field. The original answer incorrectly identifies the animal under the table as a dog, when it is visually the same goat from the first clip."
+    },
+    {
+        "question": "What earlier action helps create prepared firewood for cooking, and later which cooking step uses that heat to simmer a large cut of meat in liquid?",
+        "answer": "Earlier, the man cuts/splits wood into usable pieces; later, he cooks a large cut of meat in a pan of simmering liquid, lifting and coating it repeatedly.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            8,
+            31,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows cutting logs with a chainsaw. Step 2: Slice 8 shows splitting wood with a maul. Step 3: Slice 31 shows lighting the fire for cooking. Step 4: Slice 38 shows a large cut of meat being cooked in bubbling liquid and handled with wooden spatulas. Conclusion: Wood processing enables the fire that powers later meat cooking.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a man cutting a large log with a chainsaw, and Slice 8 shows him splitting wood with a maul—both actions create usable firewood. Step 2: Slice 31 shows prepared firewood being arranged and the fire pit being lit, reinforcing the idea of firewood for cooking. Step 3: Slice 38 depicts cooking a large cut of meat in a pan of simmering liquid and the person lifting and coating the meat repeatedly. The proposed answer matches these: earlier wood cutting/splitting for firewood, later the cooking step involving simmering and repeatedly lifting/coating the meat. The logic holds based on the explicit visuals.",
+        "visual_proof": "Clip 1 and 2 show the man using a chainsaw to cut logs into smaller pieces, preparing firewood. Clip 3 shows him placing kindling into a metal stove, which is part of preparing the fire for cooking. Clip 4 clearly shows him using wooden utensils to lift and turn a large cut of meat in a pan filled with simmering liquid, indicating the cooking step."
+    },
+    {
+        "question": "What is the sequence of turning raw ingredients into tea: what vessel heats water, what is added for infusion, where is the teapot kept warm, and what shows the tea being enjoyed?",
+        "answer": "A samovar heats water, loose tea leaves are added to infuse, the teapot is kept on top of the samovar's base, and later the man drinks tea from a glass.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            53,
+            54,
+            55,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 53 shows hot water from a samovar poured into a glass teapot and herbs added. Step 2: Slice 54 shows the teapot placed on a clay stove to steep/keep warm. Step 3: Slice 55 shows tea being handled with a glass cup and the kettle returning to the fireplace steaming. Step 4: Slice 57 shows the man drinking tea while eating bread. Conclusion: Heating + herbs + warming leads to tea being consumed.",
+        "logic_check_reasoning": "Step 1: Slice 53 shows the man using a metallic samovar to pour hot water, explicitly identifying the vessel used to heat water. Step 2: Slice 53 also shows him scooping dried herbs from a basket and adding them to the glass teapot, confirming the infusion ingredient. Step 3: Slice 54 shows the glass teapot being placed on a traditional clay stove, with steam indicating it is kept warm for steeping. Step 4: Slice 57 shows the man drinking tea from a glass, demonstrating the tea being enjoyed. Slice 55 introduces a kettle and stone fireplace, but it does not contradict the sequence supported by Slices 53, 54, and 57.",
+        "original_text_answer": "A samovar heats water, dried herbs are added to infuse, the teapot is kept on a clay stove, and later the man drinks tea from a glass.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the man using a samovar. Clip 2 shows tea leaves being poured into a glass teapot and then the teapot being placed on the samovar's heated base. Clip 3 shows the man pouring the brewed tea from the teapot into a glass and adding hot water from the samovar. Clip 4 shows the man drinking from the glass. The infusion ingredient is clearly tea leaves, not dried herbs, and the teapot is warmed on the samovar, not a separate clay stove."
+    }
+]

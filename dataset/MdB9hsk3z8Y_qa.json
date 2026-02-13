@@ -1,0 +1,41 @@
+[
+    {
+        "question": "Which island is depicted first as a Detroit–Windsor area map and later as an aerial island park between those two cities?",
+        "answer": "Belle Isle.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a digital map labeled with Detroit and Windsor. Step 2: Slice 12 shows the aerial view of Belle Isle described as between Detroit and Windsor. Conclusion: The island is Belle Isle.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a digital map labeled with \"Detroit\" and \"Windsor,\" indicating the Detroit–Windsor area, with a river and bridges, establishing the geographic context. Step 2: Slice 12 explicitly identifies the aerial view as Belle Isle, a large island in the Detroit River between Detroit and Windsor, described as a park-like space. Logic holds because the question asks which island is shown in the Detroit–Windsor area map and then as an aerial island park; Slice 12 directly names Belle Isle in that exact location.",
+        "visual_proof": "Clip 1 displays a map of the Detroit-Windsor area with 'Belle Isle' clearly labeled in the middle of the river. Clip 2 shows an aerial view of a large, park-like island situated between two urban areas, consistent with the geography shown in Clip 1. The name 'Belle Isle' is visible on the map in Clip 1, directly identifying the island shown in Clip 2."
+    },
+    {
+        "question": "The video shows a riverfront bridge walkway and later shows a sports island connected by bridges. What is the sports facility highlighted on that island in the later scene?",
+        "answer": "A baseball stadium (baseball field/stadium complex).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 21 establishes an urban river setting with a bridge crossing water. Step 2: Slice 24 shows a baseball stadium next to a river with a bridge in the background. Conclusion: The later highlighted facility is a baseball stadium.",
+        "logic_check_reasoning": "Step 1: Slice 21 describes a riverfront steel truss bridge walkway, establishing the bridge/river context early in the video. Step 2: Slice 24 later shows a sports facility near the river with a bridge visible, and explicitly identifies it as a baseball stadium, detailing the field, seating, scoreboard, and other baseball-specific features. Logic holds because the later scene clearly highlights a baseball stadium in the riverfront setting connected by bridges, matching the question's description of a sports island setting.",
+        "visual_proof": "Clip 1 shows a pedestrian truss bridge over a river, establishing the riverfront setting. Clip 2 provides an aerial view of a large, well-maintained green field with a distinct diamond-shaped infield, pitcher's mound, and surrounding bleachers and fencing, which are all characteristic features of a baseball stadium. The stadium is situated on land adjacent to a wide river, connected by bridges visible in the background, matching the description of a 'sports island'."
+    },
+    {
+        "question": "The video introduces Kodiak Island on a map and later shows a large brown bear with an on-screen weight range. What weight range is displayed for the bear?",
+        "answer": "300–600 kg.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 40 sets the Kodiak Island context. Step 2: Slice 46 shows a brown bear with the text “(300-600kg).” Conclusion: The displayed range is 300–600 kg.",
+        "logic_check_reasoning": "Step 1: Slice 40 establishes the video context by introducing Kodiak Island on a map. Step 2: Slice 46 describes a large brown bear and explicitly states that on-screen text shows the bear's weight range as '(300-600kg)'. The proposed answer '300–600 kg' matches the displayed range in Slice 46. The logic holds because the sequence described in the question aligns with the slices, and the weight range is explicitly provided.",
+        "visual_proof": "In the second video clip, a large brown bear is shown sitting in a grassy area. At timestamp 0:05, yellow text appears on the screen directly below the bear, clearly displaying the weight range \"(300-600kg)\"."
+    }
+]

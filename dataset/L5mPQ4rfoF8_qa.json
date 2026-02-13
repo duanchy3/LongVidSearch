@@ -1,0 +1,41 @@
+[
+    {
+        "question": "What exhibition title appears on a wall early on and then later reappears on a formal title card with dates and a location?",
+        "answer": "“The Tudors: Art and Majesty in Renaissance England.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a wall title reading “The Tudors: Art and Majesty in Renaissance England.” Step 2: Slice 92 shows a title card with the same exhibition title plus dates and “At The Met Fifth Avenue.” Conclusion: The repeated title is “The Tudors: Art and Majesty in Renaissance England.”",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a museum exhibit where a wall features the title \"The Tudors: Art and Majesty in Renaissance England.\" Step 2: Slice 92 shows a formal title card that again displays \"The Tudors: Art and Majesty in Renaissance England\" along with dates (October 10, 2022 – January 8, 2023) and a location (The Met Fifth Avenue). Logic holds because the same exhibition title appears first on the wall and then later on the title card with additional details.",
+        "visual_proof": "In Clip 1, the text 'the Tudors Art and Majesty in Renaissance England' is clearly visible on a gallery wall at timestamps 0:06-0:15. In Clip 2, the same full title appears on a formal title card at 0:06-0:14, accompanied by the exhibition dates and location."
+    },
+    {
+        "question": "Which repeated visitor pair appears both walking through the exhibit earlier and later standing by and discussing objects like textiles and display cases?",
+        "answer": "A man in a suit and a woman in a brown coat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows two visitors: a man in a suit and a woman in a brown coat walking through the gallery. Step 2: Slice 50 shows the same clothing pair standing together discussing a displayed vestment. Conclusion: The recurring pair is the suited man and the woman in a brown coat.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes two visitors walking through the gallery: a man in a suit and a woman in a brown coat. Step 2: Slice 50 shows two individuals standing by the chasuble and discussing it: a man in a suit and tie and a woman in a brown jacket. Logic holds because the clothing and roles align (man in suit; woman in brown outerwear), and the instructions allow minor naming differences (coat vs. jacket). Therefore, the same pair appears earlier walking and later discussing the exhibit.",
+        "visual_proof": "The same man in a grey plaid suit with a blue tie and the same woman in a textured brown coat are seen walking together at the beginning of Clip 1 (0:00-0:02). They reappear later in Clip 1, standing and discussing the exhibits (0:04, 0:06, 0:10, 0:22). The same pair is also shown standing and smiling together in front of a display case in Clip 2 (0:08-0:09), confirming their repeated presence throughout the video."
+    },
+    {
+        "question": "Early on the gallery is introduced as 'Power and Pageantry,' and later a formal title card announces 'Art and Majesty.' What overarching historical subject stays consistent across both titles?",
+        "answer": "The Tudors (Renaissance England).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces a Tudor-focused gallery with the title “Tudors: Power and Pageantry.” Step 2: Slice 92 presents the exhibition title “The Tudors: Art and Majesty in Renaissance England.” Conclusion: Both titles consistently focus on the Tudors in Renaissance England.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the gallery entrance features the inscription 'Tudors: Power and Pageantry' with a focus on 16th-century England. Step 2: Slice 92 shows a title card reading 'The Tudors: Art and Majesty in Renaissance England.' Logic holds because both titles explicitly center on 'The Tudors,' and the geographic/temporal context (16th-century/Renaissance England) is consistent across slices.",
+        "visual_proof": "In Clip 1, the gallery wall clearly displays the title 'The Tudors: Art and Majesty in Renaissance England.' In Clip 2, the formal title card for the exhibition also reads 'the Tudors: Art and Majesty in Renaissance England,' confirming that 'The Tudors' is the consistent historical subject across both titles mentioned in the question."
+    }
+]

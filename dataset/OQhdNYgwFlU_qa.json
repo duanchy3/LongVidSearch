@@ -1,0 +1,140 @@
+[
+    {
+        "question": "Which host is seated in front of a bookshelf with a globe, and which host is seated in front of green curtains with a radiator underneath?",
+        "answer": "The tattooed man in a gray T-shirt is in front of the bookshelf with a globe, while the bald man in a black/dark shirt is in front of green curtains with a radiator underneath.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a tattooed man in a gray T-shirt in front of a bookshelf with a globe. Step 2: Slice 2 shows a bald man in a black shirt in front of green curtains with a radiator. Conclusion: These are the two recurring setups/hosts.",
+        "logic_check_reasoning": "Step 1: Slice 1 states a man with a tattoo wearing a gray t-shirt is seated in front of a bookshelf that includes a globe. Step 2: Slice 2 states a bald man wearing a black shirt is seated in front of green curtains with a radiator beneath the window. The proposed answer assigns the bookshelf with globe to the tattooed man in a gray t-shirt (Slice 1) and the green curtains with radiator to the bald man in a black/dark shirt (Slice 2). Both mappings match the explicit details in the slices.",
+        "visual_proof": "In Video 1, the man with tattoos on his left arm, wearing a gray t-shirt, is seated directly in front of a wooden bookshelf that contains books, a framed picture, and a globe. In Video 2, the bald man wearing a black long-sleeved shirt is seated in front of olive-green curtains; a white radiator is clearly visible along the bottom edge of the frame beneath him."
+    },
+    {
+        "question": "What is the name shown on the title/intro, and which host appears immediately after it in the bookshelf setting?",
+        "answer": "The title/intro says \"Tinfoil Tuesdays,\" and afterward the tattooed man in a gray T-shirt appears in the bookshelf setting.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 4 displays the animated intro with the words \"Tinfoil Tuesdays.\" Step 2: Slice 5 shows the gray-shirt, tattooed host speaking in front of the bookshelf. Conclusion: The intro title is followed by the bookshelf host.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes the intro with text 'Tinfoil Tuesdays' appearing above a cartoon face. Step 2: Slice 5 confirms the video begins with a title card reading 'Tinfoil Tuesdays' and then shows a man in a gray t-shirt with a tattoo seated in front of a bookshelf. Logic holds because the title is explicitly named and the immediate follow-up host is clearly described in the bookshelf setting.",
+        "visual_proof": "Clip 1 ends with the text 'Tinfoil Tuesdays' appearing above an animated character. Clip 2 immediately follows, showing a real man with visible tattoos on his left arm, wearing a gray T-shirt, sitting in front of a bookshelf. This confirms both parts of the answer are visually supported by the sequence of clips."
+    },
+    {
+        "question": "Besides the red \"Pilotto\" book, what other titled book does the bald host hold up later?",
+        "answer": "He also holds up a book titled \"The Face on Mars\" by P. F. Filotto.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows the bald host holding up a red book titled \"Piloto.\" Step 2: Slice 26 shows the bald host holding up \"The Art of War\" by Sun Tzu. Conclusion: The bald host presents different books at different times.",
+        "logic_check_reasoning": "Step 1: Slice 16 confirms the bald host holds up a red book titled 'Piloto' (minor naming variation vs. 'Pilotto' is acceptable per instructions). Step 2: Slice 26 explicitly states the same man later picks up and holds up a book titled 'The Art of War' by Sun Tzu. The setting and subject match across slices, and the second book title is clearly identified. Therefore, the context supports the proposed answer.",
+        "original_text_answer": "He also holds up \"The Art of War\" by Sun Tzu.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 2, at timestamp 0:06, the host holds up a second book. The cover is clearly visible and shows the title \"THE FACE ON MARS\" and the author's name \"FILOTTO\"."
+    },
+    {
+        "question": "When the bald host smiles during his talk, what piece of wall decor is also visible in that same setup earlier in the video?",
+        "answer": "A framed picture on the wall is visible in that setup.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows the bald host with green curtains and a framed picture on the wall in the background. Step 2: Slice 37 shows the bald host in the same setup smiling while talking. Conclusion: The smile moment occurs in the setup that includes a framed picture.",
+        "logic_check_reasoning": "Step 1: Slice 37 describes the bald man smiling during his talk and explicitly notes that the background includes a framed picture on the wall. Step 2: Slice 18 describes the same setup earlier in the video (bald man, black shirt, green curtains, radiator) and also mentions a framed picture on the wall. Logic holds because both slices refer to the same environment and confirm the presence of the framed picture as wall decor.",
+        "visual_proof": "In both video clips, a piece of wall decor, which appears to be a framed picture or map with a light-colored mat and frame, is consistently visible on the white wall to the right of the bald host. This decor is present throughout the entire duration of both clips, including moments where the host is speaking and gesturing, establishing its presence in the setup."
+    },
+    {
+        "question": "Which host’s background includes space-themed wall art like an Earth-from-space poster and an astronaut image?",
+        "answer": "The tattooed host in the gray T-shirt (the bookshelf setup) has the Earth-from-space poster and astronaut/space-suit imagery behind him.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the bookshelf host with framed Earth/space imagery. Step 2: Slice 11 again shows the bookshelf host with an Earth poster and astronaut poster. Conclusion: Space-themed wall art belongs to the bookshelf host’s environment.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a man in a gray t-shirt with tattoos, seated before a bookshelf, with a framed picture of Earth from space and another framed image of a person in a spacesuit behind him. Step 2: Slice 11 reiterates the same setup—gray t-shirt, tattoos, bookshelf—with a poster of Earth from space and another poster featuring an astronaut. Logic holds because both slices consistently attribute the space-themed wall art to the tattooed host in the gray t-shirt with the bookshelf background, matching the proposed answer.",
+        "visual_proof": "In both video clips, the man in the gray T-shirt with a visible tattoo on his left arm is seated in front of a wooden bookshelf. To his right (viewer's left), there is a large poster of Earth as seen from space, showing city lights at night. Above that poster, there is another piece of art depicting an astronaut or spaceman in a suit against a starry background. These elements are consistently visible in both clips."
+    },
+    {
+        "question": "Which host’s scene includes a framed item that reads \"Our Adventures/Our Adventure,\" and what other prominent object is on the shelves nearby?",
+        "answer": "The tattooed gray-shirt host’s bookshelf scene includes the \"Our Adventures\" frame, and a globe is also prominently on the shelves.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 5 mentions a framed picture with the words \"Our Adventures\" on the bookshelf. Step 2: Slice 40 describes the same bookshelf environment including a globe and the framed \"Our Adventure\" item. Conclusion: The bookshelf host’s set includes that frame and the globe.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a man in a gray t-shirt with a tattoo, seated before a bookshelf that includes a framed picture reading 'Our Adventures' and mentions a globe among the items. Step 2: Slice 40 also describes a gray t-shirt, tattooed man in a similar setting, explicitly noting a framed picture labeled 'Our Adventure' and that a globe sits prominently on a shelf. Logic holds because both slices describe the same host/scene with the 'Our Adventures/Our Adventure' frame and a prominently placed globe.",
+        "visual_proof": "In both video clips, the host is visible wearing a gray t-shirt with tattoos on his left arm. On the shelf to his left (viewer's right), there is a framed picture with text that reads \"DAD! You are... OUR SUPERHERO!\" which is likely what was intended by \"Our Adventures/Our Adventure\". To the host's right (viewer's left), a large globe is clearly visible on the middle shelf."
+    },
+    {
+        "question": "Across the video, which two recurring environments alternate, and what are their defining background features?",
+        "answer": "The video alternates between a bookshelf office (books, globe, space posters) with the tattooed gray-shirt host and a green-curtain window setup (green/olive curtains, radiator, plain wall) with the bald host.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            2,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 1 establishes the bookshelf environment with a globe and space posters behind the gray-shirt host. Step 2: Slice 2 establishes the green-curtain/radiator environment behind the bald host. Step 3: Slice 40 further reinforces the defining shelf objects and space-themed decor in the bookshelf environment. Conclusion: Two recurring sets alternate throughout.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes a man in a gray t-shirt with a tattoo, seated before a bookshelf with a globe and space-themed posters (Earth from space, astronaut). Step 2: Slice 40 reiterates the same setting—gray t-shirt, tattoos, shelves with books, a globe, and space-related decor—showing this environment recurs. Step 3: Slice 2 describes a different setting: a bald man in a black shirt in front of a window with green curtains, a white wall, and a radiator beneath the window. Step 4: The proposed answer identifies these two environments and their defining features accurately, matching the visual details from the slices. The notion of alternation is supported by the presence of both environments across the slices, with the first clearly recurring.",
+        "visual_proof": "Clip 1 and Clip 3 show the same man in a gray shirt with tattoos, seated in front of a wooden bookshelf filled with books, a globe, and space-themed posters. Clip 2 shows a different, bald man in a black shirt seated in front of olive-green curtains, with a white radiator visible below and a plain wall to his right. The distinct backgrounds and different hosts confirm the alternating environments described."
+    },
+    {
+        "question": "Which host is shown in a minimal green-curtain setup with a wall calendar/poster on the right, and how is this consistent across two separate moments?",
+        "answer": "The bald host appears with the wall calendar/poster to the right in the green-curtain setup in both moments.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            26,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows the bald host with green curtains and a partially visible wall-mounted calendar/poster on the right. Step 2: Slice 26 shows the bald host in the same environment while presenting a book. Step 3: Slice 50 again shows the bald host with green curtains and the wall-mounted calendar/poster on the right. Conclusion: The same minimal set recurs with the same background feature.",
+        "logic_check_reasoning": "Step 1: Slice 24 describes a bald man in a black long-sleeved shirt seated in front of olive-green curtains, with a partially visible wall-mounted calendar or poster on the right. Step 2: Slice 50 similarly describes the same setup: a bald man in a black long-sleeved shirt, olive-green curtains, and a wall-mounted calendar or poster on the right. Step 3: Slice 26 also matches the setup, noting olive-green curtains and a poster or artwork on the right. Logic holds because the visual attributes (bald host, green curtains, right-side calendar/poster) are consistent across at least two separate moments (e.g., Slices 24 and 50), supporting the claim of consistency.",
+        "visual_proof": "In all three clips, the same bald man is seated in front of a consistent background featuring olive-green curtains and a white wall. On the right side of the frame, a large, light-colored poster or calendar with a brownish image is visible on the wall. This setup remains unchanged across the different time slices, confirming the consistency mentioned in the answer."
+    },
+    {
+        "question": "If you wanted to cite both the show title and the end identity card, what two names would you mention, and what type of visuals present each name?",
+        "answer": "You would mention \"Tinfoil Tuesdays\" (shown as an animated title card) and \"Sci Man Dan\" (shown as an animated character identity screen).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            5,
+            65,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 4 presents \"Tinfoil Tuesdays\" as an animated intro/title. Step 2: Slice 5 continues the episode with a host segment following that title. Step 3: Slice 65 shows an animated identity labeled \"Sci Man Dan.\" Step 4: Slice 40 reinforces the talk-show/host format in the main content. Conclusion: Two names appear with two distinct animated branding visuals.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes the opening visuals with animated cosmic background, a cloud morphing into a face, and the text 'Tinfoil Tuesdays' integrated into the scene—this supports it being an animated title card. Step 2: Slice 5 explicitly states the video begins with a title card reading 'Tinfoil Tuesdays' accompanied by an illustration, reinforcing the show title as an animated title card. Step 3: Slice 65 presents an animated character with a circular emblem displaying 'Sci Man Dan,' which serves as an identity screen for the presenter; this aligns with the notion of an identity card and is clearly an animated character identity screen. Step 4: Slice 40 provides consistent context about the video’s speaker but is not necessary for the titles; the essential evidence is in Slices 4, 5, and 65. Logic holds because the names and their presentation formats are explicitly supported by these slices.",
+        "visual_proof": "Clip 1 shows the text \"Tinfoil Tuesdays\" appearing in a stylized font over an animated cartoon of a man's head with tinfoil on it, which functions as a title card. Clip 3 displays the text \"Sci Man Dan\" next to a cartoon avatar of a man against a blue, networked background, serving as an identity or branding screen. Both names are presented via distinct animated graphics."
+    },
+    {
+        "question": "Which host’s environment contains repeated space exploration imagery, and how is this reinforced both before and after a lunar-surface cutaway?",
+        "answer": "The tattooed gray-shirt host’s bookshelf environment contains the space imagery, shown before the lunar crater cutaway and again afterward with Earth/astronaut posters visible.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            11,
+            36,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the bookshelf host with space-themed framed images. Step 2: Slice 11 again shows Earth-from-space and astronaut posters behind him. Step 3: Slice 36 cuts away to a lunar crater. Step 4: Slice 38 returns to the bookshelf host still framed by the same space posters. Conclusion: The host’s set visually contextualizes and brackets the lunar cutaway.",
+        "logic_check_reasoning": "Step 1: Slices 3 and 11 describe a man in a gray t-shirt with tattoos in front of a bookshelf, with visible space-themed items: a framed/pictured Earth from space and an astronaut image/poster. Step 2: Slice 36 shows a lunar crater close-up, serving as the lunar-surface cutaway. Step 3: Slice 38 returns to the same man and environment, again noting the Earth and astronaut posters. Logic holds because the same host environment with space imagery is shown before (Slices 3/11) and after (Slice 38) the lunar cutaway (Slice 36), matching the proposed answer.",
+        "visual_proof": "Clips 1, 2, and 4 show the same man in a gray shirt with a tattoo on his left arm, seated in front of a bookshelf. On the wall to his right, posters depicting space exploration (a shuttle launch, an astronaut, and Earth from space) are consistently visible. Clip 3 is a black-and-white cutaway image of a lunar crater. The space-themed posters are present in the frames immediately preceding (Clip 2) and following (Clip 4) this cutaway, reinforcing the theme."
+    }
+]

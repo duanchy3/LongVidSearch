@@ -1,0 +1,43 @@
+[
+  {
+    "question": "Two different works portray Ferdinand VII in a military-style portrait. In the later depiction, what royal object is placed on his lap?",
+    "answer": "A crown.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      34
+    ],
+    "reasoning_chain": "Step 1: An 1814 portrait of Ferdinand VII appears as a military-uniform portrait. Step 2: Another 1814 portrait shows him seated with a crown on his lap. Conclusion: The later depiction includes a crown resting on his lap.",
+    "logic_check_reasoning": "Step 1: Slice 8 describes a painting titled \"Fernando VII\" (1814) showing him in a military-style uniform; no object on his lap is mentioned. Step 2: Slice 34 describes another painting titled \"Ferdinand VII\" (1814), also in military-style regalia, and explicitly states that \"A crown rests on the figure's lap.\" Logic holds because the two slices depict the same historical figure in similar military-style portraits (name variation is acceptable), and the later depiction (as presented later in the video/context) clearly includes a crown on his lap.",
+    "visual_proof": "In the second clip, which shows the later portrait of Ferdinand VII (1814), a golden royal crown with red velvet lining is clearly visible resting on his lap, to his right side. The first clip shows an earlier, bust-style portrait without any such object."
+  },
+  {
+    "question": "The video shows the horrors of war through etchings of executions and also through a major painting of an execution. Across these depictions, what weapon do the executioners use to kill the victims?",
+    "answer": "Rifles/muskets (a firing squad).",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      23,
+      70
+    ],
+    "reasoning_chain": "Step 1: An etching shows a soldier shooting a bound person with a rifle at close range. Step 2: 'The Third of May 1808' shows soldiers aiming muskets/rifles at civilians. Conclusion: The execution method uses rifles/muskets.",
+    "logic_check_reasoning": "Step 1: Slice 23 explicitly describes a soldier aiming a rifle at close range and shooting a victim, indicating the executioners use rifles. Step 2: Slice 70 describes a line of soldiers aiming their rifles at civilians in an execution scene, consistent with a firing squad. Logic holds because both depictions identify rifles as the weapon used by the executioners; the notion of a firing squad is supported by the line of soldiers aiming in Slice 70.",
+    "visual_proof": "In Clip 1, the etching 'And There's Nothing to be Done' clearly shows a group of soldiers aiming long-barreled firearms, consistent with muskets or rifles, at a bound victim. In Clip 2, Goya's painting 'The Third of May 1808' depicts a line of soldiers in uniform holding and aiming similar long-barreled firearms directly at a civilian victim. Both visual depictions show a firing squad using these weapons."
+  },
+  {
+    "question": "The video shows printmaking (Los Caprichos), then a newspaper quote about the author’s intent, and later repeats the 'Sleep of Reason' image. How do these elements collectively frame the purpose of the satirical prints?",
+    "answer": "They frame the prints as social critique and moral commentary rather than personal ridicule, using 'monsters' imagery to criticize irrationality and societal failings.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      47,
+      48,
+      54,
+      60
+    ],
+    "reasoning_chain": "Step 1: The newspaper quote states the author did not intend to ridicule specific individuals. Step 2: The Los Caprichos grid presents broad satirical scenes critiquing society. Step 3: 'The Sleep of Reason Produces Monsters' provides a thematic thesis about irrationality. Step 4: Additional Caprichos plates reinforce the broader social-commentary approach. Conclusion: Together they present the prints as general social critique, not personal attacks.",
+    "logic_check_reasoning": "Step 1: Slice 48 presents Los Caprichos as dark, satirical critiques of human nature, societal norms, and superstitions, supporting a broad social critique. Step 2: Slice 60 reinforces this by noting themes of human folly and social commentary in various plates. Step 3: Slice 47 shows a newspaper quote explicitly stating the author did not aim to ridicule specific individuals, framing the intent as non-personal. Step 4: Slice 54 features 'The Sleep of Reason Produces Monsters,' with ominous creatures around a sleeping man; the title and imagery align with criticizing irrationality. Logic holds because these elements together indicate the prints aim at societal and conceptual failings (not individuals) and use monstrous imagery to underscore the dangers of unreason.",
+    "visual_proof": "Clip 1 shows a newspaper quote explicitly stating the author did not intend to ridicule individuals. Clips 2, 3, and 4 display Goya's 'Los Caprichos' etchings, including 'The Sleep of Reason Produces Monsters' (Plate 43), which visually represents irrationality spawning monstrous consequences. The combination of the textual disclaimer and the allegorical, grotesque imagery supports the interpretation that the series is a broad social and moral critique."
+  }
+]

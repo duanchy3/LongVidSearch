@@ -1,0 +1,138 @@
+[
+    {
+        "question": "What key phrase appears on a computer screen after the decryption succeeds, and which later handheld interface lists tasks such as sample acquisition?",
+        "answer": "The phrase is \"FIND LUNA,\" and the later handheld interface is the satellite/task device listing sample-related tasks.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a decryption sequence ending with the words \"FIND LUNA\" on the computer screen. Step 2: Slice 66 shows a handheld device interface related to satellite operations with tasks including \"Sample acquisition.\" Conclusion: The decryption message is \"FIND LUNA,\" and the later device is the satellite/task handheld interface.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly states that after decryption, the words \"FIND LUNA\" appear on the computer screen. Step 2: Slice 66 describes a handheld device interface related to satellite operations that lists tasks such as \"Sample acquisition,\" \"Sample collection,\" and \"Sample activation.\" Logic holds because the first part matches the exact phrase shown, and the second part correctly identifies the later handheld interface as the satellite-related device displaying those sample tasks.",
+        "visual_proof": "In Video 1, at timestamp 0:17, a computer screen clearly displays the text 'result = \"FIND LUNA\"' after a decryption attempt. In Video 2, at timestamp 0:07, a handheld device screen is shown with the header 'SATELLITE HUB' and lists tasks including 'Executing sample acquisition plan' and 'Sample acquisition completed'."
+    },
+    {
+        "question": "Which animal is shown being handled in a research setting, and what later type of biological specimen is shown in a petri dish in the lab?",
+        "answer": "A tiger is handled, and later a small red specimen/object is shown in a petri dish.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a tiger and people in lab attire interacting with it in a controlled facility. Step 2: Slice 38 shows a lab close-up of a petri dish containing a small red object submerged in clear liquid. Conclusion: The animal is a tiger and the later lab specimen is a small red sample in a petri dish.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 explicitly shows a close-up of a tiger and describes an individual in a lab coat interacting with the tiger in a controlled research environment. Step 2: Evidence Slice 38 explicitly mentions a petri dish containing a small red object submerged in clear liquid within the lab setting. Logic holds because the animal handled is clearly identified as a tiger, and later a red specimen/object in a petri dish is described, matching the proposed answer.",
+        "visual_proof": "In Clip 1 (0:07-0:08), a woman in a lab coat is seen next to a large tiger behind glass. In Clip 2 (0:05-0:06), a close-up shows a small, red, circular object inside a petri dish on a lab bench."
+    },
+    {
+        "question": "Which station name appears on the medical record interface, and what name is prominently shown on an astronaut’s HUD in another corridor scene?",
+        "answer": "Balhae Lunar Research Station, and the name shown is Hong.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows a medical record interface labeled from the \"Balhae Lunar Research Station.\" Step 2: Slice 24 shows a close-up with the name \"Hong\" displayed on screen. Conclusion: The station is Balhae Lunar Research Station and the HUD-displayed name is Hong.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 29 explicitly states the medical record interface is from the 'Balhae Lunar Research Station.' Step 2: Evidence Slice 24 notes a close-up with the name 'Hong' displayed on the screen, and the sequence includes corridor scenes, aligning with an astronaut’s HUD being shown in that context. Logic holds because both details are directly mentioned in the provided slices and match the proposed answer.",
+        "visual_proof": "In Clip 1, the medical record interface clearly displays 'BALHAE LUNAR RESEARCH STATION' at the top right. In Clip 2, a close-up shot of an astronaut's face shows the name 'Hong' as a subtitle on screen, which corresponds to the HUD text visible in that scene."
+    },
+    {
+        "question": "What error message indicates a storage/space problem on a computer, and what later medical-bed label is visible when a patient is being treated?",
+        "answer": "\"There is not enough space to hold the draft,\" and the bed label is \"EMERGENCY BED.\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a computer message: \"There is not enough space to hold the draft.\" Step 2: Slice 26 shows a medical area with a bed labeled \"FIRST AID\" while a patient is attended. Conclusion: The storage problem message is the draft-space error, and the later treatment scene occurs at a bed labeled FIRST AID.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 10 explicitly states a computer screen shows the message: \"There is not enough space to hold the draft,\" which indicates a storage/space issue. Step 2: Evidence Slice 26, Scene 4, explicitly describes a medical bed labeled \"FIRST AID\" while a patient is being treated. Logic holds because the question asks for these two specific details and both are directly mentioned in the provided slices.",
+        "original_text_answer": "\"There is not enough space to hold the draft,\" and the bed label is \"FIRST AID.\"",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, at timestamp 0:10, a computer screen clearly displays the error message \"There is not enough space to hold the draft.\" In Clip 2, at timestamp 0:03, a medical bed in the background has a visible label that reads \"EMERGENCY BED,\" not \"FIRST AID.\""
+    },
+    {
+        "question": "In the mission-planning visuals, what kind of display shows a labeled station layout, and later what sign marks a restricted entry point during a tactical sweep?",
+        "answer": "A floor-plan/holographic planning display shows the labeled layout, and the restricted entry is marked \"Gate 07.\"",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows holographic planning and a screen with a detailed floor plan labeled with areas (e.g., storage and labs). Step 2: Slice 71 shows a tactical figure entering an area labeled \"Gate 07.\" Conclusion: The planning tool is the station floor-plan/holographic display, and the later restricted entry point is Gate 07.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes astronauts using a large holographic table that displays a labeled 3D model of a space station and also shows a computer screen with a detailed, labeled floor plan (e.g., 'Main Lab,' 'Storage B1,' 'Lab'). This supports 'floor-plan/holographic planning display' showing the labeled layout. Step 2: Slice 71 describes a tactical sweep where a doorway has a sign reading 'Gate 07,' indicating a secure/restricted area. Logic holds because the first part addresses the mission planning display and the second identifies the marked entry point during the tactical sequence.",
+        "visual_proof": "Clip 1 shows a holographic table displaying a 3D wireframe map of a station with labels like \"MAIN LAB\" and \"STORAGE,\" confirming the floor-plan/holographic display. Clip 2 shows a dark corridor where a door is clearly labeled \"GATE 07\" with a \"Hazardous Area\" warning above it, identifying the restricted entry point."
+    },
+    {
+        "question": "What chain links mission briefing technology to later field operations: first a high-tech meeting with holographic projections, then successful decryption revealing a lunar lead, and finally a handheld interface listing satellite/sample tasks?",
+        "answer": "They move from holographic mission planning, to a decrypted clue pointing to the moon (\"FIND LUNA\"), to operational satellite/sample task execution on a handheld device.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            10,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a conference setting with a green holographic projection used for technical briefing/planning. Step 2: Slice 10 shows decryption completing and displaying \"FIND LUNA,\" indicating a key mission lead. Step 3: Slice 66 shows a handheld satellite interface listing tasks like sample acquisition/collection/activation. Conclusion: Planning → uncovering a lunar directive → executing satellite/sample operations.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a high-tech meeting with a bright green holographic projection of a mechanical device, supporting the 'mission briefing technology' portion. Step 2: Slice 10 explicitly shows decryption events culminating in the message 'FIND LUNA,' indicating a lunar lead, matching the 'successful decryption revealing a lunar lead.' Step 3: Slice 66 shows a handheld device interface listing tasks like 'Sample acquisition,' 'Sample collection,' and 'Sample activation' tied to satellite operations, aligning with 'later field operations' via a handheld interface. The logic holds because each slice provides the exact elements in the proposed chain and they are presented as parts of a continuous narrative.",
+        "visual_proof": "Clip 1 shows a meeting with a holographic projection of a sample vial. Clip 2 shows a computer screen where a file is decrypted, revealing the text 'result = \"FIND LUNA\"'. Clip 3 shows a close-up of a handheld device displaying a 'SATELLITE HUB' interface with tasks like 'Executing sample acquisition plan' and 'Sample acquisition completed', directly linking the planning and decryption to field operations."
+    },
+    {
+        "question": "What is the progression from cautious flashlight-based searching, to accessing sensitive station records, to scanning a small object on the ground?",
+        "answer": "They first search dark areas with flashlights, then consult Balhae station records on a laptop, then use a scanner device to examine a small metallic object on the ground.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            29,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows suited individuals navigating a dark industrial room using a flashlight. Step 2: Slice 29 shows access to Balhae Lunar Research Station records via a laptop interface. Step 3: Slice 42 shows a green-lit scanner placed over a small metallic cylindrical object on the ground. Conclusion: Search → gather records → physically scan a discovered object.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes individuals in a dark, hazardous environment using flashlights to navigate, supporting cautious flashlight-based searching. Step 2: Slice 29 shows a laptop with the Balhae Lunar Research Station medical record interface being accessed by a gloved person, supporting accessing sensitive station records. Step 3: Slice 42 depicts a hand using a device with a green light to scan a small metallic object on the ground, supporting scanning a small object. Logic holds because each slice explicitly shows the described action in sequence, matching the proposed progression.",
+        "visual_proof": "Clip 1 shows figures in dark corridors using flashlights to navigate. Clip 2 displays a laptop screen with 'BALHAE' and 'Medical Record' headers, indicating consultation of station records. Clip 3 features a hand placing a small cylindrical object into a scanning device with blue lights, confirming the examination of a small object."
+    },
+    {
+        "question": "Which sequence shows a countdown pressure point emerging after earlier emergency corridor incidents and later airlock-related warnings?",
+        "answer": "After red-lit corridor emergencies and airlock depressurization warnings, a control room screen shows a countdown timer at 00:20:00, indicating a looming deadline.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            19,
+            73,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows a red-lit corridor emergency with a person collapsing. Step 2: Slice 73 shows an airlock control panel warning about internal depressurization. Step 3: Slice 61 shows a control room display with a countdown timer \"00:20:00.\" Conclusion: Escalating emergencies and system hazards culminate in a visible countdown deadline.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes a red-lit corridor emergency with astronauts in distress, matching the 'earlier emergency corridor incidents.' Step 2: Slice 73 shows an airlock control panel with 'Airlock Internal Depressurization,' matching the 'airlock-related warnings.' Step 3: Slice 61 explicitly shows a control room screen displaying a countdown timer at '00:20:00,' which is the 'countdown pressure point.' Logic holds because the proposed answer identifies the specific sequence with the countdown (Slice 61) and references the other slices for context, all supported by the provided evidence.",
+        "visual_proof": "Clip 1 shows characters in a red-lit emergency corridor. Clip 2 displays an airlock with a warning about internal pressure ('에어락 내부압'). Clip 3 concludes with a control room screen showing a timer at '00:20:00' alongside a warning for abnormal pressure ('압력 이상 감지 경고'), confirming the sequence of events described."
+    },
+    {
+        "question": "Which unusual living thing is pointed out growing among rows of servers, and what earlier effort to keep plants alive in a water-scarce world is shown on Earth?",
+        "answer": "A small green plant is growing from a crack near servers, and earlier scientists are shown using a greenhouse/hydroponic facility to conserve water.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            1
+        ],
+        "reasoning_chain": "Step 1: Slice 40 highlights a small green plant growing out of a crack in a server-lined hallway. Step 2: Slice 1 shows scientists working in a greenhouse/hydroponic farming facility to conserve water on Earth. Conclusion: The living thing is a green plant, and earlier plant survival is shown via hydroponic/greenhouse conservation.",
+        "logic_check_reasoning": "Step 1: Slice 40 describes a small green plant growing out of a crack in a wall in a hallway with rows of servers, which is pointed out and highlighted. Step 2: Slice 1 (Water Conservation Efforts) shows a greenhouse facility where scientists are working on hydroponic farming techniques to conserve water. Logic holds because the unusual living thing among servers is the plant (Slice 40), and the earlier Earth effort to keep plants alive in a water-scarce world is the hydroponic greenhouse work (Slice 1).",
+        "visual_proof": "In Video 1 (0:05), a close-up shot clearly shows a small green leafy plant sprouting from a crack in the floor next to server racks. In Video 2 (0:20-0:21), a news segment displays a large-scale indoor hydroponic farm with workers tending to plants on vertical shelves, explicitly framed as a water conservation effort."
+    },
+    {
+        "question": "How does the story connect water scarcity on Earth to later catastrophic water intrusion on the station: what early scenes show drought-driven public desperation, and what later scene shows a massive wave flooding a corridor?",
+        "answer": "Early scenes show protests and rationing due to drought, and later a corridor is violently flooded by a sudden wave of water.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            2,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows Earth’s water crisis: protests, scarcity at public taps, and desperation. Step 2: Slice 2 also includes street marches with signs, reinforcing public unrest. Step 3: Slice 69 shows a huge wave of water bursting into a corridor and sweeping people away. Conclusion: The narrative juxtaposes scarcity and social unrest with later overwhelming water intrusion in the facility.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly shows drought-driven public desperation: a crowded protest about the water crisis, news of severe drought, and individuals filling containers at a public tap and carrying large water containers, indicating scarcity and controlled access to water (akin to rationing). Step 2: Slice 69 explicitly shows a later scene where a massive wave of water violently floods a corridor in a futuristic/space station setting, knocking people off their feet. Step 3: The proposed answer states early protests and rationing due to drought and later a corridor violently flooded by a sudden wave of water, which aligns with the described scenes in Slice 1 and Slice 69. Slice 2 further supports the presence of protests with people holding signs and marching.",
+        "visual_proof": "Clip 1 shows public desperation with people protesting (0:07) and queuing for water (0:13-0:14). It also shows environmental collapse with cracked earth (0:09) and a news report about infant mortality and water reduction (0:10-0:11). Clip 3 visually confirms the later catastrophic event with a massive wave of water violently flooding a station corridor (0:02), forcing people to flee (0:03-0:05)."
+    }
+]

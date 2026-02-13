@@ -1,0 +1,153 @@
+[
+    {
+        "question": "What utensil color is used both when transferring noodles into boiling water and later when mixing pasta with sauce in a bowl during the reaction-style split-screen segment?",
+        "answer": "Blue.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows blue tongs/blue utensil used at the pot. Step 2: Slice 60 shows blue tongs mixing pasta with sauce in a bowl. Conclusion: The repeated utensil color is blue.",
+        "logic_check_reasoning": "Step 1: Slice 49 says the cook uses blue tongs to transfer pasta into boiling water. Step 2: Slice 60 says, in the split-screen segment, the person on the right is using blue tongs to mix pasta with a creamy sauce in a bowl. Logic holds because both scenes explicitly mention blue tongs used in the respective actions.",
+        "visual_proof": "In Clip 1, a person uses blue tongs to transfer noodles into boiling water and then uses a blue spatula to stir them. In Clip 2, during the split-screen segment, the same person is seen using blue tongs to mix pasta in a bowl. The consistent use of blue utensils across both actions in the provided clips confirms the answer."
+    },
+    {
+        "question": "Before the dough is cut into eight pieces, what is it being turned into by kneading on the countertop?",
+        "answer": "A single ball of dough.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows kneading the dough into a cohesive ball on the countertop. Step 2: Slice 20 shows that ball being cut into eight equal pieces. Conclusion: It was formed into a ball first.",
+        "logic_check_reasoning": "Step 1: Slice 18 states the man is kneading a ball of dough on the countertop. Step 2: Slice 20 confirms there is a ball of dough on the countertop before he cuts it into eight pieces. Logic holds because both slices explicitly describe the dough as a single ball prior to cutting, indicating that the kneading results in or maintains a ball shape.",
+        "visual_proof": "In Clip 1 (0:02-0:09), the man is shown actively kneading a large mass of dough on the countertop, folding and pressing it to develop gluten. By the end of this clip (0:10-0:12) and at the start of Clip 2 (0:03-0:04), the dough has been formed into a smooth, cohesive, round ball. This ball is then cut into eight pieces in Clip 2 (0:12-0:17)."
+    },
+    {
+        "question": "Which same location sign is visible while dough is being kneaded and later while the cooked pasta is being transferred into a tray?",
+        "answer": "The \"BIG\" sign/logo.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows kneading dough with a prominent BIG logo in the kitchen. Step 2: Slice 52 shows cooking and transferring pasta with the BIG sign visible in the background. Conclusion: The common sign is BIG.",
+        "logic_check_reasoning": "Step 1: Slice 17 states that during dough kneading, a prominent 'BIG' logo is visible on the wall. Step 2: Slice 52 states that during the pasta transfer, a sign reading 'BIG' is visible in the background. Logic holds because both slices explicitly mention the same 'BIG' sign being visible in the kitchen during the respective actions.",
+        "visual_proof": "In Clip 1, during the dough kneading sequence (e.g., at 0:00 and 0:07), a circular blue and white sign with the word \"BIG\" is clearly visible on the tiled wall behind the chef. In Clip 2, during the pasta transfer sequence (e.g., at 0:02, 0:10, and 0:16), the same \"BIG\" sign is visible in the identical position on the wall behind the chef, confirming it's the same location."
+    },
+    {
+        "question": "In the living-room conversation, what is the key clothing clue that identifies the same speaker later standing in the kitchen hosting the giant cooking project?",
+        "answer": "A black T-shirt with \"ANTI NOODLE CLUB\" (or very similar 'ANTI NOODLE NOODLE CLUB') text.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a person in a black 'ANTI NOODLE CLUB' shirt talking on the couch. Step 2: Slice 3 shows the host in a black shirt reading 'ANTI NOODLE NOODLE CLUB' speaking in a kitchen. Conclusion: The distinctive printed black shirt links the same host across scenes.",
+        "logic_check_reasoning": "Step 1: Slice 4 (living room) explicitly states one person wears a black T-shirt with 'ANTI NOODLE CLUB.' Step 2: Slice 3 (kitchen) describes the host wearing a black T-shirt with white text reading 'ANTI NOODLE NOODLE CLUB.' Logic holds because both slices identify a distinctive black T-shirt with highly similar 'ANTI NOODLE ... CLUB' text; minor wording duplication is acceptable per VLM noise, linking the same speaker across scenes.",
+        "visual_proof": "The same man appears in both clips. In Clip 1, during the living-room conversation, he is wearing a black t-shirt with white text that reads 'ANTI NOODLE NOODLE CLUB'. In Clip 2, while standing in the kitchen, he is wearing the identical black t-shirt with the same visible text. This consistent clothing item serves as the key visual identifier linking his appearance in both scenes."
+    },
+    {
+        "question": "What food item is first presented as a topic title and later appears as the giant finished centerpiece being cut at the table?",
+        "answer": "Giant meatballs (a giant meatball on pasta).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 29 introduces the segment with the title 'giant meatballs.' Step 2: Slice 87 shows a huge meatball placed on pasta and then cut into at the table. Conclusion: The title topic becomes the finished centerpiece.",
+        "logic_check_reasoning": "Step 1: Slice 29 states the video opens with a title card displaying 'giant meatballs.' Step 2: Slice 87 describes a large platter of pasta topped with an enormous meatball, which is then cut at the table. Logic holds because the food item introduced in the title (giant meatballs) appears later as the giant centerpiece (a giant meatball on pasta) being cut.",
+        "visual_proof": "The first clip opens with the text 'giant meatballs' on screen, establishing it as the topic. The second clip visually confirms this by showing a massive meatball served on a bed of pasta, which is then being cut into at the table, matching the description in the original answer."
+    },
+    {
+        "question": "Which ingredient label appears during meatball mixing and matches the cheese later seen on top of the plated pasta-and-meatballs dish?",
+        "answer": "Parmesan cheese (grated cheese).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 36 labels Parmesan cheese being added to the meat mixture. Step 2: Slice 83 shows the finished pasta and meatballs garnished with grated cheese. Conclusion: The labeled cheese ingredient corresponds to the grated cheese topping.",
+        "logic_check_reasoning": "Step 1: Slice 36 explicitly states that during meatball mixing, labels appear on screen including \"Parmesan cheese,\" and it notes that grated Parmesan cheese is added. Step 2: Slice 83 describes the plated pasta-and-meatballs dish as garnished with grated cheese. Logic holds because the label \"Parmesan cheese\" from the mixing matches the later visual of grated cheese on top, aligning the type/form of cheese seen (grated) with the earlier labeled ingredient.",
+        "visual_proof": "In Clip 1, the text overlay 'Parmesan cheese' appears as a white, grated cheese is added to the meatball mixture. In Clip 2, the finished dish shows large meatballs on pasta, topped with identical-looking shredded white cheese, which is visually consistent with the ingredient labeled in Clip 1."
+    },
+    {
+        "question": "How does the segment signaling a time jump relate to the later scene showing a sprayed foil-covered bowl and what is the implied purpose of the spray?",
+        "answer": "After a time jump, a foil-covered bowl is sprayed, implying it is being greased to prevent sticking.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            42,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 33 includes a time jump card ('30 minutes later') after planning/research. Step 2: Slice 42 shows 'a long time later' and the cook spraying a foil-covered bowl with a yellow spray bottle. Step 3: Slice 43 shows meat being pressed into a foil-lined bowl, where greasing would help release the shaped meat. Conclusion: The spray is likely used to grease the foil/bowl to avoid sticking.",
+        "logic_check_reasoning": "Step 1: Slice 42 explicitly shows a blue screen with the text \"a long time later,\" signaling a time jump. Step 2: Immediately after, Slice 42 shows the man holding a bowl covered with aluminum foil and a yellow spray bottle, and he sprays the bowl. Step 3: Slice 43 shows the man placing ground meat into a smaller bowl lined with aluminum foil and pressing it down, which aligns with the idea that the sprayed bowl/foil is being prepared for food. Step 4: Slice 33 also mentions a can of cooking spray visible on the counter during the cooking prep context, reinforcing that the spray is for cooking. Logic holds because the time jump directly precedes the spraying action, and in this cooking context, spraying foil-lined bowls is reasonably implied to be greasing to prevent sticking.",
+        "visual_proof": "Clip 2 begins with the text 'a long time later', establishing a time jump. The subsequent frames show the man spraying a foil-lined bowl with a yellow can, which is a common cooking spray used for greasing. This action immediately precedes him packing raw meat into the bowl in Clip 3, making the implied purpose of preventing the meat from sticking visually logical."
+    },
+    {
+        "question": "What combination of cues shows the video’s overall arc from an intro title, to making giant noodles, to showcasing the final dish for serving?",
+        "answer": "The intro announces 'Giant Spaghetti & Meatballs,' later a title card says 'cooking the giant noodles,' and finally the pasta-and-meatballs dish is plated and served at the table.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            47,
+            83,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 2 presents the opening title for 'Giant Spaghetti & Meatballs.' Step 2: Slice 47 explicitly introduces 'cooking the giant noodles!' Step 3: Slice 83 shows the finished plated pasta topped with meatballs and sauce. Step 4: Slice 88 shows serving the pasta/meatballs onto individual plates. Conclusion: These segments outline the full arc from introduction to cooking to serving.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows the animated intro with text including 'Tasty's Making It Big' and 'Giant Spaghetti & Meatballs,' supporting the intro title. Step 2: Slice 47 shows a title card 'cooking the giant noodles!' and footage of the cooking process, supporting the making-giant-noodles phase. Step 3: Slices 83 and 88 depict the finished pasta and meatballs dish, with Slice 88 specifically showing it being plated and served at a dining table, supporting the final serving showcase. The sequence matches the proposed arc.",
+        "visual_proof": "Clip 1 shows the intro title 'Giant Spaghetti & Meatballs.' Clip 2 displays a title card reading 'cooking the giant noodles!' followed by visuals of the cooking process. Clip 3 presents the final, fully assembled dish on a large platter. Clip 4 shows the dish being served onto individual plates at a table with wine, confirming the serving stage."
+    },
+    {
+        "question": "Which two ingredients are first combined into a dough early on and later reappear as cooked wide flat noodles on the platter?",
+        "answer": "Flour and eggs (with water as the liquid).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            13,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows flour (and salt) added to a mixing bowl. Step 2: Slice 13 shows eggs and water added into the bowl with dry ingredients. Step 3: Slice 52 shows the result as cooked wide flat noodles (pasta). Conclusion: Flour and eggs (with water) become the cooked noodles.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows flour (and salt) being added to a mixing bowl, indicating the start of making a dough. Step 2: Slice 13 explicitly shows the man adding a white powder (consistent with flour), then eggs and water into the mixing bowl, clearly forming a dough. Step 3: Slice 52 shows the same man cooking wide flat pasta noodles (pappardelle) and placing them on a tray/platter, which logically follows from the earlier pasta dough preparation. Therefore, the two key ingredients that were first combined into dough and later reappear as cooked noodles are flour and eggs.",
+        "visual_proof": "In Clip 1 and Clip 2, the chef is visually shown combining flour, salt, eggs, and water in a bowl to form a dough. In Clip 3, the final product shown on the platter is wide flat noodles, which are the cooked result of that initial dough mixture."
+    },
+    {
+        "question": "How do the noodles progress from being rolled and cut to being boiled to being plated under the meatballs?",
+        "answer": "They are rolled/cut into long strips, boiled in a pot, and then arranged on a platter as the base for the meatballs.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            23,
+            49,
+            51,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows dough rolled and cut into strips during pasta making. Step 2: Slice 49 shows those strips being transferred into boiling water. Step 3: Slice 51 shows the cooked pasta being removed and arranged in a tray. Step 4: Slice 87 shows the noodles plated as the base with a giant meatball placed on top. Conclusion: Rolled strips become boiled noodles and then the plated foundation.",
+        "logic_check_reasoning": "Step 1: Slice 23 describes dough being rolled with a pasta machine and cut into strips, confirming the initial rolling/cutting. Step 2: Slice 49 shows the strips being transferred into a pot of boiling water and stirred, confirming the boiling stage. Step 3: Slice 51 further supports this by showing the strips placed into boiling water, then lifted out and arranged in a tray. Step 4: Slice 87 shows the pasta arranged on a platter as a bed under a large meatball, confirming the plating under the meatball. The sequence from rolling/cutting to boiling to plating is explicitly depicted across the slices.",
+        "visual_proof": "Clip 1 shows noodles being rolled out and cut. Clip 2 shows the noodles being placed into a boiling pot. Clip 3 shows them being removed from the pot and transferred to a container. Clip 4 shows the cooked noodles arranged on a large platter, serving as the base for giant meatballs."
+    },
+    {
+        "question": "What repeated branded visual element appears during dough kneading, during the laptop talk segment about giant meatballs, and during the final meal conversation at the counter?",
+        "answer": "The \"BIG\" branding/sign in the kitchen.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            17,
+            29,
+            32,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows kneading dough with a BIG logo visible. Step 2: Slice 29 shows the kitchen with BIG branding while discussing 'giant meatballs' at a laptop. Step 3: Slice 32 again shows the kitchen with BIG sign behind the host. Step 4: Slice 92 shows the BIG sign during the final counter meal conversation. Conclusion: BIG branding persists across major phases of the video.",
+        "logic_check_reasoning": "Step 1: Slice 17 (dough kneading) explicitly mentions a prominent 'BIG' logo on the wall. Step 2: Slice 29 (laptop talk about giant meatballs) notes a decorative plate with the word 'BIG' prominently displayed. Step 3: Slice 32 (laptop talk segment) states a prominent 'BIG' sign is visible on the wall. Step 4: Slice 92 (final meal conversation) describes a prominent 'The Big' sign on the wall. Logic holds because the 'BIG' branding/sign is consistently present across all described scenes; the slight variation 'The Big' vs 'BIG' is acceptable per VLM noise handling.",
+        "visual_proof": "In Clip 1, during dough kneading, a circular blue and white sign with the word \"BIG\" is clearly visible on the wall behind the chef. In Clip 2, during the laptop talk segment, the same \"BIG\" sign is prominently displayed in the background. In Clip 4, during the final meal conversation, the identical \"BIG\" sign is again visible on the wall behind the two men at the counter. This visual element is consistently present across all three segments."
+    }
+]

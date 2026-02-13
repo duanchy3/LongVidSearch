@@ -1,0 +1,30 @@
+[
+    {
+        "question": "When the couple is shown relaxing outside and later shown indoors watching a screen, what location do they enjoy together first and what device are they focused on later?",
+        "answer": "First they relax on a rooftop hammock, and later they focus on a television screen indoors.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a couple relaxing in a hammock on a rooftop. Step 2: Slice 4 shows the same couple (woman in blue dress) standing in front of a TV indoors. Conclusion: Their shared time shifts from a rooftop hammock to watching a television.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes two individuals relaxing on a hammock on a rooftop, clearly indicating the first location is a rooftop hammock outdoors. Step 2: Slice 4 shows two individuals standing in front of a television screen with a bookshelf in the background, suggesting an indoor setting, and they appear focused on the TV. Logic holds because the woman’s blue dress is consistent across both slices, and the scenes transition from outdoor relaxation to indoor screen viewing.",
+        "visual_proof": "Clip 1 visually confirms the couple relaxing together in a hammock on what appears to be a rooftop or balcony with a city view. Clip 2 shows the same couple indoors, standing and looking towards a television screen that is displaying news footage."
+    },
+    {
+        "question": "Across the early news-watching moments, which broadcast is identified by a named chemistry researcher, and which broadcast is identified by a Spanish-language headline?",
+        "answer": "The named chemistry researcher appears in the interview with Denise Freire, and the Spanish-language headline appears on the news segment reading 'GÁS TÓXICO SE ESPALHA POR CIDADES DO MUNDO.'",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a TV interview identifying Denise Freire as a chemistry researcher. Step 2: Slice 6 shows a different TV news broadcast with the Spanish headline. Conclusion: The two broadcasts are distinguished by the researcher ID vs the Spanish headline.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a television broadcast featuring an interview with Denise Freire, explicitly identified on-screen as a chemistry researcher at UFRJ. Step 2: Slice 6 describes a television news segment with a Spanish-language headline reading 'LAS TÉRMINOS DE ESPAÑA POR CIUDADES DEL MUNDO.' Logic holds because the question asks to match the broadcast identified by a named chemistry researcher (Slice 5) and the broadcast identified by a Spanish headline (Slice 6), which the proposed answer correctly does.",
+        "original_text_answer": "The named chemistry researcher appears in the interview with Denise Freire, and the Spanish-language headline appears on the news segment reading “LAS TÉRMINOS DE ESPAÑA POR CIUDADES DEL MUNDO.”",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a lower third identifying 'DENISE FREIRE PESQUISADORA EM QUÍMICA DA UECS,' confirming her as the named chemistry researcher. Clip 2 displays a headline that reads 'GÁS TÓXICO SE ESPALHA POR CIDADES DO MUNDO' — which is Portuguese, not Spanish, as incorrectly stated in the original answer. The original answer misidentifies the language of the headline."
+    }
+]

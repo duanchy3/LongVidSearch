@@ -1,0 +1,83 @@
+[
+    {
+        "question": "After the episode title introduces Serengeti National Park, what branded lodge do the travelers arrive at later?",
+        "answer": "They arrive at the Four Seasons Safari Lodge Serengeti Tanzania.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            8
+        ],
+        "reasoning_chain": "Step 1: The title card establishes the episode as Serengeti National Park. Step 2: Later, the safari vehicle/lodge branding explicitly reads Four Seasons Safari Lodge Serengeti Tanzania. Conclusion: The branded lodge they arrive at is the Four Seasons Safari Lodge Serengeti.",
+        "logic_check_reasoning": "Step 1: Slice 3 states the episode title is \"Treasures of Tanzania\" Episode 1: Serengeti National Park, establishing the Serengeti context. Step 2: Slice 8 shows a group around a safari vehicle in the Serengeti with a sign reading \"Four Seasons Safari Lodge Serengeti Tanzania.\" Step 3: The presence of the branded vehicle indicates the travelers are associated with or at that lodge. Thus, the branded lodge they arrive at later is explicitly identified in Slice 8.",
+        "visual_proof": "The first clip opens with a title card explicitly stating 'TREASURES OF TANZANIA / EPISODE 1 SERENGETI NATIONAL PARK'. The second clip visually confirms the arrival at the lodge, as the spare tire cover on the safari vehicle is clearly branded with the text 'FOUR SEASONS SAFARI LODGE SERENGETI, TANZANIA' and its logo. A hand even touches the branded cover for emphasis."
+    },
+    {
+        "question": "Which repeated clothing cue helps link the same female traveler across different settings: first on an airfield, later in safari vehicles, then during lodge/pool relaxation, and finally during the romantic dinner scenes?",
+        "answer": "Her white top/white outfit appears repeatedly—red/black outfit at the airfield is earlier, but later she is consistently seen in white (white shirt in vehicles and white outfit/dress in relaxation and dinner scenes).",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            5,
+            54,
+            63,
+            93
+        ],
+        "reasoning_chain": "Step 1: At the airfield, the woman is introduced traveling with the group (distinct travel companion). Step 2: Later, a woman with long dark hair in a white shirt appears animated inside a safari vehicle. Step 3: A woman in a white dress is shown from behind on a deck by an infinity pool at sunset. Step 4: A woman in a white outfit holds a glass of wine near the water at dusk. Conclusion: The recurring white outfit cues help track the same female traveler across safari and romantic lodge scenes.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows the woman on the airfield wearing a red and black outfit. Step 2: Slice 54 shows the woman in a safari vehicle wearing a white shirt. Step 3: Slice 63 shows the woman at a lodge/pool scene wearing a white dress. Step 4: Slice 93 shows the woman at a romantic dinner scene wearing a white outfit. Logic holds because the repeated cue across the later settings is her white clothing, and the proposed answer acknowledges the initial red/black at the airfield and the consistent white thereafter.",
+        "visual_proof": "In Clip 1, the woman is wearing a black hoodie with red stripes on the sleeves. In Clip 2, she is clearly seen in a white button-up shirt while in the safari vehicle. In Clip 3, she is wearing a long, flowing white dress by the pool at sunset. In Clip 4, during the romantic dinner scene, she is again wearing a white top. This consistent appearance in white across Clips 2, 3, and 4 serves as the visual cue linking her character through these different settings."
+    },
+    {
+        "question": "What later mode of travel shows the same kind of adventurous filming-from-vehicles energy as the opening safari-vehicle selfie, and where does it take them?",
+        "answer": "They later travel by a small plane that takes them from Dar es Salaam to Seronera Airstrip.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            5
+        ],
+        "reasoning_chain": "Step 1: Early on, the adventure tone is set by someone filming excitedly from a safari vehicle roof. Step 2: Later, the trip continues via a small aircraft with an explicit route shown. Conclusion: The later travel mode is the small plane route to Seronera Airstrip.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes the opening with a man taking a selfie from the roof of a safari vehicle, emphasizing adventurous filming-from-vehicle energy. Step 2: Slice 5 shows later travel by a small aircraft, with first-person handheld filming, interior shots, window views, and an exterior shot of the plane in flight, mirroring the filming-from-vehicle style. Step 3: Slice 5 explicitly states the route via text overlay: 'DAR ES SALAAM -> SERONERA AIRSTRIPE', confirming the destination. Logic holds because the mode (small plane) and destination (Seronera Airstrip) are clearly supported.",
+        "visual_proof": "The first clip opens with a selfie-style shot from a moving safari vehicle, establishing an adventurous, first-person perspective. The second clip shows the same couple boarding and flying in a small propeller plane. The on-screen text at 0:08 explicitly states the route as 'DAR ES SALAAM -> SERONERA AIRSTRIP WITH AURIC AIR', confirming the destination and mode of transport."
+    },
+    {
+        "question": "A woman is shown smiling inside an open-sided safari vehicle earlier; later, which shared setting change shows the couple relaxing together in water rather than riding?",
+        "answer": "They are later shown standing together in a pool holding hands and smiling.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            19
+        ],
+        "reasoning_chain": "Step 1: Earlier, the woman is enjoying the ride inside an open-sided safari vehicle. Step 2: Later, the couple is shown together in a pool holding hands. Conclusion: The setting changes from safari-ride enjoyment to relaxing in the pool.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes a woman smiling inside an open-sided safari vehicle, establishing the earlier scene. Step 2: Slice 19 explicitly states that the camera shifts to a couple standing in a pool, holding hands and smiling, which is a change to relaxing in water. Logic holds because the question asks for the later setting change, and Slice 19 provides the couple in a pool, matching the proposed answer.",
+        "visual_proof": "In Video 1, a woman is seen smiling inside an open-sided safari vehicle. In Video 2, the same couple is shown standing together in a pool, holding hands and smiling, which confirms the shared setting change from riding to relaxing in water."
+    },
+    {
+        "question": "When the group first celebrates inside a vehicle with cups and champagne, what later wildlife sighting features big cats with cubs that contrasts that human celebration?",
+        "answer": "A lioness lying with her cubs, with the cubs playing around her.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            40
+        ],
+        "reasoning_chain": "Step 1: Inside a vehicle, friends toast with cups and champagne in a celebratory mood. Step 2: Later, the safari footage shows a lioness with playful cubs. Conclusion: The later contrasting highlight is the lioness and cubs scene.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a group celebrating inside a vehicle with cups and a champagne bottle. Step 2: Slice 40 later shows a wildlife scene featuring a lioness lying on the grass with her cubs playing around her. Logic holds because the question asks what later wildlife sighting (contrasting the human celebration) features big cats with cubs, which is explicitly depicted in Slice 40.",
+        "visual_proof": "The first clip shows a group celebrating inside a vehicle with cups and champagne. The second clip later features a lioness lying down in the grass with her cubs nearby, one of which is actively playing or moving around her, creating a contrast between human celebration and natural wildlife behavior."
+    },
+    {
+        "question": "How does the couple’s daytime balcony relaxation with fruit connect to the later evening dining setup by water—what changes and what stays similar?",
+        "answer": "The setting shifts from a casual daytime balcony snack to a formal candlelit dinner by water, but both scenes emphasize quiet scenic views and eating together.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            19,
+            91,
+            92
+        ],
+        "reasoning_chain": "Step 1: The couple eats fruit on a balcony overlooking the savannah in daylight. Step 2: Later, the pool area is softly lit at dusk with a table set for an intimate dinner. Step 3: A woman sits at a candlelit table by calm water. Conclusion: Meal setting becomes more formal and romantic, while the scenic, tranquil mood remains.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes a couple sitting on a balcony overlooking the savannah, enjoying a plate of fruit during the day, with casual attire (woman in white dress, man shirtless), emphasizing a serene scenic view and shared eating. Step 2: Slice 91 shows an evening setting by a pool with lanterns and candles, an intimate dinner setup, with the man in formal attire and a woman walking nearby, highlighting a romantic dining ambiance. Step 3: Slice 92 further details a twilight dining scene by a calm body of water with candlelight, a table set elegantly for two, and a woman seated, suggesting a private meal. Logic holds because the proposed answer notes the change from a casual daytime balcony snack to a formal candlelit dinner by water (supported by Slices 91/92), and the similarity of quiet scenic views and the theme of eating together (explicit in Slice 19 and implied by the dinner setup for two in Slices 91/92).",
+        "visual_proof": "Clip 1 shows the couple casually eating fruit on a balcony overlooking a savanna during the day. Clip 2 and 3 show the same woman (and implied couple) at night, with a formally set table for two by an infinity pool, illuminated by lanterns, against the same scenic backdrop. The change is from casual/day to formal/night, while the constants are the scenic view and the act of sharing a meal."
+    }
+]

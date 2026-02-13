@@ -1,0 +1,54 @@
+[
+    {
+        "question": "In the wildfire coverage, a sign for a local place appears, and later in the Princess Kate coverage a headline about her whereabouts appears—what is the name on the wildfire sign, and what is the royal headline phrase?",
+        "answer": "\"Cowboy's Court\" and \"WHERE'S KATE?\"",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows a sign reading \"Cowboy's Court\" in the wildfire aftermath. Step 2: Slice 29 shows a studio graphic reading \"WHERE'S KATE?\". Conclusion: The two notable text signs are \"Cowboy's Court\" and \"WHERE'S KATE?\".",
+        "logic_check_reasoning": "Step 1: Evidence Slice 26 (wildfire coverage) explicitly states there is a sign reading 'Cowboy's Court.' Step 2: Evidence Slice 29 (Princess Kate coverage) explicitly states the text on the screen reads 'WHERE'S KATE?'. Logic holds because each slice directly provides the requested phrases for the respective segments.",
+        "visual_proof": "In Clip 1, a sign for 'The Last Cowboy's Court' is clearly visible at 0:11. In Clip 2, the headline 'WHERE'S KATE?' is displayed on the screen behind the news anchor from 0:02 to 0:23."
+    },
+    {
+        "question": "In one story, the report includes New York in a split-screen; in a later story, the report again alternates New York with another overseas city—what are the two paired cities shown with New York in these two stories?",
+        "answer": "Brownsville, Texas is paired with New York for the border-visits story, and London is paired with New York for the Russia/ballerina story.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a split-screen labeled New York and Brownsville, Texas during the border segment. Step 2: Slice 20 describes alternating locations New York and London during the Russia/ballerina segment. Conclusion: The two different New-York pairings are Brownsville and London.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 explicitly states a split-screen showing 'New York' and 'Brownsville, Texas' for the border-visits story. Step 2: Evidence Slice 20 explicitly states the segment alternates between 'New York' and 'London' for the Russia/ballerina story. Logic holds because both slices directly name the paired cities with New York for their respective stories.",
+        "visual_proof": "In Clip 1 (0:12-0:18), a split-screen shows a reporter in 'NEW YORK' and another in 'BROWNSVILLE, TEXAS'. In Clip 2 (0:02-0:06 and 0:29-0:38), a different split-screen shows a reporter in 'NEW YORK' and another in 'LONDON'. These visual labels explicitly identify the paired cities for each story."
+    },
+    {
+        "question": "The broadcast shows a poll about who can best secure the border and later shows polling data about Black community support—who is leading in each poll segment?",
+        "answer": "In the border-security poll, Trump leads; in the Black community support graphic, Biden leads.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 2 presents an NBC poll where Trump leads Biden on securing the border. Step 2: Slice 63 shows a Black community support graphic where Biden’s support is higher than Trump’s. Conclusion: Trump leads the border-security poll, while Biden leads the Black community support poll.",
+        "logic_check_reasoning": "Step 1: Slice 2 states that in the border-security poll Trump led Biden (49% vs 33% in 2020; 57% vs 22% in Jan 2024), confirming Trump leads on securing the border. Step 2: Slice 63 shows the Black community support graphic where Biden has higher support than Trump (73% vs 17% in Jan 2023; 87% vs 12% in 2020 exit polls), confirming Biden leads in that segment. The logic aligns with the question about who leads in each poll.",
+        "visual_proof": "Clip 1 (0:05-0:09) displays a poll titled 'WHO WOULD BETTER HANDLE SECURING THE BORDER AND CONTROLLING IMMIGRATION?' showing Trump at 57% and Biden at 22% in Jan 2024. Clip 2 (0:03-0:05) shows a graphic titled 'BLACK COMMUNITY SUPPORT' for January 2023, with Biden at 73% and Trump at 17%. Both sets of data are clearly visible on screen."
+    },
+    {
+        "question": "Which two unrelated stories in the broadcast both show a person in uniform being highlighted in the visuals?",
+        "answer": "The border coverage shows uniformed Border Patrol agents behind Biden, and the Ecuador crackdown shows Ecuadorian Navy personnel in tactical gear.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            81
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows Biden speaking with uniformed Border Patrol agents present. Step 2: Slice 81 shows Ecuador's navy patrol boat with personnel in helmets and tactical gear. Conclusion: Both stories visually highlight uniformed personnel (Border Patrol and Navy).",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 describes President Biden speaking at a podium with uniformed Border Patrol agents behind him, explicitly highlighting people in uniform in the visuals. Step 2: Evidence Slice 81 describes Ecuadorian Navy personnel on a patrol boat wearing helmets, tactical gear, and navy uniforms, again explicitly highlighting people in uniform. Logic holds because these are two unrelated stories (U.S. border visits vs. Ecuadorian Navy anti-gang/cartel operations) and both feature uniformed personnel prominently.",
+        "visual_proof": "In Video 1, multiple frames (e.g., 0:00, 0:14, 0:18) clearly show President Biden speaking at a podium with several U.S. Border Patrol agents in their green uniforms standing directly behind him. In Video 2, frames such as 0:11, 0:13, and 0:14 show personnel inside a naval vessel wearing dark uniforms with insignia, consistent with Ecuadorian Navy tactical gear, as indicated by the on-screen text 'INSIDE ECUADOR' and 'ECUADOR'S NAVY'."
+    }
+]

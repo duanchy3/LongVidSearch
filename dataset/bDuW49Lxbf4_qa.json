@@ -1,0 +1,110 @@
+[
+  {
+    "question": "At the start, what drink container is the host holding, and later what item does a different presenter toss away before the scene cuts back to a group discussion?",
+    "answer": "He holds a white cup, and later a different presenter tosses his hat away.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      21
+    ],
+    "reasoning_chain": "Step 1: Slice 3 shows the main host holding a white cup while speaking. Step 2: Slice 21 shows a man removing his hat and tossing it aside before the scene changes. Conclusion: The items are a white cup and a tossed hat.",
+    "logic_check_reasoning": "Step 1: Slice 3 states the video starts with a man holding a white cup, confirming the drink container is a white cup. Step 2: Slice 21 describes a man in a white shirt removing his hat and tossing it aside, followed by a scene with three people engaged in discussion. This supports that a different presenter tosses a hat before the group discussion. Logic holds because the two scenes involve different individuals and the actions match the question.",
+    "visual_proof": "In the first clip (0:01-0:04), the host is visibly holding a white ceramic mug. In the second clip (0:03), a different presenter, wearing a white t-shirt, is seen tossing a light-colored hat off-screen to his left before the scene cuts."
+  },
+  {
+    "question": "Two different segments compare economic hardship and lack of infrastructure in rural areas; what two on-screen claims are made about GDP ranking and utility access?",
+    "answer": "It often ranks in the bottom 3 by nominal GDP per capita, and fewer than 10% have regular access to utilities like electricity or running water.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      9,
+      10
+    ],
+    "reasoning_chain": "Step 1: Slice 9 states the country often ranks in the bottom 3 for nominal GDP per capita. Step 2: Slice 10 states that <10% have regular access to utilities. Conclusion: The claims are bottom-3 GDP per capita ranking and <10% utility access.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 9 explicitly shows on-screen text: 'Often ranks in bottom 3 per Nominal GDP per capita in the world.' Step 2: Evidence Slice 10 explicitly shows on-screen text: '<10% have regular access to utilities like electricity/running water/etc.' The proposed answer restates these two claims accurately and aligns with the captions.",
+    "visual_proof": "Clip 1 (0:24) displays an aerial view of a rural village with a text overlay stating, 'Often ranks in bottom 3 per Nominal GDP per capita in the world.' Clip 2 (0:01) shows traditional thatched huts with a text overlay stating, '< 10% have regular access to utilities like electricity/ running water..etc.' Both claims are explicitly presented as on-screen text."
+  },
+  {
+    "question": "Which bird is explicitly identified as the national animal, and which later clip shows a large Olympic ceremony image reinforcing the theme of sports and national representation?",
+    "answer": "The African fish eagle is identified as the national animal, and the Olympic ceremony image appears later in the sports montage segment.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      17,
+      60
+    ],
+    "reasoning_chain": "Step 1: Slice 17 names the African fish eagle as the national animal. Step 2: Slice 60 shows an inset of athletes in an Olympic ceremony (Rio 2016), reinforcing national representation through sports. Conclusion: African fish eagle and the later Olympic-ceremony sports montage.",
+    "logic_check_reasoning": "Step 1: Slice 17 explicitly states that the African fish eagle is identified as the national animal of South Sudan. Step 2: Slice 60 describes a later segment showing an inset image of athletes at an Olympic ceremony with the Rio 2016 logo, tying into themes of sports and representation, within a broader sports/cultural montage. Logic holds because the first part identifies the bird, and the second part refers to a later clip featuring an Olympic ceremony image in a sports-focused segment.",
+    "visual_proof": "In Video 1 (0:12-0:14), an image of the African fish eagle is shown with text explicitly labeling it as the 'National animal' alongside the coat of arms of South Sudan. In Video 2 (0:17-0:19), a large image of athletes marching in an Olympic opening ceremony under the Olympic flag is displayed, which is part of a sequence discussing refugee athletes and their representation, reinforcing the theme of sports and national identity."
+  },
+  {
+    "question": "In the cultural-food section, one scene shows multiple bowls of dishes, and later a presenter stands by a map while naming specific dishes; what is one dish label shown during the bowl close-ups and what is one dish name listed by the presenter with the map?",
+    "answer": "One bowl close-up is labeled 'Kombo,' and one dish listed by the map presenter is 'Walawal' (sorghum porridge).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      25,
+      24
+    ],
+    "reasoning_chain": "Step 1: Slice 25 includes close-ups of bowls labeled with dish names such as 'Kombo.' Step 2: Slice 24 lists multiple traditional dishes beside a map, including 'Walawal.' Conclusion: Example pair is Kombo and Walawal.",
+    "logic_check_reasoning": "Step 1: Slice 25 describes close-up shots of bowls labeled with dish names, including 'Kombo.' Step 2: Slice 24 describes a man by a map of South Sudan naming traditional dishes, explicitly listing 'Walawal (Sorghum porridge).' Logic holds because the question asks for one label from the bowl close-ups and one dish name from the presenter by the map, and both 'Kombo' and 'Walawal' are directly mentioned in the respective slices.",
+    "visual_proof": "In Clip 1, at timestamp 0:17, a scene with three people shows an inset image of a bowl of stew labeled 'Kombo (Meat/ peanut/ Okra stew)'. In Clip 2, at timestamp 0:03, the presenter stands next to an image of a porridge in a pot, which is labeled 'Walawal (Sorghum porridge)'."
+  },
+  {
+    "question": "The video first introduces a geography show with a title graphic and later ends with an outro thanking viewers; what is the show title that appears early, and what final message appears at the end?",
+    "answer": "The early title is 'GEOGRAPHY NOW,' and the final message is 'Thanks for watching!'",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      2,
+      81
+    ],
+    "reasoning_chain": "Step 1: Slice 2 displays the 'GEOGRAPHY NOW' title during the animated intro. Step 2: Slice 81 shows the outro screen with 'Thanks for watching!' Conclusion: The show title and closing message are identified.",
+    "logic_check_reasoning": "Step 1: Slice 2 explicitly states that the text 'GEOGRAPHY NOW' appears prominently early in the video, indicating the show title. Step 2: Slice 81 describes the outro screen where 'Thanks for watching!' is prominently displayed at the top. Logic holds because the early segment identifies the show's title and the ending segment presents the final message.",
+    "visual_proof": "In Clip 1, at timestamp 0:10, the title graphic clearly displays the text 'GEOGRAPHY NOW' over a world map. In Clip 2, at timestamp 0:04, the outro screen prominently features the text 'Thanks for watching!' above social media icons."
+  },
+  {
+    "question": "A demographics graphic states the population size and that most of the country is Nilotic, while another segment labels the trio with ethnic identifiers; what population number is shown, and which two ethnic labels are applied to the two women in the trio later?",
+    "answer": "The population is shown as 11 million people, and the women are labeled Dinka (the woman in pink) and Nuer (the woman in the orange/blue outfit).",
+    "category": "Visual_Tracking",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      30,
+      46,
+      28
+    ],
+    "reasoning_chain": "Step 1: Slice 30 shows '11 million people' and demographic breakdowns. Step 2: Slice 28 establishes the trio’s consistent visual identities (man in black with colorful sleeves; woman in pink; woman in orange/blue). Step 3: Slice 46 labels the woman in pink as Dinka and the woman in orange/blue as Nuer. Conclusion: Population is 11 million; labels are Dinka and Nuer.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 30 shows the demographics graphic with '11 million people' and notes '90% Nilotic,' satisfying the population and majority Nilotic parts. Step 2: Evidence Slice 28 describes the trio, identifying the middle person as a woman in a pink dress and the right person as a woman in an orange/blue patterned outfit. Step 3: Evidence Slice 46 labels the middle person as Dinka and the right person as Nuer. Logic holds because the identified individuals and their positions/clothing in Slice 28 align with the labels in Slice 46, and the population number is explicitly stated in Slice 30.",
+    "visual_proof": "Clip 1 shows a graphic with '11 million people' at 0:02. Clip 2 shows text labels identifying the woman in the pink dress as 'Ngok Lual Yak (Dinka)' at 0:00 and the woman in the orange/blue patterned top as '+Nuer' at 0:04."
+  },
+  {
+    "question": "A wildlife presenter identifies the national animal, and later a sports segment highlights famous athletes and a tallest-person comparison; what is the national animal, and which named basketball player appears in the sports-related celebrity segment?",
+    "answer": "The national animal is the African fish eagle, and Manute Bol appears as a named basketball player.",
+    "category": "Visual_Tracking",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      17,
+      61,
+      33,
+      60
+    ],
+    "reasoning_chain": "Step 1: Slice 17 identifies the African fish eagle as the national animal. Step 2: Slice 60 transitions into sports representation content. Step 3: Slice 61 shows an image labeled 'Manute Bol' alongside another very tall player. Step 4: Slice 33 references extreme height with '2nd tallest in world,' reinforcing the tall-athlete theme. Conclusion: National animal is African fish eagle; named basketball player is Manute Bol.",
+    "logic_check_reasoning": "Step 1: Slice 17 explicitly states that the African fish eagle is identified as the national animal of South Sudan. Step 2: Slice 61 shows a sports-related segment with images labeled \"Manute Bol\" and \"Gheorghe Mureșan (7'7\")\", indicating named basketball players and a height comparison. Step 3: Slice 33 mentions \"2nd tallest in world,\" reinforcing the tallest-person comparison theme. Therefore, the national animal is the African fish eagle, and Manute Bol is a named basketball player appearing in the sports segment.",
+    "visual_proof": "In Clip 1, at 0:12, an image of an African fish eagle is shown with the text 'African fish eagle (National animal)'. In Clip 2, at 0:05, an image of a basketball player is displayed with the name 'Manute Bol' clearly written underneath it."
+  },
+  {
+    "question": "The video presents religious composition with three proportions, and later it discusses a cultural practice called ghost marriage; what are the three religious breakdown statements, and what is ghost marriage described as?",
+    "answer": "About two-thirds Christian, about 30% animist/traditional beliefs, and the remainder mostly Muslim; ghost marriage is described as marriage on behalf of a deceased person.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      35,
+      55,
+      31
+    ],
+    "reasoning_chain": "Step 1: Slice 35 lists the religious breakdown (~2/3 Christian, ~30% animist/traditional, remainder mostly Muslim). Step 2: Slice 31 frames ongoing culture/tradition discussion with supporting images/text. Step 3: Slice 55 defines 'Ghost marriage' as 'Marriage on behalf of deceased.' Conclusion: Combine religious demographics with the later cultural-practice definition.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 35 explicitly shows text overlays with the religious breakdown: '~2/3rds Christian', '~30% Animist / Traditional beliefs', and 'Remainder mostly Muslim.' Step 2: Evidence Slice 55 shows the topic 'Ghost marriage' with the on-screen text 'Marriage on behalf of deceased,' defining the practice. The proposed answer exactly matches these statements.",
+    "visual_proof": "Clip 1 (0:03-0:05) visually displays text overlays stating '~2/3rds Christian', '~30% Animist / Traditional beliefs', and 'Remainder mostly muslim'. Clip 2 (0:05) shows a text overlay that reads 'Marriage on behalf of deceased' while discussing 'Ghost marriage'. These visual elements directly confirm the details in the original answer."
+  }
+]

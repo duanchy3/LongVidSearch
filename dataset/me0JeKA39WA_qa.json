@@ -1,0 +1,124 @@
+[
+    {
+        "question": "Which Supreme Court decision is later shown sparking a street demonstration with a banner claiming abortion is murder?",
+        "answer": "Roe v. Wade.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a vintage TV graphic reading “Roe v. Wade” dated Jan. 22nd 1973. Step 2: Slice 14 shows an abortion protest with the banner “ABORTION IS MURDER.” Conclusion: The decision referenced that later connects to the protest topic is Roe v. Wade.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows a graphic with the text \"Roe v. Wade\" and identifies it as a landmark U.S. Supreme Court decision regarding abortion rights. Step 2: Slice 14 shows a street protest with a central banner stating \"ABORTION IS MURDER,\" clearly tied to the abortion issue. Logic holds because the video presents Roe v. Wade and then depicts a protest about abortion, indicating the decision shown is the one associated with the demonstration.",
+        "visual_proof": "Clip 1 explicitly displays the text 'Roe v. Wade' and the date 'Jan. 22nd 1973' on the television screen, directly associating this Supreme Court decision with the historical context. Clip 2 shows a street demonstration where protesters hold signs, including one that reads 'ABOLISH LAWS THAT MURDER WOMEN,' which is a direct reference to the pro-life stance against abortion, a central issue in the Roe v. Wade case. The juxtaposition of these clips visually links the decision to the subsequent public demonstrations."
+    },
+    {
+        "question": "Which major New York landmark is first shown as newly opened on a TV graphic and later depicted in extended skyline shots?",
+        "answer": "The World Trade Center (Twin Towers).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows a TV caption “World Trade Center Opens” (Apr. 4th 1973). Step 2: Slice 30 shows aerial and zoomed views of the Twin Towers dominating the NYC skyline. Conclusion: The landmark is the World Trade Center.",
+        "logic_check_reasoning": "Step 1: Slice 29 states that a vintage TV displays a graphic reading 'World Trade Center Opens' with the date 'Apr. 4th 1973.' Step 2: Slice 30 describes extended aerial and close-up skyline shots focusing on the Twin Towers of the World Trade Center. Logic holds because the same landmark (the World Trade Center/Twin Towers) is first introduced via a TV graphic and later shown in prolonged skyline footage.",
+        "visual_proof": "In Video 1, a TV graphic explicitly states 'World Trade Center Opens Apr. 4th 1973' while displaying an image of the Twin Towers. In Video 2, the same Twin Towers are shown in multiple extended skyline shots from across the water, confirming their visual presence as the landmark in question."
+    },
+    {
+        "question": "Which educational animated series is announced as premiering on a TV graphic and then shown immediately afterward with its superhero-like mascot and slogan?",
+        "answer": "Schoolhouse Rock!",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a TV graphic reading “Schoolhouse Rock Premieres.” Step 2: Slice 4 shows the “Schoolhouse Rock!” title card with the caped character and “Knowledge is Power!” Conclusion: The series is Schoolhouse Rock!",
+        "logic_check_reasoning": "Step 1: Slice 3 shows a TV graphic explicitly reading \"Schoolhouse Rock Premieres,\" indicating the announced premiere of the series. Step 2: Slice 4 immediately presents the opening sequence of Schoolhouse Rock!, featuring a superhero-like mascot (cape, \"R\" on chest) and the slogan \"Knowledge is Power!\". Logic holds because the premiere announcement in Slice 3 is followed by the depiction of the series with its mascot and slogan in Slice 4, matching the question’s description.",
+        "visual_proof": "Clip 1 shows a vintage TV screen with a graphic announcing 'Schoolhouse Rock Premieres Jan. 6th 1973'. Clip 2 immediately follows, showing the animated title sequence for 'Schoolhouse Rock!' featuring its superhero mascot and the slogan 'Knowledge is Power!'. The direct temporal and thematic connection between the announcement and the show's opening confirms the answer."
+    },
+    {
+        "question": "How does the video connect a violent monster-movie image to an artist’s legacy by cutting from a giant gorilla holding a woman to a TV announcement of a painter’s death and then to footage of the painter creating wall art that continues in a later clip?",
+        "answer": "It juxtaposes the gorilla scene with Pablo Picasso’s death announcement and then shows Picasso creating mural-like art, continuing into a later segment of chalk drawing.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            32,
+            33,
+            12,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows a giant gorilla holding a woman, then cuts to a TV announcement “Pablo Picasso Dies,” followed by Picasso painting. Step 2: Slice 33 continues the art-creation focus with an elderly man drawing a bull’s head in white lines. Step 3: Slice 12 reinforces the montage’s TV-based historic-caption style (another major event framed on a vintage TV). Step 4: Slice 35 similarly shows another dated milestone on a vintage TV, confirming the editorial pattern of juxtaposing pop imagery with historical/cultural legacies. Conclusion: The montage uses abrupt contrast and TV framing to link shock imagery to Picasso’s legacy and continued art-making visuals.",
+        "logic_check_reasoning": "Step 1: Slice 32 shows a large gorilla holding a woman, then cuts to an old TV with text 'Pablo Picasso Dies' and 'Spanish Painter', explicitly connecting the monster image to the announcement of a painter’s death. Step 2: Slice 32 then transitions to footage of Picasso painting a black-and-white mural on a wall, showing the artist creating wall art. Step 3: Slice 33 depicts an elderly man drawing a bull’s head with chalk on a wall/board, which logically continues the visual theme of the artist’s wall art; naming mismatches are acceptable per instructions. Therefore, the sequence described in the answer is supported by the provided slices.",
+        "visual_proof": "Clip 1 opens with King Kong (a violent monster) holding a woman, followed by a cut to a TV screen announcing 'Pablo Picasso Dies' on April 8th, 1973. The same clip then shows black-and-white footage of Picasso drawing on a large surface (mural-like art). Clip 2 continues this sequence, showing Picasso in black-and-white drawing a bull with chalk or light on a wall. This confirms the visual transition from monster movie to artist’s death announcement to his artistic process."
+    },
+    {
+        "question": "Which historical figure is seen with a ‘kidnapped’ label earlier and later shown again with a ‘freed’ label on a vintage TV screen?",
+        "answer": "John Paul Getty III.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a TV image stating John Paul Getty III was kidnapped (July 10th, 1973). Step 2: Slice 58 shows a TV image stating John Paul Getty III was freed (Dec 15th, 1973). Conclusion: The person is John Paul Getty III.",
+        "logic_check_reasoning": "Step 1: Slice 39 states the video begins with a television displaying an image of John Paul Getty III, noting he was kidnapped on July 10th, 1973. This supports the 'kidnapped' label earlier. Step 2: Slice 58 shows a vintage TV displaying text 'John Paul Getty III Freed Dec 15th 1973,' clearly providing the 'freed' label later. Logic holds because both slices refer to the same historical figure shown on a TV screen with the relevant statuses at different times.",
+        "visual_proof": "In Video 1, the vintage TV screen at 0:01 displays a photo of a young man with the text 'John Paul Getty III Kidnapped Jul. 10th 1973'. In Video 2, the same TV screen at 0:02 shows the same photo with the updated text 'John Paul Getty III Freed Dec. 15th 1973', confirming the same individual is featured with both labels."
+    },
+    {
+        "question": "Which rock band’s performance is first introduced on a TV as a ‘first show’ milestone and later shown performing live on stage with their signature face paint?",
+        "answer": "KISS.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a vintage TV segment about KISS performing their first show (Jan 30th, 1973). Step 2: Slice 19 depicts KISS performing live with their iconic face paint and costumes. Conclusion: The band is KISS.",
+        "logic_check_reasoning": "Step 1: Slice 17 states a vintage TV displays KISS performing their first show on January 30, 1973, establishing the 'first show' milestone on TV. Step 2: Slice 19 opens with a live KISS performance, explicitly noting their signature black-and-white face paint. Logic holds because the same band (KISS) is shown first via TV milestone and later performing live with their iconic face paint.",
+        "visual_proof": "The video first shows a vintage TV screen with the text 'Raw Power Released Feb. 12th 1973' and a clip of KISS performing, identifying it as a milestone. Later, the same band, identifiable by their signature face paint and costumes (Gene Simmons' demon makeup, Paul Stanley's star, etc.), is shown performing live on stage with their instruments and the 'KISS' logo visible on the drum kit."
+    },
+    {
+        "question": "Which topic is presented by a man speaking on TV and also appears later as a broader occupation/activism scene involving Native American protesters?",
+        "answer": "Wounded Knee.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a TV speaker with “Wounded Knee” text above him. Step 2: Slice 19 includes footage of the Wounded Knee protest with activists occupying a building. Conclusion: The shared topic is Wounded Knee.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows a man in a suit speaking on TV with the words 'Wounded Knee' displayed, indicating the topic he is discussing is Wounded Knee. Step 2: Slice 19 describes a concluding scene depicting the Wounded Knee protest with Native American activists occupying a building. Logic holds because the same topic, Wounded Knee, appears both as a TV segment and later as a broader protest/occupation scene.",
+        "visual_proof": "In Clip 1, a vintage TV screen displays the text 'Wounded Knee' alongside footage of Native American protesters. In Clip 2, a man in a suit is shown speaking on a TV screen with the same 'Wounded Knee' graphic behind him, visually linking the topic to both the news report and the protest scenes."
+    },
+    {
+        "question": "How does the montage build a timeline from a kidnapping story to its resolution by showing the kidnapping, then the freed announcement, and surrounding 1973 pop-culture segments?",
+        "answer": "It shows John Paul Getty III as kidnapped, later as freed, and places these within the broader 1973 montage of other dated cultural events.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            39,
+            58,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 39 labels John Paul Getty III as kidnapped. Step 2: Slice 58 labels John Paul Getty III as freed. Step 3: Slice 61 frames the broader year-in-review montage approach, reinforcing that these are timeline milestones. Conclusion: The kidnapping narrative progresses from abduction to release within the 1973 timeline montage.",
+        "logic_check_reasoning": "Step 1: Slice 39 shows a TV image of John Paul Getty III with explicit mention that he was kidnapped on July 10, 1973. Step 2: Slice 58 shows a TV with text reading 'John Paul Getty III Freed Dec 15th 1973,' indicating the resolution of the kidnapping. Step 3: Slice 61 presents a broader 1973 cultural montage (The Exorcist, concerts, politics, sports, etc.), which contextualizes these events within the year’s pop culture. Logic holds because the slices collectively depict the kidnapping, its resolution, and surrounding 1973 cultural moments.",
+        "visual_proof": "Clip 1 opens with a TV screen announcing 'John Paul Getty III Kidnapped Jul. 10th 1973'. Clip 2 shows the same TV screen later announcing 'John Paul Getty III Freed Dec. 15th 1973'. Clip 3 continues the 1973 theme by showing 'The Exorcist Released Dec. 26th 1973' on the TV, alongside other cultural clips from that year like Bruce Lee's death (Jul. 20th 1973) and music/dance scenes, visually framing the kidnapping narrative within a wider 1973 cultural timeline."
+    },
+    {
+        "question": "How does the video connect Watergate figures and institutions by showing early trial imagery, later naming a CIA officer involved, then showing courtroom/hearing authority, and finally presenting a headline about the special prosecutor’s firing?",
+        "answer": "It traces Watergate from trials and key operatives to judicial oversight and the ‘Saturday Night Massacre’ headline about firing the special prosecutor.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            16,
+            17,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows Watergate trial context (Liddy and McCord) and evidence. Step 2: Slice 16 identifies E. Howard Hunt (CIA officer) via on-screen text. Step 3: Slice 17 shows courtroom proceedings featuring Judge John J. Sirica. Step 4: Slice 53 shows the Washington Post headline about Nixon forcing the firing of Cox and resulting resignations. Conclusion: Together these build a multi-part Watergate narrative from operatives and trials to judicial oversight and executive fallout.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows early Watergate trial imagery with G. Gordon Liddy and James W. McCord Jr. in a courtroom, explicitly identifying the Watergate scandal. Step 2: Slice 16 names E. Howard Hunt as an American CIA officer, connecting a key operative involved in Watergate. Step 3: Slice 17 presents courtroom/hearing authority via U.S. District Judge John J. Sirica and a formal congressional hearing setting, indicating judicial and institutional oversight. Step 4: Slice 53 displays Archibald Cox and a Washington Post headline stating \"Nixon Forces Firing of Cox; Richardson, Ruckelshaus Quit,\" which is the special prosecutor firing referenced. Logic holds because the video sequentially connects figures (Liddy, McCord, Hunt, Cox) and institutions (courtroom, judge, congressional hearing) culminating in the headline about the firing of the special prosecutor.",
+        "visual_proof": "Clip 1 shows trial imagery with G. Gordon Liddy. Clip 2 identifies E. Howard Hunt as a CIA officer. Clip 3 features Judge John J. Sirica and Nixon, establishing judicial oversight. Clip 4 displays the headline 'Nixon Forces Firing of Cox; Richardson, Ruckelshaus Quit,' directly referencing the Saturday Night Massacre."
+    }
+]

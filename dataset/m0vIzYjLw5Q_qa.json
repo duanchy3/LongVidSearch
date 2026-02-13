@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What object is used as a focal point during the video call, and what similar object did the traveler closely show earlier while trying to contact help?",
+        "answer": "A smartphone; earlier, a smartphone screen is shown up close while he is trying to contact assistance.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows the main participant holding up a smartphone with a colorful case during a group call. Step 2: Slice 14 shows a close-up of a smartphone with messages while the person says he has been on the phone trying different things. Conclusion: A smartphone is central in both moments.",
+        "logic_check_reasoning": "Step 1: Slice 35 states that during the video call, the main participant is holding up a smartphone with a colorful case and showing something on its screen to others, making the smartphone the focal point. Step 2: Slice 14 begins with a close-up of a person's hands holding a smartphone displaying a messaging app, alongside the subtitle about being on the phone trying different things, implying an attempt to get help. Logic holds because both slices explicitly feature a smartphone as the key object, first as a focal point in the call and earlier shown up close by a traveler seeking assistance.",
+        "visual_proof": "In Clip 1, the main subject holds a smartphone up to the camera during a video call. In Clip 2, a close-up shot shows a person's hands holding and interacting with a smartphone, with subtitles indicating they've been on the phone for an hour and a half trying different things, which aligns with the context of seeking help."
+    },
+    {
+        "question": "After the group travels by plane (with suitcase loading and views from the airplane window), what cold-weather activity do they later do that is explicitly shown with a temperature overlay?",
+        "answer": "They run into and swim in icy water at −13°C/8.5°F.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows air travel: suitcase loaded onto a plane and wing views. Step 2: Slice 68 shows two men running into freezing water with a temperature displayed. Conclusion: After flying, they do a polar swim/run into the water.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes air travel, including suitcase loading, boarding, and views from the airplane window. Step 2: Slice 68 shows two men running into and swimming in a very cold body of water, with an on-screen temperature overlay of -13°C/8.5°F. Logic holds because the question asks what cold-weather activity is shown later with a temperature overlay; Slice 68 explicitly depicts swimming in cold water with the stated temperature.",
+        "visual_proof": "Clip 1 shows the travel sequence: airport, boarding a Scandinavian Airlines plane, and aerial views during flight. Clip 2 explicitly shows two men running into a body of water in a snowy, mountainous landscape. A text overlay appears on screen stating \"-13°C/8.5°F\" as they enter and swim in the water, directly confirming the cold-weather activity and temperature."
+    },
+    {
+        "question": "Which same kind of social interaction appears both at the airport baggage area and later again indoors after the friends reunite?",
+        "answer": "They hug each other.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a warm embrace at an airport baggage claim. Step 2: Slice 36 shows friends reuniting and hugging in a hallway/elevator and again in a room. Conclusion: Hugs are repeated as a reunion gesture.",
+        "logic_check_reasoning": "Step 1: Slice 24 describes two individuals at an airport baggage area \"embracing warmly,\" which indicates hugging. Step 2: Slice 36 describes three men reuniting indoors and \"hug each other\" in the elevator and again in a room. Logic holds because both slices explicitly depict hugging as the social interaction.",
+        "visual_proof": "In Video 1, at the airport baggage claim, two men are seen warmly embracing each other. In Video 2, after arriving at their destination, the man in the yellow jacket is greeted by another man who runs out to meet him, and they immediately share a tight hug in the hallway. This same social interaction of hugging is clearly visible in both locations."
+    },
+    {
+        "question": "In what place do the friends move from discussing travel/arrivals to sharing a meal together, and what food is clearly visible there?",
+        "answer": "In a cozy wooden dining room/kitchen; mashed potatoes are visible.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows friends arriving and hugging as they enter a room that looks like a kitchen/dining area. Step 2: Slice 41 shows four men seated at a dining table with dishes including a pot of mashed potatoes. Conclusion: After reuniting, they eat together with mashed potatoes present.",
+        "logic_check_reasoning": "Step 1: Slice 36 shows the friends reuniting and entering a room that appears to be a kitchen or dining area. Step 2: Slice 41 shows them seated around a dining table in a cozy room with wooden walls, sharing a meal, with a pot of mashed potatoes clearly visible. Logic holds because the transition moves from reunion/arrival into a dining setting, and the specific food (mashed potatoes) is explicitly mentioned.",
+        "visual_proof": "Clip 1 shows the friends arriving and entering a room with wood-paneled walls and a kitchen area, transitioning from travel/arrival. Clip 2 shows them seated at a table in the same wooden room, eating a meal. A large metal bowl filled with mashed potatoes is clearly visible on the table in the foreground of Clip 2."
+    },
+    {
+        "question": "How do the men’s clothes and environment change from a warm indoor discussion about studying abroad to a later outdoor scene where a van with an expedition label is visible behind them?",
+        "answer": "They go from casual hoodies in a warm wooden kitchen to full winter gear outdoors in snow next to an expedition van.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            39,
+            42,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a warm kitchen conversation about studying in Germany. Step 2: Slice 42 shows the group outside in snow preparing for an adventure. Step 3: Slice 60 shows two men in winter jackets with the Spitzbergen van behind them. Conclusion: Clothing and setting shift from indoor casual to Arctic expedition.",
+        "logic_check_reasoning": "Step 1: Slice 39 describes a warm, wooden kitchen where two men wear casual hoodies (one light green hoodie; the other a dark hoodie with 'Waltham'), confirming the indoor, casual attire. Step 2: Slice 60 shows the men outdoors in a snowy environment wearing winter gear (jackets and black beanies), with a van behind them labeled 'Spitzbergen,' aligning with the notion of an expedition label. Step 3: Slice 42 further supports the outdoor winter setting and travel context. Thus, the shift from indoor hoodies to outdoor winter gear next to a labeled van is explicitly supported.",
+        "visual_proof": "Clip 1 shows two men in casual hoodies inside a warm, wood-paneled kitchen. Clip 3 shows the same men (and others) outdoors in a snowy landscape, wearing heavy winter jackets, beanies, and gloves, standing beside a white van with 'Spitzbergen' written on it, indicating an expedition setting."
+    },
+    {
+        "question": "What recurring clothing color helps identify one participant across multiple outdoor Arctic scenes, and where is it seen during both preparation and later beach scenes?",
+        "answer": "A bright yellow jacket; it appears during snowy preparation scenes and later on the rocky beach by the water.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            60,
+            66,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows a man in a bright yellow jacket speaking in the snow near the expedition van. Step 2: Slice 66 again shows the man in a bright yellow jacket (“Project Ocean”) walking toward the expedition van. Step 3: Slice 67 shows a person in a yellow jacket on a rocky beach near the water. Conclusion: The bright yellow jacket tracks the same participant across locations.",
+        "logic_check_reasoning": "Step 1: Slice 60 shows a man in a bright yellow jacket in a snowy setting near a van, suggesting a preparation scene. Step 2: Slice 66 again features a man in a bright yellow jacket approaching and speaking by a van in a snowy landscape, reinforcing the preparation context. Step 3: Slice 67 depicts a person in a yellow jacket on a rocky beach by the water later. Logic holds because the recurring bright yellow jacket identifies the same participant across the snowy preparation scenes (Slices 60 and 66) and the later beach scene (Slice 67).",
+        "visual_proof": "The man in the bright yellow jacket is clearly visible in Clip 1 (0:00-0:04) standing next to a van in a snowy area, indicating a preparation scene. He is also seen in Clip 2 (0:01-0:05) walking around the same snowy location. In Clip 3 (0:05-0:06), he is again identifiable by his yellow jacket while standing on the rocky beach by the water. The consistent presence of this distinct color across different settings confirms the answer."
+    }
+]

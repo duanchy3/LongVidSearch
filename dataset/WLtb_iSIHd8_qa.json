@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Which exhibition title shown on the gallery wall later reappears in the end credits along with its venue and dates?",
+        "answer": "“Charles Ray: Figure Ground.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows wall text reading “Charles Ray” and “Figure Ground.” Step 2: Slice 61 lists the end credits with the exhibition title and details. Conclusion: The title appearing in both places is “Charles Ray: Figure Ground.”",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a gallery wall showing the text 'Charles Ray' and 'Figure Ground,' indicating the exhibition title. Step 2: Slice 61 identifies the end credits for an exhibition titled 'Charles Ray: Figure Ground' at The Met Fifth Avenue with dates January 31–June 5, 2022. Logic holds because the same title seen on the wall in Slice 5 reappears in the end credits with venue and dates in Slice 61.",
+        "visual_proof": "The title 'Charles Ray Figure Ground' is clearly visible on the white gallery wall in Clip 1 (0:00-0:03). The same title, 'Charles Ray: Figure Ground', reappears in the end credits of Clip 2 (0:01-0:04), accompanied by the venue 'At The Met Fifth Avenue' and the dates 'January 31–June 5, 2022'."
+    },
+    {
+        "question": "Which curator appears first talking in the gallery in a gray blazer over a pink top and later is seen again walking up to a relief sculpture wearing the same gray blazer?",
+        "answer": "The curator in the gray blazer over a pink top (Brinda Kumar).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 4 introduces a curator wearing a gray blazer over a pink top while speaking in the gallery. Step 2: Slice 9 shows a woman in a gray blazer approaching and studying a relief sculpture. Conclusion: The matching outfit indicates the same curator (Brinda Kumar).",
+        "logic_check_reasoning": "Step 1: Slice 4 states the video opens with a woman in a gray blazer over a pink top in the gallery, and identifies Brinda Kumar as a curator present, explicitly noting Brinda is in a gray blazer (while Kelly is in a black floral blouse). Step 2: This matches the description of the curator talking in the gallery in a gray blazer over a pink top, pointing to Brinda Kumar. Step 3: Slice 9 shows a woman in a gray blazer approaching a relief sculpture. Given Slice 4 already established Brinda as the curator in a gray blazer and Kelly is not wearing a gray blazer, the visual attributes align logically that the same curator (Brinda) is seen again. There is no conflicting information. Therefore, the context supports that the curator is Brinda Kumar.",
+        "visual_proof": "In Video 1, Brinda Kumar is clearly identified by on-screen text while speaking in the gallery, wearing a gray blazer over a pink top. In Video 2, the same woman, identifiable by her appearance and attire (gray blazer), is seen walking towards a large silver relief sculpture. The continuity of her clothing and presence across both clips confirms she is the individual described in the question."
+    },
+    {
+        "question": "The portrait man is shown in a close-up video shot and also appears as a framed artwork behind a speaker. What two clothing/accessory identifiers consistently mark him as the same subject?",
+        "answer": "A red shirt and glasses.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            15,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows a framed portrait of a man wearing a red shirt and glasses. Step 2: Slice 15 shows a man in a red shirt wearing large round glasses. Step 3: Slice 17 again shows the framed portrait with the same red shirt and glasses. Conclusion: The identifiers are the red shirt and glasses.",
+        "logic_check_reasoning": "Step 1: Slice 14 describes a framed portrait behind a speaker showing a man in a red shirt and glasses. Step 2: Slice 17 again describes the framed portrait with the man wearing glasses and a red shirt. Step 3: Slice 15 presents a close-up of a man wearing large, round glasses and a red shirt. Logic holds because both the close-up and the framed portrait consistently identify the man by his red shirt and glasses, despite minor hair description variations.",
+        "visual_proof": "In Clip 1, the framed portrait behind the speaker clearly shows a man in a red button-down shirt and large-framed glasses. Clip 2 provides a close-up of the same man's face, confirming the identical red shirt collar and the specific style of his glasses. Clip 3 is another full shot of the same framed portrait, again showing the consistent red shirt and glasses, visually linking all depictions to the same subject."
+    }
+]

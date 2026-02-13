@@ -1,0 +1,100 @@
+[
+    {
+        "question": "What item does the solitary traveler carry early on, and what other woven container appears later when someone walks along a dirt path?",
+        "answer": "He carries a large woven basket early on, and later a woven basket is also carried while walking down a dirt path.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a man walking through the valley carrying a large woven basket. Step 2: Slice 86 shows a person in boots walking down a dirt path carrying a woven basket. Conclusion: The repeated woven basket links the early travel moment to the later walking scene.",
+        "logic_check_reasoning": "Step 1: Slice 2 states that a man in a lush green valley is carrying a large woven basket early on. Step 2: Slice 86 describes a person walking down a dirt path carrying a woven basket in their hand. Logic holds because both slices explicitly mention a woven basket being carried in the respective scenes, matching the answer's two parts.",
+        "visual_proof": "In Clip 1 (0:00-0:03), the man is seen from behind carrying a large woven basket in his left hand. In Clip 2 (0:00-0:04), a person (presumably the same man) is shown from the waist down carrying a similar woven basket while walking along a dirt path on a hillside. The visual evidence confirms that a woven basket is carried in both instances."
+    },
+    {
+        "question": "Which ingredient is mixed into a red sauce before it is poured onto raw chicken for marination?",
+        "answer": "Chopped garlic is mixed into the red sauce before it is poured onto the raw chicken.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a hand adding white powder into a wooden bowl of red sauce and stirring. Step 2: Slice 21 shows that red sauce being poured over raw chicken and mixed to coat it. Conclusion: The white powder is added first, then the resulting sauce is used to marinate the chicken.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly states that a hand adds some white powder into a wooden bowl filled with red sauce and stirs it. Step 2: Slice 21 shows that the red sauce is poured over raw chicken for marination. Logic holds because the sequence indicates the red sauce prepared (with the white powder mixed in) is the same sauce later poured onto the chicken.",
+        "original_text_answer": "A white powder is mixed into the red sauce before it is poured onto the raw chicken.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In the first clip, at 0:01-0:02, chopped white pieces, identifiable as garlic, are being added to the red sauce in a wooden bowl. The sauce is then stirred and subsequently poured over the raw chicken in the second clip (0:00-0:05). No white powder is seen being added to the sauce."
+    },
+    {
+        "question": "How does the chicken progress from being coated in marinade to being cooked and then finally used as sandwich filling?",
+        "answer": "It is mixed with a red marinade, then cooked over fire (and/or in a pan), and later the cooked shredded meat is placed into bread to make sandwiches.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            21,
+            62,
+            81
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows raw chicken being mixed thoroughly with red marinade. Step 2: Slice 62 shows the meat on a skewer cooked golden-brown and being sliced with a knife. Step 3: Slice 81 shows cooked shredded chicken/meat being scooped from a pan into a bread roll. Conclusion: The chicken changes from raw-marinated to cooked to sandwich filling.",
+        "logic_check_reasoning": "Step 1: Slice 21 explicitly shows raw chicken being mixed and thoroughly coated with a vibrant red sauce/marinade. Step 2: Slice 62 shows meat being cooked over an open fire; while it is labeled \"meat\" rather than specifically \"chicken,\" it supports the cooking phase in this outdoor sequence. Additionally, Slice 81 shows cooked, shredded chicken (or a very similar protein) in a pan, indicating the chicken has been cooked. Step 3: Slice 81 clearly depicts the cooked shredded chicken being placed into a bread roll, completing the transition to sandwich filling. Logic holds because the sequence of marinade (Slice 21) → cooking (Slices 62 and/or 81) → sandwich assembly (Slice 81) is present, and minor label ambiguity (meat vs. chicken) is acceptable under VLM noise handling.",
+        "visual_proof": "Clip 1 shows raw chicken being coated in a red marinade. Clip 2 shows the marinated chicken being cooked on a skewer over an open fire. Clip 3 shows the cooked, shredded chicken being placed into a bread roll to make a sandwich."
+    },
+    {
+        "question": "Which earlier tool-based action matches the later step where meat is sliced off a skewer after cooking?",
+        "answer": "Using a knife to cut meat during prep earlier matches the later knife slicing cooked meat from the skewer.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a man using a large knife to cut raw meat on a wooden board. Step 2: Slice 62 shows a knife slicing cooked meat off a skewer. Conclusion: The same type of knife-based action appears in prep and then again during serving after cooking.",
+        "logic_check_reasoning": "Step 1: Slice 3 states the man uses a large knife to cut/slice meat during preparation on a wooden board. Step 2: Slice 62 states the man later uses a knife to slice cooked meat off a skewer. Logic holds because both steps involve the same tool-based action—using a knife to cut meat—first in prep and later after cooking.",
+        "visual_proof": "In Clip 1, the man is shown using a knife to cut raw chicken pieces on a wooden board. In Clip 2, after the meat is cooked on a skewer over a fire, he uses the same type of knife to slice the cooked meat off the skewer. The action of cutting/slicing meat with a knife is consistent in both clips."
+    },
+    {
+        "question": "How does the same green plant material get treated as a craft/survival object earlier and then later become a food ingredient being sliced?",
+        "answer": "A green plant stalk is cut/stripped with a knife as a practical material, and later a long green vegetable is sliced for cooking.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows a man holding a green plant stalk and cutting/stripping it with a knife as a demonstration. Step 2: Slice 50 shows a man slicing a long green vegetable (leek-like) at the cooking table. Conclusion: The video reuses similar green stalk-like plants both as materials and as food.",
+        "logic_check_reasoning": "Step 1: Slice 49 shows a man holding a green plant stalk and using a knife to cut/strip it in an instructional, outdoors setting, suggesting a practical/craft or survival-type demonstration. Step 2: Slice 50 shows (in a very similar mountainous setting) the man preparing food, slicing a long green vegetable on a cutting board with other ingredients present, clearly indicating culinary use. Logic holds because the first scene treats the green plant as material to be worked/stripped, and the later scene treats a similar green plant as a food ingredient being sliced. Minor clothing color differences can be attributed to VLM noise as allowed; the actions and context align.",
+        "visual_proof": "In Video 1 (0:00-0:06), the man uses a knife to strip and shape a thick green stalk, treating it like a tool or craft material. In Video 2 (0:07-0:10), the same man is seen at an outdoor cooking station, slicing a similar green stalk on a cutting board next to a bowl of food and other ingredients, indicating its use as a food item."
+    },
+    {
+        "question": "How do the white flowers collected from the tree connect to the man later drinking from a small glass cup?",
+        "answer": "The white blossoms are steeped in a teapot as flower tea, which is then poured into a glass and drunk.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            40,
+            42,
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows a man picking white blossoms from a tree. Step 2: Slice 42 shows those white flowers inside a teapot as hot water is poured in to steep them. Step 3: Slice 44 shows tea being poured from a kettle into a small glass cup on a stone platform. Step 4: Slice 45 shows a man drinking tea from that small glass cup. Conclusion: Flowers are collected, brewed into tea, poured, and then consumed.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows a man carefully picking white flowers from a tree in a mountainous, green setting. Step 2: Slice 42 shows a teapot containing white flowers being steeped with hot water, and the person then enjoys the tea. This directly links the collected flowers to being used for tea. Step 3: Slice 44 shows the man pouring tea from a kettle into a small glass cup. Step 4: Slice 45 shows the man drinking the tea from the small glass cup. The logical sequence is: collected white flowers are steeped in the teapot and then the resulting tea is poured into a glass and drunk.",
+        "visual_proof": "Clip 1 shows the man picking white flowers from a tree. Clip 2 shows him placing these exact flowers into a black teapot. Clip 3 shows him pouring a dark liquid, presumably the brewed tea, from that same teapot into a small glass cup. Clip 4 shows him drinking from that cup. This sequence visually confirms the connection."
+    },
+    {
+        "question": "Which actions connect the outdoor cooking station to a shared meal with children later on?",
+        "answer": "Food is cooked outdoors (meat and sandwiches), and later children and an adult eat sandwiches together during a picnic.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            56,
+            79,
+            83,
+            94
+        ],
+        "reasoning_chain": "Step 1: Slice 56 shows meat being cooked over embers on a skewer. Step 2: Slice 79 shows cooked shredded meat and bread laid out for serving. Step 3: Slice 83 shows sandwiches being assembled and wrapped/handled at the outdoor setup. Step 4: Slice 94 shows children and an adult eating together at a picnic. Conclusion: The cooking and assembly steps lead into the later shared meal scene.",
+        "logic_check_reasoning": "Step 1: Slice 56 shows meat being cooked over embers in an outdoor fire pit. Step 2: Slice 79 shows continued outdoor cooking—shredded meat and bread prepared at a stone fire. Step 3: Slice 83 shows assembling a sandwich with the cooked meat at the outdoor setup. Step 4: Slice 94 shows children and an adult later eating sandwiches together during a picnic. Logic holds because the sequence moves from cooking meat and assembling sandwiches to a shared meal where sandwiches are eaten.",
+        "visual_proof": "Clip 1 shows meat being prepared for cooking over coals. Clip 2 shows the man cooking chopped meat in a pan at an outdoor station with a scenic mountain backdrop. Clip 3 shows him assembling sandwiches with the cooked meat, sauce, and bread. Clip 4 shows the same man handing out the wrapped sandwiches to several children who then begin eating them while sitting together outdoors, confirming the transition from cooking to a shared meal."
+    }
+]

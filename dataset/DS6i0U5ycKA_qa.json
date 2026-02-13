@@ -1,0 +1,69 @@
+[
+    {
+        "question": "After the episode introduces a “Physical Geography” title card, what kind of real-world scenery is later shown in full motion shots that matches that theme?",
+        "answer": "Mountain-and-water landscapes such as a serene lake and a winding river in mountainous terrain.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 17 explicitly introduces “Physical Geography.” Step 2: Slice 19 shows real footage of mountains, a lake, and a river valley. Conclusion: The physical geography theme is illustrated with mountainous lake/river scenery.",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly mentions the episode begins with a 'Physical Geography' title card. Step 2: Slice 19 describes later full-motion shots: an aerial view of a serene lake surrounded by mountains (camera pans) and a winding river through a valley, captured from different angles. These are mountain-and-water landscapes that match the physical geography theme. The logic holds because Slice 19 provides detailed motion-shot descriptions of the scenery after the title setup in Slice 17.",
+        "visual_proof": "After the 'Physical Geography' title card (0:02), Clip 1 shows inset images of a turquoise alpine lake with snow-capped mountains (0:03) and a herd of yaks on a grassy slope below snowy peaks (0:13). Clip 2 then features full-motion, sweeping aerial shots of a calm lake reflecting clouds and mountains (0:02-0:03), followed by expansive views of a meandering river cutting through arid, mountainous valleys with snow-capped peaks in the distance (0:04-0:10). These visuals directly match the description of mountain-and-water landscapes."
+    },
+    {
+        "question": "Which specific tunnel is discussed as dangerous in an on-camera segment, and later the video transitions into a broad historical statement about a key year that provides political context for the country being profiled?",
+        "answer": "The Anzob tunnel (called the “Tunnel of Death”), and the key year is 1991.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 10 mentions the Anzob tunnel as the “Tunnel of Death.” Step 2: Slice 61 shows the text “1991 was a crazy year,” shifting to historical/political context. Conclusion: Anzob tunnel is the danger point; 1991 is the contextual year.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly states the man is discussing the Anzob tunnel, referred to as the 'Tunnel of Death,' indicating it is dangerous. Step 2: Slice 61 shows a transition to text on screen saying '1991 was a crazy year,' framed by a Central Asian political poster, indicating a broad historical statement providing political context. Logic holds because both slices feature the same on-camera setup (man with glasses, white T-shirt, black background), tying the dangerous tunnel segment to the later historical context about 1991.",
+        "visual_proof": "Clip 1 visually identifies the 'Anzob tunnel, AKA: Tunnel of DEATH' with on-screen text while showing footage of vehicles navigating a dark, wet road. Clip 2 features the same presenter stating '1991 was a crazy year' with accompanying imagery of a political figure and military scene, establishing the historical/political context for the country being discussed."
+    },
+    {
+        "question": "A couch-based food explainer introduces a dish labeled “Plov.” Later, a different presenter abruptly yells a single word to introduce a new topic. What is that word?",
+        "answer": "“FOOD!”",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows a couch segment with an inset labeled “Plov,” continuing the food theme. Step 2: Slice 30 displays the word “FOOD!” prominently while someone shouts. Conclusion: The shouted topic word is “FOOD!”.",
+        "logic_check_reasoning": "Step 1: Slice 35 shows a woman on a couch discussing a dish labeled 'Plov,' confirming the couch-based food explainer. Step 2: Slice 30 shows a different presenter (a man in a red/black plaid shirt) shouting with the word 'FOOD!' prominently displayed on screen, indicating the abrupt single-word introduction. Therefore, the word is explicitly supported as 'FOOD!'.",
+        "visual_proof": "Clip 1 shows a woman on a couch with an image of 'Plov!' on screen. Clip 2 immediately follows, showing a man in a red plaid shirt cupping his hand to his mouth as if yelling, with the word 'FOOD!' overlaid in large white text across the screen, directly answering the question."
+    },
+    {
+        "question": "A nature segment labels a UNESCO national park and shows iconic wildlife; later, another segment shows a bear in snowy mountains. What is the link between these two moments?",
+        "answer": "Both are showcasing Tajikistan’s wildlife/nature (national park wildlife and a Tajik brown bear in mountain snow).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 23 highlights “Tajik National Park (UNESCO)” plus species like stone loach and snow leopard. Step 2: Slice 25 opens with a Tajik brown bear in snowy mountains. Conclusion: Both moments emphasize Tajikistan’s natural wildlife.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows a segment labeled 'Tajik National Park (UNESCO)' with wildlife like a stone loach and a snow leopard, explicitly presenting Tajikistan’s natural landscapes and fauna. Step 2: Slice 25 shows a 'Tajik brown bear' in snowy mountains. Logic holds because both moments depict wildlife/nature from Tajikistan, linking the national park showcase to the bear scene.",
+        "visual_proof": "Clip 1 explicitly labels 'Tajik National park (UNESCO)' and shows wildlife like the Stone loach, Turkestan lynx, and Snow Leopard. Clip 2 shows a 'Tajik brown bear' with text specifying '(Darvoz region)', which is within Tajikistan. The consistent presenter and thematic focus on regional fauna confirm both segments are part of a unified showcase of Tajikistan's natural heritage."
+    },
+    {
+        "question": "Two different segments feature a man holding a small fluffy dog: once the main white-shirt host is shown holding a dog, and later a black-shirt sports presenter holds a similar dog. What continuity point does the repeated dog imagery create across otherwise different topics?",
+        "answer": "It creates a recurring personal/comedic cutaway motif (the small fluffy dog) that appears in multiple parts of the episode even as the topic shifts.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            21,
+            66,
+            71,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 21 briefly cuts to the white-shirt host holding a small long-haired dog. Step 2: Slice 66 shows a black-shirt man holding a small fluffy dog during commentary. Step 3: Slice 71 again shows the black-shirt man holding a small light-furred dog. Step 4: Slice 67 shows this black-shirt man presenting sports content, indicating the dog appears even in topic transitions. Conclusion: The dog serves as a repeated personal/comedic continuity element across segments.",
+        "logic_check_reasoning": "Step 1: Slice 21 shows the main white-shirt host holding a small, long-haired dog during a segment that mixes informative content with personal anecdotes, establishing the dog as part of his presentation. Step 2: Slice 66 shows a different man in a black shirt holding a small, fluffy dog while speaking directly to the camera, with an inset and text overlay suggesting personal commentary; the tone is noted as possibly humorous or reflective. Step 3: Slice 71 further confirms the black-shirt presenter holding a small dog (Pomeranian-like) in a segment featuring the Tajikistan flag, indicating a distinct thematic context. Step 4: Slice 67 shows the black-shirt presenter discussing Central Asian sports, a different topic from the white-shirt host’s segment with maps, flags, and factories. Logic holds because the same dog imagery appears across distinct segments with different topics and presenters, providing a recurring personal element; the hint of humor from Slice 66 supports the 'comedic cutaway' characterization.",
+        "visual_proof": "The visual evidence confirms the presence of a small, fluffy dog in two distinct segments. In Clip 1, the main host in the white shirt is shown holding the dog during a comedic exchange involving speech bubbles. Later, in Clips 2 and 3, the second presenter in the black shirt is also shown holding the same or a very similar dog, sometimes with on-screen text providing humorous context. This repeated appearance across different presenters and topics serves as a consistent visual gag or motif."
+    }
+]

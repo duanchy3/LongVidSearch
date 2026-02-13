@@ -1,0 +1,85 @@
+[
+    {
+        "question": "What item associated with travel appears in the early montage and later appears again during another trip-prep scene labeled as the next day?",
+        "answer": "A suitcase being packed/used for travel.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows an open suitcase being packed with clothes and accessories. Step 2: Slice 15 shows a woman packing items into a large black suitcase the next day. Conclusion: The repeated travel item is a suitcase used for packing.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes an early montage where an open suitcase is being packed with clothes and accessories, indicating preparation for a trip. Step 2: Slice 15 shows a scene labeled as the next day with a woman preparing for a trip and packing items into a large black suitcase. Logic holds because both slices explicitly mention a suitcase being packed in travel-prep contexts, appearing first in the early montage and then again the next day.",
+        "visual_proof": "In Video 1 (0:07), a person is seen loading a dark-colored suitcase into the trunk of a car. In Video 2 (0:09), the same suitcase, identifiable by its color and red/yellow stripe, is shown standing in a room with clothes on top of it, during a scene labeled 'the next day'. This confirms the same travel item appears in both clips."
+    },
+    {
+        "question": "What pet-related routine is described involving a specific chair, and how does this connect to the cat being described as well-bonded with roommates?",
+        "answer": "Kayla naps on the chair while people use laptops; she’s also described as bonding well with roommates.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            46,
+            49,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 17 indicates Kayla has moved in and is exploring the new place. Step 2: Slice 46 says Kayla will nap on a chair while people are on laptops. Step 3: Slice 49 says roommates love Kayla and she’s already bonded with a direct roommate. Conclusion: Kayla’s routine (napping near people working) fits with her described closeness to roommates.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 46 explicitly states that Kayla (the cat) will nap on a specific chair while other people are on their laptops. Step 2: Evidence Slice 49 explicitly states that the roommates love Kayla and that she is already well-bonded with a direct roommate. Logic holds because the proposed answer restates the chair-napping routine and the bonding with roommates as described in the slices.",
+        "visual_proof": "Clip 1 shows the woman pointing to a cat bed on a chair, with subtitles explaining Kayla naps there while others are on their laptops. Clip 2 features the same woman stating her roommates love Kayla and that she's well-bonded with her direct roommate, visually confirming the social integration mentioned in the question."
+    },
+    {
+        "question": "How does the video connect the cat being transported in a carrier to later scenes showing it actively enjoying the new space and interacting with the household routine?",
+        "answer": "The cat is brought in a carrier, later is shown exploring and having fun, and later is shown waiting by its automatic feeder.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            17,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows the cat in a green carrier being brought the next day. Step 2: Slice 17 states Kayla has moved in and is exploring. Step 3: Slice 48 shows the cat waiting for food by an automatic feeder. Conclusion: Transport leads to settling in, then routine life in the new home.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows Kayla in a green pet carrier with on-screen text indicating she is being brought, establishing transport. Step 2: Slice 17 shows the cat exploring the new space with text stating 'kayla's moved in, and she's having a lot of fun,' directly connecting to active enjoyment of the environment. Step 3: Slice 48 shows the cat waiting by an automatic feeder, demonstrating engagement with the household routine. Logic holds because these slices form a clear progression: transported in a carrier, then exploring and enjoying the new space, and finally participating in the daily routine.",
+        "visual_proof": "Clip 1 shows the cat, Kayla, inside a green carrier with text indicating she is being brought to a new place. Clip 2 shows her out of the carrier, walking around and exploring the room, with on-screen text stating she has moved in and is having fun. Clip 3 shows her sitting patiently next to an automatic feeder and litter box area, with text explaining she is waiting for food, thus connecting her to the household routine."
+    },
+    {
+        "question": "What is the relationship between the dining hall salad shown around lunchtime and the later kitchen commentary about dining hall food getting bland?",
+        "answer": "She eats a salad from the dining hall, and later explains she often ends up using the kitchen because dining hall food becomes bland after about a week.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            23,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows entering a dining hall and choosing salad bar items around 12:05. Step 2: Slice 23 shows a salad in a container. Step 3: Slice 40 includes text about being in the kitchen because dining room food gets bland after a week. Conclusion: Dining hall meals are shown first, then later she motivates cooking/kitchen use due to bland dining hall food.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows the person at a campus-like dining hall salad bar around lunchtime, selecting items, implying they are having a dining hall salad. Step 2: Slice 40 shows a kitchen with text overlays stating the narrator often ends up in the kitchen because the 'dining room' food gets bland after about a week. Step 3: The logic links the dining hall salad experience with the later commentary: initial dining hall use followed by a shift to using the kitchen due to bland dining food. The slight 'dining room' vs 'dining hall' wording likely reflects caption noise, but the context supports the intended meaning.",
+        "visual_proof": "Clip 1 visually confirms the person is eating at the dining hall for lunch, specifically getting a salad. Clip 3 features on-screen text where the person states they often find themselves in the kitchen 'because the dining room food gets really bland after around a week,' directly linking the initial dining hall meal to their later reliance on cooking."
+    },
+    {
+        "question": "Trace the cat’s integration into the household from being carried in for a new trip, to exploring the space, to forming a social bond, and finally to having a feeding routine.",
+        "answer": "Brought in a carrier, explores the new home, bonds well with roommates, then waits by the automatic feeder for scheduled food.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            17,
+            49,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows the cat being brought the next day in a carrier. Step 2: Slice 17 indicates the cat has moved in and is exploring happily. Step 3: Slice 49 states roommates love the cat and she’s bonded with a direct roommate. Step 4: Slice 48 shows the cat waiting for food by an automatic feeder. Conclusion: The cat transitions from transport to exploration to social bonding to established routine.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows Kayla in a green pet carrier with text indicating a trip and 'bringing kayla', supporting the 'brought in a carrier' for a trip. Step 2: Slice 17 shows the cat exploring the home with a POV shot and text 'kayla's moved in', supporting exploration of the new space. Step 3: Slice 49 has the woman stating that roommates love Kayla and she is well-bonded with her direct roommate, supporting the social bond formation. Step 4: Slice 48 shows the cat waiting by an automatic feeder, with subtitles noting food will be dispensed in about 40 minutes, supporting an established feeding routine.",
+        "visual_proof": "Clip 1 shows the cat being let out of a green carrier. Clip 2 shows the cat walking and exploring the apartment. Clip 3 features the owner stating her roommates love the cat and she's bonded with them. Clip 4 visually confirms the cat waiting patiently next to an automatic feeder, with subtitles explaining she is waiting for her scheduled meal."
+    },
+    {
+        "question": "After the narrator jokes about needing help with parking, what moving-related action happens soon after when they arrive at campus?",
+        "answer": "They unload bags from the car and carry them toward the dorm/building.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows Linh and Chris driving and trying to find parking. Step 2: Slice 8 shows them arriving near campus and unloading items from the car. Conclusion: After the parking intermission, they start unloading and carrying belongings.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows Linh and Chris in a car with a humorous text overlay: 'a brief intermission of linh and chris try to find parking,' implying a joking tone about parking. Step 2: Slice 8 then depicts arrival at a campus setting, where they are shown unloading items from the car; the man picks up a large black bag and the woman holds another, and they head toward a dorm/building. Logic holds because the question asks what moving-related action happens soon after the parking joke, and Slice 8 explicitly shows unloading and carrying bags toward a dorm.",
+        "visual_proof": "Clip 1 ends with a text overlay stating 'a brief intermission of linh and chris try to find parking', indicating the parking joke. Clip 2 immediately follows, showing the pair outside the car on a campus street (indicated by the subtitle '[heading towards campus]'). They are visibly unloading large bags and luggage from the vehicle and carrying them away from the car, heading towards buildings in the background."
+    }
+]

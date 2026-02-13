@@ -1,0 +1,100 @@
+[
+    {
+        "question": "Which location sign is shown just before the man is seen feeding giraffes from a platform?",
+        "answer": "The sign reads \"Giraffe Centre.\"",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 23 pans to a sign that reads \"Giraffe Centre\". Step 2: Slice 26 shows a man feeding giraffes from a wooden platform. Conclusion: The sign shown just before the feeding is \"Giraffe Centre.\"",
+        "logic_check_reasoning": "Step 1: Slice 23 states the camera pans up to show a sign that reads 'Giraffe Centre' while featuring a man in a green T-shirt with long hair tied back. Step 2: Slice 26 shows a man with a green shirt and long hair tied back feeding giraffes from a platform. Logic holds because the same visually described man appears in both slices, and the sign explicitly shown before the feeding scene is 'Giraffe Centre.' The context includes only one location sign, which matches the proposed answer.",
+        "visual_proof": "In the final frame of Video 1, a man is standing in front of a large sign that clearly displays the words \"GIRAFFE CENTRE\" in white capital letters on a dark background. The subsequent clip (Video 2) immediately shows the same man feeding giraffes from a wooden platform, confirming the temporal sequence and location."
+    },
+    {
+        "question": "What restaurant name shown on a tabletop sign corresponds to the place where a rating text appears on screen?",
+        "answer": "Carnivore.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows a tabletop sign reading \"Carnivore\". Step 2: Slice 41 shows the same restaurant setting with on-screen text \"MAYBE A 6.1\". Conclusion: The restaurant is Carnivore.",
+        "logic_check_reasoning": "Step 1: Slice 40 states there is a tabletop sign that reads 'Carnivore' and indicates the setting is a restaurant called Carnivore. Step 2: Slice 41 shows the same man in the same restaurant-like environment with the on-screen rating text 'MAYBE A 6.1'. Step 3: Since the scenes are consistent (same person, same setting), the rating appears in the place identified earlier, i.e., the restaurant named on the tabletop sign. Therefore, the restaurant name is 'Carnivore'.",
+        "visual_proof": "In Clip 1, at timestamp 0:12-0:15, the man holds up and then places a small tabletop sign on the table. The sign clearly reads 'CARNIVORE' with the tagline 'A beast of a feast'. This is the only restaurant name visible in either clip."
+    },
+    {
+        "question": "Which on-screen day label appears before the later label that says \"DAY 6\"?",
+        "answer": "\"Day 4\" appears earlier.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            42,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows the text \"Day 4\". Step 2: Slice 73 shows the text \"DAY 6\". Conclusion: The earlier day label is Day 4.",
+        "logic_check_reasoning": "Step 1: Slice 73 explicitly states that the on-screen text \"DAY 6\" is displayed. Step 2: Slice 42 explicitly mentions that the text \"Day 4\" appears on the screen. Step 3: The question asks which label appears before the later label \"DAY 6\"; the context shows \"Day 4\" as another on-screen day label. Therefore, \"Day 4\" is the earlier label relative to the later \"DAY 6\" mentioned.",
+        "visual_proof": "The first clip clearly displays the on-screen text 'DAY 4' at timestamp 0:04. The second clip displays the on-screen text 'DAY 6' at timestamp 0:00. Since these clips are from the same continuous video and 'DAY 4' is shown in the first clip while 'DAY 6' is shown in the second, 'DAY 4' logically appears before 'DAY 6'."
+    },
+    {
+        "question": "How does the man’s setting change from talking in a tropical-themed restaurant to traveling by car with a day label on screen?",
+        "answer": "He goes from speaking inside a tropical-themed restaurant to being in a car on a labeled travel day (\"Day 4\") with highway driving footage.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            39,
+            41,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows him talking indoors in a tropical-themed restaurant/bar. Step 2: Slice 41 continues in the restaurant with the rating text. Step 3: Slice 42 switches to a receipt and then \"Day 4\" with toll booth/highway driving. Conclusion: The setting changes from restaurant review to travel-by-car day sequence.",
+        "logic_check_reasoning": "Step 1: Slice 39 shows a man in a tropical-themed restaurant/bar, gesturing while talking. Step 2: Slice 41 reinforces the same setting; the man is in a tropical-themed cafe, holding a microphone and speaking, with on-screen text ('MAYBE A 6.1'). Step 3: Slice 42 shows a sequence where 'Day 4' appears on screen, followed by car travel scenes (toll booth, highway driving, man inside car listening to music). Logic holds because the context clearly transitions from the restaurant setting to a labeled travel day in a car with highway footage.",
+        "visual_proof": "Clip 1 and 2 show the man inside a restaurant with wooden decor and palm plants, indicating a tropical theme. Clip 3 transitions to a car's interior view with a 'DAY 4' overlay, showing highway driving and the man now driving, confirming the change in setting and context."
+    },
+    {
+        "question": "How does the video connect a self-care spa setting to later bathroom scenes and then to a calm tea moment?",
+        "answer": "It shows the spa (Revitalize Spa), then bathroom/shower-related clips, and then the man sitting and stirring tea in a cozy room.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            64,
+            66,
+            67,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows the man at \"Revitalize Spa\" and sitting with paper in a spa-like waiting area. Step 2: Slice 66 includes a massage scene and shower/bathroom moments. Step 3: Slice 67 shows him shirtless speaking to camera in a modern bathroom. Step 4: Slice 70 shows him relaxed in a red chair stirring tea. Conclusion: The narrative moves from spa self-care to bathroom scenes and then to a quiet tea moment.",
+        "logic_check_reasoning": "Step 1: Slice 64 shows a man in front of a sign reading 'Revitalize Spa,' establishing a self-care spa setting. Step 2: Slice 66 describes a sequence that includes a massage session at a spa followed by bathroom/shower scenes, and Slice 67 further shows the man speaking in a bathroom, reinforcing the progression to bathroom-related clips. Step 3: Slice 70 depicts the man calmly sitting and stirring tea in a cozy room, representing the calm tea moment. Logic holds because the slices collectively present the spa, then bathroom/shower scenes, and then a tranquil tea scene, matching the proposed answer's sequence.",
+        "visual_proof": "Clip 1 opens with the man at the 'REVITALIZE SPA' entrance. Clip 2 shows him shirtless with scrub on his body inside a shower area. Clip 3 continues in the bathroom with him smiling at the camera. Clip 4 concludes with him seated in a red armchair, calmly stirring a glass of tea. This sequence visually connects the spa setting to the bathroom/shower scenes and finally to the tea moment."
+    },
+    {
+        "question": "What chain of events links seeing crocodiles in the water to later handling a crocodile on land?",
+        "answer": "First crocodiles are seen swimming in murky water, then a crocodile is shown resting near the pond, and later two men are shown controlling/handling a large crocodile on the ground by the water.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            27,
+            28,
+            31,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows a crocodile in a pond at/near Nairobi Mamba Village. Step 2: Slice 28 shows several crocodiles swimming in greenish murky water. Step 3: Slice 31 shows two men interacting with a crocodile on land near water. Step 4: Slice 32 shows one man holding the crocodile’s tail while another observes. Conclusion: The crocodile sightings in water lead into a later close-handling scene on land.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows crocodiles swimming in murky water, with a person pointing at them. Step 2: Slice 27 describes a serene pond scene where a large crocodile is resting, partially submerged near the water's edge. Step 3: Slices 31 and 32 depict two men interacting with/handling a large crocodile on land by the water, including holding its tail and restraining it. Logic holds because each step is explicitly shown in the slices and forms a coherent progression from seeing crocodiles in water to handling one on land.",
+        "visual_proof": "Clip 2 shows crocodiles swimming in greenish, murky water. Clip 3 shows a large crocodile resting on land beside the pond with two men nearby. Clip 4 confirms the handling: one man holds the crocodile’s tail while another stands close, appearing to manage or interact with it, all occurring by the same water body."
+    },
+    {
+        "question": "Across the ‘day’ travel arc, what happens between the earlier labeled day and the later day label that involves a bakery item selection and then dining?",
+        "answer": "Between Day 4 and Day 6, the video shows a bakery display where a pastry is picked, and later the couple goes to a restaurant and eats a meal.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            42,
+            73,
+            75,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows \"Day 4\" and travel by car (toll/highway). Step 2: Slice 73 shows the later label \"DAY 6\". Step 3: Slice 75 shows a bakery/cafe display where a small pastry is selected. Step 4: Slice 77 shows them walking to a restaurant and the woman eating a meal. Conclusion: Between Day 4 and Day 6, the trip includes getting pastries and later dining out.",
+        "logic_check_reasoning": "Step 1: Slice 42 explicitly shows the text 'Day 4' during a car travel segment. Step 2: Slice 73 explicitly shows the text 'DAY 6' with the same man in a red shirt, indicating a later point in the arc. Step 3: Slice 75 shows a bakery/café display where a hand picks a small, round pastry, satisfying the 'bakery item selection' part. Step 4: Slice 77 shows the two individuals going to a restaurant and the woman eating a meal, which supports the 'then dining' part. Logic holds because the video includes labeled Day 4 and Day 6 segments, and between these, there are scenes of selecting a pastry and dining at a restaurant.",
+        "visual_proof": "Clip 1 ends with 'DAY 4' on screen. Clip 2 begins with 'DAY 6'. In Clip 3, a hand is seen selecting pastries from a bakery display case. Later in Clip 3 and Clip 4, the same man and woman are shown eating pastries in the car, and then they are seen at a restaurant ('Halal Barbeque Mix Grill') where they are served and eat a full meal consisting of grilled chicken, bread, and salad."
+    }
+]

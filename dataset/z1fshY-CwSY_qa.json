@@ -1,0 +1,56 @@
+[
+    {
+        "question": "After unpacking the modern lamp components on a table, what does she later do to demonstrate it is set up successfully?",
+        "answer": "She turns the lamp on to illuminate the room.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the lamp being unpacked with instructions and parts, implying setup/assembly. Step 2: Slice 10 shows the lamp on a table and the woman turning it on, producing warm light. Conclusion: The successful setup is demonstrated by switching it on.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 5 shows a person unpacking a modern lamp with instructions and parts on a table, implying setup/assembly. Step 2: Evidence Slice 10 shows a woman approaching the lamp on a table and turning it on, illuminating the room. Logic holds because the later action of turning the lamp on demonstrates that the setup was successful.",
+        "visual_proof": "In Video 1, she is seen unpacking and assembling the lamp components on a table. In Video 2, the same lamp is shown fully assembled and turned on, casting a warm glow in the room. The woman then appears next to it, gesturing towards the lit lamp, confirming its successful setup."
+    },
+    {
+        "question": "What type of keepsake items are laid out and handled on a table, and later get stored away on a bookshelf?",
+        "answer": "Collectible photo cards, likely of K-pop idols, which are organized into a clear plastic storage sheet and then stored on a bookshelf.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows Polaroid-style photos being touched and moved during organizing/crafting. Step 2: Slice 27 shows a person carrying an open photo album/scrapbook and placing it on a bookshelf. Conclusion: The photo-handling activity culminates in storing the compiled album on the shelf.",
+        "logic_check_reasoning": "Step 1: Slice 20 states that a hand is interacting with Polaroid-style photographs laid out on a flat surface, suggesting handling/organizing of photos. Step 2: Slice 27 shows a person holding a photo album or scrapbook filled with photographs and placing it on a bookshelf. Logic holds because the keepsake items first appear as individual photographs being handled and later as photographs compiled in an album that is stored on a bookshelf. This supports the answer that they are photographs/photo pages that become part of a photo album or scrapbook.",
+        "original_text_answer": "Photographs/photo pages that become part of a photo album or scrapbook.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a hand sorting through numerous small, glossy photo cards featuring different individuals, some with printed names or logos like 'RM'. Clip 2 shows these same cards being placed into a clear plastic sheet with individual pockets for organization. The person then takes this sheet and places it onto a shelf in a bookcase, indicating they are collectible items being stored."
+    },
+    {
+        "question": "A wall is shown being worked on with a hammer; what earlier creative sorting activity likely produced many of the framed pieces that end up displayed?",
+        "answer": "Sorting and selecting picture frames and artworks on the floor to choose what to frame and hang.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            34,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows someone surrounded by frames and artworks, examining and selecting pieces for framing. Step 2: Slice 42 shows the woman holding a hammer while hanging/adjusting a picture on a wall. Conclusion: The frame-sorting activity likely precedes and supplies the framed items being hung.",
+        "logic_check_reasoning": "Step 1: Slice 42 shows a woman using a hammer to hang or adjust framed pictures on a wall. Step 2: Slice 34 shows a person on the floor surrounded by picture frames and artworks, actively sorting, selecting, and placing pieces into frames. Logic holds because the earlier activity in Slice 34 involves choosing and framing items, which would naturally lead to the later display on the wall seen in Slice 42.",
+        "visual_proof": "Clip 1 shows a person sitting on the floor surrounded by numerous empty frames and various artworks, actively sorting through them and placing pictures into frames. Clip 2 shows the same person hanging the resulting framed pieces on a wall above a TV, using a hammer. The direct visual sequence from sorting on the floor to hanging on the wall confirms that the floor activity produced the items being displayed."
+    },
+    {
+        "question": "What new item does the woman introduce in its packaging and later show already working and lighting the room?",
+        "answer": "A new lamp.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the woman holding a black box labeled 'a new lamp.' Step 2: Slice 9 shows her turning on a lamp that illuminates the room. Conclusion: The boxed new item is the lamp that later works and lights the room.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows the woman holding a black box labeled 'a new lamp,' introducing the item in its packaging. Step 2: Slice 9 shows the same woman in the same setting turning on a lamp that illuminates the room, demonstrating it working. Logic holds because the same woman and environment link the introduction of the 'new lamp' with later showing a lamp functioning.",
+        "visual_proof": "In Clip 1, at 0:34, the woman is seen opening a box with text that reads 'a new lamp' on screen. In Clip 2, from 0:03 to 0:09, she assembles and turns on a white, teardrop-shaped lamp, which then illuminates the room."
+    }
+]

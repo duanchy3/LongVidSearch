@@ -1,0 +1,113 @@
+[
+    {
+        "question": "Which outdoor setting feature appears both when a man works on machinery and when meat prep happens nearby later?",
+        "answer": "A rustic wooden cabin with a thatched roof.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a man working on machinery outside a rustic wooden cabin with a thatched roof. Step 2: Slice 14 shows outdoor meat preparation with the same kind of thatched-roof cabin in the background. Conclusion: The shared setting feature is the thatched-roof rustic cabin.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes a man working on machinery outside a rustic wooden cabin that has a thatched roof. Step 2: Slice 14 describes a man preparing meat outdoors with a background that includes a wooden cabin with a thatched roof. Logic holds because both slices explicitly mention the presence of a wooden cabin with a thatched roof in the outdoor setting.",
+        "visual_proof": "In Video 1, the man is working on machinery on a porch directly in front of a log cabin with a thatched roof. In Video 2, the same man is preparing meat at an outdoor station, and the identical log cabin with a thatched roof is visible in the background behind him. The consistent architectural style and structure confirm it is the same building appearing in both scenes."
+    },
+    {
+        "question": "What is the earlier action involving a rolling tool that later reappears as the same kind of flattening technique for chicken pieces?",
+        "answer": "Using a wooden mallet to flatten meat reappears as using the same wooden mallet to flatten chicken pieces.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows a cylindrical tool used to flatten a slab of meat. Step 2: Slice 29 shows a rolling pin flattening chicken pieces. Conclusion: Flattening meat with a rolling/hammering tool is repeated later for chicken.",
+        "logic_check_reasoning": "Step 1: Slice 27 describes an earlier scene where a person uses a cylindrical object, likely a mallet or similar tool, to flatten a large piece of meat. Step 2: Slice 29 shows a later scene where a man uses a rolling pin to flatten chicken pieces. Logic holds because both slices depict the same kind of flattening technique using a cylindrical tool, first on meat and later specifically with a rolling pin on chicken, matching the proposed answer.",
+        "original_text_answer": "Using a mallet/rolling tool to flatten meat reappears as using a rolling pin to flatten chicken.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In both clips, the man is consistently using a wooden mallet with a cylindrical head to pound and flatten pieces of raw meat on a wooden cutting board. There is no rolling pin visible in any of the frames; the tool used throughout is clearly a mallet."
+    },
+    {
+        "question": "Which ingredient is being sliced into rounds multiple times before wraps are assembled later with meat and vegetables?",
+        "answer": "Cucumber.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows the man slicing a cucumber into thin rounds. Step 2: Slice 68 shows cucumber slices added into a wrap along with other vegetables and meat. Conclusion: The sliced cucumber becomes a wrap filling ingredient.",
+        "logic_check_reasoning": "Step 1: Slice 48 states that the man takes a cucumber and slices it into thin rounds, with a close-up of the repeated slicing action. Step 2: Slice 68 later shows wraps being assembled with meat and vegetables, explicitly including slices of cucumber among the ingredients. Logic holds because the cucumber is the ingredient sliced into rounds earlier, and those slices are used later in the wrap assembly.",
+        "visual_proof": "In the first clip, a person is shown repeatedly slicing green cucumbers into thin, round pieces on a wooden cutting board. In the second clip, these same sliced cucumbers are visibly added to wraps along with meat and other vegetables, confirming they are the ingredient prepared in advance for assembly."
+    },
+    {
+        "question": "What earlier construction material preparation is later echoed by a similar mixing action during bricklaying?",
+        "answer": "Mixing cement in a large wooden drum is later echoed by applying mortar while laying bricks.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows cement being mixed in a large wooden drum. Step 2: Slice 4 shows bricklaying with mortar application. Conclusion: The earlier cement mixing supports the later mortar-based bricklaying workflow.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 states the man uses a trowel to mix cement in a large wooden drum and then applies it to bricks. Step 2: Evidence Slice 4 shows the man laying bricks using mortar, handling it with a trowel, which implies applying mortar during bricklaying. Logic holds because the earlier material preparation (mixing cement) is present, and later actions involve using and applying mortar while laying bricks, consistent with the proposed answer’s claim.",
+        "visual_proof": "In Clip 1, the man is seen mixing wet cement/mortar with a trowel inside a large wooden spool/drum. In Clip 2, he is shown applying similar wet mortar to lay bricks on a wall, using a trowel in a comparable mixing/scraping motion to spread and prepare the mortar for each brick. The action of manipulating the wet material with a trowel is visually consistent across both scenes."
+    },
+    {
+        "question": "What outdoor animal first appears grazing calmly and later is seen being engaged more actively by a man near a stone fireplace?",
+        "answer": "A goat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            72,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 72 shows a white goat with brown spots grazing in a grassy area. Step 2: Slice 73 shows a goat interacting with a man near a stone fireplace. Conclusion: The recurring animal is a goat.",
+        "logic_check_reasoning": "Step 1: Slice 72 describes a white goat with brown spots grazing calmly in a grassy area. Step 2: Slice 73 shows a man near a stone fireplace actively interacting with a goat using a stick. Logic holds because both slices explicitly mention a goat in the described scenarios—first grazing, then being engaged by the man—matching the question's sequence.",
+        "visual_proof": "In the first clip, a goat is seen running across a grassy field. In the second clip, the same goat approaches the man and is fed bread by him near a stone fireplace, confirming its active engagement with the man in that setting."
+    },
+    {
+        "question": "How does the workflow progress from cutting wire mesh to using it as part of a stone structure, and what later cooking scene uses a similar stone-built setup?",
+        "answer": "Wire mesh is cut first, then used as an enclosure in a stone structure, and later a stone structure is used as the base for grilling meat on a vertical spit.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows wire mesh being measured and cut. Step 2: Slice 44 shows wire mesh installed as an enclosure at the base of a stone structure (with birds). Step 3: Slice 45 shows a stone barbecue setup used for vertical-spit cooking. Conclusion: Fabrication (mesh) supports rustic structures that later appear in the same environment as stone-based cooking.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows a man in a black shirt and red gloves cutting wire mesh, establishing the initial action of preparing mesh. Step 2: Slice 44 depicts a stone structure with a wire mesh enclosure at its base, and the same visually consistent man interacting with it, supporting that the mesh is used as part of a stone structure. Step 3: Slice 45 presents a cooking scene where a stone structure is part of a makeshift barbecue setup used to grill meat on a vertical spit, matching the description of a later cooking scene using a similar stone-built setup. The logic holds because each slice sequentially supports the progression from preparing mesh to its use in a stone structure, and then to another stone structure used for cooking.",
+        "visual_proof": "Clip 1 shows the man cutting wire mesh with shears. Clip 2 shows the same man installing the cut wire mesh into a stone-built structure, which is then filled with charcoal. Clip 3 shows the same stone structure being used to grill a large piece of meat on a vertical spit, confirming the workflow progression from mesh preparation to cooking setup."
+    },
+    {
+        "question": "What complete arc connects early masonry work, later rustic cooking infrastructure, and the final sweeping valley landscape shots?",
+        "answer": "It goes from hands-on rural construction, to building/using rustic stone-and-wood cooking setups for a large meal, and ends by emphasizing the surrounding valley landscape (even shifting to night).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            45,
+            81,
+            95
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows bricklaying/masonry in a rural mountain setting. Step 2: Slice 45 shows meat cooking on a stone barbecue with smoke and a vertical spit. Step 3: Slice 81 shows the prepared food being shared in a communal outdoor meal with children. Step 4: Slice 95 pans to wide valley/river/mountains and then a night view, placing the human activity within the larger landscape. Conclusion: Construction → cooking → communal eating → environmental panorama.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows hands-on rural construction with a man bricklaying outdoors, clearly supporting 'early masonry work.' Step 2: Slice 45 depicts a rustic outdoor cooking setup involving a stone structure and a wooden stick to rotate a whole lamb, which supports 'building/using rustic stone-and-wood cooking setups' and suggests a large meal; Slice 81 further reinforces the communal meal context with children being served food outdoors. Step 3: Slice 95 transitions from a man near a brick structure holding meat to sweeping shots of a valley by day and then at night, directly supporting 'final sweeping valley landscape shots (even shifting to night).' The logic holds as a thematic progression from construction to cooking to landscape emphasis.",
+        "visual_proof": "Clip 1 shows hands laying bricks with mud mortar. Clip 2 shows a man placing a large cut of meat on a spit in front of a stone-and-wire grill structure filled with charcoal. Clip 3 shows the same man serving food to children at a table outdoors. Clip 4 transitions from the cooking setup to wide aerial shots of the green valley, ending with a darkened, dusk or night view of the mountains."
+    },
+    {
+        "question": "Which repeated object and method link the preparation of a stone structure, the later bird enclosure, and the eventual vertical-spit cooking setup?",
+        "answer": "A stone-built structure is repeatedly used—first for construction/masonry, later as a stone feature with a mesh enclosure, and later as a stone base for the rotisserie grill.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            6,
+            44,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows stone structure construction with mortar and large stones. Step 2: Slice 6 shows placing a large stone block onto mortar as part of building. Step 3: Slice 44 shows a stone structure that includes a wire mesh enclosure with birds. Step 4: Slice 58 shows a rotisserie grill mounted on a stone pillar/structure. Conclusion: Stone structures recur across building, animal housing, and cooking.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows a man constructing a stone structure using large stones with mortar/concrete—indicating masonry as the method and a stone structure as the object. Step 2: Slice 6 reinforces this with explicit mortar application and stone placement for a wall or pillar—again confirming stone masonry. Step 3: Slice 44 presents a stone structure featuring a wire mesh enclosure at its base that houses birds—demonstrating the stone structure’s later use as a bird enclosure. Step 4: Slice 58 shows a vertical rotisserie grill mounted on a stone pillar—using a stone-built base for cooking. Logic holds because across all slices, the repeated object is a stone-built structure/pillar and the linking method is stone masonry.",
+        "visual_proof": "Clip 1 shows the man constructing a stone structure with mud mortar. Clip 3 shows the same structure now fitted with wire mesh, containing charcoal, indicating its use as an enclosure or oven. Clip 4 shows the identical stone structure serving as the base for a vertical rotisserie spit with meat cooking on it. The continuity of the stone structure across all three stages confirms the answer."
+    }
+]

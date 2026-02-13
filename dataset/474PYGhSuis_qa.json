@@ -1,0 +1,125 @@
+[
+    {
+        "question": "What sponsor is thanked at the very beginning and then thanked again later right before the moving segment starts?",
+        "answer": "Skillshare.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a handwritten note thanking Skillshare for sponsoring the video. Step 2: Slice 30 again displays the sponsor thank-you while transitioning into the moving section. Conclusion: The sponsor thanked in both places is Skillshare.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly shows a handwritten note at the opening that says, 'Thank you to Skillshare for sponsoring this video,' establishing the sponsor as Skillshare. Step 2: Evidence Slice 30 states that text reading 'thank you to Skillshare for sponsoring this video' appears and then the camera cuts to an illustration with the word 'MOVING,' indicating a thank-you appearing right before the moving segment starts. Logic holds because both slices explicitly name Skillshare and the second instance is positioned adjacent to the moving segment.",
+        "visual_proof": "Clip 1/2 (0.3s-3.1s) shows a handwritten note on crumpled paper that reads 'Thank you to Skillshare for sponsoring this video.' Clip 2/2 (0.2s-5.1s) displays a yellow text overlay during the host's segment that says 'thank you to Skillshare for sponsoring this video. <3', confirming the sponsor is thanked again right before the 'MOVING' segment begins."
+    },
+    {
+        "question": "Which pet is shown getting ready in a suitcase, and later is referenced when the host talks about making more spaces for them to explore?",
+        "answer": "Kayla (the cat).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows a cat in an open suitcase with the caption indicating the cat is named Kayla. Step 2: Slice 55 mentions creating more spaces for Kayla to explore. Conclusion: The pet is Kayla the cat.",
+        "logic_check_reasoning": "Step 1: Slice 31 shows a cat in a suitcase with the on-screen caption 'KAYLA ALL READY TO GO!', explicitly identifying the pet as a cat named Kayla. Step 2: Slice 55 shows the host mentioning creating more spaces for 'Kayla' to explore. Logic holds because the name 'Kayla' is consistently used, and Slice 31 establishes that Kayla is the cat, so the later reference logically pertains to the same pet.",
+        "visual_proof": "Clip 1 visually shows a cat named Kayla sitting inside a suitcase with on-screen text confirming 'KAYLA ALL READY TO GO!'. Clip 2 features the host speaking, and the subtitle explicitly states, 'it's more spaces for kayla to explore <3', directly referencing the same pet. Both clips visually and textually confirm Kayla is the cat involved in both events."
+    },
+    {
+        "question": "Which piece of furniture appears as an empty-room focal point during move-in and later is seen in a more decorated living room with pillows and a blanket?",
+        "answer": "The red couch (sofa).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            57,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows a minimalist room with the red couch as the key furniture piece. Step 2: Slice 72 shows the red couch later with pillows/blanket as the home looks more lived-in. Conclusion: The furniture is the red couch.",
+        "logic_check_reasoning": "Step 1: Slice 57 describes a minimalist living room where a large red couch is the central/focal piece, with no additional decorations visible. Step 2: Slice 72 describes a living room featuring a red couch adorned with pillows and a blanket in a more decorated, cozy setting. Logic holds because both slices explicitly mention a red couch, first as the focal item in a sparse room and later as the same item in a decorated environment, matching the question's two states.",
+        "visual_proof": "In Video 1, the red couch is the central and only major piece of furniture in an otherwise empty room, serving as a focal point for the two people. In Video 2, the same red couch is shown again, now filled with pillows, stuffed toys, and a blanket, indicating it has been decorated since the initial move-in scene."
+    },
+    {
+        "question": "During the tour, what small playful object is discovered in the bathroom, and what later scenes reinforce that the home is becoming more lived-in and cozy?",
+        "answer": "A small yellow rubber duck; later the living room shows a red couch with pillows/blanket and the home looks more decorated and settled.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            41,
+            57,
+            72,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows the discovery of a yellow rubber duck on a towel in the bathroom. Step 2: Slice 57 shows the red couch placed in the otherwise minimal living room during early settling. Step 3: Slice 72 shows the red couch later with pillows and a blanket, implying increased coziness. Step 4: Slice 74 explicitly states 'everything is slowly coming together,' reinforcing the settled, lived-in feel. Conclusion: The duck is found early, and later scenes show the home becoming cozy and complete.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 41 shows a woman in a bathroom discovering and picking up a small yellow rubber duck on a rolled towel, clearly supporting the playful object. Step 2: Evidence Slice 72 later depicts a living room with a red couch adorned with pillows and a blanket, and describes a cozy, lived-in feel, directly supporting the mention of the red couch with pillows/blanket. Step 3: Evidence Slice 74 further reinforces the home becoming more settled through a montage of cleaning/organizing and a final cozy living room scene, plus the text overlay 'everything is slowly coming together <3,' supporting the idea the home looks more decorated and settled. Logic holds because these later scenes explicitly emphasize coziness and a lived-in atmosphere.",
+        "visual_proof": "In Clip 1, a woman points to a small yellow rubber duck on a towel in the bathroom. In Clips 3 and 4, the living room is shown transitioning from cluttered boxes to being organized with a red couch adorned with pillows and blankets, plants on the windowsill, and other decorations, indicating it is becoming more lived-in and cozy."
+    },
+    {
+        "question": "Which unit was described as having high ceilings and an updated modern kitchen, and later is contrasted by another unit being smaller and having a den with no windows?",
+        "answer": "The loft-like unit with the high ceilings and updated kitchen (the 2-bed, 1-bath 1,120 sq ft unit).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 16 describes a loft-like apartment with very high ceilings and a modern updated kitchen. Step 2: Slice 20 lists cons for a different unit: 'den has no windows' and 'much smaller than loft.' Conclusion: The high-ceiling updated-kitchen unit is the loft-like apartment referenced as the comparison point.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes a specific apartment unit as 2-bed, 1-bath, 1,120 sq ft with high ceilings and a modern kitchen (black cabinets, stainless steel appliances, mosaic backsplash), and the narrator notes updated appliances. Step 2: Slice 20 presents another unit (1 bed + den, 875 sq ft) whose cons include 'Den has no windows' and 'Much smaller than loft,' and pros include 'Cheaper than loft,' clearly contrasting it against the previously mentioned loft-like unit. Logic holds because the 'loft-like' high-ceiling unit in Slice 16 is the reference point being contrasted in Slice 20.",
+        "visual_proof": "Clip 1 visually showcases a spacious unit with very tall ceilings and a modern kitchen featuring dark cabinets, stainless steel appliances, and a mosaic tile backsplash. The on-screen text identifies this as 'APARTMENT #2' with '2 BEDROOM, 1 BATH' and '1,120 SQ. FT.'. Clip 2 presents a comparison graphic for 'APARTMENT #3', which is described in its 'CON' column as being 'much smaller than loft' and having a 'den has no windows', directly contrasting it with the previously shown loft unit."
+    },
+    {
+        "question": "What sequence shows the transition from preparing boxes for storage to officially arriving for move-in, including the dates shown on-screen?",
+        "answer": "Packing for the storage run on March 4th, then move-in day on March 7th.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            32,
+            34,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows 'March 4th, 2022' and a trip to the storage unit with packing. Step 2: Slice 34 shows the home full of boxes and text about being ready for Monday. Step 3: Slice 35 shows 'MOVE IN DAY' with the date 'March 7th, 2022.' Conclusion: The timeline progresses from March 4 packing/storage prep to March 7 move-in.",
+        "logic_check_reasoning": "Step 1: Slice 32 explicitly shows packing and a trip to the storage unit with the on-screen date \"March 4th, 2022.\" Step 2: Slice 34 reinforces preparation, noting \"all ready to go for monday :)\" which aligns with an upcoming move. Step 3: Slice 35 explicitly shows \"MOVE IN DAY\" with the date \"March 7th, 2022.\" Logic holds because the context presents a clear progression from preparing and storing items on March 4th to arriving for move-in on March 7th.",
+        "visual_proof": "Clip 1 shows text overlay 'march 4th, 2022 | a trip to the storage unit' during scenes of packing and loading boxes. Clip 3 shows text overlay 'march 7th, 2022 | the first of many' during scenes of driving to the new location, indicating the official move-in day. The sequence of events and dates directly supports the answer."
+    },
+    {
+        "question": "How did her budget range change from earlier to later in the apartment-hunting discussion?",
+        "answer": "It increased from $1500–$2000 to $2500–$3000.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 6 states her new budget is a jump from $1500–$2000. Step 2: Slice 5 shows a budget range of $2500–$3000. Conclusion: Her budget rose from $1500–$2000 to $2500–$3000.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly states she previously had a budget of $1500–$2000 (“which is quite a jump from what I previously had for a budget ($1500-2000)”). Step 2: Slice 5 notes the video ends with an illustration of a budget range of $2500–$3000 while discussing her new living situation and apartment hunting. Logic holds because Slice 6 provides the earlier budget and Slice 5 provides the later budget, showing an increase from $1500–$2000 to $2500–$3000.",
+        "visual_proof": "The subtitle at 0:00 in the first clip explicitly states, 'which is quite a jump from what i previously had for a budget ($1500-2000)'. Later, at 0:31 in the second clip, she says, 'first off, to be transparent, my budget was $2500-3000', and this is visually reinforced by a graphic at 0:32 that reads 'BUDGET $2500-3000' with a note below it saying 'which is quite a jump from what i previously had for a budget ($1500-2000)'."
+    },
+    {
+        "question": "Which unit is labeled as cheaper than the loft but criticized for having a den without windows, and how does that relate to her earlier emphasis on natural light?",
+        "answer": "The $2,600 1-bedroom + den unit; it conflicts with her preference for strong natural lighting.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            18,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 7 frames natural lighting as an important factor in her apartment search. Step 2: Slice 18 explains the den in this unit has no natural lighting and compares it to a brighter unit. Step 3: Slice 20’s PRO/CON sheet notes 'cheaper than loft' but 'den has no windows.' Conclusion: The cheaper $2,600 unit is penalized because it doesn’t meet her natural-light preference.",
+        "logic_check_reasoning": "Step 1: Slice 20 lists a unit with $2,600, 1 bedroom, 1 den, 1 bath, 875 sq ft, and includes pros ('Cheaper than loft') and cons ('Den has no windows'). Step 2: Slice 18 states this unit has a den lacking natural lighting and contrasts it with a previously liked unit that had ample natural light. Step 3: Slice 7 indicates an earlier emphasis on finding an apartment with natural lighting. Logic holds because the identified unit matches the price and layout and is criticized for the den without windows, which conflicts with her stated preference for strong natural light.",
+        "visual_proof": "Clip 3 explicitly lists 'APARTMENT #3' as '$2,600, 1 BEDROOM, 1 DEN, 1 BATH' and under 'CON' states 'den has no windows'. Clip 1 shows the narrator emphasizing 'NATURAL LIGHTING' as 'CRITERIA #3', stating she doesn't think anything can beat it. Clip 2 visually confirms the den has 'no lighting, no natural lighting whatsoever'. This directly contradicts her stated priority, making the original answer correct."
+    },
+    {
+        "question": "Which flooring preference is explained verbally during the tour, and how does it connect back to her earlier stated apartment preferences about floors and carpeted bedrooms?",
+        "answer": "She likes carpet in private living areas and hardwood elsewhere, matching her earlier preference for hardwood floors and carpeted bedrooms.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            10,
+            47,
+            53,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 10 states her preferences include hardwood floors and carpeted bedrooms. Step 2: Slice 39 shows carpeted stairs leading to a bedroom, indicating carpeting in private areas. Step 3: Slice 47 shows a carpeted room and she notes the carpet’s cleanliness, reinforcing the presence of carpet in private spaces. Step 4: Slice 53 explicitly explains she likes carpet in private areas and hardwood elsewhere. Conclusion: Her tour demonstrates the exact floor-material preference she stated earlier.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 10 explicitly states her earlier apartment preferences, including hardwood floors and carpeted bedrooms. Step 2: Evidence Slice 53 shows the tour segment where her flooring preference is conveyed: captions say she likes carpet in private living areas and hardwood floors elsewhere, emphasizing coziness. Step 3: This logically connects to the earlier preferences, as carpeted bedrooms fit within 'private living areas,' and 'hardwood elsewhere' matches the stated preference for hardwood floors. The content aligns with the proposed answer.",
+        "visual_proof": "In Clip 1 (0:09-0:12), the speaker states she wanted hardwood floors but also wanted her bedroom area to be carpeted. In Clip 3 (0:00-0:01), during the tour, she says, 'but I like having the carpet in the private living areas,' while showing a carpeted staircase. This visually and verbally connects her tour observation back to her initial stated preference for a mix of hardwood and carpet."
+    }
+]

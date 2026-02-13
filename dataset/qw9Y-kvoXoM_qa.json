@@ -1,0 +1,138 @@
+[
+    {
+        "question": "Which interactive show theme is introduced on a wall sign in the kitchen and later reappears as the title on an end-card made of drawings?",
+        "answer": "\"I Draw YOU COOK.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            99
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a kitchen wall sign reading \"I Draw YOU COOK.\" Step 2: Slice 99 shows drawn paper with the same title and \"WATCH MORE.\" Conclusion: The recurring show theme is \"I Draw YOU COOK.\"",
+        "logic_check_reasoning": "Step 1: Slice 12 states that a wall sign in the kitchen reads 'I Draw YOU COOK,' introducing the interactive theme. Step 2: Slice 99 describes an end-card made of drawings with the title 'I Draw YOU COOK' prominently displayed. Logic holds because the exact phrase appears in both contexts, confirming the theme reappears as the title on the end-card.",
+        "visual_proof": "In Clip 1, a white sign with the text 'I Draw YOU COOK' is clearly visible on the wall behind the hosts. In Clip 2, the same phrase 'I Draw YOU COOK' appears as the central title on the end-card, surrounded by various drawings on lined paper."
+    },
+    {
+        "question": "Which adult from the early drawing-table family scene later appears in the kitchen cooking segment wearing an orange top?",
+        "answer": "The woman in the orange top/sweater.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a woman in an orange top sitting at the table with the girl and a man. Step 2: Slice 20 shows a woman in an orange shirt cooking in the festive kitchen. Conclusion: The orange-top woman appears in both, later as the cook.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes the early drawing-table scene, noting a woman on the girl's right who is 'wearing an orange top.' Step 2: Slice 20 shows a kitchen scene where a woman is 'wearing an orange shirt and a blue apron' while cooking. Step 3: The consistent visual attribute (orange top/shirt) links the woman in Slice 2 to the woman in Slice 20, indicating it is the same adult. Therefore, the adult is the woman in the orange top.",
+        "visual_proof": "In Clip 1 (0:04-0:09), a woman wearing an orange top is seen sitting at the drawing table with two children. In Clip 2 (0:00-0:18), the same woman, identifiable by her facial features and hairstyle, is shown in the kitchen wearing the identical orange top, now paired with a blue apron, as she cooks."
+    },
+    {
+        "question": "What dish format shown in a plated close-up later becomes the food the blonde girl is shown eating at the festive table?",
+        "answer": "Nachos topped with cheese and vegetables.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            65,
+            81
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows a close-up of a nacho-style dish with chips, creamy sauce, peppers, and herbs. Step 2: Slice 81 shows the blonde girl eating a large plate of nachos in the festive setting. Conclusion: The plated nachos are later the girl's food.",
+        "logic_check_reasoning": "Step 1: Slice 65 describes a close-up of a dish with tortilla chips topped with a creamy yellow (cheese-like) sauce, bell pepper strips, and other toppings, clearly resembling nachos. Step 2: Slice 81 shows a blonde girl at a festive table with a plate that includes what appears to be nachos topped with cheese and vegetables, which she is eating. Logic holds because both slices describe the same dish format—nachos with cheese and veggies—first in a close-up and later being eaten by the girl.",
+        "visual_proof": "Clip 1 shows a close-up of a plate of nachos with melted cheese, sliced red and yellow peppers, chunks of meat or mushrooms, crumbled white cheese, and cilantro. Clip 2 shows the same dish on the table in front of the blonde girl, confirming it is the food she is about to eat at the festive table."
+    },
+    {
+        "question": "Which ingredient appears as being chopped earlier and is also clearly visible as strips on the finished nacho-style dish close-up?",
+        "answer": "Bell peppers (red/orange/yellow strips).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows chopping yellow bell peppers into strips. Step 2: Slice 65 shows bell pepper strips on the finished nacho dish. Conclusion: Bell peppers appear in both prep and final presentation.",
+        "logic_check_reasoning": "Step 1: Slice 14 describes a person on the right chopping yellow bell peppers into thin strips. Step 2: Slice 65 shows the finished nacho-style dish topped with strips of bell peppers in red, orange, and yellow. Logic holds because the ingredient chopped earlier (bell peppers, sliced into strips) is clearly visible as strips on the final dish.",
+        "visual_proof": "Clip 1 shows a close-up of hands chopping a yellow bell pepper into strips. Clip 2 shows the finished dish, which clearly contains red, orange, and yellow bell pepper strips mixed in with the other toppings."
+    },
+    {
+        "question": "What worded cue signaling preparation appears in the drawing phase, and later what different worded cue signals a judging moment?",
+        "answer": "\"Time to Prepare\" appears first, and later \"A Judge Awaits\" appears.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a drawing that reads \"Time to Prepare.\" Step 2: Slice 66 shows a drawing that reads \"A Judge Awaits.\" Conclusion: The on-screen cues progress from preparing to judging.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly states that the close-up of the drawing features the words 'Time to Prepare,' signaling preparation. Step 2: Slice 66 explicitly mentions a close-up drawing with the words 'A Judge Awaits,' which signals a judging moment. Logic holds because both phrases are directly quoted in the respective slices and match the requested cues.",
+        "visual_proof": "In Video 1, at timestamp 0:20, a drawing on lined paper clearly displays the text 'Time to Prepare' in colorful letters. In Video 2, at timestamp 0:06, a similar drawing on lined paper shows the text 'A Judge Awaits' in colorful letters. Both phrases are visually present as described."
+    },
+    {
+        "question": "What cooking task is shown being done by the man in a brown apron earlier and then later again when he specifically makes a green smoothie?",
+        "answer": "Blending ingredients in a blender.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows a man using a blender and pouring a yellow substance into it. Step 2: Slice 22 shows the man in a brown apron making a green smoothie in a yellow blender. Conclusion: He is blending ingredients in both moments.",
+        "logic_check_reasoning": "Step 1: Slice 26 describes a man in an apron using a blender to mix ingredients, including pouring a yellow substance, indicating the task of blending. Step 2: Slice 22 explicitly shows a man in a brown apron preparing a green smoothie using a blender, adding various ingredients and ending with a blended green smoothie. Logic holds because both slices depict the same cooking task—using a blender to blend ingredients—first generally and later specifically for a green smoothie.",
+        "visual_proof": "In both clips, the man in the brown apron is shown using a yellow Cuisinart food processor (a type of blender). In Clip 1, he pours a yellow liquid and adds a drop of green coloring into it. In Clip 2, he adds chopped green herbs and later a white powder to the same machine and operates it, resulting in a green mixture. The consistent action across both time-sliced clips is the preparation and blending of ingredients in the food processor."
+    },
+    {
+        "question": "What is the multi-step evidence that the bell peppers prepared in the kitchen are part of the final nacho presentation?",
+        "answer": "Bell peppers are chopped first, then sautéed/handled in cooking, and finally appear as colorful strips on the plated nachos.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            20,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows yellow bell peppers being sliced into strips. Step 2: Slice 20 shows bell peppers being added and stirred in a pan. Step 3: Slice 65 shows bell pepper strips on the finished nacho dish. Conclusion: The peppers go from prep to cooking to plating.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows the person on the right chopping yellow bell peppers into thin strips, establishing preparation of bell peppers. Step 2: Slice 20 shows the woman in the same festive kitchen sautéing vegetables and explicitly adding sliced bell peppers to the pan, confirming the peppers are used in cooking. Step 3: Slice 65 presents the final dish (nachos) topped with colorful strips of bell peppers, showing the peppers appear in the plated presentation. The consistent setting and sequence link these steps logically.",
+        "visual_proof": "Clip 1 shows a woman's hands chopping yellow bell peppers. Clip 2 shows the same woman adding sliced red and yellow bell peppers to a skillet for sautéing. Clip 3 shows the final plated dish of nachos, which clearly includes cooked red and yellow bell pepper strips as a topping."
+    },
+    {
+        "question": "How does the nacho dish move from active vegetable prep to cooking and then to a named final presentation associated with a judge?",
+        "answer": "Vegetables are chopped and sautéed, then the nacho dish is shown plated in close-up, and later it is presented with the festive title \"Ellen's Happy Holiday Nacho Snow Globe\" after the judging cue appears.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            20,
+            65,
+            66,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows bell peppers being sliced. Step 2: Slice 20 shows peppers and onions sautéed in a pan. Step 3: Slice 65 shows the finished nacho-style dish topped with peppers and herbs. Step 4: Slice 66 presents the dish with a formal festive name and introduces judging with \"A Judge Awaits.\" Conclusion: Prep and cooking lead to a judged final plated nacho presentation.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows active vegetable prep, specifically chopping yellow bell peppers. Step 2: Slice 20 shows cooking, with the woman sautéing vegetables (bell peppers and onions) in a pan. Step 3: Slice 65 presents a close-up of a plated nacho-like dish topped with peppers, sauce, and cilantro, indicating the dish has moved to presentation. Step 4: Slice 66 includes a drawing saying 'A Judge Awaits' and then explicitly names the final dish as 'Ellen's Happy Holiday Nacho Snow Globe,' tying the presentation to a judging context. The proposed answer matches this sequence and details.",
+        "visual_proof": "Clip 1 shows the woman chopping peppers and sautéing them in a pan. Clip 2 shows a close-up of the fully assembled nacho dish on a plate. Clip 3 displays a drawing that says \"A Judge Awaits,\" followed by the same dish being presented with the text overlay \"ELLEN'S HAPPY HOLIDAY NACHO SNOW GLOBE.\" This sequence visually confirms the progression from prep to cooking to final presentation with the judge-related title."
+    },
+    {
+        "question": "What two-part sequence connects an early drawing activity to an explicit cooking-show setup that matches the idea of drawing first and cooking later?",
+        "answer": "They draw with markers at a festive table, then the video cuts to the kitchen set with the sign \"I Draw YOU COOK\" where cooking begins.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            9,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the family using markers and drawing on paper. Step 2: Slice 9 shows a completed drawing with \"Time to Prepare,\" implying moving on from drawing. Step 3: Slice 12 reveals the kitchen set with \"I Draw YOU COOK\" where cooking is underway. Conclusion: The video connects drawing first to cooking later.",
+        "logic_check_reasoning": "Step 1: Slices 4 and 9 show an early drawing activity at a festive table with markers and a sheet that ends up displaying colorful drawings and the phrase 'Time to Prepare,' clearly indicating a drawing-focused start. Step 2: Slice 12 shows a subsequent explicit cooking-show setup with a kitchen set, hosts in aprons actively cooking, and a sign reading 'I Draw YOU COOK,' matching the theme of drawing first and cooking later. The logic holds because the first part is drawing at a festive table, and the second part is a transition to a cooking set explicitly themed around drawing leading to cooking.",
+        "visual_proof": "Clip 1 and Clip 2 show three people (a man, a girl, and a woman) sitting at a white table with markers, drawing on a large pad in a Christmas-themed setting. Clip 3 shows the same man and woman, now wearing aprons, standing behind separate cooking stations in a brightly colored kitchen set. A prominent sign on the wall between them reads \"I Draw YOU COOK\", explicitly linking the drawing activity to the subsequent cooking segment."
+    },
+    {
+        "question": "How is the pasta dish traced from early hands-on dough work to making noodles with a pasta machine and finally to a plated pasta presentation with a specific festive name?",
+        "answer": "Dough is prepared and handled, then fed through a pasta machine to form noodles, and later a finished dish appears as \"Alvin's Elf Pasta Paradise.\"",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            13,
+            17,
+            55,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows initial dough formation (flour mound and egg). Step 2: Slice 17 shows rolling dough out. Step 3: Slice 55 shows noodles being made with a pasta machine. Step 4: Slice 68 shows the final plated pasta dish labeled \"Alvin's Elf Pasta Paradise.\" Conclusion: The pasta progresses from dough to noodles to plated dish.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows initial dough preparation with mixing ingredients, pouring flour into a mound, and cracking an egg into the flour, and Slice 17 shows rolling out dough, indicating hands-on dough work. Step 2: Slice 55 explicitly shows using a pasta machine to make noodles, with dough fed through and noodles coming out. Step 3: Slice 68 presents the final plated pasta with a festive label, specifically 'Alvin's Elf Pasta Paradise.' Logic holds because the sequence progresses from dough making to noodle forming to a named plated dish.",
+        "visual_proof": "Clip 1 shows hands preparing dough on a board. Clip 3 shows the man feeding dough into a manual pasta machine to create noodles. Clip 4 displays the final plated dish with the text overlay \"ALVIN'S ELF PASTA PARADISE,\" confirming the festive name."
+    }
+]

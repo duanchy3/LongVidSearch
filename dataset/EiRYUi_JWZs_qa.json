@@ -1,0 +1,93 @@
+[
+    {
+        "question": "Which two distinct atlases are shown as physical books at different times: the blue family reference atlas and the Times atlas title page?",
+        "answer": "\"National Geographic Family Reference Atlas of the World\" and \"The Times Comprehensive Atlas of the World.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            95,
+            69
+        ],
+        "reasoning_chain": "Step 1: A dark-blue book is shown labeled \"National Geographic Family Reference Atlas of the World.\" Step 2: Later, the man holds and shows the title page of \"The Times Comprehensive Atlas of the World.\" Conclusion: Those are the two distinct atlases shown physically.",
+        "logic_check_reasoning": "Step 1: Slice 95 explicitly describes a close-up of a physical book titled 'National Geographic Family Reference Atlas of the World' with a dark blue cover, and later the same book is on the desk. Step 2: Slice 69 explicitly states the man is holding an open book titled 'The Times Comprehensive Atlas of the World,' with focus on the title page. Logic holds because these are two distinct atlases shown as physical books at different points, matching the proposed titles.",
+        "visual_proof": "Clip 1 shows a close-up of a blue book with the title 'NATIONAL GEOGRAPHIC Family REFERENCE Atlas OF THE WORLD' clearly visible. Clip 2 features a man flipping through a large white book, followed by a close-up shot that explicitly displays the title page reading 'THE TIMES COMPREHENSIVE ATLAS OF THE WORLD'."
+    },
+    {
+        "question": "Which land location is introduced via a documentary-style sign and then immediately examined more closely through an atlas map at the desk?",
+        "answer": "Badwater Basin / Death Valley.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            88,
+            89
+        ],
+        "reasoning_chain": "Step 1: A YouTube-style segment shows the Badwater Basin sign in Death Valley. Step 2: Then an atlas is flipped to a Death Valley National Park map and discussed at the desk. Conclusion: The sign leads into the map examination of Badwater/Death Valley.",
+        "logic_check_reasoning": "Step 1: Slice 88 shows a documentary-style wooden sign explicitly introducing \"Badwater Basin\" as 282 feet below sea level. Step 2: Slice 88 then transitions to a map labeled \"Death Valley,\" providing broader geographic context for the area containing Badwater Basin. Step 3: Slice 89 shows an atlas map of Death Valley National Park examined at a desk, with a man pointing to locations, indicating a closer examination of the region. Logic holds because the land location introduced by the sign (Badwater Basin within Death Valley) is then examined via an atlas map of Death Valley at the desk, supporting the combined answer.",
+        "visual_proof": "Clip 1 opens with a documentary-style sign that explicitly reads 'BADWATER BASIN 282 FEET / 86 METERS BELOW SEA LEVEL'. The video then transitions to a satellite view labeled 'Badwater Basin' and an arrow pointing to its depth. Clip 2 immediately follows this by showing a person at a desk flipping through an atlas, zooming in on a map of the USA Southwest, and pointing directly at 'Death Valley National Park', which contains Badwater Basin. This sequence visually confirms that Badwater Basin/Death Valley is the location introduced by the sign and then examined in the atlas."
+    },
+    {
+        "question": "Which region is first shown in a detailed coastal bathymetry map with named canyons, and later revisited as a focused close-up labeled as a canyon off New York?",
+        "answer": "The northeastern U.S. Atlantic coast region; specifically the Hudson Canyon.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            32
+        ],
+        "reasoning_chain": "Step 1: A map shows the northeastern U.S./Canada offshore area with features like Hudson Canyon and Baltimore Canyon. Step 2: Later, a close-up explicitly highlights the Hudson Canyon off the coast of New York. Conclusion: The revisited feature is the Hudson Canyon in that same region.",
+        "logic_check_reasoning": "Step 1: Slice 23 describes a detailed bathymetry map of the northeastern United States and parts of Canada, explicitly naming underwater canyons such as Hudson Canyon and Baltimore Canyon. Step 2: Slice 32 shows a close-up focusing specifically on the Hudson Canyon off the coast of New York. Logic holds because the initial region is the northeastern U.S. Atlantic coast with named canyons, and it is later revisited with a focused close-up on Hudson Canyon off New York.",
+        "visual_proof": "Clip 1 (0:03-0:06) shows a detailed bathymetric map of the northeastern U.S. Atlantic coast, clearly labeling 'Hudson Canyon' near New York/New Jersey. Clip 2 (0:10-0:14) revisits this exact same area with a focused close-up on the 'Hudson Canyon' label and its depth (-4218), confirming it is the specific canyon off New York being highlighted."
+    },
+    {
+        "question": "After the rotating globe focuses on Australia with a size statistic, which two places does the presenter point to in the physical atlas immediately afterward?",
+        "answer": "Australia and New Zealand.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: A rotating globe animation centers on Australia and displays a size statistic. Step 2: In the next segment, the man points to locations in the open atlas including Australia and New Zealand. Conclusion: The places he points to are Australia and New Zealand.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows a rotating globe focusing on Australia with the size statistic, then transitions to a man at a desk. Step 2: Slice 21 shows the man holding an atlas and pointing to different locations on the map, explicitly including Australia and New Zealand. Logic holds because the next described action after the globe scene involves pointing in the atlas, and the two explicitly named locations he points to are Australia and New Zealand.",
+        "visual_proof": "In Video 2, after the presenter turns the page of the atlas, he points his finger first at Australia (0:03-0:04) and then moves his finger to point directly at New Zealand (0:05-0:06). This is shown clearly in the close-up shots of the map."
+    },
+    {
+        "question": "Which atlas title is first held up to the camera at the start, and which different atlas title is later shown as a product/webpage on a computer screen?",
+        "answer": "First: \"Family Atlas of the World\"; later on the computer: \"The Times Comprehensive Atlas of the World.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            7
+        ],
+        "reasoning_chain": "Step 1: Early on, the presenter holds up the thick blue book titled \"Family Atlas of the World.\" Step 2: Later, a computer screen shows a webpage for \"The Times Comprehensive Atlas of the World.\" Conclusion: The video features those two different atlas titles at those moments.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the man holds up a large blue book titled 'Family Atlas of the World' at the start. Step 2: Evidence Slice 7 shows a computer screen with a webpage for 'The Times Comprehensive Atlas of the World.' Logic holds because the first title is the one physically held up, and later a different atlas title appears on a webpage.",
+        "visual_proof": "In Video 1 (0:04-0:06), the man holds up a blue book with the title \"National Geographic Family Reference Atlas of the World\" clearly visible. In Video 2 (0:00-0:01 and 0:06-0:07), a webpage is shown with the title \"The Times Comprehensive Atlas of the World\" prominently displayed at the top."
+    },
+    {
+        "question": "Which planetary body is discussed via a crater database entry, and what Earth location is cited as the origin name for that feature?",
+        "answer": "Mars; the name origin is a town in California, USA (Badwater).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            78
+        ],
+        "reasoning_chain": "Step 1: Earlier, the computer shows a crater entry for \"Badwater\" with target listed as Mars. Step 2: Later, the detailed database page states the origin is a town in California, USA. Conclusion: The crater is on Mars and its name comes from a California town.",
+        "logic_check_reasoning": "Step 1: Slice 4 states the computer screen shows a database entry for a crater named \"Badwater\" with the target listed as Mars, confirming the planetary body. Step 2: Slice 78 shows the same page's details, including the origin listed as a town in California, USA, establishing the Earth-based name origin. Logic holds because the two slices describe the same entry and collectively provide both the planetary body and origin information.",
+        "visual_proof": "The database entry shown in both clips clearly lists 'Target: Mars' and 'Feature Name: Badwater'. The 'Origin' field explicitly states 'Town in California, USA.', directly confirming the planetary body and the Earth location cited as the origin for the feature name."
+    },
+    {
+        "question": "What approval date is highlighted on the feature-approval screen, and which later crater database page repeats that same adoption date?",
+        "answer": "Apr 11, 2015; the later \"Badwater\" crater database entry repeats the IAU adoption date.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            78
+        ],
+        "reasoning_chain": "Step 1: The approval-status webpage highlights the date Apr 11, 2015. Step 2: The later Badwater entry states it was adopted by the IAU on April 11, 2015. Conclusion: The same date appears on both screens, tied to the Badwater feature.",
+        "logic_check_reasoning": "Step 1: Slice 5 states that on a feature-approval screen the date 'Apr 11, 2015' is highlighted in yellow. Step 2: Slice 78 shows a later page for 'Badwater' where the approval status indicates it was adopted by the IAU on April 11, 2015. Logic holds because the same date highlighted earlier is explicitly repeated on the 'Badwater' page.",
+        "visual_proof": "Clip 1 (at 0:05) clearly shows a computer screen with the text 'Approval Date' highlighted in yellow, followed by 'Apr 11, 2015'. Clip 2 (from 0:07 to 0:08) shows the 'Badwater' crater database page, where the same 'Approval Date: Apr 11, 2015' is visible and also highlighted in yellow, confirming it is the same date."
+    }
+]

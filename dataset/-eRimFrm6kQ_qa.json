@@ -1,0 +1,85 @@
+[
+    {
+        "question": "Which two far-flung islands are labeled during a distance-scale map segment, and which specific atoll is later highlighted as a notable natural place in the country tour montage?",
+        "answer": "Assumption Island and Aldabra; the later highlighted atoll is Aldabra Atoll.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 9 labels 'Assumption Island' and 'Aldabra' while emphasizing distance across the ocean. Step 2: Slice 14 explicitly features 'Aldabra Atoll' in the Seychelles montage. Conclusion: The pair is Assumption and Aldabra, and the later featured atoll is Aldabra.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a distance-scale map segment with a 1000 km dotted line and explicitly labels two islands: 'Assumption Island' and 'Aldabra.' Step 2: Slice 14 later highlights 'Aldabra Atoll' as a notable natural place in the Seychelles tour montage. Logic holds because the question asks for the islands labeled in the map segment (Slice 9) and the specific atoll highlighted later (Slice 14), both of which match the proposed answer.",
+        "visual_proof": "Clip 1 visually labels 'Assumption Island' on the map segment. Clip 2 features a presenter who explicitly names and shows an image of 'Aldabra Atoll' as a notable natural place, confirming it as the highlighted atoll in the tour montage."
+    },
+    {
+        "question": "Which three languages are listed as spoken in the country when the passports graphic appears, and which later classroom-like segment reinforces the French component with example phrases?",
+        "answer": "English, French, and Seychellois Creole; the French phrases are reinforced in the later segment with the woman teaching phrases like 'Le pain' and 'Il/elle est grand/grande.'",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            49,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 45 lists the languages: English, French, Seychellois Creole. Step 2: Slice 42 discusses Seychelle Creole majority and shows French/UK/India influences. Step 3: Slice 49 shows a woman teaching French phrases ('Le pain', 'Il/elle est grand/grande'), reinforcing French as part of the linguistic context. Conclusion: The three languages are English, French, and Seychellois Creole, and the later segment supports the French element.",
+        "logic_check_reasoning": "Step 1: Slice 45 explicitly states that when the passports graphic appears, the text lists the languages spoken in Seychelles as English, French, and Seychellois Creole. Step 2: Slice 49 describes a later segment with a woman teaching and showing French phrases on screen such as 'Le pain' and 'Il/elle est grand/grande,' which reinforces the French component. Logic holds because the first part identifies the languages from the passports graphic, and the second part points to a classroom-like segment that uses French phrases, aligning with the question.",
+        "visual_proof": "Clip 1 visually displays a graphic listing '-English, -French, -Seychellois Creole' alongside the Seychelles flag. Clip 2 shows a woman teaching, with on-screen text and the French flag appearing next to the phrases 'Le pain' and 'Il/elle est grand/grande', directly reinforcing the French component."
+    },
+    {
+        "question": "Which island is first shown as having about 96% of the population, and later a map segment points to a specific spot labeled 'Au vent' on that same island—what island is it?",
+        "answer": "Mahé.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            65,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 7 states Mahé holds about 96% of the population. Step 2: Slice 65 introduces a Mahé map overlay as the woman discusses islands. Step 3: Slice 66 shows a Mahé map with an arrow pointing to 'Au vent.' Conclusion: The island is Mahé.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 explicitly states that Mahe is the most populated island with 96% of the population. Step 2: Evidence Slice 66 shows an inset map highlighting Mahé with a white arrow pointing to a spot labeled 'Au vent.' Step 3: The island identified in both instances is the same (Mahe/Mahé), so the logic holds that the island is Mahé.",
+        "visual_proof": "Clip 1 visually identifies Mahé as the island housing 98% of the population. Clip 3 shows a map of Mahé with a white arrow pointing to a specific location labeled 'Au vent', confirming it is the same island referenced in the question."
+    },
+    {
+        "question": "Which cultural events are labeled during the woman's presentation, and which later segment shows a man explaining music genres that likely relate to those festivals?",
+        "answer": "Beau Vallon Regatta and Festival Kreol; later the man discusses music like Moutya, Kantole, and Sega.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            70,
+            72,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 70 labels cultural events 'Beau Vallon Regatta' and 'Festival Kreol.' Step 2: Slice 72 shows the man referencing 'Moutya, Kantole Sega,' indicating local music/culture. Step 3: Slice 74 shows inset cultural dance/music performances, aligning with festival context. Conclusion: The labeled festivals connect to the music genres discussed.",
+        "logic_check_reasoning": "Step 1: Slice 70 explicitly lists images labeled 'Beau Vallon Regatta' and 'Festival Kreol' during the woman's presentation. Step 2: Slice 72 shows a man presenting with on-screen text 'Moutya, Kantole Sega,' indicating he is discussing music genres. Step 3: These genres plausibly relate to the cultural festivals mentioned, satisfying the question's linkage. The context supports both parts of the proposed answer.",
+        "visual_proof": "Clip 1 shows the woman presenting with on-screen text explicitly labeling 'Beau Vallon Regatta' and 'Festival Kreol' alongside corresponding festival imagery. Clip 2 shows a man presenting, with on-screen text listing 'Moutya, Kantole, Sega' and visuals of musicians and dancers associated with these genres, confirming the sequence and content described in the original answer."
+    },
+    {
+        "question": "During a wildlife section, a turtle is labeled with a specific name, and elsewhere a tortoise is highlighted with weight and birth year; what are the two different animals being emphasized?",
+        "answer": "A turtle named 'Esmerelda' and a giant tortoise (shown with ~300kg and born 1846).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 30 includes a turtle labeled 'Esmerelda.' Step 2: Slice 31 shows a tortoise inset with '~300Kg born 1846.' Conclusion: The video emphasizes both a named turtle and a giant tortoise.",
+        "logic_check_reasoning": "Step 1: Slice 30 states the final frame introduces a turtle labeled 'Esmerelda.' Step 2: Slice 31 shows an inset image of a large tortoise with text '~300Kg born 1846.' Logic holds because the question asks for the two animals emphasized: the named turtle and the tortoise highlighted with weight and birth year, both of which are explicitly described in the slices.",
+        "visual_proof": "Clip 1 shows a large tortoise with the on-screen text 'Esmerelda'. Clip 2 shows the same type of tortoise with on-screen text '~300Kg born 1846'. Both clips visually confirm the two distinct pieces of information mentioned in the original answer."
+    },
+    {
+        "question": "Across the video, the focus moves from scenic landmarks like markets and a clock tower to hard numbers like population and ethnic percentages; which two sections mark this shift from tourism/culture into statistics?",
+        "answer": "The landmarks montage section and the 'SEYCHELLES DEMOGRAPHICS' section.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            14,
+            35,
+            42,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 14 tours landmarks (market, clock tower, cultural sites). Step 2: Slice 35 transitions with the 'DEMOGRAPHICS' graphic. Step 3: Slice 42 presents numeric demographic details (population and ethnic breakdown). Step 4: Slice 36 continues the presenter-driven informational style around these facts. Conclusion: The shift is from cultural/tourism montage to demographics/statistics.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 14 shows a montage of Seychelles landmarks (e.g., Sir Selwyn-Clarke Market, Maiden's Clock Tower), clearly representing the tourism/culture section. Step 2: Evidence Slice 42 presents the 'SEYCHELLES DEMOGRAPHICS' section with population figures and ethnic breakdowns (hard numbers). Step 3: Evidence Slice 35 explicitly notes a transition from cultural/cuisine scenes to a 'DEMOGRAPHICS' graphic, reinforcing the shift. Therefore, the two sections marking the shift are the landmarks montage and the 'SEYCHELLES DEMOGRAPHICS' segment.",
+        "visual_proof": "Clip 1 visually presents a montage of cultural and tourist landmarks such as 'THE NATIONAL GALLERY OF ART', 'ST ANNE NATIONAL MARINE PARK', 'CATHEDRAL OF OUR LADY IMMACULATE CONCEPTION', and 'NATURAL HISTORY MUSEUM'. Clip 3 then transitions to a data-focused segment titled 'SEYCHELLES DEMOGRAPHICS', displaying population figures (96,762 people) and a detailed pie chart breaking down ethnic percentages (e.g., 85-90% Seychelle Creole, 6% Indo-Seychellois). This clear visual progression from scenic/cultural sites to statistical data confirms the shift described in the answer."
+    }
+]

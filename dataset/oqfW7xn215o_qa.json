@@ -1,0 +1,108 @@
+[
+    {
+        "question": "Which country is the focus of the video as indicated both by the geography intro and by repeated on-screen flag graphics during the studio presentation segments?",
+        "answer": "Qatar.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 2 explicitly introduces that the episode will discuss Qatar in a Geography context. Step 2: Slice 9 shows the presenter with the Qatar flag graphic on-screen. Conclusion: Both point to Qatar as the focus.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 states that the presenter introduces the topic and explicitly says he will be discussing Qatar, with the video focusing on Qatar’s landmarks, culture, and geography. Step 2: Evidence Slice 9 shows the Qatar flag on screen during a studio segment, reinforcing the country focus. Logic holds because both the introductory geography context and the repeated on-screen flag graphics point to Qatar as the subject.",
+        "visual_proof": "In Clip 1, the host explicitly introduces 'Qatar' with on-screen text at 0:09. In Clip 2, the flag of Qatar is displayed prominently in the top left corner while the host speaks, reinforcing the focus on the country. The combination of the spoken introduction and the repeated visual graphic confirms Qatar as the subject."
+    },
+    {
+        "question": "What on-screen citizenship requirement list includes a crossed-out language item, and how does that connect to the later statement about birth citizenship depending on the father?",
+        "answer": "A residency/income-based citizenship criteria list where 'Functional Knowledge of Arabic' is crossed out; later it states that for birth citizenship the father must be Qatari.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            47,
+            49,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows criteria like 25 years residence and sustainable income, with 'Functional Knowledge of Arabic' crossed out. Step 2: Slice 49 states 'Father must be Qatari for birth citizenship.' Step 3: Slice 55 shows the Qatar flag with the word 'Arabic,' reinforcing language as a discussion topic. Conclusion: The video contrasts naturalization-style criteria (with language de-emphasized) versus birth citizenship tied to paternal nationality.",
+        "logic_check_reasoning": "Step 1: Slice 47 shows an on-screen list of requirements: '25 years continuous residence', '(Less than 2 Months absence Per calendar year)', 'Proven sustainable income', and 'Functional Knowledge of Arabic' crossed out, indicating a citizenship-related criteria list with a negated language requirement. Step 2: Slice 49 explicitly states on-screen, 'Father must be Qatari for birth citizenship,' linking to a later point about birth citizenship depending on the father's nationality. Step 3: The proposed answer correctly identifies the list as residency/income-based with the crossed-out Arabic requirement and accurately connects it to the later father-based birth citizenship statement.",
+        "visual_proof": "Clip 1 shows a list of citizenship requirements including '-Functional Knowledge of Arabic'. Clip 2 then displays the text 'Father must be Qatari for birth citizenship', establishing the connection between the general criteria and the specific rule for birth citizenship. The phrasing 'crossed-out language item' in the question is inaccurate as the text is not visually crossed out, but the item 'Functional Knowledge of Arabic' is present in the list shown in Clip 1, which the original answer correctly identifies."
+    },
+    {
+        "question": "Which leader is identified as the current Emir, and how is that reinforced by earlier on-screen 'EMIR!' labeling and later mention of the ruling family name?",
+        "answer": "Tamim bin Hamad Al Thani; it is reinforced by an 'EMIR!' label and references to the House of Thani.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            51,
+            52,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows a portrait labeled 'EMIR!' during a Qatar segment. Step 2: Slice 52 explicitly identifies Tamim bin Hamad Al Thani as the current Emir of Qatar. Step 3: Slice 54 shows 'House of Thani,' linking the Emir to the ruling family. Conclusion: The current Emir is Tamim bin Hamad Al Thani, from the House of Thani.",
+        "logic_check_reasoning": "Step 1: Slice 51 shows a portrait with the on-screen label 'EMIR!' indicating the subject is the Emir of Qatar. Step 2: Slice 52 explicitly identifies Tamim bin Hamad Al Thani as the current Emir, with images labeled with his name and 'Current.' Step 3: Slice 54 displays 'House of Thani,' reinforcing the ruling family name associated with the Emir. Logic holds because the earlier 'EMIR!' label sets the topic, Slice 52 names the current Emir, and Slice 54 connects him to the ruling family.",
+        "visual_proof": "Clip 1 shows a portrait labeled 'EMIR!' next to the Qatari flag. Clip 2 identifies 'Tamim bin Hamad Al Thani (Current)' with his photo. Clip 3 displays a family photo labeled 'House of Thani'. The sequence visually connects the title 'Emir' to Tamim bin Hamad Al Thani and his ruling family, the House of Thani."
+    },
+    {
+        "question": "Across the music and culture portion, which traditional instrument is named on-screen and then later appears again as an inset beside a different presenter in a maroon shirt?",
+        "answer": "The oud.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            77,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 77 explicitly labels the instrument 'Oud' with an image. Step 2: Slice 78 shows an inset image of the same pear-shaped stringed instrument beside a maroon-shirt presenter. Conclusion: The recurring instrument is the oud.",
+        "logic_check_reasoning": "Step 1: Slice 77 explicitly shows the word \"Oud\" on-screen along with an image of the oud, indicating it is being discussed. Step 2: Slice 78 describes an inset image beside a presenter in a maroon shirt showing a traditional stringed instrument, noted as likely a lute or oud. Since Slice 77 confirmed the oud as a featured instrument and Slice 78’s inset aligns with an oud, the instrument named and later reappearing is the oud. The drums named in Slice 77 do not match the stringed inset in Slice 78, reinforcing that the overlap is the oud.",
+        "visual_proof": "In Clip 1, the instrument 'Oud' is explicitly named on-screen with an inset image of the instrument next to the first presenter. In Clip 2, the same instrument (the oud) appears again as an inset beside a different presenter wearing a maroon shirt, confirming its reappearance with a new presenter."
+    },
+    {
+        "question": "Which traditional sword dance is named on-screen, and how is it connected to the broader segment where another presenter is explaining Middle Eastern music instruments like drums and the oud?",
+        "answer": "Ardha; it appears in the same cultural performance-focused sequence as the instrument explanations.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            77,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 77 discusses Middle Eastern music instruments (Tabl/Al-Ras drums, oud). Step 2: Slice 79 shows men in traditional attire performing a sword dance labeled 'Ardha.' Conclusion: Ardha is the named cultural dance linked within the broader performing-arts/culture section.",
+        "logic_check_reasoning": "Step 1: Slice 79 explicitly states that a group of men perform a sword dance and the word \"Ardha\" appears on screen, identifying the dance. Step 2: Slice 77 describes the same man in a white T-shirt against a black background explaining Middle Eastern instruments like Tabl & Al-Ras drums and the Oud. Step 3: Slice 79 notes the video alternates between this presenter and the sword dance visuals, indicating they are part of the same overall segment. Logic holds because both slices depict the same presenter setup and content theme, linking the Ardha dance to the broader cultural/musical explanation segment.",
+        "visual_proof": "The on-screen text 'Ardha' is clearly visible over a scene of men performing a traditional sword dance (Clip 2, 0:05). The presenter discussing musical instruments like the Tabl, Al-Ras drums, and Oud (Clip 1) is the same presenter who introduces the Ardha segment (Clip 2), indicating they are part of a continuous presentation on Middle Eastern culture and music. The transition from instruments to dance suggests they are thematically linked within the same segment."
+    },
+    {
+        "question": "What is the name shown on-screen for a cultural dance performance featuring women in colorful outfits, and how does that relate to the earlier segment that labels a sword dance performed by men?",
+        "answer": "Khanmary/Khaleegy; it complements the earlier male sword dance 'Ardha' as another named traditional performance.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            79,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 79 labels the men’s sword dance as 'Ardha.' Step 2: Slice 80 labels a women’s stage performance as 'Khanmary/Khaleegy.' Conclusion: The video names multiple traditional performances, including Khanmary/Khaleegy.",
+        "logic_check_reasoning": "Step 1: Slice 80 explicitly states the cultural performance with women in colorful outfits is titled \"Khanmary/Khaleegy.\" Step 2: Slice 79 explicitly mentions a sword dance performed by men with the on-screen label \"Ardha.\" Logic holds because the answer identifies the women's performance name from Slice 80 and relates it to Slice 79 by noting both are named traditional performances featured in the video.",
+        "visual_proof": "Clip 1 explicitly shows the text 'Ardha' overlaid on a scene of men performing a sword dance. Later in Clip 1, and throughout Clip 2, the text 'Khanmary/Khaleegy' is displayed over scenes featuring women in colorful outfits performing a dance. The visual evidence confirms both names are used to label distinct traditional performances shown in the video."
+    },
+    {
+        "question": "Which website name appears near the end with three people on screen, and how is that consistent with the earlier 'Geography' intro branding?",
+        "answer": "GeographyNow.com, consistent with the Geography-themed introduction.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 2 begins with a globe and the word 'Geography' as the show’s framing. Step 2: Slice 73 displays 'GeographyNow.com' on screen. Conclusion: The show branding is GeographyNow.com under a geography intro.",
+        "logic_check_reasoning": "Step 1: Slice 73 states that with three people on screen, the text 'GeographyNow.com' appears prominently at the bottom. Step 2: Slice 2 describes the video beginning with an animated globe and the word 'Geography' prominently displayed, setting a geography-themed branding. Step 3: The website name 'GeographyNow.com' includes 'Geography', which aligns with the earlier 'Geography' intro branding. Therefore, the context supports the answer.",
+        "visual_proof": "In Clip 2, the text 'GeographyNow.com' is clearly visible at the bottom of the screen while three people are standing together. In Clip 1, the intro sequence prominently features the word 'GEOGRAPHY' in large letters over a world map, establishing the brand identity. The website name directly extends this branding by adding 'Now.com', creating a consistent and logical connection between the show's title and its web address."
+    },
+    {
+        "question": "What cultural game is shown being played, and how is that related to a nearby segment that shows men playing chess in traditional attire?",
+        "answer": "Damah; it is presented alongside other cultural pastimes, similar to the chess scene shown with men in traditional attire.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            61,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows an inset of men playing chess in traditional clothing. Step 2: Slice 62 shows the board game 'Damah' as part of cultural traditions. Conclusion: Both depict traditional games/pastimes.",
+        "logic_check_reasoning": "Step 1: Slice 62 explicitly states the first image shows a traditional board game called 'Damah' being played. Step 2: Slice 61 mentions an inset image of three men in traditional Middle Eastern attire playing chess. Step 3: The overall context (Slices 61-62) describes the video as an educational piece on cultural practices/pastimes, so presenting Damah alongside the chess scene aligns with that theme. Therefore, the answer correctly identifies the game and its relation as both being cultural pastimes presented in the video.",
+        "visual_proof": "Clip 1 shows three men in traditional Arab attire (thobes and keffiyehs) playing a board game. Clip 2 explicitly labels a similar-looking board game as 'Damah' and shows a hand moving its pieces. The juxtaposition of these scenes, along with the presenter's narration, implies that Damah is being presented as a cultural game, paralleling the earlier scene of men in traditional dress engaged in another board game (chess), thus framing both as cultural pastimes."
+    }
+]

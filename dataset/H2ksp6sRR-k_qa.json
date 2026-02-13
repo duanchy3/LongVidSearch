@@ -1,0 +1,121 @@
+[
+    {
+        "question": "What was the science artifact discussed in the quiz question about color-changing, and what internal ingredient was later explained as the real cause of that color change?",
+        "answer": "The artifact was the Lycurgus Cup, and its color change was explained as being caused by silver and gold nanoparticles in the glass.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 20 introduces a quiz question about the Lycurgus Cup’s color change. Step 2: Slice 28 explains the phenomenon (dichroism) and states it’s due to silver & gold nanoparticles. Conclusion: The Lycurgus Cup changes color because of metal nanoparticles in the glass.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly shows a quiz question asking, 'What causes the color change in the Lycurgus Cup?', confirming the artifact discussed is the Lycurgus Cup. Step 2: Slice 28 explains the cup's color-changing (dichroic) effect is due to silver and gold nanoparticles within the glass, with on-screen text stating 'THIS CUP IS DICHROIC BECAUSE OF SILVER & GOLD NANOPARTICLES.' Logic holds because Slice 20 identifies the artifact and poses the cause question, while Slice 28 provides the definitive cause as silver and gold nanoparticles.",
+        "visual_proof": "In Clip 1, a quiz question is displayed on screen asking 'WHAT CAUSES THE COLOR CHANGE IN THE LYCURGUS CUP?'. In Clip 2, an image of the Lycurgus Cup is shown, followed by text overlays that explicitly state 'THIS CUP IS DICHROIC BECAUSE OF SILVER & GOLD NANOPARTICLES' and explain how these nanoparticles interact with light to cause the color change."
+    },
+    {
+        "question": "In the fruit-fly 'tribbles' segment, what answer choice is later confirmed by the lab-coat explanation about what happens when tribbles isn’t working?",
+        "answer": "The correct outcome is that cell division happens too much (fly cells divide too quickly).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 35 presents the tribbles question with an option stating cells divide too quickly. Step 2: Slice 40 explicitly states that when Tribbles isn’t working normally, cell division can happen too much. Conclusion: The confirmed answer is excessive/too-fast cell division.",
+        "logic_check_reasoning": "Step 1: Slice 35 presents a multiple-choice question about the Tribbles gene with option B stating 'Fly cells divide too quickly.' Step 2: Slice 40 shows a lab-coat explanation with on-screen text explicitly saying 'When Tribbles isn't working normally, cell division can happen too much.' Step 3: 'Cell division can happen too much' directly matches 'Fly cells divide too quickly,' confirming option B from Slice 35. The characters/settings align logically across slices despite minor description differences.",
+        "visual_proof": "In Clip 1, the question presented on screen offers two choices: 'A. Flies are born pregnant with clone babies & give birth right away' and 'B. Fly cells divide too quickly'. In Clip 2, the woman in the lab coat explicitly states, 'WHEN TRIBBLES ISN'T WORKING NORMALLY, CELL DIVISION CAN HAPPEN TOO MUCH,' which directly corresponds to and confirms choice B from Clip 1."
+    },
+    {
+        "question": "In the zebrafish 'Dracula' gene question, which option is later confirmed by the lab-coat segment, and what specific trigger is mentioned?",
+        "answer": "Option A is confirmed: in light, the zebrafish red blood cells burst open; the trigger is exposure to light.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows the Dracula gene question with option A stating RBCs burst in light. Step 2: Slice 50 states that when Dracula isn’t working, exposure to light makes red blood cells burst open (cell lysis). Conclusion: Light exposure causes RBC bursting when Dracula fails.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 46 presents a question with two options, where Option A states that in light, zebrafish red blood cells burst when the Dracula gene isn't working. Step 2: Evidence Slice 50 (and the scene breakdown) explicitly states, 'WHEN DRACULA ISN'T WORKING, EXPOSURE TO LIGHT MAKES RED BLOOD CELLS BURST OPEN,' directly confirming Option A and naming the specific trigger as exposure to light. Logic holds because the later lab-coat segment reiterates the exact effect and condition described in Option A.",
+        "visual_proof": "In Clip 1, the question presents Option A as 'IN LIGHT, THE RED BLOOD CELLS OF ZEBRAFISH BURST'. In Clip 2, the presenter confirms this by stating, 'WHEN DRACULA ISN'T WORKING, EXPOSURE TO LIGHT MAKES RED BLOOD CELLS BURST OPEN', directly matching Option A and identifying 'exposure to light' as the trigger."
+    },
+    {
+        "question": "Which genetic concept is summarized as DNA being transcribed into messenger RNA and then translated into protein, and which later explanation says a specific protein interferes with the translation step?",
+        "answer": "Protein synthesis (transcription then translation) is summarized, and the Smaug protein is later said to interfere with the translation step involving nanos mRNA.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            59,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 59 explains the pipeline: DNA → mRNA (transcription) → protein (translation). Step 2: Slice 60 states the protein encoded by Smaug specifically messes with the translation step, interacting with nanos mRNA. Conclusion: Smaug disrupts translation in the protein synthesis process.",
+        "logic_check_reasoning": "Step 1: Slice 59 explicitly states that DNA is transcribed into messenger RNA and then translated to assemble a protein, summarizing protein synthesis (transcription then translation). Step 2: Slice 60 shows text overlay stating that the protein encoded by Smaug specifically interferes with the translation step and interacts with nanos mRNA. Logic holds because the first part describes the general process, and the later part identifies Smaug as interfering with the translation step involving nanos mRNA.",
+        "visual_proof": "Clip 1 visually displays text summarizing protein synthesis: 'TO MAKE PROTEINS, THE DNA IN GENES IS FIRST TRANSCRIBED INTO MESSENGER RNA... & THEN TRANSLATED TO ASSEMBLE A PROTEIN'. Clip 2 features a speaker and on-screen text stating 'THE PROTEIN ENCODED BY SMAUG SPECIFICALLY MESSES WITH THAT TRANSLATION STEP, INTERACTING WITH MOLECULES & THE NANOS mRNA', directly linking the Smaug protein to interfering with the translation step."
+    },
+    {
+        "question": "What question about a tick-associated bacterium’s name is asked in the game segment, and what later explanation states where that bacterium was found inside cells?",
+        "answer": "The question asks why it’s called Midichloria mitochondrii, and the later explanation says the bacteria were inside some of the mitochondria (not the cytoplasm).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            71,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 71 displays the multiple-choice question about why the researcher chose the name Midichloria mitochondrii. Step 2: Slice 86 states the bacteria weren’t in the cytoplasm; instead they were inside some mitochondria. Conclusion: The name relates to living inside mitochondria.",
+        "logic_check_reasoning": "Step 1: Slice 71 displays a game-style multiple-choice question asking, \"WHY DID THE RESEARCHER PICK THE NAME Midichloria mitochondrii?\" confirming the name-focused question. Step 2: Slice 86 includes a text overlay stating the bacteria were not in the cytoplasm but were inside some mitochondria, providing the later explanation of their intracellular location. Logic holds because the proposed answer restates both the question from Slice 71 and the location detail from Slice 86 accurately.",
+        "visual_proof": "In Clip 1, a text overlay poses the question: 'WHY DID THE RESEARCHER PICK THE NAME Midichloria mitochondrii?'. In Clip 2, a presenter explains that 'THE BACTERIA WEREN'T HANGING OUT IN THE CYTOPLASM... INSTEAD, THEY WERE INSIDE SOME OF THE MITOCHONDRIA', with corresponding text overlays confirming this location."
+    },
+    {
+        "question": "Which scene introduces the idea of an atomic model merging with a DNA double helix, and which later round explicitly focuses on guessing what a gene does?",
+        "answer": "The intro animation shows an atom merging with a DNA helix, and later “Round 2: Guess What This Gene Does!” focuses on gene function.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 1 presents an atom-like model and a DNA double helix, establishing a genetics theme. Step 2: Slice 29 shows “ROUND 2: Guess What This Gene Does!” explicitly about genes. Conclusion: The video moves from abstract DNA imagery to an explicit gene-function game round.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes an atomic model with elliptical orbits that expands and merges with a DNA double helix, explicitly indicating the fusion of atom imagery with a DNA strand. Step 2: Slice 29 shows on-screen text 'ROUND 2' and 'Guess What This Gene Does!', clearly signaling that Round 2 is about guessing gene function. The proposed answer matches both slices precisely.",
+        "visual_proof": "Clip 1 (0:03–0:06) visually depicts a white atomic model transforming into a DNA double helix against a blueprint grid. Clip 2 (0:02) displays on-screen text reading 'ROUND 2 Guess What This Gene Does!' while three men stand around a table, confirming the thematic focus of that segment."
+    },
+    {
+        "question": "How does the Midichloria mitochondrii portion connect the naming question to where the bacteria were found, and what later statement broadens their presence across tick populations?",
+        "answer": "It links the name to bacteria living inside mitochondria, and later it states the bacteria are hiding out in the cells of many, possibly all ticks.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            72,
+            86,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 72 asks why the bacterium was named Midichloria mitochondrii with an option about living in mitochondria. Step 2: Slice 86 explains bacteria were inside some mitochondria. Step 3: Slice 88 says these bacteria are hiding out in the cells of a whole bunch, if not all, ticks. Conclusion: The name reflects mitochondrial infection and the bacteria’s widespread occurrence in ticks.",
+        "logic_check_reasoning": "Step 1: Slice 72 presents a multiple-choice question asking why the researcher named the bacterium Midichloria mitochondrii, with an option stating it lives inside mitochondria. Step 2: Slice 86 explicitly states the bacteria were found inside some mitochondria, directly connecting the name to where they were found. Step 3: Slice 88 says these bacteria are hiding out in the cells of a whole bunch, if not all ticks, broadening their presence across tick populations.",
+        "visual_proof": "Clip 1 presents a multiple-choice question asking why the researcher picked the name 'Midichloria mitochondrii,' with option A being 'THE BACTERIUM LIVES INSIDE MITOCHONDRIA OF INFECTED CELLS.' Clip 2 visually confirms this by showing text stating 'INSTEAD, THEY WERE INSIDE SOME OF THE MITOCHONDRIA' while the presenter explains. Clip 3 then broadens the scope with on-screen text stating 'THESE BACTERIA ARE HIDING OUT IN THE CELLS OF A WHOLE BUNCH, IF NOT ALL TICKS,' directly connecting the naming rationale to their widespread presence."
+    },
+    {
+        "question": "What prop changes hands between two men near the end, and earlier in the video what similarly colored item is used by the quiz leader to present questions?",
+        "answer": "A green book/folder is handed from the suited man to the plaid-shirt man, and earlier a green card/booklet is used by the quiz leader to present questions.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            81,
+            54,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 81 shows a suited man handing a green book/folder to the plaid-shirt man who opens it. Step 2: Slice 54 shows the quiz leader holding a green card while presenting a question. Step 3: Slice 57 again shows a man holding a green book while discussing the Smaug question. Conclusion: Green reading materials (card/book/folder) are recurring props used to present or transfer information.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 81 states the man in the middle (in a black suit and tie) hands a green book or folder to the man on the right (in a plaid shirt and glasses), who then opens it. This supports that a green book/folder changes hands between a suited man and a plaid-shirt man near the end. Step 2: Evidence Slice 54 shows the man in the center (quiz leader) holding a green card and reading a question, indicating he uses a green item to present questions earlier. Step 3: Evidence Slice 57 corroborates that the man in the middle is holding a green book while presenting a question. The logic holds because both earlier and later references consistently describe green items associated with the quiz presentation and the handoff, matching the proposed answer.",
+        "visual_proof": "In Clip 1 (0:05-0:08), the man in the center (suited) hands a green booklet to the man on the right (plaid shirt). In Clips 2 and 3, the same man in the center holds the green booklet while reading a question aloud, confirming he is the quiz leader using it to present questions. The item is consistently green and appears to be the same or a similar booklet."
+    },
+    {
+        "question": "Which kind of on-screen buttons suggest a win/lose choice early on, and what later on-screen element indicates a more formal scoring system between two named players?",
+        "answer": "Buttons labeled “I won” and “I lost” appear early, and later a scoreboard shows “NICK” and “HANK” with numerical scores.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows interactive buttons reading “I won” and “I lost.” Step 2: Slice 25 shows an on-screen scoreboard with Nick and Hank’s points. Conclusion: The interaction evolves from simple win/lose buttons to a numeric score system.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly states that two on-screen buttons appear labeled \"I won\" and \"I lost,\" which directly supports the win/lose choice early on. Step 2: Slice 25 describes an on-screen segment with scores displayed below the names NICK and HANK (e.g., NICK: 900 and HANK: 1400), indicating a formal scoring system between two named players. Logic holds because the early UI element (win/lose buttons) transitions to a later quiz-like format with named scores, matching the proposed answer.",
+        "visual_proof": "In Clip 1 (0:07-0:15), two circular buttons are displayed on screen: one blue labeled 'I WON SciShow QUIZ SHOW' and one pink labeled 'I LOST SciShow QUIZ SHOW'. In Clip 2 (0:19-0:20), a lower-third graphic appears showing a scoreboard with 'NICK: 1000' and 'HANK: 1000', along with their real names 'Gary Moon' and 'Reggie Smith' respectively."
+    }
+]

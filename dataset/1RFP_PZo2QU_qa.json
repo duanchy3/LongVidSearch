@@ -1,0 +1,15 @@
+[
+    {
+        "question": "After the pink inflatable flamingo is carried along the garden pathway, where is it later shown resting on a table on the covered terrace?",
+        "answer": "On a covered terrace with a checkered floor, near striped lounge chairs and a glass-top table.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a woman carrying a large pink inflatable flamingo along a garden pathway near a villa. Step 2: Slice 8 shows a pink flamingo-shaped pool float placed on a glass-top table on a covered terrace with checkered flooring and striped lounge chairs. Conclusion: The flamingo float later appears resting on the terrace table.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows the woman carrying a pink inflatable flamingo along a garden pathway near a luxurious house. Step 2: Slice 8 shows the same pink flamingo float resting on a glass-top table on a covered terrace that has a checkered floor and is furnished with striped lounge chairs. Logic holds because Slice 8 explicitly places the flamingo on a glass-top table in the described terrace setting, matching the details in the proposed answer.",
+        "visual_proof": "In Video 2, at 0:04, the pink flamingo is visibly resting on the edge of the pool on a covered terrace. The terrace features a black-and-white checkered floor, striped lounge chairs are positioned nearby, and a glass-top table is also present in the scene, matching the description in the original answer."
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Which drink item shows up in a rooftop running scene and later reappears as a bottle held by someone inside a car at night?",
+        "answer": "A bottle (orange juice first, later a wine bottle in the car).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows a man running outdoors on a rooftop holding a bottle of orange juice. Step 2: Slice 46 shows a man in a car at night holding a bottle (wine). Conclusion: The repeated drink/bottle motif links the action rooftop moment to the later nighttime car scene.",
+        "logic_check_reasoning": "Step 1: Slice 18 says a man is running on a rooftop holding a bottle of orange juice. Step 2: Slice 46 says a man in a car at night is holding a bottle of wine. Logic holds because the recurring drink-related item in both scenes is a bottle; the proposed answer notes it is a bottle, with specifics that it contains orange juice first and wine later, both explicitly supported by the slices.",
+        "visual_proof": "In Clip 1, the man on the rooftop is seen drinking from a clear plastic bottle containing an orange-colored liquid. In Clip 2, the same man is inside a car at night, holding up a dark glass bottle with a white label featuring Japanese characters, which is identifiable as a bottle of sake or wine. The drink item is a bottle in both scenes, though the contents differ."
+    },
+    {
+        "question": "Which character clothing feature helps you recognize the same person driving later as the one previously shown running through an industrial hallway?",
+        "answer": "A dark/blue Adidas-style tracksuit jacket with white stripes.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            67,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 67 shows a man running in a dim industrial hallway wearing a blue Adidas jacket with white stripes. Step 2: Slice 87 shows a focused driver wearing a dark jacket with white stripes. Conclusion: The white-striped athletic jacket indicates the same individual across scenes.",
+        "logic_check_reasoning": "Step 1: Slice 67 describes a man running in a blue Adidas jacket with white stripes on the sleeves. Step 2: Slice 87 describes a driver wearing a dark jacket with white stripes, suggesting sportswear. Step 3: The common clothing feature—jacket with white stripes—links the two appearances, and Slice 67 explicitly notes Adidas, supporting the 'Adidas-style' descriptor. Logic holds because the distinctive white-striped jacket is consistent across both scenes.",
+        "visual_proof": "In Clip 1, the character running through the hallway is wearing a dark blue tracksuit jacket with three distinct white stripes on the sleeves. In Clip 2, the same character is seen driving, wearing the identical jacket with the same stripe pattern and visible Adidas logo on the chest, confirming it is the same person."
+    }
+]

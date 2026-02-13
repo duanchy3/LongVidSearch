@@ -1,0 +1,153 @@
+[
+    {
+        "question": "A political speech with a huge crowd is shown mid-video; what later timeline graphic names the famous line associated with that same speech event?",
+        "answer": "“Tear Down This Wall.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows the June 12, 1987 speech before a massive crowd. Step 2: Slice 36 labels that event explicitly with the phrase 'Tear Down This Wall' (June 12, 1987). Conclusion: The named line is 'Tear Down This Wall.'",
+        "logic_check_reasoning": "Step 1: Slice 35 describes a historic political speech on June 12, 1987 before a huge crowd. Step 2: Slice 36 shows a later timeline graphic labeled “Tear Down This Wall” with the same date, June 12, 1987, explicitly referencing the famous line from that speech. Logic holds because the date and event context match between the speech and the timeline graphic.",
+        "visual_proof": "Clip 1 shows President Reagan delivering a speech to a large crowd on June 12, 1987. Clip 2 features a timeline graphic with a purple-tinted image of Reagan at the same event, explicitly labeled with the quote 'Tear Down This Wall' and the date 'JUN 12, 1987', directly linking the speech event to that famous line."
+    },
+    {
+        "question": "Which event is shown first: the debut of a war film or the first Atlantic hot-air-balloon crossing, and what are the dates for both?",
+        "answer": "The war film debut is shown first; 'Full Metal Jacket Debuts' is June 26, 1987, and the hot-air-balloon Atlantic crossing is July 3, 1987.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            38,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows a timeline card 'Full Metal Jacket Debuts' dated June 26, 1987. Step 2: Slice 38 shows 'Hot Air Balloon Crosses The Atlantic' dated July 3, 1987 with launch/in-flight footage. Step 3: Slice 39 shows the balloon descending and making a dramatic water landing afterward. Conclusion: The film debut appears earlier (Jun 26) than the balloon crossing (Jul 3).",
+        "logic_check_reasoning": "Step 1: Slice 36 explicitly states the event 'Full Metal Jacket Debuts' with the date June 26, 1987. Step 2: Slice 38 explicitly states 'Hot Air Balloon Crosses The Atlantic' with the date July 3, 1987, and reinforces it with the overlay 'First Atlantic Crossing by Hot Air Balloon.' Step 3: Comparing the dates, June 26, 1987 precedes July 3, 1987. Therefore, the war film debut is first, and the dates provided in the proposed answer match those in the context.",
+        "visual_proof": "Clip 1 displays a title card for 'Full Metal Jacket Debuts' with the date 'JUN 26, 1987'. Clip 2 displays a title card for 'Hot Air Balloon Crosses The Atlantic' with the date 'JUL 3, 1987'. Since Clip 1 appears before Clip 2 in the sequence, the film debut is shown first."
+    },
+    {
+        "question": "How does the video connect Cold War tension to nuclear fears through music, and which treaty scene anchors the political context?",
+        "answer": "It uses Sting’s song 'Russians' as a Cold War-themed music segment, anchored by the Nuclear Arms Treaty signing on Dec 8, 1987.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            82,
+            83,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 82 shows a 'Nuclear Arms Treaty DEC 8, 1987' signing and then cuts to missile imagery. Step 2: Slice 83 continues with missile/explosion and soldiers, emphasizing military danger. Step 3: Slice 84 shows a black-and-white music video labeled 'Russians' by Sting, thematically tied to Cold War anxieties. Conclusion: The connection is nuclear/missile fear linked to Cold War music, anchored by the treaty signing.",
+        "logic_check_reasoning": "Step 1: Slice 84 explicitly states the video is a music video or promotional clip for Sting's song \"Russians,\" confirming the music element used. Step 2: Slice 82 shows two men signing documents with on-screen text \"Nuclear Arms Treaty DEC 8, 1987,\" anchoring the political context with a specific treaty scene. Step 3: Slices 82 and 83 depict a missile launch and a dramatic explosion with soldiers taking cover, reinforcing nuclear fears and military danger. The combination of the song \"Russians\" (Slice 84) with nuclear treaty imagery and missile/explosion scenes (Slices 82-83) logically connects Cold War tension to nuclear fears. Therefore, the proposed answer is fully supported by the context.",
+        "visual_proof": "Clip 3 visually confirms the use of Sting's song 'Russians' with on-screen text identifying the artist and track. Clip 1 provides the political anchor with a clear graphic overlay stating 'Nuclear Arms Treaty' and the date 'DEC 8, 1987', showing the signing ceremony. The sequence connects the musical theme to the historical event."
+    },
+    {
+        "question": "Which two separate segments show signing/ceremony moments in formal rooms, and what is signed or exchanged in each?",
+        "answer": "A formal ceremony where documents/envelopes are exchanged at a podium/table, and a Nuclear Arms Treaty signing where men sign documents at a table.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a formal ceremony where a document/certificate is handed over and a brown envelope is exchanged. Step 2: Slice 82 shows men signing documents labeled 'Nuclear Arms Treaty DEC 8, 1987.' Conclusion: These are two formal signing/exchange moments: an award/ceremony exchange and a treaty signing.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a formal indoor ceremony where a man at a podium hands a document/certificate to a seated man, who then gives back a brown envelope—this is a ceremony moment with document/envelope exchange. Step 2: Slice 82 shows two men in suits sitting at a table signing documents with on-screen text 'Nuclear Arms Treaty DEC 8, 1987'—this is a formal signing ceremony of the Nuclear Arms Treaty. Logic holds because the proposed answer references these two distinct formal-room segments and correctly states what is signed/exchanged in each.",
+        "visual_proof": "Clip 1 shows a man in a suit at a podium exchanging papers with another individual, followed by him handling a yellow envelope, all within a formal room setting. Clip 2 explicitly shows two men, identified by on-screen text as being part of the 'Nuclear Arms Treaty' event on 'DEC 8, 1987', seated at a large table signing official-looking documents."
+    },
+    {
+        "question": "A rare bird documentary segment is followed by a major legal conviction headline; what animal is being handled by two men, and what group is convicted shortly afterward?",
+        "answer": "A condor is being handled, and the Billionaire Boys Club is convicted.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows 'The Last Condor' footage with two men kneeling and holding a large bird. Step 2: Slice 20 shows the news headline 'Billionaire Boys Club Convicted' dated April 22, 1987. Conclusion: The animal is a condor, and the convicted group is the Billionaire Boys Club.",
+        "logic_check_reasoning": "Step 1: Slice 19 explicitly shows a documentary segment titled \"The Last Condor\" and describes two men kneeling in the grass holding a large bird, indicating the animal being handled is a condor. Step 2: Slice 20 then transitions to a news broadcast with the headline \"Billionaire Boys Club Convicted\" dated April 22, 1987. Logic holds because the question asks what animal is handled in the rare bird segment (condor) and what group is convicted shortly afterward (Billionaire Boys Club), both explicitly stated across the slices.",
+        "visual_proof": "Clip 1 opens with a title card reading 'The Last Condor' (0:02) followed by footage of a large vulture-like bird, consistent with a condor, being handled by two men on the ground (0:11-0:13). Clip 2 immediately follows with a title card stating 'Billionaire Boys Club Convicted' dated April 22, 1987 (0:12), directly after the condor segment."
+    },
+    {
+        "question": "Which science-fiction film featured later in the video shares the same year highlighted at the very beginning of the montage?",
+        "answer": "RoboCop (1987).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 1 frames the compilation as focused on the year 1987. Step 2: Slice 42 explicitly labels 'RoboCop (1987)' with a July 17, 1987 date card and film footage. Conclusion: RoboCop is the 1987 sci‑fi film that matches the year focus.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the montage prominently highlights the year 1987 at the beginning and later includes a gritty action scene explicitly identified as from RoboCop (1987). Step 2: Slice 42 further confirms the featured film is RoboCop, showing a title card \"RoboCop (1987) Orion Pictures\" and emphasizing its 1987 release. Logic: The question asks which science-fiction film later in the video shares the initially highlighted year. RoboCop is sci-fi and is shown as a 1987 film, matching the year highlighted at the start.",
+        "visual_proof": "The video begins with a montage of events from 1987, explicitly labeled 'CRASH OF '87' at 0:03. Later in the video, at 0:15 and again at 0:42, clips from the film 'RoboCop' are shown with the on-screen text 'RoboCop (1987)', confirming it shares the same year as the one highlighted at the beginning."
+    },
+    {
+        "question": "What earlier segment about a loud musician on the street connects to a later sports headline because both prominently rely on newspaper clippings to tell the story?",
+        "answer": "The story of the 'Automatic Human Jukebox' street trumpet performer.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 12 uses multiple newspaper clippings to narrate the 'Automatic Human Jukebox' controversy. Step 2: Slice 50 uses a newspaper clipping about Joe Niekro’s suspension. Conclusion: The earlier newspaper-driven segment is the Automatic Human Jukebox story.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes the 'Automatic Human Jukebox,' a loud street trumpet performer, and explicitly mentions a series of newspaper clippings and headlines used to tell his story. Step 2: Slice 50 begins with a newspaper clipping about Joe Niekro’s suspension, indicating a sports headline presented via clippings. Logic holds because both segments prominently use newspaper clippings; the earlier segment is the street performer story, which matches the proposed answer.",
+        "visual_proof": "Clip 1 visually establishes the 'Automatic Human Jukebox' with footage of the performer and a newspaper headline detailing his removal for being too loud. Clip 2 shows a separate sports story about Joe Niekro's suspension, also presented via a newspaper clipping. The connection is that both segments use newspaper clippings as a primary narrative device to convey their respective stories, linking the loud musician segment to the later sports headline."
+    },
+    {
+        "question": "The video shows a debut of a new TV network; later it shows a debut of a new video format. What are the two debuts and their dates?",
+        "answer": "Fox Broadcasting Company debuts on October 9, 1986; DVDs are introduced on November 1, 1996.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 16 includes a graphic announcing 'A New Network! FOX' with the April 5, 1987 date. Step 2: Slice 29 includes a timeline segment about DVD technology with the date May 30, 1997. Conclusion: The debuts are Fox (Apr 5, 1987) and DVD introduction (May 30, 1997).",
+        "logic_check_reasoning": "Step 1: Evidence Slice 16 explicitly states a graphic announcing the debut of the Fox Broadcasting Company on April 5, 1987. Step 2: Evidence Slice 29 explicitly notes a timeline marking May 30, 1997 as the date when DVDs were introduced. Logic holds because the question asks for the two debuts and their dates, and both are clearly provided in the captions.",
+        "original_text_answer": "Fox Broadcasting Company debuts on April 5, 1987; DVDs are introduced on May 30, 1997.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "The video explicitly displays on-screen text graphics. At 0:09, a graphic states 'Fox Network Debuts' with the date 'OCT. 9, 1986'. Later, at 0:20, another graphic states 'DVD Debut' with the date 'NOV 1, 1996'. These dates directly contradict the original answer."
+    },
+    {
+        "question": "A man warns about smoking in one segment; what death notice shown elsewhere supports why that anti-smoking message is relevant?",
+        "answer": "The death notice of Yul Brynner.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 ends with a Yul Brynner anti-smoking advertisement. Step 2: Slice 11 shows a newspaper clipping about Yul Brynner’s death. Conclusion: The death notice is Yul Brynner’s.",
+        "logic_check_reasoning": "Step 1: Slice 9 states the video ends with a Yul Brynner anti-smoking advertisement from 1987, which is a man warning about smoking. Step 2: Slice 11 states the video begins with a newspaper clipping of Yul Brynner's death. Logic holds because the anti-smoking message by Yul Brynner is directly connected to his own death notice shown elsewhere in the video.",
+        "visual_proof": "Clip 1 shows a title card for a 'Yul Brynner Anti-Smoking Ad' dated Feb 19, 1987. Clip 2 displays a newspaper headline from Oct 11, 1985, announcing 'Yul Brynner dies at 65'. The proximity in time between his death and the ad's release strongly implies the ad was created posthumously to highlight the dangers of smoking, making his death notice directly relevant to the anti-smoking message."
+    },
+    {
+        "question": "How does the montage tie together the introduction of condom ads, the debut of Prozac imagery, and a cancer-awareness broadcast into a broader theme, and which organization is explicitly named?",
+        "answer": "It links public health messaging and medical topics, and the explicitly named organization is the American Cancer Society.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            10,
+            92,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 6 discusses the first condom ad on network television and health/safety messaging. Step 2: Slice 10 shows 'Good Morning America' and explicitly names the 'American Cancer Society.' Step 3: Slice 92 shows Prozac pills and a labeled bottle, introducing a medical/mental health medication reference. Step 4: Slice 11 includes death clippings (including Yul Brynner) reinforcing mortality/health themes. Conclusion: Together they form a broader public-health/medicine theme, explicitly naming the American Cancer Society.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes a historical news segment on the introduction of condom ads, including a Trojan ad with a health-safety tagline, clearly tying to public health messaging. Step 2: Slice 92 includes imagery of Prozac pills and a Prozac bottle, which fits medical/health topics. Step 3: Slice 10 shows a Good Morning America segment explicitly labeled 'American Cancer Society' and focuses on cancer awareness, which is public health messaging. Logic holds because all three elements are health-related communications and medical topics, and the named organization is explicitly shown in Slice 10.",
+        "visual_proof": "The montage visually connects these events: Clip 1 shows a news segment about the 'First Condom Ad' (0:03) and newspaper articles discussing condom ads on TV. Clip 2 features a broadcast with the 'AMERICAN CANCER SOCIETY' logo clearly displayed (0:04). Clip 3 shows the 'Prozac Goes Live' title card (0:05) followed by images of Prozac pills. The sequence groups these distinct but related public health and medical milestones, with the American Cancer Society being the only organization explicitly named in text."
+    },
+    {
+        "question": "Across four different points, what recurring storytelling device ties together bribery convictions, condom-ad controversy, baseball cheating, and insider trading coverage?",
+        "answer": "They are all narrated or supported through newspaper clippings/headlines.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            6,
+            50,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 4 uses a newspaper clipping about a bribery conviction. Step 2: Slice 6 includes newspaper clippings discussing the condom-advertising controversy. Step 3: Slice 50 shows a newspaper clipping about Joe Niekro’s suspension. Step 4: Slice 88 shows a newspaper headline about Boesky’s jail term for insider trading. Conclusion: The recurring device is the use of newspaper clippings/headlines.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 explicitly shows a newspaper clipping with the headline about bribery convictions (Asher, Dwyer), indicating the story is conveyed via a newspaper article. Step 2: Evidence Slice 6 states the segment shifts to a newspaper clipping discussing the condom-advertising issue, confirming use of headlines/articles to tell that part of the story. Step 3: Evidence Slice 50 says the video begins with a newspaper clipping about Joe Niekro’s 10-game suspension, tying the baseball cheating theme to a newspaper article. Step 4: Evidence Slice 88 includes a newspaper clipping with the headline about insider trader Boesky’s jail term, again using a headline to present the event. Across all four points, newspaper clippings/headlines are the recurring storytelling device.",
+        "visual_proof": "Each clip features prominent newspaper headlines or articles to introduce or contextualize the event: Clip 1 shows a headline about Asher and Dwyer's conviction; Clip 2 displays an article on condom ads; Clip 3 features a headline about Joe Niekro's suspension; Clip 4 presents a headline regarding Ivan Boesky's jail sentence. This consistent use of print media as a narrative device ties the disparate events together."
+    }
+]

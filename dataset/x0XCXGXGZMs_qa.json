@@ -1,0 +1,95 @@
+[
+  {
+    "question": "A famous Incan site is first pinpointed on a map with a red X and later shown as one item in a UNESCO list—what site is it?",
+    "answer": "Machu Picchu.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      6,
+      9
+    ],
+    "reasoning_chain": "Step 1: Slice 6 shows a map of Peru marking Machu Picchu with a red X and then aerial views of the site. Step 2: Slice 9 lists UNESCO sites in Peru including Machu Picchu. Conclusion: The site appearing in both contexts is Machu Picchu.",
+    "logic_check_reasoning": "Step 1: Slice 6 explicitly states that a map of Peru shows a red X marking the location of Machu Picchu, followed by aerial views of the site. Step 2: Slice 9 says the video later shows a UNESCO sites list in Peru that includes Machu Picchu. Logic holds because the site marked with a red X (Machu Picchu) is later presented as an item in the UNESCO list.",
+    "visual_proof": "In Clip 1, a red 'X' is placed on a map of Peru, indicating a specific location. In Clip 2, the video shows an image of Machu Picchu with its name captioned, followed by a list titled 'PERU UNESCO sites' which includes 'Historic Centre of Lima 19' and other sites, implying Machu Picchu is among them as it was previously highlighted visually. The context connects the marked location on the map to the famous site shown later."
+  },
+  {
+    "question": "Which animal is shown in a “dung coffee” discussion, and what drink does the host hold while discussing it later?",
+    "answer": "A coati, and the host holds a cup of coffee.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      20,
+      21
+    ],
+    "reasoning_chain": "Step 1: Slice 20 shows an inset of a coati eating coffee cherries and mentions “Coati dung coffee.” Step 2: Slice 21 shows the host holding a cup of coffee while the coati imagery continues. Conclusion: The animal is a coati and the drink is coffee.",
+    "logic_check_reasoning": "Step 1: Slice 20 explicitly mentions an image of a coati with the text 'Coati dung coffee,' indicating the animal shown during the dung coffee discussion is a coati. Step 2: Slice 21 states the man is holding a cup of coffee while the image of a coati is on screen and he discusses coatis' role in coffee production, supporting that later he holds a cup of coffee during this topic. Logic holds because the animal and drink are both directly identified in the slices.",
+    "visual_proof": "In Video 1 (0:09-0:15), the inset image is labeled 'Coati dung coffee' and shows a coati eating coffee cherries. In Video 2 (0:01-0:06), a different host is shown holding a white cup while an image of a coati is displayed in the inset, visually linking the animal to the coffee discussion. The context implies the drink in the cup is coffee."
+  },
+  {
+    "question": "Which object used for Incan record-keeping is introduced by name, and what broader theme about Incan ingenuity is discussed alongside related artifacts like textiles or sandals?",
+    "answer": "Quipus, and the theme is Incan technology/ingenuity despite lacking inventions like the wheel or the arch.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      48,
+      50
+    ],
+    "reasoning_chain": "Step 1: Slice 48 shows an educational discussion about Incan technology and shows textiles/sandals. Step 2: Slice 50 introduces “Quipus” as an Incan record-keeping device. Conclusion: Quipus are the object, and the theme is Incan ingenuity/technology.",
+    "logic_check_reasoning": "Step 1: Slice 50 explicitly states the video begins with an image of a quipu used for record-keeping, and the word 'Quipus' appears on screen. Step 2: Slice 48 describes the broader theme: the video discusses Incan contributions and technological ingenuity despite not inventing the wheel or the arch, with visuals of textiles and sandals illustrating this point. Logic holds because the object (quipu) is named and the theme about ingenuity despite lacking certain inventions is directly mentioned alongside related artifacts.",
+    "visual_proof": "Clip 2 explicitly displays the word 'Quipus' overlaid on an image of a quipu, identifying it as the object for record-keeping. Clip 1 discusses the Incans' lack of the wheel and arch but highlights their mastery of fiber through visuals of textiles and sandals, establishing the broader theme of their ingenuity in other areas."
+  },
+  {
+    "question": "A crowd celebrating in red-and-white appears as an inset during a studio segment and later reappears in a broader festival montage; what phrase is on the banner in that crowd scene, and what is the broader topic of the montage?",
+    "answer": "The banner says “CONTIGO PERÚ,” and the montage topic is Peruvian festivals/traditions and national pride.",
+    "category": "Visual_Tracking",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      32,
+      34,
+      62
+    ],
+    "reasoning_chain": "Step 1: Slice 32 shows cheering fans in red in an inset. Step 2: Slice 34 shows the banner “CONTIGO PERU.” Step 3: Slice 62 includes festival footage and returns to “CONTIGO PERÚ” as national pride. Conclusion: The phrase is “CONTIGO PERÚ” and the montage is about festivals/traditions and pride.",
+    "logic_check_reasoning": "Step 1: Slice 34 describes a studio segment with a man in a red T-shirt and inset images; one inset shows a red-and-white crowd holding a banner reading 'CONTIGO PERU.' Step 2: Slice 62 describes a broader montage about Peruvian culture and festivals, ending with a scene of a red-and-white crowd holding a banner 'CONTIGO PERÚ,' showing national pride. Step 3: Slice 62 explicitly states the video explores Peruvian festivals, traditions, and people, with a concluding tie to national pride. Therefore the banner phrase and the montage topic are directly supported by the context.",
+    "visual_proof": "In Video 1 (0:00) and Video 2 (0:03), an inset shows a crowd of fans holding a red-and-white banner with the clear text 'CONTIGO PERÚ'. In Video 3, multiple scenes of traditional Peruvian dances ('Capac Qolla', 'Danzantes de tijeras'), religious ceremonies ('Inti Raymi', 'Holy week', 'La Candelaria'), and cultural performances are shown, confirming the broader topic is Peruvian festivals, traditions, and national pride."
+  },
+  {
+    "question": "Which country’s flag is shown while the host introduces a segment labeled “Political Geography,” and what object is used to represent that topic?",
+    "answer": "Peru’s flag, and the topic is represented with a globe labeled “POLITICAL GEOGRAPHY.”",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      2,
+      4
+    ],
+    "reasoning_chain": "Step 1: Slice 2 shows the Peruvian flag beside the host and then a globe with “POLITICAL GEOGRAPHY.” Step 2: Slice 4 continues the Peru-focused geography visuals with maps and labels. Conclusion: The political geography segment is about Peru and is visually represented by a globe.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 2 states that while the host (a man in a red shirt) is speaking, an image of the flag of Peru appears in the top left corner. Step 2: The same slice then says the video transitions to a shot of a globe with the words 'POLITICAL GEOGRAPHY' written on it, representing the topic. Step 3: This directly supports that Peru’s flag is shown during the introduction and that a globe labeled 'POLITICAL GEOGRAPHY' is used to represent the segment. Slice 4 provides additional Peru context but is not necessary for this specific verification.",
+    "visual_proof": "In Video 1 (0:00-0:06), the flag of Peru is clearly displayed in the top left corner while the host speaks. At 0:07-0:08, a globe appears with the text 'POLITICAL GEOGRAPHY' superimposed over it, confirming the object used to represent the topic."
+  },
+  {
+    "question": "Which large lake appears first as a “floating village” location and later is introduced again as a major lake on Peru’s border with Bolivia?",
+    "answer": "Lake Titicaca.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      11,
+      15
+    ],
+    "reasoning_chain": "Step 1: Slice 11 labels a scene as the “Titicaca Floating Village.” Step 2: Slice 15 introduces Lake Titicaca as a major lake on the Peru–Bolivia border. Conclusion: Both refer to Lake Titicaca.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 11 explicitly mentions the 'Titicaca Floating Village,' indicating the lake is Lake Titicaca. Step 2: Evidence Slice 15 introduces Lake Titicaca again, specifying it is located on the border between Peru and Bolivia. Logic holds because the same lake (Lake Titicaca) is referenced first as the floating village location and later as a major border lake.",
+    "visual_proof": "In Video 1 (0:00-0:02), the text 'Titicaca floating village' appears over a scene of people on reed islands, identifying Lake Titicaca as the location. In Video 2 (0:23-0:24), an aerial map view shows a large lake labeled 'LAKE TITICACA' with the text 'BOLIVIA' below it, indicating its position on the border. The same lake is referenced in both clips."
+  },
+  {
+    "question": "Which lake is connected to a “floating village” scene, and how is it later positioned geographically within Peru’s physical zones summary?",
+    "answer": "Lake Titicaca, and it is shown as a major high-altitude lake on the Peru–Bolivia border within the Sierra/highlands context.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      11,
+      15,
+      16
+    ],
+    "reasoning_chain": "Step 1: Slice 11 labels “Titicaca Floating Village.” Step 2: Slice 15 introduces Lake Titicaca on Peru’s border with Bolivia while explaining physical zones. Step 3: Slice 16 reinforces Peru’s biome/zone breakdown and physical geography mapping context. Conclusion: The lake is Titicaca and it’s positioned in the highlands/border region.",
+    "logic_check_reasoning": "Step 1: Slice 11 explicitly connects the floating village scene to Lake Titicaca by naming it the 'Titicaca Floating Village.' Step 2: Slice 15 presents Peru’s physical zones (Costa, Sierra, Selva) and later introduces Lake Titicaca, stating it is located on the Peru–Bolivia border and highlighting its high-altitude environment, which aligns with the Sierra/highlands context. The answer’s elements are directly supported by these slices.",
+    "visual_proof": "Clip 1 explicitly labels the 'Titicaca floating village' scene. Clip 2 visually identifies 'LAKE TITICACA' on a map, positioned on the border between Peru and Bolivia, situated within the mountainous region labeled 'MOUNTAINS ~30%'. This aligns with the Sierra/highlands zone described in the original answer."
+  }
+]

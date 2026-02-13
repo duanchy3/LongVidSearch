@@ -1,0 +1,60 @@
+[
+    {
+        "question": "In the North Atlantic mapping thread tied to bird history, which specific island is highlighted on the map and later matched by an aerial shot of a lone bird-covered rock in the ocean?",
+        "answer": "Eldey.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            77,
+            78,
+            69
+        ],
+        "reasoning_chain": "Step 1: The map zooms into the North Atlantic region and circles Eldey (Slice 77). Step 2: An aerial shot shows a solitary rock/islet in the ocean covered with many birds (Slice 78). Step 3: Another coastal shot shows the same motif of seabirds filling the sky above a rock formation (Slice 69). Conclusion: The highlighted island matched to the bird-covered rock is Eldey.",
+        "logic_check_reasoning": "Step 1: Slice 77 explicitly states that the map zooms in on and highlights Eldey near Iceland, marking it with a circle. Step 2: Slice 78 shows an aerial shot of a lone rock island in the ocean covered with birds, which fits the description of a small bird-covered island. Step 3: The question asks which island is highlighted on the map and later matched by the aerial shot; the map explicitly identifies Eldey, and the subsequent aerial scene logically corresponds to that highlight within the same video sequence.",
+        "visual_proof": "Clip 1 shows a world map with several islands labeled, including 'Eldey' in the North Atlantic. The camera then zooms in specifically on Eldey. Clip 2 transitions to an aerial shot of a solitary, rocky island covered in birds, which is explicitly labeled with an arrow and the text 'Eldey', directly matching the location highlighted on the map in Clip 1."
+    },
+    {
+        "question": "Which two non-penguin animals are used in the video’s later segments to help illustrate broader environmental stakes, and how are they linked to the colonization/extinction framing shown elsewhere?",
+        "answer": "A polar bear and Earth-from-space imagery; they are explicitly paired with 'Extinction' and 'Colonization' in a split-screen framing.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            95,
+            47,
+            51,
+            39
+        ],
+        "reasoning_chain": "Step 1: A polar bear is shown walking across ice in an Arctic landscape (Slice 95). Step 2: Earth-from-space imagery appears as a recurring global context (Slice 47). Step 3: A split-screen directly pairs Earth with 'Colonization' and a polar bear with 'Extinction' (and then swaps labels) (Slice 51). Step 4: The 'Colonization' vs 'Extinction' conceptual framing is also presented via paired cards (Slice 39). Conclusion: Polar bear and Earth imagery are linked to the extinction/colonization framing.",
+        "logic_check_reasoning": "Step 1: Slice 95 shows a polar bear in an Arctic setting, establishing one non-penguin animal depicted. Step 2: Slice 47 shows Earth-from-space imagery, another element used to illustrate environmental stakes (though not an animal). Step 3: Slice 51 explicitly links these visuals to the colonization/extinction framing via a split-screen where Earth is labeled 'Colonization' and the polar bear 'Extinction,' then swapped. This supports the claim that these two visuals are paired with the colonization/extinction framing.",
+        "visual_proof": "Clip 3 (0:00-0:15) shows a clear split-screen. The left panel displays satellite/Earth-from-space imagery with the word 'Colonization' and a red downward triangle. The right panel shows a polar bear in a grassy, non-Arctic environment with the word 'Extinction' and a green upward triangle. This directly links the two non-penguin animals (the polar bear and the planet Earth as a visual entity) to the specified framing."
+    },
+    {
+        "question": "How does the video connect the presenter’s office (with Earth on a monitor) to penguin behavior in water, and then to a real rocky shoreline scene?",
+        "answer": "It cuts from the presenter in his office to an underwater king penguin swimming, then later shows penguins on rocky shores/colonies.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            43,
+            45
+        ],
+        "reasoning_chain": "Step 1: The presenter speaks in the office, then the scene transitions to an underwater king penguin swimming (Slice 22). Step 2: Another segment shows penguins swimming in green water before returning to the presenter (Slice 43). Step 3: A later scene shows penguins gathered and preening around rocks and a pond-like area (Slice 45). Conclusion: The narrative links office explanation to swimming footage to shoreline/rock habitat footage.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows a man speaking in a home/office setting with a monitor displaying Earth, then transitions to an underwater close-up of a king penguin swimming. Step 2: Slice 43 further links office scenes (with Earth on the monitor) to penguin behavior in water, showing penguins swimming before or after the office scene. Step 3: Slice 45 shows penguins on a rocky surface around a pond with rock formations, suggesting a rocky habitat akin to a shoreline or colony. Logic holds because the video clearly connects the presenter’s office context to penguin water behavior, then to penguins in a rocky environment.",
+        "visual_proof": "Clip 1 opens with the presenter in his office (0:00-0:01), immediately cutting to an underwater shot of a king penguin swimming (0:02-0:07). Clip 2 returns to the presenter (0:03-0:07) after showing penguins in green water. Clip 3 then shows a penguin on a rocky shore (0:00-0:04) and a wider shot of a colony on rocks by water (0:05-0:09), confirming the sequence described."
+    },
+    {
+        "question": "Across the video’s bird-history thread, which extinct seabird is emphasized on a dedicated card, and which North Atlantic map segment provides the geographic frame that follows this card-based discussion?",
+        "answer": "The Great Auk (Pinguinus impennis), and the North Atlantic map highlighting places like Iceland/Eldey provides the geographic frame.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            60,
+            66,
+            77,
+            86
+        ],
+        "reasoning_chain": "Step 1: A close-up centers on a card labeled 'Great Auk' with the scientific name 'Pinguinus impennis' (Slice 60). Step 2: A world map zoom highlights North Atlantic locations such as Cape Farewell and Funk Island (Slice 66). Step 3: Another map zoom focuses on the Iceland region and circles Eldey (Slice 77). Step 4: A displayed map again labels many North Atlantic sites (Greenland/Iceland/St. Kilda/Rockall, etc.) (Slice 86). Conclusion: The extinct seabird is the Great Auk, framed geographically by North Atlantic mapping around Iceland/Eldey and nearby islands.",
+        "logic_check_reasoning": "Step 1: Slice 60 shows a dedicated bird card labeled \"Great Auk\" with the scientific name \"Pinguinus impennis,\" clearly emphasizing this species. Step 2: Slices 66, 77, and 86 depict a North Atlantic map segment, with 77 specifically highlighting the region around Iceland and zooming in on Eldey. Logic holds because the card-based focus on the Great Auk is followed by map segments that provide geographic context, particularly the Iceland/Eldey area.",
+        "visual_proof": "Clip 1 clearly shows a dedicated card for the 'Great Auk (Pinguinus impennis)'. Subsequent clips (2, 3, and 4) show a world map that zooms into the North Atlantic, specifically highlighting locations such as 'Eldey' and 'Iceland', which are historically associated with the Great Auk's habitat and extinction."
+    }
+]

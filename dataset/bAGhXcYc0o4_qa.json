@@ -1,0 +1,41 @@
+[
+    {
+        "question": "What Norwegian city is first marked as the capital with a star on the administrative map, and later shown via infrastructure labels like its airport and port?",
+        "answer": "Oslo.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 8 ends by marking Oslo with a star as the capital. Step 2: Slice 9 shows labels 'Oslo Lufthavn Gardermoen' and 'Port of Oslo.' Conclusion: The city is Oslo.",
+        "logic_check_reasoning": "Step 1: Slice 8 states that Oslo, the capital city of Norway, is marked with a star on the map. Step 2: Slice 9 shows infrastructure labels including 'Oslo Lufthavn Gardermoen' (Oslo Airport) and 'Port of Oslo'. Logic holds because both slices refer to Oslo and connect the capital marking to later infrastructure depictions.",
+        "visual_proof": "In Clip 1, at 0:25, a yellow star appears on the map of Norway, and the text 'OSLO' is displayed directly below it, identifying it as the capital. In Clip 2, starting at 0:00, the video zooms into Oslo, and subsequent frames (0:02-0:06) label key infrastructure with text overlays such as 'OSLO LUFTHAVN, GARDERMOEN' and 'PORT OF OSLO', confirming the city's identity and its major facilities."
+    },
+    {
+        "question": "Which remote Norwegian archipelago is introduced as unincorporated with a tiny seasonal population, and later connected to both polar night and a global seed vault?",
+        "answer": "Svalbard.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 8 introduces Svalbard as 'Unincorporated' and mentions Ny-Ålesund population in winter/summer. Step 2: Slice 16 returns to Svalbard to explain polar night and shows the Svalbard Seed Vault. Conclusion: The archipelago is Svalbard.",
+        "logic_check_reasoning": "Step 1: Slice 8 introduces Svalbard as an archipelago north of mainland Norway, labeled \"Unincorporated,\" and highlights Ny-Ålesund with seasonal population figures (48 in winter, 120 in summer), establishing it as remote with tiny seasonal population. Step 2: Slice 16 later references Svalbard near the North Pole, explicitly mentions 110 days of polar night, and highlights the Svalbard Seed Vault as a global seed preservation facility. Logic holds because the same archipelago is described with the specific attributes asked: unincorporated status and small seasonal population, and later connected to polar night and the global seed vault.",
+        "visual_proof": "The video explicitly labels the archipelago as 'SVALBARD (Unincorporated)' at 0:04 and shows its seasonal population ('~40 (WINTER)', '~120 (SUMMER)') at 0:07. Later, it visually connects Svalbard to the 'polar night' with text showing '110 Days' of darkness at 0:23 and then introduces the 'Svalbard Seed Vault' with images of its exterior and interior at 0:26-0:28."
+    },
+    {
+        "question": "Which Norwegian mountain name appears on screen as a snowy aerial landscape, and in a different part of the video the geography map labels Norway’s alpine/boreal climate and mountainous terrain features?",
+        "answer": "Galdhøpiggen.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows snowy peaks with the label 'GALDHOPIGGEN.' Step 2: Slice 25’s map labels Norway’s alpine/boreal climate and mountainous geography context. Conclusion: The named mountain is Galdhøpiggen.",
+        "logic_check_reasoning": "Step 1: Slice 26 states that during an aerial view of snowy mountains, the word 'GALDHOPIGGEN' appears on screen, identifying the mountain shown. Step 2: Slice 25 describes a geography map that includes labels such as 'Alpine Boreal Climate' and features like 'Scandinavian Mountains' and 'Steep Jagged Cliffs and Fjords,' confirming the map shows Norway’s alpine/boreal climate and mountainous terrain. The visual evidence supports that the mountain name is Galdhøpiggen, and the map segment includes the referenced climate and terrain labels.",
+        "visual_proof": "In Video 1, the name 'GALDHØPIGGEN' is clearly displayed over a snowy mountain landscape. In Video 2, while Norway's geography is shown, labels for 'ALPINE BOREAL CLIMATE' and 'FJORDS' appear, which are associated with the mountainous terrain where Galdhøpiggen is located, confirming the context of the question."
+    }
+]

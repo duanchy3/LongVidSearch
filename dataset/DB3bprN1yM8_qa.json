@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which company is shown both defending itself in a lawsuit headline and later appears as a storefront labeled as having “double trouble”?",
+        "answer": "Apple.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the headline “APPLE: LAWSUIT IS WRONG ON THE FACTS.” Step 2: Slice 23 shows an Apple store with the overlay “APPLE'S DOUBLE TROUBLE.” Conclusion: The same company is Apple.",
+        "logic_check_reasoning": "Step 1: Slice 4 states the lower third headline \"APPLE: LAWSUIT IS WRONG ON THE FACTS,\" indicating Apple is defending itself in a lawsuit. Step 2: Slice 23 shows an exterior shot of an Apple store with the overlay text \"APPLE'S DOUBLE TROUBLE,\" meaning the storefront is labeled as having double trouble. Logic holds because both references clearly and explicitly identify Apple in the described contexts.",
+        "visual_proof": "In Clip 1, the lower-third graphic explicitly states 'APPLE: LAWSUIT IS WRONG ON THE FACTS'. In Clip 2, a later scene shows an Apple store with the large yellow Apple logo on its glass facade, accompanied by the headline 'APPLE'S DOUBLE TROUBLE'. This visually confirms that Apple is the company referenced in both contexts."
+    },
+    {
+        "question": "Which segment ties together the idea that 800V EVs are rising, that they require more powerful charging infrastructure, and that equipment costs are higher?",
+        "answer": "The Bloomberg Green 800V EV coverage linking rising adoption to stronger chargers and higher equipment costs.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            18,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a chart that 800V EVs are a growing share of EV sales. Step 2: Slice 18 states 800V EVs require more powerful charging stations. Step 3: Slice 20 presents “EQUIPMENT COSTS ARE HIGHER FOR 800V EVS.” Conclusion: Growing adoption implies infrastructure needs, which in turn connects to higher equipment costs.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly states that 800V EVs are on the rise, with a chart and overlays under Bloomberg Green. Step 2: Slice 18 explicitly states that 800V EVs require more powerful charging stations, also within a Bloomberg Green segment. Step 3: Slice 20 explicitly states that equipment costs are higher for 800V EVs, again labeled Bloomberg Green. Logic holds because these slices collectively describe a Bloomberg Green segment covering 800V EVs and tying together rising adoption, the need for stronger chargers, and higher equipment costs.",
+        "visual_proof": "Clip 1 shows a bar chart titled '800V EVS A GROWING SHARE OF BATTERY-ELECTRIC VEHICLE SALES' with the on-screen text '800-VOLT EVS ARE ON THE RISE'. Clip 2 features an on-screen text stating '800V EVS REQUIRE MORE POWERFUL CHARGING STATIONS'. Clip 3 displays the text 'EQUIPMENT COSTS ARE HIGHER FOR 800V EVS'. All three clips are from the same Bloomberg Green segment, visually connecting these three key points."
+    },
+    {
+        "question": "What visual progression supports the Japan monetary-policy narrative from everyday street/food imagery to institutional focus on major banks and then to stock-market infrastructure (the exchange/market boards)?",
+        "answer": "It goes from food/street life, to major bank signs (MUFG/Mizuho), to the stock exchange/market display boards.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            78,
+            81
+        ],
+        "reasoning_chain": "Step 1: Slice 45 uses food and street scenes under the “Ending Japan’s Massive Money Experiment” theme. Step 2: Slice 78 highlights MUFG and Mizuho bank signage, shifting to financial institutions. Step 3: Slice 81 shows JPX and market boards, emphasizing financial-market infrastructure. Conclusion: The narrative visually moves from daily life to banks to markets.",
+        "logic_check_reasoning": "Step 1: Slice 45 depicts everyday Japan through street scenes and food (noodles, unagi), aligning with 'food/street life.' Step 2: Slice 78 explicitly shows institutional focus with signs for major banks MUFG and Mizuho. Step 3: Slice 81 features the JPX building and a digital stock market board, representing stock exchange/market infrastructure. The sequence matches the proposed progression.",
+        "visual_proof": "Clip 1 opens with scenes of everyday life: a person selecting food from a vending machine, eating noodles, and crowded city streets. Clip 2 transitions to institutional imagery, showing the exterior of major Japanese banks like MUFG and Mizuho. Clip 3 concludes with visuals of the Tokyo Stock Exchange building and a large electronic board displaying real-time stock market data, completing the narrative arc from daily commerce to financial infrastructure."
+    },
+    {
+        "question": "How does the Japan story connect consumer prices/inflation visuals, wage growth emphasis, and then the breaking-news announcement of a BOJ policy shift?",
+        "answer": "Rising inflation and wage growth context set the stage for the BOJ’s breaking policy shift (hike and scrapping YCC).",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            72,
+            74,
+            75,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 72 shows inflation rising to a peak and frames “Ending Japan’s Massive Money Experiment.” Step 2: Slice 74 shows “Japan Wage Growth,” highlighting a significant recent jump. Step 3: Slice 75 announces “BREAKING NEWS: BOJ HIKES, SCRAPS YCC” and the new policy-rate range. Step 4: Slice 76 follows with USD/JPY market discussion tied to the BOJ changes. Conclusion: Inflation and wage pressures are presented as context leading into BOJ action and market reaction.",
+        "logic_check_reasoning": "Step 1: Slice 72 shows rising inflation in Japan and frames the topic as \"Ending Japan's Massive Money Experiment,\" establishing a consumer prices/inflation backdrop and hinting at monetary policy implications. Step 2: Slice 74 emphasizes wage growth with a highlighted 2023 bar at 5.28%, adding labor-market context. Step 3: Slice 75 delivers breaking news that the BOJ hiked rates and scrapped YCC, explicitly stating the policy shift and the new rate range. Step 4: Slice 76 reinforces the policy-change narrative with market reaction (USD/JPY) and further BOJ actions (ending ETF and J-REIT purchases). Logic holds because the visuals and data on inflation and wages set the economic context leading into the BOJ’s announced policy shift.",
+        "visual_proof": "Clip 1 shows a graph of Japan's inflation reaching a 30-year high (4.3% in Jan. 2023), establishing the inflation context. Clip 2 displays a bar chart showing Japan's wage growth, with a forecasted sharp increase to 5.28% in 2024, highlighting the wage growth context. Clip 3 features a news anchor announcing 'BOJ HIKES, SCRAPS YCC' and 'BOJ SETS POLICY RATE IN RANGE BETWEEN 0% TO 0.1%', which is the breaking policy shift. The sequence visually connects the economic conditions (inflation, wages) to the central bank's response."
+    },
+    {
+        "question": "Which apparel brand is shown falling on a cautious outlook and later gets included in a comparative performance discussion alongside Nike and Adidas?",
+        "answer": "Lululemon.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows “LULULEMON FALLS ON CAUTIOUS OUTLOOK” at a Lululemon storefront. Step 2: Slice 32 shows a graphic that expands to include Lululemon in comparison with Nike and Adidas. Conclusion: The brand is Lululemon.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly states a caption 'LULULEMON FALLS ON CAUTIOUS OUTLOOK' alongside the Lululemon storefront, indicating the brand falling on a cautious outlook. Step 2: Slice 32 describes a comparative performance graphic that initially compares Nike and Adidas, then updates to include Lululemon Athletica, placing it alongside Nike and Adidas in the discussion. Logic holds because the same brand mentioned as falling is later included in the comparison with Nike and Adidas.",
+        "visual_proof": "Clip 1 opens with a clear shot of the Lululemon storefront and a text overlay stating 'LULULEMON FALLS ON CAUTIOUS OUTLOOK'. Clip 2 features a financial chart titled 'NIKE, ADIDAS FACE COMPETITION' which includes a line for 'LULULEMON ATHLETICA' alongside Nike and Adidas, confirming its inclusion in the comparative discussion."
+    },
+    {
+        "question": "Which topic shifts from being discussed as an EU regulatory action to being framed as the company’s response to a DOJ lawsuit?",
+        "answer": "Apple facing regulation/legal scrutiny.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 5 details the DOJ antitrust lawsuit against Apple and Apple’s response. Step 2: Slice 6 discusses the EU expected probe into Apple under the Digital Markets Act. Conclusion: The same broader topic is Apple’s legal/regulatory scrutiny.",
+        "logic_check_reasoning": "Step 1: Slice 6 discusses EU regulatory action focusing on Apple under the Digital Markets Act, including an Apple stock chart and the theme 'EU seeks to rein in big tech.' Step 2: Slice 5 presents Apple's response to a DOJ antitrust lawsuit with on-screen text 'APPLE: LAWSUIT IS WRONG ON THE FACTS,' detailing DOJ suing Apple and allegations. Logic holds because both slices center on Apple’s legal/regulatory scrutiny—first in the EU context, then shifting to Apple’s response to a U.S. DOJ lawsuit.",
+        "visual_proof": "The video transitions from discussing the EU's expected probe into Apple under the Digital Markets Act (Clip 2, 0:01-0:07) to showing Apple's response to a DOJ antitrust lawsuit with the on-screen text 'APPLE: LAWSUIT IS WRONG ON THE FACTS' (Clip 1, 0:00-0:05 and 0:14-0:17). This demonstrates a clear shift in framing from EU regulatory action to Apple's legal defense against the DOJ."
+    },
+    {
+        "question": "Which economic support theme is framed first as EU use of windfall profits and later appears as an IMF approval amount shown over a nighttime shopping street?",
+        "answer": "Financial support for Ukraine.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 11 describes “EU MOVES TO USE WINDFALL PROFIT FOR UKRAINE.” Step 2: Slice 12 shows a nighttime storefront with overlay “IMF Approves $880M for Ukraine.” Conclusion: Both refer to funding/support for Ukraine.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes the EU's plan to use windfall profits from frozen Russian assets to aid Ukraine, clearly indicating economic/financial support for Ukraine. Step 2: Slice 12 shows a text overlay stating 'IMF Approves $880M for Ukraine' over a nighttime shopping street, again explicitly indicating financial support for Ukraine. Logic holds because both slices reference monetary assistance directed to Ukraine via different institutions, framing the same economic support theme.",
+        "visual_proof": "The first clip frames the theme with on-screen text 'VON DER LEYEN: WINDFALL PROFITS COULD BE DISPERSED IN UKRAINE FROM 1 JULY' and 'EU MOVES TO USE WINDFALL PROFIT FOR UKRAINE', directly linking EU windfall profits to Ukraine. The second clip shows a nighttime street scene outside a 'MANGO' store with an overlay stating 'IMF APPROVES $880M FOR UKRAINE', explicitly connecting IMF funding to Ukraine. Both clips visually confirm the overarching theme is financial support for Ukraine."
+    },
+    {
+        "question": "Which country is linked to both an inflation-related headline earlier and later the story about ending a long-running monetary policy experiment?",
+        "answer": "Japan.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 2 includes the lower-third “JAPAN INFLATION ACCELERATES.” Step 2: Slice 44 introduces “Ending Japan’s Massive Money Experiment.” Conclusion: Both refer to Japan.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a headline \"JAPAN INFLATION ACCELERATES,\" linking Japan to an inflation-related update. Step 2: Slice 44 discusses \"Ending Japan's Massive Money Experiment,\" referring to the central bank's decision and a long-running monetary policy experiment in Japan. Logic holds because both references explicitly mention Japan in connection with inflation and a monetary policy shift.",
+        "visual_proof": "In Video 1, at timestamp 1:22, a headline appears on screen stating 'JAPAN INFLATION ACCELERATES' while Avril Hong reports. In Video 2, at timestamp 0:08, Francine Lacqua is shown with a headline that reads 'ENDING JAPAN'S MASSIVE MONEY EXPERIMENT'. Both headlines explicitly link the country Japan to the topics of inflation and monetary policy, confirming the answer."
+    }
+]

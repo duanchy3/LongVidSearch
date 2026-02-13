@@ -1,0 +1,84 @@
+[
+    {
+        "question": "Between the two scenes where medical personnel are threatened indoors, which happens first: a medic treating a bleeding casualty while armed soldiers confront him, or a nurse in a red-cross uniform ending up on the floor with soldiers standing over her?",
+        "answer": "The medic treating a bleeding casualty while armed soldiers confront him happens first.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a medic kneeling by a bleeding soldier indoors and then being confronted by armed soldiers. Step 2: Slice 13 later shows a nurse with a red cross indoors who ends up lying on the floor while soldiers stand over her. Conclusion: The medic confrontation precedes the nurse-on-the-floor incident.",
+        "logic_check_reasoning": "Step 1: Slice 13 presents a sequence of scenes and explicitly labels the nurse-on-the-floor moment as the 'final scene.' This indicates that this nurse threat scene occurs at the end of the video sequence it describes. Step 2: Slice 9 describes an indoor scene where a medic is treating a bleeding casualty and is confronted by armed soldiers, with tension followed by resolution. It does not claim to be the final scene. Step 3: Both slices describe the same style and wartime indoor settings with Red Cross medical personnel and armed soldiers, making it reasonable they are parts of the same video. Step 4: Since Slice 13 marks the nurse-on-floor as the final scene, the medic confrontation must occur earlier. Therefore, the medic being confronted happens first.",
+        "visual_proof": "In Video 1, the scene opens with a medic in a U.S. uniform (identifiable by the 'U.S.' on his chest pouch and the helmet markings) attending to a wounded soldier on the floor. He is then confronted by two enemy soldiers who enter the room with weapons drawn. In Video 2, a different scene shows a nurse or medic in a white vest with a red cross being executed by two soldiers after surrendering. Since Video 1 is presented as the first clip and depicts the initial confrontation of a medic treating a casualty, it chronologically precedes the execution scene in Video 2."
+    },
+    {
+        "question": "How does the setting change from the “faking surrender and perfidy” introduction to the later scene of a soldier holding a white flag in front of a French café?",
+        "answer": "It shifts from a scenic autumn/winter wartime landscape with marching and retreating soldiers to a town café frontage where a soldier is shown with a white flag.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 49 introduces “FAKING SURRENDER AND PERFIDY” with soldiers marching in autumn and retreating in snowy conditions. Step 2: Slice 44 later shows a soldier in front of “Cafe de Normandie” holding a white flag. Conclusion: The video moves from broader seasonal battle movement to a localized café-front surrender symbol.",
+        "logic_check_reasoning": "Step 1: Slice 49 describes the “FAKING SURRENDER AND PERFIDY” introduction set in autumn and then winter, with soldiers marching and later retreating from a burning building—clearly a wartime landscape. Step 2: Slice 44 shows a soldier holding a white flag in front of a French café (“Cafe de Normandie”). Logic holds because the proposed answer accurately captures the shift from the initial scenic wartime outdoor settings to a town café frontage scene featuring a white flag.",
+        "visual_proof": "Clip 1 opens with a title 'FAKING SURRENDER AND PERJIDY' over a scene of soldiers in an autumnal setting, followed by a winter urban battle scene with rubble and soldiers surrendering. Clip 2 shows a single soldier holding a white flag in front of a French café ('CAFE DE NORMANDIE'), indicating a shift from a chaotic battlefield to a calmer, civilian town setting."
+    },
+    {
+        "question": "How does the video connect the topic of illegal violence against civilians to a later depiction of civilians being physically restrained by soldiers in a neighborhood?",
+        "answer": "It first frames civilians as protected/invalid targets, then later shows soldiers restraining civilians under an “other illegal actions” label, illustrating abuse of civilians as an illegal act.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            31,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 25 explicitly labels “INVALID TARGETS” in a domestic setting and emphasizes civilians. Step 2: Slice 31 shows soldiers entering a living room, threatening a civilian, and taking property (TV). Step 3: Slice 60 shows civilians restrained by soldiers with the title “OTHER ILLEGAL ACTIONS.” Conclusion: The video builds from principle (don’t target civilians) to concrete abusive enforcement actions.",
+        "logic_check_reasoning": "Step 1: Slice 25 presents civilians as protected/invalid targets, with scenes like soldiers aiming at a civilian in a living room labeled 'INVALID TARGETS' and a market explosion emphasizing harm to 'CIVILIANS' as unacceptable. Step 2: Slice 60 shows a later scene in a neighborhood where soldiers physically restrain civilians under the title 'OTHER ILLEGAL ACTIONS.' Step 3: The logic holds because the video first establishes that violence against civilians is impermissible, then connects this theme to a subsequent depiction of soldiers' misconduct toward civilians, explicitly labeled as illegal.",
+        "visual_proof": "Clip 1 visually establishes the concept of 'INVALID TARGETS' with a civilian being held at gunpoint in a living room, followed by a scene where a soldier shoots a surrendering combatant (marked with a red X), and then transitions to a bustling market labeled 'CIVILIANS' that is subsequently bombed. Clip 3 directly follows this theme by showing soldiers physically restraining civilians on a suburban street under the explicit title 'OTHER ILLEGAL ACTIONS,' thereby connecting the initial framing of civilians as protected to their later depiction as victims of illegal military conduct."
+    },
+    {
+        "question": "How does the video illustrate the progression from identifying landmines as a problem, to showing a minefield danger zone, to mapping international treaty participation?",
+        "answer": "It introduces landmines explicitly with a soldier in a forest, then shows ‘DANGER MINES’ signs and a mine detonation, and finally presents the Ottawa Treaty world map about mine bans.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            75,
+            77,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 75 displays the word “LANDMINES” and a soldier in a forest with an explosion demonstration. Step 2: Slice 77 shows warning signs “DANGER MINES” and a soldier stepping on a mine. Step 3: Slice 76 shows a world map titled “Ottawa treaty” with signatory countries highlighted. Conclusion: The narrative moves from concept → on-the-ground danger → international legal framework.",
+        "logic_check_reasoning": "Step 1: Slice 75 shows a soldier in a forest with the word 'LANDMINES' on screen, introducing landmines as the problem. Step 2: Slice 77 shows a path marked with 'DANGER MINES' signs and a soldier triggering a mine explosion, depicting a minefield danger zone. Step 3: Slice 76 presents a landmine in the foreground with a world map titled 'Ottawa treaty' showing signatories vs non-signatories, mapping international treaty participation related to landmines. The sequence matches the proposed progression.",
+        "visual_proof": "Clip 1 opens with a soldier using a metal detector in a forest, with the word 'LANDMINES' overlaid, establishing the problem. Clip 2 depicts a forest path flanked by 'DANGER MINES' signs, where soldiers walk and one triggers an explosion, illustrating the danger zone. Clip 3 transitions to a 3D model of a landmine followed by a world map labeled 'Ottawa treaty,' showing countries highlighted in blue, representing international participation in the ban."
+    },
+    {
+        "question": "In the war-torn town storyline, what business sign is visible near the point where a medic carrying a stretcher is blocked/attacked compared with a later rescue scene passing a burning storefront?",
+        "answer": "The earlier blocking/attack happens near the sign “VINS - CAFE BAR - BIÈRE,” and the later rescue passes a burning storefront labeled “VIENNOISERIE.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 1 includes the town scene with the building labeled “VINS - CAFE BAR - BIÈRE,” where the stretcher-carrying medic is attacked. Step 2: Slice 24 later shows a soldier carrying a wounded comrade past a burning building labeled “VIENNOISERIE.” Conclusion: The two moments are tied to those two distinct storefront signs.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly describes the medic being blocked and attacked near a building labeled \"VINS - CAFE BAR - BIÈRE.\" Step 2: Evidence Slice 24 (Scene 2) explicitly describes a soldier carrying a wounded comrade on a stretcher passing a burning building labeled \"VIENNOISERIE.\" Logic holds because both scenes involve a medic/soldier carrying a stretcher in a war-torn town, and each slice clearly provides the corresponding business sign visible in those moments.",
+        "visual_proof": "In Video 1 (0:05-0:08), a medic carrying a wounded soldier is blocked and attacked by two enemy soldiers in front of a building with a clear sign reading 'VINS • CAFE BAR • BIERE'. In Video 2 (0:03-0:04), a different scene shows a medic assisting a wounded soldier past a burning storefront with a visible sign that reads 'VIENNOISERIE'. The signs and their respective contexts are clearly depicted in the frames."
+    },
+    {
+        "question": "A tank is shown traveling calmly past a hospital and later a tank fires in a city; meanwhile, a museum is first peaceful then militarized with tanks and barbed wire. What combined message about heavy weapons in civilian/cultural spaces is implied?",
+        "answer": "Heavy weapons and militarization intrude into protected civilian and cultural spaces—tanks appear near a hospital, later fire in urban streets, and even occupy a museum, implying these spaces are being endangered or misused.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            29,
+            91,
+            32,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows a tank moving through a city and passing a hospital marked with a red cross. Step 2: Slice 91 later shows a tank firing its cannon down a city street. Step 3: Slice 32 shows a museum going from peaceful to damaged and then surrounded/occupied by military hardware including tanks and barbed wire. Step 4: Slice 35 shows a medical ambulance in a town street, underscoring civilian/medical presence in urban areas. Conclusion: The video implies militarization and heavy weapons threaten or misuse civilian, medical, and cultural environments.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows a green tank moving calmly through urban environments, explicitly passing a hospital and other landmarks, indicating heavy weapons present in civilian/cultural spaces. Step 2: Slice 91 shows the tank firing its cannon in a city street, demonstrating active use of heavy weapons within an urban civilian setting. Step 3: Slice 32 shows a museum transitioning from peaceful to militarized, with tanks and barbed wire occupying it, and a red X signaling a warning against such transformation, implying misuse/endangerment of cultural spaces. The combined logic supports the message that heavy weapons and militarization intrude into and endanger civilian and cultural spaces.",
+        "visual_proof": "Clip 1 shows a tank moving past a clearly marked 'HOSPITAL'. Clip 2 depicts a tank firing its main gun in a city street with debris and explosions. Clip 3 transitions from a peaceful museum to one damaged by fire, then overlaid with a red 'X', and finally transformed into a militarized zone with tanks, artillery, and barbed wire on its roof and entrance. These visuals directly support the message of intrusion and endangerment."
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "question": "A comparison graphic puts two country flags head-to-head. Which two countries are compared, and which later map screen reinforces one of those countries by showing its map?",
+        "answer": "Jordan and Lebanon are compared, and Jordan is later reinforced with a map of Jordan.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows Jordan vs. Lebanon with the two flags and 'VS.' between them. Step 2: Slice 20 later shows a map of Jordan behind the hosts. Conclusion: The compared countries are Jordan and Lebanon, and the Jordan map reinforces Jordan.",
+        "logic_check_reasoning": "Step 1: Slice 23 explicitly states that two flags are displayed—Jordan on the left and Lebanon on the right—with 'VS.' between them, indicating a comparison between Jordan and Lebanon. Step 2: Slice 20 describes a later view where the background prominently includes a map of Jordan, reinforcing one of the compared countries by showing its map. The visual details (two men, white t-shirt with green design, black tank top) align across slices, supporting continuity.",
+        "visual_proof": "In Clip 1, a graphic overlay shows the flag of Jordan on the left and the flag of Lebanon on the right, separated by 'VS.'. In Clip 2, a map is displayed with the word 'JORDAN' in large text at the bottom left and the Jordanian flag overlaid on the country's territory, visually reinforcing Jordan as one of the compared countries."
+    },
+    {
+        "question": "One segment shows a crowd gathered around the Kaaba, and another explicitly labels the topic with a country flag and name. Which country is being discussed when the Kaaba crowd appears?",
+        "answer": "Saudi Arabia.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            64,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows an inset of people around the Kaaba in Mecca. Step 2: Slice 63 shows the Saudi Arabia flag and the text 'SAUDI ARABIA.' Conclusion: The Kaaba inset aligns with a discussion about Saudi Arabia.",
+        "logic_check_reasoning": "Step 1: Slice 64 states that during the discussion an inset image shows a crowd around the Kaaba. Step 2: Slice 63 reports that the video explicitly displays the word 'SAUDI ARABIA' along with a flag, indicating the topic is Saudi Arabia. Logic holds because the question ties these two segments together—one shows the Kaaba crowd, and another labels the topic with a country name; the explicit on-screen label identifies the country as Saudi Arabia.",
+        "visual_proof": "In Clip 1, an image of the Kaaba surrounded by a large crowd is shown. Immediately following this, the flag of Saudi Arabia appears on screen with the word 'SHAHADA' pointing to its text. In Clip 2, a map explicitly labeled 'SAUDI ARABIA' is displayed alongside the same flag. The consistent visual pairing of the Kaaba, the Saudi flag, and the country's name confirms that Saudi Arabia is the country being discussed."
+    }
+]

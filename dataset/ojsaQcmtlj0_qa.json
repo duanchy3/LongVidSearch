@@ -1,0 +1,115 @@
+[
+    {
+        "question": "What food-and-drink combination is shown being prepared and later eaten while the creator talks on her bed?",
+        "answer": "Coffee brewed into a blue mug and an ice cream cone.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            42,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows coffee being brewed with a Keurig into a blue mug. Step 2: Slice 57 shows the woman holding and eating an ice cream cone while talking on her bed. Conclusion: The video shows coffee and ice cream as the prepared-and-eaten items across these segments.",
+        "logic_check_reasoning": "Step 1: Slice 42 shows a Keurig coffee maker brewing coffee into a blue mug, clearly indicating the drink being prepared. Step 2: Slice 57 shows the creator on her bed holding an ice cream cone while talking to the camera, indicating the food present during that segment. Logic holds because the question asks for the food-and-drink combination shown being prepared and later present while she talks; the context explicitly supports coffee in a blue mug and an ice cream cone.",
+        "visual_proof": "Clip 1 visually documents the process of brewing coffee using a Keurig machine, with the final product being dispensed into a blue mug with a green interior. Clip 2 shows the creator sitting on her bed, holding and eating an ice cream cone while talking to the camera. The combination of these two distinct visual events across the clips supports the answer."
+    },
+    {
+        "question": "What small accessory is first played with on the bed and later shown in a close-up view being put onto the wearer’s head?",
+        "answer": "A blue hat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows her holding a blue hat and putting it on and off playfully. Step 2: Slice 33 shows a close-up of a blue hat (with a pom-pom) being placed on someone’s head. Conclusion: The accessory tracked across both scenes is the blue hat.",
+        "logic_check_reasoning": "Step 1: Slice 32 states the woman on the bed is holding and playing with a blue hat, putting it on and taking it off. Step 2: Slice 33 describes a close-up of a hand holding a blue hat (with a white pom-pom) and placing it on a person's head. Logic holds because both slices describe the same accessory—a blue hat—first being played with on the bed and later shown in close-up being put on the wearer’s head.",
+        "visual_proof": "In Clip 1, the woman is sitting on the bed and actively playing with a blue hat, adjusting it and showing it to the camera. In Clip 2, the same blue hat is shown in a close-up view as she puts it on her head."
+    },
+    {
+        "question": "Which item is first shown as fabric/pattern material for a craft and later appears as a finished wearable piece she holds up?",
+        "answer": "Polka-dot material that becomes a pair of polka-dotted pants.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows her holding and working with white fabric covered in colorful polka dots as part of a craft setup. Step 2: Slice 25 shows her examining a colorful polka-dotted dress. Step 3: Slice 26 shows polka-dotted pants in close-up, reinforcing the recurring polka-dot theme as a wardrobe/craft motif. Conclusion: The polka-dot materials and garments connect craft work to wearable clothing.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows the woman crafting and holding a piece of white fabric with colorful polka dots, indicating it as material for a project. Step 2: Slice 25 shows (same attire/setting) the woman holding up a colorful polka-dotted dress, a finished wearable piece. Minor scene details differ (fan vs lamp, dinosaur vs frog pillow), but her outfit and setting align, so it's logically the same sequence. Therefore, the polka-dot material appears first as fabric and later as a dress.",
+        "original_text_answer": "Polka-dot material that becomes a polka-dotted dress.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In clips 1 and 2, the woman is holding up and examining a piece of white fabric with colorful polka dots, which she identifies as pants. In clip 3, she is shown wearing the finished item, which is clearly a pair of pants, not a dress. The close-up shot at 0:08 in clip 3 confirms it's a pair of jeans/pants with the 'GOLF' brand logo on the back pocket."
+    },
+    {
+        "question": "Track the orange plush toy through multiple moments: where is it first seen as part of the bed setup, then used playfully in a close-up gag, and later held while she sits and talks?",
+        "answer": "It appears on/near the bed early as a stuffed animal, then she holds it up to her face playfully, and later she holds and interacts with it while seated on the bed.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            8,
+            46,
+            47,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows plush toys on the bed including an orange cat-like plush among others. Step 2: Slice 46 shows her holding an orange plush toy directly in front of her face and then revealing her smile. Step 3: Slice 47 shows her seated holding an orange plush toy (carrot-like) while engaging the camera. Step 4: Slice 49 again shows her holding an orange plush toy at the beginning while talking. Conclusion: The orange plush toy(s) remain a recurring playful prop across time.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows the orange plush toy as part of the bed setup, described among several plush toys on the bed including an orange cat. Step 2: Slice 46 shows a close-up playful gag where the woman holds an orange plush toy up to her face, obscuring it, then reveals her smile, clearly using it playfully. Step 3: Slice 47 shows her seated on the bed holding and interacting with an orange plush toy while possibly speaking or singing; Slice 49 also notes she holds the orange plush at the beginning while seated and appears to be explaining something. The sequence logically tracks the toy from being on the bed, to a playful close-up, to being held while she sits and talks.",
+        "visual_proof": "In Clip 1 (0:00), the orange plush is visible on the bed behind the woman. In Clip 2 (0:04-0:07), she holds it up to cover her face in a playful manner. In Clip 3 (0:00-0:09), she is sitting cross-legged on the bed, holding the plush toy in her lap while talking and gesturing."
+    },
+    {
+        "question": "What on-screen graphic signals a shift into everyday lifestyle items, and what later kitchen action matches that lifestyle theme?",
+        "answer": "An illustrated lifestyle-items graphic appears, followed later by brewing coffee with a Keurig in the kitchen.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows an illustration of lifestyle items (mug, plant, makeup compact, bread) before returning to her on the bed. Step 2: Slice 42 shows a practical lifestyle action: brewing coffee into a blue mug with a Keurig. Conclusion: The lifestyle graphic foreshadows the later real-life coffee-making.",
+        "logic_check_reasoning": "Step 1: Slice 41 states the video starts with an illustration of various lifestyle items (mug, plant, makeup compact, bread), which serves as an on-screen graphic indicating a focus on everyday lifestyle. Step 2: Slice 42 describes a kitchen scene where a Keurig coffee maker brews coffee into a mug, a clear everyday lifestyle action. Logic holds because the initial graphic signals the lifestyle theme, and the later kitchen action (brewing coffee) aligns with that theme.",
+        "visual_proof": "Clip 1 opens with an on-screen graphic featuring the word 'lifestyle' surrounded by illustrations of a coffee cup, plant, makeup, and pastry. Clip 2 shows a real-world action of a person placing a coffee pod into a Keurig machine and brewing coffee into a mug, which is a direct visual match to the 'lifestyle' theme introduced in the graphic."
+    },
+    {
+        "question": "How does the video connect a close-up of makeup in a small container to a later moment of applying a cylindrical beauty product on camera?",
+        "answer": "It moves from showing a small makeup compact/container with blush shades to demonstrating a cylindrical lip product being applied to her lips.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            59,
+            61,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 59 focuses on opening a small container revealing two blush/powder shades (beauty product showcase). Step 2: Slice 61 shows her holding and applying a cylindrical makeup item to her lips. Step 3: Slice 58 highlights beauty presentation through a nail polish close-up and her gesturing with freshly painted nails. Conclusion: Beauty-product focus carries across makeup container → lip application → broader beauty styling.",
+        "logic_check_reasoning": "Step 1: Slice 59 describes a close-up of a small hexagonal makeup container with two blush/powder shades, being opened and showcased, indicating a product demonstration. Step 2: Slice 61 shows a young woman holding a small cylindrical beauty item (likely lip balm or lipstick) and applying it to her lips on camera, also in a demo context. Logic holds because the video content moves from highlighting a compact with blush shades to the later application of a cylindrical lip product, matching the proposed answer.",
+        "visual_proof": "Clip 1 (0:00-0:02) shows hands opening a hexagonal makeup compact revealing blush shades. Clip 2 (0:00-0:02) immediately follows, showing the same hands applying a cylindrical lipstick/lip balm to the person's lips. The sequence visually connects the two actions."
+    },
+    {
+        "question": "How does the video connect her craft process (cutting patterned fabric) to later sorting patterned pieces and then presenting a finished patterned accessory?",
+        "answer": "She cuts patterned fabric, later flips through patterned floral pieces, and later presents a floral-patterned bag.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            35,
+            44,
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows her cutting patterned fabric with scissors as part of a craft project. Step 2: Slice 44 shows hands sorting through colorful patterned pieces (floral designs), consistent with crafting materials. Step 3: Slice 30 presents a close-up of a finished small floral-patterned bag. Step 4: Slice 31 shows her holding and discussing a floral-patterned handbag on the bed. Conclusion: Crafting actions lead into handling patterned materials and culminate in showcasing a patterned accessory.",
+        "logic_check_reasoning": "Step 1: Slice 35 shows the woman carefully cutting a patterned fabric (horses/jockeys), establishing the craft process. Step 2: Slice 44 shows close-up hands methodically sorting through colorful, floral-patterned pieces (paper or fabric), aligning with later sorting of patterned pieces. Step 3: Slices 30 and 31 show a floral-patterned bag being displayed and discussed by the woman, indicating presentation of a finished patterned accessory. Logic holds because the video progresses from cutting fabric to handling patterned pieces to showcasing a completed floral bag, with consistent setting/person details.",
+        "visual_proof": "Clip 1 shows her cutting a dark green patterned fabric. Clip 2 shows her hands flipping through several pieces of paper with floral and bee patterns. Clip 3 shows a close-up of a finished white handbag decorated with pressed flowers. Clip 4 shows her holding and presenting the same finished floral bag to the camera. The sequence visually connects the raw material (fabric), the design elements (floral pieces), and the final product (the bag)."
+    },
+    {
+        "question": "Which handheld item changes from being shown as a yellow lettered bag to later being replaced by a branded orange box used for sharing snacks?",
+        "answer": "A yellow bag with colorful letters gives way to an orange Bokksu box used for snacks.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            62,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows her holding a yellow bag with colorful letters while talking. Step 2: Slice 62 introduces the Bokksu brand title card. Step 3: Slice 63 shows an orange box on the bed associated with sharing snacks. Conclusion: The featured container-like item shifts from a yellow bag to a branded orange snack box.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows the woman holding a yellow bag with colorful letters, establishing the initial handheld item. Step 2: Slice 62 shows a title card with the kanji for 'box' and the word 'BOKKSU', introducing a branded box context within the video. Step 3: Slice 63 shows an orange box on the bed that is the apparent source of shared snacks, indicating the later handheld item used for sharing. Logic holds because the video transitions from the yellow bag scene to a segment explicitly branded as BOKKSU, followed by an orange box used for snacks, supporting that the bag is later replaced by a branded orange box used for sharing snacks.",
+        "visual_proof": "In Clip 1, the woman is holding a yellow bag with colorful lettering. In Clip 3, an orange box branded 'BOKKSU' is shown being opened and its contents (snacks) are later shared by the two people in Clip 3. This visually confirms the transition from the yellow bag to the orange snack box."
+    }
+]

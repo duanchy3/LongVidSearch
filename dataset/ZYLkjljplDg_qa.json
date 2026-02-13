@@ -1,0 +1,18 @@
+[
+    {
+        "question": "Which city is introduced via a route map from El Paso to another Texas metro area and then reinforced with urban nightlife/district signage in later city scenes?",
+        "answer": "Austin",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            7,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a route from El Paso to Dallas. Step 2: Slice 7 features 'Deep Ellum,' a known Dallas district. Step 3: Slice 6 includes aerial shots of Dallas skyline. Conclusion: The metro area tied across these segments is Dallas.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly shows a Texas map with a route from El Paso to Dallas, introducing Dallas as the destination metro area. Step 2: Slice 6 later features aerial shots of Dallas and its skyline, confirming Dallas in subsequent city scenes. Step 3: Slice 7 shows urban nightlife/district signage ('Deep Ellum'), which appears in those later city scenes, reinforcing the focus on Dallas. The combination of the route to Dallas and later Dallas-focused scenes with district signage supports the answer.",
+        "original_text_answer": "Dallas.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "The first clip shows a map with a route originating in El Paso and ending in Austin, Texas. The second clip features iconic Austin landmarks: the 'Deep Ellum' neon sign (a well-known Austin neighborhood) and the 'Pegasus' statue in front of the downtown skyline. The third clip displays housing market data specifically for 'Austin, TX' and lists multiple properties for sale in Austin neighborhoods like Crestview and South Austin. All visual evidence points to Austin, not Dallas."
+    }
+]

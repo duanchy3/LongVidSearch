@@ -1,0 +1,145 @@
+[
+    {
+        "question": "After meat is rinsed at the stone basin, where is it placed before being moved toward the thatched-roof building?",
+        "answer": "It is placed on a large, dark metal tray with scalloped edges on a stone table.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows raw meat being washed at a stone basin. Step 2: Slice 5 shows a large piece of raw meat on an aluminum-foil-covered tray on a stone table before it is carried toward the thatched-roof building. Conclusion: The meat is placed on the foil-lined tray on the stone table.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a person in a green shirt rinsing raw meat at a stone basin outdoors. Step 2: Slice 5 shows the same green-shirted person handling raw meat on a tray covered with aluminum foil placed on a stone table, and then lifting the tray and walking toward a thatched-roof building. Logic holds because the video context indicates a continuous preparation process: after rinsing, the meat is placed on the tray on the stone table before being moved toward the building. The tray with foil and stone table are explicitly mentioned in Slice 5, matching the answer.",
+        "original_text_answer": "It is laid on a tray covered with aluminum foil on a stone table.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In both clips, the meat is consistently shown being rinsed and then placed back onto a dark, round metal tray with a distinct scalloped rim. There is no aluminum foil visible on the tray at any point. The tray sits on a stone table or basin throughout the sequence."
+    },
+    {
+        "question": "Which item is used to fuel the oven, and what later cooking vessel is lifted off a stove in the same rustic cooking setup?",
+        "answer": "A large piece of wood is used for fuel, and a large black pot is later lifted off the stove.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a man carrying a large piece of wood to a stone/clay oven. Step 2: Slice 11 shows the same rustic stove area where a large black pot is lifted off the stove. Conclusion: Wood fuels the oven; the black pot is lifted later.",
+        "logic_check_reasoning": "Step 1: Slice 10 states the man carries a large piece of wood and places it into the oven, indicating wood is used as fuel. Step 2: Slice 11 describes the same rustic setting and the man lifting a large black pot off a wood-fired stove. Logic holds because both slices feature the same man in a consistent rustic environment, and they explicitly mention the wood fuel and the black pot being lifted.",
+        "visual_proof": "In Video 1 (0:04-0:07), the man is clearly seen placing a large log into the firebox of the oven to fuel it. In Video 2 (0:03-0:05), he uses a long tool to lift a large black pot off the top of the stove/oven structure."
+    },
+    {
+        "question": "Which animal appears relaxing in the grass earlier, and what cooking activity is shown happening while a different dog is visible near firewood later?",
+        "answer": "A black-and-white dog relaxes earlier, and later a man cooks/stirs a large pot over an open flame while a white dog lies near firewood.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a black-and-white dog lying on its back on grass. Step 2: Slice 64 shows a white dog near stacked firewood while a man in a green shirt stirs a large pot over an open flame. Conclusion: Earlier playful black-and-white dog; later pot-stirring occurs with a white dog nearby.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes an earlier scene with a black-and-white dog lying on its back on grass, relaxed and playful. Step 2: Slice 64 shows a later scene where a white dog lies near a stack of firewood while, in the background, a man cooks food in a large pot over an open flame, stirring it with a spoon. Logic holds because the first part identifies the relaxing animal as black-and-white, and the second part specifies the cooking activity concurrent with a different (white) dog near firewood.",
+        "visual_proof": "In Video 1 (0:00-0:05), a black-and-white dog is seen rolling and relaxing on the grass. In Video 2 (0:02-0:06), a white dog is lying on the grass near stacked firewood, while in the background (0:07-0:08), a man is actively stirring a steaming pot on an outdoor stove, which appears to be over an open flame or heat source."
+    },
+    {
+        "question": "Across the dough-making timeline, what are two distinct ways the dough is shaped before it becomes pasta pieces cooked in boiling water?",
+        "answer": "It is rolled out flat with a rolling pin and later cut into strips/rectangles (ravioli-like pieces) before boiling.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            42,
+            46,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows dough being rolled out flat with a rolling pin. Step 2: Slice 46 shows the rolled dough being cut into uniform rectangles. Step 3: Slice 65 shows square ravioli-like pasta boiling in a pot. Conclusion: The dough is rolled flat and then cut into pieces that are boiled as pasta.",
+        "logic_check_reasoning": "Step 1: Slice 42 shows the dough being rolled out flat with a rolling pin, which is the first distinct shaping step. Step 2: Slice 46 shows the rolled sheet being cut into uniform rectangular pieces, which is the second distinct shaping step. Step 3: Slice 65 confirms the end state as ravioli cooking in boiling water, aligning with the idea that these cut pieces become pasta. The logic holds because the two shaping actions—rolling and cutting into rectangles—are explicitly depicted. While the answer mentions 'strips/rectangles,' the rectangles are clearly supported; the inclusion of 'strips' does not contradict the evidence.",
+        "visual_proof": "Clip 1 shows a man using a wooden rolling pin to flatten dough on a round board. Clip 2 shows hands using a knife to cut the flattened dough into rectangular pieces. Clip 3 shows these same rectangular pieces boiling in a pot of water."
+    },
+    {
+        "question": "What change occurs in the onions from being whole and prepared on the board to being cooked in liquid later?",
+        "answer": "They go from whole onions being sliced/prepped to onion rings/slices simmering in a broth.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            38,
+            39,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows whole red and white onions being sliced on a cutting board. Step 2: Slice 39 shows slices separated into rings and placed into a bowl. Step 3: Slice 72 shows sliced onions cooking in a simmering liquid. Conclusion: Onions progress from whole to sliced/ringed to simmered in broth.",
+        "logic_check_reasoning": "Step 1: Slice 38 shows two whole onions on a cutting board and the person slicing the red onion into even slices, revealing rings. Step 2: Slice 39 shows the person separating onion slices into individual rings and placing them in a bowl, confirming the transition from whole to sliced/rings. Step 3: Slice 72 shows circular sliced onions simmering in a light liquid, described as likely a broth or soup, indicating they are being cooked in liquid. Logic holds because the onions are first whole and prepped/sliced, then later seen as slices/rings cooking in liquid.",
+        "visual_proof": "Clip 1 shows whole red and white onions being sliced into rings on a wooden board. Clip 2 shows the hands separating these rings and placing them into a wooden bowl. Clip 3 shows those same sliced onion rings floating and simmering in a steaming, bubbling broth inside a large pot."
+    },
+    {
+        "question": "Across the meal assembly, what three ingredients are shown being layered onto a tray/pan before the final plated dish is presented?",
+        "answer": "Pasta (ravioli), meat/sausage, and sliced onions (including red onion rings).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            69,
+            76,
+            77,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows a pan with cheese slices plus meat and sausage. Step 2: Slice 76 shows sliced red onions being added on top of cheese in a pan with meats. Step 3: Slice 77 shows a prepared dish featuring onion slices layered over melted cheese with meat. Step 4: Slice 80 shows the plated result with cheese, meat, onion rings, and green peppers. Conclusion: The recurring layered components are cheese, meats/sausage, and onions.",
+        "logic_check_reasoning": "Step 1: Slice 69 shows a pan with slices of yellow cheese, chunks of meat, and pieces of sausage already in it. Step 2: Slice 76 shows a hand adding sliced red onions onto the top of the cheese in a large pan outdoors, confirming onions are layered onto the pan with cheese and meats/sausage. Step 3: Slices 77 and 80 show the final plated dish with cheese, meat, and visible onion rings, aligning with the assembly ingredients. Therefore, the three layered ingredients before plating are cheese, meat/sausage, and sliced onions (red onion rings visible later).",
+        "original_text_answer": "Cheese, meat/sausage, and sliced onions (including red onion rings).",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows cooked ravioli being scooped from a pot and layered onto a tray with meat and sausage. Clips 2 and 3 show sliced red onions being added on top of the pasta and meat. Clip 4 presents the final assembled dish with all three ingredients visible. The ingredient is clearly pasta (specifically ravioli), not cheese."
+    },
+    {
+        "question": "What is the connection between the well with an orange crank and the later action involving strawberries?",
+        "answer": "Water drawn from the stone well is poured over the strawberries to wash them.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a stone well with an orange hand-crank mechanism. Step 2: Slice 58 shows a man drawing water at the stone well and pouring water into a basket of strawberries. Step 3: Slice 59 shows the strawberries near a fountain and the man eating one afterward. Conclusion: The well’s water is used to wash the strawberries, which are then enjoyed.",
+        "logic_check_reasoning": "Step 1: Slice 24 depicts a stone well with an orange hand-crank used for drawing water in a rustic outdoor setting. Step 2: Slice 58 shows a man drawing water from a stone well and then pouring the freshly drawn water over a basket of strawberries, with the captions emphasizing cleansing. Step 3: Therefore, the connection is that water from the well is used to rinse/wash the strawberries; the earlier detail of the orange crank identifies the well shown, and the later action clearly uses well-drawn water on the strawberries.",
+        "visual_proof": "In Video 2, a man is seen operating the orange crank on the stone well. Immediately after, in the same clip and continuing into Video 3, water is shown gushing from the well's spout directly onto a basket of strawberries held under it, clearly indicating the water is being used to wash the fruit."
+    },
+    {
+        "question": "How does the cooked-meat handling progress from being taken out of the pot to being shredded by hand, and what nearby feature indicates the rural setting?",
+        "answer": "Cooked meat is first removed from the pot to a tray and later torn/shredded by hand on a metal tray; colorful beehives appear nearby.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            49,
+            50,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows meat being ladled out from a boiling pot onto a plate. Step 2: Slice 50 shows food being transferred from a pot to a metal tray and sausages placed onto the tray. Step 3: Slice 53 shows hands pulling/shredding tender cooked meat on a dark metal tray with beehives visible in the background. Conclusion: The meat moves from pot-to-tray serving to hand-shredding, with beehives signaling the rural environment.",
+        "logic_check_reasoning": "Step 1: Slice 50 states that hands use tongs to transfer food from a large pot into a metal tray, explicitly supporting removal from the pot to a tray. Step 2: Slice 53 describes hands tearing apart tender, well-cooked meat on a dark metal tray, explicitly supporting the shredding by hand on a metal tray. Step 3: Slice 53 mentions colorful beehives lined up along a stone wall, indicating a rural setting. The logic holds because the sequence from pot-to-tray to hand-shredding is directly described, and the beehives provide the rural feature.",
+        "visual_proof": "Clip 1 shows meat being scooped from the pot onto a metal tray. Clip 2 confirms the meat is placed on a tray next to the pot. Clip 3 shows hands shredding the meat on that same tray, with colorful beehives visible in the background."
+    },
+    {
+        "question": "How does the man use a water feature first for strawberries and later for cleaning vegetables, and what rustic landmark appears near the water feature?",
+        "answer": "He washes strawberries with water and later rinses green onions under flowing water; an orange wheel-like device appears near the stone water structure.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            58,
+            73,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows water being poured over strawberries after drawing it at a stone well. Step 2: Slice 73 shows green onions being washed under a stone fountain. Step 3: Slice 89 shows a stone fountain structure beside an orange circular wheel. Conclusion: Water features support washing food, and the orange wheel landmark appears by the stone water structure.",
+        "logic_check_reasoning": "Step 1: Slice 58 describes a man drawing water from a stone well and pouring it over strawberries in a basket, effectively washing them. Step 2: Slice 73 shows the man at a stone fountain rinsing green onions under the flowing water, cleaning the vegetables. Step 3: Slice 89 mentions a rustic stone structure with a small fountain and an orange, circular wooden wheel beside it, serving as a notable landmark near the water feature. These details align with the proposed answer.",
+        "visual_proof": "In Video 1 (0:02-0:04), the man is seen washing strawberries in a basket using water from the stone structure. In Video 2 (0:01-0:02), he rinses green onions under the same flowing water source. In both Video 1 (0:01) and Video 3 (0:00-0:01), an orange, wheel-like device is clearly visible next to the stone water feature."
+    },
+    {
+        "question": "How do the sausages progress from being hung for storage to being cut up and then appearing inside a boiling pot?",
+        "answer": "They are first hung from a tree branch, later sliced on a cutting board, and then cooked in a boiling pot with other ingredients.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            21,
+            56,
+            22,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows sausages hanging from a tree branch (storage/drying). Step 2: Slice 56 shows a sausage being sliced on a cutting board outdoors. Step 3: Slice 22 shows sausage being cut into pieces and then added to a boiling pot. Step 4: Slice 35 shows sausages simmering in broth with chicken as spices are stirred in. Conclusion: Sausages go from hanging to slicing to boiling within a cooked dish.",
+        "logic_check_reasoning": "Step 1: Slice 21 shows sausages being hung from a tree branch, supporting the 'hung' stage. Step 2: Slices 22 and 56 show a sausage being sliced on a wooden cutting board, supporting the 'cut up' stage. Step 3: Slices 22, 21, and 35 show sausages being placed into and present in a boiling/simmering pot along with other ingredients and spices, supporting the 'then cooked in a boiling pot with other ingredients' stage. The sequence of actions (hung → sliced → cooked) is collectively depicted across the slices, and the actions logically connect.",
+        "visual_proof": "Clip 1 shows sausages hanging from a rope attached to a tree. Clip 2 shows the sausages being sliced on a wooden cutting board. Clip 3 and Clip 4 show the sausages being placed into and cooking inside a large pot with meat and onions."
+    }
+]
