@@ -135,8 +135,39 @@ cd LongVidSearch
 pip install -r requirements.txt
 ```
 ### 9.2 Run Baseline Agent
-# TODO: replace with your actual api key and url in tool.py first
-python baselines/run_eval.py \
-  --model gpt-5 \
-  --data_path data/longvidsearch.jsonl \
-  --output_dir outputs/
+TODO: replace with your actual api key and url in tool.py
+```bash
+bash ./example/baseline-example.sh
+```
+
+## 🧱 10. Repository Structure
+
+LongVidSearch/
+├── data_generation/          # agentic construction pipeline (generation + filtering)
+├── dataset/                  # dataset packaging  / splits 
+├── example/
+│   └── baseline-example.sh   # runnable baseline example
+├── figs/                     # figures for paper/README
+├── video_embeddings/         # retrieval embeddings
+├── cache_llm.pkl             # optional cache
+├── full-QA.json              # benchmark QA file
+├── video-caption.parquet     # high-quality captions for video clips
+├── main.py                   # baseline entry (main)
+├── tools.py                  # standardized tool interface 
+├── utils_general.py          # shared utilities
+├── requirements.txt
+├── LICENSE
+└── README.md
+
+## 📚 11. Citation
+@inproceedings{longvidsearch2026,
+  title     = {LongVidSearch: An Agentic Benchmark for Multi-hop Evidence Retrieval Planning in Long Videos},
+  author    = {Rongyi Yu ,Chenyuan Duan ,Hao Liang ,Ruichuan An ,Wentao Zhang},
+  booktitle = {SIGIR Submitted},
+  year      = {2026}
+}
+
+
+## 📬 12. Contact
+
+For questions or feedback, please open an issue in this repository.
