@@ -1,4 +1,5 @@
-# LongVidSearch
+
+# LongVidSearch: An Agentic Benchmark for Multi-hop Evidence Retrieval Planning in Long Videos
 
 <div align="center">
 
@@ -11,7 +12,7 @@
 
 </div>
 
-# LongVidSearch: An Agentic Benchmark for Multi-hop Evidence Retrieval Planning in Long Videos
+
 
 > **LongVidSearch** evaluates **retrieval-necessary** and **evidence-grounded** multi-hop question answering over **long videos** under a **standardized tool interface**, enabling controlled comparison of *agentic retrieval planning* across agents.
 
@@ -141,7 +142,7 @@ bash ./example/baseline-example.sh
 ```
 
 ## 🧱 10. Repository Structure
-
+```text
 LongVidSearch/
 ├── data_generation/          # agentic construction pipeline (generation + filtering)
 ├── dataset/                  # dataset packaging  / splits 
@@ -158,15 +159,17 @@ LongVidSearch/
 ├── requirements.txt
 ├── LICENSE
 └── README.md
+```
 
 ## 📚 11. Citation
+```bibtex
 @inproceedings{longvidsearch2026,
   title     = {LongVidSearch: An Agentic Benchmark for Multi-hop Evidence Retrieval Planning in Long Videos},
   author    = {Rongyi Yu ,Chenyuan Duan ,Hao Liang ,Ruichuan An ,Wentao Zhang},
   booktitle = {SIGIR Submitted},
   year      = {2026}
 }
-
+```
 
 ## 📬 12. Contact
 
