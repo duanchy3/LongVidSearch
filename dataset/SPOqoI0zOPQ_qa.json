@@ -1,0 +1,83 @@
+[
+    {
+        "question": "The presenter appears in front of two different solid-color backdrops early in the video. What object is shown falling toward his right hand in the first backdrop, and what later on-screen offer is shown in bold red text in the other backdrop?",
+        "answer": "A red object (like a small ball/toy) falls toward his right hand, and later the offer shown is “100% FREE.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the presenter on a green screen with a red object falling toward his right hand. Step 2: Slice 12 shows the presenter on a yellow background with bold red text reading “100% FREE.” Conclusion: The falling item is the red object, and the later offer is “100% FREE.”",
+        "logic_check_reasoning": "Step 1: Slice 1 describes a man in front of a green screen with a red object, possibly a ball or small toy, falling toward his right hand. Step 2: Slice 12 shows the same man in front of a yellow background with the on-screen text '100% FREE' in bold red letters. The two slices logically represent two different solid-color backdrops, and the details directly support the proposed answer.",
+        "visual_proof": "In Clip 1 (green backdrop), at 0:15, a red, round object is visibly falling from above toward the presenter's right hand. In Clip 2 (yellow backdrop), at 0:03, the text '100% FREE' appears in large, bold red letters across the bottom of the screen."
+    },
+    {
+        "question": "Two separate news topics use a large number in the headline or overlay. What percentage is shown during the yellow-background segment, and what dollar amount is highlighted in the Aleph Alpha funding headline?",
+        "answer": "The percentage is 80%, and the funding amount is $27M.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a big red “80%” on a yellow background. Step 2: Slice 28 headline says Aleph Alpha raises “$27M Series A.” Conclusion: 80% and $27M.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 11 describes a yellow-background segment where a large, bold red number '80%' appears prominently, indicating the percentage. Step 2: Evidence Slice 28 shows a news caption stating 'German startup Aleph Alpha raises $27M Series A round,' which highlights the dollar amount. Logic holds because each slice directly provides the specific figures asked for in the question.",
+        "visual_proof": "In Clip 1, a large red '80%' graphic is overlaid on the screen during the yellow-background segment. In Clip 2, the text headline clearly states 'German startup Aleph Alpha raises $27M Series A round'."
+    },
+    {
+        "question": "The presenter references two different web-based resources: one about a multi-agent evaluation suite and another about future maintenance plans. What is the name of the evaluation suite, and what platform hosts the maintenance discussion?",
+        "answer": "The evaluation suite is Melting Pot, and the maintenance discussion is hosted on GitHub.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            75,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 75 shows a webpage titled “Melting Pot: an evaluation suite for multi-agent reinforcement learning.” Step 2: Slice 78 shows a GitHub page titled “Plans for Future Maintenance of Gym #2259.” Conclusion: Melting Pot; GitHub.",
+        "logic_check_reasoning": "Step 1: Slice 75 explicitly shows a webpage titled 'Melting Pot: an evaluation suite for multi-agent reinforcement learning,' identifying the evaluation suite as Melting Pot. Step 2: Slice 78 explicitly mentions a GitHub page titled 'Plans for Future Maintenance of Gym #2259,' indicating the maintenance discussion is on GitHub. Logic holds because each slice clearly names the resource and its platform.",
+        "visual_proof": "In Clip 1, the webpage title clearly reads 'Melting Pot: an evaluation suite for multi-agent reinforcement learning' on the DeepMind website. In Clip 2, the URL bar and page header show 'openai / gym' on GitHub, with the issue titled 'Plans for Future Maintenance of Gym #2259', confirming the platform is GitHub."
+    },
+    {
+        "question": "The video presents two separate funding/industry stories: one about a German AI startup raising money and another about a robotics company’s milestones in automated recycling. What is the German startup’s name, and what is the recycling robotics company’s name?",
+        "answer": "The startup is Aleph Alpha, and the recycling company is AMP Robotics.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            28,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 28 names the German startup Aleph Alpha raising $27M. Step 2: Slice 34 shows the headline about AMP Robotics milestones. Conclusion: Aleph Alpha and AMP Robotics.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 28 explicitly states 'German startup Aleph Alpha raises $27M Series A round...' identifying the German startup as Aleph Alpha. Step 2: Evidence Slice 34 shows a headline 'AMP Robotics Marks Milestones in Data, Pick Rates for Automated Recycling,' identifying the recycling robotics company as AMP Robotics. Logic holds because both company names are directly presented in the captions for the respective stories.",
+        "visual_proof": "Clip 1 displays a text overlay that explicitly reads: 'German startup Aleph Alpha raises $27M Series A round...'. Clip 2 displays a different text overlay that reads: 'AMP Robotics Marks Milestones in Data, Pick Rates for Automated Recycling'. Both names are clearly legible on screen."
+    },
+    {
+        "question": "The video switches among multiple AI developer-tool topics: a GitHub repo about Triton, a GitHub repo about FLAML, and then a page describing a multimodal model. What are the names of the two GitHub projects, and what is the multimodal model called?",
+        "answer": "The GitHub projects are Triton and FLAML, and the multimodal model is called Italian CLIP.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            69,
+            72,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows a GitHub repository page for Triton. Step 2: Slice 72 shows the FLAML GitHub repository. Step 3: Slice 74 shows a webpage about “Italian CLIP,” described as a multimodal model. Conclusion: Triton and FLAML; Italian CLIP.",
+        "logic_check_reasoning": "Step 1: Slice 69 explicitly states the screen shows a GitHub repository page for Triton. Step 2: Slice 72 explicitly mentions the FLAML GitHub repository page. Step 3: Slice 74 explicitly identifies the multimodal model as 'Italian CLIP.' Logic holds because the question asks for the names of the two GitHub projects and the multimodal model, which are directly named in the respective slices.",
+        "visual_proof": "Clip 1 shows a GitHub page for 'Triton'. Clip 2 shows a GitHub page for 'FLAML - Fast and Lightweight AutoML'. Clip 3 shows a GitHub page titled 'Italian CLIP', which describes it as a multimodal model. The names are clearly visible in the titles of each respective page."
+    },
+    {
+        "question": "Across the segment about molecular visualization and the later segment about satellite imagery, what number is given for available molecular model styles, and what is the stated size of the building-footprint dataset?",
+        "answer": "It says there are 19 molecular model styles, and the building dataset contains 516 million buildings.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 9 states “W&B currently has 19 molecular model styles.” Step 2: Slice 63 states the Open Buildings Dataset has footprints of 514 million buildings. Conclusion: 19 styles and 514 million buildings.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 9 explicitly states \"W&B currently has 19 molecular model styles,\" confirming the number of available molecular model styles is 19. Step 2: Evidence Slice 63 explicitly states the Open Buildings Dataset contains \"the locations and footprints of 514 million buildings across 22 countries in Africa,\" confirming the dataset size is 514 million buildings. The proposed answer matches both pieces of evidence.",
+        "original_text_answer": "It says there are 19 molecular model styles, and the building dataset contains 514 million buildings.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1 (0:01), text on screen explicitly states 'W&B currently has 19 molecular model styles.' In Video 2 (0:08), the text describes the Open Buildings dataset as containing 'the locations and footprints of 516 million buildings'. The original answer incorrectly states '514 million' instead of the visually confirmed '516 million'."
+    }
+]

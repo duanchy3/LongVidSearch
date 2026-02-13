@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What food item is shown being eaten calmly at a table, and later a different scene shows someone eating a similar type of handheld meal while seated in a car—what are the two foods?",
+    "answer": "A sandwich at the table, and a sandwich in the car.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      16,
+      25
+    ],
+    "reasoning_chain": "Step 1: Slice 16 shows a halved sandwich on a plate and a man taking a bite at a table. Step 2: Slice 25 shows a man in a car holding a sandwich and smiling. Conclusion: Both foods are sandwiches.",
+    "logic_check_reasoning": "Step 1: Slice 16 explicitly shows a halved sandwich on a plate; the man picks up the sandwich and takes a bite at the table, confirming a sandwich is eaten calmly at a table. Step 2: Slice 25 shows the man in a car holding a sandwich and smiling, indicating a similar handheld meal (a sandwich) in the car. Logic holds because both scenes involve a sandwich, matching the foods asked for.",
+    "visual_proof": "In Video 1, a large, thick sandwich wrapped in paper is shown on a plate, and then the man is seen eating it at a table. In Video 2, the same man is seated in a car and is handed, then eats, what appears to be a smaller sandwich or possibly a waffle (as indicated by the subtitle 'Do you want a waffle?'), but visually it is a handheld bread item consistent with a sandwich. The context of eating a handheld meal in both scenes supports the answer."
+  },
+  {
+    "question": "Which vehicle color appears repeatedly as the group's transport at night and also later during a daytime street meetup?",
+    "answer": "A red van (and red vehicle).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      41,
+      52
+    ],
+    "reasoning_chain": "Step 1: Slice 41 shows two men standing next to a red van at night. Step 2: Slice 52 shows a group gathered near a red van during the day. Conclusion: The recurring vehicle is a red van.",
+    "logic_check_reasoning": "Step 1: Slice 41 describes two men standing next to a red van at night, explicitly identifying the vehicle color as red. Step 2: Slice 52 describes a daytime street meetup with a group near a red van, again explicitly identifying the vehicle color as red. Logic holds because both slices independently and clearly mention a red van in the respective night and daytime scenes, demonstrating the repeated vehicle color.",
+    "visual_proof": "In Clip 1, a red van is clearly visible at night with its side door open. In Clip 2, the same red van is parked on a city street during the day, with people gathered around it. The consistent color and vehicle type across both clips confirm the answer."
+  },
+  {
+    "question": "A man demonstrates a sleek black smartphone close-up, and later a group uses a specific labeled camera mode for a selfie—what device is being featured and what camera mode text appears?",
+    "answer": "A Pixel smartphone, and the text is 'Pixel Group Selfie Cam.'",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      19,
+      21
+    ],
+    "reasoning_chain": "Step 1: Slice 19 shows a sleek black smartphone (Pixel-focused segment). Step 2: Slice 21 continues the phone demo/review context. Conclusion: The featured device is a Pixel phone, and Slice 19 also shows the labeled mode 'Pixel Group Selfie Cam.'",
+    "logic_check_reasoning": "Step 1: Slice 19 describes a close-up of a sleek black smartphone and later a group taking a selfie where the on-screen text explicitly reads \"Pixel Group Selfie Cam.\" Step 2: This label indicates the camera mode being used and strongly implies the device is a Pixel smartphone. Step 3: Slice 21 shows the same man demonstrating a smartphone with specs overlays, which aligns with a product demo but does not contradict the Pixel identification. Logic holds because the explicit \"Pixel Group Selfie Cam\" text links the featured device to a Pixel, and the camera mode text is directly stated.",
+    "visual_proof": "The first clip shows a close-up of a black smartphone with the distinct Google 'G' logo on the back, identifying it as a Pixel device. The second clip displays a group selfie photo with the explicit text overlay 'Pixel Group Selfie Cam' in the bottom right corner."
+  },
+  {
+    "question": "A public-space conversation cuts to a time card, and later that day a map overlay shows a specific time in the afternoon—what are the two times shown?",
+    "answer": "6:30 AM and 5:00 PM.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      7,
+      28
+    ],
+    "reasoning_chain": "Step 1: Slice 7 shows the time card '6:30 AM.' Step 2: Slice 28 shows a map of Paris with the time '5:00 PM.' Conclusion: The times are 6:30 AM and 5:00 PM.",
+    "logic_check_reasoning": "Step 1: Slice 7 describes a public-space conversation that cuts to a black screen with white text reading '6:30 AM.' Step 2: Slice 28 states that a map of Paris appears on screen indicating the time as '5:00 PM.' Logic holds because the first time card is 6:30 AM and later a map overlay shows 5:00 PM, matching the question.",
+    "visual_proof": "The first clip ends with a black screen displaying the text '6:30 AM' in white. The second clip shows an outdoor street scene with a map overlay, and the text '5:00 PM' is clearly visible in white over the image."
+  },
+  {
+    "question": "A time card shows an early-morning start, but later the run reaches a major landmark at 3:00 AM—what time is shown on the initial time card and what landmark appears at 3:00 AM?",
+    "answer": "6:30 AM and the Arc de Triomphe.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      7,
+      45
+    ],
+    "reasoning_chain": "Step 1: Slice 7 displays a black screen with the time '6:30 AM.' Step 2: Slice 45 shows a man running at 3:00 AM in front of the Arc de Triomphe. Conclusion: The early time is 6:30 AM, and the 3:00 AM landmark is the Arc de Triomphe.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 7 explicitly states a transition to a black screen with white text reading '6:30 AM,' confirming the initial time card. Step 2: Evidence Slice 45 explicitly describes a man running at 3:00 AM at the Arc de Triomphe in Paris, identifying the landmark. Both elements of the proposed answer directly match these slices.",
+    "visual_proof": "Clip 1 shows a black screen with white text reading '6:30 AM'. Clip 2 displays a runner at night with an overlay of '3:00 AM' and the Arc de Triomphe clearly visible in the background, confirming both the initial time card and the landmark reached at 3:00 AM."
+  },
+  {
+    "question": "The runner is shown at 4:00 AM on a quiet street; earlier the same night, he is shown reaching a major monument at 3:00 AM—what is the monument and what shoe color detail is highlighted at 4:00 AM?",
+    "answer": "The Arc de Triomphe, and bright yellow running shoes.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      45,
+      55
+    ],
+    "reasoning_chain": "Step 1: Slice 45 shows the runner at 3:00 AM at the Arc de Triomphe. Step 2: Slice 55 shows a 4:00 AM run highlighting bright yellow running shoes. Conclusion: Monument is Arc de Triomphe; shoe detail is bright yellow shoes.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 45 states that at 3:00 AM, a man runs toward and reaches the Arc de Triomphe in Paris. Step 2: Evidence Slice 55 states that at 4:00 AM, a man is jogging on a quiet street wearing bright yellow running shoes. Step 3: Therefore, the monument is the Arc de Triomphe, and the highlighted shoe color at 4:00 AM is bright yellow.",
+    "visual_proof": "In Video 1 (3:00 AM), the runner is shown approaching and running near the clearly identifiable Arc de Triomphe at night. In Video 2 (4:00 AM), the runner is on a quiet street, and his bright yellow running shoes are prominently visible as he jogs and checks his watch."
+  },
+  {
+    "question": "Which set of scenes shows the group mood shifting from social fun (gatherings and playful interactions) to intense late-night running—identify the social moments and the later mile-marked running moment?",
+    "answer": "Social moments include the group selfie gathering and playful van/parking-lot interactions; the later intense moment is the 'Mile 24' late-night street segment.",
+    "category": "State_Mutation",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      19,
+      44,
+      62,
+      65
+    ],
+    "reasoning_chain": "Step 1: Slice 19 shows a cheerful group gathering with waving and a selfie moment. Step 2: Slice 44 shows playful mock-sparring near the van at night. Step 3: Slice 65 shows another night social montage (table, group photo outside). Step 4: Slice 62 shows 'Mile 24' while walking/running at night with an intense, endurance context. Conclusion: The mood shifts from social play to late-night endurance running around Mile 24.",
+    "logic_check_reasoning": "Step 1: Slice 19 shows a lively group selfie gathering with \"Pixel Group Selfie Cam,\" clearly a social fun moment. Step 2: Slice 44 depicts playful interactions near a van at night, with mock-fighting gestures and a jovial mood—another social fun scene. Step 3: Slice 62 presents a late-night street segment with the on-screen text \"Mile 24,\" marking a mile-numbered moment. While running isn’t explicitly stated, the answer only identifies this as the later mile-marked segment, which is supported. The linkage from social gatherings (Slices 19, 44) to the mile-marked late-night scene (Slice 62) is consistent with the context.",
+    "visual_proof": "Clip 1 shows a large group selfie indoors, indicating social fun. Clip 2 shows playful interactions around a van at night. Clip 3 shows a man running with '*Mile 24*' text on screen, indicating an intense late-night running moment. These clips visually confirm the mood shift described."
+  },
+  {
+    "question": "What evidence shows the runner’s overnight endurance: an evening start marker, a late-night in-bed time, a 3:00 AM landmark run, and a 4:00 AM street run?",
+    "answer": "7:00 PM marker, 11:30 PM in bed, 3:00 AM at the Arc de Triomphe, and 4:00 AM running on a quiet street.",
+    "category": "State_Mutation",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      30,
+      35,
+      45,
+      55
+    ],
+    "reasoning_chain": "Step 1: Slice 30 shows '7:00 PM' near the Arc de Triomphe view, indicating evening phase. Step 2: Slice 35 shows a clock reading 11:30 PM with the man in bed. Step 3: Slice 45 shows running at 3:00 AM at the Arc de Triomphe. Step 4: Slice 55 shows running at 4:00 AM on an empty street. Conclusion: These timestamps together indicate overnight endurance across multiple hours.",
+    "logic_check_reasoning": "Step 1: Slice 30 explicitly shows a '7:00 PM' timestamp on a busy avenue, establishing an evening start marker. Step 2: Slice 35 shows the same man in a bedroom with a clock reading '11:30 PM,' confirming a late-night in-bed time. Step 3: Slice 45 states 'at 3:00 AM' the man is running in front of the Arc de Triomphe, providing the 3:00 AM landmark run. Step 4: Slice 55 indicates '4:00 AM' via text overlay and shows the man jogging on a quiet street, confirming the 4:00 AM street run. The visual cues and times directly align with the proposed answer, and minor identity continuity is acceptable per instructions.",
+    "visual_proof": "Clip 1 shows a '7:00 PM' timestamp with traffic on the Champs-Élysées. Clip 2 shows a '11:30 PM' timestamp followed by the man lying in bed. Clip 3 displays a '3:00 AM' timestamp as the man runs past the illuminated Arc de Triomphe. Clip 4 features a '4:00 AM' timestamp while he runs down a dimly lit, empty urban street."
+  },
+  {
+    "question": "A route/map overlay announces a morning mile, and later a different map overlay marks a much later mile after many hours—what are the two mile numbers shown?",
+    "answer": "Mile 2 and Mile 23.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      14,
+      57
+    ],
+    "reasoning_chain": "Step 1: Slice 14 shows a map overlay labeled 'MILE 2 9:07 AM.' Step 2: Slice 57 shows 'MILE 23 Time elapsed: 20 hours.' Conclusion: The miles are 2 and 23.",
+    "logic_check_reasoning": "Step 1: Slice 14 explicitly shows a map overlay with the text 'MILE 2 9:07 AM', indicating a morning mile. Step 2: Slice 57 shows a later map overlay with the text 'MILE 23 Time elapsed: 20 hours', indicating a much later mile after many hours. Logic holds because the first is in the morning and the second is after a long elapsed time.",
+    "visual_proof": "In Video 1, a map overlay at 0:08 clearly displays 'MILE 2' with the time '9:07 AM'. In Video 2, a different map overlay at 0:03 shows 'MILE 23' with 'Time elapsed: 20 hours'. These are two distinct, visually confirmed mile markers from different times of day."
+  },
+  {
+    "question": "What sequence of time stamps and locations shows the run stretching from evening sightseeing to deep night endurance—include the evening landmark view, the 10:00 PM meetup, and the 3:00 AM landmark?",
+    "answer": "7:00 PM near the Arc de Triomphe view, 10:00 PM group meetup, and 3:00 AM at the Arc de Triomphe.",
+    "category": "State_Mutation",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      30,
+      33,
+      45,
+      55
+    ],
+    "reasoning_chain": "Step 1: Slice 30 shows a city avenue with the Arc de Triomphe and a '7:00 PM' overlay. Step 2: Slice 33 shows '10:00 PM' and a group gathering with a high-five. Step 3: Slice 45 shows '3:00 AM' at the Arc de Triomphe with the runner. Step 4: Slice 55 shows '4:00 AM' running, reinforcing the deep-night continuation. Conclusion: The timeline stretches from 7:00 PM to 10:00 PM to 3:00 AM (and beyond).",
+    "logic_check_reasoning": "Step 1: Slice 30 shows a 7:00 PM timestamp with a wide shot of the avenue ending at the Arc de Triomphe, supporting an evening landmark view near the Arc. Step 2: Slice 33 shows a 10:00 PM timestamp with a group meetup outside a building, preparing for an activity, fitting the 10:00 PM meetup. Step 3: Slice 45 shows a 3:00 AM timestamp with a man running to and standing at the Arc de Triomphe, confirming the 3:00 AM landmark. The proposed sequence matches these details.",
+    "visual_proof": "Clip 1 shows a wide shot of the Arc de Triomphe with '7:00 PM' overlaid. Clip 2 shows a night cityscape with '10:00 PM' and a map highlighting Paris arrondissements, followed by scenes of the man meeting others on the street and in a van. Clip 3 shows the man running past the Arc de Triomphe again with '3:00 AM' overlaid. These timestamps and locations are explicitly shown in the video frames."
+  },
+  {
+    "question": "How do the visuals suggest the runners repeatedly traverse Paris’s river areas: first with a bridge/river run at dusk, then later a waterfront promenade run at night, and finally a canal run under the moon with a late-mile overlay?",
+    "answer": "They run by a river/bridge at dusk, later along a waterfront promenade at night, and later along a moonlit canal with a 'Mile 23' overlay indicating the challenge is still ongoing.",
+    "category": "Visual_Tracking",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      13,
+      56,
+      57,
+      67
+    ],
+    "reasoning_chain": "Step 1: Slice 13 shows three men running along a riverbank at dusk with a bridge in the background. Step 2: Slice 56 shows a runner on a waterfront promenade at night beside a calm river. Step 3: Slice 57 shows a moonlit canal run plus 'MILE 23 Time elapsed: 20 hours.' Step 4: Slice 67 again shows running alongside a river with reflections, reinforcing repeated river-route traversal. Conclusion: The repeated river/canal settings indicate recurring waterfront segments throughout the long run.",
+    "logic_check_reasoning": "Step 1: Slice 13 shows three men running along a riverbank at dusk with a bridge in the background, matching the 'bridge/river run at dusk.' Step 2: Slice 56 depicts a person jogging at night along a waterfront promenade beside a river, aligning with the 'waterfront promenade run at night.' Step 3: Slice 57 shows a moonlit canal run with on-screen text 'You are running to the moon' and an overlay 'MILE 23 Time elapsed: 20 hours,' matching the 'canal run under the moon with a late-mile overlay.' Logic holds because the three slices collectively show repeated nighttime/dusk runs by water (river and canal) with the specific visual cues mentioned.",
+    "visual_proof": "Clip 1 shows runners on a riverside path next to a stone bridge at dusk. Clip 2 and 4 show a single runner on a paved waterfront promenade at night, with city lights and reflections on the water. Clip 3 features a runner on a cobblestone path beside a canal under a full moon, with an explicit 'MILE 23' overlay confirming the ongoing nature of the run."
+  },
+  {
+    "question": "The video introduces Paris districts on a map, then later shows route/mile overlays while running—what city’s district map is shown and what is one example mile/time overlay displayed during the run?",
+    "answer": "Paris, and an example overlay is 'MILE 2 9:07 AM.'",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      4,
+      14,
+      83
+    ],
+    "reasoning_chain": "Step 1: Slice 4 shows a map of Paris arrondissements (districts). Step 2: Slice 14 shows a run overlay 'MILE 2 9:07 AM' on a mapped route. Step 3: Slice 83 shows another partitioned map (1–20), reinforcing the district-based mapping motif. Conclusion: The city is Paris and an example overlay is MILE 2 at 9:07 AM.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 4 states the video begins with an animated map of Paris highlighting the 20 arrondissements, confirming the city's districts are Paris. Step 2: Evidence Slice 83 further describes a city map divided into 20 numbered sections, consistent with Paris’s arrondissements. Step 3: Evidence Slice 14 explicitly mentions a map overlay during a route with the text 'MILE 2 9:07 AM.' Logic holds because the city is identified as Paris and the example overlay text is directly provided.",
+    "visual_proof": "Clip 1 clearly shows a map of Paris with its numbered arrondissements. Clip 2 features an aerial shot with a superimposed graphic that reads 'MILE 2 9:07 AM' over the Paris skyline, confirming both the city and the specific mile/time overlay."
+  },
+  {
+    "question": "Which repeating elements show the support crew dynamic: a group inside vehicles, a producer identified on-screen, and a later playful cramped-space moment inside the van?",
+    "answer": "Vehicle group travel/rest scenes, the on-screen 'Louise Imler, Producer' identification, and the playful 'super tight' cramped-space moment inside the van.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      27,
+      37,
+      42,
+      59
+    ],
+    "reasoning_chain": "Step 1: Slice 27 shows multiple people inside a van resting, suggesting a support crew. Step 2: Slice 37 identifies 'Louise Imler, Producer,' showing production staff presence. Step 3: Slice 42 shows a humorous cramped-space interaction inside the vehicle. Step 4: Slice 59 shows a man settling on the couch inside the van, reinforcing the van as the crew’s base. Conclusion: These elements collectively depict the support/production crew dynamic around the run.",
+    "logic_check_reasoning": "Step 1: Slice 27 shows several people inside a van, relaxed and possibly traveling or resting, and also a group gathered around a car, supporting the 'group inside vehicles' travel/rest element. Step 2: Slice 37 explicitly identifies 'Louise Imler, Producer' on-screen inside a vehicle, confirming the producer identified on-screen element. Step 3: Slice 42 depicts a humorous, cramped-space interaction inside a vehicle at night with the subtitle 'That's super tight,' matching the playful cramped-space moment inside the van. Step 4: Slice 59 further reinforces the vehicle interior rest context with a man relaxing on a couch inside the vehicle at night.",
+    "visual_proof": "Clip 1 shows the main subject with a support crew in a van, including a woman holding a sign. Clip 2 clearly displays the on-screen text 'LOUISE IMLER PRODUCER' while she is inside the van at night. Clip 3 features two men playfully interacting in the cramped space of the van, with one saying 'That's super tight,' confirming the playful cramped-space moment."
+  }
+]

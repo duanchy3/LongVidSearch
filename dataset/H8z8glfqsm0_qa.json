@@ -1,0 +1,42 @@
+[
+  {
+    "question": "A segment lists key Polynesian cuisine staples, and another segment shows how some dishes are made with coconut milk. Which two staple ingredients are highlighted as core Polynesian cuisine items and then used again in later mashed-with-coconut-milk dishes?",
+    "answer": "Breadfruit and coconut.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      30,
+      31,
+      33
+    ],
+    "reasoning_chain": "Step 1: Slice 30 highlights coconut and breadfruit as staples (with taro sometimes). Step 2: Slice 31 shows dishes like mashed breadfruit with coconut milk and cooked mashed pulaka with coconut milk. Step 3: Slice 33 continues food/seafood discussion reinforcing local diet context. Conclusion: Breadfruit and coconut are emphasized and reused in coconut-milk preparations.",
+    "logic_check_reasoning": "Step 1: Slice 30 explicitly highlights coconut and breadfruit as core staples of Polynesian cuisine (with an image labeled 'Coconut and Breadfruit' and noting taro only 'sometimes'). Step 2: Slice 31 shows dishes prepared with coconut milk, including 'Falmei' (mashed breadfruit with coconut milk), directly reusing breadfruit and coconut (via coconut milk). Logic holds because the two staples from Slice 30 reappear in Slice 31's mashed-with-coconut-milk preparations.",
+    "visual_proof": "Clip 1 (0:02) explicitly labels 'coconut/Breadfruit' as Polynesian cuisine staples. Clip 2 (0:07) shows 'Falifuamei' being made from 'Mashed breadfruit with coconut milk', directly linking breadfruit to a dish using coconut milk. Clip 2 (0:09) also highlights 'UTANU Sprouted coconut seed', reinforcing coconut as a core ingredient used in various forms, including milk for dishes like Falifuamei."
+  },
+  {
+    "question": "A segment highlights one method for reaching Tuvalu by air and later another segment explains the airport runway as a notable feature. Which two airlines are shown as flight options to reach Tuvalu?",
+    "answer": "Fiji Link and Air Kiribati.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      7,
+      12
+    ],
+    "reasoning_chain": "Step 1: Slice 7 shows air travel options and names Fiji Link and Air Kiribati with flight-day notes. Step 2: Slice 12 discusses the Funafuti airport runway, connecting to access/transport. Conclusion: The flight options shown are Fiji Link and Air Kiribati.",
+    "logic_check_reasoning": "Step 1: Slice 7 explicitly shows the air travel options segment, highlighting two airlines—Fiji Link (with specific days) and Air Kiribati (Wednesday flights)—as ways to reach these remote Pacific destinations, which include Tuvalu (Tuvalu is referenced earlier in Slice 7 via flags). Step 2: Slice 12 focuses on Tuvalu specifically, mentioning the Funafuti Airport runway as a notable feature, confirming the context is about Tuvalu. Logic holds because the air travel options segment (Slice 7) and the runway segment (Slice 12) are both tied to Tuvalu, so the two airlines shown as flight options to reach Tuvalu are Fiji Link and Air Kiribati.",
+    "visual_proof": "In Video 1, at 0:11, a Fiji Link airplane is shown on the tarmac with text overlay 'Fiji Link (Tues, Thurs Sat flights)'. At 0:12, an Air Kiribati airplane is shown with text overlay 'Air Kiribati (Wednesday flights)'. These visuals explicitly identify the two airlines as flight options to Tuvalu."
+  },
+  {
+    "question": "Which Pacific island nation is introduced by a flag behind the denim-jacket presenter early on and later discussed in terms of its atolls and islands?",
+    "answer": "Tuvalu",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      5
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows a flag with red/yellow/green behind the presenter as an early visual cue of country-focus content. Step 2: Slice 5 explicitly centers the episode on Tuvalu with the title and maps of Tuvalu’s atolls. Conclusion: The island nation the episode later focuses on is Tuvalu.",
+    "logic_check_reasoning": "Step 1: Slice 1 describes a denim-jacket presenter with a flag appearing behind him, indicating the topic is related to a country, but it does not name the country. Step 2: Slice 5 shows the same denim-jacket presenter and explicitly introduces Tuvalu with the title 'STRAIGHT OUTTA TUVALU,' followed by detailed discussion of Tuvalu’s location, atolls, and islands. Logic holds because the later segment clearly identifies the Pacific island nation being discussed, which matches the question’s reference to later discussion of atolls and islands.",
+    "visual_proof": "In Video 1, the man in the denim jacket is shown with the flag of Vanuatu behind him, but the text on screen explicitly says '\"Tu-VA-lu\"'. In Video 2, the same presenter appears alongside a woman who introduces herself as 'Fafetu' from Tuvalu. The video then displays graphics showing 'The 9 Tuvaluan Atolls / Islands', a map pinpointing 'Tuvalu', and details about its geography, including Funafuti, Niulakita, and other atolls, confirming the subject is Tuvalu."
+  }
+]

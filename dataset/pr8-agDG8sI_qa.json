@@ -1,0 +1,57 @@
+[
+    {
+        "question": "A man is shown in a living room talking to the camera about the trip; later the video returns to a similar living room setup with prompts to watch more or subscribe. What clothing item is consistent across these indoor talking segments?",
+        "answer": "A green sweater.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            60,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows a man on a couch in a living room wearing a green sweater. Step 2: Slice 67 shows the man again in a modern living room wearing a green sweater with 'WATCH MORE'/'SUBSCRIBE'. Conclusion: The consistent clothing item is the green sweater.",
+        "logic_check_reasoning": "Step 1: Slice 60 states the video begins with a man in a living room talking to the camera, wearing a green sweater. Step 2: Slice 67 describes a later living room segment with on-screen prompts ('WATCH MORE' and 'SUBSCRIBE') where the man is again wearing a green sweater. Logic holds because both indoor talking segments explicitly mention the man wearing a green sweater, despite minor differences in hair/beard description.",
+        "visual_proof": "In both Clip 1 (0:00-0:04) and Clip 2 (0:00-0:05), the man is shown in the same living room setting, wearing an identical ribbed, olive-green sweater while speaking to the camera. The consistent clothing and background confirm it's the same outfit across both indoor segments."
+    },
+    {
+        "question": "Identify the progression of the main vlogger’s outfit from when he is on the beach speaking to camera to when he is later on a boat speaking to camera.",
+        "answer": "He goes from being shirtless (with hat/sunglasses/backpack) at the beach to being shirtless on the boat (still with the light green bucket hat).",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            20,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows the vlogger on the beach wearing a sleeveless shirt, bucket hat, sunglasses, and backpack. Step 2: Slice 20 shows him shirtless on a boat wearing the light green bucket hat and necklace. Step 3: Slice 24 again shows him shirtless at a marina with the green bucket hat and backpack. Conclusion: His clothing shifts from sleeveless shirt at the beach to shirtless during boating/marina segments.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes the beach scene where the man is wearing a light green bucket hat, sunglasses, a sleeveless shirt, and a backpack while speaking to the camera. Step 2: Slice 20 shows the man on a boat, shirtless, wearing a light green bucket hat, speaking directly to the camera. Step 3: The progression from sleeveless shirt (with hat/sunglasses/backpack) on the beach to shirtless with the same hat on the boat is explicitly supported. Slice 24 further corroborates the later shirtless/hat state in a marina context.",
+        "original_text_answer": "He goes from wearing a sleeveless shirt (with hat/sunglasses/backpack) at the beach to being shirtless on the boat (still with the light green bucket hat).",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the vlogger is clearly shirtless on the beach, wearing a light green bucket hat, sunglasses, and a backpack. In Clip 2 and Clip 3, he is also shirtless on the water/on a boat, still wearing the same light green bucket hat. The original answer incorrectly stated he was wearing a 'sleeveless shirt' at the beach, which is visually contradicted by all three clips."
+    },
+    {
+        "question": "A luxury villa with a pool is shown after the nightlife; later, a beachside restaurant at sunset is shown with umbrellas and music. What shared mood do these two non-club scenes convey?",
+        "answer": "Relaxation and leisure in scenic settings.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 2 ends with a luxurious villa and swimming pool, emphasizing calm and luxury. Step 2: Slice 60 ends with a beachside restaurant at sunset with a relaxed ambiance and music. Conclusion: Both scenes emphasize relaxing leisure away from the club.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a luxurious villa with a pool, lush greenery, and an idyllic environment, explicitly noting a sense of relaxation and luxury. Step 2: Slice 60 shows a beachside restaurant at sunset with people enjoying meals and music, described as relaxed and festive, with scenic sunset hues. Step 3: Both scenes are non-club settings that emphasize calm enjoyment and leisure within visually scenic environments. Therefore, the shared mood of relaxation and leisure in scenic settings is supported.",
+        "visual_proof": "Clip 1 shows a luxurious villa with a pool surrounded by greenery under a partly cloudy sky, conveying tranquility. Clip 2 shows a beachside restaurant at sunset with patrons relaxing under umbrellas while live music is played, evoking a calm, leisurely atmosphere. Both scenes are visually distinct from the high-energy club environment and emphasize peaceful enjoyment of beautiful surroundings."
+    },
+    {
+        "question": "Which animal appears during the outdoor table gathering and is later referenced earlier in the overall video description as being held by a man?",
+        "answer": "A small dog.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 1 mentions a man holding a small dog (named Zara in the narration). Step 2: Slice 17 shows a small fluffy white-and-brown dog being held up at an outdoor table gathering. Conclusion: The recurring animal is a small dog.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 17 explicitly describes a small dog being held up during an outdoor table gathering. Step 2: Evidence Slice 1 earlier mentions a scene where a man is holding a small dog named Zara. Logic holds because both slices reference the same type of animal (a small dog), linking the outdoor gathering appearance with the earlier mention of a man holding the dog.",
+        "visual_proof": "In Clip 2, a small, fluffy white dog is clearly visible being held and passed around by guests at an outdoor table gathering. In Clip 1 (at 0:29-0:30), the same man is shown holding this identical small white dog during what appears to be the same event, confirming it is the same animal referenced in both clips."
+    }
+]

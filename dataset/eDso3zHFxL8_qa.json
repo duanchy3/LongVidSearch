@@ -1,0 +1,82 @@
+[
+    {
+        "question": "The presenter mentions a previous episode that connected two countries with an arrow, and later he announces a new matchup between two other countries. What were the two country pairs?",
+        "answer": "Previous: Afghanistan → Georgia; New: Germany → North Korea.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows an inset graphic with Afghanistan and Georgia connected by a red arrow and the presenter references that pair as the last episode. Step 2: Slice 3 states “this time it's gonna be Germany to North Korea.” Conclusion: The pairs are Afghanistan→Georgia and Germany→North Korea.",
+        "logic_check_reasoning": "Step 1: Slice 2 states there is an inset graphic showing Afghanistan and Georgia connected by a red arrow, and the caption says 'so in the last episode we did Afghanistan to Georgia,' confirming the previous pair. Step 2: Slice 3 includes the caption 'this time it's gonna be Germany to North Korea,' explicitly announcing the new matchup. Logic holds because both country pairs are directly mentioned in the provided captions.",
+        "visual_proof": "In the first clip, at 0:05, a graphic appears showing the flags of Afghanistan and Georgia with a red arrow pointing from Afghanistan to Georgia, while the presenter says, 'so in the last episode we did Afghanistan to Georgia.' In the second clip, at 0:01, a graphic shows the flags of Germany and North Korea with a globe between them, and the presenter states, 'this time it's gonna be Germany to North Korea.'"
+    },
+    {
+        "question": "The video first labels a country as 'Africa's least visited,' and later clarifies a different country with that same label. Which two countries are associated with that claim across the video?",
+        "answer": "Guinea and Guinea-Bissau.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 9 has the presenter discussing Guinea and calling it Africa’s least visited country. Step 2: Slice 10 introduces Guinea-Bissau and labels it 'Africa’s least visited country.' Conclusion: The claim is attached to Guinea first and later to Guinea-Bissau.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 9 states that the presenter talks about Guinea being 'Africa's least visited country.' Step 2: The Scene Breakdown explicitly says the presenter introduces Guinea-Bissau and highlights it as 'Africa's least visited country,' supported by visuals like the Bijagos archipelago off Guinea-Bissau. Step 3: Therefore, the video first labels Guinea, and later clarifies Guinea-Bissau with the same label, matching the proposed pair.",
+        "visual_proof": "In the first clip, at 0:00-0:01, a map of 'Guinea' is shown with text about its rivers. Later in the same clip, at 0:15-0:16, the speaker discusses 'Guinea Bissau' next to its flag, and the subtitle explicitly states it 'often gets the title of Africa's least visited country.' The second clip, at 0:00, shows the speaker again with the flag of Guinea-Bissau and the subtitle 'Africa's least visited country,' confirming the association. The initial mention of 'Guinea' in the context of major rivers (0:00-0:08) is visually distinct from the later, explicit labeling of 'Guinea Bissau' as the least visited country."
+    },
+    {
+        "question": "One segment explains that a country has more native writing systems than anywhere else, and a later segment highlights an indigenous African script used by a specific people group. What country is known for many writing systems, and what is the name of the African script system?",
+        "answer": "Country: India; Script system: Nsibidi (writing of the Efik/Ibibio people).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            81
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows India with a map overlaid by many writing systems and the claim about having more native writing systems than anywhere else. Step 2: Slice 81 presents “NSIBIDI” as a pictographic writing system of the Efik/Ibibio people in Nigeria. Conclusion: India and Nsibidi.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows a map of India with the text 'they have more native writing systems than anywhere else,' clearly indicating the country is India. Step 2: Slice 81 shows a graphic titled 'NSIBIDI' described as the 'writing of the Efik/Ibibio people,' identifying the African script system as Nsibidi. Logic holds because each slice directly states the respective facts.",
+        "visual_proof": "Clip 1 shows a map titled 'Main Writing Systems of India' with text stating 'they have more native writing systems than anywhere else on earth,' identifying India. Clip 2 displays a chart titled 'NSIBIDI WRITING OF THE EJAGHAM PEOPLE' while the speaker mentions 'one of them has their own pictograph writing system called Nsibidi.' The chart explicitly links Nsibidi to the Ejagham people, who are part of the larger Cross River region including Efik and Ibibio groups."
+    },
+    {
+        "question": "Two different segments feature unusual 'never freezes' or split-water lakes. Which lake is described as never freezing, and which lake is described as half saline and half freshwater?",
+        "answer": "Never freezes: Issyk-Kul Lake; Half saline/half freshwater: Balkhash Lake.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 35 identifies Issyk-Kul Lake and explicitly notes “Never freezes!” Step 2: Slice 31 shows a Kazakhstan map noting Balkhash Lake is half saline and half freshwater. Conclusion: Issyk-Kul never freezes; Balkhash is split saline/fresh.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 35 explicitly mentions Issyk-Kul Lake and includes an inset caption 'Never freezes!', identifying Issyk-Kul as the lake that never freezes. Step 2: Evidence Slice 31 shows a map of Kazakhstan highlighting Lake Balkhash with the note that half the lake is saline and half is freshwater. Logic holds because each slice directly states the respective characteristic of each lake.",
+        "visual_proof": "Clip 1 visually identifies 'ISSYK-KUL LAKE' and states it 'Never freezes!' due to its salinity and hot springs. Clip 2 visually identifies 'BALKHASH' lake and explicitly labels one half 'FRESH' and the other 'SALT', with subtitles confirming 'half of it is saline and half of it is freshwater'."
+    },
+    {
+        "question": "The video first shows a dish being served from clay pots and later shifts into a discussion of an indigenous-majority Central American country with Mayan statues. What is the name of the dish, and which country’s indigenous majority is being discussed?",
+        "answer": "Dish: Pepián de pollo; Country: Guatemala.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            7,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows the food stall with the on-screen label “Pepian de pollo.” Step 2: Slice 7 discusses Guatemala’s noticeable indigenous majority and shows Mayan statues. Step 3: Slice 6 situates the broader sequence of quick country/topic transitions in the same presentation format, supporting continuity of the presenter’s educational montage. Conclusion: Pepián de pollo and Guatemala.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly shows a food stall serving a dish labeled 'Pepian de pollo' from clay pots, confirming the dish name. Step 2: Slice 7 describes a man discussing Guatemala as a Central American country with a noticeable indigenous majority, and it shows Mayan statues, clearly identifying the country as Guatemala. Step 3: Although Slice 8 later mentions Guinea, the question specifically references the segment about an indigenous-majority Central American country with Mayan statues, which aligns with Slice 7. Therefore, the proposed answer matches both required elements.",
+        "visual_proof": "In Clip 1, the text 'Pepian de pollo' is overlaid on a scene showing food being served from clay pots. In Clip 2, the flag of Guatemala is displayed alongside text describing it as 'one of the two countries in Latin America that has a very noticeable and distinguishable indigenous majority,' followed by images of Mayan statues with the label 'Mayan.'"
+    },
+    {
+        "question": "Across the video, identify two different examples where the presenter uses maps to explain borders or enclaves: one about a very narrow border segment and one about multiple enclaves inside a country. What are these two cases?",
+        "answer": "Narrow border: Nicaragua–Costa Rica border segment about 2 miles wide; Multiple enclaves: Gagauzia within Moldova shown as 4 separate enclaves.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            75,
+            60,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 75 shows a map of Nicaragua and highlights a Nicaragua–Costa Rica border section labeled “2 MILES WIDE.” Step 2: Slice 60 introduces Moldova and shows independence visuals. Step 3: Slice 61 zooms into Gagauzia within Moldova and states “4 separate enclaves.” Conclusion: 2-mile-wide Nicaragua–Costa Rica border segment and Gagauzia’s four enclaves in Moldova.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 75 describes a map of Nicaragua zooming to the Nicaragua–Costa Rica border, explicitly showing a segment labeled '2 MILES WIDE (3.2KM),' which demonstrates the presenter using a map to explain a very narrow border segment. Step 2: Evidence Slice 61 shows a map of Moldova highlighting Gagauzia with text indicating '4 SEPARATE ENCLAVES,' demonstrating the presenter using a map to explain multiple enclaves within a country. Both cases directly match the proposed examples.",
+        "visual_proof": "Clip 1 visually highlights the narrow border between Nicaragua and Costa Rica along Lake Nicaragua, explicitly labeling it '2 MILES WIDE (3.2KM.)'. Clip 3 shows a map of Moldova with the region of Gagauzia highlighted in blue, accompanied by text stating '4 SEPARATE ENCLAVES' and '50% GAGAUZ', confirming the presence of multiple enclaves."
+    }
+]

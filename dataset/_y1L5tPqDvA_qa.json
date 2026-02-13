@@ -1,0 +1,154 @@
+[
+    {
+        "question": "Which person is seen walking through a dining area with a backpack, and later is shown carrying and eating a tray meal?",
+        "answer": "The woman in a black top with a light-colored cap (beige cap/white cap described inconsistently) and a backpack.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows a woman in a dining area wearing a cap and black top, carrying a backpack. Step 2: Slice 28 shows a woman in a black shirt and beige cap holding a food tray and eating. Conclusion: The same cap-and-black-top hiker is tracked across the restaurant scenes.",
+        "logic_check_reasoning": "Step 1: Slice 27 describes a woman in a dining area wearing a white cap and a black top, carrying a backpack and walking through the space. Step 2: Slice 28 describes a woman in the same type of restaurant setting wearing a black shirt and a beige (light-colored) cap, carrying a tray of food, sitting down, and eating. Step 3: The visual attributes (woman, black top, light-colored cap, restaurant context) align, with the cap color discrepancy plausibly due to VLM noise. Therefore, the same person is reasonably identified as the woman in a black top with a light-colored cap and a backpack.",
+        "visual_proof": "In Video 1, the woman is clearly seen walking through the dining area wearing a black top, a light-colored cap, and carrying a backpack. In Video 2, the same woman is shown at the food counter receiving a tray meal and later sitting down to eat it."
+    },
+    {
+        "question": "What piece of equipment is first shown being attached to boots, and later shown helping hikers cross hard-packed snow?",
+        "answer": "Crampons.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a woman attaching crampons to her boots in preparation for climbing. Step 2: Slice 18 shows hikers traversing hard-packed snow using crampons for traction. Conclusion: The same equipment is crampons.",
+        "logic_check_reasoning": "Step 1: Slice 13 states a woman takes out crampons and attaches them to her boots. Step 2: Slice 18 describes hikers using crampons for traction while crossing hard-packed snow. Logic holds because the same equipment (crampons) is first shown being attached and later shown aiding movement on hard-packed snow.",
+        "visual_proof": "In Video 1, a hiker is shown attaching yellow and black 'Lightweight Crampons' to their hiking boots. In Video 2, hikers are seen walking across hard-packed snow, and the subtitle explicitly instructs them to 'use your crampons,' confirming their use for traversing the difficult terrain."
+    },
+    {
+        "question": "After arriving excitedly at a red-roofed mountain lodge, what does the hiker do later inside the building to rest?",
+        "answer": "She lies down (first on the floor, then on a bed).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows the hiker reaching Hakuba Sanso and celebrating with raised arms. Step 2: Slice 26 shows her exploring the lodge interior and lying down to rest (on the floor and later on a bed). Conclusion: She rests by lying down inside.",
+        "logic_check_reasoning": "Step 1: Slice 25 shows a woman (white hat, black jacket, backpack) hiking to the red-roofed mountain lodge 'Hakuba Sanso' and arriving excitedly (raising her arms). Step 2: Slice 26 shows the same-looking woman inside a traditional Japanese building, where she first lays down on the floor in one room and later lays down on a bed in another room. Logic holds because the attire and sequence suggest continuity from arriving at the lodge to being inside it, and the actions explicitly include lying down on the floor and then on a bed, which constitutes resting.",
+        "visual_proof": "After arriving at the red-roofed lodge, the hiker is shown entering her room. She first lies down flat on the tatami mat floor with her arms and legs spread out (0:21-0:24). Later, she is seen spreading a futon mattress on the floor and lying down on it to rest (0:26-0:28)."
+    },
+    {
+        "question": "What location is first shown as a lodge exterior in the forest and later reappears as an aerial view of a lodge complex on a grassy hillside?",
+        "answer": "The Hakuba Sanso lodge area (the mountain lodge complex).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 25 introduces the lodge ‘Hakuba Sanso’ with a red roof and multiple buildings. Step 2: Slice 39 shows an aerial view of a mountain lodge complex with red/gray buildings on a grassy hillside, consistent with the same lodge complex presentation. Conclusion: It is the Hakuba Sanso lodge complex.",
+        "logic_check_reasoning": "Step 1: Slice 25 explicitly shows and names the lodge \"Hakuba Sanso,\" describing its exterior on a grassy hill with red-roofed buildings. Step 2: Slice 39 shows an aerial view of a red/grey-roofed lodge complex on a grassy hillside, matching the earlier lodge setting. Logic holds because both slices depict the same lodge complex in the same landscape, first from ground/exterior and later from the air, supporting that the location is Hakuba Sanso.",
+        "visual_proof": "In Video 1, the lodge is first shown in a close-up exterior shot with Japanese characters on its facade at 0:17. The same building complex is then clearly identified by an on-screen text label 'Mountain Lodge Hakuba Sanso' during an aerial view from 0:08 to 0:14. This is further confirmed by the identical architectural style and layout shown in the aerial shots of the complex on the grassy hillside in both Video 1 (0:08-0:14) and Video 2 (0:00-0:05)."
+    },
+    {
+        "question": "Which two different experts appear on camera, and what topics do they each discuss?",
+        "answer": "A mountain guide discusses guiding/mountain expertise, and a geologist explains changing rock types shaping vegetation.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            54,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 16 introduces an experienced mountain guide (blue helmet, red jacket) speaking to camera. Step 2: Slice 54 introduces a geologist examining a rock and explaining geological events and varied rocks leading to diverse vegetation. Step 3: Slice 56 continues the geology-focused explanation with mountain landscapes and route context. Conclusion: The video features both guiding expertise and geological interpretation.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly identifies Matsumoto Masanobu as a mountain guide speaking to the camera, with the description noting he is experienced and knowledgeable about the environment and activities he describes, supporting that he discusses guiding/mountain expertise. Step 2: Slice 54 explicitly identifies Harayama Satoru as a geologist who explains geological events, changing rock types, and how this affects vegetation; Slice 56 further shows him discussing geological diversity on Mt. Hotaka. Logic holds because both slices clearly present two different experts appearing on camera and describe the topics they discuss.",
+        "visual_proof": "Clip 1 introduces Matsumoto Masanobu as a 'Mountain Guide: 45 years of experience'. Clip 2 introduces Harayama Satoru as a 'Geologist' who then explains that 'Various geological events... create a new formation, resulting in a diverse range of rocks... On the ridgeline, the types of rocks keep changing, which bring diverse vegetation.' This directly matches the original answer."
+    },
+    {
+        "question": "What clothing/accessory item appears on the main woman early in the hike and again later when she reaches a foggy summit and touches a signpost?",
+        "answer": "A white hat/cap.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            23,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the woman hiking with a white hat. Step 2: Slice 23 shows a woman in rocky wildflower terrain wearing a white hat and black outfit. Step 3: Slice 52 shows the woman in fog reaching the top and touching a signpost while wearing a white hat. Conclusion: The recurring identifying item is the white hat/cap.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the video starts with a woman wearing a white hat and black shirt hiking on a rocky mountain path, indicating early in the hike. Step 2: Slice 52 describes the same woman (matching attire: white hat, black shirt, black pants, backpack) reaching the top of the mountain, touching a signpost in fog. Step 3: The consistent visual attributes link the early scene to the summit scene. Therefore, the item appearing both early and later is the white hat.",
+        "visual_proof": "The main woman is consistently seen wearing a light-colored, likely white or beige, baseball-style cap throughout the video. It is clearly visible in the first clip as she hikes through the fog (0:00-0:01), and again in the third clip when she reaches the summit and touches the signpost at Mt. Shakushi (0:29-0:30)."
+    },
+    {
+        "question": "Which activity is shown as a relaxing contrast to the strenuous mountain trek, and where else in the video is a similar hot-spring moment presented?",
+        "answer": "Soaking in a hot spring/onsen; it appears both earlier as a hot spring scene and later at a mountain lodge hot spring.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 2 includes a woman standing in a hot spring with steam rising. Step 2: Slice 60 shows a woman entering a hot spring pool at a mountain lodge. Conclusion: Hot-spring soaking is the relaxing counterpoint shown in both places.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes strenuous activities (rappelling, hiking, reaching the summit) and then explicitly shows a woman standing in a hot spring with steam rising, which serves as a relaxing contrast. Step 2: Slice 60 shows a woman entering and sitting in a hot spring pool at a mountain lodge, clearly another hot-spring moment. Logic holds because both slices depict hot spring scenes, with the latter specifically located at a mountain lodge.",
+        "visual_proof": "The first clip (0:15) shows a woman in a red swimsuit standing in an infinity pool with a mountain view, which is a hot spring scene. The second clip (0:04-0:28) shows multiple people, including the same woman (now in a black shirt), relaxing in a steaming outdoor onsen at the Hakuba Yari Onsen Goya mountain lodge. This directly contrasts the strenuous trekking shown in the first clip (0:00-0:14)."
+    },
+    {
+        "question": "What links the close-up of alpine flowers to the explanation for why vegetation is diverse in this region?",
+        "answer": "The geologist explains that constantly changing rock types lead to diverse vegetation, which corresponds to the abundant wildflowers shown.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            54,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 24 showcases multiple named alpine flowers in close-up. Step 2: Slice 54 has a geologist explain that many rock types exist and keep changing, bringing diverse vegetation. Step 3: Slice 55 shows expansive fields of colorful wildflowers, illustrating the diversity. Conclusion: Geological diversity drives vegetation diversity seen in the flower sequences.",
+        "logic_check_reasoning": "Step 1: Slices 24 and 55 depict close-ups and wide shots of diverse alpine wildflowers, illustrating abundant vegetation. Step 2: Slice 54 shows a geologist explaining that varying and changing rock types in the area lead to diverse vegetation. Step 3: The logic holds because the visuals of diverse flowers are linked to the stated cause—changing rock types—providing a direct explanation for the observed biodiversity.",
+        "visual_proof": "Clip 2 features the geologist, Harayama Satoru, who explicitly states in subtitles: 'On the ridgeline, the types of rocks keep changing, which bring diverse vegetation.' This explanation is visually supported by Clip 1 and Clip 3, which show numerous close-ups of a wide variety of alpine flowers (e.g., Kurumayuri, Hakusanfuro, Otakarako) growing abundantly in the mountainous terrain, directly illustrating the 'diverse vegetation' he describes."
+    },
+    {
+        "question": "Which four scenes together portray the region’s signature combination of rugged snow terrain, alpine plants, and a rare mountain bird?",
+        "answer": "Snow and ice trekking, wildflower meadows/close-ups, and a Rock Ptarmigan in alpine greenery.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            18,
+            22,
+            24,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows hikers traversing rugged snow terrain with crampons. Step 2: Slice 22 shows an alpine meadow dense with colorful wildflowers. Step 3: Slice 24 provides detailed close-ups and names of multiple alpine flowers. Step 4: Slice 51 shows a Rock Ptarmigan (Raicho) moving through alpine vegetation. Conclusion: Together these depict snowfields, rich flora, and alpine fauna as key region features.",
+        "logic_check_reasoning": "Step 1: Slice 18 depicts hikers using crampons on hard-packed snow/ice, matching 'snow and ice trekking.' Step 2: Slice 22 shows a lush meadow of wildflowers, matching 'wildflower meadows.' Step 3: Slice 24 presents close-ups of multiple alpine flowers, matching 'wildflower close-ups.' Step 4: Slice 51 features a Rock Ptarmigan (Raicho) in alpine greenery, matching 'a rare mountain bird in alpine greenery.' Together, these four slices align with the answer’s components, even though the answer groups the meadow and close-ups as one phrase.",
+        "visual_proof": "Clip 1 shows hikers on hard snow/ice terrain. Clip 2 and Clip 3 show extensive wildflower meadows with close-ups of specific alpine flowers like Kurumayuri and Hakusanfuro. Clip 4 features a Raicho (Rock Ptarmigan) foraging in the alpine greenery. Together, these four scenes visually represent the rugged snow, diverse alpine flora, and the rare mountain bird as described."
+    },
+    {
+        "question": "What connects the scenic sunset/sunrise over a sea of clouds to hikers actively recording the moment, and to later spoken reactions about the beauty and effort?",
+        "answer": "Hikers photograph the sky with smartphones and then verbally reflect that the hard climb was worth it because the view is beautiful.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            45,
+            46,
+            47,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a silhouetted person holding up a smartphone to capture the sunset above the clouds. Step 2: Slice 46 shows a group gathered at the summit enjoying the colorful sky. Step 3: Slice 47 includes spoken sentiments: hard work paid off, it’s so beautiful, dreams will come true, with phones visible. Step 4: Slice 50 shows the main hiker taking out her phone to photograph the view during the hike. Conclusion: The sky spectacle prompts phone recording and later verbal reflections tying beauty to effort.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a person silhouetted against a sunset above the clouds holding a smartphone to capture the view. Step 2: Slice 46 shows hikers at a mountain summit during a colorful sunset/sunrise, some taking photographs. Step 3: Slice 50 shows a woman hiker taking out her phone to take a picture of the scenery. Step 4: Slice 47 includes spoken reactions from hikers at the summit: one says the hard work paid off and it was tough, another says it's so beautiful. Logic holds because the context first depicts the scenic sky and hikers actively recording it, then provides explicit verbal reflections linking the effort of the climb to the beauty of the view.",
+        "visual_proof": "Clip 1 shows a hiker silhouetted against a sunrise/sunset over clouds, raising a smartphone to take a picture. Clip 3 features two different hikers on the same ridge; one says, 'I feel like my hard work paid off. It was tough coming up here,' and another says, 'It's so beautiful.' This directly links the act of recording the scenery with the verbal reflection on the effort and beauty, confirming the original answer."
+    },
+    {
+        "question": "What four-step storyline connects travel planning and route guidance to the hikers’ safety practices on snow and a later formal check-in process?",
+        "answer": "Route overview and access planning lead into a mapped hike, then snow safety techniques (including route markings), and finally a formal information-center check-in with documentation/app navigation.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            10,
+            18,
+            19,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 10 presents access (bus stop) and a detailed hiking route map with distance/time/elevation gain. Step 2: Slice 18 shows technical snow travel guidance (stepping firmly, crampons). Step 3: Slice 19 adds explicit safety/navigation measures on snow (a red line to prevent getting lost) and mentions avalanche risk. Step 4: Slice 74 shows hikers checking in at an information center with a permit/itinerary document and a hiking app. Conclusion: Planning and mapping connect to on-trail safety and culminate in official check-in/navigation procedures.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows access planning (bus stop, lodge) and a route overview map, supporting 'route overview and access planning.' Step 2: Slice 10 also details the mapped hike (distance, duration, elevation, lodges), supporting 'mapped hike.' Step 3: Slices 18 and 19 show snow safety practices (crampons, stepping firmly on hard-packed snow, avalanche cautions) and route markings (red line to prevent getting lost), supporting 'snow safety techniques including route markings.' Step 4: Slice 74 shows a formal check-in at an information center with documentation and use of a hiking app, supporting 'formal information-center check-in with documentation/app navigation.' The sequence logically connects planning and guidance to safety practices and later check-in.",
+        "visual_proof": "The storyline is visually confirmed across the four clips: Clip 1 shows the starting point (Sarukura So) and a 3D map outlining the 19km trek with elevation gain. Clip 2 depicts hikers navigating hard snow using crampons, demonstrating safety practices. Clip 3 details specific snow safety techniques, including the use of red ground markings to prevent getting lost. Clip 4 concludes with scenes of the Hiking Information Center at Sarukura So, showing a physical hiking itinerary form and a smartphone app for creating a hike plan, confirming the formal check-in and planning process."
+    }
+]

@@ -1,0 +1,108 @@
+[
+  {
+    "question": "When the show turns from talking about stocks being steady to focusing on AI use cases, what headline is shown for the stocks segment and what AI-related headline replaces it later?",
+    "answer": "It shows “STOCKS STEADY AMID INFLATION WATCH,” then later it switches to “DUDLEY: SURPRISED BY NUMBER OF AI USE CASES.”",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      14
+    ],
+    "reasoning_chain": "Step 1: Slice 8 displays the headline “STOCKS STEADY AMID INFLATION WATCH.” Step 2: Slice 14 shows a new lower-third headline about AI: “DUDLEY: SURPRISED BY NUMBER OF AI USE CASES.” Conclusion: The on-screen topic shifts from inflation-watch stock steadiness to AI use cases.",
+    "logic_check_reasoning": "Step 1: Slice 8 explicitly states the lower third shows the headline 'STOCKS STEADY AMID INFLATION WATCH' during the stocks discussion. Step 2: Slice 14 describes a later close-up where the caption reads 'DUDLEY: SURPRISED BY NUMBER OF AI USE CASES,' indicating a shift to AI use cases. Logic holds because the context clearly shows the initial stocks headline and the subsequent AI-related headline.",
+    "visual_proof": "In Clip 1, the lower-third graphic clearly displays 'STOCKS STEADY AMID INFLATION WATCH' while the female host is speaking. In Clip 2, after the scene cuts to the male guest (Dudley), the lower-third graphic changes to 'DUDLEY: SURPRISED BY NUMBER OF AI USE CASES', confirming the transition in topic and headline as described."
+  },
+  {
+    "question": "The broadcast later pivots from oil-company profits to aerospace deliveries. Which company is shown as having fourth-quarter profit exceeding expectations, and which two aircraft makers are discussed in the later deliveries segment?",
+    "answer": "BP is shown with fourth-quarter profit exceeding expectations, and the later deliveries segment discusses Boeing and Airbus.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      50,
+      60
+    ],
+    "reasoning_chain": "Step 1: Slice 50 displays “BP 4Q PROFIT EXCEEDS EXPECTATIONS.” Step 2: Slice 60 shows the headline “BOEING, AIRBUS TO POST 1Q DELIVERIES.” Conclusion: The show moves from BP earnings to Boeing/Airbus deliveries.",
+    "logic_check_reasoning": "Step 1: Slice 50 explicitly shows the text overlay 'BP 4Q PROFIT EXCEEDS EXPECTATIONS,' confirming BP as the company with fourth-quarter profit exceeding expectations. Step 2: Slice 60 shows the on-screen text 'BOEING, AIRBUS TO POST 1Q DELIVERIES,' confirming that the later deliveries segment discusses Boeing and Airbus. Logic holds because the broadcast transitions from BP profits to Boeing/Airbus deliveries as described.",
+    "visual_proof": "In Clip 1, a graphic explicitly states 'BP 4Q PROFIT EXCEEDS EXPECTATIONS' alongside a stock chart for 'BP'. In Clip 2, the on-screen text reads 'BOEING, AIRBUS TO POST 1Q DELIVERIES', and the reporter discusses these two companies in the context of aircraft deliveries."
+  },
+  {
+    "question": "The cease-fire story includes a live location tag in one segment and later shows an official Israeli government meeting/briefing room. What city is shown as the live location, and what national symbol is prominently displayed in the official room?",
+    "answer": "The live location is Tel Aviv, and Israeli flags are prominently displayed in the official room.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      22,
+      30
+    ],
+    "reasoning_chain": "Step 1: Slice 22 shows “LIVE Tel Aviv” under the cease-fire talks headline. Step 2: Slice 30 shows an Israeli government press office setting with Israeli flags behind speakers. Conclusion: The story moves from a Tel Aviv live report to official visuals marked by Israeli flags.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 22 states the lower third shows 'LIVE Tel Aviv,' indicating the live location is Tel Aviv. Step 2: Evidence Slice 30 describes an official Israeli government meeting room with two prominent Israeli flags visible behind the speaker. Logic holds because the slices explicitly identify the live city and the national symbols in the official setting.",
+    "visual_proof": "In Clip 1, the on-screen graphic explicitly states 'LIVE Tel Aviv' in the top left corner. In Clip 2, multiple Israeli flags (white with blue Star of David) are clearly visible behind the speaker and along the wall in the government meeting room."
+  },
+  {
+    "question": "A theme of oil and energy profits is followed by an explicit oil-price forecast and then later by aerospace manufacturing coverage. Which firm’s $13B profit is highlighted, what oil price range is forecast for 2024, and what later headline signals the switch to aviation?",
+    "answer": "Vitol’s $13B profit is highlighted; the forecast is oil averaging $80–$100 per barrel in 2024; and the later aviation switch is signaled by “BOEING, AIRBUS TO POST 1Q DELIVERIES.”",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      52,
+      54,
+      60
+    ],
+    "reasoning_chain": "Step 1: Slice 52 displays the “TRADING GAINS” context and states Vitol reported about $13B profit for 2023. Step 2: Slice 54 shows “VITOL SEES OIL AVG AT $80-$100 BBL IN 2024.” Step 3: Slice 60 then shifts the program to aviation with “BOEING, AIRBUS TO POST 1Q DELIVERIES.” Conclusion: The segment flows from trading profits to oil price expectations, then to aircraft-delivery news.",
+    "logic_check_reasoning": "Step 1: Slice 52 explicitly states that the reporter highlights Vitol's 2023 profit of $13 billion, supported by a graph of trading gains. Step 2: Slice 54 shows the lower-third text 'VITOL SEES OIL AVG AT $80-$100 BBL IN 2024,' which provides the explicit oil price forecast. Step 3: Slice 60 displays the headline 'BOEING, AIRBUS TO POST 1Q DELIVERIES,' indicating a later segment focused on aviation. The logic is consistent: energy profits → oil price forecast → aviation coverage. All elements of the proposed answer are directly supported by the slices.",
+    "visual_proof": "Clip 1 shows a lower-third graphic stating 'VITOL REPORTS $13B PROFIT FOR 2023'. Clip 2 displays a graphic reading 'VITOL SEES OIL AVG AT $80-$100 BBL IN 2024'. Clip 3 features a headline that reads 'BOEING, AIRBUS TO POST 1Q DELIVERIES', confirming the switch to aerospace coverage."
+  },
+  {
+    "question": "One guest strategist is identified by a distinctive purple branded background and later appears as part of multi-person panels discussing inflation-watch stocks. What visual cue identifies the guest, and how does the discussion context broaden when he later appears with others?",
+    "answer": "The visual cue is the purple “Truist Wealth” logo wall behind him, and later the context broadens from a single guest shot to a multi-person split-screen/panel discussing stocks amid inflation watch with live market tickers.",
+    "category": "Visual_Tracking",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      39,
+      43,
+      44
+    ],
+    "reasoning_chain": "Step 1: Slice 39 shows the guest in front of repeated “Truist Wealth” branding. Step 2: Slice 43 shows him again in the same branded setting with updated S&P futures figures. Step 3: Slice 44 shows a three-person panel layout with the “STOCKS STEADY AMID INFLATION WATCH” headline and S&P futures. Conclusion: The guest is tracked by the purple logo wall and later placed within a broader panel discussion.",
+    "logic_check_reasoning": "Step 1: Slice 39 describes Keith Lerner in front of a solid purple background with repeated 'Truist Wealth' logos, clearly identifying the guest by this branded backdrop. It also mentions discussion topics including 'STOCKS STEADY AMID INFLATION WATCH.' Step 2: Slice 43 reinforces the same purple 'Truist Wealth' branded background and shows live market data, confirming the visual cue and context of a single-guest segment. Step 3: Slice 44 shows a multi-person split-screen panel discussing 'STOCKS STEADY AMID INFLATION WATCH' with an S&P Futures ticker, broadening the context from a solo segment to a panel discussion. The attire of the center participant (gray suit, pocket square) aligns with earlier descriptions, supporting continuity. Thus, the visual cue and broadened context are explicitly supported.",
+    "visual_proof": "Clip 1 and Clip 2 show Keith Lerner against a distinct purple background featuring the 'TRUIST Wealth' logo. Clip 3 shows him in a three-way split-screen panel with two other individuals, with a ticker at the bottom displaying 'S&P FUTURES' and a headline reading 'STOCKS STEADY AMID INFLATION WATCH', confirming the broader discussion context."
+  },
+  {
+    "question": "The show previews intraday market calm ahead of key events and later displays a USD/JPY chart tied to Bank of Japan expectations. What are the two key upcoming events named, and which currency pair is charted later?",
+    "answer": "The events are CPI and the ECB decision, and the later chart is for USD/JPY (U.S. dollar vs Japanese yen).",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      37,
+      63
+    ],
+    "reasoning_chain": "Step 1: Slice 37 shows the line “ALL QUIET AHEAD OF CPI, ECB.” Step 2: Slice 63 shows the “United States Dollar - Japanese Yen” graph. Conclusion: The calm-ahead-of-events framing (CPI, ECB) later pairs with a BOJ-linked USD/JPY chart.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 37 shows the text 'ALL QUIET AHEAD OF CPI, ECB,' explicitly naming the two upcoming events as CPI and the ECB. Step 2: Evidence Slice 63 describes a graph labeled 'United States Dollar - Japanese Yen' with BOJ expectations mentioned, indicating the currency pair charted later is USD/JPY. Logic holds because the question references these specific moments: the preview of calm ahead of CPI and ECB, and later the USD/JPY chart tied to BOJ expectations.",
+    "visual_proof": "In Clip 1, a lower-third graphic at 0:19 explicitly states 'ALL QUIET AHEAD OF CPI, ECB'. In Clip 2, a large chart displayed at 0:17 is titled 'UNITED STATES DOLLAR - JAPANESE YEN', which corresponds to the USD/JPY currency pair."
+  },
+  {
+    "question": "Across the segment, the S&P futures are shown at least twice with slightly different values. What is one earlier displayed S&P futures value and what is a later displayed S&P futures value?",
+    "answer": "An earlier value is about 5,253.25 shown as unchanged, and a later value is about 5,256.00 (slightly up).",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      19,
+      41
+    ],
+    "reasoning_chain": "Step 1: Slice 19 shows S&P Futures around 5,253.25 marked “UNCH.” Step 2: Slice 41 shows S&P Futures at 5,256.00 with a small gain. Conclusion: The displayed S&P futures value increases slightly across the program.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 19 states the on-screen S&P Futures is 5,253.25 marked as unchanged, indicating an earlier value. Step 2: Evidence Slice 41 shows S&P Futures at 5,256.00 with a +0.05% change, indicating a later value within the same Bloomberg Brief segment. The proposed answer cites 5,253.25 (unchanged) as the earlier value and 5,256.00 (slightly up) as the later value, which matches the provided evidence.",
+    "visual_proof": "In the first clip (Video 1), at timestamp 0:00, the S&P FUTURES ticker clearly displays the value '5,253.25' with the status 'UNCH'. In the second clip (Video 2), starting around 0:00 and confirmed by 0:01, the S&P FUTURES ticker shows a value of '5,256.00', which is an increase from the previous value, indicated by the green upward arrow and percentage change."
+  },
+  {
+    "question": "A central-banker policy topic appears under the 'Risk & Reward' banner, and later the show discusses the yen via a currency chart. What policy claim is shown and which exchange rate is later analyzed?",
+    "answer": "The claim is “UEDA: POLICY ISN'T MEANT FOR FX RATES,” and later the USD/JPY exchange rate is analyzed.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      36,
+      64
+    ],
+    "reasoning_chain": "Step 1: Slice 36 presents the policy statement “UEDA: POLICY ISN'T MEANT FOR FX RATES.” Step 2: Slice 64 shows a USD/JPY exchange-rate graph while discussing BOJ-related expectations. Conclusion: The program links central bank policy framing to later FX (USD/JPY) analysis.",
+    "logic_check_reasoning": "Step 1: Slice 36 shows the 'Risk & Reward' banner and explicitly displays the text 'UEDA: POLICY ISN'T MEANT FOR FX RATES,' which supports the policy claim. Step 2: Slice 64 describes a studio segment with a large screen showing a graph of the exchange rate between the United States Dollar and the Japanese Yen, which confirms the USD/JPY is being analyzed. The logic holds because the first slice provides the policy claim under the banner, and the second slice specifies the currency pair analyzed later.",
+    "visual_proof": "At 0:03, a lower-third graphic clearly displays the text 'UEDA: POLICY ISN'T MEANT FOR FX RATES' during footage of Kazuo Ueda at the House of Councillors. Later in the video, at 0:18, a large screen shows a detailed line chart titled 'UNITED STATES DOLLAR - JAPANESE YEN' with the ticker 'USD.JPY' and its current value, confirming the analysis of the USD/JPY exchange rate."
+  }
+]

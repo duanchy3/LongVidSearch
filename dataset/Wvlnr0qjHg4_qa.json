@@ -1,0 +1,15 @@
+[
+    {
+        "question": "Which segment uses a rotating globe to introduce East Asia geography and then shows masked police and rescue workers responding to an incident?",
+        "answer": "A China-focused news segment that begins with a globe graphic and then shows police and rescue operations.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a globe zoom highlighting China. Step 2: Slice 17 shows masked police and rescue workers at a damaged site, framed as related news coverage. Conclusion: It’s the China-related segment introduced by the globe.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes a rotating digital globe highlighting China, suggesting a China-focused informational or news segment. Step 2: Slice 17 explicitly states it's an NBC News segment about Chinese officials, showing masked police and rescue workers at an incident scene. Logic holds because the segment starts with a globe introducing China and then shows police and rescue operations, matching the proposed answer.",
+        "visual_proof": "Clip 1 opens with a rotating Google Earth globe, zooming in to highlight China in orange with the label 'CHINA'. Clip 2 immediately follows with scenes of masked Chinese police officers and rescue workers at what appears to be an incident site, including a destroyed building and emergency vehicles. The on-screen text 'CHINESE OFFICIALS ISSUE RARE PUBLIC APOLOGY' confirms the context is a news report focused on China."
+    }
+]

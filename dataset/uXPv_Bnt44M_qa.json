@@ -1,0 +1,85 @@
+[
+    {
+        "question": "What animal is adopted by soldiers early on, and later shown helping by carrying a crate during a labeled World War II battle?",
+        "answer": "A brown bear (Wojtek).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 2 introduces the brown bear integrated with soldiers and labeled as important. Step 2: Slice 4 shows a brown bear carrying a crate during the Battle of Monte Cassino. Conclusion: The animal is the same bear character (Wojtek).",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a brown bear being handed from a woman to a soldier and integrated into a military unit, explicitly labeled \"WOJTEK,\" indicating soldiers adopt the bear early on. Step 2: Slice 4 depicts a brown bear carrying a crate during a scene labeled \"Battle of Monte Cassino, 1944,\" a World War II battle. Logic holds because the same animal (a brown bear) is shown being adopted by soldiers and later helping by carrying a crate in the labeled battle, with the name Wojtek provided in Slice 2.",
+        "visual_proof": "Clip 1 shows a brown bear being held by a woman and then standing with soldiers, with the name 'WOJTEK' displayed. Clip 2 shows the same brown bear carrying a large crate in a scene labeled 'Battle of Monte Cassino, 1944', confirming its role in a WWII battle."
+    },
+    {
+        "question": "After the bear is shown being humorously given human vices, what later method is used to control the bear when moving through camp?",
+        "answer": "A leash and collar are used to walk the bear.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the bear standing upright holding beer and a cigarette. Step 2: Slice 3 shows a man walking the bear on a leash with a collar in a camp setting. Conclusion: The later control method is a leash/collar.",
+        "logic_check_reasoning": "Step 1: Slice 2, Scene 5 shows the bear humorously depicted with human vices (holding a beer and a cigarette). Step 2: Slice 3 later depicts a man in a green uniform walking the bear through a camp setting (tents and military vehicles) using a leash, with the bear wearing a collar. Logic holds because the question asks what method is used later to control the bear after the humorous vices scene, and Slice 3 explicitly shows a leash and collar being used while moving through the camp.",
+        "visual_proof": "In Video 2, a soldier is shown walking alongside the bear, holding a chain attached to a collar around the bear's neck. This visual evidence directly confirms that a leash (represented by the chain) and collar are used to control the bear while moving through the camp."
+    },
+    {
+        "question": "What evidence later suggests the emus were difficult targets, and which human tool is shown being used against them earlier?",
+        "answer": "A quote compares their toughness to tanks, and soldiers are shown using machine guns against them.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a soldier aiming a rifle at emus (human tool/weapon). Step 2: Slice 26 displays a quote saying the birds can face machine guns with invulnerability like tanks. Conclusion: Rifles are used, and the quote emphasizes their toughness.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows soldiers equipped with rifles and culminates with a soldier aiming his rifle at emus, indicating the human tool used earlier is rifles. Step 2: Slice 26 presents a quote stating the birds could face machine guns with the invulnerability of tanks, which serves as later evidence that the emus were difficult targets. Logic holds because the earlier scene shows rifles used against emus, and the later quote explicitly describes their toughness.",
+        "original_text_answer": "A quote compares their toughness to tanks, and soldiers aim rifles at them.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 2, a quote explicitly states the emus can 'face machine guns with the invulnerability of tanks.' In Video 1, soldiers are visually depicted operating large, tripod-mounted machine guns (not rifles) to fire at the emus, as seen in frames 0:33, 0:52, and 0:58."
+    },
+    {
+        "question": "Name one 'cure' involving a black liquid and another involving a yellow bath that are shown as plague treatments in different scenes.",
+        "answer": "Treacle (black liquid) and bathing in urine (yellow bath).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 45 labels the black liquid as 'Treacle' being applied to sores. Step 2: Slice 47 labels a tub 'BATHE IN URINE' with a man sitting in yellow liquid. Conclusion: Two cures are treacle and urine bathing.",
+        "logic_check_reasoning": "Step 1: Slice 45 explicitly shows a spoon with a dark liquid labeled 'Treacle' being used as a medical treatment on a man's red spots, supporting a 'cure' involving a black liquid. Step 2: Slice 47 explicitly shows a bathtub labeled 'BATHE IN URINE' filled with yellowish liquid, depicting a treatment involving a yellow bath. Logic holds because both slices clearly present these treatments, matching the answer's identification of 'treacle' and 'bathing in urine' as the cures shown.",
+        "visual_proof": "Clip 1 visually depicts a black liquid being poured into a spoon, with the word 'TREACLE' appearing on screen. Clip 2 shows a person submerged in a yellow liquid within a wooden tub, with the text 'BATHE IN URINE' displayed. These visuals directly correspond to the treatments named in the answer."
+    },
+    {
+        "question": "Across the bear story, how does the bear’s relationship to soldiers evolve from being handed over as a cub to being treated as part of military labor?",
+        "answer": "It starts as a cub being transferred to a soldier and later the grown bear helps soldiers by carrying crates during battle logistics.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            2,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a man holding a bear cub, introducing adoption. Step 2: Slice 2 shows the bear being handed from a woman to a soldier and integrated with troops. Step 3: Slice 4 shows the bear carrying a crate at a named battle. Conclusion: The relationship shifts from adoption to functional military help.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows the bear being handed over from a woman to a soldier, with earlier shots of the bear being held in a basket and by a person in uniform, indicating it is a cub being transferred to military care. Step 2: Slice 1 corroborates the early stage with a man holding a bear cub wrapped in a blanket, reinforcing the initial adoption/transfer during WWII. Step 3: Slice 4 depicts the bear later carrying a crate during the Battle of Monte Cassino (1944), clearly showing participation in military logistics. Logic holds because the narrative progresses from initial handover as a cub to active logistical support.",
+        "visual_proof": "Clip 1 (0:17-0:19) shows a man holding a small bear cub in a sling. Clip 2 (0:10-0:18) shows the cub being handed over to a soldier. Clip 3 (0:04-0:06, 0:17-0:18, 0:20-0:23) shows the fully grown bear, Wojtek, actively carrying large ammunition crates alongside soldiers at a military encampment during the Battle of Monte Cassino, 1944."
+    },
+    {
+        "question": "How is animal-related conflict portrayed differently across three eras: World War II, 1930s Australia, and medieval Europe?",
+        "answer": "In World War II a bear becomes a helpful mascot/laborer with soldiers; in 1930s Australia emus are portrayed as adversaries to soldiers; in medieval Europe pigs (and even a horse) are put into human legal proceedings and punished or judged.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            22,
+            81,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a bear carrying a crate with soldiers during a WWII battle. Step 2: Slice 22 shows soldiers aiming at emus, framing wildlife as an enemy in Australia. Step 3: Slice 81 shows a pig on trial before a judge in medieval settings. Step 4: Slice 89 shows a horse being presented to judges in a courtroom. Conclusion: The video contrasts animal roles across eras: helper, adversary, and legal defendant/subject.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly shows a WWII-labeled scene ('Battle of Monte Cassino, 1944') where a brown bear carries a crate to soldiers, implying helpful participation alongside soldiers. This supports 'a bear becomes a helpful ... laborer with soldiers.' Step 2: Slice 22 describes an early 20th-century Australian military context featuring soldiers aiming rifles at emus, highlighting conflict between humans and wildlife. While it does not explicitly say '1930s,' early 20th century encompasses the 1930s, and the adversarial portrayal of emus is clearly supported. Step 3: Slice 81 depicts a medieval/early modern European-style animal trial where a pig is judged and executed, directly supporting the claim that animals (pigs) are put into human legal proceedings and punished. Step 4: Slice 89 shows a courtroom scene with judges and a man presenting a horse, supporting the notion that even a horse is involved in a judicial or official proceeding (being judged). Logic holds: the answer summarizes the differing portrayals across the three eras—WWII (helpful bear), Australian 20th-century military vs emus (adversaries), and medieval Europe (animal trials and punishment)—all directly supported by the slices.",
+        "visual_proof": "Clip 1 shows a bear carrying ammunition for soldiers during the Battle of Monte Cassino, 1944. Clip 2 depicts Australian soldiers in the 1930s actively shooting at emus, portraying them as enemies. Clip 3 shows a pig being tried in a medieval courtroom and later hanging from a tree, while Clip 4 shows a horse being presented in a similar courtroom setting, confirming animals were subjected to legal proceedings."
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "question": "The same recurring yellow-capped man appears outdoors heading toward a building marked with an orange 'U' and later appears at an airport; what item is he carrying at the airport that is not highlighted in the university-area scene?",
+        "answer": "A bottle of water.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows the gray-shirt/yellow-shorts person walking toward the building with the orange 'U'. Step 2: Slice 47 shows the yellow-capped man walking in an airport queue carrying a bottle of water. Conclusion: At the airport he carries a water bottle, which is not noted in the earlier campus-like scene.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes an outdoor scene near a building with an orange 'U', showing a first individual in a gray t-shirt and yellow shorts walking toward the building; no item (like a bottle) is mentioned for him. Step 2: Slice 47 describes an airport scene where a man wearing a yellow cap and a dark T-shirt is explicitly carrying a bottle of water. Logic holds because the item (bottle of water) is clearly noted at the airport and not highlighted in the university-area scene, and minor descriptor differences are acceptable per instructions.",
+        "visual_proof": "In Clip 1, the yellow-capped man is seen outdoors near the 'U' sculpture without any visible items in his hands. In Clip 2, he is clearly holding a plastic bottle of water while walking through the airport terminal and later pulling his suitcase down the jet bridge."
+    },
+    {
+        "question": "Which recurring hat color links the man seen waving excitedly beside a black SUV in dense greenery with the man leading a group on a forest hike?",
+        "answer": "A yellow hat/cap.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            60,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows a man by a black SUV wearing a yellow hat, waving excitedly. Step 2: Slice 71 shows hikers including someone in a yellow cap in the foreground. Conclusion: The shared visual link is the yellow hat/cap.",
+        "logic_check_reasoning": "Step 1: Slice 60 states the man next to the black SUV is wearing a yellow hat. Step 2: Slice 71 states the person in the foreground (leading the hike) is wearing a yellow cap. Logic holds because both slices explicitly mention the headwear color as yellow, linking the two scenes despite hat vs. cap wording.",
+        "visual_proof": "In Video 1 (0:02-0:04), the man waving beside the black SUV is clearly wearing a yellow cap. In Video 2 (0:00-0:02), the man leading the group on the forest hike is also wearing an identical yellow cap. The consistent color and style of the hat across both clips visually link the two scenes."
+    }
+]

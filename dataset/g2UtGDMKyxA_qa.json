@@ -1,0 +1,15 @@
+[
+    {
+        "question": "The video ends with a title card naming an exhibition, and earlier a close-up of a shipwreck painting includes a visible signature reading a specific name and date. What is the exhibition name and how does the signature support the featured artist connection?",
+        "answer": "The exhibition is \"Winslow Homer Crosscurrents,\" and the signature \"Homer 1897\" supports that the shipwreck painting is by Winslow Homer.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            73,
+            95
+        ],
+        "reasoning_chain": "Step 1: Slice 73 zooms to a shipwreck painting signature that reads \"Homer 1897.\" Step 2: Slice 95 shows the title card \"Winslow Homer Crosscurrents.\" Conclusion: The signature aligns with the exhibition’s named artist, Winslow Homer.",
+        "logic_check_reasoning": "Step 1: Slice 95 states the exhibition name as \"Winslow Homer Crosscurrents,\" indicating Winslow Homer is the featured artist. Step 2: Slice 73 describes a close-up of the shipwreck painting’s signature reading \"Homer 1897.\" Step 3: The surname \"Homer\" on the painting matches the featured artist’s name from the exhibition title, supporting that the painting is by Winslow Homer.",
+        "visual_proof": "Clip 2 (0:01-0:06) displays a title card with the text \"WINSLOW HOMER CROSSCURRENTS.\" Clip 1 (0:06-0:09) shows a close-up of the painting's lower-left corner, where the signature \"Homer\" and the date \"1897\" are visibly painted. The direct association between the artist's name in the exhibition title and the signature on the artwork confirms the connection."
+    }
+]

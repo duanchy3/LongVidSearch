@@ -1,0 +1,43 @@
+[
+    {
+        "question": "How does the video connect women-themed Japanese art across time by showing Edo-period Utamaro portraits, later a Bijin-ga museum display, and then an identified female artist working on camera in archival footage?",
+        "answer": "It shows Utamaro’s bijin portraits, then a museum segment explicitly labeled BIJIN-GA, and later archival footage of Uemura Shōen painting, tying women-centered imagery to a woman artist’s practice.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            45,
+            73,
+            72,
+            78
+        ],
+        "reasoning_chain": "Step 1: The video presents Utamaro works focused on women (including domestic/calligraphy scenes). Step 2: It later shows museum-displayed paintings labeled \"BIJIN-GA.\" Step 3: Archival footage introduces \"UEMURA SHŌEN\" painting at an easel. Step 4: A quote about painting women (not merely for beauty) further emphasizes the thematic continuity. Conclusion: The connection is a through-line of women-centered imagery from Edo prints to modern-era exhibitions and a female painter’s documented practice.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows Kitagawa Utamaro’s works focused on women (e.g., 'Ten Studies in Female Physiognomy' and 'Practicing Calligraphy'), establishing Edo-period women-themed portraits. Step 2: Slice 73 displays a museum segment of paintings of women with the on-screen label 'BIJIN-GA,' confirming a curated focus on the genre. Step 3: Slice 72 presents black-and-white archival footage identifying Uemura Shōen and showing her painting, directly linking a female artist’s practice. Logic holds because each slice sequentially supports the elements: Utamaro’s women-focused art, a museum display explicitly labeled BIJIN-GA, and an identified female artist working on camera.",
+        "visual_proof": "Clip 1 displays Kitagawa Utamaro's 'Practicing Calligraphy' (1803). Clip 2 shows a museum display with the text 'BIJIN-GA' overlaid on images of women. Clip 3 presents black-and-white archival footage of Uemura Shōen painting, with her name and lifespan (1869-1949) displayed, confirming her identity as the artist shown."
+    },
+    {
+        "question": "After the video shows flames inside a pottery kiln, what kind of conflict imagery appears later in a long scroll painting?",
+        "answer": "A battle scene with soldiers/warriors fighting (including fire depicted in the battle).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            18
+        ],
+        "reasoning_chain": "Step 1: The pottery segment shows intense flames inside a kiln. Step 2: Later the camera pans across an ancient scroll painting depicting battles, with fires in the background. Conclusion: The later conflict imagery is a battle scene (with fire shown).",
+        "logic_check_reasoning": "Step 1: Slice 2 describes flames inside a pottery kiln. Step 2: Slice 18 describes an ancient Chinese scroll painting with repeated depictions of battle scenes, soldiers engaged in combat, and a large fire in the background. Logic holds because the question asks what conflict imagery appears later, and the scroll painting explicitly shows battles and fire.",
+        "visual_proof": "The first clip shows a pottery kiln with visible flames at 0:04. The second clip, starting from 0:09, displays a long scroll painting that clearly depicts a chaotic battle scene with numerous warriors on horseback and on foot, wielding weapons. Large plumes of red and orange fire and smoke are prominently featured within this battle scene, as seen in frames 0:13-0:15 and 0:21-0:23."
+    },
+    {
+        "question": "Which Japanese location name is shown in a scenic landscape view and then later appears again as a label on a black-and-white notice board for a monastery?",
+        "answer": "Kamakura.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            15
+        ],
+        "reasoning_chain": "Step 1: The video shows the Great Buddha of Kamakura and a coastal town view tied to that setting. Step 2: A notice board is shown for Kotoku-in Monastery in Kamakura, Japan. Conclusion: The recurring location is Kamakura.",
+        "logic_check_reasoning": "Step 1: Slice 16 centers on the Great Buddha of Kamakura and includes a panoramic, scenic coastal town view, associating the scene with Kamakura. Step 2: Slice 15 shows a close-up of a notice board at the Kotoku-in Monastery in Kamakura, Japan, implying the location name appears on the board. Logic holds because both slices explicitly tie the scenes to Kamakura, first in a scenic context and later via the monastery notice board.",
+        "visual_proof": "In Video 1, the scenic landscape view at 0:07 shows a coastal town with houses and the sea, which is visually identifiable as Kamakura. In Video 2, the black-and-white notice board at 0:00-0:05 clearly displays the text 'KOTOKU-IN MONASTERY KAMAKURA', confirming the location name."
+    }
+]

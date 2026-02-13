@@ -1,0 +1,150 @@
+[
+  {
+    "question": "What UNESCO-labeled place is shown, and which other historical site is later presented alongside multiple Paramaribo attractions in the travel-style segment?",
+    "answer": "Historic Inner City Paramaribo (UNESCO), and Fort Zeelandia.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      9,
+      10
+    ],
+    "reasoning_chain": "Step 1: Slice 9 shows “Historic Inner City Paramaribo (UNESCO).” Step 2: Slice 10 later features attractions including Fort Zeelandia. Conclusion: The UNESCO site is Historic Inner City Paramaribo, and the other historical site highlighted later is Fort Zeelandia.",
+    "logic_check_reasoning": "Step 1: Slice 9 explicitly mentions an image labeled 'Historic Inner City Paramaribo (UNESCO),' confirming the UNESCO-labeled place shown. Step 2: Slice 10 states the video begins with an image of Fort Zeelandia and then transitions to multiple Paramaribo attractions (Waterkant, Independence Square, etc.), showing Fort Zeelandia presented within the travel-style segment alongside these attractions. Logic holds because both slices consistently describe the presenter and content, and the named sites match the question.",
+    "visual_proof": "In Clip 1, at 0:05, an image of colonial-style buildings is shown with the explicit text overlay 'Historic inner city Paramaribo (UNESCO)'. In Clip 2, at 0:00, a separate image of a historic fort with a statue in front is displayed with the text 'Fort Zeelandia'. The video then proceeds to show other attractions like Waterkant and Independence Square, confirming that Fort Zeelandia is presented as another key historical site within the same travel segment."
+  },
+  {
+    "question": "Which animal is introduced with a specific label, and which different amphibian is later explained for its unusual egg-carrying reproduction?",
+    "answer": "The white-faced saki monkey; the Suriname toad.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      20,
+      24
+    ],
+    "reasoning_chain": "Step 1: Slice 20 shows an inset labeled “(White faced Saki).” Step 2: Slice 24 explains the Suriname toad laying eggs on its back. Conclusion: The labeled animal is the white-faced saki monkey, and the amphibian with unusual reproduction is the Suriname toad.",
+    "logic_check_reasoning": "Step 1: Slice 20 explicitly states that an image of a white-faced saki monkey appears with the text '(White faced Saki)' below it, indicating a specific labeled introduction. Step 2: Slice 24 describes a man explaining the Suriname toad's unique reproductive process where it carries eggs on its back, highlighting unusual egg-carrying reproduction. Logic holds because the question asks for the labeled animal (white-faced saki) and the amphibian later explained for its egg-carrying reproduction (Suriname toad), both directly supported by the slices.",
+    "visual_proof": "In Video 1, a picture of a monkey is shown with the explicit text label '(White faced Saki)'. In Video 2, a toad is introduced with the text 'Suriname Toad' and the narrator later explains its unique reproductive method where eggs are embedded in the mother's back, which is visually demonstrated with close-up shots of the toad's skin."
+  },
+  {
+    "question": "Which language is shown with the Suriname flag and the word “Dutch,” and which Creole language is later shown with the flag as well?",
+    "answer": "Dutch; Sranan Tongo (Creole).",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      33,
+      34
+    ],
+    "reasoning_chain": "Step 1: Slice 33 shows the Suriname flag with the label “Dutch.” Step 2: Slice 34 shows the Suriname flag with “Sranan Tongo (Creole).” Conclusion: The two languages highlighted are Dutch and Sranan Tongo.",
+    "logic_check_reasoning": "Step 1: Slice 33 explicitly states the Suriname flag is shown with the word 'Dutch' below it. Step 2: Slice 34 shows the Suriname flag again with the text 'Sranan Tongo (Creole)' above it. The same presenter and setting link the slices, and despite minor descriptive variance of the flag, both clearly reference Suriname. Therefore, the language with the flag is Dutch, and the later Creole shown is Sranan Tongo.",
+    "visual_proof": "In the first clip, the Suriname flag is displayed with the word 'Dutch' directly beneath it. In the second clip, the same Suriname flag appears again, this time with the text 'Sranan Tongo (Creole)' written below it. Both pieces of information are explicitly shown on screen alongside the flag."
+  },
+  {
+    "question": "Which year is highlighted for a “sports passport for those of Surinamese descent,” and which earlier slice introduces sports achievements by named Olympians?",
+    "answer": "2019; the segment highlighting athletes like Anthony Nesty and Letitia Vriesde.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      52,
+      50
+    ],
+    "reasoning_chain": "Step 1: Slice 52 displays “2019” with the note about a sports passport for those of Surinamese descent. Step 2: Slice 50 highlights Surinamese athletes’ Olympic achievements (e.g., Anthony Nesty, Letitia Vriesde). Conclusion: The policy year is 2019, and the earlier sports-achievement segment is the Olympians highlight.",
+    "logic_check_reasoning": "Step 1: Slice 52 explicitly displays the year '2019' along with the text '(Sports passport for those of Surinamese descent),' supporting the first part of the answer. Step 2: Slice 50 shows a segment highlighting athletes including Anthony Nesty and Letitia Vriesde and discusses their Olympic achievements, which matches the description of the earlier slice introducing sports achievements by named Olympians. Logic holds because Slice 50 precedes Slice 52 and contains the athletes mentioned.",
+    "visual_proof": "In Clip 1, at 0:20, the year '2019' is displayed next to a green checkmark and text that reads '(Sports passport for those of Surinamese descent)'. In Clip 2, starting at 0:04, images and text identifying Olympic swimmers Anthony Nesty (with his 1988 Gold and 1992 Bronze medals) and runner Letitia Vriesde (with her various championship medals) are shown, confirming this segment introduces their sports achievements."
+  },
+  {
+    "question": "Which leader is shown with a caption spanning 2010–2020 and an arrest warrant note, and which earlier slice first frames the 2010 political alliance associated with that leader?",
+    "answer": "Bouterse; the earlier “Megacombinatie Political alliance 2010” framing.",
+    "category": "Visual_Tracking",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      45,
+      43,
+      42
+    ],
+    "reasoning_chain": "Step 1: Slice 42 introduces the timeline reaching the 2010 elections. Step 2: Slice 43 shows “Bouterse” and “Megacombinatie Political alliance 2010.” Step 3: Slice 45 shows a caption “2010–2020” with “Arrest warrant Enacted” next to the leader image. Conclusion: The leader is Bouterse and the earlier framing is the Megacombinatie political alliance in 2010.",
+    "logic_check_reasoning": "Step 1: Slice 45 shows an image of a man in formal attire with the caption '2010–2020' and 'Arrest warrant Enacted,' but does not name him. Step 2: Slice 43 explicitly identifies 'Bouterse' alongside 'Megacombinatie Political alliance 2010,' establishing the leader and his 2010 political context. Step 3: The consistent presenter, setting, and topic across slices link the unnamed 2010–2020/arrest warrant image in Slice 45 to Bouterse from Slice 43. Therefore, the leader is Bouterse, and the earlier slice framing the 2010 political alliance is the segment described in Slice 43.",
+    "visual_proof": "Clip 1 shows a photo of Bouterse with text overlays including '2010-2020' and '(Arrest warrant Enacted)'. Clip 2, which appears earlier in the sequence, shows the same individual with the text 'Bouterse 2010' and 'Megacombinatie Political alliance', establishing the political context for the later period mentioned in Clip 1."
+  },
+  {
+    "question": "Which speaker is shown talking from a home setting early on, and which later appearance shows the same person again in a similar home environment?",
+    "answer": "Cyanne; she appears again later in a similar indoor/home setting.",
+    "category": "Visual_Tracking",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      16,
+      78,
+      65
+    ],
+    "reasoning_chain": "Step 1: Slice 16 shows Cyanne speaking in her home with a teal wall and shelf. Step 2: Slice 78 shows Cyanne again indoors with a teal wall and window/plants. Step 3: Slice 65 includes on-screen text mentioning “Barbs,” reinforcing that multiple guest segments appear, and helps distinguish guest-format from studio presenter. Conclusion: The repeated home-setting speaker is Cyanne, appearing in both early and later segments.",
+    "logic_check_reasoning": "Step 1: Slice 16 explicitly states that a woman named Cyanne is speaking to the camera in what appears to be her home (teal wall, shelf, window with curtains). Step 2: Slice 78 again shows a woman named Cyanne in a similar indoor setting with a teal wall, window, and home-like elements (plants, framed pictures). Logic holds because both slices name Cyanne and describe similar backgrounds, indicating an early home setting and a later similar appearance. Slice 65 depicts a different setup (black background, different attire) and is not relevant.",
+    "visual_proof": "Clip 1 and Clip 2 both feature the speaker named 'Cyanne' (as indicated by the on-screen text) in an identical home environment, characterized by a teal wall, a white shelf with a clock and picture, and various houseplants. The consistent background and on-screen name confirm it is the same person in the same setting across both clips. Clip 3 features a different speaker, 'Barbs', against a plain black background, confirming Cyanne is the one shown in the home setting."
+  },
+  {
+    "question": "Which later segment explicitly labels a cultural practice as a Kalina funeral, and which earlier segment lists Kalina among multiple indigenous groups being introduced?",
+    "answer": "The segment labeling Epekotono as a Kalina funeral; the earlier segment listing Kalina among indigenous groups (Kalina, Lokono, Arawak, Carib).",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      63,
+      62
+    ],
+    "reasoning_chain": "Step 1: Slice 62 lists indigenous groups including Kalina. Step 2: Slice 63 labels “Epekotono (Kalina Funeral).” Conclusion: The cultural practice is Epekotono, and it connects to the earlier introduction of Kalina among indigenous groups.",
+    "logic_check_reasoning": "Step 1: Slice 63 shows the text 'Epekotono (Kalina Funeral)' and discusses a cultural practice, explicitly labeling it as a Kalina funeral. Step 2: Slice 62 presents images of multiple indigenous groups and labels them, including 'Kalina' among 'Kalina, Lokono, Arawak, Carib.' Logic holds because Slice 63 is later and explicitly labels the funeral, while Slice 62 earlier lists Kalina among several groups.",
+    "visual_proof": "In Video 1 (later segment), the text 'Epekotono (Kalina Funeral)' is displayed next to an image of people in ceremonial attire. In Video 2 (earlier segment), images labeled 'Kalina', 'Lokono', 'Arawak', and 'Carib' are shown alongside the speaker, explicitly listing these groups."
+  },
+  {
+    "question": "Which channel branding appears as a title early in the video, and which later end-screen reinforces that viewers are watching an educational geography channel?",
+    "answer": "“Geography Now”; the “Thanks for watching!” outro with social media icons for the channel.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      2,
+      84
+    ],
+    "reasoning_chain": "Step 1: Slice 2 shows the animated title screen “Geography Now.” Step 2: Slice 84 shows the outro “Thanks for watching!” with social media icons, consistent with a channel end-screen. Conclusion: The branding is Geography Now, reinforced by the channel-style outro.",
+    "logic_check_reasoning": "Step 1: Slice 2 explicitly states that an animated title screen for 'Geography Now' appears early in the video. Step 2: Slice 84 describes the closing segment with a 'Thanks for watching!' outro and social media icons, and notes the channel is an educational geography channel. Logic holds because the early title branding is 'Geography Now' and the later end-screen is the thank-you message with social media icons, reinforcing the educational geography theme.",
+    "visual_proof": "In Clip 1, at 0:06, the title 'GEOGRAPHY NOW' appears prominently over a world map with cultural imagery, establishing the channel branding. In Clip 2, from 0:03 to 0:10, the end screen displays 'Thanks for watching!' along with social media icons (Instagram, Pinterest, Twitter, Facebook) and the channel’s logo, reinforcing that viewers are watching an educational geography channel."
+  },
+  {
+    "question": "Link the biodiversity thread across time: which frog is shown with a discovery note, which earlier segment introduces a monkey species, and which later segment explains an unusual toad reproduction method?",
+    "answer": "Blue poison dart frog (discovered 1969 in Suriname); white-faced saki monkey; Suriname toad laying eggs on its back.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      23,
+      20,
+      24,
+      22
+    ],
+    "reasoning_chain": "Step 1: Slice 20 introduces the white-faced saki monkey. Step 2: Slice 22 frames the broader biodiversity emphasis (~200 mammals, many birds, protected areas). Step 3: Slice 23 shows “Blue poison dart frog (Discovered 1969 in Suriname).” Step 4: Slice 24 explains the Suriname toad’s egg-carrying reproduction. Conclusion: The frog is the blue poison dart frog, the monkey is the white-faced saki, and the amphibian reproduction segment is the Suriname toad laying eggs on its back.",
+    "logic_check_reasoning": "Step 1: Slice 23 explicitly shows a blue poison dart frog with the text 'Blue poison dart frog (Discovered 1969 in Suriname),' confirming the frog and discovery note. Step 2: Slice 20 presents an image labeled '(White faced Saki),' introducing a monkey species in an earlier part of the video. Step 3: Slice 24 details the Suriname toad's unique reproduction method, stating it lays its eggs on its back and tadpoles develop there, matching the later segment description. The elements align across slices without needing external information.",
+    "visual_proof": "Clip 1 shows the 'Blue poison dart frog' with text stating '(Discovered 1969 in Sipaliwini)'. Clip 2 introduces the 'White faced Saki' with an image and label. Clip 3 features the 'Suriname Toad' with a close-up of eggs on its back and footage of tadpoles emerging, confirming the unusual reproduction method."
+  },
+  {
+    "question": "Connect the sequence: Which mountainous landmark is shown during the Guiana Shield explanation, and which later segment shows river-and-dam infrastructure that would be located within the same country being discussed?",
+    "answer": "Mount Roraima; the Suriname River infrastructure including Brokopondo Reservoir and Afobaka Dam.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      13,
+      14,
+      6
+    ],
+    "reasoning_chain": "Step 1: Slice 6 establishes the country focus as Suriname via an inset map. Step 2: Slice 13 shows the Guiana Shield explanation including Mount Roraima as a landmark in the broader region. Step 3: Slice 14 shows Suriname River features including Brokopondo Reservoir and the Afobaka Dam. Conclusion: The mountain landmark is Mount Roraima and the later infrastructure segment is the Suriname River/Brokopondo/Afobaka visuals.",
+    "logic_check_reasoning": "Step 1: Slice 13 describes the Guiana Shield explanation, explicitly showing Mount Roraima and noting a focus on Suriname within the Shield. Step 2: Slice 14 later highlights the Suriname River, Brokopondo Reservoir, and Afobaka Dam—river-and-dam infrastructure located in Suriname, the same country being discussed earlier. Logic holds because the first segment establishes Suriname within the Guiana Shield and shows Mount Roraima, and the later segment shows Suriname’s river-and-dam infrastructure.",
+    "visual_proof": "Clip 1 (0:02) visually identifies 'Mt Roraima' with a photo inset within the outlined Guiana Shield region. Clip 2 then details the 'Suriname River', which flows into the 'Brokopondo Reservoir' created by the 'Afobaka Dam', all located within the same geographical area (Suriname) highlighted in Clip 1."
+  },
+  {
+    "question": "Which country is first highlighted on a South America map and later reinforced by showing its national flag with a yellow star?",
+    "answer": "Suriname.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      5,
+      4
+    ],
+    "reasoning_chain": "Step 1: Slice 5 highlights Suriname on a map of South America. Step 2: Slice 4 shows the Suriname flag (yellow star on red/white/green). Conclusion: Both refer to Suriname.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 5 states the video starts with a map of South America highlighting Suriname in green, identifying the first highlighted country. Step 2: Evidence Slice 4 describes the presenter pointing to a flag that appears to be Suriname’s (yellow star on a red, white, and green background), reinforcing the same country via its national flag. Logic holds because both slices independently reference Suriname as the highlighted country and the flag shown, despite any minor caption inconsistencies elsewhere.",
+    "visual_proof": "In the first clip, Suriname is the first country highlighted on the map of South America at 0:00. Later, in the second clip at 0:06, the national flag of Suriname, which features a yellow star, is shown next to the speaker, reinforcing the identification."
+  }
+]

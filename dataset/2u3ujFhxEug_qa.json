@@ -1,0 +1,100 @@
+[
+    {
+        "question": "What geographic topic is used to connect the presenter’s globe explanation to the snowy expedition footage showing tents and an outpost with an American flag?",
+        "answer": "Antarctica / Antarctic exploration.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows the presenter zooming into Antarctica on the globe. Step 2: Slice 36 continues with Antarctica on the globe and then transitions to archival snowy expedition scenes with tents and a station flying an American flag. Conclusion: Antarctica is the connecting topic.",
+        "logic_check_reasoning": "Step 1: Slice 34 shows the presenter holding a globe with a close-up view specifically of Antarctica while explaining. Step 2: Slice 36 begins with a hand pointing at the globe highlighting Antarctica, then transitions to archival snowy expedition footage with tents and an American-flag outpost. Step 3: The recurring emphasis on Antarctica in the globe shots logically connects to the snowy expedition scenes, indicating the geographic topic is Antarctica/Antarctic exploration.",
+        "visual_proof": "The presenter explicitly points to and rotates the globe to focus on Antarctica, which is labeled with features like 'South Victoria Land' and 'Polar Plateau'. The subsequent expedition footage shows a snowy landscape with tents and an outpost flying the American flag, consistent with historical Antarctic expeditions. The visual transition from the globe's depiction of Antarctica to the real-world expedition footage directly connects the two segments under the topic of Antarctic exploration."
+    },
+    {
+        "question": "What South American location does the presenter point to on the globe that is later paired with a close-up map of that same feature?",
+        "answer": "The Guianas (specifically, the area including British Guiana, Suriname, and French Guiana).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            33,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows a finger pointing to the Falkland Islands on the globe. Step 2: Slice 29 mentions a close-up of the globe highlighting regions including South America and then shows a screenshot of a map of the region. Conclusion: The Falkland Islands are the pointed location later paired with a map close-up.",
+        "logic_check_reasoning": "Step 1: Slice 33 states the globe view focuses on southern South America and highlights features including the Falkland Islands; it explicitly notes a finger points to the Falkland Islands. Step 2: Slice 29 says the video later shows a screenshot of a map of the region after the globe segment. Logic holds because the question asks which South American location the presenter points to on the globe that is later paired with a close-up map; Slice 33 identifies the pointed feature as the Falkland Islands, and Slice 29 confirms a subsequent close-up map of the region, supporting the pairing.",
+        "original_text_answer": "The Falkland Islands.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the presenter points to the Falkland Islands. However, in Clip 2, after showing a different part of South America, the presenter's finger points to the region of the Guianas on the globe (around 0:14-0:18), specifically near British Guiana. This is immediately followed by a close-up map (0:19-0:21) that clearly displays Guyana, Suriname, and French Guiana, confirming this is the location being highlighted. The Falkland Islands are not paired with a separate close-up map in these clips."
+    },
+    {
+        "question": "Which brand/service name appears both as a title card earlier and later as part of a subscription advertisement that says it’s the best way to support the geography creator?",
+        "answer": "Nebula.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            80,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 80 shows a logo sequence with a blue star and the word “NEBULA.” Step 2: Slice 85 shows an ad mentioning “NEBULA” as the best way to watch and support Atlas Pro. Conclusion: The shared brand/service name is Nebula.",
+        "logic_check_reasoning": "Step 1: Slice 80 describes an opening title card where the word 'NEBULA' fades into view next to a blue star. Step 2: Slice 85 describes a subscription advertisement for Atlas Pro in which 'NEBULA' appears prominently with the tagline 'The best way to watch and support Atlas Pro,' and Atlas Pro is associated with geography-related content. Logic holds because the same brand/service name 'NEBULA' appears both in the early title card and later in the subscription ad that claims it's the best way to support the geography creator.",
+        "visual_proof": "In Video 1 (0:02-0:03), the word 'NEBULA' appears as a title card next to a star logo. In Video 2 (0:01-0:10), the same 'NEBULA' logo and name appear in the subscription advertisement text that reads 'The best way to watch and support Atlas Pro,' confirming it is the brand/service name appearing in both contexts."
+    },
+    {
+        "question": "What is the specific Canadian region that appears first as a labeled map highlight and later as a detailed globe close-up during the presenter’s explanation?",
+        "answer": "Labrador (and the Newfoundland and Labrador area).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 23 highlights Labrador on a map. Step 2: Slice 27 shows a globe close-up focusing on Newfoundland and Labrador while the presenter speaks. Conclusion: The recurring region is Labrador / Newfoundland and Labrador.",
+        "logic_check_reasoning": "Step 1: Slice 23 states the video starts with a close-up highlighting the region of Labrador in Canada on a map. Step 2: Slice 27 states the globe close-up focuses on the eastern coast of Canada, specifically the provinces of Newfoundland and Labrador. Logic holds because the first highlight is Labrador, and the later detailed globe view is Newfoundland and Labrador, which includes Labrador, matching the proposed answer.",
+        "visual_proof": "In Clip 1, a map highlights 'LABRADOR' in yellow with 'Cartwright' marked within it. In Clip 2, the presenter rotates a globe to show the same region, with 'LABRADOR' and 'NEWFOUNDLAND' clearly labeled on the globe's surface, confirming the specific Canadian region is Labrador and its surrounding area."
+    },
+    {
+        "question": "In the Antarctica portion, what labeled place on the globe is emphasized that aligns with later shots of an American-flag outpost and expedition camps?",
+        "answer": "Little America (near the Ross Sea).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            37,
+            36,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 35 introduces Antarctic geographic labels on an old globe. Step 2: Slice 36 transitions from Antarctica on the globe to archival expedition tents and an outpost flying an American flag. Step 3: Slice 37 zooms in on the globe labels “Ross Sea” and “Little America,” matching the U.S.-linked Antarctic expedition imagery. Conclusion: The emphasized place is Little America.",
+        "logic_check_reasoning": "Step 1: Slice 37 explicitly states the globe focuses on a region labeled \"Ross Sea\" and \"Little America,\" with the camera zooming in to emphasize these labels. Step 2: Slice 36 later shows black-and-white archival footage of expedition camps and a small wooden structure with an American flag, indicating an American outpost. Step 3: The question asks which labeled place on the globe in the Antarctica portion is emphasized that aligns with these later shots. The emphasized label \"Little America\" directly matches the theme of an American-flag outpost and expedition camps. The mention of the Ross Sea in Slice 37 supports the \"near the Ross Sea\" detail.",
+        "visual_proof": "Clip 1 and Clip 2 show close-ups of a globe where 'Little America' is clearly labeled near the 'Ross Sea'. In Clip 2, the presenter points directly at this location. This is visually linked to historical black-and-white footage immediately following, which shows an American flag flying over a base and expedition tents in a snowy landscape, consistent with the 'Little America' expeditions led by Admiral Byrd."
+    },
+    {
+        "question": "Which four-part chain shows the presenter moving from a colonial-era label on a vintage globe, to a modern political/historical reference, to a contemporary search about independence movements, and then back to South Asia historical imagery?",
+        "answer": "Colonial labels on Africa (e.g., Rhodesia) → WWII/Nazi-related imagery tied to history → Google searches about independence → India/South Asia historical flag crowd imagery.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            18,
+            63,
+            87,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows colonial-era African labels like Rhodesia/Tanganyika on a vintage globe. Step 2: Slice 63 juxtaposes Nazi imagery with a close-up map of Southern Rhodesia (Salisbury), linking colonial/postwar history themes. Step 3: Slice 87 shows Google searches shifting among independence topics (e.g., Congo independence, Indian independence movement). Step 4: Slice 38 shows South Asia on the globe followed by a historic crowd waving the Indian flag. Conclusion: The chain connects colonial-era cartography → 20th-century history cues → independence research → South Asia independence imagery.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows a vintage globe with colonial-era labels such as Rhodesia, Tanganyika, and Nyasaland, matching 'Colonial labels on Africa.' Step 2: Slice 63 shows a man with a Nazi armband and then a focus on Southern Rhodesia, fitting 'WWII/Nazi-related imagery tied to history.' Step 3: Slice 87 depicts a Google search interface focusing on independence movements (Congo and Indian independence), aligning with 'Google searches about independence.' Step 4: Slice 38 transitions to South Asia with a historical black-and-white image of a crowd waving the Indian flag, matching 'India/South Asia historical flag crowd imagery.' The chain is logically consistent and fully supported by the provided slices.",
+        "visual_proof": "Clip 1 shows a vintage globe with colonial-era names like 'North Rhodesia' and 'Tanganyika'. Clip 2 transitions to black-and-white footage of Hitler in a car, representing WWII/Nazi history. Clip 3 displays Google search results for 'indian independence' and 'british guiana independence', indicating modern political/historical research. Clip 4 returns to South Asia with the presenter showing India/Pakistan on the globe, followed by archival footage of the Indian flag being raised over a crowd, confirming the historical imagery of India's independence."
+    },
+    {
+        "question": "What evidence suggests the globe being discussed is a purchased vintage item, combining the price tag, the manufacturer marking, and the online search about the brand?",
+        "answer": "A visible $8.00 price tag, the base label “THE OHIO ART CO.,” and a Google search for Ohio Art Company globes showing vintage listings.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            51,
+            53,
+            56,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows a price tag on the globe reading $8.00. Step 2: Slice 53 shows the globe base with the logo “THE OHIO ART CO.” Step 3: Slice 56 shows a Google search about globe companies/products, reinforcing that he’s researching the item. Step 4: Slice 74 shows a close-up of a decorative compass rose on the globe, consistent with examining a specific vintage globe’s features. Conclusion: These combine to indicate it’s a purchased vintage globe being researched and inspected.",
+        "logic_check_reasoning": "Step 1: Slice 51 shows a close-up of a price tag on the globe reading \"$8.00 AL,\" indicating a visible purchase price. Step 2: Slice 53 presents a close-up of the globe’s base with the circular logo \"THE OHIO ART CO.,\" identifying the manufacturer. Step 3: Slice 53 also shows a Google search for \"the ohio art company globe,\" with results and listings highlighting vintage Ohio Art Company globes, including a \"Vintage 1960s Metal Zodiac World Globe.\" Logic holds because these pieces collectively suggest the globe is a purchased item (price tag), from a specific manufacturer (Ohio Art), and associated with vintage models (search results).",
+        "visual_proof": "Clip 1 shows a close-up of a handwritten '$8.00' price tag on the globe. Clip 2 reveals a circular manufacturer's mark on the globe reading 'THE OHIO ART CO. MADE IN OHIO U.S.A.'. Clip 3 displays a Google Image Search for 'the ohio art company globe,' which returns numerous results for vintage globes from the 1960s, confirming its status as a collectible vintage item."
+    }
+]

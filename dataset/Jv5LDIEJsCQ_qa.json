@@ -1,0 +1,16 @@
+[
+    {
+        "question": "After Senegal’s new president is sworn in, the video shifts to a discussion of Senegal’s energy projects and renegotiating oil and gas deals. Which newly sworn-in leader is associated with those renegotiation plans?",
+        "answer": "Bassirou Diomaye Faye.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 22 frames the topic as Senegal’s new president being sworn in. Step 2: Slice 24 shows the inauguration/swearing-in visuals with the 'new president sworn in' caption. Step 3: Slice 25 discusses 'FAYE WANTS TO RENEGOTIATE OIL, GAS DEALS' and Senegal energy hopes. Conclusion: The renegotiation plans are associated with Bassirou Diomaye Faye.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly shows a Bloomberg segment about Senegal's new president and states in the lower third: 'FAYE IS AFRICA'S YOUNGEST DEMOCRATICALLY-ELECTED LEADER' and 'SENEGAL'S NEW PRESIDENT SWORN IN,' identifying the newly sworn-in leader as 'Faye.' Step 2: Slice 24 continues to show the swearing-in, reinforcing that a new president has been inaugurated (no new name info). Step 3: Slice 25 explicitly states in the lower third: 'FAYE WANTS TO RENEGOTIATE OIL, GAS DEALS,' directly associating the renegotiation plans with 'Faye.' Despite a likely noisy identification of a different name in Slice 25, the consistent on-screen text links the renegotiation plans to the newly sworn-in leader 'Faye.' The proposed answer 'Bassirou Diomaye Faye' matches the 'Faye' identified in the captions.",
+        "visual_proof": "The video explicitly links the newly sworn-in president to the renegotiation plans. Clip 1 introduces 'FAYE IS AFRICA'S YOUNGEST DEMOCRATICALLY-ELECTED LEADER' and 'SENEGAL'S NEW PRESIDENT SWORN IN'. Clip 2 shows the president, identified as Bassirou Diomaye Faye by the on-screen text at 0:00, being sworn in. Clip 3 then displays a graphic titled 'SENEGAL ENERGY HOPES' followed by a split-screen interview with the on-screen text 'FAYE WANTS TO RENEGOTIATE OIL, GAS DEALS', directly associating President Faye with the energy renegotiation plans."
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "question": "What exact product name and price shown on a bakery sign connects to the later moment when a man is seen eating outdoors by the lake?",
+        "answer": "Rosemary & seasalt focaccia priced at £3.50.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            53,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 53 shows a bakery sign reading “Rosemary & Feta Flatbreads” with a £3.50 price. Step 2: Slice 61 shows a man eating a pastry/snack outdoors, implying food purchased earlier. Conclusion: The named bakery item and price is Rosemary & Feta Flatbreads for £3.50.",
+        "logic_check_reasoning": "Step 1: Slice 53 explicitly shows a bakery sign reading \"Rosemary & Feta Flatbreads\" priced at £3.50. Step 2: Slice 61 shows a man (glasses, white shirt) eating outdoors by a lake, connecting the scenes thematically. The question asks for the exact product name and price from the bakery sign tied to the later outdoor scene. The provided answer matches the text and price shown in Slice 53.",
+        "original_text_answer": "“Rosemary & Feta Flatbreads” priced at £3.50.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, a sign clearly reads 'Rosemary & seasalt focaccia' with a price of '£3.50'. In Clip 2, the same man from Clip 1 is seen outdoors by a lake, opening a pastry box. While he is eating, there is no visual evidence that he is consuming the specific focaccia shown in Clip 1; he is eating a different baked good (a chocolate-topped pastry). However, the question asks for the product name and price *shown on the bakery sign* that connects to the later moment, which is visually verifiable as 'Rosemary & seasalt focaccia' at £3.50."
+    },
+    {
+        "question": "Which place is shown both at the very beginning as an architectural highlight and later again as the backdrop while a woman walks along a dirt path?",
+        "answer": "A stone church.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 1 opens with a traditional stone church being panned around. Step 2: Slice 45 shows a woman walking on a dirt path with an old stone church behind her. Conclusion: The repeated location is the stone church.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the video opens by showcasing a traditional stone church with a steeply pitched roof and arched windows as an architectural highlight. Step 2: Slice 45 describes a later scene where a woman walks on a dirt path with an old stone church with a pointed roof and arched windows in the background, surrounded by hedges and trees. Logic holds because both slices consistently describe the same type of building—a stone church with matching features—featured at the beginning and later as the backdrop.",
+        "visual_proof": "In the first frame of Video 1 (0.2 seconds), a stone church with Gothic-style windows and a pitched roof is prominently featured as an architectural highlight. Later, in Video 2 (frames 0.2-1.2), the same stone church appears again in the background as a woman walks along a dirt path through a grassy area with gravestones, confirming its recurring presence as both an initial highlight and a later backdrop."
+    },
+    {
+        "question": "Across three points in the video, what common road-border feature repeats in rural travel scenes: early open countryside road shots and later driving through narrow lanes?",
+        "answer": "Stone walls lining the road.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            63,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a dirt road flanked by stone walls. Step 2: Slice 63 shows a narrow paved road with an ivy-covered stone wall. Step 3: Slice 91 shows a driving view with high stone walls on both sides. Conclusion: Stone walls repeatedly border the roads.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes an unpaved rural road flanked by traditional stone walls, indicating stone walls border the early countryside scene. Step 2: Slice 63 notes a narrow paved road with a stone wall on the left side (and a wooden fence on the right), confirming the presence of a stone wall along the road in another scene. Step 3: Slice 91 states that a narrow lane is bordered by high stone walls on both sides, reinforcing the repeated feature in later driving through narrow lanes. Logic holds because all slices include stone walls as road-border elements across different points in the video.",
+        "visual_proof": "In Clip 1, a low dry-stone wall runs along the left side of the open country road. In Clip 2, a taller stone wall is visible on the left as the road curves through trees. In Clip 3, high stone walls flank both sides of the narrow village lane, with one wall forming part of a building’s facade. Stone walls are consistently present in all three scenes."
+    },
+    {
+        "question": "How does the mode of movement shift from walking through village paths to traveling on roads by vehicle later, and what clues indicate each mode?",
+        "answer": "It shifts from on-foot walking (feet/legs visible and slow pace) to driving in a car (windshield/dashboard view and moving road scenery).",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            19,
+            80,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows first-person walking with legs and shoes visible. Step 2: Slice 80 again shows first-person walking focused on feet on pavement. Step 3: Slice 96 shows a dashboard/windshield view while driving on a narrow road. Conclusion: The video shifts from walking to driving, evidenced by viewpoint changes.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes a first-person walk along a grassy path toward a village, explicitly noting visible legs/feet and a natural, slow, immersive pace—clear clues of on-foot movement. Step 2: Slice 80 further shows a first-person walk on pavement, again focusing on feet/lower legs and a steady, unhurried pace—reinforcing the walking mode. Step 3: Slice 96 shows a car driving on a rural road, with the view from inside the vehicle including the dashboard and windshield and the moving road scenery—clear clues of vehicle travel. Logic holds because the context explicitly transitions from walking to driving, and the proposed answer correctly identifies the visual indicators for each mode.",
+        "visual_proof": "Clip 1 shows a first-person view of legs and feet walking on a narrow dirt path, indicating pedestrian movement. Clip 2 continues this with a top-down view of two pairs of feet walking on pavement, confirming the walking mode. Clip 3 transitions to a view from inside a vehicle, showing the dashboard and windshield with a road ahead lined by stone walls and trees, clearly indicating travel by car."
+    }
+]

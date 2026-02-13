@@ -1,0 +1,177 @@
+[
+    {
+        "question": "During the beach day, what food is bought before heading to the shore, and what activity do the friends set up once they are on the sand?",
+        "answer": "They buy bagels (Celebrity Bagels) and then set up a spikeball net.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a bagel shop (Celebrity Bagels) as part of the beach day sequence. Step 2: Slice 41 shows friends setting up a spikeball net on the beach. Conclusion: Bagels come first, spikeball setup happens on the beach.",
+        "logic_check_reasoning": "Step 1: Slice 39 shows a visit to a bagel shop with references to 'Celebrity Bagels' and later a person carrying a bag labeled 'Celebrity Bagels for da road,' indicating bagels were bought before heading to the beach. Step 2: Slice 41 describes friends on the beach setting up a spikeball net. Logic holds because Slice 39 covers the pre-beach food purchase and Slice 41 covers the beach activity.",
+        "visual_proof": "Clip 1 shows the interior of 'Celebrity Bagels' with a menu board and a close-up of a bagel sandwich, with text overlay stating '-celebrity bagels for da road'. Clip 2 shows a group of friends on the beach actively assembling a spikeball net, with text overlay confirming '- setting up the spikeball net'."
+    },
+    {
+        "question": "Which repeated leisure game appears first at the beach and later again on a campus near a Gothic-looking building?",
+        "answer": "Spikeball.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows friends setting up a spikeball net on the beach. Step 2: Slice 89 shows a spikeball game in front of a Gothic-style campus building. Conclusion: The same game is spikeball.",
+        "logic_check_reasoning": "Step 1: Slice 41 explicitly describes a group at the beach setting up and preparing to play spikeball. Step 2: Slice 89 explicitly describes a group playing spikeball on a campus in front of a Gothic-style building. Logic holds because the same game—spikeball—is mentioned in both locations, indicating it appears first at the beach and later on the campus.",
+        "visual_proof": "Clip 1 shows a group of people on a beach setting up and playing with a circular net, which is characteristic of Spikeball. The text overlay explicitly mentions 'setting up the spikeball net'. Clip 2 shows a different group of people on a grassy campus lawn playing the same game with the identical circular net in front of a Gothic-style building. The text overlay also references '(bad spikeball...)', confirming the game's identity in both scenes."
+    },
+    {
+        "question": "In the painting hangout, what animal appears observing the artwork, and later what is the name of the cat mentioned as being brought to campus?",
+        "answer": "A cat appears observing the paintings, and the cat later named is Kayla.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a cat sitting on the table watching the paintings. Step 2: Slice 64 identifies the adopted cat by name as Kayla and mentions bringing her to campus. Conclusion: The animal is a cat, and later it is named Kayla.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 13 states that in the painting scene, there is a cat sitting on the table observing the paintings. Step 2: Evidence Slice 64 mentions a cat named Kayla with text overlay indicating she is coming to campus. Logic holds because the first asks for the animal in the painting hangout (a cat) and the second asks for the name of the cat being brought to campus (Kayla).",
+        "visual_proof": "In Clip 1, a tabby cat is clearly visible sitting on the table next to the artwork at timestamps 0:03-0:05 and 0:09-0:11. The subtitle at 0:03 explicitly names the cat 'Kayla'. In Clip 2, the same cat is shown cuddling with a person, and the subtitle at 0:00 confirms this is 'Kayla, who I adopted almost a year ago,' followed by a note at 0:01 that she is 'coming with me to campus btw!'."
+    },
+    {
+        "question": "What device-related activity is shown in the tech-focused segment, and what art-related activity shown earlier involves paint palettes and brushes?",
+        "answer": "Electronics repair/working on electronic components, and watercolor/painting at a table with palettes and brushes.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows hands using a tool on electronic components in an instructional repair/assembly style. Step 2: Slice 7 shows two people painting with watercolor using palettes and brushes. Conclusion: The video includes both electronics tinkering and a painting session.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a tech-focused segment with close-up shots of hands using a small tool (possibly a screwdriver) on an electronic device or circuit board, with an instructional tone, indicating electronics repair/working on electronic components. Step 2: Slice 7 depicts two people painting with watercolor paints, using paint palettes and brushes at a table, clearly showing an art-related activity involving those materials. Logic holds because each slice explicitly states the respective activities.",
+        "visual_proof": "Clip 1 shows hands using a small tool to work on the internal circuit board of a disassembled device, which is consistent with electronics repair. Clip 2 clearly depicts two individuals sitting at a table with paint palettes, tubes of paint, brushes, and paper, actively engaged in painting, which matches the description of watercolor/painting."
+    },
+    {
+        "question": "What activity happens on a lake at the start of the summer timeline, and what later ocean activity includes watching wildlife near a boat?",
+        "answer": "People pedal a green boat on a lake, and later they watch dolphins swimming near a boat in the ocean.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a group riding a green pedal boat on a lake. Step 2: Slice 46 shows dolphins swimming near a boat in the ocean. Conclusion: The video contrasts early lake boating with later ocean wildlife viewing.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly describes the beginning of summer with people riding a green pedal-powered boat on a lake, confirming the lake activity at the start of the summer timeline. Step 2: Slice 46 clearly details an ocean scene where a boat approaches dolphins and the focus is on watching dolphins swim near the boat, confirming an ocean activity involving wildlife near a boat. Logic holds because both activities are directly described: pedaling a green boat on a lake during the start of summer, and later viewing dolphins near a boat in the ocean.",
+        "visual_proof": "Clip 1 shows people pedaling a green paddle boat on a lake with text indicating 'the beginning of summer'. Clip 2 shows an ocean scene with boats and text overlays like '*at dolphins*' and 'WHAT there's multiple!!!', confirming the activity of watching dolphins near a boat."
+    },
+    {
+        "question": "What indoor physical activity happens in a garage/basement, and what later physical activity appears in the split-screen montage as a partnered movement in a studio?",
+        "answer": "Trampoline jumping and a playful push, and later a partnered push-up or plank position on the floor.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows people doing energetic trampoline jumps and flips indoors. Step 2: Slice 70’s right panel shows a supported backbend in a studio space. Conclusion: Two distinct physical activities are trampoline acrobatics and studio partnered movement.",
+        "logic_check_reasoning": "Step 1: Slice 35 describes a man and another person jumping on a green trampoline in what appears to be a garage or basement, with the man performing flips and spins. This supports 'trampoline jumping and flips' indoors in a garage/basement. Step 2: Slice 70's right panel shows two people in a dance studio where one performs a backbend supported by another, clearly a partnered movement in a studio. The logic holds because the first activity is explicitly in a garage/basement with trampoline and flips, and the later montage includes a partnered backbend in a studio.",
+        "original_text_answer": "Trampoline jumping and flips, and later a partnered backbend in a dance studio.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, a man is clearly jumping on a small trampoline in a basement/garage setting, and another man joins him to playfully push him. In Clip 2's split-screen montage, the right panel shows two people on the floor in what appears to be a partnered push-up or plank position, not a backbend in a dance studio."
+    },
+    {
+        "question": "In Williamsburg, what kind of landmark is used for playful posing, and later in New York, what kind of gesture is used for a photo against the skyline?",
+        "answer": "A statue is used for playful posing, and a heart shape is formed with hands against the skyline.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows someone mimicking a statue’s pose by extending an arm. Step 2: Slice 58 shows two hands forming a heart against the NYC skyline. Conclusion: Williamsburg features statue posing; NYC features a hand-heart photo gesture.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 21 describes a person named Helena playfully posing by mimicking the posture of a large statue, indicating the landmark used for playful posing is a statue. Step 2: Evidence Slice 58 describes two hands forming a heart shape against the New York City skyline, indicating the gesture used for the photo is a heart made with hands. Logic holds because both elements directly match the proposed answer.",
+        "visual_proof": "In Clip 1, a woman is seen posing playfully next to a large statue on a pedestal in a park-like setting, with another person giving her posing instructions. In Clip 2, two hands are shown forming a heart shape in the foreground, with a blurred city skyline (identifiable as New York) in the background, indicating the gesture is being used for a photo."
+    },
+    {
+        "question": "What mode of transportation is used to arrive in Williamsburg, and what later mode is used to reach New Jersey?",
+        "answer": "They take an Amtrak train to Williamsburg and later take a train to New Jersey.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 15 explicitly says they are taking the Amtrak to Virginia/Williamsburg. Step 2: Slice 33 says they are taking the train to New Jersey to visit university friends. Conclusion: Williamsburg is reached by Amtrak, and New Jersey is reached by train as well.",
+        "logic_check_reasoning": "Step 1: Slice 15 explicitly states \"- taking the amtrak down to virginia!\" and ends with the Williamsburg station sign, indicating arrival in Williamsburg by Amtrak train. Step 2: Slice 33 states \"- taking the train to new jersey to visit our uni friends from there,\" indicating the mode to reach New Jersey is a train. Although a car ride is shown after arrival, the caption confirms the train as the transportation to New Jersey. Therefore, both parts of the proposed answer are directly supported.",
+        "visual_proof": "Clip 1 shows the interior of a train with text stating '- taking the amtrak down to virginia!' and ends with a shot of the 'WILLIAMSBURG' station sign. Clip 2 shows exterior shots of train tracks and overhead wires with text stating '- taking the train to new jersey to visit our uni friends from there', confirming both legs of the journey were by train."
+    },
+    {
+        "question": "What is the destination shown during the July trip to visit an old friend, and what later destination is labeled during the July 30 trip to visit college friends?",
+        "answer": "Williamsburg and New Jersey.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 14 labels 'williamsburg' and mentions visiting an old friend. Step 2: Slice 33 labels 'new jersey' and mentions visiting college friends. Conclusion: The two destinations are Williamsburg and New Jersey.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows text 'williamsburg' along with 'july 22-24' and 'visiting my old friend baylee,' indicating the destination for the July trip to visit an old friend is Williamsburg. Step 2: Slice 33 shows 'new jersey' prominently with 'july 30' and 'visiting college friends :)', indicating the later destination labeled during the July 30 trip is New Jersey. Logic holds because each slice explicitly labels the location and purpose/date of the trip.",
+        "visual_proof": "The first clip shows a title card with 'williams burg' and text 'visiting my old friend baylee', indicating the destination. The second clip shows a title card with 'new jersey' and text 'visiting college friends :)', indicating the later destination."
+    },
+    {
+        "question": "What is the shared theme expressed in June about social connections, and how is that theme echoed later during an outdoor meal scene?",
+        "answer": "The theme is 'friends old and new,' echoed later by the message 'with old friends and new' during the picnic meal.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 3 explicitly frames June 2021 as 'friends old and new.' Step 2: Slice 71 overlays 'with old friends and new :) home is who you make with people' during an outdoor meal. Conclusion: The same friendship theme is repeated later.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly states the June 2021 video features the text 'friends old and new <3,' establishing a theme centered on social connections. Step 2: Slice 71 describes an outdoor picnic scene with a text overlay reading 'with old friends and new :) home is who you make with people,' which directly echoes the same theme during the meal. Logic holds because both slices use the same phrase and context of friendship, showing continuity.",
+        "visual_proof": "In Clip 1, the text 'june 2021' and 'friends old and new <3' is displayed on screen. In Clip 2, during an outdoor picnic scene, the subtitle reads 'with old friends and new. ;)'. This directly connects the stated theme from June to the later scene."
+    },
+    {
+        "question": "What location is reached by train where a friend gives a historic-style tour, and what later city is viewed from a high observation deck?",
+        "answer": "Williamsburg is reached by train for the tour, and New York City is viewed from the observation deck.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            20,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows traveling by Amtrak and arriving at Williamsburg station. Step 2: Slice 20 shows a woman giving an orientation/tour with historic facts at buildings/landmarks. Step 3: Slice 57 shows 'new york skyline' and a group on an observation deck. Conclusion: Train-to-Williamsburg for the tour; later NYC skyline from an observation deck.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows the traveler taking an Amtrak to Virginia and arriving at the Williamsburg station, visiting an old friend who is a senior at William & Mary, establishing Williamsburg as the location reached by train. Step 2: Slice 20 shows the friend (Baylee) giving an orientation-style, history-focused tour about buildings and cannons, supporting the 'historic-style tour' in Williamsburg. Step 3: Slice 57 depicts views of the New York skyline from an observation deck with text 'in the big apple (again),' clearly indicating New York City is viewed later from a high observation deck. The logic connects the train arrival and tour in Williamsburg with the later NYC observation deck view.",
+        "visual_proof": "Clip 1 shows a train arriving at 'WILLIAMSBURG' station with text indicating a visit to an old friend there. Clip 2 features a person giving a tour in front of historic brick buildings, consistent with Williamsburg's colonial architecture. Clip 3 displays a panoramic view of the New York City skyline from a high vantage point, labeled 'new york skyline', confirming the second location."
+    },
+    {
+        "question": "Across the Williamsburg trip, what historical setting is described, what playful statue-pose happens afterward, and what other nature spot is shown later on the same trip?",
+        "answer": "Williamsburg is described as a preserved colonial town; later someone mimics a statue’s pose; later a wooden dock over calm water is shown.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            17,
+            21,
+            23,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 17 states Williamsburg is known for historical preservation of the colonial town. Step 2: Slice 21 shows a playful interaction where someone mimics a statue pose. Step 3: Slice 23 shows a wooden dock extending into calm water on/near campus. Step 4: Slice 26 continues the 'exploring williamsburg' fun outdoors in nature. Conclusion: The trip moves from colonial-history context to playful posing to serene water/nature spots.",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly states via on-screen text that \"Williamsburg is known for its historical preservation of the colonial town,\" describing the historical setting. Step 2: Slice 21 shows an individual (Helena) playfully mimicking a statue's posture by extending her arm, which matches \"someone mimics a statue’s pose.\" Step 3: Slice 23 shows a wooden dock extending into a calm body of water, fitting \"a wooden dock over calm water.\" Logic holds because the slices collectively depict a trip to Williamsburg with these events occurring across different scenes.",
+        "visual_proof": "Clip 1 shows a sign reading 'Welcome to Williamsburg, A Preserve America Community' with text overlay stating it's known for historical preservation. Clip 2 shows a woman posing next to a statue with the subtitle 'baylee: put your *imposing* til more!' and then 'the opposite one - yeah there you go!', indicating she is mimicking or playfully posing with the statue. Clip 3 ends with a shot of a wooden dock extending over calm water, with the subtitle 'link: ok! where do I go?', confirming it's part of the same trip."
+    },
+    {
+        "question": "What animal is shown lounging at home near the end-of-summer farewell theme, and what later scene shows that same pet present while someone studies on a laptop in the new campus setting?",
+        "answer": "A cat, and later the cat is shown near the studying setup as 'Kayla content.'",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            63,
+            64,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 63 includes a cat lounging on a rug during the 'saying goodbye' themed montage. Step 2: Slice 64 identifies the cat as Kayla and says she’s coming to campus. Step 3: Slice 87 shows the cat in the room while the woman studies, labeled as Kayla content. Conclusion: The cat appears across farewell-at-home and later campus life.",
+        "logic_check_reasoning": "Step 1: Slice 63 describes the end-of-summer farewell theme and explicitly shows a cat lounging on a patterned rug, confirming the animal is a cat. Step 2: Slice 64 identifies the cat as Kayla and mentions she will come to campus in the fall, linking the pet to a campus move. Step 3: Slice 87 shows a woman studying on a laptop with text '(and kayla content)' and the cat lying nearby, confirming the same pet is present during a studying scene. The logic holds because the cat appears in the farewell-themed segment and later is shown during a laptop-studying scene, with text referencing Kayla.",
+        "visual_proof": "In Clip 1 (0:37-0:40), a tabby cat named Kayla is shown sleeping on a bed and walking on a rug. In Clip 2 (0:00-0:03), the same cat is seen cuddling with the person in bed. In Clip 3 (0:03-0:04), the cat is shown lying on the desk next to a laptop while the person studies, with the text '(and kayla content)' overlaid, confirming its presence in the new setting."
+    }
+]

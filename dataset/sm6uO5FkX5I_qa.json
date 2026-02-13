@@ -1,0 +1,151 @@
+[
+    {
+        "question": "Which ingredient is chopped first and then later shown being fried for about one minute?",
+        "answer": "Onion.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows an onion being cut on a wooden cutting board. Step 2: Slice 50 shows diced onions being sautéed with the instruction to fry about 1 minute. Conclusion: The chopped ingredient later fried for ~1 minute is onion.",
+        "logic_check_reasoning": "Step 1: Slice 46 shows an onion being cut on a wooden cutting board, with on-screen text 'Onion - 1 pc,' indicating the ingredient being prepared. Step 2: Slice 50 shows diced onions being sautéed in a pan, with on-screen text 'Fry ~1 minute' (and its German translation), indicating the cooking duration. Logic holds because the ingredient prepared (onion) in Slice 46 is later shown being fried for about one minute in Slice 50.",
+        "visual_proof": "Clip 1 visually shows a person chopping a white onion on a wooden board, with text overlays confirming 'Onion - 1 pc' and 'Zwiebel - 1 Stk'. Clip 2 then shows finely diced onions being stirred in a frying pan, with text overlays indicating they are being fried for approximately one minute ('Fry ~1 minute', 'Etwa 1 Minute braten'). The sequence confirms the same ingredient (onion) is first chopped and then fried."
+    },
+    {
+        "question": "Two separate parts of the video instruct soaking potatoes in water for about 15 minutes. In what form are the potatoes prepared in each case?",
+        "answer": "First as thin mandoline-sliced strips, later as freshly shredded potatoes.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows potatoes sliced into thin strips and soaked in water for ~15 minutes. Step 2: Slice 44 shows shredded potatoes filled with water and left to stand ~15 minutes. Conclusion: One soak uses sliced strips, the other uses shredded potatoes.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly describes potatoes sliced into thin strips using a mandoline, then covered with water and soaked for about 15 minutes. Step 2: Slice 44 explicitly shows freshly shredded potatoes in a bowl, then instructs to fill with water and leave to stand ~15 minutes. Logic holds because each slice clearly identifies a different preparation form (thin mandoline-sliced strips vs shredded) associated with the same soaking instruction.",
+        "visual_proof": "In the first clip (0:00-0:11), the potatoes are clearly being peeled into long, thin, uniform strips using a peeler or mandoline, which are then soaked. In the second clip (0:00-0:05), the potatoes are shown as finely shredded, with irregular, shorter pieces, before being soaked. The visual difference in texture and shape between the two preparations is distinct."
+    },
+    {
+        "question": "Which vegetable is grated early in the video for the first recipe and then grated again later for another recipe segment?",
+        "answer": "Potatoes.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows potatoes being peeled as part of potato prep for the first dish. Step 2: Slice 42 shows potatoes being grated for a later recipe segment. Conclusion: Potatoes are involved in both early and later preparation sequences.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 42 explicitly describes someone grating a potato, producing shredded potato shavings, clearly identifying the grated vegetable as potato. Step 2: Evidence Slice 1 shows potatoes being prepared (peeled) earlier, indicating potatoes are the main ingredient across segments. Logic holds because the video features potatoes as the prepared vegetable and Slice 42 confirms grating, supporting the answer to which vegetable is grated.",
+        "visual_proof": "In the first clip, a person is shown peeling potatoes with a peeler. The on-screen text explicitly labels them as 'Potato - 3 pcs' and 'Kartoffel - 3 Stk'. In the second clip, the same person is shown grating peeled potatoes using a box grater, with on-screen text again identifying them as 'Potato - 4 pcs' and 'Kartoffel - 4 Stk'. This confirms that potatoes are the vegetable being prepared in both segments."
+    },
+    {
+        "question": "Across the recipes, what common quantity of eggs is used in the egg-preparation steps shown?",
+        "answer": "Three eggs.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows three eggs cracked into a bowl. Step 2: Slice 74 again shows eggs added with the label 'Egg - 3 pcs.' Conclusion: The common quantity used is three eggs.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly states the person cracks three eggs into a green bowl and seasons them. Step 2: Slice 74 explicitly shows the person cracking three eggs, with on-screen text confirming 'Egg - 3 pcs' and the German 'Ei - 3 Stk.' Logic holds because both slices independently specify the quantity as three eggs, indicating a common quantity across the shown preparations.",
+        "visual_proof": "In both Video 1 and Video 2, the on-screen text explicitly states 'Egg - 3 pcs' and 'Ei - 3 Stk'. Visually, the person cracks exactly three eggs into the bowl in each clip, confirming the quantity."
+    },
+    {
+        "question": "What sequence connects grating carrots, adding them to onions, and then later frying a colorful mix for about three minutes?",
+        "answer": "Carrots are prepared, combined with onions, and later cooked together with peppers as a mixed sautéed vegetable base.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            52,
+            56,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 52 shows carrot preparation labeled 'Carrot - 1 pc.' Step 2: Slice 56 shows carrots added to sautéed onions and stirred. Step 3: Slice 62 shows the mixed vegetables (including carrots and peppers with onions) fried ~3 minutes. Conclusion: Carrots join onions, then become part of the broader mixed sauté.",
+        "logic_check_reasoning": "Step 1: Slice 52 shows carrot preparation (slicing on a cutting board), establishing that carrots are being prepped. Step 2: Slice 56 explicitly shows finely shredded (i.e., grated) carrots being added to already sautéed onions and fried briefly, confirming the combination of carrots with onions. Step 3: Slice 62 shows a colorful mix of vegetables including peppers, shredded carrots, and onions being fried with an overlay indicating ~3 minutes, confirming the later step of cooking together with peppers. The proposed answer states that carrots are prepared, combined with onions, and later cooked with peppers as a mixed sautéed vegetable base, which aligns with the described sequence and contents.",
+        "visual_proof": "Clip 1 shows carrots being sliced (not grated) on a wooden board. Clip 2 shows the sliced carrots added to diced onions in a pan and stirred, with text indicating frying for ~2 minutes. Clip 3 shows red and yellow bell peppers added to the pan with the carrots and onions, and text indicates frying for ~3 minutes. The sequence visually confirms the preparation and cooking steps described."
+    },
+    {
+        "question": "What ingredient is grated and then later appears as a topping that turns golden brown after baking?",
+        "answer": "Cheese.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows cheese being grated with the amount specified. Step 2: Slice 21 shows the dish after baking with the cheese melted and browned on top. Conclusion: Grated cheese becomes the browned topping after baking.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows a block of cheese being grated with a box grater, explicitly labeled \"Cheese - 7 oz.\" Step 2: Slice 21 shows the dish topped with shredded cheese, which melts and turns golden brown after baking. Logic holds because the grated cheese from Slice 19 is used as the topping seen in Slice 21 that becomes golden brown.",
+        "visual_proof": "In the first clip, a block of cheese is visibly grated using a box grater. In the second clip, the same grated cheese is seen as a topping on the dish before baking. After baking, the topping is golden brown and melted, consistent with baked cheese."
+    },
+    {
+        "question": "After oil is poured into a pan, what ingredient is prepared next on the cutting board before being cooked?",
+        "answer": "An onion is prepared (cut/chopped).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            46,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows olive oil poured into a pan. Step 2: Slice 46 shows an onion being cut on a cutting board. Step 3: Slice 50 shows the onions being sautéed for about a minute. Conclusion: Onion is prepared next and then cooked.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows olive oil being poured into a pan. Step 2: Slice 46 shows an onion being prepared on a wooden cutting board, with on-screen text 'Onion - 1 pc'. Step 3: Slice 50 shows the diced onions being fried, confirming the prepared ingredient is cooked next. Logic holds: after oil is poured, the onion is prepared and then cooked.",
+        "visual_proof": "Clip 1 shows oil being poured into a pan. Clip 2 shows a whole onion being cut in half and then chopped on a wooden cutting board. Clip 3 shows the chopped onions being added to the oiled pan and stirred, confirming the sequence: oil poured → onion prepared → onion cooked."
+    },
+    {
+        "question": "How does the pizza-like tray dish change from being topped with cheese to being baked longer and then sliced for serving?",
+        "answer": "It is sprinkled with cheese, baked for an additional 10–15 minutes, removed from the oven, and cut into slices/squares.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            92,
+            94,
+            95,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 92 shows extra cheese sprinkled on the baked tray dish. Step 2: Slice 94 instructs to bake another ~10–15 minutes. Step 3: Slice 95 shows the dish removed from the oven and sliced. Step 4: Slice 96 shows continued cutting into neat pieces. Conclusion: Cheese-topped dish is baked longer and then sliced for serving.",
+        "logic_check_reasoning": "Step 1: Slice 92 shows a hand sprinkling shredded cheese over the dish, with on-screen text \"Sprinkle with cheese.\" Step 2: Slice 94 shows the pizza in the oven with text \"Bake another ~10–15 minutes,\" indicating additional baking time. Step 3: Slice 95 depicts the pizza being removed from the oven and then sliced into pieces, described as neat squares. Step 4: Slice 96 further confirms the cutting of the rectangular pizza on the tray. The sequence directly supports the proposed steps: sprinkle cheese, bake longer, remove from oven, and cut into slices/squares.",
+        "visual_proof": "Clip 1 shows cheese being sprinkled on the dish. Clip 2 shows the dish being placed back in the oven with text indicating 'Bake another ~10-15 minutes'. Clip 3 shows the dish being removed from the oven with melted, golden cheese, followed by a knife beginning to slice it. Clip 4 shows the dish being fully sliced into squares. All steps described in the answer are visually confirmed."
+    },
+    {
+        "question": "What utensil is used both while sautéing onions and while mixing vegetables with tomato paste in the pan?",
+        "answer": "A wooden spoon/spatula.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows onions being stirred in a pan with a wooden spatula. Step 2: Slice 10 shows vegetables being mixed with tomato paste using a wooden spoon. Conclusion: A wooden spoon/spatula is used in both steps.",
+        "logic_check_reasoning": "Step 1: Slice 4 states a wooden spatula is used to stir the sautéing onions. Step 2: Slice 10 states a wooden spoon is used to spread tomato paste and mix the vegetables. Logic holds because both slices explicitly show a wooden utensil used in each step, and minor naming differences (spoon vs. spatula) can be considered VLM noise; the proposed answer accounts for this by stating wooden spoon/spatula.",
+        "visual_proof": "In Video 1, a wooden spatula is clearly used to stir the chopped onions in the pan. In Video 2, the same type of wooden utensil is used to mix the vegetables with the tomato paste. The consistent use of this tool across both clips confirms the answer."
+    },
+    {
+        "question": "What sequence shows cheese being prepared and then appearing later as melted, browned topping on a baked tray dish?",
+        "answer": "Cheese is grated, sprinkled on the tray dish, and then baked until it turns golden and bubbly.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            19,
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows cheese grated (7 oz). Step 2: Slice 20 shows shredded cheese sprinkled over the tray dish. Step 3: Slice 21 shows the baked result with browned melted cheese. Conclusion: Grated cheese becomes the baked, browned topping.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows a block of cheese being grated with a box grater, explicitly indicating cheese preparation. Step 2: Slice 20 shows the shredded cheese being sprinkled over the dish in the baking tray, with on-screen text confirming \"Sprinkle with cheese.\" Step 3: Slice 21 shows the tray being baked and then removed with the cheese melted, golden brown, and bubbly on top. The sequence logically connects preparation (grating), application (sprinkling), and final baked result (golden, bubbly topping).",
+        "visual_proof": "Clip 1 shows hands grating a block of cheese on a box grater. Clip 2 shows the grated cheese being sprinkled over the pasta dish in the baking tray. Clip 3 shows the dish after baking, with the cheese fully melted, golden brown, and bubbly on top, confirming the sequence described."
+    },
+    {
+        "question": "How does the zucchini recipe progress from grating the vegetable to binding it with eggs and then preparing a greased baking dish?",
+        "answer": "Zucchini is grated, mixed with three eggs and seasoning, then flour is added and the baking dish is oiled for baking.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            29,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows zucchini being grated (3 pieces). Step 2: Slice 29 shows three eggs cracked into the shredded zucchini and seasoned. Step 3: Slice 30 shows flour added and olive oil poured into a baking dish. Conclusion: The recipe binds grated zucchini with eggs and flour and prepares an oiled dish for baking.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows the zucchini being grated, with text indicating 'Zucchini - 3 pcs'. Step 2: Slice 29 shows the shredded zucchini in a bowl, three eggs cracked in, and seasoning added (salt and black pepper). Step 3: Slice 30 shows flour being added (3.5 oz / 100 g) to the mixture and mixed, and then olive oil being poured into a glass baking dish to grease it. Logic holds because the sequence progresses from grating to mixing with eggs and seasoning, to adding flour, and finally preparing a greased baking dish.",
+        "visual_proof": "Clip 1 shows zucchini being grated. Clip 2 shows three eggs being cracked into the bowl of grated zucchini, followed by salt and black pepper being added. Clip 3 shows the mixture being stirred, flour being added and mixed in, and finally a glass baking dish being greased with olive oil."
+    }
+]

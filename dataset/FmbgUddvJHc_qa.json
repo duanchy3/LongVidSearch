@@ -1,0 +1,15 @@
+[
+    {
+        "question": "Mars volcanoes are labeled in different scenes. Which volcano is shown under a label in the scene that features a bright sun orb in the upper left and lens flare, and how does that connect to the earlier Mars image that labels multiple Tharsis volcanoes?",
+        "answer": "Pavonis Mons; it is one of the Tharsis volcanoes that were also labeled alongside Ascraeus Mons and Arsia Mons earlier.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 22 labels Ascraeus Mons, Pavonis Mons, and Arsia Mons on a colorful Mars image. Step 2: Slice 25 focuses on Pavonis Mons with the sun visible and lens flare. Conclusion: Pavonis Mons is the volcano in the sun/lens-flare scene and it is one of the labeled Tharsis volcanoes from earlier.",
+        "logic_check_reasoning": "Step 1: Slice 25 explicitly describes a scene with a bright sun orb in the upper left and lens flare, focusing on Pavonis Mons. Step 2: Slice 22 states that an earlier Mars image includes labels such as Ascraeus Mons, Pavonis Mons, and Arsia Mons. Logic holds because the later scene features Pavonis Mons, and the earlier scene labeled Pavonis Mons among other Tharsis volcanoes, directly connecting the two.",
+        "visual_proof": "In Video 2, the label 'Pavonis Mons' is clearly visible over a volcano on Mars, with a bright sun orb and lens flare in the upper left. In Video 1, the same volcano (Pavonis Mons) is shown as part of a group labeled alongside 'ASCRAEUS MONS' and 'ARSIA MONS', confirming it is one of the Tharsis volcanoes."
+    }
+]

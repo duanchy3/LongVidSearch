@@ -1,0 +1,29 @@
+[
+    {
+        "question": "A woman reads a novel in a garden, and later that same title is shown again while another garden interaction happens. What is the title of the book, and in what two different garden moments does it appear?",
+        "answer": "The book is \"Atonement\" (Ian McEwan). It appears when a woman reads it on a garden bench, and it appears again in a later garden montage where the book/author is shown during garden scenes.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a woman reading \"Atonement\" by Ian McEwan on a garden bench. Step 2: Slice 17 again highlights the book/author (Ian McEwan) within a garden montage. Conclusion: The repeated title is \"Atonement\" and it appears across both garden moments.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly states a woman is reading a book titled \"Atonement\" by Ian McEwan on a garden bench. Step 2: Slice 17 is a montage with multiple garden scenes; Scene 2 shows a woman on a bench under wisteria reading a book labeled \"Ian McEwan\" (likely the same book, with the AI captions conflating author/title). Scene 1 in Slice 17 describes another garden interaction (a conversation). The logic holds that the book/title appears first during bench reading and is shown again in the later garden montage that also includes another garden interaction, consistent with the answer.",
+        "visual_proof": "In multiple frames (e.g., 0:00, 0:08, 0:15), a woman is seen reading a book with the author's name 'IAN MCEWAN' clearly visible on the cover. A close-up at 0:16-0:17 shows the red spine of the book with the title 'ATONEMENT'. These scenes occur in a garden setting with benches and flowers. The book is featured in two distinct moments: first, while the woman is actively reading it, and second, as a visual element in a montage that includes other garden interactions, such as the couple under the wisteria and the woman in the maroon coat."
+    },
+    {
+        "question": "A man in a suit smiles in an unsettling way, later a bright blue light/device appears in a dark industrial space as a suited man approaches, and later an amorphous electric-blue figure emerges in front of a man in a shirt and tie. What escalating phenomenon ties these three moments together?",
+        "answer": "A growing sense of supernatural/energy-based threat: ominous human intent, then an intense blue energy source, then a large electric-blue entity manifestation.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            57,
+            85,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows a suited man shifting into an unsettling smile, signaling menace. Step 2: Slice 85 introduces an intense blue light/device in an industrial setting drawing a suited man toward it. Step 3: Slice 87 escalates the blue energy into a large glowing electric entity confronting a man in a shirt and tie. Conclusion: The threat escalates from human menace to activated energy source to full entity manifestation.",
+        "logic_check_reasoning": "Step 1: Slice 57 shows a man in a suit with an unsettling, menacing smile, establishing a tone of unease and implied threat. Step 2: Slice 85 presents a dark industrial setting where a bright, pulsating blue light/device appears and a suited man cautiously approaches, explicitly conveying urgency and danger tied to a blue energy source. Step 3: Slice 87 escalates to a large amorphous electric-blue figure emerging, described as powerful and otherworldly, intensifying the sense of an energy-based, possibly supernatural presence. Logic holds because the sequence progresses from implied menace to a concrete blue energy phenomenon and culminates in a full manifestation of an electric-blue entity, matching the proposed “growing sense of supernatural/energy-based threat.”",
+        "visual_proof": "Clip 1 shows a man in a suit with a wide, unsettling smile. Clip 3 shows a dark industrial space where a suited man approaches a bright blue electrical phenomenon on the ground, which then coalesces into a large, amorphous, electric-blue figure that looms over him. This sequence visually depicts an escalation from human menace to a supernatural energy manifestation."
+    }
+]

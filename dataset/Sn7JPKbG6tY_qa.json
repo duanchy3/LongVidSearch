@@ -1,0 +1,29 @@
+[
+    {
+        "question": "She reacts to a feeling with a single word on-screen, and later she shares her MBTI type in a text overlay. What are the on-screen word and her MBTI type?",
+        "answer": "The word is “lonely,” and her type is ENFP.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 9 displays the word “lonely” on screen while she looks serious. Step 2: Slice 25 shows an overlay saying “i am an ENFP, 70% extroverted and 30% introverted.” Conclusion: The word is “lonely” and the type is ENFP.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly states that the word 'lonely' appears on-screen, describing the woman and the setting with plants and a bookshelf. Step 2: Slice 25 explicitly states a text overlay reading 'i am an ENFP, 70% extroverted and 30% introverted,' which clearly identifies her MBTI type as ENFP. Step 3: The setting and clothing are consistent across slices (dark blue sweatshirt, room with plants and bookshelf), so minor differences in hair description can be treated as VLM noise. The logic holds that both refer to the same video and person.",
+        "visual_proof": "In Clip 1, at 0:07, the word 'lonely' appears in large white text on screen as the woman reacts emotionally. In Clip 2, at 0:00, a text overlay reads '(i am an ENFP, 70% extroverted and 30% introverted)'."
+    },
+    {
+        "question": "The video shifts from personal assumptions to discussing privilege and then to a titled segment about college elitism. What are the three topic cues shown in order?",
+        "answer": "Reading assumptions about her → her idea of privileged → “linh’s thoughts on ~college elitism~.”",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            29,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 3 is a title card about “READING YOUR ASSUMPTIONS ABOUT ME.” Step 2: Slice 29 shows a text overlay defining her idea of “privileged.” Step 3: Slice 62 shows the titled topic “linh’s thoughts on ~college elitism~.” Conclusion: The topic cues progress from assumptions to privilege to college elitism.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly shows the text \"READING YOUR ASSUMPTIONS ABOUT ME,\" indicating the first topic cue is reading assumptions. Step 2: Slice 29 displays the on-screen text \"my idea of privileged\" followed by a list, indicating the second topic cue is her idea of privileged. Step 3: Slice 62 shows the title text \"linh's thoughts on ~college elitism~,\" indicating the third topic cue. The sequence aligns exactly with the proposed answer.",
+        "visual_proof": "The first clip shows a title card reading 'READING YOUR ASSUMPTIONS ABOUT ME'. The second clip displays text on screen defining 'my idea of privileged' with three points. The third clip features an on-screen title that reads 'linh's thoughts on ~college elitism~'. These three distinct textual cues appear in the specified order across the clips."
+    }
+]

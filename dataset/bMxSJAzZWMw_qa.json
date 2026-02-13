@@ -1,0 +1,156 @@
+[
+    {
+        "question": "Which city-view moment happens earlier: looking out a large window in a transit hub-like building, or being at an outdoor rooftop terrace with tables and a panoramic view?",
+        "answer": "Looking out the large window in the transit hub-like building happens earlier.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the travelers in a station/airport setting stopping at a large window to view the city. Step 2: Slice 42 shows an outdoor rooftop/terrace with tables and wide views. Conclusion: The indoor window viewpoint occurs earlier than the rooftop terrace.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes an airport/train-station setting and explicitly notes, \"The video begins with\" this sequence, which includes the two people later standing at a large window looking out at the cityscape. Step 2: Slice 42 describes a separate scene on an outdoor rooftop terrace with a panoramic city view, without any indication that it occurs at the start. Step 3: Since Slice 7 establishes the large-window city view as part of the beginning of the video, and Slice 42 is another scene with no indication of being earlier, the city-view at the large window in the transit hub occurs earlier than the rooftop terrace view.",
+        "visual_proof": "Clip 1 (ID: 7) shows a man with luggage at a train station platform and then ascending an escalator into a large, busy hall with high ceilings, pillars, and food court-style seating — consistent with a transit hub. Clip 2 (ID: 42) shows people on an outdoor rooftop terrace with tables, glass railings, and a clear panoramic city view under a bright sky. Since these clips are from the same continuous video and Clip 1 precedes Clip 2 chronologically, the transit hub scene occurs earlier."
+    },
+    {
+        "question": "What is the progression of nighttime visual attractions from social nightlife venues to outdoor projections, and what evidence indicates each step?",
+        "answer": "They go from bars/restaurants at night to a projection of a portrait on a building, and then to a colorful building-facade light show.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            69,
+            70,
+            61,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows entering a lively venue with a neon 'Santos' sign and a busy interior. Step 2: Slice 70 shows a calm bar moment with drinks. Step 3: Slice 61 shows a nighttime building projection of a portrait drawing a small crowd. Step 4: Slice 68 shows a vivid architectural light projection on a building facade. Conclusion: Night activity shifts from venues to public projection spectacles.",
+        "logic_check_reasoning": "Step 1: Slices 69 and 70 depict social nightlife venues—Slice 69 shows a bar/restaurant named \"Santos\" with a lively interior of dancing and drinks; Slice 70 shows a cozy bar setting with a woman sipping wine—establishing the nightlife context. Step 2: Slice 61 shows an outdoor projection of a portrait on a building, observed by people, indicating a transition to public, outdoor visual attractions. Step 3: Slice 68 presents a colorful, dynamic building-facade light show, reinforcing the progression to elaborate outdoor projections. The proposed answer accurately summarizes this sequence.",
+        "visual_proof": "Clip 2 shows people drinking at a bar/restaurant. Clip 3 shows a large-scale projection of a man's portrait on a building facade. Clip 4 shows a different building with dynamic, colorful light projections covering its entire surface, indicating a progression from social venues to static portraits to vibrant light shows."
+    },
+    {
+        "question": "At what point does the trip shift from indoor retail shopping for drinks/snacks to being back outside walking together, and what changes in the setting make that clear?",
+        "answer": "It shifts after the convenience store scenes to outdoor street walking; the setting changes from bright aisles and refrigerators to sidewalks, buildings, and traffic.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a woman speaking inside a convenience store with shelves and a drink refrigerator. Step 2: Slice 18 shows the pair walking outside past a gas station and a red truck. Conclusion: The retail interior changes to an outdoor street environment.",
+        "logic_check_reasoning": "Step 1: Slice 16 shows an indoor convenience store setting with shelves of snacks, a refrigerator with bottled drinks, and bright lighting. Step 2: Slice 18 shows the subjects outside, walking down a street past a gas station, a parked red truck, and urban buildings/trees. Logic holds because the transition is from the indoor store environment (aisles, fridges, snacks/drinks) to an outdoor streetscape (buildings, vehicles, gas station), indicating the shift from shopping to walking.",
+        "visual_proof": "Clip 1 shows the woman inside a brightly lit convenience store with refrigerated drink cases (e.g., 'Surgelés') and shelves of snacks. Clip 2 immediately transitions to the same two people walking outside under daylight, next to a gas station ('Ultramar'), with visible street traffic, parked cars, and urban buildings in the background, confirming the shift from indoor retail to an outdoor environment."
+    },
+    {
+        "question": "How does the couple’s viewpoint experiences evolve from indoor high-window viewing to outdoor terrace viewing, and what stays consistent about the purpose?",
+        "answer": "They go from viewing the city through large indoor windows to viewing it from an open-air rooftop terrace; the consistent purpose is sightseeing and enjoying panoramic city views.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            44,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows them stopping at a large window to look out at the cityscape. Step 2: Slice 44 shows a woman at a large window pointing toward the sun and city/bridge view. Step 3: Slice 43 shows an outdoor rooftop bar with glass railings and panoramic city/water views. Conclusion: Viewpoints progress from indoor windows to an outdoor rooftop, consistently focused on sightseeing.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows a man and woman (a couple) indoors at an airport/train station, standing by a large window looking out at a cityscape; the woman takes a photo, indicating they are appreciating the view. Step 2: Slice 44 shows a woman at a large indoor window in a high-rise, enjoying the cityscape and sunlight, further supporting the indoor high-window viewing context. Step 3: Slice 43 depicts an outdoor rooftop terrace where patrons admire panoramic city and waterfront views, indicating a shift to open-air terrace viewing. Step 4: Across these scenes, the consistent purpose is appreciating/sightseeing panoramic city views. Even if identities are not explicitly linked across slices, the evolution from indoor high-window viewing to outdoor terrace viewing and the consistent purpose are supported by the evidence.",
+        "visual_proof": "Clip 2 (0:00-0:06) shows the couple indoors, looking out large windows at a cityscape. Clip 3 (0:01-0:06) transitions to an outdoor rooftop terrace with tables, chairs, and people enjoying the same panoramic city view under direct sunlight, confirming the shift in environment while maintaining the focus on sightseeing."
+    },
+    {
+        "question": "Track the man’s backpack color across different parts of the trip: when does he have a black backpack, and when does he carry a blue backpack?",
+        "answer": "He has a black backpack during daytime street vlogs, and a blue backpack later during a different city-walk segment at night/indoors transitions.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            41,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows the man with a black backpack while vlogging on a sunny street. Step 2: Slice 41 shows a man with a blue backpack going up an escalator. Step 3: Slice 66 shows a nighttime walk with the short-haired man carrying a blue backpack. Conclusion: Backpack color shifts from black earlier to blue later.",
+        "logic_check_reasoning": "Step 1: Slice 10 states the man is walking down a sunny urban street and is carrying a black backpack, with clear vlog-like behavior (speaking directly to camera). Step 2: Slice 41 states the man is wearing a blue backpack while moving indoors (escalator, hallway, room with city view). Step 3: Slice 66 shows a nighttime city street where the person on the right, matching the man's short brown hair attribute, is carrying a blue backpack. Logic holds because the proposed answer maps black backpack to daytime street/vlog (Slice 10) and blue backpack to night/indoors segments (Slices 41 and 66), which is explicitly supported by the captions.",
+        "visual_proof": "In Video 1 (daytime outdoor scene), the man is clearly wearing a black backpack. In Videos 2 and 3 (indoor escalator and nighttime street scenes), he is consistently seen with a bright blue backpack. The change in backpack color coincides with the transition from daytime outdoor to indoor/nighttime settings."
+    },
+    {
+        "question": "After leaving the nighttime house scene where the couple drives away, what new mode of transport do they use next, and where are they when that happens?",
+        "answer": "They switch to a train, and it happens when they board and sit inside a passenger train car.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the pair leaving a house, getting into a car, and driving at night. Step 2: Slice 2 shows boarding and sitting inside a train. Conclusion: After the car segment, they use the train and are inside a train car.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the couple leaving a house at night, getting into a car, and driving away. After this, the scene shifts to an escalator where the man (now in a white t-shirt with a backpack) is seen. Step 2: Slice 2 shows a woman with a backpack walking toward and boarding a train, then the interior of a passenger train car where a man in a white shirt talks to the camera and passengers are seated. Step 3: The logical progression from driving to being on an escalator (likely in a transit setting) to boarding and sitting in a train supports that the next mode of transport after the car is a train, and it occurs when they board and are inside the passenger train car.",
+        "visual_proof": "The first clip ends with the couple driving away from a house at night. The second clip immediately shows them boarding a train (0:01-0:02), stowing luggage, and then sitting in passenger seats inside the train car (0:03-0:06). This sequence visually confirms the transition from car to train."
+    },
+    {
+        "question": "When the travelers move from the station-like interior with escalators to the outdoor city, what item do they continue to carry that signals they are still in transit?",
+        "answer": "They continue carrying luggage (a suitcase).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows both travelers with backpacks and suitcases on escalators in a station/airport. Step 2: Slice 9 ends with the man walking away towing a suitcase after receiving it. Conclusion: Luggage (the suitcase) continues across the transition, indicating ongoing transit.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes the man and woman in a station-like interior (airport/train station) carrying backpacks and suitcases, including scenes on an escalator. Step 2: Slice 9 shows the man moving outside into the city, and later he receives a large suitcase from a woman and walks down the street with it. Logic holds because the item present in both the interior travel scenes and the outdoor city scenes is a suitcase, indicating continued transit.",
+        "visual_proof": "In Clip 1, the man is seen on an escalator pulling a rolling suitcase. In Clip 2, after transitioning to the outdoor city scene and getting into a car, both the man and woman are shown actively loading suitcases into the vehicle's trunk, confirming they are still carrying their luggage."
+    },
+    {
+        "question": "What sequence shows their movement from buying/handling items in a store to later holding a water bottle outdoors, and who is holding the bottle?",
+        "answer": "They handle items in a convenience store first, then later outdoors the woman is holding a bottle of water.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            16,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows someone opening a refrigerator and picking up a can in a convenience store. Step 2: Slice 16 shows the woman in the convenience store holding a phone while speaking. Step 3: Slice 18 shows the woman outdoors holding a bottle of water while walking with the man. Conclusion: The shopping segment precedes them being outside with a drink, held by the woman.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows someone in a convenience store opening a refrigerator, picking up a can, and later standing near checkout holding an item, indicating handling/buying items. Step 2: Slice 16 further confirms a store setting with a woman speaking, reinforcing the in-store context. Step 3: Slice 18 shows a man and woman outdoors, and explicitly states the woman is holding a bottle of water. Logic holds because the slices depict an in-store handling of items followed by an outdoor scene where the woman has a water bottle.",
+        "visual_proof": "Clip 1 shows a hand selecting an item from a refrigerated display case inside a store. Clip 2 shows a woman inside the same store holding sunglasses and a phone near a shopping cart with items. Clip 3 shows the same woman outdoors at a gas station, clearly holding a plastic water bottle while walking alongside a man."
+    },
+    {
+        "question": "Combine the transit, lodging, and city-exploration arc: after the train ride, where do they appear to rest briefly, and what do they do afterward outdoors?",
+        "answer": "They appear in a bedroom with a red bed and a yellow stuffed animal, and afterward they are outdoors walking around the city on sunny streets.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            5,
+            2,
+            13,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 2/5 establish they are traveling by train (passengers and laptop work). Step 2: Slice 13 shows a bedroom with a red bed and a yellow stuffed animal, suggesting a resting/accommodation stop. Step 3: Slice 10 shows the man outside on a sunny city street vlogging afterward. Conclusion: After train travel, they stop in a bedroom, then continue outdoor city exploration.",
+        "logic_check_reasoning": "Step 1: Slices 5 and 2 depict a train ride with passengers and a woman working, establishing the transit segment. Step 2: Slice 13 shows a bedroom with red sheets and a yellow stuffed animal, supporting the brief rest/lodging location. Step 3: Slice 10 shows a person walking on sunny urban streets, supporting the outdoor city exploration. The proposed answer matches these visuals: bedroom with red bed and yellow stuffed animal (Slice 13), then walking around the city on sunny streets (Slice 10). Naming differences do not affect the logic.",
+        "visual_proof": "Clip 3 shows a bedroom with a bright red/pink bedspread and a yellow stuffed animal (a lion) sitting in the corner. Clip 4 immediately follows, showing the man walking outdoors on a sunny city street, with buildings and cars visible, indicating the transition from lodging to city exploration."
+    },
+    {
+        "question": "How does the theme of 'looking up at architecture' appear both in daytime sightseeing and in nighttime city scenes, and which structures are highlighted?",
+        "answer": "In daytime they highlight a cathedral with two towers, and at night they look up at tall buildings and illuminated landmarks including a blue-lit cathedral and modern glass buildings.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            36,
+            54,
+            56,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows a daytime cathedral with two towers as a major architectural landmark. Step 2: Slice 54 shows a nighttime focus on a large illuminated glass building. Step 3: Slice 56 shows a blue-lit cathedral/church at night. Step 4: Slice 75 shows a low-angle view of tall buildings and a triangular blue-lit feature. Conclusion: The video repeatedly emphasizes architecture by looking up at major structures in both day and night.",
+        "logic_check_reasoning": "Step 1: Slice 36 describes a daytime scene featuring a large cathedral with two tall towers, clearly highlighting this structure during sightseeing. While it doesn’t explicitly say the camera is looking up, the cathedral is the focal architectural highlight in daylight. Step 2: Slice 75 explicitly states a low camera angle looking up at two tall buildings at night, directly supporting the 'looking up at architecture' theme in nighttime city scenes. Step 3: Slice 54 shows a nighttime scene where the camera pans up to reveal a large, well-lit glass building and focuses on upper floors, reinforcing the 'looking up' perspective and the presence of modern glass architecture. Step 4: Slice 56 depicts a blue-lit cathedral with two towers at night, highlighting illuminated landmarks. Logic holds because the proposed answer matches the structures shown: daytime cathedral with two towers (Slice 36) and nighttime looking-up shots of tall buildings (Slice 75), a modern glass building (Slice 54), and a blue-lit cathedral (Slice 56).",
+        "visual_proof": "Clip 1 shows a low-angle daytime shot of a large cathedral with two prominent towers. Clip 2 features a nighttime upward view of a modern glass building's interior structure. Clip 3 displays a nighttime view of a cathedral with its windows and facade illuminated in blue light. Clip 4 presents a nighttime upward perspective between tall buildings, highlighting their architecture against the sky."
+    },
+    {
+        "question": "Across the travel day, how does the pair’s environment change from transit interiors to shopping spaces to leisure viewpoints, and what are the key locations in order?",
+        "answer": "They are on trains, then in a convenience store, then at high-view locations like large windows/terraces/rooftops overlooking the city.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            5,
+            16,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the pair/passengers inside a train. Step 2: Slice 5 continues train interior context with a laptop and window scenery. Step 3: Slice 16 shifts to a convenience store interior with shelves and refrigerators. Step 4: Slice 42 shows an outdoor terrace with tables and panoramic views. Conclusion: Settings progress from transit → retail → leisure viewpoints.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a train interior with a man and a blonde woman among passengers, indicating a transit setting. Slice 5 further supports the transit interior by showing a woman working on a laptop inside a train and views from the train window. Step 2: Slice 16 moves to a convenience store environment, clearly a shopping space with shelves and refrigerators. Step 3: Slice 42 then depicts an outdoor rooftop/terrace with city views, a leisure viewpoint, featuring a woman with long blonde hair and a man walking together. Logic holds because the sequence transitions from train (transit) to store (shopping) to rooftop terrace (leisure viewpoint), matching the proposed order. The mention of terraces/rooftops is explicitly supported; while \"large windows\" are not shown, the core locations and order are correct.",
+        "visual_proof": "Clip 1 shows the pair boarding and sitting inside a train. Clip 2 continues showing them inside the train, looking out the window at passing scenery. Clip 3 shows the woman standing in a convenience store, holding sunglasses and a phone, with shelves of snacks and drinks visible behind her. Clip 4 shows the pair walking on an outdoor rooftop terrace with glass railings and tables, overlooking a city skyline under a clear blue sky."
+    }
+]

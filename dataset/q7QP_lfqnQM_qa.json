@@ -1,0 +1,82 @@
+[
+  {
+    "question": "Which model is said to learn synthetic attention weights without token-token interactions, and which later figure shows its variants alongside the Transformer?",
+    "answer": "SYNTHESIZER; the later figure shows Synthesizer (Dense) and Synthesizer (Random) alongside the Transformer.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      2,
+      8
+    ],
+    "reasoning_chain": "Step 1: Slice 2 states the model SYNTHESIZER learns synthetic attention weights without token-token interactions. Step 2: Slice 8 shows a three-panel comparison: Transformer, Synthesizer (Dense), and Synthesizer (Random). Conclusion: the model is SYNTHESIZER and its variants are displayed alongside Transformer.",
+    "logic_check_reasoning": "Step 1: Slice 2 states that the paper proposes a model called SYNTHESIZER, which learns synthetic attention weights without token-token interactions. Step 2: Slice 8 shows a later figure with three diagrams labeled (a) Transformer, (b) Synthesizer (Dense), and (c) Synthesizer (Random), indicating Synthesizer variants alongside the Transformer. Logic holds because Slice 2 identifies the model and its property, and Slice 8 explicitly displays its variants next to the Transformer.",
+    "visual_proof": "The first clip highlights text stating, 'we propose SYNTHESIZER, a model that learns synthetic attention weights without token-token interactions.' The second clip displays a figure with three panels labeled '(a) Transformer', '(b) Synthesizer (Dense)', and '(c) Synthesizer (Random)', visually confirming these variants are shown alongside the Transformer."
+  },
+  {
+    "question": "Which dataset benchmark for machine translation is named in the machine translation section, and which later analysis mentions attention-weight histograms on the same benchmark?",
+    "answer": "WMT’14 English–German (EnDe); the later analysis shows attention-weight histograms on WMT EnDe.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      37,
+      59
+    ],
+    "reasoning_chain": "Step 1: Slice 37 names WMT’14 English-German (EnDe) as a benchmark in the “Machine Translation” section. Step 2: Slice 59 mentions analysis of attention weights on the WMT EnDe dataset using histograms. Conclusion: both refer to WMT EnDe.",
+    "logic_check_reasoning": "Step 1: Slice 37 states that the machine translation section discusses experiments on WMT 14 English-German (EnDe) and WMT 14 English-French (EnFr), explicitly naming WMT 14 English-German (EnDe). Step 2: Slice 59 describes a later analysis showing attention-weight histograms and explicitly mentions it is conducted on the WMT EnDe dataset. Logic holds because the dataset named in the machine translation section (WMT 14 EnDe) is the same benchmark referenced in the later attention-weight histogram analysis.",
+    "visual_proof": "In Video 1, the text under section 4.1 'Machine Translation' explicitly states, 'We conduct experiments on WMT’14 English-German (EnDe) and WMT’14 English-French (EnFr)...'. In Video 2, Figure 2 is captioned 'Histogram of Encoder and Decoder Attention Weights on MT (WMT EnDe)', directly linking the histogram analysis to the same benchmark."
+  },
+  {
+    "question": "Across the progression from a simple letter-and-name whiteboard exercise to an attention matrix explanation, which two token labels are consistently used as the running example?",
+    "answer": "“Sarah” and “she”",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      4,
+      9
+    ],
+    "reasoning_chain": "Step 1: Slice 4 shows “Sarah” and “she” written on a whiteboard above letter rows. Step 2: Slice 9 discusses an attention mechanism example using tokens like “Sarah... she.” Conclusion: the recurring example tokens are Sarah and she.",
+    "logic_check_reasoning": "Step 1: Slice 4 describes a whiteboard exercise where the words 'Sarah' and 'she' are written in green above rows of letters, indicating they are example tokens in a phonics/spelling context. Step 2: Slice 9 explains an attention mechanism and explicitly states that tokens in a sentence such as 'Sarah... she' are represented by vectors, using these as the running example in the self-attention explanation. Logic holds because both slices independently reference 'Sarah' and 'she' as the example tokens, showing consistency across the transition from the simple letter exercise to the attention matrix explanation.",
+    "visual_proof": "In both clips, the labels 'Sarah' and 'she' are repeatedly written in green ink beneath the rows of red circles (tokens). In Clip 1, they appear at 0:10 and 0:16. In Clip 2, they are visible at 0:03 and again at 0:22-0:50, consistently associated with specific token positions in both the simple exercise and the more complex attention matrix diagram."
+  },
+  {
+    "question": "What is the name of the alternative attention approach introduced in the paper, and which earlier attention-based model is it contrasted against later with an architecture diagram?",
+    "answer": "The paper introduces the SYNTHESIZER approach, and it is contrasted against the Transformer model.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      38
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows the paper titled “SYNTHESIZER: Rethinking Self-Attention in Transformer Models.” Step 2: Slice 38 shows the “Attention Is All You Need” Transformer architecture diagram. Conclusion: SYNTHESIZER is introduced and contrasted against Transformer.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 shows a paper titled 'SYNTHESIZER: Rethinking Self-Attention in Transformer Models' and explicitly states that it introduces synthesizers as an alternative attention approach. Step 2: Evidence Slice 38 describes a later slide featuring 'Figure 1: The Transformer model architecture' from 'Attention Is All You Need,' clearly depicting the Transformer as the earlier attention-based model with an architecture diagram. Logic holds because the question asks for the alternative approach (synthesizers) and the earlier model contrasted later via an architecture diagram (Transformer), both directly supported by the provided slices.",
+    "visual_proof": "Clip 1 displays the title page of the 'SYNTHESIZER' paper, which explicitly names the proposed approach. Clip 2 shows the architecture diagram from the 'Attention Is All You Need' paper, which is the seminal work introducing the Transformer model. The visual juxtaposition of these two clips confirms that the SYNTHESIZER paper is positioned as an alternative to the original Transformer architecture."
+  },
+  {
+    "question": "Which function is highlighted as replacing the dot-product term in attention, and which later table organizes multiple synthesizing functions into an overview?",
+    "answer": "A synthesizing function F(·) (token-wise projection) replaces the dot product term; the overview table of synthesizing functions appears later.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      13,
+      34
+    ],
+    "reasoning_chain": "Step 1: Slice 13 explains eliminating the dot product by replacing QK^T with a synthesizing function F(X). Step 2: Slice 34 shows a table titled “Overview of all Synthesizing Functions.” Conclusion: F(·) is the replacement and the later table organizes the set of such functions.",
+    "logic_check_reasoning": "Step 1: Slice 13 states that the model replaces the standard Transformer dot-product term QK^T with a synthesizing function F(X), explicitly highlighting F(X) as the replacement. Step 2: Slice 34 describes a table titled 'Overview of all Synthesizing Functions' which organizes various synthesizing functions, matching the description of a later table providing an overview. Logic holds because the first part identifies F(X) as the function replacing the dot product, and the second part references the specific overview table of synthesizing functions shown later.",
+    "visual_proof": "In Video 1, the text explicitly states 'This approach eliminates the dot product altogether by replacing QK^T in standard Transformers with the synthesizing function F(.)'. The formula Y = Softmax(B)G(X) is shown, where B = F(X). In Video 2, Table 1 titled 'Overview of all Synthesizing Functions' is displayed, listing various models like Dot Product Attention, Random, Factorized Random, etc., along with their corresponding S(X) functions."
+  },
+  {
+    "question": "Which table-oriented sections first establish machine translation experimental results and later establish multi-task language understanding results, and how do these two sections together support the earlier broad task-competitiveness claim?",
+    "answer": "Machine translation results are established in the WMT’14 results table section, and multi-task language understanding results are established in the GLUE/SuperGLUE tables; together they support the earlier claim that SYNTHESIZER is competitive across MT and GLUE/SuperGLUE.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      2,
+      41,
+      51,
+      52
+    ],
+    "reasoning_chain": "Step 1: Slice 2 claims broad competitiveness across tasks including MT and GLUE/SuperGLUE. Step 2: Slice 41 shows a WMT’14 EnDe/EnFr + LM1B experimental results table for MT/LM. Step 3: Slice 51 introduces the multi-task NLP evaluation section with GLUE-style task columns. Step 4: Slice 52 presents detailed multi-task results tables (GLUE/SuperGLUE training setup and scores). Conclusion: MT and multi-task tables together back up the earlier broad claim.",
+    "logic_check_reasoning": "Step 1: Slice 2 states the paper’s broad claim that SYNTHESIZER is competitive across multiple tasks, explicitly including machine translation and multi-task language understanding (GLUE, SuperGLUE). Step 2: Slice 41 shows a table with machine translation experimental results (WMT’14 En-De, En-Fr) and LM1B, establishing the MT results section. Step 3: Slice 51 describes tables with GLUE metrics (CoLA, SST-2, MRPC, STS-B, QQP, QNLI, MNLI, RTE, Avg.), and Slice 52 details a SuperGLUE table including Syn variants, establishing the multi-task language understanding results section. Step 4: Together, these table-oriented sections correspond directly to MT and GLUE/SuperGLUE and thus support the earlier claim of competitiveness across those tasks.",
+    "visual_proof": "Clip 2 shows Table 2, explicitly titled 'Experimental Results on WMT'14 English-German, WMT'14 English-French Machine Translation tasks'. Clip 3 and 4 show Tables 4 and 5, which are titled 'Experimental results ... on multi-task language understanding (GLUE benchmark)' and '(SuperGLUE benchmark)'. The abstract in Clip 1 states the model is competitive across a range of tasks including 'MT (EnDe, EnFr)' and 'Multi-task language understanding (GLUE, SuperGLUE)', directly linking the claims to the evidence presented in these specific tables."
+  }
+]

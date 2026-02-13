@@ -1,0 +1,97 @@
+[
+    {
+        "question": "At the start, the trip is introduced as an Ottawa-focused Canada road trip. Later, what major waterfall destination do the travelers visit?",
+        "answer": "Niagara Falls.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 1 displays the on-screen title \"CANADA ROAD TRIP\" and \"EPISODE 1 - OTTAWA.\" Step 2: Slice 46 shows the iconic scenery of Niagara Falls. Conclusion: The later major waterfall destination is Niagara Falls.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the start of the video with text 'CANADA ROAD TRIP' and 'EPISODE 1 - OTTAWA,' confirming the trip is introduced as Ottawa-focused. Step 2: Slice 46 explicitly depicts Niagara Falls and a woman on a viewing platform overlooking the falls, indicating the travelers visit this major waterfall later. Logic holds because the video series progresses from the Ottawa introduction to a later scene at Niagara Falls.",
+        "visual_proof": "Clip 1 ends with text on screen explicitly stating 'CANADA ROAD TRIP EPISODE 1 - OTTAWA'. Clip 2 then shows wide shots of a massive waterfall with a distinct horseshoe shape and heavy mist, which are iconic visual characteristics of Niagara Falls. A woman is also seen posing in front of this waterfall, confirming it as a tourist destination visited during the trip."
+    },
+    {
+        "question": "The couple eats one kind of pasta inside the RV at night, and later they are shown eating another fried snack from a food truck. What are the two foods?",
+        "answer": "Spaghetti (or pasta with red sauce) and French fries.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows them eating spaghetti with red sauce at a table. Step 2: Slice 15 shows them eating cups of fries from \"Wes' French Fries.\" Conclusion: The foods are spaghetti/pasta and French fries.",
+        "logic_check_reasoning": "Step 1: Slice 10 states a man and woman are sitting at a table eating spaghetti with red sauce, clearly identifying the first food as spaghetti/pasta with red sauce. Step 2: Slice 15 shows a man and woman at a food truck labeled 'Wes' French Fries' eating cups of french fries, clearly identifying the second food as french fries. Logic holds because both slices explicitly describe the foods eaten, and the extra details about an RV or time of day are not necessary to confirm the foods.",
+        "visual_proof": "In the first clip, the couple is inside an RV at night eating from a plate of pasta covered in red sauce. In the second clip, they are outside during the day eating from white cartons filled with golden-brown fried sticks, which are visually identifiable as French fries, in front of a food truck explicitly advertising 'DELICIOUS FRENCH FRIES'."
+    },
+    {
+        "question": "Earlier, a man interacts with a fast-food drive-thru ordering terminal, and later the couple is eating inside the RV. What meal are they shown eating afterward?",
+        "answer": "Pasta/spaghetti with red sauce (a spaghetti-style meal).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows the man ordering at a fast-food drive-thru terminal. Step 2: Slice 10 shows the couple eating spaghetti with red sauce. Conclusion: The meal shown afterward is spaghetti/pasta with red sauce.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes a man interacting with a fast-food drive-thru ordering terminal, establishing the 'earlier' context. Step 2: Slice 10 explicitly states that a man and woman are sitting at a table eating spaghetti, with the man holding a plate of spaghetti with red sauce and the woman eating her own plate. Logic holds because the question asks what meal they are shown eating afterward, and Slice 10 clearly identifies the meal as spaghetti with red sauce, regardless of the exact location (RV or table).",
+        "visual_proof": "In Video 2, the couple is shown eating from a white plate. The food consists of noodles covered in a thick red sauce, which is visually identifiable as a pasta or spaghetti-style meal."
+    },
+    {
+        "question": "A man jokes about social-media engagement by setting a like goal at Niagara Falls. Earlier, another on-screen prompt asks viewers to like the video while he drives. What are the two engagement prompts?",
+        "answer": "\"LEAVE A LIKE IF U HAVIN A ROOTIN TOOTIN GOOD TIME\" and \"I'LL DO IT AT 10,000 LIKES.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            34,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows the on-screen text asking viewers to leave a like. Step 2: Slice 50 shows the text \"I'LL DO IT AT 10,000 LIKES\" at Niagara Falls. Conclusion: These are the two prompts.",
+        "logic_check_reasoning": "Step 1: Slice 34 explicitly shows on-screen text: \"LEAVE A LIKE IF U HAVIN A ROOTIN TOOTIN GOOD TIME\" while the man is driving, matching the first prompt. Step 2: Slice 50 explicitly shows on-screen text: \"I'LL DO IT AT 10,000 LIKES\" at Niagara Falls, matching the second prompt. Logic holds because each slice clearly presents the respective engagement text in the described contexts.",
+        "visual_proof": "In Clip 1 (0:11-0:13), the on-screen text clearly reads 'LEAVE A LIKE IF U HAVIN A ROOTIN TOOTIN GOOD TIME' while the man is driving. In Clip 2 (0:12-0:13), the on-screen text reads 'I'LL DO IT AT 10,000 LIKES' while the man is at Niagara Falls. Both prompts are visually present in their respective clips."
+    },
+    {
+        "question": "Which national symbol appears both at a marina early on and later again during a park walk with the couple?",
+        "answer": "The Canadian flag.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a Canadian flag flying near the marina. Step 2: Slice 25 shows the Canadian flag in the background during the park walk. Conclusion: The recurring symbol is the Canadian flag.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 describes a marina scene where a Canadian flag is flying prominently on a flagpole. Step 2: Evidence Slice 25 describes a park walk where the man turns the camera to show the Canadian flag flying in the background. Logic holds because the same national symbol—the Canadian flag—appears in both the marina scene early on and later during the park walk.",
+        "visual_proof": "In Video 1, at 0:08, a large Canadian flag is clearly visible flying on a flagpole at a marina with boats docked. In Video 2, at 0:06 and 0:07, the same Canadian flag is shown again, waving on a flagpole near a body of water during what appears to be the couple's walk in a park-like setting."
+    },
+    {
+        "question": "After the couple eats inside the RV at night while joking about the generator noise, they are later shown outside getting food from a fries truck. What does this sequence suggest about their travel routine?",
+        "answer": "They eat on the go, using the RV for meals at night and also stopping at food trucks during the day.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            10,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows them eating in the RV at night with a generator joke, implying camping/parking. Step 2: Slice 10 continues the RV-table meal vibe with spaghetti. Step 3: Slice 15 shows them buying and eating fries from a food truck. Conclusion: Their routine mixes RV meals (often parked/camping) with roadside/food-truck stops.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows the pair eating pasta inside an RV at night, explicitly mentioning the night setting and generator noise. Step 2: Slice 15 shows the same pair outside at a food truck (“Wes’ French Fries”), with a cloudy sky visible, indicating daytime. They are eating fries there. Step 3: Slice 10 adds that the man is later driving, reinforcing that they are traveling. Logic holds because the sequence depicts meals in the RV at night and food stops outside during the day while on the move, supporting the idea of eating on the go with both RV meals and food truck stops.",
+        "visual_proof": "Clip 1 shows the couple eating inside the RV at night with a 'GENERATOR GO BRRRRRRRRR' text overlay, indicating they are using the RV's power for meals. Clip 3 shows them outside during the day, eating fries from a food truck called 'WES'. This sequence visually confirms they use both the RV and external food sources while traveling."
+    },
+    {
+        "question": "Track the man's headwear across the trip: he drives wearing a wide-brim hat, later appears at Niagara Falls with earphones, and later wears a cowboy hat while browsing indoors. What are these three distinct hat contexts?",
+        "answer": "Wide-brim hat while driving; wide-brim hat with earphones at Niagara Falls; wide-brim hat while browsing indoors.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            50,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows a man driving in a wide-brimmed hat and dark jacket. Step 2: Slice 50 shows the man near Niagara Falls wearing a wide-brimmed hat and earphones. Step 3: Slice 40 shows him wearing a cowboy hat indoors while browsing framed pictures. Conclusion: These are the three hat contexts across time.",
+        "logic_check_reasoning": "Step 1: Slice 28 states the man is driving and wearing a wide-brimmed hat, supporting 'wide-brim hat while driving.' Step 2: Slice 50 shows the man at Niagara Falls wearing a wide-brimmed hat and earphones, supporting 'wide-brim hat with earphones at Niagara Falls.' Step 3: Slice 40 describes the man indoors browsing framed pictures while wearing a cowboy hat, supporting 'cowboy hat while browsing framed artwork indoors.' Although Slice 40 also mentions a driving scene with a cowboy hat, the answer's three contexts are each explicitly supported by the provided slices.",
+        "original_text_answer": "Wide-brim hat while driving; wide-brim hat with earphones at Niagara Falls; cowboy hat while browsing framed artwork indoors.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In all three clips, the man is wearing the same light-colored, wide-brimmed sun hat. Clip 1 shows him driving with it. Clip 2 shows him at Niagara Falls with the same hat and earphones. Clip 3 shows him indoors at a store, still wearing the same wide-brim hat, not a cowboy hat. The 'cowboy hat' mentioned in the original answer is visually incorrect; it is consistently a wide-brim sun hat."
+    }
+]

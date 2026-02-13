@@ -1,0 +1,59 @@
+[
+    {
+        "question": "A black-screen title card announces a duration in months, and later another title card describes an “Asian odyssey” with a different month count. What are the two month counts mentioned?",
+        "answer": "One title card says “8 MONTHS,” and another says “7 MONTH ASIAN ODYSSEY.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 8 displays a title card reading “8 MONTHS.” Step 2: Slice 78 displays text including “THIS IS MY 7 MONTH ASIAN ODYSSEY.” Conclusion: The month counts are 8 and 7.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly shows a black-screen title card that reads '8 MONTHS.' Step 2: Slice 78 explicitly shows a title card stating 'THIS IS MY 7 MONTH ASIAN ODYSSEY.' Logic holds because the question asks for the two month counts from these separate title cards, which are 8 and 7 respectively.",
+        "visual_proof": "In Video 1, at 0:01, a black screen displays the text '8 MONTHS'. In Video 2, at 0:06, a title card over a plane wing shot reads 'THIS IS MY 7 MONTH ASIAN ODYSSEY'. Both pieces of text are clearly visible and legible in their respective clips."
+    },
+    {
+        "question": "The creator is first shown with a small box at the table, and later he is shown handling small objects on the table/bedroom surfaces. What continuity of action is implied about what he’s doing across these moments?",
+        "answer": "He appears to be unboxing/handling and examining small items (a box first, then small objects later) as part of a hands-on segment.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            62,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows him holding a small box while explaining something at the table. Step 2: Slice 62 shows him using his hands with small items at the table. Step 3: Slice 63 shows close-up handling of a small object (like jewelry/toy). Conclusion: Across time, he continues a hands-on unboxing/inspection activity.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows the man at a table holding a small box while speaking, implying he is introducing or focusing on that boxed item. Step 2: Slice 62, in the same living room setup (laptop, green bottle, sofa, guitar), shows him actively manipulating small items on the table, possibly assembling/disassembling, which continues the hands-on engagement with objects. Step 3: Slice 63 shows him later handling a small object in a bedroom-like setting, examining/manipulating it, with a similar green bottle visible, indicating continued work with small items. Logic holds because the progression from holding a small box to handling small objects suggests an ongoing hands-on segment where he examines items, plausibly following an unboxing or item handling flow.",
+        "visual_proof": "Clip 1 shows the man holding and presenting a small grey box. Clip 2 shows him at the same table, now interacting with his laptop while the box sits beside it, implying a transition in activity. Clip 3 is a close-up of his hands holding and examining a very small object, consistent with handling an item from the box. The continuity of location (same desk, background) and the progression from a larger package to smaller components support the conclusion that he is engaged in a hands-on unboxing or review segment."
+    },
+    {
+        "question": "The creator’s brand identity appears as an animated purple bicycle with his name, later the bicycle logo appears on a phone screen, and later a purple bicycle is manipulated as a 3D model. What end-to-end creative workflow is suggested by these connected appearances?",
+        "answer": "Design/branding from logo animation to mobile/logo display and then to creating or refining a 3D bicycle asset in modeling software.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            52,
+            54,
+            55,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 52 introduces an animated purple bicycle tied to the creator’s name. Step 2: Slice 54 shows the bicycle-wheel logo (“CLEBLANC”) on a smartphone screen. Step 3: Slice 55 shows a spinning bicycle image on the smartphone while the creator works nearby. Step 4: Slice 71 shows a purple bicycle wireframe in 3D software. Conclusion: The video implies a workflow from branding/logo to mobile preview to 3D asset creation.",
+        "logic_check_reasoning": "Step 1: Slice 52 shows an animated purple bicycle with the text 'CHRISTIAN LEBLANC,' indicating a branded logo/intro animation. Step 2: Slices 54 and 55 show the bicycle-themed logo appearing on a smartphone screen (purple wheel/bicycle with 'CLEBLANC'), supporting the mobile/logo display stage. Step 3: Slice 71 shows a purple bicycle as a wireframe in 3D modeling software, with the presenter explaining, suggesting creation/refinement of a 3D asset. Logic holds because the same purple bicycle motif consistently appears across a logo animation, mobile display, and 3D modeling context, implying a workflow from branding to mobile representation to 3D asset work.",
+        "visual_proof": "Clip 1 shows the final animated logo with the name 'CHRISTIAN LEBLANC'. Clip 2 and 3 show this same logo displayed on a smartphone screen, indicating its use in a mobile context. Clip 4 shows a file browser with numerous PSD files (a common graphic design format) named 'BIKE' and a video file titled 'Bike FCPX.mov', suggesting the creation or editing of the bicycle asset in design software. This sequence visually supports a workflow from animation to mobile display to asset creation/refinement."
+    },
+    {
+        "question": "The creator appears in different clothing states over time: early he wears a white T-shirt with a car graphic, later a gray hoodie in a different setup, and elsewhere he appears again in a white T-shirt at the living-room desk. What does this clothing variation suggest about the recording sessions shown?",
+        "answer": "They come from different recording days/segments (multiple sessions) rather than a single continuous take.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            53,
+            61,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows him in a white T-shirt with a car graphic at the table. Step 2: Slice 53 shows a split-screen with a man in a gray hoodie in a car and the desk participant in a white T-shirt. Step 3: Slice 61 shows the creator in a gray hoodie in the living room setting. Step 4: Slice 83 shows him again in a white “The Golf” car-graphic shirt at the table. Conclusion: Different outfits across scenes imply separate sessions/times.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows the creator in a living room at a table wearing a white T-shirt with a car graphic, speaking with a laptop and water bottle present. Step 2: Slice 83 similarly shows him at a table in a modern living room, again in a white T-shirt with a car graphic, consistent with the same setup. Step 3: Slice 61 shows the creator in a different scene wearing a gray hoodie in a living room setting, presented as a YouTube video titled \"MY BIG SECRET,\" indicating a distinct recording. Step 4: Slice 53 presents a split-screen: on the left, a man in a car wearing a light gray hoodie; on the right, a man in a white T-shirt working at a desk. The contrast in clothing and settings across these slices supports that the footage comes from different segments/sessions rather than one continuous take.",
+        "visual_proof": "Clip 1 and Clip 4 show the creator in a white T-shirt with a car graphic, seated at a desk in a living room. Clip 2 and Clip 3 show him in a gray hoodie, first inside a car and then in a kitchen setting. The distinct changes in clothing and background environments across the clips strongly indicate that these are separate recording sessions."
+    }
+]

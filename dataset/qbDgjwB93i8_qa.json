@@ -1,0 +1,141 @@
+[
+    {
+        "question": "What on-screen message about YouTube performance appears over aerial mountains, and what later on-screen editing advice claims transitions aren’t needed?",
+        "answer": "The aerial mountains show a message about retention rate being the most important metric (and focusing on keeping people engaged), and later the editing advice says “NO TRANSITIONS REQUIRED.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 4 overlays text about retention rate and keeping people engaged over aerial mountain shots. Step 2: Slice 59 overlays “NO TRANSITIONS REQUIRED.” Conclusion: Both slices present creator-advice text, one about engagement metrics and one about editing style.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly shows aerial mountain shots with on-screen text: 'RETENTION RATE IS ARGUABLY THE MOST IMPORTANT METRIC ON YOUTUBE' and later 'IF YOU WANT TO GET THOSE JUICY SUGGESTED VIEWS, FOCUS ON KEEPING PEOPLE ENGAGED,' which addresses YouTube performance. Step 2: Slice 59 shows on-screen text 'NO TRANSITIONS REQUIRED,' which is an editing tip claiming transitions aren’t needed. The proposed answer matches these details directly.",
+        "visual_proof": "In Clip 1, yellow text overlays aerial mountain shots stating: 'RETENTION RATE IS ARGUABLY THE MOST IMPORTANT METRIC ON YOUTUBE' and 'IF YOU WANT TO GET THOSE JUICY SUGGESTED VIEWS, FOCUS ON KEEPING PEOPLE ENGAGED'. In Clip 2, yellow text appears over the man speaking, reading: 'NO TRANSITIONS REQUIRED.'"
+    },
+    {
+        "question": "Which distinctive boat-related object appears in a calm-water scene, and where does it reappear after the person climbs stone steps?",
+        "answer": "A large cross mounted on a stone platform in the water appears, and it reappears in a serene aerial view after the person climbs the stone stairs.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows climbing stairs followed by an aerial view of a small boat with a cross on its roof. Step 2: Slice 23 shows a large white cross on a small island in the water (the same landmark/cross theme). Conclusion: The cross landmark is tracked across consecutive scenic segments connected to that location.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes that after the person climbs stone stairs, the scene transitions to a calm aerial view showing a small boat with a large cross mounted on its roof. Step 2: This confirms the distinctive boat-related object (a large cross on a boat) appears in a calm-water scene and is shown specifically in a serene aerial view after the stair climb. Step 3: Slice 23 shows a cross on an island, which does not contradict the answer but is not needed to validate it. The logic holds because Slice 22 directly supports both parts of the proposed answer.",
+        "original_text_answer": "A large cross mounted on a boat appears, and it reappears in a serene aerial view after the person climbs the stone stairs.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 (0:06), after the man is seen climbing stone steps, the scene cuts to an aerial shot of a large white cross standing on a stone platform in the middle of calm water. In Clip 2 (0:00-0:02), this same cross on its stone platform is shown again from an aerial perspective, with a mountainous coastline in the background. The object is not mounted on a boat; it is fixed to a stationary platform."
+    },
+    {
+        "question": "What activity is promoted by the brochure, and what underwater creatures are later shown that match the promo theme?",
+        "answer": "The brochure promotes deep diving in Camiguin, and later the video shows coral reefs with fish (including a clownfish) and scuba divers exploring underwater.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            33,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows a brochure reading “TAKE A DEEP DIVE IN CAMIGUIN.” Step 2: Slice 29 shows underwater reef life and scuba divers. Conclusion: The later underwater footage aligns with the diving activity being promoted.",
+        "logic_check_reasoning": "Step 1: Slice 33 states the brochure reads 'TAKE A DEEP DIVE IN CAMIGUIN,' indicating promotion of diving in Camiguin. Step 2: Slice 29 shows underwater scenes with a coral reef and a clownfish in an anemone, and later two scuba divers exploring a reef. Step 3: The proposed answer claims the brochure promotes deep diving in Camiguin and that later scenes show coral reefs with fish (including a clownfish) and scuba divers. All these elements are explicitly described in the slices, so the logic holds.",
+        "visual_proof": "Clip 1 clearly shows a brochure with the text 'TAKE A DEEP DIVE IN CAMIGUIN' alongside an image of a diver. Clip 2 visually confirms the theme by showing underwater scenes with vibrant coral reefs, clownfish swimming among anemones, and multiple scuba divers actively exploring the marine environment."
+    },
+    {
+        "question": "What is the listed price information shown for a boat-related fee, and what later scene shows the traveler actually riding a boat on choppy water?",
+        "answer": "The sign lists “PUMBOAT FEE 6 PERSONS ₱450.00” and an “ENTRANCE FEE ₱50.00” (with “SENIOR CITIZEN ₱40.00”), and later the traveler is on a boat in choppy ocean water while talking to camera.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            70,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 70 shows the fee board with the pumboat fee and entrance fee amounts. Step 2: Slice 72 shows the man riding on a moving boat with splashing water and a rocky island in the background. Conclusion: The payment info precedes and contextualizes the later boat ride.",
+        "logic_check_reasoning": "Step 1: Slice 70 explicitly lists pricing on a sign: 'PUMBOAT FEE 6 PERSONS ₱450.00,' 'ENTRANCE FEE ₱50.00,' and 'SENIOR CITIZEN ₱40.00,' which directly answers the boat-related fee information. Step 2: Slice 72 describes a man on a boat in the ocean with choppy water, talking to the camera, indicating the traveler riding a boat. Logic holds because the first slice provides the fee details and the second slice shows the actual boat ride, matching the proposed answer.",
+        "visual_proof": "Clip 1 clearly shows a white sign with red and green text listing 'PUMBOAT FEE: 6 PERSON ₱450.00', 'ENTRANCE FEE ₱50.00', and 'SENIOR CITIZEN ₱40.00'. Clip 2 shows the same traveler from Clip 1, now on a small boat moving through visibly choppy water, speaking directly to the camera."
+    },
+    {
+        "question": "During the waterfall portion, what clothing does the main vlogger wear while presenting, and what swimsuit color is seen on a woman swimming at the waterfall pool in a separate segment?",
+        "answer": "He wears a white tank top with a green cap while presenting near the waterfall, and another segment shows a woman swimming in a red bikini in the waterfall pool.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows the presenter in a white sleeveless shirt and green cap speaking with a waterfall behind him. Step 2: Slice 43 shows a waterfall pool where a woman swims wearing a red bikini. Conclusion: Combine the presenter’s outfit with the separate swimsuit detail from another waterfall scene.",
+        "logic_check_reasoning": "Step 1: Slice 46 describes the main presenter near the waterfall wearing a white sleeveless shirt and a green cap while speaking to the camera. Step 2: Slice 43 also mentions a man wearing a white tank top and a green cap in the waterfall setting and further notes a woman swimming in a red bikini in the pool. Logic holds because the visual attributes align across slices, identifying the main vlogger's attire and confirming the swimsuit color.",
+        "visual_proof": "In clip 1, the main vlogger is clearly seen wearing a white tank top and a green cap while speaking to the camera with the waterfall in the background. In clip 2, at timestamp 0:13, a woman is shown swimming in the waterfall pool wearing a bikini that is predominantly red with some white and blue accents, which fits the description of a 'red bikini'."
+    },
+    {
+        "question": "Across the travel day, what relaxing hot-water activity is shown, and what later nighttime water activity contrasts with it?",
+        "answer": "A relaxing hot spring soak is shown, and later there’s nighttime swimming/diving in a natural pool or river with splashing.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a man sitting in a hot spring. Step 2: Slice 20 shows nighttime swimming with diving and splashing in a natural pool/river. Conclusion: Both are water activities but differ in temperature/setting/time of day.",
+        "logic_check_reasoning": "Step 1: Slice 21 states the video begins with a man sitting in a hot spring, enjoying the warm water—this supports a relaxing hot spring soak. Step 2: Slice 20 describes nighttime activity in a natural pool/river where a man dives, creating a splash, and others swim—this supports nighttime swimming/diving. Logic holds because the answer aligns with both scenes and contrasts the daytime hot spring soak with nighttime swimming/diving.",
+        "visual_proof": "Clip 1 shows a man speaking while submerged in warm, steaming water at night, consistent with a hot spring. Clip 2 shows people actively swimming and diving in the same body of water at night, creating significant splashes, which contrasts with the initial calm soak."
+    },
+    {
+        "question": "How does the traveler’s outfit change from riding through greenery to later presenting in front of a waterfall, and what key accessory remains consistent with his role as a creator?",
+        "answer": "He goes from riding in casual travel gear (helmet and casual top) to presenting in a white tank top with a green cap, and he consistently carries/uses a camera.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            46,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows him riding with an orange helmet (travel/riding mode). Step 2: Slice 46 shows him presenting near a waterfall in a white tank top and green cap. Step 3: Slice 52 reinforces that he’s a creator holding camera gear (lens indoors; camera outdoors). Conclusion: Clothing changes by activity, but the camera remains a consistent creator accessory.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows the rider traveling through greenery wearing an orange helmet (BKS) and filmed from a first-person perspective, implying use of a camera; no specific top is mentioned, but the helmet confirms riding gear. Step 2: Slice 46 shows the man presenting in front of a waterfall wearing a white sleeveless shirt (tank top) and a green cap, and he is holding a camera. Step 3: Slice 52 reinforces the waterfall outfit (white sleeveless shirt, green cap) and shows him actively using camera equipment (camera and lens), supporting the consistent accessory being a camera. Logic holds because the outfit clearly changes from helmeted riding gear to a white sleeveless shirt with a green cap, and the camera is a recurring accessory tied to his creator role.",
+        "visual_proof": "In Clip 1, the traveler is seen riding a motorcycle wearing a helmet and a striped tank top. In Clip 2, he is presenting in front of a waterfall wearing a white tank top and a green cap. Throughout both clips, he is seen handling or carrying a camera, confirming his role as a creator."
+    },
+    {
+        "question": "Which two different sunset scenes are shown, and what later nightlife/cafe setting contrasts with those tranquil sunsets?",
+        "answer": "One sunset shows the sun setting over mountains/ocean and another shows a sunset beach montage with boats; later, the contrast is a dimly lit cafe/bar setting with rustic decorations where he talks at night.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            21,
+            79,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 21 includes a sunset over a mountain range. Step 2: Slice 79 shows a sunset beach scene and later nightfall over the ocean. Step 3: Slice 80 shows him speaking at night in a rustic, decorated venue. Conclusion: The mood shifts from serene sunsets to an intimate nighttime interior/social setting.",
+        "logic_check_reasoning": "Step 1: Slice 21 explicitly shows a sunset over a mountain range. Step 2: Slice 79 shows a beach/sea sunset sequence with boats and an island, confirming a second distinct sunset scene. Step 3: Slice 80 presents a nighttime, dimly lit, rustic, cafe/bar-like setting where a man talks to the camera. The proposed answer identifies the mountain sunset and the beach/boat sunset, and correctly contrasts them with the later dimly lit rustic cafe/bar vibe at night.",
+        "visual_proof": "Clip 1 shows a sunset over silhouetted mountains with clouds. Clip 2 shows multiple sunset scenes: one over the ocean from a beach, an aerial view of a sandbar with boats at sunset, and a boat ride into the sunset. Clip 3 shows the man in a dimly lit, rustic outdoor setting at night with hanging dreamcatchers and plants, talking to the camera, which contrasts with the earlier tranquil sunset visuals."
+    },
+    {
+        "question": "What happens to the rider’s progress after the scooter ride through greenery, and where is the scooter shown being worked on afterward?",
+        "answer": "The ride is interrupted by a flat tire, and afterward the scooter is shown being repaired on a paved surface with someone crouched at the rear wheel.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            66,
+            67,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows continuous first-person riding along a winding green road. Step 2: Slice 67 shows the bike stopping due to a flat tire and locals helping. Step 3: Slice 68 shows hands-on scooter repair work near the wheel on pavement. Conclusion: Smooth ride → tire issue → repair scene.",
+        "logic_check_reasoning": "Step 1: Slice 66 and 67 describe a first-person ride through lush greenery on a narrow, winding road. Step 2: Slice 67 explicitly states the ride is interrupted by a flat rear tire, with locals assisting in fixing it. Step 3: Slice 68 shows a scooter being worked on outdoors on a paved surface, with a person in a blue shirt crouched at the front wheel area. Logic holds because the interruption (flat tire) is clearly supported, and the subsequent repair scene on a paved surface with focus on the front wheel is also explicitly described.",
+        "original_text_answer": "The ride is interrupted by a flat tire, and afterward the scooter is shown being repaired on a paved surface with someone crouched at the front wheel.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 and 2 show the rider traveling on a road surrounded by greenery. Clip 3 shows the scooter stopped on a paved surface, with a person crouching down and working on the rear wheel, not the front wheel as stated in the original answer."
+    },
+    {
+        "question": "What chain of events shows rural motorbike travel leading to a mechanical issue, followed by a later return to busy street riding?",
+        "answer": "The rider travels along a winding green road, then gets a flat tire and has it worked on, and later rides again through a lively street area with many other scooters.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            66,
+            67,
+            68,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows uninterrupted riding through lush greenery. Step 2: Slice 67 shows the ride stopping due to a flat tire. Step 3: Slice 68 shows repair work being done on the scooter. Step 4: Slice 69 shows the rider back on the road in a busier street environment. Conclusion: Travel → breakdown → repair → resumed riding.",
+        "logic_check_reasoning": "Step 1: Slices 66 and 67 show a first-person motorcycle ride on a narrow, winding road surrounded by lush greenery, establishing rural travel. Step 2: Slice 67 explicitly states the bike stops due to a flat rear tire and locals help fix it, confirming a mechanical issue followed by repair. Step 3: Slice 69 depicts a subsequent first-person ride through a lively street with many scooters, showing a return to busy street riding. Visual differences (helmet color) can be attributed to VLM noise and do not break the logical chain.",
+        "visual_proof": "Clip 1 shows the rider on a narrow, green, rural road. Clip 3 shows two men working on the rear wheel of a motorcycle, indicating a mechanical issue (flat tire). Clip 4 shows the rider back on a wider, busier street with other motorbikes and roadside stalls, confirming a return to riding in a more populated area."
+    }
+]

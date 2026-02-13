@@ -1,0 +1,85 @@
+[
+    {
+        "question": "Which two separate sequences show vehicles heavily impacted by disaster conditions—one being submerged by flooding and another being crushed by rubble?",
+        "answer": "Flooded vehicles appear on a submerged highway, and crushed vehicles appear under debris in an earthquake-like scene.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows cars partially submerged on a flooded highway near a skyline. Step 2: Slice 52 shows cars (including a red Volkswagen) smashed by falling rubble. Conclusion: These two sequences depict vehicles damaged by floodwater versus debris impact.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly describes a major highway in Houston heavily flooded, with multiple vehicles partially submerged up to their windows. Step 2: Slice 52 describes an urban disaster scene where two parked cars are severely damaged and crushed by falling rubble, likely from an earthquake-like event. Logic holds because these two slices match the two sequences referenced: one of vehicles submerged by flooding and another of vehicles crushed by debris.",
+        "visual_proof": "Clip 1 shows multiple cars partially submerged in floodwater on a highway with city skyscrapers in the background. Clip 2 shows a red Volkswagen with its windshield shattered and covered in bricks and rubble, indicating structural collapse consistent with earthquake damage."
+    },
+    {
+        "question": "Which two segments show tornadoes depicted directly as funnels rather than only as statistical maps?",
+        "answer": "The open-landscape tornado funnel and the road-view tornado funnel in the distance.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows a tornado funnel forming in a rural landscape with utility poles. Step 2: Slice 19 shows a large tornado viewed from a road with a parked vehicle. Conclusion: Both are direct funnel depictions (not just maps).",
+        "logic_check_reasoning": "Step 1: Slice 18 explicitly describes a powerful tornado with a well-defined funnel extending from clouds to the ground in an open rural landscape. Step 2: Slice 19 explicitly describes a large, dark funnel cloud (tornado) seen from a road perspective, with a visible column connecting to the ground. Logic holds because both slices depict tornadoes directly as funnels, not as statistical maps, matching the proposed descriptions of 'open-landscape tornado funnel' and 'road-view tornado funnel in the distance.'",
+        "visual_proof": "Clip 1 shows a classic, well-defined tornado funnel extending from dark storm clouds to the ground over an open field with silhouetted trees and power lines. Clip 2 shows another prominent tornado funnel descending from a massive supercell cloud base, viewed from a straight highway stretching into the distance, with fields on either side. Both clips depict physical, visual funnels, not statistical maps."
+    },
+    {
+        "question": "What sequence shows earthquake risk communication moving from a national hazard map, to a specific month’s earthquake distribution map, and then to street-level damage impacts?",
+        "answer": "A USGS seismic hazard map, then a March 2018 earthquake-locations map, then cars and streets damaged by falling rubble.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            58,
+            64,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows a USGS seismic hazard map of the U.S. Step 2: Slice 64 shows \"Earthquakes of March 2018\" with colored dots. Step 3: Slice 52 shows cars crushed by debris in an earthquake-damage scene. Conclusion: Risk mapping connects to event occurrence and then to real-world damage.",
+        "logic_check_reasoning": "Step 1: Slice 58 describes a USGS national seismic hazard map with color-coded hazard levels, matching the first element. Step 2: Slice 64 shows a map titled 'Earthquakes of March 2018' with colored dots indicating earthquake locations, matching the specific month’s distribution map. Step 3: Slice 52 depicts street-level damage with cars crushed by falling rubble, consistent with earthquake impacts. The proposed sequence aligns exactly with these slices in order.",
+        "visual_proof": "Clip 1 shows a USGS map with color-coded seismic hazard levels across the USA. Clip 2 displays a map titled 'Earthquakes of March 2018' with dots indicating locations. Clip 3 shows street-level damage with cars crushed under brick rubble, consistent with earthquake impacts."
+    },
+    {
+        "question": "Which three segments together contrast everyday city tourism visuals with disaster visuals that show the same kind of urban spaces becoming hazardous?",
+        "answer": "A scenic coastal city view, a calm skyscraper skyline, and then an urban storm/flood scene where streets and palms are overwhelmed.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows serene San Diego skyline/marina and a landmark hotel. Step 2: Slice 10 shows a calm iconic skyline with major skyscrapers. Step 3: Slice 11 shows a violent coastal storm with flooded roads and bent palms. Conclusion: Urban settings mutate from tourism/normalcy to dangerous conditions.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows everyday tourism visuals of a coastal city (San Diego) with a calm marina, palm-lined waterfront, and iconic hotel—clearly serene, tourist-friendly imagery. Step 2: Slice 10 begins with a calm, iconic skyscraper skyline (Chrysler Building, Empire State Building), another everyday urban/tourism visual. Step 3: Slice 11 depicts an urban storm/flood scene with bent palm trees, flooded roads, and debris, showing similar urban spaces (streets, palms) becoming hazardous. The proposed answer maps to these three: scenic coastal city view (Slice 8), calm skyscraper skyline (Slice 10 first scene), and an urban storm/flood scene (Slice 11), which is fully supported by the context.",
+        "visual_proof": "Clip 1 shows a serene coastal city (San Diego) with a marina and hotels, representing tourism. Clip 2 shows a calm, iconic skyscraper skyline (New York City), another tourist destination. Clip 3 shows a street completely flooded by a storm, with palm trees bent by wind and a car stranded, illustrating the same type of urban space becoming hazardous due to disaster."
+    },
+    {
+        "question": "How is volcanic activity shown shifting from eruption imagery to everyday human adaptation and then to field investigation near buried objects?",
+        "answer": "It shows eruptions, then people dealing with ash in town, and later people examining a partially buried car in a volcanic landscape.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            76,
+            85,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 76 shows an active volcanic eruption plume. Step 2: Slice 85 shows a man shoveling volcanic ash from a sidewalk in front of a storefront. Step 3: Slice 86 shows two people examining a partially buried car with a helicopter nearby in a volcanic landscape. Conclusion: The sequence links eruption to ashfall impacts to on-site investigation.",
+        "logic_check_reasoning": "Step 1: Slice 76 describes a dramatic volcanic eruption with a large ash plume, establishing eruption imagery. Step 2: Slice 85 shows a man shoveling volcanic ash from a sidewalk in an urban setting, demonstrating everyday human adaptation to the ash. Step 3: Slice 86 depicts two individuals examining a partially buried car in a rugged volcanic landscape near a helicopter, indicating a field investigation near buried objects. The sequence logically matches the proposed answer.",
+        "visual_proof": "Clip 1 visually depicts a massive volcanic eruption with an ash plume. Clip 2 shows a person shoveling thick ash from a sidewalk in front of storefronts, indicating urban adaptation to the fallout. Clip 3 shows two individuals kneeling beside a car almost completely buried in ash, with a helicopter nearby, suggesting a field investigation or survey in the affected area."
+    },
+    {
+        "question": "How does the video depict flooding from a major-city highway scene, to neighborhood-level submersion, to a warning sign in the water, and finally to a person kayaking through the flood at the end?",
+        "answer": "It goes from submerged highway cars, to flooded residential areas, to a partially submerged \"DEAD END\" sign, and ends with a kayaker moving through floodwater near a speed limit sign.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            16,
+            37,
+            40,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows extreme highway flooding with cars submerged. Step 2: Slice 37 shows an aerial view where only rooftops/treetops remain above floodwater. Step 3: Slice 40 shows a flooded neighborhood with a tilted, partially submerged \"DEAD END\" sign. Step 4: Slice 96 shows a person in a yellow kayak navigating floodwaters with a \"35\" sign visible and an end-message overlay. Conclusion: Flood impact is shown across scales and ends with human navigation through inundated streets.",
+        "logic_check_reasoning": "Step 1: Slice 16 shows a major-city highway in Houston with heavy flooding and submerged cars, matching 'submerged highway cars.' Step 2: Slice 37 shows an aerial view with houses/barns tops visible above widespread floodwaters, and Slice 40 shows houses partially submerged, supporting 'flooded residential areas.' Step 3: Slice 40 specifically mentions a partially submerged 'DEAD END' sign, satisfying 'a warning sign in the water.' Step 4: Slice 96 depicts a person kayaking through floodwaters with a visible '35' speed limit sign, aligning with 'ends with a kayaker moving through floodwater near a speed limit sign.' The sequence and details are consistent with the proposed answer.",
+        "visual_proof": "Clip 1 shows cars submerged on a highway with city skyscrapers in the background. Clip 2 shows an aerial view of flooded rural houses and barns. Clip 3 features a yellow 'DEAD END' sign partially submerged in front of flooded houses. Clip 4 shows a person in a yellow kayak paddling through turbulent floodwater, with a 'SPEED LIMIT 35' sign visible in the background. The sequence accurately matches the description."
+    }
+]

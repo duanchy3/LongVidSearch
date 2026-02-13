@@ -1,0 +1,96 @@
+[
+    {
+        "question": "After the news headline says a famous mobster was convicted, which later slice connects that conviction to a funeral and a death date years later?",
+        "answer": "The later slice is the one that shows the funeral and notes the death of the “Teflon Don” on June 10, 2002.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a news broadcast headline “Gotti Convicted” dated April 2, 1992. Step 2: Slice 26 repeats the conviction context and then shows a funeral procession with text about the “Teflon Don” dying June 10, 2002. Conclusion: Slice 26 is the later connection.",
+        "logic_check_reasoning": "Step 1: Slice 24 includes the news headline 'Gotti Convicted' (April 2, 1992) but does not mention a funeral or death date. Step 2: Slice 26 also shows 'Gotti Convicted' and then explicitly transitions to a funeral procession with text noting the death of the 'Teflon Don' on June 10, 2002. Logic holds because Slice 26 directly connects the conviction to the later funeral and death date.",
+        "visual_proof": "Clip 1 shows a news headline 'Gotti Convicted Apr. 2, 1992'. Clip 2, which occurs later in the video's timeline, shows a funeral scene with pallbearers carrying a coffin. A graphic overlay in this clip explicitly states '\"Teflon Don\" Done Jun. 10, 2002', directly connecting the earlier conviction to the later death."
+    },
+    {
+        "question": "Which cartoon character is shown in a colorful animation after the video announces the death of the character’s creator in a separate segment?",
+        "answer": "Woody Woodpecker.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 15 announces “Woody Woodpecker Voice Actor Dies” (March 17, 1992). Step 2: Slice 18 introduces Walter Lantz as the creator of Woody Woodpecker and then shows an animated Woody sequence. Conclusion: The cartoon character is Woody Woodpecker.",
+        "logic_check_reasoning": "Step 1: Slice 18 explicitly shows a segment introducing Walter Lantz (the creator of Woody Woodpecker) and then a colorful animated sequence featuring Woody Woodpecker walking on a red carpet and blowing bubbles. Step 2: The question asks which cartoon character is shown in a colorful animation after a separate segment about the creator; Slice 18 provides that sequence (creator segment followed by animation). Step 3: Although Slice 15 mentions the death of the voice actor rather than the creator, the identity of the cartoon character shown in the colorful animation is clearly stated in Slice 18 as Woody Woodpecker. Therefore, the context supports the proposed answer.",
+        "visual_proof": "Clip 1 ends with a graphic announcing the death of the 'Woody Woodpecker Voice Actor' on Mar. 17, 1992, alongside an image of the character Woody Woodpecker. Clip 2 then shows a colorful animation of Woody Woodpecker walking and pointing, confirming he is the character shown after the announcement."
+    },
+    {
+        "question": "What is the name of the computer virus that is shown first as a dated warning graphic and later as a floppy disk label and infection alert message?",
+        "answer": "The Michelangelo computer virus.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a graphic about the “Michelangelo Computer Virus” dated March 6, 1992. Step 2: Slice 13 shows a floppy disk labeled “Michelangelo” and related infection/copying visuals. Conclusion: The virus is Michelangelo.",
+        "logic_check_reasoning": "Step 1: Slice 12 states there is a graphic displaying information about the \"Michelangelo Computer Virus\" dated March 6, 1992, which matches the \"dated warning graphic.\" Step 2: Slice 13 describes a floppy disk labeled \"Michelangelo\" and an animation indicating infection/transfer, explicitly noting discussion of the Michelangelo computer virus infecting floppy disks, which matches the \"floppy disk label and infection alert message.\" Logic holds because both slices reference the same virus by name in the described contexts.",
+        "visual_proof": "The name 'Michelangelo' is explicitly shown in multiple visuals. At 0:25 in Video 1, a graphic reads 'Michelangelo Computer Virus'. In Video 2, at 0:06, the name 'Michelangelo' appears on a computer screen's boot-up message. At 0:08, a floppy disk is labeled with the name 'Michelangelo', visually confirming it as the subject of the warning and infection alert."
+    },
+    {
+        "question": "Which beverage brand is presented in a space-themed advertisement and then later shown with timeline text stating it hit shelves in April 1992 and ended in 1993?",
+        "answer": "Crystal Pepsi.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a cosmic, starry Crystal Pepsi advertisement with bottles/cans and slogans. Step 2: Slice 31 shows a graphic with the text “Crystal Pepsi Hits Shelves Apr. 13, 1992” and “Crystal Pepsi Ends 1993.” Conclusion: The beverage is Crystal Pepsi.",
+        "logic_check_reasoning": "Step 1: Slice 30 describes a cosmic, space-themed advertisement prominently featuring Crystal Pepsi, including its bottle and can and on-screen text like 'Introducing Crystal Pepsi.' Step 2: Slice 31 shows timeline text specifically stating 'Crystal Pepsi Hits Shelves Apr. 13, 1992' and 'Crystal Pepsi Ends 1993.' Logic holds because both slices refer to Crystal Pepsi and match the described space-themed ad and the timeline dates.",
+        "visual_proof": "Clip 1 opens with a space-themed ad featuring a 'Crystal Pepsi' bottle against a starry background. Clip 2 contains timeline graphics explicitly stating 'Crystal Pepsi Hits Shelves Apr. 13, 1992' and 'Crystal Pepsi Ends 1993', directly confirming the brand and its timeline."
+    },
+    {
+        "question": "Which sports story begins with a title about a very young golfer making history and then continues with golf footage plus an interview in a trophy-filled room?",
+        "answer": "The story about Tiger Woods as the youngest PGA golfer.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 11 ends with the title “Woods Youngest PGA Golfer” dated Feb. 27, 1992. Step 2: Slice 12 shows golf tournament footage and a young man interviewed in a trophy-filled room, consistent with the same golfing milestone story. Conclusion: It’s the Tiger Woods youngest PGA golfer story.",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly mentions a final frame titled \"Woods Youngest PGA Golfer\" dated February 27, 1992, indicating a sports story about a very young golfer making history. Step 2: Slice 12 describes subsequent golf footage (ABC News 1992) and an interview of a young man in a trophy-filled room, which matches the continuation described in the question. Step 3: The name \"Woods\" in Slice 11 logically aligns with Tiger Woods, and the golf/trophy room interview reinforces that this is the same sports story. The context fully supports the proposed identification.",
+        "visual_proof": "Clip 1 ends with a title card reading 'Woods Youngest PGA Golfer' dated Feb. 27, 1992. Clip 2 begins with footage of a young Tiger Woods playing golf, followed by an interview with him in a room filled with trophies, which directly corresponds to the description in the question."
+    },
+    {
+        "question": "What sequence shows a major political figure first in a March 1992 TV interview, then in June 1992 campaign celebration footage, and later in a November 1992 election-win montage with vote percentages?",
+        "answer": "Bill Clinton’s 1992 campaign arc from interview to clinching to election victory results.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            21,
+            47,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows Bill Clinton in a WCBS-TV interview dated March 29, 1992. Step 2: Slice 47 shows “Clinton Clinches” dated June 2, 1992 with rally and convention-style material. Step 3: Slice 87 shows Clinton celebrating the election win and a results graphic with Texas vote percentages. Conclusion: The video tracks Clinton from early interview to clinching to election results.",
+        "logic_check_reasoning": "Step 1: Slice 21 shows a WCBS-TV broadcast dated March 29, 1992 identifying \"Gov. BILL CLINTON,\" depicting a formal TV interview. Step 2: Slice 47 includes a frame with the text \"Clinton Clinches\" dated Jun. 2, 1992, showing celebratory campaign footage. Step 3: Slice 87 presents an election-win montage featuring Clinton celebrating and a statistical overview of vote percentages (Texas: Clinton 41%, Bush 40%, Perot 19%), which aligns with the election results context. Logic holds because all slices consistently depict Bill Clinton across March interview, June clinching celebration, and later election results with percentages.",
+        "visual_proof": "Clip 1 shows Bill Clinton in a WCBS-TV interview dated March 29, 1992. Clip 2 includes a graphic titled 'Clinton Clinches' dated June 2, 1992, with footage of him at a podium and celebrating with Al Gore. Clip 3 features a graphic 'Clinton Wins' dated Nov. 3, 1992, followed by NBC News vote tally graphics showing Clinton’s percentages against Bush and Perot."
+    },
+    {
+        "question": "Which set of segments ties together the death of a cocktail inventor, the name of the bar associated with the drink’s origin, and an animated preparation sequence showing tequila being poured and a citrus garnish added?",
+        "answer": "The Margarita thread: Carlos Herrera’s death announcement, the bar 'Rancho La Gloria,' and the animated margarita-making sequence.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            40,
+            41,
+            42,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows a timeline card: “Margarita Inventor Dies” (May 11, 1992) and names Carlos Herrera. Step 2: Slice 41 shows an animated bar scene labeled “Rancho La Gloria,” associated with the margarita story. Step 3: Slice 42 shows an animated margarita being made with tequila poured and a lemon wedge garnish placed. Step 4: Slice 43 continues the timeline format into another dated event, reinforcing the montage’s chronological storytelling style around notable May 1992 events. Conclusion: These slices collectively establish the margarita inventor, the origin bar setting, and the drink preparation.",
+        "logic_check_reasoning": "Step 1: Slice 40 explicitly shows a timeline graphic stating \"Margarita Inventor Dies\" and identifies Carlos Herrera as the inventor of the Margarita, satisfying the death of a cocktail inventor. Step 2: Slice 41 explicitly names the bar \"Rancho La Gloria,\" which is presented in the context of a bartender and a cocktail, satisfying the bar name element. Step 3: Slice 42 depicts an animated preparation sequence showing tequila being poured into a margarita glass and a citrus (lemon) wedge added, satisfying the preparation sequence. Logic holds because these three slices directly correspond to the components in the proposed answer.",
+        "visual_proof": "Clip 1 shows a news graphic announcing 'Margarita Inventor Dies' with the name 'CARLOS HERRERA.' Clip 2 features an animated bartender at a bar named 'Rancho La Gloria.' Clip 3 displays an animation of a margarita glass being filled with yellow liquid (tequila) and a citrus garnish being added. These three distinct segments visually link the inventor's death, the bar's name, and the drink's preparation."
+    }
+]

@@ -1,0 +1,166 @@
+[
+    {
+        "question": "At the start, what country is shown on screen, and later what kind of outdoor cooking structure is used as the main prep area?",
+        "answer": "Azerbaijan; a rustic open-sided shelter/cabin with a thatched roof used as an outdoor kitchen.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 1 explicitly shows the text “AZERBAIJAN.” Step 2: Slice 5 shows the open-sided thatched-roof structure serving as the cooking area. Conclusion: The video is set in Azerbaijan and uses a thatched-roof outdoor kitchen shelter.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states that the words 'AZERBAIJAN' appear on screen at the start, confirming the country. Step 2: Evidence Slice 5 describes a wooden structure with a thatched roof that is open-sided and serves as a cooking area where a person is preparing food, matching the description of a rustic open-sided outdoor kitchen. Logic holds because both elements (country and structure type) are directly stated in the slices.",
+        "visual_proof": "Clip 1 (0:01-0:06) clearly displays the text 'AZERBAIJAN' over a mountain valley scene. Clip 2 (0:04-0:06) shows a wide shot of the outdoor cooking area, which is a wooden structure with a thatched roof and open sides, serving as a kitchen with a person working inside."
+    },
+    {
+        "question": "A black-and-white dog is shown relaxing in the field, and later a similar black-and-white dog appears again—what new surface is the dog lying on the second time?",
+        "answer": "It is lying on a concrete surface the second time.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a black-and-white dog lying on grass in a field. Step 2: Slice 13 shows a black-and-white dog lying on a concrete surface before being seen in a field. Conclusion: The later instance adds that the dog lies on concrete.",
+        "logic_check_reasoning": "Step 1: Slice 10 states a black-and-white dog is lying on the grass in a field. Step 2: Slice 13 states a black-and-white dog is lying on a concrete surface. Logic holds because the question contrasts the initial field scene with a later appearance, and Slice 13 explicitly identifies the new surface as concrete.",
+        "visual_proof": "In the first clip, the black-and-white dog is lying on a grassy field. In the second clip, the same or a similar dog is shown lying down on a flat, gray, textured surface that is clearly concrete or stone paving, which is visually distinct from the grass in the first clip."
+    },
+    {
+        "question": "Before peppers are washed in a stream, what earlier task is repeatedly shown being done to raw meat on a wooden board?",
+        "answer": "The meat is being cut/chopped into smaller pieces on a wooden cutting board.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the man cutting raw meat into smaller pieces on a wooden counter/board. Step 2: Slice 16 later shows him washing bell peppers in a stream. Conclusion: Prior to washing peppers, the recurring meat task is chopping/cutting raw meat.",
+        "logic_check_reasoning": "Step 1: Slice 16 shows peppers being washed in a stream, establishing the later task. Step 2: Slice 3 describes an earlier scene where the man is cutting raw meat into smaller pieces with a knife on a wooden surface (counter) with repeated slicing shown via close-up and audio cues. Logic holds because the question asks for the earlier task done to raw meat on a wooden board, and Slice 3 explicitly supports that the meat is being cut/chopped into smaller pieces on a wooden surface, matching the proposed answer.",
+        "visual_proof": "In Video 1 (0:04-0:09), the man is clearly shown using a knife to cut and separate large pieces of raw meat on a wooden cutting board. This action is repeated throughout the clip, establishing it as the task performed before the peppers are washed in Video 2."
+    },
+    {
+        "question": "In the tea-break sequence, what container is used to pour hot water into fruit/berries, and in a later tea moment what citrus is sliced next to a glass of tea?",
+        "answer": "A samovar; a lemon is sliced.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows hot water being poured from a large metal samovar into a jar of fruits/berries. Step 2: Slice 44 shows lemon being sliced on the table next to tea. Conclusion: The beverage setup uses a samovar, and lemon is later sliced for tea.",
+        "logic_check_reasoning": "Step 1: Slice 40 explicitly states that hot water is poured from a large metal samovar into a glass jar with fruits and berries, confirming the container used is a samovar. Step 2: Slice 44 explicitly shows hands slicing a lemon next to a glass of amber-colored tea, confirming the citrus sliced is a lemon. Logic holds because both slices describe tea-related outdoor scenes and directly mention the items in question.",
+        "visual_proof": "In the first clip, a person's hand is seen pouring hot water from a large, ornate metal samovar into a glass teapot containing red berries. In the second clip, a close-up shows hands slicing a yellow lemon on a wooden table next to a glass of tea."
+    },
+    {
+        "question": "Which ingredient is washed under running water in nature before it is later shown being sliced into thin strips on the prep table?",
+        "answer": "Red bell pepper.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows bell peppers being washed under a small waterfall/stream. Step 2: Slice 17 shows a red bell pepper being sliced into thin strips. Conclusion: The washed ingredient later being sliced is red bell pepper.",
+        "logic_check_reasoning": "Step 1: Slice 16 states that a man washes fresh red and green bell peppers under a natural stream. Step 2: Slice 17 shows the man slicing a red bell pepper into thin strips on a prep table. Logic holds because the ingredient seen being washed (red bell pepper among the washed peppers) is later explicitly shown being sliced into thin strips.",
+        "visual_proof": "In Clip 1, the man is seen washing a bowl of red and green peppers under a natural water feature. In Clip 2, a close-up shot shows a red bell pepper being sliced on a wooden cutting board, confirming that the same ingredient was washed and then prepared for slicing."
+    },
+    {
+        "question": "After the cabbage is placed into a pot of water with mountains behind it, what later dish is revealed by lifting a steaming pot lid?",
+        "answer": "Stuffed cabbage rolls simmering in tomato-based sauce.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows cabbage being put into a pot of water (beginning the cabbage-cooking thread). Step 2: Slice 74 later reveals stuffed cabbage rolls in sauce when the lid is lifted. Conclusion: The cabbage preparation culminates in cooked stuffed cabbage rolls.",
+        "logic_check_reasoning": "Step 1: Slice 38 describes a hand placing a head of cabbage into a pot of water with mountains in the background, establishing the initial scene. Step 2: Slice 74 explicitly states that lifting the lid of a steaming pot reveals stuffed cabbage rolls simmering in a rich, tomato-based sauce. Logic holds because the question asks what dish is revealed later when a steaming pot lid is lifted, and Slice 74 provides that exact detail.",
+        "visual_proof": "Clip 1 shows cabbage being placed into a pot of water with a mountainous background. Clip 2, which occurs later in the same video, shows a person lifting a steaming lid to reveal numerous rolled cabbage parcels (stuffed cabbage rolls) simmering in a red, tomato-based sauce."
+    },
+    {
+        "question": "What tool is used to grind garlic into paste, and later what topping is poured over a served cabbage roll at the dinner table?",
+        "answer": "A wooden mortar and pestle; a creamy white sauce like sour cream or yogurt.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            76,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 76 shows garlic being crushed using a mortar and pestle. Step 2: Slice 87 shows a cabbage roll being served with a creamy white sauce poured on top. Conclusion: Garlic is ground with mortar/pestle earlier, and the plated roll later gets a creamy topping.",
+        "logic_check_reasoning": "Step 1: Slice 76 explicitly shows a wooden mortar and pestle being used to grind garlic into a paste. Step 2: Slice 87 states that a creamy white sauce, possibly sour cream or yogurt, is poured over a served cabbage roll. Logic holds because the first part identifies the tool and the second part identifies the topping, both directly supported by the captions.",
+        "visual_proof": "In Clip 1, a man is clearly seen using a large wooden mortar and pestle to grind garlic cloves. In Clip 2, a person uses a spoon to scoop a thick, creamy white sauce from a bowl and pour it over cooked cabbage rolls on a plate."
+    },
+    {
+        "question": "Which herb appears first as a bowl of fresh greens in a branded wooden bowl, and later is chopped on a cutting board as a separate step?",
+        "answer": "Dill appears first as a bowl of fresh greens in a branded wooden bowl, and later is chopped on a cutting board as a separate step.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a wooden bowl of fresh herbs (including dill and cilantro) branded with “Wilderness Cooking.” Step 2: Slice 27 shows cilantro being cut on a wooden cutting board. Conclusion: Cilantro appears both as part of the herb bowl and later as a dedicated chopping step.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a branded wooden bowl ('Wilderness Cooking') filled with fresh green herbs, explicitly including dill and cilantro. Step 2: Slice 27 shows cilantro being chopped on a wooden cutting board. Logic holds because cilantro is identified in the bowl in Slice 5 and is later specifically shown being chopped in Slice 27, matching the sequence queried.",
+        "original_text_answer": "Cilantro (and/or mixed fresh herbs); later cilantro is chopped.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 (0:00-0:03), the wooden bowl prominently contains dill, identifiable by its feathery fronds, alongside some cilantro. In Clip 2 (0:00-0:03), the herb being chopped is clearly dill, matching the appearance from the bowl. The subsequent chopping of cilantro (0:04-0:07) is a separate, distinct action."
+    },
+    {
+        "question": "What evidence shows the meal moves from daytime cooking to nighttime communal eating, and what main dish is centered at that night table?",
+        "answer": "Daytime outdoor prep and cooking transitions to a night-lit table scene; the main dish is a large platter of roasted meat.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            78,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows daytime outdoor prep in warm sunlight at the rustic kitchen. Step 2: Slice 78 shows stuffed cabbage rolls being cooked outdoors over open flame (still in the cooking phase). Step 3: Slice 86 shows a nighttime communal meal under artificial light with a central roasted meat platter. Conclusion: The timeline progresses from day cooking to night dining, centered on roasted meat at the table.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly shows daytime outdoor preparation and cooking in warm sunlight, with the man chopping vegetables. Step 2: Slice 78 further shows active outdoor cooking (stuffed cabbage rolls), reinforcing the cooking phase, though time-of-day isn’t specified. Step 3: Slice 86 describes a nighttime communal meal with artificial lighting and multiple people dining together, indicating the transition from earlier cooking to night eating. Step 4: Slice 86 states the central dish on the night table is a large platter of roasted meat. Therefore, the context supports a move from daytime cooking to nighttime communal eating, and identifies the main dish at night as roasted meat.",
+        "visual_proof": "Clip 1 and Clip 2 show bright, natural daylight during outdoor food preparation and cooking. Clip 3 clearly depicts a dimly lit indoor scene with artificial lighting, indicating nighttime, where several people are gathered around a table. At the center of this table is a large wooden platter holding pieces of what appears to be roasted chicken or poultry, which is being served onto plates."
+    },
+    {
+        "question": "What connects the QR/shop overlay and the later branded bowls: which brand/shop is promoted early, and what branded bowl label appears later during pepper washing?",
+        "answer": "“Home & Wild Shop” is promoted; later a bowl labeled “Wilderness Cooking” appears.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a QR code and text inviting viewers to visit “Home & Wild Shop.” Step 2: Slice 16 shows peppers placed into a wooden bowl labeled “Wilderness Kitchen.” Conclusion: The video includes brand/shop promotion and later branded kitchenware labels.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 6 states a QR code and text overlay invite viewers to visit 'Home & Wild Shop,' indicating the early promotion. Step 2: Evidence Slice 16 describes peppers being placed into a wooden bowl labeled 'Wilderness Kitchen' during the washing/prep scene. The proposed answer correctly identifies both the early promoted shop and the later bowl label.",
+        "original_text_answer": "“Home & Wild Shop” is promoted; later a bowl labeled “Wilderness Kitchen” appears.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the QR code overlay explicitly says 'SCAN to visit Home&Wild Shop' and shows the 'HOME & WILD' logo. In Clip 2, during the pepper washing scene, a close-up of the wooden bowl clearly shows the engraved logo and text 'WILDERNESS COOKING', not 'Wilderness Kitchen'."
+    },
+    {
+        "question": "In the cooking timeline, what is done to meat before it is later shown as tender pieces being sliced after cooking in sauce?",
+        "answer": "The raw meat is heavily seasoned with a reddish spice mix and placed into a pot before cooking; later it’s cooked in brown sauce and sliced.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            51,
+            82,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows raw pork belly being coated with a reddish spice mix and put into a metal pot. Step 2: Slice 82 shows cooked meat pieces in a rich brown sauce being stirred. Step 3: Slice 83 shows the cooked meat lifted and sliced on a cutting board. Conclusion: Seasoned raw meat becomes cooked sauced meat that is then sliced.",
+        "logic_check_reasoning": "Step 1: Slice 51 shows raw meat being generously seasoned with a reddish spice and then placed into a large metal pot. Step 2: Slice 82 shows the meat cooked in a rich brown sauce in the pot, being stirred. Step 3: Slice 83 shows the cooked meat in brown sauce being lifted out and sliced tenderly on a cutting board. Logic holds because the earlier action (seasoning and placing into the pot) precedes the later scene of tender, sauced meat being sliced.",
+        "visual_proof": "Clip 1 shows hands sprinkling a reddish spice mix onto raw ribs and placing them into a large pot. Clip 2 shows the same meat, now cooked and tender, being stirred in a brown sauce. Clip 3 shows the cooked meat being removed from the pot and then sliced on a wooden board, confirming the sequence of seasoning, cooking, and slicing."
+    },
+    {
+        "question": "How does the meat preparation progress from raw handling to finished serving: what is done to raw meat early, what cooking method is used later with a steaming setup, and what is the final plating style at the end meal?",
+        "answer": "Raw meat is chopped/seasoned; it is later cooked/steamed in pots with visible steam; finally it is served at a communal table as a main platter/served portions alongside sides.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            51,
+            52,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows raw meat being cut into smaller pieces during prep. Step 2: Slice 51 shows raw pork belly being seasoned heavily and placed into a pot. Step 3: Slice 52 shows the pot moved to a steamer basket over boiling water with steam rising (steaming stage). Step 4: Slice 86 shows the final communal night meal where cooked meat is served as the centerpiece. Conclusion: The video follows prep → seasoning → steaming/cooking → communal serving.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows the man cutting raw meat into smaller pieces, supporting 'chopped.' Step 2: Slice 51 shows the meat being seasoned with a reddish spice mixture, supporting 'seasoned.' Step 3: Slice 52 explicitly shows the pot placed on a steamer basket over boiling water with visible steam, supporting the 'steamed' cooking method. Step 4: Slice 86 depicts the final serving at a communal table with a large central platter of meat and multiple side dishes, matching 'served as a main platter alongside sides.' The progression from raw handling to steaming and communal plating is consistently supported across slices.",
+        "visual_proof": "Clip 1 shows the man chopping raw meat. Clip 2 shows him seasoning the meat and placing it into a large pot. Clip 3 shows the pot being covered and water being poured over the lid, generating significant steam, indicating steaming. Clip 4 shows the final dish served on a large platter at a table where people are serving themselves, confirming the communal plating style."
+    }
+]

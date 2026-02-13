@@ -1,0 +1,122 @@
+[
+    {
+        "question": "What food is highlighted at the café meal for two, and later contrasts with the dinner focused on noodles at a red-ceiling restaurant?",
+        "answer": "Pancakes at the café, and ramen at the red-ceiling restaurant",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            33,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows \"ELK - COFFEE AND PANCAKES 42 USD FOR 2\" and depicts pancakes. Step 2: Slice 46 shows a ramen restaurant with a red ceiling and a close-up bowl of ramen. Conclusion: The foods are pancakes and ramen.",
+        "logic_check_reasoning": "Step 1: Slice 33 explicitly shows on-screen text 'ELK - COFFEE AND PANCAKES 42 USD FOR 2,' which highlights pancakes (and coffee) at the café meal for two. Step 2: Slice 46 describes a restaurant with a vibrant red ceiling and focuses on a steaming bowl of ramen, noting the noodles and toppings, clearly indicating ramen. Logic holds because the café item is pancakes, and the dinner at the red-ceiling restaurant is ramen (noodles), matching the proposed contrast.",
+        "visual_proof": "In Clip 1, a text overlay explicitly states 'ELK - COFFEE AND PANCAKES', and pancakes are visible on the plate. In Clip 2, the setting is a restaurant with a red ceiling and individual booths, characteristic of a ramen shop. The menu boards and the overall setup strongly suggest a ramen restaurant, even though the noodles themselves are not clearly shown being served."
+    },
+    {
+        "question": "After the man explains paid storage lockers, what mode of transportation are the couple shown riding together later?",
+        "answer": "A bus",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows the man explaining lockers and their pricing at a station/airport-like location. Step 2: Slice 31 transitions to them seated together inside a moving bus. Conclusion: After the locker explanation, they ride a bus.",
+        "logic_check_reasoning": "Step 1: Slice 30 shows a man explaining paid storage lockers. Step 2: Slice 31 transitions to the inside of a bus, focusing on a man and a woman sitting together, indicating they are riding a bus. Logic holds because the question asks what mode of transportation the couple are shown riding later, and Slice 31 explicitly identifies a bus.",
+        "visual_proof": "In Video 2, after the scene with the lockers, the couple is shown boarding a vehicle at 0:02. The interior shots at 0:03 and 0:04 clearly show them seated inside a public transit vehicle with characteristic features like overhead handrails, passenger seats, and informational posters on the walls, which are consistent with a bus."
+    },
+    {
+        "question": "Which animal appears in both the early outdoor interaction and later in the park visit at Nara?",
+        "answer": "A deer",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a close-up interaction between a person and a deer in a park setting. Step 2: Slice 14 shows arriving in Nara and walking among freely roaming deer in a park. Conclusion: The recurring animal is a deer.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes an early outdoor interaction featuring a person engaging with a deer, explicitly identified by its appearance and behavior. Step 2: Slice 14 depicts a visit to Nara Park where deer are prominently present (deer statue, deer roaming, man petting a deer, rescue truck with injured deer). Logic holds because both slices explicitly feature deer, confirming the same animal appears in both scenes.",
+        "visual_proof": "In the first clip, a deer is shown up close interacting with a man in an outdoor setting. In the second clip, multiple deer are visible throughout the park scenes at Nara, including one being loaded into a rescue truck and others walking freely among visitors, confirming the presence of deer in both the early interaction and later park visit."
+    },
+    {
+        "question": "What clothing detail helps identify the same vlogger across the early deer scene and the later traditional street travel-vlog segment?",
+        "answer": "A black/dark jacket with a distinctive patch/logo on the sleeve",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 1 describes a person in a dark jacket with a visible patch on the sleeve near the deer. Step 2: Slice 12 describes a man in a black jacket with a distinctive patch on the sleeve narrating in a traditional street setting. Conclusion: The sleeve patch on the black/dark jacket links the same vlogger.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the person interacting with the deer is wearing a dark jacket with a visible patch on the sleeve. Step 2: Slice 12 describes the vlogger on the traditional street wearing a black jacket with a distinctive patch on the sleeve. Logic holds because both scenes explicitly mention the same distinguishing clothing detail (dark/black jacket with a patch on the sleeve), linking the individual across the two segments.",
+        "visual_proof": "In Clip 1 (0:02-0:04), the vlogger is seen wearing a black puffer jacket with a circular red, white, and blue logo on the left sleeve. In Clip 2 (0:01-0:03, 0:08-0:10), the same vlogger is shown in the same black jacket with the identical logo on his left sleeve while walking down a traditional street. The consistent presence of this specific jacket and logo across both scenes confirms it as the identifying clothing detail."
+    },
+    {
+        "question": "Which location name appears as an on-screen title near the beginning and is later confirmed by the train-station segment that mentions departing from that station?",
+        "answer": "Kyoto",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 2 displays \"KYOTO\" on screen near the start. Step 2: Slice 14 shows Kyoto Station and discusses taking a limited express train from there. Conclusion: The location name is Kyoto.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the video begins with the word 'KYOTO' prominently displayed on screen. Step 2: Slice 14 states that a text overlay indicates 'Kyoto Station' and mentions taking a train to Nara from there. Logic: The initial on-screen title 'KYOTO' is later confirmed by the train-station segment identifying Kyoto Station as the departure point.",
+        "visual_proof": "The word 'KYOTO' appears as a large yellow on-screen title in the first frame of Video 1. Later, in Video 2, an on-screen title explicitly reads 'KYOTO STATION' as a train is shown arriving at the platform, confirming the location."
+    },
+    {
+        "question": "What garment change identifies a transition from outdoor exploration to an indoor lodging tour?",
+        "answer": "He is shown wearing a yellow-and-black jacket while giving the hotel room/bathroom cost tour, differing from the earlier outdoor black-jacket travel scenes.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 12 centers on the vlogger in a black jacket (with sleeve patch) exploring outdoors/streets. Step 2: Slice 37 shows a person in a yellow-and-black jacket indoors discussing accommodation cost and showing the bathroom. Conclusion: The clothing shifts to a yellow-and-black jacket for the lodging tour.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes outdoor exploration with the man wearing a black jacket with a distinctive patch, across street scenes, nature, and hiking. Step 2: Slice 37 describes an indoor lodging tour (hotel room and bathroom, discussing costs) with the person wearing a yellow-and-black jacket. Logic holds because the clothing changes from a black jacket outdoors to a yellow-and-black jacket indoors, marking the transition to the lodging tour.",
+        "visual_proof": "In Video 1 (outdoor scenes), the man consistently wears a solid black Canada Goose jacket. In Video 2 (indoor hotel scenes), he is clearly wearing a different jacket with a bright yellow hood and black body. This distinct garment change visually marks the transition from outdoor exploration to the indoor lodging tour."
+    },
+    {
+        "question": "Which two separate on-screen prices are mentioned: one for a limited express train ride and one for buying a small torii gate?",
+        "answer": "4.5 USD one way for the train, and 3,650 USD for a small gate",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 14 states taking a limited express train to Nara for 4.5 USD one way. Step 2: Slice 53 overlays \"SMALL GATE 3,650 USD.\" Conclusion: The two prices are 4.5 USD and 3,650 USD.",
+        "logic_check_reasoning": "Step 1: Slice 14 states the text overlay mentions a limited express train to Nara for 4.5 USD one way. Step 2: Slice 53 shows on-screen text 'SMALL GATE 3,650 USD' for buying a torii gate. Logic holds because both prices are explicitly mentioned in the provided slices.",
+        "visual_proof": "In Video 1 at 0:03, on-screen text explicitly states 'THE LIMITED EXPRESS TRAIN TO NARA - ONE WAY / 4.5 USD'. In Video 2 at 0:01, on-screen text next to the woman reads 'SMALL GATE 3,650 USD'. Both prices are clearly visible in the respective clips."
+    },
+    {
+        "question": "Trace the travel route described: from the named city at the start, to the station where the limited express is taken, to the destination city known for deer interactions.",
+        "answer": "Kyoto → Kyoto Station → Nara",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            14,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 2 introduces the trip with the on-screen title \"KYOTO.\" Step 2: Slice 14 shows Kyoto Station and mentions taking a limited express train to Nara. Step 3: Slice 16 shows the lively deer-feeding park experience associated with the Nara visit. Conclusion: The route is Kyoto to Kyoto Station to Nara.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly shows the word \"KYOTO\" at the start, establishing the starting city as Kyoto. Step 2: Slice 14 states via text overlay that the station is Kyoto Station and mentions taking a limited express train to Nara. Step 3: Slice 14 then shows arrival in Nara, including deer-related scenes, and Slice 16 further depicts deer interactions, confirming the destination city known for deer is Nara. The sequence logically connects Kyoto → Kyoto Station → Nara.",
+        "visual_proof": "The video opens with a title card 'KYOTO' (Clip 1). The man is then shown at 'KYOTO STATION' (Clip 2, frame 0:02) before boarding 'THE LIMITED EXPRESS TRAIN TO NARA' (Clip 2, frame 0:04). The subsequent scenes (Clips 2 & 3) feature numerous deer in a park setting, which is characteristic of Nara Park, confirming the final destination."
+    },
+    {
+        "question": "Describe the travel progression from station lockers to riding a bus to ending up at a ramen restaurant where ramen is finally served.",
+        "answer": "He explains paid lockers at a station, then they ride a bus, and later they go to a red-ceiling ramen restaurant where ramen arrives at the table.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            30,
+            31,
+            44,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows the man explaining how station/airport lockers work and their pricing. Step 2: Slice 31 transitions to them seated together on a bus in daytime travel. Step 3: Slice 44 shows the man entering a ramen restaurant (red interior) and waiting with a ticket. Step 4: Slice 46 shows the steaming bowl of ramen served and the restaurant interior. Conclusion: Lockers → bus travel → ramen shop wait → ramen served.",
+        "logic_check_reasoning": "Step 1: Slice 30 shows a man at station lockers explaining their sizes and pricing, supporting 'He explains paid lockers at a station.' Step 2: Slice 31 shows people riding a bus, supporting 'then they ride a bus.' Step 3: Slice 44 shows entering a ramen restaurant with a red ceiling and waiting for food, supporting 'they go to a red-ceiling ramen restaurant.' Step 4: Slice 46 shows a steaming bowl of ramen placed on a table by a server, supporting 'ramen arrives at the table.' The sequence logically progresses from lockers to bus to ramen being served.",
+        "visual_proof": "Clip 1 shows the man explaining station lockers with price tags. Clip 2 shows them boarding and riding a bus. Clip 3 shows them entering a restaurant with a red ceiling, identified by text as 'Ichiran Ramen Restaurant'. Clip 4 shows the interior of the restaurant with individual booths and a staff member serving a bowl of ramen to a customer's counter."
+    }
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "question": "A couple rests together on grass at night, and later a nighttime car scene shows three people tensely leaning forward, and later a blue-lit smoky hallway scene appears with a prominent moon. What shared mood links these nighttime moments?",
+        "answer": "A moody, suspenseful nighttime atmosphere.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            46,
+            45,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows a dark, moody night scene with a couple in a field and later a dim interior. Step 2: Slice 45 shows a tense nighttime car scene. Step 3: Slice 48 shows an eerie smoky hallway and a glowing moon. Conclusion: All contribute to suspenseful nighttime mood.",
+        "logic_check_reasoning": "Step 1: Slice 46 describes a dark, moody nighttime scene with quiet reflection and a sense of mystery and intrigue, supporting a moody atmosphere and hinting at suspense. Step 2: Slice 45 explicitly calls the nighttime car scene suspenseful and tense, clearly supporting the 'suspenseful' aspect. Step 3: Slice 48 describes an eerie, mysterious, blue-lit smoky hallway and a prominent moon, reinforcing a moody, mysterious nighttime tone that implies suspense. Logic holds because all three are nighttime, moody, and at least two explicitly evoke suspense, while the first suggests it via mystery and intrigue.",
+        "visual_proof": "Clip 1 shows a couple lying on grass under blue night lighting, followed by a man in distress and another man looking pensive, all under dim, cool-toned lighting suggesting unease. Clip 2 features three people in a car at night, leaning forward tensely with dark, low-key lighting enhancing the tension. Clip 3 depicts a smoky, blue-lit hallway with a woman walking away, culminating in a full blue moon against a black sky—both visually reinforcing mystery and suspense. The consistent use of blue tones, darkness, and tense body language across all clips creates a unified moody and suspenseful atmosphere."
+    }
+]

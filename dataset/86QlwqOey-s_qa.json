@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Which object associated with camping is visible at a campsite gathering and also shown again as two women sit on the ground with gear?",
+        "answer": "A cooler.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 22 describes a campsite with gear including coolers around a fire. Step 2: Slice 23 shows two women sitting on the ground surrounded by camping equipment including a cooler. Conclusion: A cooler appears in both.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes a campsite gathering with camping gear such as coolers visible around the campfire. Step 2: Slice 23 shows two women sitting on the ground surrounded by camping equipment, explicitly including a cooler. Logic holds because the same object (a cooler) is mentioned as visible in both scenes.",
+        "visual_proof": "In both clips, a blue and white cooler is clearly visible at the campsite. In Clip 1, it sits on the ground near the fire pit while people are gathered around. In Clip 2, the same cooler is positioned between the two women who are sitting on the ground, confirming its presence in both scenes."
+    },
+    {
+        "question": "A tent is shown being used for camping, and later the camping area is shown from outside at night. What kind of tent is shown earlier, and what else indicates it is a larger campsite later?",
+        "answer": "A dome-style pink-and-gray tent, and later multiple tents and camping supplies are visible outside.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a dome-style tent with a pink and gray color scheme. Step 2: Slice 28 pans out to a snowy campsite with other tents and gear visible. Conclusion: It’s a dome tent and a larger multi-tent campsite.",
+        "logic_check_reasoning": "Step 1: Slice 17 describes a standard dome-style tent with a pink and gray color scheme, confirming the type of tent shown earlier. Step 2: Slice 28 shows the campsite at night with other tents set up and visible coolers and camping supplies, indicating a larger campsite. Logic holds because the first slice identifies the tent type, and the second slice explicitly mentions multiple tents and supplies, supporting the proposed answer.",
+        "visual_proof": "In Clip 1, a pink-and-gray dome-style tent is clearly visible with people inside and around it. In Clip 2, the nighttime exterior shot shows not only the same pink tent but also a second yellow/green tent and various camping supplies like coolers and a fire pit, indicating a larger campsite."
+    },
+    {
+        "question": "A weapon is handled in a snowy setting early in the video and later a person carries one while moving through deep snow. What weapon type is consistent across these scenes?",
+        "answer": "A shotgun.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a man in a red jacket preparing/loading a shotgun in a snowy environment. Step 2: Slice 82 shows a man in winter clothing carrying a shotgun through a snowy forest. Conclusion: The common weapon is a shotgun.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly describes the man in a snowy setting holding and loading a shotgun. Step 2: Slice 82 explicitly shows a man in a snowy forest carrying a shotgun slung over his shoulder. Logic holds because both scenes feature a shotgun in similar snowy contexts, confirming consistent weapon type.",
+        "visual_proof": "In Clip 1, the man is holding a firearm with a long barrel and pump-action mechanism, characteristic of a shotgun, while loading shells. In Clip 2, the same man is seen from behind carrying the identical weapon on his back as he walks through snow-covered terrain. The consistent visual features across both clips confirm it is a shotgun."
+    },
+    {
+        "question": "The story includes a campfire gathering, then later focuses tightly on two women sitting with gear and reacting to something. What does this change in framing suggest about the group’s mood over time?",
+        "answer": "It shifts from relaxed group camaraderie to more focused tension or surprise among individuals.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            21,
+            23,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a friendly group around a campfire, relaxed and talking. Step 2: Slice 23 shows two women with startled/surprised expressions reacting off-camera. Step 3: Slice 22 frames the campsite with a tense atmosphere, including a flashlight search. Conclusion: The mood shifts from relaxed to tense and reactive.",
+        "logic_check_reasoning": "Step 1: Slice 21 describes a relaxed, friendly campfire scene with four people engaged in casual conversation, indicating group camaraderie and leisure. Step 2: Slice 23 shifts to a tighter focus on two women surrounded by gear, whose expressions suggest they are surprised or startled, indicating increased tension or a reactive moment among individuals. Step 3: Slice 22 further supports a rise in tension, describing a tense, suspenseful atmosphere with a man using a flashlight and others appearing apprehensive. Logic holds because the context explicitly moves from a relaxed group scene to more tense, focused reactions, matching the proposed shift in mood.",
+        "visual_proof": "Clip 1 shows a wide shot of four people casually sitting around a campfire, smiling and interacting, indicating relaxed camaraderie. Clip 2 cuts to a tighter, medium shot focusing only on two women; their expressions are animated and reactive (one gasps, the other gestures urgently), suggesting heightened emotion like surprise or tension. Clip 3 reinforces this shift: it opens with chaotic motion blur, then shows the same two women looking alarmed and startled, while the men appear to be moving away or reacting to something off-screen. The narrowing of focus from the whole group to just the two women’s expressive reactions visually signals a mood change from calm to tense."
+    },
+    {
+        "question": "A red vehicle appears in multiple parts of the video. What kind of red vehicle is shown when a woman leans on it, and what other red vehicle is shown later parked by a group in the woods?",
+        "answer": "She leans on a red car, and later there is a red Hummer parked in the woods.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a woman leaning on a red car. Step 2: Slice 14 shows a group standing next to a red Hummer parked in a forested area. Conclusion: The red vehicles are a car and a Hummer.",
+        "logic_check_reasoning": "Step 1: Slice 9 states that a woman leans on a red car. Step 2: Slice 14 states that a group is standing next to a red Hummer parked in a forested area. Logic holds because the first vehicle is identified as a red car when the woman leans on it, and the later vehicle is explicitly identified as a red Hummer by the group in the woods.",
+        "visual_proof": "In Video 1, a woman is seen leaning on the hood of a red sedan-style car. In Video 2, a large, distinctively boxy red SUV, identifiable as a Hummer H2, is shown parked in a wooded area with a group of people standing nearby."
+    },
+    {
+        "question": "A knife is shown prominently in the forest storyline, and later multiple scenes shift into armed confrontations in snowy terrain. What does this suggest about how the threat level changes from one part of the story to later parts?",
+        "answer": "It escalates from a close-up of a knife implying danger to more overt armed conflict involving guns in the snow.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            32,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 12 highlights a large knife, signaling imminent danger. Step 2: Slice 32 shows running and confrontation in snowy terrain with a weapon visible. Step 3: Slice 91 shows two armed men in the snow, one shouting, indicating open conflict. Conclusion: The threat escalates from edged-weapon suspense to gun-based confrontations.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a tense autumn forest scene with a close-up of a large knife, indicating danger and potential confrontation. Step 2: Slice 32 shifts to snowy terrain with figures carrying a weapon (possibly a rifle) and engaging in physical confrontation, signaling heightened conflict. Step 3: Slice 91 further depicts two men in a snowy environment both holding guns, clearly showing an armed confrontation. Logic holds because the narrative moves from a knife-centered threat in the forest to multiple scenes of overt gun-based conflict in the snow, indicating escalation.",
+        "visual_proof": "Clip 1 shows a close-up of a man holding a knife in a forest setting, suggesting an initial threat. Clip 2 and Clip 3 transition to snowy environments where characters are seen with shotguns and other firearms, engaged in active confrontations, indicating a clear escalation to overt armed conflict."
+    }
+]

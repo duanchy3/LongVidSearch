@@ -1,0 +1,95 @@
+[
+    {
+        "question": "Which region name appears on the historical map segment and is later referenced again when a presenter says to exclude a nearby country?",
+        "answer": "Moldavia (Moldova/Moldavia).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 9 highlights historical regions including Moldavia. Step 2: Slice 46 shows a Europe map with Moldova highlighted and the text 'Except Moldova.' Conclusion: The recurring referenced region/country is Moldova/Moldavia.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly says the historical map highlights the regions of Moldavia and Wallachia. Step 2: Slice 46 shows a map with the text 'Except Moldova' and highlights Moldova. Step 3: The question asks which region name from the historical map is later referenced when excluding a nearby country; the later reference is to Moldova, which corresponds to Moldavia in the historical context. Therefore, the region name is Moldavia.",
+        "visual_proof": "In Clip 1, the historical map clearly labels the region 'MOLDAVIA' in orange. In Clip 2, the presenter references a map of Romania with the text '*Except Moldova' displayed on screen, directly linking the modern country name 'Moldova' to the historically named 'Moldavia'."
+    },
+    {
+        "question": "What prop appears in a serious conversation between two men and then appears again in the explosion prank setup?",
+        "answer": "A small white cup.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows two men each holding a white cup while talking. Step 2: Slice 23 shows the man in yellow holding a small white cup during the pumpkin-and-sparkler explosion setup. Conclusion: The repeated prop is the white cup.",
+        "logic_check_reasoning": "Step 1: Slice 22 states that both men (one in a red shirt, one in a yellow shirt) are each holding a white cup during a serious interaction. Step 2: Slice 23 describes a man in a yellow shirt holding a small white cup during an explosion prank setup. Logic holds because the prop (white cup) is explicitly present in both slices, and the added detail of 'small' in Slice 23 does not contradict Slice 22.",
+        "visual_proof": "In Video 1, the man in the yellow shirt holds a small white cup while speaking, with a picture of another man on screen, suggesting a conversation. In Video 2, the same man is again holding the identical small white cup during the setup for the magic trick/prank involving the pumpkin and wand."
+    },
+    {
+        "question": "What handheld item appears right before the pumpkin is destroyed and is also shown later in a recap-style montage that includes the pumpkin and smoke?",
+        "answer": "A magic wand.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows the man in yellow holding a sparkler just before/while the pumpkin explodes. Step 2: Slice 44 shows a montage including a young man in yellow holding a sparkler, the pumpkin thrown, and smoke. Conclusion: The shared handheld item is a sparkler.",
+        "logic_check_reasoning": "Step 1: Slice 23 states the man in a yellow shirt is holding a sparkler right before a sudden explosion destroys the pumpkin. Step 2: Slice 44 describes a later sequence showing a young man in a yellow shirt holding a sparkler, followed by shots of a pumpkin and a cloud of smoke/steam, which fits the recap-style montage description. Logic holds because both slices consistently depict the sparkler as the handheld item present before the pumpkin’s destruction and later alongside pumpkin and smoke imagery.",
+        "original_text_answer": "A sparkler.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1, at 0:04, the man in the yellow shirt raises a magic wand with a glowing star tip, which is immediately followed by the pumpkin vanishing in a puff of smoke at 0:05. In Video 2, at 0:07, the same magic wand is shown again as he waves it, causing the pumpkin to reappear from smoke, confirming its presence in both the initial action and the later recap-style sequence."
+    },
+    {
+        "question": "Which country’s flag appears alongside a presenter discussing 'Slavic, but mostly Catholic,' and which earlier wildlife segment references that same country episode?",
+        "answer": "Poland; the wildlife segment references watching the Poland episode.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            50,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 50 shows a presenter next to the Polish flag with the note '(Slavic, but mostly Catholic)'. Step 2: Slice 34 shows wildlife images including a fox labeled 'Wojtek (watch Poland episode)'. Conclusion: Both connect to Poland.",
+        "logic_check_reasoning": "Step 1: Slice 50 explicitly shows the flag of Poland with the text '(Slavic, but mostly Catholic)', identifying the country as Poland. Step 2: Slice 34 shows a wildlife segment with a fox and on-screen text 'Wojtek (watch Poland episode)', explicitly referencing the Poland episode. Logic holds because the country is Poland and an earlier wildlife segment references the Poland episode.",
+        "visual_proof": "In Clip 1, the flag of Poland (white over red horizontal stripes) is displayed next to text stating '(Slavic, but mostly Catholic)'. In Clip 2, a photo of Wojtek the bear appears with text 'Wojtek (watch Poland episode)', directly referencing the Poland episode. The same presenter appears in both clips, confirming continuity and context."
+    },
+    {
+        "question": "Which inset topic about geology appears both in the big Romania landscape overview and later again as an explicitly labeled location during a presenter segment that also mentions vineyards and hot springs?",
+        "answer": "The Berca mud volcanoes.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 21 includes the Bercă mud volcanoes in the overview of Romania’s geography. Step 2: Slice 32 explicitly labels 'Berca mud volcanoes' during a multi-topic segment (vineyard, hot spring, Iceland tectonics). Conclusion: The repeated geology topic is the Berca mud volcanoes.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 21 (the Romania landscape overview) explicitly introduces the Bercă mud volcanoes with an accompanying image, highlighting their geological significance. Step 2: Evidence Slice 32 (the presenter segment that also includes vineyards and hot springs) shows a scene labeled \"Berca mud volcanoes\" and later \"Băile Felix (Hot spring)\", confirming the mud volcanoes are explicitly labeled in this segment. Logic holds because the same geological topic—Berca/Bercă mud volcanoes—appears in both contexts as described.",
+        "visual_proof": "In Video 1 (0:14), the 'Berca mud volcanoes' are shown as an inset on a geological map of Romania. In Video 2 (0:02), the same term 'Berca mud volcanoes' appears as a title card over footage of the actual mud volcanoes, immediately following a segment about vineyards and preceding one about hot springs, confirming its reappearance in the presenter's segment."
+    },
+    {
+        "question": "Which city is identified with a street-lamp historical claim, and which earlier geography segment also lists that city among Romanian locations?",
+        "answer": "Timișoara; it is also listed earlier among Romanian locations.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 6 lists locations in Romania including Timisoara. Step 2: Slice 19 shows a sign on a street lamp in Timisoara about electric street lighting. Conclusion: The city is Timisoara, referenced in both places.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows a street lamp with a sign reading \"TIMISOARA 12 NOVEMBER 1884 THE FIRST TOWN OF EUROPE WITH STREETS ILLUMINATED BY ELECTRIC LIGHT,\" identifying Timișoara with a street-lamp historical claim. Step 2: Slice 6 lists Romanian locations including Timisoara among others, confirming it appears in an earlier geography segment. Logic holds because both slices explicitly reference Timisoara in the described contexts.",
+        "visual_proof": "In Video 1, at timestamp 0:20, the city of Timișoara is explicitly labeled on the map of Romania. In Video 2, at timestamp 0:03, a street lamp sign is shown with text that reads 'TIMIȘOARA' and mentions it being one of the first cities in Europe with electric street lighting, visually confirming the historical claim associated with the city."
+    },
+    {
+        "question": "What location is introduced at the end of the Romania map segment and then becomes the focus of the next segment’s map?",
+        "answer": "Snake Island.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 6 ends by showing Snake Island off Romania in the Black Sea. Step 2: Slice 7 starts by highlighting Snake Island on a satellite view of Ukraine. Conclusion: Snake Island bridges the two segments.",
+        "logic_check_reasoning": "Step 1: Slice 6 states the Romania segment ends with a shot of Snake Island off the coast of Romania. Step 2: Slice 7 begins by highlighting Snake Island on the map of Ukraine. Logic holds because the location introduced at the end of the Romania segment (Snake Island) is the focus at the start of the next segment.",
+        "visual_proof": "In the final frame of Video 1 (0:25), the map zooms in on 'SNAKE ISLAND (ZMIINYI ISLAND)' with flags of Ukraine and Romania displayed over it. The very first frame of Video 2 (0:00) immediately continues this focus, showing a close-up of Snake Island with the Ukrainian flag prominently displayed, confirming it is the location that bridges the two segments."
+    }
+]

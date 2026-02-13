@@ -1,0 +1,129 @@
+[
+    {
+        "question": "Which animal is seen both eating from a bowl in the snow and later lying on a towel indoors?",
+        "answer": "The black dog.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a black dog (with a red collar) eating from a bowl outside. Step 2: Slice 62 shows a black dog lying on a white towel indoors. Conclusion: The same animal type and consistent appearance indicate the black dog is in both scenes.",
+        "logic_check_reasoning": "Step 1: Slice 4 states that a black dog walks up to a bowl in the snow and begins eating. Step 2: Slice 62 describes a black dog lying on a white towel indoors. Logic holds because both slices in the same video feature a black dog, indicating the same animal is seen in both scenarios.",
+        "visual_proof": "In Video 1, a black dog with snow on its fur is seen eating from a metal bowl in the snow. In Video 2, the same black dog, identifiable by its coat color and collar, is lying on a towel indoors on a tiled floor. The continuity of the animal across both distinct settings confirms it is the same dog."
+    },
+    {
+        "question": "Which outdoor item seen hanging on a wooden wall matches the kind of snowy environment repeatedly shown outside the windows later?",
+        "answer": "Snowshoes.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows wooden snowshoes hanging on a wooden wall, implying winter travel gear. Step 2: Slice 27 shows a snow-covered landscape viewed through a window. Conclusion: Snowshoes match the snowy conditions seen outside later.",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly shows a pair of wooden snowshoes hanging on a wooden wall. Step 2: Slice 27 shows a snowy outdoor scene through a window, indicating a snowy environment. Step 3: The item identified in Slice 14 (snowshoes) directly aligns with and matches the snowy environment shown later. Therefore, the context supports the proposed answer.",
+        "visual_proof": "Clip 1 shows a pair of traditional wooden snowshoes with webbing hanging on a wooden wall. Clip 2 shows a snowy outdoor environment viewed through a window, including snow-covered ground and trees. Snowshoes are specifically designed for walking over deep snow, making them the correct match for the snowy environment shown."
+    },
+    {
+        "question": "How does the dog’s setting change from the early outdoor scenes near the house to the later scene where it rests?",
+        "answer": "It goes from being outside in the snow to resting indoors on a towel.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            7,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the black dog outside in a snowy yard near the house. Step 2: Slice 7 shows the dog outdoors walking through a wooden gate with a woman. Step 3: Slice 62 shows the black dog indoors lying on a white towel. Conclusion: The dog transitions from outdoor activity to indoor rest.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a black dog outside in a snowy yard near a house. Step 2: Slice 7 also shows the black dog outdoors in snow, walking through a gate. Step 3: Slice 62 shows the black dog indoors, lying on a white towel on a tiled floor and resting. The progression from snowy outdoor scenes to an indoor resting scene supports the proposed answer.",
+        "visual_proof": "In Video 1 and Video 2, the black dog is shown outdoors in a snowy environment, playing near a house and a fence. In Video 3, the same black dog is seen indoors, lying on a light-colored towel on a tiled floor next to a wooden piece of furniture."
+    },
+    {
+        "question": "Across the winter-travel sequence, what is carried or used to transport firewood after it is stacked on a rack?",
+        "answer": "A sled.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows logs being stacked on a wooden rack. Step 2: Slice 10 shows firewood being loaded into a wheelbarrow. Step 3: Slice 11 shows logs loaded into a sled. Conclusion: After stacking, wood is moved using a wheelbarrow and then a sled.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows the person stacking wood on a rack in a snowy setting. Step 2: Slice 10 then shows the person loading firewood into a wheelbarrow, indicating a wheelbarrow is used to transport the wood. Step 3: Slice 11 shows the person loading and pushing a sled filled with logs, indicating a sled is used next. The slices appear sequentially (9 -> 10 -> 11), supporting the order: first wheelbarrow, then sled.",
+        "original_text_answer": "First a wheelbarrow, then a sled.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows firewood being stacked on a rack. Clip 2 and Clip 3 show the person placing the wood into and then pulling a black plastic sled through the snow. There is no wheelbarrow visible in any of the clips; the only transport method shown after stacking is the sled."
+    },
+    {
+        "question": "In the candle-and-drink sequence, what happens first: lighting the candle or pouring the red liquid into the mug?",
+        "answer": "Lighting the candle happens first.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            48,
+            49,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows a person lighting a candle with a match near plants and a window. Step 2: Slice 49 shows opening a bottle of red liquid. Step 3: Slice 50 shows pouring the red liquid into a mug by candlelight. Conclusion: The candle is lit before the drink is poured.",
+        "logic_check_reasoning": "Step 1: Slice 48 depicts the act of lighting a candle. Step 2: Slice 50 shows pouring a red liquid into a mug while noting a lit candle flame in the background, implying the candle was already lit before pouring. Step 3: Slice 49 shows opening the bottle, which fits between lighting and pouring, reinforcing the order. Therefore, lighting the candle occurs before pouring the red liquid.",
+        "visual_proof": "Clip 1 visually depicts the person lighting a candle with a match. Clip 2 shows the person opening a bottle of red liquid. Clip 3 shows the red liquid being poured into a mug. The sequence of actions across the clips clearly establishes that lighting the candle occurs before pouring the drink."
+    },
+    {
+        "question": "How does the woman’s activity evolve from traveling with luggage outside the cabin to settling into a quiet indoor routine?",
+        "answer": "She goes from handling a suitcase outside to sitting comfortably and reading indoors.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a woman outside a cabin with a suitcase, suggesting arriving or leaving. Step 2: Slice 23 shows a book being pulled from a shelf. Step 3: Slice 24 shows a woman seated and reading by the window. Conclusion: The activity shifts from travel/luggage to quiet reading.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows a woman outside a snowy cabin holding a suitcase, indicating travel or arrival/departure. Step 2: Slice 24 shows a woman inside the cozy cabin settling on a window seat and reading a book, clearly depicting a quiet indoor routine. Step 3: Slice 23 shows a hand taking a book from a bookshelf, which supports the reading activity indoors. Logic holds because the scenes progress from outdoor travel-related activity to indoor relaxation and reading.",
+        "visual_proof": "In Clip 1, the woman is outdoors in the snow next to a cabin, interacting with a black case or suitcase while her dog is nearby. In Clip 3, she is shown indoors, settling onto a window seat with pillows, placing a blanket over herself, and beginning to read a book. This visually confirms the evolution from an outdoor activity involving luggage to a quiet indoor routine of reading."
+    },
+    {
+        "question": "What multi-step preparation leads from gathering and transporting logs outdoors to a cozy indoor fire with a kettle on top?",
+        "answer": "Logs are stacked, then transported (wheelbarrow/sled), and later a fire is burning in the stove with a kettle.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            9,
+            10,
+            11,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows stacking logs on a rack. Step 2: Slice 10 shows loading firewood into a wheelbarrow. Step 3: Slice 11 shows loading logs into a sled and moving it. Step 4: Slice 17 shows an active fire in the stove with a kettle. Conclusion: Outdoor wood prep and transport culminate in an indoor burning stove.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows a person stacking logs on a wooden rack outdoors in the snow, indicating preparation of firewood. Step 2: Slice 10 shows loading firewood into a wheelbarrow, a transport method. Step 3: Slice 11 shows loading logs into a sled and pushing it, another transport method. Step 4: Slice 17 shows a cozy indoor scene with a wood-burning stove actively burning and a kettle on top, plus a basket of logs nearby. Logic holds because the proposed answer summarizes these steps: logs are prepared (stacked), transported (wheelbarrow/sled), and then used for a cozy indoor fire with a kettle.",
+        "visual_proof": "Clip 1 shows logs being stacked. Clip 2 and 3 show the same person placing logs into a black sled and pulling it through the snow. Clip 4 shows a fire burning inside a wood stove with a metal kettle placed on top, confirming the final step of the process."
+    },
+    {
+        "question": "How does the creative storyline connect quiet desk work to specific artworks and finally to the warmly lit cabin exterior at night?",
+        "answer": "She works at a desk, creates detailed watercolor/paint pieces, and the cabin is later shown glowing from within at night, implying ongoing work inside.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            56,
+            52,
+            57,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 56 shows a person seated at a desk writing/drawing under a warm lamp. Step 2: Slice 52 shows watercolor tree painting in progress on a table. Step 3: Slice 57 shows painting a wolf-like figure in watercolor. Step 4: Slice 59 shows the woman working at a cluttered desk, then cuts to the cabin glowing at night. Conclusion: The narrative links sustained indoor creative work to the cabin’s warm nighttime presence.",
+        "logic_check_reasoning": "Step 1: Slice 56 describes a cozy, dimly lit room with a person seated at a desk, engrossed in writing or drawing, establishing quiet desk work. Step 2: Slice 52 focuses on an artist working on a watercolor painting of trees, highlighting specific artwork being created. Step 3: Slice 57 shows a close-up of an artist painting a wolf in muted tones, further supporting the creation of detailed watercolor/paint pieces. Step 4: Slice 59 shows the woman working at a cluttered desk and then transitions to an exterior shot of a warmly lit cabin at night; it explicitly notes the cabin’s lights suggest someone is inside, possibly continuing work, linking the indoor creative activity to the glowing cabin exterior. Logic holds because each slice sequentially supports desk work, specific artworks, and the cabin at night with implied ongoing activity.",
+        "visual_proof": "Clip 1 shows a person working at a desk in a warmly lit room. Clip 2 displays finished watercolor paintings of birds and trees, as well as an in-progress painting. Clip 3 provides a close-up of a hand painting an owl with watercolors. Clip 4 shows the artist at her desk, looking tired but content, before she turns off the lamp. The final shot (Clip 4) transitions to an exterior view of the cabin at night, with its windows brightly lit, visually connecting the interior creative activity to the cozy, illuminated home."
+    },
+    {
+        "question": "What decorating theme appears both on a cabin door and later around the indoor staircase behind the speaking woman?",
+        "answer": "Holiday/festive decorations (wreath/garlands).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a door with a decorative wreath (red berries and bells). Step 2: Slice 64 shows a woman speaking with a staircase decorated with festive garlands. Conclusion: Both scenes share a holiday decoration theme.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes a cabin door with a decorative wreath adorned with red berries and small bells, explicitly hinting at a festive/holiday season. Step 2: Slice 64 describes indoor wooden stairs adorned with festive decorations, suggesting a holiday season. Logic holds because both slices indicate holiday/festive decorations appearing in both locations (door and staircase).",
+        "visual_proof": "In Video 1, a wreath with red berries and small bells is clearly visible hanging on the wooden cabin door. In Video 2, the same style of festive garland, adorned with red berries and ornaments, is draped along the railing of the wooden staircase behind the woman as she speaks."
+    }
+]

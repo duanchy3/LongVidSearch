@@ -1,0 +1,137 @@
+[
+    {
+        "question": "A small dog wearing a pearl necklace watches cooking in the kitchen earlier; where is the dog later shown waiting near plates of food in a split-screen scene?",
+        "answer": "Indoors on a green cushion and outdoors on a tiled patio.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a small dog with a pearl necklace present in the kitchen during cooking. Step 2: Slice 35 shows a split-screen where dogs wait by plates of food—one indoors on a green cushion and one outdoors on a tiled patio. Conclusion: The later locations are indoors on a cushion and outdoors on a patio.",
+        "logic_check_reasoning": "Step 1: Slice 10 states a small dog wearing a pearl necklace is present in the kitchen earlier. Step 2: Slice 35 describes a split-screen where (left) a small fluffy dog with a pearl-like collar is indoors on a green cushion near a plate of food, and (right) another dog is outdoors on a tiled patio near a plate of food. Logic holds because the split-screen explicitly shows the two locations where dogs are waiting near plates of food, directly supporting the answer.",
+        "visual_proof": "In Clip 1, the dog is shown indoors in a kitchen setting, sitting on a green cushioned stool. In Clip 2, a split-screen shows two photos of the same dog: one photo depicts the dog indoors next to a plate of food, and the other shows the dog from behind, looking at a plate of food while sitting on a tiled patio, indicating an outdoor location."
+    },
+    {
+        "question": "What key ingredient is introduced with a ‘WANTED’ poster theme and later shown being cut into cubes for mixing into a red sauce?",
+        "answer": "Salmon.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 45 uses 'WANTED' posters highlighting salmon as the target ingredient. Step 2: Slice 54 shows salmon being cut into cube shapes (about 300g) in preparation for a recipe. Conclusion: The ingredient is salmon.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a humorous 'WANTED' poster theme featuring salmon ('연어') as the ingredient still at large, clearly introducing salmon as the key ingredient. Step 2: Slice 54 shows salmon being cut into uniform cubes with text guiding to 'Please cut it into cube shape,' confirming the same ingredient is later prepared by cubing. The mention of red sauce is additional context, but the identification of the ingredient is fully supported by the slices.",
+        "visual_proof": "In Clip 1, a 'WANTED' poster graphic explicitly features a piece of salmon labeled '연어' (salmon). In Clip 2, the same orange fish is shown being diced into cubes on a cutting board. The visual continuity between the ingredient in the poster and the one being prepared confirms it is salmon."
+    },
+    {
+        "question": "Which ingredient is chopped in close-up and later mixed into the salmon-and-red-sauce bowl as an added crunchy/aromatic component?",
+        "answer": "Onion.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            65,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows onion being cut with instructional captions. Step 2: Slice 71 shows chopped onion being added into the bowl with salmon and red sauce. Conclusion: Onion is the added component.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 65 explicitly shows a close-up of someone cutting an onion on a wooden cutting board. Step 2: Evidence Slice 71 states that finely chopped white onions are added to the bowl with salmon and red sauce, with text overlays confirming 'adding onion.' Logic holds because the ingredient shown being chopped in close-up (onion) is later mixed into the salmon-and-red-sauce bowl as described.",
+        "visual_proof": "Clip 1 shows a close-up of hands dicing a white onion on a wooden cutting board. Clip 2 then shows the same diced onion being scraped off the board with a knife and added directly into the bowl containing chopped salmon and red sauce, as indicated by the subtitle '양파도 투하' (Add the onion too)."
+    },
+    {
+        "question": "How is the pearl-necklace dog’s role shown shifting from being present during cooking to waiting for food and then relaxing afterward?",
+        "answer": "It appears in the kitchen during cooking, then is shown waiting by plates of food, and later is seen relaxing on cushions/sofa.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            35,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows the pearl-necklace dog in the kitchen during cooking. Step 2: Slice 35 shows dogs waiting eagerly near plates of food. Step 3: Slice 39 shows the pearl-collar dog lying relaxed on cushions. Conclusion: The dog shifts from observing → waiting → resting.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows a small dog wearing a pearl necklace present in the kitchen during cooking, watching the process. Step 2: Slice 35 (left frame) shows a small fluffy dog with a pearl-like collar eagerly waiting in front of a plate of food, indicating the 'waiting for food' phase. Step 3: Slice 39 shows a Pomeranian with a pearl-like collar lying relaxed on cushions, indicating the 'relaxing afterward' phase. Logic holds because the consistent pearl-like collar identifies the same dog across scenes, matching the described progression.",
+        "visual_proof": "Clip 1 shows the dog sitting attentively on a stool in the kitchen while the man cooks. Clip 2 displays photos of the same dog sitting beside a plate of pasta, indicating it is waiting for food. Clip 3 shows the dog lying down comfortably on a cushioned surface, appearing relaxed."
+    },
+    {
+        "question": "Which seafood ingredient shown being cleaned early is later seen as a shellfish in the simmering orange-red stew after butter is added?",
+        "answer": "Mussels.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the chef prepping seafood including mussels. Step 2: Slice 13 shows mussels visible in the boiling orange-red seafood stew with butter melting. Conclusion: The tracked ingredient is mussels.",
+        "logic_check_reasoning": "Step 1: Slice 2 states that early in the video the host cleans and prepares fresh seafood, explicitly including mussels. Step 2: Slice 13 shows a simmering orange-red seafood stew with mussels visible and butter melting into it. Logic holds because the mussels seen later in the stew were one of the seafood items shown being cleaned earlier.",
+        "visual_proof": "In the first clip (0:04), mussels are clearly visible in a metal tray among other cleaned seafood. In the second clip (0:00-0:02), the same dark, bivalve shellfish (mussels) are seen simmering in the orange-red stew after butter has been added, confirming their presence from preparation to the final dish."
+    },
+    {
+        "question": "Which condiment base is shown among ingredients like vinegar and sugar, and later becomes the central red sauce presented as a ‘basic’ chili paste for pairing with salmon?",
+        "answer": "Gochujang (Korean chili paste).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            57,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows gochujang next to vinegar and sugar as key ingredients. Step 2: Slice 47 introduces the 'basic chili paste' in a bowl and frames it as meeting salmon. Conclusion: The base is gochujang.",
+        "logic_check_reasoning": "Step 1: Slice 57 explicitly shows a bottle labeled '고추장' (gochujang) alongside vinegar ('식초') and sugar ('설탕'), indicating gochujang is a key ingredient among those items. Step 2: Slice 47 presents a thick red sauce described on-screen as '기본초장' (basic chili paste) paired with salmon, and the caption notes it is likely gochujang. Logic holds because the earlier presence of gochujang with vinegar and sugar aligns with the later featured 'basic' chili paste, making gochujang the condiment base in question.",
+        "visual_proof": "In Video 1, a container labeled '고추장' (Gochujang) is clearly visible on the counter alongside vinegar ('식초') and sugar ('설탕'). In Video 2, a thick red sauce is shown being stirred, with text identifying it as '기본초장' (basic chili sauce/paste), which is contextually linked to the Gochujang shown earlier. The visual sequence confirms that Gochujang is the base ingredient for this central red sauce."
+    },
+    {
+        "question": "What topping is emphasized as becoming more crispy and flavorful when fried, and later appears sprinkled as the key finishing element on the curry pasta?",
+        "answer": "Bread crumbs.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 31 states that frying bread crumbs increases crispiness and flavor. Step 2: Slice 33 shows the finished curry pasta topped with the bread-crumb element. Conclusion: Bread crumbs are the crispy finishing topping.",
+        "logic_check_reasoning": "Step 1: Slice 31 explicitly states via on-screen text '빵가루를 볶으면 고소하고 바삭한 식감 UP' which translates to 'Frying bread crumbs makes them crispy and flavorful,' emphasizing bread crumbs as the topping that becomes crispy when fried. Step 2: Slice 33 shows a chef sprinkling a crunchy topping on spaghetti and labels the finished dish as '빵가루 카레 파스타 완성!' ('Bread Crumb Curry Pasta Complete!'), indicating the key finishing element is bread crumbs. Logic holds because both slices consistently reference bread crumbs as the crispy topping and show it being used as the final garnish on the curry pasta.",
+        "visual_proof": "The video visually demonstrates bread crumbs being fried in a pan until golden brown, with on-screen text explicitly stating '빵가루를 볶으면 고소하고 바삭한 식감 UP' (Frying bread crumbs increases savory and crispy texture). Later, the same fried bread crumbs are shown being generously sprinkled over the finished curry pasta dish as the final topping, confirming they are the emphasized key finishing element."
+    },
+    {
+        "question": "How is the ‘basic chili paste’ sauce assembled from pantry items before it is later referred to as a salmon-pairing sauce?",
+        "answer": "Oil is poured, sugar is added, and gochujang is mixed in (with other seasonings), forming the red sauce later presented as the salmon chili-paste sauce.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            58,
+            59,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows pouring oil and adding sugar into a bowl. Step 2: Slice 59 shows scooping measured gochujang into the bowl and mixing with additional components. Step 3: Slice 63 presents the red sauce as the 'salmon chili paste' style sauce. Conclusion: Pantry mixing steps create the salmon-pairing red sauce.",
+        "logic_check_reasoning": "Step 1: Slice 58 shows the man pouring oil into a bowl, adding sugar, and mixing—indicating initial assembly from pantry items. Step 2: Slice 59 shows gochujang being scooped into a bowl and combined with another grated ingredient, supporting that gochujang is mixed in with other components. Step 3: Slice 63 later refers to the prepared red sauce as a salmon chili-paste sauce, linking the earlier assembly to its later use. Logic holds because the sequence clearly progresses from assembling a sauce (oil, sugar, gochujang, other ingredient) to presenting it as a salmon-pairing sauce.",
+        "visual_proof": "Clip 1 shows the man pouring vinegar (labeled '식초') and adding sugar ('설탕') into a bowl. Clip 2 shows him scooping gochujang ('고추장') into the same bowl. Clip 3 shows the final mixed red sauce, confirming the assembly of these ingredients."
+    },
+    {
+        "question": "Across the pasta segment, what is the full finishing sequence from mixing pasta in sauce to plating and then adding the crunchy topping?",
+        "answer": "Mix the pasta thoroughly in the sauce, plate the spaghetti, then add the bread-crumb topping.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            29,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows mixing pasta well in the pan with sauce. Step 2: Slice 29 shows plated spaghetti being twirled/arranged. Step 3: Slice 30 shows sprinkling the crumb topping over the pasta as a key final step. Conclusion: Mix → plate → top with crumbs.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows the chef actively mixing pasta in a pan with sauce, with on-screen text saying '잘 섞어주세요' ('Mix it well'), confirming the thorough mixing step. Step 2: Slice 29 depicts spaghetti already on a plate being twirled with forks, indicating the plating/presentation stage. Step 3: Slice 30 shows the chef sprinkling a crumbly topping over the plated spaghetti and explicitly identifies it as '빵가루' (bread crumbs), confirming the crunchy topping addition. Logic holds because the slices sequentially cover mixing, plating, and topping.",
+        "visual_proof": "Clip 1 shows the chef mixing the cooked pasta into the sauce in a pan. Clip 2 shows the chef plating the mixed pasta onto a dish. Clip 3 shows the chef sprinkling a brown, crunchy topping, identified by subtitles as '빵가루' (bread crumbs), over the plated pasta. This sequence visually confirms the steps described in the original answer."
+    },
+    {
+        "question": "How does the show build the ‘basic chili paste’ for salmon from showcased pantry items, then enhance it with sesame elements before it is used with salmon and onion?",
+        "answer": "Gochujang/vinegar/sugar are shown as key pantry items, the mixture is made and then sesame oil and sesame seeds are added, and finally salmon and onion are mixed in.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            57,
+            59,
+            62,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 57 displays gochujang with vinegar and sugar as core ingredients. Step 2: Slice 59 shows measured gochujang being added into the bowl and mixed. Step 3: Slice 62 shows adding sesame oil and sprinkling sesame seeds into the sauce. Step 4: Slice 71 shows salmon and then onion added into the red mixture. Conclusion: Pantry base → mix → sesame enrichment → combine with salmon and onion.",
+        "logic_check_reasoning": "Step 1: Slice 57 shows the pantry items prominently—gochujang, vinegar, and sugar—with a hand placing and moving toward them, indicating they are key ingredients to be used. Step 2: Slice 59 shows gochujang being measured (2T) and mixed in a bowl, beginning the chili paste mixture, consistent with building the base from the showcased items. Step 3: Slice 62 explicitly shows the addition of sesame oil and sesame seeds to the sauce, which matches enhancing the paste with sesame elements. Step 4: Slice 71 shows the prepared red sauce being mixed with diced salmon and then onion added, matching the final step of using the paste with salmon and onion. The sequence aligns with the proposed answer.",
+        "visual_proof": "Clip 1 visually identifies gochujang, vinegar (식초), and sugar (설탕) as the base ingredients. Clip 2 shows the gochujang being spooned into a bowl. Clip 3 shows sesame oil (참기름) being added to the paste, followed by a generous amount of sesame seeds (깨). Clip 4 shows chopped salmon and onion being added to the completed sauce mixture in the bowl."
+    }
+]

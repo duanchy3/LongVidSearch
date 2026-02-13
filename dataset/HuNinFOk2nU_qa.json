@@ -1,0 +1,109 @@
+[
+    {
+        "question": "Which ingredient is measured as a specific amount for the pasta recipe and later appears already cooked and mixed with sauce in a colander/bowl?",
+        "answer": "Pasta (fusilli/rotini).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows dry pasta (0.5 lb / 250 g) being boiled until al dente. Step 2: Slice 44 shows cooked spiral pasta being stirred together with tomato sauce in a colander/bowl. Conclusion: The pasta transitions from dry measured ingredient to cooked mixed pasta.",
+        "logic_check_reasoning": "Step 1: Slice 35 explicitly shows uncooked pasta being added to boiling water with on-screen labels indicating a measured amount: \"Pasta - 0.5 lb\" or \"Nudeln - 250 g.\" Step 2: Slice 44 shows cooked pasta (identified as fusilli) mixed with tomato sauce in a colander/bowl. Logic holds because the ingredient measured in Slice 35 (pasta) is later shown cooked and mixed with sauce in Slice 44. The proposed answer identifies this ingredient as pasta, matching both slices.",
+        "visual_proof": "In Clip 1, text overlays explicitly state 'Pasta - 0.5 lb' and 'Nudeln - 250 g' as the pasta is being added to boiling water. In Clip 2, the same type of spiral pasta (fusilli/rotini) is shown already cooked and being mixed with sauce in a pan/sieve."
+    },
+    {
+        "question": "After the tray of eggplant and cherry tomatoes is seasoned and placed in the oven, what other main component is started by boiling it in salted water?",
+        "answer": "Pasta.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            34,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows eggplant and cherry tomatoes being seasoned, oiled, and placed into the oven. Step 2: Slice 35 shows pasta being poured into boiling water and stirred to cook al dente. Conclusion: Pasta is started next by boiling it.",
+        "logic_check_reasoning": "Step 1: Slice 34 shows the seasoned tray placed in the oven, then transitions to a pot of boiling water with salt added, indicating another component is being started. Step 2: Slice 35 explicitly shows pasta being added to the boiling water, labeled \"Pasta - 0.5 lb\" / \"Nudeln - 250 g,\" and cooked until al dente. Logic holds because the sequence clarifies that the component boiled in salted water is pasta.",
+        "visual_proof": "Clip 1 shows the tray of seasoned eggplant and tomatoes being placed in the oven. Clip 2 immediately follows, showing salt being added to boiling water, followed by pasta (specifically penne) being poured into the pot. The on-screen text also identifies the ingredient as 'Pasta - 0.5 lb' and 'Nudeln - 250 g'."
+    },
+    {
+        "question": "Which ingredient is first shown being chopped and later shown being grated directly into a bowl with herbs and ricotta?",
+        "answer": "Garlic.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows garlic cloves being chopped on a cutting board. Step 2: Slice 71 shows garlic being grated into a bowl containing herbs and ricotta. Conclusion: Garlic changes from chopped prep to grated addition.",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly shows garlic being picked up (three cloves) and chopped on a cutting board. Step 2: Slice 71 shows a bowl with herbs and ricotta, and specifies that the person grates three cloves of garlic into the bowl. Logic holds because both slices explicitly mention garlic, and the later scene shows garlic being grated into the ricotta and herbs, matching the question's sequence.",
+        "visual_proof": "In Video 1, garlic cloves are visibly chopped on a wooden board. In Video 2, the same ingredient (garlic) is grated directly into a bowl containing herbs and ricotta, as confirmed by the on-screen text '3 garlic cloves' and '3 Knoblauchzehen' in both clips."
+    },
+    {
+        "question": "What preparation steps show the transition from raw eggplant slices to baked eggplant topped with tomato sauce and cheese?",
+        "answer": "Eggplant is arranged and oiled on a tray, baked in the oven, then covered with tomato sauce and topped with grated Parmesan (and mozzarella appears in layers).",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            57,
+            63,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows eggplant halves/slices placed on a tray and brushed with olive oil. Step 2: Slice 63 shows the tray placed into the oven to bake. Step 3: Slice 91 shows the finished layered eggplant dish being topped with grated Parmesan over tomato sauce and cheese layers. Conclusion: Raw prepped slices → baked eggplant → sauced and cheesed final dish.",
+        "logic_check_reasoning": "Step 1: Slice 57 shows raw eggplant halves arranged on a parchment-lined tray and brushed with olive oil, indicating initial preparation. Step 2: Slice 63 shows the seasoned eggplant tray being placed into the oven with on-screen text specifying baking for ~20 minutes at 390°F (200°C), confirming the baking step. Step 3: Slice 91 shows eggplant slices layered with tomato sauce and mozzarella, and Parmesan being grated on top, demonstrating the topping with sauce and cheeses after baking. The sequence logically connects raw preparation to baking and then assembly with sauce and cheeses.",
+        "visual_proof": "Clip 1 shows raw eggplant slices being arranged on a baking tray and brushed with oil. Clip 2 shows the seasoned eggplant slices being placed into an oven for baking. Clip 3 shows the baked eggplant already covered in tomato sauce and being topped with grated Parmesan cheese. The description of the steps matches the visual sequence exactly."
+    },
+    {
+        "question": "Which ingredients are combined into a creamy green filling that later gets spread inside the eggplant-based dish?",
+        "answer": "Chopped herbs, ricotta, and grated garlic (and later it appears as a creamy herb mixture).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            70,
+            71,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 70 shows chopped green herbs being poured into a bowl. Step 2: Slice 71 shows ricotta added and garlic grated into the bowl. Step 3: Slice 79 shows a green creamy mixture being spread inside an eggplant bowl structure. Conclusion: The filling is made from herbs + ricotta + grated garlic and then used as the spread.",
+        "logic_check_reasoning": "Step 1: Slice 70 shows chopped green herbs being poured into a bowl. Step 2: Slice 71 explicitly states ricotta cheese is added to the bowl with herbs and that three cloves of garlic are grated into it. Step 3: Slice 79 shows a green herb mixture being spread inside an eggplant bowl, consistent with the earlier combined ingredients. Therefore, the ingredients combined into the filling are chopped herbs, ricotta, and grated garlic, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows chopped green herbs being added to a bowl. Clip 2 visually confirms the addition of ricotta cheese (labeled 'Ricotta - 0.5 pounds' / '250 g') and the grating of garlic cloves ('3 garlic cloves') directly into the same bowl over the herbs. Clip 3 shows this combined mixture, now appearing creamy and green, being spread with a spatula inside a prepared eggplant dish."
+    },
+    {
+        "question": "After the diced eggplant is fried and moved off the pan, what ingredient is cooked next in the same pan?",
+        "answer": "Onion.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the eggplant mixture being cooked and then transferred to a plate, followed by preparation for the next step. Step 2: Slice 10 shows chopped onions being put into the pan and stirred. Conclusion: Onion is cooked next after the eggplant is moved off the pan.",
+        "logic_check_reasoning": "Step 1: Slice 9 states the diced eggplant is cooked and then transferred to a plate. Step 2: Slice 9 then says olive oil is poured into the same pan and identifies the next ingredient as 'Onion - 1 pc'. Step 3: Slice 10 shows the onion being chopped, placed into the pan, and stirred/cooked for about two minutes. Logic holds because the sequence clearly moves from eggplant being removed to onion being added and cooked in the same pan.",
+        "visual_proof": "Clip 1 shows the fried eggplant being transferred to a plate, leaving the pan empty. Clip 2 then shows olive oil being poured into the same pan, followed by the person chopping an onion and adding the chopped pieces to the pan for frying. This sequence visually confirms that onion is the next ingredient cooked in the pan after the eggplant."
+    },
+    {
+        "question": "What seasoning is added early to raw eggs and later also sprinkled onto the boiling water before cooking pasta?",
+        "answer": "Salt.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows salt sprinkled into the bowl of cracked eggs before whisking. Step 2: Slice 34 shows salt being added to a pot of boiling water. Conclusion: Salt is used in both the egg mixture and the pasta water.",
+        "logic_check_reasoning": "Step 1: Slice 1 states that the woman sprinkles salt onto the raw eggs before whisking. Step 2: Slice 34 shows salt being added to boiling water, with a note that this could imply cooking pasta. Logic holds because salt is explicitly shown as added in both contexts: to the eggs and to the boiling water.",
+        "visual_proof": "In Video 1, salt is visibly sprinkled onto the raw eggs in the bowl at 0:04. In Video 2, salt is also visibly added to the pot of boiling water at 0:09 before pasta is cooked. Both instances show salt being used as a seasoning at these specific stages."
+    },
+    {
+        "question": "What sequence shows mozzarella being prepared and then used as a topping in the eggplant-and-tomato assembly?",
+        "answer": "Mozzarella balls are cut into pieces and later placed on top of tomatoes within the eggplant dish.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            64,
+            67,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows mozzarella balls being cut into smaller pieces. Step 2: Slice 67 shows further chopping of mozzarella pieces into chunks. Step 3: Slice 80 shows mozzarella balls/pieces being added on top of tomatoes in the eggplant dish. Conclusion: Mozzarella is prepped first, then used as topping.",
+        "logic_check_reasoning": "Step 1: Slice 64 shows small mozzarella balls being cut into smaller, uniform pieces, explicitly indicating preparation of mozzarella. Step 2: Slice 67 reinforces the same action—steady, precise chopping of the small mozzarella pieces on a cutting board. Step 3: Slice 80 shows the assembly of an eggplant-and-tomato dish, where small balls of mozzarella are placed on top of the tomatoes. Logic holds because the sequence of preparing mozzarella (cutting) is followed by using mozzarella as a topping in the eggplant-and-tomato assembly. The slight description difference (pieces vs small balls) does not break the sequence of preparation then topping use.",
+        "visual_proof": "Clip 1 shows hands cutting small mozzarella balls on a wooden board. Clip 2 continues this cutting action. Clip 3 shows the final assembly where the previously cut mozzarella pieces are being placed directly on top of tomato slices that are arranged over a creamy filling inside an eggplant ring."
+    }
+]

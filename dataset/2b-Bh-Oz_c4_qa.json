@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Which candidate is shown as the projected winner in Washington, D.C., and how many delegates are indicated as awarded there?",
+        "answer": "Nikki Haley is the projected winner, and 19 delegates are awarded (19 of 19).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the graphic naming Nikki Haley as projected winner in D.C. with '19 delegates awarded of 19.' Step 2: Slice 9 again shows D.C. results with Haley winning all 19 delegates. Conclusion: Haley wins D.C. and gets 19 delegates.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 5 states that a screen shows Nikki Haley with the text 'DISTRICT OF COLUMBIA PROJECTED WINNER' and '19 DELEGATES AWARDED OF 19.' Step 2: Evidence Slice 9 confirms graphics showing Nikki Haley as the projected winner in the District of Columbia and highlights that she won all 19 delegates. Logic holds because both slices explicitly identify Nikki Haley as the projected winner in D.C. and specify 19 delegates awarded.",
+        "visual_proof": "The graphic displayed in Clip 1 (23:00-35:00) and Clip 2 (40:00-53:00) explicitly states 'DISTRICT OF COLUMBIA', 'PROJECTED WINNER', 'NIKKI HALEY', and '19 DELEGATES AWARDED OF 19'. The graphic also shows her vote percentage (62.9%) and Donald Trump's (33.2%), confirming the projection. This information is directly visible and matches the original answer."
+    },
+    {
+        "question": "What major foreign-policy theme is first highlighted by the Vice President speaking at a podium and later connected to the White House beginning humanitarian airdrops?",
+        "answer": "Calls for a cease-fire in Gaza alongside humanitarian relief efforts, including U.S. airdropping aid into Gaza.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            34,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows VP Harris reiterating calls for a cease-fire in Gaza. Step 2: Slice 37 describes the U.S. beginning airdropping humanitarian aid into Gaza in the same broader Gaza coverage. Conclusion: The theme links cease-fire advocacy and humanitarian aid delivery.",
+        "logic_check_reasoning": "Step 1: Slice 34 shows Vice President Harris at a podium with an overlay stating she reiterates calls for a cease-fire in Gaza, establishing the cease-fire theme. Step 2: Slice 37 reports that Biden and Harris are aligned on a 6-week cease-fire and that the U.S. has begun airdropping humanitarian aid into Gaza, connecting the cease-fire theme to humanitarian relief efforts. Logic holds because both slices explicitly mention cease-fire and the humanitarian airdrops, tying them together as a major foreign-policy theme.",
+        "visual_proof": "Clip 1 shows VP Harris at a podium with a chyron stating 'VP HARRIS REITERATES CALLS FOR A CEASE-FIRE IN GAZA'. Clip 2 shows a news report with chyrons stating 'U.S. BEGINS AIRDROPPING HUMANITARIAN AID INTO GAZA' alongside footage of aid being loaded and dropped from a military aircraft, visually connecting the policy theme of cease-fire calls with the action of humanitarian airdrops."
+    },
+    {
+        "question": "Which on-screen public figure is shown both calling for a cease-fire and later in a segment emphasizing that Biden and Harris are aligned on a 6-week cease-fire while reporting U.S. humanitarian actions?",
+        "answer": "Vice President Kamala Harris.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            34,
+            37,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows VP Harris reiterating calls for a cease-fire in Gaza. Step 2: Slice 35 references Harris meeting with a top member of Israel’s war cabinet, continuing her central role in the Gaza diplomacy storyline. Step 3: Slice 37 states Biden and Harris are 'aligned' on a 6-week cease-fire and reports U.S. airdropping aid. Conclusion: Harris is the recurring figure across cease-fire messaging and diplomatic/humanitarian coverage.",
+        "logic_check_reasoning": "Step 1: Slice 34 explicitly shows Vice President Harris delivering a speech in Selma with an on-screen text stating she reiterates calls for a cease-fire in Gaza. Step 2: Slice 37 describes a Meet the Press segment that emphasizes Biden and Harris being aligned on a 6-week cease-fire and reports U.S. humanitarian aid airdrops; it notes a woman in an official setting discussing this alignment. Step 3: While Slice 37 doesn’t name the woman, the segment’s focus on Harris and corroboration from Slice 35’s ticker about VP Harris in related news supports that the on-screen public figure in both contexts is Harris. Logic holds because Harris is the only explicitly identified public figure connected to both the cease-fire call and the alignment/aid segment.",
+        "visual_proof": "Clip 1 shows VP Harris at a podium with a chyron stating 'VP HARRIS REITERATES CALLS FOR A CEASE-FIRE IN GAZA'. Clip 2 shows her walking in a hallway with a chyron reading 'BIDEN & HARRIS \"ALIGNED\" ON 6-WEEK CEASE-FIRE IN GAZA', followed by footage of U.S. humanitarian aid airdrops. These visuals directly confirm she is the public figure shown both calling for a cease-fire and later associated with the 6-week cease-fire alignment and U.S. humanitarian actions."
+    }
+]

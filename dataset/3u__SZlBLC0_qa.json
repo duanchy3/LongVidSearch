@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What drink does the suited man prepare and hand to the woman on the phone, and later what item does another woman hand over in a different office conversation?",
+        "answer": "He hands her a mug of coffee, and later a woman hands over a check.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a suited man pouring coffee and handing a mug to a woman on the phone. Step 2: Slice 9 shows an office exchange where a seated woman hands a check to the standing woman. Conclusion: The drink is coffee, and the later handed item is a check.",
+        "logic_check_reasoning": "Step 1: Slice 2 states a suited man pours coffee into a mug and hands the mug of coffee to a woman who is on the phone. Step 2: Slice 9 describes a seated woman handing over a document that is explicitly identified as a check. Logic holds because the first part directly identifies the drink as coffee, and the second part clearly identifies the item as a check in a different office interaction.",
+        "visual_proof": "In Clip 1, the suited man is shown receiving a white mug from a woman at a kitchen counter, and a close-up confirms coffee is being poured into it. In Clip 2, a woman in an office hands a paper check to another woman; the check is clearly visible with bank details and a monetary amount."
+    },
+    {
+        "question": "In the office conversation where a check is examined, what is the check amount, and later what city is listed as the departure point on the boarding pass shown in the hallway?",
+        "answer": "$112.42, departing from San Francisco (SFO).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            97
+        ],
+        "reasoning_chain": "Step 1: Slice 9 focuses on a check for $112.42. Step 2: Slice 97 shows a boarding pass with departure from SFO (San Francisco). Conclusion: The amount is $112.42 and the departure city is San Francisco.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly states that the check in the office scene is made out for $112.42. Step 2: Slice 97 explicitly describes a close-up of a boarding pass showing departure from San Francisco (SFO). Logic holds because the question asks for the check amount from the office scene and the departure city from the later hallway scene, and both details are directly provided in the respective slices.",
+        "visual_proof": "Clip 1 shows a close-up of a check with the amount '$112.42' clearly visible in the numerical box and written out as 'one hundred and twelve dollars 42/100'. Clip 2 shows a close-up of a boarding pass where the 'ORIGIN' field explicitly reads 'SFO - SAN FRANCISCO'. Both pieces of information are directly legible from the visuals."
+    },
+    {
+        "question": "In the restaurant conversation, what food is on the table, and later what travel document is shown close-up in a hallway exchange?",
+        "answer": "Pizza is on the table, and a boarding pass is shown.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            97
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a table with a pizza on a stand during a conversation. Step 2: Slice 97 shows a close-up of a boarding pass in a hallway scene. Conclusion: The food is pizza and the document is a boarding pass.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 39 explicitly states there is a pizza on a stand and a plate with a slice of pizza on the table during the restaurant conversation. Step 2: Evidence Slice 97 explicitly describes a close-up of a boarding pass during a hallway exchange. Logic holds because both details directly match the question's two parts.",
+        "visual_proof": "Clip 1 shows a restaurant scene with a large pizza on a stand on the table. Clip 2 shows a close-up of a document clearly labeled 'BOARDING PASS' with flight details, held by a character in a hallway."
+    },
+    {
+        "question": "Which character accessory appears both when the man drives during urgent nighttime car conversations and when he later speaks in a formal restaurant setting?",
+        "answer": "His glasses.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows the driver wearing glasses in a nighttime car scene. Step 2: Slice 37 shows a man in a suit with glasses speaking in a formal restaurant setting. Conclusion: The shared accessory is glasses.",
+        "logic_check_reasoning": "Step 1: Slice 30 describes an older man driving at night during a tense conversation and explicitly notes he is wearing glasses. Step 2: Slice 37 shows the man in a formal restaurant setting and explicitly states he is wearing glasses. Logic holds because the same accessory—glasses—is mentioned in both contexts.",
+        "visual_proof": "In Clip 1, the man is clearly seen wearing glasses while driving at night. In Clip 2, the same man is seen in a restaurant setting, also wearing the same pair of glasses. The accessory is consistently present in both distinct scenes."
+    },
+    {
+        "question": "What item is secretly placed into a bag, and later what kind of bag does a suited man carry as he leaves a restaurant setting?",
+        "answer": "Cash is placed into a small bag, and later a suited man carries a bag as he leaves the restaurant.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows a hand placing U.S. dollar bills into a small bag/pouch. Step 2: Slice 18 ends with a man in a suit carrying a bag while leaving a restaurant. Conclusion: Money goes into a bag, and later a suited man is seen carrying a bag.",
+        "logic_check_reasoning": "Step 1: Slice 46 Scene 1 explicitly describes a hand placing U.S. dollar bills (cash) into a small, dark-colored bag or pouch, supporting 'Cash is placed into a small bag.' Step 2: Slice 18 states the video concludes with a shot of a man in a suit carrying a bag, possibly leaving the restaurant, supporting 'a suited man carries a bag as he leaves the restaurant.' The context does not specify the type of bag, and the proposed answer likewise remains general, which is consistent with the provided evidence.",
+        "visual_proof": "In the first clip (0:01-0:02), a hand is clearly shown placing US dollar bills into a small, dark-colored bag. In the second clip (0:32-0:33), a man in a suit is seen hugging a woman while carrying a light-colored tote bag over his shoulder as they walk through the restaurant, indicating he is leaving with it."
+    },
+    {
+        "question": "Which woman is first seen reviewing a small check in an office, later appears in a modern waiting area smiling, and later is shown near a motorcycle before riding into rural scenery?",
+        "answer": "The woman in the black leather jacket (curly-haired in later shots).",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            9,
+            81,
+            82,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a woman in a black leather jacket receiving/examining a small check. Step 2: Slice 81 shows a curly-haired woman in a black leather jacket smiling in a modern waiting area. Step 3: Slice 82 shows the leather-jacketed woman with a helmet approaching a motorcycle and then riding on rural roads. Step 4: Slice 83 shows a curly-haired woman again in conversation with others, consistent with the same character. Conclusion: These appearances track the same leather-jacketed woman across office, waiting area, motorcycle, and later discussion.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a woman in a black leather jacket examining a small check ($112.42) in an office. Step 2: Slice 81 shows a woman with curly hair wearing a black leather jacket in a modern waiting area, smiling. Step 3: Slice 82 depicts a woman in a black leather jacket approaching a motorcycle and then riding into rural scenery. The consistent attribute (black leather jacket) links the woman across all slices, and Slice 81 adds the curly hair detail. Therefore, the answer identifying her as the woman in the black leather jacket (curly-haired later) is supported.",
+        "visual_proof": "In Clip 1, a woman in a black leather jacket is seen in an office reviewing a check. In Clip 2, the same woman, identifiable by her curly hair and leather jacket, is shown smiling in a modern waiting area. In Clip 3, she is seen near a motorcycle, putting on a helmet, and then riding it into rural scenery. These visual sequences confirm the identity and actions described in the original answer."
+    },
+    {
+        "question": "How does the man’s environment shift from a city-view corporate office discussion to a community-oriented street location with a charity-like sign, and then to a school setting where an adult waits with a child?",
+        "answer": "He moves from a corporate meeting environment, to a community street scene near a “Clothes for Kids” sign, then to a school hallway/entrance where an adult and child wait together.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            68,
+            52,
+            55,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 68 shows a modern office with cityscape views and a serious discussion. Step 2: Slice 52 shifts outdoors to a community street near a “Clothes for Kids” sign. Step 3: Slice 55 shows an adult and a boy waiting in a school hallway and then outside the school entrance. Step 4: Slice 56 continues the serious adult-child conversation in/near a building setting. Conclusion: The narrative moves from corporate to community outreach to school-related waiting and discussion.",
+        "logic_check_reasoning": "Step 1: Slice 68 describes a city-view corporate office discussion with a man in a suit addressing someone at a desk, clearly supporting the corporate meeting environment. Step 2: Slice 52 shows a transition to a community street scene where a sign reading \"Clothes for Kids\" is visible, matching the charity-like street location. Step 3: Slice 55 (and supported by Slice 56) presents a school setting, first an indoor hallway and then the school entrance, where an adult (a woman) and a child wait together, supporting the school hallway/entrance with an adult and child waiting. The sequence of environments aligns with the proposed answer’s progression.",
+        "visual_proof": "Clip 1 shows a man in a suit in a high-rise office with a city view. Clip 2 transitions to an outdoor street scene with people gathered near a brick wall with a 'CLOTHES FOR KIDS' sign. Clip 3 and 4 show an adult woman and a young child sitting on the steps outside a building that resembles a school, with hallways visible inside."
+    }
+]

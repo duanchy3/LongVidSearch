@@ -1,0 +1,197 @@
+[
+    {
+        "question": "Which clothing item with red heart designs is first presented as footwear and later shown as a clothing piece with a similar red-heart pattern?",
+        "answer": "Red hearts: first on white sneakers, later on a white pouch or bag with red hearts.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 36 highlights white sneakers decorated with red hearts. Step 2: Slice 37 shows her holding a white shirt with red heart patterns. Conclusion: The red-heart motif appears on both the sneakers and the shirt.",
+        "logic_check_reasoning": "Step 1: Slice 36 states a woman is holding white sneakers adorned with red heart designs, establishing footwear with the red-heart pattern. Step 2: Slice 37 describes a young woman holding up a white shirt with red heart patterns, showing a clothing piece with a similar design. Logic holds because both slices explicitly mention items (sneakers, shirt) featuring red heart designs, first as footwear and later as a clothing item.",
+        "original_text_answer": "Red hearts: first on white sneakers, later on a white shirt with red hearts.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the woman holds up white high-top sneakers decorated with red hearts. In Clip 2, she holds up the same sneakers and then a separate white fabric item, which is clearly a small pouch or bag (not a shirt) also decorated with red hearts. The item is held in her hand and has a zipper, consistent with a pouch."
+    },
+    {
+        "question": "What drink-making tool is introduced when she holds a glass teapot, and later shown in use in the kitchen as a different device for making a hot beverage?",
+        "answer": "A glass teapot is introduced, and later a French press is shown being used to make a hot drink.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            50,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 50 shows her holding a glass teapot while talking. Step 2: Slice 51 shows a copper-colored French press being filled with hot water for coffee. Conclusion: The video moves from a teapot to a different hot beverage method (French press).",
+        "logic_check_reasoning": "Step 1: Slice 50 describes a young woman holding up a glass teapot while speaking, clearly introducing a glass teapot. Step 2: Slice 51 shows a copper-colored French press being used in a kitchen, with hot water poured into it to make a beverage. Logic holds because the question asks for the tool introduced (glass teapot) and the different device later shown in use (French press), both of which are explicitly supported by the slices.",
+        "visual_proof": "In Clip 1, the woman holds up a clear glass pot with a metal plunger mechanism, which is a French press. In Clip 2, the same type of device (a French press) is shown on a kitchen counter, being filled with coffee grounds and hot water, and then pressed to brew coffee. The item is consistently identified as a French press across both clips."
+    },
+    {
+        "question": "What on-screen text introduces a new segment about everyday items, and which later showcased object matches one of the icons depicted on that title card?",
+        "answer": "The text is “everyday things,” and the later showcased object that matches an icon is a backpack.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            43,
+            53,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows the title card “everyday things” with icons including a backpack. Step 2: Slice 53 later showcases a colorful backpack in detail. Step 3: Slice 54 continues the everyday-items vibe by showing her discussing a bag (a red bag) in the same vlog style. Conclusion: The segment labeled “everyday things” is followed by showing an actual backpack item and related bag content.",
+        "logic_check_reasoning": "Step 1: Slice 43 explicitly states the on-screen text 'everyday things' and shows icons including a backpack, a water bottle, and a lipstick. Step 2: Slice 53 describes a colorful backpack being showcased in detail. Logic holds because the later showcased object (backpack) directly matches one of the icons on the 'everyday things' title card.",
+        "visual_proof": "Clip 1 shows a title card with the text 'everyday things' and icons of a backpack, a French press, and lipstick. Clip 2 then features the woman showcasing a colorful backpack, which directly corresponds to the backpack icon on the title card."
+    },
+    {
+        "question": "Which two different heart-themed items does she present, and what additional heart-themed packaging does she later hold up with both hands?",
+        "answer": "She presents heart-decorated sneakers and a heart-patterned shirt; later she holds up two small white pouches or bags with red hearts.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            37,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows white sneakers with red hearts. Step 2: Slice 37 shows a white shirt with red heart patterns. Step 3: Slice 38 shows her holding two small white bags with red hearts. Conclusion: Multiple items share the heart motif across footwear, clothing, and small bags.",
+        "logic_check_reasoning": "Step 1: Slice 36 describes the woman holding white sneakers adorned with red heart designs, establishing one heart-themed item. Step 2: Slice 37 shows the same setting/person holding a white shirt with red heart patterns, establishing the second heart-themed item. Step 3: Slice 38 shows her later holding two small white bags with red hearts, one in each hand, fitting the description of additional heart-themed packaging held with both hands. The environment and visual attributes align across slices, supporting continuity.",
+        "original_text_answer": "She presents heart-decorated sneakers and a heart-patterned shirt; later she holds two small white bags with red hearts.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In clip 1, the woman holds up white high-top sneakers decorated with red hearts. In clip 2, she holds one sneaker and then reveals a white shirt with red hearts on the sleeve. In clip 3, she is seen holding two small white pouches/bags, each decorated with red hearts, in both hands."
+    },
+    {
+        "question": "How does the focus shift from fashion demonstration to close-up accessories, and what later beauty product is shown in an even tighter application-focused close-up?",
+        "answer": "It shifts from outfit/garment showcasing to close-up gold earrings, and later to a mascara (“Better Than Sex”) being applied to eyelashes.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            41,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 24 focuses on showing handmade clothing items (top and skirt). Step 2: Slice 41 shifts to a close-up of gold earrings as an accessory. Step 3: Slice 46 becomes an even more zoomed-in beauty segment showing mascara and its application. Conclusion: The video narrows from clothing to accessories to detailed makeup application.",
+        "logic_check_reasoning": "Step 1: Slice 24 describes a fashion demonstration of handmade garments (top and skirt), indicating an outfit/garment showcase. Step 2: Slice 41 focuses on a close-up of gold earrings, showing a shift to accessories with detailed visuals. Step 3: Slice 46 presents a mascara product ('Better Than Sex' by Too Faced) being applied to eyelashes in a tight close-up, emphasizing application. The logic holds and matches the proposed answer.",
+        "visual_proof": "Clip 1 shows a person modeling an outfit with close-ups on the floral blouse. Clip 2 transitions to extreme close-ups of gold fan-shaped earrings with pearls in a hand and on a surface. Clip 3 then shows a hand holding a 'Too Faced Better Than Sex' mascara tube, opening it, and applying it to eyelashes in a tight close-up, confirming the sequence described."
+    },
+    {
+        "question": "Which two separate segments feature her holding up an Ella Fitzgerald item, and how is the Ella focus expanded with a different format (not the same item) in another segment?",
+        "answer": "She holds up the 'The Best of Ella Fitzgerald' album sleeve in two separate segments. The focus is expanded in another segment by showing the interior pages of the same album sleeve, which include an introduction, tracklist, and photos.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            69,
+            73,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows a vinyl record sleeve featuring Ella Fitzgerald. Step 2: Slice 73 shows her holding an album titled “Ella.” Step 3: Slice 71 expands the Ella content with a book titled “The Best of Ella,” including close-ups of pages and a timeline. Conclusion: Ella appears across record imagery, an album, and a biographical/book format.",
+        "logic_check_reasoning": "Step 1: Slice 73 shows a woman holding an album titled \"Ella\" by Ella Fitzgerald, clearly a segment where she holds up an Ella item. Step 2: Slice 71 shows a person holding up a book titled \"The Best of Ella,\" another segment featuring her holding an Ella-related item. Step 3: Slice 71 further expands the Ella focus in a different format (a book, not a record) by showing interior pages, including an introduction and a timeline of Ella Fitzgerald's life. This supports the proposed answer's claim that the focus is expanded via a book with interior pages and a timeline.",
+        "original_text_answer": "She holds up an album/sleeve for Ella Fitzgerald, and later holds up another Ella item; the focus is expanded with a book about Ella Fitzgerald that includes interior pages and a timeline.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 2 (0:00-0:11) and Clip 3 (0:00-0:02, 0:11-0:12), the woman is visually holding the 'The Best of Ella Fitzgerald' album sleeve. In Clip 3 (0:03-0:05), the video shows a close-up of the interior pages of this same sleeve, revealing the tracklist and an introduction by Burt Korall. In Clip 3 (0:06-0:10), she opens the sleeve to show more interior pages with photos and text. No separate book is shown; all additional content is from the album's inner sleeve."
+    },
+    {
+        "question": "What text-based chapter marker introduces an “honorable mentions” segment, and which later close-up shot focuses tightly on an outfit’s waist detail that fits the fashion-showcase theme?",
+        "answer": "The marker is “honorable mentions,” and later there’s a close-up of a white belt over a yellow pleated skirt (with a floral blouse).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            28,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 22 includes a green title card reading “honorable mentions,” signaling a fashion segment. Step 2: Slice 28 shows a tight close-up of a floral blouse with a yellow pleated skirt and a white belt at the waist. Step 3: Slice 34 continues the fashion focus by showing the presenter putting on and buttoning a cardigan as part of an outfit. Conclusion: The fashion structure is reinforced by chapter text and detailed outfit close-ups.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly mentions a title card with the words \"honorable mentions\" displayed, which is a text-based chapter marker introducing that segment. Step 2: Slice 28 describes a close-up shot of the lower torso highlighting a white belt cinching a yellow pleated skirt, paired with a floral blouse—this focuses tightly on the outfit’s waist detail and aligns with a fashion showcase. Logic holds because the first identifies the marker and the second identifies the specific close-up shot requested.",
+        "visual_proof": "Clip 1 visually displays the text 'honorable mentions' overlaid on a montage of outfits. Clip 2 provides a tight close-up shot focusing on the waist, showing a white belt cinched over a yellow pleated skirt paired with a floral blouse, which aligns perfectly with the fashion showcase theme described in the question."
+    },
+    {
+        "question": "Across the video, she demonstrates crafting/fashion and later art—what tool appears during a dance moment, and what art materials are shown later that suggest drawing/illustration work?",
+        "answer": "Scissors appear during the dance, and later brightly colored markers (and drawings) are shown.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            80,
+            60,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 80 shows her dancing while holding scissors (a crafting tool). Step 2: Slice 60 shows neatly arranged colorful markers and finished drawings. Step 3: Slice 68 shows her holding up a drawing she made. Conclusion: The video connects making/crafting energy (scissors) with later illustration materials and artwork presentation.",
+        "logic_check_reasoning": "Step 1: Slice 80 states the woman is dancing and \"holding a pair of scissors,\" directly supporting the tool during the dance. Step 2: Slice 60 shows \"brightly colored markers\" and pans across \"colorful drawings,\" which clearly suggests drawing/illustration materials. Step 3: Although both slices use \"begins\" language, VLM noise can cause such timeline phrasing; the presence of scissors during dance and markers/drawings in the video is explicitly supported. Therefore, the logic holds.",
+        "visual_proof": "In Clip 1, at 0:00, the woman is holding a pair of blue-handled scissors while dancing. In Clip 2, at 0:00, a set of brightly colored Posca markers is displayed, followed by various illustrations drawn with them, confirming they are used for drawing/illustration work."
+    },
+    {
+        "question": "How does the video’s chapter-style graphics connect spring-themed text to a later end-card that promotes subscribing, and what consistent background color ties these graphics together?",
+        "answer": "It moves from the spring title “Early Spring Favs” to an end-card with “thank you for watching” and “SUBSCRIBE!”, and both use a green background.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            22,
+            43,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a green-background spring title card (“Early Spring Fans”). Step 2: Slice 22 shows another green background title card (“honorable mentions”), continuing chapter markers. Step 3: Slice 43 shows a green background “everyday things” title card. Step 4: Slice 93 shows the green end-card with name/handles and “SUBSCRIBE!”. Conclusion: Multiple chapter/outro graphics share a consistent green background and structure the video.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a spring-themed title card with the phrase \"Early Spring Fans\" on a light green background, decorated with leaves and flowers. Step 2: Slice 93 shows a later card featuring \"thank you so much\" and \"SUBSCRIBE!\", functioning as an intro or outro/end-card, also on a green background with similar decorative elements. Step 3: The connection is that the video’s graphics progress from the spring-themed text to a subscribe-promoting card, and both share a consistent green background color.",
+        "original_text_answer": "It moves from the spring title “Early Spring Fans” to an end-card with “thank you so much” and “SUBSCRIBE!”, and both use a green background.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the opening title card with the text “Early Spring Favs” on a green background. Clip 4 shows the end card, which includes the phrases “thank you for watching” and “SUBSCRIBE!” along with social media handles, all set against the same green background. The consistent color ties the graphics together, though the exact phrasing in the original answer (“thank you so much”) is slightly inaccurate compared to the visible text (“thank you for watching”)."
+    },
+    {
+        "question": "How does the video move from fashion garment-making to outfit display and then to bag-focused ‘everyday’ items—name one handmade clothing item, one worn outfit close-up, and one everyday carried item showcased later.",
+        "answer": "A handmade long-sleeved floral top (and mustard corduroy skirt), a worn outfit close-up with a yellow skirt and white belt, and a colorful backpack showcased later.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            24,
+            28,
+            43,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows handmade garments (sleeveless top and mustard-yellow skirt). Step 2: Slice 28 shows a close-up of a styled outfit (floral blouse, yellow pleated skirt, white belt). Step 3: Slice 43 introduces the “everyday things” segment with icons including a backpack. Step 4: Slice 53 showcases a real colorful backpack in detail. Conclusion: The content transitions from making clothes, to styling them, to everyday carry items.",
+        "logic_check_reasoning": "Step 1: Slice 24 describes the fashion garment-making segment, explicitly showing a handmade sleeveless top and a mustard-yellow skirt, supporting the mention of a handmade sleeveless top (and mustard skirt). Step 2: Slice 28 provides a close-up of a worn outfit featuring a yellow pleated skirt and a white belt, directly supporting the 'worn outfit close-up with a yellow skirt and white belt.' Step 3: Slice 43 introduces the 'everyday things' theme with illustrated items including a backpack, and Slice 53 explicitly showcases a colorful, multi-colored backpack in a product-focused segment, supporting 'a colorful backpack showcased later.' The progression from handmade garments to outfit display to everyday carried items is logically supported across these slices.",
+        "original_text_answer": "A handmade sleeveless top (and mustard skirt), a worn outfit close-up with a yellow skirt and white belt, and a colorful backpack showcased later.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the person wearing a long-sleeved floral top, not a sleeveless one. The top is detailed with a V-neck and drawstring waist. Clip 2 provides a close-up of the outfit with the yellow skirt and white belt. Clip 4 clearly displays the colorful backpack as an 'everyday' item, with multiple pockets and straps."
+    },
+    {
+        "question": "From the opening dance to later fashion prep, how does her activity shift from playful movement to getting dressed, and what specific action signals the ‘getting ready’ phase?",
+        "answer": "It shifts from dancing energetically to deliberately dressing; buttoning up a green jacket/cardigan signals the getting-ready phase.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            16,
+            32,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows her dancing energetically in her room. Step 2: Slice 16 introduces outfit-transition behavior in the same space, indicating a move toward fashion presentation. Step 3: Slice 32 shows her buttoning up a green jacket while facing the camera, a purposeful dressing action. Step 4: Slice 34 similarly shows putting on and buttoning a cardigan to complete an outfit. Conclusion: The video transitions from playful dance to intentional outfit assembly, marked by buttoning clothing.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes the young woman dancing energetically in a vibrant, personalized room, indicating playful movement. Step 2: Slice 32 shows a person in the same type of cozy room buttoning up a green jacket, with a clothes rack visible, suggesting preparation/getting ready. Step 3: Slice 34 reinforces the fashion prep by showing the presenter putting on and buttoning a light green cardigan, adjusting sleeves and buttons. Logic holds because the activity shifts from dancing to deliberate dressing, and the specific action of buttoning up a green jacket/cardigan is explicitly described as part of getting ready.",
+        "visual_proof": "Clip 1 shows the woman dancing playfully with energetic hand movements. Clip 2 transitions to her holding up a dress, indicating a shift to fashion prep. Clips 3 and 4 show her putting on and buttoning a green corduroy jacket over a sweater and skirt, which is a clear 'getting ready' action."
+    },
+    {
+        "question": "She highlights creative work through both drawing and book/media discussion—what artwork does she show, and what music-related visual media appears later that aligns with the ‘media’ theme?",
+        "answer": "She shows a drawing of a person with dark skin and curly hair, and later a Spotify playlist appears on screen.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            68,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 68 shows her holding up a drawing she made. Step 2: Slice 63 shows a Spotify playlist displayed while she talks. Conclusion: The video mixes visual art presentation with music/media content.",
+        "logic_check_reasoning": "Step 1: Slice 68 states the woman holds up a drawing of a person with dark skin and curly hair, clearly identifying the artwork shown. Step 2: Slice 63 says a Spotify playlist appears on screen while she talks, detailing the title and artists, which is music-related visual media. Logic holds because the proposed answer matches these explicit details: the specific drawing and the appearance of a Spotify playlist.",
+        "visual_proof": "In Clip 1 (0:05-0:09), the woman holds up a vinyl record cover featuring a colorful illustration of Ella Fitzgerald, who has dark skin and curly hair. In Clip 2 (0:08-0:12), a Spotify interface for the EP 'This Thing Called Living' by Eloise is overlaid on the right side of the screen, showing the tracklist and playback controls."
+    },
+    {
+        "question": "Which segments show her shifting from talking about music digitally to discussing music in print and then to physically showing a music album item related to the same artist?",
+        "answer": "She shows a Spotify playlist, then the inner sleeve of an Ella Fitzgerald album (which contains text and photos), and finally the front cover of the same album titled 'the Best of Ella'.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            63,
+            71,
+            73,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 63 displays a Spotify playlist while she talks about music. Step 2: Slice 71 shows her holding a book about Ella Fitzgerald (“The Best of Ella”). Step 3: Slice 73 shows her holding an album titled “Ella.” Step 4: Slice 69 reinforces the physical music media angle with a vinyl sleeve featuring Ella Fitzgerald. Conclusion: The video spans digital music, printed reference material, and physical album media centered on Ella.",
+        "logic_check_reasoning": "Step 1: Slice 63 shows the woman with a Spotify playlist on screen, which is digital music content. Step 2: Slice 71 shows her discussing and displaying a book titled 'The Best of Ella' about Ella Fitzgerald, which is music in print. Step 3: Slice 73 shows her holding an album titled 'Ella' by Ella Fitzgerald, a physical music item related to the same artist featured in the book. The sequence and content align with the proposed answer.",
+        "original_text_answer": "She shows a Spotify playlist, then a book about Ella Fitzgerald, then an album titled “Ella.”",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a Spotify interface for 'This Thing Called Living' by Eloise. Clip 2 shows her holding up the inner sleeve of an album with text and photos about Ella Fitzgerald, not a book. Clip 3 and Clip 4 show her holding and displaying the front cover of the 'the Best of Ella' album."
+    }
+]

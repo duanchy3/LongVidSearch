@@ -1,0 +1,88 @@
+[
+    {
+        "question": "After the man places plain dough into the hot brick oven, what visual change shows it has baked further when we see it again inside the oven?",
+        "answer": "It changes from pale dough to a golden-brown flatbread.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows pale, raw flat round dough being placed into a hot stone/brick oven with embers. Step 2: Slice 47 shows the bread inside the oven looking golden-brown and near completion. Conclusion: The baked state is indicated by the golden-brown color compared to the pale dough.",
+        "logic_check_reasoning": "Step 1: Slice 46 describes a person placing a pale, flat round dough into a hot stone oven. Step 2: Slice 47 later shows the scene inside the oven where the flatbread is baking and appears golden-brown on top, indicating it has baked further. Logic holds because the initial pale dough is later seen as golden-brown flatbread, showing the progression of baking.",
+        "visual_proof": "In Video 2 (0:08-0:10), the man is shown preparing pale, uncooked dough with decorative patterns. In Video 1 (0:00-0:04), a piece of dough is placed into the oven and is visibly golden-brown as it's pushed in, indicating it has been baked. This visual transition from pale to golden-brown confirms the answer."
+    },
+    {
+        "question": "Which animal is first shown being fed raw meat by the man and later shown chewing on a bone?",
+        "answer": "The dog.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows the man feeding a dog raw meat from a balcony/porch. Step 2: Slice 18 shows a black-and-white dog lying on the ground chewing on a bone. Conclusion: The animal linked across both moments is the dog.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly shows a man feeding raw meat to a dog. Step 2: Slice 18 explicitly shows a dog chewing on a bone. Step 3: The man’s consistent appearance (green beanie) and the rustic setting link the scenes, indicating the same video context. Therefore, the animal first fed raw meat and later shown chewing a bone is the dog.",
+        "visual_proof": "In the first clip, a man is shown feeding raw meat to a brown and white dog from a wooden counter. In the second clip, a black and white dog is shown lying on the ground and chewing on a bone. Although the dogs are different in appearance, the question asks for an animal that is first shown being fed raw meat and later shown chewing on a bone. The first clip shows a dog being fed raw meat, and the second clip shows a dog chewing on a bone, fulfilling the criteria of the question."
+    },
+    {
+        "question": "Which key steps show bread being made from shaping dough to baking in the oven to finishing the baked loaves on the table?",
+        "answer": "The dough is shaped/indented and brushed with a yellow liquid, then placed into the oven to bake, and the finished bread is presented on a cloth-covered table.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            46,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows dough being pressed/indented and brushed with a yellow liquid (egg wash/oil). Step 2: Slice 46 shows the dough being placed into a hot oven with embers using a wooden peel. Step 3: Slice 63 shows baked loaves on a table being dusted/tapped with flour. Conclusion: The breadmaking steps proceed from shaping/prepping → baking → finishing/dusting.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows the dough being shaped/indented with a fork and brushed with a yellowish liquid, supporting the 'shaped/indented and brushed' step. Step 2: Slice 46 shows the dough being placed into a hot stone oven with a peel, supporting the 'placed into the oven to bake' step. Step 3: Slice 63 shows freshly baked bread on a red-and-white cloth-covered table being dusted with flour, supporting the 'finished bread is dusted with flour on a cloth-covered table' step. The sequence is coherent and explicitly depicted.",
+        "original_text_answer": "The dough is shaped/indented and brushed, then placed into the oven to bake, and the finished bread is dusted with flour on a cloth-covered table.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the dough being indented with a fork and brushed with a yellow liquid (not flour). Clip 2 shows the prepared dough being slid into a wood-fired oven. Clip 3 shows the baked loaves resting on a red and white checkered cloth on a table; there is no visual evidence of them being dusted with flour."
+    },
+    {
+        "question": "How does the food progress from raw preparation to a served stew meal: what happens first, then what is shown simmering, and finally what is served onto a plate?",
+        "answer": "First raw meat is washed, then meat simmers in a pot over the fire, and finally a meat-and-potato stew is spooned onto a plate.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            19,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows raw meat being washed in a basin/near water as part of preparation. Step 2: Slice 19 shows meat simmering in a cast-iron pot over an open fire with steam and stirring. Step 3: Slice 70 shows a hearty stew with meat and potatoes being scooped from a terracotta bowl onto a plate. Conclusion: The sequence is wash raw meat → simmer/cook in pot → serve stew onto a plate.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes hands washing raw meat in water outdoors, clearly supporting the initial raw preparation. Step 2: Slice 19 shows meat simmering in a cast-iron pot over an open fire, confirming the simmering stage. Step 3: Slice 70 depicts a hearty stew with chunks of meat and potatoes being spooned from a bowl onto a plate, matching the final serving stage. The sequence logically connects raw washing to simmering to serving stew with meat and potatoes.",
+        "visual_proof": "Clip 1 shows hands washing raw meat pieces in water. Clip 2 shows meat simmering in a large pot over a wood fire. Clip 3 shows a person spooning a finished stew containing meat and potatoes from a large bowl onto a smaller plate."
+    },
+    {
+        "question": "Across the cooking story, what shows the transition from raw meat handling to an assembled pot meal to the final plated eating scene outdoors?",
+        "answer": "Raw meat is cut and prepared, then it’s combined with ingredients in a clay pot for cooking, and later the cooked stew is eaten from a plate outdoors.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            24,
+            70,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows raw meat being butchered on a table. Step 2: Slice 24 shows chickpeas and chopped meat being placed into an earthenware pot as part of building the dish. Step 3: Slice 70 shows the cooked stew being served from a large bowl onto a plate. Step 4: Slice 73 shows a person in a green beanie eating the dish outdoors at a rustic table with a larger bowl nearby. Conclusion: The narrative moves from raw prep → pot assembly → serving → eating.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows raw meat being butchered and cut on a wooden table, establishing raw meat handling. Step 2: Slice 24 shows the man adding chickpeas and chopped, seasoned meat into an earthenware (clay) pot, indicating an assembled pot meal in progress. Step 3: Slice 70 shows a cooked stew/casserole being served from a terracotta bowl onto a plate outdoors, bridging cooking to serving. Step 4: Slice 73 shows the person eating from a small plate outdoors, confirming the final plated eating scene. The proposed answer accurately summarizes this progression.",
+        "visual_proof": "Clip 1 shows the man cutting raw meat. Clip 2 shows him adding chopped meat and other ingredients (beans, potatoes) into a large clay pot. Clip 3 shows the finished stew being served from the pot onto a plate. Clip 4 shows the man eating the stew from that plate at an outdoor table."
+    },
+    {
+        "question": "What connects the rustic hanging food storage to later ingredient use and the final stew being served?",
+        "answer": "Items hang under the shelter (suggesting stored dried foods), ingredients are assembled at the table into pots, and the result is served as a meat-and-potato stew.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            21,
+            23,
+            24,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a thatched-roof shelter with items hanging (cured meats/sausages or dried foods) near the prep area. Step 2: Slice 23 shows a table laid out with spices and ingredients in the same rustic environment. Step 3: Slice 24 shows chickpeas and chopped meat being placed into an earthenware pot as part of cooking. Step 4: Slice 70 shows the completed stew served from a terracotta bowl onto a plate. Conclusion: Stored/available foods and spices feed into pot assembly and culminate in the served stew.",
+        "logic_check_reasoning": "Step 1: Slice 21 describes a rustic shelter with items hanging under it, appearing to be cured meats or sausages, and a table with food items and utensils, supporting the notion of stored dried foods and initial prep. Step 2: Slices 23 and 24 show ingredients being organized and added to an earthenware/terracotta pot (chili flakes, chickpeas, seasoned meat), clearly indicating assembly into pots at the table. Step 3: Slice 70 shows a terracotta-colored bowl with a stew containing chunks of meat and potatoes being served, matching the final meat-and-potato stew. Logic holds because the captions depict a coherent progression from visible food storage and preparation, to cooking in pots, to serving the completed stew.",
+        "visual_proof": "Clip 1 shows red peppers and other items hanging to dry under the shelter. Clip 2 and Clip 3 show the man assembling ingredients like saffron, chickpeas, potatoes, onions, and meat from bowls on the table into a large clay pot. Clip 4 shows the final cooked stew, containing meat and potatoes, being served from the same type of pot."
+    }
+]

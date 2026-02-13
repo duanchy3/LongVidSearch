@@ -1,0 +1,72 @@
+[
+    {
+        "question": "Which artwork is shown undergoing a dramatic color shift into a yellow tint, and later is used to highlight “GEOMETRIC SHAPES” in its composition?",
+        "answer": "Paul Cézanne’s “The Large Bathers.”",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows “The Large Bathers” with colors transforming into a vivid yellow hue. Step 2: Slice 15 returns to the bathers and overlays geometric shape guides with the text “GEOMETRIC SHAPES.” Conclusion: The artwork is Cézanne’s “The Large Bathers.”",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly identifies the painting as Paul Cézanne's 'The Large Bathers' and describes it undergoing a dramatic shift into a vibrant yellow hue. Step 2: Slice 15 begins with the same bathers painting (nude figures around a pool in an outdoor setting) and notes that a yellow geometric overlay appears with the words 'GEOMETRIC SHAPES,' emphasizing its composition. Step 3: The later transition to Raphael's 'School of Athens' occurs after this overlay, confirming the geometric highlight pertains to the Cézanne painting. Therefore, both the color shift and the geometric emphasis refer to 'The Large Bathers.'",
+        "visual_proof": "In Video 1, the painting is shown with a dramatic yellow color overlay at 0:13. In Video 2, the same painting is displayed with yellow lines outlining its figures and structures, accompanied by the text 'GEOMETRIC SHAPES' at 0:09. The title card in Video 1 explicitly identifies the artwork as 'THE LARGE BATHERS' by 'PAUL CÉZANNE'."
+    },
+    {
+        "question": "Which artist’s philosophy about making Impressionism “solid and lasting” is shown, and which later minimalist geometric artwork aligns with that shift toward structured abstraction?",
+        "answer": "Paul Cézanne; Kazimir Malevich’s “Black Square.”",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows Cézanne’s portrait and quote about making Impressionism solid and lasting. Step 2: Slice 58 introduces the radically simplified geometric work “Black Square.” Step 3: Slice 59 reinforces the abstraction rationale (refuge in the square to escape the real world). Conclusion: Cézanne’s goal is conceptually linked to later structured abstraction exemplified by “Black Square.”",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly shows the quote 'I want to make of Impressionism something solid and lasting like the art in museums' alongside a portrait identified in context as Paul Cézanne, supporting the first part of the answer. Step 2: Slice 58 features Kazimir Malevich’s 'Black Square' with focused visual description and title card, and Slice 59 adds context with a quote about taking refuge in the form of the square in 1913, reinforcing the identification of the minimalist geometric artwork. Logic holds because the context clearly presents Cézanne’s philosophy and separately presents Malevich’s 'Black Square' as a minimalist geometric piece, aligning with the shift toward structured abstraction.",
+        "visual_proof": "Clip 1 visually identifies Paul Cézanne via his self-portrait and displays the quote, 'I want to make of Impressionism something solid and lasting like the art in museums.' Clip 2 explicitly titles the artwork as 'BLACK SQUARE' by 'KAZIMIR MALEVICH,' showing the minimalist geometric piece. The sequence of clips directly links Cézanne's philosophy to Malevich's work."
+    },
+    {
+        "question": "How does the video track “The Starry Night” from an early gallery focus to a later biographical/historical context and then to a labeled compositional breakdown?",
+        "answer": "It first spotlights the painting in a gallery, then juxtaposes it with an image of the Saint-Rémy institution, then labels the composition as “Heavens” and “Earth.”",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 1 focuses on “The Starry Night” in a gallery. Step 2: Slice 19 transitions from the painting to a poster for the Saint-Rémy-de-Provence institution, implying personal context. Step 3: Slice 20 labels parts of the painting (“Heavens” and “Earth”). Conclusion: The video moves from presentation → context → analysis.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes an art gallery setting and focuses on Van Gogh's 'Starry Night,' supporting the early gallery focus. Step 2: Slice 19 shows a transition to a historical poster for the Maison de Santé de Saint-Rémy-de-Provence, connecting the artwork to biographical/historical context. Step 3: Slice 20 mentions labels 'Heavens' and 'Earth' applied to parts of the painting, confirming a compositional breakdown. Logic holds because the sequence matches the proposed answer: gallery focus, historical juxtaposition, then labeled composition.",
+        "visual_proof": "Clip 1 opens with a wide shot of 'The Starry Night' hanging in a museum gallery. Clip 2 shows the same painting, but then cuts to a historical sign for 'MAISON DE SANTÉ SAINT-REMY DE PROVENCE,' establishing its biographical context. Clip 3 returns to the painting and overlays text labels 'Heavens' and 'Earth' to break down its composition."
+    },
+    {
+        "question": "Which artist is linked to action painting by showing him working over a canvas on the floor, then presenting the named work “Autumn Rhythm,” and later displaying the finished canvas with its large dimensions?",
+        "answer": "Jackson Pollock.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            86,
+            88,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 86 shows Pollock creating drip paintings over a floor canvas (archival footage). Step 2: Slice 88 shows the floor canvas and the title “AUTUMN RHYTHM.” Step 3: Slice 89 displays the painting with measurement lines indicating its large size. Conclusion: The artist is Jackson Pollock.",
+        "logic_check_reasoning": "Step 1: Slice 86 explicitly names Jackson Pollock and shows archival footage of him working over a large canvas on the floor using dripping and splashing—an action painting process. Step 2: Slice 88 shows a man in a white shirt and black pants bending over a floor canvas, with the text 'AUTUMN RHYTHM' on the canvas; the visual attributes and floor-working method align with the depiction in Slice 86, and per instructions, naming mismatches are acceptable. Step 3: Slice 89 presents a finished abstract canvas with large dimensions (8 ft by 17 ft) and states the style is reminiscent of action painting, consistent with the prior slices. Logic holds because Slice 86 identifies the artist as Pollock, Slice 88 names the work Autumn Rhythm, and Slice 89 shows the large finished canvas, collectively linking Pollock to action painting and the sequence described.",
+        "visual_proof": "Clip 1 shows a painting titled 'Jackson Pollock, Number 31 (1950)' followed by black-and-white footage of an artist working over a canvas on the floor. Clip 2 displays the title 'AUTUMN RHYTHM' overlaid on a similar abstract work, and Clip 3 presents the same artwork with dimensions labeled (e.g., 7ft x 12ft, then 8ft x 17ft), confirming it as 'Autumn Rhythm' by Jackson Pollock. The visual sequence explicitly links Pollock to action painting through his technique and named works."
+    },
+    {
+        "question": "How does the video connect Cézanne’s interest in structural solidity to the teaching overlays about geometric composition and then to De Stijl’s strict grid logic?",
+        "answer": "It presents Cézanne’s statement about making art solid and lasting, then overlays triangles/geometric shapes on paintings, and finally shows De Stijl/Mondrian grids built from strict vertical/horizontal structure.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            17,
+            15,
+            16,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 17 gives Cézanne’s quote about making Impressionism solid and lasting. Step 2: Slice 15 overlays “GEOMETRIC SHAPES” on “The Large Bathers,” emphasizing structure. Step 3: Slice 16 further highlights triangular composition with yellow guiding lines. Step 4: Slice 70 introduces De Stijl artists and shows strict grid-based abstractions. Conclusion: The video connects the push for structural solidity → geometric analysis → grid abstraction.",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly shows Cézanne’s works and includes his quote about making Impressionism solid and lasting, grounding the theme of structural solidity. Step 2: Slices 15 and 16 describe yellow overlays and the text 'GEOMETRIC SHAPES,' highlighting triangular compositions and structural analysis on paintings, which matches teaching overlays about geometric composition. Step 3: Slice 70 introduces Mondrian and van Doesburg and shows De Stijl artworks with grids of black lines and primary colors, indicating strict vertical/horizontal grid logic. The sequence and connection described in the proposed answer align with these slices.",
+        "visual_proof": "Clip 1 displays Cézanne's quote: 'I want to make of Impressionism something solid and lasting like the art in museums.' Clip 2 visually demonstrates this by overlaying geometric shapes, specifically triangles, onto his painting 'The Large Bathers' to highlight its structural composition. Clip 4 then transitions to show the De Stijl movement, featuring Piet Mondrian and Theo van Doesburg, followed by images of their artwork characterized by strict vertical and horizontal grids using primary colors and black lines, directly connecting Cézanne's foundational ideas to De Stijl's formal logic."
+    }
+]

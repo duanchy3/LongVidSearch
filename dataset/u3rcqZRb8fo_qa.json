@@ -1,0 +1,72 @@
+[
+    {
+        "question": "What object does the bear use to read about London earlier, and later use to communicate inside a red telephone booth at night?",
+        "answer": "A book titled 'London' and a telephone receiver.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the bear reading a book titled \"London.\" Step 2: Slice 78 shows the bear inside a red telephone booth holding binoculars. Conclusion: The earlier object is the London book, and the later viewing tool is binoculars.",
+        "logic_check_reasoning": "Step 1: Slice 5 states the bear (Paddington) is holding and reading a book titled 'London,' which directly supports the object used to read about London earlier. Step 2: Slice 78 states the same bear is inside a red telephone booth at night, holding a pair of binoculars and looking through them, which directly supports the object used to watch later. Logic holds because both slices describe the same character and clearly identify the specific objects used in each context.",
+        "original_text_answer": "A book titled \"London\" and a pair of binoculars.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In the first clip, the bear is seen with a book that has 'LONDON' on its cover. In the second clip, the bear is inside a red telephone booth at night, holding a telephone receiver to its ear, not binoculars."
+    },
+    {
+        "question": "Which labeled item becomes courtroom evidence later after the bear is associated with honey earlier in the story’s world?",
+        "answer": "A jar labeled \"Marmalade.\"",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 1 establishes the bear character’s world and identity (Paddington), strongly associated with honey in the franchise context of this video montage. Step 2: Slice 18 explicitly shows a man presenting a jar labeled \"Honey\" in court. Conclusion: The courtroom evidence item is the jar labeled \"Honey.\"",
+        "logic_check_reasoning": "Step 1: Evidence Slice 18 describes a courtroom scene where a man in a suit is holding a jar labeled 'Honey' and appears to be presenting it as evidence. Step 2: The question asks which labeled item becomes courtroom evidence later. The jar labeled 'Honey' directly matches this description. Logic holds because the item is explicitly shown and identified as part of the courtroom proceedings.",
+        "original_text_answer": "A jar labeled \"Honey.\"",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 2, a lawyer in court holds up a jar of orange substance with a label that clearly reads \"marmalade\" (0:04). The bear is later shown tasting from this same jar (0:05-0:06), linking it to the bear. This directly contradicts the original answer which claims the label was \"Honey.\""
+    },
+    {
+        "question": "What two different headwear colors does the bear wear in the early lonely night-walk scene versus the later prison sequence?",
+        "answer": "Red hat earlier, striped prison cap later.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the bear cub walking at night wearing a red hat. Step 2: Slice 21 shows the bear in prison wearing a striped uniform and matching cap. Conclusion: The bear’s headwear changes from a red hat to a striped prison cap.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1, Scene 1 explicitly states the bear is wearing a red hat during the early lonely night-walk. Step 2: Evidence Slice 21, Scene 2 states the bear is wearing a striped prison uniform and a matching cap; it is reasonable within the text to infer the cap is striped to match the uniform. Thus, 'striped prison cap later' is supported by the description of a matching cap to a striped uniform.",
+        "visual_proof": "In Clip 1 (0:00-0:02), the bear is shown walking at night wearing a distinct red hat. In Clip 2 (0:07-0:15), the same bear is shown in a prison setting, wearing a blue and white striped cap that matches his prison uniform. The visual evidence from both clips clearly supports the original answer."
+    },
+    {
+        "question": "What item does the bear carry when walking toward a house to take pictures, and what later device does he use for long-distance viewing inside the phone booth?",
+        "answer": "A camera and binoculars.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows the bear wearing a red hat and scarf holding a camera while approaching a house. Step 2: Slice 78 shows the bear using binoculars inside a red telephone booth. Conclusion: The devices are a camera and binoculars.",
+        "logic_check_reasoning": "Step 1: Slice 11 states that a bear wearing a red hat and scarf is holding a camera and walking toward the house, implying he is using it to take pictures. Step 2: Slice 78 shows Paddington Bear inside a red telephone booth using binoculars for long-distance viewing. Logic holds because both slices depict the same bear character at different moments: first carrying a camera toward a house, later using binoculars inside a phone booth.",
+        "visual_proof": "In the first clip, at 0:11, the bear is seen outside a window holding a camera with a flash, clearly preparing to take a picture. In the second clip, from 0:00 to 0:05, the bear is inside a red phone booth looking through a pair of binoculars while holding the phone receiver, indicating he is using them for long-distance viewing."
+    },
+    {
+        "question": "How do the visuals suggest a progression from criminal suspicion to freedom for the bear, using court imagery and later media confirmation?",
+        "answer": "Courtroom depiction of the bear on trial is followed by a newspaper headline declaring him free.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            20,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows courtroom evidence presentation (a honey jar) with the bear present. Step 2: Slice 20 shows the bear as a defendant with lawyers and a sketchbook depiction. Step 3: Slice 88 shows a newspaper headline \"Paddington Free.\" Conclusion: The montage implies trial proceedings resolved in the bear’s release.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows a bear in a courtroom, behind a barrier, with a serious expression and a man presenting a honey jar as evidence, indicating the bear is involved in a legal proceeding. Step 2: Slice 20 strengthens this with explicit courtroom imagery: barristers, the bear in the dock, and trial context, confirming the bear is on trial. Step 3: Slice 88 shows a woman holding a newspaper with the headline 'Paddington Free,' which provides media confirmation of the bear's subsequent freedom. Logic holds because the visuals first depict courtroom suspicion/trial and later a headline declaring freedom, matching the proposed progression.",
+        "visual_proof": "Clip 1 and Clip 2 show the bear in a courtroom setting, behind bars, with legal proceedings underway (e.g., lawyer presenting evidence like a map and marmalade jar). Clip 3 shows two children holding up a newspaper with the headline 'PADDINGTON FREE!', visually confirming his release from legal trouble."
+    }
+]

@@ -1,0 +1,180 @@
+[
+    {
+        "question": "Which animal is shown being petted outside, and later what much larger animals are shown together in a savanna scene?",
+        "answer": "A dog is petted, and elephants are later shown in the savanna.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a light-brown dog being petted outdoors. Step 2: Slice 58 shows a herd of elephants in a grassy savanna. Conclusion: The animal petted is a dog, and the later large animals are elephants.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes a transition to an outdoor area where a dog is sitting and a person's hand pets the dog on its head, clearly indicating a dog being petted outside. Step 2: Slice 58 describes a herd of elephants in a grassy savanna, confirming much larger animals shown together in that scene. Logic holds because the first scene involves a pet dog being petted outdoors, and later scenes show elephants in a savanna.",
+        "visual_proof": "In Clip 1, a light-brown dog is clearly visible lying on a patio and being petted by a person's hand. In Clip 2, a large herd of elephants, including adults and calves, is shown gathered in an open, grassy savanna environment with trees in the background."
+    },
+    {
+        "question": "What same clothing item identifies the relaxed beachside man who talks to camera and later eats an ice cream cone in close-up?",
+        "answer": "A white tank top.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a bearded man with aviator sunglasses wearing a white tank top speaking outdoors at a beach/resort. Step 2: Slice 49 shows the same-looking man in the same setting eating an ice cream cone while wearing a white tank top. Conclusion: The shared identifying clothing item is the white tank top.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a man talking to the camera and explicitly notes he is wearing a white tank top. Step 2: Slice 49 describes a man eating an ice cream cone and explicitly notes he is wearing a white tank top. Logic holds because both slices refer to the same type of man in the same beachside setting, and both explicitly mention the identical clothing item: a white tank top.",
+        "visual_proof": "In both Video 1 and Video 2, the man is consistently wearing a white tank top. This is clearly visible in the close-up shots as he talks to the camera and later while eating the ice cream cone."
+    },
+    {
+        "question": "Before the beach path walk with bright pink flowers, what earlier nature scene shows birds wading in shallow coastal water?",
+        "answer": "Flamingos wading in shallow water.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows an aerial coastal scene with flamingos wading in shallow water. Step 2: Slice 41 later shows a coastal path walk with vivid pink bougainvillea. Conclusion: The earlier nature scene features flamingos.",
+        "logic_check_reasoning": "Step 1: Slice 41 describes the beach path walk with bright pink bougainvillea flowers. Step 2: Slice 11 describes an earlier aerial view of a coastal area where flamingos are wading through shallow water. Logic holds because the question asks what earlier nature scene shows birds wading before the flower path scene, and Slice 11 explicitly shows flamingos wading.",
+        "visual_proof": "In Video 1, at timestamp 0:08-0:09, an aerial shot clearly shows a flock of pink flamingos standing and wading in the shallow, muddy coastal water. This scene occurs before the beach path walk with bright pink flowers shown in Video 2 (0:00-0:09)."
+    },
+    {
+        "question": "What beachside object does the man hold up while talking, and later what different food item does he hold and eat in a close-up shot?",
+        "answer": "He holds a conch shell, and later he holds and eats a taco.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows the man holding a seashell while speaking. Step 2: Slice 49 shows him holding and eating an ice cream cone. Conclusion: The held object changes from a seashell to an ice cream cone.",
+        "logic_check_reasoning": "Step 1: Slice 47 states the man, wearing a white tank top with a beard and sunglasses in a beachside setting, is holding a seashell and gesturing with it while speaking. Step 2: Slice 49 shows (in a close-up) the same-described man holding and eating an ice cream cone. Logic holds because the visual attributes (white tank top, beard, sunglasses, tropical setting) align across slices, supporting that he first holds a seashell while talking and later holds and eats an ice cream cone.",
+        "original_text_answer": "He holds a seashell, and later he holds and eats an ice cream cone.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In the first clip (0:04-0:10), the man is clearly holding a large, light-colored conch shell. In the second clip (0:05-0:08), he is holding a folded tortilla with fillings, which is identifiable as a taco, and proceeds to eat it."
+    },
+    {
+        "question": "What pet is shown being stroked outside, and later what map on the wall appears behind a woman eating indoors?",
+        "answer": "A dog, and a map of Africa.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a dog being petted outdoors. Step 2: Slice 67 shows a woman eating indoors with a large map of Africa on the wall behind her. Conclusion: The pet is a dog and the map is of Africa.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes an outdoor scene with a dog being petted on its head, clearly identifying the pet as a dog. Step 2: Slice 67 mentions a woman eating indoors with a large map of Africa on the wall behind her. Logic holds because both details directly answer the two parts of the question using explicit information from the slices.",
+        "visual_proof": "In the first clip, a light-brown dog is clearly visible lying on a patio and being petted by a hand. In the second clip, a woman is seated at a table eating, and behind her on the wall is a large, decorative world map where the continent of Africa is prominently displayed in gold."
+    },
+    {
+        "question": "What progression of wildlife appears, from coastal birds in shallow water to large mammals on the savanna and then to elephants gathered at a waterhole from above?",
+        "answer": "Flamingos → elephants on the savanna → elephants at a waterhole (aerial view).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            58,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows flamingos wading in shallow coastal water. Step 2: Slice 58 shows a herd of elephants in a grassy savanna. Step 3: Slice 62 shows an aerial view of elephants gathered at a waterhole. Conclusion: The wildlife progression is flamingos, then savanna elephants, then aerial waterhole elephants.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows coastal birds (flamingos) wading in shallow water. Step 2: Slice 58 shows large mammals (a herd of elephants) on a grassy savanna. Step 3: Slice 62 shows elephants gathered at a waterhole from an aerial view. The proposed sequence 'Flamingos → elephants on the savanna → elephants at a waterhole (aerial view)' matches these slices in order.",
+        "visual_proof": "Clip 1 shows flamingos wading in shallow, muddy water. Clip 2 shows a herd of elephants walking across a dry savanna. Clip 3 provides an aerial view of elephants gathered around and in a waterhole. This sequence matches the described progression exactly."
+    },
+    {
+        "question": "What word is shown as a title/theme early on, and later what on-screen text introduces an educational segment for beginner creators?",
+        "answer": "\"ADVENTURE\" and \"TOP 5 TIPS FOR BEGINNER VIDEOGRAPHERS.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the word 'ADVENTURE' appearing with a logo. Step 2: Slice 89 shows a text overlay reading 'TOP 5 TIPS FOR BEGINNER VIDEOGRAPHERS.' Conclusion: The early theme word is ADVENTURE and the later educational title is TOP 5 TIPS FOR BEGINNER VIDEOGRAPHERS.",
+        "logic_check_reasoning": "Step 1: Slice 2 states that the word \"ADVENTURE\" appears on screen early as a theme/title. Step 2: Slice 89 states that later an on-screen text overlay reads \"TOP 5 TIPS FOR BEGINNER VIDEOGRAPHERS,\" introducing an educational segment for beginners. These explicitly support both parts of the proposed answer.",
+        "visual_proof": "In the first clip, at 0:05, the word 'ADVENTURE' appears in yellow text with a mountain and airplane graphic. In the second clip, starting at 0:02, the text 'TOP 5 TIPS FOR BEGINNER VIDEOGRAPHERS' is displayed in yellow at the bottom left of the screen."
+    },
+    {
+        "question": "In the staircase scenes, which large artwork is visible when two men go up the stairs, and later what furniture color stands out in that same living room area?",
+        "answer": "A painting of a woman in a yellow dress, and a yellow couch/sofa.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows two men on the staircase with a large painting depicting a woman in a yellow dress. Step 2: Slice 33 shows the staircase again and reveals a yellow couch at the bottom of the stairs. Conclusion: The artwork is the yellow-dress painting and the standout furniture is the yellow couch.",
+        "logic_check_reasoning": "Step 1: Slice 31 states that when two men go up the staircase, there is a large painting on the wall depicting a woman in a yellow dress. Step 2: Slice 33 describes another staircase scene in the same setting, noting a yellow couch visible at the bottom of the stairs and again mentions the large painting. Logic holds because both slices reference the same staircase environment (large painting, window, wooden steps), confirming the artwork and the furniture color.",
+        "visual_proof": "In both video clips, the staircase scene is identical. A large vertical painting depicting a woman with green skin wearing a flowing yellow garment is prominently displayed on the wall next to the stairs. In the foreground, to the right of the staircase, a large sofa upholstered in bright yellow fabric is clearly visible."
+    },
+    {
+        "question": "Which two distinct travel modes appear—one involving boarding and taking off, and another shown from a first-person view moving through water?",
+        "answer": "An airplane flight and a boat ride.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the man boarding a small airplane and taking off with a window view. Step 2: Slice 2 shows a first-person perspective from a moving boat on calm water. Conclusion: The two travel modes are flying on a plane and riding on a boat.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly shows a man boarding a small airplane, presenting a ticket, and the plane taking off, confirming an airplane flight. Step 2: Slice 2 describes a first-person perspective from a boat moving through water, with the hand on the railing and other boats/buildings visible, confirming a boat ride. Logic holds because these are two distinct travel modes: air travel (boarding/takeoff) and water travel (first-person boat movement).",
+        "visual_proof": "Clip 1 shows the man boarding an airplane, with interior shots of passengers and a view from the window during takeoff. Clip 2 features a first-person perspective from a moving boat, with water and coastal buildings visible, confirming a boat ride."
+    },
+    {
+        "question": "Track the same beachside man’s handheld items across scenes: what does he hold while explaining something, what drink does he later hold while talking, and what dessert does he later eat?",
+        "answer": "A seashell, a clear plastic cup with a light drink, and an ice cream cone.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            47,
+            48,
+            49,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows the man holding a seashell while speaking. Step 2: Slice 48 shows him holding a clear plastic cup with a light-colored beverage while talking. Step 3: Slice 49 shows him eating an ice cream cone. Step 4: Slice 46 situates him lounging under a pergola in the same beach/pool leisure context, supporting that these are sequential relaxed moments with changing items. Conclusion: The items progress from seashell to drink cup to ice cream cone.",
+        "logic_check_reasoning": "Step 1: The same man is consistently described across slices as having a beard, sunglasses, and a white tank top in a tropical/beachside setting, linking the scenes logically. Step 2: Slice 47 explicitly states he holds a seashell and gestures with it while speaking/explaining. Step 3: Slice 48 explicitly states he holds a clear plastic cup with a light-colored beverage while talking. Step 4: Slice 49 explicitly states he is eating an ice cream cone. Logic holds because the visual attributes and setting align across slices, and each item is clearly identified in the respective scenes.",
+        "visual_proof": "In clips 1, 2, and 3, the man is visibly holding and gesturing with a large conch seashell. In clip 4, he is holding a clear plastic cup containing a light-colored beverage while talking. Also in clip 4, he is seen eating from an ice cream cone."
+    },
+    {
+        "question": "Across the video, how does the setting shift from water-based travel, to beach walking, to land safari, and then to wildlife at a waterhole?",
+        "answer": "Boat travel → beach path walk → safari jeep ride → elephants at a waterhole.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            41,
+            24,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows first-person boating through water. Step 2: Slice 41 shows walking along a coastal path near the beach with bougainvillea. Step 3: Slice 24 shows driving through a grassy field in a safari jeep. Step 4: Slice 62 shows an aerial view of elephants gathered at a waterhole. Conclusion: The settings progress from boat travel to beach walking to safari driving to wildlife at a water source.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a first-person perspective from a boat moving through water, clearly supporting water-based travel. Step 2: Slice 41 depicts a woman walking along a sandy coastal path with lush greenery and bougainvillea, supporting a beach path walk. Step 3: Slice 24 shows a man driving a vehicle that appears to be a safari jeep through a grassy field, indicating a land safari ride. Step 4: Slice 62 presents elephants gathered at a waterhole in a natural landscape, supporting wildlife at a waterhole. The proposed sequence (boat travel → beach path walk → safari jeep ride → elephants at a waterhole) matches the settings evidenced in the slices.",
+        "visual_proof": "Clip 1 shows a hand waving from a boat on the water. Clip 2 shows a person walking down a sandy path next to a stone wall with flowers, leading towards a beach. Clip 3 features the same man from Clip 1 riding in an open-top safari jeep. Clip 4 provides an aerial view of a group of elephants gathered at a waterhole in a grassy plain."
+    },
+    {
+        "question": "Which natural elements are highlighted in close-up during the beach approach: first the bright flowers along the path, then a chalkboard menu on the sand, and finally rows of wooden cabanas by the ocean?",
+        "answer": "Pink bougainvillea flowers, a chalkboard menu, and wooden beach cabanas.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            43,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 41 highlights pink bougainvillea along a sandy coastal path. Step 2: Slice 43 shows a hand pointing at a chalkboard menu on the beach. Step 3: Slice 44 shows rows of wooden cabanas along the beach by turquoise water. Conclusion: The sequence emphasizes bougainvillea, then the menu board, then the cabanas.",
+        "logic_check_reasoning": "Step 1: Slice 41 describes vivid pink bougainvillea blossoms along a path, shown in close-up with a hand touching them—this supports 'pink bougainvillea flowers.' Step 2: Slice 43 explicitly shows a chalkboard menu on the beach—this supports 'a chalkboard menu.' Step 3: Slice 44 describes several identical wooden cabanas lining the beach by the ocean—this supports 'wooden beach cabanas.' The sequence and items match the proposed answer.",
+        "visual_proof": "Clip 1 shows a close-up of vibrant pink bougainvillea flowers hanging over a path. Clip 2 features a clear view of a chalkboard menu with handwritten items on the sandy beach. Clip 3 displays rows of rustic wooden cabanas with thatched roofs situated along the shoreline under palm trees."
+    },
+    {
+        "question": "How does the vlogger’s outfit change between the indoor talk where 'ADVENTURE' appears, the boat vlog with a 'SUBSCRIBE' graphic, and the later instructional segment about videography tips?",
+        "answer": "Tie-dye T-shirt indoors, white T-shirt on the boat, then a plaid shirt (with a lanyard) for the videography tips segment.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            3,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the bearded man with glasses indoors wearing a tie-dye T-shirt; 'ADVENTURE' appears. Step 2: Slice 3 shows him on a boat wearing a white T-shirt with a 'SUBSCRIBE' graphic. Step 3: Slice 89 shows him indoors in a plaid shirt with a lanyard during 'TOP 5 TIPS FOR BEGINNER VIDEOGRAPHERS.' Conclusion: His outfit shifts from tie-dye to white tee to plaid shirt (with lanyard).",
+        "logic_check_reasoning": "Step 1: Slice 2 describes an indoor talk where 'ADVENTURE' appears; the man with a beard and glasses is wearing a tie-dye T-shirt. Step 2: Slice 3 shows the boat vlog with a 'SUBSCRIBE' graphic; the same bearded, glasses-wearing man is in a white T-shirt. Step 3: Slice 89 covers the instructional segment about videography tips; the man is wearing a plaid shirt with a lanyard. The clothing details match the proposed answer across the corresponding scenes.",
+        "visual_proof": "Clip 1 shows the vlogger in an orange and yellow tie-dye shirt with 'FAR AWAY' text. Clip 2 shows him on a boat wearing a plain white t-shirt. Clip 3 shows him in a black-and-white plaid shirt with a red lanyard around his neck during the 'TOP 5 TIPS FOR BEGINNER VIDEGRAPHERS' segment."
+    }
+]

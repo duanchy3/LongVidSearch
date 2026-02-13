@@ -1,0 +1,157 @@
+[
+    {
+        "question": "What drink does she prepare with a packet in a green mug, and what later espresso-machine brand is highlighted during her coffee-making segment?",
+        "answer": "She makes coffee using a Copper Cow Coffee packet, and later the Breville espresso machine is highlighted.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a Copper Cow Coffee packet being brewed in a green mug. Step 2: Slice 8 zooms in on an espresso machine labeled 'Breville' during the coffee segment. Conclusion: The packet coffee is Copper Cow, and the highlighted machine brand is Breville.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a green mug where a Copper Cow Coffee packet is placed, hot water is poured, and the contents are stirred, explicitly indicating coffee preparation. Step 2: Slice 8 shows a silver coffee machine with 'Breville' written on it during the woman's coffee-making segment. Logic holds because the first part identifies the drink and packet brand (Copper Cow Coffee) and the second part identifies the machine brand (Breville) highlighted later.",
+        "visual_proof": "In Clip 1, the text 'Copper Cow Coffee' is overlaid on the screen as a person prepares a drink with a packet in a green mug. In Clip 2, at 0:21, a close-up shot clearly shows the brand name 'Breville' on the front of the espresso machine."
+    },
+    {
+        "question": "After she misses the bus and studies vocab while waiting, where does she head to pick up supplies before class?",
+        "answer": "She heads to the university bookstore.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows she missed the bus and practices vocab while waiting. Step 2: Slice 26 states she is heading to the university bookstore to pick up supplies before class. Conclusion: She goes to the university bookstore.",
+        "logic_check_reasoning": "Step 1: Slice 25 shows the woman missed the bus and is practicing GRE vocab while waiting, establishing the immediate context. Step 2: Slice 26 includes the caption 'heading to the university bookstore to pick up supplies before class,' which directly answers where she goes to pick up supplies. Logic holds because the video appears to be a continuous vlog-style sequence, and the actions flow naturally from waiting to heading to the bookstore.",
+        "visual_proof": "The second video clip shows her walking through a large indoor space with tables, chairs, and bookshelves, which is identified by on-screen text as 'heading to the university bookstore to pick up supplies before class'."
+    },
+    {
+        "question": "What detail about her nails links the coffee-bean close-up to the notebook browsing in the bookstore?",
+        "answer": "She has green nail polish in both scenes.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows her holding coffee beans and reveals green nail polish. Step 2: Slice 27 shows a hand with green nail polish flipping through a pink notebook in the bookstore. Conclusion: Green nail polish links the same person across scenes.",
+        "logic_check_reasoning": "Step 1: Slice 9 states the woman has green nail polish while holding a bag of coffee beans. Step 2: Slice 27 describes a close-up of a hand with green nail polish turning pages of a pink notebook in a bookstore. Logic holds because both scenes explicitly mention green nail polish on the person's nails, linking the two moments.",
+        "visual_proof": "In the first clip, the woman's hands are shown handling coffee beans and a grinder; her fingernails are clearly painted a dark green. In the second clip, as she browses books in the bookstore, her hand is visible holding a notebook, and the same green nail polish is present on her nails."
+    },
+    {
+        "question": "What sequence shows her shift from commuting stress to being productive anyway, and then to actively preparing for class supplies on campus?",
+        "answer": "She misses the bus, studies GRE vocab while waiting, and then heads to the university bookstore to pick up supplies before class.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            26,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows she missed the bus. Step 2: Slice 25 also shows her practicing vocab while waiting. Step 3: Slice 26–27 show her going to and browsing in the university bookstore for supplies (including notebooks). Conclusion: Stress leads to productive studying and then campus supply pickup.",
+        "logic_check_reasoning": "Step 1: Slice 25 explicitly shows she \"just missed the bus,\" indicating commuting stress. Step 2: The same slice shows her practicing GRE vocabulary while waiting, demonstrating being productive anyway. Step 3: Slice 26 includes the caption \"heading to the university bookstore to pick up supplies before class\" and shows campus visuals, indicating active preparation for class supplies on campus. The sequence logically connects these events.",
+        "visual_proof": "Clip 1 shows her stating she missed the bus (text overlay: 'linh: i just missed the bus ;-;') and then immediately cutting to her phone screen displaying a GRE vocab app ('practicing vocab words for the gre while waiting.. >_<'). Clip 2 transitions to her on a bus (implying she eventually boarded one) and then walking on campus with text '12:30pm on campus'. Clip 3 shows her inside the university bookstore with text '- heading to the university bookstore to pick up supplies before class ( `_^ )', confirming the sequence of events."
+    },
+    {
+        "question": "What evidence suggests the video begins with a sponsor acknowledgement and later returns to the sponsor by showing the music platform interface?",
+        "answer": "It starts by thanking Epidemic Sound for sponsoring, and later shows the Epidemic Sound interface with genres, tracks, and mood filters.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            20,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a sponsor title card thanking Epidemic Sound. Step 2: Slice 20 shows the Epidemic Sound platform interface. Step 3: Slice 23 includes an overlay referencing a track sourced from Epidemic Sound while walking. Conclusion: The sponsor is introduced, demonstrated, and then referenced in use.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the opening shows the text 'THANK YOU TO Epidemic Sound FOR SPONSORING THIS VIDEO,' which is a clear sponsor acknowledgement at the beginning. Step 2: Evidence Slice 20 details a later segment showing the Epidemic Sound platform interface with genre selections, track lists, and mood filters. Logic holds because these two slices together indicate the video starts by thanking the sponsor and later features the sponsor’s platform interface.",
+        "visual_proof": "Clip 1 opens with a title card that reads 'THANK YOU TO Epidemic Sound FOR SPONSORING THIS VIDEO.' Clip 2 displays the user interface of the 'Epidemic Sound' platform, showing tabs for 'Music' and 'Genres,' along with featured categories like 'Hip Hop' and sorting options such as 'NEWEST' and 'POPULAR,' confirming the return to the sponsor's platform."
+    },
+    {
+        "question": "What multi-step study thread connects buying traditional note-taking supplies to actually using books/highlighters and tracking time during studying?",
+        "answer": "She picks notebooks for pen-and-paper note-taking, then studies with GRE workbooks and highlighters, and later a clock shot emphasizes time passing during the study session.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            27,
+            33,
+            35,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows her selecting a notebook and saying she’s returning to pen-and-paper note-taking. Step 2: Slice 33 shows her studying with a GRE Math workbook. Step 3: Slice 35 shows study materials plus a highlighter and a wall clock, implying sustained studying. Step 4: Slice 38 shows active highlighting and notes while starting the reading section. Conclusion: Supplies purchased enable hands-on studying and time-intensive work.",
+        "logic_check_reasoning": "Step 1: Slice 27 shows a student in a university bookstore, focusing on a pink notebook with the overlay \"I've been going back to traditional note-taking with pen & paper,\" which supports selecting traditional note-taking supplies. Step 2: Slice 33 shows the person studying with a GRE Math Workbook in a library, and Slice 35 shows a GRE Verbal Workbook with a highlighter in use, further supported by Slice 38 showing active highlighting and note-taking—confirming the use of books and highlighters. Step 3: Slice 35 includes a shot of a wall clock (around 10:10), which indicates attention to time during the study environment, aligning with tracking or emphasizing time in the session. The logic holds because each slice sequentially supports buying/choosing supplies, then studying with GRE materials and highlighters, and the presence of a clock during study.",
+        "visual_proof": "Clip 1 shows her heading to the university bookstore to pick up supplies, with text mentioning 'going back to traditional note-taking with pen & paper'. Clip 2 and 3 show her opening and using GRE Math and Verbal Workbooks. Clip 4 shows her highlighting text in a workbook. Clip 3 also includes a shot of a wall clock, visually indicating the passage of time during her study session."
+    },
+    {
+        "question": "What chain links her interest in music licensing to the walking montage where a specific song credit appears?",
+        "answer": "She thanks Epidemic Sound as a sponsor, later shows the Epidemic Sound platform interface, and then credits a specific song from Epidemic Sound while filming a walking segment.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            20,
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 1 is a sponsor thank-you to Epidemic Sound. Step 2: Slice 20 demonstrates the Epidemic Sound interface for finding music. Step 3: Slice 23 overlays a song credit ('Eternal Moonbeams' by baegel) sourced from Epidemic Sound during a walk. Step 4: Slice 24 continues that walk/park montage with the same credited song. Conclusion: Sponsorship and platform demo lead into actual use with credited music in the montage.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the video opens with a sponsor thank-you to Epidemic Sound, establishing a focus on music licensing. Step 2: Slice 20 displays the Epidemic Sound platform UI, reinforcing the theme by demonstrating browsing/filtering music. Step 3: Slices 23 and 24 depict a walking montage while indicating the track 'Eternal Moonbeams' by baegel sourced from Epidemic Sound, linking the earlier sponsor/platform segment to the specific song credit during the walk. The logic holds as it progresses from sponsor mention, to platform showcase, to usage/credit of a specific track.",
+        "visual_proof": "Clip 1 opens with a title card thanking 'Epidemic Sound for sponsoring this video.' Clip 2 displays a screen recording of the 'Epidemic Sound' website interface, specifically navigating to the 'Hip Hop' genre. Clip 3, during a walking montage, has an on-screen text overlay stating 'currently playing \"Eternal Moonbeams\" by baegel from Epidemic Sound,' directly linking the music to the platform."
+    },
+    {
+        "question": "How does the narrative show her building a college routine from the ‘first day of college’ title to on-campus errands and then sustained studying?",
+        "answer": "It introduces her first day of college, then shows her going to the campus bookstore for supplies before class, and later shows extended library study sessions with GRE materials.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            26,
+            27,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 2 presents the title 'first day of college' and ending the gap year. Step 2: Slice 26 shows her on campus heading to the university bookstore to get supplies. Step 3: Slice 27 shows her browsing notebooks and recommitting to traditional note-taking. Step 4: Slice 33 shows sustained studying in the library with GRE materials. Conclusion: The video builds a routine from milestone intro to errands to serious studying.",
+        "logic_check_reasoning": "Step 1: Slice 2 includes a title card 'linh's first day of college', establishing the start of her college routine. Step 2: Slice 26 shows on-campus activity and explicitly mentions 'heading to the university bookstore to pick up supplies before class', indicating errands/preparation. Step 3: Slice 27 depicts being inside the bookstore, browsing notebooks with an overlay about returning to pen & paper, reinforcing the supplies/errands part. Step 4: Slice 33 shows her in a library studying with a 'GRE Math Workbook', demonstrating sustained studying. The sequence from first day to errands to studying is supported.",
+        "visual_proof": "Clip 1 displays the title 'linh's first day of college'. Clip 2 shows a scene on campus at 12:30pm. Clip 3 explicitly states she is 'heading to the university bookstore to pick up supplies before class' while showing her inside the store. Clip 4 shows her in a library setting, wearing headphones, with a 'GRE Math Workbook' visible on the table, indicating sustained studying."
+    },
+    {
+        "question": "What shows the transition from being in a classroom setting to then studying quietly in a library with headphones?",
+        "answer": "She is shown in a classroom with notes and a laptop, then later in a library where she sits down to work wearing headphones.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            30,
+            31,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a classroom desk with handwritten notes, a laptop, and a snack bag. Step 2: Slice 31 indicates time passing ('25 hours later') as she walks a hallway. Step 3: Slice 32 shows her entering a library, sitting, and working with headphones. Conclusion: The setting changes from classroom to library study.",
+        "logic_check_reasoning": "Step 1: Slice 30 shows a classroom scene with a student at a desk with a notebook and a laptop, indicating studying in a classroom. Step 2: Slice 31 shows a time jump ('25 hours later'), implying a transition. Step 3: Slice 32 shows a woman wearing headphones entering a library, sitting down, and working on a laptop, indicating quiet study in a library. The proposed answer correctly summarizes this progression from classroom study to library study with headphones.",
+        "visual_proof": "Clip 1 shows the person in a classroom setting with a laptop open to a statistics chart and handwritten notes. Clip 2 shows an empty classroom, implying the class has ended. Clip 3 transitions to the person walking outside, then entering a library, and finally sitting at a table with her laptop, wearing headphones, and eating from a lunchbox, clearly indicating a shift to studying."
+    },
+    {
+        "question": "How do her meals shift from a homemade noodle dinner at home to a dinner outing with a friend?",
+        "answer": "She eats noodles at home first, then later has dinner with her friend Kiran at a restaurant (Dominican food).",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            46,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows her eating a homemade noodle meal at home. Step 2: Slice 46 describes going out for dinner with Kiran and mentions Dominican food. Step 3: Slice 47 shows plates of food labeled 'dinner with kiran.' Conclusion: Meals shift from solo home dinner to a social restaurant meal.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a woman eating noodles at a dining table in a cozy kitchen setting, indicating a home meal. Step 2: Slice 46 explicitly describes a later scene as \"7:00pm dinner with kiran\" at a restaurant serving Dominican food. Step 3: Slice 47 visually confirms the dinner with Kiran at 7:00 PM with restaurant-style dishes. Logic holds because the video transitions from an at-home noodle meal to an out-of-home dinner with a friend at a Dominican restaurant.",
+        "visual_proof": "Clip 1 shows the woman eating noodles at home with the subtitle 'dinner is served! :D'. Clip 2 and Clip 3 show her later in the day, with text indicating '7:00pm dinner with kiran' and visuals of Dominican food being served in a restaurant setting, confirming the shift from a homemade meal to an outing."
+    },
+    {
+        "question": "Across her week, what pattern shows her balancing academics with outdoor ‘walk’ scenes?",
+        "answer": "She alternates between studying (classroom/library/homework) and going on reflective campus walks or outdoor scenes.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            30,
+            33,
+            59,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows classroom studying with notes and a laptop. Step 2: Slice 33 shows focused library studying with GRE materials. Step 3: Slice 59 shows stats homework and then a campus clock tower outdoors. Step 4: Slice 60 explicitly reflects on enjoying commutes and campus walks. Conclusion: The week repeatedly interleaves academic work and restorative outdoor walking.",
+        "logic_check_reasoning": "Step 1: Slice 30 shows an outdoor campus view through an archway, then transitions to a classroom scene with a student studying, indicating a shift between outdoor and academic settings. Step 2: Slice 33 focuses on academic activity (library/studying with a GRE Math Workbook), reinforcing the study component. Step 3: Slice 59 explicitly juxtaposes studying (stats homework on a laptop) with a transition to a peaceful outdoor clock tower scene, and the caption hints at balancing work and leisure. Step 4: Slice 60 centers on reflective campus walks tied to commuting to class, emphasizing outdoor scenes connected to academic life. Logic holds because multiple slices depict a pattern of moving between studying and outdoor walk scenes, supporting the alternation described.",
+        "visual_proof": "The clips visually alternate between indoor academic settings (e.g., walking into a classroom, working on statistics homework on a laptop, studying in a library with GRE books) and outdoor scenes (e.g., walking through campus archways, strolling along tree-lined paths, observing flowers and ponds). The subtitles reinforce this pattern by mentioning 'taking the long way to class,' 'studying will be much pain,' and enjoying walks as part of commuting. This consistent visual and textual contrast supports the answer."
+    }
+]

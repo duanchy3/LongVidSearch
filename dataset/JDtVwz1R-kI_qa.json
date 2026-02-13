@@ -1,0 +1,117 @@
+[
+    {
+        "question": "Which iconic Singapore building is shown in daylight from above near the start, and later reappears illuminated at night behind a man standing by the water holding up his phone?",
+        "answer": "Marina Bay Sands.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows an aerial daytime view featuring Marina Bay Sands (three towers with a SkyPark). Step 2: Slice 24 shows the same distinctive three-tower structure lit up at night behind a man by the water. Conclusion: The building is Marina Bay Sands.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly identifies Marina Bay Sands, describing three towers connected by a SkyPark, shown in an aerial daylight view of Marina Bay. Step 2: Slice 24 describes a nighttime scene with a prominent structure of three towers connected by a horizontal element behind a man by the water, matching the distinctive features of Marina Bay Sands. Logic holds because the same uniquely described building appears in both slices—daytime aerial view and nighttime illuminated view.",
+        "visual_proof": "Clip 1 shows an aerial view of Singapore's skyline during the day, prominently featuring the Marina Bay Sands hotel with its three towers and rooftop SkyPark. Clip 2 shows the same building at night, fully illuminated, in the background behind a man who is holding up his phone. The unique architecture of the building is clearly identifiable in both clips."
+    },
+    {
+        "question": "What item does he show off as a symbol of travel readiness in the airport terminal, and later what specific currency amount does he proudly display while riding an escalator?",
+        "answer": "He shows his travel neck pillow/backpack setup in the terminal, and later displays 100 Singapore dollars.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            6,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows him traveling in an airport with neck pillow and backpack. Step 2: Slice 6 shows him on an escalator holding up currency notes totaling 6100 HKD. Step 3: Slice 9 again shows him out exploring with the travel pillow/backpack. Conclusion: Travel gear appears first; the specific displayed money is 6100 HKD.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes the man in an airport terminal wearing a blue neck pillow and a backpack, which are clear indicators of travel readiness and are visible as he records himself. Step 2: Slice 6 states he rides an escalator and prominently displays 6100 Hong Kong dollars to the camera. Logic holds because the first part references the visible travel neck pillow/backpack in the airport, and the second part exactly matches the specified currency amount shown on the escalator.",
+        "original_text_answer": "He shows his travel neck pillow/backpack setup in the terminal, and later displays 6100 Hong Kong dollars.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the man is clearly wearing a blue travel neck pillow and a backpack. In Clip 2, while on the escalator, he holds up banknotes. The visible denomination on the notes is '100', and the design and color scheme (red/pink) are characteristic of the Singapore $100 bill, not Hong Kong dollars."
+    },
+    {
+        "question": "In the café storyline, after the exterior sign of 'Selfie Coffee' is shown, what two follow-up moments happen inside: first at the counter and then with the man at a table?",
+        "answer": "A register/counter transaction with a menu in the background, then the man sits at a table sipping and reacting positively to his drink.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            29,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows the 'Selfie Coffee' exterior after a ticket/payment-machine moment. Step 2: Slice 29 shows inside the café with a chalkboard menu and a worker using the cash register. Step 3: Slice 33 shows the man seated at a table drinking from a cup and looking satisfied. Conclusion: Exterior leads to counter service, then enjoying the drink at a table.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows the exterior with the 'Selfie Coffee' sign, establishing the café setting. Step 2: Slice 29 moves inside to the counter where a café worker operates a cash register with a chalkboard menu in the background, indicating a transaction scene. Step 3: Slice 33 then shows a man at a table drinking from a cup and making a satisfied expression, indicating he enjoys the drink. Logic holds because these are sequential inside moments following the exterior sign: counter transaction with menu, then man at table sipping and reacting positively.",
+        "visual_proof": "Clip 1 shows the 'Selfie Coffee' exterior. Clip 2 shows a woman behind a counter with a POS system and a large chalkboard menu directly behind her, indicating a transaction. Clip 3 shows a man sitting at a table, sipping from a cup with a photo on it, and smiling while gesturing approvingly, which constitutes a positive reaction."
+    },
+    {
+        "question": "Across the food-court sequence, which drink stall name is shown when the man holds up a drink, and what reaction does he give later after tasting his meal at the table?",
+        "answer": "The stall is 'Juice Farm,' and he nods in approval and gives a thumbs-up after tasting the food.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            16,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 14 establishes the hawker/food court context with menus and ordering. Step 2: Slice 16 shows him holding a drink in front of a stall called 'Juice Farm.' Step 3: Slice 17 shows him eating, nodding approval, and giving a thumbs-up. Conclusion: Drink from Juice Farm; later reaction is approval with a thumbs-up.",
+        "logic_check_reasoning": "Step 1: Slice 14 introduces a man in a light blue t-shirt in a bustling food court, setting up the subject. Step 2: Slice 16 states the man in a light blue shirt holds up a drink in front of a stall called 'Juice Farm,' identifying the drink stall. Step 3: Slice 17 shows (likely the same) man in a light blue shirt tasting his meal, nodding in approval, and giving a thumbs-up. Logic holds because the clothing, setting, and sequence align across slices, supporting both the stall name and the reaction.",
+        "visual_proof": "In Clip 2, the 'JUICE FARM' stall sign is clearly visible. In Clip 3, after tasting his meal, the man is seen nodding his head and giving a clear thumbs-up gesture to the camera, indicating approval."
+    },
+    {
+        "question": "What is the sequence of environments the viewer sees as the story moves from validating a transit ticket to riding the subway and then to a culturally themed street with lanterns?",
+        "answer": "Ticket machine → subway carriage → Chinatown street/market with lanterns.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            9,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a ticket inserted into a machine and the subway interior. Step 2: Slice 9 shows a bustling area with red lanterns and storefronts. Step 3: Slice 12 continues first-person walking through a market street with red lanterns. Conclusion: The narrative flow is transit validation to subway to Chinatown-style lantern market streets.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly shows a hand inserting a ticket into a machine (ticket validation) and then transitions to the interior of a subway train (subway carriage). Step 2: Slice 7 further transitions to a busy street scene in Chinatown, Singapore. Step 3: Slices 9 and 12 describe the culturally themed street/market with red lanterns in Singapore, consistent with Chinatown. Therefore, the sequence—ticket machine → subway carriage → Chinatown street/market with lanterns—is directly supported.",
+        "visual_proof": "Clip 1 begins with a hand inserting a card into a ticket machine, followed by a shot of the inside of a subway carriage. Clip 2 and Clip 3 show the man walking through a street decorated with red lanterns and traditional architecture, identified as Chinatown in Clip 2 by the overhead station sign. This sequence visually confirms the transition from ticket validation to subway ride to the culturally themed street."
+    },
+    {
+        "question": "Across the travel day, where does the man first show himself as a traveler with airport gear, then later validate transit access, and finally end up visiting an iconic waterfront landmark?",
+        "answer": "He starts in an airport terminal with a neck pillow and backpack, then uses a ticket machine for transit, and later visits the Merlion at the waterfront.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            5,
+            7,
+            9,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows him traveling in an airport with neck pillow and backpack. Step 2: Slice 7 shows a ticket being inserted into a machine and subway context, indicating transit use. Step 3: Slice 9 shows him exploring busy streets/markets as part of the journey. Step 4: Slice 20 shows him at the Merlion landmark. Conclusion: Airport travel → transit validation → city exploration → Merlion visit.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows a man in an airport terminal wearing a blue neck pillow and a backpack, clearly presenting himself as a traveler with airport gear. Step 2: Slice 7 depicts a hand inserting a ticket into a machine associated with public transit and then shows the interior of a subway train, which supports the idea of validating transit access. Step 3: Slice 20 shows the man at the Merlion in Singapore, an iconic waterfront landmark. Logic holds because the sequence matches the proposed progression: airport gear → transit ticket validation → visiting the Merlion.",
+        "visual_proof": "Clip 1 shows the man in an airport terminal wearing a neck pillow and backpack. Clip 2 shows him inserting a card into a transit ticket machine and later exiting at the Chinatown MRT station. Clip 4 clearly shows him standing in front of the Merlion statue at the waterfront."
+    },
+    {
+        "question": "Which named attraction sign appears when a man and woman are together holding drinks in daytime, and where are they later shown walking with colorful lights at twilight/night?",
+        "answer": "The sign is 'OCBC Skyway,' and later they are on the OCBC Skyway/Supertree Grove walkway at Gardens by the Bay during the illuminated evening.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            53,
+            55,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 53 shows the pair outside with drinks in front of an 'OCBC Skyway' sign. Step 2: Slice 55 shows them walking along the elevated walkway with colorful lights (Skyway experience). Step 3: Slice 56 shows the Supertree Grove and the Skyway at twilight with light displays. Conclusion: They go from the OCBC Skyway entrance area to the lit Skyway among Supertrees.",
+        "logic_check_reasoning": "Step 1: Slice 53 states a man and woman are together in daytime, each holding a drink with a straw, in front of a sign that reads 'OCBC Skyway.' This directly answers the first part. Step 2: Slice 55 specifies they are later on the Supertree Grove's OCBC Skyway at Gardens by the Bay during a colorful, illuminated evening, walking along the elevated walkway. Step 3: Slice 56 reinforces the twilight/night setting with a light show on the Supertrees at Gardens by the Bay. The logic holds because the named sign is explicitly 'OCBC Skyway,' and the later walking location with colorful lights is the OCBC Skyway/Supertree Grove walkway at Gardens by the Bay, as described.",
+        "visual_proof": "In Clip 1, the man and woman are standing in front of a building with a clearly visible vertical sign that reads 'OCBC SKYWAY' and 'TICKETING BOOTH'. In Clips 2 and 3, the same couple is seen walking on an elevated walkway surrounded by the iconic Supertrees of Gardens by the Bay, which are brightly illuminated with colorful lights against the twilight sky, confirming their location on the OCBC Skyway."
+    },
+    {
+        "question": "During the evening Gardens by the Bay sequence, what evidence shows they are at the Skyway specifically, and what later visual confirms the experience transitions into a full Supertree light show?",
+        "answer": "They are shown by the 'OCBC Skyway' sign and walking on the elevated walkway, and later the Supertrees are shown covered in animated colorful lighting patterns at night.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            53,
+            55,
+            56,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 53 explicitly shows the 'OCBC Skyway' sign. Step 2: Slice 55 shows the pair walking along the elevated walkway at twilight with lit Supertrees nearby. Step 3: Slice 56 shows the broader Supertree Grove and the light show beginning. Step 4: Slice 57 shows Supertrees glowing intensely at night (red lighting). Conclusion: Sign + walkway indicate Skyway; later visuals confirm full Supertree light show.",
+        "logic_check_reasoning": "Step 1: Slice 55 explicitly states the scene is at Gardens by the Bay on the Supertree Grove's OCBC Skyway and describes the man walking along the elevated walkway, confirming the Skyway location. Step 2: Slice 53 shows a sign reading 'OCBC Skyway,' further corroborating the specific location. Step 3: Slice 56 describes a full Supertree light show with dynamic patterns of green, blue, and orange lights projected onto the Supertrees, confirming the transition into the light show. Step 4: Slice 57 also shows illuminated Supertrees at night, reinforcing the light show atmosphere. Therefore, the proposed answer matches the provided evidence.",
+        "visual_proof": "In Clip 1, the 'OCBC SKYWAY' and 'TICKETING BOOTH' signs are clearly visible next to the couple. In Clips 2 and 3, they are seen walking on a high, narrow bridge with yellow railings, surrounded by the Supertrees, confirming they are on the Skyway. In Clips 3 and 4, the Supertrees are illuminated with dynamic, changing colored lights (green, red, blue) against the dark night sky, which is characteristic of the full light show."
+    }
+]

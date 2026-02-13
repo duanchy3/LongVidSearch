@@ -1,0 +1,44 @@
+[
+    {
+        "question": "A casino poker table labeled with the cruise brand appears during a glamorous card game, and later a bedspread with the same cruise brand logo appears in a room. What shared branding suggests both scenes happen within the same cruise environment?",
+        "answer": "The 'MSC' branding/logo.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a bed with a blue blanket bearing the MSC logo. Step 2: Slice 56 shows a poker table labeled 'MSC Casino.' Conclusion: The shared MSC branding links both scenes to the same cruise/hospitality environment.",
+        "logic_check_reasoning": "Step 1: Slice 56 states the poker table is labeled \"MSC Casino,\" explicitly showing MSC branding. Step 2: Slice 39 states the bed has a blue blanket with the MSC logo, explicitly showing the same MSC branding. Logic holds because both scenes display the MSC logo, indicating shared branding and suggesting they occur within the same cruise environment.",
+        "visual_proof": "In Video 2, the poker table is clearly branded with 'MSC CASINO'. In Video 1, the bedspread in the hotel room features a prominent 'MSC' logo. The identical 'MSC' branding across both the casino and the bedroom strongly suggests they are part of the same cruise ship environment."
+    },
+    {
+        "question": "A yellow-dressed woman is shown in a bar setting, later she consults notes in a notebook and walks a corridor, and then she leads a nighttime discussion leaning over a table with wine glasses. What does this sequence suggest she is doing over time?",
+        "answer": "She is gathering information/organizing notes and then leading or presenting a plan to a group at night.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            53,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 33 places the yellow-dressed woman in a social bar conversation context. Step 2: Slice 53 shows a notebook with handwritten notes and the same woman walking while focused on something in her hand, implying preparation. Step 3: Slice 76 shows her leaning over a table at night as if explaining/demonstrating something to others. Conclusion: The sequence implies preparation (notes) leading to a group briefing/presentation.",
+        "logic_check_reasoning": "Step 1: Slice 33 shows a woman in a yellow dress in a bar/lounge setting engaged in conversation, indicating an earlier social or meeting context. Step 2: Slice 53 shows a close-up of a notebook with handwritten notes and a woman in a yellow dress focused and looking at something in her hand as she walks through a bright, modern space; this suggests she is consulting or organizing notes. Step 3: Slice 76 shows a nighttime rooftop scene where a woman in a yellow top leans over a table with wine glasses, explaining or demonstrating something to a group, indicating she is leading a discussion or presenting an idea. Logic holds because the sequence progresses from initial setting, to preparation/notes, to leading a discussion, aligning with the idea of gathering/organizing information and then presenting a plan at night.",
+        "visual_proof": "In Clip 1, the woman in yellow is seen in a bar setting. In Clip 2, she is shown consulting handwritten notes and sketches in a notebook on a cruise ship deck before walking down a corridor. In Clip 3, she is at night, leaning over a table with wine glasses, surrounded by a group of people who are attentively looking at her and the items on the table, suggesting she is presenting or leading a discussion. This sequence visually supports the narrative of her gathering information and then presenting it."
+    },
+    {
+        "question": "A woman in a white coat arrives at a table where a striped-shirt man is seated with a polka-dot-dress woman; later a striped-shirt man is involved in a formal nighttime table discussion; later he bends down to pick something up during a tense, staff-heavy scene; and later he appears again among terrace-goers in daylight. How is the striped-shirt man’s role framed across these shifting contexts?",
+        "answer": "He shifts from being a social/relationship node at a table to a participant in tense group discussions and suspicious retrieval actions, while still appearing embedded in the broader cruise social environment.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            72,
+            78,
+            83,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 72 shows the striped-shirt man at a table when a white-coated woman arrives, creating social tension. Step 2: Slice 78 shows a striped-shirt man gesturing during a serious nighttime group talk. Step 3: Slice 83 shows a striped-shirt man bending to pick something up during a tense, staff-observed moment. Step 4: Slice 67 shows a striped-shirt man seated at a relaxed daytime deck table. Conclusion: He is portrayed as both social participant and involved figure in escalating, possibly investigative tension.",
+        "logic_check_reasoning": "Step 1: Slice 72 shows a striped-shirt man at a table with a woman in a polka-dotted dress; a woman in a white coat arrives, creating a slightly tense/awkward social dynamic, supporting the 'social/relationship node' framing. Step 2: Slice 78 depicts a formal, dimly lit group discussion where the striped-shirt man is gesturing and others listen, indicating his participation in a serious conversation. Step 3: Slice 83 presents a tense, staff/security-heavy scene where the striped-shirt man deliberately bends to pick up something, suggesting a significant retrieval action during tension. Step 4: Slice 67 returns to a bright, likely cruise-ship terrace setting where the striped-shirt man is seated quietly among leisure-goers, showing his presence in the broader social environment. The clothing and actions align across slices, and the settings match the described shifts.",
+        "visual_proof": "Clip 1 shows him seated with a woman at a table, establishing a social context. Clip 2 shows him standing and gesturing during a tense discussion around a table with multiple people, including staff. Clip 3 shows him bending down to retrieve something from the floor in a scene filled with staff and onlookers, indicating a moment of action or investigation. Clip 4 shows him seated again at a table on a sunlit terrace with other guests, confirming his continued presence within the cruise's social fabric across different times of day and moods."
+    }
+]

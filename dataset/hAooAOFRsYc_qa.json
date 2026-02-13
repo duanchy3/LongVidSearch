@@ -1,0 +1,56 @@
+[
+    {
+        "question": "Which attention mechanism is introduced in the explanatory equations and later shown to scale quadratically in the comparison graphs?",
+        "answer": "Softmax attention.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 20 discusses the softmax attention equation and related terminology. Step 2: Slice 43 compares attention mechanisms and notes softmax scales quadratically. Conclusion: Softmax attention is the mechanism with quadratic scaling in the graphs.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 20 explicitly introduces and annotates the equation V' = softmax((QK^T)/sqrt(D))V, describing softmax attention. Step 2: Evidence Slice 43 shows comparison graphs where the blue line labeled 'Softmax Attention' exhibits quadratic scaling in both memory and time with sequence length. Logic holds because the mechanism introduced in Slice 20 (softmax attention) is the same one shown to scale quadratically in Slice 43.",
+        "visual_proof": "Clip 1 visually highlights the term 'softmax' in Equation 2 and its description as a specific form of self-attention. Clip 2, in Figure 1, explicitly states in its caption that 'softmax... scales with the square of the sequence length both in memory and time,' which is the definition of quadratic scaling. The red dashed line labeled 'softmax' in both graphs also visually demonstrates this steeper, non-linear growth compared to the linear models."
+    },
+    {
+        "question": "Which item is highlighted in the legend of the computational requirement plots and then later appears again as a competing method in the results tables?",
+        "answer": "Reformer (LSH-based variant).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows a legend with “Reformer (lsh-X)” highlighted. Step 2: Slice 47 shows tables comparing Softmax, LSH variants, and Linear methods. Conclusion: The highlighted method corresponds to a Reformer/LSH competitor referenced again in results.",
+        "logic_check_reasoning": "Step 1: Slice 43 states the legend includes 'Reformer (lsh-X)' and explicitly notes it's highlighted. Step 2: Slice 43 also mentions a PyTorch reimplementation of the Reformer model, reinforcing the context. Step 3: Slice 47 shows results tables listing methods 'LSH-1' and 'LSH-4' among others. Step 4: The naming 'lsh-X' in Slice 43 logically corresponds to the LSH-1/LSH-4 entries in Slice 47 as LSH-based variants, aligning with the highlighted Reformer (lsh-X). Therefore, the item highlighted is the Reformer LSH-based variant, which appears again in the tables as LSH-1/LSH-4.",
+        "visual_proof": "In Video 1, the legend for both plots explicitly lists 'lsh-1', 'lsh-4', and 'lsh-8' as variants of the Reformer model. In Video 2, these same methods ('LSH-1', 'LSH-4') appear in the results tables (Table 1 and Table 2) alongside 'Softmax' and 'Linear (ours)' as competing methods for image generation."
+    },
+    {
+        "question": "After the paper’s title is shown at the beginning, what key section name appears later when the document shifts into kernel-feature-map style mathematics?",
+        "answer": "“Linearized Attention.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the paper title and early sections. Step 2: Slice 23 explicitly shows the section heading “3.2. Linearized Attention.” Conclusion: The later key section name is Linearized Attention.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 confirms the paper’s title is shown at the beginning. Step 2: Evidence Slice 23 shows a later section titled \"3.2. Linearized Attention\" when the document discusses equations related to attention, aligning with the kernel-feature-map style mentioned in Slice 1. Therefore, the key section name appearing later is explicitly \"Linearized Attention.\"",
+        "visual_proof": "The first clip shows the paper's title and abstract. The second clip, which follows later in the document, clearly displays the section heading '3.2. Linearized Attention' directly below the generalized attention equation (Equation 3). This confirms that 'Linearized Attention' is the key section name that appears after the initial title when the paper delves into the mathematical formulation involving kernel feature maps."
+    },
+    {
+        "question": "Which part of the attention mechanism is circled on the mathematical slide and then repeatedly referenced again in later close-ups of equations about attention?",
+        "answer": "The term QK^T (the product of queries and keys) is circled on the mathematical slide and repeatedly referenced in later close-ups.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 17 describes circling Q, K, and V on the slide equations. Step 2: Slice 18 shows equations involving Q, K, V with red annotations and circles. Conclusion: The repeatedly referenced components are Q, K, and V.",
+        "logic_check_reasoning": "Step 1: Slice 17 states that the presenter circles Q, K, and V in the equation defining queries, keys, and values for attention. Step 2: Slice 18 describes later close-ups of equations involving Q, K, and V with circles and arrows highlighting parts of the equations, indicating continued reference. Logic holds because the circled elements (Q, K, V) are shown initially and then appear again in later annotated close-ups.",
+        "original_text_answer": "Q, K, and V (queries, keys, values).",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In clip 1, at 0:19, the term 'QK^T' inside the softmax function is highlighted in yellow. At 0:23, this same term 'QK^T' is circled in red. In clip 2, which is a close-up of the same equation, the circled 'QK^T' remains the central focus from 0:00 to 0:08, with additional annotations drawn around it. While Q, K, and V are defined in the equations, they are not the specific part that is consistently circled and referenced; the focus is on their product, QK^T."
+    }
+]

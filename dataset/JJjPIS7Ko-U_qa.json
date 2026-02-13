@@ -1,0 +1,126 @@
+[
+    {
+        "question": "In the rehearsal-room conversation where the floral-top woman holds a water bottle, what posture does the blonde woman adopt compared with earlier moments when she is gesturing while speaking in the auditorium interview?",
+        "answer": "In the rehearsal room she stands with her arms crossed, while in the auditorium interview she gestures with her hands as she speaks.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the floral-top woman holding a water bottle and the blonde woman standing with arms crossed. Step 2: Slice 24 shows the blonde woman speaking and gesturing with her hands in the interview setting. Conclusion: Her posture changes from arms-crossed listening to animated hand gestures while speaking.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a rehearsal/studio-like room where the woman in a beige blazer has her arms crossed while conversing with a woman in a floral top holding a water bottle. Step 2: Slice 24 describes a blonde woman in a beige blazer in an auditorium-like interview setting, gesturing with her hands while speaking. Logic holds because the beige blazer and setting cues link the same woman across slices, supporting the contrast in posture/gestures.",
+        "visual_proof": "In Clip 1 (rehearsal room), the blonde woman is standing and has her arms crossed over her chest. In Clip 2 (auditorium interview), she is seated and actively gesturing with her right hand while speaking."
+    },
+    {
+        "question": "Which woman is the main speaker during the seated stage interview, and how is this consistent with who was speaking animatedly earlier while standing in the studio room?",
+        "answer": "The dark-haired woman in the black floral outfit is the main speaker in both situations.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the dark-haired woman in a black floral-patterned top speaking animatedly while standing with the blonde woman. Step 2: Slice 20 shows the dark-haired woman on the right gesturing while speaking during the seated stage interview. Conclusion: She remains the primary speaker across both segments.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows a seated stage interview with two women; the dark-haired woman with a black floral dress is gesturing and speaking while the blonde woman in a white shirt listens, indicating the dark-haired woman is the main speaker. Step 2: Slice 4 shows an earlier standing scene in a studio room where the dark-haired woman in a black floral shirt is speaking animatedly and gesturing to the blonde woman in a white shirt. Logic holds because the same visual attributes (dark hair tied back, black floral outfit; blonde hair, white shirt) appear in both slices, and in both cases the dark-haired woman is the one speaking.",
+        "visual_proof": "In Clip 1, during the seated interview on stage, the dark-haired woman in the black floral shirt is actively speaking and gesturing with her hands, while the blonde woman listens. In Clip 2, the same dark-haired woman is shown standing and speaking animatedly, using expressive hand gestures, while the blonde woman stands opposite her listening. The consistent visual evidence of her being the one talking and gesturing in both settings confirms she is the main speaker."
+    },
+    {
+        "question": "Across the video, the same dark-haired woman appears in different outfits; how can you tell it is the same person when she is shown on stage in heels and later in close-up with a light blue collar?",
+        "answer": "She consistently has dark hair pulled back (bun/ponytail) and wears a black floral-patterned top/dress; later the same floral look is paired with a light blue collared layer.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            34,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows the interviewee in a dark floral dress with high heels on the auditorium stage. Step 2: Slice 34 shows a close-up of the same floral-patterned outfit with a light blue collar. Step 3: Slice 52 shows her again in a floral-patterned top layered over a light blue collared shirt while seated in interview format. Conclusion: Consistent hair styling and floral wardrobe details link the same person across scenes.",
+        "logic_check_reasoning": "Step 1: Slice 25 describes the interviewee on the right wearing a dark floral dress and black high heels in an auditorium setting. Step 2: Slice 34 shows a close-up of a woman in a black floral blouse with a light blue collar and hair pulled back in a ponytail. Step 3: Slice 52 again identifies the interviewee on the right with dark hair tied back (bun) and a black floral shirt layered over a light blue collared shirt. Logic holds because the consistent black/dark floral outfit across scenes links the same person, and the hair being pulled back is consistent in the later slices; the light blue collar pairing further matches between Slices 34 and 52. This supports the proposed identification method.",
+        "visual_proof": "In all three clips, the dark-haired woman has her hair styled in a neat bun. In Clip 1, she is on stage wearing a black floral dress with black heels. In Clips 2 and 3, close-ups confirm she is wearing the same black floral top, now clearly showing a distinct light blue collar layered underneath. The consistent hairstyle and identical floral pattern across different shots and camera angles confirm it is the same person."
+    },
+    {
+        "question": "What sequence of actions shows the transition from a dance practice atmosphere to a formal seated interview format?",
+        "answer": "First the dancer-like woman moves energetically in a studio practice moment, then the two women have focused standing discussion, and later they sit on stage chairs for a formal interview.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            16,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 7 depicts an energetic dance practice/lesson interaction in the studio. Step 2: Slice 16 shows a serious standing discussion in the rehearsal space. Step 3: Slice 19 shows them seated in a formal auditorium interview setup. Conclusion: The video progresses from practice to discussion to formal interview.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows an energetic dance practice in a studio, with a dancer and an instructor/partner interacting, clearly establishing a practice atmosphere. Step 2: Slice 16 depicts the same two women (matching visual attributes: floral black top and light blazer) in a focused, standing discussion in the same type of space, indicating a transition toward a more serious, dialog-driven interaction. Step 3: Slice 19 shows the two women seated on chairs in a formal interview setting, with focused lighting and a dark background, completing the transition to a seated interview format. The sequence described in the proposed answer aligns with these slices: practice, then standing discussion, then seated interview.",
+        "visual_proof": "Clip 1 shows the woman in the floral shirt moving dynamically with expressive gestures, consistent with a dance or rehearsal setting. Clip 2 shows both women standing, facing each other with serious expressions and engaged postures, indicating a focused conversation. Clip 3 clearly depicts them seated opposite each other on simple chairs on a stage, with an empty auditorium in the background, which is characteristic of a formal interview setup."
+    },
+    {
+        "question": "How does the blonde woman's role shift from early studio conversation to later interview segments, based on who is gesturing and leading the talk?",
+        "answer": "Early on she gestures while speaking in the studio, but later she often takes the interviewer role on stage by prompting conversation with hand gestures while the floral-dressed woman answers.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            24,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the blonde woman gesturing as she speaks during a studio conversation. Step 2: Slice 24 shows her again speaking with gestures in the interview environment. Step 3: Slice 31 frames her as the interviewer on stage, gesturing while leading discussion. Conclusion: Her participation evolves into a clear interviewer/lead role in later segments.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows the blonde woman in a beige blazer in a studio-like setting, actively gesturing while speaking, indicating she is the one talking in the early conversation. Step 2: Slice 31 shows a staged interview with the same blonde woman (same clothing and hair) designated as the Interviewer on the left; she gestures while speaking, and the woman in a floral dress on the right is the Interviewee who listens and nods, indicating the blonde woman is leading the talk and prompting responses. Step 3: Slice 24 further supports a later formal interview context (BBC-branded) where the same blonde woman is speaking and gesturing in a professional venue, consistent with her leading role. Logic holds because the consistent visual attributes (blonde hair, beige blazer, white top) link the same person across slices, and the later stage setup explicitly assigns her the interviewer role with the floral-dressed woman as the interviewee.",
+        "visual_proof": "In Clip 1 (studio), the blonde woman is seen actively gesturing with her hands while talking to the other woman. In Clip 2 and Clip 3 (interview setting), she continues to use expressive hand gestures while speaking, while the woman in the floral shirt listens attentively, indicating a shift to an interviewer role where she leads the conversation."
+    },
+    {
+        "question": "What recurring filming/broadcast indicator appears both during early studio discussions and throughout the later stage interview shots, signaling it is part of the same production?",
+        "answer": "The BBC logo appears in both the early studio discussions and the later stage interview shots.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 7 includes the BBC logo during the studio/dance practice segment. Step 2: Slice 31 includes the BBC logo during the auditorium stage interview. Conclusion: The BBC branding connects the segments as one production.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 explicitly states that the BBC logo appears in the top left corner during the dance studio scene, indicating it is part of a BBC production. Step 2: Evidence Slice 31 explicitly notes the BBC logo in the top left corner during the stage interview scene. Logic holds because both slices independently confirm the presence of the same BBC logo across different parts of the video, indicating a recurring broadcast indicator tying them to the same production.",
+        "visual_proof": "In every frame of both Video 1 (studio discussion) and Video 2 (stage interview), the 'BBC' logo is clearly visible in the top-left corner of the screen. This consistent branding element confirms that both segments are part of the same production."
+    },
+    {
+        "question": "When the blonde woman references dance-related materials, which device shows a red handprint image, and how does this differ from the later moment when she holds up a TIME magazine?",
+        "answer": "A tablet shows a red handprint image; later she holds a TIME magazine with a dancer on the cover.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            75,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 75 shows the blonde woman using a laptop that displays a red handprint image. Step 2: Slice 84 shows her holding up a TIME magazine featuring a dancer. Conclusion: The referenced visual medium changes from laptop display to printed magazine.",
+        "logic_check_reasoning": "Step 1: Slice 75 states the woman on the right, wearing a light-colored blazer, is using a laptop that displays a red handprint image. Step 2: Slice 84 shows the same right-side woman (light beige blazer) holding up a TIME magazine with a dancer on the cover. The 'blonde woman' label isn't explicitly confirmed, but the consistent attire and position indicate the same person. Logic holds because the device with the red handprint is explicitly the laptop in Slice 75, and the later moment involves a physical magazine with dance-related imagery in Slice 84.",
+        "original_text_answer": "A laptop shows a red handprint image; later she holds a TIME magazine with a dancer on the cover.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1, the blonde woman is holding a black tablet displaying a red handprint-like image of a dancer. In Video 2, she is holding a physical copy of TIME magazine featuring a dancer on the cover. The device in the first clip is clearly a tablet, not a laptop, as it is thin, has no keyboard, and is held like a tablet."
+    },
+    {
+        "question": "What is the key difference in how dance is presented when comparing the young ballerina sequence to the later stage performance in a red outfit?",
+        "answer": "One shows a young ballerina in a studio-like context (black leotard and white tights), while the later shows a stage performance with a dancer in a red costume under theatrical lighting.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            69,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows a young ballerina in black leotard and white tights performing in a studio/rehearsal setting. Step 2: Slice 70 shows a dancer in a red outfit performing on stage with dramatic lighting. Conclusion: Dance is depicted both as training/studio ballet and as theatrical stage performance.",
+        "logic_check_reasoning": "Step 1: Slice 69 describes a young ballerina in a studio/rehearsal setting, wearing a black leotard and white tights, with soft, warm lighting—indicating a studio-like context. Step 2: Slice 70 describes a later scene on a stage in an auditorium, featuring a dancer in a red outfit, highlighted by theatrical lighting against a dark background—indicating a formal stage performance. Logic holds because the answer contrasts these two presentations: studio/practice setting versus staged performance with costume and theatrical lighting.",
+        "visual_proof": "Clip 1 shows a young girl in a black leotard and white tights at a ballet barre in a simple studio setting. Clip 2 shows a dancer in an elaborate red costume performing a dynamic leap on a dark stage, illuminated by dramatic spotlights, indicating a professional stage production."
+    },
+    {
+        "question": "How can you track the blonde woman as the same person from the initial greeting, through the auditorium interview, to the later backstage bench scene?",
+        "answer": "She consistently has long blonde hair and wears a light beige/cream blazer over a light top; she appears first greeting, later interviewing on stage, and finally chatting on a bench with papers.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            18,
+            31,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a long-blonde-haired woman in a light blazer greeting the other woman. Step 2: Slice 18 shows the same blonde woman in a beige blazer initiating the on-stage interview and moving to chairs. Step 3: Slice 31 shows her continuing as the interviewer on stage. Step 4: Slice 90 shows her again on a bench backstage holding paper while talking. Conclusion: Hair and blazer style track her across the full timeline.",
+        "logic_check_reasoning": "Step 1: Slice 1 identifies a woman with long blonde hair wearing a light-colored blazer over a white top during the initial greeting. Step 2: Slice 18 describes the interviewer as having long blonde hair and wearing a beige blazer over a white top in the auditorium interview. Step 3: Slice 31 again shows the interviewer with a light beige blazer over a white top and blonde hair on stage. Step 4: Slice 90 shows a woman wearing a beige blazer over a white top on a backstage bench, holding a piece of paper. The consistent outfit (beige/light blazer over a white top) and role (the interviewer) link her across all scenes, and the papers detail matches the final scene. The hair description is explicitly supported in Slices 1, 18, and 31; the final scene uses outfit continuity.",
+        "visual_proof": "In Clip 1, the blonde woman is seen greeting the other woman, wearing a light beige blazer. In Clip 2 and Clip 3, she is seated on stage for an interview, still in the same beige blazer and light top. In Clip 4, she is again seen in the same attire, now holding papers while talking to the other woman. Her consistent hairstyle and clothing across all scenes confirm it is the same person."
+    }
+]

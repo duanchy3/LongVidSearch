@@ -1,0 +1,100 @@
+[
+    {
+        "question": "In the editing/creator workspace scenes, what drink is on the desk when the computer monitor shows a thumbnail-building interface, and what different drink is shown on the desk during another seated talking segment?",
+        "answer": "A wine glass is in front of the monitor during the thumbnail interface; a glass of dark soda is shown on the desk in another seated segment.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            79,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 79 shows a monitor with “Drag Thumbnail Here” and a wine glass placed in front of it. Step 2: Slice 32 shows the seated man reaching for a glass of dark soda with ice and a lemon slice. Conclusion: Wine glass vs dark soda.",
+        "logic_check_reasoning": "Step 1: Slice 79 explicitly shows a computer monitor with a thumbnail-building interface ('Drag Thumbnail Here') and states that a wine glass is placed in front of the monitor. Step 2: Slice 32 describes a seated talking segment where the man reaches for and drinks from a glass of dark-colored soda with ice and a lemon slice. Logic holds because the first scene is the editing/creator workspace with the thumbnail interface and the second is another seated segment, each showing different drinks matching the proposed answer.",
+        "visual_proof": "In Clip 1, a clear wine glass with a stem is visible on the desk directly in front of the AOC monitor displaying the 'thumbsup.tv' interface. In Clip 2, a different glass containing a dark-colored beverage with ice and a lemon wedge, consistent with a soda like cola, is on the desk to the left of the keyboard while the man is talking."
+    },
+    {
+        "question": "What object does the man hold to his mouth/face outdoors when he’s wearing earphones under a blue sky, and what similar audio-related accessory is visible earlier when a different man speaks in his home office?",
+        "answer": "He adjusts/handles his earphones outdoors; earlier, a microphone is visible in the home office setup.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows the black-hoodie person with earphones, adjusting something near them. Step 2: Slice 3 shows a home office scene with a microphone visible for speaking/recording. Conclusion: Earphones vs a microphone are the audio accessories shown across scenes.",
+        "logic_check_reasoning": "Step 1: Slice 29 describes an outdoor scene with a person wearing earphones, holding something small near their face and then adjusting/interacting with their earphones. This supports the idea that he is handling his earphones. Step 2: Slice 3 describes a home office scene where a microphone is visible while a different man speaks. This supports the mention of a microphone as the audio-related accessory. Logic holds because both elements (earphones being handled outdoors, microphone visible indoors) are explicitly described in the respective slices.",
+        "visual_proof": "In Video 1, the man outdoors is seen with red earphones and at one point touches or adjusts them near his mouth/face. In Video 2, the man in the home office has a professional microphone on a stand clearly visible to his right."
+    },
+    {
+        "question": "How do we know the Mars rover experience becomes a topic he later packages into a YouTube-style thumbnail with a specific guide-like title and bold overlay text?",
+        "answer": "He is shown driving/operating the rover in the sand simulation room, and later he uses a thumbnail tool to make a thumbnail titled about building a Mars rover with bold text like “IN 12,195 EASY STEPS!”",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            44,
+            45,
+            46,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows rover control via a handheld controller. Step 2: Slice 45 explicitly says they let him drive the Mars rover in the simulation space. Step 3: Slice 46 shows continued rover operation/testing in the sand-and-rock room. Step 4: Slice 80 shows creating a thumbnail for “How to build your own Mars rover (practical guide)” with the bold overlay “IN 12,195 EASY STEPS!” Conclusion: The hands-on rover experience is later repurposed into thumbnail/packaging for a rover guide video.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a man in a plaid shirt operating a yellow Mars rover in a simulated Martian environment, with on-screen text 'They then let me drive the Mars rover...', confirming the rover-driving experience. Slices 44 and 46 corroborate the testing room, rover, and handheld controller details. Step 2: Slice 80 shows the same person using a thumbnail creation site (thumbsup.tv) to make a YouTube-style thumbnail. He types the title 'How to build your own Mars rover (practical guide)' and the previews show the man standing next to the yellow rover with bold overlay text 'IN 12,195 EASY STEPS!'. Step 3: The previews across YouTube interfaces (home page, sidebar, etc.) confirm it’s packaged as a YouTube-style thumbnail. Thus, the context fully supports the proposed answer.",
+        "visual_proof": "Clips 1-3 show the man operating the rover in the sand pit. Clip 4 shows him using a thumbnail creation tool where he types the title 'How to build your own Mars rover (practical guide)' and the final thumbnail preview clearly displays the bold overlay text 'IN 12,195 EASY STEPS!' alongside his image next to the rover."
+    },
+    {
+        "question": "Across the planning/date title-card scenes, what is the earlier date shown over computer hardware and what later date is shown on a title card before the man talks in his office-like setup?",
+        "answer": "Earlier: October 4th; later: October 9th.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 2 overlays “October 4th” on a computer-hardware close-up. Step 2: Slice 31 begins with a title card reading “October 9th.” Conclusion: The dates are October 4th and October 9th.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 states that the final frame shows computer hardware with the text 'October 4th' prominently overlaid, establishing the earlier date over computer hardware. Step 2: Evidence Slice 31 states the video begins with a title card displaying 'October 9th' and then transitions to a man speaking in an office-like setup, establishing the later date shown before he talks. Logic holds because each slice explicitly provides the dates and contexts requested.",
+        "visual_proof": "The first clip (ID: 2) shows a title card with 'October 4th' overlaid on a scene featuring computer hardware and monitors. The second clip (ID: 31) begins with a title card displaying 'October 9th' before cutting to the man speaking in his office setup. This sequence visually confirms the dates as stated."
+    },
+    {
+        "question": "What evidence shows a shift from speaking directly to the camera at a train platform to doing technical work inside a computer case, and then back to train content marked by another date overlay?",
+        "answer": "He starts at a train platform speaking to camera, then the video shows PC hardware/internal components, and later returns to train station/train undercarriage footage labeled October 11th.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            2,
+            10,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows train platform narration (Harlow Town). Step 2: Slice 2 abruptly transitions to computer hardware with a date overlay. Step 3: Slice 10 shows detailed PC case internals (cooling, cables). Step 4: Slice 39 returns to train platform/tracks and a train undercarriage with “October 11th.” Conclusion: The video alternates between train-vlog content and PC hardware segments, then returns to train content with a later date.",
+        "logic_check_reasoning": "Step 1: Slice 1 and Slice 2 show a man in a black hoodie speaking directly to the camera at a train platform (Harlow Town), indicating the initial train-related monologue. Step 2: Slice 2 describes an abrupt transition to computer hardware with a motherboard labeled 'CX600' and an 'October 4th' overlay; Slice 10 further focuses on the interior of a computer case, highlighting components and cooling, evidencing the shift to technical computer content. Step 3: Slice 39 returns to train-related visuals (platform, train undercarriage) and explicitly includes the text 'October 11th,' confirming the return to train content marked by another date overlay. The logic holds because the sequence and elements (speaking at platform → computer internals → train with date) are explicitly described across the slices.",
+        "visual_proof": "Clip 2 (ID: 2) shows the man speaking directly to the camera at a train platform. Clip 3 (ID: 10) displays a close-up of internal computer hardware, including fans and motherboard. Clip 4 (ID: 39) transitions back to train-related content, showing train tracks and then an undercarriage view with the date 'October 11th' overlaid on the screen."
+    },
+    {
+        "question": "How does the video show the same person’s environment changing from a bedroom-like vlog space with a radiator and door, to a work-focused dual-monitor editing setup, and then to a kitchen where he presents a baking book?",
+        "answer": "He appears in a bedroom-like space with radiator/door while talking, later is shown working at a dual-monitor desk with editing software, and later stands in a kitchen holding up a “Baking Handbook.”",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            9,
+            34,
+            83,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows him talking in a room with a door and radiator visible. Step 2: Slice 34 shows him working at a desk with two monitors (editing timeline). Step 3: Slice 83 shows him speaking in a kitchen setting. Step 4: Slice 84 shows him holding up a “Baking Handbook” in that kitchen. Conclusion: The setting shifts from bedroom-like vlog space → editing workstation → kitchen presentation.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a young man in a casual, bedroom-like space with a visible radiator and door, speaking animatedly, which matches the first part of the answer. Step 2: Slice 34 shows a man working at a desk with dual monitors, with video editing software open, which aligns with the work-focused dual-monitor editing setup mentioned in the answer. Step 3: Slice 84 shows the man in a kitchen holding up a book titled 'Baking Handbook,' directly supporting the final part of the answer. Slice 83 further supports the kitchen setting where he presents to the camera. The logic holds as the slices collectively depict the same person-like figure across different environments within the same video.",
+        "visual_proof": "Clip 1 shows the man in a room with a white radiator and wooden door. Clip 2 shows him from behind at a desk with two monitors displaying video editing software. Clips 3 and 4 show him in a kitchen with white cabinets and a stainless steel hood, holding up a book titled 'Basic Baking Handbook'."
+    },
+    {
+        "question": "How does the video move from rural outdoor wildlife viewing to a human-led exploration of a historic stone structure where the narrator speaks to camera?",
+        "answer": "It goes from watching deer grazing in a field to the narrator walking and talking while touring a historic Gothic/medieval stone building.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            65,
+            67,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows people behind a fence observing deer grazing. Step 2: Slice 67 focuses on a buck with antlers in the field. Step 3: Slice 70 shows the narrator in a black hoodie exploring a historic stone structure while speaking to the camera. Conclusion: The narrative shifts from wildlife observation to historic-site exploration with narration.",
+        "logic_check_reasoning": "Step 1: Slice 65 describes people observing a herd of deer in a grassy field, a peaceful rural wildlife viewing scene. Step 2: Slice 67 continues with a focus on deer (a buck) grazing in a natural setting, reinforcing the wildlife viewing context. Step 3: Slice 70 shifts to a young man walking in a historic stone structure with Gothic/medieval features, addressing the camera and pointing out details, indicating a human-led exploration and narration. Logic holds because the slices show a clear progression from wildlife viewing to a narrated tour of historic architecture, matching the proposed answer.",
+        "visual_proof": "Clip 1 and Clip 2 show people observing deer in a grassy, fenced field under a clear sky. Clip 3 shows a man (the narrator) walking outdoors next to large, ornate stone structures with arched windows and carvings, consistent with Gothic or medieval architecture, while speaking directly to the camera."
+    }
+]

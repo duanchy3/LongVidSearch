@@ -1,0 +1,228 @@
+[
+    {
+        "question": "Which two separate segments show the presenter holding a mug close to the camera, and how do the mug designs differ?",
+        "answer": "One segment shows a bright yellow mug with a cartoon design, and another shows an orange mug with a white cat design.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows the presenter picking up and holding a bright yellow mug with a playful cartoon design. Step 2: Slice 45 shows a close-up of an orange mug featuring a white cat design. Conclusion: The mug moments are in slices 44 and 45, and the designs differ as yellow-cartoon vs orange-cat.",
+        "logic_check_reasoning": "Step 1: Slice 45 states the video begins with a close-up shot of a person holding an orange mug with a white cat design, indicating the mug is close to the camera. Step 2: Slice 44 describes the person picking up a bright yellow mug with a playful cartoon character design and holding it up close to their face, suggesting they are showcasing it for the camera. Logic holds because both slices depict the same presenter (glasses, black leather jacket, green shirt) in the same cozy setting, each time featuring a mug held up close, and the designs clearly differ: one is a bright yellow mug with a cartoon character, the other is an orange mug with a white cat.",
+        "visual_proof": "In the first clip (0:05-0:07), the presenter holds up a bright yellow mug featuring a small, cute cartoon character on its side. In the second clip (0:01-0:02), a close-up shot shows hands holding an orange mug with a 3D white cat figure attached to its front. The two mugs are distinctly different in color and design."
+    },
+    {
+        "question": "A Kyoto-related stationery shopping mention appears, and later Daiso-branded stamp sets are shown. What is the Kyoto shop name and what are the two character-themed stamp sets?",
+        "answer": "The shop is \"Stationery Shop Tag Kyoto,\" and the stamp sets are Hello Kitty and Pochacco.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            51,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows a bag labeled \"Stationery Shop Tag Kyoto.\" Step 2: Slice 56 shows Daiso button-style stamp packages themed with Hello Kitty and Doraemon. Conclusion: The Kyoto shop is Stationery Shop Tag Kyoto, and the stamp themes are Hello Kitty and Doraemon.",
+        "logic_check_reasoning": "Step 1: Slice 51 states the woman is holding a plastic bag labeled 'Stationery Shop Tag Kyoto,' which identifies the Kyoto-related stationery shop. Step 2: Slice 56 shows two Daiso-branded 'easy-to-use button-style stamps' packages featuring Hello Kitty (pink/white checkered) and Doraemon (blue/white checkered). Logic holds because the first slice provides the shop name, and the second slice explicitly identifies the two character-themed stamp sets.",
+        "original_text_answer": "The shop is \"Stationery Shop Tag Kyoto,\" and the stamp sets are Hello Kitty and Doraemon.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows on-screen text reading \"Stationery Shop Tag Kyoto\". Clip 2 displays two stamp sets in packaging with \"Sanrio Characters\" branding; the left set features Hello Kitty, My Melody, and Kuromi, while the right set features Pochacco, Keroppi, and other characters from the same franchise. Doraemon is not visible on either package."
+    },
+    {
+        "question": "The presenter shows a rabbit-character item as a small white bunny-shaped object and later shows a Miffy-branded pouch. What are the two rabbit-related items?",
+        "answer": "A white bunny-shaped cookie/ornament and a red Miffy pouch in packaging.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows a red object flipped to reveal a white bunny-shaped cookie/ornament. Step 2: Slice 76 shows a packaged red pouch labeled \"Miffy\" with a cartoon rabbit. Conclusion: The rabbit-related items are the bunny ornament/cookie and the Miffy pouch.",
+        "logic_check_reasoning": "Step 1: Slice 43 describes a hand flipping a small red object with a white string to reveal a white bunny-shaped cookie or ornament, explicitly noting its simple design and rabbit features. Step 2: Slice 76 describes a red pouch featuring the cartoon rabbit character Miffy, labeled 'Miffy,' encased in a clear plastic sleeve. Logic holds because the first item is a rabbit-shaped cookie/ornament and the second is a Miffy-branded pouch in packaging, matching the proposed answer.",
+        "visual_proof": "In the first clip, a hand holds a small, solid white object shaped like a bunny with pink details. In the second clip, the same hands hold a red pouch featuring the character Miffy (a white rabbit) inside clear plastic packaging with the brand name 'Bijoco' visible."
+    },
+    {
+        "question": "Which segment shows the presenter announcing a giveaway on-screen, and which later segment shows the actual prize result for the first winner?",
+        "answer": "The giveaway announcement appears earlier, and later the first winner is shown as a Nintendo Switch.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            94,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 94 displays the on-screen word \"giveaway!\" while the presenter speaks. Step 2: Slice 96 shows a box labeled \"Winner #1: Nintendo Switch.\" Conclusion: Giveaway announcement precedes the reveal of Winner #1’s prize (Nintendo Switch).",
+        "logic_check_reasoning": "Step 1: Slice 94 explicitly mentions the word \"giveaway!\" appearing in bold yellow text on-screen while the presenter speaks, indicating an announcement of a giveaway. Step 2: Slice 96 states the presenter holds up a box labeled \"Winner #1: Nintendo Switch,\" which directly shows the prize result for the first winner. Logic holds because Slice 94 (earlier) is the announcement, and Slice 96 (later) is the first winner reveal, matching the proposed answer.",
+        "visual_proof": "In Video 1 (0:08), the word 'giveaway!' is displayed in large yellow text on the screen, indicating the announcement. In Video 2 (0:45), the presenter holds up a red box for a Nintendo Switch, and on-screen text reads 'Winner #1: Nintendo Switch', revealing the prize for the first winner."
+    },
+    {
+        "question": "A cup with a cartoon character is shown in close-up earlier, and later two matching mugs are shown side-by-side. What changes from the first mug shot to the later mug shot?",
+        "answer": "It changes from a single white cup and saucer with a brown cartoon character (a girl with a bow holding a cup) to a pair of matching white mugs featuring the cartoon rabbit Miffy in a blue dress, each with an orange rim.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a close-up of a ceramic cup with a cartoon character (seen with a saucer). Step 2: Slice 78 shows two identical mugs with a rabbit-in-blue-dress design and orange rim. Conclusion: The scene changes from one cup to a pair of matching rabbit-themed mugs.",
+        "logic_check_reasoning": "Step 1: Slice 21 describes a close-up of a single white ceramic cup with a saucer, featuring a cartoon character with brown hair and a yellow shirt. Step 2: Slice 78 shows two identical ceramic mugs side-by-side, each with a cartoon rabbit in a blue dress and an orange rim. Logic holds because the transition is from one cup/saucer with a generic cartoon character to a pair of matching mugs with a specific rabbit design and orange rim, exactly as the proposed answer states.",
+        "original_text_answer": "It changes from a single cup/saucer with a cartoon character to a pair of identical mugs featuring a cartoon rabbit in a blue dress with an orange rim.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a single white cup on a saucer with a brown illustration of a girl's head profile holding a cup. Clip 2 shows two identical white mugs, each with an orange rim and an illustration of Miffy the rabbit in a blue dress. The number of items, the specific character design, and the inclusion of a saucer in the first clip are all key visual differences."
+    },
+    {
+        "question": "The presenter shows food from a Tokyo market earlier and later shows a ramen-and-beer table scene. What are the two food moments, and how do they differ in presentation?",
+        "answer": "First is a still meal image from Ichifuji Tsukiji Outer Market in Tokyo; later is a close-up of ramen with beer on a dining table.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 3 transitions to a still photo of a meal tied to Ichifuji Tsukiji Outer Market in Tokyo. Step 2: Slice 58 shows a composed close-up of a ramen bowl with beer on the table. Conclusion: Both are food moments, but one is a still market-meal image and the other is a detailed ramen-and-beer tabletop shot.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows text 'Ichifuji Tsukiji Outer Market, Tokyo' and then a still image of a meal with various dishes on a wooden table, indicating a market-related food moment. Step 2: Slice 58 shows a close-up of a ramen bowl with a beer bottle and glass on a dining table. Step 3: The proposed answer identifies the two moments and notes the presentation difference: an earlier still meal image from the market vs. a later close-up ramen-and-beer scene. This aligns with the slices.",
+        "visual_proof": "Clip 1 shows the presenter mentioning 'Ichifuji Tsukiji Outer Market, Tokyo' while displaying a still image of a multi-course Japanese meal. Clip 2 shows a different still image featuring a bowl of ramen with toppings and a bottle of beer on a wooden table, confirming the two distinct food moments described."
+    },
+    {
+        "question": "The video shows a Haikyuu-related item from a shop in Shibuya and later shows a different magazine being flipped through at home. What is the named Shibuya shop, and what is the later action done with the magazine?",
+        "answer": "The shop is JUMP Shop Shibuya, Tokyo, and later the magazine is flipped through and a page is held up to show an image.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows a Haikyuu-related cover/poster and the text \"JUMP Shop Shibuya, Tokyo.\" Step 2: Slice 50 shows the presenter flipping through a magazine and holding up a page for the camera. Conclusion: The named shop is JUMP Shop Shibuya, and the later action is flipping through and showing a page.",
+        "logic_check_reasoning": "Step 1: Slice 23 states that the Haikyuu-related item is shown with on-screen text 'JUMP Shop Shibuya, Tokyo,' identifying the shop. Step 2: Slice 50 describes a woman flipping through a magazine at home and holding up a page to show an image to the camera. Logic holds because the answer directly matches these details: the named shop is JUMP Shop Shibuya, Tokyo, and the later action is flipping through the magazine and holding up a page to show an image.",
+        "visual_proof": "In Clip 1, at 0:06, text overlay explicitly identifies the shop as 'JUMP Shop Shibuya, Tokyo' while the person holds a Haikyuu!! magazine. In Clip 2, from 0:02 to 0:05, the person is visually shown flipping through the pages of a different magazine (featuring K-pop idols) and then holding up a specific page to display the images on it."
+    },
+    {
+        "question": "Two different location labels tied to Kyoto appear in the video: one early and one later tied to fabric. What are those Kyoto-related labels?",
+        "answer": "Ujicha Kigetsudo Kyoto and Shibori Museum Kyoto.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the text \"Ujicha Kigetsudo Kyoto.\" Step 2: Slice 83 shows the text \"Shibori Museum Kyoto\" while the presenter holds fabric. Conclusion: The Kyoto labels are Ujicha Kigetsudo Kyoto and Shibori Museum Kyoto.",
+        "logic_check_reasoning": "Step 1: Slice 5 explicitly states the on-screen text 'Ujicha Kigetsudo Kyoto,' appearing early in the video. Step 2: Slice 83 explicitly states the on-screen text 'Shibori Museum Kyoto,' shown while the woman discusses fabric. Logic holds because both are Kyoto-related labels, one appearing earlier and the other later tied to fabric.",
+        "visual_proof": "In Clip 1, the text 'Ujicha Kigetsudo Kyoto' is clearly overlaid on the screen while the woman holds wrapped items. In Clip 2, the text 'Shibori Museum Kyoto' is similarly overlaid as she unfolds a piece of blue fabric. Both labels are explicitly visible in their respective clips."
+    },
+    {
+        "question": "During the giveaway segment, the video first signals there will be two winners and later specifies a second winner category. What are the two-winner announcement and the second winner’s category?",
+        "answer": "The announcement is \"TWO WINNERS!\" and the second winner category is \"Stationery.\"",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            98,
+            97
+        ],
+        "reasoning_chain": "Step 1: Slice 98 states \"TWO WINNERS!\" along with entry requirements. Step 2: Slice 97 displays \"Winner #2: Stationery\" over a spread of stationery. Conclusion: The two-winner announcement leads to the second winner category being Stationery.",
+        "logic_check_reasoning": "Step 1: Slice 98 explicitly shows the text 'TWO WINNERS!' along with giveaway rules, confirming the announcement of two winners. Step 2: Slice 97 displays the text 'Winner #2: Stationery' while showcasing stationery items, explicitly identifying the second winner’s category. Logic holds because Slice 98 announces two winners and Slice 97 specifies the second winner category as Stationery.",
+        "visual_proof": "Clip 1 clearly displays the text \"TWO WINNERS!\" in yellow font on a green background. Clip 2 shows various stationery items laid out, with an overlay text reading \"Winner #2: Stationery\" in yellow font, directly identifying the category for the second winner."
+    },
+    {
+        "question": "Which three segments show the 'Campus' stationery theme repeating in different forms, and what are those forms?",
+        "answer": "Campus notebooks in a box, Campus notebooks held up (one black, one yellow), and two Campus notebooks held up (one blue, one pink).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            53,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows a box of Campus notebooks. Step 2: Slice 53 shows the presenter holding a book titled \"Campus.\" Step 3: Slice 61 shows two pieces of paper with \"Campus\" written on them. Conclusion: The Campus theme repeats as notebooks, a book, and labeled papers.",
+        "logic_check_reasoning": "Step 1: Slice 28 explicitly mentions the presenter showing a box of Campus notebooks, confirming the 'Campus' theme in box form. Step 2: Slice 53 states the woman is holding a book titled 'Campus,' supporting the 'Campus' book form. Step 3: Slice 61 describes the woman holding two pieces of paper with 'Campus' written on them, confirming the paper form. Logic holds because each slice presents 'Campus' in a distinct format—box, book, and papers—matching the proposed answer.",
+        "original_text_answer": "Campus notebooks in a box, a Campus book held up, and two pieces of paper labeled Campus.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a yellow 'Campus' notebook package. Clip 2 shows the person holding up a black 'Campus' notebook and then a yellow one. Clip 3 shows the person holding up two different 'Campus' notebooks, one with a blue spine and one with a pink spine. The items are consistently notebooks or their packaging, not generic 'pieces of paper'."
+    },
+    {
+        "question": "What four-step chain shows the presenter’s stationery haul moving from pens/notebooks, to stamps, to an on-camera 'Campus' emphasis, and finally to a curated stationery prize layout?",
+        "answer": "They show pens and Campus notebooks, then Daiso character stamps, then highlight 'Campus' papers on-camera, and finally display a full stationery spread labeled as Winner #2’s prize.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            28,
+            56,
+            61,
+            97
+        ],
+        "reasoning_chain": "Step 1: Slice 28 presents pens and Campus notebooks. Step 2: Slice 56 presents Daiso button-style character stamps. Step 3: Slice 61 shows the presenter holding two 'Campus' papers. Step 4: Slice 97 shows a curated layout labeled \"Winner #2: Stationery\" including Campus items and more. Conclusion: The stationery content builds toward a structured prize bundle.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows the presenter holding Pilot G-Tec pens and a box of Campus notebooks, matching 'pens/notebooks.' Step 2: Slice 56 shows two Daiso-branded character stamp packages (Hello Kitty and Doraemon), matching 'stamps.' Step 3: Slice 61 shows the woman holding two papers with 'Campus' written on them, emphasizing 'Campus' on-camera. Step 4: Slice 97 displays a neatly arranged stationery collection with the on-screen text 'Winner #2: Stationery,' matching a curated stationery prize layout. The chain logically follows these slices and is explicitly supported.",
+        "visual_proof": "Clip 1 shows the presenter holding pens (Jetstream) and a Campus notebook. Clip 2 displays two packages of Pochacco-themed button stamps. Clip 3 features the presenter enthusiastically showing two Campus notebooks to the camera. Clip 4 presents a flat lay of all the stationery items with the text overlay 'Winner #2: Stationery', confirming the curated prize layout."
+    },
+    {
+        "question": "The presenter highlights Studio Ghibli museum-related items and later highlights Nintendo Tokyo. Which labeled locations appear for those two pop-culture destinations?",
+        "answer": "Studio Ghibli Museum in Mitaka, Tokyo and Nintendo Tokyo in Shibuya, Tokyo.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows the text \"Studio Ghibli Museum Mitaka, Tokyo.\" Step 2: Slice 16 shows \"Nintendo Tokyo Shibuya, Tokyo.\" Conclusion: The two labeled locations are the Ghibli Museum (Mitaka) and Nintendo Tokyo (Shibuya).",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly says the on-screen text reads 'Studio Ghibli Museum Mitaka, Tokyo,' which provides the labeled location for the Studio Ghibli museum-related items. Step 2: Slice 16 explicitly shows a Twitter post with the text 'Nintendo Tokyo Shibuya, Tokyo,' which provides the labeled location for Nintendo Tokyo. Logic holds because both slices directly state the locations alongside the respective destinations.",
+        "visual_proof": "In the first clip, a text overlay explicitly states 'Studio Ghibli Museum, Mitaka, Tokyo' while the presenter discusses related items. In the second clip, another text overlay appears stating 'Nintendo Tokyo, Shibuya, Tokyo' as she introduces merchandise from that location. These on-screen labels directly confirm the locations mentioned in the question."
+    },
+    {
+        "question": "What set of Ghibli-related content moves from identifying the museum/cafe to showing postcards and then to showing Ghibli books?",
+        "answer": "It goes from the Ghibli Museum Cafe sign, to showing illustrated postcards, to presenting Studio Ghibli books (including a Totoro-cover book).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            13,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the \"Ghibli Museum Cafe\" sign. Step 2: Slice 13 shows colorful illustrated postcards being flipped through. Step 3: Slice 14 shows multiple Studio Ghibli-related books, including one with Totoro on the cover. Conclusion: The Ghibli thread progresses from place identification to paper goods to books.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a sign reading 'Ghibli Museum Cafe,' identifying the museum/cafe. Step 2: Slice 13 shows a person displaying colorful illustrated postcards. Step 3: Slice 14 shows a person holding Studio Ghibli books, including one with Totoro on the cover. Logic holds because the proposed answer summarizes this progression: sign -> postcards -> Ghibli books, including Totoro.",
+        "visual_proof": "Clip 1 shows the 'GHIBLI MUSEUM CAFÉ' sign. Clip 2 shows hands fanning out and displaying illustrated postcards of the museum. Clip 3 shows hands holding up three different Studio Ghibli-themed books, one of which clearly features Totoro on the cover."
+    },
+    {
+        "question": "Which three moments show different 'paper goods' being presented, moving from postcards to an envelope to papers from shrines/temples?",
+        "answer": "Colorful postcards are shown first, then an envelope is presented, and later papers are discussed with the theme 'From Shrines and Temples Throughout Japan.'",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            20,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows postcards being flipped through. Step 2: Slice 20 shows the presenter holding an envelope and explaining it. Step 3: Slice 39 references shrine/temple papers via on-screen text. Conclusion: The paper-goods thread includes postcards, an envelope, and shrine/temple papers.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly shows a person holding and flipping through colorful postcards, clearly establishing the first 'paper goods' as postcards. Step 2: Slice 20 explicitly shows a woman holding an envelope while speaking, confirming the second 'paper goods' as an envelope. Step 3: Slice 39 shows the woman holding a piece of paper and includes on-screen text 'From Shrines and Temples Throughout Japan,' indicating the discussion involves papers related to shrines/temples. The progression from postcards to envelope to papers is directly supported by these slices.",
+        "visual_proof": "Clip 1 shows hands fanning out colorful illustrated postcards, including one labeled 'GHIBLI MUSEUM, MITAKA'. Clip 2 shows the person holding a brown paper envelope. Clip 3 shows the person holding white papers while on-screen text reads 'From Shrines and Temples Throughout Japan', confirming the theme of the final items."
+    },
+    {
+        "question": "How does the video link fashion items across time by showing sneakers, then a different branded shirt look, and later jeans being examined?",
+        "answer": "It shows yellow Onitsuka Tiger Tokyo sneakers, then an outfit featuring an A.P.C. Tokyo denim jacket, and later blue jeans being held up and examined.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            85,
+            86,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 85 highlights yellow Onitsuka Tiger Tokyo sneakers. Step 2: Slice 86 shows the presenter wearing a shirt with \"A.P.C. Tokyo\" text. Step 3: Slice 90 shows the presenter holding and examining blue jeans. Conclusion: Fashion coverage spans shoes, branded apparel, and denim.",
+        "logic_check_reasoning": "Step 1: Slice 85 shows the presenter holding and showcasing yellow Onitsuka Tiger Tokyo sneakers, explicitly supported by on-screen text. Step 2: Slice 86 shows the presenter wearing a black t-shirt with 'A.P.C. Tokyo' under a leather jacket, establishing a different branded shirt look. Step 3: Slice 90 shows the presenter holding and examining a pair of blue jeans. The sequence matches the proposed answer’s progression: sneakers → branded shirt (A.P.C. Tokyo) → jeans examination.",
+        "original_text_answer": "It shows yellow Onitsuka Tiger Tokyo sneakers, then an outfit featuring an A.P.C. Tokyo shirt, and later blue jeans being held up and examined.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the woman holds up yellow sneakers with 'Onitsuka Tiger Tokyo' text on screen. In Clip 2, she holds up a dark denim jacket, not a shirt, with 'A.P.C. Tokyo' text on screen. In Clip 3, she holds up a pair of blue jeans for examination, which is correctly stated in the original answer."
+    },
+    {
+        "question": "How do four different 'container/package reveal' moments compare: opening a small container with powder, opening an illustrated box to reveal a plush, opening a toy compartment, and opening a bag to remove items?",
+        "answer": "They show (1) a small bowl/container opened to reveal powder, (2) a zoo-branded illustrated towel being displayed, not a box opened to reveal a plush, (3) an orange-and-white toy compartment opened to reveal its interior, and (4) a large black bag opened to remove items like a pouch.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            10,
+            30,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a small container opened to reveal powder/granules. Step 2: Slice 10 shows an illustrated box opened to reveal a plush toy. Step 3: Slice 30 shows an orange-and-white toy opened via a compartment. Step 4: Slice 92 shows a large black bag opened and items removed (e.g., headphones). Conclusion: The video repeatedly uses opening/unboxing actions across different object types.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a woman opening a small bowl/container to reveal powder or granules, matching the first reveal. Step 2: Slice 10 shows an illustrated box (IZU SHABOTEN ZOO) being opened to reveal a plush toy, matching the second reveal. Step 3: Slice 30 shows an orange-and-white toy compartment being opened to reveal its interior (with a sticker), matching the third reveal. Step 4: Slice 92 shows a large black bag from which items, including headphones, are removed; removing items implies the bag was opened, matching the fourth reveal. The visual attributes across slices align, and each action is explicitly supported.",
+        "original_text_answer": "They show (1) a small bowl/container opened to reveal powder, (2) a zoo-branded illustrated box opened to reveal a plush, (3) an orange-and-white toy compartment opened to reveal its interior, and (4) a large black bag opened to remove items like headphones.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows small ceramic containers, one of which is opened to reveal a white powdery substance. Clip 2 shows the person holding up a large illustrated towel from Izu Shaboten Zoo featuring capybaras; no box is opened and no plush is revealed. Clip 3 shows a My Neighbor Totoro bento box being opened to reveal its compartments. Clip 4 shows the person opening a black leather bag and pulling out a small pouch with a picture on it, not headphones."
+    }
+]

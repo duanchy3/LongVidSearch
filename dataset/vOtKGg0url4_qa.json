@@ -1,0 +1,29 @@
+[
+    {
+        "question": "When she stands outside at night wearing a beige trench coat, what later indoor outfit does she wear while describing peers getting job offers?",
+        "answer": "She later wears a white sweater with a red scarf while talking about peers getting job offers.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows her outdoors at night in a beige trench coat. Step 2: Slice 17 shows her indoors in a white sweater and red scarf while discussing peers getting job offers. Conclusion: The night trench-coat scene is followed by the indoor red-scarf monologue.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a woman outside at night wearing a beige trench coat. Step 2: Slice 17 describes an indoor scene where a woman, discussing 'my peers around me... they were getting job offers,' is wearing a white sweater and a red scarf. Step 3: The question asks for the later indoor outfit during the peers/job offers discussion, which matches Slice 17. Therefore, the context supports the proposed answer.",
+        "visual_proof": "In the first clip, she is outdoors at night in a beige trench coat. In the second clip, she is indoors wearing a white ribbed sweater and a red scarf while speaking, and the subtitle confirms she is discussing 'my peers around me' and 'they were getting job offers'."
+    },
+    {
+        "question": "Early on, the video frames itself as looking back “a year ago from today,” and later the video asks what she would say to her 2022 self. What is the reflective setup and how does it culminate?",
+        "answer": "It sets a one-year retrospective and culminates in a direct message addressed to her 2022 self (and then to her 2024 self).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            77,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 2 begins with “a year ago from today” and a 2022 date. Step 2: Slice 77 repeats the “a year ago from today” framing with her speaking on a couch. Step 3: Slice 78 explicitly prompts what to say to her 2022 self and shows her delivering that message. Conclusion: The retrospective framing leads into a direct self-address across years.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows the black screen text \"a year ago from today\" and the date \"dec 29, 2022,\" establishing a one-year retrospective and reflective setup. Step 2: Slice 77 reiterates the opening text \"a year ago from today,\" continuing the reflective framing as the woman speaks to camera. Step 3: Slice 78 explicitly asks \"What do you have to say to your 2022 self?\" and the woman delivers a direct message to her 2022 self, followed by another prompt \"Do you want to leave a message for your 2024 self?\" and she addresses her 2024 self. Logic holds because the early framing sets a retrospective, and the culmination is the direct addressed messages to her past (2022) and future (2024) selves.",
+        "visual_proof": "Clip 1 opens with the text 'a year ago from today' and 'dec 29, 2022', establishing the retrospective. Clip 3 confirms this setup with the text 'a year later' and 'what do you have to say to your 2022 self?', followed by the woman speaking directly to her past self. The video then transitions to asking her to leave a message for her '2024 self', showing the culmination is a multi-directional reflective dialogue."
+    }
+]

@@ -1,0 +1,184 @@
+[
+    {
+        "question": "How does the setting change from the early-morning timestamp moment to the comedic wake-up moment with three men in bed?",
+        "answer": "It shifts from a man entering a room at 5:30am to a bedroom scene where three men are startled awake and lie down together, with one man lying across the other two.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a man entering a room with the timestamp '5:30am'. Step 2: Slice 10 shows three men lying in bed and then waking up suddenly. Conclusion: The video moves from an early-morning arrival to a humorous wake-up-in-bed scene.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes an indoor scene where a man enters a room with the timestamp '5:30am,' indicating an early-morning moment. Step 2: Slice 10 shows a bedroom scene with three men in bed; the middle man shouts, startling the others, who then sit up. Logic holds because the proposed answer accurately captures the transition from the early-morning entry to the comedic wake-up in a bedroom, as explicitly depicted in the slices.",
+        "original_text_answer": "It shifts from a man entering a room at 5:30am to a bedroom scene where three men are startled awake and sit up.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 ends with a man entering a dimly lit room at 5:30am. Clip 2 shows the same man jumping onto a bed where two other men are sleeping, startling them. All three then lie down together in the bed, with the man who entered lying across the other two, not sitting up as stated in the original answer."
+    },
+    {
+        "question": "Identify the recurring 'red jacket' figure across different parts of the day: where is he first seen near an early-morning timestamp, and where is he later seen at the beach?",
+        "answer": "He is seen entering a room at 5:30am wearing a jacket with a red hood, and later he is seen walking along the beach wearing a red jacket at sunset.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            12,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a man entering a room with a jacket featuring a red hood at 5:30am. Step 2: Slice 12 shows a man in a red jacket outside near a car. Step 3: Slice 15 shows a man in a red jacket walking along the beach at sunset. Conclusion: The red-jacket figure appears in morning travel moments and later on the beach.",
+        "logic_check_reasoning": "Step 1: Slice 9 states a man enters a room at 5:30am wearing a jacket with a red hood, establishing the early-morning appearance. Step 2: Slice 15 shows a man walking along the beach at sunset wearing a red jacket, establishing the later beach appearance. The logic holds because the question asks where the recurring red-jacket figure is first seen near the early-morning timestamp (indoors at 5:30am) and later at the beach (walking along the beach at sunset), both explicitly supported by the slices.",
+        "visual_proof": "In Clip 1 (0:10-0:12), a man is shown entering a dimly lit room at 5:30am, wearing a dark jacket with a prominent red hood. In Clip 3 (0:17-0:18), the same man is seen on a beach at sunset, now wearing a red jacket (with the hood down) over his shoulders, confirming his presence in both scenes."
+    },
+    {
+        "question": "Across the home meal scenes, how does the group size at the table change as the breakfast/brunch montage continues?",
+        "answer": "It is shown as five shirtless men at the table early on, then later cuts show smaller groups such as four and three around the table.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            24,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows five shirtless men seated around a dining table. Step 2: Slice 24 shows four shirtless men around the table. Step 3: Slice 26 shows three shirtless men around the table. Conclusion: The displayed group size decreases across the montage.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly states there are five shirtless men at the dining table during a meal scene. Step 2: Slice 24 then shows four shirtless men around the table in a similar home meal setting. Step 3: Slice 26 shows three shirtless men at the table in another mealtime scene. Logic holds because the slices depict consecutive meal scenes with decreasing group sizes (5 → 4 → 3), matching the proposed answer.",
+        "visual_proof": "Clip 1 (0:00-0:05) clearly shows five shirtless men seated at the table. Clip 2 (0:00-0:07) shows a tighter shot with only four men visible. Clip 3 (0:00-0:04) shows an even tighter shot focusing on just three of the men. This visual progression from a wide shot of five to closer shots of four and then three confirms the group size appears to change across the different camera angles in the montage."
+    },
+    {
+        "question": "What brand is first mentioned as a sponsor at the very beginning, and what later on-screen discount offer is shown for that same brand?",
+        "answer": "NordicTrack; viewers are told to use code YesTheory for $75 off NordicTrack.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 1 opens with a sponsorship notice naming NordicTrack. Step 2: Slice 30 shows on-screen text offering $75 off NordicTrack with code YesTheory. Conclusion: The sponsor is NordicTrack and the later discount is $75 off with code YesTheory.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the video opens with text: 'A portion of this video is sponsored by NordicTrack,' identifying the first-mentioned sponsor as NordicTrack. Step 2: Evidence Slice 30 shows on-screen text later: 'Use code YesTheory for $75 off your NordicTrack,' providing the discount offer for the same brand. Logic holds because both references explicitly name NordicTrack and the discount details match the proposed answer.",
+        "visual_proof": "At 0:01 in Video 1, the text 'A portion of this video is sponsored by NordicTrack' is clearly visible. Later, at 0:06 in Video 2, the on-screen text explicitly states 'Use code YesTheory for $75 off your NordicTrack'."
+    },
+    {
+        "question": "What physical challenge title card introduces the cold-water activity segment, and what visual scene immediately follows that shows the activity happening?",
+        "answer": "The title card is \"STEP 1 POLAR PLUNGE,\" followed by the men running into the ocean at sunset.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 11 displays the title card 'STEP 1 POLAR PLUNGE'. Step 2: Slice 13 shows the group on a beach at sunset running into the ocean. Conclusion: The segment is introduced by the title card and then enacted by running into the ocean.",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly states the title card reads 'STEP 1 POLAR PLUNGE,' introducing a cold-water challenge segment. Step 2: Slice 13 describes men running into the ocean at sunset, which is the activity implied by a polar plunge. Logic holds because the title card introduces the cold-water activity and the subsequent scene showing men running into the ocean depicts that activity.",
+        "visual_proof": "Clip 1 ends with a clear title card reading \"STEP 1 POLAR PLUNGE\" (0:06). Clip 2 immediately shows the group of men, now in swimwear, running towards and into the ocean as the sun sets on the horizon (0:08-0:10), visually confirming the activity that follows the title card."
+    },
+    {
+        "question": "What is the weight of the heavy ball shown in the industrial gym scene, and what is the total weight indicated for the group balancing stunt outside?",
+        "answer": "The ball is labeled 100 kg (220 lbs), and the group stunt is labeled 445 kg (981 lbs).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            42,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows a heavy ball labeled '100 kg / 220 lbs'. Step 2: Slice 47 shows a group pyramid stunt with text indicating 445 kg (981 lbs). Conclusion: The weights are 100 kg and 445 kg respectively.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 42 describes the industrial gym scene and explicitly states the heavy ball is labeled '100 kg / 220 lbs.' Step 2: Evidence Slice 47 describes the outdoor group balancing stunt and explicitly states the total weight indicated is 445 kg (981 lbs). The proposed answer matches these explicit details from the respective slices.",
+        "visual_proof": "In Video 1, the text '100 kg / 220 lbs' is clearly visible on screen next to the heavy ball. In Video 2, the text 'Total Weight: 445 kg / 981 lbs' is displayed at the bottom of the frame during the group balancing stunt."
+    },
+    {
+        "question": "From the early 'seeking discomfort' message, which later challenge demonstrates it through cold water, and what visual evidence shows participants actually doing it?",
+        "answer": "The polar plunge challenge; the men run into and swim in the ocean at sunset.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            11,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows messaging about loving cold and seeking discomfort. Step 2: Slice 11 introduces 'STEP 1 POLAR PLUNGE'. Step 3: Slice 13 shows the men running into the ocean at sunset. Conclusion: The discomfort theme is realized by the polar plunge in the ocean.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly presents the theme \"SEEK DISCOMFORT\" and mentions loving \"to do stuff with the cold.\" Step 2: Slice 11 introduces a specific cold-water challenge with the title card \"STEP 1 POLAR PLUNGE.\" Step 3: Slice 13 shows visual evidence of participants running into the ocean at sunset, splashing and playing, which aligns with performing a polar plunge. The logic connects the stated cold-focused discomfort theme to the polar plunge and shows actual execution in the visuals.",
+        "visual_proof": "Clip 2 displays a title card 'STEP 1 POLAR PLUNGE'. Clip 3 visually confirms this by showing multiple men, including large strongmen, running from the beach into the ocean waves during sunset. They are seen fully immersed and swimming in the water, which is consistent with a cold water challenge."
+    },
+    {
+        "question": "How does the video connect competition prestige with personal backstory by moving from event/competition visuals to outdoor interviews and trophies?",
+        "answer": "It shows a strength-event setting with a host and participants, then shifts to outdoor seated interviews, and also shows close-ups of trophies including 'World's Strongest Man 2021.'",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            66,
+            51,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows an indoor strength-event environment with a microphone and trophies/medals. Step 2: Slice 51 shows an outdoor interview discussing childhood/strength. Step 3: Slice 54 includes trophy close-ups (e.g., World's Strongest Man 2021) integrated with reflections. Conclusion: Prestige is tied to backstory via interviews and awards.",
+        "logic_check_reasoning": "Step 1: Slice 66 describes an indoor strength event with a host, athletes, and a table with trophies/medals, establishing competition visuals. Step 2: Slice 51 shows an outdoor interview setting where the man discusses childhood and strength, indicating personal backstory. Step 3: Slice 54 further details outdoor interviews, nostalgic photos, and close-ups of trophies, explicitly mentioning 'World's Strongest Man 2021,' highlighting competition prestige. Logic holds because the sequence moves from event imagery to personal outdoor interviews and showcases prestigious trophies.",
+        "visual_proof": "Clip 1 shows a backstage or event area with a large strongman, a host, and a young fan, establishing the competition context. Clips 2 and 3 feature the same strongman in outdoor interview settings, discussing his life and showing personal photos. Clip 3 concludes with a clear close-up of a trophy engraved with 'WORLD'S STRONGEST MAN 2021 TOM STOLTMAN', directly linking his personal story to the prestigious title."
+    },
+    {
+        "question": "How does the playful 'strength games' thread develop from tug-of-war outside, to indoor arm wrestling, to outdoor throwing/wrestling on the grass, and finally to someone lying on the lawn laughing?",
+        "answer": "It goes from outdoor tug-of-war to indoor arm wrestling, then to playful throwing and grappling on grass, ending with a tattooed man lying on the lawn laughing.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            56,
+            57,
+            59,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 56 includes a tug-of-war scene outside. Step 2: Slice 57 shows an indoor arm wrestling match that ends with someone falling onto a bed. Step 3: Slice 59 shows outdoor playful throwing and wrestling on grass. Step 4: Slice 60 shows a tattooed shirtless man lying on the grass smiling/laughing. Conclusion: The video escalates and then resolves a series of friendly strength games.",
+        "logic_check_reasoning": "Step 1: Slice 56 describes two men playing tug-of-war outside, with a light-hearted mood. Step 2: Slice 57 shows an indoor arm wrestling match between two shirtless men, fitting the 'strength games' theme. Step 3: Slice 59 depicts outdoor playful throwing and wrestling on grass, continuing the physical rivalry. Step 4: Slice 60 features a shirtless man with visible tattoos lying on the grass laughing, matching the final scene described. Logic holds because the proposed answer mirrors these scenes in sequence and detail without adding unsupported claims.",
+        "visual_proof": "Clip 1 shows men playing tug-of-war outdoors. Clip 2 shows two men arm wrestling indoors on a bed. Clip 3 shows one man lifting and throwing another onto the grass, followed by them grappling. Clip 4 ends with a close-up of a tattooed man lying on his back on the grass, laughing."
+    },
+    {
+        "question": "How do the types of 'lifting a big rock' evolve from a simple outdoor rock overhead moment to historical Highland athletics to modern gym stone lifting?",
+        "answer": "It goes from a man lifting a large rock overhead outdoors, to archival Highland Games shot put footage, to modern strongman-style stone lifting in a gym.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            4,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a man holding a large rock over his head outdoors. Step 2: Slice 4 shows black-and-white Highland Games athletics (shot put). Step 3: Slice 44 shows modern stone lifting in an industrial gym (stone hoisted and placed on a platform). Conclusion: The video connects old and new strength traditions around heavy objects.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a man outdoors lifting a large rock overhead, matching the 'simple outdoor rock overhead moment.' Step 2: Slice 4 shows black-and-white archival footage of the Highland Games featuring shot put, fitting the 'historical Highland athletics' component. Step 3: Slice 44 presents a modern gym scene where a man lifts a heavy stone, consistent with 'modern strongman-style stone lifting.' Logic holds because each slice corresponds to the stages outlined in the proposed answer, showing a progression from outdoor rock lifting to historical athletics to modern gym stone lifting.",
+        "visual_proof": "Clip 1 shows a man outdoors lifting a large, round stone overhead. Clip 2 displays black-and-white archival footage of the Highland Games, with men in kilts participating in stone-throwing events. Clip 3 features a shirtless man in a modern gym setting, struggling to lift and carry heavy, irregularly shaped stones as part of a strength training session."
+    },
+    {
+        "question": "What sequence shows a shift from structured fitness content (a workout step label) to casual travel conversation in a car, and then to a strength facility arrival?",
+        "answer": "It shows 'Step 3 Workout,' then people chatting while driving in a car, and then the group arriving at the STOLTMAN STRENGTH CENTRE.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            32,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 31 displays 'Step 3 Workout' with workout footage. Step 2: Slice 32 shows two men talking while riding in a car. Step 3: Slice 33 shows them approaching the 'STOLTMAN STRENGTH CENTRE'. Conclusion: The narrative moves from workout framing to travel to the facility.",
+        "logic_check_reasoning": "Step 1: Slice 31 explicitly mentions an aerial view with the words 'Step 3 Workout,' indicating structured fitness content. Step 2: Slice 32 describes two men conversing while driving in a car, fitting the casual travel conversation. Step 3: Slice 33 shows individuals arriving at and entering the STOLTMAN STRENGTH CENTRE, indicating arrival at a strength facility. The proposed answer mirrors this progression exactly.",
+        "visual_proof": "Clip 1 opens with an aerial shot overlaid with the text 'STEP 3 WORKOUT'. Clip 2 shows four men inside a moving car, actively conversing. Clip 3 transitions to an exterior shot of a building with the sign 'STOLTMAN STRENGTH CENTRE' and shows the group arriving and entering."
+    },
+    {
+        "question": "Track the progression of the ocean segment: what title indicates a challenge, what action shows entry into the cold water, what POV shows swimming, and what later shot shows someone back on shore in a red jacket?",
+        "answer": "The challenge is 'STEP 1 POLAR PLUNGE'; the men run into the ocean; a POV view shows swimmers in the water; later a man in a red jacket is seen walking along the beach.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            11,
+            13,
+            14,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 11 introduces the segment with 'STEP 1 POLAR PLUNGE'. Step 2: Slice 13 shows the group running into the ocean at sunset. Step 3: Slice 14 provides an in-water POV of two swimmers. Step 4: Slice 15 shows a man in a red jacket walking along the beach afterward. Conclusion: The sequence goes from challenge label to plunge to swimming to post-swim shore scene.",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly shows the title card 'STEP 1 POLAR PLUNGE', indicating the challenge. Step 2: Slice 13 describes the men running into the ocean, which is the entry action. Step 3: Slice 14 shows a POV camera mounted on a swimmer, depicting swimming from a first-person perspective. Step 4: Slice 15 later shows a man walking along the beach wearing a red jacket, indicating someone back on shore. The sequence and details align logically across slices.",
+        "visual_proof": "Clip 1 displays the text 'STEP 1 POLAR PLUNGE'. Clip 2 shows multiple men running towards and entering the ocean. Clip 3 provides a first-person perspective of swimming in the water with other swimmers visible. Clip 4 concludes with a shot of a man wearing a red jacket walking on the beach."
+    },
+    {
+        "question": "How does the story progress from being in Scotland (with labeled landscapes) to arriving at a named strength facility and then training with heavy equipment inside?",
+        "answer": "It shows labeled Scottish landscapes, then the group approaches the STOLTMAN STRENGTH CENTRE, and then they train inside a workshop-like gym with heavy implements.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            33,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 8 labels the setting as Inverness, Scotland via aerial shot. Step 2: Slice 33 shows the group walking toward the 'STOLTMAN STRENGTH CENTRE'. Step 3: Slice 40 shows strength training inside an industrial/workshop gym environment. Conclusion: The timeline moves from location establishing shots to facility arrival to training.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows an aerial view of Inverness with on-screen text \"INVERNESS, SCOTLAND,\" establishing the labeled Scottish landscape. Step 2: Slice 33 shows a group walking toward a building labeled \"STOLTMAN STRENGTH CENTRE,\" clearly indicating arrival at a named strength facility, and also includes interior views with equipment. Step 3: Slice 40 depicts training in an industrial/workshop-like gym setting with heavy equipment (yellow frame labeled STOLTMAN, medicine ball, barbell, sled), confirming the training with heavy implements inside. Logic holds because the slices consecutively support the progression described.",
+        "visual_proof": "Clip 1 opens with an aerial shot of a landscape explicitly labeled 'INVERNESS, SCOTLAND'. Clip 2 transitions to men walking towards a building with a sign reading 'STOLTMAN STRENGTH CENTRE' and a mural featuring strongmen. Clip 3 shows these same individuals inside a large, industrial-looking space (a workshop/gym) performing exercises with heavy equipment like atlas stones and yoke bars."
+    }
+]

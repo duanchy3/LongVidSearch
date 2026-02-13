@@ -1,0 +1,50 @@
+[
+    {
+        "question": "How does the story use ‘arrival by car’ and ‘escape by car’ as bookends for danger at the large house?",
+        "answer": "A car’s arrival at a grand house signals entering danger, and later a man flees that danger by driving away in an SUV.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            55,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a car entering through an ornate gate toward a big house, building anticipation. Step 2: Slice 55 shows an attack outside a large house and a woman escaping by SUV. Step 3: Slice 48 shows a distressed man in a car at night, reinforcing car scenes as tense turning points. Conclusion: Car arrival frames entry into danger; car escape frames attempted survival afterward.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows a car arriving through an ornate gate and driving up a long driveway toward a large, stately house, with a somber, anticipatory mood, setting up potential danger. Step 2: Slice 55 shows explicit danger at a large house (an attack), after which a woman runs to a dark-colored SUV and drives away, clearly using the car to escape. Step 3: The pairing of arrival by car at the large house (Slice 10) and escape by car from the dangerous situation at the large house (Slice 55) supports the idea of these moments functioning as bookends around the danger at that location.",
+        "original_text_answer": "A car’s arrival at a grand house signals entering danger, and later a woman flees that danger by driving away in an SUV.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a car arriving at a large, imposing house through ornate gates, establishing the setting. Clip 2 shows a woman being attacked inside the house, confirming the danger. Clip 3 shows a man, not a woman, urgently getting into and driving an SUV away from the house at night, indicating his escape from the danger."
+    },
+    {
+        "question": "How does the blue-dressed woman’s role shift across scenes from distress to captivity to later being confronted by the green-sweater man while another man lies injured on the floor?",
+        "answer": "She begins distressed and tied as a captive in a grim room, then remains bound as the green-sweater man confronts her while another man, dressed in a light shirt and dark pants, is incapacitated nearby.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            45,
+            61,
+            66,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a woman in a blue dress seated and distressed opposite a man in white. Step 2: Slice 61 shows the blue-dressed woman holding a candle between two men, tension rising. Step 3: Slice 66 shows her tied to a chair, confirming captivity. Step 4: Slice 65 shows her still distressed while the green-sweater man stands over her and a suited man is down on the floor. Conclusion: Her arc intensifies from fear to imprisonment to being at the center of a controlled, violent standoff.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows two people seated facing each other in a dim room; one is a woman in a blue dress, and both appear distressed, supporting the initial 'distress' state. Step 2: Slice 66 shows the woman in the blue dress with her hands tied behind her back, indicating captivity, which matches the 'tied as a captive' portion. Step 3: Slice 65 shows the blue-dressed woman seated while a man in a green sweater stands nearby looking at her, and another man in a suit is on the floor, seemingly injured or incapacitated, aligning with 'confronted by the green-sweater man while a suited man is incapacitated nearby.' The sequence of roles from distress to captivity to confrontation is logically supported across slices.",
+        "original_text_answer": "She goes from distressed in a grim room to being tied as a captive and later remains central as the green-sweater man confronts her while a suited man is incapacitated nearby.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the woman in blue with her hands bound behind her back, looking distressed. Clip 2 and Clip 4 show her still bound while the man in the green sweater confronts her; the other man on the floor is wearing a light-colored button-down shirt and dark pants, not a suit. The blood stain near him suggests he is injured or incapacitated."
+    },
+    {
+        "question": "What throughline connects early holiday partying to later forced ‘truth’ revelations and violence, using the party scenes, the instruction note, and the gun incident?",
+        "answer": "A party atmosphere transitions into a rule-based game or challenge that drives confrontations and ultimately gun violence.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            7,
+            20,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a festive holiday party with friends drinking and socializing. Step 2: Slice 7 shows the group shifting into a serious game/ritual-like circle. Step 3: Slice 23 shows a written note tied to tense group discussion, suggesting rules/instructions. Step 4: Slice 20 shows the situation erupting into gun threats and blood. Conclusion: Social partying evolves into a dangerous rule/game dynamic that culminates in violence.",
+        "logic_check_reasoning": "Step 1: Slice 2 establishes an early holiday party atmosphere with festive decorations and social interactions, setting the initial tone. Step 2: Slice 7 shows the same party-like setting (string lights, warm tones, dancing) but introduces a serious, possibly rule-based activity (a circle around a girl holding a watermelon, described as possibly a game or ritual), indicating a transition from casual partying to structured engagement. Step 3: Slice 20 introduces a piece of paper with text described as a list or instructions, possibly related to a game or challenge, and then depicts escalating confrontation culminating in a gun being pointed and a violent outcome. Step 4: Slice 23 reinforces the instruction note and the tense group circle in a rustic room, consistent with a structured, rule-based scenario leading to suspense. Logic holds because the context explicitly shows: partying (Slices 2, 7), emergence of an instruction note tied to a possible game/challenge (Slices 20, 23), and subsequent confrontations and gun violence (Slice 20), forming a clear throughline from party to rule-driven conflict to violence.",
+        "visual_proof": "Clip 1 shows a festive party with characters like Chris, Gemma, Paul, Eleandor, and Luke. Clip 2 depicts a group gathered for a game, with a bottle on the floor suggesting a drinking game, and a woman in a white dress standing up as if to take her turn. Clip 3 shows a note titled 'TRUTH OR DARE BIRTHDAY' being held, confirming the nature of the game. This is followed by escalating tension, physical confrontation, and finally, one character pulling out a gun and shooting another. Clip 4 reinforces this narrative arc by showing the aftermath of the shooting and the isolated cabin at night, tying back to the initial party setting."
+    }
+]

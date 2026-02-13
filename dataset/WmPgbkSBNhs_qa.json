@@ -1,0 +1,152 @@
+[
+    {
+        "question": "After the man in the black tank top eats an orange snack bar at a gas station, what physical exercise is shown next, and what does the exerciser do immediately afterward?",
+        "answer": "Push-ups are shown next, and then the man drinks from a bottle.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a man in a black tank top eating an orange snack bar at a gas station. Step 2: Slice 5 shows a man doing push-ups and then drinking from a bottle. Conclusion: The next depicted activity is push-ups followed by drinking.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a man in a black tank top at a gas station eating an orange snack bar. Step 2: Slice 5 then shows a man doing push-ups, and afterward he stands up and drinks from a bottle. Logic holds because the question asks what exercise is shown next after the snack bar scene and what the exerciser does immediately after; Slice 5 explicitly states push-ups followed by drinking from a bottle.",
+        "visual_proof": "In Video 1, the man in the black tank top is seen eating an orange protein bar. In Video 2, which follows chronologically, a different man (in a grey t-shirt) is shown performing push-ups. Immediately after completing the push-ups, he picks up a Skittles-branded bottle and drinks from it."
+    },
+    {
+        "question": "Which clothing detail helps you identify the same long-haired man at the parking lot/car scene and again at the gas station, and what is he doing with food in the later scene?",
+        "answer": "He is wearing a black sleeveless Under Armour shirt; later he is eating an orange snack bar.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a long-haired man tied back wearing a black sleeveless Under Armour shirt beside a car. Step 2: Slice 4 shows a man in a black tank top emerging from a car at a gas station and eating an orange snack bar. Conclusion: The distinctive black sleeveless shirt links the person, and he eats the snack bar in the later scene.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a long-haired man wearing a black sleeveless shirt with an Under Armour logo next to a car. Step 2: Slice 4 shows a man in a black tank top (i.e., black sleeveless shirt) at a gas station, holding and eating an orange snack bar. Logic holds because the common clothing detail (black sleeveless/tank top) links the man across the two scenes, and Slice 4 explicitly states he is eating an orange snack bar.",
+        "visual_proof": "In both clips, the man with long hair is consistently seen wearing a black sleeveless shirt with the white Under Armour logo on the chest. In the second clip, he is shown holding and then eating an orange-wrapped protein bar, which is clearly visible in his hands before he takes a bite."
+    },
+    {
+        "question": "In the night sequence, what action does the masked man do to his face covering first, and what later action changes whether his face is visible?",
+        "answer": "He adjusts the mask for fit first, and later he removes the mask to reveal his face.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the man in a white hoodie adjusting his patterned face mask with both hands. Step 2: Slice 10 shows the same masked setup and then the man removes his mask. Conclusion: The mask goes from adjusted/covered to removed/face visible.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a man in a white hoodie and black mask with a white pattern adjusting his face mask with both hands, ensuring it fits properly. Step 2: Slice 10 describes the same man (white hoodie, black mask with white dots) later removing his face mask, revealing his face. Logic holds because the visual attributes match (white hoodie, black patterned mask, dim/night setting), and the actions are sequentially consistent: first adjustment, later removal changing face visibility.",
+        "visual_proof": "In Video 1 (0:02-0:03), the man is seen touching and adjusting his polka-dot mask with his hand. In Video 2 (0:05-0:08), the same man is shown without any mask, revealing his full face, beard, and mouth as he speaks."
+    },
+    {
+        "question": "What location is explicitly mentioned as a landmark on screen near the sunset mountain scenes, and what earlier sign on a rocky outcrop suggests the same general destination?",
+        "answer": "The landmark is 'Elijah's Basin,' and the earlier sign says 'Mount Sinai Awaits.'",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows hikers and a sign reading 'Mount Sinai Awaits.' Step 2: Slice 59 shows a wooden sign with Arabic writing that reads 'Elijah's Basin.' Conclusion: These connect to the Mount Sinai pilgrimage/climb context, with the explicit landmark being Elijah's Basin.",
+        "logic_check_reasoning": "Step 1: Slice 59 describes a sunset/sunrise mountain scene and explicitly mentions a wooden sign reading 'Elijah's Basin,' identifying a landmark near those scenes. Step 2: Slice 43 describes an earlier moment with people on a rocky outcrop and a sign reading 'Mount Sinai Awaits,' which suggests the destination. Logic holds because both phrases are explicitly present in the respective slices and correspond to the question's elements.",
+        "visual_proof": "In Clip 1, at timestamp 0:10, a text overlay clearly reads '04:30 PM | MOUNT SINAI AWAITS' against a mountainous backdrop. In Clip 2, at timestamp 0:03, a carved stone sign explicitly shows the text 'ELIJAH'S BASIN' in English, along with Arabic script, confirming it as a named landmark in the same mountainous, sunset setting."
+    },
+    {
+        "question": "How does the man’s clothing change from the beach scene where he puts on sunglasses to the later city driving scene where he is behind the wheel?",
+        "answer": "He goes from wearing a gray t-shirt and a snorkel mask around his neck at the beach to wearing an open floral shirt and sunglasses while sitting in the driver's seat of a jeep in the city.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows a man on a beach in a gray sweater who puts on sunglasses. Step 2: Slice 19 shows the driver wearing sunglasses and a floral shirt during a city drive. Conclusion: His outfit changes from gray sweater to floral shirt while still using sunglasses.",
+        "logic_check_reasoning": "Step 1: Slice 18 states the man at the beach is wearing a gray sweater and then puts on sunglasses. Step 2: Slice 19 states the man driving (behind the wheel) is wearing sunglasses and a floral shirt. Logic holds because the question asks about the change in clothing from the beach scene to the city driving scene, and the slices explicitly describe the clothing in each scene. The proposed answer matches these descriptions: gray sweater at the beach, floral shirt and sunglasses while driving.",
+        "original_text_answer": "He goes from a gray sweater at the beach to wearing a floral shirt and sunglasses while driving in the city.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the man is on the beach wearing a gray speckled t-shirt, not a sweater. He puts on a snorkel mask, not sunglasses. In Clip 2, he is in a jeep wearing an open white and green floral shirt and sunglasses. The original answer incorrectly identifies the first garment as a 'sweater' and misstates that he was putting on 'sunglasses' at the beach."
+    },
+    {
+        "question": "What lodging-related setting is shown when the man walks down a dim hallway with a backpack, and what later scene shows him participating in a social meal in a similar indoor upscale setting?",
+        "answer": "He is in a hotel-like hallway first, and later he is at a group dining table making a toast during a meal.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            71,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 71 shows a man in a white hoodie with a backpack walking down a dim hallway typical of a hotel. Step 2: Slice 73 shows the man at a table with others raising cups in a toast. Conclusion: The hotel corridor precedes a group meal/toast scene.",
+        "logic_check_reasoning": "Step 1: Slice 71 describes a man in a white hoodie with a backpack walking down a dim hallway that appears to be in a hotel or similar establishment, indicating a lodging-related setting. Step 2: Slice 73 shows the man in a white hoodie at a table with others, all making a toast, clearly indicating participation in a social meal. Logic holds because both scenes involve the same described individual and the proposed answer matches the settings: a hotel-like hallway first and later a group dining table with a toast.",
+        "visual_proof": "Clip 1 shows the man walking down a dimly lit, carpeted hallway with wall sconces and doors, typical of a hotel. Clip 2 shows him seated at a long, formally set table with other people in a well-lit, upscale restaurant or dining room, where they are clinking coffee cups in a toast."
+    },
+    {
+        "question": "Track the narrator’s attire across major phases: what does he wear while talking shirtless from a balcony overlooking a pool, what does he wear later while addressing the camera on a sunset mountain summit, and what layered outfit does he wear during the rocky dusk scene with the moon visible?",
+        "answer": "He is shirtless on the balcony, later he wears a black hoodie on the sunset mountain summit, and later he wears a plaid shirt layered over a hoodie with the hood up in the rocky dusk scene.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            16,
+            58,
+            62,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows him shirtless on a balcony overlooking a pool in daylight. Step 2: Slice 58 shows him in a black hoodie speaking on a mountain top at sunset. Step 3: Slice 62 shows him wearing a plaid shirt over a hoodie with the hood up in a rocky landscape with the moon visible. Step 4: Slice 69 shows him in a light-colored hoodie walking in a hotel hallway, reinforcing clothing changes across phases. Conclusion: His attire evolves from shirtless resort relaxation to hooded summit narration to layered cold-weather clothing in rocky dusk conditions.",
+        "logic_check_reasoning": "Step 1: Slice 16 states the man is shirtless on a balcony overlooking a pool, supporting the first part. Step 2: Slice 58 states the man is wearing a black hoodie on a mountain top at sunset while speaking to the camera, supporting the second part. Step 3: Slice 62 states the man is wearing a plaid shirt layered over a hoodie with the hood up in a rocky landscape at dawn/dusk with the moon visible, supporting the third part. All elements align with the proposed answer.",
+        "visual_proof": "Clip 1 shows the man shirtless on a balcony. Clip 2 shows him on a mountain summit at sunset wearing a black hoodie with the hood up. Clip 3 shows him in a rocky area at dusk, wearing a plaid shirt over a dark hoodie with the hood still up, with the moon visible in the sky."
+    },
+    {
+        "question": "Identify the contrasting emotional beats: what scene shows a supportive moment where one man helps another who looks unwell, and what later scene shows a relaxed celebration where a group raises beer bottles together on the beach?",
+        "answer": "A man supports a distressed long-haired man in the desert, and later a group toasts with beer bottles on the beach at dusk.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            52,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 52 shows one man supporting another who is holding his head and appears distressed. Step 2: Slice 38 shows a group on a beach at dusk raising beer bottles in a toast. Conclusion: The mood shifts from concern/support to relaxed celebration.",
+        "logic_check_reasoning": "Step 1: Slice 52 describes two men in a desert where one, with hair tied back and in distress, is being supported by another man—this clearly matches a supportive moment where one man helps another who looks unwell. Step 2: Slice 38 describes a group on a beach at dusk raising beer bottles in a toast, capturing a relaxed, celebratory atmosphere. Logic holds because each part of the proposed answer corresponds directly to these slices: distressed support in the desert (Slice 52) and relaxed beach toast (Slice 38). While the chronology ('later') isn’t explicitly stated, the identification of the two contrasting scenes is fully supported.",
+        "visual_proof": "Clip 1 shows a man in a black hoodie standing close to another man with long hair tied back, who appears distressed, rubbing his forehead while walking through a rocky desert landscape. Clip 2 shows a group of people on a beach at dusk, raising green glass beer bottles in a toast, smiling and interacting socially."
+    },
+    {
+        "question": "Which two very different modes of travel are shown: first the man boarding public transport early in the journey and later a man standing in an open vehicle enjoying a desert ride?",
+        "answer": "First he boards a bus, and later he rides in an open-top vehicle (like a jeep/convertible) through the desert.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the man boarding a bus in a parking lot. Step 2: Slice 28 shows a shirtless man in sunglasses riding in an open-top vehicle through a desert landscape. Conclusion: Travel shifts from bus transport to open-top desert vehicle riding.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly states that the man \"boards a bus\" in a parking lot, indicating public transport early in the journey. Step 2: Slice 28 describes a man \"riding in an open-top vehicle, likely a convertible or a jeep,\" through a desert, conveying a later segment with an open vehicle ride. Logic holds because these two slices depict two distinct modes of travel: bus vs. open-top jeep/convertible. The proposed answer matches both slices.",
+        "visual_proof": "In clip 1, at 0:08-0:10, a man is shown boarding a white van or minibus, which is a form of public transport. In clip 2, at 0:00-0:02, a different man is seen standing shirtless in the back of an open-top vehicle, likely a jeep, with a desert landscape visible in the background, indicating a desert ride."
+    },
+    {
+        "question": "How is the same 'white hoodie' traveler portrayed in three different contexts: first outdoors at night, then inside a shop, and later in a hotel-like hallway with a backpack?",
+        "answer": "He is outdoors at night speaking/reacting, then inside a convenience store browsing items, and later walking down a hotel hallway smiling while wearing the white hoodie and carrying a backpack.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            71,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows the man in a white hoodie outdoors at night and then inside a convenience store browsing. Step 2: Slice 14 shows a white-hoodie man approaching the camera near a pool at night. Step 3: Slice 71 shows a man in a white hoodie with a backpack walking down a dim hallway. Conclusion: The recurring white hoodie visually tracks the same traveler across night outdoors, indoor shopping, and hotel corridors.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes a man in a white hoodie outdoors at night, speaking/reacting. Step 2: The same slice transitions to the man inside a convenience store browsing/selecting items. Step 3: Slice 71 shows a man wearing a white hoodie and carrying a backpack walking down a hotel-like hallway and smiling. Logic holds because the consistent visual attribute (white hoodie) ties the contexts together, and the actions match the proposed answer.",
+        "visual_proof": "Clip 1 shows him outdoors at night speaking (0:00-0:01), then inside a shop with shelves of goods, examining items (0:02-0:07). Clip 2 shows him in a well-lit hallway with wall sconces, wearing the same white hoodie and a backpack, smiling as he walks (0:02). This matches the three contexts described in the answer."
+    },
+    {
+        "question": "What sequence best summarizes the Mount Sinai climb setup: what sign warns of the destination, what on-screen text indicates the scale of the climb, what named landmark appears on a wooden sign later, and what sacred site name appears afterward?",
+        "answer": "The sign says 'Mount Sinai Awaits,' the on-screen text says '750 climbing steps ahead,' the named landmark is 'Elijah's Basin,' and the sacred site is 'Saint Catherine's Monastery.'",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            43,
+            55,
+            59,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows a sign reading 'Mount Sinai Awaits.' Step 2: Slice 55 shows the climb context with the overlay '750 climbing steps ahead.' Step 3: Slice 59 shows the wooden sign labeled 'Elijah's Basin.' Step 4: Slice 47 displays the text 'SAINT CATHERINE'S MONASTERY.' Conclusion: These elements collectively frame the Mount Sinai ascent and associated landmarks/sites.",
+        "logic_check_reasoning": "Step 1: Slice 43 states a person holds a sign reading 'Mount Sinai Awaits,' satisfying the destination warning. Step 2: Slice 55 explicitly shows on-screen text '750 climbing steps ahead,' indicating the climb's scale. Step 3: Slice 59 shows a wooden sign reading 'Elijah's Basin,' providing the named landmark. Step 4: Slice 47 shows text 'SAINT CATHERINE'S MONASTERY' when showcasing the monastery, fulfilling the sacred site name that appears afterward. All elements align with the proposed answer.",
+        "visual_proof": "Clip 1 shows a sign reading 'MOUNT SINAI AWAITS' at 0:03. Clip 2 displays on-screen text '750 climbing steps ahead' at 0:05. Clip 3 features a stone marker with 'ELIJAH'S BASIN' engraved at 0:01. Clip 4 concludes with on-screen text identifying 'SAINT CATHERINE'S MONASTERY' at 0:11. All elements are visually present in sequence."
+    }
+]

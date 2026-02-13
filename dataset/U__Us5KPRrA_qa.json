@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What show title is displayed at the very beginning, and who is later identified on-screen as the host of that show?",
+    "answer": "The show is titled \"Heart of the Matter,\" and the host identified later is Steven Chia.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      2
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows the title screen for the podcast/show \"HEART OF THE MATTER\". Step 2: Slice 2 shows a close-up with an overlay identifying \"Steven Chia\" as the host of \"Heart of the Matter.\" Conclusion: The title is Heart of the Matter and the host is Steven Chia.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 states the video begins with a title screen displaying 'HEART OF THE MATTER PODCAST - EDUCATION AND AWARENESS MATTER MORE WHEN DEALING WITH CASUAL RACISM,' indicating the show is 'Heart of the Matter' (with 'Podcast' noted as the format). Step 2: Evidence Slice 2 mentions the show is titled 'Heart of the Matter' and explicitly notes a text overlay identifying 'Steven Chia, HOST, HEART OF THE MATTER.' Logic holds because the beginning confirms the show title and later on-screen identification confirms the host as Steven Chia.",
+    "visual_proof": "In Clip 1, the on-screen text at 0:01 clearly displays \"HEART OF THE MATTER PODCAST\". In Clip 2, the on-screen graphic at 0:04 identifies \"Steven Chia\" as the \"HOST, HEART OF THE MATTER\"."
+  },
+  {
+    "question": "A guest is shown in a black leather jacket and brown boots in a two-person interview setup; in a later wide group panel shot, what distinctive footwear is he wearing?",
+    "answer": "Yellow boots.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      16
+    ],
+    "reasoning_chain": "Step 1: Slice 3 shows the guest in a leather jacket and brown boots in a two-person setup. Step 2: Slice 16 shows the same leather-jacket guest in the group shot, now clearly described with yellow boots. Conclusion: His distinctive footwear in the group shot is yellow boots.",
+    "logic_check_reasoning": "Step 1: Slice 3 describes a two-person interview where the person on the right is wearing a leather jacket and brown boots. Step 2: Slice 16 describes a later group panel where Participant 2 is wearing a black leather jacket and yellow boots. Logic holds because the leather jacket identifies the same guest across slices, and the later shot explicitly notes yellow boots.",
+    "visual_proof": "In the first clip, the guest on the right is wearing a black leather jacket and distinctive bright yellow/tan work boots. In the second, wider shot, the same guest is visible in the same outfit, including the same yellow boots, confirming the footwear across both scenes."
+  },
+  {
+    "question": "In the full group discussion layout, which prop sits on the small round table, and in a later end-credit segment, what is viewers’ call-to-action for full episodes?",
+    "answer": "A decorative globe; viewers are encouraged to listen to full episodes on CNA.ASIA/LISTEN (and podcast platforms).",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      16,
+      92
+    ],
+    "reasoning_chain": "Step 1: Slice 16 describes a small round table with a decorative globe between the seats. Step 2: Slice 92 shows the end segment promoting listening to full episodes at CNA.ASIA/LISTEN and on platforms. Conclusion: The table has a globe, and the CTA is to listen to full episodes via CNA.ASIA/LISTEN.",
+    "logic_check_reasoning": "Step 1: Slice 16 explicitly states that a small round table sits between the couch and chairs and has a decorative globe and a few books on it. Therefore, the prop on the table is a decorative globe. Step 2: Slice 92 explicitly mentions an end-credit promotional segment encouraging viewers to listen to full episodes on CNA.ASIA/LISTEN, with logos for platforms like Spotify and Google Podcasts, which supports the call-to-action described. Logic holds because both details are directly stated in the provided slices and align with the proposed answer.",
+    "visual_proof": "In Clip 1, a small round table is visible between the two couches, and a decorative globe sits prominently on its surface. In Clip 2, during the end-credit segment, a final screen displays the text 'Listen to full podcast episodes: CNA.ASIA/LISTEN' along with logos for various podcast platforms."
+  },
+  {
+    "question": "At the start, the topic highlights dealing with casual racism; later, what on-screen credits confirm this was produced as a formal podcast episode with a named host and producers?",
+    "answer": "The credits show host Steven Chia and producers Junaini Johari and Tiffany Ang (plus other production roles).",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      92
+    ],
+    "reasoning_chain": "Step 1: Slice 1 frames the episode’s theme about education/awareness and casual racism. Step 2: Slice 92 displays production credits naming the host and producers, confirming it is a produced podcast episode. Conclusion: The credits identify Steven Chia as host and Junaini Johari/Tiffany Ang as producers.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 states the opening title highlights dealing with casual racism, confirming the topic. Step 2: Evidence Slice 92 explicitly lists on-screen credits, naming the host (Steven Chia) and producers (Junaini Johari and Tiffany Ang), along with other roles. Logic holds because the question asks what credits later confirm it as a formal podcast with named host and producers, and Slice 92 provides those names directly.",
+    "visual_proof": "Clip 1 (0:02-0:05) displays the on-screen text 'HEART OF THE MATTER PODCAST - EDUCATION AND AWARENESS MATTER MORE WHEN DEALING WITH CASUAL RACISM'. Clip 2 (0:09-0:12) then shows the on-screen credits identifying 'HOST Steven Chia' and 'PRODUCERS Junaini Johari, Tiffany Ang', confirming the formal podcast production details."
+  },
+  {
+    "question": "The leather-jacket guest is shown in a solo close-up with a plant on a shelf; later, in a two-person interview setup, what object does the interviewer hold while listening to him?",
+    "answer": "A clipboard (or tablet/clipboard used as notes).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      12,
+      18
+    ],
+    "reasoning_chain": "Step 1: Slice 12 shows the leather-jacket guest in close-up with a plant on a shelf nearby. Step 2: Slice 18 shows a two-person setup where the interviewer in a patterned shirt holds a clipboard while listening. Conclusion: The interviewer holds a clipboard/notes.",
+    "logic_check_reasoning": "Step 1: Slice 12 describes the leather-jacket guest in a solo close-up with a plant on a shelf, establishing the scene. Step 2: Slice 18 shows the two-person interview setup and explicitly states that the man on the right (the interviewer) is holding a clipboard while listening. Therefore, the object the interviewer holds is a clipboard, which matches the proposed answer.",
+    "visual_proof": "In the second clip, at timestamp 0:01, the interviewer on the left is clearly holding a black, flat, rectangular object that resembles a clipboard or tablet. He is looking at the guest while holding it in his lap, consistent with using it for notes during the interview."
+  },
+  {
+    "question": "Which participant is identified by title as 'Head of IPS Social Lab' and later is seen seated on a couch in multi-person panel shots wearing the same brown shirt style?",
+    "answer": "Dr. Mathew Mathews.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      16
+    ],
+    "reasoning_chain": "Step 1: Slice 8 identifies Dr. Mathew Mathews as Head of IPS Social Lab and shows him in a brown shirt speaking into a mic. Step 2: Slice 16 includes a brown-shirt participant on the couch in the group panel configuration. Conclusion: The titled guest is Dr. Mathew Mathews.",
+    "logic_check_reasoning": "Step 1: Slice 8 explicitly identifies Dr. Mathew Mathews as the Head of IPS Social Lab and describes him wearing a brown shirt, speaking into a microphone with engaged gestures. Step 2: Slice 16 shows a multi-person panel where Participant 3, seated on the couch, is wearing a brown shirt and is actively speaking with hand gestures. Logic holds because the distinctive brown shirt and similar speaking/gesture context align, supporting that the person later seen on the couch is the same individual identified earlier as Dr. Mathew Mathews.",
+    "visual_proof": "In Clip 1, a text overlay explicitly identifies the speaker as 'Dr Mathew Mathews, HEAD, IPS SOCIAL LAB'. In Clip 2, the same individual is seen seated on the couch in a multi-person panel, wearing the identical brown button-up shirt, confirming his identity and role across both clips."
+  },
+  {
+    "question": "Across the video, which two participants most consistently appear together in the couch two-shot format, and what are their typical outfit colors?",
+    "answer": "The brown-shirt speaker and the light-blue-jacket/blazer participant; one wears a brown shirt and the other wears a light blue jacket/blazer over a white shirt.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      27,
+      32,
+      84
+    ],
+    "reasoning_chain": "Step 1: Slice 27 shows a two-person couch shot with a brown shirt on the left and a light blue jacket over white on the right. Step 2: Slice 32 repeats the same pairing and outfit colors. Step 3: Slice 84 again shows the same two-shot with the same color pairing. Conclusion: The recurring couch duo is brown-shirt speaker + light-blue-jacket/blazer participant.",
+    "logic_check_reasoning": "Step 1: Slice 27 describes two individuals together on a couch, one in a brown button-up shirt and the other in a light blue jacket over a white shirt. Step 2: Slice 32 reiterates the same pairing and outfits—brown shirt on the left and light blue jacket over white shirt on the right. Step 3: Slice 84 again shows the same two men together on the couch with the same outfit colors. Logic holds because multiple slices consistently depict the same two participants in the couch two-shot with the specified outfits.",
+    "visual_proof": "All three clips consistently show the same two men seated on a couch. The man on the left is wearing a solid brown button-down shirt. The man on the right is wearing a light blue jacket or blazer over a white t-shirt. Their outfits and positions remain unchanged across all clips, confirming they are the consistent participants in this two-shot format."
+  },
+  {
+    "question": "Which guest is introduced with an on-screen lower-third as an undergraduate, and later is shown in multiple close-ups gesturing in a black leather jacket with a plant on a shelf nearby?",
+    "answer": "Aamir Bana.",
+    "category": "Visual_Tracking",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      6,
+      12,
+      68
+    ],
+    "reasoning_chain": "Step 1: Slice 6 introduces Aamir Bana (undergraduate) in a black leather jacket. Step 2: Slice 12 shows a close-up of the same leather-jacket guest gesturing, with a plant on a shelf. Step 3: Slice 68 again shows the leather-jacket guest with the plant on a small shelf in the minimalist setup. Conclusion: The undergraduate guest is Aamir Bana.",
+    "logic_check_reasoning": "Step 1: Slice 6 explicitly identifies the guest as Aamir Bana, an undergraduate from Yale-NUS College, noting a lower-third with his name and affiliation and describing him in a black leather jacket with greenery to the right. Step 2: Slices 12 and 68 depict the same visual setup—man in a black leather jacket, gesturing enthusiastically, with a green plant on a small wooden shelf to his right in a minimalist studio—consistent with the subject in Slice 6. Logic holds because the attire, setting, and actions match across slices, and Slice 6 provides the name tied to the lower-third undergraduate introduction.",
+    "visual_proof": "Clip 1 (0:01-0:04) clearly displays a lower-third graphic identifying the guest as 'Aamir Bana, UNDERGRADUATE, YALE-NUS COLLEGE'. In all three clips, the same individual is shown wearing a black leather jacket and gesturing while speaking into a microphone. A green plant on a shelf is consistently visible to his right throughout all clips."
+  },
+  {
+    "question": "Compare how the leather-jacket guest is framed over time: first in a two-person setup opposite an interviewer with a tablet, then later in a four-person panel. What stays consistent about his outfit across both contexts?",
+    "answer": "He continues wearing a black leather jacket with jeans and boots.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      20,
+      52,
+      59
+    ],
+    "reasoning_chain": "Step 1: Slice 20 shows the guest in a dark jacket with jeans and distinctive boots speaking opposite an interviewer holding a tablet. Step 2: Slice 52 shows the same pairing with the guest in a black leather jacket, jeans, and boots. Step 3: Slice 59 shows the four-person group where the second person wears a black leather jacket, jeans, and boots. Conclusion: His leather jacket + jeans + boots remain consistent.",
+    "logic_check_reasoning": "Step 1: Slice 52 describes a two-person interview where the guest on the right is wearing a black leather jacket, light blue jeans, and brown boots. The interviewer holds a tablet, confirming the setup. Step 2: Slice 59 describes a four-person panel where the second individual from the left is wearing a black leather jacket, light blue jeans, and brown boots. Logic holds because both slices explicitly identify the same outfit elements for the leather-jacket guest across both contexts.",
+    "visual_proof": "In Clip 1 and Clip 2 (two-person setup), the guest is clearly visible in a black leather jacket, light blue jeans, and tan boots. In Clip 3 (four-person panel), he is shown in the same outfit: the identical black leather jacket, light blue jeans, and tan boots. The consistency of his attire across both the two-person and four-person framing is visually verifiable."
+  },
+  {
+    "question": "Track the host’s note-taking materials over time: early he is shown holding paper while introducing the show, later he moderates with a tablet/clipboard in the group, and the credits finally name him. What is his name and how do his note materials change across these moments?",
+    "answer": "Steven Chia; he goes from holding a piece of paper to using a tablet/clipboard-style notes device, and is named again in the credits.",
+    "category": "State_Mutation",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      2,
+      4,
+      52,
+      92
+    ],
+    "reasoning_chain": "Step 1: Slice 2 shows Steven Chia in close-up with a piece of paper. Step 2: Slice 4 shows a similar read-from-paper style in the studio format, reinforcing the use of printed notes early on. Step 3: Slice 52 shows the interviewer/host holding a tablet in a two-person setup. Step 4: Slice 92 credits Steven Chia as host. Conclusion: The host is Steven Chia; his notes shift from paper to a tablet/clipboard, and the credits confirm his role.",
+    "logic_check_reasoning": "Step 1: Slice 2 explicitly identifies the host as Steven Chia and shows him introducing the show while holding a piece of paper. Step 2: In the group discussion, Slice 52 describes the man on the left (the interviewer/moderator) holding a tablet, and Slice 2 Scene 1 also notes the leftmost man holding a notepad/pen—consistent with the host moderating and using a tablet/clipboard-style notes device. Step 3: Slice 92 states that text overlays/credits name the host as Steven Chia. Logic holds because the host is identified by name, shown first with paper, later moderating with a tablet/notepad, and then named again in credits.",
+    "visual_proof": "In Clip 1 (0:03-0:07) and Clip 2, the host is shown holding and reading from a white sheet of paper. In Clip 4 (0:00-0:08), he is seen holding a black tablet or clipboard while moderating the group discussion. The credits in Clip 4 (0:09-0:11) explicitly name him as 'HOST Steven Chia'."
+  },
+  {
+    "question": "The leather-jacket guest appears in both solo close-ups and group panels. Using clothing and set details (plant on shelf, minimalist gray wall), identify which guest it is, and name two different contexts he appears in.",
+    "answer": "It is the black-leather-jacket guest (Aamir Bana); he appears in solo close-ups and in a four-person panel discussion.",
+    "category": "Visual_Tracking",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      6,
+      14,
+      57,
+      72
+    ],
+    "reasoning_chain": "Step 1: Slice 6 introduces Aamir Bana wearing a black leather jacket. Step 2: Slice 14 shows the same leather-jacket guest in a minimalist studio with a plant on a shelf. Step 3: Slice 57 shows him again in a two-person interview context opposite another interviewer. Step 4: Slice 72 shows him in the four-person panel wearing the leather jacket over a red shirt. Conclusion: The recurring leather-jacket guest is Aamir Bana, appearing in solo close-ups and in group panel discussions.",
+    "logic_check_reasoning": "Step 1: Slice 6 explicitly identifies Aamir Bana and describes him wearing a black leather jacket in a minimalist setting with a dark gray wall and some greenery, indicating a solo interview/close-up context. Step 2: Slice 14 shows a solo setting with a man in a black leather jacket speaking into a microphone, with a potted plant on a shelf—matching the set detail. While not named, the attire and setting are consistent with Slice 6. Step 3: Slice 72 shows a four-person panel where the second person from the left is wearing a black leather jacket and light blue jeans, consistent with the leather-jacket guest across slices. Step 4: The clothing and set details (plant on shelf, minimalist gray wall) tie the appearances together, supporting identification as the leather-jacket guest (Aamir Bana) appearing in both solo close-ups and a four-person panel discussion.",
+    "visual_proof": "Clip 1 and Clip 2 show the man in the black leather jacket in solo close-up shots, with on-screen text identifying him as 'Aamir Bana'. Clip 4 shows him seated in a group of four men, confirming his presence in a panel discussion. The consistent set details, including the large green plant on a shelf and the minimalist gray wall, are visible across all clips, linking them to the same recording session."
+  }
+]

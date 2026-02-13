@@ -1,0 +1,152 @@
+[
+    {
+        "question": "What cozy seasonal item appears both next to a laptop during movie-watching and later on a kitchen counter while ingredients are being prepared?",
+        "answer": "A lit candle.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a laptop set up with a lit candle nearby. Step 2: Slice 61 shows a kitchen counter with a lit candle labeled 'Autumn Mood' during ingredient prep. Conclusion: The repeated cozy seasonal item is a lit candle.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a laptop with a lit candle and a pumpkin nearby during a movie/TV scene, indicating the candle is present in the movie-watching setup. Step 2: Slice 61 describes a kitchen counter scene with autumnal decorations, explicitly including a lit candle labeled 'Autumn Mood,' while a person prepares ingredients. Logic holds because both slices explicitly mention a lit candle present in the respective contexts.",
+        "visual_proof": "In Video 1, a lit candle labeled 'Pumpkin Spice' is clearly visible on a wooden tray next to the MacBook Air. In Video 2, a different lit candle labeled 'Autumn Mood' is shown on the kitchen counter next to a pumpkin and other fall decor. Both clips feature a lit candle as a central cozy, seasonal element in their respective scenes."
+    },
+    {
+        "question": "Which clothing item is first shown being held up for display and later shown being put on by the woman?",
+        "answer": "A brown sweater.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows the woman holding up a brown sweater to showcase it. Step 2: Slice 11 shows her putting on a brown sweater and adjusting it. Conclusion: The item displayed and then worn is the brown sweater.",
+        "logic_check_reasoning": "Step 1: Slice 10 states the woman is holding up a brown sweater, adjusting and showcasing its design. Step 2: Slice 11 states the woman is putting on a brown sweater, adjusting it over her shoulders and torso. Logic holds because both slices describe the same type and color of garment (brown sweater) with consistent context, first being displayed, then being worn.",
+        "visual_proof": "In Clip 1, the woman holds up a brown knitted sweater with a V-neck and textured pattern for display. In Clip 2, she is seen putting on that same brown sweater over her white top and beige pants, confirming it is the item shown in both clips."
+    },
+    {
+        "question": "What decorative object is visible in the talking-to-camera room and also appears as a prominent food/seasonal prop during serving food?",
+        "answer": "A pumpkin.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the indoor talking setup with shelves including pumpkins. Step 2: Slice 72 shows serving food on a counter with a pumpkin present. Conclusion: The shared decorative/seasonal object is a pumpkin.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a talking-to-camera room with shelves that include pumpkins, indicating pumpkins are visible as decor. Step 2: Slice 72 describes a serving scene on a kitchen counter that includes a pumpkin among the items, making it a seasonal prop present during the food serving. Logic holds because the same decorative object—pumpkin—appears in both contexts.",
+        "visual_proof": "In Video 1, a small orange pumpkin is clearly visible on a white side table to the left of the speaker. In Video 2, a larger orange pumpkin is prominently displayed on the kitchen counter next to the serving plate and candle, acting as a seasonal prop during the food serving scene."
+    },
+    {
+        "question": "Which ingredient is first placed on a cloth on the countertop and later shown being sliced open with seeds removed?",
+        "answer": "A red bell pepper.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            61,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows a red bell pepper being placed on a cloth on the counter. Step 2: Slice 62 shows a red bell pepper being cut and deseeded. Conclusion: The ingredient is a red bell pepper.",
+        "logic_check_reasoning": "Step 1: Slice 61 states that a person enters holding a red bell pepper and places it on a cloth on the countertop, before adding two green bell peppers. Step 2: Slice 62 shows a person slicing a red bell pepper open and removing its seeds. Logic holds because the same ingredient (red bell pepper) is first placed on the cloth and later shown being sliced with seeds removed.",
+        "visual_proof": "In the first clip (0:08-0:09), a person places a red bell pepper onto a cloth on the countertop. In the second clip (0:01-0:04), the same red bell pepper is shown being sliced open and its seeds are being removed by hand, confirming it is the ingredient that matches the description."
+    },
+    {
+        "question": "What cooking component is shown being poured into a colander before the meal is later plated as a chunky red dish?",
+        "answer": "Black beans.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            64,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows black beans being poured into a colander. Step 2: Slice 72 shows a chunky red dish being served from a pan onto a plate. Conclusion: The beans prepped earlier are black beans, a component of the later plated dish.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 64 explicitly states a person is pouring a can of black beans into a white colander. Step 2: Evidence Slice 72 shows a later scene where a chunky red dish is being plated. Logic holds because the question asks which component was poured into a colander before the later plating; Slice 64 clearly identifies that component as black beans.",
+        "visual_proof": "In the first clip, a can labeled 'BLACK BEANS' is explicitly shown being emptied into a colander. The second clip shows the final plated meal, which is a chunky red dish consistent with a chili or stew containing beans, confirming the black beans were an ingredient in the final dish."
+    },
+    {
+        "question": "How does the ingredient handling progress from peppers on the counter to the pan, and what is the final kind of dish served afterward?",
+        "answer": "Peppers are placed out and chopped, then added into the pan; the result is served as a chunky chili-like dish over fries.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            61,
+            66,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows peppers (red and green) placed on the counter as prep begins. Step 2: Slice 66 shows chopped vegetables being poured into a frying pan. Step 3: Slice 72 shows the cooked chunky red mixture being served onto a plate with fries. Conclusion: The peppers are prepped then added to the pan, producing a chili-like dish served over fries.",
+        "logic_check_reasoning": "Step 1: Slice 61 shows a person placing a red bell pepper and two green bell peppers on the countertop, indicating peppers are being prepared. Step 2: Slice 66 shows chopped vegetables including bell peppers on a cutting board being poured into a frying pan, confirming the peppers were chopped and added to the pan. Step 3: Slice 72 shows a chunky red sauce being served from a large pan onto fries, described as possibly a chili or stew, which supports calling it a chili-like dish over fries. The sequence from counter to chopped peppers to pan, and then serving a chunky sauce over fries, is coherently supported.",
+        "visual_proof": "Clip 1 shows whole peppers being placed on the counter. Clip 2 shows chopped peppers being added to a pan with other ingredients. Clip 3 shows the final cooked dish, which is a chunky, stew-like mixture, being served onto a plate next to french fries."
+    },
+    {
+        "question": "Across the dressing sequence, what bottoms does the woman fasten first, and what different bottoms does she fasten later?",
+        "answer": "First beige pants, later black jeans.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            11,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows beige pants being buttoned. Step 2: Slice 11 shows the woman wearing beige pants while putting on a brown sweater. Step 3: Slice 19 shows black jeans being buttoned. Conclusion: She fastens beige pants first and black jeans later.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows a person fastening the button on beige pants, indicating beige pants are fastened first. Step 2: Slice 11 shows the woman wearing beige pants afterward, supporting continuity. Step 3: Slice 19 shows a person fastening black jeans later. Logic holds because the slices depict a sequence: first beige pants are buttoned, then later black jeans are buttoned; the setting and actions align despite minor naming differences.",
+        "visual_proof": "Clip 1 shows the woman fastening beige high-waisted pants. Clip 3 shows her fastening black high-waisted jeans. The sequence of clips implies a temporal order where the beige pants are fastened before the black jeans."
+    },
+    {
+        "question": "What ingredient is first shown being sautéed in a pan and later becomes part of the fuller mixture after chopped vegetables are added?",
+        "answer": "Garlic.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            64,
+            65,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows garlic being added to a pan on the stove. Step 2: Slice 65 shows the garlic being stirred and sautéed in oil. Step 3: Slice 66 shows chopped vegetables being poured into the pan that already contains ingredients. Conclusion: Garlic is sautéed first and becomes part of the base for the later mixed dish.",
+        "logic_check_reasoning": "Step 1: Slice 64 states that garlic is added to a black pan on the stove. Step 2: Slice 65 shows finely chopped garlic being sautéed in oil in the pan. Step 3: Slice 66 shows chopped vegetables being added to the pan that already contains sautéed ingredients, implying the garlic remains as part of the fuller mixture. The sequence logically connects garlic being sautéed first and then included when vegetables are added.",
+        "visual_proof": "Clip 1 (0:05-0:08) shows minced garlic being pressed into a hot wok with oil. Clip 2 (0:00-0:03) shows the same garlic being stirred and sautéed in the wok. Clip 3 (0:03-0:06) shows chopped vegetables being added to the wok, which already contains the sautéed garlic and beans, confirming the garlic was the first ingredient cooked and became part of the fuller mixture."
+    },
+    {
+        "question": "What is the full progression of toppings added to the meal from being incorporated into the pan to being added on the plate and finally finished at the table?",
+        "answer": "A creamy white ingredient is mixed into the pan, then a white topping is spooned onto the served bowl, and finally cheese is grated over it.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            71,
+            74,
+            75,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 71 shows a white creamy ingredient added into the pan and stirred into the chili. Step 2: Slice 74 shows a white sauce/topping spooned onto the served bowl with fries. Step 3: Slice 75 shows cheese being grated over the dish. Step 4: Slice 76 shows continued grating with the completed table setup including salads. Conclusion: The topping progression is pan-incorporated cream, plated white topping, then grated cheese at the table.",
+        "logic_check_reasoning": "Step 1: Slice 71 shows a white, creamy ingredient (likely sour cream or yogurt) being added to and stirred into the simmering mixture in the pan, supporting 'a creamy white ingredient is mixed into the pan.' Step 2: Slice 74 shows a white sauce being spooned and spread over a served bowl of chili and fries, supporting 'then a white topping is spooned onto the served bowl.' Step 3: Slices 75 and 76 show cheese being grated over the bowl at the table, with Slice 76 confirming the dish is chili and fries in a cozy setting, supporting 'finally cheese is grated over it.' The sequence is consistent across slices, and minor description noise does not affect the action sequence.",
+        "visual_proof": "Clip 1 shows a hand mixing a white, creamy substance (likely sour cream or yogurt) into the chili in the pan. Clip 2 shows a hand spooning a similar white topping from a bowl onto the plated meal next to fries. Clips 3 and 4 show a hand grating cheese directly over the plated chili. The final shot in Clip 4 shows the completed dish with all toppings at the table setting."
+    },
+    {
+        "question": "Which seasonal decoration appears both beside the movie setup and again beside the plated meal on the table/counter?",
+        "answer": "A pumpkin.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a split-screen with a candle next to a pumpkin by a laptop. Step 2: Slice 74 shows a pumpkin near the bowl of food while a topping is added. Conclusion: The recurring decoration is a pumpkin.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a split-screen with a laptop playing a movie and, in the same setup, a lit candle next to a pumpkin, indicating the pumpkin is part of the movie-watching scene. Step 2: Slice 74 shows a plated meal with a lit candle and a pumpkin in the background, placing the pumpkin beside the meal setup. Logic holds because the pumpkin is explicitly mentioned in both contexts: near the movie setup and near the meal.",
+        "visual_proof": "In the first clip, a large orange pumpkin is clearly visible sitting on a wooden tray next to the laptop displaying a movie. In the second clip, a similar large orange pumpkin is present on the dark countertop, positioned beside the bowl of food and a lit candle. The consistent presence of this specific decoration in both scenes confirms the answer."
+    },
+    {
+        "question": "In preparing the chili-like dish, which two canned ingredients are added at different times before the final plated serving?",
+        "answer": "Red sauce (from a can) and pumpkin puree.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            67,
+            68,
+            69,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 67 shows red sauce being added from a can into the pan of vegetables. Step 2: Slice 68 shows pumpkin puree being added from a can while stirring. Step 3: Slice 69 shows the mixture becoming a cohesive red saucy dish while being stirred. Step 4: Slice 72 shows the finished chunky red dish being served onto a plate. Conclusion: The two canned additions are red sauce and pumpkin puree.",
+        "logic_check_reasoning": "Step 1: Slice 67 explicitly states the person \"adds a red sauce from a can into the pan,\" confirming one canned ingredient. Step 2: Slice 68 shows the person holding \"a can of pumpkin puree\" over the pan and indicates they are adding it, confirming a second canned ingredient. Step 3: Slice 72 shows the final plating of the dish, so both canned additions occurred before serving. The actions in Slices 67 and 68 occur at separate moments, aligning with \"added at different times\" and both are canned items.",
+        "visual_proof": "In Clip 1, the person pours a red sauce from a can into the pan. In Clip 2, they hold up a can labeled 'Pumpkin Puree' and then add its orange contents to the same pan. Both ingredients are added before the final serving shown in Clip 4."
+    }
+]

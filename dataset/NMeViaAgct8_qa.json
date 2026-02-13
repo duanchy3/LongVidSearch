@@ -1,0 +1,69 @@
+[
+    {
+        "question": "Which city is established by the travel landmark footage, and how is that connected to the river-boat scene later in the promotional segment?",
+        "answer": "Paris; it’s linked by showing the Eiffel Tower and later a boat ride on the Seine in the same travel-themed promo.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a woman in front of the Eiffel Tower, establishing Paris. Step 2: Slice 12 shows a motorboat ride on the Seine and Paris-like city scenery. Conclusion: The landmark and river scene connect as Paris travel/immersion footage.",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly states the video begins with a woman in front of the Eiffel Tower in Paris, establishing the city. Step 2: Slice 11 shows a man with a microphone in a room with a couch and bookshelf; Slice 12 shows the same man in a similar setup with Babbel branding, indicating these slices describe the same promotional video. Step 3: Slice 12 describes a boat ride on the Seine River, which connects to Paris. Logic holds because the landmark footage establishes Paris, and the later river-boat scene is on the Seine, reinforcing the Paris setting within the same promo.",
+        "visual_proof": "Clip 1 opens with a clear view of the Eiffel Tower in Paris, establishing the city. Clip 2 features a boat ride along a major river flanked by Parisian architecture and bridges, consistent with the Seine River. The presence of the same 'Babbel' logo throughout both clips confirms they are part of the same promotional segment, linking the iconic landmark to the river experience."
+    },
+    {
+        "question": "Across the promotional segment, what shift in activity does the bearded man make from speaking into a microphone to doing a household chore while holding a phone?",
+        "answer": "He shifts from recording/talking at a microphone to cleaning a kitchen countertop while using his smartphone.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the bearded man seated indoors speaking into a microphone. Step 2: Slice 13 shows him cleaning a kitchen counter while holding a smartphone. Conclusion: His activity changes from speaking/recording to cleaning while using a phone.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes the man seated in front of a microphone, speaking directly to the camera, implying recording/talking at a mic. Step 2: Slice 13 shows the man cleaning a kitchen countertop with a cloth while holding a smartphone in his other hand. The Babbel logo appears in both, indicating they are part of the same promotional segment. Logic holds because the activities clearly shift from speaking into a microphone to doing a household chore while using a phone.",
+        "visual_proof": "In Clip 1, the bearded man is seen indoors speaking directly into a large microphone on a boom arm. In Clip 2, the same man is in a kitchen, wiping down a granite countertop with a cloth in one hand while interacting with a smartphone on the counter with his other hand."
+    },
+    {
+        "question": "In the period-drama storyline, what object is being brandished in the tense daylight alley moment and what similar type of threat appears later in the brick courtyard confrontation?",
+        "answer": "A gun is aimed in both cases.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a woman aiming a gun in a narrow alleyway (daylight). Step 2: Slice 88 shows a man pointing a gun at a kneeling man’s head in a brick courtyard. Conclusion: Both threats involve a gun being aimed at someone.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2, Scene 3 explicitly states that a woman in a wide-brimmed hat is aiming a gun at another individual in a daylight alley, confirming the object being brandished is a gun. Step 2: Evidence Slice 88 describes a man in a brick courtyard holding a gun pointed at a kneeling man's head, indicating a similar threat of a gun being aimed. Logic holds because both scenes clearly depict guns being aimed at people, matching the proposed answer.",
+        "visual_proof": "In Video 1 (0:07), a woman in a hat is clearly pointing a revolver at a man's head in an alley. In Video 2 (0:00), a close-up shows a pistol being pointed directly at a man's face, and the wider shot at 0:01 confirms this confrontation is happening in a brick courtyard with a vintage car."
+    },
+    {
+        "question": "What kind of location frames the clandestine money exchange early on, and how does that match the setting of the later tense conversation between two men with a bottle on the table?",
+        "answer": "The clandestine money exchange takes place in a dark, narrow alleyway with a wet brick wall, while the later tense conversation occurs inside a dimly lit, crowded bar or pub. The settings are distinct but share a moody, atmospheric quality.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows two men by a brick wall in a crowded dim bar-like environment counting money. Step 2: Slice 21 shows two men in an early-20th-century bar/speakeasy with a bottle on the table in a tense talk. Conclusion: Both are set in similar clandestine drinking venues.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes the opening as a dimly lit, crowded environment that is \"possibly a bar or a social gathering,\" with a clandestine money exchange and a moody, secretive ambiance. Step 2: Slice 21 explicitly places the later scene in an early 20th-century bar or speakeasy, with two men at a table and a bottle of alcohol visible, again in a crowded, tense setting. Logic holds because both slices indicate bar-like, moody, crowded drinking environments, aligning with the proposed answer that both scenes occur in a bar/pub-like setting.",
+        "original_text_answer": "A dim bar/pub-like setting; both scenes take place in a moody, crowded drinking establishment.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the money exchange is framed against a textured, wet brick wall, characteristic of an outdoor alley or backstreet, not an interior bar. In Clip 2, the scene is clearly indoors, featuring wooden tables, multiple patrons in hats and coats, and a bottle on the table, all consistent with a crowded bar or pub setting."
+    },
+    {
+        "question": "What piece of written media is handled in the office-phone request scene, and what related written evidence is shown later as a held-up clipping with a group photograph?",
+        "answer": "An office communication involving a call to a police detective is shown, and later a newspaper clipping with a group photo is shown as evidence-like material.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            64,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows an office scene where text indicates requesting a call to a police detective, implying official investigative communication. Step 2: Slice 85 shows a newspaper clipping held up featuring a group photo, resembling documentary evidence. Conclusion: The investigation-related call aligns with later use of printed media evidence.",
+        "logic_check_reasoning": "Step 1: Slice 64 describes an office scene with on-screen text: \"Put me through to Detective Lawrence at the St John's Harbour police department,\" clearly indicating an office communication involving a call to a police detective. Step 2: Slice 85 describes a newspaper clipping with a black-and-white group photograph being held up to the camera. The proposed answer states that an office communication involving a call is shown and later a newspaper clipping with a group photo is shown, which matches these descriptions. The answer does not introduce unsupported claims and aligns with the visual evidence.",
+        "visual_proof": "Clip 1 shows a man in an office making a phone call, with subtitles requesting to be put through to 'Detective Lawrence at the St John's Harbour police department.' Clip 2 shows a close-up of a newspaper clipping featuring a group photograph, with visible text including 'OSWALD MOSLEY,' confirming it is a newspaper article being presented as evidence or reference material."
+    }
+]

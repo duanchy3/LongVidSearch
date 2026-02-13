@@ -1,0 +1,67 @@
+[
+    {
+        "question": "What new piece of equipment is first shown as a boxed product with the text about “big boi machines,” and later shown actively printing colorful “Happy Birthday” artwork?",
+        "answer": "A Canon printer.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows a large Canon PIXMA printer box introduced as “big boi machines.” Step 2: Slice 39 shows a Canon printer actively printing a “Happy Birthday” design. Conclusion: The boxed “big boi machines” item later used to print is a Canon printer.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows a person holding a box labeled 'Canon PIXMA TR8520' with the text 'big boi machines,' indicating a Canon printer as the new equipment. Step 2: Slice 39 shows a Canon-branded printer actively printing a colorful 'Happy Birthday' design. Logic holds because the equipment first appears boxed (Canon printer) and later is shown in use printing the artwork, with the brand 'Canon' explicitly visible in both contexts.",
+        "visual_proof": "In Clip 1, a person is holding a boxed Canon PIXMA iX6820 printer with the text 'big boi machines' overlaid. In Clip 2, a Canon printer is actively printing a colorful image (though it says 'I DIDN'T ASK', not 'Happy Birthday'). The brand and product type are visually confirmed across both clips."
+    },
+    {
+        "question": "Which tool is introduced while still in its packaging and later used in a “hand cutting” demonstration to cut paper?",
+        "answer": "A paper trimmer / paper cutter (Swingline paper trimmer).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows the woman unboxing a Swingline paper trimmer. Step 2: Slice 53 shows paper being cut with a cutter during the on-screen text “hand cutting.” Conclusion: The packaged trimmer becomes the tool used for hand cutting paper.",
+        "logic_check_reasoning": "Step 1: Slice 24 states the woman is holding a Swingline paper trimmer in its packaging, opens it, and places the trimmer in front of her—clearly introducing the tool. Step 2: Slice 53 shows a person using a paper cutter to cut pink paper, with 'hand cutting' on screen—a demonstration of using such a tool. Logic holds because both slices refer to the same type of tool (paper trimmer/cutter), with Slice 24 identifying it as a Swingline paper trimmer and Slice 53 showing its use in a hand cutting demo. Differences in person description are acceptable VLM noise.",
+        "visual_proof": "In Clip 1, the person holds up a green box labeled 'Swingline ClassicCut Lite' with text overlay 'SWINGLINE paper trimmer', showing it in its packaging. In Clip 2, the same person is seen using the unboxed grey and green tool to cut purple paper, with a text overlay reading 'hand cutting'."
+    },
+    {
+        "question": "What platform is shown in an animated explainer as being easy to advertise on but having potentially hefty fees, and later the video demonstrates an online product/listing workflow on a computer?",
+        "answer": "Etsy.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            69,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 69 presents an Etsy logo with notes like “easy to use and advertise on” and “fees can be hefty.” Step 2: Slice 70 shows animated computer pages resembling an e-commerce listing/search workflow. Conclusion: The platform discussed alongside online selling workflow is Etsy.",
+        "logic_check_reasoning": "Step 1: Slice 69 explicitly shows the Etsy logo and includes the phrases 'easy to use and advertise on' and 'etsy fees can be hefty' linked to the platform, clearly identifying Etsy as the subject. Step 2: Slice 70 depicts a computer-based workflow involving configuring options, product listings, and search results, aligning with an online product/listing demonstration later in the video. Step 3: The combination directly supports that the platform described is Etsy.",
+        "visual_proof": "Clip 1 explicitly shows the 'etsy' logo and text stating 'easy to use and advertise on' and 'etsy fees can be hefty'. Clip 2 visually demonstrates a workflow within the Etsy Shop Manager interface, including adding product variations, setting inventory, pricing, shipping options, and publishing listings, confirming the platform is Etsy."
+    },
+    {
+        "question": "What material is listed as a purchased supply with cost text and later appears as the brown envelopes being labeled and prepared for packaging?",
+        "answer": "Brown A7 envelopes.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 17 lists supplies with on-screen prices, including “brown A7 envelopes.” Step 2: Slice 72 shows brown envelopes being labeled and handled as part of packaging. Conclusion: The listed brown A7 envelopes are the same kind used later in packaging.",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly lists 'brown A7 envelopes - 100 ct, $14' among purchased supplies with cost text. Step 2: Slice 72 shows brown envelopes being labeled and prepared for packaging. Logic holds because the material named in Slice 17 matches the brown envelopes shown in Slice 72 being used in the process.",
+        "visual_proof": "In Clip 1 (0:36-0:39), a package of brown envelopes is shown with the on-screen text 'brown A7 envelopes - 100 ct, $14'. In Clip 2 (0:00-0:03), the same brown envelopes are visually depicted being prepared for packaging, as a person applies blue labels to them. This confirms the material listed in Clip 1 is the same one being used in Clip 2."
+    },
+    {
+        "question": "Which device is used for digital drawing instruction (ramen drawing tutorial), and earlier the video highlights a drawing app for that same kind of device?",
+        "answer": "An iPad (iPad Pro), using Procreate.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 10 highlights “procreate for iPad.” Step 2: Slice 11 shows an iPad Pro being used to follow steps to draw ramen. Conclusion: The device is an iPad (iPad Pro) and the highlighted drawing app is Procreate.",
+        "logic_check_reasoning": "Step 1: Slice 11 says the ramen drawing tutorial is done on an iPad Pro 1st Gen, explicitly indicating the device used for digital drawing instruction is an iPad. Step 2: Slice 10 says the video highlights 'Procreate for iPad' and showcases the app's capabilities, confirming a drawing app for the same kind of device (iPad). Logic holds because both slices reference an iPad, and Procreate is specifically for iPad, matching the proposed answer.",
+        "visual_proof": "Clip 1 explicitly shows the 'Procreate for iPad' app logo and lists its features. Clip 2 visually confirms the device is an 'iPad Pro 1st Gen' as labeled on screen, and the user is drawing a ramen bowl using this device, which aligns with the context of digital drawing instruction."
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "question": "When the presenter discusses licensing issues, which specific license text is shown later after an on-screen label introducing that license category?",
+        "answer": "The GNU General Public License v3 (GPL-3) text.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows category cards including \"GPL CODE,\" introducing the GPL topic. Step 2: Slice 50 shows the presenter in front of the GPL-3 document text. Conclusion: The license text shown after the GPL label is GPL-3.",
+        "logic_check_reasoning": "Step 1: Slice 49 shows a black screen with the label \"GPL CODE,\" introducing a license category. Step 2: Slice 50 describes the presenter in front of a computer screen displaying the full text of the GNU General Public License v3 (GPL-3). Logic holds because the label \"GPL CODE\" precedes and aligns with the later display of the GPL-3 text.",
+        "visual_proof": "Clip 1 ends with the on-screen text 'GPL CODE' at 0:24. Clip 2, which follows chronologically, shows a webpage titled 'GNU General Public License v3 (GPL-3)' with its full license text displayed, confirming that this specific license is shown after the introductory label."
+    },
+    {
+        "question": "What is the on-screen slide title that appears during the copyright lecture portion, and where does the presenter later expand that topic using a Wikipedia page?",
+        "answer": "The slide title is \"Scope of Copyright Protection,\" and it is expanded using the Wikipedia page about \"Derivative work.\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 31 displays the slide titled \"Scope of Copyright Protection.\" Step 2: Slice 41 shows a Wikipedia article titled \"Derivative work\" being discussed. Conclusion: The topic moves from the scope slide to a deeper explanation via the Derivative work Wikipedia page.",
+        "logic_check_reasoning": "Step 1: Slice 31 explicitly states the slide title is 'Scope of Copyright Protection' and describes its content, confirming the first part of the answer. Step 2: Slice 41 shows the presenter discussing a Wikipedia page titled 'Derivative work,' which is directly related to a component mentioned on the slide (derivative works), supporting the claim that he expands the topic using that page. Logic holds because the slide includes derivative works within the scope of protection and the later segment focuses on the 'Derivative work' Wikipedia page.",
+        "visual_proof": "Clip 1 visually displays a slide with the exact title \"Scope of Copyright Protection\" while the presenter speaks. Clip 2 visually displays a Wikipedia page with the exact title \"Derivative work\" while the same presenter continues speaking, indicating a direct topical expansion from the first slide's content."
+    },
+    {
+        "question": "In the segment about Amazon and algorithms, what company building is shown first as the story is introduced, and what later visual evidence supports the claim by showing an Engadget article about the same topic?",
+        "answer": "An Amazon building is shown first, and later an Engadget article about Amazon using algorithms to fire Flex drivers is shown.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            67,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 67 shows an Amazon building image with a headline about algorithms firing Flex drivers. Step 2: Slice 77 shows the presenter pointing at an Engadget article discussing the same issue. Conclusion: The story is introduced with the Amazon building and supported later by the Engadget article display.",
+        "logic_check_reasoning": "Step 1: Slice 67 states that the story is introduced with a real-world shot of an Amazon building, with an overlay about Amazon using algorithms to fire Flex drivers. Step 2: Slice 77 describes a man showing and discussing an Engadget article specifically about Amazon using algorithms to fire Flex drivers. Logic holds because the first visual introduces the topic with an Amazon building, and the later visual directly supports the claim with the Engadget article on the same topic.",
+        "visual_proof": "Clip 1 (0:10-0:15) visually shows the exterior of a building with the large 'amazon' logo and arrow, establishing it as an Amazon facility. Clip 2 (0:00-0:08) displays a screenshot of an Engadget webpage, with its logo visible in the top left corner and the article's text discussing Amazon's use of algorithms to terminate Flex drivers, corroborating the initial claim."
+    },
+    {
+        "question": "Which two different AI coding assistants are presented at different times—one labeled as an \"AI pair programmer\" and another promoted as \"Code faster with AI code completions\"?",
+        "answer": "GitHub Copilot is the \"AI pair programmer,\" and Tabnine is \"Code faster with AI code completions.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows GitHub Copilot described as \"Your AI pair programmer.\" Step 2: Slice 6 shows Tabnine with the tagline \"Code faster with AI code completions.\" Conclusion: The two assistants are GitHub Copilot and Tabnine.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 5 describes a webpage titled 'Your AI pair programmer' and explicitly states it appears to be related to GitHub Copilot. Step 2: Evidence Slice 6 explicitly shows 'Tabnine' with the text 'Code faster with AI code completions.' Logic holds because these are two distinct AI coding assistants shown in separate slices, each labeled with the specified phrases.",
+        "visual_proof": "Clip 1 visually displays the GitHub Copilot website with the prominent headline \"Your AI pair programmer\" and shows its interface. Clip 2 visually displays the Tabnine logo and the tagline \"Code faster with AI code completions\" on screen behind the presenter."
+    },
+    {
+        "question": "What evidence shows that the presenter covers both code-generation tools and later shifts to decision-forest machine learning, and what visual example is used to explain decision forests?",
+        "answer": "He first covers AI coding tools (GitHub Copilot) and later introduces TensorFlow decision forests, using an example slide with multiple decision trees and a \"VOTING\" row.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            78,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a Copilot overview backdrop and the presenter discussing the coding tool. Step 2: Slice 78 displays \"TensorFlow decision forests\" text and description. Step 3: Slice 79 shows an \"EXAMPLES\" slide with Tree 1, Tree 2, Tree n, and \"VOTING.\" Conclusion: The video moves from code tools to decision forests and uses multi-tree voting visuals as explanation.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows the presenter discussing GitHub Copilot, an AI-powered coding tool, detailing its capabilities, supported languages, IDE integrations, and branding (OpenAI/GitHub), which evidences coverage of code-generation tools. Step 2: Slice 78 shows the same style presenter (sunglasses, black shirt) with on-screen text 'TensorFlow decision forests' and a description of decision forest algorithms, evidencing a shift to decision-forest machine learning. Step 3: Slice 79 presents a visual example labeled 'EXAMPLES' with multiple decision trees ('Tree 1', 'Tree 2', 'Tree n') and a line labeled 'VOTING,' which is a clear depiction used to explain decision forests. The visual attributes are consistent across slices, satisfying the instruction to handle naming/scene continuity.",
+        "visual_proof": "Clip 1 visually shows the presenter discussing GitHub Copilot with its interface and text 'GitHub Copilot: AI pair programmer'. Clip 2 transitions to him introducing 'TensorFlow decision forests' with an on-screen title. Clip 3 displays a slide titled 'EXAMPLES' showing 'Tree-1', 'Tree-2', up to 'Tree-n', with paths highlighted and a 'VOTING' row underneath, which is the visual example used to explain the concept."
+    },
+    {
+        "question": "How does the video connect early satirical reactions about Copilot’s impact on careers with later serious legal discussion about licensing and copyright?",
+        "answer": "It shows a humorous funeral meme about Copilot 'burying' a career, then later shifts to legal/copyright materials like 'Copyright' screens, GitHub terms, and copyright-scope slides.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            21,
+            38,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows a satirical tweet image with a tombstone labeled \"My career\" and a shovel labeled \"GitHub Copilot.\" Step 2: Slice 21 introduces an explicit \"Copyright\" screen and GitHub/OpenAI logos. Step 3: Slice 38 shows legal text \"License Grant to Us\" from terms. Step 4: Slice 33 shows the educational slide \"Scope of Copyright Protection.\" Conclusion: The narrative shifts from humor about Copilot’s impact to serious legal and copyright discussion.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows a humorous funeral meme about GitHub Copilot 'burying' someone's career, with the presenter reacting to a tweet, indicating a satirical take on Copilot's impact. Step 2: Slice 21 includes a transition to a black screen with 'Copyright' and later shows GitHub and OpenAI logos, signaling a shift to legal/copyright discussions. Step 3: Slice 38 displays the 'License Grant to Us' section from GitHub's terms of service, with the presenter explaining licensing implications. Step 4: Slice 33 presents a 'Scope of Copyright Protection' slide detailing exclusive rights under U.S. law, reinforcing the serious legal discussion. Logic holds because the video moves from an early satirical depiction to later segments focused on licensing and copyright, exactly as the answer states.",
+        "visual_proof": "Clip 1 displays a Twitter post with a meme showing a tombstone labeled 'My career' and 'GitHub Copilot' posing beside it, establishing the satirical tone. Clip 2 transitions to a screen with the word 'Copyright' and logos for GitHub and OpenAI. Clip 3 shows text from GitHub's terms of service discussing 'License Grant to Us'. Clip 4 presents a slide titled 'Scope of Copyright Protection' listing legal rights. This sequence visually confirms the transition from satire to serious legal discussion."
+    },
+    {
+        "question": "The presenter uses a green-screen monologue style multiple times; which later segment switches the presenter’s outfit to a black shirt while keeping the green-screen format to introduce a different topic area?",
+        "answer": "The later green-screen segment with the presenter in a black shirt appears when discussing the Facebook AI Image Similarity Challenge.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            59,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the presenter in a light gray shirt on a green screen speaking directly to camera. Step 2: Slice 59 shows a green-screen presentation about the Facebook AI Image Similarity Challenge with the presenter wearing a black shirt. Step 3: Slice 65 again shows the presenter in a black V-neck shirt on a green screen, confirming the outfit/topic shift while preserving the same filming format. Conclusion: The black-shirt green-screen format is used for the Facebook AI Image Similarity Challenge segment.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows the presenter on a green screen wearing a light gray t-shirt, indicating an earlier green-screen monologue. Step 2: The question asks which later segment switches to a black shirt while maintaining the green screen and introduces a different topic. Step 3: Slice 59 explicitly describes the presenter on a green screen wearing a black shirt and discussing the Facebook AI Image Similarity Challenge, including slides and details, clearly a distinct topic area. Step 4: Slice 65 also shows a black V-neck shirt on a green screen but does not specify a topic. Therefore, Slice 59 supports the proposed answer.",
+        "visual_proof": "Clip 1 shows the presenter in a grey t-shirt against a green screen. Clip 2 and Clip 3 show the same presenter, now wearing a black v-neck t-shirt, still against the green screen. During Clip 2, a graphic for the 'Facebook AI Image Similarity Challenge: Matching Track' is displayed on the screen behind him, confirming the topic change coincides with the outfit change."
+    },
+    {
+        "question": "Across two separate 'ML NEWS' topic blocks, what is one app/product reviewed and one policy/legal issue discussed, and what visuals introduce each block?",
+        "answer": "The app/product is Brickit (introduced with a phone and LEGO bricks image), and the policy/legal issue is copyright/licensing (introduced by a \"Copyright\" screen and legal text overlays).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            60,
+            61,
+            21,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 60 introduces Brickit with a \"NEWS\" graphic and a phone surrounded by LEGO bricks. Step 2: Slice 61 shows the presenter reviewing Brickit on its website. Step 3: Slice 21 introduces a legal block with a black screen labeled \"Copyright\" and GitHub/OpenAI logos. Step 4: Slice 36 shows GitHub Terms of Service overlays about user-generated content and license grants. Conclusion: One block reviews Brickit (LEGO app) and another covers copyright/licensing (introduced via copyright/legal visuals).",
+        "logic_check_reasoning": "Step 1: Slices 60 and 61 describe a segment about the Brickit app, including visuals like a smartphone showing a Lego figure and scattered colorful Lego bricks, with the text 'Brickit: Build new creations from your Lego' and a 'NEWS' graphic, supporting that an app/product reviewed is Brickit and introduced by the phone-and-LEGO image. Step 2: Slices 21 and 36 detail a legal/policy segment with a black screen showing 'Copyright', GitHub and OpenAI logos, and overlays of GitHub’s Terms of Service sections including licensing ('License Grant to Us' and 'License Grant to Other Users'), supporting that the policy/legal issue is copyright/licensing introduced by the 'Copyright' screen and legal text overlays. Logic holds because the context clearly presents two distinct topic blocks with their respective visuals.",
+        "visual_proof": "Clip 1 introduces the 'Brickit' app with a graphic showing a smartphone displaying a Lego minifigure next to scattered Lego bricks. Clip 2 shows the presenter discussing the app over a webpage screenshot titled 'Brickit app sorts your LEGOs'. Clip 3 begins with a black screen displaying the word 'Copyright', followed by the presenter discussing GitHub and OpenAI, which transitions into Clip 4 where the presenter is overlaid on the GitHub Terms of Service page, specifically highlighting sections about 'User-Generated Content' and 'License Grant to Us', indicating a discussion of licensing and legal rights."
+    }
+]

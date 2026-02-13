@@ -1,0 +1,32 @@
+[
+  {
+    "question": "Across the video, identify the sequence of content shifts: from office phone calls, to a title card, to a debate/livestream setup, and then to a wildlife clip. Which animal is featured in the wildlife segment that appears after the livestream-style scenes?",
+    "answer": "A goat (shown behind a fence and in close-up).",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      1,
+      21,
+      36,
+      41
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows an office phone call with the suited man and laptop. Step 2: Slice 21 introduces a title card (“Tinfoil Tuesdays”). Step 3: Slice 36 shows the later livestream/reaction setup (tropical shirt, monitor, SpongeBob). Step 4: Slice 41 shows the wildlife segment featuring a goat. Conclusion: The wildlife animal is a goat.",
+    "logic_check_reasoning": "Step 1: Slice 1 describes an office phone call scene with a man in a suit at a desk, establishing the office segment. Step 2: Slice 21 presents a title card ('Tinfoil Tuesdays') with abstract transformations, fitting the title card segment. Step 3: Slice 36 shows a debate/livestream-style setup with a man reacting to content on a monitor, matching the livestream segment. Step 4: Slice 41 depicts a wildlife clip featuring a goat (behind a fence, later on a paved surface, ending with a close-up), appearing after the livestream-style scenes. Therefore, the animal featured is a goat, consistent with the proposed answer.",
+    "visual_proof": "The sequence of clips follows the described order: Clip 1 shows a man in an office on a phone call. Clip 2 is the animated 'Tinfoil Tuesdays' title card. Clip 3 features a man in a livestream setup reacting to another video. Clip 4, which comes after the livestream scene, clearly shows a goat behind a wire fence, followed by a close-up of its face and then a wider shot of it walking on pavement."
+  },
+  {
+    "question": "A host in a Hawaiian shirt presents educational material from a science-questions article, while a separate segment shows a proverb-like quote on a blackboard. Which appears as the blackboard quote segment: before or after the science-questions article segment?",
+    "answer": "Before.",
+    "category": "State_Mutation",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      32,
+      66,
+      68,
+      72
+    ],
+    "reasoning_chain": "Step 1: Slice 32 shows the blackboard quote segment (“Smite a scorner...” ). Step 2: Slice 66 later shows the science-questions webpage in the host’s setup. Step 3: Slice 68 repeats the science-questions article view. Step 4: Slice 72 later shows a technical worksheet/document. Conclusion: The blackboard quote segment occurs before the science-questions article segment.",
+    "logic_check_reasoning": "Step 1: Slice 32 shows the blackboard quote segment with a man in a green shirt speaking in front of a blackboard containing a proverb-like quote. Step 2: Slices 66 and 68 show the host in a green Hawaiian shirt presenting content from the '10 Science Questions Every High School Graduate Should Know - Answers' article. Step 3: The slice numbers indicate sequence; 32 occurs earlier than 66 and 68, so the blackboard quote segment appears before the science-questions article segment.",
+    "visual_proof": "Clip 1 shows the host presenting a proverb from Proverbs 19 on a blackboard. Clip 3, which occurs later in the sequence, shows the host presenting an article titled '10 Science Questions Every High School Graduate Should Know - Answers' from KFVS. Therefore, the blackboard quote segment appears before the science-questions article segment."
+  }
+]

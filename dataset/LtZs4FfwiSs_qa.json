@@ -1,0 +1,207 @@
+[
+    {
+        "question": "In the home scenes, what object does the woman adjust near the window early on, and what kind of mat is she later sitting on while meditating in the living room?",
+        "answer": "She adjusts a curtain by the window, and later she sits on a yellow yoga mat while meditating.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the woman opening/adjusting a curtain by the window. Step 2: Slice 10 shows her seated cross-legged on a yellow yoga mat in the living room. Conclusion: Curtain is adjusted early; later she meditates on a yellow yoga mat.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the woman is initially seen adjusting or opening a curtain by the window, which directly answers the first part. Step 2: Slice 10 describes the individual meditating in the living room on a yellow yoga mat, addressing the second part. Logic holds because both details are explicitly provided in the respective slices and match the query about the home scenes.",
+        "visual_proof": "In Clip 1, the woman is clearly seen pulling back a large white curtain next to a window. In Clip 2, she is sitting cross-legged in a meditative pose on a bright yellow mat placed on the floor of the living room."
+    },
+    {
+        "question": "What item does the woman pick up from the floor and place on the table, and later what pose does she perform on that same colored mat?",
+        "answer": "She picks up a brown bottle and later performs a split on the yellow mat.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows her picking up a brown bottle from the floor and placing it on the table. Step 2: Slice 16 shows her doing a split on a yellow mat. Conclusion: The earlier action involves the bottle; later she does a split on the yellow mat.",
+        "logic_check_reasoning": "Step 1: Slice 8 states the woman picks up a bottle from the floor and places it on the table; the bottle appears brown with a label. Step 2: Slice 16 describes the woman performing a split on a yellow mat. Logic holds because both slices feature a woman in modern interiors wearing black athletic clothing, and the actions directly answer the two parts: the item is a brown bottle, and the pose is a split on the yellow mat.",
+        "visual_proof": "In Clip 1, at 0:00-0:02, the woman is seen picking up a small, amber-colored (brown) bottle from the kitchen island. At 0:08-0:10, she places this same bottle on the floor next to a black chair in the living room. In Clip 2, from 0:05 to 0:15, she is shown performing a full front split on a yoga mat that is partially yellow and partially grey, with the brown bottle visible on the floor nearby."
+    },
+    {
+        "question": "During the cooking segment, what ingredient does the woman retrieve from the refrigerator, and what does she do to it before it goes into the frying pan?",
+        "answer": "She retrieves tofu, and she breaks/crumbles it before putting it into the frying pan.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            57,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows her taking a package labeled tofu from the fridge. Step 2: Slice 62 shows crumbled tofu being placed into a frying pan (implying it has been broken up). Conclusion: Tofu is retrieved and then crumbled before frying.",
+        "logic_check_reasoning": "Step 1: Slice 57 explicitly states the woman retrieves a package labeled '두부' (tofu) from the refrigerator. Step 2: Slice 62 shows a text overlay '프라이팬 위에 두부를!' and describes that she places crumbled tofu into the frying pan, indicating the tofu has been broken/crumbled before or as it goes into the pan. Logic holds because the ingredient retrieved is tofu and its state is described as crumbled when placed in the pan.",
+        "visual_proof": "In Clip 1 (0:04-0:08), the woman is seen taking a block of tofu from the refrigerator, with the on-screen text '두부' (tofu) confirming the ingredient. In Clip 2 (0:03-0:08), there is a close-up shot showing hands crumbling the tofu directly into a bowl, followed by the text '두부 와르르' (tofu crumble), which visually confirms the action of breaking it up before cooking."
+    },
+    {
+        "question": "What special grain is introduced as a healthier rice option, and what ingredient is later spooned on top of rice as a topping in the finished bowl?",
+        "answer": "The grain is Kamut, and the topping placed on rice is tofu soboro (crumbly tofu mixture).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            88,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 88 introduces Kamut as a featured healthy grain. Step 2: Slice 93 shows tofu soboro being added on top of rice. Conclusion: Kamut is the healthy grain; tofu soboro is the topping used later.",
+        "logic_check_reasoning": "Step 1: Slice 88 explicitly identifies the special grain as '카무트' (Kamut) and describes it as a health-focused alternative to rice. Step 2: Slice 93 shows a bowl of rice and a crumbly topping being added with the on-screen text '두부소보로 올려요~', which means tofu soboro is placed on top. Logic holds because the first slice introduces Kamut as the healthier rice option, and the second slice clearly states tofu soboro is spooned on top of rice.",
+        "visual_proof": "In Clip 1, at 0:14-0:15, a split screen shows the woman holding a container of grains next to a close-up of those grains, with the text '카무트' (Kamut) clearly displayed. In Clip 2, from 0:00 to 0:06, a wooden spoon is shown adding a crumbly, golden-brown topping to a bowl of rice, accompanied by the subtitle '두부소보로를 올려요~' (Adding tofu soboro~), which explicitly identifies the topping."
+    },
+    {
+        "question": "What ingredient is cooked in butter in a pan, and later where does that ingredient appear in the final plated bowl?",
+        "answer": "Shrimp are cooked in butter, and later they appear as a topping in the final rice bowl.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            86,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 86 shows shrimp being cooked in melted butter. Step 2: Slice 96 shows a bowl containing shrimp on top of rice with garnish/sauce. Conclusion: The shrimp cooked earlier become a topping in the final dish.",
+        "logic_check_reasoning": "Step 1: Slice 86 explicitly states that butter is melted in a pan and frozen shrimp are added and cooked until pink, so the ingredient cooked in butter is shrimp. Step 2: Slice 96 describes the final plated bowl containing shrimp, rice, and green onions with garnish; the shrimp are visible in the bowl, consistent with appearing on top of the rice. Logic holds because the ingredient cooked (shrimp) is later shown present in the final rice bowl.",
+        "visual_proof": "In Clip 1, raw shrimp are added to a pan with melted butter and fried. In Clip 2, the final plated dish clearly shows cooked shrimp arranged on top of a bed of rice, garnished with green onions and other toppings."
+    },
+    {
+        "question": "In the kitchen storyline, after tofu is emphasized as a dieting-friendly ingredient, what specific spicy paste is later measured and added to the cooking mixture?",
+        "answer": "Low-sugar gochujang (measured as 1 tablespoon) is added later.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            58,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 58 emphasizes tofu as returning for dieting and highlights satiety. Step 2: Slice 84 shows low-sugar gochujang measured as 1T and added to the pot. Conclusion: The dieting-oriented tofu dish later includes 1T low-sugar gochujang.",
+        "logic_check_reasoning": "Step 1: Slice 58 establishes the kitchen storyline focusing on tofu as a dieting-friendly ingredient. Step 2: Slice 84 shows a close-up of a dark paste labeled '저당고추장 1T' (1 tablespoon of low-sugar chili paste) being scooped and added to the pot. Logic holds because Slice 84 clearly identifies the specific paste and its measured amount used later in the same cooking tutorial.",
+        "visual_proof": "In Clip 1, the woman takes tofu from the fridge, and on-screen text highlights '두부 재등장' (Tofu reappears), establishing it as a key diet ingredient. In Clip 2, a close-up shows a spoon scooping a dark red paste from a container, with the on-screen text '저당고추장 1T' (Low-sugar gochujang 1T) explicitly identifying the ingredient and its quantity before it is added to the pan of crumbled tofu."
+    },
+    {
+        "question": "In the home sequence, what does the woman adjust on a table early in the video, and what does she later adjust in her body posture as guided meditation instructions appear?",
+        "answer": "She adjusts a lamp early on, and later she adjusts her seated meditation posture to sit comfortably.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            2,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows her adjusting a lamp on a table after dealing with curtains. Step 2: Slice 2 again shows her adjusting a tall lamp on the kitchen counter. Step 3: Slice 11 shows guided meditation text telling her to sit comfortably as she adjusts posture. Conclusion: She adjusts lamps early, then later adjusts her seated posture during meditation.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the woman walks to a table with a lamp and adjusts it. Step 2: Evidence Slice 2 reinforces this by showing her slightly adjusting a tall lamp on the counter/table in the home setting. Step 3: Evidence Slice 11 describes guided meditation instructions appearing, with the first instruction being to sit comfortably; it explicitly says she adjusts her posture to be seated comfortably. Logic holds because the early action is adjusting a lamp on a table, and later, during the meditation segment, she adjusts her seated posture per the instructions.",
+        "visual_proof": "In Clip 1 (0:06-0:13), the woman is shown interacting with a modern table lamp, pressing a button on its base. In Clip 3 (0:08-0:14), as the text 'Step 1. 편하게 자리에 앉습니다' (Step 1. Sit down comfortably) appears, she is shown adjusting her position on the mat to settle into a comfortable cross-legged pose for meditation."
+    },
+    {
+        "question": "What question appears on-screen about whether something is broken in the kitchen, and later what wellness activity does she do that contrasts with that earlier practical concern?",
+        "answer": "The on-screen question is 'Is it broken?' and later she does guided meditation/yoga in the living room.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 3 includes a Korean overlay asking 'Is it broken?' while she works at the counter. Step 2: Slice 10 shows her seated in a meditative pose on a yellow mat. Step 3: Slice 11 frames it as guided meditation with breathing instructions. Conclusion: The earlier 'broken' concern contrasts with later mindfulness practice.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 shows a kitchen scene with Korean text overlays including '혹시 고장났나?' which translates to 'Is it broken?'. Step 2: Evidence Slice 10 depicts the individual seated in a meditative pose on a yoga mat in a living room, suggesting yoga/meditation. Step 3: Evidence Slice 11 confirms a guided meditation session with step-by-step instructions. Logic holds because the first part directly addresses the on-screen question about something being broken in the kitchen, and the later activity is clearly a wellness practice (meditation/yoga) in the living room.",
+        "visual_proof": "In Clip 1, the text '혹시 고장 났나?' (Is it broken?) appears on screen as the woman interacts with a kitchen appliance. In Clips 2 and 3, the same woman is shown sitting cross-legged on a mat in a living room, with on-screen text like '명상타임' (Meditation Time) and '진서연의 명상법' (Jin Seo-yeon's Meditation Method), clearly indicating she is engaged in meditation or yoga."
+    },
+    {
+        "question": "In the cooking storyline, what ingredient is first treated as essential for dieting, what key technique is shown when cooking it in a pan, and what final serving style is shown when it is plated?",
+        "answer": "Tofu is essential for dieting, it is crumbled and cooked until moisture is removed, and it is served as tofu soboro on top of rice.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            58,
+            81,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 58 frames tofu as a dieting essential and highlights satiety. Step 2: Slice 81 shows tofu cooked until its moisture disappears. Step 3: Slice 93 shows tofu soboro placed on top of rice as a topping. Conclusion: Diet tofu is crumbled/dried in cooking and then plated as soboro over rice.",
+        "logic_check_reasoning": "Step 1: Slice 58 explicitly shows a woman holding tofu with the text '다이어트에 빠질 수 없는 두부 재등장' indicating tofu is essential for dieting. Step 2: Slice 81 shows crumbled tofu being cooked in a pan with the overlay '물기가 사라진 두부,' demonstrating the technique of cooking until moisture is removed. Step 3: Slice 93 shows plating with the text '두부소보로 올려요~' and a bowl of rice topped with the tofu soboro, confirming it is served on top of rice.",
+        "visual_proof": "Clip 1 shows text stating '다이어트에 빠질 수 없는 두부 재등장' (Tofu, indispensable for dieting, makes a comeback). Clip 2 visually confirms the cooking technique with text '물기가 사라진 두부' (tofu with moisture gone) over a pan of crumbled, cooked tofu. Clip 3 shows the final plating, with text '두부소보로를 올려요~' (Adding tofu soboro~) as the crumbled tofu is placed on rice."
+    },
+    {
+        "question": "What repeated dieting milestone (number) is referenced in the studio discussion, and what concrete tracking method is later shown in the kitchen as part of that dieting narrative?",
+        "answer": "The milestone is 12 kg weight loss, and the tracking method is checking diet and exercise amounts (with mention of a secret SNS account for tracking).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            71,
+            69,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 71 references a 12kg weight loss success story. Step 2: Slice 69 shows text about creating a secret SNS account and checking diet/exercise amounts. Step 3: Slice 76 frames a segment about what dieting is, continuing the management narrative. Conclusion: The 12kg goal is paired with systematic tracking of diet/exercise (including secret SNS logging).",
+        "logic_check_reasoning": "Step 1: Slice 71 (studio) explicitly shows on-screen text \"지금까지 12kg 감량 성공기\" indicating a 12 kg weight-loss milestone. Step 2: Slice 69 (kitchen) shows subtitles \"식단과 운동량을 체크\" (check diet and exercise amounts) and \"SNS 비밀 계정 개설\" (create a secret SNS account), demonstrating a concrete tracking method. Logic holds because the milestone is referenced in the studio slice and the tracking method is shown in the kitchen slice, with the 12 kg figure also reiterated in Slice 69.",
+        "visual_proof": "The on-screen text in Clip 1 and Clip 3 explicitly states '자매들도 12kg 감량 성공?!' (Sisters also succeeded in losing 12kg?!), establishing the 12 kg milestone. In Clip 2, the woman in the kitchen is shown with on-screen text that reads '사진 업로드로 식단과 운동량을 체크' (Check diet and exercise amount by uploading photos) and '세 자매만 볼 수 있는 SNS 비밀 계정 개설' (Opening a secret SNS account only the three sisters can see), directly showing the concrete tracking methods."
+    },
+    {
+        "question": "Early in the home scenes she adjusts household fixtures; later she does outdoor reflection and then returns to cooking. What are the three distinct activities in that timeline?",
+        "answer": "She adjusts curtains/lamps at home, then does outdoor seaside reflection/meditation, and later prepares a tofu-based diet dish in the kitchen.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            2,
+            31,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows adjusting curtains and a lamp in a modern room. Step 2: Slice 2 shows her moving in the kitchen and adjusting a lamp on the counter. Step 3: Slice 31 shows outdoor meditation by the sea and sitting outdoors. Step 4: Slice 59 shows her actively preparing tofu in the kitchen. Conclusion: The timeline goes from home tidying/adjusting fixtures to outdoor reflection to cooking a diet-focused dish.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the woman adjusting a curtain and a lamp in a modern home setting, which supports the claim that she adjusts household fixtures early in the home scenes. Step 2: Slice 31 shows the woman doing yoga/meditation by the sea with text overlays indicating outdoor meditation and self-reflection, supporting the outdoor seaside reflection/meditation activity. Step 3: Slice 59 shows the woman in a kitchen preparing tofu (breaking/pressing tofu), which supports the claim that she later prepares a tofu-based dish in the kitchen. Note: The 'diet' qualifier is not explicitly stated, but the core activity of tofu preparation/cooking is supported.",
+        "visual_proof": "Clip 1 shows her adjusting curtains and a lamp at home. Clip 3 shows her meditating outdoors by the sea. Clip 4 shows her washing and preparing tofu in the kitchen. These three distinct activities are clearly depicted in sequence across the clips."
+    },
+    {
+        "question": "How does the seaside 'outdoor meditation' moment connect to the later studio theme of self-confidence, and what visual setting bridges the two?",
+        "answer": "The seaside meditation and self-affirmation mood connects to the studio talk about building self-confidence, bridged by the outdoor bench/park scenes where reflective text appears.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            31,
+            32,
+            33,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows outdoor meditation by the sea and self-affirming text. Step 2: Slice 32 shows continued outdoor bench sitting in coastal/park settings maintaining a reflective tone. Step 3: Slice 33 transitions to studio with text about a 'spell to instill confidence in yourself.' Step 4: Slice 54 continues studio commentary (with humorous overlays) while still referencing the outdoor contemplative segment. Conclusion: Outdoor self-reflection transitions into studio framing about cultivating confidence, with benches/park scenes as the bridge.",
+        "logic_check_reasoning": "Step 1: Slice 31 shows the seaside yoga/meditation with text like 'Outdoor Meditation Time' and 'Regulating my breath,' followed by an outdoor bench/park scene where the text 'I really like myself...' appears, indicating self-affirmation. Step 2: Slice 33 presents a studio segment with on-screen text 'A spell to instill confidence in yourself,' explicitly making self-confidence the studio theme. Step 3: Slice 33 also shows a transition from an outdoor park scene to the studio, and Slice 32 describes the individual seated on benches in a park setting, reinforcing that the outdoor bench/park visuals bridge the reflective seaside moment to the studio discussion. Logic holds because the meditation and self-affirmation directly align with self-confidence, and the bench/park scenes are clearly depicted between the seaside and studio segments.",
+        "visual_proof": "Clip 1 shows the woman meditating by the sea with text '가쁜 숨을 고르고' (Catching my breath). Clip 2 continues this with her on a bench, displaying affirmations like '나는 내가 정말 좋아...' (I really like myself...) and '서연아! 넌 정말 강하고' (Seoyeon! You are truly strong). Clip 3 transitions to the studio where she speaks about '스스로에게 자신감을 불어넣는 주문' (a mantra to instill confidence in oneself), directly linking the outdoor affirmation practice to the studio's theme. The outdoor bench scenes serve as the visual bridge between the two settings."
+    },
+    {
+        "question": "When the outdoor fitness scenes begin, what headwear is clearly shared by the runner, and later where does that same person sit while looking out at the sea?",
+        "answer": "They wear a black cap, and later they sit on a bench by the sea looking out at the ocean.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a runner wearing a black cap running along a road. Step 2: Slice 30 shows a woman in a black cap seated on a bench facing the ocean. Conclusion: The shared headwear is the black cap, and the later location is a seaside bench.",
+        "logic_check_reasoning": "Step 1: Slice 20 states the runner is wearing a black cap at the start of the outdoor fitness scenes. Step 2: Slice 30 shows a woman wearing a black cap sitting on a bench by the sea, looking out at the ocean. Logic holds because the shared headwear (black cap) connects the runner and the seated person, and the instructions allow linking based on consistent visual attributes.",
+        "visual_proof": "In Clip 1 (0:06-0:12), the runner is clearly wearing a black cap. In Clip 2 (0:00-0:04), the same person, identifiable by their clothing and cap, is shown sitting on a stone bench in a paved area overlooking the sea."
+    },
+    {
+        "question": "Across the fitness narrative, where does the runner start (road/fields), what coastal terrain appears later, and what reflective activity is shown once she stops running?",
+        "answer": "She starts running on a road through green landscapes, later runs/walks near coastal grassland paths, and then sits on a seaside bench looking at the ocean.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            21,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows running along a road through varied landscapes. Step 2: Slice 21 shows running along a dirt path in coastal grasslands. Step 3: Slice 30 shows her seated on a bench facing the sea. Conclusion: The activity shifts from running inland/coastal paths to resting contemplatively by the ocean.",
+        "logic_check_reasoning": "Step 1: Slice 20 states the video starts with two people running on a road surrounded by green fields and trees, and zooms in on a runner in a black cap and black shirt. This supports 'starts running on a road through green landscapes.' Step 2: Slice 21 shows a coastal setting with runners on a dirt path through grassy terrain near the sea, supporting 'coastal grassland paths' appearing later. Step 3: Slice 30 shows a woman with a black cap sitting on a seaside bench, contemplatively looking at the ocean, which supports the 'reflective activity' of sitting and looking at the sea after running. Despite Slice 20 noting the runner continues running in that segment, the later slice clearly depicts a reflective seated moment, aligning with the narrative across slices.",
+        "visual_proof": "Clip 1 shows her running on a paved road bordered by green fields and trees. Clip 2 transitions to her running on a dirt path through a grassy coastal area with the sea and mountains in the background. Clip 3 clearly depicts her sitting on a stone bench overlooking the ocean, with a large rock inscription nearby, confirming the reflective activity."
+    },
+    {
+        "question": "Which two different lifestyle domains does the video connect through the same person—first emphasizing meditation duration in conversation, and later emphasizing long exercise duration outdoors?",
+        "answer": "It connects mindfulness (meditating about 20 minutes) and fitness (exercising about four hours on weekdays).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            26,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 13 includes dialogue about meditating about 20 minutes. Step 2: Slice 26 states she exercises about four hours Monday to Friday while showing her running. Step 3: Slice 53 reinforces the theme of routine creating miracles. Conclusion: The video links meditation time and exercise time as routine-based self-management.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows a woman on a Korean talk show stating \"명상을 한 20분 정도 합니다\" (I meditate for about 20 minutes), clearly indicating the mindfulness/meditation domain. Step 2: Slice 26 depicts a woman jogging outdoors with an overlay Q/A stating she exercises for about four hours from Monday to Friday, clearly indicating the fitness/exercise domain. Logic holds because both slices are part of the same variety-show style video featuring the same participant across different contexts, and the answer identifies the two domains and their emphasized durations.",
+        "visual_proof": "Clip 1 shows the woman discussing her routine, with text stating '명상을 한 20분 정도 합니다' (I meditate for about 20 minutes). Clip 2 shows her jogging outdoors, with text stating '월요일부터 금요일까지 기본 4시간씩' (From Monday to Friday, basically 4 hours each), confirming the long exercise duration. Both activities are attributed to the same person."
+    }
+]

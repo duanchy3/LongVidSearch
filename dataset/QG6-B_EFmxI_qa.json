@@ -1,0 +1,255 @@
+[
+    {
+        "question": "What changes about the cucumbers between being washed and being prepared in a terracotta container with water poured in?",
+        "answer": "They go from being rinsed in a metal basin to being submerged/soaked in a terracotta container after water is poured in.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows cucumbers being washed in a large metal basin and transferred to a woven basket. Step 2: Slice 32 shows water being poured into a terracotta container where cucumbers are submerged. Conclusion: The cucumbers transition from rinsing in a metal basin to soaking in a terracotta vessel.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows cucumbers being washed in a large metal basin filled with water, with the man picking them up and placing them into a basket. Step 2: Slice 32 shows water being poured from a terracotta jug into a terracotta container, after which cucumbers are seen submerged in that container. Logic holds because the transition described matches: from being rinsed in a metal basin to being submerged/soaked in a terracotta container after water is poured in.",
+        "visual_proof": "In Video 1, the man is seen washing cucumbers in a large metal basin with running water. In Video 2, the same cucumbers are shown inside a terracotta container, and water is then poured over them, submerging them for soaking or pickling."
+    },
+    {
+        "question": "Which animal is calmly near the cooking shelter while chicken is boiling in the large open pot?",
+        "answer": "A goat.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            55,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 55 shows chicken cooking/boiling in a large open-top metal pot and notes a goat near the structure. Step 2: Slice 54 shows the man calmly petting/grooming a goat under the rustic shelter area. Conclusion: The nearby animal during the boiling-chicken phase is a goat.",
+        "logic_check_reasoning": "Step 1: Slice 55 states that a man is cooking chicken boiling in a large open pot outdoors, with a small thatched-roof structure in the background and a goat visible near the structure, grazing or standing calmly. Step 2: This directly answers the question about which animal is calmly near the cooking shelter while the chicken is boiling. Step 3: Slice 54 further corroborates the presence of a goat in the same rustic setting.",
+        "visual_proof": "In both clips, a goat is visibly present near the cooking shelter. In Clip 1 (0:00-0:04), the goat stands calmly behind the man as he tends to the steaming pot of chicken. In Clip 2 (0:00-0:04), the same goat is seen standing next to the man and later jumping onto the table, confirming its presence and calm demeanor around the cooking area."
+    },
+    {
+        "question": "What is added to the pot after the chicken has already been boiling in water?",
+        "answer": "Onion is added.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            50,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 50 shows chicken pieces boiling in a large pot. Step 2: Slice 52 shows an onion being cut and then placed into the pot with meat and other ingredients. Conclusion: Onion is added after the chicken is already boiling.",
+        "logic_check_reasoning": "Step 1: Slice 50 shows a large pot with chicken boiling in water. Step 2: Slice 52 shows someone cutting an onion and placing a half into a large pot containing meat and other ingredients. Logic holds because the sequence indicates that after the chicken was boiling, an onion was added to the pot.",
+        "visual_proof": "In Video 1, chicken is shown boiling in a pot. In Video 2, the man cuts an onion and then adds the chopped pieces directly into the same pot with the boiling chicken, confirming that onion is added after the chicken has started boiling."
+    },
+    {
+        "question": "After cucumbers are picked from the vine, where are they later washed?",
+        "answer": "They are washed at a natural water source/stream, in a basin under a small waterfall.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a cucumber being picked from the vine. Step 2: Slice 10 shows cucumbers being dumped from a basket into a basin and rinsed at a small waterfall/stream. Conclusion: After being picked, the cucumbers are washed at a natural water source in a basin.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows cucumbers being picked from the vine. Step 2: Slice 10 shows cucumbers being washed in a large shallow basin using water from a natural source, specifically a small waterfall/stream cascading down rocks. Logic holds because the question asks where they are later washed, and Slice 10 explicitly provides the washing location.",
+        "visual_proof": "In Video 1, cucumbers are picked from the vine. In Video 2, the harvested cucumbers are poured from a basket into a metal basin situated directly under a flowing stream of water cascading over rocks, which visually confirms washing at a natural water source under a small waterfall."
+    },
+    {
+        "question": "What tool is used to build up the fire that later supports a simmering pot of broth or stew?",
+        "answer": "Firewood/logs are arranged and added to the fire pit/barrel.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows the man adding wood to embers inside a metal barrel fire pit to strengthen the fire. Step 2: Slice 47 shows a pot with simmering broth under the outdoor kitchen setup. Conclusion: The fire is built up by adding/arranging firewood, enabling the simmering pot.",
+        "logic_check_reasoning": "Step 1: Slice 46 states the man \"carefully places pieces of wood into the burning embers\" in a large metal barrel repurposed as a fire pit, with neatly stacked logs visible—explicitly showing firewood/logs being used to build up the fire. Step 2: Slice 47 shows a simmering pot of broth/soup in the same rustic outdoor cooking setup, indicating the fire prepared earlier is for cooking. Logic holds because the sequence ties fire preparation with subsequent simmering, and the specific item used to build the fire (wood/logs) is clearly described.",
+        "visual_proof": "In Clip 1, the man is shown lighting kindling inside a metal barrel (0:01), which then contains burning logs (0:02). In Clip 2, the same barrel is shown with a pot on top, simmering over the fire created by those logs (0:03-0:04). The surrounding area also has large stacks of cut firewood, reinforcing that logs are the fuel source."
+    },
+    {
+        "question": "Which two different produce items are washed at flowing water sources in separate parts of the video?",
+        "answer": "Cucumbers and cherries.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows cucumbers being washed in a basin at a small waterfall/stream. Step 2: Slice 17 shows grapes being washed in a flowing stream. Conclusion: Cucumbers and grapes are both washed at flowing water sources.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 10 describes a person washing cucumbers, explicitly noting a small natural water source (a small waterfall or stream) cascading nearby and that the person ensures the cucumbers are thoroughly rinsed, indicating use of the flowing water. Step 2: Evidence Slice 17 describes a man washing grapes in a flowing stream, clearly identifying grapes as being washed at a flowing water source. Logic holds because both slices independently show washing produce at flowing water sources, and the items are cucumbers and grapes.",
+        "original_text_answer": "Cucumbers and grapes.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1, green cucumbers are poured from a woven basket into a basin under flowing water. In Video 2, small red and yellow fruits attached to stems—visually identifiable as cherries—are washed under the same flowing water source by a man holding a branch. These are not grapes, which grow in clusters on vines and have a different shape and color profile."
+    },
+    {
+        "question": "From gathering firewood to visible boiling chicken, what are the key steps shown?",
+        "answer": "Firewood is gathered/stacked, the fire is tended/arranged in the pit or stove area, and then chicken is shown boiling in the pot.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            43,
+            46,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows someone gathering and stacking firewood (prep for heat). Step 2: Slice 46 shows the man tending the fire in a barrel fire pit by adding wood. Step 3: Slice 50 shows chicken boiling vigorously in a large pot. Conclusion: Firewood collection and fire-tending precede the boiling chicken.",
+        "logic_check_reasoning": "Step 1: Slice 43 shows a person gathering and neatly stacking firewood, indicating preparation. Step 2: Slice 46 shows the man tending the fire in a barrel fire pit, placing wood into burning embers to build the fire. Step 3: Slice 50 shows a pot with boiling water and chicken cooking, confirming visible boiling chicken. The proposed answer aligns with these steps and is supported by the slices.",
+        "visual_proof": "Clip 1 shows raw chicken pieces in a bowl and hands gathering firewood. Clip 2 shows the man tending a fire in a metal barrel/stove and placing a large pot on it. Clip 3 shows the chicken boiling vigorously in the pot over the fire, with steam rising."
+    },
+    {
+        "question": "What is the relationship between the raw chicken handled earlier and the later pot contents that are stirred and simmering?",
+        "answer": "The raw chicken is cut into pieces first, and later those chicken pieces are cooked in a simmering/boiling pot that gets stirred during cooking.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            48,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows a raw chicken being cut into pieces on a table. Step 2: Slice 48 shows meat (including chicken context in this cooking sequence) being cooked/stirred in a pot. Step 3: Slice 55 explicitly shows chicken pieces cooking vigorously in a large pot as the man stirs with a slotted spoon. Conclusion: The earlier butchering supplies the pieces later boiled and stirred in the pot.",
+        "logic_check_reasoning": "Step 1: Slice 36 shows a man placing a raw chicken on a rustic outdoor table and cutting it into pieces. Step 2: Slice 48 shows the same outdoor, thatched-roof setting with the man cooking raw meat in a large pot and stirring it. Step 3: Slice 55 explicitly identifies the pot contents as pieces of chicken simmering/boiling and being stirred. The progression from cutting raw chicken to cooking and stirring chicken pieces is logically consistent and supported by the slices.",
+        "visual_proof": "In Clip 1, the man is seen cutting whole raw chickens on a wooden board. In Clip 2, he places the cut chicken pieces into a large metal pot over a fire, which then begins to simmer with visible steam and bubbles. In Clip 3, he stirs the contents of the same pot with a slotted spoon while it continues to boil, confirming the chicken pieces from earlier are now being cooked."
+    },
+    {
+        "question": "How does the tea-making setup connect from adding herbs and flowers to pouring finished tea into a cup?",
+        "answer": "Herbs and yellow flowers are steeped with hot water in a glass teapot under a samovar, and later the brewed tea is poured from the glass teapot into a glass cup.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            66,
+            67,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows hot water poured from a samovar into a glass teapot containing herbs and yellow flowers. Step 2: Slice 67 shows tea being poured from a glass teapot into a glass cup. Step 3: Slice 68 shows the man drinking during the relaxed meal (tea/drink context at the table). Conclusion: Herbs are infused with hot water, brewed tea is poured into a cup, then beverages are consumed at the table.",
+        "logic_check_reasoning": "Step 1: Slice 66 shows a glass teapot filled with fresh green herbs and yellow flowers placed under the spout of a samovar, with hot water being poured in, clearly indicating the steeping process. Step 2: Slice 67 shows tea being poured from a glass teapot into a glass cup, indicating the serving of the brewed tea. Logic holds because the sequence from steeping herbs/flowers in a glass teapot using a samovar to later pouring tea from a glass teapot into a cup is explicitly depicted across the slices, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows herbs and yellow flowers being placed in a glass teapot, which is then filled with hot water from a samovar. Clip 2 shows the same glass teapot, now containing brewed tea, being used to pour tea into a glass cup. This visually confirms the entire process described in the answer."
+    },
+    {
+        "question": "After berries are picked in the woods, what is the next water-related step done to them?",
+        "answer": "They are rinsed/washed under flowing water (in a basket) at a stone fountain-like water source.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows red berries being picked and placed into a small woven basket. Step 2: Slice 24 shows a woven basket of berries being rinsed under flowing water at a stone structure. Conclusion: After picking, the berries are washed under running water.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows an individual picking ripe red berries and placing them into a woven basket in a lush, wooded setting. Step 2: Slice 24 shows a man with a woven basket filled with berries rinsing them under flowing water at a small stone fountain/irrigation setup, with water cascading over the berries. Logic holds because the basket, berries, and attire are consistent, and the sequence from picking to rinsing is clearly depicted.",
+        "visual_proof": "Clip 1 shows the man picking berries in a wooded area. Clip 2 immediately follows, showing the same man taking the basket of berries to a stone structure with flowing water and thoroughly rinsing them under the stream. The action is clearly visible in both close-up and wider shots."
+    },
+    {
+        "question": "How do the berries progress from being picked to being cleaned and then ending up ready for use on a work surface?",
+        "answer": "The berries are picked into a small basket, then rinsed under running water from a stone fountain, and finally placed on a wooden table alongside other ingredients for preparation.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            23,
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows red berries being picked into a small woven basket. Step 2: Slice 24 shows the berries being rinsed under flowing water. Step 3: Slice 25 shows the man at a table actively prepping ingredients (work surface context for continued food prep). Conclusion: The berries go from foraged to washed to being part of ongoing table-based preparation.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows the person picking ripe red berries and placing them into a small woven basket. Step 2: Slice 24 shows the man rinsing the basket of berries under flowing water and then carrying the basket across a field toward a wooden chopping block, which serves as a work surface/prep area. Step 3: While Slice 25 focuses on garlic at a table, Slice 24 already establishes movement of the cleaned berries toward a work surface. The proposed sequence—picked into a basket, rinsed under running water, and carried toward a prep area—is explicitly supported.",
+        "original_text_answer": "They are picked into a small basket, then rinsed under running water, and finally carried away toward a chopping/prep area.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the man picking berries into a small woven basket. Clip 2 shows him washing the berries in that same basket under a stream of water flowing from a stone structure. Clip 3 shows the washed berries in the basket, now placed on a wooden table with other ingredients like garlic and peppers, indicating they are ready for use."
+    },
+    {
+        "question": "How does the cucumber handling evolve from being harvested, to being washed, to being submerged in a terracotta container?",
+        "answer": "They are picked from the vine, then washed in a basin at a water source, then soaked submerged in water inside a terracotta container.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            12,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows cucumbers being picked from the plant. Step 2: Slice 12 shows cucumbers washed in a metal basin and transferred to a basket. Step 3: Slice 32 shows cucumbers submerged in water inside a terracotta container. Conclusion: Harvest → wash → soak/submerge.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows a person harvesting cucumbers by gently pulling one off the vine, clearly indicating the picking/harvesting stage. Step 2: Slice 12 shows a man washing cucumbers in a large metal basin outdoors, with running water audible, supporting the washing step. Step 3: Slice 32 shows a man pouring water into a terracotta container with cucumbers submerged inside, indicating they are soaked in water in the terracotta vessel. Logic holds because the sequence moves coherently from harvest to wash to soaking as described.",
+        "visual_proof": "Clip 1 shows a hand picking cucumbers directly from the vine. Clip 2 shows the same person washing the harvested cucumbers in a metal basin under a natural water flow. Clip 3 shows the cucumbers fully submerged in water inside a large terracotta pot after water is poured into it."
+    },
+    {
+        "question": "What is the progression from washing peppers to slicing peppers, and then cooking with the prepared ingredients nearby?",
+        "answer": "Bell peppers are rinsed under running water, then peppers are sliced on a cutting board, and then the cooking continues with prepared ingredients at the rustic station.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            71,
+            73,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 71 shows bell peppers being washed at a stone water feature. Step 2: Slice 73 shows a green pepper being sliced on a cutting board at the rustic prep table. Step 3: Slice 76 shows active cooking in a pot (onions/ingredients bubbling) at the outdoor station. Conclusion: Ingredients are cleaned, cut, then used in ongoing cooking.",
+        "logic_check_reasoning": "Step 1: Slice 71 explicitly shows the man washing bell peppers under flowing water at a stone feature. Step 2: Slice 73 explicitly shows a close-up of slicing a green pepper on a wooden cutting board in a rustic outdoor setup with a table of prepared ingredients. Step 3: Slice 76 shows the man cooking over an open fire at the rustic station with a pot containing onions and other ingredients; combined with Slice 73's depiction of prepared ingredients on the table, it supports the notion that cooking continues with prepared ingredients nearby. The progression from washing to slicing to cooking is coherently supported across the slices.",
+        "visual_proof": "Clip 1 shows the man washing bell peppers in a stone basin with running water. Clip 2 shows him slicing green peppers on a wooden cutting board at a rustic outdoor station. Clip 3 shows him cooking over a fire pit at the same rustic station, with steam rising from the pot, indicating ongoing cooking with prepared ingredients nearby."
+    },
+    {
+        "question": "How do the blackberries go from being foraged in the wild to being incorporated into a drink mixture?",
+        "answer": "They are picked from a bush, then rinsed under running water, then placed into a glass pitcher with herbs.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            63,
+            65,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 63 shows blackberries being picked in a rocky outdoor area. Step 2: Slice 65 shows the berries being rinsed and then placed into a glass pitcher with herbs. Step 3: Slice 66 shows hot water poured into a teapot with herbs/flowers (reinforcing beverage-prep context). Conclusion: Foraged blackberries are washed and added to a herb mixture for a drink-like preparation.",
+        "logic_check_reasoning": "Step 1: Slice 63 shows someone foraging and picking ripe blackberries from a bush. Step 2: Slice 65 shows those freshly picked blackberries being rinsed under running water. Step 3: Slice 65 further shows the washed blackberries being placed into a clear glass pitcher that contains herbs, with additional herbs added. The sequence explicitly supports the progression from foraging to rinsing to incorporation into a herb-filled drink mixture.",
+        "visual_proof": "Clip 1 shows hands picking blackberries from a wild bush. Clip 2 shows the same hands rinsing the berries and herbs under a stream of water, followed by placing them into a glass pitcher. Clip 3 shows hot water being poured into that same pitcher, completing the drink mixture preparation."
+    },
+    {
+        "question": "Across the food preparation storyline, how does the activity shift from gardening/harvesting to meat cooking at the shelter?",
+        "answer": "It begins with harvesting cucumbers in the garden, then transitions to setting up ingredients at an outdoor table, and later shifts to butchering and boiling chicken in the rustic cooking area.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            9,
+            36,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows harvesting cucumbers from vines. Step 2: Slice 9 shows outdoor table setup with pot/basket and water being brought for prep. Step 3: Slice 36 shows butchering a chicken on a wooden table. Step 4: Slice 55 shows chicken boiling in a large pot at the shelter. Conclusion: The video moves from produce harvesting to prep setup to meat preparation and cooking.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows harvesting cucumbers in a garden, matching the start in gardening/harvesting. Step 2: Slice 9 shows the man arranging a clay pot and fetching water at an outdoor table, indicating setup for food preparation. Step 3: Slice 36 depicts cutting a raw chicken into pieces, aligning with butchering. Step 4: Slice 55 shows chicken boiling in a large pot in a rustic outdoor area with a thatched-roof structure, consistent with meat cooking at a shelter-like setting. The sequence and activities stated in the answer are directly supported by these slices.",
+        "visual_proof": "Clip 1 shows the man picking cucumbers in a garden. Clip 2 shows him placing a pot and basket of cucumbers on an outdoor table in a mountainous area. Clip 3 shows him butchering raw chickens on a wooden table under a thatched shelter. Clip 4 shows him placing a steaming pot into a large metal container, indicating boiling/cooking. These visuals directly support the sequence described in the answer."
+    },
+    {
+        "question": "What is the full chain from collecting berries to a communal meal where multiple people eat together outdoors?",
+        "answer": "Berries are picked, then rinsed/cleaned, then food is cooked and plated, and finally a group shares a meal at a picnic table.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            23,
+            24,
+            89,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows berries being picked into a basket. Step 2: Slice 24 shows the berries being rinsed under flowing water. Step 3: Slice 89 shows cooked food being served from a pot into a wooden tray (plating/serving stage). Step 4: Slice 91 shows children and adults gathered at a picnic table eating together. Conclusion: Foraging and cleaning contribute to a broader meal-prep arc culminating in communal dining.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows a person picking ripe red berries and placing them into a woven basket, supporting 'berries are picked.' Step 2: Slice 24 shows the same person rinsing the berries under flowing water, supporting 'then rinsed/cleaned.' Step 3: Slice 89 depicts outdoor cooking and plating, with food being scooped from a metal pot into a wooden tray and the scene described as casual outdoor cooking, supporting 'food is cooked and plated.' Step 4: Slice 91 shows a group of children and adults at a wooden picnic table being served and eating together outdoors, supporting 'finally a group shares a meal at a picnic table.' Logic holds because each slice provides an explicit step in the sequence from foraging to cleaning to cooking/plating to communal eating, with consistent outdoor settings and matching descriptions of the served dish.",
+        "visual_proof": "Clip 1 shows hands picking berries from bushes. Clip 2 shows the same person rinsing the berries in a basket under running water. Clip 3 shows the person plating a cooked dish (which includes the berries) onto a wooden board. Clip 4 shows the man serving this dish to a group of children and adults seated at a picnic table outdoors, who then begin eating together."
+    },
+    {
+        "question": "How does the video show a transition from raw ingredients to a finished cooked dish being served and eaten?",
+        "answer": "Raw chicken is cut, then boiled/cooked in a pot, then the cooked dish is plated, and then people eat together at an outdoor table.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            36,
+            50,
+            90,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows a raw chicken being cut into pieces. Step 2: Slice 50 shows chicken boiling in a large pot. Step 3: Slice 90 shows the prepared dish presented/served with bread in the rustic cooking area. Step 4: Slice 92 shows an outdoor picnic table where an adult serves food to children who are eating. Conclusion: Ingredient prep → cooking → serving → eating.",
+        "logic_check_reasoning": "Step 1: Slice 36 shows a man placing a raw chicken on a rustic table and cutting it into pieces, establishing the raw ingredient preparation. Step 2: Slice 50 shows several pieces of raw chicken cooking in a boiling pot, indicating the transition to cooking. Step 3: Slice 90 shows a close-up of a plated, appetizing dish with the man preparing/serving it, reflecting the plating of the cooked food. Step 4: Slice 92 shows an outdoor picnic where an adult serves food and children are eating at a table, demonstrating the final serving and eating stage. Logic holds because the slices collectively depict the progression from raw prep to cooking, plating, and communal eating, which matches the proposed answer's sequence.",
+        "visual_proof": "Clip 1 shows raw chicken being cut on a wooden board. Clip 2 shows chicken pieces boiling in a large pot. Clip 3 shows the finished cooked dish being plated by a man. Clip 4 shows children and adults eating the dish together at an outdoor table."
+    },
+    {
+        "question": "How do the ingredients and cooking vessel connect from adding herbs/seeds into a terracotta pot to later adding vegetables into a large clay pot with dark liquid?",
+        "answer": "First, herbs and seeds are placed into a terracotta pot, and later vegetables (like peppers and sliced cucumbers) are added into a large clay pot containing dark liquid/broth.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            28,
+            31,
+            29,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows dried herbs and seeds being poured into a terracotta pot on the table. Step 2: Slice 31 shows the terracotta pot and herbs being handled as part of preparation. Step 3: Slice 29 shows a large clay pot with dark liquid with vegetables around it, and vegetables being added. Step 4: Slice 30 shows green peppers being placed into the clay pot as part of the meal. Conclusion: A terracotta-pot herb/seed prep leads into a clay-pot cooking phase where vegetables are added.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows a terracotta pot with a person placing dried herbs and then pouring small light-colored seeds into it. Step 2: Slice 31 reinforces the setup with the man handling a terracotta pot and herbs in an outdoor, traditional context. Step 3: Slice 29 shows a large clay pot containing a dark liquid, with bowls of vegetables (green peppers, tomatoes, sliced cucumbers) and the man adding ingredients from these bowls into the pot. Step 4: Slice 30 specifically shows green peppers being placed into a large clay pot. Logic holds because the context clearly depicts an initial stage with herbs/seeds in a terracotta pot, followed by a later stage adding vegetables into a large clay pot with dark liquid. The proposed answer mirrors this sequence without asserting unsupported links between the pots.",
+        "visual_proof": "Clip 1 shows dried herbs being dropped into a terracotta pot, followed by seeds being poured in. Clip 3 and Clip 4 show the same pot now containing dark liquid, into which the man adds garlic cloves, red berries, and green peppers. The consistent use of the same large clay pot across clips confirms the sequence: herbs/seeds are added first, then vegetables are layered into the same pot with dark liquid."
+    }
+]

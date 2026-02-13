@@ -1,0 +1,42 @@
+[
+    {
+        "question": "Which cat has yellow eyes in one scene and is later shown interacting with a black-and-white bird indoors?",
+        "answer": "The black-and-white cat with yellow eyes.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a black-and-white cat with bright yellow eyes in close-up. Step 2: Slice 46 shows a black-and-white cat with striking yellow eyes indoors near a black-and-white bird. Conclusion: The yellow-eyed black-and-white cat is the one later interacting with the bird.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a close-up of a black-and-white cat with bright yellow eyes. Step 2: Slice 46 shows a black-and-white cat with striking yellow eyes indoors, interacting with a black-and-white bird. Logic holds because both slices consistently describe the same visual attributes (black-and-white fur, yellow eyes), and Slice 46 explicitly includes the indoor interaction with the bird, matching the question. Therefore, identifying the cat as 'the black-and-white cat with yellow eyes' is supported by the context.",
+        "visual_proof": "In Video 1, a black-and-white cat with distinct yellow eyes is shown. In Video 2, the same black-and-white cat with yellow eyes is seen indoors, alongside another cat and a black-and-white bird (a magpie), confirming it is the subject of the question."
+    },
+    {
+        "question": "A vintage poster is shown, and later the same title appears in another segment. What is the title that appears in both places?",
+        "answer": "Compagnie Française des Chocolats et des Thés.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a painting/poster titled \"Compagnie Francaise des Chocolats et des Thes.\" Step 2: Slice 53 again shows a colorful poster advertising \"Compagnie Française des Chocolats et des Thés.\" Conclusion: The recurring title is the same.",
+        "logic_check_reasoning": "Step 1: Slice 53 states a vibrant vintage poster advertising \"Compagnie Française des Chocolats et des Thés.\" Step 2: Slice 7 mentions a painting titled \"Compagnie Francaise des Chocolats et des Thes.\" Despite missing diacritics, the titles match, indicating the same title appears in both segments. The logic holds given allowable VLM noise.",
+        "visual_proof": "The title 'COMPAGNIE FRANCAISE DES CHOCOLATS ET DES THES' is clearly visible in the vintage poster shown in Video 1 (frames 0:13-0:21). The same poster and title are shown again in Video 2 at frame 0:03, confirming it appears in both segments."
+    },
+    {
+        "question": "Across the video, cats are shown as real animals, paintings, and animation. If you pick one example of each, which three segments respectively show a real cat close-up, an impressionist cat-and-woman painting, and an animated Japanese-style cat scene?",
+        "answer": "Real cat close-up: the black cat’s glowing eyes; painting: the woman and cat impressionist scene; animation: the white cat by the Japanese window.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            21,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a real black cat’s face with intense glowing amber eyes. Step 2: Slice 21 shows an impressionistic painting of a woman and a cat. Step 3: Slice 26 shows an animated white cat sitting on a windowsill in a Japanese-style setting. Conclusion: These three slices exemplify real, painted, and animated cats.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a close-up of a black cat’s face with glowing/reflective eyes in a dim setting, consistent with a real cat close-up. Step 2: Slice 21 explicitly states it is an impressionistic painting of a woman and a cat, matching the painting segment. Step 3: Slice 26 explicitly describes an animated scene with a white cat by a traditional Japanese-style window, matching the animated Japanese-style cat scene. The proposed examples align with these slices: black cat’s glowing eyes (Slice 45), impressionist woman-and-cat painting (Slice 21), and white cat by the Japanese window (Slice 26).",
+        "visual_proof": "Clip 1 shows a real black cat with glowing eyes in darkness. Clip 2 displays an impressionist-style painting of a woman and a cat. Clip 3 features an animated white cat sitting on a windowsill in a Japanese-style setting, followed by a painted black-and-white cat."
+    }
+]

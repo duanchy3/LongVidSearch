@@ -1,0 +1,106 @@
+[
+    {
+        "question": "Which music-related event happened first: the album reaching number one or the musician being arrested, and what were the dates for both?",
+        "answer": "The album reaching number one happened first: Pink Floyd's 'The Wall' was No. 1 on Jan 15, 1980, and the musician's arrest was on Jan 16, 1980.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 8 states Pink Floyd's 'The Wall' was No. 1 on JAN 15, 1980. Step 2: Slice 6 shows 'Paul McCartney Arrested' dated Jan 16, 1980. Conclusion: The No. 1 event occurs before the arrest, with the listed dates.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly shows a blue bar stating \"Pink Floyd's 'The Wall' No. 1 JAN 15, 1980,\" indicating the album reached number one on Jan 15, 1980. Step 2: Slice 6 shows a title screen \"Paul McCartney Arrested\" with the date \"Jan 16, 1980,\" and the description confirms the arrest occurred on January 16, 1980. Comparing the dates, Jan 15 precedes Jan 16, so the album reaching number one happened first. The dates and the sequence are directly supported by the slices.",
+        "visual_proof": "Clip 2 shows a title card for 'Pink Floyd's \"The Wall\" No.1' with the date 'JAN 15, 1980'. Clip 1 shows a title card for 'Paul McCartney Arrested' with the date 'JAN 16, 1980'. The dates are clearly displayed on screen, confirming the sequence of events."
+    },
+    {
+        "question": "Two different sports victories are shown with dates in early 1980—one in football and one in hockey. What are the events and their dates?",
+        "answer": "Pittsburgh Steelers win the Super Bowl on Jan 20, 1980; the Miracle on Ice hockey game is dated Feb 22, 1980.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows 'Pittsburgh Steelers Win Super Bowl' dated JAN 20, 1980. Step 2: Slice 10 shows 'The Miracle on Ice' dated FEB 22, 1980. Conclusion: These are the two sports victories and their dates.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly shows a title screen reading 'Pittsburgh Steelers Win Super Bowl' with the date 'JAN 20, 1980', followed by celebration footage of the Steelers, confirming the football event and date. Step 2: Slice 10 explicitly shows a title screen reading 'The Miracle on Ice' with the date 'FEB 22, 1980', followed by a hockey game and celebration by the white team, confirming the hockey event and date. Logic holds because both events and dates are directly stated in the captions.",
+        "visual_proof": "Clip 1 displays a graphic with the text 'Pittsburgh Steelers Win Super Bowl' and the date 'JAN 20, 1980', followed by footage of football players celebrating. Clip 2 displays a graphic with the text 'The Miracle on Ice' and the date 'FEB 22, 1980', followed by footage of hockey players celebrating. Both events and their corresponding dates are explicitly shown in the video frames."
+    },
+    {
+        "question": "A political boycott is shown and later the Olympics are shown being hosted. What country’s Olympics were boycotted, and on what date is the hosting shown?",
+        "answer": "The Moscow Olympics were boycotted, and Moscow hosting is shown on Jul 19, 1980.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 13 says 'Moscow Olympics' and 'America Boycotts Summer Olympics.' Step 2: Slice 14 shows 'Moscow Hosts Olympics' dated JUL 19, 1980. Conclusion: The boycotted Olympics are Moscow's, and hosting is shown on Jul 19, 1980.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly shows a graphic labeled \"Moscow Olympics\" alongside the caption \"America Boycotts Summer Olympics,\" indicating the boycott pertains to the Moscow Olympics. Step 2: Slice 14 explicitly displays \"Moscow Hosts Olympics\" with the date \"JUL 19, 1980,\" providing the hosting date. Logic holds because both components of the proposed answer (Moscow Olympics and Jul 19, 1980) are directly stated in the captions.",
+        "visual_proof": "Clip 1 explicitly displays a graphic with the text 'America Boycotts Summer Olympics' alongside an image labeled 'MOSCOW OLYMPICS 1980' and the date 'MAR 21, 1980'. Clip 2 shows a graphic stating 'Moscow Hosts Olympics' with the date 'JUL 19, 1980', accompanied by footage of the opening ceremony in a stadium. This visually confirms both the boycott of the Moscow Olympics and the date of their hosting."
+    },
+    {
+        "question": "Which two segments explicitly show a lottery-related scandal and the dollar amount associated with it?",
+        "answer": "The lottery scandal appears around Apr 24, 1980, and it shows a figure of $1.2 million.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows 'THE DIRTY NUMBERS' and 'Lottery Scandal' dated APR 24, 1980. Step 2: Slice 26 displays '$1.2 million' in the segment connected to 'THE DAILY NUMBER.' Conclusion: The lottery scandal segment is tied to Apr 24, 1980 and features $1.2 million.",
+        "logic_check_reasoning": "Step 1: Slice 25 explicitly shows a stylized graphic labeled \"Lottery Scandal\" with the date \"APR 24, 1980,\" which supports the proposed answer's identification of the scandal date. Step 2: Slice 26 explicitly shows a graphic displaying \"$1.2 million\" within the context of \"THE DAILY NUMBER\" broadcast, which supports the proposed answer's cited dollar figure. Logic holds because both elements—lottery scandal and the dollar amount—are directly depicted across the two slices, with the date in Slice 25 and the amount in Slice 26, and the content is thematically linked to a lottery-related broadcast.",
+        "visual_proof": "Clip 1 (at 0:07-0:08) displays a graphic with the text 'Lottery Scandal' and the date 'APR 24, 1980'. Clip 2 (at 0:09-0:11) visually confirms this by showing the same date on a screen during a lottery draw, followed by the superimposed text '$1.2 million', directly linking the scandal to this specific monetary value."
+    },
+    {
+        "question": "A news network launch is shown with a 1980 date, and later a newsroom scene shows a different 1987 date. What are the two dates and which networks are referenced?",
+        "answer": "CNN launches on Jun 1, 1980; a FOX News Channel anniversary graphic shows Sept 2, 1987.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows 'CNN Launches' dated JUN 1, 1980. Step 2: Slice 39 shows a FOX News Channel '20th ANNIVERSARY' dated SEPTEMBER 2, 1987 (alongside CNN newsroom imagery). Conclusion: The referenced networks and dates are CNN (Jun 1, 1980) and FOX News (Sept 2, 1987).",
+        "logic_check_reasoning": "Step 1: Slice 38 explicitly states a banner reading 'CNN Launches' with the date 'JUN 1, 1980,' confirming the first network and date. Step 2: Slice 39 describes a screen within a news studio showing the FOX News Channel logo and '20th ANNIVERSARY' with the date 'SEPTEMBER 2, 1987,' confirming the second network and date. Logic holds because both dates and corresponding networks are directly mentioned in the provided slices.",
+        "visual_proof": "Clip 1 explicitly displays a graphic stating 'CNN Launches JUN 1, 1980'. Clip 2 shows a newsroom scene with a lower third graphic reading '20th ANNIVERSARY FOX NEWS CHANNEL', and a subsequent close-up of a news anchor has an on-screen date stamp of 'SEPTEMBER 2, 1987' in the top right corner. The visual evidence directly supports the dates and networks mentioned in the original answer."
+    },
+    {
+        "question": "Which comedian’s drug-related incident is referenced, and what later stage footage shows him performing in a distinctive outfit?",
+        "answer": "Richard Pryor; later he is shown performing on stage in a bright red suit.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 41 references 'Richard Pryor on Fire' (drug-related context). Step 2: Slice 43 shows Richard Pryor performing on stage wearing a red suit. Conclusion: The comedian is Richard Pryor, later seen performing in a red suit.",
+        "logic_check_reasoning": "Step 1: Slice 41 explicitly references comedian Richard Pryor and details the drug-related incident where he set himself on fire while freebasing cocaine. Step 2: Slice 43 shows later stage footage of Richard Pryor performing, describing him wearing a vibrant red suit. Logic holds because the question asks which comedian’s drug-related incident is referenced (Richard Pryor in Slice 41) and what the later stage footage shows (him performing in a bright red suit in Slice 43). Any date inconsistency is VLM noise and does not affect the identity or outfit.",
+        "visual_proof": "Clip 1 displays a title card explicitly naming 'Richard Pryor on Fire' dated June 9, 1980, referencing his well-known drug-related incident. Clip 2 shows footage from 'Richard Pryor: Live on the Sunset Strip' (March 24, 1982), where he is visibly performing on stage wearing a bright red suit."
+    },
+    {
+        "question": "A memorial mosaic with a single word is shown, and elsewhere a timeline card announces the assassination connected to that memorial. What is the word on the mosaic and whose assassination is referenced?",
+        "answer": "The mosaic says 'IMAGINE,' and the assassination referenced is John Lennon’s.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            84,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 89 shows people sitting on an 'IMAGINE' mosaic. Step 2: Slice 84 references 'John Lennon Assassinated' dated DEC 8, 1980. Conclusion: The mosaic word is IMAGINE and the referenced assassination is John Lennon's.",
+        "logic_check_reasoning": "Step 1: Slice 89 explicitly describes a circular memorial mosaic with the single word \"IMAGINE\" prominently displayed. Step 2: Slice 84 explicitly shows a timeline-style text overlay reading \"John Lennon Assassinated\" with the date DEC 8, 1980. Logic holds because the question asks for the word on the mosaic and the assassination referenced elsewhere, both of which are directly stated in the slices.",
+        "visual_proof": "Clip 2, frames 0:02-0:06, clearly shows a black-and-white mosaic on the ground with the word 'IMAGINE' in the center. Clip 1, frame 0:02, displays a timeline card that reads 'John Lennon Assassinated' with the date 'DEC 8, 1980.' The context of the video links these two elements together as part of a historical timeline."
+    },
+    {
+        "question": "A film release about a masked killer is shown, and a separate clip shows a famous boxer winning by TKO. Name the film and the boxer.",
+        "answer": "The film is 'Friday the 13th,' and the boxer is Sugar Ray Leonard.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows 'Friday the 13th Released.' Step 2: Slice 78 identifies 'Sugar Ray Leonard' as 'Winner TKO 2:44 Round 3.' Conclusion: The film is Friday the 13th and the boxer is Sugar Ray Leonard.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly shows a film release titled \"Friday the 13th,\" including a scene with a masked killer (a man wearing a hockey mask) and the title appearing on screen. Step 2: Slice 78 explicitly identifies the boxer as \"Sugar Ray Leonard\" with an overlay stating \"Winner TKO 2:44 Round 3,\" confirming a TKO victory. Logic holds because the question asks for the film with the masked killer and the boxer winning by TKO, both of which are directly named in the slices.",
+        "visual_proof": "Clip 1 visually confirms the film 'Friday the 13th' with its title card, release date (May 9, 1980), and a scene featuring a masked killer. Clip 2 shows a boxing match ending in a TKO, with on-screen text explicitly identifying the winner as 'SUGAR RAY LEONARD Winner-TKO'."
+    }
+]

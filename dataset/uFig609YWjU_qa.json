@@ -1,0 +1,98 @@
+[
+  {
+    "question": "Which TV-broadcast milestone happened first in 1971: the cigarette advertisement ban taking effect or the premiere of the sitcom shown on a retro TV set?",
+    "answer": "The cigarette ad ban took effect first (Jan 1, 1971), before the sitcom premiere (Jan 12, 1971).",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      7
+    ],
+    "reasoning_chain": "Step 1: Slice 3 shows a TV caption reading the cigarette ad ban taking effect on Jan 1st, 1971. Step 2: Slice 7 shows a retro TV promotion stating “All in the Family Premieres” on Jan 12th, 1971. Conclusion: Jan 1 precedes Jan 12, so the ad ban happened first.",
+    "logic_check_reasoning": "Step 1: Slice 3 shows a TV screen with the caption 'Cigarette Ad Ban Jan 1st 1971,' indicating the ban took effect on January 1, 1971. Step 2: Slice 7 shows a retro TV promoting the sitcom 'All in the Family' with the date 'Jan. 12th 1971' for its premiere. Step 3: Comparing the dates, January 1 precedes January 12. Thus, the cigarette ad ban happened first.",
+    "visual_proof": "Clip 1 displays text on a retro TV screen stating 'Cigarette Ad Ban' with the date 'Jan. 1st 1971'. Clip 2 displays text on the same retro TV screen stating 'All in the Family Premieres' with the date 'Jan. 12th 1971'. The dates are clearly visible and confirm the chronological order."
+  },
+  {
+    "question": "Two separate vintage-TV announcements in September 1971 mark a major music release and a political leader’s death. What are those two items?",
+    "answer": "John Lennon and Yoko Ono’s “Imagine” release (Sep 9, 1971) and Khrushchev’s death (Sep 11, 1971).",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      47,
+      48
+    ],
+    "reasoning_chain": "Step 1: Slice 47 shows a TV card announcing the release of “Imagine” on Sep. 9th, 1971. Step 2: Slice 48 shows a TV card reading “Khrushchev Dies Sep. 11th 1971.” Conclusion: These are the two September 1971 items.",
+    "logic_check_reasoning": "Step 1: Slice 47 describes a vintage TV showing John Lennon and Yoko Ono with text announcing the release of 'Imagine' on September 9, 1971. Step 2: Slice 48 shows a vintage TV screen with the text 'Khrushchev Dies' and the date 'Sep. 11th 1971'. Logic holds because the question asks for two separate vintage-TV announcements in September 1971: one marking a major music release and the other a political leader’s death, which are explicitly shown in the two slices.",
+    "visual_proof": "Clip 1 shows a vintage TV with text 'John Lennon Releases Imagine Sep. 9th 1971' alongside footage of John Lennon. Clip 2 shows the same TV with text 'Khrushchev Dies Sep. 11th 1971' alongside a photo of Nikita Khrushchev. Both announcements are explicitly displayed on-screen."
+  },
+  {
+    "question": "Which happens earlier on the timeline: the event about a famous singer leaving the U.S. or the founding of a major film company?",
+    "answer": "The singer leaving the U.S. happens earlier (Mar. 11th 1971) than the film company’s founding (Dec. 10th 1971).",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      23,
+      82
+    ],
+    "reasoning_chain": "Step 1: Slice 23 shows a TV card noting a famous singer (Jim Morrison) leaving the U.S. on Mar 10th, 1971. Step 2: Slice 82 shows a TV card stating “Lucasfilm Founded Dec 14th 1971.” Conclusion: March precedes December, so the departure happened earlier.",
+    "logic_check_reasoning": "Step 1: Slice 23 states that the famous singer (Jim Morrison) departed the U.S. on March 10, 1971. Step 2: Slice 82 states that Lucasfilm was founded on Dec 14, 1971. Step 3: Comparing the two dates within the same year, March 10 precedes December 14. Therefore, the singer leaving the U.S. happened earlier. The logic holds because both dates are explicitly provided in the captions.",
+    "original_text_answer": "The singer leaving the U.S. happens earlier (Mar 10, 1971) than the film company’s founding (Dec 14, 1971).",
+    "verdict_meta": "REFINED",
+    "visual_proof": "Clip 1 displays a television screen with text stating 'Jim Morrison Leaves U.S. Mar. 11th 1971'. Clip 2 shows another television screen with text stating 'Lucasfilm Founded Dec. 10th 1971'. Comparing the dates, March 11th precedes December 10th in the same year."
+  },
+  {
+    "question": "A mysterious hijacking is introduced on a retro TV card, and a later documentary segment shows a sign stating the suspect is still at large. What is the name used for the hijacker?",
+    "answer": "D.B. Cooper (or B. Cooper).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      74,
+      76
+    ],
+    "reasoning_chain": "Step 1: Slice 74 shows a TV card labeled “DB Cooper Hijacking Nov. 24th 1971.” Step 2: Slice 76 shows a documentary with signage “B. COOPER STILL AT LARGE.” Conclusion: The hijacker is referred to as D.B. Cooper/B. Cooper.",
+    "logic_check_reasoning": "Step 1: Slice 74 shows a retro TV card with on-screen text explicitly reading \"DB Cooper Hijacking,\" establishing the hijacker name as DB Cooper. Step 2: Slice 76 shows a sign reading \"B. COOPER STILL AT LARGE,\" indicating the same hijacker referred to as B. Cooper. Logic holds because both slices reference the same hijacking and use the names DB Cooper and B. Cooper interchangeably, matching the proposed answer.",
+    "visual_proof": "Clip 1 explicitly displays the text 'DB Cooper Hijacking' on the retro TV screen. Clip 2 reinforces this by showing a newspaper headline that reads 'COOPER STILL AT LARGE', directly linking the name 'Cooper' to the hijacker who is still at large."
+  },
+  {
+    "question": "A music show’s premiere is announced on a vintage TV, and later a host is introduced holding a microphone in a retro studio-style graphic. What show is being promoted and who is the host?",
+    "answer": "Soul Train, hosted by Don Cornelius.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      53,
+      54
+    ],
+    "reasoning_chain": "Step 1: Slice 53 shows a TV promotion for “Soul Train,” noting its premiere date. Step 2: Slice 54 identifies Don Cornelius as a television host holding a microphone in a retro set. Conclusion: The show is Soul Train and the host is Don Cornelius.",
+    "logic_check_reasoning": "Step 1: Slice 53 describes a vintage television displaying a promotional image for 'Soul Train,' explicitly noting its premiere date, which supports the music show being promoted. Step 2: Slice 54 introduces Don Cornelius, identified on-screen as a 'Television Host,' holding a microphone in a retro studio-style graphic. Step 3: The question ties these two moments together: the show promoted (Soul Train) and the host introduced (Don Cornelius). The context clearly names both, so the logic holds.",
+    "visual_proof": "Clip 1 shows a vintage TV screen with the text 'Soul Train Premieres Oct. 2nd 1971'. Clip 2 features a graphic identifying 'Don Cornelius' as 'Television Host' for 'Soul Train (1974)', with him holding a microphone in a retro studio setting."
+  },
+  {
+    "question": "The montage highlights two major 1971 music-release moments: a socially conscious soul album and an iconic rock album, each introduced via retro TV cards and followed by performance footage. What are the two albums and their associated artists/bands?",
+    "answer": "“What’s Going On” by Marvin Gaye, and “Led Zeppelin IV” by Led Zeppelin.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      28,
+      29,
+      70,
+      71
+    ],
+    "reasoning_chain": "Step 1: Slice 28 shows “What’s Going On” released May 12th, 1971. Step 2: Slice 29 identifies Marvin Gaye and shows performance clips. Step 3: Slice 70 shows “Led Zeppelin IV Released Nov. 8th 1971.” Step 4: Slice 71 shows Led Zeppelin performing live. Conclusion: The albums are What’s Going On (Marvin Gaye) and Led Zeppelin IV (Led Zeppelin).",
+    "logic_check_reasoning": "Step 1: Slice 28 shows a retro TV card explicitly promoting the album 'What's Going On,' released May 12, 1971. Step 2: Slice 29 follows with montage footage of Marvin Gaye performing, linking the TV card to the artist. Step 3: Slice 70 shows a retro TV card promoting 'Led Zeppelin IV,' released Nov. 8, 1971. Step 4: Slice 71 follows with live performance footage of Led Zeppelin, linking the TV card to the band. The logic holds because each album is introduced via a TV card and then followed by performance footage of the associated artist/band, matching the question’s description.",
+    "visual_proof": "Clip 1 shows a retro TV card explicitly stating 'What's Going On Released May 21st 1971' with an image of Marvin Gaye. Clip 2 features performance footage of Marvin Gaye. Clip 3 shows another retro TV card stating 'Led Zeppelin IV Released Nov. 8th 1971' with an image of the band. Clip 4 features performance footage of Led Zeppelin on stage. The visual evidence directly confirms both album titles, artists, and release years as stated in the original answer."
+  },
+  {
+    "question": "A music album release is shown on a vintage TV with a date, and later the artist is explicitly identified performing in multiple clips. What is the album and who is the artist?",
+    "answer": "The album is “What’s Going On,” and the artist is Marvin Gaye.",
+    "category": "Visual_Tracking",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      28,
+      29,
+      25
+    ],
+    "reasoning_chain": "Step 1: Slice 28 shows a TV promotion for the album “What’s Going On” dated May 12th, 1971. Step 2: Slice 29 identifies Marvin Gaye as a singer-songwriter and shows him performing. Step 3: Slice 25 includes montage elements featuring musicians and performance contexts consistent with the music-focused timeline theme. Conclusion: The album is What’s Going On by Marvin Gaye.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 28 shows a vintage TV displaying a promotional graphic explicitly for the album 'What's Going On,' with a release date of May 12th, 1971. Step 2: Evidence Slice 29 explicitly identifies the performing artist as Marvin Gaye, including on-screen text 'Marvin Gaye Singer-Songwriter,' and shows multiple clips of his performances. Logic holds because the question asks to name the album shown on the TV and the artist later identified performing; both are directly stated in the slices.",
+    "visual_proof": "Clip 1 shows a vintage TV displaying the text 'What's Going On Released May 21st 1971' with an image of Marvin Gaye. Clip 2 explicitly identifies the performer as 'Marvin Gaye Singer-Songwriter' and shows him performing in multiple scenes, matching the person from the TV screen in Clip 1."
+  }
+]

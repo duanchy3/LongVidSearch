@@ -1,0 +1,81 @@
+[
+    {
+        "question": "What exhibition title shown at the gallery entrance is the same exhibition named on the opening title card for the event?",
+        "answer": "Jules Tavernier and the Elem Pomo.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            3
+        ],
+        "reasoning_chain": "Step 1: The opening title card names the exhibition presented in conjunction with the talk. Step 2: The gallery entrance sign shows the exhibition title. Conclusion: They match.",
+        "logic_check_reasoning": "Step 1: Slice 1 states that the opening title card mentions the event is presented in conjunction with the exhibition \"Jules Tavernier and the Elem Pomo.\" Step 2: Slice 3 states that the teal sign above the gallery entrance shows the exhibition titled \"Jules Tavernier and the Elem Pomo.\" Logic holds because both slices explicitly name the same exhibition title.",
+        "visual_proof": "The opening title card (Clip 1) explicitly states the event is 'Presented in conjunction with the exhibition Jules Tavernier and the Elem Pomo'. The gallery entrance sign shown in Clip 2 displays the identical text, 'Jules Tavernier and the Elem Pomo', confirming the match."
+    },
+    {
+        "question": "Which speaker seen in a home-office setting appears right after the California tribal-lands map is shown?",
+        "answer": "The woman wearing glasses and a gray blazer over a black top.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            2
+        ],
+        "reasoning_chain": "Step 1: A map of regions in California is displayed. Step 2: The next shown speaker is a woman with glasses in a gray blazer in front of bookshelves. Conclusion: She is the person who appears after the map.",
+        "logic_check_reasoning": "Step 1: Slice 5 states the video begins with a California tribal-lands map and then transitions to a woman speaking, described as wearing glasses and a gray blazer over a black top, in a well-lit room with a bookshelf (home-office setting). Step 2: Slice 2 corroborates the same woman’s attire and setting, indicating she is speaking in a professional, focused manner. Logic holds because Slice 5 explicitly places her appearance immediately after the map, and Slice 2 confirms the identity and setting.",
+        "visual_proof": "Clip 1 ends with a detailed map of California tribal lands. Clip 2 immediately follows, showing a woman in a home-office setting. She is visibly wearing clear-framed glasses, a gray textured blazer, and a black top. This directly matches the description in the original answer."
+    },
+    {
+        "question": "The feathered circular jewelry appears first as earrings and later as hanging dreamcatchers. What shared material feature do both objects have?",
+        "answer": "They are circular woven pieces adorned with black feathers.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            50
+        ],
+        "reasoning_chain": "Step 1: The earrings have circular woven bases with black feathers. Step 2: The dreamcatchers are circular woven rings with black feathers attached. Conclusion: Both share circular woven forms and black feathers.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes earrings with a circular base made from woven natural fibers and adorned with black feathers. Step 2: Slice 50 describes dreamcatchers that are circular, made from woven materials, and adorned with black feathers. Logic holds because both objects are circular, woven pieces featuring black feathers, matching the proposed shared material feature.",
+        "visual_proof": "Both video clips show the same pair of objects. The first clip reveals they are earrings, starting from the hooks and showing the white beads before panning down to the circular woven base with black feathers. The second clip provides a close-up of these same circular woven bases with black feathers, confirming this feature is consistent across both views. The question's premise that they appear as dreamcatchers later is not visually supported by the clips, but the shared material feature described in the answer is accurately depicted."
+    },
+    {
+        "question": "The same large woven basket with alternating dark and light sections appears both in a museum display and later as a partially completed basket on a work table. Where is it first seen and where is it later being worked on?",
+        "answer": "First in a glass museum display case, later on the man’s wooden table during a weaving demonstration.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            18
+        ],
+        "reasoning_chain": "Step 1: A large patterned basket is shown inside a glass case in the exhibit. Step 2: A similarly patterned basket appears on the table as part of the weaving demonstration. Conclusion: The basket is first displayed in the museum, later handled during the demo.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a large woven basket with alternating dark and light stripes displayed inside a glass museum case. Step 2: Slice 18 shows a man at a wooden table demonstrating basket weaving, with a partially completed basket that has alternating dark and light sections. Logic holds because the first scene is clearly a museum display case, and the later scene is a weaving demonstration at a wooden table.",
+        "visual_proof": "In Video 1 (0:02), a large woven basket with a distinct zigzag pattern is clearly visible inside a glass display case in a museum setting. In Video 2 (0:03-0:21), the same basket, identifiable by its unique pattern and shape, is shown being actively worked on by a man at a wooden table, confirming it is the same object seen first in the museum and later on the work table."
+    },
+    {
+        "question": "Which participant in the split-screen conversation is the same person who later demonstrates basket weaving while holding bundles of reeds at a table?",
+        "answer": "The man on the right with long hair tied back, glasses, and a dark shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            20
+        ],
+        "reasoning_chain": "Step 1: The split-screen shows a man on the right with tied-back long hair and glasses. Step 2: Later, a man with the same look demonstrates weaving with reeds at a wooden table. Conclusion: It is the same man.",
+        "logic_check_reasoning": "Step 1: Slice 10 identifies the right-side participant as Clint McKay, a basket weaver, with long white hair tied back, glasses, a black shirt, and a wooden paneling background. Step 2: Slice 20 shows an older man with long gray hair and glasses, wearing a black shirt, sitting at a table in front of a wooden wall, demonstrating basket weaving with reeds. Logic holds because the visual attributes (hair, glasses, black shirt, wooden wall background, table) and the role (basket weaver) align, indicating the right-side participant is the same person demonstrating basket weaving. The proposed answer accurately describes this person.",
+        "visual_proof": "The man in the right panel of Video 1 (Clint McKay) has long gray hair, glasses, and wears a dark polo shirt with a beaded necklace. In Video 2, the same individual is shown at a table, wearing the identical outfit and accessories, while demonstrating basket weaving with reeds. The consistent appearance confirms he is the same person across both clips."
+    },
+    {
+        "question": "The man at the wooden table is shown with bundles of herbs or sage beside him, and later he is shown again with sticks/twigs on the table. When he appears in split-screen with the bookshelf-background woman, which person’s side corresponds to the table with natural materials?",
+        "answer": "The man’s side (the right side).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            42,
+            73
+        ],
+        "reasoning_chain": "Step 1: The man’s solo shot includes sage/herbs on the table. Step 2: Another solo shot shows sticks/twigs on the table in the same rustic setting. Step 3: In split-screen with the woman, the man appears on the right. Conclusion: The natural-materials table corresponds to the right side.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows a man with long gray hair, glasses, a black shirt, at a wooden table with a bundle of sage, in front of a wooden wall. Step 2: Slice 42 again shows the same man at the wooden table with sticks/twigs, same wooden wall background. Step 3: Slice 73 describes a split-screen: the woman with a bookshelf is on the left, and the man with long gray hair, glasses, black shirt, at a wooden table with a wooden wall background is on the right. Step 4: Therefore, the side corresponding to the table with natural materials is the man’s side, which is the right side.",
+        "visual_proof": "In Clip 1 and Clip 2, the man is seated at a wooden table with bundles of dried natural materials (twigs/sage) visible to his left. In Clip 3, the split-screen shows the man on the right side of the frame, maintaining the same setting with the wooden wall and table with natural materials. The woman on the left is in front of a bookshelf, which is a different background. Therefore, the table with natural materials is consistently on the man's side, which is the right side of the split-screen."
+    }
+]

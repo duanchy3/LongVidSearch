@@ -1,0 +1,176 @@
+[
+    {
+        "question": "Which item is labeled as a fruit in an educational graphic and later shown being eaten by a child outdoors?",
+        "answer": "A tomato.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows an educational icon labeled “Fruits” using a red tomato. Step 2: Slice 10 shows a young boy eating a red tomato outdoors. Conclusion: The fruit item is a tomato.",
+        "logic_check_reasoning": "Step 1: Slice 7 states that the educational graphic includes an icon labeled 'Fruits' showing a red tomato. Step 2: Slice 10 describes a young boy outdoors holding and eating a red tomato. Logic: The item labeled as a fruit (tomato) in the graphic is the same item later depicted being eaten by the child outdoors.",
+        "visual_proof": "In Video 1, a red circle labeled 'Fruits' contains an illustration of tomatoes. In Video 2, a child is shown outdoors eating a red tomato."
+    },
+    {
+        "question": "Which produce item is shown growing on the vine and later appears diced and cooked with garlic in a frying pan?",
+        "answer": "Tomatoes.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows ripe red tomatoes growing on a vine. Step 2: Slice 11 shows diced tomatoes being added and cooked with garlic in a frying pan. Conclusion: The vine-grown produce that later gets cooked is tomatoes.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 9 explicitly shows ripe red tomatoes growing on a vine. Step 2: Evidence Slice 11 explicitly shows diced tomatoes being cooked with garlic in a frying pan. Logic holds because both slices reference tomatoes in different contexts—growing and then diced/cooked—matching the question’s sequence.",
+        "visual_proof": "Clip 1 shows bright red, round produce growing on green vines with leaves, which are visually identifiable as tomatoes. Clip 2 shows diced red produce being added to a frying pan containing sautéed garlic, matching the appearance of the tomatoes from Clip 1 after being prepared for cooking."
+    },
+    {
+        "question": "Which food is depicted being picked directly from a tree and later appears as part of a mixed fruit still-life arrangement?",
+        "answer": "An apple.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a hand picking an apple from a tree. Step 2: Slice 3 shows a fruit arrangement that includes apples. Conclusion: The food appearing in both contexts is an apple.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a hand picking an apple from a tree, explicitly identifying the fruit as an apple. Step 2: Slice 3 lists fruits in a still-life arrangement, explicitly including both a green apple and a red apple. Logic holds because the apple is shown being picked and then apples are present in the later mixed fruit still-life.",
+        "visual_proof": "In the first clip, a red apple is shown hanging from a tree branch and is then picked by a hand. In the second clip, a red apple is clearly visible as part of a mixed fruit arrangement alongside other fruits like oranges, kiwis, and strawberries."
+    },
+    {
+        "question": "Which vegetable is first shown as a whole bud in close-up and later presented as the example for the 'Flowers' category in a vegetables-by-plant-part diagram?",
+        "answer": "An artichoke.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 4 is a close-up of an artichoke. Step 2: Slice 5 uses artichokes to represent the edible 'Flowers' category. Conclusion: The vegetable is an artichoke.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a close-up view of an artichoke, focusing on its tightly packed leaves, consistent with a whole bud. Step 2: Slice 5 states that the 'Flowers' category includes artichokes, explicitly identifying them as edible flower buds and showing them as the example. Logic holds because the same vegetable (artichoke) is shown first in close-up and later in the educational diagram under 'Flowers.'",
+        "visual_proof": "Clip 1 shows a close-up of a green, spiky vegetable bud with overlapping bracts, which is visually identifiable as an artichoke. Clip 2 displays a diagram categorizing vegetables by plant part; in the 'Flowers' category (blue circle), there is an illustration of an artichoke plant with its flower head, confirming it as the example for that category."
+    },
+    {
+        "question": "Which legume is shown as a large pile and also appears in an educational segment that links Mediterranean geography to legumes?",
+        "answer": "Green peas.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 21 transitions from a Mediterranean map to peas and other legumes. Step 2: Slice 23 shows a large pile of green peas. Conclusion: The legume featured in both is green peas.",
+        "logic_check_reasoning": "Step 1: Slice 23 describes a close-up of a large pile of green peas, confirming that green peas are shown as a large pile. Step 2: Slice 21 describes an educational, documentary-style segment linking the Mediterranean map to legumes and specifically mentions a transition into a close-up shot of green peas. Logic holds because the same legume (green peas) appears both as a large pile (Slice 23) and within the educational geography-to-legumes sequence (Slice 21).",
+        "visual_proof": "Clip 1 shows a map of the Mediterranean region with an animated graphic of green pea pods over it, followed by a split-screen showing dried green lentils on the left and dried yellow lentils on the right. Clip 2 displays a close-up of cooked green peas in a pile. The combination of the educational map segment (linking geography to legumes) and the large pile of green peas confirms that green peas are the legume shown in both contexts."
+    },
+    {
+        "question": "Which vegetable is harvested by pulling it from the soil and later shown as part of a grocery-store produce display with leafy tops still attached?",
+        "answer": "Carrots.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows a carrot being pulled from the soil. Step 2: Slice 40 shows bundled carrots with green tops in a grocery produce section. Conclusion: The tracked vegetable is carrots.",
+        "logic_check_reasoning": "Step 1: Slice 36 describes a hand pulling a carrot plant from the soil, revealing the orange root—explicitly identifying the vegetable as a carrot and showing it being harvested by pulling. Step 2: Slice 40 mentions bundles of carrots with their green tops still attached on the third shelf of a grocery-store produce display. Logic holds because the same vegetable (carrots) is both harvested by pulling from the soil and later shown in the store with leafy tops attached.",
+        "visual_proof": "Clip 1 shows a hand pulling a carrot, identifiable by its orange root and feathery green tops, directly from the soil. Clip 2 shows a grocery store produce section where carrots with their leafy green tops still attached are displayed on the top shelf, confirming they are the same vegetable shown in both contexts."
+    },
+    {
+        "question": "Which crop appears first as a close-up ear on a plant in a field and later is being examined by a scientist in a lab?",
+        "answer": "Corn.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            53,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 53 shows an ear of corn on the stalk in a field. Step 2: Slice 55 shows a scientist holding and inspecting an ear of corn in a laboratory. Conclusion: The crop is corn.",
+        "logic_check_reasoning": "Step 1: Slice 53 describes a close-up of an ear of corn on a plant in a field, clearly identifying the crop as corn. Step 2: Slice 55 shows a scientist in a lab holding and examining an ear of corn, with additional corn present among the produce. Logic holds because both slices explicitly feature corn in the described contexts (field and lab), matching the question's sequence.",
+        "visual_proof": "Clip 1 shows a close-up of a mature ear of corn still attached to the stalk in a field, with its husk partially peeled back. Clip 2 shows scientists in a lab examining ears of corn alongside other produce like strawberries. The same crop, corn, is visually present in both distinct settings."
+    },
+    {
+        "question": "Which vegetable is highlighted with its scientific name and later shown again as a different close-up view of the same type of leafy head?",
+        "answer": "Cabbage (Brassica oleracea).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows a cabbage with the text “Brassica oleracea.” Step 2: Slice 31 shows another close-up of a cabbage head with layered leaves. Conclusion: The vegetable is cabbage, Brassica oleracea.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows a close-up of a large green cabbage and explicitly displays the text \"Brassica oleracea,\" identifying the cabbage's scientific name. Step 2: Slice 31 describes another close-up view of a head of cabbage, noting features like crinkled, layered leaves, consistent with cabbage varieties. Logic holds because the vegetable highlighted with its scientific name in Slice 29 is cabbage, and the same type of leafy head (cabbage) is shown again in Slice 31.",
+        "visual_proof": "Clip 1 shows a close-up of a cabbage head with the text 'Brassica oleracea' overlaid, identifying it by its scientific name. Clip 2 presents a different top-down close-up view of another cabbage head, confirming it is the same type of vegetable through its characteristic leafy, rounded structure and vein patterns."
+    },
+    {
+        "question": "Which vegetable is first shown floating above a Mediterranean map and later shown spilling out of a brown paper bag on a countertop?",
+        "answer": "Asparagus.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows asparagus placed over the Mediterranean on a map. Step 2: Slice 19 shows real asparagus spears spilling from a brown paper bag. Conclusion: The vegetable is asparagus.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows a bundle of green asparagus placed over the Mediterranean Sea on the map, indicating the vegetable floating above the map. Step 2: Slice 19 shows asparagus spears spilling out from a brown paper bag onto a white surface (likely a countertop or table). Logic holds because the same vegetable (asparagus) appears in both contexts: first above the Mediterranean map, then spilling from the bag.",
+        "visual_proof": "In the first clip, a bundle of asparagus is shown floating over the Mediterranean Sea on a map. In the second clip, fresh asparagus spears are seen spilling out of a brown paper bag onto a white surface. Both visuals clearly depict asparagus."
+    },
+    {
+        "question": "Which legume is shown as a 'Seeds' category example, then appears in a Mediterranean map-to-legumes segment, then as a large pile, and finally as ripe pods on the plant?",
+        "answer": "Peas.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            5,
+            21,
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 5 uses peas as the example for the 'Seeds' category. Step 2: Slice 21 links Mediterranean geography to legumes including peas. Step 3: Slice 23 shows a pile of green peas. Step 4: Slice 24 shows pea pods growing on the plant. Conclusion: The legume tracked across classification, geography, food form, and growth is peas.",
+        "logic_check_reasoning": "Step 1: Slice 5 explicitly states that the 'Seeds' category presents peas in their pods. Step 2: Slice 21 shows a Mediterranean map-to-legumes segment featuring green peas (whole and split), confirming peas appear there. Step 3: Slice 23 depicts a large pile of green peas. Step 4: Slice 24 shows ripe pea pods on the plant. The same legume (peas) appears across all described segments, matching the question's sequence.",
+        "visual_proof": "Clip 1 shows a pea pod labeled 'Seeds' in a vegetable classification diagram. Clip 2 features a large animated pea pod over a map of the Mediterranean, followed by images of green and yellow split peas. Clip 3 is a close-up of cooked green peas. Clip 4 shows fresh, unripe pea pods hanging from a plant vine. All clips consistently feature peas in different forms and contexts."
+    },
+    {
+        "question": "Which vegetable is used as a map icon and later shown as a real close-up bunch on a dark surface?",
+        "answer": "Radishes.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows a cartoonish radish icon placed on maps. Step 2: Slice 48 shows a close-up of real radishes with leafy tops on a dark surface. Conclusion: The vegetable is radishes.",
+        "logic_check_reasoning": "Step 1: Slice 49 describes a cartoonish red radish with green leaves used as a map icon on the world map. Step 2: Slice 48 shows a real close-up bunch of fresh radishes on a dark surface. Logic holds because both slices explicitly reference radishes, first as an icon and later as a real bunch.",
+        "visual_proof": "In Video 1, a red radish with green leaves is clearly used as an icon that moves across the map, highlighting different regions. In Video 2, a real bunch of fresh, red radishes with their green leafy tops and roots are shown in a close-up shot on a dark, textured surface."
+    },
+    {
+        "question": "Which root vegetable is shown being harvested by hand, then appears in an animated map sequence about its spread, and is also displayed in a grocery store produce section?",
+        "answer": "Carrots.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            37,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows a carrot being pulled from the soil. Step 2: Slice 37 shows carrots spreading on a map across the Middle East and Europe. Step 3: Slice 40 shows carrots in a grocery store display. Conclusion: The vegetable is carrots.",
+        "logic_check_reasoning": "Step 1: Slice 36 explicitly shows a hand pulling a bright orange carrot root from the soil, confirming a root vegetable being harvested by hand. Step 2: Slice 37 features a 3D animated map highlighting the spread of carrots across the Middle East and Europe, clearly identifying carrots in the sequence. Step 3: Slice 40 describes a grocery store produce section where bundles of carrots with green tops are displayed on the third shelf. The same root vegetable—carrots—appears in all three contexts, matching the question's description.",
+        "visual_proof": "Clip 1 shows a hand pulling an orange root vegetable, identifiable as a carrot, from the soil. Clip 2 features animated carrots of various colors (red, white, yellow) appearing on maps of Asia and Europe, illustrating their historical spread. Clip 3 displays bundles of fresh, orange carrots with green tops on a supermarket shelf alongside other vegetables. All three clips consistently feature carrots in the described contexts."
+    },
+    {
+        "question": "Which plant family cue is reinforced by showing the scientific name on a cabbage close-up, then later showing cabbage again in a separate close-up, and also showing a China map segment referencing the same scientific name while displaying leafy greens?",
+        "answer": "Brassica oleracea (the cabbage/brassica family).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            29,
+            31,
+            49,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 29 labels cabbage with “Brassica oleracea.” Step 2: Slice 31 shows another close-up cabbage head. Step 3: Slice 49 displays “brassica oleracea” while mapping leafy greens in China. Step 4: Slice 34 adds Europe map context with Brussels sprouts (also a brassica), reinforcing the brassica theme. Conclusion: The recurring plant-family cue is Brassica oleracea.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows a close-up of cabbage with the text 'Brassica oleracea' explicitly displayed, identifying the plant. Step 2: Slice 31 presents another close-up of cabbage, reinforcing the focus on cabbage visually. Step 3: Slice 49 shows a map of China with the phrase 'brassica oleracea' again and displays leafy greens (e.g., bok choy, Chinese cabbage), reinforcing the same scientific name across contexts. The repeated explicit mention of 'Brassica oleracea' and visual reinforcement with cabbage and related leafy greens supports the proposed cue.",
+        "visual_proof": "Clip 1 shows a close-up of a cabbage with the text 'Brassica oleracea' overlaid. Clip 2 shows another close-up of a cabbage, reinforcing the subject. Clip 3 displays a map of China with the text 'brassica oleracea' and overlays images of various leafy greens (bok choy, napa cabbage, etc.), visually linking the scientific name to the plant family and its regional variants."
+    }
+]

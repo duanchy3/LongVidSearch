@@ -1,0 +1,56 @@
+[
+    {
+        "question": "What object is involved in an exchange in a hallway confrontation and later reappears as a blue item that seems to trigger chaos in another struggle?",
+        "answer": "A document/paper being handed over, later echoed by a blue paper/booklet that appears tied to the conflict.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a woman holding and showing/handing a document during a tense hallway confrontation. Step 2: Slice 7 shows a close-up of a blue paper/booklet highlighted right before or during a chaotic struggle. Conclusion: A key paper/document is visually emphasized in both scenes as a conflict driver.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a hallway confrontation where a woman is holding and seemingly handing over a piece of paper or document, indicating an exchange involving that object. Step 2: Slice 7 starts with a close-up of a hand holding a blue object that looks like a piece of paper or small booklet, which is implied to be significant and tied to the ensuing chaotic struggle. Logic holds because both slices reference a paper/document-like object central to the conflict, with Slice 7 specifying it as blue and triggering chaos, aligning with the proposed answer.",
+        "visual_proof": "In Clip 1, a woman is seen handing a white document or paper to someone in a hallway confrontation. In Clip 2, a blue paper or booklet is shown being grabbed and handled during a chaotic struggle, visually linking it to the earlier exchange as a recurring object central to the conflict."
+    },
+    {
+        "question": "Which location shift is shown when a woman is first seen lying on a boat and later the story explicitly establishes arrival at an island shore by motorboat?",
+        "answer": "From being on a boat at sea to arriving at the Fiji Islands shore via motorboat.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a woman lying on a moving boat with a man holding a fishing rod. Step 2: Slice 11 establishes Fiji Islands and shows a motorboat approaching shore with people helping passengers disembark. Conclusion: The narrative moves from open-water boat travel to island arrival.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows a woman lying on a boat amid choppy waters under an overcast sky, indicating the setting is at sea. Step 2: Slice 11 explicitly sets the location in the Fiji Islands and describes a small motorboat approaching and landing at the shore, with people helping passengers disembark. Logic holds because the context moves from being on a boat at sea to arriving at an island shore, specifically the Fiji Islands, via motorboat.",
+        "visual_proof": "Clip 1 shows a woman lying on a boat at sea, surrounded by water and other passengers. Clip 2 visually transitions to a motorboat approaching a shoreline with people wading in shallow water, and on-screen text explicitly identifies the location as 'Fiji Islands, South Pacific'. This confirms the shift from being at sea to arriving at the island shore."
+    },
+    {
+        "question": "After a group walks past a white vehicle parked on a beach, what item is handed over between two men on the shore shortly afterward?",
+        "answer": "A passport is handed over.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a group walking along the beach passing a white vehicle parked on the sand. Step 2: Slice 14 shows two men walking on the beach where the man in black hands shoes to the man in a white shirt and blue shorts. Conclusion: Shortly after the white-vehicle beach moment, shoes are exchanged on the shore.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes a group walking along a beach and passing a white vehicle parked on the sand. Step 2: Slice 14 then shows two men on the shore, with the man in black handing over a pair of shoes to the man in white, who puts them on. Logic holds because the question connects the event of passing the white vehicle to the subsequent scene of an item being handed over between two men; Slice 14 explicitly states the item is a pair of shoes.",
+        "original_text_answer": "A pair of shoes is handed over.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, a group walks past a white vehicle on the beach. In Clip 2, immediately following this context, a close-up shot at 0:02 clearly shows a hand handing a blue passport to another person. This is visually confirmed and contradicts the 'pair of shoes' mentioned in the original answer."
+    },
+    {
+        "question": "What clothing label appears on someone carrying harvested crops and later shows up (with a slightly different spelling) during a tense indoor mission-like scene?",
+        "answer": "The label is ASAD/ASAP—first seen on a black T-shirt during farming work and later on a black shirt in a dark, tense indoor setting.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a person wearing a black T-shirt labeled “ASAD” while carrying a crate of crops. Step 2: Slice 45 shows a young man wearing a black shirt labeled “ASAP” in a dark club-like scene. Conclusion: The recurring labeled shirt (ASAD/ASAP) visually links group affiliation across very different contexts.",
+        "logic_check_reasoning": "Step 1: Slice 39 describes a person carrying harvested crops wearing a black T-shirt with 'ASAD' printed on it. Step 2: Slice 45 describes a tense indoor, mission-like scene where a young man is wearing a black shirt with 'ASAP' written on it. Logic holds because the question asks for the clothing label that appears in both contexts with a slight spelling difference, and the captions explicitly mention 'ASAD' in the rural harvest scene and 'ASAP' in the tense indoor scene.",
+        "visual_proof": "In Clip 1, a woman carrying a wooden crate outdoors wears a black T-shirt with 'ASAD' clearly visible. In Clip 2, during the indoor scene, both the woman and a man are wearing black shirts with 'ASAP' printed on them. The visual evidence confirms the presence of these nearly identical labels in both contexts."
+    }
+]

@@ -1,0 +1,155 @@
+[
+    {
+        "question": "What online learning platform is promoted at both the very beginning and later again near the end, and what discount is mentioned for early subscribers?",
+        "answer": "Brilliant.org, with 20% off for the first 200 subscribers.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            85
+        ],
+        "reasoning_chain": "Step 1: Early on, an animated ad shows Brilliant.org with the URL and a note that the first 200 subscribers get 20% off. Step 2: Later, another Brilliant ad repeats the same URL and the same 20% offer. Conclusion: The promoted platform is Brilliant.org and the early-subscriber discount is 20% for the first 200.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly states the video begins with an advertisement for Brilliant.org and mentions a promotional offer: 'first 200 subscribers get 20% off.' Step 2: Slice 85 describes another advertisement for Brilliant.org appearing later in the video, again showing 'brilliant.org/SimonClark' and 'First 200 subscribers get 20% off.' Logic holds because both slices confirm the same platform and the same discount, with Slice 1 at the beginning and Slice 85 indicating a later reappearance.",
+        "visual_proof": "Both clips show an identical promotional graphic. The logo and text clearly display 'BRILLIANT' and the URL 'brilliant.org/SimonClark/'. Below this, the text 'First 200 subscribers get 20% off' is explicitly visible in both frames."
+    },
+    {
+        "question": "Which brand of microphone is shown during the talking-to-camera segments, and in what later segment does that same presenter appear in a small inset while code is shown full-screen?",
+        "answer": "A RØDE microphone; the presenter appears as an inset during the API-coding screen segment.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            29
+        ],
+        "reasoning_chain": "Step 1: The presenter speaks into a microphone clearly labeled RØDE. Step 2: During the full-screen code showing Python API functions, a small inset shows the same presenter speaking. Conclusion: The mic brand is RØDE and the inset occurs during the API-coding segment.",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly states the person is speaking into a Rode microphone during a talking-to-camera segment. Step 2: Slice 29 describes a later segment where code is full-screen and a small inset shows the instructor speaking into a microphone in a home office with bookshelves, matching the earlier environment. This alignment supports that it's the same presenter. Step 3: Slice 29 identifies the segment as a programming/API-coding screen with Python code for /api/v1/notes. Therefore, the microphone brand is Rode (RØDE) and the later segment is the API-coding screen where the presenter appears inset.",
+        "visual_proof": "In Clip 1, a black microphone with the brand name 'RØDE' clearly visible on its pop filter is positioned in front of the presenter. In Clip 2, the same presenter is shown in a small picture-in-picture window in the bottom right corner while a full-screen view of a code editor displaying Python code is shown."
+    },
+    {
+        "question": "What device is first introduced as a Raspberry Pi product in a box and later shown with labeled performance specs, and what are those specs?",
+        "answer": "A Raspberry Pi keyboard/computer keyboard; it’s labeled 1.8 GHz quad-core processor and 4GB RAM.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            4
+        ],
+        "reasoning_chain": "Step 1: The unboxing reveals a Raspberry Pi keyboard device. Step 2: Later, a close-up of a white keyboard shows labels listing '1.8 GHz quad-core processor' and '4GB RAM.' Conclusion: The device is the Raspberry Pi keyboard and those are the shown specs.",
+        "logic_check_reasoning": "Step 1: Slice 3 states a person opens a white box containing a Raspberry Pi keyboard, indicating the device is introduced as a Raspberry Pi product in a box. Step 2: Slice 4 shows a close-up of a white keyboard with labels \"1.8 GHz quad-core processor\" and \"4GB RAM,\" demonstrating the device with performance specs. Logic holds because both slices reference the same type of device (a white keyboard) and the latter explicitly provides the specs. Minor naming differences (person vs. man) are acceptable per instructions.",
+        "visual_proof": "Clip 1 shows the box labeled 'Raspberry Pi 400 Personal Computer Kit' with a white keyboard inside. Clip 2 later shows the same keyboard on a white surface with text overlays explicitly labeling its specs as '1.8 GHz quad core processor' and '4GB RAM'."
+    },
+    {
+        "question": "Which on-screen physics formula about emitted energy is shown, and what famous constant appears later in code that corresponds to that same concept?",
+        "answer": "Energy emitted is shown as σT^4 per square metre; later code shows sigma = 5.67e-8 (the Stefan–Boltzmann constant).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            36
+        ],
+        "reasoning_chain": "Step 1: A graphic states emitted energy as σT^4 per square metre. Step 2: Later, Python code explicitly sets sigma to 5.67e-8, which is the Stefan–Boltzmann constant used in σT^4. Conclusion: The formula is σT^4 and the constant is sigma = 5.67e-8.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 24 explicitly shows on-screen text: 'energy emitted σT^4 (per square metre).' This directly states the physics formula about emitted energy. Step 2: Evidence Slice 36 states that the code includes a variable 'sigma' set to '5.67e-8' and identifies it as the Stefan-Boltzmann constant. This constant corresponds to the σ in the formula σT^4 shown earlier. Logic holds because the same concept (Stefan-Boltzmann law) is presented first as text and later as code using the same constant.",
+        "visual_proof": "Clip 1 visually displays the formula 'σT^4' with the label 'energy emitted (per square metre)'. Clip 2, in the Python code editor, explicitly defines 'sigma = 5.67E-8', which is the numerical value of the Stefan-Boltzmann constant used in the same formula."
+    },
+    {
+        "question": "What visual elements are used to explain Earth’s energy balance, and which later segment zooms into Earth imagery to reinforce the Earth focus again?",
+        "answer": "Yellow insolation arrows toward Earth and red thermal radiation arrows away; later a close-up Earth-from-space view appears.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            39,
+            50
+        ],
+        "reasoning_chain": "Step 1: An animation labels INSOLATION (yellow arrow in) and THERMAL RADIATION (red arrow out) around Earth. Step 2: Another space/Earth graphic shows a rotating Earth with a prominent red upward arrow overlay. Step 3: Later, there is a close-up view of Earth from space with the sun at the edge. Conclusion: The energy-balance elements are insolation and thermal radiation arrows, and later Earth visuals reappear via rotating Earth + arrow and a close-up Earth-from-space shot.",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly shows the animation with a yellow arrow labeled 'INSOLATION' pointing toward Earth and a red arrow labeled 'THERMAL RADIATION' pointing away, used to explain the Earth's energy balance/greenhouse effect. Step 2: Slice 50 describes a close-up view of Earth from space with the camera moving, reinforcing the Earth focus with detailed Earth imagery. The logic holds because the first part matches the visual elements used for explanation, and the later segment indeed presents a close-up Earth-from-space view.",
+        "visual_proof": "Clip 1 (0:15-0:20) shows yellow arrows labeled 'INSOLATION' pointing at Earth and red arrows labeled 'THERMAL RADIATION' pointing away. Clip 3 (0:00-0:10) features a detailed, zoomed-in view of Earth from space with the sun visible, reinforcing the focus on Earth."
+    },
+    {
+        "question": "What comedic capybara-related content appears in a community chat screenshot, and which earlier real-animal cutaway sets up that capybara theme?",
+        "answer": "A Discord chat screenshot featuring a rendered capybara labeled “claude”; earlier the video cuts to real capybara footage (with a bird perched on it).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            53,
+            56,
+            55
+        ],
+        "reasoning_chain": "Step 1: The video introduces capybara humor with a bookshelf image and a cutaway to a real capybara with a bird on its back. Step 2: A later title card introduces 'Climate Analysis using Digital Estimations,' tying to 'claude.' Step 3: A Discord screenshot shows a capybara labeled 'claude' as a meme. Conclusion: The Discord 'claude' capybara meme builds on the earlier real capybara cutaway and the CLAUDE naming.",
+        "logic_check_reasoning": "Step 1: Slice 56 describes a Discord server screenshot featuring a large, digitally rendered capybara labeled 'claude', framed as a meme/inside joke—this matches the comedic capybara-related content in a community chat screenshot. Step 2: Slice 53 notes that the video cuts to a close-up of a real capybara in the wild with a bird perched on its back, establishing the capybara theme earlier. Step 3: The proposed answer correctly identifies both the chat screenshot content and the earlier real-animal cutaway, aligning with the provided evidence.",
+        "visual_proof": "Clip 1 shows a man speaking, followed by a cutaway to a real capybara with a small yellow bird on its back. Clip 2 displays a Discord chat interface with a large image of a rendered capybara wearing pixelated sunglasses and the name 'claude' next to it. These two clips visually confirm the sequence and content described in the original answer."
+    },
+    {
+        "question": "Across the video, what recurring combination of coding and visualization is shown, and which earlier Earth-energy-balance animation motivates that kind of simulation work?",
+        "answer": "Python code paired with graphs/plots; it’s motivated by the Earth energy-balance animation about insolation and thermal radiation.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            11,
+            36,
+            42,
+            68
+        ],
+        "reasoning_chain": "Step 1: An animation explains Earth’s energy balance using insolation and thermal radiation arrows. Step 2: Later, Python code runs with a plotted figure and includes sigma (Stefan–Boltzmann) consistent with radiation physics. Step 3: Another coding tutorial screen shows code alongside a plotted graph with an inset speaker. Step 4: A later IDE view shows code producing temperature and pressure contour plots. Conclusion: The recurring pattern is code + visualization, motivated by the earlier Earth energy-balance explanation.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows an earlier educational animation of Earth's energy balance with labeled 'INSOLATION' (incoming solar energy) and 'THERMAL RADIATION' (outgoing heat), clearly about Earth energy balance and greenhouse effect. Step 2: Slice 36 shows a Python environment with Matplotlib plotting a graph, including use of the Stefan-Boltzmann constant and a loop updating Earth's temperature—coding plus visualization. Step 3: Slice 42 again shows a Python script with functions for data loading/plotting and a graph displayed—coding paired with plots. Step 4: Slice 68 shows Python code in PyCharm producing contour plots (Temperature and Pressure)—again coding plus visual plots. Step 5: The coding-and-visualization combination recurs across slices 36, 42, and 68, and Slice 11’s Earth-energy-balance animation (insolation and thermal radiation) provides direct motivation for simulations like the temperature/blackbody modeling seen in Slice 36. The logic holds that the recurring pattern is Python code with plots, motivated by the earlier energy balance animation.",
+        "visual_proof": "Clip 1 shows an animation of the Earth with arrows labeled 'INSOLATION' (yellow, incoming) and 'THERMAL RADIATION' (red, outgoing), establishing the energy balance concept. Clips 2, 3, and 4 all show Python code in a text editor alongside real-time or generated plots/graphs (e.g., temperature vs. time scatter plots, contour maps of ground/atmospheric temperature). The presenter is visible in clips 3 and 4, connecting the coding work to the earlier conceptual animation."
+    },
+    {
+        "question": "How does the video connect the name 'CLAUDE' to both a coding title card and a repository-style project listing, and then to a capybara meme depiction?",
+        "answer": "It shows 'Climate Analysis using Digital Estimations' (CLAUDE) as a coding title, then a webpage listing CLAUDE repos, and separately a capybara labeled 'claude' as a meme.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            55,
+            79,
+            56,
+            57
+        ],
+        "reasoning_chain": "Step 1: A code screen displays the phrase 'CLimate Analysis using Digital Estimations,' establishing the CLAUDE name. Step 2: A Forum Factory page lists multiple CLAUDE projects and describes the climate-analysis tool. Step 3: A Discord screenshot features a capybara labeled 'claude,' showing the name used playfully. Step 4: A simulation display continues the technical climate-analysis vibe. Conclusion: CLAUDE appears as a formal coding project name, a repo hub listing, and a capybara meme label.",
+        "logic_check_reasoning": "Step 1: Slice 55 shows a coding screen with the title 'CLimate Analysis using Digital Estimations,' directly tying the name 'CLAUDE' to a coding title card. Step 2: Slice 79 presents a repository-style project listing on 'Forum Factory' with multiple CLAUDE-related entries and 'Go to Repo' buttons, connecting 'CLAUDE' to a project repository context. Step 3: Slice 56 depicts a Discord meme image of a capybara labeled 'claude,' linking the name to a playful meme depiction. Logic holds because each slice explicitly references 'CLAUDE' in the respective contexts described in the proposed answer.",
+        "visual_proof": "Clip 1 displays the text 'CLimate Analysis using Digital Estimations' overlaid on code. Clip 2 shows a GitHub repository page titled 'Planet-Factory / claude' with the project description 'Climate Analysis using Digital Estimations (CLAuDE)'. Clip 3 features a Discord server screenshot with a large image of a capybara wearing sunglasses, labeled with the text 'claude'. These three distinct visuals directly link the name 'CLAUDE' to the project title, its repository, and the meme character."
+    },
+    {
+        "question": "What evidence shows the video repeatedly alternates between the presenter on camera and the computer screen, and which later stream-branded terminal segment makes this pattern explicit with a schedule overlay?",
+        "answer": "Multiple segments show the presenter speaking into the RØDE mic and then cutting to editors/terminals/IDEs; the Twitch-branded terminal segment includes an overlay with the channel name and 'Weds 7PM GMT.'",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            14,
+            42,
+            77
+        ],
+        "reasoning_chain": "Step 1: The video cuts from the presenter to a blank text editor screen. Step 2: It similarly cuts from presenter to a terminal prompt for commands. Step 3: It shows an IDE with code plus a graph while the presenter appears in an inset explaining. Step 4: A later terminal-focused segment explicitly brands the stream with '/drsimonclark' and 'Weds 7PM GMT.' Conclusion: The video alternates presenter ↔ screen repeatedly, culminating in an explicitly stream-branded terminal segment.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a presenter speaking into a Rode microphone and then an abrupt transition to a computer screen with a text editor, evidencing alternation between on-camera presenter and screen content. Step 2: Slice 14 similarly shows the presenter in front of a microphone and then transitions to a computer screen displaying a terminal, again demonstrating the switch from presenter to screen. Step 3: Slice 42 presents a screen-focused view (IDE and graph) with an inset of the person speaking, reinforcing the pattern of mixing presenter and screen views. Step 4: Slice 77 explicitly features a terminal segment branded with a Twitch logo and the username '/drsimonclark' along with the schedule 'Weds 7PM GMT,' making the stream-branded terminal segment and its schedule overlay clear.",
+        "visual_proof": "Clip 1 and Clip 2 show the presenter speaking directly to the camera with a RØDE microphone. Clip 1, Clip 2, and Clip 3 cut to a computer screen showing a Python IDE (Thonny) with code and output. Clip 4 explicitly shows a different editor (Sublime Text) with a large Twitch logo and text overlay reading '/drsimonclark Weds 7PM GMT', confirming the stream branding and schedule."
+    },
+    {
+        "question": "Across the timeline, which two different Earth visuals appear after the insolation/thermal-radiation explanation, and what additional symbol suggests an increasing trend in one of them?",
+        "answer": "A rotating Earth with a red upward arrow overlay, and later a close-up Earth-from-space shot with the sun appearing; the red upward arrow suggests an increasing trend.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            11,
+            39,
+            50,
+            52
+        ],
+        "reasoning_chain": "Step 1: The Earth energy-balance animation establishes Earth as the central scientific topic. Step 2: Later, a rotating Earth graphic appears with a red arrow pointing upward in a frame. Step 3: Another later shot shows Earth from space with the sun at the edge. Step 4: A climate temperature visualization reinforces that the Earth visuals relate to climate/heat. Conclusion: The two Earth visuals are the rotating Earth with the red upward arrow and the close-up Earth-from-space view; the upward arrow implies increase.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes the insolation/thermal radiation explanation using a rotating Earth with arrows. Step 2: After that, Slice 39 shows a rotating Earth with a red upward arrow in a top frame, which suggests an increasing trend. Step 3: Slice 50 shows another distinct Earth visual: a close-up Earth-from-space shot with the sun appearing at the right. These match the two visuals and the increasing-trend symbol described in the proposed answer.",
+        "visual_proof": "Clip 2 shows a rotating Earth with a large red upward arrow overlaid on it, which visually implies an increasing trend. Clip 3 follows this, showing a close-up of the Earth from space with the sun visible to the right, confirming the sequence described in the answer."
+    },
+    {
+        "question": "Which segment shows a sudden glitch-like transition effect, and what later segment returns to a clean, professional code title card shortly after?",
+        "answer": "The capybara close-up segment glitches/explodes; later a clean code screen shows the title 'CLimate Analysis using Digital Estimations.'",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            54,
+            55
+        ],
+        "reasoning_chain": "Step 1: The capybara shot ends with a dramatic digital glitch/explosion effect. Step 2: Soon after, the video cuts to a dark code screen with a centered title for climate analysis. Conclusion: The glitch occurs on the capybara segment and is followed by the CLAUDE code title card.",
+        "logic_check_reasoning": "Step 1: Slice 54 explicitly describes a capybara segment that suddenly transitions with a glitch-like/explosive visual effect. Step 2: Slice 55 describes a clean, professional code screen featuring the title 'CLimate Analysis using Digital Estimations.' Logic holds because the answer correctly identifies the glitch effect in the capybara segment and the subsequent professional code title card segment.",
+        "visual_proof": "Clip 1 (0:00-0:03) shows a stable close-up of a capybara, which then experiences a bright flash/glitch effect at 0:03-0:04 as text appears. Clip 2 (0:00-0:04) transitions to a clean, dark-themed code editor with large, stylized text overlaying it that reads 'CLimate Analysis using Digital Estimations,' confirming the return to a professional title card after the glitch."
+    }
+]

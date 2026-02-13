@@ -1,0 +1,54 @@
+[
+    {
+        "question": "Which company’s CEO is first teased as an upcoming guest and later appears in an exclusive interview about expansion plans?",
+        "answer": "SK Cheng of ComfortDelGro.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows SK Cheng identified as MD & Group CEO of ComfortDelGro as a featured upcoming segment. Step 2: Slice 74 shows SK Cheng in an exclusive segment about ComfortDelGro’s strategy/expansion plans. Conclusion: The same CEO is SK Cheng of ComfortDelGro.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a close-up of SK Cheng with an on-screen label identifying him as MD & Group CEO of ComfortDelGro, implying he is an upcoming guest. Step 2: Slice 74 describes an exclusive interview segment focused on ComfortDelGro's business strategy and expansion plans, featuring SK Cheng, again identified as Managing Director and Group CEO of ComfortDelGro. Logic holds because the same individual (SK Cheng) is teased and later appears in the exclusive interview, and his company is ComfortDelGro.",
+        "visual_proof": "Clip 1 (0:06-0:13) features a 'COMING UP' graphic that explicitly teases an exclusive interview with 'SK Cheng, ComfortDelGro MD & Group CEO'. Clip 2 (0:03-0:17) shows SK Cheng being interviewed, with on-screen text identifying him as 'ComfortDelGro Managing Director and Group CEO' and the topic as 'COMFORTDELGRO'S EXPANSION PLANS'. This confirms the same individual and company are featured in both segments."
+    },
+    {
+        "question": "A segment about e-commerce tariffs still being under discussion is followed by visuals of a formal ministerial setting. What is the policy area and what type of venue is shown later?",
+        "answer": "Trade & tariffs policy (e-commerce tariffs), and later a WTO ministerial conference venue (conference hall/stage) is shown.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 29 introduces the discussion on renewing the prohibition on e-commerce tariffs. Step 2: Slice 32 shows the WTO Ministerial Conference Abu Dhabi UAE 2024 setting. Conclusion: The policy issue is e-commerce tariffs; the venue is the WTO ministerial conference.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly shows a news segment labeled 'TRADE & TARIFFS' with text stating 'RENEWAL OF PROHIBITION ON E-COMMERCE TARIFFS STILL UNDER DISCUSSION,' confirming the policy area is trade & tariffs (e-commerce tariffs). Step 2: Slice 32 shows a blue screen reading '13th WTO Ministerial Conference Abu Dhabi UAE 2024' and visuals of a stage, flags, people at microphones, and a large crowd, indicating a formal WTO ministerial conference venue (a conference hall/stage). Logic holds because the first slice sets the policy topic and the second slice shows the related formal ministerial setting.",
+        "visual_proof": "Clip 1 opens with a news banner explicitly stating 'RENEWAL OF PROHIBITION ON E-COMMERCE TARIFFS STILL UNDER DISCUSSION' under the 'TRADE & TARIFFS' category. Clip 2 then shows the official logo for the '13th WTO MINISTERIAL CONFERENCE ABU DHABI - UAE 2024', followed by scenes of dignitaries walking onto a large, formal stage and sitting at a long conference table in a large hall filled with delegates, which is characteristic of a ministerial conference venue."
+    },
+    {
+        "question": "Early in the program, the market discussion centers on Japan’s jobless rate. Later, the focus shifts to a Japan-related currency chart. What is the reported jobless rate and which currency pair is charted later?",
+        "answer": "The jobless rate is 2.4%, and the later chart is USD/JPY.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 1 displays Japan Jan Jobless Rate at 2.4%. Step 2: Slice 52 shows an intraday chart titled United States Dollar–Japanese Yen (USD/JPY). Conclusion: 2.4% and USD/JPY.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly shows a ticker 'Japan Jan Jobless Rate 2.4% EST 2.4%', confirming the reported jobless rate is 2.4%. Step 2: Evidence Slice 52 describes a chart titled 'UNITED STATES DOLLAR - JAPANESE YEN' with 'USDJPY' noted, confirming the currency pair charted later is USD/JPY. Logic holds because the early segment discusses Japan’s jobless rate and the later segment displays the USD/JPY chart related to Japan.",
+        "visual_proof": "In Clip 1, at 0:15, a lower-third graphic explicitly states 'JAPAN JAN. JOBLESS RATE 2.4%; EST 2.4%'. In Clip 2, at 0:23, a chart titled 'UNITED STATES DOLLAR - JAPANESE YEN' is displayed, with the ticker 'USDJPY' shown in the top left corner of the chart."
+    },
+    {
+        "question": "Which recurring visual studio motif appears in multiple finance segments featuring the same male portfolio manager, including stock commentary and an NYCB story?",
+        "answer": "A Ferris wheel-themed backdrop behind him.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows Marc Franklin speaking with a Ferris wheel graphic behind him. Step 2: Slice 11 shows an NYCB segment with Marc Franklin and the same Ferris wheel motif. Conclusion: The recurring motif is the Ferris wheel backdrop.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a financial news segment featuring Marc Franklin with a professional studio backdrop that includes a large Ferris wheel graphic. Step 2: Slice 11 also features Marc Franklin in a studio with a stylized Ferris wheel graphic in the background during an NYCB-focused segment. Logic holds because both slices explicitly mention the Ferris wheel motif in the backdrop across different segments featuring the same portfolio manager.",
+        "visual_proof": "In both Video 1 and Video 2, the male portfolio manager, Marc Franklin, is consistently shown in front of a large, stylized graphic of a Ferris wheel. This backdrop is visible in the initial frames of both clips (e.g., 0:00 in Video 1 and 0:00 in Video 2) and remains present throughout the segments, serving as a recurring studio motif for his appearances."
+    }
+]

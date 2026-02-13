@@ -1,0 +1,88 @@
+[
+    {
+        "question": "Which item appears in both the earlier outdoor prep table scene and later outdoor cooking scenes, helping track the cooking setup across time?",
+        "answer": "A large black cauldron (kazan) used for cooking.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows a table setup outdoors with a large pot used in food preparation. Step 2: Slice 23 shows a large black pot over an open fire being stirred with steam rising. Conclusion: The pot is a recurring object linking the prep area to active cooking.",
+        "logic_check_reasoning": "Step 1: Slice 15 describes the earlier outdoor prep table scene and explicitly mentions \"On the table, there is a large pot, likely used for cooking.\" Step 2: Slice 23 describes the later outdoor cooking scene and explicitly mentions \"a large black pot over an open fire\" that the person is stirring. Logic holds because both slices clearly reference a large cooking pot present in the setup at different times, indicating continuity.",
+        "original_text_answer": "A large pot used for cooking.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1 (0:04-0:06), a large black cauldron is visible on a stand next to the prep table. In Video 2 (0:02-0:05 and 0:06-0:09), the same large black cauldron is shown in wider shots and close-ups over the fire, confirming it is the consistent cooking vessel across scenes."
+    },
+    {
+        "question": "What later grilling scene uses the same kinds of sliced vegetables that were earlier arranged and seasoned on a cutting board?",
+        "answer": "The grill scene where potato, eggplant, and tomato slices are placed and cooked on the hot surface.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            55,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 55 shows vegetables (including eggplant and tomato) neatly sliced and arranged on a cutting board. Step 2: Slice 63 shows zucchini and eggplant slices being placed onto an outdoor grill. Conclusion: The same types of sliced vegetables prepared earlier are later grilled.",
+        "logic_check_reasoning": "Step 1: Slice 55 describes vegetables prepared on a cutting board, including sliced eggplant (along with potatoes and tomatoes). Step 2: Slice 63 shows a later scene where slices of zucchini and eggplant are placed on a hot grill. Step 3: The link is that eggplant slices appear in both the cutting board prep and the later grill scene. Therefore, identifying the grill scene with zucchini and eggplant as the later scene is supported by the context.",
+        "original_text_answer": "The grill scene where zucchini and eggplant slices are placed and cooked on the hot surface.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows sliced potatoes, tomatoes, and eggplants arranged on a cutting board. Clip 2 shows these exact same vegetables (potatoes, eggplants, and tomatoes) being placed on the griddle for cooking. The original answer incorrectly mentions 'zucchini' instead of 'potatoes' and omits 'tomatoes', which are clearly visible in both clips."
+    },
+    {
+        "question": "What continuity clue suggests the same outdoor camp meal continues from stirring a steaming pot to later serving the finished dish onto a plate?",
+        "answer": "The same large steaming pot over an outdoor fire is shown being cooked in and later ladled from to serve food.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows a large black pot over an open fire with steam/smoke and a man stirring. Step 2: Slice 82 shows food being served from a large pot into a plate with steam rising. Conclusion: The recurring steaming pot indicates continuity from cooking to serving.",
+        "logic_check_reasoning": "Step 1: Slice 48 shows a large black pot on a tripod over an open fire outdoors, with steam/smoke rising and a man stirring it. Step 2: Slice 82 shows food being ladled from a large steaming pot outdoors (grass visible) onto a plate. Logic holds because both slices depict the same distinctive setup—a large steaming outdoor pot—first being cooked and later being served from, indicating continuity of the same camp meal.",
+        "visual_proof": "Clip 1 shows a large, black, lidded pot steaming over an open fire outdoors. Clip 2 shows the same type of large, steaming pot (now uncovered) being ladled from to serve meat and vegetables onto a plate, confirming it's the same cooking vessel used throughout the meal preparation."
+    },
+    {
+        "question": "Which activity happens after the man tests the hot spring water with his hand but before he plants a sapling on a hillside platform?",
+        "answer": "He admires a wide valley view while standing on a rocky outcrop/overlook.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the man bending down to put his hand into a steaming pool to test the hot spring water. Step 2: Slice 6 shows him on a rocky outcrop overlooking a lush green valley, taking in the view. Step 3: Slice 7 shows him walking to a wooden platform and planting a small tree. Conclusion: The valley-view moment occurs between testing the hot spring water and planting the sapling.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows the man testing hot spring water with his hand in a geothermal area. Step 2: Slice 6 depicts the man standing on a rocky outcrop, admiring a wide valley view. Step 3: Slice 7 shows the man later planting a sapling on a hillside platform. The activity described in Slice 6 (admiring the valley view from an overlook) fits logically between the actions in Slices 5 and 7. Although captions use phrases like 'the video begins' in multiple slices (VLM noise), the described actions clearly include the requested intermediate activity.",
+        "visual_proof": "In Clip 1, the man tests the hot spring water with his hand (0:03-0:04). In Clip 2, he is seen standing on a rocky outcrop overlooking a wide green valley with snow-capped mountains in the distance (0:01-0:02). In Clip 3, he is planting a sapling on a hillside platform (0:02). The sequence of events visually confirms that admiring the valley view occurs between testing the water and planting the sapling."
+    },
+    {
+        "question": "What earlier food-prep actions make it possible for the man to later serve a stew with meat and vegetables into a plate?",
+        "answer": "He chops meat and prepares vegetables (like onions/peppers/tomatoes), adds them into a pot, and cooks them until they simmer into a stew.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            30,
+            31,
+            37,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows meat being cut and put into a large pot. Step 2: Slice 31 shows onions being added and cooked/stirred in the pot. Step 3: Slice 37 shows tomatoes being poured into the pot and stirred with other vegetables. Step 4: Slice 82 shows a finished stew-like mixture being ladled from the pot into a plate. Conclusion: The earlier cutting/adding/stirring steps lead to the later serving of stew.",
+        "logic_check_reasoning": "Step 1: Slice 30 shows the person cutting meat and putting the pieces into a large pot, establishing meat prep and addition to the pot. Step 2: Slice 31 shows sliced onions being added and cooked (sizzling/turning golden), with green peppers visible among ingredients, supporting vegetable preparation and cooking. Step 3: Slice 37 shows tomatoes being poured into the pot, which already contains chopped onions and green peppers, and the contents are stirred—further confirming vegetables added to the pot. Step 4: Slice 82 shows a simmering stew with meat and vegetables being served, confirming the earlier cooking led to a stew. Logic holds: chopping meat, preparing and adding vegetables (onions/peppers/tomatoes), and cooking them leads to the stew later being served.",
+        "visual_proof": "Clip 1 shows the man chopping meat. Clip 2 shows him adding sliced onions and green peppers to the pot. Clip 3 shows him adding chopped tomatoes to the same pot with meat and onions. Clip 4 shows the fully cooked stew being served onto a plate, confirming the sequence of prep, cooking, and serving."
+    },
+    {
+        "question": "What visual evidence indicates the man’s clothing changes between geothermal exploration and later cooking/butchery sequences, suggesting different segments of the trip?",
+        "answer": "He appears in a camouflage jacket during geothermal exploration and later is often seen in a black jacket/hoodie and green pants during butchery and cooking.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            12,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the man wearing a camouflage jacket near a steam vent. Step 2: Slice 12 shows a man in a black jacket and green pants butchering hanging pigs. Step 3: Slice 73 shows a man in a black hooded jacket and green pants preparing meat and cooking. Conclusion: Clothing differences (camouflage vs black/green pants outfit) mark transitions between exploration and cooking/butchery segments.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes the geothermal exploration with a man wearing a camouflage jacket and black pants. Step 2: Slice 12 shows a butchery scene with a man in a black jacket and green pants. Step 3: Slice 73 shows a cooking scene with a man in a black hooded jacket and green pants. Logic holds because the clothing in Slice 3 (camouflage jacket, black pants) differs from the clothing in Slices 12 and 73 (black jacket/hoodie, green pants), supporting the claim of different segments. The proposed answer matches these details.",
+        "visual_proof": "In Clip 1, the man wears a distinct camouflage-patterned jacket while exploring the steaming, rocky terrain. In Clips 2 and 3, he is consistently seen wearing a solid black hooded jacket (with the hood up in Clip 3) paired with green pants while butchering and cooking outdoors. This clear change in attire between the geothermal scene and the butchery/cooking scenes visually separates these activities as different segments of the trip."
+    }
+]

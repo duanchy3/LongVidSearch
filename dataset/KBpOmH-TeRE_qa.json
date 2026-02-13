@@ -1,0 +1,162 @@
+[
+  {
+    "question": "What safety- or privacy-related reassurance is given later in the trip that echoes the creator’s earlier concern about being watched?",
+    "answer": "Later he says you are not monitored the whole time, echoing the opening concern about government monitoring.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      22
+    ],
+    "reasoning_chain": "Step 1: Slice 1 states the creator acknowledges the Turkmen government may be watching/monitoring. Step 2: Slice 22 explicitly reassures viewers that they are not monitored the whole time. Conclusion: The later reassurance echoes the earlier monitoring concern.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 notes the creator's early acknowledgment that the Turkmen government may be watching, establishing a concern about monitoring. Step 2: Evidence Slice 22 shows a later segment with on-screen text stating, \"it's important to note that NO, you are not monitored the whole time,\" which is a clear reassurance about surveillance. Logic holds because the later reassurance directly addresses and moderates the initial concern about being watched by stating monitoring is not constant.",
+    "visual_proof": "Clip 1 (0:01-0:08) shows text stating the creator is aware the Turkmenistan government will likely be watching the video. Clip 2 (0:05-0:06) shows the creator speaking on camera with subtitles that read, 'NO, you are not monitored the whole time,' directly addressing and countering the earlier concern about constant surveillance."
+  },
+  {
+    "question": "Which tour company’s name appears both in a face-to-face interview setting and later as social media handles on-screen?",
+    "answer": "Lupine Travel.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      9
+    ],
+    "reasoning_chain": "Step 1: Slice 3 shows a conversation discussing Lupine Travel. Step 2: Slice 9 displays the on-screen social handles @Lupine_travel and /Lupinetravel. Conclusion: The same company name appears in both contexts.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 3 describes a face-to-face conversation where subtitles indicate the discussion revolves around 'Lupine Travel,' a UK-based tour company. Step 2: Evidence Slice 9 shows on-screen social media handles '@Lupine_travel' and '/Lupinetravel.' Step 3: The name 'Lupine Travel' appears in both contexts: as the subject in the interview setting and in the social media handles. Therefore, the logic holds.",
+    "visual_proof": "In Clip 1, the subtitle explicitly states 'Lupine travel is a UK-based Tour company'. In Clip 2, the on-screen graphics display the Instagram handle '@Lupine_travel' and Facebook page '/Lupinetravel', directly linking the company name to its social media presence."
+  },
+  {
+    "question": "After showing the hotel name carved into a rock, what day-title appears soon after that signals the next stage of the journey?",
+    "answer": "DAY 2 (The burning fortress) “Yangykala”.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      20,
+      21
+    ],
+    "reasoning_chain": "Step 1: Slice 20 shows the rock engraving 'HOTEL NEBITCI'. Step 2: Slice 21 immediately introduces the next segment with the title 'DAY 2 (The burning fortress) Yangykala'. Conclusion: The day-title follows the hotel moment.",
+    "logic_check_reasoning": "Step 1: Slice 20 describes a man next to a rock with 'HOTEL NEBITCI' engraved, confirming the hotel name carved into a rock. Step 2: Slice 21 states that a black screen appears displaying 'DAY 2' with the subtitle '(The burning fortress) \"Yangykala\".' This explicitly provides the day-title that signals the next stage of the journey. The sequence is coherent and supported by the captions.",
+    "visual_proof": "In Clip 1, the video ends with the man standing in front of a rock with 'HOTEL NEBİTÇİ' carved into it. Immediately following this, Clip 2 begins with a black screen displaying the text 'DAY 2', which then transitions to show '(The burning fortress) \"Yangykala\"'. This sequence directly follows the hotel sign scene and signals the next stage of the journey."
+  },
+  {
+    "question": "Which remote attraction is first introduced by a day-title about a 'burning' theme and later explicitly labeled by name on screen at the fire pit?",
+    "answer": "Darvaza (the Door to Hell gas crater).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      21,
+      48
+    ],
+    "reasoning_chain": "Step 1: Slice 21 introduces a burning-themed day segment ('The burning fortress'). Step 2: Slice 48 shows the fire pit with the on-screen label 'DARVAZA'. Conclusion: The burning-themed segment culminates in the Darvaza-labeled crater.",
+    "logic_check_reasoning": "Step 1: Slice 21 shows a day title with a 'burning' theme: \"DAY 2 (The burning fortress) 'Yangykala'.\" This establishes a burning-themed segment of the journey. Step 2: Slice 48 explicitly shows a fire pit scene with on-screen text \"DARVAZA\" labeling the location. Logic holds because the question asks for the attraction later labeled at the fire pit, and Slice 48 directly names it as DARVAZA, aligning with the earlier burning theme introduced in Slice 21.",
+    "visual_proof": "Clip 1 begins with a title card 'DAY 2 (The burning fortress) \"Yangykala\"', introducing the theme. Clip 2 then shows a large, flaming pit in a desert landscape, which is visually consistent with the 'burning' theme. Over this scene, the text 'DARVAZA' is superimposed, explicitly labeling the location. The combination of the thematic introduction in Clip 1 and the explicit on-screen label in Clip 2 confirms that Darvaza is the attraction being referred to."
+  },
+  {
+    "question": "How does the vlogger’s clothing change between the overcast roadside mountain scene and later when he appears by the hotel name rock?",
+    "answer": "He goes from wearing a gray hoodie (with gloves/pants) to wearing a gray T-shirt and a black beanie.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      15,
+      20
+    ],
+    "reasoning_chain": "Step 1: Slice 15 shows him in a gray hoodie with gloves in a mountainous roadside setting. Step 2: Slice 20 shows him in a gray graphic T-shirt and black beanie at the 'HOTEL NEBITCI' rock. Conclusion: His outfit changes from hoodie/gloves to T-shirt/beanie.",
+    "logic_check_reasoning": "Step 1: Slice 15 describes the man in an overcast roadside mountain scene wearing a gray hoodie, black pants, and gloves. Step 2: Slice 20 describes the man by the hotel name rock wearing a gray T-shirt and a black beanie. Logic holds because the clothing changes from a hoodie (with gloves) to a T-shirt and beanie, matching the proposed answer.",
+    "visual_proof": "In Clip 1, the vlogger is clearly seen wearing a gray zip-up hoodie, black gloves, and black pants. In Clip 2, he is wearing a gray short-sleeved T-shirt with a graphic logo and a black knit beanie on his head. The change in attire between the two distinct scenes is visually evident."
+  },
+  {
+    "question": "How does the 'burning' theme evolve from a day-title about a burning fortress to the labeled gas crater and then to an explanation about why it was ignited?",
+    "answer": "It moves from a teaser day-title to showing Darvaza by name, then to explaining it was set alight to prevent poisonous gases from spreading.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      21,
+      48,
+      54
+    ],
+    "reasoning_chain": "Step 1: Slice 21 introduces a burning-themed day ('The burning fortress'). Step 2: Slice 48 labels the fiery pit as 'DARVAZA'. Step 3: Slice 54 provides rationale: it was ignited to prevent poisonous gases from spreading. Conclusion: The narrative builds from theme → identification → cause/explanation.",
+    "logic_check_reasoning": "Step 1: Slice 21 shows the day title \"DAY 2\" with the subtitle \"(The burning fortress) 'Yangykala'\", which introduces a burning-themed teaser. Step 2: Slice 48 shows a fire burning in a hole labeled \"DARVAZA\", explicitly naming the gas crater and reinforcing the burning theme. Step 3: Slice 54 depicts the flaming crater with on-screen text including \"to prevent poisonous gases from spreading\", which provides the explanation for the ignition. The logic holds because the progression goes from a thematic intro (burning fortress) to the specific site (Darvaza) and then to the reason it was ignited (to prevent poisonous gases from spreading).",
+    "visual_proof": "Clip 1 starts with the title 'DAY 2 (The burning fortress) \"Yangykala\"', setting a thematic premise. Clip 2 visually identifies the location as 'DARVAZA' with shots of the flaming crater and people observing it. Clip 3 provides the historical context via subtitles, stating that during Soviet times, the Russians drilled for natural gas, the ground collapsed, and they ignited the crater to deal with the pressure and toxic gases."
+  },
+  {
+    "question": "What object carried while walking outside a store later reappears in a desert travel segment, showing continuity of the same snack during movement between locations?",
+    "answer": "An ice cream cone.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      44,
+      45
+    ],
+    "reasoning_chain": "Step 1: Slice 44 shows a man holding an ice cream cone and walking outside the store, showing its label. Step 2: Slice 45 shows a first-person walking shot still holding an ice cream cone in a remote/semi-arid setting. Conclusion: The ice cream is carried across locations.",
+    "logic_check_reasoning": "Step 1: Slice 44 states a man walks outside a store while holding an ice cream cone, even showing its label. Step 2: Slice 45 describes a person in a desert environment holding an ice cream cone in one hand. Logic holds because both slices depict the same type of object (ice cream cone) being carried across different locations, indicating continuity of the snack.",
+    "visual_proof": "In Clip 1, the man is seen inside a store selecting and then holding an ice cream cone. In Clip 2, he is walking outside, still holding the same ice cream cone, which he continues to carry as the scene transitions to a desert landscape with a vehicle, indicating movement between locations while maintaining possession of the snack."
+  },
+  {
+    "question": "Which two different 'day' title cards frame a shift from a fiery natural wonder to a history-focused visit?",
+    "answer": "DAY 2 (The burning fortress) and DAY 5 (The History lesson).",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      21,
+      59
+    ],
+    "reasoning_chain": "Step 1: Slice 21 introduces DAY 2 focused on 'The burning fortress'. Step 2: Slice 59 introduces DAY 5 as 'The History lesson'. Conclusion: The day cards bracket a thematic shift from fire/nature to history.",
+    "logic_check_reasoning": "Step 1: Slice 21 explicitly shows a title card 'DAY 2' with the subtitle '(The burning fortress) \"Yangykala\"', which matches the 'fiery natural wonder' description. Step 2: Slice 59 explicitly shows a title card 'DAY 5' with the subtitle '(The History lesson)', followed by a visit to the archaeological site NISA, confirming a history-focused visit. Logic holds because these are two different day title cards, one associated with a fiery-themed location and the other with a historical lesson, matching the question's framing.",
+    "visual_proof": "Clip 1 opens with a title card 'DAY 2 (The burning fortress) \"Yangykala\"', which is visually supported by the subsequent scene of a man holding a flashlight labeled 'HOTEL NEBITCI' and standing in front of a modern hotel, implying a visit to the Yangykala site. Clip 2 opens with a title card 'DAY 5 (The History lesson)', followed by scenes of the man eating bread in front of a tiled building and then exploring ancient ruins with brick structures, confirming the historical theme."
+  },
+  {
+    "question": "What price-per-ride detail shown at an amusement park connects back to the earlier amusement-park water ride experience?",
+    "answer": "One ride costs 4 manats.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      81,
+      80
+    ],
+    "reasoning_chain": "Step 1: Slice 81 depicts amusement park rides including a Ferris wheel and a water ride. Step 2: Slice 80 states '1 ride = 4 manats' while showing a 4-manat bill in the amusement park. Conclusion: The pricing detail contextualizes the amusement park rides.",
+    "logic_check_reasoning": "Step 1: Slice 81 describes an amusement park experience including a Ferris wheel and a thrilling water ride, establishing the amusement park context. Step 2: Slice 80 explicitly shows a person holding a 4-manat bill with the text overlay '1 ride = 4 manats,' providing a clear price-per-ride detail at the same type of venue. Step 3: Therefore, the price-per-ride detail ('1 ride = 4 manats') directly connects to the earlier amusement-park water ride experience referenced in Slice 81.",
+    "visual_proof": "In Video 2, at 0:00-0:01, a text overlay explicitly states '1 ride = 4 manats' while the man is holding up tickets. This price detail connects back to the amusement park setting shown in Video 1, which features various rides including the water ride."
+  },
+  {
+    "question": "Which location name appears first on a blue road sign associated with a distinctive cemetery and later returns as the city where the group stays overnight and must register?",
+    "answer": "Balkanabat is the overnight/registration city; Nohur is the cemetery location shown earlier, but the overnight/registration city is Balkanabat.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      14,
+      19,
+      21
+    ],
+    "reasoning_chain": "Step 1: Slice 14 shows a blue sign 'NOHUR' and the ram cemetery of Nohur. Step 2: Slice 19 later includes a segment explicitly labeled/mentioning Balkanabat. Step 3: Slice 21 explains they spent the night in Balkanabat and must register there. Conclusion: Nohur is an earlier stop, while Balkanabat is the later overnight/registration point.",
+    "logic_check_reasoning": "Step 1: Slice 14 explicitly shows a blue road sign reading \"NOHUR\" alongside the distinctive Ram cemetery, confirming the cemetery location is Nohur. Step 2: Slice 21 explicitly states the group spent the night in Balkanabat and it’s important to register in Balkanabat, confirming the overnight/registration city. Step 3: The proposed answer identifies Nohur for the cemetery and Balkanabat for the overnight/registration, which matches the evidence. Logic holds because the context distinguishes these two locations clearly.",
+    "visual_proof": "In Clip 1 (0:06), a blue road sign clearly reads 'NOHUR' next to a distinctive cemetery with ram skulls. In Clip 2 (0:12), the text '*Balkanabat' appears over footage of a large modern building, and in Clip 3 (0:06), the interior of 'HOTEL NEBITÇI' is shown with text overlay stating 'we spent the night in Balkanabat'. This confirms Nohur as the earlier cemetery location and Balkanabat as the later overnight stay/registration city."
+  },
+  {
+    "question": "What outdoor landmark name shown on a hotel exterior is closely tied to the city later highlighted on a map as where the group stayed overnight?",
+    "answer": "Hotel Nebitch (Nebitci/Nebitch) is tied to staying in/around Balkanabat (Balkan region).",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      20,
+      21,
+      19
+    ],
+    "reasoning_chain": "Step 1: Slice 20 shows 'HOTEL NEBITCI' engraved on a rock. Step 2: Slice 21 shows the exterior of 'HOTEL NEBITCH' and explains they stayed the night in Balkanabat (Balkan region). Step 3: Slice 19 references Balkanabat in the travel montage. Conclusion: The Nebitch/Nebitci hotel is connected to the Balkanabat overnight stop.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 20 shows a man next to a large rock with 'HOTEL NEBITCI' engraved, indicating an outdoor hotel exterior landmark. Step 2: Evidence Slice 21 shows the exterior of a modern hotel named 'HOTEL NEBITCH' and then a map highlighting Balkanabat with text stating the group spent the night in Balkanabat. Step 3: The hotel name (Nebitci/Nebitch) is directly shown and is associated with the city where the group stayed overnight, providing the tie requested by the question despite minor naming variation due to AI caption noise.",
+    "visual_proof": "In Clip 1, the man stands next to a large rock engraved with 'HOTEL NEBITÇI'. In Clip 2, the video shows the exterior of the same hotel with 'HOTEL NEBITÇI' on the facade. Immediately after, a map appears with a red dot over a region labeled 'BALKANABAT', and text on screen states 'we spent the night in Balkanabat'. This directly links the hotel's name to the city where the group stayed."
+  },
+  {
+    "question": "Trace the progression from visa approval struggles to arriving at a formal travel/visa checkpoint sign, and then to lodging in the Balkan region—what sequence of situations is shown?",
+    "answer": "Visa justification and long wait → official checkpoint/building signage → spending the night and needing registration in Balkanabat (Balkan region).",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      10,
+      19,
+      21
+    ],
+    "reasoning_chain": "Step 1: Slice 10 describes visa application hurdles and waiting three months for acceptance. Step 2: Slice 19 shows a building with an official-looking sign ('Turkmen Milly ...'), suggesting a formal checkpoint/office context. Step 3: Slice 21 states they spent the night in Balkanabat and mentions registration there. Conclusion: The video connects paperwork/entry contexts to official sites and then to required registration while lodging.",
+    "logic_check_reasoning": "Step 1: Slice 10 explicitly shows the man discussing his Turkmenistan visa process, including writing a justification letter and waiting three months for approval. Step 2: Slice 19 shows a man taking a selfie in front of a building with the sign 'Turkmen Milly Gagamlyk,' described as an official structure possibly related to transportation or customs, supporting the 'official checkpoint/building signage' element. Step 3: Slice 21 states they spent the night in Balkanabat and mentions the need to register there, clearly indicating lodging and administrative requirements in the Balkan region. The sequence matches the proposed answer: visa struggles → official signage → lodging/registration in Balkanabat.",
+    "visual_proof": "Clip 1 shows the narrator discussing the visa application process, including paying for it and writing a letter of justification, followed by a long wait for approval. Clip 2 visually confirms arrival at Ashgabat International Airport, which serves as the official entry checkpoint. Later in Clip 2, scenes from Balkanabat are shown, including its monument and a hotel. Clip 3 explicitly states 'we spent the night in Balkanabat' and shows a keychain with 'HOTEL NEBITCI', confirming lodging in that city within the Balkan region."
+  }
+]

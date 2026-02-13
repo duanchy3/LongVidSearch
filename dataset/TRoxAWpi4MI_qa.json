@@ -1,0 +1,88 @@
+[
+    {
+        "question": "What detail about Okinawan bowls is demonstrated both by placing bowls on a surface and by a later verbal explanation to a visitor?",
+        "answer": "That Okinawan bowls have a wider base than typical Japanese bowls.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            63,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 63 visually highlights that the base is wider than Japanese bowls. Step 2: Slice 64 has a man explicitly explaining the wider base feature to a woman. Conclusion: The same design trait is shown visually and then explained verbally.",
+        "logic_check_reasoning": "Step 1: Slice 63 shows bowls being placed on a surface with a text overlay stating their bases are wider than those of Japanese bowls, visually demonstrating the feature. Step 2: Slice 64 includes a man verbally explaining to a visitor that the base of the (Okinawan) bowl is wider than that of Japanese bowls. Logic holds because both slices present the same detail—wider bases—first via demonstration/text and then via verbal explanation, explicitly tied to Okinawan bowls in Slice 64.",
+        "visual_proof": "In Clip 1, after a bowl is shaped on the wheel and placed on a wooden board next to another, a subtitle appears stating, 'The base is wider than that of Japanese bowls.' In Clip 2, the same subtitle is shown while the potter is speaking to a visitor, visually reinforcing this point as he gestures towards the bowls. The visual action of placing the bowl and the verbal explanation are directly linked by the identical subtitle, confirming the detail about the wider base."
+    },
+    {
+        "question": "How is the theme of fish imagery carried from a studio craft process to later museum displays?",
+        "answer": "Fish designs appear first as crafted plates in a workshop, and later as fish-motif vessels shown in museum exhibits.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows finished ceramic plates featuring intricate fish designs made by an artisan. Step 2: Slice 85 shows museum pottery including a smaller vase adorned with a fish motif. Conclusion: The fish motif is tracked from creation context to curated display context.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows a studio/workshop setting where an elderly man crafts and paints ceramic plates featuring intricate fish designs. Step 2: Slice 85 shows a museum display that includes a vase adorned with a fish motif. Logic holds because the fish imagery is explicitly present in the workshop plates and later appears in the museum as a fish-motif vessel, showing continuity of the theme from creation to exhibition.",
+        "visual_proof": "Clip 1 visually documents the creation of ceramic plates featuring carved fish designs in a workshop setting. Clip 2 then shows a museum exhibit with various ceramic pieces, including a prominent vase decorated with a large, detailed fish motif, demonstrating the transition from craft to display."
+    },
+    {
+        "question": "How is the idea that Okinawan pottery feels both rustic and connected to broader Asia supported by both spoken explanation and design examples?",
+        "answer": "A speaker describes the pottery as rustic yet refined with a continental feel, and another explains a bowl shape is common across southern China to Vietnam, reinforcing broader Asian connections.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            55,
+            67,
+            68,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 55 describes Okinawan pottery as rustic but dignified and refined with a continental feel. Step 2: Slice 67 states a common shape spans southern China to Vietnam. Step 3: Slice 68 has speakers discussing island connections with the continent while in a pottery studio. Step 4: Slice 57 summarizes the theme as feeling connections between cultures. Conclusion: Verbal claims and design-shape comparisons jointly support the broader-Asia connection.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 55 explicitly quotes a speaker describing the pottery as \"rustic but dignified and refined\" with \"a continental feel,\" which supports the idea of rustic character and connection to a broader (continental) context. Step 2: Evidence Slice 67 shows a craftsperson stating, \"This is a common shape in Asia from southern China to Vietnam,\" providing a concrete design example that ties the pottery form to broader Asia. The logic holds because the spoken description gives the rustic/continental characterization, and the cited shape commonality across Asian regions exemplifies the broader connection. Note: the proposed answer says \"bowl shape,\" while Slice 67 only specifies a common shape (not necessarily a bowl), but the core support remains intact.",
+        "visual_proof": "In Clip 1, the man holds a blue-and-white patterned bowl and the subtitle states, 'The pottery is rustic but dignified and refined. It has a continental feel to it.' In Clip 2, the same man holds an unglazed bowl and the subtitle says, 'This is a common shape in Asia from southern China to Vietnam.' These spoken explanations directly support the claim about the pottery's rustic nature and its connection to broader Asian cultures."
+    },
+    {
+        "question": "How does the documentary connect craft heritage from ancient trade-era museum artifacts to modern artisans shaping clay today?",
+        "answer": "It explains ancient ceramics arriving through trade, shows cross-regional exhibits, and then shows contemporary artisans shaping clay using heritage inspiration.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            22,
+            26,
+            60,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 22 explains ceramics were brought to Ryukyu via trade relations in the 12th century. Step 2: Slice 26 shows an exhibit with labeled pottery origins (Vietnam/China/Ryukyu), emphasizing exchange. Step 3: Slice 60 shows an artisan shaping clay inspired by centuries-old Ryukyu Wakuta ware. Step 4: Slice 61 shows a potter forming a tall clay piece on a wheel. Conclusion: The film bridges ancient trade-linked heritage to present-day making practices.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows a museum scene where the curator explains that ceramics came to Ryukyu in the 12th century through trade, establishing the ancient trade-era context. Step 2: Slice 26 shows an exhibit with pottery labeled from various regions (Vietnam, China, Ryukyu), demonstrating cross-regional displays of ceramics. Step 3: Slice 60 presents a modern artisan explicitly drawing inspiration from centuries-old Ryukyu Wakuta ware, and Slice 61 further shows a contemporary potter shaping clay. Logic holds because the documentary sequence moves from historical trade-influenced artifacts to diverse regional exhibits and then to modern artisans working with heritage inspiration.",
+        "visual_proof": "Clip 1 shows museum artifacts with narration about 12th-century trade bringing ceramics to Ryukyu. Clip 2 displays labeled exhibits from Vietnam, China, and Ryukyu, highlighting regional connections. Clips 3 and 4 show a modern potter working with clay, with on-screen text explicitly stating he is 'Taking inspiration from centuries-old Ryukyu Wakuta ware,' directly linking the historical artifacts to contemporary practice."
+    },
+    {
+        "question": "What multi-step explanation ties an artisan’s fish-plate technique (carving and glaze layers) to later museum fish imagery as a cultural motif?",
+        "answer": "The artisan explains carving reveals red clay beneath changing glazes on fish plates, and later museum displays feature fish motifs, showing the fish theme as an enduring design element.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            11,
+            12,
+            36,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows fish plates completed and discusses inspiration from beach light. Step 2: Slice 12 explains the fish plate’s Okinawan clay and how carving reveals red under layers of glaze. Step 3: Slice 36 shows a jar with a stylized fish motif in an exhibit context. Step 4: Slice 85 shows museum pottery including a fish-motif vase. Conclusion: Fish imagery is tracked from technique-heavy workshop creation to repeated museum motifs.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly states the artisan explains his fish plate is made from Okinawan clay and that carving reveals the red underneath, with shots showing white and then blue glaze layers. Step 2: Slice 11 supports the artisan’s fish-themed work, showing him carving and painting plates with fish designs and discussing his inspiration. Step 3: Slice 36 shows a museum/exhibit ceramic jar featuring a hand-painted fish motif, indicating the fish imagery appears in cultural artifacts beyond the artisan’s studio. Step 4: Slice 85 further shows museum pieces, including a vase with a fish motif among traditional Japanese pottery. Logic holds because the artisan’s specific technique (carving to reveal red clay under varying glazes) is linked to fish imagery, and later museum scenes show fish motifs across artifacts, supporting the idea of fish as a recurring cultural design element.",
+        "visual_proof": "In Clip 2, the artisan explicitly states that carving reveals the red Okinawan clay underneath and that the result is a bold, rustic design. The finished plate with a colored fish is shown. In Clip 3, a museum piece with a carved fish motif is displayed, and the subtitle notes that such designs 'embraced elements from foreign cultures' and 'Made them feel Okinawan,' directly linking the technique to cultural identity and continuity. This visual and verbal evidence supports the answer's claim about the multi-step process and the enduring cultural motif."
+    },
+    {
+        "question": "How does the video connect the making of shisa in a workshop to their role as guardians within sacred or memorial spaces visited later?",
+        "answer": "It introduces shisa as guardians and shows them being sculpted, then later shows guardian lion imagery at a mausoleum site, reinforcing their protective role in spiritual places.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            14,
+            16,
+            84,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 14 states shisa are guardians of Okinawa and shows many in a workshop. Step 2: Slice 16 shows detailed sculpting of a shisa’s face. Step 3: Slice 84 shows a guardian lion statue at the royal mausoleum grounds. Step 4: Slice 82 shows ceremonial elements like paired vases with flowers on a stone pedestal in a memorial-like setting. Conclusion: Shisa-making is tied to guardian symbolism that fits later spiritual/memorial sites.",
+        "logic_check_reasoning": "Step 1: Slice 14 depicts a Shisa workshop and explicitly overlays text stating \"Shisa are the guardians of Okinawa,\" while showing artisans sculpting Shisa. This establishes both the crafting process and their guardian role. Step 2: Slice 16 shows an artist carefully sculpting a Shisa and notes they are believed to ward off evil spirits, reinforcing the protective function. Step 3: Slice 84 later shows a guardian lion statue at the Tamaudun mausoleum, a sacred/memorial site, demonstrating guardian imagery in such spaces. Step 4: Slice 82 further situates the later visit within an ancient, ceremonial setting, supporting the context of sacred/memorial spaces. Logic holds because the video first introduces and shows Shisa being made with their guardian meaning, then presents guardian lion figures at a mausoleum, tying the craft to its cultural function in spiritual places.",
+        "visual_proof": "Clip 1 (0:03-0:05) explicitly labels the workshop as a 'Shisa workshop' and subtitles state 'Shisa are the guardians of Okinawa.' Clip 2 (0:00-0:04) shows an artisan meticulously crafting a shisa. Clip 3 (0:01-0:02) features a stone statue of a guardian lion (shisa) standing at the Tama-udun Ryukyu royal mausoleum, visually linking the crafted objects to their function in sacred spaces."
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "question": "Before the segment about a robot vacuum avoiding poop, what earlier segment highlights a developer tool for machine learning with code and experiment graphs?",
+        "answer": "The Weights & Biases developer tools segment.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 4 introduces “Weights & Biases” and shows code plus graphs (developer tools context). Step 2: Slice 30 later introduces “ML NEWS” and the Roomba avoiding poop story. Conclusion: The W&B developer-tools segment comes before the Roomba segment.",
+        "logic_check_reasoning": "Step 1: Slice 30 describes a segment about a Roomba vacuum learning to avoid poop. Step 2: Slice 4 describes a segment featuring 'Weights & Biases' with the subtitle 'Developer Tools for Machine Learning,' showing Python code and various graphs/charts, which matches the description of a developer tool with code and experiment graphs. Logic holds because the question asks which earlier segment fits that description before the Roomba segment, and Slice 4 clearly matches it.",
+        "visual_proof": "Clip 1 explicitly shows the 'Weights & Biases' logo and the text 'DEVELOPER TOOLS FOR MACHINE LEARNING'. It displays a user interface with code (Python scripts using wandb.init) on the left and experiment tracking graphs (e.g., 'Runs', 'Charts' for 'Glass Bottle', 'Plastic Bottle') on the right, which directly corresponds to the description in the question. Clip 2 shows the 'Roomba learns to avoid poop' segment, confirming the temporal order implied by the question."
+    },
+    {
+        "question": "What topic is being presented when the screen shows the speech-to-unit model architecture diagram, and what follow-up slide compares codecs using MUSHRA scores versus bit rate?",
+        "answer": "Textless NLP / speech synthesis from raw audio, followed by a codec comparison plot using MUSHRA vs bit rate.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a speech-to-unit model architecture diagram (CPC, huBERT, VQVAE, etc.). Step 2: Slice 11 shows a graph comparing codecs by MUSHRA score and bit rate. Conclusion: The video discusses textless speech modeling and then evaluates codecs via MUSHRA vs bitrate.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a \"speech-to-unit model architecture\" featuring CPC, huBERT, VQVAE, speaker embedder, and integration of pitch and pseudo-phone units into a TTS system. This supports the topic being about speech synthesis from audio-derived units; calling it \"speech synthesis from raw audio\" aligns with the description, and the use of pseudo-phone units and self-supervised models is consistent with textless approaches. Step 2: Slice 11 explicitly states there is a slide showing a graph from Facebook AI comparing codecs based on MUSHRA scores and bit rates, listing specific codecs. This directly supports the follow-up slide being a codec comparison plot using MUSHRA vs bit rate. Logic holds because the first slide explains the model architecture for speech synthesis and the next slide compares codec performance metrics.",
+        "visual_proof": "Clip 1 shows a slide titled 'Speech-to-Unit Model' with architecture diagrams involving CPC, HuBERT, VQ-VAE, and HiFiGAN Vocoder, indicating textless speech synthesis. Clip 2 shows a scatter plot with 'MUSHRA' on the Y-axis and 'Bit-rate' on the X-axis, comparing codecs like HuBERT, VQ-VAE, Opus, etc., confirming the follow-up slide as described."
+    },
+    {
+        "question": "Which news story is shown first as a CNN Business article and later reappears as the presenter discussing a similar iRobot dataset approach involving real and fake samples?",
+        "answer": "The Roomba learning to avoid poop / recognizing pet waste using machine vision.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows a news article titled “Roomba learns to avoid poop.” Step 2: Slice 33 shows an article about iRobot training machine vision with real and fake poop samples. Conclusion: Both refer to Roomba’s poop-avoidance/recognition capability.",
+        "logic_check_reasoning": "Step 1: Slice 32 shows the presenter in front of a computer screen with the headline 'Roomba learns to avoid poop,' indicating a news article about Roomba avoiding dog poop. Step 2: Slice 33 shows a screenshot of an article about iRobot training Roomba to recognize pet waste using machine vision, including a dataset with real and fake samples like Play-Doh, and the presenter continues discussing it. Logic holds because both slices refer to the same news story about Roomba recognizing/avoiding pet waste, first shown as an article and then discussed with details about the dataset approach.",
+        "visual_proof": "Clip 1 displays a CNN Business article titled 'Roomba learns to avoid poop' with text detailing iRobot's use of machine vision and a dataset of real and faux poop. Clip 2 shows the presenter discussing this same topic, referencing 'hundreds of Play-doh poop models' and 'a diverse dataset of poop,' which directly corresponds to the article's content shown in Clip 1."
+    },
+    {
+        "question": "Which claim about GPT-4 is introduced behind the presenter on a webpage and then shown again as a Reddit post title the presenter reads from?",
+        "answer": "That GPT-4 will remain text-only (and won’t use much more data / isn’t the rumored 100T model).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            59,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 59 shows a webpage headline about Sam Altman saying GPT-4 will remain text-only. Step 2: Slice 61 shows a Reddit post with the same claim in the title. Conclusion: The repeated claim is GPT-4 remaining text-only (with related caveats).",
+        "logic_check_reasoning": "Step 1: Slice 59 states the green-screen webpage shows text: 'GPT-4 will remain text-only, will not use much more data, is not the 100T model rumored, and more info.' Step 2: Slice 61 states the presenter looks at a Reddit post titled 'Sam Altman: GPT-4 will remain text-only, will not use much more data, is not the 100T model rumored, and more info.' Logic holds because the same claim appears first on a webpage behind the presenter and then again as the Reddit post title he reads from.",
+        "visual_proof": "In Clip 1, at 0:06, a Reddit post is shown with the title 'Sam Altman: GPT-4 will remain text-only, will not use much more data, is not the 100T model rumored, and more info'. This same post title is visible again in Clip 2 at 0:00, where the presenter is reading from it. The text is clearly legible in both clips."
+    },
+    {
+        "question": "Which AI hiring problem is first introduced with a bold graphic about tools rejecting applicants and later supported by an on-screen article excerpt about automation breaking the hiring system?",
+        "answer": "AI hiring tools mistakenly reject millions of applicants due to automated resume scanning.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            83,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 83 shows the graphic “AI hiring tools mistakenly reject millions of applicants.” Step 2: Slice 89 shows article text about automated resume scanning contributing to a “broken” hiring system. Conclusion: The problem is automated hiring tools rejecting many applicants.",
+        "logic_check_reasoning": "Step 1: Slice 83 presents a bold graphic stating 'AI hiring tools mistakenly reject millions of applicants,' introducing the core problem. Step 2: Slice 89 shows an on-screen article excerpt noting that automated resume-scanning software is contributing to a 'broken' hiring system, which supports and explains the mechanism behind the rejection issue. Logic holds because the second slice provides the specific automation (resume scanning) that aligns with and substantiates the initial claim about widespread mistaken rejections.",
+        "visual_proof": "Clip 1 (0:02-0:07) displays a bold red graphic with the text 'AI hiring tools' and 'mistakenly reject millions of applicants.' Clip 2 (0:06-0:13) shows an on-screen article excerpt with the headline 'AI hiring tools mistakenly reject millions of applicants' and subtext stating 'Automated resume-scanning software is contributing to a \"broken\" hiring system in the US,' directly linking the problem to automation."
+    },
+    {
+        "question": "Which story arc moves from a humorous Roomba headline, to deeper reporting on iRobot’s data collection and obstacle recognition, and then transitions to a different tech topic about AI spotting art forgeries?",
+        "answer": "Roomba poop-avoidance coverage, then the CNN Business-style reporting on iRobot’s vision/obstacle datasets, then a new segment on AI detecting art forgeries.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            30,
+            34,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 30 introduces “Roomba learns to avoid poop.” Step 2: Slice 34 shows a CNN Business page about Roomba image-recognition and user-contributed obstacle images. Step 3: Slice 35 transitions to “This AI Can Spot an Art Forgery.” Conclusion: The narrative shifts from Roomba ML to art-forgery detection.",
+        "logic_check_reasoning": "Step 1: Slice 30 shows an 'ML NEWS' title and the text 'Roomba learns to avoid poop,' indicating a humorous Roomba headline. Step 2: Slice 34 presents a CNN Business article about Roomba's image-recognition and user-contributed obstacle images, supporting deeper reporting on iRobot’s data collection and obstacle recognition. Step 3: Slice 35 transitions to an article titled 'This AI Can Spot an Art Forgery,' confirming a shift to a different tech topic about AI spotting art forgeries. The proposed answer mirrors this sequence and content.",
+        "visual_proof": "Clip 1 opens with a 'ML NEWS' title and immediately shows a humorous headline 'Roomba learns to avoid poop' with images of fake poop. Clip 2 displays a screenshot from a CNN Business article detailing how iRobot's vacuum uses image-recognition algorithms to identify obstacles like pet waste, confirming the deeper reporting phase. Clip 3 transitions with another 'ML NEWS' title to a new segment titled 'fake art detector,' followed by screenshots from NVIDIA and IEEE Spectrum articles about AI authenticating masterpieces, clearly marking the shift to the art forgery topic."
+    },
+    {
+        "question": "What visual progression shows the DeepMind breakaway story moving from a headline graphic, to an Insider article page, and then to a split-screen where the presenter comments while the article mentions codenames for the plan?",
+        "answer": "A headline graphic about DeepMind breaking away from Google, then an Insider article page, then a split-screen commentary that notes the plan’s codenames “Watermelon” and “Mario.”",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            46,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows the “DeepMind's plan to break away from Google” graphic. Step 2: Slice 46 shows the Insider article page titled similarly. Step 3: Slice 47 shows a split-screen with the article excerpt mentioning codenames “Watermelon” and “Mario” while the presenter talks. Conclusion: The story becomes more detailed over time, adding the codenames.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a headline-style graphic with a red banner reading \"DeepMind's plan to break away from Google,\" establishing the breakaway topic. Step 2: Slice 46 shows a static shot of an Insider article page titled \"Inside DeepMind's secret plot to break away from Google.\" Step 3: Slice 47 shows a split-screen with a presenter commenting on the right while the article on the left mentions the plan’s codenames \"Watermelon\" and \"Mario.\" The proposed answer correctly describes this visual progression and includes the codenames referenced in the article.",
+        "visual_proof": "Clip 1 shows a headline graphic with 'DeepMind's plan to break away from Google.' Clip 2 displays an Insider article page with the same headline. Clip 3 features a split-screen with the presenter commenting while the article text is visible, explicitly mentioning the codenames 'Watermelon' and 'Mario'."
+    },
+    {
+        "question": "What sequence connects the celebratory subscriber milestone to a later technical split-screen where an AI visual morphs while the presenter speaks?",
+        "answer": "First the 100K-subscriber celebration (including a plaque), then later a split-screen with an AI-generated morphing weasel visual while he discusses textless NLP.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 6 displays “100K SUBSCRIBERS.” Step 2: Slice 7 shows the physical plaque for passing 100K subs. Step 3: Slice 8 shows a split-screen with a morphing weasel and “Be my weasel” while he discusses Facebook AI textless NLP. Conclusion: The video moves from milestone celebration to AI-visual/technical discussion.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a celebration of reaching 100K subscribers, with on-screen text '100K SUBSCRIBERS' and 'Yannic Kilcher 100K subscribers.' Step 2: Slice 7 further confirms the milestone with a YouTube plaque 'Presented to Yannic Kitcher for passing 100K SUBS,' reinforcing the celebratory context. Step 3: Slice 8 describes a later segment with a split-screen: the presenter on the right and an AI-generated morphing weasel visual on the left, while he discusses Facebook AI's textless NLP. Logic holds because the proposed answer sequences the celebration (including the plaque) before the later technical split-screen segment, matching the content in slices 6/7 followed by 8.",
+        "visual_proof": "Clip 1 shows the presenter celebrating 100K subscribers with on-screen text and a channel banner. Clip 2 visually confirms this milestone by showing hands holding a physical YouTube Silver Play Button plaque awarded to 'Yannic Kilcher For passing 100K SUBS'. Clip 3 transitions to a split-screen: the left side displays a morphing visual of weasels (labeled 'ImageNet Class 356: 'weasel''), while the right side shows the same presenter speaking over a webpage about Facebook AI's 'Textless NLP', establishing the sequence described."
+    },
+    {
+        "question": "How does the Cohere funding story evolve from a title-card-like ML News transition, to a Fast Company article explaining the founders’ background, and then to a product-like webpage tagline about using one API for billions of parameters?",
+        "answer": "It goes from an ML News transition introducing the funding story, to the Fast Company article about ex-Google Brain founders raising $40M, then to a webpage promoting an API for large language models (“One API. Billions of parameters. Unlimited uses.”).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            51,
+            52,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 51 shows an ML News transition and a Fast Company headline about ex-Googlers raising $40M. Step 2: Slice 52 displays the Fast Company article text about Cohere and Transformer origins at Google Brain. Step 3: Slice 53 shows a product-style webpage with “One API. Billions of parameters. Unlimited uses.” Conclusion: The narrative moves from news → background explanation → product positioning.",
+        "logic_check_reasoning": "Step 1: Slice 51 describes a stylized 'MI NEWS' logo transition, which serves as a title-card-like intro to a news segment, and then shows a Fast Company graphic with the headline 'Ex-Googlers raise $40 million to democratize natural-language AI.' Step 2: Slice 52 provides details from the Fast Company article, explaining the founders' background (ex-Google Brain team members Aidan Gomez and Nick Frosst, Cohere, $40M Series A, backing by Hinton and Fei-Fei Li). Step 3: Slice 53 shows a product-like webpage with the tagline 'One API. Billions of parameters. Unlimited uses.' and copy about integrating natural language understanding/generation, matching the transition to a product promotion. The logic holds: the video evolves from a news transition to an article explaining the funding and founders, then to a product webpage tagline.",
+        "visual_proof": "Clip 1 shows a title card with 'ML NEWS' and 'Cohere raises USD 40M'. Clip 2 displays a Fast Company article headline 'Ex-Googlers raise $40 million...' and mentions Google Brain team members as founders. Clip 3 shows Cohere's website with the tagline 'One API. Billions of parameters. Unlimited uses.'"
+    },
+    {
+        "question": "How does the video connect the initial ‘Weights & Biases’ developer tools introduction to later ‘ML NEWS’ segments that include both Roomba poop-avoidance and an AI patent ruling?",
+        "answer": "It starts with Weights & Biases tooling (code + charts), then later uses ML NEWS formatting to cover consumer-ML (Roomba) and legal/tech-policy news (AI patent ruling).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            30,
+            54,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 4 introduces Weights & Biases developer tools with code and charts. Step 2: Slice 30 starts an ML NEWS story about Roomba avoiding poop. Step 3: Slice 54 shows an ML NEWS title card transition signaling another news item. Step 4: Slice 55 shows the interface graphic “US judge refuses AI patent.” Conclusion: The video shifts from dev tools to a recurring ML NEWS format covering varied topics.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly shows a title screen for 'Weights & Biases' with developer tools visuals (code editor, charts), supporting the claim that the video starts with W&B tooling. Step 2: Slice 30 introduces 'ML NEWS' with a vibrant title and content about 'Roomba learns to avoid poop,' aligning with a consumer-ML segment. Step 3: Slice 54 further confirms 'ML NEWS' branding through an animated graphic with tech/IP icons, indicating a news format. Step 4: Slice 55 shows the text 'US judge refuses AI patent,' clearly representing a legal/tech-policy news item. Logic holds because the sequence described in the answer—starting with W&B tooling then moving to ML NEWS segments covering both Roomba and an AI patent ruling—is directly supported by these slices.",
+        "visual_proof": "Clip 1 visually establishes the 'Weights & Biases' developer tools with code editors and data charts. Clip 2 introduces a distinct 'ML NEWS' segment with stylized graphics, followed by specific stories: one about a Roomba learning to avoid poop (consumer ML application) and another about a US judge refusing an AI patent (legal/tech-policy issue). The visual transition from tooling interface to news-style segments confirms the described connection."
+    },
+    {
+        "question": "Across the speech-technology portion, what sequence goes from a morphing animal visual with ‘Be my weasel,’ to a speech-to-unit architecture diagram, to a codec performance plot, and finally to a prosody-aware generative spoken language modeling slide?",
+        "answer": "It progresses from an AI morphing weasel visual, to a speech-to-unit model architecture, to a codec MUSHRA-vs-bitrate comparison, and then to a prosody-aware generative spoken language modeling slide.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            8,
+            9,
+            11,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows the morphing weasel with “Be my weasel” while discussing textless NLP. Step 2: Slice 9 shows the speech-to-unit architecture diagram (CPC/huBERT/VQVAE). Step 3: Slice 11 shows a codec comparison plot using MUSHRA vs bitrate. Step 4: Slice 13 shows “Text-Free Prosody-Aware Generative Spoken Language Modeling” with a multi-stream transformer. Conclusion: The segment builds from illustrative visuals to architecture, evaluation, and a broader modeling approach including prosody.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly describes the video starting with a split-screen featuring an AI-generated morphing weasel visual with the text 'Be my weasel,' while the presenter discusses Facebook AI and textless NLP. Step 2: The Scene Breakdown (Frames 5-8) states a transition to a complex diagram illustrating a speech-to-unit model architecture (components like CPC, huBERT, VQVAE, speaker embedder), matching the 'speech-to-unit architecture diagram.' Step 3: Slice 11 describes a slide from Facebook AI showing a graph comparing codecs by MUSHRA scores and bit rates, which aligns with 'codec MUSHRA-vs-bitrate comparison.' Step 4: Slice 13 presents a slide on 'Text-Free Prosody-Aware Generative Spoken Language Modeling' with a 'Multi-Stream Transformer,' matching 'prosody-aware generative spoken language modeling slide.' The logical sequence across these slices is consistent with the proposed answer.",
+        "visual_proof": "Clip 1 opens with the 'Be my weasel' morphing animal visual. Clip 2 displays the speech-to-unit architecture diagram with VQ-VAE and HiFiGAN components. Clip 3 shows the codec performance plot with MUSHRA scores on the Y-axis and bit-rate on the X-axis. Clip 4 presents the 'Text-Free Prosody-Aware Generative Spoken Language Modeling' slide with the Multi-Stream Transformer diagram. The sequence of these visuals matches the description exactly."
+    }
+]

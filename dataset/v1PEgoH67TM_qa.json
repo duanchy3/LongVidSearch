@@ -1,0 +1,123 @@
+[
+    {
+        "question": "Which speaker is shown alone in a home setting with large headphones around her neck, and later appears as the top-left participant in a three-person video-call grid wearing a yellow sweater and glasses?",
+        "answer": "Jill Lepore.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows Jill Lepore alone at home, identified by a lower-third, wearing a yellow cardigan over a black turtleneck with large headphones. Step 2: Slice 8 shows a three-person grid where the top-left participant matches the same yellow-over-black outfit and glasses/headphones setup. Conclusion: The same person is Jill Lepore.",
+        "logic_check_reasoning": "Step 1: Slice 4 identifies a woman as Jill Lepore, wearing a yellow cardigan over a black turtleneck with large headphones around her neck, in a home-like indoor setting. Step 2: Slice 8 describes the top-left participant in a three-person video grid as wearing a yellow sweater over a black shirt, with headphones and glasses, in a home setting. Step 3: The visual attributes (yellow outerwear over black shirt, presence of headphones, home setting) align logically, indicating the same person appears in both contexts. Therefore, the person described is Jill Lepore.",
+        "visual_proof": "In Video 1, a woman with short blonde hair, glasses, and large headphones is shown alone in a room with white doors; a lower-third graphic identifies her as 'Jill Lepore'. In Video 2, the same woman, wearing the identical yellow sweater, black turtleneck, glasses, and headphones, appears in the top-left panel of a three-person video call grid."
+    },
+    {
+        "question": "Which participant is seen alone speaking from a study with a bookshelf and two guitars, and also appears in a later two-person split-screen call on the right side with the same bookshelf-and-guitar background?",
+        "answer": "Philip Deloria.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows Philip Deloria in a home office with a bookshelf and two guitars. Step 2: Slice 49 shows the right-side participant in a split-screen with a bookshelf and a visible guitar, matching Deloria’s setting. Conclusion: The participant is Philip Deloria.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly identifies Philip Deloria in a solo shot, seated in a study with a bookshelf and two guitars visible, wearing a dark jacket over a light blue shirt. Step 2: Slice 49 shows a split-screen; the right-side participant is an older person with gray hair and glasses, wearing a light blue shirt under a dark blazer, with a bookshelf and a guitar visible in the background. Logic holds because the distinctive background (bookshelf + guitar[s]) and matching attire strongly indicate the right-side participant is the same person as in Slice 6, i.e., Philip Deloria, even if only one guitar is partially visible in the split-screen.",
+        "visual_proof": "In Clip 1, Philip Deloria is shown alone in a study with a visible bookshelf and two guitars (acoustic and electric) behind him. In Clip 2, he appears on the right side of a split-screen call, with the identical background of the same bookshelf and guitars, confirming he is the participant described in the question."
+    },
+    {
+        "question": "Which person is filmed in a museum-like corridor lined with framed works, and later appears as the top-right participant in a three-person video call with a hallway behind them?",
+        "answer": "The older woman with short gray hair wearing a striped/blue striped shirt (the gallery-hallway speaker).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows an older woman with short gray hair in a long hallway with framed pictures on both sides. Step 2: Slice 8 shows the top-right video-call participant with short gray hair and a striped shirt, with a long hallway visible behind them. Conclusion: It’s the same hallway speaker.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes an older woman with short gray hair wearing a blue striped shirt, speaking in a long hallway lined with framed pictures—matching a museum-like corridor. Step 2: Slice 8 identifies the top-right participant as a person with short gray hair wearing a striped shirt, with a long hallway behind them featuring framed items. Logic holds because the visual attributes (short gray hair, striped shirt) and the distinctive hallway with framed works align across both slices, indicating the same person.",
+        "visual_proof": "In Video 1, the woman is shown alone against a virtual background of a museum corridor. In Video 2, she appears in the top-right panel of a three-person call, with the same museum corridor background visible behind her, confirming she is the same person across both clips."
+    },
+    {
+        "question": "What organization is credited in the opening title card as presenting the talk, and is also shown again by name and logo on the closing text screen?",
+        "answer": "The Metropolitan Museum of Art (The Met).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 1 describes the program as MetSpeaks associated with The Metropolitan Museum of Art. Step 2: Slice 66 ends with The Met logo and copyright text. Conclusion: The organization is The Metropolitan Museum of Art.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the video is part of the MetSpeaks series, which is associated with The Metropolitan Museum of Art (The Met), indicating The Met is the presenting organization on the opening title card. Step 2: Evidence Slice 66 states that the closing text screen displays The Metropolitan Museum of Art’s name and logo and includes © 2020 The Metropolitan Museum of Art. Logic holds because the organization identified in the opening context (MetSpeaks associated with The Met) matches the organization shown explicitly by name and logo at the end.",
+        "visual_proof": "In Clip 1, the opening title card displays 'THE MET' logo in the top left corner. In Clip 2, the final screen shows the same 'THE MET' logo centered on the screen with the copyright text '©2020 The Metropolitan Museum of Art' below it, confirming the organization's credit at both the beginning and end."
+    },
+    {
+        "question": "Which person is first introduced on a black title card as a Harvard professor and later appears visually speaking from a home setting with a white door behind her?",
+        "answer": "Jill Lepore.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces Jill Lepore as a Harvard professor and New Yorker staff writer. Step 2: Slice 4 shows Jill Lepore on camera in a home setting with white doors. Conclusion: The person is Jill Lepore.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes a black background title card listing Jill Lepore as the David Woods Kemper '41 Professor of American History at Harvard University. Step 2: Evidence Slice 4 shows Jill Lepore visually in a home setting, identified by an on-screen label, with white closet doors behind her. Logic holds because the person introduced as a Harvard professor on the title card (Slice 1) is the same person later shown speaking from a home setting with a white door behind her (Slice 4).",
+        "visual_proof": "Clip 1's title card explicitly lists 'Jill Lepore, David Woods Kemper '41 Professor of American History, Harvard University'. Clip 2 visually shows Jill Lepore speaking, wearing headphones and a yellow sweater, with a white door visible behind her in a home setting, confirming she is the person described."
+    },
+    {
+        "question": "Which person is first introduced on a black title card as a Harvard history professor and later appears speaking from a room with bookshelves and guitars?",
+        "answer": "Philip Deloria.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces Philip Deloria as a Harvard history professor. Step 2: Slice 6 shows him speaking from a study with bookshelves and guitars. Conclusion: The person is Philip Deloria.",
+        "logic_check_reasoning": "Step 1: Slice 1 identifies Philip Deloria as the Leverett Saltonstall Professor of History at Harvard University, presented amid black background text cards for the event, indicating an introduction context. Step 2: Slice 6 shows Philip Deloria speaking from a room with bookshelves and guitars. Logic holds because the same person is identified as a Harvard history professor and later appears in the described room with bookshelves and guitars.",
+        "visual_proof": "The first clip (title card) lists 'Philip Deloria, Leverett Saltonstall Professor of History, Harvard University.' The second clip visually shows Philip Deloria speaking from a room with bookshelves and guitars in the background, confirming he is the person described."
+    },
+    {
+        "question": "Which older man is shown speaking from a study with a guitar, and later is shown speaking with an inset artwork labeled with a 2020 copyright credit?",
+        "answer": "Philip Deloria.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            43,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows the older man in a study with books and guitars. Step 2: Slice 43 shows him again with an inset artwork and a visible 2020 Lawrence Foundation/ARS credit. Step 3: Slice 58 continues the format of discussion with artwork credited at the bottom. Conclusion: The man is Philip Deloria.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly identifies the man as Philip Deloria, shown in a study with bookshelves and two guitars, wearing a dark suit jacket over a light blue shirt. Step 2: Slice 43 shows a man in a similar study setting with a bookshelf and a guitar, wearing the same outfit, and includes an inset artwork labeled with a 2020 copyright credit; although not named here, the visual details match Slice 6. Step 3: Slice 58 shows the same-looking participant (dark blazer/light blue shirt, bookshelf, guitar) with artwork overlays carrying 2020 credit lines, reinforcing continuity. Therefore, the older man is Philip Deloria.",
+        "visual_proof": "The man, identified by the on-screen text in Clip 1 as 'Philip Deloria', is consistently shown in the same study setting with bookshelves and guitars. In Clip 2, an inset artwork appears with a copyright notice for '© 2020 The Jacob and Gwendolyn Knight Lawrence Foundation', confirming he is the speaker associated with that visual element."
+    },
+    {
+        "question": "Which participant is associated with the museum hallway setting (blue ceiling and framed works), and later reappears in the same hallway while the rest of the program alternates between remote video-call speakers and artwork slides?",
+        "answer": "The older woman with short gray hair in a striped shirt (the hallway/gallery speaker).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            8,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the older woman in the long corridor with framed artworks. Step 2: Slice 8 shows her as the top-right participant with the same hallway behind her. Step 3: Slice 65 returns to her again in the gallery corridor. Conclusion: The hallway setting belongs to the same older woman speaker.",
+        "logic_check_reasoning": "Step 1: Slice 8 identifies the top right participant as having short gray hair, wearing a striped shirt, with a long hallway behind them featuring a blue ceiling and framed items. Step 2: Slices 5 and 65 show an elderly woman with short gray hair and a striped shirt standing/talking in the same type of hallway/art gallery with a blue ceiling and framed artworks. Step 3: These visual attributes align, indicating the top right participant is the same person who later appears in the museum hallway. Thus, the participant associated with the museum hallway is the older woman with short gray hair in a striped shirt, matching the proposed answer.",
+        "visual_proof": "In Clip 1 and Clip 3, the same woman is shown speaking against the distinct virtual background of a museum hallway with a blue ceiling and framed artworks. In Clip 2, this same woman appears in the top-right panel, maintaining the same background while other participants are shown in different, non-gallery settings (a home office and a room with bookshelves), confirming she is consistently associated with the hallway setting."
+    },
+    {
+        "question": "Which two distinct settings—an art-gallery corridor and a home office with books and guitars—are both used in the program to deliver commentary, and which speakers correspond to each?",
+        "answer": "Gallery corridor: Sylvia Yount / the older hallway speaker; Home office with books and guitars: Philip Deloria.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            3,
+            6,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows Sylvia Yount speaking in an exhibition corridor. Step 2: Slice 3 shows another older woman speaking in a similar framed-art hallway. Step 3: Slice 6 shows Philip Deloria speaking from a home office with bookshelves and guitars. Step 4: Slice 65 again shows the hallway/gallery speaker in the museum corridor. Conclusion: Commentary is delivered both from gallery corridors (Yount/hallway speaker) and from Deloria’s home office.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a woman speaking in an art gallery corridor and explicitly identifies her via text overlay as Sylvia Yount, indicating she is delivering commentary in that setting. Step 2: Slices 3 and 65 also depict an older woman speaking in a hallway/gallery with framed artworks, consistent with the gallery corridor setting, supporting the identification from Slice 2 despite minor descriptive variations. Step 3: Slice 6 shows Philip Deloria in a home office/study with a bookshelf and two guitars visible, and he is identified by a lower-third caption, indicating he is delivering commentary in that setting. Step 4: Therefore, the two settings (gallery corridor and home office with books and guitars) and their corresponding speakers (Sylvia Yount for the gallery corridor, Philip Deloria for the home office) are supported by the evidence.",
+        "visual_proof": "Clips 1, 2, and 4 show Sylvia Yount speaking in a virtual art-gallery corridor with blue walls and framed artworks. Clip 3 shows Philip Deloria speaking from a home office setting, clearly featuring bookshelves filled with books and two guitars (acoustic and electric) visible behind him."
+    }
+]

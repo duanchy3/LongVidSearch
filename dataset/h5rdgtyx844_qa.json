@@ -1,0 +1,70 @@
+[
+    {
+        "question": "Which two different scenes show the masked black-and-yellow suited cat operating from a surveillance/tech setup rather than fighting in the street?",
+        "answer": "The cat monitors screens in a control room, and later operates controls inside a high-tech vehicle cockpit.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a superhero cat in a control room surrounded by screens, observing feeds. Step 2: Slice 75 shows the same black-and-yellow superhero cat operating a control panel inside a spaceship/high-tech vehicle. Conclusion: Both scenes depict the cat in a monitoring/operating role in tech environments.",
+        "logic_check_reasoning": "Step 1: Slice 8 states a cat in a superhero costume with a cape and mask is sitting in a control room/command center surrounded by screens displaying camera feeds, clearly indicating a surveillance/tech setup. Step 2: Slice 75 describes a black cat in a superhero costume operating a control panel inside a spaceship/high-tech vehicle cockpit with buttons and screens, also a tech-focused setting. Logic holds because both scenes show the cat operating from surveillance/tech environments rather than engaging in street action. Minor differences in color description are acceptable per the instructions on VLM noise.",
+        "visual_proof": "In Clip 1, the cat is shown lounging and gesturing in a dark room surrounded by multiple security camera monitors (e.g., CAM 02, CAM 15), clearly a surveillance control room. In Clip 2, a different character, a raccoon, is shown operating the controls inside a green high-tech vehicle cockpit with numerous lit panels. The original answer incorrectly attributes the cockpit scene to the cat, but visually, it is the raccoon operating the vehicle. However, since the question asks for scenes showing the cat in a tech setup, only the first part of the answer is visually supported. The second part is not accurate as per the visuals provided."
+    },
+    {
+        "question": "What animal is being watched through surveillance screens, and later ends up confined behind bars in a moving vehicle while a cat watches it?",
+        "answer": "A white rabbit.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows surveillance screens including a white-furred, blue-eyed animal (rabbit-like) on one feed. Step 2: Slice 38 shows a white rabbit behind a metal cage/barrier inside a vehicle while a cat looks in. Conclusion: The surveilled animal later shown caged is the rabbit.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a control room with a cat observing surveillance screens; one screen shows a character with white fur and blue eyes, described as possibly a rabbit. Step 2: Slice 38 shows a white rabbit confined behind a metal cage in a vehicle, with a gray cat watching it. Logic holds because the monitored white-furred animal (likely a rabbit) aligns with the later explicitly identified white rabbit, and the presence of the cat in both contexts strengthens the continuity. Thus, the animal is a white rabbit.",
+        "visual_proof": "In Clip 1, a cat is shown watching multiple surveillance screens. One screen (CAM 31) clearly displays a white rabbit with long ears and pink inner ears. In Clip 2, the same white rabbit is seen behind the bars of what appears to be a moving vehicle's cage, looking out with a determined expression, while the back of a black cat's head is visible in the foreground, indicating it is watching the rabbit."
+    },
+    {
+        "question": "Which two different moments show a rabbit involved in high-tech planning spaces rather than outdoors action scenes?",
+        "answer": "A rabbit appears in a futuristic lab/control room around a glowing machine, and later a rabbit in purple is in a planning scene with a large option-filled screen.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows a white rabbit in a futuristic laboratory/control room near a major machine. Step 2: Slice 92 shows a rabbit-like figure in purple discussing options in front of a large screen with icons. Conclusion: Both place a rabbit character in tech/planning environments.",
+        "logic_check_reasoning": "Step 1: Slice 27 describes a white rabbit in a futuristic lab/control room with a large circular machine and lab-coated individuals, clearly a high-tech indoor setting. Step 2: Slice 92 shows a rabbit-like character in a purple suit in front of a large screen with icons, engaged in discussion/planning, also a high-tech setting. Logic holds because both moments feature a rabbit in indoor, technology-focused, planning/control environments rather than outdoor action scenes.",
+        "visual_proof": "Clip 1 shows the rabbit in a dimly lit control room with monitors displaying scientists and a glowing purple machine. Clip 2 shows the same rabbit, now in a purple outfit, pointing at a large interactive screen filled with icons and maps labeled 'GLENFIELD' and 'G-U-A-R-D', indicating a high-tech planning environment."
+    },
+    {
+        "question": "What sequence best shows the dog-and-cat partnership moving from panic flight to a calmer intimate moment of commitment?",
+        "answer": "They flee together in fear with the cat riding on the dog, and later the dog proposes to the cat in a quiet room.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            19,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows both dog and cat terrified while fleeing, with the cat on the dog’s back. Step 2: Slice 19 shows them indoors again with mixed emotions, the dog concerned and the cat playful. Step 3: Slice 21 shows a warm, affectionate proposal moment. Conclusion: Their relationship evolves from survival panic to commitment.",
+        "logic_check_reasoning": "Step 1: Slice 14 describes a dog and a cat in fear, with the cat perched on the dog's back, running away—this supports the 'flee together in fear with the cat riding on the dog.' Step 2: Slice 21 shows the dog-like character kneeling and proposing to the cat-like character in a dimly lit room with a warm, intimate atmosphere—this supports 'later the dog proposes to the cat in a room,' indicating a calmer moment of commitment. The transition from panic flight to intimate proposal is logically consistent across these slices.",
+        "visual_proof": "Clip 1 shows the dog and cat running in panic down a street at night, with the cat clinging to the dog's back. Clip 3 transitions to a quiet, warmly lit room where the dog is kneeling before the cat, holding out a ring, which constitutes a proposal. This sequence visually confirms the transition from panicked flight to a calm, intimate moment of commitment."
+    },
+    {
+        "question": "What is the full arc of the pink-glow machine theme from early lab presence, to activation by a dog-like character, to villains operating a similar glowing device later?",
+        "answer": "A large glowing device appears in a lab/control room context, later a dog-like character activates a pink-core machine, and later rodents are shown operating a pink-glowing machine as part of a sinister plan.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            25,
+            28,
+            83,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows a futuristic lab/control room with a large glowing cylindrical device and costumed characters around it. Step 2: Slice 28 shows a high-tech chamber glowing pink with a figure suspended inside, reinforcing the same technology family. Step 3: Slice 83 shows a dog-like character actively pressing controls to activate a machine with a glowing pink core. Step 4: Slice 41 shows rodent-like villains operating a large pink-glowing machine, implying escalation/abuse of similar tech. Conclusion: The pink-glow tech motif develops from lab presence to activation to villain operation.",
+        "logic_check_reasoning": "Step 1: Slice 25 describes a futuristic laboratory/control room featuring a large, glowing cylindrical device at the center, establishing the early lab presence of a significant machine. Step 2: Slice 83 shows a small dog-like character interacting with and activating a machine with a glowing pink core, clearly matching the activation by a dog-like character. Step 3: Slice 41 presents a \"Villainous Plot\" where rodent-like characters operate a large machine emitting a pink glow in an ominous setting, supporting the later villains operating a similar glowing device. Slice 28 further corroborates the pink-glow motif with a high-tech cylindrical chamber glowing pink, strengthening the theme. The logic holds across slices: introduction of a glowing machine in a lab context, activation by a dog-like character, and later villain use of a pink-glowing device.",
+        "visual_proof": "Clip 1 shows a large control room with multiple glowing screens. Clip 4 shows the dog-like character, Buddy, activating a machine with a pink core (0:10-0:12). Clip 3 shows the rodent villains, Marmalade and his crew, operating a similar pink-glowing machine inside their vehicle (0:04-0:05)."
+    }
+]

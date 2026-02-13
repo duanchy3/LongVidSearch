@@ -1,0 +1,96 @@
+[
+    {
+        "question": "After the car ends up stuck in deep snow, the video later shows help arriving on the same snowy road. What vehicle is shown as arriving to help, and what situation prompted the need for help?",
+        "answer": "A tractor arrives, and it was needed because the car was stuck in deep snow/off the road.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            42
+        ],
+        "reasoning_chain": "Step 1: The car is shown stuck in deep snow on a snowy hillside. Step 2: Later, after a time jump, a tractor is shown driving down the snowy road, implying assistance. Conclusion: A tractor comes to help because the car got stuck.",
+        "logic_check_reasoning": "Step 1: Slice 38 describes a gray car stuck in deep snow with rear wheels partially submerged and struggling for traction, establishing the situation that prompted the need for help. Step 2: Slice 42 shows '30 MINUTES LATER' and then a tractor driving down the same snowy road, indicating help arriving. The logic holds because the earlier scene shows the car stuck and the later scene shows a tractor arriving, which aligns with the proposed answer that a tractor arrived due to the car being stuck in deep snow.",
+        "visual_proof": "Clip 1 shows a grey SUV stuck in deep snow on a snowy road, with a person getting out and the subtitle 'You're never driving again' implying a failed attempt. Clip 2, after a '30 MINUTES LATER' title card, shows a green tractor with large snow tires approaching the same car on the same snowy road, confirming it arrived as help for the stuck vehicle."
+    },
+    {
+        "question": "The long-haired man in the red-and-white plaid shirt first appears as a labeled sauna legend, later is interviewed at a table, and later his story is tied to medical warnings about sauna. How is he introduced, what setting is used for his interview, and what cautionary medical outcome is discussed later?",
+        "answer": "He is introduced as “TIMO Sauna Legend,” he is interviewed seated at a table in a home-like room, and later medical scenes warn he’s been advised not to go to the sauna again after health issues.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            21,
+            23,
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: In the building hallway, a man in a red/checked shirt is identified as “TIMO Sauna Legend.” Step 2: Later he sits at a table being interviewed by the green-hoodie host with a microphone. Step 3: The video cuts to a medical setting where doctors advise against going to the sauna again. Step 4: The same long-haired interviewee describes a severe accident-related medical episode (including weeks unconscious), reinforcing the cautionary angle. Conclusion: Introduced as sauna legend, interviewed at a table, later linked to serious medical warnings about sauna.",
+        "logic_check_reasoning": "Step 1: Slice 21 identifies a man in a checkered shirt as \"TIMO Sauna Legend,\" introducing him. Step 2: Slices 23 and 25 show the long-haired man in a red-and-white plaid shirt being interviewed at a table in a kitchen/dining or home-like room with a coat rack and door visible. Step 3: Slice 24 connects his story to a medical setting, where subtitles state doctors advised the patient not to go to the sauna again, implying a cautionary outcome related to health issues. Logic holds because the long-haired man in a red plaid shirt is consistently depicted across slices, and the documentary-style edit ties his interview to the medical warning.",
+        "visual_proof": "Clip 1 shows the man entering with on-screen text identifying him as 'TIMO Sauna Legend.' Clip 2 shows him seated at a table in what appears to be a home or apartment setting, talking to another person. Clip 3 displays footage of him in a hospital bed and being attended by nurses, with subtitles stating 'the doctors said I can't ever go to the sauna again,' confirming the medical warning."
+    },
+    {
+        "question": "A list ranks the United States at a specific position, and later the video claims a specific country is the happiest. What rank is the United States shown at, and which country is presented as the happiest?",
+        "answer": "The United States is ranked 23rd, and Finland is presented as the happiest country.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            3
+        ],
+        "reasoning_chain": "Step 1: The “HAPPIEST COUNTRIES IN THE WORLD” list highlights the United States at rank 23. Step 2: Another segment explicitly labels Finland as the happiest country. Conclusion: US is 23rd; Finland is named happiest.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly states the list shows the United States highlighted in red at rank 23. Step 2: Slice 3 shows on-screen text 'FINLAND: The Happiest Country In The World,' indicating the video presents Finland as the happiest. Logic holds because each slice directly supports each part of the proposed answer.",
+        "visual_proof": "In the first clip, a list is shown where '23. United States' is highlighted in red. In the second clip, aerial shots of a snowy landscape are followed by large blue text that reads 'FINLAND The Happiest Country In The World'."
+    },
+    {
+        "question": "Two men are shown discussing benefits of saunas while walking in the city, and later they are shown enduring or enjoying sauna conditions indoors. What phrase appears on screen during their city walk, and what activity later matches that theme?",
+        "answer": "“SAUNAS FOR THE BODY AND MIND,” and later they sit together in a sauna session (men in a hot sauna talking/laughing).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            33
+        ],
+        "reasoning_chain": "Step 1: During the city walk, an overlay reads “SAUNAS FOR THE BODY AND MIND.” Step 2: Later, a group of men are shown inside a sauna sweating, talking, and leaving due to heat. Conclusion: The phrase is SAUNAS FOR THE BODY AND MIND; the later matching activity is a real sauna session.",
+        "logic_check_reasoning": "Step 1: Slice 36 explicitly shows two men walking in a city discussing saunas, with an on-screen graphic reading \"SAUNAS FOR THE BODY AND MIND.\" Step 2: Slice 33 depicts men inside a sauna, sweating, talking, and laughing, which aligns with the activity of enjoying/enduring a sauna session. Logic holds because the phrase from Slice 36 matches the later sauna activity shown in Slice 33.",
+        "visual_proof": "In Clip 1, the phrase 'SAUNAS FOR THE BODY AND MIND' is clearly displayed on screen as the two men walk and talk. In Clip 2, multiple scenes show the same men (including the bearded man from Clip 1) sitting shirtless in a dark wooden sauna, visibly sweating, laughing, and interacting with each other, confirming they are participating in a sauna session that matches the theme introduced outdoors."
+    },
+    {
+        "question": "The video highlights an extreme sauna temperature at one point and also shows an ice swimming event later. What is the sauna temperature shown, and what cold-water activity do people do afterward?",
+        "answer": "105°C (221°F), and people participate in ice swimming in a lake through a cut hole.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            70
+        ],
+        "reasoning_chain": "Step 1: The sauna thermometer reads 105°C (221°F). Step 2: Later, the group gathers at a frozen lake and swims through an ice hole. Conclusion: 105°C sauna; later ice swimming.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly states the sauna thermometer reads 105°C (221°F), supporting the first part of the answer. Step 2: Slice 70 describes an ice swimming event in a frozen lake with a hole cut for swimming, supporting the second part of the answer. Logic holds because the question asks for the sauna temperature shown and the cold-water activity later in the video, both of which are directly described in the provided slices.",
+        "visual_proof": "Clip 1 at 0:02 clearly shows a thermometer reading 105°C/221°F inside the sauna. Clip 2 shows multiple people, including women in swimwear, jumping into and swimming in a cold lake surrounded by snow, which is visually consistent with an ice swimming event."
+    },
+    {
+        "question": "A mobile vehicle explicitly labeled as a sauna appears later in the snowy countryside, and earlier the video emphasizes sauna culture in Finland. What is written on the truck, and what cultural theme earlier helps explain why such a truck would be relevant?",
+        "answer": "“SAUNA ON THE ROAD,” and the earlier theme is Finland’s sauna culture and sauna experiences/competitions.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            47
+        ],
+        "reasoning_chain": "Step 1: The earlier segment frames saunas as a major Finnish cultural practice with modern and competitive sauna scenes. Step 2: Later, a truck labeled “SAUNA ON THE ROAD” is shown traveling. Conclusion: The truck’s label is SAUNA ON THE ROAD, and it fits the sauna-culture theme established earlier.",
+        "logic_check_reasoning": "Step 1: Slice 47 explicitly states a black truck labeled \"SAUNA ON THE ROAD\" is driving through a snowy countryside, confirming the text on the vehicle. Step 2: Slice 17 emphasizes Finnish sauna culture, including historical practices, modern communal use, and competitions, establishing a strong cultural context that explains the relevance of a mobile sauna truck in Finland. Logic holds because the truck’s label is directly observed, and the prior cultural theme makes such a service sensible in the setting.",
+        "visual_proof": "Clip 2 (0:03-0:04) clearly shows a large black truck with 'SAUNA ON THE ROAD' written on its side, driving in a snowy environment. Clip 1 (0:00-0:01) features text stating 'With an estimated three million saunas in Finland,' establishing the cultural context of widespread sauna use. Additionally, Clip 1 includes scenes of sauna competitions (0:07-0:09) and traditional sauna practices, reinforcing the cultural relevance of mobile saunas in Finland."
+    },
+    {
+        "question": "A corridor conversation previews an ice swimming competition, and later the video shows both people jumping in and a close-up of a swimmer actively swimming. What event is previewed, and what detail confirms it actually happens in the lake?",
+        "answer": "An ice swimming competition, and a close-up shows a swimmer in a blue swim cap and goggles swimming in the icy lake with steam rising.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            65,
+            70,
+            73
+        ],
+        "reasoning_chain": "Step 1: The corridor subtitles mention an ice swimming competition in a lake. Step 2: The frozen-lake scene shows participants entering a cut hole in the ice. Step 3: A later shot shows a man in a blue swim cap and goggles swimming, with steam rising from the water. Conclusion: The previewed event is ice swimming, confirmed by the swimmer in the lake.",
+        "logic_check_reasoning": "Step 1: Slice 65 explicitly previews “an ice swimming competition in a lake here” during the corridor conversation. Step 2: Slice 70 shows participants at a frozen lake jumping into a cut hole, confirming the event is happening. Step 3: Slice 73 provides a close-up of a swimmer with a blue swim cap and goggles actively swimming, with steam rising from the cold water, confirming the lake setting and actual swimming. Logic holds because the preview is about ice swimming at a lake, and later slices depict participants entering the icy lake and a detailed shot of a swimmer in that lake.",
+        "visual_proof": "Clip 1 features a conversation previewing an 'ice swimming competition'. Clip 2 visually confirms this event is happening by showing multiple swimmers entering the water from a dock, including one wearing a blue swim cap and goggles actively swimming. The cold environment is evident from the snow and visible steam rising from the lake's surface. Clip 3 further reinforces this by showing another participant jumping into the same lake."
+    }
+]

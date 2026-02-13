@@ -1,0 +1,126 @@
+[
+    {
+        "question": "What clothing item helps identify the cook who seasons raw meat and later is shown eating a meal at the table?",
+        "answer": "A blue shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows a person in a blue shirt seasoning raw meat with salt at an outdoor table. Step 2: Slice 92 shows a man in a blue shirt eating the prepared meal at the table. Conclusion: The blue shirt links the cook/preparer to the diner.",
+        "logic_check_reasoning": "Step 1: Slice 35 states the person seasoning raw meat is wearing a blue shirt. Step 2: Slice 92 states the man eating at the table is wearing a blue shirt. Logic holds because the same clothing item (blue shirt) is consistently associated with the individual preparing meat and later eating, helping identify him.",
+        "visual_proof": "In Video 1, the man preparing and seasoning the raw meat is visibly wearing a dark blue t-shirt. In Video 2, the same man is shown eating the prepared meal at the table, and he is still wearing the identical blue t-shirt, which serves as a consistent identifier across both scenes."
+    },
+    {
+        "question": "What object is rolled along a dirt path early on and later repurposed as part of a fire pit or grill setup?",
+        "answer": "A large wooden spool (wooden reel).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a man rolling a large wooden spool along a dirt path. Step 2: Slice 31 shows a makeshift fire pit constructed from a wooden spool being used while igniting kindling. Conclusion: The same type of object—a large wooden spool—appears in both contexts.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly states that a man rolls a large wooden spool across a dirt path. Step 2: Slice 31 describes a makeshift fire pit that is constructed from a wooden spool. Logic holds because the object identified in both slices is a wooden spool, indicating it was rolled earlier and later repurposed in the fire pit setup.",
+        "visual_proof": "In the first clip, a man is seen rolling a large, circular wooden object with metal bolts and painted markings along a dirt path. In the second clip, this same object is shown upright, filled with sticks and sand, with a fire burning inside it, confirming its repurposing as a fire pit or grill."
+    },
+    {
+        "question": "Which vegetable is washed in a fountain and later placed on a tray to grill alongside meat?",
+        "answer": "Tomatoes (including cherry tomatoes).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows tomatoes being washed in a fountain. Step 2: Slice 43 shows cherry tomatoes arranged on a grill tray with meat and other vegetables. Conclusion: The washed vegetable later grilled is tomatoes.",
+        "logic_check_reasoning": "Step 1: Slice 24 explicitly shows a bowl of red tomatoes being placed into a fountain and washed. Step 2: Slice 43 shows a grill tray with meat surrounded by cherry tomatoes (as well as mushrooms and green peppers). Logic holds because tomatoes are the common vegetable explicitly washed in Slice 24 and then shown on the grill tray in Slice 43 (as cherry tomatoes).",
+        "visual_proof": "In Video 1, a person is seen washing a bowl of red tomatoes and green peppers in a fountain. In Video 2, the same red tomatoes (including smaller cherry tomatoes) are visibly placed on the grill alongside large meat cuts and other vegetables like mushrooms and onions."
+    },
+    {
+        "question": "How does the video show the transformation of meat from being wrapped for pit cooking to being unwrapped and then carved for serving?",
+        "answer": "The meat is wrapped in foil and cooked in the pit, then unwrapped, then sliced/carved on a cutting board.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            60,
+            68,
+            82,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows a large cooked-looking cut being wrapped in aluminum foil. Step 2: Slice 68 shows foil-wrapped items suspended over embers inside a clay/mud pit for heating/cooking. Step 3: Slice 82 shows a roasted piece being unwrapped from a plastic bag and foil. Step 4: Slice 84 shows the roasted meat being carved on a cutting board. Conclusion: Wrapping enables pit cooking and is followed by unwrapping and carving.",
+        "logic_check_reasoning": "Step 1: Slice 60 shows a person wrapping a large, cooked-looking bone-in meat in aluminum foil, establishing the wrapping step. Step 2: Slice 68 depicts foil-wrapped food items being cooked over embers in a clay/mud pit setup, supporting the pit cooking of foil-wrapped meat. Step 3: Slice 82 shows the meat being unwrapped from a plastic bag and aluminum foil, indicating the post-cook unwrapping. Step 4: Slice 84 shows the meat being carved on a wooden cutting board, confirming the final slicing/carving for serving. The sequence logically connects wrapping, pit cooking, unwrapping, and carving, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows hands wrapping meat in foil. Clip 2 shows the foil-wrapped meat being lowered into a pit. Clip 3 shows the cooked meat being unwrapped from foil and parchment paper. Clip 4 shows the unwrapped meat being carved with a cleaver on a wooden cutting board."
+    },
+    {
+        "question": "What sequence shows a man taking a break with tea near the dome-shaped grill and later continuing toward the eating/serving phase?",
+        "answer": "He drinks tea beside the dome-shaped grill, and later the food is served/plated and eaten at a table.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            73,
+            75,
+            90,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 73 shows the man holding tea and bread beside the dome-shaped grill. Step 2: Slice 75 shows him still near the grill, inspecting something while beehives appear in the background. Step 3: Slice 90 shows a plated assortment of grilled meat and vegetables outdoors. Step 4: Slice 92 shows the man eating the meal at the table. Conclusion: The relaxation moment near the grill precedes serving and eating.",
+        "logic_check_reasoning": "Step 1: Slice 73 shows the man taking a break, sipping tea beside a dome-shaped grill on a wooden table. Step 2: Slice 75 shows him still by the grill, tending/inspecting food, linking the cooking phase. Step 3: Slice 90 shows plated food (grilled meat and vegetables) with a hand interacting with a cherry tomato, indicating the serving/plating stage. Step 4: Slice 92 shows the man seated at a table eating the meal, confirming the eating phase. The sequence from tea break by the grill to serving/plating and eating is supported.",
+        "visual_proof": "Clip 1 and Clip 2 show the man standing by the dome-shaped grill, drinking tea from a glass. Clip 3 shows a hand plating the cooked food (meat, tomatoes, mushrooms) on a wooden dish. Clip 4 shows the same man sitting at a table, eating the plated food with bread. This sequence visually confirms the break with tea near the grill followed by the serving and eating phase at the table."
+    },
+    {
+        "question": "Which flower-related action occurs before the video later highlights a bush with yellow flowers during the cooking sequence?",
+        "answer": "A man picks a small purple flower and examines it.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a man picking a small purple flower and examining it. Step 2: Slice 42 later cuts to a bush with vibrant yellow flowers during the cooking montage. Conclusion: The earlier flower interaction is picking and examining a purple flower.",
+        "logic_check_reasoning": "Step 1: Slice 42 describes the cooking sequence and explicitly mentions a shot of a bush with vibrant yellow flowers. Step 2: Slice 11 describes an earlier scene where a man picks a small purple flower and examines it closely. Step 3: The question asks what flower-related action occurs before the later yellow-flower highlight. The action in Slice 11 (picking and examining a purple flower) precedes and aligns as the earlier flower-related moment. Therefore, the context supports the proposed answer.",
+        "visual_proof": "In Video 1, the man is seen walking towards a patch of purple flowers, crouching down, and carefully picking one to examine it in his hands. In Video 2, after scenes of meat cooking, the video cuts to a close-up of yellow flowers on a bush. The action of picking the purple flower clearly precedes the highlight of the yellow flowers."
+    },
+    {
+        "question": "What natural feature is shown in an aerial landscape shot near the beginning and then revisited at the end with a darker sky/night mood?",
+        "answer": "A river winding through a mountain valley.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 1 includes an aerial view of a river through a valley with mountains (with 'AZERBAIJAN' text). Step 2: Slice 96 returns to aerial/panoramic river valley shots, ending with a night/dark sky view. Conclusion: The recurring natural feature is the river valley.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes an aerial view of a river flowing through a valley surrounded by forests and mountains, indicating the natural feature early in the video. Step 2: Slice 96 shows the river and valley again, including a shot with a dark sky and ending with the valley at night, confirming the feature is revisited under a darker/night mood. Logic holds because both slices consistently reference the same river-in-valley landscape at different times and lighting conditions.",
+        "visual_proof": "Clip 1 (0:06-0:08) shows an aerial view of a wide, braided river flowing through a green, forested mountain valley. The same geographical feature is shown again in Clip 2 (0:09-0:10), with the river and valley clearly identifiable, though the lighting is dimmer, suggesting dusk or overcast conditions rather than night."
+    },
+    {
+        "question": "Which animal is first seen running near the thatched-roof house and later shown resting calmly on the lawn?",
+        "answer": "A white dog with black markings on its face/ears.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            17,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a dog running toward the house and a person with a leash. Step 2: Slice 17 shows a white dog near the man preparing raw meat outside the cabin. Step 3: Slice 72 shows a white dog with black markings lying calmly on the lawn. Conclusion: The same distinctive white dog appears across these moments.",
+        "logic_check_reasoning": "Step 1: Slice 16 shows a dog running near a thatched-roof house, establishing the first sighting of the animal in that setting, though no color/markings are mentioned. Step 2: Slice 17, at the same rustic thatched-roof cabin setting, specifies a white dog present, reinforcing the identity of the dog seen near the house. Step 3: Slice 72 shows a white dog with black markings on its face and ears resting calmly on a lawn in a similar rural/mountainous environment. Logic holds because the consistent setting and the recurring presence of the dog across slices reasonably indicate it is the same animal, and Slice 72 provides the detailed appearance (white with black markings).",
+        "visual_proof": "In Clip 1 (0:06), a white dog with distinct black markings on its ears and face is seen running across the lawn near the thatched-roof house. In Clip 3 (0:00-0:02), the same dog is shown lying calmly on the grass, confirming its identity through consistent coloring and features."
+    },
+    {
+        "question": "How does the meat progress from raw preparation to being seasoned and then served as a finished plated meal?",
+        "answer": "It is cut/trimmed raw, then salted/seasoned, and later appears cooked and served with grilled vegetables on a plate.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            18,
+            35,
+            46,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows raw meat being trimmed and chopped outdoors. Step 2: Slice 35 shows salt being sprinkled over raw meat to season it. Step 3: Slice 46 shows a finished board with cooked meat (tomahawk/rack) and grilled vegetables. Step 4: Slice 92 shows the man eating the meal at the table. Conclusion: The meat moves from raw prep to seasoning to cooked presentation to consumption.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows the meat being cut/trimmed and processed raw. Step 2: Slice 35 shows the person sprinkling salt over the raw meat (seasoning). Step 3: Slice 46 shows the meat cooked and presented with grilled vegetables (ready to serve). Step 4: Slice 92 shows a plated meal being eaten, including grilled meat and vegetables on a plate. Logic holds because these slices collectively depict the progression from raw prep to seasoning to a cooked, served (plated) meal with vegetables.",
+        "visual_proof": "Clip 1 shows the meat being trimmed raw. Clip 2 shows the meat being seasoned with salt. Clip 3 shows the meat fully cooked on a grill alongside vegetables. Clip 4 shows the final plated meal with the cooked meat and vegetables, ready to be eaten."
+    }
+]

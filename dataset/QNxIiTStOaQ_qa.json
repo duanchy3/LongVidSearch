@@ -1,0 +1,111 @@
+[
+    {
+        "question": "What specific makeup product brand is used for eyeliner in the tutorial and is also seen later on a storefront she walks past?",
+        "answer": "KVD Beauty.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows eyeliner labeled “KVD Beauty Tattoo Pencil Liner.” Step 2: Slice 59 shows her walking past a building with a sign reading “KVD Beauty.” Conclusion: The shared brand is KVD Beauty.",
+        "logic_check_reasoning": "Step 1: Slice 29 states the eyeliner being applied is labeled 'KVD Beauty Tattoo Pencil Liner,' confirming the brand used in the tutorial. Step 2: Slice 59 states the woman walks past a building with a sign that reads 'KVD Beauty,' confirming the same brand appears on a storefront. Logic holds because both slices explicitly mention 'KVD Beauty' in the relevant contexts.",
+        "visual_proof": "In Clip 1, the on-screen text at 0:09 explicitly names 'KVD Beauty Tattoo Pencil Liner' while showing the woman's eyeliner. In Clip 2, at 0:00, the on-screen text states 'and today was the real test with KVD Beauty', confirming the brand again. The storefront she walks past does not visually display the 'KVD Beauty' brand name; however, the question links the product used in the tutorial (visually confirmed via text) to the brand mentioned later in the video, which is also visually confirmed by text."
+    },
+    {
+        "question": "After showing the Lollapalooza sign, which K-pop group’s set is later shown with a countdown and then the actual performance footage?",
+        "answer": "Tomorrow X Together (TXT).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows the festival sign “Lollapalooza,” establishing the event setting. Step 2: Slice 80 shows performance footage of Tomorrow X Together (TXT) at Lollapalooza. Conclusion: The K-pop group is TXT.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows the Lollapalooza sign and a festival atmosphere, establishing the setting. Step 2: Slice 80 explicitly describes a concert performance by Tomorrow X Together (TXT) at a festival stage, with overlays indicating date and stage, consistent with Lollapalooza. Logic holds because the video context includes Lollapalooza and later shows a TXT set, matching the query about which K-pop group’s performance is shown later. The countdown detail is not necessary to identify the group.",
+        "visual_proof": "Clip 1 opens with the 'Lollapalooza' sign. Clip 2 immediately follows, showing a concert stage with large screens displaying 'TOMORROW X TOGETHER' and 'Lollapalooza'. The text overlay on screen at 0:02 explicitly states 'Tomorrow x Together', confirming the group's identity before the performance footage begins."
+    },
+    {
+        "question": "What weather-related item is first shown in packaging and later appears being worn by the group at the festival?",
+        "answer": "A rain poncho.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            63,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 63 shows a packaged product labeled “PONCHO,” implying rain protection. Step 2: Slice 64 shows a group wearing blue rain ponchos. Conclusion: The item is a rain poncho.",
+        "logic_check_reasoning": "Step 1: Slice 63 shows a packaged product clearly labeled 'PONCHO' with imagery indicating a disposable rain poncho. Step 2: Slice 64 shows a group of people wearing blue rain ponchos outdoors in rainy weather. Logic holds because the item first appears as packaged ponchos and later is seen being worn by the group, matching the weather-related item as a rain poncho.",
+        "visual_proof": "Clip 1 shows a packaged item clearly labeled 'PONCHO' with an image of a person wearing it. Clip 2 shows the same group of people wearing blue, hooded, waterproof garments consistent with the product shown in Clip 1, confirming they are wearing the ponchos at the festival."
+    },
+    {
+        "question": "Which performer’s set is teased by a “30 minutes until” phone time shot and then shown as a red-lit stage performance afterward?",
+        "answer": "Kendrick Lamar.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            49,
+            50,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows a phone displaying time 20:12 with text “30 minutes til KENDRICK!” Step 2: Slice 50 shows Kendrick Lamar performing with strong red lighting at the T-Mobile Stage. Step 3: Slice 48 shows them moving between EDM areas/performance plans, consistent with the timeline leading up to Kendrick. Conclusion: The teased and then shown performer is Kendrick Lamar.",
+        "logic_check_reasoning": "Step 1: Slice 49 shows a phone with the time '20:12' and an overlay reading 'LINH: 30 minutes til KENDRICK!', teasing Kendrick Lamar's upcoming set. Step 2: Slice 50 then shows Kendrick Lamar performing on stage with vibrant red lighting. Logic holds because the tease explicitly names Kendrick and the subsequent red-lit stage performance is identified as Kendrick Lamar's set.",
+        "visual_proof": "In Video 1, a phone screen is shown with the time '20:12' and a subtitle reading '30 minutes til kendrick!'. In Video 2, immediately following this, a concert stage is shown with red lighting and large screens displaying a performer. Text overlays on these frames explicitly identify the performer as 'Kendrick Lamar' and the date as 'friday, aug. 4th'. This sequence directly links the '30 minutes until' teaser to the subsequent performance by Kendrick Lamar."
+    },
+    {
+        "question": "What restaurant meal is shown after the friends pose in an elevator, and later is followed by a calm outdoor tree shot implying post-meal relief?",
+        "answer": "Ramen at Daifuku Ramen, followed by a calm tree/sky shot after the hot bowl of ramen.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            58,
+            85,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 58 shows the friends posing in an elevator. Step 2: Slice 85 shows them going to “Daifuku Ramen” and eating Japanese food including ramen. Step 3: Slice 86 shows “Linh’s mini ramen mukbang” then a tranquil tree shot with text about the much-needed hot bowl. Conclusion: The meal is ramen at Daifuku Ramen followed by a calm outdoor moment.",
+        "logic_check_reasoning": "Step 1: Slice 58 shows two women posing in an elevator, establishing the elevator scene. Step 2: Slice 85 says they then enter a restaurant called 'Daifuku Ramen' and shows ramen among the foods they eat, supporting 'Ramen at Daifuku Ramen' as the meal after the elevator. Step 3: Slice 86 shows a ramen mukbang followed by a serene outdoor tree shot with text implying relief after a hot bowl of ramen, matching the 'calm outdoor tree shot implying post-meal relief.' Logic holds because the elevator scene leads to dining at Daifuku Ramen featuring ramen, and is later followed by the calm tree scene tied to the ramen meal.",
+        "visual_proof": "Clip 1 shows friends posing in an elevator. Clip 2 immediately transitions to scenes of 'Daifuku Ramen,' including its exterior sign, menu, and bowls of ramen being eaten. Clip 3 concludes with a shot looking up at tree branches against the sky, accompanied by the subtitle 'linh: after that much needed, hot bowl of ramen,' directly linking the meal to the post-meal relief implied by the tree shot."
+    },
+    {
+        "question": "Which stage hosted both the earlier Thursday headliner she watched and the Friday rapper performance she attended later?",
+        "answer": "The T-Mobile Stage.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 21 states Billie Eilish on Thursday at the T-Mobile Stage. Step 2: Slice 50 states Kendrick Lamar on Friday at the T-Mobile Stage. Conclusion: Both are at the T-Mobile Stage.",
+        "logic_check_reasoning": "Step 1: Slice 21 explicitly states that Billie Eilish is performing on Thursday, August 3rd, on the T-Mobile Stage. Step 2: Slice 50 explicitly states that Kendrick Lamar is performing on Friday, August 4th, at the T-Mobile Stage. Logic holds because both slices name the same stage for the Thursday headliner and the Friday rapper performance.",
+        "visual_proof": "Both video clips explicitly display text overlays identifying the performance venue. Clip 1, showing Billie Eilish on Thursday, has a title card that reads 't-mobile stage'. Clip 2, showing Kendrick Lamar on Friday, also has a title card that reads 't-mobile stage'. This directly confirms that both performances occurred at the same stage."
+    },
+    {
+        "question": "What is the connection between the plush rabbit seen in the festival crowd earlier and the named plush item shown among her festival essentials later?",
+        "answer": "Both are rabbit-themed plush items (a rabbit plush in the crowd and a Miffy plush as an essential).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            9,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows someone holding up a rabbit-like plush in the crowd. Step 2: Slice 9 shows a “Miffy plush toy” as a festival backpack essential. Step 3: Slice 48 shows a rabbit plush being held up again while a friend is labeled “Miffy,” reinforcing the rabbit/Miffy theme. Conclusion: The connection is rabbit-themed plush items, specifically Miffy.",
+        "logic_check_reasoning": "Step 1: Slice 15 states that someone in the festival crowd is holding a plush toy resembling a rabbit. Step 2: Slice 9 shows the creator’s festival essentials and explicitly lists a 'Miffy plush toy.' Step 3: Slice 48 shows a plush toy resembling a cartoon rabbit being held while the overlay mentions 'Miffy,' reinforcing that Miffy is associated with a rabbit plush within this video context. Logic holds because both referenced items are plush toys tied to a rabbit theme as depicted/described in the slices.",
+        "visual_proof": "In Clip 1 (0:02-0:04), a woman in the festival crowd is holding a white plush rabbit with blue overalls. In Clip 2 (0:06), the same woman is shown in her hotel room, and the on-screen text identifies a white bunny plush inside her backpack as 'miffy'. The visual appearance of the plush in both clips is identical, confirming it is the same item."
+    },
+    {
+        "question": "Across multiple days, which three different performers are shown at the Bud Light stage, and how do their appearances mark the timeline?",
+        "answer": "Carly Rae Jepsen (Thu Aug 3), Tomorrow X Together (Sat Aug 5), and Rina Sawayama (Sun Aug 6).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            19,
+            80,
+            89,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows Carly Rae Jepsen at the Budlight Stage on Thursday, Aug 3rd. Step 2: Slice 80 shows TXT on Saturday, Aug 5th at the Budlight Stage. Step 3: Slice 89 shows Rina Sawayama at the Bud Light Stage on Sunday, Aug 6th. Step 4: Slice 90 further confirms Rina Sawayama performance visuals. Conclusion: The Bud Light stage performers across days are Carly Rae Jepsen, TXT, and Rina Sawayama.",
+        "logic_check_reasoning": "Step 1: Slice 19 explicitly states Carly Rae Jepsen performing at the Budlight Stage on Thursday, August 3. Step 2: Slice 80 explicitly mentions Tomorrow X Together (TXT) at the Budlight Stage on Saturday, Aug 5. Step 3: Slice 89 states Rina Sawayama at the Bud Light Stage on Sunday, Aug 6, and Slice 90 corroborates with the same performer and date/location overlay. The three performers and their dates/days match the proposed answer, marking a clear timeline across multiple days.",
+        "visual_proof": "Each clip explicitly displays on-screen text identifying the performer and the date of their performance at the Bud Light stage. Clip 1 shows 'Carly Rae Jepsen, thursday, aug. 3rd'. Clip 2 shows 'Tomorrow x Together, saturday, aug. 5th'. Clips 3 and 4 show 'Rina Sawayama, sunday, aug. 6th'. This directly confirms the performers and the timeline."
+    }
+]

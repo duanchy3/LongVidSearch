@@ -1,0 +1,83 @@
+[
+  {
+    "question": "What event title is shown at the beginning, and what organization’s logo appears again during the closing credits?",
+    "answer": "The event title is “MoMA PS1 SUNDAY SESSIONS,” and the closing credits show the MoMA PS1 logo.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      81
+    ],
+    "reasoning_chain": "Step 1: Slice 1 displays the title “MoMA PS1 SUNDAY SESSIONS.” Step 2: Slice 81 shows closing credits with the MoMA PS1 logo. Conclusion: The opening title and the closing logo refer to the same organization/event branding.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 states the beginning shows the text 'MoMA PS1 SUNDAY SESSIONS,' identifying the event title. Step 2: Evidence Slice 81 describes the closing credits frames and explicitly notes the 'MoMA PS1' logo in the bottom right corner of both frames, indicating the organization's logo appears during the closing credits. The logic holds because the event title at the start is clearly given, and the closing credits clearly show the MoMA PS1 logo.",
+    "visual_proof": "Clip 1 (0:00-0:02) clearly displays the text 'MoMA PS1 SUNDAY SESSIONS' on a red background. Clip 2 (0:00-0:06) shows the MoMA PS1 logo in white text in the bottom right corner during the closing credits, confirming its reappearance."
+  },
+  {
+    "question": "Which person is shown speaking alone against a purple background with long hair and a beard, and what distinctive clothing pattern does he wear in that close-up?",
+    "answer": "The long-haired, bearded speaker; he wears a patterned shirt with a bold yellow-and-black design under a light/white blazer.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      24,
+      30
+    ],
+    "reasoning_chain": "Step 1: Slice 24 shows a close-up of a long-haired, bearded man speaking against a purple backdrop in a white blazer over a bold patterned shirt. Step 2: Slice 30 shows the same long-haired, bearded speaker in a light blazer over a patterned shirt against a plain/purple backdrop. Conclusion: The solo speaker is the long-haired, bearded panelist wearing the bold yellow-and-black patterned shirt.",
+    "logic_check_reasoning": "Step 1: Slice 24 describes a man with long brown hair tied back, a beard, speaking alone against a dark purple background, wearing a white blazer over a patterned shirt with a bold yellow-and-black design. Step 2: Slice 30 corroborates the same speaker traits (long hair, beard) and attire (light-colored blazer over a patterned shirt) with a purple background. Logic holds because both slices consistently describe the same individual and the distinctive clothing pattern (yellow-and-black) is explicitly stated in Slice 24.",
+    "visual_proof": "In both clips, the same man is shown speaking into a microphone against a solid purple background. He has long brown hair tied back and a full beard. He is wearing a light-colored (off-white or beige) blazer over a collared shirt that clearly features a bold, abstract pattern in yellow and black."
+  },
+  {
+    "question": "How does the setting change from the early indoor panel with a geometric/vented wall to a later nighttime version of the event, and what common stage element stays present in both?",
+    "answer": "It shifts from an indoor venue with a geometric/vented wall to a nighttime outdoor stage with colored lighting; water bottles for speakers remain present in both settings.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      2,
+      42
+    ],
+    "reasoning_chain": "Step 1: Slice 2 shows an indoor panel in front of a white wall with geometric/circular vent-like patterns. Step 2: Slice 42 shows a nighttime outdoor stage with purple/blue lighting. Conclusion: The venue changes from indoor to outdoor at night, while water bottles remain part of the setup.",
+    "logic_check_reasoning": "Step 1: Slice 2 describes an indoor panel setting with a clean white backdrop featuring geometric patterns and circular designs, confirming an indoor venue. It also notes water bottles on the stage. Step 2: Slice 42 describes a nighttime outdoor stage with soft purple and blue lighting and a white wall with visible ventilation ducts, confirming the outdoor, colored-lit setting. It also mentions water bottles on a small table for each speaker. Step 3: The proposed answer states the change is from an indoor venue to a nighttime outdoor stage with colored lighting, which aligns with Slices 2 and 42. Step 4: The common element of water bottles present in both scenes is explicitly supported by both slices.",
+    "visual_proof": "Clip 1 shows the panel indoors against a white wall with triangular metal frames and circular vents. Clip 2 shows the same three men on a stage at night, under bright spotlights against a dark sky, confirming the shift to an outdoor, nighttime setting. In both clips, water bottles are clearly visible on the floor next to each speaker's chair."
+  },
+  {
+    "question": "When the audience is shown applauding, which three suit colors are visible on the panelists, and how does that match the earlier wide view of the same three-person setup?",
+    "answer": "Black suit (left), light/white suit (middle), and gray suit (right); this matches the earlier wide view showing the same three-person arrangement with those suit tones.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      18,
+      7
+    ],
+    "reasoning_chain": "Step 1: Slice 18 shows the audience clapping while the three panelists wear black (left), white/light (middle), and gray (right). Step 2: Slice 7 shows the three men again with black on the left, beige/light in the middle, and gray on the right. Conclusion: The applauded panel and the earlier wide shot depict the same three-person lineup by suit colors/positions.",
+    "logic_check_reasoning": "Step 1: Slice 18 shows the audience clapping and explicitly states the suit colors: left in black, middle in white, right in grey. Step 2: Slice 7 presents an earlier wide view with the same three-person setup and suit colors: left in black, middle in beige, right in grey. Step 3: The proposed answer identifies the applauding scene's colors (black, light/white, grey) and claims this matches the earlier wide view's arrangement and tones. Given the middle suit is described as beige in Slice 7 and white in Slice 18, the 'light/white' phrasing reasonably bridges this minor color variation, and the left/right positions and overall tones align.",
+    "visual_proof": "In both clips, the panelist on the left wears a black blazer over a dark sweater. The panelist in the middle is dressed in a very light-colored, almost white or off-white suit. The panelist on the right wears a gray blazer. This arrangement and color scheme are consistent across the close-up shots in Clip 1 and the wider stage view in Clip 2, confirming the answer."
+  },
+  {
+    "question": "How can you infer that the audience is actively participating through questions later in the timeline, and what earlier evidence shows the event already supports audience engagement?",
+    "answer": "Later, an audience member is shown holding a microphone and speaking; earlier, the setup shows a panel facing a large audience with people holding phones, indicating an interactive session.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      2,
+      63,
+      68
+    ],
+    "reasoning_chain": "Step 1: Slice 2 shows a large audience facing the panel, with some attendees holding phones, suggesting engagement. Step 2: Slice 63 shows an audience woman holding a microphone and speaking (a question/comment moment). Step 3: Slice 68 again shows the striped-sweater audience speaker with a microphone addressing the room. Conclusion: The event’s audience engagement progresses from attentive viewing to direct microphone participation.",
+    "logic_check_reasoning": "Step 1: Slices 63 and 68 show a woman in the audience holding a microphone and speaking, which indicates active audience participation (e.g., asking questions or commenting). Step 2: Slice 2 describes an earlier scene with a panel on stage, microphones for speakers, and an engaged audience with some holding up phones, and it characterizes the event as likely a panel or Q&A with an interactive, dynamic dialogue. Logic holds because the later slices provide direct evidence of audience participation, while the earlier slice establishes an event format and engagement level that supports audience interaction.",
+    "visual_proof": "Clip 1 (0:02-0:30) shows three panelists on stage with microphones, facing a large crowd. Several audience members are visibly holding up phones, suggesting they are recording or preparing to interact. Clips 2 and 3 (0:00-0:14) show a specific audience member holding a microphone and speaking, confirming active participation through Q&A."
+  },
+  {
+    "question": "How does the camera perspective shift from focusing on the stage to focusing on an audience question, and what common object links these two perspectives?",
+    "answer": "It shifts from showing panelists on stage to a close-up of an audience member speaking; the handheld microphone links the stage discussion to the audience question.",
+    "category": "State_Mutation",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      57,
+      63,
+      65,
+      74
+    ],
+    "reasoning_chain": "Step 1: Slice 57 shows a stage-focused view with speakers and an audience in the background. Step 2: Slice 63 cuts to an audience woman holding a microphone and speaking. Step 3: Slice 65 shows the same audience woman continuing to speak with the microphone. Step 4: Slice 74 returns to the stage panel format with microphones. Conclusion: The viewpoint moves from stage to audience Q&A and back, tied together by the microphone as the shared object.",
+    "logic_check_reasoning": "Step 1: Slices 57 and 74 show the stage with three panelists, with the central speaker holding/speaking into a microphone, establishing the stage-focused perspective. Step 2: Slices 63 and 65 depict a woman in the audience holding a microphone and speaking; details about her facial expressions and gestures indicate the camera focuses closely on her, shifting perspective to the audience. Step 3: Therefore, the camera shifts from panelists on stage to an audience member speaking. Step 4: In both perspectives, a handheld microphone is present, linking the two scenes.",
+    "visual_proof": "Clip 1 and Clip 4 show the panelists on stage, each holding a microphone. Clip 2 and Clip 3 show a close-up of an audience member holding and speaking into a similar handheld microphone, indicating a direct handoff or connection between the stage and the audience for Q&A."
+  }
+]

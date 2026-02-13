@@ -1,0 +1,148 @@
+[
+    {
+        "question": "Which segment introduces the Haiti coverage from an anchor near water, and which later scene shows migrants or rescued people wrapped in striped blankets near a Coast Guard facility?",
+        "answer": "An anchor introduces the 'Inside Haiti' segment near water, and later footage shows people wrapped in white-and-blue striped blankets sitting near the United States Coast Guard Sector Key West facility.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows an anchor near water with an 'INSIDE HAITI' screen. Step 2: Slice 17 shows people in striped blankets near a Coast Guard Sector Key West sign. Conclusion: The report moves from studio-style introduction to field visuals linked to Coast Guard operations.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes a news anchor near a body of water with a screen reading 'INSIDE HAITI,' which supports the segment introducing Haiti coverage. Step 2: Slice 17 shows a scene at the United States Coast Guard Sector Key West with people wrapped in white-and-blue striped blankets, suggesting migrants or rescued people, which matches the later scene described. Logic holds because the proposed answer accurately reflects the distinct visuals and locations in each slice.",
+        "visual_proof": "Clip 1 shows a news anchor in front of a waterfront backdrop with an inset labeled 'INSIDE HAITI'. Clip 2 first shows the entrance to the 'United States Coast Guard SECTOR KEY WEST' facility, followed by a scene of numerous individuals sitting on a paved area by the water, all wrapped in white-and-blue striped blankets. The text overlay 'GANG VIOLENCE IN HAITI RAGES ON' connects this scene to the Haiti coverage."
+    },
+    {
+        "question": "Which on-street interview presents a victim’s account during the NYC attacks coverage, and which separate visual provides official crime data context via a statistics graphic?",
+        "answer": "An assault victim speaks on a city sidewalk, and a separate NYPD crime-statistics graphic presents year-over-year percentage changes including an increase in felony assaults.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            33,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows an interview with an identified assault victim on the street. Step 2: Slice 34 shows NYPD crime statistics including increases/decreases. Conclusion: The report pairs personal testimony with broader crime-trend context.",
+        "logic_check_reasoning": "Step 1: Slice 33 describes an on-street interview with a woman identified as an assault victim speaking on a city sidewalk, recounting her experience, which presents a victim’s account. Step 2: Slice 34 details an NYPD crime statistics graphic showing year-over-year percentage changes, including an increase in felony assaults, providing official crime data context. Logic holds because the proposed answer accurately summarizes these two visuals.",
+        "visual_proof": "Clip 1 visually confirms an on-street interview with a woman identified as 'ELLIO WAGNER, ASSAULT VICTIM' speaking on a NYC sidewalk. Clip 2 displays a graphic titled 'NYPD CRIME STATISTICS FEBRUARY 2024' showing percent changes since the same time last year, explicitly listing 'FELONY ASSAULTS' with a 3.6% increase."
+    },
+    {
+        "question": "Which press conference speaker represents the Utah women’s basketball team’s perspective, and which later official gives a law-enforcement viewpoint on the incident?",
+        "answer": "A blonde woman speaking at a 'March Madness' press conference represents the team’s perspective, and later the Police Chief of Coeur d’Alene provides the law-enforcement viewpoint.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows Lynne Roberts speaking at a March Madness backdrop press conference. Step 2: Slice 40 shows Police Chief Lee White speaking about the incident. Conclusion: The segment alternates between team statement and police response.",
+        "logic_check_reasoning": "Step 1: Slice 38 describes a blonde woman speaking at a press conference with a 'MARCH MADNESS' backdrop and on-screen text identifying her as Lynne Roberts of the Utah women’s basketball team, addressing racial abuse—this supports that she represents the team’s perspective. Step 2: Slice 40 states that later a man in police uniform, identified as Lee White, the Police Chief of Coeur d'Alene, Idaho, speaks about the incident—this supports that he provides the law-enforcement viewpoint. Logic holds because the sequence shows the team representative followed by the police chief commentary.",
+        "visual_proof": "Clip 1 shows a blonde woman identified by on-screen text as 'LYNNE ROBERTS, UNIVERSITY OF UTAH WOMEN'S BASKETBALL HEAD COACH' speaking at a press conference with 'MARCH MADNESS' branding. Clip 2 later shows a man in a police uniform identified by on-screen text as 'LEE WHITE, COEUR D'ALENE, IDAHO POLICE CHIEF'."
+    },
+    {
+        "question": "How does the broadcast shift from Baltimore bridge-collapse coverage to an obituary-style segment, and what on-screen graphic signals the new topic?",
+        "answer": "It moves from a nighttime reporter discussing the bridge collapse to a graphic that reads 'Lieberman Dies,' signaling the start of the Joe Lieberman death coverage.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            46,
+            48,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 46 covers breaking news about victims recovered in the Baltimore bridge collapse. Step 2: Slice 48 introduces a new on-screen graphic 'Lieberman Dies.' Step 3: Slice 49 continues with a commemorative segment about Joe Lieberman. Conclusion: The graphic marks the editorial transition to the obituary segment.",
+        "logic_check_reasoning": "Step 1: Slice 46 shows a nighttime reporter by water covering the Baltimore bridge collapse, with an on-screen text about victims recovered. Step 2: Slice 48 shows the same nighttime setting and reporter, then a graphic appears with images of Lieberman and the text 'Lieberman Dies,' indicating a shift in topic. Step 3: Slice 49 confirms the new segment is an obituary-style piece commemorating Joe Lieberman. Logic holds because the transition from bridge coverage to the Lieberman obituary is signaled by the 'Lieberman Dies' graphic.",
+        "visual_proof": "Clip 1 shows the reporter, Tom Llamas, standing outdoors at night with a 'BREAKING NEWS: TWO VICTIMS RECOVERED IN BALTIMORE BRIDGE COLLAPSE' chyron. Clip 2 immediately follows, showing the same reporter, but now a large on-screen graphic appears next to him with a photo of Joe Lieberman and the text 'LIEBERMAN DIES'. This visual transition directly confirms the shift in topic as described."
+    },
+    {
+        "question": "What hazardous cargo-related risk is highlighted about the container ship, and which investigation timeline graphic later helps explain how the ship’s power status changed leading up to the crash?",
+        "answer": "The ship is flagged as carrying over 1.5 million gallons of fuel and 56 containers of hazardous material, and later an investigation timeline graphic shows the ship losing and regaining power around the time of the bridge strike.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 2 highlights the ship’s hazardous risk (fuel and hazardous containers). Step 2: Slice 4 shows an investigation timeline with events like losing/regaining power near the bridge. Conclusion: The report connects hazardous risk details with the later timeline explaining the ship’s power changes leading to the crash.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 explicitly states the ship has \"OVER 1.5 MILLION GALLONS OF FUEL\" and \"56 CONTAINERS OF HAZARDOUS MATERIAL,\" highlighting the hazardous cargo risk. Step 2: Evidence Slice 4 describes an investigation timeline graphic with entries like \"SHIP REGAINS POWER\" and \"SHIP LOSES POWER,\" as well as proximity to the bridge event, explaining changes in the ship’s power status leading up to the crash. Logic holds because the first part directly addresses the hazardous cargo risk, and the second part directly references a timeline graphic detailing power changes before the collision.",
+        "visual_proof": "At 0:02, a text overlay states 'OVER 1.5 MILLION GALLONS OF FUEL'. At 0:03, another overlay reads '56 CONTAINERS OF HAZARDOUS MATERIAL'. Later, at 0:48-0:49, a graphic titled 'FRANCIS SCOTT KEY BRIDGE' displays a timeline showing events like 'SHIP LOSES POWER' at 1:26 AM, 'SHIP REGAINS POWER' at 1:27 AM, and 'SHIP COLLIDES WITH BRIDGE' at 1:28 AM, visually confirming the sequence of power loss and regain leading to the crash."
+    },
+    {
+        "question": "Which two different settings show official briefings from government figures about the Baltimore bridge collapse—one involving the White House backdrop and another involving a local city official near the water?",
+        "answer": "A White House-briefing-style podium scene appears with a government official speaking in front of the White House logo and U.S. flag, and a separate waterfront interview shows the Baltimore City Council President speaking outdoors near the harbor.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a formal White House backdrop press briefing. Step 2: Slice 4 shows an outdoor waterfront interview with the Baltimore City Council President. Conclusion: These are two distinct official-briefing settings used to cover the same disaster.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a man in military uniform speaking at a podium with the American flag and the White House seal in the backdrop, indicating a formal White House briefing about the bridge collapse. Step 2: Slice 4 describes an outdoor interview near a body of water with the Baltimore City Council President, clearly a local official speaking by the harbor about the collapse. Logic holds because the proposed answer identifies these two distinct settings: a White House-style briefing and a waterfront interview with a local city official.",
+        "visual_proof": "Clip 1 (0:05) clearly shows a man in a Coast Guard uniform at a podium with the White House seal and an American flag behind him. Clip 2 features multiple scenes (e.g., 0:04-0:09, 0:10-0:14, 0:25-0:28) showing the Baltimore City Council President, Nick Mosby, being interviewed by a reporter outdoors next to a body of water with cranes and the harbor visible in the background."
+    },
+    {
+        "question": "What potential mechanical cause is suggested for the ship’s failure, and which investigative visual later supports that the ship experienced power changes around the time of impact?",
+        "answer": "The report suggests contaminated fuel shut down the ship’s engines, and a later investigation timeline graphic supports that the ship lost and regained power around the bridge strike.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 5 states contaminated fuel shut down the engines. Step 2: Slice 4 shows a timeline including power loss/regain events. Conclusion: The proposed cause aligns with evidence of power instability near the collision.",
+        "logic_check_reasoning": "Step 1: Slice 5 explicitly shows the text overlay 'CONTAMINATED FUEL SHUT DOWN ITS ENGINES,' suggesting a potential mechanical cause for the ship’s failure. Step 2: Slice 4 describes a timeline graphic with entries like 'SHIP REGAINS POWER,' 'SHIP LOSES POWER,' and 'SHIP WITH BRIDGE,' which supports that the ship experienced power changes around the time of impact. Logic holds because the suggested cause (contaminated fuel) and the investigative visual (timeline showing power loss/regain near the bridge event) are both directly stated in the context.",
+        "visual_proof": "At 0:05, the text 'CONTAMINATED FUEL' appears over footage of the collapsed bridge. At 0:06, the text 'SHUT DOWN ITS ENGINES' is displayed. Later, at 0:48-0:49, a graphic titled 'FRANCIS SCOTT KEY BRIDGE' shows a timeline with entries such as '1:27AM | SHIP REGAINS POWER', '1:26AM | SHIP LOSES POWER', and '1:28AM | SHIP COLLIDES WITH BRIDGE', visually confirming the power fluctuations around the time of impact."
+    },
+    {
+        "question": "How does the video shift from explaining the Baltimore bridge collapse to covering a different breaking-news crime story, and what is the key new headline that marks that shift?",
+        "answer": "It switches from Baltimore bridge-collapse reporting to a new breaking-news segment about Rockford, Illinois, marked by the headline '4 dead in stabbing rampage in Rockford, IL.'",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 9 is focused on the Baltimore bridge collapse investigation and victims recovered. Step 2: Slice 10 changes to a different breaking-news story with the Rockford stabbing rampage headline. Conclusion: The headline signals a clear topic transition.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 9 describes an NBC News segment focused on the Baltimore Bridge collapse investigation, with overlays like 'BREAKING NEWS' and 'BALTIMORE BRIDGE COLLAPSE INVESTIGATION.' Step 2: Evidence Slice 10 describes a different NBC News breaking-news segment about a violent incident in Rockford, Illinois, with the on-screen headline '4 DEAD IN STABBING RAMPAGE IN ROCKFORD, IL.' Logic holds because the context explicitly shows the video moving from the Baltimore bridge story to a separate crime story, and the key new headline marking that shift is clearly stated in Slice 10.",
+        "visual_proof": "The first clip ends with the anchor in Baltimore discussing the bridge collapse. The second clip immediately begins with a new anchor in Chicago introducing a different story. A graphic overlay at 0:02 and throughout the second clip clearly displays the headline 'BREAKING NEWS: 4 DEAD IN STABBING RAMPAGE IN ROCKFORD, IL,' visually marking the transition to this new topic."
+    },
+    {
+        "question": "How does the report connect the port’s economic importance to visuals of logistics operations, and what key metric is used to show the scale of the port’s impact?",
+        "answer": "It pairs economic-significance graphics about the port with visuals of warehouses and container yards, using the $80 billion in international cargo figure to convey scale.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 1 provides the port’s economic figures including $80 billion in cargo. Step 2: Slice 8 shows warehouse crates and aerial port container operations. Conclusion: The visuals of logistics underscore the economic metric cited.",
+        "logic_check_reasoning": "Step 1: Slice 1 states that graphics highlight the port’s economic significance, including it handling $80 billion in international cargo and supporting 15,000 jobs. Step 2: Slice 8 shows visuals of logistics operations—warehouse interior with crates and a truck, plus an aerial view of container yards at a busy port. Step 3: Together, these slices indicate the report pairs economic-significance graphics with logistics visuals. Step 4: The key metric explicitly mentioned in Slice 1 to show scale is the $80 billion in international cargo.",
+        "visual_proof": "Clip 1 (at 1:20) displays a graphic titled 'BALTIMORE BRIDGE COLLAPSE IMPACT' which explicitly states '$80 BILLION IN INTERNATIONAL CARGO IN 2023'. This graphic is overlaid on a visual of the collapsed bridge and the cargo ship. Clip 2 (at 0:02-0:03) shows an aerial view of a massive, active container yard filled with shipping containers and trucks, visually representing logistics operations. The combination of these visuals directly links the economic data point to the physical scale of port operations."
+    },
+    {
+        "question": "What emotional community response is shown after the bridge collapse, and which later segment focuses on the victims’ families mourning through an on-camera interview?",
+        "answer": "A group is shown praying together in response to the tragedy, and later the segment shows a family interview with a victim’s brother mourning his loss.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows people praying together, reflecting community grief. Step 2: Slice 82 shows an interview with Maynor Suazo’s brother describing a final goodbye. Conclusion: The report moves from collective mourning to personal family grief.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 states the video concludes with a group of people praying together in response to the tragedy, showing an emotional community response. Step 2: Evidence Slice 82 describes an on-camera interview with Carlos Alexis Suazo Sandoval, the brother of a victim, with overlays noting family members mourning, clearly focusing on victims’ families. Logic holds because the first slice provides the community prayer scene, and the second slice provides the family mourning interview.",
+        "visual_proof": "In Video 1 (Clip 1/2), at 1:37, a group of people, including uniformed officers and civilians, are shown standing solemnly with heads bowed in prayer. In Video 2 (Clip 2/2), from 0:00 to 0:07, Carlos Alexis Suazo Sandoval, identified as the brother of a victim, is interviewed outdoors while visibly emotional, discussing his last moments with his brother before the collapse. This confirms both the communal prayer and the personal family mourning segments."
+    },
+    {
+        "question": "Across the Baltimore bridge story, what chain links the ship’s hazardous cargo risk, the suggested engine shutdown cause, and the investigative timeline showing power changes?",
+        "answer": "The ship is presented as carrying large fuel quantities and hazardous containers, later the report suggests contaminated fuel shut down its engines, and the investigation timeline visual shows the ship losing and regaining power around the incident.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            5,
+            4,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 2 highlights the ship’s fuel amount and hazardous containers. Step 2: Slice 5 suggests contaminated fuel shut down the ship’s engines. Step 3: Slice 4 shows a timeline with power loss and power regain events near the bridge strike. Step 4: Slice 46 brings in expert commentary on the cargo ship crash. Conclusion: The story connects hazardous risk, a mechanical cause hypothesis, timeline evidence of power instability, and expert analysis.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly notes the ship carried \"OVER 1.5 MILLION GALLONS OF FUEL\" and \"56 CONTAINERS OF HAZARDOUS MATERIAL,\" establishing the hazardous cargo risk. Step 2: Slice 5 shows the on-screen text \"CONTAMINATED FUEL SHUT DOWN ITS ENGINES,\" providing the suggested engine shutdown cause. Step 3: Slice 4 describes a timeline including \"SHIP REGAINS POWER\" and \"SHIP LOSES POWER,\" indicating power changes around the incident. Logic holds because the proposed answer connects these three supported elements in sequence: hazardous cargo risk, suspected cause of engine shutdown, and observed power loss/regain in the investigative timeline.",
+        "visual_proof": "Clip 1 (0:02-0:03) shows text overlays stating 'OVER 1.5 MILLION GALLONS OF FUEL' and '56 CONTAINERS OF HAZARDOUS MATERIAL'. Clip 2 (0:05-0:07) displays a graphic with the text 'CONTAMINATED FUEL' followed by 'SHUT DOWN ITS ENGINES'. Clip 2 (0:47-0:50) presents an investigative timeline showing the ship's power status changing ('SHIP LOSES POWER', 'SHIP REGAINS POWER') leading up to the collision at '1:28AM'."
+    }
+]

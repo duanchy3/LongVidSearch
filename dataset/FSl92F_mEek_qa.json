@@ -1,0 +1,15 @@
+[
+    {
+        "question": "Which recurring quirky headline about an inheritance to pets is shown in the newspaper montage and later appears beside a pink-blazer presenter?",
+        "answer": "“Paul leaves £125k to his dogs.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 5 includes The Sun front page about Paul O’Grady leaving £125k to his dogs. Step 2: Slice 67 shows a pink-blazer presenter with the front page reading 'Paul leaves £125k to his dogs.' Conclusion: The recurring quirky headline is that dogs-inheritance story.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a newspaper montage where The Sun features a story about TV presenter Paul O'Grady leaving £125k to his dogs. Step 2: Slice 67 explicitly shows a newspaper front page with the headline 'Paul leaves £125k to his dogs' beside a woman in a pink blazer. Logic holds because the same quirky inheritance-to-pets headline appears in both the montage and later next to the presenter, indicating recurrence.",
+        "visual_proof": "In Clip 1, the front page of 'The Sun' is displayed with the headline 'Paul leaves £125k to his dogs'. In Clip 2, the same 'The Sun' front page with this exact headline is shown in a smaller window next to the presenter in the pink blazer. The visual evidence across both clips confirms the recurring nature of this specific quirky headline."
+    }
+]

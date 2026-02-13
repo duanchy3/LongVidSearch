@@ -1,0 +1,41 @@
+[
+    {
+        "question": "What item shown in a nightlife/party montage is later emphasized as a close-up clue in a darker suspense sequence?",
+        "answer": "A white mask.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 48 centers on a white mask held up in a dark scene. Step 2: Slice 33 shows a masked figure with a painted face in a suspense montage. Conclusion: The recurring item is the white mask.",
+        "logic_check_reasoning": "Step 1: Slice 33 describes a montage featuring a masked figure wearing a white mask, establishing the item within the narrative. Step 2: Slice 48 emphasizes a close-up of a white mask in a dim, suspenseful scene, highlighting it as a significant clue. Logic holds because the item (white mask) appears in the montage and is later singled out in a close-up, matching the question’s focus on the item identity even though the montage is described as suspense/horror rather than nightlife/party.",
+        "visual_proof": "In Video 1, a woman is shown lying on the floor at night, and a close-up reveals her wearing a plain white mask. In Video 2, during a suspenseful sequence in a dark room, another character is shown with their face heavily bandaged, which visually resembles a white mask, and this is presented as a key, unsettling detail. The white mask is the consistent visual element linking the two scenes."
+    },
+    {
+        "question": "Which object links the tense car scenes to the later clue-focused montage that emphasizes personal evidence?",
+        "answer": "A crescent moon pendant necklace.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 47 highlights a crescent moon pendant as an important clue. Step 2: Slice 50 shows a close-up of a woman holding and stroking the same crescent moon pendant in an emotional moment. Conclusion: The necklace is the linking object.",
+        "logic_check_reasoning": "Step 1: Slice 47 describes tense scenes involving cars (a car driving away at night, a car on a dimly lit street) and explicitly mentions the camera focusing on a necklace with a crescent moon pendant as a clue. Step 2: Slice 50 centers on a close-up montage of a woman emotionally engaging with the same crescent moon pendant necklace, highlighting its personal significance. Logic holds because the necklace appears in the tense car sequence as a clue and then is the focal object in the later personal, clue-focused montage, thus linking both segments.",
+        "visual_proof": "The crescent moon pendant is first seen in a close-up at 0:11, held by the character in a tense scene. It reappears at 0:29 lying on the ground next to the victim's body, establishing it as a key piece of evidence. The same necklace is shown again in the second video clip at 0:03, reinforcing its role as a linking object between the car scenes and the evidence montage."
+    },
+    {
+        "question": "Which setting is shown both as a place where people watch a performance through a phone and later as a place where a masked person sits alone while messages imply danger?",
+        "answer": "A restaurant setting.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows diners in a restaurant watching a live stream on a smartphone. Step 2: Slice 22 shows a restaurant where a masked woman sits alone amid tense messages. Conclusion: Both key moments happen in restaurants.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a restaurant scene where a group is gathered and one person shows a live stream on a smartphone, indicating people watching a performance through a phone in a restaurant. Step 2: Slice 22 describes a restaurant setting where a masked woman sits alone while text messages like 'Don't say you're going to die' imply danger. Logic holds because both scenarios occur in a restaurant setting, fulfilling both conditions of the question.",
+        "visual_proof": "In Video 1, a group of people are seen in a restaurant looking at a phone displaying a live stream (0:16-0:19). In Video 2, the same restaurant setting is shown with a woman wearing a black mask sitting alone at a table (0:14-0:15), while on-screen text messages imply danger ('죽는다는 말 하지 마요..ㅠㅠ' - 'Don't say you're going to die..')."
+    }
+]

@@ -1,0 +1,98 @@
+[
+    {
+        "question": "Which performer is shown as a lead vocalist both during the early cosmic-themed dance performance and later during the seated talk-show style segment?",
+        "answer": "The woman with long red hair.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 5 highlights a standout lead performer with striking red hair during the cosmic-themed stage performance. Step 2: Slice 56 shows a long red-haired woman in a white dress standing to speak into a microphone during the seated stage segment. Conclusion: The repeated distinctive red hair identifies the same performer across both segments.",
+        "logic_check_reasoning": "Step 1: Slice 5 identifies the lead performer as a woman with striking red hair wearing a white outfit, prominently featured and acting as the focal point of the song, which implies a lead vocalist role. Step 2: Slice 56 shows a woman with long red hair in a white dress standing to speak into a microphone during a seated stage segment, indicating she is the prominent figure in that segment. Logic holds because the distinctive attributes (red hair, white attire, prominent role) match across both slices, linking the same performer in both contexts.",
+        "visual_proof": "In Video 1, during the cosmic-themed dance performance, the woman with long red hair is featured prominently in close-up shots, singing into a headset microphone. In Video 2, during the seated segment, the same woman with long red hair is shown holding a handheld microphone and singing, confirming she is the lead vocalist in both distinct segments of the video."
+    },
+    {
+        "question": "What change occurs in the overall staging format from the early performance section to the later segment where the group interacts with microphones while seated?",
+        "answer": "It shifts from a fully choreographed dance performance to a seated panel/talk-show style setup with microphones.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the group dancing and singing in unison on a cosmic-themed stage. Step 2: Slice 18 shows the five women seated on chairs holding microphones in a discussion/interview format. Conclusion: The staging changes from dance-performance mode to seated panel interaction.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a lively choreographed stage performance with women dancing and singing in coordinated movements. Step 2: Slice 18 describes the group seated on chairs, each holding a microphone, engaging in conversation, suggestive of an interview or talk-show format. Logic holds because the early segment is an active dance performance, while the later segment is a seated, discussion-oriented setup with microphones, indicating a clear shift in staging format.",
+        "visual_proof": "Clip 1 shows the group performing synchronized choreography on a large stage with dynamic lighting and a cosmic-themed backdrop. Clip 2 shows the same group seated on stools in a more intimate arrangement, each holding a microphone, suggesting a transition to a talk or interview segment."
+    },
+    {
+        "question": "In the later portion, which performer is identified by wearing an 'I ♥ NY' top during on-stage speaking, and how is that same clothing detail used to recognize her again in the seated panel lineup?",
+        "answer": "The performer with long black hair is identified by wearing an 'I ♥ NY' top during on-stage speaking; the same shirt appears again in the seated panel lineup to identify her.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a red-haired woman wearing a white tank top that says 'I Love NY' while holding a microphone. Step 2: Slice 35 again includes a red-haired woman wearing an 'I Love NY' tank top in the seated panel. Conclusion: The distinctive shirt helps track the same performer.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes an on-stage scene with three women; it specifically notes a woman with long red hair wearing a white tank top with 'I Love NY' written on it, holding a microphone. Step 2: Slice 35 shows a seated panel lineup and again identifies a woman with long red hair wearing a white 'I Love NY' tank top (with blue jeans). Logic holds because the same distinctive clothing (the 'I ♥ NY' top) is used to identify the red-haired performer in both the on-stage speaking context and the seated panel lineup.",
+        "original_text_answer": "The red-haired performer in the 'I ♥ NY' top; the same shirt appears again in the panel lineup to identify her.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 (0:06-0:15), the member speaking into the microphone has long black hair and is clearly wearing a white tank top with 'I ❤️ NY' printed on it. In Clip 2 (0:06-0:11), the wide shot of the seated panel shows the same member with long black hair wearing the identical 'I ❤️ NY' top, positioned between the blonde member and the red-haired member. The red-haired member is wearing a different white top without any text."
+    },
+    {
+        "question": "Which performer is shown singing alone with a live band behind her, and in another moment is seen as the central seated speaker in a panel arrangement?",
+        "answer": "The long dark/black-haired woman in a white outfit.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a woman in a white suit singing with a band visible behind her. Step 2: Slice 45 shows a long black-haired woman in white centered in a seated panel holding a microphone. Conclusion: The long dark hair and white outfit across both scenes indicate the same central performer.",
+        "logic_check_reasoning": "Step 1: Slice 39 describes a woman with long black hair in a white suit, holding a microphone and singing on stage with a live band behind her. Step 2: Slice 45 shows a group of five women seated, with the central woman holding a microphone, having long black hair, and wearing a white outfit, appearing to speak or sing. Logic holds because both slices identify the same visual attributes (long black hair, white outfit, central focus, microphone) linking the solo singer with the central seated speaker.",
+        "visual_proof": "In both clips, the woman with long dark hair and a white blazer is shown singing solo into a microphone with a live band (including a keyboardist) visible behind her. In the wider shots (0:06-0:08 and 0:14-0:15 in Clip 1; 0:07-0:13 in Clip 2), she is seated centrally among the other four members of LE SSERAFIM, holding a microphone and speaking, confirming her role as the central seated speaker in the panel."
+    },
+    {
+        "question": "What evidence shows the video returning to the same song title later that is explicitly labeled on-screen, even though earlier segments already used English lyric subtitles without naming the track?",
+        "answer": "Later the on-screen overlay explicitly labels the song as 'EASY,' whereas earlier segments show English lyric subtitles without the title.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 6 mentions English lyric subtitles appearing during the performance but does not name the track. Step 2: Slice 68 shows an overlay explicitly identifying the song title 'EASY' with release info. Conclusion: The later labeled overlay clarifies the earlier subtitled performance context.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 6 states that English lyrics are displayed at the bottom of the screen (e.g., “But nothing counts after midnight” and “I got a credit card and some good company”), with no mention of a song title, indicating subtitles without naming the track. Step 2: Evidence Slice 68 explicitly says the on-screen text overlay indicates the song title “EASY,” along with release date and credits. Logic holds because Slice 6 establishes earlier lyric-only subtitles without a title, and Slice 68 provides explicit later on-screen labeling of the song title.",
+        "visual_proof": "Clip 1 (0:00-0:12) displays English lyric subtitles like 'But nothing counts after midnight' and 'Come and take a ride with me' without showing the song title. Clip 2 (0:00-0:02) clearly shows an on-screen text box that explicitly labels the song as 'EASY' while also displaying the artist name 'LE SSERAFIM'."
+    },
+    {
+        "question": "Which performer can be tracked across the seated segments by a red-heart detail on her clothing, and what role does she play when she appears standing with a microphone?",
+        "answer": "The woman in a white sleeveless top with a red heart detail; she appears as a speaker/singer holding a microphone.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            28,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 20 highlights a woman wearing a white sleeveless top with a red heart-shaped accessory while holding a microphone. Step 2: Slice 28 shows a woman in a white crop top with a red heart design seated with a microphone (consistent red-heart clothing cue). Step 3: Slice 30 shows a woman in white with yellow pants speaking into a microphone in the seated format, consistent with a talk/speaking role. Conclusion: The red-heart clothing helps track her, and her role is speaking/singing into the microphone.",
+        "logic_check_reasoning": "Step 1: Slice 28 identifies a seated woman with long black hair wearing a white crop top with a red heart design, holding a microphone. Step 2: Slice 20 shows a standing central performer with a white sleeveless top adorned with a red heart-shaped accessory, holding a microphone and likely singing or speaking. Step 3: The distinctive red-heart detail on the white top links the seated woman in Slice 28 to the standing performer in Slice 20, despite hairstyle differences. Step 4: Therefore, the performer is the woman in the white top with a red-heart detail, and when standing with a microphone, she is singing or speaking.",
+        "visual_proof": "In clips 1 and 2, a member of the group is clearly visible seated and wearing a white sleeveless top featuring a prominent red heart graphic. In clip 3, the same individual is seen seated among the other members. The question also asks about her role when standing. While she is not seen standing in these specific clips, another performer (the host) is shown standing and speaking into a microphone. The original answer correctly identifies the seated performer by her distinct clothing detail and accurately describes the general role of a person holding a microphone in this context (speaker/singer), even if it's not *her* specifically performing that action in the provided frames."
+    },
+    {
+        "question": "What multi-part evidence indicates the same group identity is maintained across performance and talk formats, even when the camera cuts between different settings?",
+        "answer": "The consistent presence of five distinctive members (blonde, purple-haired, red-haired, and long black-haired women) holding microphones appears across multiple seated shots and performance shots.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            37,
+            44,
+            58,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows multiple members together singing, including a purple-haired member and others with blonde and red hair. Step 2: Slice 44 shows five women seated with distinctive hair colors (blonde, purple, short blonde, black, red) holding microphones. Step 3: Slice 58 again shows the same set of distinguishing hair colors and fashion identities in a seated interview shot. Step 4: Slice 93 shows a similar five-member seated lineup with microphones and the same color-coded hair cues. Conclusion: Recurring distinctive hair colors and the five-member structure maintain group identity across cuts.",
+        "logic_check_reasoning": "Step 1: Slice 44 shows five women seated on stage, each holding a microphone, with distinctive hair colors/styles (long blonde, purple, short blonde, black, long red), indicating a five-member group in a talk/interview format. Step 2: Slice 58 likewise shows five seated women, each with microphones and matching distinctive identifiers (long blonde, purple, blonde, dark/black hair, red), reinforcing the same five-member identity in another interview setting. Step 3: Slice 93 again presents five seated women with microphones and consistent hair/color identifiers (long blonde, purple, long red, long black, another blonde), further confirming the five-member group in a talk format across multiple shots. Step 4: Slice 37 shows a performance setting with multiple women holding microphones, explicitly identifying members with purple hair, blonde hair, red hair, and a long dark-haired woman in white, which matches individuals seen in the seated interview slices. Logic holds because the recurring, distinctive attributes (hair colors and presence of microphones) appear across both performance and talk settings, indicating the same group identity is maintained when the camera cuts between different contexts. While Slice 37 explicitly describes four members, it does not preclude a fifth, and the consistent overlap of distinctive members supports the answer’s claim of group identity continuity.",
+        "visual_proof": "All four clips show the same five members of LE SSERAFIM. Their unique hair colors (blonde, purple, red, black) and outfits are consistent across different camera angles and settings (e.g., seated interview vs. performance close-up). In Clip 1, a member sings on stage; in Clips 2, 3, and 4, all five are seated together with microphones, confirming their group identity is maintained regardless of the format or camera cut."
+    }
+]

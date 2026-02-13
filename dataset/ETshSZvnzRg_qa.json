@@ -1,0 +1,41 @@
+[
+    {
+        "question": "In the video, a presenter first shows off a limited-edition mini figure of himself and later a different presenter explains Uzbek boxing achievements. What kind of visual aid appears beside the boxing presenter that matches the “product-promo” style of the earlier figurine segment?",
+        "answer": "Inset images/graphics appear next to the presenter (e.g., a boxing match clip, Olympic medals, and notable boxer names), similar to the earlier product-style on-screen promo.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 2 is a promo segment: a man holds a mini figurine of himself and on-screen text advertises a limited amount. Step 2: Slice 50 shows a different presenter using changing inset visuals (boxing footage, Olympic medals, names) to support the talk. Conclusion: Both use prominent on-screen visual aids/insets; the later segment uses sports insets analogous to the earlier promo style.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 describes a presenter promoting a limited-edition figurine with on-screen text, indicating a product-promo style. Step 2: Evidence Slice 50 and the Key Elements list show the boxing presenter using inset visuals: Uzbekistan flag, a boxing match clip, Olympic medals graphic, notable boxer names, and a celebration image. Step 3: The question asks what kind of visual aid appears beside the boxing presenter that aligns with the earlier promo style. Step 4: The proposed answer states inset images/graphics (boxing clip, medals, names), which are explicitly described in the context. Step 5: Therefore, the context fully supports the proposed answer.",
+        "visual_proof": "In Clip 1, the first presenter uses an inset photo of himself with 'Konrad (Poland episode)' text while promoting a figurine. In Clip 2, the second presenter is accompanied by multiple inset graphics: the Uzbek flag with question marks, a boxing match video clip, Olympic medal counts with icons, and a list of 'Notable Uzbek boxers' with names. These graphics serve as visual aids in the same style as the earlier promotional inset, providing context and information alongside the presenter."
+    },
+    {
+        "question": "One segment introduces Uzbekistan’s demographics as a pie chart, and another segment introduces religious makeup with a mostly Sunni statistic. What two numerical majorities are emphasized across these segments?",
+        "answer": "84% Uzbek (ethnicity) and about 96% mostly Sunni (religion).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows a demographics pie chart highlighting 84% Uzbek. Step 2: Slice 42 overlays “~96% (Mostly Sunni) Secular Constitution.” Conclusion: The two big majority figures are 84% Uzbek and ~96% mostly Sunni.",
+        "logic_check_reasoning": "Step 1: Slice 37 explicitly shows a pie chart with a large segment labeled '84% Uzbek,' indicating the ethnic majority. Step 2: Slice 42 displays a text overlay reading '~96% (Mostly Sunni) Secular Constitution,' indicating the religious majority as mostly Sunni around 96%. Logic holds because both slices present clear numerical majority figures for ethnicity and religion, matching the proposed answer.",
+        "visual_proof": "Clip 1 visually presents a pie chart under the title 'UZBEKISTAN DEMOGRAPHICS' that clearly labels the largest segment as '84% Uzbek'. Clip 2 displays a graphic with a crescent and star symbol next to the text '~96% (Mostly Sunni)', indicating the religious majority. Both numerical majorities are explicitly shown on screen."
+    },
+    {
+        "question": "A woman presenter shows Samarkand and Bukhara images, and later another segment states you can rent the Registan. Which city’s landmark is being referenced by the ‘rent’ claim, linking travel visuals to the later factoid?",
+        "answer": "Samarkand (the Registan is in Samarkand).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 15 includes Samarkand travel/cultural visuals labeled. Step 2: Slice 73 explicitly mentions the Registan and claims it can be rented. Conclusion: The landmark connects back to Samarkand.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows travel visuals explicitly labeled with Samarkand (Whole city) and depicts an older woman in a red jacket walking through a historical site in Samarkand. Step 2: Slice 73 shows an inset of the Registan with text 'You can RENT the Registan,' and another inset of a person in red clothing walking through a courtyard/plaza, noted as possibly related to the Registan. Step 3: The recurring visual of a person in red in a Samarkand-labeled scene (Slice 15) and in the Registan-related inset (Slice 73) logically links the Registan footage to Samarkand within the video’s narrative. Thus, the 'rent' claim references a Samarkand landmark.",
+        "visual_proof": "In Clip 1, the presenter shows images of Samarkand, Bukhara, and Khiva. In Clip 2, a man states 'You can RENT the Registan' while an image of the Registan complex is displayed. The Registan is visually identifiable as the same landmark shown in Clip 1 under the label 'Samarkand (Whole city)'. This directly links the 'rent' claim to Samarkand."
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "question": "Which story combines an anchor’s studio introduction, live reporting outside police headquarters, and later details describing sports cars speeding and drivers running from the scene?",
+        "answer": "The breaking-news story about a Kansas City Chiefs player allegedly involved in a high-speed crash in Dallas.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            34,
+            35,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows the studio introduction about police searching for a Chiefs player. Step 2: Slice 35 shows reporting outside police headquarters connected to the crash investigation. Step 3: Slice 39 provides detailed written information about speeding sports cars (Lamborghini/Corvette) and occupants fleeing. Conclusion: All three pieces form the same evolving crash story from studio to field reporting to detailed account.",
+        "logic_check_reasoning": "Step 1: Slice 34 shows the anchor in the studio introducing breaking news with on-screen text 'POLICE SEARCH FOR CHIEFS PLAYER' and a related highway graphic 'US75-UNIVERSITY,' tying to Dallas. Step 2: Slice 35 includes live reporting outside 'JACKSON POLICE HEADQUARTERS' and a banner 'CHIEFS STAR INVOLVED IN HIGH-SPEED CRASH?' along with a statement from the Chiefs' president, confirming the story focus. Step 3: Slice 39 provides later detailed specifics about the incident in Dallas involving a Lamborghini and a Corvette speeding, loss of control, and occupants running from the scene. Logic holds because these slices collectively depict an anchor’s studio intro, live police HQ reporting, and subsequent detailed crash information, matching the proposed answer. Any jersey/team visual ambiguity in Slice 34 is overridden by the explicit headline about a Chiefs player.",
+        "visual_proof": "Clip 1 shows the anchor, Lester Holt, introducing the 'BREAKING NEWS' story about a 'POLICE SEARCH FOR CHIEFS PLAYER'. Clip 2 provides visuals of a highway chase and displays text identifying the player as Rashee Rice, with a statement from his representative confirming cooperation with authorities. Clip 3 shows police at a crash scene and includes an official report detailing that occupants of a Lamborghini and Corvette (sports cars) ran from the scene after a multi-vehicle accident, directly linking the narrative elements mentioned in the question."
+    },
+    {
+        "question": "How does the FAFSA/financial-aid story connect a close-up of the FAFSA website, a statistic that many colleges can’t process aid soon, and a highlighted May 15 deadline on a calendar?",
+        "answer": "It shows the FAFSA process at the center of delays, quantifies the processing problem with a 67% statistic, and underscores urgency with a marked May 8 date.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            65,
+            67,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows the FAFSA website page, establishing the application system involved. Step 2: Slice 67 shows the statistic that 67% of college officials don’t think they can process aid in the next few weeks, indicating systemic delay. Step 3: Slice 71 highlights May 15 on a calendar, emphasizing timing pressure. Conclusion: FAFSA-related processing delays create urgency against approaching deadlines.",
+        "logic_check_reasoning": "Step 1: Slice 65 shows a close-up of the FAFSA website with a banner stating 'COLLEGES SOUND ALARM ON FINANCIAL AID DELAYS,' placing the FAFSA process at the center of the delay narrative. Step 2: Slice 67 presents the statistic '67% OF COLLEGE OFFICIALS DON'T THINK THEY WILL BE ABLE TO PROCESS FINANCIAL AID IN NEXT FEW WEEKS,' which quantifies the processing problem. Step 3: Slice 71 begins with a calendar highlighting May 15 in red, signaling a significant, urgent date tied to the story's theme of delays. Logic holds because these visuals collectively connect the FAFSA process, the quantified processing delays, and a marked date indicating urgency.",
+        "original_text_answer": "It shows the FAFSA process at the center of delays, quantifies the processing problem with a 67% statistic, and underscores urgency with a marked May 15 date.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a close-up of the FAFSA website. Clip 2 displays the statistic '67% OF COLLEGE OFFICIALS DON'T THINK THEY WILL BE ABLE TO PROCESS FINANCIAL AID IN NEXT FEW WEEKS'. Clip 3 highlights the date 'Wednesday 8' on a May 2024 calendar with a red circle, not May 15."
+    }
+]

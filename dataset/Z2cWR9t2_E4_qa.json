@@ -1,0 +1,110 @@
+[
+  {
+    "question": "What cooking fat is poured into the pan before onions are cooked in the earlier stovetop sequence and again before another stovetop step later in the video?",
+    "answer": "Olive oil.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      7,
+      52
+    ],
+    "reasoning_chain": "Step 1: Slice 7 shows olive oil being poured into a black pan before cooking onions. Step 2: Slice 52 shows olive oil being drizzled into a non-stick frying pan again. Conclusion: The repeated cooking fat is olive oil.",
+    "logic_check_reasoning": "Step 1: Slice 7 explicitly says a hand pours olive oil into a pan at the beginning, followed by the chopping of an onion, indicating the oil is used before the onion cooking step. Step 2: Slice 52 explicitly shows drizzling olive oil into a frying pan later, with a text overlay confirming 'Olive oil'. Logic holds because both slices directly identify olive oil being poured into the pan at the relevant steps, matching the question's earlier and later stovetop sequences.",
+    "visual_proof": "In Video 1 (0:01-0:04), a clear liquid is poured into a dark pan, and on-screen text explicitly labels it 'Olive oil' and 'Olivenöl'. In Video 2 (0:07-0:10), the same action is repeated with the identical on-screen text 'Olive oil' and 'Olivenöl', confirming the cooking fat used in both stovetop sequences is olive oil."
+  },
+  {
+    "question": "Which dairy ingredient is cut into slices early in the second recipe and later appears as shredded cheese being sprinkled over a baked vegetable dish in the oven?",
+    "answer": "Mozzarella cheese.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      23,
+      85
+    ],
+    "reasoning_chain": "Step 1: Slice 23 explicitly labels mozzarella cheese and shows it being sliced. Step 2: Slice 85 shows shredded cheese being sprinkled over a vegetable dish in the oven as a finishing layer. Conclusion: The dairy ingredient used across these steps is mozzarella (present as slices earlier and as shredded cheese later).",
+    "logic_check_reasoning": "Step 1: Slice 23 explicitly shows a hand slicing mozzarella cheese, with on-screen text confirming 'Mozzarella cheese ~ 0.45 lb' and 'Mozzarella-Käse - 200 g'. Step 2: Slice 85 shows shredded cheese being sprinkled over vegetables in the oven, with instructional text. While Slice 85 does not name the cheese type, the question asks which dairy ingredient was sliced earlier and later appears as shredded cheese; the only explicitly named cheese in the earlier step is mozzarella. The logic holds because the identified ingredient from Slice 23 matches the queried item, and the later action involves cheese consistent with the recipe flow.",
+    "visual_proof": "In Clip 1, a block of white cheese is being sliced on a wooden board, with on-screen text identifying it as 'Mozzarella cheese ~ 0.45 lb' and 'Mozzarella-Käse - 200 g'. In Clip 2, shredded white cheese is being sprinkled over a baked vegetable dish in an oven, with on-screen text reading 'Sprinkle with cheese' and 'Mit Käse bestreuen', indicating the same ingredient is used later in the recipe."
+  },
+  {
+    "question": "After the onions are first fried in the later recipe, which orange vegetable is added next and how long are they cooked together?",
+    "answer": "Carrots are added, and they are fried for about 4 minutes.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      56,
+      60
+    ],
+    "reasoning_chain": "Step 1: Slice 56 shows onions being fried with the instruction to fry about 2 minutes. Step 2: Slice 60 shows chopped carrots being transferred into the pan with onions and the text 'Fry ~4 minutes.' Conclusion: Carrots are added next and cooked with onions for ~4 minutes.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 56 shows onions being fried in a pan with the overlay \"Fry ~2 minutes,\" establishing the initial frying of onions. Step 2: Evidence Slice 60 shows carrots (an orange vegetable) being chopped and then added to the pan with the already fried onions, and the overlay \"Fry ~4 minutes\" indicates the cooking duration for this combined step. Logic holds because the sequence clearly moves from frying onions to adding carrots and specifies the joint cooking time as ~4 minutes.",
+    "visual_proof": "Clip 1 shows onions being fried for ~2 minutes. Clip 2 shows a person adding sliced carrots to the pan with the onions. The text overlay in Clip 2 at 0:13 states 'Fry ~4 minutes' (and 'Etwa 4 Minuten braten'), indicating the combined cooking time for the onions and carrots."
+  },
+  {
+    "question": "Which vegetable is first shown being sliced into rounds for frying in a pan and later shown sliced into rounds for baking on a parchment-lined tray?",
+    "answer": "Zucchini.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      12,
+      45
+    ],
+    "reasoning_chain": "Step 1: Slice 12 shows zucchini being sliced into thin rounds and then added to a frying pan with onions. Step 2: Slice 45 shows zucchini being sliced and transferred to a parchment-lined baking sheet. Conclusion: The vegetable appearing in both contexts is zucchini.",
+    "logic_check_reasoning": "Step 1: Slice 12 explicitly states that a person slices zucchini into thin, round slices and then fries them in a pan. Step 2: Slice 45 explicitly shows fresh green zucchini being sliced and transferred to a parchment-lined baking sheet for baking. Logic holds because both slices clearly identify the vegetable as zucchini in the respective frying and baking contexts.",
+    "visual_proof": "In Video 1, a person is visually shown slicing a green zucchini into rounds on a wooden board, then transferring those slices to a frying pan with onions. In Video 2, the same type of green vegetable, identifiable as zucchini by its shape and color, is shown being prepared for baking in a tray lined with parchment paper, consistent with the initial preparation in Video 1."
+  },
+  {
+    "question": "In the second recipe, what action is done to the shredded zucchini before eggs are cracked into it?",
+    "answer": "It is squeezed/pressed to remove moisture.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      23,
+      25
+    ],
+    "reasoning_chain": "Step 1: Slice 23 shows shredded green vegetables being squeezed in a bowl to extract moisture. Step 2: Slice 25 shows eggs being cracked into the shredded zucchini mixture afterward. Conclusion: The shreddeds are squeezed to remove moisture before adding eggs.",
+    "logic_check_reasoning": "Step 1: Slice 23 describes a hand squeezing shredded green vegetables (likely zucchini) in a bowl, pressing firmly to extract moisture. Step 2: Slice 25 shows a bowl of shredded zucchini, followed by cracking eggs into it. Logic holds because the squeezing action on the shredded zucchini occurs as part of preparation before the eggs are added, matching the sequence implied across the slices.",
+    "visual_proof": "In the first clip (0:06-0:08), hands are visibly squeezing a large amount of shredded zucchini in a bowl, and liquid can be seen being expelled from the vegetable. This action directly precedes the addition of eggs in the second clip (0:02-0:05)."
+  },
+  {
+    "question": "How does the egg mixture evolve from a simple seasoned bowl to the herb-filled mixture used to cover vegetables in the pan?",
+    "answer": "It starts as beaten eggs seasoned with salt and pepper, then chopped herbs and green onions are mixed in, and finally the mixture is poured over the sautéed vegetables.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      1,
+      4,
+      13
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows eggs cracked into a bowl and seasoned with salt and black pepper, then whisked. Step 2: Slice 4 shows chopped green onions added and whisked into the mixture. Step 3: Slice 13 shows a bowl of beaten eggs with visible herbs poured over zucchini and onions. Conclusion: The mixture progresses from seasoned eggs to a green-flecked mixture that is poured over vegetables.",
+    "logic_check_reasoning": "Step 1: Slice 1 shows eggs cracked into a bowl, seasoned with salt and pepper, and whisked, supporting the 'simple seasoned bowl' start. Step 2: Slice 4 shows chopped green onions being added to a bowl and whisked, indicating additional ingredients (green onions) are mixed into the egg mixture. Step 3: Slice 13 shows the beaten egg mixture with visible herbs being poured over zucchini and onions in a pan, confirming the herb-filled mixture is used to cover the vegetables. Logic holds because the progression from plain seasoned eggs (Slice 1) to adding green onions (Slice 4) to an herb-containing egg mixture poured over vegetables (Slice 13) is explicitly shown.",
+    "visual_proof": "Clip 1 shows eggs being cracked into a bowl, seasoned with salt and pepper, and then whisked. Clip 2 shows green onions being chopped and added to the egg mixture in the bowl. Clip 3 shows the final herb-filled egg mixture being poured from the bowl over sautéed zucchini and onions in a pan."
+  },
+  {
+    "question": "What is the full chain of steps that turns sliced zucchini and onions in a pan into a plated frittata?",
+    "answer": "Zucchini is fried with onions, eggs are poured over, the pan is covered to cook, and then it is flipped onto a plate for serving.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      12,
+      13,
+      14
+    ],
+    "reasoning_chain": "Step 1: Slice 12 shows zucchini slices added to onions in a pan and fried. Step 2: Slice 13 shows eggs poured over the zucchini/onion mixture and a lid being placed on the pan. Step 3: Slice 14 instructs to close the lid and then cover with a plate and flip to plate the cooked frittata. Conclusion: Fry vegetables → pour eggs → cover to cook → flip onto plate.",
+    "logic_check_reasoning": "Step 1: Slice 12 shows sliced zucchini added to a pan with onions and stirred, with on-screen text 'Fry 3-4 minutes,' supporting 'Zucchini is fried with onions.' Step 2: Slice 13 shows a beaten egg mixture with herbs and the text 'Pour the eggs over the zucchini,' and the eggs are poured and stirred, supporting 'eggs are poured over.' Step 3: Slice 13 and Slice 14 show the lid placed on the pan with text 'Close the lid' and 'Fry for 4-6 minutes over medium heat,' supporting 'the pan is covered to cook.' Step 4: Slice 14 shows 'Cover with plate and flip' and the contents being flipped onto a plate, resulting in a plated omelette/frittata-like dish, supporting 'then it is flipped onto a plate for serving.' The logic is consistent across slices and directly supports each step in the proposed answer.",
+    "visual_proof": "Clip 1 shows zucchini being sliced and added to a pan with onions, which are then stirred. Clip 2 shows salt and pepper being added, followed by pouring an egg mixture over the vegetables and stirring. Clip 3 shows the pan being covered with a lid, and finally, a plate being placed on top of the pan before flipping it over to serve."
+  },
+  {
+    "question": "How does the egg component change between the simple egg whisking at the beginning and the later creamy batter poured over vegetables before baking?",
+    "answer": "Early on it’s just eggs seasoned and whisked; later, eggs are combined with heavy cream and flour to make a thicker creamy batter that gets poured over sliced vegetables.",
+    "category": "State_Mutation",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      1,
+      79,
+      81,
+      83
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows eggs seasoned (salt and pepper) and whisked. Step 2: Slice 79 shows heavy cream added to eggs and whisked. Step 3: Slice 81 shows flour added and whisked into a smooth mixture. Step 4: Slice 83 shows the creamy sauce/batter poured into a glass dish of sliced vegetables before baking. Conclusion: The egg mixture evolves from simple beaten eggs to a thick egg-cream-flour batter used for baking.",
+    "logic_check_reasoning": "Step 1: Slice 1 shows eggs cracked into a bowl, seasoned with salt and black pepper, and whisked—supporting the 'just eggs seasoned and whisked' part. Step 2: Slice 79 shows four eggs in a green bowl with heavy cream added and whisked to a smooth, creamy mixture—indicating the eggs are combined with cream. Step 3: Slice 81 shows flour being added to the bowl and whisked until smooth and creamy—confirming the addition of flour to create a thicker batter. Step 4: Slice 83 shows a creamy white sauce poured over sliced vegetables and baked—consistent with the mixture being used as a batter/sauce for baking. Logic holds because the visual elements (same red floral dress and green bowl) connect the steps, and the text explicitly mentions the ingredients and actions.",
+    "visual_proof": "Clip 1 shows raw eggs being cracked into a bowl, seasoned with salt and pepper, and then whisked. Clip 2 shows heavy cream being added to the egg mixture and whisked. Clip 3 shows flour being added to the mixture and whisked into a smooth batter. Clip 4 shows this final creamy batter being poured over sliced vegetables in a baking dish, confirming the transformation from simple whisked eggs to a complex batter."
+  }
+]

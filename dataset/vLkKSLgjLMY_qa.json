@@ -1,0 +1,56 @@
+[
+    {
+        "question": "Which breaking-news headline about Indian smallcaps erasing losses is later complemented by a segment discussing Tesla scouting India sites while Indian index boards remain on screen?",
+        "answer": "India smallcaps erasing losses since SEBI cautioned on froth; later the Tesla India EV plant scouting discussion appears with Indian indices displayed.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            57,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 57 shows \"BREAKING NEWS: INDIA SMALLCAPS ERASE LOSSES SEEN SINCE SEBI CAUTIONED ON FROTH.\" Step 2: Slice 60 discusses \"TESLA TO SCOUT SITES IN INDIA...\" while displaying Indian indices. Conclusion: The India market context continues from smallcaps to Tesla-related India investment news.",
+        "logic_check_reasoning": "Step 1: Slice 57 explicitly shows the breaking-news headline: 'BREAKING NEWS: INDIA SMALLCAPS ERASE LOSSES SEEN SINCE SEBI CAUTIONED ON FROTH.' Step 2: Slice 60 describes a segment on Tesla scouting sites in India for a $2B–$3B EV plant while Indian index boards are displayed. The proposed answer correctly identifies the headline and notes it is later complemented by the Tesla segment with Indian indices on screen, matching both slices.",
+        "visual_proof": "Clip 1 shows a 'BREAKING NEWS' banner stating 'INDIA SMALLCAPS ERASE LOSSES SEEN SINCE SEBI CAUTIONED ON FROTH'. Clip 2 transitions to a segment featuring Rajiv Batra discussing 'TESLA TO SCOUT SITES IN INDIA FOR $2B TO $3B EV PLANT: FT', with an 'INDIA OPEN' stock ticker displaying live index data (SENSEX, NIFTY, etc.) on the left side of the screen. This confirms the sequence and content described in the original answer."
+    },
+    {
+        "question": "How does the broadcast connect Asia market performance graphics to later studio discussion about central banks easing from the summer and then to a segment about policymakers resisting yuan depreciation pressure?",
+        "answer": "It goes from Asia-Pacific index/market check visuals to a discussion forecasting Fed/ECB/BOE easing from summer, then to a studio segment emphasizing vigilance against yuan depreciation.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 9 displays MSCI AC Asia Pacific performance with an economist on screen. Step 2: Slice 11 presents the claim \"FED, ECB AND BOE TO START EASING FROM THE SUMMER.\" Step 3: Slice 12 highlights \"Chinese Policymakers Vigilant Against Yuan Depreciation Pressure.\" Conclusion: The program links broad market moves to easing expectations and then to currency-policy concerns.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows an on-screen graphic for the MSCI AC Asia Pacific index with a named economist, which supports the Asia market performance visuals. Step 2: Slice 11 displays the caption 'FED, ECB AND BOE TO START EASING FROM THE SUMMER,' indicating a studio discussion about central banks easing. Step 3: Slice 12 shows the headline 'Chinese Policymakers Vigilant Against Yuan Depreciation Pressure,' indicating a segment on yuan depreciation vigilance. Logic holds because the proposed answer describes a progression from an Asia market check to central bank easing discussion to yuan policy vigilance, matching the content of the slices.",
+        "visual_proof": "Clip 1 shows the MSCI AC Asia Pacific index. Clip 2 displays a 'CURRENCY CHECK' graphic while the on-screen text reads 'BOS: FED, ECB AND BOE TO START EASING FROM THE SUMMER'. Clip 3 shows a studio interview with the same speaker, and the on-screen text changes to 'CHINESE POLICYMAKERS VIGILANT AGAINST YUAN DEPRECIATION PRESSURE', confirming the progression of topics as described."
+    },
+    {
+        "question": "Which two different quakes are covered, and how does the program visually separate them between a Taiwan recovery scene and a Tokyo/Fukushima reporting package?",
+        "answer": "The Taiwan earthquake (Hualien recovery/tilted building) and the Japan earthquake (Tokyo shaken; near Fukushima).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            25,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows \"TAIWAN'S QUAKE RECOVERY\" with a severely tilted building. Step 2: Slice 25 shows studio headlines about an earthquake shaking buildings in Tokyo. Step 3: Slice 33 continues with \"NO TSUNAMI THREAT\" and live Tokyo visuals tied to a quake near Fukushima. Conclusion: The broadcast separates Taiwan’s quake recovery from Japan’s Tokyo/Fukushima quake coverage.",
+        "logic_check_reasoning": "Step 1: Slice 15 explicitly shows a Taiwan earthquake recovery scene, labeled 'TAIWAN'S QUAKE RECOVERY,' live from Hualien with a tilted, collapsed building and workers, which supports the Taiwan quake identification and its visual framing. Step 2: Slice 25 presents a Bloomberg studio segment about a Japan earthquake, with headlines like 'JAPAN QUAKE SHAKING INTENSITY 4...' and 'EARTHQUAKE SHAKES BUILDINGS IN TOKYO,' indicating Japan/Tokyo coverage in a distinct studio/news graphics environment. Step 3: Slice 33 further confirms the Japan quake with lower-thirds 'NO TSUNAMI THREAT...' and 'EARTHQUAKE HITS NEAR JAPAN'S FUKUSHIMA: NIED' alongside Tokyo skyline visuals, connecting Tokyo shaking and the Fukushima location. Logic holds because the two quakes are clearly identified (Taiwan/Hualien and Japan/Tokyo/Fukushima) and the program visually separates them via the on-the-ground recovery scene in Taiwan vs the studio/live skyline reporting package for Japan.",
+        "visual_proof": "Clip 1 visually establishes the Taiwan quake with a live shot of a severely tilted building in Hualien, accompanied by on-screen text 'TAIWAN'S QUAKE RECOVERY' and 'LIVE Hualien, Taiwan'. Clips 2 and 3 transition to the Japan quake, showing studio anchors discussing it, with on-screen text mentioning 'JAPAN QUAKE', 'EARTHQUAKE SHAKES BUILDINGS IN TOKYO', and 'EARTHQUAKE HITS NEAR JAPAN'S FUKUSHIMA'. The visual separation is clear: Clip 1 shows physical damage and recovery efforts in Taiwan, while Clips 2 and 3 show studio reporting and a cityscape of Tokyo related to the Japan quake."
+    },
+    {
+        "question": "What same on-screen financial metric is displayed behind the presenters both during the studio discussion with a man and woman at desks and again when the anchor introduces Powell-related commentary with a value around 1,242?",
+        "answer": "The Bloomberg US Dollar Index.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 5 centers discussion on the Bloomberg US Dollar Index displayed on the studio screen. Step 2: Slice 7 shows a ticker/graphic with Bloomberg US Dollar Index around 1,242.15 during Powell-related studio coverage. Conclusion: The repeated metric is the Bloomberg US Dollar Index.",
+        "logic_check_reasoning": "Step 1: Slice 5 explicitly states that the presenters (a man and a woman at desks) are discussing the Bloomberg US Dollar Index, which is displayed on the screen behind them. Step 2: Slice 7 shows a segment with an anchor discussing Powell-related commentary and the on-screen ticker displays the Bloomberg US Dollar Index with a value of 1,242.15. Logic holds because both slices reference the same financial metric (Bloomberg US Dollar Index) being shown on screen, with Slice 7 providing the value around 1,242 as specified in the question.",
+        "visual_proof": "In both video clips, the on-screen graphic labeled 'BLOOMBERG US DOLLAR' with a value around 1,242 is consistently visible at the bottom of the screen during the studio segments featuring the presenters. This is seen in Clip 1 (e.g., 0:01, 0:03, 0:08) and again in Clip 2 (e.g., 0:00, 0:03), confirming it is the same metric displayed in both contexts."
+    }
+]

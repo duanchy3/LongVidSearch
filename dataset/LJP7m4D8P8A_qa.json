@@ -1,0 +1,208 @@
+[
+    {
+        "question": "When she struggled with being heard during the class interaction, what did she remove to fix it, and how was she visually shown reacting while the problem was still happening?",
+        "answer": "She removed her headphones, and she was making exaggerated shocked faces while the captions said it was going badly and asked if people could hear her.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows her reacting with wide-eyed, shocked expressions with text like 'this is going so bad' and 'can you hear me?'. Step 2: Slice 19 shows she realizes the class couldn't hear her and takes off her headphones. Conclusion: Her reaction precedes the fix of removing headphones.",
+        "logic_check_reasoning": "Step 1: Slice 19 says she mentions her class couldn't hear her, realizes the issue might be her headphones, and takes them off. Step 2: Slice 20 shows her making exaggerated shocked expressions (wide eyes, open mouth) with text overlays saying 'this is going so bad lol!!!' and 'can you hear me?', indicating her reaction during the problem. Logic holds because Slice 19 supports what she removed to fix it (headphones) and Slice 20 supports how she was reacting while the issue persisted.",
+        "visual_proof": "In Clip 1, the woman is shown wearing headphones and the subtitle states she realized the problem was 'bc of my headphones so decided to take them off'. In Clip 2, she is visually removing the headphones, and her face is distorted by a filter into an exaggerated expression. The overlay text reads 'this is going so bad lollll' and 'can you hear me?', confirming her reaction and the ongoing issue."
+    },
+    {
+        "question": "She says she wanted to start drawing again after avoiding it; later, what time-stamped scene shows her actually drawing digitally?",
+        "answer": "The 3:40 pm scene shows her drawing on a tablet.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 6 states she wants to start drawing again and shows her drawing in bed. Step 2: Slice 52 shows a timestamped '3:40pm drawing' digital drawing session on a tablet. Conclusion: Her intention becomes an ongoing practice shown later.",
+        "logic_check_reasoning": "Step 1: Slice 6 states she wants to start drawing again after avoiding it and shows her drawing digitally on her phone. Step 2: Slice 52 explicitly shows a time-stamped scene at 3:40 pm where she is engaged in digital drawing on a tablet. Logic holds because Slice 52 provides the specific time and confirms the activity (digital drawing) asked about.",
+        "visual_proof": "In Video 2, the timestamp '3:40pm' is overlaid on the screen, and the woman is visibly using a stylus to draw on a tablet. The inset image on the tablet confirms she is working on a digital illustration."
+    },
+    {
+        "question": "What time does she say she is getting ready for therapy by journaling, and later what other time-stamped journaling session happens while she’s traveling?",
+        "answer": "She journals at 10:45 am before therapy, and later she journals at 8:30 pm on the train.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows 10:45 am getting ready for therapy by journaling. Step 2: Slice 36 shows '8:30pm journaling on train.' Conclusion: Journaling appears both in the morning routine and later during transit.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly shows on-screen text '10:45 am getting ready for therapy' and depicts the person journaling before meeting the therapist, supporting the first time. Step 2: Slice 36 includes on-screen text '8:30pm journaling on train,' clearly indicating a later time-stamped journaling session while traveling. Logic holds because both times and activities are directly stated in the provided captions.",
+        "visual_proof": "Clip 1 displays a text overlay at 0:02 stating '10:45am getting ready for therapy' while showing her journaling. Clip 2 displays a text overlay at 0:05 stating '8:30pm journaling on train' while showing a notebook and pen on her lap in a train setting."
+    },
+    {
+        "question": "Which clothing combination stays consistent across her cafe class/interview segment, and what later activity shows her still in a similar cold-weather mindset when she goes shopping?",
+        "answer": "She repeatedly wears a brown coat/jacket with a green scarf in the cafe, and later she goes thrifting while bundled in a brown coat for shopping.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            16,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows her in a brown coat with a green scarf getting a sandwich. Step 2: Slice 16 shows her in the same brown jacket/green scarf with headphones doing a project while eating. Step 3: Slice 25 shows her thrifting later while still in a brown coat. Conclusion: The consistent cold-weather outfit links her cafe work/eating to later shopping.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows the woman in a cafe/class context with the text 'It's my first Friday class,' wearing a brown coat and a green scarf. Step 2: Slice 16 shows her again in a cafe setting, labeled with a project segment, wearing a brown jacket/coat and a green scarf, confirming consistency of the outfit. Step 3: Slice 25 shows her later thrifting at 5:25 pm while wearing a brown coat, indicating she remains in similar cold-weather attire during shopping. The logic holds because the same clothing combination (brown coat/jacket + green scarf) is described across the cafe scenes, and the later shopping activity explicitly shows the brown coat.",
+        "visual_proof": "In Clip 1 and Clip 2, the woman is consistently seen wearing a brown coat and a green/yellow patterned scarf while at the cafe. In Clip 3, during the thrifting segment, she is again wearing the same brown coat, indicating a consistent cold-weather attire across both activities."
+    },
+    {
+        "question": "What sequence shows her shifting from hunger and waiting for food to finally being happy with a drink and then enjoying a sandwich?",
+        "answer": "She complains she’s hungry and waiting for her order, then she’s happy with a coffee caramel drink, and then she eats a sandwich she says is very yummy.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            69,
+            70,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows her 'so hungry' and frustrated waiting for food. Step 2: Slice 70 shows her happy with a 'coffee caramel' drink. Step 3: Slice 71 shows her eating a sandwich and saying she liked it a lot. Conclusion: Her mood shifts from hangry to satisfied through drink and meal.",
+        "logic_check_reasoning": "Step 1: Slice 69 explicitly shows the woman saying she is hungry and waiting for her order, indicating frustration. Step 2: Slice 70 shows the same woman in a similar setting happily drinking a 'coffee caramel' beverage, with 'happy' text reinforcing her mood. Step 3: Slice 71 shows a person in the same brick-wall setting, wearing a gray long-sleeved shirt, eating a sandwich with text 'very yummy, I liked it a lot,' indicating enjoyment. The sequence logically progresses from hunger/waiting to happiness with a drink to enjoying a sandwich, with consistent attire and setting linking the slices.",
+        "visual_proof": "Clip 1 shows her looking impatient with text 'just ordered, I am so hungry' and 'waiting, my order was taking a long time'. Clip 2 shows her smiling and drinking from a cup with text 'coffee came!' and 'happy'. Clip 3 shows her eating a sandwich with text 'food came!! so excited lol' and 'very yummy, I liked it a lot'. This sequence visually confirms the described emotional and action progression."
+    },
+    {
+        "question": "After finishing in the quiet place that was closing, where did she go next to keep working, and what did she later do once she got into bed?",
+        "answer": "She went to a cafe to work, and later in bed she drew on her phone/tablet with a stylus.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows she is in a library that is closing and she packs up to leave. Step 2: Slice 6 shows she found a cafe to work on her laptop and later draws in bed with a stylus. Conclusion: Leaving the closing library led to working at a cafe, then drawing in bed later.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows the woman in a library with on-screen text 'library closing' at 7:45 pm; she packs up and leaves. Step 2: Slice 6 immediately shows her at '8:15 pm found a cafe' working on a laptop, indicating she went to a cafe next to keep working. Step 3: Later in Slice 6, she is in bed drawing on her phone with a stylus, explicitly stated in the captions. The answer matches these points (going to a cafe; drawing in bed on a phone with a stylus).",
+        "visual_proof": "Clip 1 shows the library closing at 7:45pm. Clip 2 then shows her at a cafe at 8:15pm, with text stating 'found a cafe'. Later in Clip 2, at 10pm, she is shown in bed using a stylus to draw on a tablet, with an inset showing the digital drawing she is creating."
+    },
+    {
+        "question": "What small everyday problem did she solve by looking at the wall, and later what did she say she felt bad about doing without purchasing anything?",
+        "answer": "She solved not knowing the Wi‑Fi password by realizing it was posted on the wall, and later she felt bad about using a bathroom without buying anything.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows her realizing the Wi‑Fi password is on the wall. Step 2: Slice 86 shows her saying she feels bad using a bathroom when she didn’t buy anything. Conclusion: Both are candid, self-conscious everyday moments in public spaces.",
+        "logic_check_reasoning": "Step 1: Slice 14 states the vlogger realized they didn't have the Wi‑Fi password, then realized it was written on the wall, solving that small issue. Step 2: Slice 86 explicitly states she felt bad about using a bathroom without buying anything. Logic holds because both slices describe the same style of candid vlog reflections by a woman, and the actions/events directly support the two parts of the answer.",
+        "visual_proof": "In Clip 1, the woman is shown looking confused, then text appears stating 'realized I don't have the wifi password lol' followed by 'then realized it was on the wall lol'. In Clip 2, while walking outside at night, text appears stating 'I always feel so bad using a bathroom knowing that I didn't buy anything'."
+    },
+    {
+        "question": "After she says she wanted somewhere quieter, what happens to that location, and where does she relocate to continue working later that night?",
+        "answer": "The library closes, and she goes to a cafe to work on her laptop.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows her in the library wanting it quieter and then the library closing at 7:45 pm. Step 2: Slice 6 shows '8:15 pm found a cafe' where she works on her laptop. Conclusion: The closure prompts her move to the cafe.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows a woman in a library with the on-screen text 'wanted to go somewhere quieter' and then displays '7:45 pm' and 'library closing,' indicating the library is closing and she leaves. Step 2: Slice 6 then shows '8:15 pm found a cafe' with the same woman wearing headphones working on her laptop in a cafe. Logic holds because the timeline and actions connect: library closes, she relocates to a cafe to continue working on her laptop.",
+        "visual_proof": "In the first clip, the woman is in a library with the subtitle 'wanted to go somewhere quieter'. The next scene shows the time '7:45pm' with the text 'library closing', indicating the location shuts down. In the second clip, the scene transitions to a cafe at '8:15pm' with the text 'found a cafe', where she is seen sitting and working, confirming her relocation."
+    },
+    {
+        "question": "Track her evening work locations: after the library closes, where does she work next, and later what does she do in another cafe while wearing headphones around her neck?",
+        "answer": "She works at a cafe after the library closes, and later she edits the vlog in another cafe with headphones around her neck.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            6,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the library closing and her leaving. Step 2: Slice 6 shows she found a cafe and works on her laptop. Step 3: Slice 31 shows her later editing at 7:40 pm in a cafe with headphones around her neck. Conclusion: She repeatedly uses cafes as workspaces after the library becomes unavailable.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows the library closing at 7:45 pm and the woman leaving, indicating she needs a new place to work. Step 2: Slice 6 states \"8:15 pm found a cafe\" and shows her working on a laptop there, supporting that she works at a cafe after the library closes. Step 3: Slice 31 depicts her in a café with headphones around her neck, with on-screen text \"7:40pm editing\" and visuals of editing software, plus narration about editing the vlog she is filming, confirming she edits the vlog in a café while wearing headphones around her neck. The logic that she first moves from the library to a cafe to work, and later is shown editing in another cafe setting is supported by the slices.",
+        "visual_proof": "Clip 1 shows her at the library until 7:45pm. Clip 2 shows her at a different cafe at 8:15pm, indicating this is her next work location. Clip 3 shows her in yet another cafe, wearing headphones around her neck, while a laptop screen displays video editing software with the timestamp '7:40pm editing', confirming she is editing the vlog."
+    },
+    {
+        "question": "How does her mood about an online class shift from expecting not to be called on to actually being called on, and what technical mistake happens during the actual speaking part?",
+        "answer": "She goes from waiting to be called on but not being chosen to being called on, and then her class can’t hear her until she removes her headphones.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows her panicking about an icebreaker and ending with 'waiting to be called on but no one called on me.' Step 2: Slice 18 states 'and then I got called on.' Step 3: Slice 19 shows the class couldn't hear her and she removes headphones. Conclusion: The situation escalates from avoidance to being selected, compounded by an audio issue.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows her anxious about an icebreaker and includes the text overlay \"waiting to be called on but no one called on me,\" indicating she expected not to be called on. Step 2: Slice 18 explicitly states \"and then I got called on,\" showing the shift from not being called to being called. Step 3: Slice 19 describes that her whole class couldn't hear her, she suspects the issue is due to her headphones, and she removes them, indicating the technical mistake during speaking was related to the headphones causing audio issues.",
+        "visual_proof": "Clip 1 shows her anxious text 'waiting to be called on but no one called on me'. Clip 2's text states 'and then i got called on'. Clip 3 visually shows her speaking with subtitles 'whole class couldn't hear me' and then the subtitle 'realized it was prob bc of my headphones so decided to take them off', confirming the technical mistake and resolution."
+    },
+    {
+        "question": "She says she likes working outside rather than at home; what earlier place did she choose because it was quiet, and what later scene shows her editing work happening in a cafe at night?",
+        "answer": "She chose the library because it was quieter, and later she edits in a cafe at 7:40 pm.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            6,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 5 says she wanted to go somewhere quieter and is in a library. Step 2: Slice 6 states she started to like working outside rather than at home. Step 3: Slice 31 shows evening vlog editing in a cafe. Conclusion: Her preference for working out-of-home is supported by repeated library/cafe work sessions.",
+        "logic_check_reasoning": "Step 1: Slice 6 states the sentiment \"these days I started to like working outside than at home.\" Step 2: Slice 5 shows her in a library with on-screen text \"wanted to go somewhere quieter,\" indicating the library was chosen for quiet. Step 3: Slice 31 shows her in a café with the on-screen text \"7:40pm editing,\" explicitly depicting editing work in a café at night. The proposed answer matches these details.",
+        "visual_proof": "In Clip 1, the subtitle at 0:00-0:05 states 'wanted to go somewhere quieter,' visually showing her in a library. In Clip 3, the scene at 0:10-0:11 shows a laptop with editing software open on a table next to a window at night, with an overlay text reading '7:40pm editing.'"
+    },
+    {
+        "question": "Link her reading interest across settings: what book is she continuing at home, and where else is that same book shown when she reads while traveling?",
+        "answer": "She’s continuing 'The Seven Husbands of Evelyn Hugo' at home, and the same book is shown when she reads it on a train.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            54,
+            66,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 54 shows 'continuing evelyn hugo' at home on a couch. Step 2: Slice 66 shows her holding 'The Seven Husbands of Evelyn Hugo' on a train. Step 3: Slice 62 frames her as someone planning bookstore browsing despite not finishing her current book. Conclusion: The same title ties her ongoing reading habit across home, transit, and book-related plans.",
+        "logic_check_reasoning": "Step 1: Slice 54 shows a woman on a couch with the on-screen text 'continuing evelyn hugo,' indicating she is continuing a book/story related to Evelyn Hugo in a home-like setting. Step 2: Slice 66 explicitly shows her holding the book titled 'The Seven Husbands of Evelyn Hugo' while seated on a train, identifying the exact book and the traveling setting. Logic holds because 'Evelyn Hugo' in Slice 54 aligns with the full title shown in Slice 66, and the train setting is clearly indicated.",
+        "visual_proof": "In Video 1, the text overlay explicitly states 'continuing evelyn hugo,' and she is seen reading a book in a cozy setting. In Video 2, a close-up shot on the train clearly shows the cover of 'The Seven Husbands of Evelyn Hugo' by Taylor Jenkins Reid as she holds it while seated, confirming she is reading the same book in both settings."
+    },
+    {
+        "question": "When she feels unwell after eating too fast, what reflective activity does she do afterward while commuting, and what earlier habit does she mention about writing before therapy?",
+        "answer": "She journals on the train afterward, and earlier she journals before therapy to write down her thoughts and emotions.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            35,
+            36,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 35 shows she has a stomach ache from eating too fast. Step 2: Slice 36 shows '8:30pm journaling on train' after she says she doesn't feel good. Step 3: Slice 7 shows she journals before therapy to process thoughts and emotions. Conclusion: Feeling unwell/overwhelmed connects to her coping strategy of journaling in different contexts.",
+        "logic_check_reasoning": "Step 1: Slice 35 shows the woman saying she has a stomach ache and thinks she ate too fast. Step 2: Slice 36 continues this thread, showing her feeling unwell and then a later scene with the text '8:30pm journaling on train,' indicating she journals while commuting. Step 3: Slice 7 explicitly states, 'I tend to write down my thoughts in my journal before I meet with my therapist,' and mentions writing emotions too. The answer matches these details.",
+        "visual_proof": "Clip 2 shows a notebook and pen with text '8:30pm journaling on train' after she expresses feeling unwell. Clip 3 shows her at a desk writing with text stating 'I tend to write down my thoughts in my journal before I meet with my therapist' and 'it helps a lot since I tend to forget things even my own emotions sometimes'."
+    },
+    {
+        "question": "Connect her love of books and markets: where is she shown browsing/reading in a bookstore, what vintage market activity includes flipping through a book, and what later moment shows her continuing the same novel at home?",
+        "answer": "She reads in a bookstore aisle, then flips through a book at a vintage market/shop, and later she continues reading 'Evelyn Hugo' at home.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            65,
+            75,
+            54,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows her reading an open book in a bookstore. Step 2: Slice 75 shows her exploring a vintage market and flipping through a book in another shop. Step 3: Slice 66 identifies the novel 'The Seven Husbands of Evelyn Hugo' as something she reads in transit. Step 4: Slice 54 shows 'continuing evelyn hugo' at home. Conclusion: Book engagement spans bookstore browsing, market browsing, commuting reading, and home reading of the same title.",
+        "logic_check_reasoning": "Step 1: Slice 65 shows a woman in a bookstore, standing in front of a bookshelf and reading an open book, which supports browsing/reading in a bookstore. Step 2: Slice 75 describes her in a vintage market/shop where she picks up a book and flips through its pages, directly supporting the vintage market activity. Step 3: Slice 54 shows her on a couch with the text 'continuing evelyn hugo,' indicating she continues the same novel at home; Slice 66 corroborates the specific book title ('The Seven Husbands of Evelyn Hugo') being read earlier, linking it as the same novel.",
+        "visual_proof": "Clip 1 shows her browsing books in a bookstore aisle. Clip 2 shows her flipping through a book inside a vintage market. Clip 3 shows her reading the same novel, 'Evelyn Hugo,' on a couch at home, with text confirming she is continuing it."
+    },
+    {
+        "question": "How do her clothing layers shift with the weather: when she overheats outdoors in winter gear, what later on-screen description confirms the opposite condition, and what outerwear detail is emphasized during that colder moment?",
+        "answer": "She overheats while bundled up, later it’s described as cold and windy, and her fur-lined coat with a scarf is emphasized.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            38,
+            48,
+            45,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows her sweating/overheating despite winter coat, scarf, and gloves. Step 2: Slice 45 shows her outdoors wearing headphones and a fur-lined jacket on a sunny day. Step 3: Slice 46 continues with her in a fur coat exploring a flower shop area. Step 4: Slice 48 explicitly overlays 'cold and windy' while she wears a fur-lined coat and scarf. Conclusion: Her bundled outerwear appears across shifting perceived weather, culminating in a clearly cold/windy segment.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 38 shows she is overdressed (beige coat, scarf, gloves) and overheats, visibly sweating and removing gloves due to unexpectedly warm temperatures. Step 2: Evidence Slice 48 presents an on-screen text overlay reading 'cold and windy,' confirming the opposite condition. Step 3: The same Slice 48 emphasizes her outerwear during that colder moment—a fur-lined coat and a scarf are prominently noted. Logic holds because Slice 38 establishes overheating in winter gear, and Slice 48 explicitly describes cold conditions and highlights the fur-lined coat and scarf.",
+        "visual_proof": "Clip 1 shows her sweating and removing layers at 12:30pm, indicating overheating in winter gear. Clip 2 shows her bundled up again with on-screen text 'cold and windy' at 2pm, confirming the opposite condition. Her fur-lined coat and scarf are prominently visible in both clips, especially during the colder moment in Clip 2."
+    }
+]

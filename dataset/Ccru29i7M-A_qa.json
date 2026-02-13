@@ -1,0 +1,29 @@
+[
+  {
+    "question": "The show transitions from the CPI countdown discussions to Boeing coverage and then back to another studio reset with new anchors. What is the first company discussed when the new anchor pair appears after the Boeing segment ends?",
+    "answer": "ByteDance (profit jumps 60%).",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      16,
+      24,
+      25
+    ],
+    "reasoning_chain": "Step 1: The program is in Boeing crisis coverage in the studio. Step 2: It transitions to a cityscape/market interlude, signaling a segment break. Step 3: A new anchor pair appears and the headline reads 'ByteDance Profit Jumps 60%.' Conclusion: The first company after that reset is ByteDance.",
+    "logic_check_reasoning": "Step 1: Slice 16 shows the segment focused on Boeing, including headlines like 'BOEING CRISIS OF CONFIDENCE DEEPENS' and 'BOEING REJECTS ALLEGATION,' plus a panel discussing Boeing. Step 2: Slice 24 continues with a panel on Boeing and then transitions to a cityscape and market data, indicating the Boeing segment is wrapping up. Step 3: Slice 25 shows a new studio setup with a different anchor pair (Dani Burger and Manus Cranny) and explicitly states the topic is 'ByteDance Profit Jumps 60%,' including visuals of TikTok to reinforce the company focus. Logic holds because the sequence moves from Boeing coverage (Slices 16 and 24) to a studio reset with new anchors discussing ByteDance (Slice 25), making ByteDance the first company discussed after the Boeing segment ends.",
+    "visual_proof": "Clip 1 ends with the Boeing segment, showing a three-way split screen with the headline 'BOEING CRISIS OF CONFIDENCE DEEPENS'. Clip 3 begins with a new studio reset featuring anchors Dani Burger and Manus Cranny. The very first news ticker to appear in this new segment, at 0:04, reads 'BYTEDANCE PROFIT JUMPS 60%'. This visually confirms that ByteDance is the first company discussed after the transition from the Boeing coverage."
+  },
+  {
+    "question": "After the show introduces a countdown to the CPI release, what exact release time is repeatedly shown later during the remote guest discussions?",
+    "answer": "8:30 AM ET.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      8
+    ],
+    "reasoning_chain": "Step 1: Early in the program, the title/anchors frame the segment as a countdown to CPI. Step 2: Later, the three-person discussion repeatedly shows the banner 'US CPI DATA DUE AT 8:30 AM ET.' Conclusion: The repeated release time is 8:30 AM ET.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 shows the program introducing a 'COUNTDOWN TO CPI.' Step 2: Evidence Slice 8 describes a later segment with remote guests where the US CPI data is stated as being 'due at 8:30 AM ET.' This provides the exact release time shown during those discussions. The logic connects the initial countdown introduction to the later remote discussion where the time is explicitly mentioned.",
+    "visual_proof": "In Video 2, during the remote guest discussion segment, a lower-third graphic is consistently displayed at the bottom of the screen. This graphic explicitly reads 'US CPI DATA DUE AT 8:30 AM ET'. This text is visible and unchanged throughout the entire clip, confirming the release time."
+  }
+]

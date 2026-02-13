@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What brand name appears on the neon sign in the tropical-themed talk-show room, and what are the large letters on the red wall in the modern living room scene?",
+        "answer": "The neon sign says \"GET LOST,\" and the red wall says \"FOLLOW ME.\"",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows a neon sign reading \"GET LOST\" in the tropical-themed podcast set. Step 2: Slice 32 shows a red wall with big letters reading \"FOLLOW ME\" in a living room. Conclusion: The two prominent texts are \"GET LOST\" and \"FOLLOW ME.\"",
+        "logic_check_reasoning": "Step 1: Evidence Slice 26 explicitly states the neon sign in the tropical-themed talk-show room reads \"GET LOST.\" Step 2: Evidence Slice 32 explicitly states the red wall has large black letters spelling \"FOLLOW ME.\" The contexts match the question's scenes, so the proposed answer is fully supported.",
+        "visual_proof": "In Clip 1, a bright orange neon sign is clearly visible on the tropical-themed wall, spelling out \"GET LOST\". In Clip 2, large black letters mounted on a red wall spell out \"FOLLOW ME\"."
+    },
+    {
+        "question": "Which scene shows a man doing a daring cold-water plunge at night, and which separate scene shows a couple riding a motorcycle on a beach at sunset?",
+        "answer": "The cold-water plunge happens at night near snowy water, and the sunset beach motorcycle ride shows a couple riding along the beach.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a man in shorts jumping into cold dark water at night near snow. Step 2: Slice 29 shows a couple riding a motorcycle on a beach at sunset. Conclusion: These are two distinct adventure moments: cold plunge vs sunset beach ride.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes a nighttime scene in a snowy area by a body of water where a man in shorts jumps into the water, clearly indicating a daring cold-water plunge. Step 2: Slice 29 describes a transition to an outdoor scene with a couple riding a motorcycle on a beach at sunset. Logic holds because the proposed answer summarizes these two distinct scenes accurately: the cold plunge at night near snow and the couple riding along the beach at sunset.",
+        "visual_proof": "Clip 1 visually confirms a man plunging into dark water at night, surrounded by snow and onlookers with flashlights. Clip 2 contains an inset image showing a couple on a motorcycle on a sandy beach under a sunset sky, with palm trees and ocean visible in the background."
+    },
+    {
+        "question": "Across the vlog, which two different office/home-work scenes feature prominent organizational/productivity text—one on the wall and one as an on-screen caption about a tool?",
+        "answer": "One scene has \"Follow Me\" on the wall, and another has the caption \"HE ORGANIZES IT ALL IN NOTION.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows an office with a neon sign reading \"Follow Me\" on the wall. Step 2: Slice 79 includes an on-screen caption \"HE ORGANIZES IT ALL IN NOTION.\" Conclusion: The organizational cues are \"Follow Me\" and the Notion caption.",
+        "logic_check_reasoning": "Step 1: Slice 37 describes an office scene with a neon sign on the wall that says 'Follow Me,' satisfying the wall text part. Step 2: Slice 79 shows a man speaking with an on-screen caption 'HE ORGANIZES IT ALL IN NOTION,' which is clearly about a productivity tool. Logic holds because these are two distinct office/home-work style scenes with the specified texts.",
+        "visual_proof": "Clip 1 clearly shows a neon sign on the wall that reads \"Follow Me\" in cursive script. Clip 2 features an on-screen caption at the bottom of the frame that reads \"HE ORGANIZES IT ALL IN NOTION\" while the man speaks. These are two distinct scenes with the specified text elements."
+    },
+    {
+        "question": "Before the man arrives at a modern glass-walled house in the fields, what vehicle is he shown riding, and after arriving what object is repeatedly seen with him or near him?",
+        "answer": "He rides a motorcycle, and a helmet is repeatedly seen with him or on/near the motorcycle.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            42,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows him riding a motorcycle through green fields and then arriving at a modern house. Step 2: Slice 40 shows the motorcycle behind him with a helmet placed on it. Step 3: Slice 42 shows him outside a building with the motorcycle and helmet visible. Conclusion: The travel vehicle is the motorcycle, and the recurring object is the helmet.",
+        "logic_check_reasoning": "Step 1: Slice 41 states the man rides a motorcycle along a dirt road before arriving at a modern house with a large glass wall. Step 2: Slice 41 also notes he has a helmet hanging from his arm earlier. Step 3: After arrival, Slice 42 shows the man outside a building with large glass windows, with a motorcycle behind him and a helmet on its seat. Step 4: Slice 40 further reinforces that a helmet is seen with the motorcycle in the fields. Therefore, the vehicle is a motorcycle, and a helmet is repeatedly seen with him or near the motorcycle, including after arriving at the glass-walled house.",
+        "visual_proof": "In Clip 1, the man is shown standing next to a white motorcycle in a field (0:10) and then riding it down a road (0:13-0:15). In Clip 2, after arriving at the modern glass-walled house, he is seen taking off his helmet (0:00) and it is placed on the motorcycle's handlebars (0:01-0:13). In Clip 3, the helmet is again visible on the motorcycle while he stands in the field (0:00-0:06). The helmet is consistently present with him or near the motorcycle across all clips."
+    },
+    {
+        "question": "Across the video, how is the idea of recording/creating content reinforced by showing a camera product demo, then a podcast setup with microphones, and later a man working in video editing software?",
+        "answer": "It shows a camera (Insta360) demo, then a mic-based podcast set, and later a man editing in video software on a computer.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            26,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 28 highlights an Insta360 X3 camera and its features. Step 2: Slice 26 shows a \"GET LOST\" talk-show/podcast set with microphones. Step 3: Slice 77 shows a man using video editing software on a computer. Conclusion: The video repeatedly emphasizes content creation through camera gear, podcasting, and editing.",
+        "logic_check_reasoning": "Step 1: Slice 28 explicitly shows a camera product demo (Insta360 X3) and its recording capabilities. Step 2: Slice 26 shows a podcast setup with microphones and participants engaged in conversation, indicating audio/video recording. Step 3: Slice 77 shows a man working in video editing software on a computer, indicating post-production. Logic holds because these slices depict stages of content creation—recording with a camera, recording a podcast, and editing—matching the proposed answer’s summary.",
+        "visual_proof": "Clip 1 visually confirms the Insta360 X3 camera demo with close-ups of the device and sample footage. Clip 2 clearly shows a podcast setup with three men seated with microphones. Clip 3 displays a man actively working on a laptop with video editing software open on an external monitor, confirming the editing phase."
+    },
+    {
+        "question": "A dog is shown wet and wrapped in a towel later in the video; what earlier beachside moments suggest why the dog might be wet?",
+        "answer": "Earlier beach moments show dogs running and playing on the beach and people interacting with a dog’s paw near the shoreline, suggesting water play before the towel scene.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            49,
+            51,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows a beach at sunset with dogs present (holding a dog’s paw and walking a dog). Step 2: Slice 50 shows a beachside path and active beach environment near the water. Step 3: Slice 51 ends with a man holding a small wet dog wrapped in a blue towel. Conclusion: The beach activity near the water plausibly leads to the dog being wet and needing a towel.",
+        "logic_check_reasoning": "Step 1: Slice 51 shows a yellow dog excitedly running and jumping around a person's feet on the sandy beach, and later depicts a man holding a small wet dog wrapped in a blue towel, with the caption noting it may have been swimming or playing in water. Step 2: Slice 49 shows beachside scenes with people interacting with dogs, including someone holding a dog's paw and another walking a dog on the beach, with waves audible, indicating proximity to water. Step 3: These earlier beachside moments support the idea that the dog was active near the shoreline, suggesting water play as a plausible reason for the dog being wet later.",
+        "visual_proof": "In Clip 2 (0:01-0:03), a dog is seen actively running and rolling around in wet sand near the shoreline, indicating it was playing in or near the water. This directly precedes the scene at 0:04 where the same dog is being dried with a towel, establishing a clear cause-and-effect relationship for its wetness."
+    },
+    {
+        "question": "What visual elements indicate a transition from work-focused scenes to leisure/travel scenes: first the ‘meeting’ day-log segment, then the nighttime restaurant/pool environment, then the resort rice-terrace views?",
+        "answer": "It shifts from laptop meeting text overlays to an upscale nighttime dining/pool setting, then to scenic resort/rice-terrace landscapes.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            82,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a work day with laptop meetings and overlays like \"MEETING #3 OF TODAY.\" Step 2: Slice 82 shows a nighttime upscale restaurant area with a pool and lounge chairs. Step 3: Slice 69 shows a serene tropical retreat with rice terraces and pool lounging. Conclusion: The context transitions from work → evening leisure venue → full resort scenery.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows a work-focused scene with a person in a meeting on a laptop and the text overlay 'MEETING #3 OF TODAY,' clearly indicating a day-log of professional activities. Step 2: Slice 82 depicts a nighttime leisure setting with a well-lit modern restaurant and a serene pool area, described as relaxed and upscale, signaling a shift to dining/leisure. Step 3: Slice 69 presents travel/resort visuals with scenic aerial views of rice terraces, tropical foliage, and resort amenities (pool, hammock), emphasizing a serene retreat. Logic holds because the proposed answer accurately summarizes these visual elements and their progression from work to leisure/travel.",
+        "visual_proof": "Clip 1 opens with a man at a desk with text 'MEETING #3 OF TODAY' and 'DAY 2', indicating work. Clip 2 transitions to the same man outdoors at night near a lit pool and restaurant area. Clip 3 shows expansive daytime views of lush rice terraces, resort pools, and tropical scenery, confirming the shift to leisure/travel."
+    }
+]

@@ -1,0 +1,122 @@
+[
+    {
+        "question": "How does the talk move from an optical illusion about recognizing a face to a discussion about using family photos to understand people in images?",
+        "answer": "It first uses the Marilyn–Einstein illusion to show perception depends on context, then shifts to family photos to ask questions like who the people are and what they’re doing, emphasizing context is needed.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows an illusion (Marilyn–Einstein/Einstien face) used to demonstrate context-dependent perception. Step 2: Slice 11 shows a slide 'Understanding images of people' using family photos and questions (Who? How old? What are they doing?) and the need to exploit context. Conclusion: The talk uses perception/illusion as motivation, then applies the same idea to interpreting people in everyday photos.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes the presentation using an optical illusion (the Marilyn–Einstein example) to demonstrate that face recognition depends on context and prior perception, including pareidolia and the influence of social/contextual cues. Step 2: Slice 11 shows the subsequent slide with family photos and bullet points asking 'Who?', 'How old? How tall? What are they doing?', and explicitly stating 'Need to exploit context (or prior)', indicating a shift to analyzing people in images using contextual information. Logic holds because the talk moves from illustrating context-driven perception via an illusion to applying context in practical analysis of family photos, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows the speaker presenting the 'Marilyn-Einstein' optical illusion with the caption 'What do you see?', demonstrating how perception can change. Clip 2 immediately follows with a slide titled 'Understanding images of people', showing two family photos and listing questions like 'Who?' and 'What are they doing?'. The final bullet point in Clip 2 explicitly states 'Need to exploit context (or, prior)', directly linking the concept from the illusion to the analysis of the family photos."
+    },
+    {
+        "question": "Which two different kinds of context are explicitly illustrated using metadata like dates/GPS and then later using first names tied to birth-year probabilities?",
+        "answer": "Capture context (dates/GPS/location metadata) and social context via first names (name popularity implying birth year/age and gender).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 14 lists context types and overlays timestamps and GPS coordinates (capture context). Step 2: Slice 15 shows graphs from the Social Security Administration and states first names capture information about age and gender (social context). Conclusion: The talk demonstrates capture context via metadata and social context via name-based demographics.",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly lists three types of context (Pixel, Capture, Social) and shows metadata such as timestamps and GPS coordinates, which aligns with capture context. Step 2: Slice 15 demonstrates the use of first names (Mildred and Lisa) tied to birth-year probability graphs and notes that first names capture information about age and gender, explicitly labeled as social context. Logic holds because the question asks for the two contexts illustrated: metadata (dates/GPS) corresponds to capture context, and first names/birth-year probabilities correspond to social context.",
+        "visual_proof": "Clip 1 explicitly labels 'Capture Context' and shows metadata overlays with dates (July 2, 2005; June 25, 2005) and GPS coordinates (Lat, Long) on the family photos. Clip 2 illustrates 'Social context' by showing a slide with first names 'Mildred and Lisa' alongside probability distribution graphs for birth years, which are sourced from Social Security Administration data, directly linking names to age and gender inference."
+    },
+    {
+        "question": "How does the presentation argue that adding more information than appearance improves identification accuracy, using both a comparison grid and an experiment-results table?",
+        "answer": "It shows a grid where results improve from appearance to first name to a full model, and a table where combining cues (especially pose + age + gender) yields higher accuracy than random or single cues.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 19 presents 'More context, better results' with columns like Appearance, First Name, and Full Model showing improved scores. Step 2: Slice 22 shows an 'Experiment results' table where combined cues (Pose + Age + Gender) outperform random or individual factors. Conclusion: Both visuals support the causal claim that adding context/cues increases identification accuracy.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes a slide titled 'More context, better results' with a grid comparing identification using 'Appearance', 'First Name', and 'Full Model', and notes that adding contextual information improves accuracy, supported by accuracy scores in each cell. Step 2: Slice 22 shows an 'Experiment results' table with categories like 'Random', 'Age', 'Gender', 'Age + Gender', 'Pose', and 'Pose + Age + Gender', with percentages ranging from 43.7% to 66.7%, demonstrating that combining cues (especially 'Pose + Age + Gender') yields higher accuracy than random or single cues. Logic holds because both slices explicitly present that more context leads to better identification performance, matching the proposed answer.",
+        "visual_proof": "Clip 1 displays a slide titled 'More context, better results' with a 3-column grid comparing 'Appearance', 'First Name', and 'Full Model'. The 'Full Model' column consistently shows the highest confidence scores for correct identifications. Clip 2 displays a slide titled 'Experiment results' with a table showing 'Name Accuracy' increasing from 'Random' (43.7%) to 'Age+Gender' (61.7%) and peaking at 'PoseA+Age+Gender' (66.7%), which is explicitly stated to be close to human performance (~70%)."
+    },
+    {
+        "question": "In the example of an adult holding a baby, how does the labeling change from a model using age+gender+first name to a model that also includes pose?",
+        "answer": "The age+gender+first-name version labels the adult as Jessica (30 F) and the child as Paul (1 M), but when pose is added it flips to adult Paul (31 M) and child Jessica (1 F).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            28,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows the 'Age + Gender + First Name' labeling as 'Jessica 30 F' and 'Paul 1 M' on the man-and-baby photo. Step 2: Slice 25 shows the 'Age + Gender + Pose + First Name' labeling as 'Paul 31 M' for the adult and 'Jessica 1 F' for the baby. Conclusion: Adding pose changes the predicted identity assignment, swapping adult/child name labels.",
+        "logic_check_reasoning": "Step 1: Slice 28 (Slide 1) shows the adult-baby photo labeled under 'Age + Gender + First Name' as adult 'Jessica, 30 F' and child 'Paul, 1 M.' Step 2: Slice 25 shows the same 'An example' slide but with descriptors 'Age + Gender + Pose + First Name,' where the labels are adult 'Paul, 31 M' and child 'Jessica, 1 F.' Logic holds because the question asks specifically about the change when pose is added, and Slice 28 provides the baseline (without pose) while Slice 25 provides the pose-included case, demonstrating the flip in assigned names/sexes between adult and child.",
+        "visual_proof": "In the first clip at 0:02, the slide shows the adult labeled 'Jessica 30 F' and the child labeled 'Paul 1 M'. In the second clip at 0:00, the same image is shown with the adult now labeled 'Paul 31 M' and the child labeled 'Jessica 1 F', demonstrating the label flip when pose information is included."
+    },
+    {
+        "question": "Which sport image is first used as a 'What is next?' prompt and then reused to demonstrate multiple components of holistic image understanding like saliency and event classification?",
+        "answer": "A polo scene showing a rider on horseback with a mallet in a grassy field.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows a slide 'What is next?' with an image of a polo rider on horseback holding a mallet. Step 2: Slice 52 shows 'Holistic Image Understanding' using the polo image to illustrate saliency detection, object detection, depth, and event classification as 'Polo.' Conclusion: The same polo scene is tracked across the prompt and the holistic-understanding demonstration.",
+        "logic_check_reasoning": "Step 1: Slice 47 describes a split-screen with the text 'What is next?' at the top and a still image of a polo match showing a rider on horseback holding a mallet on a grassy field. Step 2: Slice 52 describes a slide on 'Holistic Image Understanding' that uses an image of a person playing polo to demonstrate components like saliency detection and event classification (event labeled 'Polo'). Logic holds because both slices explicitly reference a polo scene image, first as a prompt and then as an example for multiple image understanding components, matching the proposed description of the image.",
+        "visual_proof": "Clip 1 displays the image with the text 'What is next?' above it. Clip 2 shows the same image being used as the base for multiple analyses under the title 'Holistic image understanding,' including saliency detection, object detection, geometric layout, depth estimation, scene classification ('Open-Country'), and event classification ('Polo'). The visual content in both clips is identical: a rider on a dark horse holding a mallet, galloping across a green grassy field."
+    },
+    {
+        "question": "How do the 'Understanding images of groups' slide and the later 'Context for dining event' slide both use group structure to infer higher-level meaning?",
+        "answer": "The group-image slide motivates inferring attributes and events from social context, and the dining-event slide connects group structure to activity level, using group composition to interpret the event.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 29 introduces 'Understanding images of groups' and notes the need to consider social context to identify age/gender/group events. Step 2: Slice 36 shows 'Context for dining event' with a graph linking group structure to activity. Conclusion: Both segments use group structure/context as evidence to infer higher-level semantics (event/activity).",
+        "logic_check_reasoning": "Step 1: Slice 29 ('Understanding images of groups') explicitly states identifying age, gender, and group events, and notes the need to consider social context, showing that group structure/context is used to infer higher-level attributes and events. Step 2: Slice 36 ('Context for dining event') presents a graph labeled 'Group structure → Activity' showing a positive correlation between group size and activity level, indicating the use of group structure to infer higher-level activity/engagement meaning. Logic holds because both slides demonstrate leveraging group-level properties to derive or relate to higher-level interpretations (attributes/events in general group images, activity in dining events).",
+        "visual_proof": "Clip 1's 'Understanding images of groups' slide explicitly states the need to 'Identify age, gender, group events...' and 'Need to consider social context,' linking group visuals to higher-level inferences. Clip 2's 'Context for dining event' slide visually presents group photos and a graph labeled 'Group structure → Activity,' directly connecting the spatial arrangement of people (structure) to the inferred activity (dining). Both slides use the concept of group structure as a basis for interpreting more abstract social information."
+    },
+    {
+        "question": "How does the presentation link the idea that first names encode age information to a graphical model that explicitly includes birth year variables?",
+        "answer": "It uses name popularity graphs to infer likely birth years for names, then formalizes this with a graphical model where a person node connects to birth year and gender with related features.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            20,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 15 introduces Mildred/Lisa name graphs showing probability of birth year and notes names capture age/gender info. Step 2: Slice 20 reiterates the same example with the probability-of-birth-year plot. Step 3: Slice 16 shows a 'Graphical model...' with an explicit birth-year variable feeding into age features. Conclusion: The talk moves from empirical name–birth-year evidence to a structured model including birth year as a latent/explicit variable.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows the presenter using first names (Mildred, Lisa) and SSA probability-of-birth-year graphs to infer likely birth years, explicitly noting that first names capture information about age and gender. Step 2: Slice 20 reinforces this with a slide titled 'Probability of Birth Year' and curves for names including Mildred and Lisa, again tying names to birth year distributions. Step 3: Slice 16 presents a graphical model with a person node 'p' connected to 'y' (birth year) and 'g' (gender), and associated feature nodes (f_a for age features, f_g for gender features), explicitly including the birth year variable. Logic holds because the presentation first demonstrates how names encode age via SSA graphs, then formalizes the concept within a graphical model that includes birth year and gender variables.",
+        "visual_proof": "Clip 1 (0:00-2:53) shows the initial example with 'Person A and Person B' labeled as 'Mildred and Lisa', followed by a graph plotting the 'Probability of Birth Year' for these names, visually linking names to age. Clip 2 (0:00-0:15) reinforces this with the same image and graph, adding bullet points about 'Social context' and 'First names capture information about age and gender'. Clip 3 (0:00-0:40) presents a 'Graphical model...' slide that depicts a 'p Name' node connected to 'y Birth Year' and 'g Gender' nodes, which in turn connect to 'fa Age Features' and 'fg Gender Features', explicitly modeling the relationship between name, birth year, and visual features."
+    },
+    {
+        "question": "What continuity cue shows the video returns to the same talk title at both the beginning and the end of the provided timeline?",
+        "answer": "The title slide 'Understanding Photos of People Using Social Context' appears at the start and reappears near the end, indicating a return to the title/section boundary.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the title slide with the talk title and presenter information. Step 2: Slice 64 shows the same title slide again with the title and Cornell affiliation/URL. Conclusion: The repeated title slide indicates the talk’s title appears at both ends of the timeline segment.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 explicitly states the video begins with a title slide reading 'Understanding Photos of People Using Social Context' by Tsuhan Chen, with a black background and white text. Step 2: Evidence Slice 64 also explicitly describes a title slide with the same text and details ('Understanding Photos of People Using Social Context' by Tsuhan Chen, black background, white text). Step 3: Given the slice indices (2 near the start and 64 near the end of the provided timeline), seeing the same title slide in both slices indicates the title reappears, serving as the continuity cue that the video returns to the same talk title at the end of the provided timeline. Logic holds because both slices explicitly reference the identical title slide, supporting the proposed answer.",
+        "visual_proof": "Clip 1 (ID: 2) shows the title slide with the full presentation title and speaker details. Clip 2 (ID: 64), though appearing later in the timeline, displays the same title slide again, albeit with slightly different subtitle text (omitting 'Professor and Director' and adding a URL). The recurrence of the identical main title serves as a visual continuity cue that the presentation has looped back to its opening title or section."
+    },
+    {
+        "question": "What evidence across the slides supports the idea that social context includes both semantic cues (names) and physical cues (pose), and that combining them improves relationship/identity inference?",
+        "answer": "Name popularity graphs show names encode age/gender, pose is introduced as social context in a model, and experiments/examples show combined cues (including pose) improve accuracy and correct assignments.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            17,
+            22,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows first names capture age/gender via birth-year probability graphs. Step 2: Slice 17 states 'Pose is social context too...' and models relative pose. Step 3: Slice 22 reports higher accuracy when combining cues (Pose + Age + Gender). Step 4: Slice 25 shows a concrete adult-and-baby example labeled with 'Age + Gender + Pose + First Name.' Conclusion: Social context is both semantic (names) and physical (pose), and the talk argues combining them yields better inference.",
+        "logic_check_reasoning": "Step 1: Slice 15 explicitly labels 'Social context' and states 'First names capture information about age and gender,' with SSA name popularity graphs for Mildred and Lisa showing birth-year distributions. This supports semantic cues (names) conveying age/gender. Step 2: Slice 17 is titled 'Pose is social context too...' and presents a diagram including relative pose (k12), genders, birth years, and features, alongside pose-analyzed images, directly supporting physical cues (pose) as social context. Step 3: Slice 22 shows 'Experiment results' where combined cues ('Pose + Age + Gender') yield the highest accuracy (66.7%) compared to single cues or random, evidencing that combining cues improves inference. Step 4: Slice 25 provides an example slide ('Jessica and Paul') annotated with 'Age + Gender + Pose + First Name,' illustrating the use of combined semantic and physical cues in identity/relationship depiction. Together these slices support the proposed answer's claims.",
+        "visual_proof": "Clip 1 shows name popularity graphs for 'Mildred' and 'Lisa', linking names to birth year distributions (age/gender). Clip 2 presents a model where 'Relative Pose' is an explicit node influencing inferred 'Names', alongside 'Age Features' and 'Gender Features'. Clip 3 displays experiment results where the 'PoseA + Age + Gender' model achieves 66.7% accuracy, outperforming models using only age or gender, demonstrating the benefit of combining physical cues (pose) with semantic/physical cues. Clip 4 provides an example ('Jessica and Paul') where combining 'Age + Gender + Pose + First Name' leads to correct identification, reinforcing the combined cue approach."
+    }
+]

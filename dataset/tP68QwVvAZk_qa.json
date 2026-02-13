@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Which maritime chokepoint is highlighted by the presenter as crucial for oil shipping, and later what numeric estimate is shown for Middle East oil reserves or supply?",
+    "answer": "The Strait of Hormuz, and the estimate shown is about 260 billion (about one-quarter of world supply).",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      4,
+      18
+    ],
+    "reasoning_chain": "Step 1: Slice 4 shows the presenter referencing the Strait of Hormuz as a critical oil shipping route. Step 2: Slice 18 shows oil pumps with the text \"≈260 Billion (1/4 of world supply).\" Conclusion: Strait of Hormuz + ≈260 billion estimate.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 4 explicitly states the presenter points out the significance of the Strait of Hormuz on the map and describes it as a major shipping route for oil, confirming the maritime chokepoint. Step 2: Evidence Slice 18 describes an on-screen image of oil pumps with text reading '≈260 Billion (1/4 of world supply)' in the context of discussing the Middle East’s role in global oil production, supporting the numeric estimate shown for Middle East oil reserves or supply. Logic holds because each part of the question is directly supported by the respective slices.",
+    "visual_proof": "In Clip 1, the presenter points to a map where an arrow highlights the 'Strait of Hormuz'. In Clip 2, a different presenter stands next to an image of oil pumps with text overlay that reads '~260 Billion (1/4 of world supply)'."
+  },
+  {
+    "question": "A montage shows children celebrating Gargee'an in traditional clothing; later, a concert scene is labeled as a modern festival; and the woman presenter appears between these cultural visuals—what is the modern festival label shown?",
+    "answer": "Jeddah World Fest.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      50,
+      52,
+      49
+    ],
+    "reasoning_chain": "Step 1: Slice 50 shows a Gargee'an celebration with children in traditional attire. Step 2: Slice 49 shows the woman presenter with inset cultural celebration visuals (fireworks and traditional clothing). Step 3: Slice 52 shows a modern concert labeled \"Jeddah World Fest.\" Conclusion: The modern festival label is Jeddah World Fest.",
+    "logic_check_reasoning": "Step 1: Slice 50 describes a montage with children celebrating Gargee'an and cultural visuals, but does not provide the modern festival label. Step 2: Slice 49 shows a woman presenter with inset screens of fireworks and cultural events, again without naming the festival. Step 3: Slice 52 explicitly states that the concert scene is labeled 'Jeddah World Fest' under the Modern Festivals section. Despite presenter differences across slices (woman vs. man), the label for the modern festival is clearly given in Slice 52.",
+    "visual_proof": "In Video 2, at timestamp 0:21, a scene from a large concert with an audience is shown with the text overlay 'Jeddah world fest'. This directly matches the description in the question of a modern festival label appearing after cultural visuals."
+  },
+  {
+    "question": "During the regional history discussion, what year is given for the discovery of oil, and later what visual is used to represent oil reserves with a large number?",
+    "answer": "Oil is discovered in 1938, and oil pumpjacks are used alongside the \"≈260 Billion\" figure.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      34,
+      18,
+      20
+    ],
+    "reasoning_chain": "Step 1: Slice 34 mentions the discovery of oil in 1938. Step 2: Slice 18 visualizes oil importance with pumpjacks and \"≈260 Billion (1/4 of world supply).\" Step 3: Slice 20 continues the oil-economy theme with oil-sector visuals (pump silhouette, GDP reliance). Conclusion: The year is 1938 and the later reserve depiction is pumpjacks with the ≈260B figure.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 34 explicitly states that during the history discussion, the speaker mentions the discovery of oil in 1938. Step 2: Evidence Slice 18 describes a visual of oil pumps with the text '≈260 Billion (1/4 of world supply),' which represents oil reserves with a large number. Logic holds because the question asks for the year given during the history segment and the later visual used to depict reserves, both of which are directly supported by these slices.",
+    "visual_proof": "In Clip 1 (0:09), the year '1938' is displayed on screen next to an image of an oil derrick, indicating the discovery of oil. In Clip 2 (0:02), an image of oil pumpjacks is shown with the text '~260 Billion (1/4 of world supply)', visually representing the oil reserves."
+  },
+  {
+    "question": "What theme word appears in the animated title sequence, and which country is later examined in detail through multiple maps and infrastructure graphics?",
+    "answer": "The theme word is \"GEOGRAPHY,\" and the country examined in detail is Saudi Arabia.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      3
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows an animated title with the word \"GEOGRAPHY.\" Step 2: Slice 3 presents extensive mapping and infrastructure visuals specifically about Saudi Arabia. Conclusion: The title word is GEOGRAPHY, and the later detailed country is Saudi Arabia.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states that the animated sequence prominently features the word 'GEOGRAPHY.' Step 2: Evidence Slice 3 describes a detailed examination of Saudi Arabia using multiple maps and infrastructure graphics (rail network, GDP heat map, ports, proposed causeways). Logic holds because the theme word is clearly identified in Slice 1, and the country examined in detail is clearly identified as Saudi Arabia in Slice 3.",
+    "visual_proof": "In Clip 1, the animated title sequence at 0:04 clearly displays the word \"GEOGRAPHY\" in large, stylized letters. In Clip 2, the entire segment from 0:00 to 0:30 is dedicated to showing maps of Saudi Arabia, highlighting its borders, cities like Riyadh and Jeddah, airports, rail networks, and coastal features, confirming it is the country being examined in detail."
+  }
+]

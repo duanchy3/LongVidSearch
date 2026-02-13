@@ -1,0 +1,139 @@
+[
+    {
+        "question": "Which friend changes from energetically dancing in the living room to later playfully tackling the other friend off the couch?",
+        "answer": "The friend in the pink hoodie.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the man in a pink hoodie dancing energetically in the living room. Step 2: Slice 7 shows the man in the pink hoodie tackling the man in the green T-shirt off the couch. Conclusion: The pink-hoodie friend is the one who shifts from dancing to tackling.",
+        "logic_check_reasoning": "Step 1: Slice 5 states that a man wearing a pink hoodie and jeans is energetically dancing in the living room. Step 2: Slice 7 describes that the man in the pink hoodie playfully tackles the man in the green shirt off the couch. Logic holds because the same visual attribute (pink hoodie) consistently identifies the individual across both slices, linking the dancing person to the later tackling action.",
+        "visual_proof": "In Video 1, the man in the pink hoodie is seen energetically dancing in the living room. In Video 2, the same man in the pink hoodie is shown playfully tackling his friend in the green shirt off the couch after they both react to something on a screen."
+    },
+    {
+        "question": "What destination is asked about during a street conversation and is later explicitly stated as the goal of a two-day trip in a night car ride?",
+        "answer": "The Great Barrier Reef.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows the pink-hoodie man asking a woman if she has been to the Great Barrier Reef. Step 2: Slice 40 includes subtitles saying they are going on a 2-day trip to the Great Barrier Reef. Conclusion: The destination is the Great Barrier Reef.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows a street conversation where the man asks, \"Have you ever been to the Great Barrier Reef by any chance?\" explicitly naming the destination. Step 2: Slice 40 includes subtitles stating a two-day trip \"To the Great Barrier Reef,\" explicitly identifying the trip's destination. Logic holds because both slices reference the same destination in the described contexts.",
+        "visual_proof": "In Clip 1, the man on the street asks a woman, 'Have you ever been to the Great Barrier Reef by any chance?' as shown in the yellow subtitle. In Clip 2, the man in the car states, 'Now we're going on a 2 day trip To the Great Barrier Reef,' also confirmed by the yellow subtitles. Both clips explicitly mention the same destination."
+    },
+    {
+        "question": "Which recurring clothing color ties the main traveler together from the living-room friend scenes to later airport walking scenes?",
+        "answer": "Pink (pink hoodie/pink clothing).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 7 features a man in a pink hoodie in a living-room scene. Step 2: Slice 23 shows a man in a pink hoodie walking in an airport with a backpack. Conclusion: Pink clothing (pink hoodie) visually tracks the same main traveler across settings.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a living-room scene where one of the men is wearing a pink hoodie. Step 2: Slice 23 shows an airport scene where the man in the foreground is wearing a pink hoodie. Logic holds because the same distinctive clothing color (pink hoodie) appears in both contexts, linking the individual across scenes.",
+        "visual_proof": "In Clip 1, the main traveler is clearly visible wearing a pink hoodie while sitting on the couch with his friend. In Clip 2, the same individual is seen at the airport, still wearing the identical pink hoodie and carrying a backpack. The consistent presence of the pink hoodie across both distinct scenes (living room and airport) visually confirms it as the recurring clothing item."
+    },
+    {
+        "question": "What object linked to travel is shown being spun early on, and later reappears as a digital overlay during a couch game between the two friends?",
+        "answer": "A globe.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a child spinning a globe. Step 2: Slice 7 shows a rotating globe as a digital overlay while the two men play or discuss a geography-themed challenge. Conclusion: The repeated travel-linked object is a globe.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states that a child is playing with and spinning a globe. Step 2: Evidence Slice 7 mentions a digital overlay showing a rotating globe during the couch game between the two men. Logic holds because the same object—a globe—appears first physically being spun and later as a digital overlay in the described scene.",
+        "visual_proof": "In Clip 1, a physical globe is shown on a nightstand (0:06) and then being spun by a child (0:08-0:10). In Clip 2, a digital globe from Google Earth appears as an overlay in the bottom right corner while the two men are on the couch (0:05-0:09), which they react to before one of them jumps up excitedly (0:09)."
+    },
+    {
+        "question": "After the man with a backpack is first shown walking down a dim hallway, where does he go next as part of his travel sequence?",
+        "answer": "He heads to a car and then into an airport terminal, going through security.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a man in a white shirt with a backpack walking down a dim hallway. Step 2: Slice 18 shows him walking to a car, then entering an airport terminal and going through security. Conclusion: The next destination after the hallway is the car/airport journey.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows a man in a white shirt with a backpack walking down a dim hallway. Step 2: Slice 18 shows a man in a white shirt with a backpack walking to a car, getting in, then proceeding to an airport terminal and going through security. Logic holds because the visual attributes (white shirt, backpack) align, indicating it’s the same person. Despite both slices describing a 'start,' VLM noise can cause such inconsistencies; the sequence of car -> airport -> security is explicitly supported.",
+        "visual_proof": "The sequence begins with the man walking down a dim hallway (Clip 1). He is then seen outside putting his backpack in a car (Clip 2, 0:02), driving on a highway at night (Clip 2, 0:03), arriving at an airport terminal (Clip 2, 0:05-0:06), and walking through the terminal past check-in counters and other travelers (Clip 2, 0:07-0:12). This visually confirms the travel sequence described in the original answer."
+    },
+    {
+        "question": "What time-lapse message indicates a major time jump in the city sequence, and what later on-screen message indicates the long flight duration before arriving?",
+        "answer": "“5 hours later” and “14 hours later.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 39 includes a skyline time-lapse with the overlay “5 hours later.” Step 2: Slice 22 shows airplane cabin footage with the overlay “14 hours later.” Conclusion: The two time-jump messages are 5 hours later and 14 hours later.",
+        "logic_check_reasoning": "Step 1: Slice 39 explicitly states a time-lapse to a city skyline with the text overlay '5 hours later,' marking a major time jump in the city sequence. Step 2: Slice 22 describes an airplane cabin scene with the on-screen text '14 hours later,' indicating the long flight duration before arrival. Logic holds because each slice clearly provides the exact on-screen messages corresponding to the question parts.",
+        "visual_proof": "In Video 1, at timestamp 0:12, the text '5 hours later' is clearly displayed over a city skyline scene. In Video 2, at timestamp 0:01, the text '14 hours later' is visible on screen while showing passengers sleeping on an airplane."
+    },
+    {
+        "question": "How is the pink-hoodie traveler’s storyline connected from a street interview question about a reef, to a night car explanation of the trip, to underwater exploration scenes, and finally to celebratory boat moments?",
+        "answer": "He asks about the Great Barrier Reef, then the car ride confirms a trip there, later they dive/snorkel underwater, and afterward they celebrate on the boat.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            26,
+            40,
+            70,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows the pink-hoodie man asking a woman about the Great Barrier Reef. Step 2: Slice 40 confirms via subtitles they’re going on a trip to the Great Barrier Reef. Step 3: Slice 70 shows divers exploring reef areas and marine life underwater. Step 4: Slice 76 shows the group back on the boat above water, smiling and enjoying the day. Conclusion: The reef talk leads into the stated trip, then underwater exploration, then boat celebration.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows the man in a pink hoodie on a city street asking a woman if she’s been to the Great Barrier Reef, setting up the reef topic. Step 2: Slice 40 shows the same storyline continuing in a night car scene, with subtitles explicitly saying they’re going on a 2-day trip to the Great Barrier Reef, confirming the trip. Step 3: Slice 70 depicts underwater reef scenes with corals, stingrays, and scuba divers, consistent with exploring the reef. Step 4: Slice 76 shows a man snorkeling underwater and then enjoying time on a boat with others, indicating celebratory or happy moments after the underwater exploration. The logic links the street question to the announced trip, to underwater exploration, and to boat-side enjoyment.",
+        "visual_proof": "Clip 1 shows the pink-hoodie traveler asking a woman if she's been to the Great Barrier Reef. Clip 2 features a man in a car stating they're going to the Great Barrier Reef for a 2-day trip. Clip 3 shows underwater scenes with coral and divers, consistent with reef exploration. Clip 4 depicts people relaxing and celebrating on a boat deck after the underwater activities. The sequence visually connects the inquiry, travel confirmation, activity, and celebration."
+    },
+    {
+        "question": "Which person is consistently shown carrying a backpack through the airport scenes and later during the city street interviews, and what clothing item helps identify him across both?",
+        "answer": "The pink-hoodie traveler; his pink hoodie (or pink clothing) helps identify him.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            20,
+            22,
+            23,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a man with a backpack wearing a pink scarf in a busy terminal-like space. Step 2: Slice 22 shows the pink-hoodie traveler after the long flight in an airport terminal. Step 3: Slice 23 shows him walking through the airport with a backpack. Step 4: Slice 26 shows him in a pink hoodie with a backpack interviewing a woman on a city street. Conclusion: The backpacked pink-clad traveler is the consistent figure across airport and street scenes.",
+        "logic_check_reasoning": "Step 1: Slice 23 explicitly shows a man in an airport wearing a pink hoodie and carrying a backpack. Step 2: Slice 26 shows the same visual attributes in a city street interview: a man wearing a pink hoodie and carrying a black backpack. Step 3: Slice 22 features a person in a pink hoodie in the airport context, reinforcing the identification, even though the backpack isn't explicitly mentioned there. Step 4: These slices collectively support that the person consistently carrying a backpack across airport and city scenes is the man in the pink hoodie, and the pink hoodie is the identifying clothing item.",
+        "visual_proof": "In Clip 1, the man is seen walking through the airport with a backpack and wearing a pink towel/scarf over his shoulders. In Clip 2, after the time jump, he is shown in an airport terminal wearing a pink hoodie and carrying a backpack. In Clip 3, he is again in the airport, clearly wearing the same pink hoodie and backpack. Finally, in Clip 4, he is on a city street, still wearing the pink hoodie and carrying the backpack while interacting with another person. The consistent presence of the pink hoodie and backpack across all scenes confirms his identity."
+    },
+    {
+        "question": "Which person is seen with a backpack in a hallway, then rushing through an airport looking at his phone, and later walking in the city where he meets a construction worker holding a detour sign?",
+        "answer": "The man in a white shirt with a backpack.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            18,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a man in a white shirt carrying a backpack in a hallway. Step 2: Slice 18 shows him rushing through the airport while checking his phone. Step 3: Slice 31 shows a man in a white shirt with a black backpack talking to a construction worker holding a detour sign. Conclusion: These appearances track the same white-shirt backpacked traveler.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows a man in a hallway wearing a white shirt and carrying a backpack. Step 2: Slice 18 shows a man wearing a white shirt and a backpack rushing through an airport and constantly looking at his phone. Step 3: Slice 31 shows a man wearing a white shirt and a black backpack walking in the city and interacting with a construction worker holding a 'Use Other Path' (detour) sign. The consistent attributes (white shirt, backpack) across all slices support that this is the same person. Therefore, identifying him as 'the man in a white shirt with a backpack' is supported.",
+        "visual_proof": "In Clip 1, the man in the white shirt and backpack is seen walking through a hallway. In Clip 2, the same man (identifiable by his face and white shirt) is rushing through an airport terminal while looking at his phone. In Clip 3, he is seen walking in the city and interacting with a construction worker holding a detour sign. The continuity of his appearance across all three clips confirms he is the same person."
+    },
+    {
+        "question": "Across the video, what repeated travel-planning motif is shown as a globe/route idea, then airport transit with backpacks, and finally a sea adventure that matches the earlier destination talk?",
+        "answer": "A globe and travel-route theme, followed by backpacked airport transit, culminating in ocean diving/snorkeling consistent with the Great Barrier Reef trip.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            21,
+            23,
+            40,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 21 uses a spinning globe and animated airplane to symbolize planning a trip. Step 2: Slice 23 shows the travelers walking through an airport terminal with backpacks. Step 3: Slice 40 states the destination is the Great Barrier Reef. Step 4: Slice 65 shows a boat excursion with divers preparing to enter the ocean. Conclusion: The planning → transit → stated destination → ocean diving forms a coherent travel arc.",
+        "logic_check_reasoning": "Step 1: Slice 21 shows a spinning globe, an animated airplane over a map, a passport, packing, and a plane taking off—clearly a globe/route travel-planning motif. Step 2: Slice 23 shows two men with backpacks walking through an airport terminal, matching the airport transit with backpacks. Step 3: Slice 40 explicitly states via subtitles that the trip destination is the Great Barrier Reef, setting up a sea adventure. Step 4: Slice 65 shows boarding a boat and people in scuba gear diving into the ocean, which aligns with a sea adventure consistent with the Great Barrier Reef trip mentioned earlier. Logic holds because each slice sequentially supports the motif described in the proposed answer.",
+        "visual_proof": "Clip 1 shows a plane flying over a globe highlighting Australia. Clip 2 shows men with backpacks walking through an airport. Clip 3 includes subtitles mentioning 'Great Barrier Reef'. Clip 4 visually confirms the sea adventure with scenes of boarding a boat, sailing to clear turquoise waters, and people preparing for and engaging in snorkeling/diving activities."
+    }
+]

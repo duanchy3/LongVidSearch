@@ -1,0 +1,15 @@
+[
+    {
+        "question": "The show highlights major cities on a transportation map with codes and later the presenters discuss visa steps for visiting the capital. Which capital city appears in both contexts?",
+        "answer": "Ashgabat.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a transport map listing cities including Ashgabat. Step 2: Slice 7 discusses travel steps and explicitly labels \"Ashgabat.\" Conclusion: The shared capital city is Ashgabat.",
+        "logic_check_reasoning": "Step 1: Slice 6 states the transportation map highlights major cities including Ashgabat with codes. Step 2: Slice 7 shows a visual aid explicitly labeled 'Ashgabat' in the context of visa steps and destination discussion. Logic holds because the same city, Ashgabat, appears in both the map context and the visa discussion context.",
+        "visual_proof": "In Clip 1, the map highlights 'Ashgabat' with its IATA code 'ASB' and shows it as a central hub in the rail network. In Clip 2, the presenters discuss visa requirements for visiting 'Ashgabat', which is visually confirmed by the text overlay 'Ashgabat' with a green checkmark next to the Turkmenistan flag."
+    }
+]

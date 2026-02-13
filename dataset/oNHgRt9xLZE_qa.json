@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What social media platform is viewers encouraged to use for sending questions, and later in the lesson where is the audience interaction shown on-screen while the instructor discusses Gibbs free energy?",
+        "answer": "Twitter is promoted for sending questions, and later the audience interaction is shown as a Twitter feed/chat panel displayed on the left side of the screen.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a Twitter logo/handle and hashtag inviting viewers to tweet questions. Step 2: Slice 4 shows a Twitter feed displayed on the left while Gibbs Free Energy is discussed. Conclusion: Questions are solicited via Twitter and later appear as an on-screen Twitter feed/chat on the left.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly mentions a blue sidebar with a Twitter logo, the handle '@HelloMelissaM', and the hashtag '#AskMelissaMaribel', indicating viewers can interact by tweeting questions. Step 2: Evidence Slice 4 states that during the Gibbs Free Energy discussion, a Twitter feed is displayed on the left side of the screen, showing tweets related to the topic. Logic holds because the first slice establishes Twitter as the platform for questions, and the fourth slice shows the audience interaction via a Twitter feed on the left during the Gibbs Free Energy segment.",
+        "visual_proof": "In Clip 1 (0:04-0:15), a blue panel on the left side of the screen explicitly shows the Twitter logo and text: 'Tweet me your questions... @HelloMelissaM #AskMelissaMaribel'. In Clip 2 (0:00-0:14), while discussing Gibbs Free Energy, the same left-side panel displays a live Twitter feed with a user's question and Melissa Maribel's reply, confirming the platform and its on-screen location."
+    },
+    {
+        "question": "What numerical entropy change for the universe is written for the HgO decomposition example, and what later on-screen response indicates the parts about spontaneity are consistent?",
+        "answer": "ΔS_univ is shown as −394 J/mol·K, and a highlighted 'YES' indicates the results are consistent.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 15 states ΔS_univ is negative (−394 J/mol·K) for the HgO problem. Step 2: Slice 20 shows the on-screen question about consistency and highlights the answer 'YES.' Conclusion: The example reports −394 J/mol·K and later confirms consistency with a 'YES' response.",
+        "logic_check_reasoning": "Step 1: Slice 15 explicitly states that ΔS°univ is negative and gives the value as −394 J/mol·K for the HgO decomposition example. Step 2: Slice 20 describes a slide with a question asking if the results from parts c and d are consistent using spontaneity criteria, and notes a 'YES' answer highlighted in red. Logic holds because the first part identifies the numerical entropy change, and the second part confirms the on-screen indication of consistency.",
+        "visual_proof": "In both clips, the value 'ΔS°_univ = -394 J/mol K' is clearly visible on screen. In the second clip, a red, octagonal shape with the word 'YES' inside it is displayed next to the question about consistency, indicating that the results are consistent."
+    },
+    {
+        "question": "Which element is used as the isotope example when explaining how to compute neutrons from mass number and atomic number, and which later element is used to illustrate valence electrons with an atomic diagram?",
+        "answer": "Carbon-13 is used for the isotope/neutron example, and oxygen is used later to illustrate valence electrons with an atomic diagram.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            74,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 74 explains Carbon-13 notation and computes neutrons using 13 − 6. Step 2: Slice 83 shows an oxygen atom diagram labeled with 8 protons, 10 neutrons, and 6 valence electrons. Conclusion: The isotope example is carbon, and the later valence-electron diagram is oxygen.",
+        "logic_check_reasoning": "Step 1: Slice 74 explicitly shows Carbon-13 (^13_6C) used to explain isotopes and computing neutrons via mass number minus atomic number (13 - 6 = 7). Step 2: Slice 83 shows an atomic diagram of oxygen labeled with 8 protons, 10 neutrons, and 6 valence electrons, indicating it is used to illustrate valence electrons. Logic holds because the first element is Carbon-13 for neutron computation, and the later example focuses on oxygen's valence electrons in an atomic diagram.",
+        "visual_proof": "In Clip 1, the screen displays 'Carbon-13' with its isotope notation (13/6 C) and a calculation showing 'Mass Number = Protons + Neutrons' leading to 'Neutrons = 7'. In Clip 2, the screen shows an atomic diagram labeled '18/8 O', which corresponds to Oxygen-18, with text explicitly stating '6 Valence Electrons'."
+    },
+    {
+        "question": "What formula is introduced for computing mass percent during the percent composition segment, and what final compound formula is later identified after using percent composition and molar mass to determine the elements?",
+        "answer": "Mass % = (mass of element / mass of compound) × 100, and the final compound formula identified is Al₂(SiO₃)₃.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            68,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 68 introduces the mass percent formula for percent composition. Step 2: Slice 71 shows the worked identification of elements leading to the formula Al₂(SiO₃)₃. Conclusion: The mass-percent method leads to the final identified compound formula Al₂(SiO₃)₃.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 68 explicitly states the percent composition formula as Mass % = (mass of element / mass of compound) x 100. Step 2: Evidence Slice 71 details the calculation process and concludes with the identified compound formula Al2(SiO3)3. Logic holds because the first slice introduces the formula used in percent composition, and the second slice provides the final compound derived from applying percent composition and molar mass analysis.",
+        "visual_proof": "Clip 1 visually displays the formula 'Mass % = (mass of element / mass of compound) × 100' on the slide. Clip 2 shows the problem-solving process where the calculated molar masses for X, Y, and Z are matched to Aluminum (Al), Silicon (Si), and Oxygen (O) respectively, leading to the final formula 'Al₂(SiO₃)₃' being written on the slide."
+    },
+    {
+        "question": "In the boiling-water problem, what initial temperature is used for the water, what temperature change is computed later, and what final heat requirement for the water is then referenced in the subsequent heat-generated step?",
+        "answer": "The initial temperature is 25°C, the temperature change computed is 75°C, and the heat requirement referenced is q = 1.10 × 10⁷ J.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            59,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 31 states the water starts at 25°C in the boiling-water scenario. Step 2: Slice 59 computes ΔT as 100°C − 25°C = 75°C. Step 3: Slice 61 references the computed heat requirement as q = 1.10 × 10⁷ J. Conclusion: 25°C leads to ΔT = 75°C and then to q = 1.10 × 10⁷ J.",
+        "logic_check_reasoning": "Step 1: Slice 31 explicitly states the initial temperature of the water is 25.0°C. Step 2: Slice 59 shows the calculation ΔT = 100.0°C − 25.0°C = 75.0°C and uses q = m·c·ΔT for 35 L of water. Step 3: Slice 61 shows a subsequent step labeled 'Find the heat generated' with q = 1.10 × 10^7 J and explains −q_system = q_surroundings with water as the system, thereby referencing the heat magnitude associated with heating the water. Despite a fuel naming difference across slices, the water-heating calculation remains consistent and the value is explicitly shown.",
+        "visual_proof": "In Clip 2 (frame 1:13), the slide explicitly states 'Ti = 25.0°C' and calculates 'ΔT = 75.0°C'. In Clip 3 (frame 0:06), the slide under step 3 'Find the heat generated' displays the value 'q = 1.10 x 10^7 J', which corresponds to the heat required for the water."
+    },
+    {
+        "question": "Which value is used as the standard enthalpy of formation for the hydrocarbon fuel in the combustion-enthalpy table, and what later step uses that reaction enthalpy to convert heat needs into moles of fuel?",
+        "answer": "The hydrocarbon fuel’s value shown is −224.4 kJ/mol, and later the 'determine moles of fuel needed' step uses the reaction enthalpy to convert required heat into moles.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            53,
+            49,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 53 shows a combustion setup with a table where the hydrocarbon (octane) has ΔH°f = −224.4 kJ/mol. Step 2: Slice 49 lists 'Determine the moles of fuel needed' as a specific step in the plan. Step 3: Slice 66 performs the conversion from heat to moles using a combustion enthalpy value. Conclusion: The −224.4 kJ/mol formation enthalpy is part of establishing ΔH°rxn, which is then used to convert heat requirements into moles of fuel.",
+        "logic_check_reasoning": "Step 1: Slice 53 explicitly shows a Standard Enthalpies of Formation table listing C8H18(l) with ΔH°f = −224.4 kJ/mol, supporting the first part of the answer. Step 2: Slice 49 lists a later step \"Determine the moles of C8H18 needed\" in an advanced thermochemistry problem after calculating ΔH°rxn, indicating moles are found using reaction enthalpy. Step 3: Slice 66 further confirms the methodology by showing \"Step 4: Find Moles\" where the enthalpy of combustion is used to convert required heat into moles of hydrocarbon fuel (C7H16), demonstrating that the later step uses reaction enthalpy to convert heat needs into moles. The logic across slices is consistent with the proposed answer.",
+        "visual_proof": "In Clip 1 (0:03), the table 'STANDARD ENTHALPIES OF FORMATION' clearly lists C7H16 with a ΔH°f of -224.4 kJ/mol. In Clip 3 (0:56), Step 4 'Find moles of C7H16 needed' shows a calculation that uses the previously calculated reaction enthalpy (-4,464.5 kJ/mol) to convert the total heat requirement (-7.32 x 10^7 J) into moles of C7H16, resulting in 16.4 mol."
+    },
+    {
+        "question": "How does the lesson move from identifying isotopic particle counts to discussing chemical bonding readiness, and what two specific numeric valence-electron counts are shown for carbon and oxygen in those later visuals?",
+        "answer": "It moves from isotope notation/particle counts (like Carbon-13 and Oxygen-18) to valence electrons for Lewis structures; carbon is shown with 4 valence electrons and oxygen with 6 valence electrons.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            74,
+            80,
+            79,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 74 teaches isotope notation and particle counts using Carbon-13. Step 2: Slice 80 extends isotope counting to Oxygen-18. Step 3: Slice 79 shows a carbon atom diagram explicitly labeled with '4 Valence Electrons.' Step 4: Slice 83 shows an oxygen diagram labeled with '6 valence electrons.' Conclusion: The instruction transitions from isotope particle accounting to bonding-relevant valence electrons, highlighting C=4 and O=6.",
+        "logic_check_reasoning": "Step 1: Slice 74 shows the presenter using isotope notation for Carbon-13 (13 over 6 C), explaining mass number vs atomic number and calculating neutrons (13 - 6 = 7), which establishes isotopic particle counts. Step 2: Slice 80 similarly covers Oxygen-18, breaking down mass number and atomic number, calculating 10 neutrons, and references downloadable Lewis structures notes, indicating a transition toward bonding-related content. Step 3: Slice 79 displays a diagram for carbon (with 6 P and 7 N) that explicitly lists '4 Valence Electrons,' showing the shift to chemical bonding readiness via valence electrons. Step 4: Slice 83 shows an oxygen atom labeled with 8 P, 10 N, and '6 valence electrons,' confirming the valence counts for oxygen in the later visuals. Logic holds because the lesson progresses from isotopic composition to valence electron counts tied to Lewis structures, with numeric valence values of 4 for carbon and 6 for oxygen explicitly shown.",
+        "visual_proof": "Clip 1 shows the initial setup for Carbon-13, calculating protons and neutrons. Clip 2 then displays a Bohr model for Carbon-13 with text explicitly stating '4 Valence Electrons'. Clip 3 transitions to Oxygen-18, performing similar particle count calculations. Clip 4 displays the Bohr model for Oxygen-18 with text explicitly stating '6 Valence Electrons'. The progression from isotope notation to valence electron counts for bonding is clearly visualized across these clips."
+    }
+]

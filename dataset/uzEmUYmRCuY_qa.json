@@ -1,0 +1,97 @@
+[
+    {
+        "question": "What later serving ritual links the berry mixture to tea drinking, and what is added to the tea?",
+        "answer": "Berry preserve/jam is spooned into tea from the samovar setup.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            67,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 67 shows wooden bowls filled with red berry mixture on a table alongside a samovar. Step 2: Slice 68 shows tea poured from the samovar and a spoonful of red berry preserve added into the teacup. Conclusion: The berry mixture is used as an addition to tea.",
+        "logic_check_reasoning": "Step 1: Slice 67 shows wooden bowls with a red berry mixture and a samovar on the table, indicating both items are part of the same setup. Step 2: Slice 68 explicitly describes pouring tea from the samovar into a teacup and then spooning the red berry preserve from the wooden bowl into the tea. Logic holds because the later action directly connects the berry mixture to the tea ritual, and it specifies that the preserve/jam is added to the tea.",
+        "visual_proof": "In Clip 1, a man prepares several bowls of a red berry mixture next to a samovar. In Clip 2, after tea is poured from the samovar into a glass, a hand is shown using a spoon to take some of the berry mixture from a wooden bowl and add it directly into the tea glass."
+    },
+    {
+        "question": "What evidence links the ornate hot-water dispenser to later tea being enjoyed by both an adult and children at the long table?",
+        "answer": "Hot water is dispensed from a samovar into a teapot earlier, and later tea is shown being drunk by an adult and then by children at the table.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            63,
+            70,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 63 shows hot water from an ornate dispenser filling a glass teapot to brew a drink. Step 2: Slice 70 shows an adult man sipping a similar drink outdoors. Step 3: Slice 72 shows children sipping drinks from glasses at the long table. Conclusion: The brewed tea from the dispenser is later consumed by both adult and children.",
+        "logic_check_reasoning": "Step 1: Slice 63 shows hot water being poured from an ornate metal water dispenser into a clear glass teapot, mixing with a white granular substance and changing color, indicating brewing. Step 2: Slice 70 shows an adult drinking what is described as tea or a similar beverage, followed by children at a long wooden table drinking the same type of beverage. Step 3: Slice 72 further shows children enjoying drinks at the table. Logic holds because the earlier brewing with the ornate dispenser suggests tea preparation, and later scenes depict an adult and children consuming that tea-like beverage, linking the dispenser to the tea being enjoyed.",
+        "visual_proof": "Clip 1 shows hot water being poured from a large metal dispenser (samovar) into a glass teapot with tea leaves. Clip 2 shows an adult man drinking tea from a traditional glass. Clip 3 shows multiple children at a long table also drinking tea from similar glasses. The consistent use of the same type of ornate glassware for tea, combined with the sequential actions of preparing tea and then consuming it, visually links the dispenser to the final consumption by both adults and children."
+    },
+    {
+        "question": "After harvesting strawberries in the field, what later step shows those strawberries being prepared for cooking by removing their stems?",
+        "answer": "The man removes stems from strawberries at an outdoor table, moving them from a large bowl into another bowl.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the man kneeling in the strawberry field picking berries into a woven basket. Step 2: Slice 12 shows him at an outdoor table de-stemming strawberries from a large bowl into another bowl. Conclusion: The harvested strawberries are later prepared for cooking by removing their stems.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a man harvesting strawberries in a field. Step 2: Slice 12 shows a man at an outdoor table removing stems from strawberries, transferring them from a large bowl to an empty bowl. Logic holds because the later step explicitly involves preparing the harvested strawberries by removing stems, matching the question and the proposed answer.",
+        "visual_proof": "In Video 2, the man is shown standing at an outdoor wooden table. He takes strawberries one by one from a large metal tray (which he brought to the table) and uses his hands to remove the green leafy tops (stems/calyxes). He then places the de-stemmed berries into a white enamel bowl with a strawberry pattern. This action directly follows the harvesting scene in Video 1."
+    },
+    {
+        "question": "Which ingredient is first shown being washed under running water and later shown shredded and added into a pale mixture in a large pot?",
+        "answer": "Carrots.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows carrots being washed under running water. Step 2: Slice 45 shows shredded carrots being added to a large pot of light-colored liquid after flour is added. Conclusion: The washed ingredient later shredded and added is carrots.",
+        "logic_check_reasoning": "Step 1: Slice 31 states that a person is washing carrots under running water. Step 2: Slice 45 states that shredded carrots are added into a pale mixture in a large pot. Logic holds because the same ingredient—carrots—is explicitly mentioned in both slices, first being washed and later being shredded and added to the pot.",
+        "visual_proof": "In the first clip, carrots are visibly washed under running water and then peeled. In the second clip, shredded carrots are poured from a bowl into a large pot containing a pale, steaming mixture, confirming they are the ingredient shown in both actions."
+    },
+    {
+        "question": "How does the video connect early berry harvesting to later preservation in jars, and what fruit is placed into the jars?",
+        "answer": "Strawberries are harvested first and later placed into glass jars for preservation; the fruit is strawberries.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            12,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows strawberries being harvested into a basket. Step 2: Slice 12 shows strawberries being prepared at a table (stems removed). Step 3: Slice 50 shows strawberries being placed into glass jars. Conclusion: Harvested strawberries are prepared and then jarred for preservation.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows the man harvesting strawberries in a field, establishing early berry harvesting. Step 2: Slice 12 shows the man preparing strawberries by removing stems, indicating post-harvest processing. Step 3: Slice 50 explicitly shows strawberries being placed into empty glass jars, with a narrative suggesting canning/preserving. Logic holds because the sequence demonstrates harvesting leading to preparation and then preservation in jars, and the fruit placed in the jars is identified as strawberries.",
+        "visual_proof": "Clip 1 shows a man picking red strawberries from plants into a basket. Clip 2 shows him sorting these same red strawberries on a table. Clip 3 shows the strawberries being placed into clear glass jars, confirming the sequence from harvesting to preservation."
+    },
+    {
+        "question": "Which chain of scenes shows fruit being combined in bottles, sweetened, and then topped off with a pink strawberry liquid?",
+        "answer": "Fruit is placed into bottles, sugar is added, and then pink strawberry lemonade is poured over the fruit in jars.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            52,
+            53,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 52 shows fruit slices placed into bottles for an infused drink. Step 2: Slice 53 shows sugar being poured into fruit-filled bottles. Step 3: Slice 55 shows pink strawberry liquid poured into jars over strawberry and lemon layers. Conclusion: The drink/preserve process combines fruit, adds sweetener, then adds the pink liquid.",
+        "logic_check_reasoning": "Step 1: Slice 52 shows a man placing sliced fruits into glass bottles, matching 'fruit is placed into bottles.' Step 2: Slice 53 shows granulated sugar being added into those fruit-filled bottles, matching 'sugar is added.' Step 3: Slice 55 shows a pink strawberry lemonade being poured over fruit layers in glass jars, matching 'then pink strawberry lemonade is poured over the fruit in jars.' Although the vessels change from bottles to jars, the chain of actions—combine fruit, sweeten, top off with pink strawberry liquid—is explicitly supported across the slices.",
+        "visual_proof": "Clip 1 shows strawberries and lemon slices being placed into glass bottles. Clip 2 shows sugar being scooped from a bowl and added to the bottles containing the fruit. Clip 3 shows a large pot of bubbling pink liquid (strawberry mixture) being ladled and poured into the same bottles, topping off the fruit and sugar."
+    },
+    {
+        "question": "How is a nature close-up echoed later with another insect-on-flower shot, and what two insects are featured?",
+        "answer": "An early ladybug close-up is echoed later by a bee on a white flower; the insects are a ladybug and a bee.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            11,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 1 includes a close-up of a ladybug on a fern leaf. Step 2: Slice 11 shows a man holding a ladybug and moving it to a white flower. Step 3: Slice 36 shows a bee on a white flower. Conclusion: The video returns to small nature details featuring a ladybug and later a bee.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes an early nature close-up of a ladybug resting on a fern leaf. Step 2: Evidence Slice 36 describes a later close-up of a bee on a white flower, which is an insect-on-flower shot. Step 3: The two insects explicitly mentioned are a ladybug (Slice 1) and a bee (Slice 36). Therefore, the answer is supported by the context.",
+        "visual_proof": "Clip 1 (0:06) shows a red ladybug on a green fern frond. Clip 2 (0:07) shows a red ladybug on a white flower head. Clip 3 (0:00-0:02) shows a bee landing on and moving across the same type of white flower head, creating a visual echo of the earlier insect-on-flower shots. The two distinct insects featured are clearly identifiable as a ladybug and a bee."
+    }
+]

@@ -1,0 +1,126 @@
+[
+    {
+        "question": "Which location is first shown as an ornate interior with no visible visitors, and later shown with people walking and exploring exhibits?",
+        "answer": "The Austrian National Library is first shown empty-looking, then later shown with visitors walking and exploring exhibits.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the Austrian National Library interior with no people visible. Step 2: Slice 11 shows people walking around and viewing exhibits. Conclusion: The library shifts from empty to occupied.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 9 describes the Austrian National Library’s ornate interior and notes that no people are visible. Step 2: Evidence Slice 11 again identifies the Austrian National Library and states that people are walking around and viewing exhibits. Logic holds because both slices refer to the same location, first shown empty and later with visitors exploring exhibits.",
+        "visual_proof": "Clip 1 (0:04-0:06) shows the ornate interior of the Austrian National Library with no people visible. Clip 2 (0:13-0:15) shows the same library hall, now populated with visitors walking between display panels and examining exhibits."
+    },
+    {
+        "question": "Which landmark is shown with tram and subway transit scenes leading into it, and later shown again from above with the city skyline in the afternoon?",
+        "answer": "Vienna State Opera",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            65,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows city transit (tram/subway) and then St. Stephen’s Cathedral. Step 2: Slice 70 shows an aerial view labeled “AFTERNOON: ST. STEPHEN’S CATHEDRAL.” Conclusion: Both segments refer to St. Stephen’s Cathedral at different moments and perspectives.",
+        "logic_check_reasoning": "Step 1: Slice 65 shows tram and subway station scenes followed by the interior and exterior of St. Stephen's Cathedral, indicating the transit scenes lead into that landmark. Step 2: Slice 70 shows an aerial view from St. Stephen's Cathedral with the overlay 'AFTERNOON: ST. STEPHEN'S CATHEDRAL,' depicting it again from above with the city skyline. Logic holds because both slices explicitly identify St. Stephen's Cathedral as the landmark connected to the transit lead-in and the later aerial afternoon view.",
+        "original_text_answer": "St. Stephen’s Cathedral.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 visually connects the Vienna State Opera with scenes of a tram (0:08-0:10) and a subway station (0:11-0:13) labeled 'The Oper, Karlsplatz U Station', which is directly associated with the opera house. The exterior of the Vienna State Opera is then shown at 0:17-0:19. Clip 2 shows an aerial view of the city skyline from St. Stephen's Cathedral, as indicated by the on-screen text 'AFTERNOON: ST. STEPHEN'S CATHEDRAL' (0:00-0:04). Therefore, the landmark shown with transit scenes leading into it and later from above is the Vienna State Opera, not St. Stephen's Cathedral."
+    },
+    {
+        "question": "Which airport-to-city transport option is shown first, and which later train system is seen moving along the tracks in a different segment?",
+        "answer": "First, the green CAT (City Airport Train) is shown; later, a red-and-white ÖBB train is shown moving along the tracks.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows Vienna International Airport and the green CAT (City Airport Train). Step 2: Slice 3 shows a red-and-white train with “ÖBB” on its side. Conclusion: The first transport is CAT; the later train is ÖBB.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a green train labeled 'CAT (City Airport Train)' at Vienna International Airport, clearly identifying the airport-to-city transport option shown first. Step 2: Slice 3 describes a red-and-white train with 'OBB' on its side (Austrian Federal Railways) moving along a track, which is a later segment showing a different train system. Logic holds because the first segment explicitly features CAT at the airport, and a later, separate segment shows an ÖBB train moving along the tracks.",
+        "visual_proof": "In Video 1 (0:07-0:10), a green and white train with 'CAT' branding is clearly visible at the station and departing. In Video 2 (0:00-0:02), a distinct red and white train with 'ÖBB' branding is shown arriving at a different station platform. The sequence of clips confirms the CAT train appears first, followed by the ÖBB train."
+    },
+    {
+        "question": "Across the trip, which two different green-domed landmarks appear at separate times: one in a palace-square setting and another later as part of a major church facade?",
+        "answer": "The Hofburg Palace complex shows green domes in the palace-square scenes, and Karlskirche later shows a prominent green dome on its church facade.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows Michaelerplatz/Hofburg with green domes in the background. Step 2: Slice 55 shows Karlskirche with a prominent green copper dome. Conclusion: Two distinct green-domed landmarks are Hofburg and Karlskirche.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 18 describes Michaelerplatz with the Hofburg Palace, explicitly noting its \"iconic green domes\" in a palace-square setting. Step 2: Evidence Slice 55 describes Karlskirche, a major church, and explicitly mentions the dome's \"green copper roof\" as part of the church facade. Logic holds because the two slices clearly reference different landmarks with green domes appearing at different times: one at the palace square (Hofburg) and later at the church (Karlskirche).",
+        "visual_proof": "Clip 1 (0:00-0:10) clearly shows the Hofburg Palace with its distinctive green domes in the background of Michaelerplatz. Clip 2 (0:00-0:04) features the Karlskirche, prominently displaying its large central green dome as part of its main facade. The two landmarks are visually distinct and appear in separate clips."
+    },
+    {
+        "question": "At the Palace of Justice, what daytime context is shown outside first, and what later indoor action involves people moving toward the central statue?",
+        "answer": "Outside in the morning, pedestrians walk along the Palace of Justice; later indoors, three people in black robes walk up the staircase toward the Lady Justice statue.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 4 labels the Palace of Justice in the morning and shows pedestrians outside. Step 2: Slice 6 shows the interior with three robed individuals ascending toward the statue. Conclusion: Outdoor morning street scene precedes the indoor robed procession.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly states a text overlay \"MORNING: PALACE OF JUSTICE (JUSTIZPALAST)\" and describes pedestrians walking along the sidewalk outside the building, confirming the outside morning context with people walking. Step 2: Slice 6 describes the interior atrium with a central Lady Justice statue and notes that three individuals in black robes walk up the staircase toward the statue, confirming the later indoor action. Logic holds because the question asks for the initial outside daytime context and the subsequent indoor movement, both of which are directly described in the slices.",
+        "visual_proof": "Clip 1 (0:03) shows pedestrians walking on a street outside the Palace of Justice under daylight conditions, with an on-screen label confirming 'MORNING'. Clip 2 (0:01) shows three individuals dressed in dark robes ascending the grand central staircase inside the building, moving directly towards the large Statue of Lady Justice at the top."
+    },
+    {
+        "question": "Which landmark is shown with a sign and map of its grounds, and which nearby garden is later highlighted as an afternoon stop next to it?",
+        "answer": "Hofburg Palace is shown with a sign and map, and Burggarten is later highlighted as the afternoon stop next to it.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 20 includes a “Hofburg Palace” sign and a map of the palace grounds. Step 2: Slice 22 shifts to “Afternoon at Burggarten,” described as adjacent to the Hofburg. Conclusion: Hofburg map/sign appears before the Burggarten afternoon visit.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly states the camera shows a sign that reads 'Hofburg Palace' and a map of the palace grounds, identifying the landmark with a sign and map. Step 2: Slice 22 describes an 'Afternoon at Burggarten,' noting it is adjacent to the Hofburg Palace, thereby highlighting Burggarten as the afternoon stop next to the palace. Logic holds because the first slice identifies the landmark and the second slice identifies the nearby garden featured later.",
+        "visual_proof": "The first clip explicitly displays text overlays identifying 'HOFBURG PALACE (HOFBURG WIEN)' alongside visuals of its exterior and interior. The second clip concludes with a scene of a manicured garden featuring a prominent statue and floral arrangements, accompanied by a text overlay reading 'AFTERNOON: BURGGARTEN', confirming it as the subsequent location."
+    },
+    {
+        "question": "Which Gothic church is shown repeatedly in the afternoon, and which major civic building later appears with a prominent welcome banner on its facade?",
+        "answer": "The Votive Church (Votivkirche) is shown in the afternoon, and the Rathaus (City Hall) later appears with a 'Wien ist le(n)k wand!' banner.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 31 labels the Votive Church as “Afternoon.” Step 2: Slice 38 shows the Rathaus with a banner reading “Welcome to Vienna.” Conclusion: Afternoon Votive Church is followed later by the Rathaus welcome-banner scene.",
+        "logic_check_reasoning": "Step 1: Slice 31 explicitly identifies the Gothic church as the Votive Church (Votivkirche) and notes the on-screen text 'Afternoon,' supporting that the church is shown in the afternoon. Step 2: Slice 38 explicitly describes the Rathaus (City Hall) with a prominently displayed banner reading 'Welcome to Vienna' on its facade. Logic holds because both parts of the answer directly match the captions: the Gothic church is named and tied to the afternoon in Slice 31, and the civic building with the welcome banner is identified in Slice 38.",
+        "original_text_answer": "The Votive Church (Votivkirche) is shown in the afternoon, and the Rathaus (City Hall) later appears with a “Welcome to Vienna” banner.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 clearly shows the Votive Church with its Gothic architecture and on-screen text identifying it as 'VOTIVE CHURCH (VOTIVKIRCHE)'. Clip 2 then shows the Rathaus with a large yellow banner on its facade that reads 'Wien ist le(n)k wand!', not 'Welcome to Vienna'."
+    },
+    {
+        "question": "Which set of locations follows a daytime palace-square scene with horse-drawn carriages, then highlights a nearby palace sign/map, and later moves to an adjacent garden in the afternoon?",
+        "answer": "Michaelerplatz (horse-drawn carriage scene), Hofburg Palace (sign and map), then Burggarten (afternoon garden).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            20,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows Michaelerplatz with a horse-drawn carriage by the Hofburg/Sisi Museum area. Step 2: Slice 20 shows the Hofburg Palace sign and a map of the grounds. Step 3: Slice 22 shifts to “Afternoon at Burggarten,” adjacent to the Hofburg. Conclusion: The itinerary moves from the square to palace orientation to the neighboring garden.",
+        "logic_check_reasoning": "Step 1: Slice 17 describes Michaelerplatz with a daytime palace-square scene featuring a horse-drawn carriage in front of buildings identified as part of the Hofburg complex (Sisi Museum/Spanish Riding School). Step 2: Slice 20 explicitly shows a Hofburg Palace sign and a map of the palace grounds, aligning with the 'nearby palace sign/map' element. Step 3: Slice 22 later moves to the Burggarten in the afternoon, described as a garden adjacent to the Hofburg Palace. Logic holds because the locations match the sequence: palace-square with carriages (Michaelerplatz), then the palace sign/map (Hofburg Palace), and finally the adjacent garden in the afternoon (Burggarten).",
+        "visual_proof": "Clip 1 opens at Michaelerplatz with horse-drawn carriages and text identifying the location. Clip 2 features multiple exterior shots of the Hofburg Palace, including aerial views and ground-level scenes with signage explicitly labeling it 'HOFBURG PALACE (HOFBURG WIEN)'. Clip 3 concludes with a scene labeled 'AFTERNOON: BURGGARTEN', showing a manicured garden with floral patterns and a statue, confirming the transition to an adjacent garden in the afternoon."
+    },
+    {
+        "question": "Which itinerary chain links indoor butterflies, then a famous café stop, then a major Gothic church visit, and finally a civic landmark (City Hall) scene?",
+        "answer": "Schmetterlinghaus (butterflies) → Café Central → Votive Church → Rathaus (City Hall).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            24,
+            27,
+            31,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows the Schmetterlinghaus butterfly house. Step 2: Slice 27 shows the grand interior of Café Central. Step 3: Slice 31 shows the Votive Church in the afternoon. Step 4: Slice 38 shows the Rathaus/City Hall. Conclusion: These segments form a multi-stop culture-and-café itinerary.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows the Schmetterlinghaus (Butterfly House) with indoor butterflies, satisfying the 'indoor butterflies' part. Step 2: Slice 27 depicts Café Central, a famous café, matching the 'famous café stop.' Step 3: Slice 31 explicitly labels the Votive Church (Votivkirche), a major Gothic church, fulfilling the 'major Gothic church visit.' Step 4: Slice 38 features the Rathaus (City Hall), covering the 'civic landmark (City Hall) scene.' The proposed chain follows this exact sequence.",
+        "visual_proof": "Clip 1 visually confirms the Schmetterlinghaus with its Art Nouveau Palm House and butterflies. Clip 2 shows the ornate interior of Café Central. Clip 3 features the distinct Gothic architecture of the Votive Church. Clip 4 clearly displays the Rathaus (City Hall) from multiple angles, including its exterior and surrounding square. The sequence of locations presented in the clips directly matches the itinerary chain described in the original answer."
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "question": "After someone pulls out a large inflatable green dinosaur costume, what other green dinosaur item is later shown as part of the room’s displayed memorabilia?",
+        "answer": "A green plastic dinosaur toy is shown later among the wall memorabilia.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows the person pulling out a large inflatable green dinosaur costume. Step 2: Slice 55 shows a green plastic dinosaur toy displayed among items on the wall. Conclusion: The later green dinosaur item is a green plastic dinosaur toy.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 30 describes a young man pulling out a large inflatable green dinosaur costume. Step 2: Evidence Slice 55 later mentions a green plastic dinosaur toy among the wall memorabilia. Logic holds because the question asks for another green dinosaur item shown later, and Slice 55 explicitly identifies a green plastic dinosaur toy displayed on the wall.",
+        "visual_proof": "In Video 1, the person pulls out a large inflatable green dinosaur costume. In Video 2, at timestamp 0:03, a small green plastic dinosaur toy in packaging is clearly visible on the wall among other memorabilia, next to the 'Barbapapa' poster."
+    },
+    {
+        "question": "What is the title of the happiness-themed book that gets flipped through, and which later sticky-note message encourages attention to personal input or media diet?",
+        "answer": "The book is titled \"14,000 Things to Be Happy About,\" and the sticky note says \"PAY ATTENTION TO WHAT YOU CONSUME.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            98
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the book titled \"14,000 Things to Be Happy About\" being flipped through. Step 2: Slice 98 shows sticky notes including the message \"PAY ATTENTION TO WHAT YOU CONSUME.\" Conclusion: The title is the happiness book, and the later advice is the sticky-note message.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 22 explicitly states the book being flipped through is titled '14,000 Things to Be Happy About.' Step 2: Evidence Slice 98 lists sticky-note messages, including 'PAY ATTENTION TO WHAT YOU CONSUME,' which directly aligns with the prompt about attention to personal input/media diet. Logic holds because both items are clearly identified in the provided slices.",
+        "visual_proof": "In Clip 1 (0:01-0:03), the title \"14,000 things to be happy about\" is clearly legible on the book cover as it's being held and flipped. In Clip 2 (0:06), a light blue sticky note with the handwritten text \"PAY ATTENTION TO WHAT YOU CONSUME\" is visible among other notes, and a finger points directly at it."
+    },
+    {
+        "question": "When the person puts on shoes from the rack, what color are the sneakers, and what later lighting color dominates many of the earlier room and sneaker-shelf scenes?",
+        "answer": "The sneakers are pink and white, and purple lighting dominates many earlier scenes.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows someone putting on pink and white sneakers. Step 2: Slice 2 depicts the room lit with vibrant purple light. Conclusion: The worn shoes are pink/white and the common earlier lighting is purple.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 26 explicitly states the person picks up and puts on pink and white sneakers from the shoe rack, confirming the sneaker colors. Step 2: Evidence Slice 2 describes a room with sneaker shelves illuminated by vibrant purple light, indicating that purple lighting dominates those room and sneaker-shelf scenes. Logic holds because the question asks for the color of the shoes in the rack scene (supported by Slice 26) and the dominant lighting color in the room/shelf scenes (supported by Slice 2), regardless of any character naming differences.",
+        "visual_proof": "In Video 1, the person handles a sneaker with a prominent pink and white color scheme. In Video 2, the room is bathed in a distinct purple/pink ambient light, which is also visible on the shoe rack in Video 1, confirming the dominant lighting color."
+    },
+    {
+        "question": "What item is used for self-care by being poured into a bathtub, and what nearby bedroom item is repeatedly highlighted earlier by touch and close-up shots?",
+        "answer": "Epsom salts are poured into the bathtub, and the colorful quilt on the bed is repeatedly highlighted earlier.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            81,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 72 shows a hand touching and admiring the bed’s colorful quilt in close-up. Step 2: Slice 81 shows a bag of Epsom salts carried to the bathroom and poured into the bathtub. Conclusion: The self-care item is Epsom salts and the earlier highlighted bedroom item is the quilt.",
+        "logic_check_reasoning": "Step 1: Slice 81 explicitly shows a person holding a bag of Epsom salts and pouring them into a bathtub, describing the self-care and relaxation. Step 2: Slice 72 describes close-up shots and touch focusing on a colorful quilt on a bed, highlighting it earlier in the video. The logic holds because Slice 81 confirms the self-care item (Epsom salts) and also references the bed with a colorful quilt, while Slice 72 focuses on that quilt through touch and close-ups, matching the 'nearby bedroom item' description.",
+        "visual_proof": "In Clip 1 (0:10), a hand holds a bag clearly labeled 'EPSOM SALTS' with 'sleep formula' and 'lavender essential oil', indicating its use for self-care. In Clip 2 (0:01-0:02), a hand is shown touching and smoothing the colorful, patchwork quilt on the bed, which was also visible in Clip 1 (0:06-0:07) as the camera panned over it. This confirms both parts of the answer are visually supported."
+    },
+    {
+        "question": "Which item appears both as a wall decoration and later as an instrument being played up close, and what famous band imagery is associated with that area of the room?",
+        "answer": "A guitar appears in both cases, and The Beatles imagery is associated with the area.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            53,
+            57,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 53 shows a miniature guitar mounted on the wall. Step 2: Slice 57 shows a guitar being held and strummed in close-up. Step 3: Slice 18 shows Beatles posters in the room decor. Conclusion: The repeated instrument is a guitar and it’s paired with Beatles imagery in the room.",
+        "logic_check_reasoning": "Step 1: Slice 53 describes a miniature guitar mounted on the wall as part of the decor. Step 2: Slice 57 shows a close-up of a person holding and playing a guitar, and notes a Beatles poster on the wall. Step 3: Slice 18 further confirms Beatles imagery in the room. Logic holds because the guitar is present both as a wall decoration and as an instrument being played, and Beatles imagery is clearly associated with that area.",
+        "visual_proof": "In Clip 1 (0:03-0:04), a light blue electric guitar is clearly visible mounted on the wall as a decoration. In Clip 2 (0:01-0:02), the same guitar is seen being held and played up close by the person. Directly below the guitar on the wall, in both Clip 1 and Clip 2, there is a large poster of The Beatles crossing the Abbey Road zebra crossing."
+    },
+    {
+        "question": "What progression of reading materials moves from a happiness list book, to a travel destinations book, and then to a brochure about a specific place?",
+        "answer": "It goes from \"14,000 Things to Be Happy About\" to \"1,000 Places to See Before You Die\" and then to a brochure labeled \"Carrboro.\"",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            60,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the person flipping through \"14,000 Things to Be Happy About.\" Step 2: Slice 60 shows pulling out and paging through \"1,000 Places to See Before You Die.\" Step 3: Slice 62 shows the hand holding and flipping a brochure with \"Carrboro\" on it. Conclusion: The materials progress from happiness book to travel book to Carrboro brochure.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly shows a person flipping through the book titled '14,000 Things to Be Happy About,' establishing the first item in the progression (happiness list book). Step 2: Slice 60 shows the person pulling out and browsing '1000 Places to See Before You Die,' and Slice 62 further confirms the same book ('1,000 Places to See Before You Die' by Patricia Schultz), establishing the second item (travel destinations book). Step 3: Slice 62 ends with the person holding and flipping through a brochure labeled 'Carrboro,' which is a specific place, fulfilling the third item. Logic holds because the slices collectively depict a sequence moving from the happiness list book to the travel destinations book and then to a brochure about a specific place.",
+        "visual_proof": "Clip 1 shows the person holding and flipping through \"14,000 Things to Be Happy About.\" Clip 2 shows them retrieving and opening \"1,000 Places to See Before You Die.\" Clip 3 shows them picking up a brochure with \"Carrboro\" clearly visible on the cover. The sequence of actions and visible titles directly match the progression described in the answer."
+    },
+    {
+        "question": "During the shoe-focused segments, what is the brand on the green-and-white sneakers being examined, and which sneaker brand name also appears on stacked boxes in the collection shots?",
+        "answer": "The green-and-white sneakers are Nike, and Karhu is also shown on stacked shoeboxes.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            12,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows green-and-white sneakers with a Nike logo being examined. Step 2: Slice 12 shows Nike and Karhu shoeboxes stacked on a shelf. Step 3: Slice 13 again shows Nike and Karhu boxes while showcasing colorful sneakers. Conclusion: The examined shoe brand is Nike and the other box brand is Karhu.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly states the man is examining green-and-white sneakers with the Nike logo, confirming the brand as Nike. Step 2: Slice 12 describes stacked shoeboxes that include boxes from the Finnish brand Karhu, and notes they are neatly stacked; Slice 13 also mentions shoeboxes featuring brands like Nike and Karhu. Logic holds because the examined sneakers are identified as Nike in Slice 9, and Karhu is clearly present on stacked boxes in the collection shots in Slices 12 and 13.",
+        "visual_proof": "In Clip 1 (0:03), the person holds a green-and-white sneaker with a visible white Nike swoosh. In Clips 1, 2, and 3, stacked shoeboxes prominently display the 'NIKE' logo in red and the 'KARHU' logo in blue on white boxes."
+    },
+    {
+        "question": "When the room tour highlights both performance/recording and music, what handheld audio-related object appears during a closet performance moment, what gear is adjusted later near the bed, and what instrument is shown being played?",
+        "answer": "A microphone is used during a closet performance moment, a portable speaker/audio device with a purple glow is adjusted near the bed, and a guitar is shown being played.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            42,
+            67,
+            57,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows the person in front of the closet speaking/singing into a microphone. Step 2: Slice 65 shows hands adjusting knobs on a vintage-style audio device. Step 3: Slice 67 shows a portable speaker/audio device near the bed being adjusted/plugged in with a purple power glow. Step 4: Slice 57 shows a guitar being strummed in the room. Conclusion: The tour links a microphone, audio gear setup, and guitar playing.",
+        "logic_check_reasoning": "Step 1: Slice 42 shows a young man in front of an open closet speaking or singing into a handheld microphone, confirming the handheld audio-related object is a microphone. Step 2: Slice 67 describes a black electronic device near a bed with a glowing purple light being adjusted, identified as a portable speaker or audio equipment, matching the gear adjusted near the bed. Step 3: Slice 57 shows someone holding and strumming a guitar, confirming the instrument being played is a guitar. The proposed answer aligns with these slices.",
+        "visual_proof": "Clip 1 shows the person in a closet with posters, implying a performance space. Clip 2 shows a hand adjusting a black audio device (likely a speaker or interface) next to a purple exercise ball, which emits a purple glow. Clip 3 shows a hand picking up an acoustic guitar from a wall. Clip 4 shows a hand attaching a small audio device (possibly a mic or preamp) to the guitar's headstock, confirming its use as a musical instrument in this context."
+    },
+    {
+        "question": "Identify the sequence of objects moved or handled that shifts from sneaker storage to reading materials: what is lifted from the Nike/Karhu shelf area, what book is later pulled from a bookshelf, and what book appears later on the bed connected to Nike’s history?",
+        "answer": "A Nike shoebox is lifted/handled, then \"1,000 Places to See Before You Die\" is pulled from the bookshelf, and later \"Shoe Dog\" appears on the bed.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            13,
+            60,
+            94,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the Nike/Karhu shoebox shelf being handled/touched. Step 2: Slice 13 shows a hand picking up a Nike box from a cluttered shelf. Step 3: Slice 60 shows the travel book \"1,000 Places to See Before You Die\" being pulled from a bookshelf and opened on the bed. Step 4: Slice 94 shows the book \"Shoe Dog\" (Nike-related) being picked up and flipped through on the bed. Conclusion: The handled objects progress from Nike shoebox to travel book to Shoe Dog.",
+        "logic_check_reasoning": "Step 1: Slice 13 (and supported by Slice 12) describes a hand picking up one of the Nike boxes from a shelf that includes Nike and Karhu shoeboxes, confirming the first object lifted from the sneaker storage area. Step 2: Slice 60 explicitly states that a book titled '1000 Places to See Before You Die' is pulled from a bookshelf, satisfying the second item in the sequence. Step 3: Slice 94 shows the book 'Shoe Dog' being handled and placed on a bed, confirming the later appearance of a book connected to Nike’s history. The sequence from sneakers to reading materials is fully supported by the slices.",
+        "visual_proof": "In Clip 1 (0:03), a hand lifts a red Nike shoebox from a shelf filled with sneaker boxes. In Clip 2 (0:02-0:03), a hand pulls the book titled \"1,000 Places to See Before You Die\" from a bookshelf. In Clip 3 (0:04-0:05), the book \"Shoe Dog\" by Phil Knight is clearly visible being placed on the bed next to other books."
+    },
+    {
+        "question": "What two different written messages are shown on paper (one about a concept and another about art/class), and in what later segment does the video switch to a computer interface before ending?",
+        "answer": "The messages are \"What is a Chair???\" and a paper that includes \"The First Class I gave B is an Art\" with \"ART\" inside a triangle; later the video switches to an Adobe Premiere Pro interface before the outro.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            37,
+            29,
+            100,
+            1
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows a paper reading \"What is a Chair???\" Step 2: Slice 29 shows a paper with writing about a class and an \"ART\" triangle diagram. Step 3: Slice 100 shows the video switching to Adobe Premiere Pro before the stylized outro. Step 4: Slice 1 establishes the video’s stylized intro framing that contrasts with the later editing interface. Conclusion: Two paper messages are shown, and the later segment switches to Premiere Pro before ending.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 37 explicitly shows a paper with the handwritten message \"What is a Chair???\", which aligns with the concept-related message. Step 2: Evidence Slice 29 shows another paper with the text \"The First Class I gave B is an Art\" and a triangle containing \"ART\", matching the art/class-related message. Step 3: Evidence Slice 100 states the video switches to an Adobe Premiere Pro interface and then transitions to a retro-styled outro, confirming the later segment before the ending.",
+        "visual_proof": "Clip 1 shows a hand pointing to a sticky note on wood reading \"What is a Chair???\". Clip 2 shows a hand pointing to a handwritten paper with the text \"The First Class I gave 'B' in was Art. How can you get a 'B' in Art?...\" and below it, \"ART\" written inside a triangle. Clip 3 clearly displays the Adobe Premiere Pro interface with its timeline, menus, and project window before cutting to the outro screen."
+    }
+]

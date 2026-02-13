@@ -1,0 +1,194 @@
+[
+  {
+    "question": "What is the relationship between the year shown with the Korolev quote and the date of Kennedy’s address to Congress shown later?",
+    "answer": "They are in the same year, 1961.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      4
+    ],
+    "reasoning_chain": "Step 1: The opening space/quote sequence displays the year “1961.” Step 2: Kennedy’s address is explicitly labeled as May 25, 1961. Conclusion: Both references point to the same year.",
+    "logic_check_reasoning": "Step 1: Slice 1 states that the Korolev quote appears with the year '1961'. Step 2: Slice 4 identifies Kennedy’s address to Congress as occurring on May 25, 1961. Step 3: Both references explicitly share the same year, 1961, so the relationship is that they are in the same year.",
+    "visual_proof": "Clip 1 visually displays the year '1961' after showing the quote from Sergei Korolev. Clip 2 shows archival footage of President John F. Kennedy with an on-screen title that explicitly states 'ADDRESS TO JOINT SESSION OF CONGRESS MAY 25, 1961'. Both clips clearly reference the year 1961."
+  },
+  {
+    "question": "Which mission is explicitly labeled as the first American in space, and which mission patch later shows a different crew with a “VII” marking?",
+    "answer": "Mercury-Redstone 3 is labeled as the first American in space, and Apollo 7 is the mission patch marked “VII.”",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      16,
+      42
+    ],
+    "reasoning_chain": "Step 1: The Mercury montage labels “First American in Space” and “Mercury-Redstone 3.” Step 2: A later title card shows the Apollo 7 patch with “VII” and “October 1968.” Conclusion: The first is Mercury-Redstone 3, and the patch marked VII is Apollo 7.",
+    "logic_check_reasoning": "Step 1: Slice 16 explicitly states that the video shows a rocket launch with the words \"First American in Space\" and \"Mercury-Redstone 3\" on screen, directly supporting the first part of the answer. Step 2: Slice 42 describes a title card featuring the Apollo 7 mission patch with \"VII\" at the top and the crew names Schirra, Eisele, and Cunningham, confirming a mission patch with a \"VII\" marking and a specific (different) crew. Logic holds because Slice 16 identifies Mercury-Redstone 3 as the first American in space, and Slice 42 later presents the Apollo 7 patch marked \"VII\" with its crew.",
+    "visual_proof": "In Video 1 (0:06), the text explicitly states 'FIRST AMERICAN IN SPACE MERCURY-REDSTONE 3 ALAN SHEPARD.' In Video 2 (0:00-0:03), the mission patch for 'APOLLO 7' clearly displays the Roman numeral 'VII' in its center, along with the names Schirra, Eisele, and Cunningham."
+  },
+  {
+    "question": "What two different mission-design approaches are named: one showing a direct path to the Moon and another showing two craft meeting in lunar orbit?",
+    "answer": "Direct Ascent and Lunar Orbit Rendezvous.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      10,
+      13
+    ],
+    "reasoning_chain": "Step 1: The classroom/host segment displays the label “DIRECT ASCENT” with an Earth-to-Moon trajectory. Step 2: Another segment labels “LUNAR ORBIT RENDEZVOUS” with CSM and LEM meeting around the Moon. Conclusion: The two approaches named are Direct Ascent and Lunar Orbit Rendezvous.",
+    "logic_check_reasoning": "Step 1: Slice 10 explicitly shows an animation labeled 'DIRECT ASCENT' with a trajectory from Earth to the Moon, indicating a direct path. Step 2: Slice 13 explicitly shows an animation labeled 'LUNAR ORBIT RENDEZVOUS' with two spacecraft (CSM and LEM) meeting in lunar orbit. Logic holds because both mission-design approaches are named on-screen and match the descriptions in the question.",
+    "visual_proof": "Clip 1 visually depicts the 'DIRECT ASCENT' mission profile, showing a single spacecraft traveling directly from Earth to the Moon. Clip 2 visually depicts the 'LUNAR ORBIT RENDEZVOUS' mission profile, showing two separate craft (CSM and LEM) meeting and docking in orbit around the Moon. The text labels for both approaches are clearly visible on screen during their respective animations."
+  },
+  {
+    "question": "What labeled Apollo mission is introduced as “the first flight,” and which later mission is described as the first around the Moon?",
+    "answer": "Apollo 7 is introduced as the first flight, and Apollo 8 is described as the first around the Moon.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      42,
+      56
+    ],
+    "reasoning_chain": "Step 1: The Apollo 7 title card states “APOLLO 7 THE FIRST FLIGHT.” Step 2: The Apollo 8 title card states “First Around the Moon.” Conclusion: Apollo 7 is the first flight and Apollo 8 is first around the Moon.",
+    "logic_check_reasoning": "Step 1: Slice 42 explicitly shows a title card stating \"APOLLO 7 THE FIRST FLIGHT,\" clearly identifying Apollo 7 as the mission introduced as the first flight. Step 2: Slice 56 explicitly shows a title card for Apollo 8 with the subtitle \"First Around the Moon,\" identifying Apollo 8 as the mission described as the first around the Moon. Logic holds because each slice directly provides the labeled mission and its descriptor.",
+    "visual_proof": "Clip 1 clearly displays the text 'APOLLO 7' with the subtitle 'THE FIRST FLIGHT' below it. Clip 2 displays 'APOLLO 8' with the subtitle 'FIRST AROUND THE MOON' directly underneath. Both pieces of information are explicitly written on screen in their respective clips."
+  },
+  {
+    "question": "Which crew is shown posing at night in white suits in front of a staircase, and which communication exchange later explicitly names that mission when calling Houston?",
+    "answer": "The Apollo 8 crew (Borman, Anders, Lovell), and the later exchange explicitly names Apollo 8 in the Houston call.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      64,
+      78
+    ],
+    "reasoning_chain": "Step 1: A nighttime portrait labels Jim Lovell, Bill Anders, and Frank Borman. Step 2: A later VU-meter/text sequence shows “Apollo 8, Houston, over” and the reply from Apollo 8. Conclusion: The crew in the portrait corresponds to the mission named in the later call.",
+    "logic_check_reasoning": "Step 1: Slice 64 describes three astronauts in white spacesuits at night in front of a staircase, with name tags identifying them as Jim Lovell, Bill Anders, and Frank Borman, and it notes this likely highlights the crew of Apollo 8. Step 2: Slice 78 shows on-screen communication text explicitly stating “Apollo 8, Houston, over” and “Go ahead, Houston, this is Apollo 8.” Logic holds because the identified individuals in Slice 64 align with the later explicit naming of Apollo 8 in Slice 78, confirming the mission and crew shown.",
+    "visual_proof": "Clip 1 visually identifies the three astronauts as Frank Borman (Commander), Bill Anders (Lunar Module Pilot), and Jim Lovell (Command Module Pilot) via on-screen text. Clip 2 displays a VU meter with the explicit text 'Apollo 8, Houston, over' and 'Go ahead, Houston, this is Apollo 8', confirming the mission name during the communication exchange."
+  },
+  {
+    "question": "Across the video, which phrase about an onboard emergency is presented with a VU meter, and which later famous phrase indicates another mission’s malfunction?",
+    "answer": "“We’ve got a fire in the cockpit!” and later “Houston, we’ve had a problem.”",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      34,
+      90
+    ],
+    "reasoning_chain": "Step 1: A VU meter is paired with urgent text including “We’ve got a fire in the cockpit!” Step 2: Another VU meter later shows the exchange culminating in “Houston, we’ve had a problem.” Conclusion: The video features these two separate emergency phrases.",
+    "logic_check_reasoning": "Step 1: Slice 34 shows text over a VU meter including the phrase \"We've got a fire in the cockpit!\", which is an onboard emergency. Step 2: Slice 90 later shows text \"Houston, we've had a problem,\" a famous phrase indicating a mission malfunction. Logic holds because both phrases are presented with the same VU meter setup across the video, matching the proposed answer.",
+    "visual_proof": "Clip 1 visually displays the text 'We’ve got a fire in the cockpit!' below a VU meter. Clip 2, from the same source video, visually displays the text 'Houston, we’ve had a problem' also below a VU meter. Both phrases are presented as on-screen text synchronized with the meter's activity."
+  },
+  {
+    "question": "Which spacecraft module is shown with the words “UNITED STATES” on its exterior, and which later Earth-rise shot shows the planet appearing over the Moon’s horizon?",
+    "answer": "The Apollo 11 command module shows “UNITED STATES,” and the later shot shows Earth rising over the Moon’s horizon.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      40,
+      81
+    ],
+    "reasoning_chain": "Step 1: A split-screen shows the Apollo 11 command module with “UNITED STATES” visible. Step 2: Later, a cinematic view shows Earth rising above the lunar horizon. Conclusion: The earlier module shot contrasts with the later Earthrise perspective.",
+    "logic_check_reasoning": "Step 1: Slice 40 explicitly states that the left image shows the Apollo 11 command module with the words 'UNITED STATES' visible on its exterior. Step 2: Slice 81 explicitly describes a later scene showing Earth rising over the lunar (Moon’s) horizon. Logic holds because the first part identifies the module as Apollo 11’s command module, and the second part matches the Earth-rise shot description.",
+    "visual_proof": "In Video 1, the spacecraft module clearly displays 'UNITED STATES' on its exterior. In Video 2, the planet Earth is visually shown rising above the Moon's horizon against the blackness of space."
+  },
+  {
+    "question": "How does the video contrast human spaceflight’s awe (Earth views) with terrestrial social conflict (war protests), using imagery that appears in separate segments?",
+    "answer": "It shows majestic Earth-from-space views and an Earthrise, then later juxtaposes anti-war protests and a soldier in the field.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      51,
+      81,
+      82
+    ],
+    "reasoning_chain": "Step 1: One segment shows serene, extended Earth-from-space imagery. Step 2: Another shows Earth rising over the Moon’s horizon. Step 3: Later, the video cuts to anti-war protest signs and a soldier scene. Conclusion: The documentary contrasts cosmic perspective and human achievement with on-the-ground political and wartime tension.",
+    "logic_check_reasoning": "Step 1: Slice 51 describes majestic, awe-inspiring Earth-from-space visuals, supporting the 'human spaceflight’s awe' component. Step 2: Slice 81 shows an Earthrise over the lunar horizon, reinforcing the awe theme with another iconic space view. Step 3: Slice 82 presents split frames juxtaposing anti-war protests (signs like 'STOP THE WAR NOW' and 'STOP THE VIETCONG') with a soldier in a rural/jungle setting, clearly depicting terrestrial social conflict and juxtaposition. Step 4: The proposed answer claims the video shows Earth-from-space views and an Earthrise, then juxtaposes protests and a soldier. While the exact sequence ('then later') isn't explicitly timed, the context supports that these separate segments exist and are contrasted. Therefore, the core claims are fully supported.",
+    "visual_proof": "Clip 1 displays a stunning view of Earth from orbit with city lights visible. Clip 2 shows the iconic 'Earthrise' over the Moon's horizon. Clip 3 presents a split-screen montage: on the left, crowds holding signs like 'STOP THE WAR NOW' and 'VIETCONG', and on the right, a soldier in uniform handling ammunition in a field. This sequence visually contrasts the grandeur of space exploration with the turmoil of terrestrial conflict."
+  },
+  {
+    "question": "How does the video connect early Cold War media about an orbiting man to later intelligence documents about the Soviet lunar timeline?",
+    "answer": "It shows sensational orbit-man headlines first, then later displays top-secret U.S. intelligence estimates and documents predicting the earliest Soviet manned lunar attempt around 1970–1971.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      2,
+      60,
+      57,
+      58
+    ],
+    "reasoning_chain": "Step 1: Early montage shows a headline like “HE’S ORBIT MAN! Bring Him Back Alive,” presenting media hype. Step 2: Another montage shows a similar “REDS ORBIT MAN” newspaper headline. Step 3: Later, a “Top Secret… National Intelligence Estimate” title card about the Soviet space program appears. Step 4: A close-up of a top-secret document highlights that the earliest attempt could be late 1970 or early 1971. Conclusion: The documentary escalates from public headlines to classified assessments of Soviet lunar ambitions.",
+    "logic_check_reasoning": "Step 1: Slice 60 shows a newspaper headline reading \"REDS ORBIT MAN\" with \"Bring Him Back Alive,\" clearly depicting sensational early Cold War media about a Soviet man in orbit. Step 2: Slice 2 reinforces this with another sensational headline, \"HE'S ORBIT MAN! Film Back Alive,\" presented in a montage of vintage imagery. Step 3: Slice 57 presents a Top Secret U.S. National Intelligence Estimate (NIE 11-67) titled \"The Soviet Space Program,\" indicating later intelligence documentation. Step 4: Slice 58 shows a Top Secret document highlighting the earliest possible date for a manned lunar attempt as late 1970 or early 1971, explicitly providing the Soviet lunar timeline. Logic holds because the video includes sensational orbit-man headlines and later shows top-secret U.S. intelligence documents with the 1970–1971 timeline, matching the proposed connection. Ordering conflicts in \"begins with\" statements can be attributed to VLM noise, but the connection and elements are explicitly present.",
+    "visual_proof": "Clip 1 and Clip 2 show black-and-white newspaper headlines like 'REDS ORBIT MAN' and footage of a uniformed official, representing early Cold War media coverage. Clip 3 and Clip 4 display classified U.S. documents titled 'The Soviet Space Program' and 'NATIONAL INTELLIGENCE ESTIMATE NUMBER 11-1-67,' with text explicitly mentioning that the Soviets would likely attempt a manned circumlunar flight in the 1970-1971 period, directly connecting the media narrative to later intelligence assessments."
+  },
+  {
+    "question": "Which title signals a shift into the Apollo narrative of “Tragedy to Triumph,” and what later visual explanation shows where a cockpit fire could start and how a hatch design matters?",
+    "answer": "“PART 1: TRAGEDY TO TRIUMPH,” and later the fire-origin and AS-204 hatch design explanation.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      6,
+      34,
+      36
+    ],
+    "reasoning_chain": "Step 1: The program is introduced with “THE APOLLO PROGRAM” and “PART 1: TRAGEDY TO TRIUMPH.” Step 2: A later VU-meter sequence reports “We’ve got a fire in the cockpit!” Step 3: Another segment diagrams “FIRE ORIGIN” in the lower equipment bay and explains the AS-204 hatch design. Conclusion: The ‘tragedy’ theme is concretely illustrated by the fire and hatch-design explanation.",
+    "logic_check_reasoning": "Step 1: Slice 6 shows the title card \"PART 1: TRAGEDY TO TRIUMPH,\" explicitly signaling the narrative shift. Step 2: Slice 36 provides a visual explanation of a fire's origin labeled \"SPARK IN LOWER EQUIPMENT BAY\" and then details the AS-204 hatch design (inner/outer hatch covers, latches), showing how hatch design matters. Step 3: Slice 34 adds contextual urgency about a cockpit fire but the explicit visual explanation comes from Slice 36. Logic holds because the title and the later technical visuals directly match the proposed answer.",
+    "visual_proof": "Clip 1 opens with the title 'THE APOLLO PROGRAM' followed by 'PART 1 TRAGEDY TO TRIUMPH' over a moon graphic, signaling the narrative shift. Clip 3 visually explains the fire's origin in the lower equipment bay with an animation and then details the AS-204 hatch design with labeled diagrams, highlighting its complex latching mechanism."
+  },
+  {
+    "question": "How does the video connect Wernher von Braun’s leadership role to a later on-screen phrase about bringing German expertise into U.S. programs?",
+    "answer": "It shows von Braun as Marshall Space Flight Center director and later displays “Operation Paperclip,” implying recruitment/transfer of German expertise.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      8,
+      9,
+      70
+    ],
+    "reasoning_chain": "Step 1: Von Braun is identified as Director of the Marshall Space Flight Center and shown with WWII-era Nazi-associated footage. Step 2: A later slice explicitly shows the words “Operation Paperclip.” Step 3: The documentary later focuses on major U.S. rocketry (e.g., Saturn V). Conclusion: The sequence links von Braun’s past and U.S. leadership to Operation Paperclip’s transfer of expertise that fed into American rocket development.",
+    "logic_check_reasoning": "Step 1: Slice 8 explicitly identifies Wernher von Braun as Director of the Marshall Space Flight Center and juxtaposes this with archival footage of his Nazi-era involvement, setting up a link between his German past and U.S. space leadership. Step 2: Slice 9 states the video ends with the on-screen words \"Operation Paperclip.\" Step 3: The sequence ties von Braun’s U.S. leadership to the later phrase by showing his role and then naming the program associated (as per the video’s own phrasing) with bringing German expertise into U.S. programs, making the implied connection supported by the visuals and text.",
+    "visual_proof": "Clip 1 identifies Wernher von Braun as 'Director, Marshall Space Flight Center.' Clip 2 then shows a group photo labeled 'OPERATION PAPERCLIP, FORT BLISS, TEXAS, 1946,' which visually connects his later leadership role in the U.S. to the historical program that brought German scientists like him into American programs."
+  },
+  {
+    "question": "How does the video tie the Apollo 1 crew’s identification to later emergency audio text and then to an engineering diagram showing a fire’s origin?",
+    "answer": "It names the Apollo 1 crew, then shows emergency text calling to Gus during a cockpit fire, then diagrams a spark in the lower equipment bay as the fire origin.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      26,
+      34,
+      36
+    ],
+    "reasoning_chain": "Step 1: The Apollo 1 crew is identified on-screen as Ed White, Gus Grissom, and Roger Chaffee. Step 2: A VU-meter text overlay says “We’ve got a fire in the cockpit!” and “Gus can you read us?” Step 3: An engineering animation labels the “FIRE ORIGIN” as a spark in the lower equipment bay and discusses hatch design. Conclusion: The narrative links the named crew to the emergency communication and to the technical explanation of how the fire spread.",
+    "logic_check_reasoning": "Step 1: Slice 26 identifies the Apollo 1 crew by name (Ed White, Gus Grissom, Roger Chaffee) and shows them with Apollo 1 branding, establishing who they are. Step 2: Slice 34 presents emergency-style text over a VU meter, including 'We've got a fire in the cockpit!' and 'Gus can you read us?', tying the identified crew (specifically Gus) to an urgent cockpit fire scenario. Step 3: Slice 36 shows an engineering diagram that explicitly labels the fire origin as a 'SPARK IN LOWER EQUIPMENT BAY,' thus connecting the earlier emergency context to a technical explanation of the fire's source. The logic holds because each slice sequentially supports identification, emergency communication, and technical cause.",
+    "visual_proof": "Clip 1 visually identifies the Apollo 1 crew (Ed White, Gus Grissom, Roger Chaffee) with on-screen text. Clip 2 displays audio waveform visuals accompanied by emergency text overlays, including 'We've got a fire in the cockpit!' and 'Gus can you read us?', directly linking the named crew member to the emergency. Clip 3 presents an engineering diagram of the command module with text explicitly stating 'FIRE ORIGIN: SPARK IN LOWER EQUIPMENT BAY,' visually connecting the emergency to its technical cause."
+  },
+  {
+    "question": "How does the documentary visually connect mission control staffing to actual spacecraft communications and then to the astronauts’ microgravity life onboard?",
+    "answer": "It shows labeled mission control roles and key personnel, then shows an Apollo 8 Houston radio exchange, and then shows astronauts floating and working inside the spacecraft.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      74,
+      78,
+      52,
+      79
+    ],
+    "reasoning_chain": "Step 1: The Mission Operations Control Room is shown with labeled positions and identified personnel (e.g., CAPCOM, Flight Director). Step 2: A later VU-meter/archival sequence shows a real Apollo 8 communication exchange with Houston. Step 3: Subsequent footage shows astronauts inside the spacecraft in microgravity. Step 4: Another segment continues showing an astronaut floating and performing tasks in zero gravity. Conclusion: The video links ground roles, radio procedures, and the lived onboard experience.",
+    "logic_check_reasoning": "Step 1: Slice 74 describes the Mission Operations Control Room with labeled roles like CAPCOM, EECOM, DPD, and FLIGHT, and highlights key personnel (Michael Collins, Gene Kranz), supporting the 'mission control staffing' part. Step 2: Slice 78 shows a VU meter with text of an Apollo 8/Houston exchange and archival footage of mission control communicating, directly supporting 'actual spacecraft communications.' Step 3: Slices 52 and 79 depict astronauts floating and working inside the spacecraft in microgravity, supporting 'astronauts’ microgravity life onboard.' Logic holds because the sequence of visuals—staffing, comms, onboard life—matches the proposed answer.",
+    "visual_proof": "Clip 1 visually establishes the Mission Operations Control Room (MOCR) with labeled consoles like 'CAPCOM' and 'FLIGHT' and overlays photos of personnel like Michael Collins and Gene Kranz. Clip 2 shows a VU meter with the text 'Apollo 8, Houston, over,' indicating a direct radio communication. Clips 3 and 4 show astronauts in their spacesuits inside the spacecraft, with one visibly floating and operating equipment, demonstrating microgravity conditions."
+  },
+  {
+    "question": "How does the video trace a path from identifying Apollo 1 as the first crew, to depicting an in-capsule environment, to presenting the cockpit-fire emergency text, and finally to explaining the hatch mechanism?",
+    "answer": "It introduces Apollo 1 as the first crew, shows astronauts inside a cramped command module, presents the cockpit-fire emergency text, then explains the AS-204 hatch design in an engineering diagram.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      24,
+      25,
+      34,
+      36
+    ],
+    "reasoning_chain": "Step 1: A title card says “Apollo 1: The First Crew” and sets the 1967 context. Step 2: Footage shows astronauts inside the command module environment. Step 3: A VU-meter segment overlays urgent text: “We’ve got a fire in the cockpit!” and attempts to reach Gus. Step 4: A technical animation identifies fire origin and details the AS-204 hatch design and latches. Conclusion: The narrative moves from introducing the crew to showing the capsule setting, to the emergency, to the engineering explanation of why escape was difficult.",
+    "logic_check_reasoning": "Step 1: Slice 24 explicitly shows a title screen 'Apollo 1: The First Crew' and context at KSC Pad 34 with the date, establishing Apollo 1 as the first crew. Step 2: Slice 25 depicts the interior of the command module with astronauts in suits, confirming an in-capsule environment. Step 3: Slice 34 presents text overlays stating 'We've got a fire in the cockpit!' and related urgent communication, establishing the cockpit-fire emergency text. Step 4: Slice 36 provides a technical illustration that explains the fire origin and then focuses on the AS-204 hatch design with labeled components, matching the description of explaining the hatch mechanism via an engineering diagram. The sequence aligns with the proposed answer.",
+    "visual_proof": "Clip 1 opens with the 'Apollo 1: The First Crew' title. Clip 2 shows astronauts in a tight, equipment-filled capsule interior. Clip 3 displays VU meter graphics with the text 'We've got a fire in the cockpit!'. Clip 4 features an animated schematic of the command module, highlighting the fire origin and concluding with a detailed engineering diagram labeled 'AS-204 HATCH DESIGN'."
+  }
+]

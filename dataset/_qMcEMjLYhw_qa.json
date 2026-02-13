@@ -1,0 +1,126 @@
+[
+    {
+        "question": "Later in the trip, a cheaper price is shown for a group tour. What earlier daily cost did the vlogger complain about paying that makes the later tour seem inexpensive by comparison?",
+        "answer": "He complained about paying 70 euros a day.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the man saying “YES, 70 EUROS A DAY... (I think I got ripped off),” establishing the earlier expensive daily cost. Step 2: Slice 24 shows “$30 EUROS / PERSON FOR GROUP TOUR,” a later, lower price. Conclusion: The earlier daily cost he complained about was 70 euros a day.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows the vlogger saying in subtitles, \"YES, 70 EUROS A DAY... (I think I got ripped off),\" explicitly indicating an earlier daily cost he complained about. Step 2: Slice 24 shows a later price on screen: \"$30 EUROS / PERSON FOR GROUP TOUR,\" which is presented as cheaper. Logic holds because the earlier stated daily cost of 70 euros provides a clear comparison point making the 30-euro group tour seem inexpensive.",
+        "visual_proof": "In Video 1, the vlogger is standing next to a car and a subtitle appears at 0:04 that reads, 'YES, 70 EUROS A DAY... (I think I got ripped off)'. This directly states the earlier daily cost he complained about. In Video 2, he is on a boat and a subtitle at 0:00 states '$30 EUROS / PERSON FOR GROUP TOUR', which is presented as a cheaper alternative later in the trip."
+    },
+    {
+        "question": "A woman is shown in a yellow outfit in one scene and later appears in a very different setting. Where is she when she wears the yellow dress, and where is she seen again later taking part in a sunset selfie?",
+        "answer": "She is on a balcony overlooking the ocean and mountains, and later she appears during a sunset selfie with the man by the sea/cliffs.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a woman in a yellow dress on a balcony overlooking ocean and mountains. Step 2: Slice 40 shows a woman with long blonde hair joining the man’s sunset selfie by the ocean and cliffs. Conclusion: She’s first on the balcony, and later she’s at the seaside sunset selfie.",
+        "logic_check_reasoning": "Step 1: Slice 4 states a woman in a yellow dress is on a balcony overlooking the ocean and mountains. Step 2: Slice 40 describes a woman joining a man for a sunset selfie with the ocean and rocky cliffs in the background. Logic holds because the proposed answer correctly identifies the first setting (balcony with ocean/mountains) and the later setting (sunset selfie by the sea/cliffs), both explicitly supported by the slices. Identity continuity is reasonable per instructions.",
+        "visual_proof": "In Video 1 (0:00), the woman in the yellow dress is clearly standing on a multi-level balcony of a white building, with a coastal landscape of hills and the sea visible behind her. In Video 2 (0:01-0:05), the same woman is seen taking a selfie with a man against a twilight sky, with a rocky cliff and the sea in the background, confirming the sunset setting."
+    },
+    {
+        "question": "The host is shown wearing sunglasses on his head while narrating outdoors early on, and later he appears in a different setting promoting creator training. In what two environments does he appear while wearing sunglasses on his head?",
+        "answer": "First outdoors by the coast/rocks in bright daylight, and later outdoors at sunset with mountains and water while promoting creator training.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the man outdoors in daylight with sunglasses perched on his head near a car and coastal scenery. Step 2: Slice 61 shows him outdoors during sunset/sunrise with mountains and water, sunglasses still perched, alongside promotional text for creator training. Conclusion: He appears coastal-by-car in daylight and later at a sunset landscape while promoting training.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows a man outdoors in bright daylight at a coastal setting with rocky cliffs and ocean, and explicitly notes sunglasses perched on his head. Step 2: Slice 61 shows the same man outdoors at sunset/sunrise with mountains and water, wearing sunglasses on his head, with promotional overlays including 'GET MY FREE 1 HOUR CREATOR TRAINING.' Logic holds because both slices depict the environments described in the answer and confirm the sunglasses on his head in each setting.",
+        "visual_proof": "In Clip 1, the host is outdoors in bright daylight next to a black car, with coastal rocks and sea visible behind him; he wears sunglasses on his head. In Clip 2, he is outdoors again at sunset, with mountains and water in the background, and text overlays promoting 'creator training'; he still has sunglasses on his head."
+    },
+    {
+        "question": "Compare how the main host’s clothing changes from early coastal narration to later boat-touring: what does he wear when complaining about cost near the car, and what does he wear when discussing tours on the boat?",
+        "answer": "He wears a white t-shirt and black shorts near the car, and later he is shirtless with a wide-brimmed hat and sunglasses on the boat.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            22,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows him by the car in a white t-shirt and black shorts complaining about price. Step 2: Slice 22 shows him on the water shirtless with a wide-brimmed hat and sunglasses. Step 3: Slice 24 keeps the boat-tour context with pricing text. Conclusion: He shifts from clothed roadside narration to shirtless, hat-and-sunglasses boat touring.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes the man near a car, complaining about cost (“YES, 70 EUROS A DAY”), wearing a white t-shirt and black shorts with sunglasses on his head. Step 2: Slice 24 shows the same man on a boat discussing tour pricing (“$30 EUROS / PERSON FOR GROUP TOUR”), and explicitly states he is shirtless, wearing a wide-brimmed hat and sunglasses. Step 3: Slice 22 further corroborates the boat setting with the same shirtless, hat, and sunglasses attire. Logic holds because the early coastal narration near the car matches the first clothing description, and the later boat-touring discussion matches the second.",
+        "visual_proof": "In Clip 1, the host is clearly wearing a white t-shirt and black shorts while standing next to a car. In Clips 2 and 3, he is shirtless, wearing a dark bucket hat and sunglasses, while on the water during the boat tour."
+    },
+    {
+        "question": "The story features multiple romantic/seaside dinner settings. Name one evening grill-house scene, one seaside terrace meal at sunset, and one daytime outdoor table by the sea that together show repeated meals with ocean views.",
+        "answer": "Mavros Xoiros Grill House at night, the Day 4 terrace meal at sunset, and the daytime outdoor table with a blue-and-white striped tablecloth by the sea.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            34,
+            43,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows an evening restaurant scene labeled “Mavros Xoiros Grill House.” Step 2: Slice 43 shows “DAY 4” and a terrace table set for a sunset meal by the sea. Step 3: Slice 46 shows the man eating at an outdoor table right by the sea with a striped tablecloth. Conclusion: These scenes collectively show repeated ocean-view meals at night, sunset, and daytime.",
+        "logic_check_reasoning": "Step 1: Slice 34 explicitly shows an evening scene at \"Mavros Xoiros Grill House\" in an outdoor dining setting at night, satisfying the evening grill-house scene. Step 2: Slice 43 explicitly shows a \"DAY 4\" seaside terrace meal at sunset with a couple approaching a table overlooking the ocean, matching the seaside terrace meal at sunset. Step 3: Slice 46 shows a man eating at an outdoor table by the sea with a blue-and-white striped tablecloth; while time of day isn’t stated, the outdoor seaside meal setting is clear and the sunglasses suggest daytime, aligning with the described daytime outdoor table by the sea. Together, these depict repeated meals, with ocean views clearly present in Slices 43 and 46.",
+        "visual_proof": "Clip 1 shows the man at Mavros Xoiros Grill House at night, confirmed by the on-screen text. Clip 2 ends with a title card 'DAY 4' over a sunset ocean view, followed by a scene of a couple having a meal on a terrace overlooking the sea at sunset. Clip 3 features the man eating at an outdoor table during the day with a clear view of the sea and a blue-and-white striped tablecloth visible."
+    },
+    {
+        "question": "After the couple navigates a sketchy ladder descent to reach a beach, what activity do they do later in the trip that shows they’re still seeking adventure in the water?",
+        "answer": "They go out on the water by boat (driving a boat/tour) and continue exploring coastal spots.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows the man climbing down a wooden ladder saying it’s “so sketch,” to reach a beach. Step 2: Slice 21 later shows him walking to a boat, getting in, and driving it while narrating. Conclusion: After the difficult descent, they later seek adventure by boating/exploring on the water.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a couple navigating a sketchy ladder descent to reach a beach, indicating an adventurous approach. Step 2: Slice 21 shows the man on a beach getting into a boat where a woman is standing, then driving the boat while enjoying the scenery and showing a map of the area. Logic holds because both slices depict the same trip context and characters; going out on the water by boat clearly demonstrates continued adventure in the water.",
+        "visual_proof": "Clip 1 shows the couple navigating a sketchy ladder descent to reach a beach. Clip 2, which occurs later in the trip, visually confirms they are on a boat, with the man driving it and others onboard, traveling along the coast near Provatas Beach and Kleftiko Beach as indicated by the map overlay. This demonstrates they continued their adventure on the water."
+    },
+    {
+        "question": "Which two different food moments highlight their dining experiences: one featuring calamari and another featuring crispy appetizer rolls at a named grill house?",
+        "answer": "Calamari drizzled with lemon, and crispy rolls at Mavros Xoiros Grill House.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 2 includes a culinary shot of calamari being drizzled with lemon. Step 2: Slice 34 shows the restaurant “Mavros Xoiros Grill House” and a plate of golden-brown crispy rolls with dipping sauce. Conclusion: The two food highlights are lemon-drizzled calamari and crispy rolls at Mavros Xoiros Grill House.",
+        "logic_check_reasoning": "Step 1: Slice 2 states there is a culinary segment showing freshly prepared calamari being drizzled with lemon juice, directly supporting the first food moment. Step 2: Slice 34 describes a scene at Mavros Xoiros Grill House in Plaka, Milos, featuring a plate of golden-brown, crispy rolls as an appetizer, supporting the second food moment at a named grill house. Logic holds because both specific food moments are explicitly described in the provided slices and match the proposed answer.",
+        "visual_proof": "Clip 1/2 (ID: 2) shows a plate of calamari being drizzled with lemon juice. Clip 2/2 (ID: 34) features a man eating at 'Mavros Xoiros Grill House' in Plaka, Milos, where the context implies he is enjoying the crispy appetizer rolls mentioned in the question."
+    },
+    {
+        "question": "The vlog contrasts popular village scenes with more adventurous coastal exploration. Name one village-focused segment, one risky-access beach moment, and one later boat-tour pricing moment that together show this shift.",
+        "answer": "Walking through a Greek village with whitewashed buildings, climbing down a sketchy ladder to a beach, and showing the 30-euro-per-person group tour price on the boat.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            6,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 1 includes village strolling with the man and woman among whitewashed buildings. Step 2: Slice 6 shows the sketchy ladder descent to a beach. Step 3: Slice 24 shows the boat context with text “$30 EUROS / PERSON FOR GROUP TOUR.” Conclusion: These three moments illustrate the shift from village tourism to adventure access and then formal boat touring.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes a village-focused segment with white-washed buildings and the man walking through the village, clearly supporting \"walking through a Greek village with whitewashed buildings.\" Step 2: Slice 6 explicitly shows a risky-access beach moment where the man climbs down a wooden ladder saying \"THIS IS SO SKETCH,\" supporting \"climbing down a sketchy ladder to a beach.\" Step 3: Slice 24 shows the man on a boat with on-screen text \"$30 EUROS / PERSON FOR GROUP TOUR,\" supporting \"showing the 30-euro-per-person group tour price on the boat.\" Logic holds because each element maps directly to the respective evidence slice.",
+        "visual_proof": "Clip 1 shows a man walking through a coastal village with white-washed buildings and boats docked nearby. Clip 2 shows the same man and a woman navigating a narrow, rocky path and climbing down a wooden ladder into a secluded cove, indicating adventurous access. Clip 3 features the man on a boat with text overlay stating '$30 EUROS / PERSON FOR GROUP TOUR', confirming the pricing detail during a later segment."
+    },
+    {
+        "question": "Link together four different eating moments that escalate from quick food visuals to full meals: a seafood close-up early on, a named grill-house appetizer, a seaside table meal with waves behind, and a terrace spread at sunset. What foods/settings are shown in this progression?",
+        "answer": "Calamari close-up, grilled octopus at Mavros Xoiros Grill House, a seaside meal with waves behind, and a dessert spread on a terrace at sunset.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            34,
+            46,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows calamari being drizzled with lemon (quick food visual). Step 2: Slice 34 shows crispy rolls at “Mavros Xoiros Grill House.” Step 3: Slice 46 shows the man eating at a seaside outdoor table with waves in the background. Step 4: Slice 43 shows “DAY 4” and a terrace table spread at sunset overlooking the ocean. Conclusion: The food progression is calamari → grill-house appetizer rolls → seaside meal → sunset terrace feast.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a culinary close-up of freshly prepared calamari being drizzled with lemon juice, matching the seafood close-up early on. Step 2: Slice 34 identifies Mavros Xoiros Grill House in Plaka and shows golden-brown crispy rolls as an appetizer, satisfying the named grill-house appetizer. Step 3: Slice 46 shows a man eating at a seaside table with waves behind and a blue-and-white striped tablecloth, fitting the seaside table meal. Step 4: Slice 43 presents a sunset scene with a couple approaching a terrace table laden with various dishes, matching the terrace spread at sunset. The logic holds because each item in the proposed answer corresponds directly to the described visuals and settings in the slices.",
+        "original_text_answer": "Calamari close-up, crispy rolls at Mavros Xoiros Grill House, a seaside meal at a striped tablecloth table, and a terrace table loaded with dishes at sunset.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 (0:14) shows a close-up of fried calamari. Clip 2 (0:00-0:01) identifies the location as 'Mavros Xoiros Grill House' where the man is eating, and the food shown in the close-up (0:01) is clearly grilled octopus, not crispy rolls. Clip 3 (0:00-0:03) shows a man eating at a table with the sea and waves directly behind him. Clip 4 (0:06-0:11) shows a man eating a dessert (Mille Feuille) on a terrace, with other desserts visible, indicating a dessert spread, during what appears to be evening or sunset lighting."
+    }
+]

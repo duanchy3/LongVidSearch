@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Which distinctive accessory seen during a jungle walk also appears earlier in the forest walk and helps identify the same pair across scenes?",
+        "answer": "A red umbrella.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows two people in a forest, one carrying a red umbrella. Step 2: Slice 3 again shows a man carrying a red umbrella while accompanying a woman consulting a tablet. Conclusion: The red umbrella is the identifying visual cue across both scenes.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a forest walk with two individuals, noting that one carries a red umbrella. Step 2: Slice 3 describes a jungle walk where the man holds a red umbrella. Logic holds because the same distinctive accessory (red umbrella) appears in both scenes, linking the pair across contexts.",
+        "visual_proof": "The red umbrella is consistently held by the male character in both video clips. It is clearly visible in multiple shots within Clip 1 (e.g., 0:02, 0:03, 0:10, 0:17) and again in Clip 2 (e.g., 0:00, 0:04, 0:06, 0:11), serving as a distinctive visual marker for the pair across these different jungle scenes."
+    },
+    {
+        "question": "Which vehicle is associated with the women at a joyful diner moment and later becomes part of a chaotic incident inside the diner?",
+        "answer": "A yellow taxi.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            65,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 65 includes a diner scene with joyful dancing and also shows a yellow taxi in the urban thread. Step 2: Slice 66 shows a yellow taxi visibly inside/at the diner as chaos erupts. Conclusion: The yellow taxi becomes a key object tying the upbeat diner moment to the later disruption.",
+        "logic_check_reasoning": "Step 1: Slice 65 describes a joyful diner moment with two women dancing in a retro diner. Step 2: Slice 66 shows a chaotic incident inside the same diner where a yellow taxi is partially visible and appears to have crashed into the diner. Step 3: Slice 65 also introduces a yellow taxi earlier, reinforcing its presence in the video. Logic holds because the vehicle present in the diner context during the later chaos is explicitly a yellow taxi, and the joyful diner moment is in the same setting, associating the vehicle with that scene.",
+        "visual_proof": "In Clip 1, a yellow taxi is shown at night with the text 'MADAME WEB'. In Clip 2, the same yellow taxi is seen crashing through the diner where the women are, confirming its association with both the joyful moment and the subsequent chaotic incident."
+    }
+]

@@ -1,0 +1,170 @@
+[
+    {
+        "question": "What beverage is prepared in the kitchen and then shown being carried and set down in another room?",
+        "answer": "A frothy coffee drink (coffee with milk, like a latte/cappuccino).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows liquid being poured into coffee creating a frothy mixture. Step 2: Slice 51 shows a hand carrying a frothy coffee mug and placing it on a table. Conclusion: The frothy coffee made earlier is the drink later carried and set down.",
+        "logic_check_reasoning": "Step 1: Slice 48 shows a kitchen scene where liquid is poured into a cup of coffee, creating a frothy mixture, indicating a prepared frothy coffee beverage. Step 2: Slice 51 depicts a hand opening a door, holding a white ceramic mug with a frothy beverage (likely a latte/cappuccino) and placing it on a table in a cozy interior, i.e., another room. Logic holds because the frothy coffee made in the kitchen is then carried and set down elsewhere, and the description explicitly identifies it as a frothy coffee drink.",
+        "visual_proof": "In Clip 1, a hand is seen pouring milk from a white bottle into a white mug containing a dark liquid, creating a frothy, light-brown beverage. In Clip 2, the same white mug with the prepared frothy coffee drink is carried through a doorway and placed on a table with a floral tablecloth."
+    },
+    {
+        "question": "Which recurring clothing item helps identify the vlogger across both the street scenes and the later garden/courtyard talking segments?",
+        "answer": "A blue hoodie.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the young man walking and talking wearing a blue hoodie. Step 2: Slice 25 shows him again speaking outdoors by a stone wall wearing a dark blue hoodie. Conclusion: The blue hoodie visually links the same vlogger across scenes.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes the vlogger on a street wearing a white cap and a blue hoodie. Step 2: Slice 25 describes the same vlogger in a garden/courtyard setting wearing a dark blue hoodie and a light gray cap. Logic holds because both slices depict a young man vlogging and consistently mention a blue hoodie, making it the recurring clothing item across scenes.",
+        "visual_proof": "In both Video 1 (street scenes) and Video 2 (garden/courtyard), the vlogger is consistently wearing a dark blue hooded sweatshirt. The color and style of the hoodie are identical in both clips, serving as a clear visual identifier across the different settings."
+    },
+    {
+        "question": "How does the creator visually transition from outdoor monologue segments to making a drink and then to holding the finished drink close to his face?",
+        "answer": "He talks outside, then prepares coffee with milk in the kitchen, then appears holding a mug ready to sip.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            47,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows him outdoors by a stone wall talking to camera. Step 2: Slice 47 shows him in the kitchen pouring milk into coffee. Step 3: Slice 49 shows him holding a white mug close to his face as if about to drink. Conclusion: The drink-making segment leads to the drinking moment.",
+        "logic_check_reasoning": "Step 1: Slice 25 shows the creator outdoors speaking directly to the camera, indicating an outdoor monologue. Step 2: Slice 47 shows the creator in a kitchen pouring milk into a cup with on-screen text 'lait in my coffee,' indicating making a drink. Step 3: Slice 49 shows the creator in the kitchen holding a white mug close to his face, about to sip. Logic holds because the sequence aligns with moving from outdoor talking to preparing the drink, then to holding the finished drink.",
+        "visual_proof": "Clip 1 shows him outdoors speaking. Clip 2 shows him indoors in a kitchen pouring milk into a cup with text overlay 'lait in my coffee'. Clip 3 shows him holding the finished white mug close to his face as if about to drink."
+    },
+    {
+        "question": "What is the sequence of locations shown from the opening street introduction to the later indoor segment with camera equipment?",
+        "answer": "Outdoor European streets/town square first, then an indoor room where he holds a camera on a tripod.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            3,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows him introducing outdoors and then walking streets. Step 2: Slice 3 continues the outdoor walking vlog in European streets. Step 3: Slice 43 switches to an indoor setting with him holding a camera on a tripod. Conclusion: The video moves from outdoor travel vlog to indoor production/setup.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the video opens with a young man standing outdoors in a European town square, speaking to the camera. Step 2: Slice 2 and Slice 3 show continued outdoor scenes (walking through streets), reinforcing the outdoor European setting at the start. Step 3: Slice 43 shows a later indoor setting where the young man is holding a professional camera on a tripod. Logic holds because the proposed answer describes the initial outdoor street/town square followed by the later indoor room with camera equipment, which matches the progression shown in the slices. While an aerial park scene exists between these, the proposed answer's broad sequence remains accurate.",
+        "visual_proof": "Clip 1 and Clip 2 show the person outdoors in a European-style town with buildings and a plaza. Clip 3 transitions to an indoor setting where the same person is holding a Canon DSLR camera mounted on a tripod/gimbal with an external microphone attached."
+    },
+    {
+        "question": "How do the aerial city views evolve from a landmark-focused shot to a broader urban intersection view and then to dense rooflines with narrow streets?",
+        "answer": "It starts with a clock tower aerial, then shows a busy intersection from above, then pans over dense terracotta-roofed blocks and winding streets.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            39,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 12 centers on a clock tower during an aerial rise. Step 2: Slice 39 shows an aerial view of a busy street intersection with vehicles. Step 3: Slice 41 shows dense urban blocks with terracotta roofs and narrow winding streets. Conclusion: The aerials shift from landmark to traffic node to dense city fabric.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes an aerial view starting with a prominent clock tower (a landmark-focused shot) and surrounding red-tiled roofs. Step 2: Slice 39 shows an aerial view of a busy intersection with vehicles and then pans to a broader cityscape. Step 3: Slice 41 presents a bird's-eye view of densely packed terracotta-roofed buildings and narrow, winding streets. The proposed answer mirrors this progression: clock tower aerial, busy intersection from above, then dense rooflines and winding streets.",
+        "visual_proof": "Clip 1 opens with a prominent clock tower dominating the frame against a backdrop of rooftops and hills. Clip 2 transitions to a top-down view of a street intersection with vehicles, pedestrians, and a central fountain. Clip 3 continues the aerial perspective, focusing on tightly packed buildings with terracotta roofs and narrow, curving streets lined with parked cars."
+    },
+    {
+        "question": "What is the full chain of coffee-making shown from obtaining/handling milk, to pouring it into coffee, to presenting the finished drink on a table?",
+        "answer": "Milk is handled in the kitchen, poured into coffee to make it frothy, and the finished mug is carried and placed on a table.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            45,
+            47,
+            48,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows him in the kitchen holding a large carton of milk. Step 2: Slice 47 shows milk being poured into a cup (coffee). Step 3: Slice 48 shows more liquid poured into coffee creating froth. Step 4: Slice 51 shows the frothy coffee mug carried into a room and placed on a table. Conclusion: The drink is made step-by-step and then served/placed down.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a man in a kitchen holding a large carton of milk, clearly handling milk in the kitchen. Step 2: Slice 47 shows the same man holding a bottle of milk and a cup, pouring milk into the cup, with on-screen text 'lait in my coffee,' confirming it's coffee. Step 3: Slice 48 shows a close-up of pouring liquid from a white container into a cup of coffee, creating a frothy mixture, supporting the 'frothy' detail. Step 4: Slice 51 shows the finished frothy coffee in a mug being carried (after opening a door) and placed on a table, completing the presentation step. Logic holds because the slices depict a coherent sequence: handling milk, pouring it into coffee, producing froth, and presenting the drink on a table.",
+        "visual_proof": "Clip 1 shows the person handling milk cartons in the kitchen. Clip 3 visually confirms milk being poured from a bottle into a coffee cup, creating foam. Clip 4 shows the person carrying the finished coffee mug and placing it on a table, completing the chain."
+    },
+    {
+        "question": "After the video shows crowded market activity from above, what closer, ground-level activity later confirms the same kind of setting?",
+        "answer": "People browsing and buying produce at stalls under canopies/umbrellas.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows an aerial view of a crowded outdoor market with colorful tents. Step 2: Slice 36 shows ground-level market stalls with produce and people transacting/browsing. Conclusion: The close-up confirms the market seen from above.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes an aerial view of a bustling outdoor market with colorful canopies and people browsing stalls. Step 2: Slice 36 shows ground-level scenes of people gathered around stalls, engaging in transactions, and browsing fresh produce, with bright canopies visible. Logic holds because the ground-level activity of browsing and buying produce at stalls under canopies directly matches and confirms the market setting seen from above.",
+        "visual_proof": "Clip 1 opens with an aerial view of a crowded outdoor market with numerous colorful stalls. Clip 2 transitions to ground level, showing people actively shopping at stalls with canopies (e.g., a woman laughing near a vegetable stall under a green canopy at 0:00, and a man selecting fruit from wooden crates under umbrellas at 0:03), confirming the same market setting."
+    },
+    {
+        "question": "What visual path does the video take from quiet picturesque streets to lively public performance, showing a change in street atmosphere?",
+        "answer": "It goes from calm cobblestone streets with few people to a busier public spot where musicians play guitars and pedestrians pass by.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            42,
+            34,
+            36,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows a quiet picturesque street with only a few people in the distance. Step 2: Slice 34 shows more street activity and a market area beginning. Step 3: Slice 36 shows a bustling market with crowds. Step 4: Slice 37 shows a public space with street musicians and passersby. Conclusion: The street atmosphere escalates from quiet to lively and performance-oriented.",
+        "logic_check_reasoning": "Step 1: Slice 42 describes a calm, picturesque cobblestone street with few people, establishing a quiet atmosphere. Step 2: Slice 37 shows a livelier public spot where two people play guitars on a bench and pedestrians pass by, indicating a shift to a public performance scene. Step 3: While Slices 34 and 36 add intermediate bustling market scenes, the core path from tranquil street to lively performance is explicitly supported by Slices 42 and 37. Therefore, the proposed answer aligns with the described progression.",
+        "visual_proof": "Clip 1 shows narrow, quiet European-style streets with minimal pedestrian traffic. Clip 2 transitions to a bustling market square with many people walking around stalls. Clip 4 clearly shows street musicians playing electric guitars on a busy sidewalk with pedestrians passing by, confirming the shift from quiet to lively atmosphere."
+    },
+    {
+        "question": "What clothing change helps distinguish the early outdoor travel segment from the later outdoor channel-discussion segment?",
+        "answer": "He shifts from a dark jacket/hoodie travel look to a denim jacket during the channel-discussion talk.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            9,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows him in a dark jacket with a white cap while walking. Step 2: Slice 9 shows him in a blue hoodie while walking and talking. Step 3: Slice 53 shows him outdoors in a denim jacket speaking about the channel. Conclusion: His outfit changes from dark jacket/hoodie travel wear to a denim jacket for the later talk.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes the early outdoor travel segment with the man wearing a white baseball cap and a dark jacket. Step 2: Slice 9 also depicts an early travel scene, showing him in a white cap and a blue hoodie, reinforcing the 'dark jacket/hoodie travel look.' Step 3: Slice 53 clearly marks a later outdoor channel-discussion segment with on-screen text about the channel's future, and the man is wearing a denim jacket over a dark shirt with his cap backward. Logic holds because the early segments consistently show a dark jacket/hoodie, while the later discussion segment distinctly features a denim jacket, matching the proposed clothing change.",
+        "visual_proof": "In Clip 1 and Clip 2, the man is wearing a dark blue or black hooded sweatshirt under a dark jacket while walking outdoors. In Clip 3, he is clearly wearing a light blue denim jacket over a dark shirt while speaking directly to the camera in a different outdoor setting."
+    },
+    {
+        "question": "Across the video, what progression is shown from exploring streets to exploring markets to spending time in calmer garden settings?",
+        "answer": "It moves from strolling through European streets, to busy outdoor markets, then to tranquil gardens and fountains.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            10,
+            36,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows street walking in a European town. Step 2: Slice 10 shows an active outdoor market with stalls and shoppers. Step 3: Slice 36 continues market activity with produce and crowds. Step 4: Slice 24 shows a quiet, manicured garden path and fountain. Conclusion: The narrative flows from streets to markets to calm gardens.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a young man walking through European-style streets with traditional architecture, supporting 'strolling through European streets.' Step 2: Slices 10 and 36 both depict bustling outdoor markets with stalls, produce, and crowds, supporting 'busy outdoor markets.' Step 3: Slice 24 shows a serene garden pathway leading to a fountain, emphasizing a calm setting, supporting 'tranquil gardens and fountains.' Logic holds because the slices collectively cover streets, markets, and a tranquil garden scene, aligning with the stated progression across the video.",
+        "visual_proof": "Clip 1 shows a person walking on a street with European-style buildings. Clip 2 and 3 depict bustling outdoor markets with vendors, produce, and crowds of shoppers. Clip 4 transitions to a serene garden with manicured lawns, trees, and a central fountain, indicating a shift to a calmer setting."
+    },
+    {
+        "question": "What sequence connects the creator’s theme announcement about talking a lot, the labeled intermission, the return-to-show card, and the final call-to-action?",
+        "answer": "He promises lots of talking, the video takes an intermission, returns to the show, and ends with subscribe/other-videos prompts.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            16,
+            22,
+            24,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 16 includes text where he promises to talk a lot and have interesting things to say. Step 2: Slice 22 shows “INTERMISSION,” pausing the flow. Step 3: Slice 24 shows “Back to the show,” resuming content. Step 4: Slice 60 is the end screen urging subscription and more videos. Conclusion: The video is structured around a talk-heavy vlog with breaks and a closing CTA.",
+        "logic_check_reasoning": "Step 1: Slice 16 shows the creator stating \"I'm going to talk a lot during this video\" and promising interesting content, which is the theme announcement. Step 2: Slice 22 displays \"INTERMISSION,\" indicating a labeled break in the video. Step 3: Slice 24 includes the text \"Back to the show,\" marking the return-to-show card. Step 4: Slice 60 is an outro with \"SUBSCRIBE!\" and \"CHECK OUT MY OTHER VIDEOS!\" along with an Instagram handle, which is the final call-to-action. The proposed answer summarizes this exact sequence.",
+        "visual_proof": "Clip 1 shows the creator with text overlay 'I’m going to talk a lot during this video'. Clip 2 displays 'INTERMISSION' over garden drone footage. Clip 3 shows 'Back to the show' over the same garden scene. Clip 4 is a black screen with 'SUBSCRIBE!' and 'CHECK OUT MY OTHER VIDEOS!', confirming the sequence described."
+    },
+    {
+        "question": "What item transitions from being an ingredient/prop in the kitchen scene to being held during an outdoor talk later on?",
+        "answer": "A cup of coffee (a mug).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows milk being poured into a cup for coffee (“lait in my coffee”). Step 2: Slice 57 shows him outdoors talking while holding a cup of coffee. Conclusion: Coffee prepared in the kitchen is later shown as a drink he holds outside.",
+        "logic_check_reasoning": "Step 1: Slice 47 shows the man in a kitchen pouring milk into a cup, with on-screen text 'lait in my coffee,' indicating the cup contains coffee and is part of the preparation. Step 2: Slice 57 shows the same man (denim jacket, cap) outside holding a cup of coffee while talking. Logic holds because the item (cup of coffee) appears first as the prepared beverage in the kitchen and later as the item he is holding during the outdoor talk.",
+        "visual_proof": "In the first clip, a white mug with coffee and milk being poured into it is shown as an inset image while the person is in the kitchen. In the second clip, the same person is outdoors and is seen holding that exact white mug while talking."
+    }
+]

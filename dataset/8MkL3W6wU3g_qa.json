@@ -1,0 +1,28 @@
+[
+    {
+        "question": "Which recurring interior design element—seen hanging from the ceiling in an elegant finished room—also appears again when the camera lingers on a similar wooden-beam ceiling?",
+        "answer": "Hanging lanterns (rectangular lanterns).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows two white, rectangular lanterns hanging from a ceiling with wooden rafters. Step 2: Slice 67 again shows a wooden-beam ceiling with two hanging lanterns. Conclusion: The recurring element is hanging lanterns.",
+        "logic_check_reasoning": "Step 1: Slice 14 describes an indoor space with wooden beams and rafters, and explicitly mentions two white rectangular traditional lanterns hanging from the ceiling. Step 2: Slice 67 describes a similar wooden-beam ceiling in a traditional Japanese-style room and again notes two rectangular hanging lanterns visible on each side. Logic holds because both slices depict the same ceiling-hung rectangular lanterns as a recurring element across similar wooden-beam interiors.",
+        "visual_proof": "Both clips show a wooden-beam ceiling structure. In Clip 1, as the camera pulls back, rectangular white lanterns with dark frames are revealed hanging from the beams. Clip 2 shows a similar ceiling structure and also features identical rectangular lanterns hanging from the beams, confirming their recurrence as a design element."
+    },
+    {
+        "question": "A worker in protective gear is shown doing hands-on construction early on; later, another worker is shown smoothing a wet-looking building material with a tool. What material is being spread later on?",
+        "answer": "Concrete or mortar.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 2 establishes the construction context with workers on site. Step 2: Slice 45 shows a worker using a trowel-like tool to smooth a thick substance. Conclusion: The later material being spread is concrete/mortar.",
+        "logic_check_reasoning": "Step 1: Slice 2 establishes workers in protective gear performing construction tasks, setting the scene. Step 2: Slice 45 specifically describes a worker using a trowel-like tool to spread and smooth a wet-looking substance and states it is likely concrete or mortar. Logic holds because the later scene explicitly identifies the material as likely concrete or mortar, matching the answer's uncertainty.",
+        "visual_proof": "In Video 2, a worker is shown using a trowel to smooth a wet, grey, paste-like substance onto a surface. This material's texture and application method are consistent with concrete or mortar being applied during construction. The earlier scene of a worker in a hard hat confirms the construction context."
+    }
+]

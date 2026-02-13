@@ -1,0 +1,55 @@
+[
+    {
+        "question": "In the gallery scenes, what is the woman primarily doing in the earlier museum sequence, and what is she doing later when the camera focuses on her profile beside a framed drawing and plaque?",
+        "answer": "Earlier she observes/engages with a projected and framed exhibition display; later she quietly studies a small framed drawing with an informational plaque.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the woman facing away, observing an exhibition with framed works and a projection. Step 2: Slice 30 shows her in profile contemplating a small framed drawing with a plaque. Conclusion: Her gallery interaction shifts from broad exhibit viewing to focused inspection of a single labeled work.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes an earlier museum sequence where a woman in dark clothing stands facing the exhibit, observing framed prints, with a semi-transparent projection screen also present—indicating she is engaging with both framed works and a projection. Step 2: Slice 30 shows a later scene focusing on the woman's profile as she thoughtfully looks at a small, framed drawing with a visible informational plaque beneath it—indicating she is quietly studying that specific piece. Logic holds because the proposed answer aligns with these two distinct activities described in the respective slices.",
+        "visual_proof": "In Clip 1, the woman stands with her back to the camera, facing an exhibit titled 'Goya's Graphic Imagination' which includes a large projection on the right wall and framed art on pedestals. In Clip 2, the camera shows a close-up of her profile as she looks intently at a small, vertically oriented framed drawing on the wall, with a white informational plaque visible directly below it."
+    },
+    {
+        "question": "Which two separate outdoor scenes show a black-clad figure covering their face with their hands before revealing or changing their face visibility?",
+        "answer": "The snowy forest scene and the dense forest mask scene.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 20 includes a black-hooded person in a snowy forest covering their face with their hands and then lowering them. Step 2: Slice 54 shows a hooded figure in a forest covering their face, then lowering hands to reveal a skull-like mask. Conclusion: Both scenes use the face-covering gesture before revealing/altering the face.",
+        "logic_check_reasoning": "Step 1: Slice 20 describes an outdoor snowy forest scene where a person in a black hoodie raises their hands to cover their face, then lowers them, and is later shown not covering their face. Step 2: Slice 54 describes an outdoor dense forest scene where a black-clad, hooded figure initially obscures their face with their hands and then lowers them to reveal a skull-like mask. Logic holds because both are separate outdoor forest settings featuring a black-clad figure covering their face with hands before revealing or changing face visibility.",
+        "visual_proof": "In Clip 1 (25 seconds-40 seconds), a black-clad figure is seen in a snowy forest, repeatedly covering their face with their hands before lowering them. In Clip 2 (0 seconds-23 seconds), a black-clad figure is in a dense forest between two trees, initially covering their face with fabric before pulling it down to reveal a painted or masked face."
+    },
+    {
+        "question": "Which two different artworks shown in the video depict themes of mourning around a body, one as a painting and the other as an etching?",
+        "answer": "The painting showing mourners around a man on the ground, and Goya’s etching “Funeral Folly.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a colorful painting of people gathered in distress around a man lying on the ground. Step 2: Slice 58 shows Goya’s etching “Funeral Folly” with people gathered around a body. Conclusion: Both artworks depict communal mourning around a body, across different media.",
+        "logic_check_reasoning": "Step 1: Slice 16 describes a colorful oil painting showing a group gathered around a man lying on the ground, with surrounding figures in distress and mourning. This establishes a painting depicting mourning around a body. Step 2: Slice 58 identifies an etching by Francisco Goya titled 'Funeral Folly,' showing people gathered around a body, mourning. This establishes an etching with the same theme. Logic holds because the question asks for two artworks in the video—one painting and one etching—depicting mourning around a body, which are precisely the painting in Slice 16 and Goya's etching in Slice 58. The proposed answer matches these.",
+        "visual_proof": "Clip 1 displays a colored painting with multiple figures gathered around a prone, deceased-looking body on the ground, consistent with a scene of mourning. Clip 2 shows a monochrome etching by Francisco Goya titled 'Funereal Folly,' which depicts a dark, somber scene with figures surrounding a body on the ground, also evoking themes of mourning or a funeral."
+    },
+    {
+        "question": "What progression is implied when the video moves from a close-up of a rock specimen, to an even closer rock texture shot, and then to a title card explicitly naming what those textures might represent?",
+        "answer": "It progresses from identifying an object (rock) to examining surface detail, then reframing the marks as “Stains.”",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a single rock/mineral specimen on a light background. Step 2: Slice 25 moves to an extreme close-up of rough stone texture. Step 3: Slice 26 presents the title card “Stains,” reframing the prior textures conceptually. Conclusion: The sequence zooms from object to texture to thematic labeling as stains.",
+        "logic_check_reasoning": "Step 1: Slice 24 presents a centrally positioned object that appears to be a rock or mineral specimen, establishing the object. Step 2: Slice 25 moves to a close-up of the rock/stone surface, emphasizing its texture and details. Step 3: Slice 26 transitions to a title card with the word 'Stains,' explicitly naming a theme that can reframe those observed textures as stains. Logic holds because the sequence goes from object identification to detailed examination to conceptual labeling as 'Stains.'",
+        "visual_proof": "Clip 1 shows a full view of a dark, irregularly shaped rock on a light background. Clip 2 is a zoomed-in view focusing on the granular, cracked texture of the rock's surface. Clip 3 transitions to a black screen with the word 'Stains' in white text, directly labeling the previously shown textures."
+    }
+]

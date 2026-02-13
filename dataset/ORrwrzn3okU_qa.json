@@ -1,0 +1,97 @@
+[
+    {
+        "question": "The craft segment first highlights a distinctive feature of a regional Buddhist altar style, and later the host links new creative work to preserving that heritage. What is the distinctive altar feature, and what heritage does she hope the new works will draw attention to?",
+        "answer": "The altars have a 'crown' on top, and she hopes the new works draw attention to Niigata butsudan (Buddhist altars).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 16 says Niigata-style altars have a unique 'crown' on top. Step 2: Slice 31 includes text about doing new things to preserve a legacy and draw attention to 'our Niigata butsudan.' Conclusion: The distinctive feature is the crown, and the heritage is Niigata butsudan.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly states, “Niigata-style altars have a 'crown' on top. You don't find that in other places,” identifying the distinctive feature. Step 2: Slice 31 includes the text, “I'm doing these new things to preserve our legacy. I hope it will draw attention to our Niigata butsudan,” linking new creative work to preserving and highlighting Niigata Buddhist altars. Logic holds because the first slice defines the unique feature of the regional altars, and the second slice specifies the heritage (Niigata butsudan) she aims to spotlight.",
+        "visual_proof": "In Clip 1, a man points to the top of an ornate altar while the subtitle explicitly states, 'Niigata-style altars have a \"crown\" on top.' In Clip 2, a woman discusses her creative work, and the subtitles state, 'I'm doing these new things to preserve our legacy. I hope it will draw attention to our Niigata butsudan.' The visual evidence from both clips directly supports the answer."
+    },
+    {
+        "question": "During the lacquer craft explanation, what material is coated and then baked, and what non-brush tools are used by an artist shown using a starry, cosmic design technique?",
+        "answer": "Steel is coated with lacquer and baked, and the artist uses tools like toothpicks or sponges instead of a brush.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 27 explains lacquer is applied to steel and fixed by baking in an oven. Step 2: Slice 22 explains the artist uses toothpicks or sponges instead of a brush. Conclusion: The material is steel, and the non-brush tools are toothpicks/sponges.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly states, \"we apply the lacquer to the steel, and then fix it by baking it in an oven,\" confirming the material (steel) is coated with lacquer and baked. Step 2: Slice 22 includes the text, \"Instead of using a brush to create my works, I use tools like toothpicks or sponges,\" shown alongside a starry, cosmic background, confirming the non-brush tools used by the artist. Logic holds because each part of the question is directly answered by the respective slice: steel is lacquered and baked (Slice 27), and toothpicks/sponges are used instead of a brush (Slice 22).",
+        "visual_proof": "Clip 1 shows a close-up of a toothpick applying red dots to a cosmic, starry design on a dark surface, with subtitles stating, 'Instead of using a brush to create my works, I use tools like toothpicks or sponges.' Clip 2 features a man explaining in subtitles, 'Yes, we apply the lacquer to the steel, and then fix it by baking it in an oven,' while a woman applies lacquer with a fine tool. Both pieces of information are visually and textually present."
+    },
+    {
+        "question": "The episode uses mapping graphics to orient viewers early on and later shows a route line with multiple red dots. Which prefecture/city is pinned first, and which three route locations are highlighted later?",
+        "answer": "Niigata Prefecture/Niigata City is pinned first, and the route highlights Oguni, Yonezawa, and Yamagata.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 6 zooms to Niigata Prefecture and pins Niigata City. Step 2: Slice 11 shows a route marked with red dots for Oguni, Yonezawa, and Yamagata. Conclusion: First pin is Niigata City; later route is Oguni–Yonezawa–Yamagata.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 6 states the video zooms to Niigata Prefecture and a pink pin marks Niigata City, establishing the first pinned prefecture/city. Step 2: Evidence Slice 11 states that later a route with red dots highlights Oguni, Yonezawa, and Yamagata, confirming the three route locations. The sequence and details directly match the proposed answer.",
+        "visual_proof": "In Video 1 (0:04-0:11), a pink pin appears on the map, explicitly labeling 'Niigata' as the first location highlighted. In Video 2 (0:21-0:31), a zoomed-in map shows a route line with red dots connecting Niigata to three other locations, which are clearly labeled as 'Oguni', 'Yonezawa', and 'Yamagata'."
+    },
+    {
+        "question": "A shop staff member explains the meaning of a logo linked to a specific wharf number, and elsewhere the program visually pins a specific city in the same region. What is the wharf number and which city is pinned on the map?",
+        "answer": "Wharf No. 10, and the city pinned is Niigata City.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 66 explains the logo uses the kanji for 'ten' because ships docked at the No. 10 wharf in Niigata. Step 2: Slice 6 pins Niigata City on the map. Conclusion: The number is 10 and the pinned city is Niigata City.",
+        "logic_check_reasoning": "Step 1: Slice 66 states the staff member explains ships used to dock at the No. 10 wharf in Niigata, and the logo uses the kanji for 'ten,' confirming the wharf number is 10. Step 2: Slice 6 describes a map zooming to Niigata Prefecture with a pink pin indicating Niigata City, confirming the city pinned is Niigata City. Logic holds because both details pertain to the same regional context presented by the program.",
+        "visual_proof": "In Video 2, the subtitle explicitly states, 'They used to dock in the No.10 wharf.' In Video 1, a map of Japan is shown with a pink pin and the label 'Niigata' highlighting the city in Niigata Prefecture."
+    },
+    {
+        "question": "The hikers discuss a long route’s distance, and later they identify reaching a named pass with a recorded climb. What is the route length and what elevation gain is stated at the pass?",
+        "answer": "The route is 70 kilometers long, and the climb is 426 meters.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            50,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 50 states the Jusan-Toge route is 70 kilometers long. Step 2: Slice 55 states they are at Kurosawa Pass and have climbed 426 meters. Conclusion: 70 km and 426 m.",
+        "logic_check_reasoning": "Step 1: Slice 50 explicitly states, \"I guess you can't walk the Jusan-Toge route in a day. No, it's 70 kilometers long,\" confirming the route length is 70 kilometers. Step 2: Slice 55 has text, \"This is the Kurosawa Pass. We've climbed 426 meters,\" which directly provides the elevation gain at the pass. The logic holds as the question asks for the route length and the climb at the pass, both of which are clearly stated in the slices.",
+        "visual_proof": "In Clip 1, subtitles state: 'No. It's 70 kilometers long.' In Clip 2, subtitles state: 'This is the Kurosawa Pass. We've climbed 426 meters.' Both pieces of information are directly visible in the on-screen text."
+    },
+    {
+        "question": "A long forest route is described as too long for one day and comparable to Isabella Bird’s journey; later, the hikers reach Kurosawa Pass with a specific elevation gain. How do duration, historical reference, and elevation together frame the trek’s scale?",
+        "answer": "They frame it as a historically resonant, multi-day trek (three days and two nights like Isabella Bird) on a very long route (70 km) that also involves notable climbing (426 m to Kurosawa Pass).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            50,
+            51,
+            55,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 50 says the route is 70 km, not doable in a day. Step 2: Slice 51 says it would take three days and two nights like Isabella Bird. Step 3: Slice 55 states they reached Kurosawa Pass after climbing 426 m. Step 4: Slice 10 establishes Isabella Bird as a historical traveler. Conclusion: These details collectively portray a long, demanding, multi-day, historically themed trek.",
+        "logic_check_reasoning": "Step 1: Slice 50 states the Jusan-Toge route is 70 kilometers and cannot be walked in a day, establishing long distance. Step 2: Slice 51 adds duration and a historical reference: it would take three days and two nights, 'Just like Isabella Bird,' tying the trek to a known historical traveler and indicating a multi-day journey. Step 3: Slice 55 specifies elevation gain at a milestone: at Kurosawa Pass, 'We've climbed 426 meters,' quantifying the climb. Step 4: Together, these details support the answer that the trek is a historically framed, multi-day (3 days, 2 nights) 70 km route with a notable 426 m ascent to Kurosawa Pass.",
+        "visual_proof": "Clip 1 shows hikers discussing the 70-km Jusan-Toge route being too long for one day. Clip 2 visually presents the forest trail while subtitles state it takes 'three days and two nights, just like Isabella Bird.' Clip 3 shows the hikers at Kurosawa Pass with subtitles confirming they've climbed 426 meters. Clip 4 provides historical context with images of Isabella L. Bird (1831–1904), reinforcing the historical reference. Together, these clips visually establish the trek’s scale through duration, distance, elevation gain, and historical comparison."
+    },
+    {
+        "question": "A woman walks with a parasol through a garden, later appears on a quiet street with a differently colored parasol, and then walks by the sea with a matching color again. What color changes happen to the parasol/umbrella across these appearances?",
+        "answer": "It appears as a pink/orange-toned parasol in the garden, changes to a purple parasol on the traditional street, and is seen as a purple umbrella again by the sea.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            12,
+            33,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a colorful parasol with pink/orange hues in a garden. Step 2: Slice 12 shows a vibrant purple parasol on a traditional street. Step 3: Slice 33 shows a purple umbrella on the beach by the Sea of Japan. Step 4: Slice 8 also features the woman holding a pink parasol near waterways/marina, reinforcing that parasol colors vary by segment. Conclusion: The accessory shifts between pink-toned and purple across scenes, with purple recurring strongly later.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the garden scene features a parasol with a gradient of pink and orange hues. Step 2: Slice 12 shows the woman on a traditional street holding a vibrant purple parasol, which is a different color from the garden scene. Step 3: Slice 33 describes the beach scene where the woman holds a purple umbrella, matching the street color. Therefore, the sequence is pink/orange in the garden, purple on the street, and purple again by the sea.",
+        "visual_proof": "In Clip 1 (garden scene), the parasol is clearly pink with orange tones. In Clip 2 (traditional street), the same woman holds a distinctly purple parasol. In Clip 3 (beach scene), she is again holding the same purple parasol, confirming the color change from pink/orange to purple and its consistent use thereafter."
+    }
+]

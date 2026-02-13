@@ -1,0 +1,84 @@
+[
+    {
+        "question": "Which language is emphasized by the hosts, and then shown on a map as spanning an entire regional 'world'?",
+        "answer": "Swahili (Kiswahili).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows the hosts with the on-screen label “Swahili.” Step 2: Slice 44 shows a map titled “The Swahili world.” Conclusion: The language is Swahili (Kiswahili).",
+        "logic_check_reasoning": "Step 1: Slice 45 explicitly states that the on-screen text reads 'Swahili' and the two men are discussing the Swahili language. Step 2: Slice 44 shows a map titled 'The Swahili world' highlighting regions where Swahili is spoken. Logic holds because the language discussed by the hosts (Swahili) is the same one depicted in the subsequent map as a regional 'world.'",
+        "visual_proof": "In Clip 1, the hosts are shown with a graphic of the Tanzanian flag and the word 'Swahili' prominently displayed. In Clip 2, a map titled 'The Swahili world' is shown, highlighting regions in East Africa where Swahili is an official or minority language, directly linking the language to a regional scope."
+    },
+    {
+        "question": "Which two named locations are paired as a split-screen of wildlife scenes and are later referenced as famous natural areas within Tanzania’s parks/game reserves discussion?",
+        "answer": "Serengeti and Ngorongoro.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows split-screen wildlife labeled “Serengeti” and “Ngorongoro.” Step 2: Slice 26 discusses Tanzania’s “17 Parks/ Game reserves,” placing these iconic areas in the protected-areas context. Conclusion: The two locations are Serengeti and Ngorongoro.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly shows a split-screen with wildlife scenes labeled 'Serengeti' and 'Ngorongoro,' ending with 'Natural wonder of the world,' indicating these are notable natural areas. Step 2: Slice 26 shows the same presenter discussing a map labeled '17 Parks/ Game reserves,' which provides the context of Tanzania’s parks/game reserves. Logic holds because the video connects the named locations from the split-screen to a broader discussion of parks/game reserves, supporting that Serengeti and Ngorongoro are the referenced famous natural areas.",
+        "visual_proof": "In the first clip, a split-screen at 0:00 clearly labels two wildlife scenes as 'Serengeti' (top left) and 'Ngorongoro' (bottom right). The second clip features a map of Tanzania with highlighted parks, including Serengeti NP and Ngorongoro Conservation Area, confirming their status as famous natural areas within Tanzania’s park system. The presenter discusses these locations in context."
+    },
+    {
+        "question": "Which animal scene appears as real wildlife footage and later becomes a studio backdrop image behind a presenter, showing a shift from field footage to illustrative background?",
+        "answer": "Elephants walking together.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            32,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows real savanna footage with an adult elephant and a calf walking. Step 2: Slice 32 shows a presenter with an image of elephants behind him (used as a backdrop). Step 3: Slice 29 reinforces the wildlife/nature framing with Serengeti/Ngorongoro wildlife imagery. Conclusion: The recurring animal imagery is elephants.",
+        "logic_check_reasoning": "Step 1: Slice 31 describes a wide shot of a savanna with two elephants (an adult and a calf) walking together, clearly presented as real wildlife footage. Step 2: Slice 32 shows a man presenting in front of a black background with an image of two elephants walking in the background, indicating a studio backdrop. Logic holds because the same animal scene (elephants walking) appears first as field footage (Slice 31) and later as a backdrop behind a presenter (Slice 32), demonstrating the shift from real footage to illustrative background.",
+        "visual_proof": "In Video 1 (0:05), real, wide-angle wildlife footage shows an adult and a baby elephant walking on a dirt path in a natural savanna setting. In Video 2 (0:00-0:02), the same scene of the two elephants is displayed as a small, inset image against a black studio background, positioned behind the presenter. This visual transition from full-screen field footage to a framed backdrop image confirms the described shift."
+    },
+    {
+        "question": "Which historical topics connect Zanzibar to external powers across time, starting from a war date, then colonial-era references, and finally a language-influence percentage mentioned later?",
+        "answer": "The Anglo-Zanzibar War (1896), earlier Oman/Portugal-era presence, and later the mention that Swahili includes about 20% Omani Arabic influence.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            5,
+            46,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows “1896” and “Anglo-Zanzibar war” with Zanzibar highlighted. Step 2: Slice 5 references “Oman Sultanate 1698” and “Portugal 1500s,” indicating earlier external influence on the coast. Step 3: Slice 46 states “About 20% Omani Arabic” in Swahili, tying Oman’s influence to language. Step 4: Slice 36 discusses Zanzibar’s spice industry, reinforcing Zanzibar as a key Swahili Coast hub shaped by these influences. Conclusion: These segments connect Zanzibar’s history with Oman/Portugal and Omani Arabic influence in Swahili.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly shows the text \"1896\" and \"Anglo-Zanzibar war,\" directly supporting the war date connection. Step 2: Slice 5 displays \"Oman Sultanate 1698\" and \"Portugal 1500s,\" which are colonial-era references to external powers involved in the East African coast context relevant to Zanzibar. Step 3: Slice 46 shows \"Zanzibari Swahili\" and the statement \"About 20% Omani Arabic,\" which supports the language-influence percentage mentioned later. The sequence matches the proposed answer’s timeline and topics.",
+        "visual_proof": "Clip 1 shows text '1896' with 'Anglo-Zanzibar war'. Clip 2 displays 'Oman Sultanate 1698' and 'Portugal 1500s', indicating earlier external powers. Clip 3 features text stating 'Swahili About 20% Omani Arabic', directly providing the language influence percentage."
+    },
+    {
+        "question": "Which volcano is called out as uniquely ejecting carbonatite lava, and earlier is also marked on a Tanzania rift-region map?",
+        "answer": "Ol Doinyo Lengai.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 13’s animated map labels Ol Doinyo Lengai. Step 2: Slice 16 states it is the “Only Volcano known to eject carbonatite lava.” Conclusion: The volcano is Ol Doinyo Lengai.",
+        "logic_check_reasoning": "Step 1: Slice 13 states the map of Tanzania marks Ol Doinyo Lengai on the East African Rift. Step 2: Slice 16 shows an image labeled 'Ol Doinyo Lengai' with text 'Only Volcano known to eject carbonatite lava.' Logic holds because the same volcano is both marked earlier on the Tanzania rift-region map and later identified as uniquely ejecting carbonatite lava.",
+        "visual_proof": "In the first clip, at 0:13, a map of Tanzania is shown with 'Ol Doinyo Lengai' labeled in red text. In the second clip, at 0:03, an image of a volcano is displayed with the on-screen text 'Only Volcano known to eject carbonatite lava'. At 0:04, this same volcano is identified with a picture-in-picture and the label 'Ol Doinyo Lengai', directly linking the unique geological feature to the location previously marked on the map."
+    },
+    {
+        "question": "Which political figure’s name appears during a studio discussion and later is tied to Tanzania’s ruling-party explanation and then referenced again in a later language-related segment?",
+        "answer": "Julius Nyerere.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            6,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 8 displays the text “Julius Nyerere.” Step 2: Slice 6 covers Tanzania’s political system and references key national politics (including Nyerere-era context). Step 3: Slice 46 ends with the name “Julius Nyerere” during a Swahili dialect discussion. Conclusion: The figure is Julius Nyerere.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows a studio discussion with three men, and the text 'Julius Nyerere' appears on the screen during this segment, confirming the name appears in the discussion. Step 2: Slice 6 provides an overview of Tanzania, explicitly mentioning 'Julius Nyerere International Airport' and, within the same Tanzania segment, explains the ruling party (Chama Cha Mapinduzi). This ties Julius Nyerere’s name to the segment that includes the ruling-party explanation. Step 3: Slice 46 is a later language-related segment (Zanzibari Swahili) that ends with the man saying 'Julius Nyerere,' confirming the name is referenced again. The chain holds across the slices.",
+        "visual_proof": "The name 'Julius Nyerere' appears visually in all three clips. In Clip 1 (0:06), his name and photo are shown during a studio discussion. In Clip 2 (0:13), his name is linked to Julius Nyerere International Airport (IATA: DAR) in Dar es Salaam, Tanzania. In Clip 3 (0:07), his name and photo reappear during a segment discussing the Swahili language, confirming his repeated visual association with Tanzania's political and cultural context."
+    }
+]

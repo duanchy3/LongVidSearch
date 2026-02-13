@@ -1,0 +1,123 @@
+[
+    {
+        "question": "What activity is the group preparing for after the car ride that includes an airport sign?",
+        "answer": "They are preparing to go skydiving.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows the car heading toward an airport (airport sign visible). Step 2: Slice 33 shows people in harnesses boarding a plane to skydive. Conclusion: The airport drive is leading to a skydiving activity.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows a car ride with an airport sign, indicating they are heading to the airport. Step 2: Slice 33 shows three young men at an airplane wearing harnesses and preparing to jump, then skydiving. Logic holds because the sequence suggests the car ride leads to the airport, after which the group prepares for and performs a skydive.",
+        "visual_proof": "Clip 1 shows a car driving past a sign for 'Triangle North Executive Airport'. Clip 2, which follows chronologically, shows the same group of young men now outside, standing in front of a small airplane and wearing full skydiving harnesses, indicating they are preparing for a skydive."
+    },
+    {
+        "question": "After a calm parked-car moment, what later change indicates the journey resumes?",
+        "answer": "The car transitions from being parked to driving along a tree-lined road.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the car parked by trees with a driver in a red shirt. Step 2: Slice 10 shows the car moving forward on a tree-lined road. Conclusion: The state changes from parked to driving.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a calm scene with the car parked and the driver resting, indicating the vehicle is not moving. Step 2: Slice 10 shows the car actively driving along a tree-lined road, with motion and engine sounds. Logic holds because the later slice explicitly shows the transition from parked to driving, indicating the journey resumes.",
+        "visual_proof": "Clip 1 shows the car stationary, with a clear view of the side mirror and a red vehicle parked nearby. Clip 2 shows significant motion blur of trees and surroundings, indicating the car is now moving at speed along a tree-lined road, confirming the journey has resumed."
+    },
+    {
+        "question": "How does the main person's clothing style shift from the indoor vlog at the start to the outdoor phone-call moment later?",
+        "answer": "He goes from a black T-shirt indoors to a yellow-and-black striped shirt outdoors while on the phone.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the man indoors in a black T-shirt with text. Step 2: Slice 60 shows him outdoors in a yellow/black striped shirt holding a phone to his ear. Conclusion: Clothing changes from black tee to striped shirt.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes the indoor vlog showing a young man wearing a black T-shirt. Step 2: Slice 60 describes an outdoor scene with a young man on the phone wearing a yellow-and-black striped shirt. Logic holds because both slices refer to a young man in the same video at different moments, indicating a change from a black T-shirt indoors to a yellow-and-black striped shirt outdoors while on the phone.",
+        "visual_proof": "In Clip 1, the person is clearly wearing a black T-shirt with white text. In Clip 2, he is wearing a different shirt with horizontal yellow and black stripes. The change in clothing and environment (indoor room vs. outdoor setting) is visually evident."
+    },
+    {
+        "question": "What is the sequence of transportation modes that takes the group from driving to being airborne for an extreme activity?",
+        "answer": "They drive in a car and then board a small airplane for skydiving.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            19,
+            20,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows highway driving from inside a car. Step 2: Slice 20 shows the drive continuing toward an airport. Step 3: Slice 33 shows boarding a small airplane with harnesses for skydiving. Conclusion: Car travel leads to airplane boarding for skydiving.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows a first-person view of actively driving a car on a highway. Step 2: Slice 20 further confirms being in a car headed toward an airport (airport sign shown). Step 3: Slice 33 shows the group at an airplane, boarding it, taking off, and then skydiving. Logic holds because the context clearly depicts the sequence from car travel to boarding a (small/compact) airplane, leading to being airborne for skydiving.",
+        "visual_proof": "Clip 1 and Clip 2 show the group driving in a car, with views of the road and interior shots of the driver and passengers. Clip 3 shows the same individuals, now wearing skydiving harnesses, standing in front of a small airplane, which confirms they transitioned from driving to preparing for an airborne activity (skydiving)."
+    },
+    {
+        "question": "How does the scene transition from a focused grooming moment to a collaborative indoor preparation setting with multiple people?",
+        "answer": "It moves from one man adjusting his hair in a mirror to a small room where several people gather and coordinate.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            30,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows a man grooming/adjusting hair in a mirror. Step 2: Slice 30 shows multiple people in a small blue-walled room discussing/working. Step 3: Slice 40 shows a similar blue-walled room with people wearing masks and equipment visible. Conclusion: Personal prep transitions into group coordination in a workspace-like room.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows a single man grooming, adjusting his hair in front of a mirror, emphasizing a focused personal moment. Step 2: Slice 30 depicts three individuals in a small room with blue walls, engaged in discussion and reviewing notes, indicating a collaborative setting. Step 3: Slice 40 also shows three people in the same type of room with equipment and cables, suggesting coordinated work, likely preparation. Logic holds because the context clearly shifts from a solitary grooming scene to a multi-person indoor collaborative environment.",
+        "visual_proof": "Clip 1 shows a single man from a low angle, looking up at a mirror and running his hands through his hair, indicating a personal grooming moment. Clips 2 and 3 show the same man, now kneeling on the floor in a hallway, writing on a clipboard while two other individuals stand behind him, observing and holding equipment or notes. This visual shift confirms the transition from a solo grooming activity to a collaborative preparation setting."
+    },
+    {
+        "question": "What change in environment occurs from the calm bedroom plant-tending moment to the later outdoor athletic flip near a house window?",
+        "answer": "It shifts from a quiet indoor bedroom by a window to an energetic outdoor yard/house-front scene by a window.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            53,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 53 shows calm plant-tending inside a bedroom near a window. Step 2: Slice 54 shows an outdoor scene by a house window where a person performs a flip. Conclusion: The setting changes from indoor calm to outdoor athletic action.",
+        "logic_check_reasoning": "Step 1: Slice 53 describes a calm indoor bedroom scene where a person tends to a potted plant near a window, emphasizing a peaceful, cozy environment. Step 2: Slice 54 shows an outdoor scene in front of a house with beige siding and a window, where a person performs an energetic flip, emphasizing a lively atmosphere. Logic holds because the environment clearly shifts from an indoor, calm bedroom setting by a window to an outdoor, energetic house-front setting by a window. While 'yard' isn't explicitly stated, 'house-front' is, which matches the proposed answer's 'yard/house-front' phrasing.",
+        "visual_proof": "Clip 1 shows a calm indoor setting with a person tending to a plant by a window in a dimly lit bedroom. Clip 2 shows the same person outdoors, performing an athletic maneuver (a flip) near a house window on a paved surface with scattered leaves, indicating a dynamic and energetic outdoor environment."
+    },
+    {
+        "question": "Which progression shows the video moving from a graduation gathering to a personalized acknowledgment of supporters at the end?",
+        "answer": "It goes from graduation scenes to a 'Thank you for watching' screen and then a patron thank-you list.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            75,
+            81,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 75 shows the celebratory graduation moment in the gym. Step 2: Slice 81 presents an end screen saying 'Thank you for watching.' Step 3: Slice 82 shows a patron thank-you card listing supporter names. Conclusion: The graduation segment leads into the video’s closing acknowledgments.",
+        "logic_check_reasoning": "Step 1: Slice 75 describes a graduation gathering with a young man in cap and gown, establishing the graduation scene. Step 2: Slice 81 shows a screen with 'Thank you for watching,' indicating a general end-of-video thank-you segment. Step 3: Slice 82 presents a personalized acknowledgment listing top-tier patrons by name, which fits the 'personalized acknowledgment of supporters at the end.' Logic holds because the proposed answer describes moving from the graduation scenes to a general thank-you and then to a patron-specific thank-you, all of which are explicitly depicted in the slices.",
+        "visual_proof": "Clip 1 shows a graduate walking through a gymnasium filled with an audience, clearly depicting a graduation scene. Clip 2 shows a computer monitor displaying the text 'Thank you for watching,' indicating a closing screen. Clip 3 displays a 'Thank you!' message specifically acknowledging 'top-tier Patrons' by name, serving as a personalized acknowledgment of supporters. The sequence of these clips visually confirms the described progression."
+    },
+    {
+        "question": "Which moments show the car group interacting with handheld devices across different seats and viewpoints?",
+        "answer": "They use phones from the driver's area, a close-up hand view, and the back seat.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            12,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows the driver interacting with a tablet/device and another person holding a phone. Step 2: Slice 12 shows a close-up of a hand holding a smartphone in the car. Step 3: Slice 13 shows a backseat passenger using a smartphone while moving. Conclusion: Device use appears repeatedly from multiple seats/viewpoints.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows the front/driver area with the driver interacting with a tablet (a handheld device) and the front passenger holding a smartphone, indicating handheld device use in the driver's/front area. Step 2: Slice 12 presents a close-up view of a hand holding a smartphone inside the car, clearly a handheld device interaction from a close-up viewpoint. Step 3: Slice 13 shows a person in the back seat using a smartphone, confirming handheld device use from the back seat viewpoint. Logic holds because the answer lists three moments across different seats and perspectives: driver/front area, close-up hand view, and back seat, all supported by the slices.",
+        "visual_proof": "Clip 1 shows a person in the driver's seat using a phone. Clip 2 provides a close-up of a hand holding a phone. Clip 3 shows a hand holding a phone from a back seat perspective, with the leg of the passenger visible."
+    },
+    {
+        "question": "Which two scenes show the same recurring object being used both indoors at a desk and later inside a vehicle?",
+        "answer": "A smartphone is used at the desk and later inside the car.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the man holding and using a smartphone at his desk. Step 2: Slice 12 shows a hand holding a smartphone inside a vehicle. Conclusion: The smartphone recurs across indoor and car contexts.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a young man indoors at a desk holding and using a smartphone, putting it down to write, then picking it up again. Step 2: Slice 12 shows a hand holding a smartphone inside a vehicle, with details like a transparent protective cover and reflections of the sky and trees. Logic holds because both slices explicitly mention a smartphone being used in two different settings—indoors at a desk and inside a car—indicating the same recurring object across scenes.",
+        "visual_proof": "In Video 1, a young man is seated at a cluttered desk indoors, actively using a smartphone with a purple case. In Video 2, a hand is shown holding the same smartphone (identifiable by its shape and clear case) inside a vehicle, with the car's interior and trees visible through the window. The recurring object is clearly the smartphone."
+    }
+]

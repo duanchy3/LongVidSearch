@@ -1,0 +1,183 @@
+[
+    {
+        "question": "What safety concern mentioned at the very beginning helps explain why a later document gives instructions about air-raid alerts and bomb shelters?",
+        "answer": "The creator says the trip was kept confidential for security reasons, aligning with later air-raid and bomb-shelter safety instructions.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 1 states the trip was kept confidential for security reasons. Step 2: Slice 11 shows a travel notice emphasizing air-raid alert apps and bomb shelters. Conclusion: The security-sensitive context connects to the need for air-raid safety guidance.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the narrator kept the trip entirely confidential for security reasons, indicating a concern for safety. Step 2: Evidence Slice 11 presents a document with instructions about air-raid alerts, bomb shelters, and curfews, reflecting a hazardous environment. Logic holds because the initial mention of security concerns explains why later, detailed safety instructions related to air raids and shelters are relevant to the trip.",
+        "visual_proof": "Clip 1 displays text stating, 'For security reasons, I decided to keep this trip entirely confidential...'. Clip 2 shows a document with instructions about bomb shelters and air raid alerts, indicating an environment where such security measures are necessary. The explicit mention of 'security reasons' in Clip 1 provides context that logically connects to the safety instructions in Clip 2."
+    },
+    {
+        "question": "Which country is being promoted by the website shown, and which later city title confirms the video eventually goes there?",
+        "answer": "Ukraine is being promoted, and the later title confirms Kyiv.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the 'Visit Ukraine Today' webpage. Step 2: Slice 60 shows the title 'KYIV.' Conclusion: The promoted country is Ukraine and the later city shown is Kyiv.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a webpage from 'Visit Ukraine Today' providing travel information and services related to visiting Ukraine, clearly indicating the country being promoted is Ukraine. Step 2: Slice 60 notes the video shows bold white text 'KYIV' across the screen, identifying the city and confirming the video goes there. Logic holds because Slice 7 establishes the country, and Slice 60 explicitly names the city title.",
+        "visual_proof": "Clip 1 shows a website with the prominent logo 'Visit UKRAINE' and text like 'INFORMATION PAGE ABOUT UKRAINE 24/7'. Clip 2 displays large white text spelling 'KYIV' overlaid on city scenes, confirming the location."
+    },
+    {
+        "question": "What two different physical locations are used to emphasize danger and preparedness: the document about raids and the place explored with helmets and colored lights?",
+        "answer": "A printed safety notice about air raids and bomb shelters, and an underground tunnel/cave explored with helmets and dramatic lighting.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows written instructions about air-raid alerts and shelters. Step 2: Slice 52 shows helmeted exploration in a tunnel/cave with red/green lighting. Conclusion: Both locations emphasize danger and preparedness in different ways.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes a close-up of a printed document that provides safety guidance related to air raids and bomb shelters, clearly supporting 'a printed safety notice about air raids and bomb shelters.' Step 2: Slice 52 describes an underground or cave-like setting explored by people wearing helmets with colored lighting, supporting 'an underground tunnel/cave explored with helmets and dramatic lighting.' Logic holds because the two slices depict the two different scenes referenced in the answer: the document emphasizing preparedness and the underground exploration indicating a hazardous environment.",
+        "visual_proof": "Clip 1 shows a close-up of a printed document detailing safety precautions for air raids, including bomb shelters and curfews. Clip 2 shows a person wearing a helmet with a headlamp walking through a dimly lit, narrow space with red and green ambient lighting, consistent with an underground tunnel or cave environment."
+    },
+    {
+        "question": "Which two nighttime sequences highlight riverside city landmarks, and what is the named city in the later one?",
+        "answer": "A person walking near a lit bridge at night and the later montage labeled 'DNIPRO'; the named city is Dnipro.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            64,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 64 shows a night walk with a bridge and water reflections. Step 2: Slice 65 shows a riverside night montage labeled 'DNIPRO.' Conclusion: Both are riverside night landmark sequences, and the named city is Dnipro.",
+        "logic_check_reasoning": "Step 1: Slice 64 describes a nighttime scene near a body of water with a prominently lit bridge, indicating a riverside landmark while a person walks along a path. Step 2: Slice 65 shows a nighttime urban riverside montage explicitly labeled 'DNIPRO,' featuring a bridge, river reflections, and landmarks near the river. The later sequence names the city as Dnipro. Logic holds because both sequences highlight riverside landmarks, and the later one provides the city's name.",
+        "visual_proof": "Clip 1 shows a person walking on a snowy/icy surface with a large, illuminated bridge in the background. Clip 2 features a clear text overlay spelling 'DNIPRO' over a riverside scene at night, identifying the city. The montage also includes other landmarks like a church and a large 'I ❤️ UKRAINE' sign, confirming the location."
+    },
+    {
+        "question": "Which two sequences show the same pair of presenters outdoors near historic architecture, and what later landmark title identifies a specific cathedral they visit?",
+        "answer": "The pair appears outside a fortress-like building and later in a park/plaza discussion, and the later titled landmark is St. George's Cathedral.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            48,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows two people walking and talking in front of a historic fortress-like building. Step 2: Slice 48 shows two individuals in winter attire discussing history outdoors in a park/plaza. Step 3: Slice 49 explicitly introduces St. George's Cathedral. Conclusion: The presenters are tracked across outdoor history-talk segments culminating at the named cathedral.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows two individuals, dressed for cold weather, vlogging together in front of a historic, fortress-like building. Step 2: Slice 48 again shows two individuals, similarly dressed for winter, conversing outdoors in a park/plaza with a large historic-style building in the background—consistent with being the same pair of presenters within the same video. Step 3: Slice 49 explicitly shows an on-screen title identifying a specific cathedral as 'St. George's Cathedral.' The logic holds that the two outdoor sequences are Slices 17 and 48, and the later landmark title is from Slice 49.",
+        "visual_proof": "Clip 1 shows two men (one in a black beanie, one in a scarf) standing outdoors in front of a large, circular brick fortress with green spires. Clip 2 shows the same two individuals (the man in the black beanie now wearing a grey beanie, and the woman in a blue beanie) having a conversation outdoors in a park/plaza setting with trees and buildings in the background. Clip 3 features text overlay identifying 'St. George's cathedral' over images of its architecture, including a model and the actual building with statues."
+    },
+    {
+        "question": "How does the narrative connect traveling under wartime constraints (curfews and raid alerts) to later conversations about continuing life despite the war?",
+        "answer": "The safety notice describes curfews and air-raid procedures, and later people explicitly talk about living normally, raising children, and earning money despite the war.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            56,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 11 lists curfews and air-raid safety guidance for travelers. Step 2: Slice 56 mentions events happening almost every day in the city center (context of ongoing disruption). Step 3: Slice 57 has a woman saying they must continue to live, raise children, and earn money. Conclusion: Practical wartime constraints connect to the later resilience message.",
+        "logic_check_reasoning": "Step 1: Slice 11 presents a document with wartime travel constraints: air-raid alerts, bomb shelters, and curfew times in Ukrainian cities, clearly establishing the context of traveling under wartime conditions. Step 2: Slice 56 shows a casual conversation in Lviv about daily occurrences, and Slice 57 explicitly features a speaker stating, \"We have to continue to live,\" \"raise our children,\" and \"earn money,\" which conveys resilience and continuing life amid difficulties. Logic holds because the narrative transitions from practical wartime travel precautions to personal reflections on maintaining everyday life, aligning with the proposed answer.",
+        "visual_proof": "Clip 1 visually shows a document detailing wartime constraints like curfews in Lviv and Kyiv and the need for bomb shelters. Clips 2 and 3 show individuals discussing the reality of daily life under these conditions, with subtitles stating they have funeral ceremonies almost daily but must 'continue to live,' 'raise our children,' 'earn money,' and 'work' to sustain themselves."
+    },
+    {
+        "question": "Which travel step is shown by a hotel reservation letter, and what later handwritten note suggests the hotel staff welcomed the traveler personally?",
+        "answer": "The reservation confirmation shows the planned stay, and the later handwritten note from the hotel manager welcomes the guest and wishes a safe stay.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a hand holding a passport and a Best Western Plus reservation confirmation. Step 2: Slice 62 shows a handwritten welcome note from the hotel manager. Conclusion: Booking/arrival is followed by a personalized welcome.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows a close-up of a hand holding a passport and a hotel reservation confirmation for Best Western Plus, indicating a planned stay as part of the travel. Step 2: Slice 62 shows a handwritten note from the hotel manager addressing the traveler by name, thanking them for choosing the hotel and wishing a comfortable and safe stay, which indicates a personal welcome. Logic holds because the reservation demonstrates the planning/booking step, and the later note confirms personalized hospitality after arrival.",
+        "visual_proof": "Clip 1 (0:04-0:05) shows a printed hotel reservation confirmation for 'Best Western Plus Market Square Lviv' with guest details and dates. Clip 2 (0:00-0:02) displays a handwritten note addressed to 'Dear Paul,' signed by 'Hotel Manager Maryna,' which reads, 'We appreciate you choosing BURSH Hotel Kyiv. We wish you a comfortable and safe stay!' This visually confirms both the reservation step and the personal welcome note."
+    },
+    {
+        "question": "Which two different moments show explicit branding for the travel series, and what later globe animation reinforces the global-travel identity?",
+        "answer": "The 'Visit Ukraine Today' branding and the YouTube '/Commonwealth Realm' overlay, followed by the rotating globe/logo animation at the end.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            18,
+            99
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows 'Visit Ukraine Today' branding and the URL on screen. Step 2: Slice 18 shows a YouTube overlay '/Commonwealth Realm' with an inset reaction. Step 3: Slice 99 shows a globe-from-space animation with social follow prompts and a logo. Conclusion: Multiple branding moments reinforce this as part of a broader travel-media identity.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly shows branding with a logo reading 'Visit Ukraine Today' and the text 'VisitUkraine.Today' at the bottom, clearly indicating travel-related branding. Step 2: Slice 18 explicitly shows a YouTube logo with the text '/Commonwealth Realm,' which is channel branding presented as an overlay in a segment that stylistically aligns with travel/educational content about historical sites. Step 3: Slice 99 describes a globe/earth animation with highlighted locations and a prominent logo, continuing into the final frames, which reinforces a global-travel identity. The proposed answer matches these elements: the two branding moments ('Visit Ukraine Today' and '/Commonwealth Realm') and the later globe/logo animation at the end.",
+        "visual_proof": "Clip 1 explicitly shows a 'Visit Ukraine.Today' logo in the top right corner and text at the bottom. Clip 2 displays a YouTube channel overlay for '/Commonwealth Realm' at the bottom of the screen. Clip 3 features an animation of the Earth with a rotating green and blue logo (matching the one on the mug in Clip 1) flying around it, reinforcing a global travel theme."
+    },
+    {
+        "question": "How does the video connect historical discussion outdoors to specific cultural markers on architecture and then to a museum-like corridor referencing wartime groups?",
+        "answer": "They discuss historical periods while walking, then point out Ukrainian cultural identifiers on church angels’ clothing, and later visit a candlelit corridor with a display referencing the UPA.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            47,
+            77,
+            51,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows two people discussing history (medieval ages, Nazi invasion, Soviet period) while walking in a park. Step 2: Slice 49 situates the exploration at a major cathedral visit. Step 3: Slice 77 highlights angels on ornate architecture wearing Ukrainian vyshyvankas as a cultural marker. Step 4: Slice 51 shows a candlelit corridor and a display referencing 'UPA 1943–1954.' Conclusion: The narrative ties historical talk to cultural symbolism and curated historical memory.",
+        "logic_check_reasoning": "Step 1: Slice 47 shows two individuals walking outdoors discussing history, explicitly mentioning periods like the medieval ages, Nazi invasion, and Soviet period, supporting 'historical discussion while walking.' Step 2: Slice 77 focuses on a church facade where angels are wearing Ukrainian vyshyvankas, with subtitles highlighting this as a Ukrainian cultural identifier, supporting 'specific cultural markers on architecture.' Slice 49 further reinforces the architectural context with St. George's Cathedral details. Step 3: Slice 51 depicts a candlelit, museum-like corridor with a display reading 'Бофони УПА 1943-1954', which references the Ukrainian Insurgent Army (UPA), supporting 'a corridor referencing wartime groups.' Logic holds because these slices together map the progression from outdoor historical discussion to cultural symbolism on architecture and then to a museum-like setting about wartime groups.",
+        "visual_proof": "Clip 1 shows two people walking outdoors discussing historical periods (medieval, Nazi invasion, Soviet period). Clip 2 focuses on a church facade where the narrator points out that the angels are wearing vyshyvankas, identifying it as Ukrainian. Clip 3 transitions to a dark, candlelit interior space resembling a museum or exhibit, where a poster explicitly displays 'Бофони УПА 1943-1954' (UPA banknotes 1943-1954), directly referencing the Ukrainian Insurgent Army."
+    },
+    {
+        "question": "What multi-step transition shows the video moving from an underground tunnel exploration to a controlled fire demonstration and then back to public street life with a costumed character?",
+        "answer": "It goes from exploring a tunnel/cave, to igniting a small flame in a container indoors, and then to a street interaction with a SpongeBob costume.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            52,
+            53,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 12 transitions from a presenter to a dark stone tunnel with a person walking cautiously. Step 2: Slice 52 shows helmeted exploration in a cave-like space with colored lighting. Step 3: Slice 53 shows a controlled flame demonstration ignited with a lighter on a table. Step 4: Slice 54 shifts to a public outdoor street scene with SpongeBob character interaction. Conclusion: The video’s setting and tone swing from subterranean exploration to experiment-like action to playful street life.",
+        "logic_check_reasoning": "Step 1: Slices 12 and 52 describe exploration in a dimly lit underground tunnel/cave environment with people wearing helmets and moving cautiously, establishing the tunnel exploration. Step 2: Slice 53 shows a transition to a controlled fire demonstration at a table where a container with flammable liquid is ignited with a lighter, clearly matching the controlled fire segment. Step 3: Slice 54 moves to an outdoor public street/plaza scene featuring interaction with a person in a SpongeBob costume, fulfilling the return to public street life. Logic holds because the proposed answer mirrors these sequential transitions: tunnel/cave exploration, controlled flame demonstration, then street interaction with a costumed character.",
+        "visual_proof": "Clip 1 shows an underground stone tunnel. Clip 2 and 3 show people in a dimly lit, cave-like room where one person uses a blowtorch to ignite a flame over a cup on a table. Clip 4 clearly shows the same man from earlier clips standing outdoors on a public street next to a person in a full-body SpongeBob SquarePants costume."
+    },
+    {
+        "question": "What sequence links Kyiv’s landmark visuals to the later snowy display of destroyed military vehicles near golden domes?",
+        "answer": "Kyiv city visuals and the golden-domed monastery are followed by a snowy square showing damaged tanks/APCs with Ukrainian flags.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            60,
+            73,
+            74,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 60 introduces Kyiv with a cityscape title. Step 2: Slice 73 shows St. Michael's Golden-Domed Monastery in Kyiv. Step 3: Slice 74 shows destroyed military vehicles in a snowy urban setting with golden domes in the background. Step 4: Slice 75 shows a man speaking while walking past rows of APCs in the snow. Conclusion: The Kyiv landmark setting contextualizes the later war-remnant display in the same urban winter environment.",
+        "logic_check_reasoning": "Step 1: Slice 60 shows an opening with 'KYIV' text and a dynamic cityscape, establishing Kyiv city visuals. Step 2: Slice 73 features St. Michael's Golden-Domed Monastery, reinforcing landmark visuals with golden domes. Step 3: Slice 74 presents a snowy urban scene with destroyed military vehicles (tanks/APCs), Ukrainian flags, and a church with golden domes in the background, indicating the later display. Step 4: Slice 75 further supports the snowy square with APCs and domed structures. The proposed answer accurately captures this sequence: Kyiv city visuals and the golden-domed monastery followed by the snowy square showing damaged tanks/APCs with Ukrainian flags.",
+        "visual_proof": "Clip 1 opens with 'KYIV' text over city streets and buildings. Clip 2 shows the man in front of St. Michael's Golden-Domed Monastery. Clip 3 then displays multiple destroyed military vehicles (tanks, APCs) covered in snow in the same square, some adorned with Ukrainian flags. This sequence visually confirms the described progression."
+    },
+    {
+        "question": "What chain shows the story moving from a generic global travel brand identity to specific Ukrainian pride imagery at night in another city?",
+        "answer": "It moves from global-travel globe branding, to night scenes labeled Dnipro, culminating in a bright 'I ♥ Ukraine' sign.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            65,
+            99,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 2 includes a rotating globe 'GEO GO' travel branding. Step 2: Slice 60 anchors the journey in Ukraine with 'KYIV.' Step 3: Slice 65 labels a night montage 'DNIPRO' and shows the illuminated 'Я ♥ УКРАЇНУ' sign. Step 4: Slice 99 ends with a globe-from-space logo animation and social prompts. Conclusion: The video frames travel globally but repeatedly returns to specific Ukrainian city identity and pride imagery.",
+        "logic_check_reasoning": "Step 1: Slice 99 shows a global travel brand identity with Earth from space, pulsating location markers, social media call-to-action, and a prominent logo—clearly generic global branding. Step 2: Slice 65 presents nighttime scenes explicitly labeled \"DNIPRO\" in Ukraine, culminating in a brightly lit sign reading \"Я ♥ УКРАЇНУ\" (I ♥ Ukraine), which is specific Ukrainian pride imagery. Step 3: Slice 60 shows another city (Kyiv), reinforcing that Dnipro is indeed another city in the narrative. Logic holds because the sequence moves from global branding to a specific Ukrainian city at night featuring pride imagery.",
+        "visual_proof": "Clip 3 shows the 'GEO GO' logo with a spinning globe, establishing a global travel brand. Clip 2 then transitions to night scenes explicitly labeled 'DNIPRO' and ends with a brightly lit 'Я ❤️ УКРАЇНУ' ('I ♥ Ukraine') sign, visually confirming the narrative arc described."
+    },
+    {
+        "question": "How does the video move from explaining religious symbolism on an ornate church exterior to a later scene emphasizing national remembrance with flags and a military funeral procession?",
+        "answer": "It goes from discussing statues symbolizing Catholic and Orthodox unity on a church to showing Ukrainian and red-black flags, memorial imagery, and a military funeral procession.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            50,
+            55,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 50 discusses church statues representing Catholic and Orthodox leaders and unity. Step 2: Slice 55 shows flags and remembrance themes including a cemetery and military ceremony. Step 3: Slice 74 shows destroyed military vehicles displayed in a snowy city space with Ukrainian flags. Conclusion: The theme broadens from religious-cultural symbolism to national remembrance shaped by war.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 50 describes two people discussing religious symbolism on an ornate church, specifically statues of the Pope (Catholic) and Patriarch (Orthodox), with emphasis on unity. Step 2: Evidence Slice 55 shows later scenes featuring Ukrainian and red-black flags, a cemetery, a mural symbolizing protection and sacrifice, a military ceremony with soldiers carrying a casket (funeral procession), and a wall of remembrance. Logic holds because the proposed answer accurately summarizes the transition from the church symbolism to national remembrance with flags, memorial imagery, and a military funeral procession as depicted in the slices.",
+        "visual_proof": "Clip 1 shows two people pointing at statues on a church facade with subtitles identifying them as the 'pope of Rome (Catholic)' and 'Constantinople Patriarch (Orthodox)'. Clip 2 transitions to scenes featuring Ukrainian flags, red-black flags, a mural with Ukrainian text, a cemetery with memorials, and a military funeral procession carrying a coffin. This sequence visually confirms the transition described in the answer."
+    }
+]

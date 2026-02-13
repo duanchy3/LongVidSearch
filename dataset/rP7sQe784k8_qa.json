@@ -1,0 +1,157 @@
+[
+    {
+        "question": "After the man approaches the stone wall with the 'Susa' sign and bird sculpture, what landmark does he later enter through a turquoise door?",
+        "answer": "He later enters a mosque-like historic building through a turquoise door.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the man walking toward the 'Susa' sign and bird sculpture, establishing the location visit. Step 2: Slice 11 shows him walking to and opening a vibrant turquoise door of a historic mosque-like building. Conclusion: After arriving at the Shusha/Susa landmark, he enters a mosque-like building via a turquoise door.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a man approaching a large stone wall with a 'Susa' sign and bird sculpture. Step 2: Slice 11 describes a man (in a dark jacket) entering a small, historic building that appears to be a mosque or similar religious structure through a vibrant turquoise door. Logic holds because both slices are from the same video and depict a continuous sequence involving a man; Slice 11 explicitly mentions the turquoise door and the mosque-like historic building, matching the proposed answer.",
+        "visual_proof": "In the first clip, the man is seen walking towards a large stone wall with the red 'Şuşa' sign and a colorful bird sculpture. In the second clip, he is shown walking towards and entering a stone building with distinct Islamic architectural features, such as arches and Arabic calligraphy above the entrance, which is consistent with a mosque or historic religious building. The door he enters is clearly turquoise."
+    },
+    {
+        "question": "Which animal crosses in front of the visitor as he steps into the building, and what kind of animals are later seen roasting on a spit in the background of the pot-cooking setup?",
+        "answer": "A black cat crosses in front of him, and whole lambs or sheep are later seen roasting on a spit.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a black cat walking in front of the person entering the turquoise-arched doorway. Step 2: Slice 66 shows chickens rotating on a spit in the background while a pot cooks over a fire. Conclusion: The animal inside is a black cat; later the roasting animals are chickens.",
+        "logic_check_reasoning": "Step 1: Slice 12 states that as the person steps into the building, a black cat walks in front of them. Step 2: Slice 66 describes an outdoor cooking scene where two whole chickens are roasting on a spit in the background. Logic holds because the first part identifies the animal crossing the visitor (black cat) and the second part specifies the animals roasting (chickens).",
+        "original_text_answer": "A black cat crosses in front of him, and chickens are later roasting on a spit.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1 (0:05-0:09), a black cat is clearly visible walking across the stone floor as the man enters the building. In Video 2 (0:00-0:04), two large animals, identifiable by their size and shape as whole lambs or sheep, are shown rotating on spits over a fire in the background."
+    },
+    {
+        "question": "How does the video move from tourism/historic architecture to outdoor cooking—name the mosque-like building feature shown and then the first clear butchering scene in the mountains.",
+        "answer": "It shows a mosque-like building with minarets and turquoise doors, then shifts to a mountain butchering scene where meat is cut on an outdoor table.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            11,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 10 reveals a mosque-like structure and minarets after statue shots. Step 2: Slice 11 shows the man entering through the turquoise doors into the building. Step 3: Slice 17 shows the outdoor mountain setting where raw meat is cut on a table. Conclusion: The narrative transitions from mosque architecture to mountain butchering.",
+        "logic_check_reasoning": "Step 1: Slice 10 describes a mosque-like historic building with arched doorways/windows and specifically mentions two tall minarets, supporting the 'mosque-like building with minarets' part of the answer. Step 2: Slice 11 further details the same type of building, noting its turquoise doors, which supports the 'turquoise doors' feature named in the answer. Step 3: Slice 17 shows a man in a mountainous outdoor setting cutting raw meat on a table, clearly a butchering/preparation scene, matching the 'mountain butchering scene where meat is cut on an outdoor table.' Logic holds because the sequence moves from historic architecture (minarets, turquoise doors) to outdoor cooking (butchering) as stated.",
+        "visual_proof": "Clip 1 and Clip 2 clearly show a stone building with two tall, patterned minarets and prominent turquoise arched doors. Clip 3 transitions to an outdoor setting in a mountainous region where a man is actively butchering large pieces of raw meat on a metal table."
+    },
+    {
+        "question": "What evidence shows the same visitor continues his memorial/statue walk and later enters an ornate interior space?",
+        "answer": "He is shown walking past multiple outdoor busts/statues wearing a black jacket, then later the same black-jacketed visitor walks through a chandelier-lit red-carpeted room.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            8,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a man in dark clothing walking along bronze busts in a memorial garden. Step 2: Slice 8 shows a person in a dark jacket standing by and touching a female statue. Step 3: Slice 13 shows a man in a black jacket walking through an ornate red-carpeted, chandelier-lit room. Conclusion: Clothing and continuous exploration indicate the same visitor across outdoor memorials and indoor space.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a man in dark clothing walking past multiple outdoor busts/statues in a memorial garden, observing them. Step 2: Slice 8 shows a person wearing a dark jacket beside and touching a statue outdoors, reinforcing the ongoing memorial/statue interaction. Step 3: Slice 13 shows a man wearing a black jacket walking through an ornate interior with chandeliers and a red carpet. Logic holds because the consistent visual attribute (dark/black jacket) and the progression from outdoor statue scenes (Slices 6 and 8) to the ornate indoor space (Slice 13) support that the same visitor continues his walk and later enters the interior.",
+        "visual_proof": "The same man, identifiable by his build and dark hair, is consistently seen wearing an identical black hooded jacket in all three clips. In Clip 1 and Clip 2, he is outdoors walking among statues. In Clip 3, he is indoors, walking through a large hall with red carpeting and chandeliers, still wearing the same black jacket. The continuity of his attire and appearance across the different settings confirms it is the same person."
+    },
+    {
+        "question": "Which location is explicitly labeled with on-screen text early in the video, and which later aerial sequences return to showcasing deep valleys and cliffs without city text?",
+        "answer": "The labeled location is 'SHUSHA, AZERBAIJAN,' and later aerial sequences show dramatic valleys and cliffs in the landscape shots.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            72,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 1 explicitly shows the text 'SHUSHA, AZERBAIJAN' over an aerial city view. Step 2: Slice 72 shows aerial views of a deep valley and towering cliffs. Step 3: Slice 62 shows an aerial glide along a cliff above an autumn forested valley. Conclusion: The video labels Shusha early and later emphasizes unlabeled natural aerial landscapes.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states that the on-screen text 'SHUSHA, AZERBAIJAN' appears during an aerial shot, identifying the labeled location. Step 2: Evidence Slices 72 and 62 both describe aerial views focusing on deep valleys and cliffs, emphasizing natural landscapes, with no mention of any city text. Step 3: The proposed answer identifies the labeled location as 'SHUSHA, AZERBAIJAN' and notes that later aerial sequences show dramatic valleys and cliffs; this is consistent with the descriptions in Slices 72 and 62. While Slice 1 notes the label appears 'finally' rather than 'early,' the answer does not assert a specific timing for the label, and the content it provides is fully supported by the evidence.",
+        "visual_proof": "In Clip 1 (0:12-0:13), the text 'SHUSHA, AZERBAIJAN' is clearly displayed over an aerial shot of a town. Subsequent clips, specifically Clip 2 (0:00-0:04, 0:12-0:13) and Clip 3 (0:00-0:05), feature multiple aerial views of deep, forested valleys and steep, rocky cliffs without any on-screen text labels."
+    },
+    {
+        "question": "Describe the full progression from raw pig preparation to roasting multiple pigs and then carving the cooked pig for serving.",
+        "answer": "A whole pig is butchered and prepared on a table, then pigs are mounted and roasted on a spit over fire, and finally a roasted pig is carved on a cutting board with pieces moved to a tray.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            19,
+            46,
+            50,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows whole raw pig preparation with knife cuts. Step 2: Slice 46 shows a pig being secured onto a spit with clamps/ropes. Step 3: Slice 50 shows two whole pigs roasting on a spit over an open fire with smoke. Step 4: Slice 79 shows a cooked roasted pig being carved and served into a tray. Conclusion: The video documents pig prep → mounting → roasting → carving/serving.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows a whole raw pig on a wooden table with a man making precise incisions, clearly indicating preparation of the pig. Step 2: Slice 46 shows a person securing a whole pig onto a spit with clamps and ropes, supporting the mounting phase. Step 3: Slice 50 shows two whole pigs roasting on rotating spits over an open fire, confirming the roasting of multiple pigs. Step 4: Slice 79 shows a roasted pig being carved on a wooden cutting board, with a large tray of carved pieces in the background, matching the serving phase. The proposed answer aligns with this progression: preparation on a table, mounting and roasting (including multiple pigs), and carving with pieces moved to a tray.",
+        "visual_proof": "Clip 1 shows a man preparing a raw pig carcass on a table. Clip 2 shows the same man mounting a pig onto a rotisserie spit. Clip 3 shows two pigs roasting on a spit over an open fire. Clip 4 shows a cooked pig being carved on a cutting board, with pieces being placed onto a metal tray. These clips visually document the entire progression from preparation to roasting to carving."
+    },
+    {
+        "question": "What country’s flag is seen flying at the historic courtyard, and what city name is later shown in red text over the fortress in an aerial view?",
+        "answer": "Azerbaijan’s flag, and the city name is Şuşa (Shusha).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows the Azerbaijan flag waving on a flagpole in the courtyard. Step 2: Slice 3 shows an aerial view of a fortress with the red text 'Şuşa'. Conclusion: The flag is Azerbaijan’s and the city name shown is Şuşa.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 states that the man walks toward a flagpole where the flag of Azerbaijan is waving, confirming the country's flag at the historic courtyard. Step 2: Evidence Slice 3 states that the word 'Şuşa' appears prominently in red text over the fortress, indicating the city's name in the aerial view. Logic holds because each slice directly answers each part of the question with explicit mentions.",
+        "visual_proof": "In Video 1, at 0:07, the national flag of Azerbaijan (blue, red, and green horizontal stripes with a white crescent and star) is clearly visible flying atop a stone fortress wall. In Video 2, at 0:00-0:02, the name 'Şuşa' appears in large red letters overlaid on an aerial view of the same fortress, confirming the location."
+    },
+    {
+        "question": "Which details help identify the same outdoor cooking participant across different tasks: meat preparation in a branded jacket, handling pots near an open fire, and later cutting meat with gloves at a serving table?",
+        "answer": "A black jacket with a visible brand logo appears during meat prep, similar green pants/outdoor attire appears around pot cooking, and later white gloves are used while cutting meat at a table, indicating the same main cook moving through roles.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            41,
+            71,
+            80,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows the cook in a black jacket with a visible logo while trimming meat. Step 2: Slice 83 shows a man in a black jacket and green pants stirring a large pot over open fire. Step 3: Slice 71 shows a man in a black jacket and green pants adding bread and stirring a pot over fire, matching attire. Step 4: Slice 80 shows meat being cut at an outdoor table by a man in a black jacket wearing white gloves, consistent with the same cooking lead. Conclusion: Repeated clothing cues (black jacket/green pants) and continuous participation across prep, pot cooking, and serving suggest the same person.",
+        "logic_check_reasoning": "Step 1: Slice 41 shows meat preparation by a man in a black jacket with a visible The North Face logo. Step 2: Slices 71 and 83 show the same outdoor cooking context with a man in a black jacket and green pants handling a large pot over an open fire. Step 3: Slice 80 shows the man cutting meat at a table while wearing a black jacket and white gloves. These consistent visual attributes—black jacket with brand logo during meat prep, green pants and black jacket during pot handling, and white gloves while cutting meat at a table—align across slices and support the proposed identification of the same participant.",
+        "visual_proof": "The man in all clips is the same person. In Clip 1, he wears a black 'The North Face' jacket while preparing raw meat. In Clip 2, he wears matching green pants and boots while stirring a pot over a fire. In Clip 3, he is seen again in the same black jacket and green pants, now wearing white gloves while carving cooked meat at a table. These consistent clothing items across different tasks confirm it is the same individual."
+    },
+    {
+        "question": "How does the video connect a historic visit (fortress and flag) to the later outdoor cooking narrative—identify the fortress/flag moment, the interior mosque moment, and the later mountain food-prep moment.",
+        "answer": "It shows Şuşa’s fortress and the Azerbaijan flag at a historic site, then a turquoise-doored mosque interior, and later transitions to mountain meat preparation on outdoor tables.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            4,
+            11,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 3 presents the fortress with 'Şuşa' text. Step 2: Slice 4 shows the Azerbaijan flag at the historic courtyard. Step 3: Slice 11 shows the visitor entering a turquoise-doored mosque-like building. Step 4: Slice 17 shows outdoor mountain meat cutting on a table. Conclusion: The storyline moves from cultural/historic exploration to interior visit to outdoor cooking preparation.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows an aerial view of a historic fortress with 'Şuşa' labeled, establishing the fortress location. Step 2: Slice 4 shows a man walking through an archway to a flagpole with the Azerbaijan flag, matching the fortress/flag historic moment. Step 3: Slice 11 depicts entering a small historic religious building with a distinctive turquoise door and interior consistent with a mosque-like structure, covering the interior mosque moment. Step 4: Slice 17 shows a man outdoors in a mountainous setting preparing meat on a table, matching the later mountain food-prep moment. The proposed answer identifies each of these moments and their connection from historic site to cooking.",
+        "visual_proof": "Clip 1 opens with an aerial view of Şuşa's stone fortress and the Azerbaijani flag flying atop it. Clip 2 shows the man walking through the fortress grounds and looking up at the flag. Clip 3 features the man approaching and entering a building with prominent turquoise arched doors, identified as a mosque by its architecture and Arabic script. Clip 4 clearly depicts the same man outdoors in a mountainous landscape, preparing raw meat on a table, which connects the cultural/historical sites to the culinary activity."
+    },
+    {
+        "question": "Which cutlery tool is repeatedly used during raw meat preparation, and what later tool is used to inject marinade into meat?",
+        "answer": "A knife is used for cutting raw meat, and a syringe is used to inject marinade later.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows a man cutting raw meat using a knife. Step 2: Slice 47 shows meat being injected with marinade using a syringe. Conclusion: The tools are a knife first, then a syringe for marinade injection.",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly shows a man using a knife to cut raw meat, with close-ups of his hands and the knife, indicating repeated use during preparation. Step 2: Slice 47 states that a person injects a large piece of meat with marinade using a syringe, clearly identifying the later tool. Logic holds because Slice 17 covers the raw meat preparation phase (knife), and Slice 47 covers a subsequent step (marinade injection with a syringe).",
+        "visual_proof": "In Video 1, the man is repeatedly seen using a knife to cut and trim the raw meat on the table. In Video 2, at timestamp 0:03, he is clearly shown using a large syringe to inject liquid into the meat before placing it on the spit."
+    },
+    {
+        "question": "What signs of a remote mountain cooking setup appear first during meat cutting, then during fire ignition, and finally during simultaneous multi-dish cooking?",
+        "answer": "Meat is cut on an outdoor table with mountains behind, then a grill/firebox is lit with flames and smoke, and later a pot cooks while chickens rotate on a spit in the background.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            47,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows meat cutting on a table in a mountainous landscape. Step 2: Slice 47 shows the grill being prepared and ignited with flames and smoke. Step 3: Slice 66 shows an active cooking station with a pot over fire and chickens roasting simultaneously. Conclusion: The setup escalates from prep to ignition to multi-dish cooking.",
+        "logic_check_reasoning": "Step 1: Slice 31 describes meat being cut outdoors on a table with rocky terrain and distant mountains, confirming the first sign during meat cutting. Step 2: Slice 47 details the grill preparation and explicitly shows the grill being ignited with visible flames and smoke, matching the fire ignition sign. Step 3: Slice 66 shows simultaneous multi-dish cooking with a cast iron pot over a fire in the foreground and chickens rotating on a spit in the background, confirming the final sign. The sequence and details align logically across slices and support the proposed answer.",
+        "visual_proof": "Clip 1 shows meat being cut on a table outdoors with a mountainous backdrop. Clip 2 shows the man lighting charcoal in a firebox, producing visible flames and smoke. Clip 3 shows a pot cooking over a fire in the foreground while two whole chickens rotate on a spit inside a grill in the background, confirming simultaneous multi-dish cooking."
+    }
+]

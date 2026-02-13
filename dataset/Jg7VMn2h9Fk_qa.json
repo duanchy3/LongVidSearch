@@ -1,0 +1,151 @@
+[
+    {
+        "question": "What state is highlighted first on a U.S. map and then shown again on a commemorative quarter?",
+        "answer": "Michigan.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a U.S. map highlighting Michigan in red. Step 2: Slice 5 shows a U.S. state quarter featuring Michigan’s outline. Conclusion: The state is Michigan.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the video begins with a U.S. map highlighting Michigan in red. Step 2: Slice 5 states the video shows a U.S. state quarter featuring Michigan. Logic holds because the same state (Michigan) is first highlighted on the U.S. map and later shown on the commemorative quarter.",
+        "visual_proof": "The first clip shows a map of the United States with the state of Michigan highlighted in red. The second clip shows a commemorative quarter with the outline of Michigan and the text 'MICHIGAN 1837' clearly visible, confirming it is the same state shown in both clips."
+    },
+    {
+        "question": "Which city is explicitly welcomed by a banner in a street view and also has a labeled satellite image later?",
+        "answer": "Detroit.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 10 includes a banner that reads \"Welcome to Detroit.\" Step 2: Slice 51 shows a satellite image labeled \"Detroit, Michigan.\" Conclusion: The city is Detroit.",
+        "logic_check_reasoning": "Step 1: Slice 10 states a banner reading 'Welcome to Detroit' is visible in a street view. Step 2: Slice 51 states the scene transitions to a satellite image of Detroit, Michigan, with the city prominently labeled. Logic holds because both slices explicitly reference Detroit in the described contexts.",
+        "visual_proof": "In Video 1, a large white banner on a building in the city skyline clearly reads 'OUTSOURCE TO DETROIT'. In Video 2, a satellite image shows a geographical area with the label 'Detroit' in yellow text next to a blue river system. Both clips explicitly identify the city of Detroit."
+    },
+    {
+        "question": "What problem is hinted at by discolored water from a faucet and then followed by people distributing bottled water?",
+        "answer": "A clean-water crisis (contaminated or unsafe tap water).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows yellowish, possibly contaminated tap water running into a sink. Step 2: Slice 37 shows a community distributing cases of bottled water. Conclusion: The scenes imply a clean-water crisis.",
+        "logic_check_reasoning": "Step 1: Slice 36 shows a sink with running water that has a yellowish tint, explicitly suggesting discolored/possibly contaminated tap water. Step 2: Slice 37 depicts a community distributing cases of bottled water, implying a response to lack of safe tap water. Logic holds because discolored tap water coupled with organized bottled water distribution strongly indicates a clean-water problem/crisis involving unsafe tap water.",
+        "visual_proof": "Clip 1 visually shows murky, yellowish-brown water flowing from a faucet into a sink, indicating it is not potable. Clip 2 shows people actively distributing large quantities of bottled water (Deer Park brand) from the back of a truck, which is a common response to a public water supply being deemed unsafe for consumption. The juxtaposition of these two scenes strongly implies a water contamination event."
+    },
+    {
+        "question": "Which Michigan location is shown as a bridge sign welcome in one scene and then as a major lock system with a ship passing through in another?",
+        "answer": "Sault Ste. Marie / the Soo Locks area.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows the \"Welcome to Sault Ste. Marie\" bridge sign and then the Soo Locks with a ship. Step 2: Slice 49 shows a large cargo ship docked in a canal with bridges and town around it, consistent with the locks/canal context. Conclusion: The location is the Sault Ste. Marie / Soo Locks area.",
+        "logic_check_reasoning": "Step 1: Slice 48 shows a bridge with a sign reading \"Welcome to Sault Ste. Marie,\" clearly identifying the location as Sault Ste. Marie. Step 2: The same slice transitions to an aerial view of the Soo Locks with a large ship navigating through, explicitly describing a major lock system. Step 3: These visuals directly correspond to the proposed answer \"Sault Ste. Marie / the Soo Locks area.\" Even though Slice 48 notes Ontario, the content explicitly names Sault Ste. Marie and the Soo Locks, which matches the answer without needing external inference.",
+        "visual_proof": "Clip 1 shows a large bridge with a digital sign that clearly reads 'Welcome to SAULT STE. MARIE Michigan'. Clip 2 provides an aerial view of a massive lock system with a large freighter ship navigating through it, which is characteristic of the Soo Locks in Sault Ste. Marie. The combination of the explicit welcome sign and the iconic lock system confirms the location."
+    },
+    {
+        "question": "Which bridge-related natural setting is shown first with a cyclist crossing and later shown again as a bridge in a forest path scene?",
+        "answer": "A wooden bridge in a lush green natural area.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a wooden bridge over a river with a cyclist in a bright green shirt. Step 2: Slice 38 shows a wooden bridge in a lush forest setting. Conclusion: Both depict a wooden bridge in green nature.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes a serene outdoor scene with a wooden bridge amid lush greenery and a cyclist riding across it. Step 2: Slice 38 later shows a wooden bridge in a lush green forest setting, emphasizing the bridge within a natural path scene. Logic holds because both slices feature a wooden bridge in a lush natural environment, first with a cyclist and later as a forest path bridge, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows a cyclist on a wooden bridge next to a river, surrounded by lush green trees and vegetation. Clip 2 shows a different bridge, also made of wood with metal railings, leading into a forest path, which is also a lush green natural area. The question asks for the type of setting shown first (with the cyclist) and later (the forest path), both of which are 'a wooden bridge in a lush green natural area'."
+    },
+    {
+        "question": "Which location is welcomed by a stone archway and then later appears as a building labeled with a cereal-themed nickname and souvenir cups?",
+        "answer": "Battle Creek (Cereal City).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            42,
+            43,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 42 shows an archway reading \"WELCOME TO Battle Creek.\" Step 2: Slice 43 shows a building labeled \"Cereal City\" and cereal-themed items. Step 3: Slice 69 shows Kellogg’s cereal boxes, reinforcing Battle Creek’s cereal identity. Conclusion: The location is Battle Creek, known as Cereal City.",
+        "logic_check_reasoning": "Step 1: Slice 42 describes a stone archway reading 'WELCOME TO Battle Creek,' clearly identifying the location. Step 2: Slice 43 shows a building with a large sign 'Cereal City' and nearby souvenir cups featuring cartoon characters (likely cereal mascots), matching the 'cereal-themed nickname and souvenir cups.' Logic holds because the question asks which location is first welcomed by the arch and later appears with the cereal-themed building; the arch names Battle Creek and the subsequent scene shows 'Cereal City,' linking the two within the same video context.",
+        "visual_proof": "Clip 1 shows a stone archway with the sign 'WELCOME TO Battle Creek'. Clip 2 then shows merchandise (Tervis tumblers) featuring Tony the Tiger, a Kellogg's mascot, and a building with a large sign for 'Kellogg's Cereal City USA', which is a known nickname for Battle Creek. The sequence of visuals directly links the welcome sign to the cereal-themed location."
+    },
+    {
+        "question": "How does the video connect a Michigan statehood reference on a coin to later maps focusing on the Great Lakes and Detroit?",
+        "answer": "It starts with Michigan’s identity/statehood on the quarter, then expands to Great Lakes geography, then zooms into Detroit via satellite imagery.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            5,
+            50,
+            51,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the Michigan quarter with \"Great Lakes State\" and statehood year 1837. Step 2: Slice 50 shows aerial footage of the Great Lakes region. Step 3: Slice 51 shows a labeled Great Lakes map and then a satellite image labeled Detroit. Step 4: Slice 53 again pairs Great Lakes satellite imagery with human activity on water (ship), reinforcing the region’s scale. Conclusion: The narrative moves from Michigan identity to Great Lakes context to Detroit detail.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows a Michigan state quarter highlighting Michigan's statehood (1837) and 'Great Lakes State,' then transitions to a regional map around Toledo within the Great Lakes context. Step 2: Slices 50, 51, and 53 focus on the Great Lakes via aerial/satellite views and labeled maps, reinforcing the expansion to Great Lakes geography. Step 3: Slice 51 specifically transitions from a Great Lakes map to a satellite image of Detroit, matching the 'zoom into Detroit via satellite imagery' description. The sequence in the answer aligns with these visuals.",
+        "visual_proof": "Clip 1 shows a 2004 Michigan state quarter with 'MICHIGAN 1837' and 'GREAT LAKES STATE'. Clip 3 displays a map of the five Great Lakes. Clip 4 presents a satellite image with the label 'Detroit' over the city's location near Lake Erie. This sequence visually connects the state's founding (coin), its regional geography (Great Lakes map), and a specific urban center within that region (Detroit satellite view)."
+    },
+    {
+        "question": "How does the video connect Michigan’s identity to winter severity by moving from Michigan geography visuals to snowfall data and lake-effect explanation?",
+        "answer": "It frames Michigan geographically and then explains intense winter snowfall using maps and a lake-effect snow diagram.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            51,
+            63,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 2 introduces Michigan via U.S. and state maps. Step 2: Slice 51 shows the Great Lakes map that geographically sets up lake influence. Step 3: Slice 63 presents snowfall distribution data and deep snow visuals. Step 4: Slice 65 explains lake-effect snow formation (cold wind over warmer water produces lots of snow). Conclusion: Michigan’s geography is linked to winter snowfall severity.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a progression from a US map highlighting Michigan to detailed Michigan maps, clearly framing Michigan geographically. Step 2: Slice 51 adds Great Lakes region context and a satellite image of Detroit, reinforcing Michigan’s geographic identity. Step 3: Slice 63 presents a map of average annual snowfall in the contiguous U.S., followed by a scene depicting very heavy snow (526 cm), supporting the idea of winter severity. Step 4: Slice 65 provides an educational diagram explaining lake-effect snow, which clarifies a mechanism behind significant snowfall. Logic holds because the video moves from Michigan-focused geography visuals to general snowfall data and then an explanation of lake-effect snow, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows multiple maps of Michigan, establishing its geography. Clip 3 presents a map of average annual snowfall across the U.S., highlighting Michigan's high snowfall in red/purple, followed by an image of snow sculptures (526cm) to emphasize severity. Clip 4 provides a diagram explaining 'Lake-Effect Snow,' directly linking Michigan's location next to the Great Lakes to its heavy snowfall."
+    },
+    {
+        "question": "Which food tradition is introduced by a famous Frankenmuth restaurant sign and then reinforced by a table piled with the featured dish?",
+        "answer": "Frankenmuth-style chicken dinners (fried chicken meal).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            85,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 85 shows the sign for \"Zehnder's Famous Frankenmuth Chicken Dinners.\" Step 2: Slice 86 shows a table spread centered on fried chicken with sides. Conclusion: The tradition is Frankenmuth chicken dinners.",
+        "logic_check_reasoning": "Step 1: Slice 85 shows a prominent sign reading 'Zehnder's Famous Frankenmuth Chicken Dinners,' introducing the specific food tradition of chicken dinners in Frankenmuth. Step 2: Slice 86 shows a table piled with golden-brown fried chicken and classic sides, reinforcing the featured dish referenced by the sign. Logic holds because the sign explicitly names Frankenmuth chicken dinners, and the subsequent scene visually depicts a fried chicken dinner setup.",
+        "visual_proof": "Clip 1 shows a large, prominent sign for 'Zehnder's Famous Frankenmuth Chicken Dinners,' explicitly naming the tradition. Clip 2 displays a table with a large platter of fried chicken, accompanied by sides like mashed potatoes and gravy, visually confirming the 'chicken dinner' mentioned in the sign."
+    },
+    {
+        "question": "What repeated shift in time-of-day is shown once in a neon nightlife street and again in a riverfront skyline sequence?",
+        "answer": "Night-to-day contrast in the same/related urban settings.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows a neon-lit street at night and then a calmer daytime view. Step 2: Slice 26 shows a riverfront skyline at dusk and then the same skyline in daytime. Conclusion: Both sequences emphasize time-of-day contrast.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows a neon-lit nightlife street scene at night that then shifts to a calmer daytime view of the same street, explicitly a night-to-day contrast. Step 2: Slice 26 shows a riverfront skyline at sunset/dusk that then transitions to a daytime view of the same cityscape, again an evening/night-to-day shift. Logic holds because both slices depict the same locations across two times with a transition from darker/evening conditions to daytime, matching the described night-to-day contrast.",
+        "visual_proof": "Clip 1 shows a street scene at night, evidenced by dark skies, illuminated neon signs (e.g., 'GREEKTOWN CASINO', 'Parthenon Restaurant'), and artificial street lighting. Clip 2 shows a city skyline during the day, with bright natural light, clear skies (first shot has pink/purple sunset hues, second is full daylight), and no reliance on artificial illumination for visibility."
+    },
+    {
+        "question": "Which large cultural venue sign appears in a busy sunny downtown scene and how is that downtown energy echoed by another public gathering space later?",
+        "answer": "The Michigan Theater sign; the downtown energy is echoed by a crowded urban plaza with a fountain/market.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            39,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a bustling sunny street with the prominent \"Michigan Theater\" sign. Step 2: Slice 39 shows a crowded urban plaza with a fountain and stalls, another civic gathering space. Step 3: Slice 15 shows lively pedestrian shopping streets. Conclusion: The Michigan Theater downtown scene aligns with other active public spaces.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 24, Scene 2 explicitly describes a vibrant, sunny, busy city center with a prominent large sign for the 'Michigan Theater,' a cultural venue. Step 2: Evidence Slice 39 describes a bustling urban plaza filled with people, featuring a circular fountain and market stalls/tents, clearly a public gathering space with lively activity. Logic holds because the Michigan Theater sign identifies the cultural venue in the busy downtown scene, and the later-described plaza with fountain and market echoes the same energetic urban atmosphere.",
+        "visual_proof": "Clip 1 (0:07-0:15) clearly shows the 'MICHIGAN' theater sign in a sunny, bustling downtown scene with pedestrians and cars. Clip 2 (0:00-0:08) shows a large, crowded public plaza with many people, vendor tents, and a central monument/fountain structure, echoing the vibrant energy of the downtown street."
+    }
+]

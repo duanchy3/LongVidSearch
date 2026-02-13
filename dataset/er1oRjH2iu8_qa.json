@@ -1,0 +1,85 @@
+[
+    {
+        "question": "Which two separate moments in the video depict a small airplane in flight and then the related crash being discussed as a dated event?",
+        "answer": "The yellow airplane flying over snowy mountains and the dated \"Plane Crash\" title/segment.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a small yellow airplane flying over snowy mountains. Step 2: Slice 6 presents a titled segment \"Plane Crash\" dated Jan 3, 1982 with somber imagery. Conclusion: These two moments together show flight followed by crash coverage.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a small yellow single-engine airplane flying over snowy mountains, clearly depicting the airplane in flight. Step 2: Slice 6 shows a title screen reading 'Plane Crash' with the date 'Jan 3, 1982' and a related hospital scene, indicating the crash is being discussed as a dated event. Logic holds because these are two distinct moments covering flight and the dated crash segment, matching the proposed answer.",
+        "visual_proof": "Clip 1 visually shows a small, yellow single-engine airplane flying against a clear sky, which then transitions to it flying over snow-covered mountains with overlaid text. Clip 2 opens with a graphic titled \"Plane Crash\" dated \"JAN 3, 1982,\" directly linking the event to a specific date and confirming the crash narrative discussed in relation to the flight shown earlier."
+    },
+    {
+        "question": "Which sequence shows a historical obituary-style card for a science-fiction author and then later ties that author to a famous 1982 film adaptation?",
+        "answer": "The Philip K. Dick death card and the segment showing his book alongside a \"Blade Runner\" poster.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows a card reading \"Philip K. Dick Dies\" dated Mar 2, 1982. Step 2: Slice 19 shows the book \"Do Androids Dream of Electric Sheep?\" and a \"Blade Runner\" poster, linking his work to the film. Conclusion: The montage connects his death card to the film adaptation context.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows an obituary-style card with the text 'Philip K. Dick Dies' and the date 'MAR 2, 1982,' clearly identifying a death notice for the author. Step 2: Slice 19 later displays Philip K. Dick's book 'Do Androids Dream of Electric Sheep?' and a 'Blade Runner' poster from 1982, linking the author to that film. Logic holds because the sequence first presents the death card and then includes his book along with the 1982 film, tying him to the adaptation.",
+        "visual_proof": "Clip 1 shows a stylized obituary card with Philip K. Dick's photo, name, and date of death (MAR 2, 1982). Clip 2 then shows a segment where the cover of his book 'Do Androids Dream of Electric Sheep?' is displayed next to scenes from the 1982 film 'Blade Runner,' explicitly linking the author to the film adaptation."
+    },
+    {
+        "question": "Which three slices connect the ColecoVision launch to later computing imagery, culminating in the \"Time’s Man of the Year: A Computer\" reference?",
+        "answer": "The ColecoVision launch segment, the early-computer portrait shot, and the later timeline mention that a computer was Time’s Man of the Year.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            42,
+            50,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 42 marks a key consumer-tech moment: \"ColecoVision Launches\" (Aug 1, 1982). Step 2: Slice 50 shows a vintage black-and-white image of a man at an early computer. Step 3: Slice 71 explicitly references \"Time's Man of the Year: A Computer\" dated Dec 26, 1982. Conclusion: These three segments collectively emphasize 1982’s surge in computer/consumer tech culture.",
+        "logic_check_reasoning": "Step 1: Slice 42 explicitly shows the ColecoVision launch on August 1, 1982, establishing the gaming/tech starting point. Step 2: Slice 50 presents early computing imagery—a man with a bulky CRT and keyboard—connecting to the broader theme of computing. Step 3: Slice 71 includes a historical timeline with the explicit reference to 'Time's Man of the Year: A Computer' dated December 26, 1982, which culminates the connection to computing recognition. Logic holds because these slices trace a path from a notable 1982 tech launch to general early computing visuals and finally to a landmark computing-related cultural recognition.",
+        "visual_proof": "Clip 1 visually confirms the 'ColecoVision Launches' event on Aug 1, 1982. Clip 2 shows a man with an early computer, representing the era's computing imagery. Clip 3 explicitly displays the 'TIME' magazine cover for Dec 26, 1982, declaring 'Man of the Year: A Computer', thus connecting the narrative from gaming to the broader cultural significance of computers."
+    },
+    {
+        "question": "A retro timeline graphic highlights a \"Plane Crash\" on Jan 3, 1982; which later segment shows the aftermath in a hospital bed that matches that event?",
+        "answer": "The black-and-white hospital photo of an injured boy receiving care.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 4 includes a timeline-like segment labeled \"Plane Crash\" with date Jan 3, 1982. Step 2: Slice 6 shows the \"Plane Crash\" title with the same date and then an injured boy in a hospital bed. Conclusion: The hospital scene is the depicted aftermath of the plane crash event.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 mentions a retro timeline element showing a 'Plane Crash' dated Jan 3, 1982. Step 2: Evidence Slice 6 shows the same 'Plane Crash' with the date Jan 3, 1982 followed by a black-and-white photo of an injured boy in a hospital bed receiving care. Logic holds because the later segment explicitly follows the plane crash title/date and depicts hospital aftermath, matching the event.",
+        "visual_proof": "Clip 1 (0:13) displays a retro timeline graphic with the text 'Plane Crash' and the date 'JAN 3, 1982'. Clip 2 (0:03-0:04) shows a black-and-white photograph of a young boy lying in a hospital bed, appearing injured and connected to medical equipment, while a man leans over him. This visual directly corresponds to the aftermath of the event highlighted in the timeline."
+    },
+    {
+        "question": "Which four slices connect the \"Plane Crash\" dated segment to later vehicle crash visuals and then to emergency response imagery, showing a recurring theme of transport disasters?",
+        "answer": "The \"Plane Crash\" dated segment, the car crash footage, the chaotic fire segment, and the stretcher medical emergency.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            49,
+            41,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 6 explicitly introduces a tragic transport incident: \"Plane Crash\" (Jan 3, 1982). Step 2: Slice 49 shows a dramatic car crash with flipping vehicle footage. Step 3: Slice 41 includes a vehicle/structure engulfed in flames, implying another transport-related emergency. Step 4: Slice 61 shows the medical aftermath with a person on a stretcher at night. Conclusion: Multiple parts of the montage revisit transport disasters and their consequences.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly shows a titled segment 'Plane Crash' dated Jan 3, 1982, with an injured boy receiving medical care—establishing the transport disaster and emergency response context. Step 2: Slice 49 includes a 'Scene 1' featuring a dramatic car crash, clearly providing later vehicle crash visuals. Step 3: Slice 41 shows a large fire engulfing what appears to be a vehicle or structure, contributing further vehicle-related disaster imagery. Step 4: Slice 61 depicts a man on a stretcher surrounded by medical personnel, clearly representing emergency response imagery. Logic holds because the sequence connects a plane crash segment to subsequent vehicle crash visuals and culminates in emergency response scenes, demonstrating a recurring transport disaster theme across these four slices.",
+        "visual_proof": "Clip 1 opens with a 'Plane Crash' title card (Jan 3, 1982). Clip 2 shows a car driving erratically before cutting to a funeral procession, implying a crash. Clip 3 depicts a large, fiery explosion on water, consistent with a transport disaster. Clip 4 shows a man being carried on a stretcher by emergency personnel at night, clearly an emergency response scene. Together, these four clips form a thematic sequence of transport disasters and their aftermath."
+    },
+    {
+        "question": "Which four slices connect the noir-like handoff of a mysterious red object, to the horror-film premiere card for a famously suspenseful movie, to the later ‘car bomb’ headline graphic, and then to the nighttime emergency response footage—forming a crime/thriller escalation?",
+        "answer": "The mysterious red-object handoff scene, the \"The Thing\" premiere segment, the \"Frank Rosenthal Survives Car Bomb\" graphic, and the nighttime stretcher emergency response.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            34,
+            35,
+            60,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 34 shows a tense, noir-like exchange involving a red object and an obscured figure behind slats. Step 2: Slice 35 introduces a horror/suspense tone via \"The Thing\" premiere imagery (June 25, 1982). Step 3: Slice 60 presents a hard-news style event: \"Frank Rosenthal Survives Car Bomb\" (Oct 4, 1982). Step 4: Slice 61 shows an injured person and medical staff at night, suggesting real-world emergency aftermath. Conclusion: Across these slices, the montage escalates a thriller/crime atmosphere from ominous exchange to violence and medical response.",
+        "logic_check_reasoning": "Step 1: Slice 34 describes a noir-like scene with a close-up of a hand holding a mysterious red object and a tense handoff, matching the first element. Step 2: Slice 35 explicitly includes the 'The Thing' premiere (June 25, 1982), a famously suspenseful horror film, satisfying the second element. Step 3: Slice 60 shows a historical CNN graphic reading 'Frank Rosenthal Survives Car Bomb' (Oct 4, 1982), which fits the car bomb headline requirement. Step 4: Slice 61 depicts nighttime emergency response footage with an injured man on a stretcher, matching the final element. The sequence logically forms a crime/thriller escalation as described, and each element is directly supported by the respective slices.",
+        "visual_proof": "Clip 1 shows a dark, noir-style scene with a hand passing a red object. Clip 2 features a title card for \"The Thing\" (1982) premiere. Clip 3 displays a graphic headline stating \"Frank Rosenthal Survives Car Bomb\" dated Oct 4, 1982. Clip 4 shows nighttime footage of an emergency response with a person on a stretcher being attended to by paramedics. These four segments visually match the described crime/thriller escalation."
+    }
+]

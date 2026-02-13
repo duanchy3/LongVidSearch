@@ -1,0 +1,43 @@
+[
+    {
+        "question": "A woman guide/instructor appears speaking to groups outdoors and also appears in close-up indoors. What consistent clothing detail links her across these different settings?",
+        "answer": "She wears a light blue/blue top, often over a white turtleneck, linking her across scenes.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a blonde woman in a light blue shirt over a white turtleneck speaking indoors. Step 2: Slice 49 shows a blonde woman in a blue shirt with a white turtleneck speaking to a group outdoors. Conclusion: The blue top and white turtleneck combination visually links her.",
+        "logic_check_reasoning": "Step 1: Slice 24 describes an individual indoors with shoulder-length blonde hair wearing a light blue shirt over a white turtleneck. Step 2: Slice 49 describes a woman outdoors with long blonde hair wearing a blue shirt over a white turtleneck while speaking to a group. Logic holds because both slices depict the same consistent clothing detail—blue/light blue shirt over a white turtleneck—linking the person across indoor and outdoor settings.",
+        "visual_proof": "In both clips, the woman is wearing the exact same outfit: a light blue button-down shirt layered over a white turtleneck. This is clearly visible in the close-up indoor shot (Clip 1) and the wider outdoor shot where she is addressing a group (Clip 2), confirming it is the same person and the clothing is consistent across the different settings."
+    },
+    {
+        "question": "The video highlights careful hand interaction with a flower and later shows careful hand interaction with an ornate object. What are the two items being handled?",
+        "answer": "A white orchid is handled first, and a dark reflective decorative metal object (bowl/vase) is handled later.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows hands moving carefully around a blooming white orchid. Step 2: Slice 44 shows hands grasping and rotating a glossy dark metallic decorative object. Conclusion: The handled items are an orchid and a metal decorative vessel.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a close-up of blooming white orchids with a hand moving slowly and carefully around the flower, indicating careful hand interaction with a white orchid. Step 2: Slice 44 describes hands gently grasping and rotating an intricately designed, glossy, dark metallic decorative object, possibly a bowl or vase, indicating careful hand interaction with an ornate object. Logic holds because both items and the careful handling are explicitly described in the slices.",
+        "original_text_answer": "A white orchid is handled first, and a dark reflective decorative metal object (bowl/vase) is handled later.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1, at 0:05-0:06, a person's hand is shown gently touching a stalk of light purple flowers, not a white orchid. The white orchid appears in a close-up shot at 0:10, but it is not being handled by hands. In Video 2, from 0:03 onwards, a pair of hands carefully handles a dark, reflective, ornate metal object, which resembles a bowl or vase. Therefore, the first item handled is not a white orchid."
+    },
+    {
+        "question": "A man in a red sweater appears discussing different artworks at different times. Which artwork shows a girl holding a bird, and how does that differ from the later moment when he sits on the floor in front of a floral painting?",
+        "answer": "The girl holding a bird (parrot) is in the earlier painting; later he is seated on the floor while discussing a different floral painting with white flowers and additional red/blue hues.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the red-sweater man presenting a painting of a young girl in white holding a parrot. Step 2: Slice 41 shows him sitting on the floor in front of a flower painting with white flowers and other colored blooms. Conclusion: The artwork focus shifts from a portrait-with-parrot painting to a floral painting while his posture changes to sitting.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a painting of a young girl in a white dress holding a parrot, with a man in a red sweater standing and discussing the artwork. Step 2: Slice 41 describes a different painting featuring white flowers with green leaves and additional red/blue flowers, with the same man in a red sweater sitting on the floor in front of it and speaking. Logic holds because the first artwork explicitly shows a girl holding a bird (parrot), and the later described scene has the man seated in front of a floral painting with specified colors, matching the proposed contrast.",
+        "visual_proof": "In Video 1, the man stands before a portrait of a girl holding a parrot. In Video 2, the same man is seen sitting on the floor in front of a large folding screen depicting various flowers, including white poppies and blue irises, which is a distinctly different artwork from the portrait."
+    }
+]

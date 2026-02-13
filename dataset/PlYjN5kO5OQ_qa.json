@@ -1,0 +1,117 @@
+[
+    {
+        "question": "What transitions from being raw and handled on a cutting board to later appearing fully roasted hanging inside a brick oven?",
+        "answer": "Whole ducks.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a whole chicken being cut open and cleaned on a cutting board. Step 2: Slice 52 shows two roasted chickens hanging inside a brick oven. Conclusion: The chicken progresses from raw preparation to roasted result.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows a whole chicken being prepared raw on a cutting board (organs removed, pre-cooking). Step 2: Slice 52 shows roasted chickens hanging inside a brick oven. Logic holds because both slices depict chickens at sequential stages of preparation and cooking within the same video context, moving from raw to fully roasted.",
+        "original_text_answer": "Whole chickens.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the man is preparing a raw bird with a broad, flat body and a distinct bill shape characteristic of a duck. In Clip 2, two fully roasted birds with the same distinctive flat, wide body shape are hanging in the oven, confirming they are ducks, not chickens."
+    },
+    {
+        "question": "After the man carries a red power device and unwinds its cable, which powered tool is later operated using that same setup?",
+        "answer": "A handheld angle grinder.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows the man bringing a red electrical device and unwinding a long white cable. Step 2: Slice 22 shows an angle grinder plugged into a red generator on a wooden surface. Conclusion: The earlier power setup enables running the angle grinder.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes a man in a dark jacket carrying a red electrical device and a long white cable, placing the device on a wooden table and unwinding the cable, indicating preparation for use. Step 2: Slice 22 shows a person in a dark jacket operating a handheld angle grinder that is connected via a cable to a red generator placed on a wooden surface. Logic holds because the red power device on a wooden surface with a cable in Slice 19 matches the red generator with a cable on a wooden surface in Slice 22, implying the same setup is used to power the handheld angle grinder.",
+        "visual_proof": "In Video 1, the man carries a red power device (a welding machine) and unwinds its cable. In Video 2, the same red device is visible on a stump, and the man is actively using a handheld angle grinder, which is connected to it via the unwound cable. Sparks are seen as he cuts a metal rod with the grinder, confirming its operation from that setup."
+    },
+    {
+        "question": "Which food item is shown being cut open to remove organs and later seen as two roasted birds rotating on a rotisserie?",
+        "answer": "Duck",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows cutting open a raw chicken and exposing organs. Step 2: Slice 51 shows two chickens roasting on a rotisserie. Conclusion: The food item is chicken, moving from raw prep to roasting.",
+        "logic_check_reasoning": "Step 1: Slice 5 explicitly states a person is cutting open a raw chicken, revealing internal organs, which aligns with cutting open to remove organs. Step 2: Slice 51 explicitly shows two chickens being roasted on a rotisserie, matching the description of two roasted birds rotating. Logic holds because both slices reference chickens as the food item in the described actions.",
+        "original_text_answer": "Chicken.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the bird being cut open has a broad, flat body and wide breastbone typical of a duck, not a chicken. In Clip 2, the roasted birds have the characteristic shape and size of ducks on a rotisserie. The overall morphology across both clips is consistent with ducks."
+    },
+    {
+        "question": "How does the video connect traditional outdoor cooking with modern online shopping for knives from earlier browsing to later QR-linked promotion near roasting meat?",
+        "answer": "It starts with knife browsing/searching on a phone and later shows a knife advertisement/QR code while meat roasts in a stone oven.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            61,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a shopping app featuring kitchen knives. Step 2: Slice 61 shows a phone listing a 'Premium Damascus Chef Knife' with an add-to-cart button. Step 3: Slice 62 shows the knife ad and QR code while meat roasts in a stone oven. Conclusion: The narrative ties modern knife marketing to traditional roasting.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows a smartphone with an online shopping app for kitchen knives, then transitions to an outdoor setting where the knife is used to cut raw chicken, linking browsing to practical outdoor cooking. Step 2: Slice 61 further shows a rustic outdoor setting with a phone displaying a Damascus chef knife listing, reinforcing the blend of modern shopping and traditional ambiance. Step 3: Slice 62 specifically presents a smartphone ad for a Premium Damascus Chef Knife with a QR code while meat roasts in a traditional stone oven, directly supporting the 'QR-linked promotion near roasting meat.' Logic holds because the video consistently moves from phone-based knife browsing to on-site traditional cooking with a phone ad/QR code visible near roasting meat.",
+        "visual_proof": "Clip 1 shows a phone displaying the 'homewild.shop' website with various knives for sale, followed by a person using one of those knives to prepare poultry. Clip 2 continues this theme, showing the same phone interface with an 'ADD TO CART' button for a 'PREMIUM DAMASCUS CHEF KNIFE'. Clip 3 visually confirms the connection: the phone screen displays a QR code next to the knife ad, while in the background, two whole birds are visibly roasting inside a traditional stone oven, directly linking the online product to the physical cooking activity."
+    },
+    {
+        "question": "What multi-step preparation shows chickens moving from boiling/handling to being roasted and finally presented for serving on a board?",
+        "answer": "They are handled after boiling, later roasted to golden brown, then placed on a cutting board for serving.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            52,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows pieces of poultry removed from boiling water and placed on a board. Step 2: Slice 52 shows roasted chickens hanging in a brick oven. Step 3: Slice 85 shows roasted chickens on a wooden cutting board being handled for serving. Conclusion: The poultry progresses through boiling/handling, roasting, and serving.",
+        "logic_check_reasoning": "Step 1: Slice 31 shows poultry being removed from boiling water and placed on a cutting board for further processing, indicating handling after boiling. Step 2: Slice 52 shows two chickens roasted to a golden brown hanging in a brick oven, confirming the roasting stage. Step 3: Slice 85 shows the roasted chickens on a wooden cutting board being prepared for serving, confirming final presentation on a board. Logic holds because the slices depict a coherent sequence from post-boil handling to roasting to serving.",
+        "visual_proof": "Clip 1 shows the man handling the meat (which appears to be lamb or goat, not chicken) and placing it into a large steaming pot, indicating a boiling/steaming step. Clip 2 shows the same pieces of meat, now golden brown and sizzling, hanging inside a brick oven, confirming the roasting stage. Clip 3 shows the man taking the roasted meat out of the oven and placing it onto a wooden cutting board, ready for serving. The sequence visually confirms the multi-step preparation described."
+    },
+    {
+        "question": "How is a sweetened hot drink prepared across multiple steps, from pouring a dark liquid to adding sweetener and finally serving tea into a cup?",
+        "answer": "A dark liquid is poured from a small metal bowl into a larger metal pot. Sweetener is then added to this same pot, which is placed on a stove and stirred while steaming. Finally, the prepared tea is poured from a glass teapot into a white cup.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            44,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows a dark liquid poured from a metal pot into a small metal cup, with sugar nearby. Step 2: Slice 44 shows honey drizzled into a steaming pot and stirred. Step 3: Slice 73 shows tea being poured from a glass teapot into a white cup and saucer. Conclusion: Drink-making evolves from pouring to sweetening to formal serving.",
+        "logic_check_reasoning": "Step 1: Slice 41 describes pouring a dark liquid from a metal pot into a small metal cup, supporting 'A dark drink is poured into a cup.' Step 2: Slice 44 shows honey (a sweetener) being drizzled into a steaming metal pot and stirred, supporting 'sweetener is added to a steaming pot.' Step 3: Slice 73 shows tea being poured from a glass teapot into a white ceramic cup, supporting 'tea is later poured from a glass teapot into a cup.' The sequence of actions across different scenes logically represents preparing and serving a sweetened hot drink.",
+        "original_text_answer": "A dark drink is poured into a cup, sweetener is added to a steaming pot, and tea is later poured from a glass teapot into a cup.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a person pouring a dark liquid from a small ornate metal bowl into a larger metal pot. Clip 2 shows sweetener being added to that same pot (now on a stove), followed by stirring and steaming. Clip 3 shows the final step: tea being poured from a glass teapot into a white cup, with a samovar visible in the background."
+    },
+    {
+        "question": "Trace how the video links knife promotion to real cooking outcomes: from knives on a shopping interface, to knives physically displayed, to a QR code promo near cooked meat, and finally to roasted poultry shown as finished food.",
+        "answer": "It goes from knife shopping on a phone, to knives displayed on a shelf, to QR code promotion alongside cooked meat, and then to roasted chickens shown finished.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            60,
+            63,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows knives in an online shopping app. Step 2: Slice 60 shows knives physically displayed next to the shopping phone. Step 3: Slice 63 shows a QR code on a phone with grilled chicken visible, implying promotion tied to food. Step 4: Slice 52 shows roasted chickens as a finished cooked result. Conclusion: Knife promotion is threaded through shopping, display, QR marketing, and cooked outcomes.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows a smartphone with an online shopping app showcasing kitchen knives (knives on a shopping interface). Step 2: Slice 60 shows three knives physically displayed on a wooden shelf, with a phone showing the shopping app (knives physically displayed). Step 3: Slice 63 shows cooked (grilled) chicken with a smartphone prominently displaying a QR code next to it (a QR code near cooked meat). Step 4: Slice 52 shows two roasted chickens hanging in a brick oven, clearly finished food (roasted poultry shown as finished). The proposed answer aligns with these elements and their logical progression.",
+        "visual_proof": "Clip 1 shows the 'HOME & WILD' website with knives for sale on a phone. Clip 2 shows physical knives displayed on a wooden shelf. Clip 3 shows a QR code on the phone screen next to roasted poultry in an oven. Clip 4 shows the same roasted poultry as finished food inside the oven. This sequence visually links the promotional elements to the cooking outcome."
+    },
+    {
+        "question": "Which item is used to apply a liquid coating to a metal circular object and later is also used to coat meat with sauce in a separate cooking segment?",
+        "answer": "A brush.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows a brush dipped into dark liquid and applied to a large circular metal surface. Step 2: Slice 46 shows a brush used to spread sauce over meat on a cutting board. Conclusion: The recurring tool is a brush used for coating.",
+        "logic_check_reasoning": "Step 1: Slice 43 states that a person dips a brush into a bowl of dark liquid and uses the brush to apply the liquid to a metal circular object. Step 2: Slice 46 states that a man uses a brush to spread a reddish-brown sauce over a large piece of meat. Logic holds because the same type of item (a brush) is explicitly described as being used to apply liquid in both segments.",
+        "visual_proof": "In Video 1, a person uses a brush to apply a dark liquid inside a metal circular object. In Video 2, the same type of brush (with a red handle) is used to coat meat with sauce on a cutting board. The tool is visually identifiable as a brush in both segments."
+    }
+]

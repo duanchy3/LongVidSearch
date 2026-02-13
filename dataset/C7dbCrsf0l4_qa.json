@@ -1,0 +1,96 @@
+[
+    {
+        "question": "When the group first approaches the secured entrance and later one of them is inside examining a digital list display, what action shows how they tried to get access before being allowed inside?",
+        "answer": "He presses buttons on an intercom at the gate to try to gain entry.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the curly-haired man in a gray hoodie operating an intercom on a metal gate to get access. Step 2: Slice 11 shows him later inside a building examining a large digital display. Conclusion: The attempted access method before getting inside was using the intercom at the gate.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows a man in a gray hoodie at a secured gate pressing buttons on an intercom, explicitly described as trying to gain access through the gate. Step 2: Slice 11 shows presumably the same man (gray hoodie) later inside examining a digital list display. Logic holds because Slice 7 provides the specific action taken to seek entry before being inside, and Slice 11 confirms that he is later inside, aligning with the question’s sequence.",
+        "visual_proof": "In Video 1, the man is visually shown standing at a secured gate and actively pressing buttons on an intercom panel mounted on the gatepost. This action directly precedes his entry into the building shown in Video 2, indicating it was the method used to request access."
+    },
+    {
+        "question": "Two different moments show people interacting with reception-style counters behind glass partitions. In the earlier counter scene and the later greeting at another desk, who is behind the counter in each case?",
+        "answer": "First it’s a person behind a glass-partitioned counter (partially visible), and later it’s an older gray-haired man working on a computer.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a gray-hoodie man speaking to someone behind a glass-partitioned counter. Step 2: Slice 26 shows a different reception desk where an older gray-haired man behind the counter greets a visitor. Conclusion: The counter staff are a partially seen clerk first, and an older gray-haired receptionist later.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a man talking to someone behind a counter who is partially visible through a glass partition, without further details—this supports 'a person behind a glass-partitioned counter (partially visible)'. Step 2: Slice 26 describes an older man with short gray hair behind a reception desk, working on a computer and greeting the visitor—this supports 'an older gray-haired man working on a computer'. Logic holds because each slice explicitly identifies who is behind the counter in those moments.",
+        "visual_proof": "In Video 1, a blond man in a black polo shirt is clearly visible behind a glass partition at a reception counter. In Video 2, an older man with gray hair is seen behind a different counter with a Lenovo laptop, interacting with a guest. The descriptions in the original answer accurately reflect these visual details."
+    },
+    {
+        "question": "A time jump is announced and later another title signals the closing stage of the voyage. What are the two on-screen time markers shown?",
+        "answer": "“A few days later...” and “The final day.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 18 explicitly shows the caption “A few days later...”. Step 2: Slice 86 displays “The final day.” Conclusion: Those are the two time markers used.",
+        "logic_check_reasoning": "Step 1: Slice 18 explicitly states that the text 'A few days later...' appears on the screen, indicating a time jump. Step 2: Slice 86 explicitly states that the words 'The final day' appear on the screen, signaling the closing stage of the voyage. Logic holds because both slices provide the exact on-screen titles asked for.",
+        "visual_proof": "In Clip 1, the text 'A few days later...' is displayed over an aerial view of Paris. In Clip 2, the text 'The final day' appears over a shot from the deck of a ship at sea. Both phrases are clearly visible on screen as time markers."
+    },
+    {
+        "question": "After the traveler checks in at a place marked with a DFDS welcome sign, where do we next see him walking with his backpack in a busy nighttime transport area?",
+        "answer": "He is walking in a truck stop/industrial parking area at night among trucks.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows a man with a backpack arriving at a DFDS reception area (“Welcome to DFDS”). Step 2: Slice 28 shows him later walking through a nighttime truck-stop-like lot with many trucks. Conclusion: After DFDS check-in, he is seen moving through a truck-heavy nighttime industrial area.",
+        "logic_check_reasoning": "Step 1: Slice 27 shows a man at a location with a 'Welcome to DFDS' sign, wearing a black shirt and carrying a backpack, approaching a reception desk, implying check-in. Step 2: Slice 28, Scene 1 shows a man with a backpack, in a dark shirt, walking through a nighttime truck stop/industrial parking area among trucks. Logic holds because the visual attributes (black/dark shirt, backpack) and sequence indicate the next scene has him walking in a busy nighttime transport area with trucks.",
+        "visual_proof": "In Clip 1, the traveler is seen at a reception desk with a 'Welcome to DFDS' subtitle. In Clip 2, he exits the building and is immediately shown walking outside at night in an area filled with large trucks and other vehicles, consistent with a truck stop or industrial transport hub."
+    },
+    {
+        "question": "Track the curly-haired man across the outdoor gate scene, the indoor digital display scene, and the later heated confrontation. What clothing shift marks his change in situation?",
+        "answer": "He goes from a gray hoodie to wearing a bright yellow safety vest (over darker clothing).",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            11,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the curly-haired man in a gray hoodie at a gate intercom. Step 2: Slice 11 shows him still in a gray hoodie inside by a digital display. Step 3: Slice 50 shows the curly-haired man now in a bright yellow safety vest during a tense confrontation. Conclusion: The key wardrobe change is from gray hoodie to yellow safety vest.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a curly-haired man at an outdoor gate wearing a gray hoodie. Step 2: Slice 11 shows a man in a gray hoodie indoors examining a digital display, likely the same curly-haired individual based on continuity and clothing. Step 3: Slice 50 presents a curly dark-haired man in a tense confrontation wearing a bright yellow safety vest over a black shirt. The consistent curly hair links the character across scenes, and the clothing shifts from a gray hoodie to a yellow safety vest over darker clothing.",
+        "visual_proof": "In Clip 1, the man with curly hair is clearly wearing a gray hoodie while interacting with the gate. In Clip 2, he is still in the same gray hoodie at the digital display. In Clip 3, during the confrontation, he is visibly wearing a bright yellow safety vest over his dark t-shirt, indicating a change in his situation or role."
+    },
+    {
+        "question": "After the ship journey is introduced with a title card, the video later shows the man waking up in a small cabin-like room. What title signals the start of this ship-based journey, and what later scene shows him experiencing the ship’s motion?",
+        "answer": "The title is “DAY 1,” and later he wakes up in a cramped cabin and comments while feeling movement.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            37,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows the cargo ship at sunset with “DAY 1,” indicating the voyage start. Step 2: Slice 37 shows a man waking in a small cabin, talking about movement. Step 3: Slice 39 reinforces they are at sea with an aerial of the DFDS ferry cruising. Conclusion: “DAY 1” starts the voyage; the cabin wake-up scene shows him sensing the ship’s motion.",
+        "logic_check_reasoning": "Step 1: Slice 36 explicitly states that an exterior shot of a cargo ship appears with the text 'DAY 1' prominently over the image, signaling the start of a journey. Step 2: Slice 37 describes a man waking up in a small, confined cabin-like room and mentions he talks about moving and feeling something, indicating he’s experiencing motion consistent with being on a ship. Step 3: The proposed answer aligns with these details: the title 'DAY 1' marks the journey’s start, and the later scene shows him waking and commenting on movement.",
+        "visual_proof": "Clip 1 shows the title card 'DAY 1' overlaid on a shot of the ship's bow at sea, signaling the start of the journey. Clip 2 shows the man waking up in a small cabin, visibly reacting to motion, with subtitles confirming his dialogue: 'Are we moving?' and 'Do you feel that?'. This directly supports the original answer."
+    },
+    {
+        "question": "A man first appears carrying travel items while arriving at a DFDS location, and later a similar bag-carrying scene happens on the dock at night when they say they’ve found the ship. What items connect these moments as part of the same travel-to-ship progression?",
+        "answer": "A backpack and additional bags carried while moving through arrival/check-in and then the dockyard approach to the ship.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            27,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a man outside at night with a drink and backpack moving through a logistics-heavy area. Step 2: Slice 27 shows him arriving at a DFDS reception with a backpack and another bag. Step 3: Slice 30 shows the group near a van in a dock/industrial area with bags and the caption “That’s the ship.” Conclusion: Carrying backpacks/bags links the progression from nighttime travel to DFDS arrival to reaching the ship on the dock.",
+        "logic_check_reasoning": "Step 1: Slice 27 describes a man arriving at a DFDS location carrying a backpack and a brown bag. Step 2: Slice 30 shows a similar nighttime dock scene where the group says \"That's the ship\" and an individual is seen carrying bags. Logic holds because both moments feature the same travel context with the man carrying luggage; explicitly a backpack and another bag at DFDS, and bags again at the dock, indicating continuity of carrying travel items toward the ship.",
+        "visual_proof": "In Clip 1 (0:06), a man is seen walking toward the DFDS terminal carrying a backpack and pulling a rolling suitcase. In Clip 2 (0:00-0:01), he is at a check-in counter with the same backpack and holding additional bags. In Clip 3 (0:10-0:11), the same man is on the dock, again wearing the backpack and now carrying multiple shopping-style bags as he approaches the ship ramp. The consistent presence of the backpack and the transition from suitcase to shopping bags across these locations visually connects the scenes as part of a continuous journey to board the ship."
+    }
+]

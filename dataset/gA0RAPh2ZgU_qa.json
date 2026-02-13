@@ -1,0 +1,15 @@
+[
+    {
+        "question": "Which artist is explicitly credited on screen for the 1938 drawing of Sigmund Freud, and which other on-screen quote later emphasizes that the artist works from dreams while asleep?",
+        "answer": "Salvador Dalí; the later quote says his best ideas come from his dreams while he is asleep.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a Freud portrait/drawing labeled with the artist name Salvador Dalí and year 1938. Step 2: Slice 2 displays a Dalí quote about working constantly and getting ideas from dreams while asleep. Conclusion: The credited artist is Dalí, and the later on-screen quote highlights dream-based inspiration.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12 explicitly shows the text 'Salvador Dalí, 1938' associated with the drawing of Sigmund Freud, confirming the credited artist and date. Step 2: Evidence Slice 2 includes an on-screen quote attributed to Dalí: 'This is very important because I work constantly... from the moment I fall asleep. All of my best ideas... come from my dreams,' which emphasizes that he works from dreams while asleep. Logic holds because both slices consistently attribute the artwork and the quote to Dalí.",
+        "visual_proof": "In Clip 1, the text on screen at 0:01 explicitly credits 'Salvador Dali, 1938' for the drawing of Sigmund Freud. In Clip 2, subtitles appear over 'The Persistence of Memory' painting from 0:24 to 0:33, stating, 'This is very important because I work constantly... from the moment I fall asleep. All of my best ideas... come from my dreams.' This directly supports the claim that the artist (Dalí) works from dreams while asleep."
+    }
+]

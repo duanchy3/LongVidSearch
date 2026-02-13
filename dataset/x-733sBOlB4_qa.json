@@ -1,0 +1,30 @@
+[
+    {
+        "question": "The video shows a circular artwork featuring the word \"JOY\". What is the other artwork that appears later with a boot/shoe silhouette, and what shape is its main background area?",
+        "answer": "It is a framed collage with a boot/shoe silhouette, and its main background area is an oval field.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a circular artwork prominently featuring the word \"JOY\". Step 2: Slice 83 shows a framed collage centered on a boot/shoe silhouette set within a circular background. Conclusion: The later related piece is the boot/shoe collage, and its main background is circular.",
+        "logic_check_reasoning": "Step 1: Slice 10 describes an initial artwork featuring the word 'JOY' within a circular frame. Step 2: Slice 83 describes another artwork: a framed collage/mixed-media piece with a central black silhouette of a shoe/boot, and it specifies that the canvas/background is a circular white area. Logic holds because the question asks about the later artwork with a boot/shoe silhouette and the shape of its main background area, which Slice 83 explicitly identifies as circular.",
+        "original_text_answer": "It is a framed collage with a boot/shoe silhouette, and its main background area is a circular field.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "The second clip shows a framed artwork by Picasso. Within this frame, the central elements (a newspaper clipping and a black bottle labeled 'BASS') are arranged on a distinct white oval-shaped background. The overall shape of this central field is clearly oval, not circular."
+    },
+    {
+        "question": "Which artist name is explicitly visible on a Cubist still life with a bottle, newspaper, and fruit, and which later title card connects Cubism to trompe-l'œil at a major museum?",
+        "answer": "Picasso is visible on the Cubist still life, and the title card is \"Cubism and the Trompe L'Oeil Tradition\" at The Met Fifth Avenue.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows a Cubist still life signed \"Picasso\". Step 2: Slice 93 presents the exhibition title card \"Cubism and the Trompe L'Oeil Tradition\" at The Met Fifth Avenue. Conclusion: Picasso is named, and the exhibition title ties Cubism to trompe-l'œil at The Met.",
+        "logic_check_reasoning": "Step 1: Slice 31 describes a Cubist still life with a bottle, newspaper, and fruit and states the painting is signed \"Picasso\" in the lower right corner, explicitly identifying the artist. Step 2: Slice 93 presents a title card for an exhibition called \"Cubism and the Trompe L'Oeil Tradition\" at The Met Fifth Avenue, directly connecting Cubism to trompe-l'œil at a major museum. Logic holds because the first slice provides the artist name on the specific still life, and the second slice provides the exact exhibition title and venue connecting the two art forms.",
+        "visual_proof": "In Clip 1, the signature 'Picasso' is clearly visible in the bottom right corner of the painting. In Clip 2, the title card explicitly reads 'CUBISM AND THE TROMPE L’OEIL TRADITION' with the venue listed as 'At The Met Fifth Avenue'."
+    }
+]

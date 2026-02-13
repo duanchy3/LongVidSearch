@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which food is depicted being opened in-hand and then later shown as a complete MRE kit layout with the same menu name?",
+        "answer": "Buffalo Chicken (MRE Menu 24).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            76,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 76 shows a man holding and opening a can of buffalo chicken (with hot sauce nearby). Step 2: Slice 77 shows an MRE package labeled Menu 24 featuring Buffalo Chicken with arranged components. Conclusion: Buffalo Chicken is first handled/opened and later presented as the full MRE kit (Menu 24).",
+        "logic_check_reasoning": "Step 1: Slice 76 describes an animated man holding a can labeled buffalo chicken and then opening that can, indicating the food being opened is buffalo chicken. Step 2: Slice 77 presents an MRE package explicitly labeled as Menu 24 featuring Buffalo Chicken, shown in a complete kit layout. Logic holds because the same food name, Buffalo Chicken, appears first as the item being opened and later as the MRE kit's menu name.",
+        "visual_proof": "In Clip 1, the animated character is shown opening a brown MRE pouch labeled 'MRE' with 'BUFFALO CHICKEN' text prominently displayed on screen. In Clip 2, the same MRE pouch is shown in a close-up, clearly labeled 'MENU 24 BUFFALO CHICKEN', and then laid out with its complete contents, confirming it's the same meal."
+    },
+    {
+        "question": "Across the video, which two different eras show soldiers sitting around fires with cooking pots, and what later scene in a trench contrasts the setting while still involving canned rations?",
+        "answer": "Civil War-style camp cooking and red-uniform historical camp cooking; later, a World War–like trench scene shows soldiers eating canned rations.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            27,
+            89,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows Civil War-era soldiers cooking with pots over a fire in a tented camp. Step 2: Slice 89 shows soldiers in bright red uniforms gathered around a cooking pot over a fire. Step 3: Slice 22 contrasts this with soldiers in a muddy trench eating canned Maconochie rations. Conclusion: Fire-and-pot cooking appears across eras, later contrasted by trench-based canned eating.",
+        "logic_check_reasoning": "Step 1: Slice 27 describes a 19th-century (likely American Civil War) camp with a soldier cooking at a fire using large pots, indicating Civil War-style camp cooking. Step 2: Slice 89 shows soldiers in red uniforms gathered around a cooking pot over a fire, indicating another historical era with camp cooking. Step 3: Slice 22 presents a trench scene with soldiers in green uniforms eating from cans labeled 'Maconochie Army Ration,' contrasting the camp setting while involving canned rations. Logic holds because the two distinct historical camp-cooking scenes are supported by Slices 27 and 89, and the trench ration scene is supported by Slice 22.",
+        "visual_proof": "Clip 1 shows Union soldiers in dark blue uniforms (Civil War era) around a fire with large pots. Clip 2 shows soldiers in red coats and white plumed hats (suggesting an earlier historical period like the Napoleonic Wars or British colonial era) around a cauldron over a fire. Clip 3 shows soldiers in WWI-style helmets and uniforms sitting in a trench, opening and eating from 'MACONOCHIE ARMY RATION' cans, which contrasts the open-fire cooking scenes."
+    },
+    {
+        "question": "How does the video build a 'historical documentation' theme around questionable meat and later show public backlash against such meat?",
+        "answer": "It shows 'Embalmed Beef' alongside note-taking, then shows a protest with signs telling people to try eating the meat themselves.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            11,
+            18,
+            17,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 11 presents 'Embalmed Beef' and shows a hand writing in a notebook, implying documentation/records. Step 2: Slice 18 shows a scholarly man writing at a desk, reinforcing official or intellectual documentation. Step 3: Slice 17 shows a protest crowd holding signs saying 'Try Eat the Meat Yourself,' indicating backlash. Step 4: Slice 39 shows a man sorting/handling stacks of canned goods, linking the meat issue to mass-distributed canned products. Conclusion: Documented questionable meat leads to societal protest and mass provisioning context.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows 'Embalmed Beef' with a greenish tint and a hand writing in a notebook, explicitly tying questionable meat to documentation/note-taking. Step 2: Slice 18 depicts an early 20th-century man diligently writing in a study, reinforcing the historical documentation theme. Step 3: Slice 17 shows a protest with signs reading 'Try Eat the Meat Yourself,' clearly indicating public backlash against meat. The proposed answer correctly summarizes these elements: it references the embalmed beef alongside note-taking and then the protest signs.",
+        "visual_proof": "Clip 1 visually establishes the theme with the text 'Embalmed Beef' next to sliced meat and a hand writing in a journal, suggesting documentation. Clip 3 directly shows a crowd of protestors holding signs that read 'Try Eat the Meat Yourself,' which is a clear visual representation of public backlash against the meat."
+    },
+    {
+        "question": "Which storyline shows a leader figure giving orders in an ornate setting and then a broader council meeting inside a tent where a high-status figure continues directing a group?",
+        "answer": "A bearded ruler on a throne giving a decree, followed by a tent council where a crowned/headpiece leader addresses advisors and warriors.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a bearded ruler seated on an ornate throne gesturing as if issuing commands. Step 2: Slice 48 shows a leader seated on a raised platform in a tent, gesturing while addressing a group of men. Conclusion: Both scenes depict a central authority figure directing others, first in a palace then in a tent council.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a bearded man on an ornate throne in a regal chamber, gesturing as if delivering a decree or important announcement—clearly a leader giving orders in an ornate setting. Step 2: Slice 48 depicts a council inside a tent with a high-status figure (wearing a crown/headpiece) addressing a group of men, including an advisor and armed warriors, consistent with directing a broader council. Logic holds because both slices show leadership scenes: first a throne-room decree, then a tent council led by a crowned figure, matching the proposed storyline.",
+        "visual_proof": "Clip 1 shows a bearded man in ornate robes with a dragon emblem seated on a throne, gesturing authoritatively. Clip 2 shows a different scene inside a tent with a central figure wearing a conical headpiece, seated near a fire, surrounded by warriors and advisors holding cups, implying a council or gathering under his direction."
+    }
+]

@@ -1,0 +1,223 @@
+[
+    {
+        "question": "After she participates in an online class about a film project, what outdoor scene later shows her walking during sunset?",
+        "answer": "She later walks slowly on a rooftop deck at sunset.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows her in an online class with a slide titled about a film project. Step 2: Slice 40 shows a contemplative rooftop scene at sunset, indicating she is outdoors later in similar sunset timing. Conclusion: After class, later scenes show her out during sunset (bridge/rooftop vibe), specifically walking across a bridge earlier and then rooftop later.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly shows a young woman participating in an online class about a film project (screen titled 'ATISS'). Step 2: The same slice describes a subsequent outdoor scene where a person is walking briskly across a bridge during sunset. Step 3: The question asks what outdoor scene later shows her walking during sunset; the described bridge-walking scene matches this. Slice 40 is an outdoor rooftop sitting scene and is not about walking, but does not contradict. The logic holds because Slice 12 directly supports the claim of walking across a bridge at sunset after the class.",
+        "original_text_answer": "She later walks briskly across a bridge at sunset.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the woman participating in an online class. Clip 2 shows her walking on a wooden deck with white railings and outdoor furniture, overlooking a city skyline during sunset. This is clearly a rooftop or terrace, not a bridge. The walk appears leisurely, not brisk."
+    },
+    {
+        "question": "What academic subject is explicitly shown while she studies at home, and later what related course topic does she work on at an outdoor café?",
+        "answer": "She studies Women & Gender Studies, and later works on reading/annotating for race and ethnic relations at an outdoor café.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 11 includes an on-screen label 'women & gender studies' as she works on a laptop. Step 2: Slice 30 shows her outdoors with the caption about reading and annotating for race & ethnic relations. Conclusion: The subjects are Women & Gender Studies and Race & Ethnic Relations.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows the woman at home with the on-screen text \"women & gender studies,\" explicitly indicating the subject she is studying. Step 2: Slice 30 shows a person at an outdoor café with the subtitle \"time to read and annotate for race & ethnic relations!\", explicitly indicating the course topic being worked on. Logic holds because each slice directly presents the relevant text for the subject and the later topic, matching the proposed answer.",
+        "visual_proof": "In Clip 1, the text 'women & gender studies' is overlaid on the screen as she sits at her desk. In Clip 2, a subtitle reads '- time to read and annotate for race & ethnic relations!' while she is using a tablet at an outdoor café."
+    },
+    {
+        "question": "What device is she using when she draws a graphic design with a stylus, and what different device does she later use to watch a sad anime while eating?",
+        "answer": "She draws on an iPad/tablet with a stylus, and later watches the anime on a tablet/electronic device while eating.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows her using an iPad with a stylus to make a design. Step 2: Slice 49 shows an electronic device displaying 'Fruits Basket season 2' while she eats. Conclusion: She creates art on a tablet/iPad and later watches anime on a tablet-like device.",
+        "logic_check_reasoning": "Step 1: Slice 21 explicitly shows the person using an iPad with a stylus to create a colorful design with the word 'LOVE.' This supports the first part of the answer (iPad/tablet). Step 2: Slice 49 shows the woman eating while watching something on an electronic device that displays 'fruits basket season 2 (warning: so sad bruh).' This supports that she is watching the anime on an electronic device. While the answer mentions 'tablet/electronic device,' only 'electronic device' is explicitly supported, but the inclusion of 'electronic device' aligns with the context. The answer does not assert specifics beyond what is supported for the second device.",
+        "visual_proof": "In Video 1, the person is seen drawing on a tablet with a white stylus. In Video 2, the same person is shown sitting at a table, eating, and watching an anime (identified by subtitle as 'Fruits Basket Season 2') on a different tablet that is propped up on the table."
+    },
+    {
+        "question": "What day label appears when she adjusts a red bicycle, and what is she doing immediately after that day label when the camera switches to a first-person view?",
+        "answer": "The day label is Friday, and afterward she is riding the red bicycle in a first-person view.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            76,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 76 shows 'friday' while she stands by and adjusts a red bike. Step 2: Slice 77 shows a first-person perspective biking on the road. Conclusion: Friday leads into biking.",
+        "logic_check_reasoning": "Step 1: Slice 76 states the woman is adjusting/examining a red bicycle and that the text 'friday' is displayed across the image, establishing the day label. Step 2: Slice 77 shows a first-person perspective immediately after, where someone is riding a red bicycle, with an overlay indicating biking activity. Logic holds because the sequence implies the transition from adjusting the bike with the 'friday' label to riding it in first-person view, matching the proposed answer.",
+        "visual_proof": "In Clip 1, the text overlay 'friday april 23rd' is clearly visible while the woman adjusts the red bicycle at the docking station. In Clip 2, the perspective shifts to a first-person view looking down at the red bicycle's frame and pedals as they move, indicating she is actively riding it."
+    },
+    {
+        "question": "She eats ice cream in the living room—later what personal reflective activity does she do while a cat walks across the table, and where is she shown thinking quietly outdoors afterward?",
+        "answer": "She talks on the phone about a hard day while the cat walks across the table, and later she’s shown sitting on a rooftop at sunset looking out at the city.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            38,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows her sitting with an ice cream cone and a cat passing by. Step 2: Slice 38 shows her on the phone in a reflective conversation as a cat walks across the table. Step 3: Slice 40 shows her sitting on a rooftop terrace at sunset gazing at the city. Conclusion: Ice cream moment leads into reflection and then quiet outdoor contemplation.",
+        "logic_check_reasoning": "Step 1: Slice 36 shows a woman in a living room eating an ice cream cone, establishing the initial action. Step 2: Slice 38 explicitly describes the woman engaging in a reflective phone conversation about a challenging day, with a cat walking across the table, matching the personal reflective activity in the proposed answer. Step 3: Slice 40 shows the woman sitting on a rooftop terrace at sunset, deep in thought and gazing out at the city, which aligns with being shown thinking quietly outdoors afterward. The sequence and details are supported by the slices.",
+        "visual_proof": "Clip 1 shows her eating ice cream in the living room. Clip 2 shows her sitting at a table, holding a phone to her ear with text indicating she is on a call with her dad, reflecting on a tough day; during this scene, a cat walks across the table. Clip 3 shows her sitting alone on a rooftop chair at sunset, gazing out over the city skyline."
+    },
+    {
+        "question": "Which pet is shown playing with a laser pointer, and later where is that same pet seen sitting near food?",
+        "answer": "Her cat plays with a laser pointer, and later the cat is sitting on a chair next to a dining table with food.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 7 labels the cat (Kayla) and shows it chasing a laser. Step 2: Slice 47 shows a cat sitting on a chair beside a table with bowls/plates. Conclusion: The pet is the cat, later beside the dining table.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly shows a cat named Kayla playing with a laser pointer, confirming the pet is a cat. Step 2: Slice 47 describes a cat sitting on a chair next to a wooden table with a plate, bowl with food, and a glass, indicating the cat is near food at a dining table. Logic holds because both slices are within the same video context and depict the same pet (the cat) first playing with a laser pointer and later sitting by a table with food.",
+        "visual_proof": "In Video 1 (0:08-0:13), a black and white cat named 'kayla' is shown actively chasing a red laser dot on a rug. In Video 2 (0:00-0:02), the same cat (identifiable by its tabby and white markings) is seen sitting on a chair next to a wooden dining table that has a plate and a bowl of sauce on it."
+    },
+    {
+        "question": "Combine the moments: what day/date title indicates she’s starting a work session, what task list includes Chinese study, and later what confirms she actually completed Chinese homework?",
+        "answer": "The work session is labeled Tuesday, April 20th with a task list including a Chinese workbook, and later she shows finished Chinese character practice on a tablet confirming completion.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            20,
+            24,
+            25,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows 'Tuesday, April 20th' and a task list including 'Chinese workbook.' Step 2: Slice 24 shows 'cramming for a Chinese test.' Step 3: Slice 25 shows the tablet with grammar/lesson material being studied. Step 4: Slice 52 shows finished Chinese homework with rows of characters. Conclusion: The planned tasks lead into cramming and then completed homework.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly shows on-screen text 'Tuesday, April 20th' with 'Time to get to work!' and a task list that includes 'Chinese workbook,' indicating the work session start and Chinese study task. Step 2: Slice 52 shows a tablet filled with Chinese characters and a subtitle 'finished some chinese homework (and might've developed onset carpal tunnel),' which confirms completion of Chinese homework. Logic holds because the first slice sets the plan including Chinese study, and the later slice provides direct evidence of completion.",
+        "visual_proof": "Clip 1 (0:00-0:03) displays the text 'tuesday april 20th' and a to-do list with 'chinese workbook'. Clip 4 (0:00-0:01) shows a tablet screen filled with handwritten Chinese characters and the subtitle '- finished some chinese homework'."
+    },
+    {
+        "question": "What evidence shows she celebrates a friend’s achievements creatively before later celebrating a birthday with cake?",
+        "answer": "She works on a graphic design project for a friend's campaign earlier, and later she celebrates a 19th birthday with a cake and candles.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows her doing graphic design work for a friend's club president campaign. Step 2: Slice 93 shows a birthday celebration with cake and candles labeled 'Liv's 19th Birthday.' Conclusion: She supports friends with design work, then later celebrates with a birthday cake.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows the person using a stylus to work on a graphic design project for a friend's club president campaign, which is a creative way of supporting/celebrating a friend's achievements or pursuits. Step 2: Slice 93 shows \"later that night\" a woman blowing out candles on a birthday cake, labeled \"Liv's 19th Birthday (two days early)\", clearly indicating a birthday celebration with cake and candles. Logic holds because the first slice demonstrates a creative support for a friend's accomplishment earlier, and the second slice shows a later birthday celebration.",
+        "visual_proof": "In Clip 1, the person is seen using a stylus on a tablet to create graphics, with on-screen text stating, 'here I'm making promo graphics for a friend's club president campaign.' In Clip 2, a birthday cake with lit candles is shown, and text appears reading 'Liv's 19th Birthday (two days early),' confirming the celebration event."
+    },
+    {
+        "question": "What food did she cook for breakfast early on, and what comfort food did she later make for dinner?",
+        "answer": "She cooked waffles and eggs for breakfast, and later made noodles as comfort food for dinner.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows her cooking waffles and eggs for breakfast. Step 2: Slice 45 shows her cooking noodles with the on-screen text about comfort food for dinner. Conclusion: Breakfast was waffles and eggs; dinner comfort food was noodles.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 states she cooked waffles and eggs for breakfast, along with pouring milk and then eating at the table. Step 2: Evidence Slice 45 shows a person cooking noodles with on-screen text indicating it is 'some comfort food for dinner.' Logic holds because the breakfast items (waffles and eggs) are explicitly named in Slice 2, and the dinner comfort food (noodles) is explicitly identified in Slice 45. The change from 'woman' to 'person' does not affect the coherence since both slices describe cooking activities in the same casual home setting.",
+        "visual_proof": "In the first video clip, the woman is seen cooking waffles in a pan (0:15-0:16) and scrambled eggs (0:17), which are then plated together for breakfast (0:18). In the second video clip, she is shown adding thin noodles to a pot of boiling water with text overlay 'some comfort food for dinner' (0:00-0:02), confirming she made noodles for dinner."
+    },
+    {
+        "question": "What shows she balances productivity with relaxation: first an online meeting/class, then playful pet time, and later a cozy rest moment with the pet?",
+        "answer": "She attends a Zoom session, then plays with her cat chasing a laser, and later rests with the cat lying on her chest.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            7,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a Zoom call interface and her focused at a desk. Step 2: Slice 7 shows her cat chasing a laser pointer. Step 3: Slice 75 shows the cat lying on her chest as she rests. Conclusion: Work/meeting, play, then rest with the cat.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows a woman actively engaged in a Zoom call/virtual meeting, supporting the 'attends a Zoom session' part. Step 2: Slice 7 transitions to a playful scene with the cat Kayla chasing a laser pointer, supporting 'plays with her cat chasing a laser.' Step 3: Slice 75 depicts a cat lying on a person's chest while the person is resting, supporting 'later rests with the cat lying on her chest.' The sequence logically demonstrates balancing productivity with relaxation.",
+        "visual_proof": "Clip 1 shows her in a video meeting (Zoom-like interface) with study materials. Clip 2 shows her cat actively chasing a red laser dot on a rug. Clip 3 shows her lying down with the same cat resting peacefully on her chest."
+    },
+    {
+        "question": "How does the video show a progression from everyday home life to big public experiences: start with home cleaning, then going out for a paid drink, then visiting a waterfront, and finally entering an immersive digital art exhibit?",
+        "answer": "It goes from cleaning at home, to getting an overpriced matcha latte, to sitting at the wharf by the water, and then to visiting Artechouse’s immersive digital exhibit.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            65,
+            66,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows home cleaning chores across rooms. Step 2: Slice 65 shows her buying an 'overpriced' matcha latte. Step 3: Slice 66 shows her at the wharf sitting on a pier by the water. Step 4: Slice 68 shows the Artechouse immersive digital environment. Conclusion: The narrative moves from home routines to public outings and a major exhibit.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a young woman cleaning at home, establishing the everyday home life. Step 2: Slice 65 shows going out to Blue Bottle Coffee and buying an \"overpriced\" hot matcha latte, matching the paid drink. Step 3: Slice 66 shows sitting at \"the wharf\" by the water, fitting the waterfront visit. Step 4: Slice 68 shows \"artechouse\" with immersive, neon-lit digital visuals, consistent with entering an immersive digital art exhibit. The sequence aligns with the proposed progression.",
+        "visual_proof": "Clip 1 shows the person actively cleaning their apartment. Clip 2 shows them at Blue Bottle Coffee, ordering and receiving a hot matcha latte. Clip 3 shows them sitting on a wooden pier or wharf with text overlay 'the wharf'. Clip 4 shows them walking into the Artechouse exhibit, with the name 'artechouse' overlaid on the screen."
+    },
+    {
+        "question": "What does she hold up on her phone to share music, and later what kind of screen interface does she use to edit videos?",
+        "answer": "She shows a music app interface on her phone, and later uses a video editing timeline/interface on a laptop.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows her holding a smartphone displaying a music app interface. Step 2: Slice 7 shows a laptop screen with a video editing interface and timeline. Conclusion: Music app on phone; video editing on laptop.",
+        "logic_check_reasoning": "Step 1: Slice 5 states she holds up a smartphone and the screen displays what looks like a music app interface, suggesting she is discussing music or sharing a playlist. Step 2: Slice 7 shows her working on a laptop that displays a video editing interface with various clips and timelines. Logic holds because the first part directly supports 'music app interface on her phone' and the second part explicitly shows a video editing timeline/interface on a laptop.",
+        "visual_proof": "In Video 1 (0:18-0:19), the woman holds up her phone, clearly displaying a music application with a list of songs and an album cover. In Video 2 (0:02-0:03), she is seen using a laptop where the screen displays a video editing software interface with a visible timeline and preview window, indicating she is editing a video."
+    },
+    {
+        "question": "After she cleans and does dishes at home, what later scene shows her continuing cleaning but in a digital way?",
+        "answer": "She later does a 'digital clean' while working on a laptop with a video editing interface.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            7,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows physical cleaning (tidying, dishes, sweeping, laundry). Step 2: Slice 7 explicitly shows 'digital clean' and video editing. Step 3: Slice 27 shows a structured webpage/task system ('head full, many thoughts') reinforcing organization. Conclusion: She shifts from physical cleaning to digital organization/editing.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows the woman cleaning her home, including doing dishes in the kitchen. Step 2: Slice 7 explicitly shows a later scene with the on-screen text 'digital clean' and depicts her working on a laptop with a video editing interface, indicating she is cleaning/organizing digitally. Logic holds because the later scene directly references 'digital clean' and matches the proposed description.",
+        "visual_proof": "After scenes of physical cleaning (mopping, loading the dishwasher) in Clip 1, Clip 2 opens with the text 'digital clean' overlaid as the woman sits at her desk. She is then shown using her laptop, where a video editing software interface is clearly visible on the screen before she minimizes it."
+    },
+    {
+        "question": "What chain of locations shows her leaving home to study in public—starting from entering a transit area, then working at a café, and finally joining class from home again?",
+        "answer": "She enters the Dupont Circle area, studies/reads at a café outdoor table, and later joins a Zoom class from her home setup.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            31,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows her entering a building labeled 'Dupont Circle' and then at a café with coffee/food and a book. Step 2: Slice 31 shows her working at an outdoor café with a tablet/iced coffee and a laptop. Step 3: Slice 33 shows a Zoom meeting for class on race and ethnic relations from home. Conclusion: She goes out to Dupont/café to work, then later returns home for Zoom class.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows the person entering a building labeled \"Dupont Circle,\" which serves as the transit-area step, then depicts studying/reading at a café, including outdoor seating under an umbrella with a tablet and coffee. Step 2: Slice 31 reinforces working at an outdoor café, showing a woman focused on her laptop in a public setting. Step 3: Slice 33 shows the person at home in a home office joining a Zoom class on race and ethnic relations. Logic holds because the sequence matches entering a transit location (Dupont Circle), studying at a café, and then joining class from home.",
+        "visual_proof": "Clip 1 shows her walking on a street with 'Dupont Circle' visible on a sign, entering a café. Clip 2 shows her sitting at an outdoor café table, using a tablet/laptop to read or study. Clip 3 shows her in her home, joining a Zoom meeting for a 'Race & Ethnic Relations' class, confirming the sequence of locations: transit area (Dupont Circle) → café → home."
+    },
+    {
+        "question": "Across her meals, what does she eat while gaming at her desk, what do a group of friends eat together on the couch, and what does she eat while watching anime later?",
+        "answer": "She eats a bowl of food with chopsticks at her desk while gaming, friends eat spaghetti on the couch, and later she eats a salad while watching Fruits Basket.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            18,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows her eating a bowl using chopsticks while a game is on the monitor. Step 2: Slice 18 shows four people eating spaghetti from bowls on a couch. Step 3: Slice 49 shows her eating a salad while the device displays Fruits Basket Season 2. Conclusion: Desk meal, couch spaghetti, and anime-with-salad meal.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows an individual at a desk gaming, with a bowl of colorful food eaten using chopsticks. This supports 'She eats a bowl of food with chopsticks at her desk while gaming.' Step 2: Slice 18 shows four people on a couch eating spaghetti from bowls while watching a laptop, supporting 'friends eat spaghetti on the couch.' Step 3: Slice 49 shows a woman eating a bowl of salad while an electronic device displays 'fruits basket season 2,' supporting 'she eats a salad while watching Fruits Basket.' Despite potential identity mismatches across slices, the activities and foods are explicitly described and align with the proposed answer.",
+        "visual_proof": "Clip 1 shows her at her desk eating from a bowl with chopsticks while a game is on screen. Clip 2 shows a group of four people, including her, eating spaghetti from bowls on a couch. Clip 3 shows her at a table eating a salad from a plate while watching an anime on a tablet, with subtitles confirming it's 'Fruits Basket season 2'."
+    },
+    {
+        "question": "Track her studying and discussion workflow: where does she first read a book about race/technology, where does she annotate for race & ethnic relations, and what later shows she attends the related Zoom class from home?",
+        "answer": "She reads 'Race After Technology' at a café, then annotates for race & ethnic relations at an outdoor table, and later attends a Zoom class meeting on race and ethnic relations from home.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            29,
+            30,
+            31,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows the book 'Race After Technology' at a café table. Step 2: Slice 30 shows 'time to read and annotate for race & ethnic relations!' Step 3: Slice 31 continues outdoor work with tablet text about technology. Step 4: Slice 33 shows the Zoom meeting interface for the class on race and ethnic relations. Conclusion: Reading → annotating → continued work → attending class.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows a tablet displaying the book 'Race After Technology' in a café context, and Slice 31 further situates the tablet reading in an outdoor café setting, supporting that she first reads the book at a café. Step 2: Slice 30 explicitly states via subtitle 'time to read and annotate for race & ethnic relations!' while the person is at an outdoor table, confirming the annotation activity and location. Step 3: Slice 33 shows a Zoom meeting interface for a class on race and ethnic relations with the woman in a home office, indicating she later attends the related Zoom class from home. The sequence and locations align logically and are explicitly supported.",
+        "visual_proof": "Clip 1 shows her at a café with a book titled 'Race After Technology'. Clip 2 and 3 show her outdoors at a table using a tablet to annotate text related to 'race & ethnic relations', with the text 'say less!!!' visible. Clip 4 shows her at home in front of a laptop, with a screen recording of a Zoom meeting titled 'SOCI-144-01 Spring2021: Race & Ethnic Relations' appearing on screen."
+    }
+]

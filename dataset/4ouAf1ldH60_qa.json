@@ -1,0 +1,164 @@
+[
+    {
+        "question": "What ingredient is cut early in prep and later appears being cooked together with browned meat in the wok/pot?",
+        "answer": "Onions; they are chopped earlier and later mixed into cooked/browned meat in the wok.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            28,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows an onion being chopped on a cutting board. Step 2: Slice 67 shows sliced onions being stirred into browned meat in a wok. Conclusion: The chopped onions later become part of the meat cooking stage.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows a person chopping a white onion on a cutting board, indicating onions are prepared early. Step 2: Slice 67 shows a wok with browned meat and sliced onions being stirred together. Logic holds because the same ingredient (onions) is first chopped and later appears cooking with the meat.",
+        "visual_proof": "Clip 1 shows a person slicing white onions on a wooden cutting board. Clip 2 shows thinly sliced white onions being added to and stirred with browned meat pieces in a metal wok, confirming the same ingredient is prepared and then cooked together with the meat."
+    },
+    {
+        "question": "What object is used to place cooked noodles onto a tray, and what utensil is later used by someone preparing to taste the finished noodle dish?",
+        "answer": "A slotted spoon is used to place noodles onto a tray, and a fork is later used to stir/lift the finished dish for tasting.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            89,
+            94
+        ],
+        "reasoning_chain": "Step 1: Slice 89 shows noodles being placed onto a metal tray using tongs. Step 2: Slice 94 shows a hand with a fork stirring/lifting the finished noodle dish. Conclusion: The handling utensil changes from tongs (plating noodles) to a fork (eating/tasting).",
+        "logic_check_reasoning": "Step 1: Slice 89 explicitly says the person is using a pair of tongs to place long, thin, white noodles onto the tray. Step 2: Slice 94 explicitly shows a hand holding a fork, stirring/lifting the dish in preparation to taste. Logic holds because both actions and utensils are directly described in the captions, matching the proposed answer.",
+        "original_text_answer": "Tongs are used to place noodles onto a tray, and a fork is later used to stir/lift the finished dish for tasting.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1 (0:02), a person uses a large, perforated metal utensil, which is clearly a slotted spoon, to transfer noodles from an unseen pot into the tray. In Video 2 (0:05-0:08), a person uses a standard dining fork to lift and twirl the noodles from the finished dish, indicating preparation for tasting."
+    },
+    {
+        "question": "How does the man’s focus shift from building shelter/cover to using a heat source for cooking, and which two structures illustrate this shift?",
+        "answer": "He shifts from setting up a plastic-sheet shelter/cover to working at a stone stove/oven cooking area; the plastic-sheet shelter and the stone stove/oven illustrate the change.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the man adjusting a transparent plastic-sheet shelter structure. Step 2: Slice 57 shows him moving to and checking/using a wood-fired stone oven/stove area. Conclusion: His activity transitions from building/covering shelter to heat-based cooking at the stove/oven.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly shows the man constructing/adjusting a makeshift shelter made from a transparent plastic sheet, indicating focus on building cover. Step 2: Slice 7 then transitions to a rustic outdoor kitchen where the man is engaged in cooking activities. Step 3: Slice 57 specifies a wood-fired stone oven in the outdoor kitchen; the man moves toward it and checks/adjusts something inside, showing use of a heat source for cooking. Logic holds because the narrative moves from shelter-building (plastic-sheet shelter) to cooking with a heat source (stone oven).",
+        "visual_proof": "In Clip 1, the man is seen actively securing a large plastic sheet over a frame, indicating shelter construction. In Clip 2, he is in a different location under a thatched roof, standing next to a prominent stone-built oven/stove structure, preparing food on a table beside it. This visual transition from building a temporary cover to using a permanent cooking structure clearly illustrates the shift described."
+    },
+    {
+        "question": "Which ingredient is first peeled and then later chopped, and what sequence of actions is shown for it?",
+        "answer": "Garlic; it is peeled into cloves and later chopped into small pieces.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            52,
+            54
+        ],
+        "reasoning_chain": "Step 1: Slice 52 shows peeling garlic cloves by removing papery skins. Step 2: Slice 54 shows chopping garlic cloves on a cutting board. Conclusion: Garlic goes from peeled cloves to chopped pieces.",
+        "logic_check_reasoning": "Step 1: Slice 52 describes a person peeling garlic, separating the cloves from the papery outer skin, clearly indicating the ingredient is garlic and the action is peeling. Step 2: Slice 54 shows the same ingredient—garlic cloves—being chopped with a knife on a wooden cutting board. Logic holds because both slices focus on garlic, and the actions occur in a plausible sequence: peeling to reveal cloves, then chopping those cloves.",
+        "visual_proof": "In Video 1, hands are shown peeling the papery skin off a garlic bulb to separate individual cloves. In Video 2, those same garlic cloves are placed on a cutting board and then chopped into smaller pieces using a large knife."
+    },
+    {
+        "question": "The video shows two different kinds of 'mixing': one with hands and one with a spoon/spatula. What is mixed by hand earlier, and what is mixed with a utensil later?",
+        "answer": "Dough is mixed by hand earlier, and later the stir-fry (meat and vegetables) is mixed/stirred with a spoon or spatula in the pot/wok.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows hands mixing flour and eggs into dough. Step 2: Slice 72 shows a hand stirring a steaming stir-fry mixture in a pot with a large spatula. Conclusion: Early mixing is manual dough formation; later mixing is utensil-based stirring of cooked ingredients.",
+        "logic_check_reasoning": "Step 1: Slice 10 states the person cracks eggs into flour and then uses their hands to combine them, gradually forming a dough, clearly indicating hand mixing of dough. Step 2: Slice 72 shows a large pot with a stir-fry of vegetables and meat being stirred with a large silver spatula, indicating utensil mixing of the stir-fry. Logic holds because the earlier scene depicts hand-mixing dough, and the later scene depicts utensil-stirring of the stir-fry.",
+        "visual_proof": "In Video 1, a man is seen using his hands to mix ingredients, including flour and eggs, in a large metal bowl, which is consistent with making dough. In Video 2, a different scene shows a person using a large metal spoon to stir a mixture of chopped vegetables and meat in a wok, which is a stir-fry."
+    },
+    {
+        "question": "Which activity happens first: washing vegetables in a stone basin or chopping a yellow bell pepper on a cutting board, and what does that ordering imply about the workflow?",
+        "answer": "Washing vegetables happens first, then chopping the yellow bell pepper; it implies the vegetables are cleaned before being cut for cooking.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows vegetables being washed in a stone basin. Step 2: Slice 34 shows a yellow bell pepper being cut on a board. Conclusion: The order indicates cleaning precedes chopping in the workflow.",
+        "logic_check_reasoning": "Step 1: Slice 32 states the video begins with a man washing vegetables in a stone basin, and notes he ensures they are clean and ready for further use. Step 2: Slice 34 shows a person chopping a yellow bell pepper on a cutting board. Logic holds because Slice 32 explicitly places washing at the start, and Slice 34 depicts a subsequent preparation step. The implication that vegetables are cleaned before cutting is supported by Slice 32's mention of ensuring they are clean and ready for further use.",
+        "visual_proof": "Clip 1 visually depicts a man washing various vegetables, including tomatoes and peppers, in a stone basin with splashing water. Clip 2 shows a close-up of a yellow bell pepper being chopped on a wooden cutting board with a cleaver. The sequence of clips establishes that washing precedes chopping, which is a logical food preparation workflow."
+    },
+    {
+        "question": "What evidence shows the dish is tasted after being assembled on noodles, and how is approval communicated?",
+        "answer": "After the noodle dish is shown assembled, the man eats it and signals approval with a thumbs-up.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            94,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 94 shows the finished noodle dish being stirred/lifted with a fork, indicating it’s ready to eat. Step 2: Slice 96 shows the man taking bites and giving a thumbs-up. Conclusion: The assembled dish is tasted and approved via a thumbs-up gesture.",
+        "logic_check_reasoning": "Step 1: Slice 94 states the dish is a stir-fry served over noodles and shows a hand with a fork about to taste it, confirming it's assembled on noodles and ready to be eaten. Step 2: Slice 96 shows a man taking a bite of the dish and then nodding and giving a thumbs-up, which communicates approval. Logic holds because Slice 94 establishes the noodle assembly and imminent tasting, while Slice 96 provides the actual tasting and approval gesture.",
+        "visual_proof": "Clip 1 shows the fully assembled dish on noodles. Clip 2 shows the man taking a bite of the food with a fork (0:03) and then giving a clear thumbs-up gesture to the camera (0:11), indicating his approval."
+    },
+    {
+        "question": "What ingredient is added to the flour mixture after liquid is poured in, and what happens to the mixture right after that addition?",
+        "answer": "Eggs are added, and the mixture is then mixed by hand into dough.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows liquid being poured into a metal bowl with flour. Step 2: Slice 10 shows eggs being cracked into the flour mixture. Step 3: Slice 11 shows the person kneading dough, indicating the mixture became dough after adding eggs and mixing. Conclusion: Eggs are added and the mixture becomes dough that is kneaded.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows a man pouring liquid into a metal mixing bowl containing flour, establishing the flour mixture. Step 2: Slice 10 shows the same setting and person cracking eggs into the large metal mixing bowl with flour. Immediately after the eggs are added, Slice 10 states the person begins to mix the ingredients by hand, gradually forming a dough. Logic holds because the visual attributes (dark jacket, rustic outdoor setting, metal bowl, stacked logs) align, connecting the actions across slices and supporting that eggs are added and the mixture is then hand-mixed into dough.",
+        "visual_proof": "In Clip 2 (0:01-0:02), after liquid has been poured into the flour in the metal bowl, a hand is seen cracking eggs directly into the mixture. In the same clip (0:03) and continuing into Clip 3 (0:04-0:05), the man is shown using his hands to knead the ingredients together, forming a cohesive dough."
+    },
+    {
+        "question": "What outdoor structure is built to cover plants, and what cooking area later features a thatched roof with tools and pots hanging?",
+        "answer": "A plastic-covered greenhouse/tunnel is built, and later a rustic thatched-roof outdoor kitchen is shown for cooking.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows building an arch frame and covering it with plastic sheeting to form a greenhouse. Step 2: Slice 7 shows a thatched-roof rustic kitchen area with hanging utensils and pots where cooking happens. Conclusion: The video features both a plant-protecting greenhouse and a separate thatched-roof cooking workspace.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly describes a man building a greenhouse using wooden arches and covering it with plastic sheeting, which is an outdoor structure to cover plants. Step 2: Slice 7 explicitly describes a rustic outdoor kitchen with a thatched roof and various clay pots and utensils hanging. Logic holds because the answer matches these two described scenes: a plastic-covered greenhouse and a thatched-roof outdoor kitchen with hanging tools/pots.",
+        "visual_proof": "Clip 1 shows the man constructing an arched frame from branches and covering it with clear plastic sheeting, forming a tunnel-like structure over soil. Clip 2 then shows a different scene: an outdoor kitchen area with a thatched roof, where pots and tools are visibly hanging, and the man is preparing food at a wooden counter."
+    },
+    {
+        "question": "Which scenic mountain-and-village views bookend the story, appearing near the beginning and then returning near the end?",
+        "answer": "An aerial view of a small mountain village appears at the start and a similar aerial mountain-village view returns near the end.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            98
+        ],
+        "reasoning_chain": "Step 1: Slice 1 opens with an aerial view of a small village in a mountain valley. Step 2: Slice 98 again shows mountainous landscape and an aerial view of a village with red roofs and a river. Conclusion: The video returns to the same type of establishing mountain-village view at the end.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly states the video starts with an aerial view of a small village nestled in a valley surrounded by lush green mountains. Step 2: Slice 98 describes an aerial view of a small village in a valley surrounded by mountains appearing again, despite the caption noise saying 'The video starts with...'—this aligns with instruction to handle VLM noise. Logic holds because both slices depict the same type of mountain-and-village aerial view at the beginning and then again later, supporting the idea of bookending scenes.",
+        "visual_proof": "Clip 1 opens with an aerial shot of a village nestled in a valley between forested mountains (0:00-0:03). Clip 2, which represents the end of the sequence, shows a nearly identical aerial view of the same village and valley from a slightly different angle (0:04-0:05), confirming the visual bookending."
+    },
+    {
+        "question": "What changes from garden planting to garden protection: which items are placed into soil first, and what structure is later built to cover the planted area?",
+        "answer": "Seeds are first poured/sprinkled into the soil, and later a bamboo-arch frame covered with plastic forms a greenhouse/tunnel to protect the area.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            5,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows red seeds being poured/sprinkled into prepared soil rows. Step 2: Slice 5 shows bamboo arches being built into a tunnel-like frame. Step 3: Slice 6 shows the frame being covered with plastic sheeting to complete a greenhouse. Conclusion: Planting seeds is followed by building a protective covered tunnel/greenhouse.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly shows seeds being poured/sprinkled into prepared soil in rows, confirming the first items placed into the soil are seeds. Step 2: Slice 5 shows the man constructing a series of bamboo arches tied with string, forming a tunnel-like structure. Step 3: Slice 6 adds that the arch-shaped frame (wood/bamboo) is eventually covered with plastic sheeting to complete a greenhouse. Logic holds because the context depicts a progression from planting seeds to building a protective arch/tunnel structure covered with plastic, consistent with the proposed answer.",
+        "visual_proof": "Clip 1 shows red seeds being sprinkled onto tilled soil. Clip 2 shows the man inserting vertical poles and bending flexible sticks into arches over the planted rows. Clip 3 shows him completing the arched frame and then draping a large sheet of clear plastic over it, forming a protective tunnel."
+    },
+    {
+        "question": "Which clothing detail helps link the same main worker across gardening and later cooking, and how does his task change across those times?",
+        "answer": "He repeatedly wears a dark/black jacket (often with green pants); his task shifts from digging/planting/building garden structures to chopping ingredients and cooking over an outdoor stove.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            6,
+            18,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a man in a black jacket gardening (digging and raking). Step 2: Slice 6 shows a man in a black jacket and green pants building a greenhouse. Step 3: Slice 18 shows a man in a dark jacket and green pants carrying produce and starting food prep. Step 4: Slice 60 shows a man in a black jacket and green pants cooking at an outdoor stove. Conclusion: Clothing continuity links the same worker as his activities shift from gardening/construction to cooking.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a man gardening, wearing a black jacket, blue jeans, and a yellow hat; he digs and rakes. Step 2: Slice 6 shows a man building a greenhouse in the garden, wearing a black jacket and green pants. Step 3: Slice 18 shows the man later preparing food outdoors, wearing a dark/black jacket and green pants, chopping meat. Step 4: Slice 60 shows the man cooking on an outdoor stove, wearing a black jacket and green pants. Logic holds because the recurring black/dark jacket (and often green pants) links the same main worker across gardening/building and later cooking. The task changes from gardening/building activities (digging, greenhouse construction) to food preparation and cooking (chopping ingredients and cooking on an outdoor stove).",
+        "visual_proof": "In Clip 1, the man is gardening in a black jacket and green pants. In Clip 2, he continues building a garden structure in the same attire. In Clip 3, he is seen preparing meat at an outdoor kitchen, still wearing the identical black jacket and green pants. Finally, in Clip 4, he is actively cooking over an outdoor stove, again in the same outfit. This consistent clothing visually links him across all activities, confirming the shift from gardening to cooking."
+    }
+]

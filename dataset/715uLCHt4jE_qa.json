@@ -1,0 +1,41 @@
+[
+  {
+    "question": "What well-known saying about pictures appears on a slide, and later what opposite phrasing about words appears on another slide?",
+    "answer": "\"A picture is worth a thousand words\" appears first, and later \"A word is worth a thousand pictures\" appears.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      2,
+      3
+    ],
+    "reasoning_chain": "Step 1: Slice 2 shows the slide text \"A picture is worth a thousand words.\" Step 2: Slice 3 shows a different slide reading \"A word is worth a thousand pictures.\" Conclusion: The presentation contrasts the two sayings across the two moments.",
+    "logic_check_reasoning": "Step 1: Slice 2 explicitly states the slide text reads \"A picture is worth a thousand words.\" Step 2: Slice 3 explicitly states another slide’s title reads \"A word is worth a thousand pictures.\" Logic holds because both slices depict the same setting (man in blue shirt, American flag, presentation), indicating two slides from the same talk; the answer repeats exactly those phrases.",
+    "visual_proof": "In the first clip, the slide clearly displays the text 'A picture is worth a thousand words.' In the second clip, the slide shows the text 'A word is worth a thousand pictures.', which is the opposite phrasing as stated in the question."
+  },
+  {
+    "question": "Which slide about detecting objects shows a collage of airplanes, and later which slide shows a page filled with motorcycle images?",
+    "answer": "The collage of airplanes appears on the \"Airplanes\" slide, and the motorcycle page appears on the \"Motor Cycles\" slide.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      22,
+      23
+    ],
+    "reasoning_chain": "Step 1: Slice 22 includes a slide titled \"Airplanes\" with many airplane images. Step 2: Slice 23 shows a slide titled \"Motor Cycles\" filled with motorcycle images. Conclusion: The talk cycles through object-category detection examples, including airplanes and motorcycles.",
+    "logic_check_reasoning": "Step 1: Slice 22 explicitly describes a slide titled 'Airplanes' that shows a collage of various airplane images arranged in a grid. Step 2: Slice 23 explicitly describes a slide titled 'Motor Cycles' displaying various images of motorcycles. Logic holds because the question asks which slides correspond to these visuals; the titles 'Airplanes' and 'Motor Cycles' directly match the described content.",
+    "visual_proof": "In Video 1, at timestamp 0:20, a slide titled \"Airplanes\" is displayed, which contains a grid of nine images, all featuring different types of airplanes. In Video 2, at timestamp 0:00, a slide titled \"Motor Cycles\" is shown, displaying a similar grid of nine images, all of which are motorcycles. The titles and content of the slides directly match the description in the original answer."
+  },
+  {
+    "question": "Which dataset slide states there are 9 actions in 142 videos, and which later slide shows a grid of action thumbnails for the UCF YouTube Action Dataset?",
+    "answer": "The UCF Sports Action Dataset slide states 9 actions in 142 videos, and the later grid slide is the UCF YouTube Action Dataset (UCF-11) / UCF50 slide with thumbnails.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      36,
+      39
+    ],
+    "reasoning_chain": "Step 1: Slice 36 explicitly states \"UCF Sports Action Dataset\" with 9 actions in 142 videos. Step 2: Slice 39 shows a grid for \"UCF YouTube Action Dataset (UCF-11)\" and \"UCF50.\" Conclusion: The talk moves from one action dataset summary to another dataset’s thumbnail grid.",
+    "logic_check_reasoning": "Step 1: Slice 36 explicitly states the slide titled 'UCF Sports Action Dataset' mentions '9 different actions captured in 142 videos.' Step 2: Slice 39 describes a slide titled 'UCF50' and 'UCF YouTube Action Dataset (UCF-11)' showing a grid of action thumbnails. Logic holds because the first part directly matches Slice 36, and the second part directly matches Slice 39's description of the UCF YouTube Action Dataset grid.",
+    "visual_proof": "Clip 1 clearly shows a slide titled 'UCF Sports Action Dataset' with the text '9 actions, 142 videos.' below it. Clip 2 first displays a grid labeled 'UCF50' and then transitions to another grid labeled 'UCF YouTube Action Dataset (UCF-11)', both of which show multiple action thumbnails, confirming the description in the original answer."
+  }
+]

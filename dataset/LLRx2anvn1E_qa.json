@@ -1,0 +1,42 @@
+[
+  {
+    "question": "The lecture first explains that grayscale images use a single scalar value per pixel and later discusses how the human retina has different cone types. How many types of color-sensitive cones are mentioned, and how does that relate to why RGB images need multiple channels instead of one?",
+    "answer": "Three cone types are mentioned (red, green, blue), which relates to RGB needing three channels to represent color information rather than a single grayscale channel.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      2,
+      3
+    ],
+    "reasoning_chain": "Step 1: Slice 2 defines grayscale as a single scalar channel and RGB as three channels. Step 2: Slice 3 states the retina has three types of color-sensitive cones (R/G/B). Conclusion: Because human color perception is trichromatic, RGB uses three channels rather than one scalar channel.",
+    "logic_check_reasoning": "Step 1: Slice 2 explains grayscale (scalar) images use a single value per pixel. Step 2: Slice 3 explicitly states there are three types of color-sensitive cones in the human retina: red, green, and blue. Step 3: Slice 2 also explains that RGB images consist of three channels—red, green, and blue. Logic holds because the lecture links the presence of three cone types to the need for three separate channels to represent color, rather than a single grayscale channel.",
+    "visual_proof": "Clip 1 (Slide 27) explicitly states 'Image Type: RGB (red, green, blue)' and shows the three separate color channels. Clip 2 (Slide 30) presents a diagram of the human eye's retina and text stating, 'There are three different types of color-sensitive cones corresponding to (roughly) RED, GREEN, and BLUE.' The lecture connects these concepts by explaining that RGB images use three channels to mimic the trichromatic nature of human vision, which is fundamentally different from a single-channel grayscale image."
+  },
+  {
+    "question": "The lecture first shows a business-recognition example for a pizza restaurant with an overlaid info box, and later shows a similar example for a well-known chain restaurant. What type of information is extracted in both cases?",
+    "answer": "Business identity information such as the name and address (and related metadata like category/phone number).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      41,
+      42
+    ],
+    "reasoning_chain": "Step 1: Slice 41 shows 'Pizza My Heart' with an overlay containing name, address, category, phone. Step 2: Slice 42 shows 'The Cheesecake Factory' with a similar info box. Conclusion: Both extract structured business metadata from storefront imagery.",
+    "logic_check_reasoning": "Step 1: Slice 41 describes a slide showing a pizza restaurant ('Pizza My Heart') with an overlaid green box containing the restaurant's name, address, category, and phone number. Step 2: Slice 42 describes a similar slide for 'The Cheesecake Factory' with a text box containing the business's name, address, category, and phone number, plus a brief description. Logic holds because both examples explicitly show extraction of business identity information (name and address) and related metadata (category and phone number).",
+    "visual_proof": "Both clips show an overlaid green info box for a business. Clip 1 for 'Pizza My Heart' displays NAME, ADDRESS, USER Rating, CATEGORY, and PHONE. Clip 2 shows similar boxes for 'L'Amour Frozen Yogurt Cafe', 'The Cheesecake Factory', and 'Starbucks', all containing the same fields: NAME, ADDRESS, USER Rating, CATEGORY, and PHONE. This confirms that business identity information and related metadata are consistently extracted."
+  },
+  {
+    "question": "The lecture discusses a police chase video being used as a case study and later introduces 'Detection in aerial videos' with a marked moving object. What is the shared viewpoint and why is it helpful for detection?",
+    "answer": "An aerial/bird’s-eye viewpoint; it helps because moving objects like vehicles are visible over large areas and can be tracked across frames from above.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      7,
+      50,
+      51
+    ],
+    "reasoning_chain": "Step 1: Slice 7 shows an aerial view of a highway chase. Step 2: Slice 50 introduces detection in aerial videos with a marked target. Step 3: Slice 51 shows aerial tracking of vehicles with markers. Conclusion: All rely on aerial perspective to detect/track moving vehicles over wide scenes.",
+    "logic_check_reasoning": "Step 1: Slice 7 explicitly states the police chase is shown from an aerial view and notes the aerial perspective provides a comprehensive view and highlights spatial relationships, implying broad area visibility. Step 2: Slice 50 introduces 'Detection in aerial videos' using aerial imagery with a marked moving object, confirming the same aerial/bird’s-eye viewpoint for detection. Step 3: Slice 51 shows object tracking in aerial views with vehicles marked by lines and dots indicating movement and positions, which implies tracking across frames from above. Together, these slices support that the shared viewpoint is aerial and that it aids detection/tracking by providing broad coverage and clear observation of moving objects over time.",
+    "visual_proof": "All three clips consistently show an overhead, top-down perspective. Clip 1 displays a highway chase from high above, showing multiple lanes and surrounding landscape. Clip 2 shows a grayscale aerial view of buildings with a red dot tracking a moving object against a black background. Clip 3 shows two side-by-side panels of a highway from an aerial angle, with colored lines tracing vehicle paths. This consistent bird's-eye view across all clips confirms the shared viewpoint and its utility for observing and tracking objects over a wide area."
+  }
+]

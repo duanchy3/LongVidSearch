@@ -1,0 +1,196 @@
+[
+    {
+        "question": "Which sponsor is thanked at the very start, and later what app is demonstrated as a digital study platform?",
+        "answer": "GoodNotes is thanked at the start, and GoodNotes is later demonstrated as the digital study platform.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows white text thanking GoodNotes for sponsoring the video. Step 2: Slice 24 shows a demonstration of the GoodNotes app as a social digital study platform. Conclusion: The sponsor thanked initially is the same app later demonstrated—GoodNotes.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states, \"thank you to GoodNotes for sponsoring this video!\" confirming the sponsor thanked at the start is GoodNotes. Step 2: Evidence Slice 24 describes the demonstration of the GoodNotes app as a digital study platform, highlighting its features and community aspects. Logic holds because both slices clearly reference GoodNotes in the respective contexts asked by the question.",
+        "visual_proof": "At 0:00-0:02 in Clip 1, the text on screen explicitly says 'thank you to GoodNotes for sponsoring this video!'. In Clip 2, from 0:00 to 0:21, a user is shown interacting with a tablet displaying the GoodNotes app interface, including its community features and note-taking functions, which are described by subtitles as a 'social digital study platform'."
+    },
+    {
+        "question": "The student says a link issue made her late for something—what class was she trying to attend around that time?",
+        "answer": "She was trying to take her chemistry class (in the library).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows her finding a place in the library to take class and labels it as CHEMISTRY. Step 2: Slice 31 says the Zoom link wasn't showing up so she ended up being late. Conclusion: The link issue caused her to be late to the chemistry class session.",
+        "logic_check_reasoning": "Step 1: Slice 30 states the student is finding a place in the library to take class and explicitly shows on-screen text \"CHEMISTRY\" and \"let's go!\", indicating the class is chemistry. Step 2: Slice 31 shows an email stating \"Zoom link wasn't showing up so I ended up being late,\" which indicates a link issue caused lateness for the class session around that time. Logic holds because the video narrative ties the class she was preparing to attend (chemistry) with the subsequent note about being late due to the Zoom link issue, implying the lateness pertains to the chemistry class.",
+        "visual_proof": "Clip 1 visually establishes the context: the student is in a library, and an on-screen graphic explicitly states 'CHEMISTRY MW 9-9:50 AM' as she sets up her laptop. Clip 2 shows her on a computer screen with text saying 'zoom link wasn't showing up so i ended up being late le sigh,' confirming she was trying to join a class via Zoom at that time. The combination of both clips confirms she was attempting to attend her Chemistry class."
+    },
+    {
+        "question": "The video shows a cat on a bed during a trivia-game moment; later where is the same cat shown sleeping peacefully?",
+        "answer": "The cat is later shown sleeping curled up on a blue blanket on a couch.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows a cat on a bed while the person plays Trivia Crack and calls the cat cute. Step 2: Slice 45 shows a cat sleeping on a blue blanket on a couch. Conclusion: The cat’s location/state changes from hanging out on a bed to sleeping on a couch blanket.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows a cat on a bed during a trivia-game moment, establishing the cat in the video. Step 2: Slice 45 describes the cat later sleeping curled up on a blue blanket on a couch. Logic holds because the later scene explicitly places the cat on a couch with a blue blanket, matching the proposed answer.",
+        "visual_proof": "In the first clip, a cat named Kayla is seen under an orange blanket on a bed while someone plays Trivia Crack. In the second clip, the same tabby and white cat is shown curled up and sleeping peacefully on a dark blue, fluffy blanket placed on a grey couch."
+    },
+    {
+        "question": "After taking a short nap, what does the student do next related to productivity or schoolwork?",
+        "answer": "She goes back to work, typing on her laptop.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 46 mentions a 45-minute power nap and shows her waking up. Step 2: Slice 47 shows hands typing with the caption 'back to work!'. Conclusion: After the nap, she resumes work on her laptop.",
+        "logic_check_reasoning": "Step 1: Slice 46 shows a person waking up from a nap, reinforced by the caption '45-minute power nap? yes ma'am!'. Step 2: Slice 47 shows hands typing on a laptop with on-screen text 'back to work!', indicating resumption of productivity. Logic holds because the sequence suggests that after the nap, the person returns to work by typing on a laptop, which aligns with the proposed answer.",
+        "visual_proof": "Clip 1 shows the student waking up from a nap with the subtitle '45-minute power nap??' followed by 'yes ma'am!'. Clip 2 immediately shows her at a desk with the subtitle '- back to work!' as she begins typing on a laptop keyboard next to a tablet displaying academic text. This sequence visually confirms she resumes work after napping."
+    },
+    {
+        "question": "At a train platform, what specific accessory stands out on one of the friends, and later what kind of puzzle is shown being done while riding the train?",
+        "answer": "A white tote bag with a red 'STRAND' logo stands out, and later a New York Times crossword puzzle is shown on the train.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 20 highlights a woman wearing a red crossbody bag while the group waits at the station. Step 2: Slice 21 shows someone doing a New York Times crossword on the train. Conclusion: The station scene precedes the train ride activity of solving a crossword.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly describes a woman at the train platform wearing a white crop top and denim shorts, accessorized with a red crossbody bag. Step 2: Slice 21 states that a person on the train is focused on solving a New York Times crossword puzzle, confirmed by a text overlay. Logic holds because the first detail occurs at the platform and the second occurs later on the train, matching the question’s sequence.",
+        "original_text_answer": "A red crossbody bag stands out, and later a New York Times crossword puzzle is shown on the train.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the woman with purple hair is carrying a large white tote bag with a prominent red oval logo that reads 'STRAND'. In Clip 2, while on the train, the subtitle explicitly says '- doing the nytimes crossword on the way home', and the group is gathered around a phone, implying they are working on it."
+    },
+    {
+        "question": "Which two different academic subjects are explicitly introduced with 'let's go' style enthusiasm in separate study moments?",
+        "answer": "Chemistry and International Relations.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 30 labels the library class moment as 'CHEMISTRY' with enthusiastic text. Step 2: Slice 43 shows a page labeled 'INTERNATIONAL RELATIONS' with 'let's go!' and excitement. Conclusion: The two subjects are Chemistry and International Relations.",
+        "logic_check_reasoning": "Step 1: Slice 30 explicitly shows on-screen text \"CHEMISTRY\" followed by \"let's go!\", indicating enthusiastic introduction of the subject. Step 2: Slice 43 explicitly shows text \"INTERNATIONAL RELATIONS\" followed by \"let's go!\", again indicating enthusiastic introduction. Logic holds because both slices independently and clearly include the subject name paired with the \"let's go\" phrasing in study contexts.",
+        "visual_proof": "Clip 1 visually displays a graphic overlay with the text 'CHEMISTRY MW 9-9:50 AM' and a 'let's go!' button as the student prepares for class. Clip 2 shows a similar graphic overlay with the text 'INTERNATIONAL RELATIONS MW 3:30-4:45 PM' and a 'let's go!' button while the student is taking notes. Both subjects are explicitly named in these enthusiastic, stylized overlays."
+    },
+    {
+        "question": "Identify a sequence where food-centered social scenes transition into transportation and then into focused studying—what meal is featured, what transit setting appears, and what study task follows?",
+        "answer": "Hotpot is featured, then a train station/train ride appears, and then she returns to taking notes/studying (digital note-taking).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            19,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a hotpot meal and group dining celebration. Step 2: Slice 19 shows a train station at dusk/evening. Step 3: Slice 32 shows her doing 'lots of notetaking!' on a tablet. Conclusion: The timeline connects social eating to transit and then back to focused studying.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly features food-centered social scenes, including a hotpot dinner (“hotpot <3”), confirming the meal. Step 2: Slice 19 shows a train station setting at dusk with people waiting, clearly establishing the transportation scene. Step 3: Slice 32 shows focused studying via digital note-taking on a tablet for general chemistry, confirming the study task. The proposed answer identifies hotpot, a train station, and digital note-taking, all directly supported by the slices. While it mentions 'train station/train ride,' the station is explicitly shown, which suffices for the transit setting.",
+        "visual_proof": "Clip 1 shows a hotpot meal with various ingredients and people at a table. Clip 2 transitions to an outdoor scene at dusk with a train station platform and tracks, confirmed by the subtitle 'train ride home'. Clip 3 shows a person using a stylus on a tablet for digital note-taking, with subtitles indicating 'lots of notetaking!' and studying chemistry."
+    },
+    {
+        "question": "Across the video, how is 'studying with others' contrasted with studying alone—name one scene that implies studying is better with friends and one later scene showing solitary 'grind time' in a library.",
+        "answer": "A title card says 'studying is better with friends,' and later she studies alone in a library during 'grind time.'",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 49 explicitly states 'studying is better with friends.' Step 2: Slice 69 shows an individual studying alone in a library with 'grind time!' Conclusion: The video contrasts collaborative studying messaging with solitary studying practice.",
+        "logic_check_reasoning": "Step 1: Slice 49 describes the video beginning with a title screen that explicitly reads 'studying is better with friends,' which directly implies the benefit of studying with others. Step 2: Slice 69 shows a single young woman focused on her laptop in a quiet library with an on-screen prompt 'grind time!' and no other people mentioned, supporting a solitary study scene. Logic holds because the first scene sets the pro-friends message, and the later library scene depicts a solo, focused 'grind time' session.",
+        "visual_proof": "Clip 1 shows two women studying together on a couch, with a text overlay that reads '- studying is better with friends'. Clip 2 shows the same woman alone at a table in a library, with a text overlay that reads 'grind time!', visually contrasting the social study session with solitary work."
+    },
+    {
+        "question": "Across different days, what are two distinct ways the student studies chemistry using digital tools in quiet environments?",
+        "answer": "She takes chemistry class in the library on her laptop, and she also does lots of digital note-taking on a tablet with a stylus for general chemistry.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            30,
+            32,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows her in a library taking chemistry class on a laptop. Step 2: Slice 32 shows 'lots of notetaking!' on a tablet, specifically general chemistry, using a stylus. Step 3: Slice 24 shows GoodNotes as the digital note-taking/study platform being highlighted. Conclusion: Her chemistry studying combines laptop-based class attendance and tablet-based digital note-taking supported by the promoted app.",
+        "logic_check_reasoning": "Step 1: Slice 30 explicitly shows a student in a library finding a place to take a class, with on-screen text \"CHEMISTRY\" and the student working on a laptop. This supports \"She takes chemistry class in the library on her laptop.\" The library is described as calm and studious, consistent with a quiet environment. Step 2: Slice 32 shows a person using a tablet with a stylus to take notes, with text overlays saying \"lots of notetaking!\" and that they are taking general chemistry. This supports \"she also does lots of digital note-taking on a tablet with a stylus for general chemistry.\" The setting is described as a cozy, intimate personal workspace, reasonably implying a quiet environment. Step 3: Slice 24 further reinforces tablet-based digital note-taking for chemistry (electron affinity) via the GoodNotes app, confirming the second method of study.",
+        "visual_proof": "Clip 1 shows the student in a library setting with a laptop, preparing for a 'Chemistry' class. Clip 2 visually confirms extensive digital note-taking on a tablet using a stylus, with text indicating it's for 'general chemistry'. Both activities occur in quiet, studious environments."
+    },
+    {
+        "question": "The student explores campus buildings and later finds a setback related to a library visit—what problem does she encounter, and what earlier scene shows her actively trying to study in a library anyway?",
+        "answer": "She finds a library she wanted to visit is closed, and earlier she is shown finding a place in the library to take chemistry class.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            76,
+            30,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 76 says she’s exploring Maguire and Healey and notes the library she was going to visit is closed. Step 2: Slice 30 shows her successfully using a library space to take chemistry class. Step 3: Slice 68 shows her walking to the Joseph W. Singer Memorial Library on an early morning campus moment. Conclusion: Even though one library visit is blocked by closure, other scenes show her repeatedly seeking library spaces for studying.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 76 explicitly includes the caption \"but the library i was going to visit is closed ;(\" which identifies the setback as the library being closed. Step 2: Evidence Slice 30 shows the same student in a library with on-screen text \"finding a place in the library to take class\" and \"CHEMISTRY,\" indicating she is actively trying to study/take a class in the library. Logic holds because Slice 76 provides the problem (closed library) and Slice 30 provides an earlier scene of studying in a library, matching the proposed answer.",
+        "visual_proof": "In Clip 1, at 0:02, text states 'but the library i wanted to go to was closed :(', and a sign on a door confirms closure. In Clip 2, at 0:00-0:01, the student walks through library stacks with text 'finding a place in the library to take class', and at 0:02, a graphic overlay shows 'CHEMISTRY MW 9-9:50 AM', confirming she is preparing for a chemistry class in the library."
+    },
+    {
+        "question": "During social dining, someone makes a reference others don’t understand; what earlier dining sequence sets up that the group had already been sharing a communal hotpot meal together?",
+        "answer": "The SpongeBob reference happens at a restaurant table, and earlier the group shares a communal hotpot meal with ingredients and bubbling broth.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            16,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a communal hotpot dinner with many shared ingredients and celebration. Step 2: Slice 17 continues the hotpot focus with broths, dipping meat, and stirring. Step 3: Slice 18 shows a lively restaurant moment with someone making a SpongeBob reference. Conclusion: The SpongeBob joke occurs within an ongoing pattern of group dining that includes the earlier hotpot gathering.",
+        "logic_check_reasoning": "Step 1: Slice 18 describes a social restaurant scene where someone makes a SpongeBob reference that may not be understood, matching the 'reference others don’t understand' at a dining table. Step 2: Slice 16 details an earlier 'Hotpot Dinner' with a table of ingredients and a communal setup, plus group celebration and after-dinner scenes, indicating shared dining. Step 3: Slice 17 further shows the hot pot with different broths, close-ups of meat dipping, and bubbling/stirring, reinforcing the communal hotpot with ingredients and bubbling broth. Logic holds because the proposed answer states the reference occurs at a restaurant table and that earlier the group shares a communal hotpot with ingredients and bubbling broth, which is explicitly supported by Slices 16 and 17.",
+        "visual_proof": "Clip 1 shows Chris making the SpongeBob reference while seated at a dining table in a restaurant. Clip 2 visually establishes the communal hotpot setting with multiple people waving at the camera around a table laden with hotpot ingredients (raw meat, vegetables) and active hotpot bases. Clip 3 further reinforces this by showing close-ups of the bubbling broths being cooked and eaten, confirming the shared meal context prior to the reference."
+    },
+    {
+        "question": "When she prepares for a day described as having many back-to-back classes, what outfit does she choose, and later what item suggests the humidity affects her during campus walking?",
+        "answer": "She chooses a light blue, long-sleeved, loose-fitting top with matching pants, and later her glasses fog up from humidity.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows her picking and wearing a floral dress (with a black top underneath) while getting ready for a long day. Step 2: Slice 55 shows her adjusting her glasses due to condensation/humidity while walking on campus. Conclusion: Outfit prep is followed by a humidity-related change affecting her glasses.",
+        "logic_check_reasoning": "Step 1: Slice 26 explicitly states she is \"getting ready for a long day (five classes, four back-to-back)\" and describes her selecting \"a floral dress\" and pairing it \"with a black top underneath,\" supporting the outfit choice. Step 2: Slice 55 mentions a close-up of her \"adjusting her glasses due to condensation, indicating the humid weather,\" which supports that her glasses fog up from humidity during campus walking. Logic holds because the outfit is chosen during the described busy day, and later the glasses show the effect of humidity.",
+        "original_text_answer": "She chooses a floral dress with a black top underneath, and later her glasses fog up from humidity.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 at 0:05, she is seen selecting an outfit from her closet; the chosen outfit is not floral or black. In Clip 2 at 0:06-0:07, she is walking outside in a light blue top and matching pants. At 0:08, she explicitly states 'oh, it's so humid my lens!' while wiping condensation off her glasses, visually confirming the fogging due to humidity."
+    },
+    {
+        "question": "Over multiple dates, what progression shows the student shifting from getting ready for classes to later exploring campus at night for a club meeting, and then studying in the morning?",
+        "answer": "She gets ready for a long day of classes (Aug 25), later walks on campus at night to a first VSA meeting, and then studies in the library the next morning (Aug 31).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            26,
+            78,
+            79,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 26 (Aug 25) shows her morning routine getting ready for many back-to-back classes. Step 2: Slice 78 shows her walking on campus at night toward her first VSA meeting. Step 3: Slice 79 shows the VSA meeting and then an Aug 31 morning library study scene. Step 4: Slice 30 reinforces the established pattern of using the library to take class/study. Conclusion: The timeline moves from class prep to nighttime club involvement to morning academic studying.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows the student with purple hair getting ready for a long day of classes, explicitly dated August 25. Step 2: Slice 78 shows the student walking on campus at night toward a first VSA meeting, and Slice 79 continues with an indoor VSA meeting scene, supporting the nighttime club activity. Step 3: Slice 79 then transitions to a library scene explicitly labeled August 31 at 9:01 AM, where the student studies, indicating a morning study session after the night meeting. The progression over multiple dates—from Aug 25 prep for classes, to a later night VSA meeting, to morning library study on Aug 31—is logically supported by the captions and timestamps.",
+        "visual_proof": "Clip 1 shows her getting ready with text 'getting ready for a long day' and date 'aug 25'. Clip 2 shows her walking on campus at night with text 'walking towards our first vsa meeting!'. Clip 3 shows her in a library with text 'starting off the day in the bioethics library' and date 'aug 31', confirming the sequence across dates."
+    },
+    {
+        "question": "How does the video show a shift from daytime campus social fun to nighttime campus club involvement and then back to academic romanticizing in the morning?",
+        "answer": "It shows daytime picnics/spikeball, then nighttime walking to a VSA meeting, and then a morning library study scene described with romanticizing academics.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            86,
+            78,
+            79,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 86 shows a perfect day for spikeball and picnics—daytime social fun. Step 2: Slice 78 shows nighttime campus walking toward the first VSA meeting. Step 3: Slice 79 shows the meeting and then an Aug 31 morning library scene about romanticizing academic life. Step 4: Slice 68 provides additional early-morning campus calm around a library, reinforcing the return to academics. Conclusion: The vlog cycles from daytime leisure to nighttime community involvement to morning studying.",
+        "logic_check_reasoning": "Step 1: Slice 86 depicts daytime campus social fun with friends on picnic blankets and playing spikeball, explicitly captioned as a perfect day for picnics and spikeball. Step 2: Slices 78 and 79 show nighttime campus club involvement, with text overlays like 'campus at night is a different vibe' and 'walking towards our first vsa meeting,' followed by an indoor meeting scene labeled 'vsa meeting!'. Step 3: Slice 79 transitions to a morning library scene (timestamp 9:01 AM) with captions noting the romanticization of academic life; Slice 68 further supports early morning campus/library vibes. The answer accurately summarizes this progression.",
+        "visual_proof": "Clip 1 visually depicts daytime social activities like picnics and spikeball on campus. Clip 2 transitions to nighttime scenes, showing the subject walking towards a building for a 'vsa meeting'. Clip 3 then shows an indoor meeting setting followed by a library scene with text overlay 'romanticizing my academia life here <333', indicating a return to academic focus in a stylized manner. This sequence directly supports the described shift."
+    }
+]

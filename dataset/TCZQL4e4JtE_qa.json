@@ -1,0 +1,86 @@
+[
+    {
+        "question": "After the two teens talk on a rocky ledge, what later scene shows the dragon-and-rider activity that matches the adventurous tone of their discussion?",
+        "answer": "Later, the young man rides a sleek black dragon high above a sea of clouds at sunrise/sunset.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows two teens talking on a rocky ledge overlooking misty mountains. Step 2: Slice 32 shows a young man riding a black dragon soaring above clouds in dramatic light. Conclusion: The later flight scene visually fulfills the adventure implied by the earlier discussion.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows two teen-like characters talking on a rocky ledge with a dramatic, adventurous backdrop, setting an adventurous tone. Step 2: Slice 32 later depicts a young man riding a black dragon above a sea of clouds with sunrise/sunset lighting, emphasizing adventure and freedom. The proposed answer matches Slice 32’s content (young man riding a sleek black dragon high above clouds at sunrise/sunset) and logically follows as the later scene reflecting the adventurous tone.",
+        "visual_proof": "Clip 1 shows two teens (a young man and woman) sitting on a rocky ledge engaged in conversation. Clip 2 visually confirms that the same young man is later seen riding a sleek black dragon, flying high above a dense layer of clouds under a warm-toned sky consistent with sunrise or sunset, matching the adventurous tone implied by their earlier discussion."
+    },
+    {
+        "question": "What earlier visual motif in the icy region matches the later shots of dragons flying through a narrow ice crevice?",
+        "answer": "Earlier, a rider on a black dragon weaves between jagged green-blue ice formations, which matches the later ice-cave/crevice flight theme.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a rider on a black dragon flying through jagged ice formations in green/blue tones. Step 2: Slice 85 shows riders on dragons flying through a narrow icy crevice with blue lighting. Conclusion: Both emphasize dangerous navigation through tight icy passages.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes a rider on a black dragon weaving between large, jagged green-blue ice formations in an icy region, indicating tight, treacherous navigation through ice. Step 2: Slice 85 shows dragons flying through a narrow ice crevice, also involving tight navigation within icy formations. Logic holds because both slices depict the motif of dragons flying through constricted icy spaces, making the earlier weaving between jagged ice formations a match to the later crevice flight.",
+        "visual_proof": "Clip 1 (0:00-0:11) clearly shows a rider on a black dragon navigating through large, jagged ice spires that are greenish-blue in color. Clip 2 (0:00-0:03) shows dragons flying through a narrow, enclosed ice crevice with blue-toned walls, establishing a thematic and visual continuity of aerial navigation through confined icy environments."
+    },
+    {
+        "question": "How can you tell the boy in the red-and-black accented outfit appears across both a tense interior scene and a later outdoor ship-side scene of concern?",
+        "answer": "He has short brown hair and wears a dark outfit with red accents; he appears serious indoors and later looks alarmed outdoors on/near wooden ship structures.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            23,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a short brown-haired boy in a dark outfit with red accents inside a wooden-beam/rope interior. Step 2: Slice 23 shows the same outfit motif (black leather with red accents and emblem) as he looks surprised/concerned outdoors near wooden structures and ropes. Step 3: Slice 77 again shows a brown-haired male in black with red shoulder accents reacting seriously, with a mechanical figure blurred behind. Conclusion: Consistent hair and distinctive red-on-black outfit track the same character across scenes.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows an indoor, tense scene with a young boy who has short brown hair and wears a dark outfit with red accents; he looks serious. The setting includes wooden beams and ropes, hinting at a ship’s hold. Step 2: Slice 23 shows what appears to be a later, outdoor scene with a young man with brown hair (with a small braid) wearing a black leather outfit with red accents and an emblem, looking surprised/concerned. The background has wooden structures and ropes suggesting a nautical, possibly ship-related setting. Step 3: The consistent visual attributes (brown hair, dark outfit with red accents) and the shift from indoor seriousness to outdoor concern across nautical/wooden structures logically indicate the same character appears in both scenes.",
+        "visual_proof": "Clip 1 shows the boy indoors, in shadowy lighting near wooden beams and ropes, with a serious expression. Clips 2 and 3 show him outdoors, with bright daylight and ship structures (masts, rigging) visible behind him; his expression is wide-eyed and alarmed, consistent with concern. His appearance—short brown hair, dark armor with red shoulder accents—is identical across all clips."
+    },
+    {
+        "question": "What combined evidence shows both a personal protective act involving a child and later a broader theme of protecting vulnerable companions (like dragons) during conflict?",
+        "answer": "A bearded Viking shields a child during an explosion, and later the boy stays close to a distressed dragon even as others back away, showing protection of the vulnerable amid danger.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows a large Viking holding and trying to shield a child during an explosion. Step 2: Slice 80 shows the boy staying close to a distressed roaring dragon while others retreat. Conclusion: Both moments emphasize protective courage toward a vulnerable being amid danger.",
+        "logic_check_reasoning": "Step 1: Slice 49 describes a bearded Viking holding a child during an explosion and explicitly trying to shield the child from the flames, demonstrating a personal protective act. Step 2: Slice 80 shows a young boy staying close to a distressed dragon while others back away, indicating an effort to protect or comfort a vulnerable companion in a dangerous situation. Logic holds because both slices depict protective behavior toward vulnerable beings amid immediate danger, matching the proposed answer.",
+        "visual_proof": "In Clip 1, a large, bearded Viking is shown holding a small baby protectively as debris and fire fly around them, indicating he is shielding the child from an explosion. In Clip 2, after a chaotic scene involving dragons and Vikings, Hiccup is seen standing firmly beside Toothless, who appears distressed and surrounded by other wary Vikings and dragons, while others are stepping back or looking on in fear — visually reinforcing his protective stance toward his vulnerable companion."
+    },
+    {
+        "question": "What four-scene evidence supports that technology/mechanical threats recur alongside dragon conflict, from the sky to later battle contexts?",
+        "answer": "A spiked mechanical flying construct attacks in the clouds, a rotor-drone pursues someone, later battles occur amid explosions and chaos, and a large, teal-colored mechanical structure or weapon is visible behind the boy during the battle.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            3,
+            12,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a battle against a giant spiked mechanical construct in the sky with energy blasts. Step 2: Slice 3 shows a rotor-equipped drone pursuing a falling/diving figure. Step 3: Slice 12 shows large-scale combat with explosions and debris around ships and dragons. Step 4: Slice 77 shows the boy reacting while a teal-limbed mechanical/robotic figure is blurred behind him. Conclusion: Mechanical/tech threats recur throughout and intertwine with dragon warfare.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a dragon rider battling a massive spiked mechanical construct in the clouds, clearly a technological aerial threat. Step 2: Slice 3 depicts a multi-rotor mechanical drone pursuing a falling person, reinforcing recurring skyborne mechanical danger. Step 3: Slice 12 presents later battle contexts with dragons amid explosions and chaos, evidencing ongoing conflict in later scenes. Step 4: Slice 77 includes a blurred large mechanical/robotic figure with teal limbs behind the protagonist, indicating continued mechanical presence/threat in a later context. Logic holds because these four scenes collectively demonstrate recurring mechanical/technological elements alongside dragon-centered conflict from aerial to subsequent battle settings.",
+        "original_text_answer": "A spiked mechanical flying construct attacks in the clouds, a rotor-drone pursues someone, later battles occur amid explosions and chaos, and a blurred teal-limbed mechanical figure appears behind the boy.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a dark, spiky mechanical construct attacking Toothless in the clouds. Clip 2 shows a small, propeller-driven drone-like machine pursuing Hiccup. Clip 3 features a chaotic battle scene with explosions and a large, teal-colored mechanical object (possibly part of a ship or weapon) looming in the background behind Hiccup. The 'blurred teal-limbed mechanical figure' from the original answer is inaccurate; it is a large, stationary structure, not a figure with limbs."
+    },
+    {
+        "question": "What multi-scene evidence suggests a recurring conflict involving a dreadlocked antagonist figure across ship confrontations and icy battles?",
+        "answer": "A dreadlocked, intimidating figure appears in tense ship-deck moments and later in icy battle contexts facing the young man and dragons.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            66,
+            69,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows a menacing character with long dreadlocks in a dim industrial/mechanical setting confronting a light-haired figure. Step 2: Slice 69 shows a dreadlocked orc-like figure dominating someone by the throat on a ship/fortress-like structure. Step 3: Slice 76 includes a confrontation on snowy ground between the young man and a larger dreadlocked opponent after dragon battles. Conclusion: The dreadlocks and dominant demeanor track a recurring antagonist across locations.",
+        "logic_check_reasoning": "Step 1: Slice 66 shows a menacing character with long dreadlocks engaged in a tense confrontation in a dim, industrial/mechanical setting, suggesting conflict. Step 2: Slice 69 explicitly depicts a dreadlocked, orc-like figure violently confronting another character on a large structure that resembles a ship, reinforcing the ship-deck confrontation context. Step 3: Slice 76 presents an icy, snowy battle with dragons and a ground confrontation between a young man and a larger, dreadlocked figure, placing the same-type antagonist in an icy battle context facing the young man amid dragons. Logic holds because the recurring visual trait (long dreadlocks, menacing demeanor) connects the antagonist across multiple scenes—one in a ship-like setting and another in an icy battlefield with dragons.",
+        "visual_proof": "The dreadlocked antagonist is first seen in a tense close-up on what appears to be a ship (Clip 1). He is then shown physically confronting another character on a ship deck (Clip 2). In Clip 3, he reappears in an icy, snowy environment, wielding a spear and directly facing off against the young protagonist and his dragon, confirming his role as a recurring antagonist across these distinct settings."
+    }
+]

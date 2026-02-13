@@ -1,0 +1,68 @@
+[
+    {
+        "question": "Across the unrest footage, what common concealment item is worn by armed individuals and also by a child seen among the group later?",
+        "answer": "A face covering/mask (bandana-style masking).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows armed people, including someone in a skull-design mask. Step 2: Slice 20 shows a child wearing a mask within the group. Conclusion: Masks/face coverings are common to both scenes.",
+        "logic_check_reasoning": "Step 1: Slice 18 describes armed individuals, explicitly noting one person wearing a mask with a skull design, indicating masks are used by those holding firearms. Step 2: Slice 20 states some individuals wear masks or bandanas over their faces and later notes a child wearing a mask. Logic holds because both slices identify masks/face coverings used by armed individuals and by the child, making a face covering/mask the common concealment item.",
+        "visual_proof": "In Clip 1, multiple armed individuals are seen wearing bandanas or masks covering their faces; one prominently wears a skull-patterned mask. In Clip 2, at 0:11-0:12, a child is visible among the group, also wearing a light-colored headscarf or bandana that covers their face. This confirms that both armed adults and a child use similar concealment items."
+    },
+    {
+        "question": "Which international organization is visually referenced early on and later reappears through a spokesperson speaking at its podium?",
+        "answer": "The United Nations.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a blue UN flag and a building with the UN logo. Step 2: Slice 88 shows a UN spokesperson speaking at a podium with the UN emblem. Conclusion: The organization referenced in both is the United Nations.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 shows a blue flag that appears to be the UN flag and a building with the United Nations logo, indicating the UN is visually referenced early. Step 2: Evidence Slice 88 shows a man at a podium with a blue background featuring the United Nations logo, identified as the UN Secretary-General's spokesperson, indicating the UN reappears later. Logic holds because both slices explicitly reference the United Nations through visuals and identification.",
+        "visual_proof": "In Clip 1, the UN flag is shown waving (0:15-0:16), followed by a shot of the UN emblem on a building facade (0:17-0:18). In Clip 2, a spokesperson identified as 'Stephane DUJARRIC, Spokesperson for the Secretary-General' is seen speaking at a podium with the official blue UN backdrop featuring the UN emblem and the text 'United Nations' in multiple languages (0:10-0:19)."
+    },
+    {
+        "question": "Which same masked group label is connected to both a truck marked with the group name and a later split-screen that includes money with a matching tag?",
+        "answer": "“103 Zombies” / “103zombi”.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows a white pickup truck with “103 ZOMBIES” painted on it. Step 2: Slice 19 shows money on the right side with the text “103zombi.” Conclusion: Both reference the same group label.",
+        "logic_check_reasoning": "Step 1: Slice 15 explicitly states a white pickup truck has \"103 ZOMBIES\" painted on it and identifies the group as the \"103 Zombies.\" Step 2: Slice 19 describes a split-screen where a stack of money appears with the text \"103zombi\" above it, and later shows masked individuals. Logic holds because both slices reference the same label (\"103 Zombies\"/\"103zombi\") connected to the truck and the money tag, indicating the same group branding across scenes.",
+        "visual_proof": "In Video 1 (0:09-0:10), the rear of a white truck clearly displays the text '103ZONBI'. In Video 2 (0:02-0:04), a split-screen shows three images, with the middle one featuring stacks of money in a case labeled '103zonbi'. The group also chants 'We are the 103 zombies!' at 0:05-0:06, confirming the connection."
+    },
+    {
+        "question": "Which group identity is reinforced by showing their name on a vehicle, then showing weapons held by masked people, and then showing a money tag with the same label?",
+        "answer": "The “103 Zombies/103zombi” group identity.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 15 displays “103 ZOMBIES” painted on a pickup truck near barricades. Step 2: Slice 18 emphasizes masked individuals holding firearms. Step 3: Slice 19 shows a money stack labeled “103zombi,” tying the brand to resources/financing. Conclusion: These cues reinforce the 103 Zombies identity.",
+        "logic_check_reasoning": "Step 1: Slice 15 explicitly shows a white pickup truck with \"103 ZOMBIES\" painted on it and identifies the group as the \"103 Zombies.\" Step 2: Slice 18 shows masked individuals holding firearms, matching the description of \"showing weapons held by masked people\" in the sequence. Step 3: Slice 19 shows a money-related shot with the text \"103zombi\" displayed above it, which aligns with the earlier group label (variant spelling). Logic holds because the group name appears on a vehicle and then again on a money tag, with intervening imagery of masked people with weapons reinforcing the identity; the slight label variation is consistent within the context.",
+        "visual_proof": "Clip 1 shows a vehicle with '103ZONBI' on the back, while masked individuals chant 'We are the 103 zombies!'. Clip 2 shows these same masked individuals holding weapons. Clip 3 displays social media-style images tagged '103zonbi', including one with large sums of cash. The consistent use of the name '103zombi' across the vehicle, the chants, and the money tag visually reinforces this specific group identity."
+    },
+    {
+        "question": "Which correspondent is identified in the studio and also appears later reporting from Haiti wearing a green shirt?",
+        "answer": "Florian de Moal.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 27 identifies Florian de Moal as a senior correspondent during the studio debate. Step 2: Slice 59 shows Florian De Moal reporting on location in Haiti wearing a green shirt. Conclusion: The correspondent is Florian de Moal.",
+        "logic_check_reasoning": "Step 1: Slice 27 states the lower third identifies one of the studio speakers as Florian de Moal, Senior Correspondent for France Télévision. Step 2: Slice 59 states that the correspondent reporting from Haiti is identified as Florian De Moal and is wearing a green shirt. Logic holds because the same named correspondent is identified in the studio and later appears reporting from Haiti in a green shirt.",
+        "visual_proof": "The on-screen text in both clips identifies 'Florian DE MOAL, Senior Correspondent, France Télévision' while he is speaking in the studio. In Clip 2, a picture-in-picture shows him in the studio, while the main footage shows a correspondent reporting from Haiti wearing an identical green shirt, visually confirming it is the same person."
+    }
+]

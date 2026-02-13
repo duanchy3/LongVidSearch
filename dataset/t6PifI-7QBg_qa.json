@@ -1,0 +1,107 @@
+[
+    {
+        "question": "One dish uses a long marinating step and later becomes a noodle dish in a wok. What dish is it, and what is the minimum marinating time shown?",
+        "answer": "Chicken teriyaki chow mein, and it marinates for at least 30 minutes.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            28,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows a bag of marinated chicken with text indicating 'marinate at least 30 min' and noodles going into a wok. Step 2: Slice 33 shows the finished dish labeled chicken teriyaki chow mein. Conclusion: The noodle dish is chicken teriyaki chow mein and the minimum marinate time is 30 minutes.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows marinated chicken with on-screen text 'marinate at least 30 min' and then noodles being cooked in a wok, indicating a noodle dish that follows a marinating step. Step 2: Slice 33 shows the final dish labeled 'chicken teriyaki chow mein.' Logic holds because both slices describe the same video: the marinated chicken leads to a noodle dish cooked in a wok, and the final title names it as chicken teriyaki chow mein, with the minimum marinating time explicitly given as 30 minutes.",
+        "visual_proof": "Clip 1 shows chicken pieces being stirred in a sauce with the on-screen text 'marinate at least 30 min'. Later, chow mein noodles are added to a wok. Clip 2 concludes with the finished dish, which is visually confirmed as 'chicken teriyaki chow mein' by the on-screen text at 0:12, showing the marinated chicken mixed with noodles and vegetables."
+    },
+    {
+        "question": "A French bread loaf is sliced in one segment and later becomes a mustard-and-pickle sandwich wrapped in foil. What is the sandwich called?",
+        "answer": "Cubano panini.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows a sandwich built on a sliced loaf with mustard, cheese, pickles, ham, pulled pork, and then wrapped in foil. Step 2: Slice 51 shows the finished sandwich labeled 'CUBANO PANINI.' Conclusion: The foil-wrapped mustard-and-pickle sandwich is the Cubano panini.",
+        "logic_check_reasoning": "Step 1: Slice 46 describes a sandwich assembled with mustard, cheese, pickles, honey ham, and pulled pork, then wrapped in aluminum foil. Step 2: Slice 51 shows the finished sandwich with on-screen text explicitly reading \"CUBANO PANINI.\" Logic holds because the ingredients and preparation in Slice 46 match the sandwich presented in Slice 51, and Slice 51 directly names it, confirming the sandwich is called \"Cubano panini.\"",
+        "visual_proof": "The first clip shows the preparation of a sandwich with mustard, Swiss cheese, dill pickles, ham, and pulled pork on a sliced French bread loaf, which is then wrapped in foil. The second clip explicitly displays text identifying the finished product as 'CUBANO PANINI' while showing a close-up of the same sandwich, confirming its name."
+    },
+    {
+        "question": "A dish uses a red glaze that is re-applied halfway through baking, and a different dish uses BBQ sauce as the main coating before baking. Name both dishes.",
+        "answer": "Mashed potato-stuffed meatloaf cups and BBQ chicken bake.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows meatloaf cups with a red glaze and the instruction to re-glaze halfway. Step 2: Slice 13 shows chicken breasts coated with BBQ sauce for BBQ chicken bake. Conclusion: The dishes are mashed potato-stuffed meatloaf cups and BBQ chicken bake.",
+        "logic_check_reasoning": "Step 1: Slice 21 describes 'Mashed Potato-Stuffed Meatloaf Cups' featuring a vibrant red glaze and explicitly notes to 're-glaze halfway' through baking. Step 2: Slice 13 describes 'BBQ Chicken Bake' where chicken breasts are coated with BBQ sauce prior to baking. Logic holds because each slice clearly identifies the dish and the relevant coating/glaze behavior that matches the question. The proposed answer names both dishes exactly as in the slices.",
+        "visual_proof": "Clip 1 shows meatloaf cups with a red glaze being brushed on, followed by text stating 'BAKE... *re-glaze halfway' and later reveals the dish as 'MASHED POTATO-STUFFED MEATLOAF CUPS'. Clip 2 shows chicken breasts being coated with 'BBQ SAUCE' before baking, and the final dish is labeled 'BBQ CHICKEN BAKE'."
+    },
+    {
+        "question": "A dish begins with baking a potato in foil on a grill, and later a different dish bakes meatloaf mixture in a muffin tin. What are the names of these two final dishes?",
+        "answer": "Grilled potato volcanoes and mashed potato-stuffed meatloaf cups.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 12 labels the bacon-wrapped cheesy potato as 'Grilled Potato Volcanoes.' Step 2: Slice 21 labels the muffin-tin meatloaf dish as 'Mashed Potato-Stuffed Meatloaf Cups.' Conclusion: Those are the two final dish names.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a dish featuring a potato with bacon and cheese and explicitly displays the text 'Grilled Potato Volcanoes,' identifying the first dish. Step 2: Slice 21 shows meatloaf mixture baked in a muffin tin and explicitly names the dish 'Mashed Potato-Stuffed Meatloaf Cups.' Logic holds because both dish names directly match the visual captions describing those preparations.",
+        "visual_proof": "Clip 1 visually confirms the first dish is 'GRILLED POTATOE VOLCANOES' via on-screen text at 0:03, showing a bacon-wrapped potato with cheese, sour cream, and green onions. Clip 2 visually confirms the second dish is 'MASHED POTATO-STUFFED MEATLOAF CUPS' via on-screen text at 0:06, showing individual meatloaf portions in a muffin tin with a red glaze, later cut open to reveal a mashed potato center."
+    },
+    {
+        "question": "Two different recipes in the video are finished with green onions on top. What are the two dishes?",
+        "answer": "Crispy chicken teriyaki rice balls and one-pot cheeseburger pasta.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows chopped green onions sprinkled on crispy chicken teriyaki rice balls. Step 2: Slice 17 shows one-pot cheeseburger pasta served and garnished with green onions. Conclusion: These are the two dishes finished with green onions.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes the crispy chicken teriyaki rice ball and explicitly states that finely chopped green onions are sprinkled on top. Step 2: Slice 17 describes the one-pot cheeseburger pasta and explicitly states it is garnished with fresh green onions. Logic holds because both slices clearly show green onions used as a finishing garnish on these two named dishes.",
+        "visual_proof": "In Video 1, green onions are sprinkled on top of the crispy chicken teriyaki rice ball before it is cut open. In Video 2, green onions are sprinkled on top of the finished one-pot cheeseburger pasta in the final serving bowl. Both dishes are explicitly shown being garnished with green onions, and their names are displayed as text overlays."
+    },
+    {
+        "question": "One segment shows frying a panko-breaded ball and finishing it with sauce; another segment shows a finished rice ball coated in teriyaki sauce. What are the two ball-shaped foods?",
+        "answer": "A fried panko-breaded croquette-like ball and crispy chicken teriyaki rice balls.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a ball shaped from a white mixture, coated in egg and panko, fried, then sauced. Step 2: Slice 9 shows the finished dish labeled crispy chicken teriyaki rice balls coated in teriyaki sauce. Conclusion: The two ball-shaped foods are the fried panko ball and the crispy chicken teriyaki rice balls.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes shaping a white mixture into a ball, coating it in egg and panko (noted as 2 cups), frying at 350°F for 3 minutes, then salting and drizzling a dark sauce. It even notes it is likely a croquette or similar item, supporting 'fried panko-breaded croquette-like ball.' Step 2: Slice 9 explicitly shows and labels 'CRISPY CHICKEN TERIYAKI RICE BALLS,' with visuals of teriyaki-coated, crispy exterior and rice inside. Logic holds because the first segment clearly depicts a generic fried, panko-breaded, sauce-finished ball, while the second is explicitly identified as crispy chicken teriyaki rice balls.",
+        "visual_proof": "Clip 1 shows a ball being coated in panko breadcrumbs and then fried, which is consistent with a croquette-like item. Clip 2 shows a similar ball being cut open to reveal a rice interior mixed with vegetables and chicken, topped with teriyaki sauce and green onions, explicitly labeled 'CRISPY CHICKEN TERIYAKI RICE BALLS'."
+    },
+    {
+        "question": "A French bread loaf is shown as an ingredient, later built into a mustard-and-pickle meat-and-cheese sandwich, and finally shown with its on-screen dish name. What is the name of that sandwich?",
+        "answer": "Cubano panini.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            45,
+            46,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows 'FRENCH BREAD 1 LOAF' being sliced. Step 2: Slice 46 shows mustard spread, cheese and pickles added, then ham and pulled pork, and the sandwich wrapped in foil. Step 3: Slice 51 shows the finished sandwich labeled 'CUBANO PANINI.' Conclusion: The sandwich is the Cubano panini.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a French bread loaf labeled on screen as 'FRENCH BREAD 1 LOAF.' Step 2: Slice 46 shows that loaf being used to build a sandwich with mustard, cheese, pickles, ham, and pulled pork, matching the described mustard-and-pickle meat-and-cheese sandwich. Step 3: Slice 51 shows the finished sandwich with the on-screen name 'CUBANO PANINI.' The sequence links the French bread ingredient to the constructed sandwich and its final dish name.",
+        "visual_proof": "The video sequence shows a French bread loaf being prepared with mustard, Swiss cheese, dill pickles, honey ham, and pulled pork. In the final clip (0:02), after the sandwich is assembled and presumably cooked, on-screen text explicitly labels it as \"CUBANO PANINI\"."
+    },
+    {
+        "question": "One recipe cooks meat in broth and later another recipe also adds Worcestershire sauce to ground beef. What are the two dishes?",
+        "answer": "Swedish meatball pasta and one-pot cheeseburger pasta.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows meatballs cooked in beef broth with Worcestershire sauce, then finished as Swedish meatball pasta. Step 2: Slice 17 shows one-pot cheeseburger pasta where Worcestershire sauce is added to ground beef. Conclusion: The two dishes are Swedish meatball pasta and one-pot cheeseburger pasta.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows meatballs cooked in beef broth and labels the dish as 'Swedish Meatball Pasta.' Step 2: Slice 17 shows ground beef being cooked with Worcestershire sauce and labels the dish as 'One-Pot Cheeseburger Pasta.' The descriptions explicitly match the question's conditions for each recipe.",
+        "visual_proof": "In the first clip, ground beef is formed into meatballs, cooked in a pot with broth, and Worcestershire sauce is added to the creamy sauce before egg noodles are incorporated. The final dish is labeled 'SWEDISH MEATBALL PASTA'. In the second clip, ground beef is browned with onions and garlic, then beef broth is added along with rotini pasta. Cheddar cheese is stirred in at the end. This dish is labeled 'ONE-POT CHEESEBURGER PASTA'."
+    }
+]

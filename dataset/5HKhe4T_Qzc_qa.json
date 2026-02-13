@@ -1,0 +1,124 @@
+[
+    {
+        "question": "In the virtual panel, which participant’s background includes a mannequin dressed in a blue traditional outfit, and where earlier in the video is that mannequin visible in a solo speaker shot?",
+        "answer": "The woman in the top-right quadrant with the bookshelf background; the mannequin is also visible earlier in her solo shot in front of the white bookshelf.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 12 (2x2 grid) shows a top-right woman with a bookshelf and a mannequin in a blue traditional outfit behind her. Step 2: Slice 5 shows the same bookshelf setup and the same mannequin next to the shelf in a solo shot. Conclusion: The top-right bookshelf participant is the one with the blue-outfit mannequin, and it appears in her earlier solo shot.",
+        "logic_check_reasoning": "Step 1: Slice 12 states that in the panel, the top-right participant (woman with blonde hair in a green and black outfit) has a background featuring a bookshelf and a mannequin dressed in a blue traditional garment. Step 2: Slice 5 shows a solo shot of a woman with blonde-highlighted hair wearing a black and green patterned top in front of a white bookshelf, with a mannequin dressed in a blue outfit to the right of the bookshelf. Step 3: The consistent elements (bookshelf, green/black outfit, blonde hair, blue mannequin) link the solo shot to the top-right panel participant despite minor description differences, confirming the mannequin is visible earlier in her solo shot.",
+        "visual_proof": "In Video 1, the top-right panel clearly shows a woman with a bookshelf behind her and a mannequin wearing a blue traditional outfit to her right. In Video 2, the same woman appears in a solo shot, with the identical bookshelf and the same blue-dressed mannequin visible on the right side of the frame, confirming the continuity."
+    },
+    {
+        "question": "Which segment connects the phrase 'In America: A Lexicon of Fashion' with an athletic/pole performance, and which earlier segment introduces the Gypsy Sport presenter associated with that theme?",
+        "answer": "The pole performance segment; the Gypsy Sport presenter is introduced earlier in the Gypsy Sport presentation with a speaker panel.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows pole vaulting imagery against a backdrop reading 'IN AMERICA: A LEXICON OF FASHION' and labels it under Gypsy Sport context. Step 2: Slice 10 earlier shows 'Rio Uribe of Gypsy Sport' alongside an 'In America: A Lexicon of Fashion' book cover and a discussion layout. Conclusion: The athletic performance is tied to the Lexicon theme, and the earlier Gypsy Sport presenter segment sets up that association.",
+        "logic_check_reasoning": "Step 1: Slice 47 explicitly shows a split-screen with Rio Uribe performing pole vaulting, and the left backdrop reads 'IN AMERICA: A LEXICON OF FASHION,' directly connecting the phrase with an athletic/pole performance. Step 2: Slice 10 presents a man identified as 'Rio Uribe of Gypsy Sport' in a virtual speaker panel, introducing the Gypsy Sport presenter earlier, and also references the book 'In America: A Lexicon of Fashion.' Logic holds because Slice 47 is the performance segment linking the phrase, and Slice 10 is the earlier speaker panel introducing the presenter.",
+        "visual_proof": "Clip 1 visually connects the phrase 'In America: A Lexicon of Fashion' with an athletic/pole performance by showing them side-by-side. Clip 2 introduces the Gypsy Sport presenter (Rio Uribe) in a video call window on the right, alongside images from the 'In America' exhibit and other collections, indicating his role as a presenter associated with the theme."
+    },
+    {
+        "question": "How does the video move from the institution-branded title card at the start to the museum-branded end slate, and what organization is named in both places?",
+        "answer": "It starts with a Met-hosted event title card and ends with a 'THE MET' copyright slate; the shared organization is The Metropolitan Museum of Art (The Met).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 1 is a MetSpeaks title card for an event at The Met. Step 2: Slice 86 ends on a black screen reading 'THE MET' with a 2022 copyright for The Metropolitan Museum of Art. Conclusion: The video is framed by The Met branding at both beginning and end.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes an introductory title card for a panel in The Met's MetSpeaks series, indicating the start is institution-branded and naming The Met. Step 2: Slice 86 notes the video ends with a black screen showing 'THE MET' and '© 2022 The Metropolitan Museum of Art,' confirming a museum-branded end slate and naming the same organization. Logic holds because the start and end elements are both explicitly tied to The Met, and the proposed answer summarizes this progression and shared organization correctly.",
+        "visual_proof": "Clip 1 opens with a black screen featuring 'THE MET' logo in the top left corner and text describing an event presented by The Met. Clip 2 concludes with a black screen showing the same 'THE MET' logo and the copyright notice '© 2022 The Metropolitan Museum of Art', confirming the institution's branding at both start and end."
+    },
+    {
+        "question": "Which participant is shown sipping from a white mug during the group call, and which later shot shows him holding or sipping from a white mug again?",
+        "answer": "The bottom-left man in the panel; he is later shown again with a white mug during another grid view.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows the bottom-left man drinking from a white mug. Step 2: Slice 66 shows the bottom-left man holding and sipping from a white mug again. Conclusion: The mug action tracks the same bottom-left participant across time.",
+        "logic_check_reasoning": "Step 1: Slice 19 states that the bottom-left participant is a man seen drinking from a white mug, clearly indicating he is sipping during the group call. Step 2: Slice 66 again describes the bottom-left participant as holding a white mug and appearing to sip from it, then putting it down, which constitutes a later shot showing him with the mug again. Despite minor differences in clothing descriptions, both slices consistently identify the bottom-left participant sipping from a white mug, and the later slice shows the same action. Logic holds because both slices reference the bottom-left participant and the white mug action in a grid-view meeting context.",
+        "visual_proof": "In both Video 1 and Video 2, the man in the bottom-left quadrant is visibly holding and sipping from a white mug. In Video 1 (0:01), he brings the mug to his lips. In Video 2 (0:01-0:02), he is again seen drinking from the same white mug. This confirms the participant and the repeated action across the two time-sliced clips."
+    },
+    {
+        "question": "Which presenter is seen first in a solo home-office shot with headphones and later appears as the top-left participant in the four-person grid wearing a pink top?",
+        "answer": "The long-haired woman initially shown alone with headphones later appears as the top-left panelist in the grid wearing pink.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            3,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a person alone in an office/study with over-ear headphones and long brown hair. Step 2: Slice 3 continues showing the same headphone-wearing person in the same setting. Step 3: Slice 12 shows a four-person grid where the top-left participant has long brown hair and later appears in pink, consistent with the earlier host/moderator-type framing. Conclusion: The headphone solo speaker is the same person who later occupies the top-left quadrant.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 and Slice 3 describe a solo shot of a person in a home/office setting with long straight brown hair, wearing over-ear headphones. Step 2: Evidence Slice 12 identifies the top-left participant in the four-person grid as a woman with long, straight brown hair wearing a pink top. Step 3: Among the four participants, only the top-left matches the long straight brown hair attribute; the others are a blonde woman and two men. Step 4: The visual attributes logically link the solo headphone shot to the top-left participant, supporting the proposed answer.",
+        "visual_proof": "Clip 1 and Clip 2 show the same woman with long dark hair, wearing black headphones and a dark collared shirt in a home-office setting. Clip 3 shows a four-person grid where the person in the top-left panel is the same woman, now wearing a pink patterned top, confirming her identity across the clips."
+    },
+    {
+        "question": "Which participant’s background changes from a red textured wall to a striped red-and-brown artwork wall later in the discussion, indicating a shift in camera angle or location?",
+        "answer": "The man with dreadlocks (bottom-right participant).",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            20,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows the bottom-right dreadlocked man against a red textured wall. Step 2: Slice 20 shows him with a wooden geometric panel background. Step 3: Slice 62 shows him against a red-and-brown striped backdrop/artwork. Conclusion: The bottom-right participant’s background visibly changes across the call.",
+        "logic_check_reasoning": "Step 1: In Slice 15, the bottom-right participant is described as a man with dreadlocks and a beard, wearing a light pink shirt, with a red textured wall behind him. Step 2: In Slice 62, the bottom-right participant (same man with dreadlocks and light pink shirt) is described with a backdrop featuring a textured red and brown striped pattern. Step 3: This shows a change from a red textured wall to a red-and-brown striped artwork wall. Step 4: Slice 20 also notes a different background (wooden panel with a geometric pattern) for the same bottom-right participant, further supporting that his background changes. The logic holds because the participant’s consistent visual attributes and position align across slices, and the background descriptions match the change specified.",
+        "visual_proof": "In all three video clips, the background behind the man with dreadlocks in the bottom-right panel consistently features a wall with vertical stripes of red and brown. There is no visual evidence of this background changing from a 'red textured wall' to a 'striped red-and-brown artwork wall' within the provided clips. The description in the question appears to be inaccurate, but the answer correctly identifies the participant whose background is described as striped red-and-brown."
+    },
+    {
+        "question": "Across the video, which recurring bookshelf participant is seen (a) in a solo shot with fashion and culture books plus a blue-outfit mannequin, (b) speaking in the top-right of the grid, and (c) later in a close single-person shot in the same room?",
+        "answer": "The woman with blonde highlights wearing a green-and-black patterned top in front of the white bookshelf with the blue traditional-outfit mannequin.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            12,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a solo shot of a woman before a white bookshelf with titles like 'Caste' and a blue-outfit mannequin nearby. Step 2: Slice 12 shows the top-right grid participant in the same bookshelf-and-mannequin setting speaking animatedly. Step 3: Slice 85 returns to a single-person shot of that same woman and room. Conclusion: These shots track the same bookshelf participant across the timeline.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows a solo shot of a woman with long, straight hair with blonde highlights, wearing a black and green patterned top, seated in front of a white bookshelf. A blue outfit mannequin is to the right. This matches (a). Step 2: Slice 12 shows a 2x2 grid; the top-right participant is a woman with blonde hair, dressed in a green and black outfit, speaking animatedly, with the same bookshelf and a blue traditional garment mannequin behind her. This matches (b). Step 3: Slice 85 shows a close single-person shot of a woman with highlighted hair, wearing a green and black patterned top, in front of the same white bookshelf with visible titles (including 'Caste') and the blue-and-gold patterned mannequin to her right. This matches (c). Despite minor hair description variations (straight/wavy, long/shoulder-length), the consistent outfit, setting, bookshelf, and mannequin confirm the same recurring participant. The proposed answer correctly identifies her as the woman with blonde highlights wearing a green-and-black patterned top in front of the white bookshelf with the blue mannequin.",
+        "visual_proof": "In Clip 1, the woman is shown alone in front of the specified white bookshelf and blue mannequin. In Clip 2, she occupies the top-right quadrant of the video grid, speaking. In Clip 3, she is again shown alone in the same setting as Clip 1. All three clips visually confirm her presence in the described contexts."
+    },
+    {
+        "question": "Which sequence ties the phrase 'In America: A Lexicon of Fashion' to athletic or pole imagery and then returns to the panel grid afterward, implying the visuals were inserted into the ongoing discussion?",
+        "answer": "The Gypsy Sport athletic/pole visuals sequence, followed by a return to the four-person panel grid.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            46,
+            47,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 12 establishes the four-person panel grid discussion. Step 2: Slice 46 inserts pole-performance imagery with 'IN AMERICA: A LEXICON OF FASHION' while a speaker comments. Step 3: Slice 47 continues with pole vault imagery tied to the same theme and Gypsy Sport context. Step 4: Slice 50 returns to the four-person grid. Conclusion: Athletic/pole visuals are inserted into the ongoing panel before the discussion view resumes.",
+        "logic_check_reasoning": "Step 1: Slices 12 and 50 both depict a four-person panel grid, establishing an ongoing virtual discussion. Step 2: Slice 46 shows split-screen visuals of a pole dancer with the backdrop text 'IN AMERICA: A LEXICON OF FASHION,' linking the phrase to pole imagery. Step 3: Slice 47 shows Rio Uribe, associated with Gypsy Sport, in split-screen pole vault visuals, again with the 'IN AMERICA: A LEXICON OF FASHION' backdrop, tying the phrase to athletic (pole) imagery explicitly connected to Gypsy Sport. Step 4: Slice 50 returns to the four-person panel grid, implying the athletic/pole visuals were inserted into the ongoing discussion. Logic holds because the slices collectively present the insertion of 'In America' pole/athletic visuals (including Gypsy Sport) followed by a return to the panel.",
+        "visual_proof": "Clip 1 shows the four-person panel grid. Clip 2 and Clip 3 show the 'In America: A Lexicon of Fashion' slide with the pole imagery, presented as part of a presentation (with Rio Uribe's name visible). Clip 4 then returns to the same four-person panel grid, confirming that the visual sequence was inserted into the ongoing discussion."
+    },
+    {
+        "question": "When the bottom-right participant is seen resting his chin on his hand thoughtfully, what was the top-left participant doing earlier that signals the conversation had shifted to listening rather than speaking?",
+        "answer": "Earlier the top-left participant was speaking animatedly with hand gestures; later, the bottom-right participant’s chin-on-hand pose indicates a listening/reflection moment.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows the top-left woman speaking animatedly with hand gestures. Step 2: Slice 25 shows the bottom-right man in a quieter moment (drinking/looking down), aligning with a reflective listening posture compared to earlier speaking energy. Conclusion: The interaction shifts from active speaking (top-left) to reflective listening/thinking (bottom-right).",
+        "logic_check_reasoning": "Step 1: Slice 20 states the top-left participant \"is speaking animatedly, using hand gestures for emphasis,\" which directly supports the claim about what she was doing earlier. Step 2: Slice 20 also notes the bottom-right participant \"is resting his chin on his hand, looking thoughtful,\" indicating a listening/reflection moment. Step 3: Slice 25 corroborates the general dynamic of talking and listening among participants. Logic holds because the answer accurately identifies the earlier action of the top-left participant and ties it to the later scene of the bottom-right participant's thoughtful listening.",
+        "visual_proof": "In Video 1 (0.2s-0.5s), the top-left participant is actively speaking and using hand gestures. In Video 2 (0.2s-0.5s), she has stopped gesturing and is now listening intently, while the bottom-right participant has his chin on his hand, indicating he is in a reflective or listening state."
+    }
+]

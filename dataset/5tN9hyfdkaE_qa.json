@@ -1,0 +1,80 @@
+[
+    {
+        "question": "Which drink is shown with its ingredients listed on-screen and later appears being held in a branded cup from a specific shop?",
+        "answer": "Bubble tea (milk tea with tapioca pearls).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a bubble tea cup with ingredient labels (milk, tea, sugar, tapioca pearls). Step 2: Slice 12 shows hands holding a branded 'Super Bubble Station' bubble tea with visible pearls. Conclusion: The same type of drink is bubble tea.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows a close-up of bubble tea with on-screen ingredient labels: Milk, Tea, Sugar, Tapioca Pearls. Step 2: Slice 12 shows a person holding a branded cup of bubble tea from 'Super Bubble Station,' described as creamy milk tea with tapioca pearls. Logic holds because both slices consistently depict bubble tea, first with its ingredients listed and later in a branded cup from a specific shop.",
+        "visual_proof": "In Video 1, a cup of bubble tea is shown with on-screen text listing its ingredients: 'Tapioca Pearls', 'Sugar', 'Tea', and 'Milk/Syrup/Fruit'. In Video 2, the same type of drink is shown being handed over in a branded cup from 'Super Bubble Station' and subsequently consumed by a man. The visual continuity of the drink type across both clips confirms the answer."
+    },
+    {
+        "question": "What major national event is shown in a news clip and is also discussed through a document describing how Chinese restaurants struggled during that period?",
+        "answer": "The COVID-19 lockdown/pandemic period (UK lockdown announced).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows a news clip of Boris Johnson announcing complete UK lockdown (March 23, 2020). Step 2: Slice 41 shows a document discussing COVID-19 impacts, including Chinese restaurants struggling due to lockdown measures. Conclusion: The shared event is the COVID-19 lockdown/pandemic period.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows a news broadcast dated March 23, 2020 with the caption 'Boris Johnson announces complete UK lockdown.' Step 2: Slice 41 describes a document discussing the COVID-19 pandemic and explicitly mentions that Chinese restaurants struggled due to lockdown measures. Logic holds because the major national event (UK COVID-19 lockdown) is both shown in the news clip and discussed in the document as impacting Chinese restaurants.",
+        "visual_proof": "Clip 1 shows a news clip of Boris Johnson announcing the UK lockdown on March 23, 2020. This is directly followed by visuals of an empty Chinatown restaurant with the year '2020' overlaid and a headline from Eater London stating 'Chinatown's Restaurants Are Scared for the Area's Future' due to the pandemic. Clip 2 reinforces this by showing text from articles discussing how Chinatown restaurant owners feared stigma and racism would hamper recovery during the pandemic, and mentions a 300% rise in hate crimes against Asians in the first quarter of 2020, directly linking the struggles of Chinese restaurants to the COVID-19 period."
+    },
+    {
+        "question": "Which type of on-screen visual tool is used first to label 'Modern day Chinatown' and later to highlight areas like Limehouse Chinatown and Soho?",
+        "answer": "A map graphic with labeled overlays.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a map labeled 'Modern day Chinatown.' Step 2: Slice 25 shows a stylized city map with overlays highlighting 'Limehouse Chinatown' and 'Soho.' Conclusion: Both use map graphics with labels/overlays.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes a close-up of an old city map where the words 'Modern day Chinatown' appear in white text on the map, indicating a labeled overlay on a map graphic. Step 2: Slice 25 shows a stylized city map with a red circular overlay labeled 'Limehouse Chinatown' and a blue rectangular overlay labeled 'Soho,' both highlighting areas on the map. Logic holds because in both instances the visuals involve a map graphic and on-screen labeled overlays used to identify and highlight specific districts.",
+        "visual_proof": "Clip 1 opens with a vintage-style map showing 'Modern day Chinatown' in text overlay. Clip 2 uses a modern, stylized map with colored shapes and text overlays to label 'Limehouse Chinatown' and 'Soho'. Both clips use map graphics as the primary visual tool with text labels/overlays to identify locations."
+    },
+    {
+        "question": "Which food is shown being eaten with chopsticks inside a restaurant at night and is also shown as a featured Chinatown stop in a TikTok-style food crawl?",
+        "answer": "Dim sum.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            54,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 54 shows a woman eating dim sum using chopsticks in a cozy restaurant. Step 2: Slice 45 includes text 'DIM SUM IN CHINATOWN' as part of the food crawl. Conclusion: The shared food is dim sum.",
+        "logic_check_reasoning": "Step 1: Slice 54 states that inside a restaurant at night, a woman is eating dim sum using chopsticks. Step 2: Slice 45 states that dim sum is a featured stop in a TikTok-style Chinatown food crawl, explicitly labeled 'DIM SUM IN CHINATOWN.' Logic holds because the same food—dim sum—fits both the indoor nighttime chopsticks scene and the highlighted Chinatown feature.",
+        "visual_proof": "In Clip 1, a person is shown eating steamed dumplings with chopsticks inside a restaurant at night; these are a type of dim sum. In Clip 2, the TikTok-style food crawl explicitly features 'DIM SUM IN CHINATOWN' and shows custard bao buns, which are also a form of dim sum, being eaten."
+    },
+    {
+        "question": "After the host gives a thumbs-up while tasting a drink inside a bubble tea shop, what later price is shown for a Chinatown food item at the end of another food clip?",
+        "answer": "£3.75.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a man sipping bubble tea and giving a thumbs-up inside the shop. Step 2: Slice 45 ends with a taiyaki segment showing 'TOTAL SPENT £3.75.' Conclusion: The later shown price is £3.75.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 shows the host inside a bubble tea shop taking a sip and giving a thumbs-up. Step 2: Evidence Slice 45 describes a separate Chinatown food clip that ends with the text 'TOTAL SPENT £3.75' for taiyaki. Logic holds because the question asks for the later price shown at the end of another food clip following the thumbs-up moment, and Slice 45 explicitly provides that price.",
+        "visual_proof": "In Video 1, at timestamp 0:00, the host is seen inside a bubble tea shop giving a thumbs-up while tasting a drink. Later in Video 2, at timestamp 0:03, a close-up shot shows a food item (custard bao buns) with a price tag clearly visible on the display case that reads '£3.75'."
+    },
+    {
+        "question": "Which street feature appears both early as a notable object in the neighborhood and later as a central decorative element above the host while he talks at night?",
+        "answer": "Red lanterns hanging overhead.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            61
+        ],
+        "reasoning_chain": "Step 1: Slice 1 describes streets decorated with red lanterns as part of the Chinatown atmosphere. Step 2: Slice 61 shows the host walking at night under strings of red lanterns. Conclusion: The recurring feature is red lanterns overhead.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes an exterior shot of a traditional Chinese restaurant adorned with red lanterns, establishing red lanterns as a notable object in the neighborhood. Step 2: Slice 61 describes nighttime scenes with strings of red lanterns hanging above the street while the host talks, making them a central decorative element overhead. Logic holds because both slices explicitly reference red lanterns in prominent positions, first as part of the street/restaurant decor and later as overhead decorations during the host's nighttime narration.",
+        "visual_proof": "In Clip 1 (0:00), red lanterns are prominently visible hanging from the ornate Chinese archway, establishing them as a key neighborhood feature. In Clip 2 (0:00-0:01), the same style of red lanterns is seen strung across the street directly above the host's head as he speaks at night, confirming they serve as a central decorative element in both contexts."
+    }
+]

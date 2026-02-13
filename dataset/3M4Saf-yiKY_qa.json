@@ -1,0 +1,110 @@
+[
+    {
+        "question": "What exact time-and-date-stamped car ride appears early, and what later on-screen error shows them struggling to book something travel-related online?",
+        "answer": "Tuesday, February 15th, 2022 at 7:58 AM; later they get a “503 first byte timeout” error.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a car interior with a timestamp: Tuesday, Feb 15, 2022, 7:58 AM. Step 2: Slice 76 shows laptop frustration with the error message “503 first byte timeout” while dealing with a booking/website issue. Conclusion: The trip includes an early timestamped drive and later online booking trouble.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 5 explicitly states the scene transitions to a car interior with a timestamp shown: Tuesday, February 15th, 2022, at 7:58 AM. This supports the exact time-and-date-stamped car ride appearing early. Step 2: Evidence Slice 76 explicitly shows the on-screen subtitle/error message: \"503 first byte timeout What does that even mean?\" indicating the later error encountered online. Logic holds because the first part matches the timestamped car scene, and the second part matches the specific error text shown later.",
+        "visual_proof": "Clip 1 visually displays the on-screen text 'Tuesday, February 15th, 2022, 7:58 AM' during the car ride. Clip 2 visually shows the on-screen text '503 first byte timeout What does that even mean?' while the person is at their laptop, indicating a technical error encountered online."
+    },
+    {
+        "question": "Which indoor social setting with warm wooden décor appears earlier, and what later scene shows a different group enjoying dessert in a similarly cozy venue?",
+        "answer": "A warmly lit restaurant/bar with wooden interiors appears earlier, and later a group eats ice cream together in an indoor café/restaurant.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a cozy restaurant/bar with wooden interiors and chandeliers. Step 2: Slice 48 shows friends eating ice cream in a warm, indoor café/restaurant setting. Conclusion: Multiple cozy indoor social venues are featured, from dining/drinks to dessert.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a cozy, warmly lit restaurant/bar with wooden interiors and social patrons, matching the 'warm wooden décor appears earlier.' Step 2: Slice 48 shows a group of friends enjoying ice cream in an indoor café/restaurant with a similarly cozy atmosphere, matching the 'later scene shows a different group enjoying dessert.' Logic holds because the earlier scene is clearly the wooden restaurant/bar, and the later scene is the café/restaurant with dessert.",
+        "visual_proof": "Clip 1 shows a restaurant setting with warm lighting, wooden ceiling beams, and patrons seated at tables, consistent with a bar or restaurant. Clip 2 shows a different group of people sitting at a table in a well-lit indoor space with wooden paneling and modern pendant lights, eating ice cream from cups, which fits the description of a café or casual restaurant. The sequence implies Clip 1 occurs earlier than Clip 2."
+    },
+    {
+        "question": "In the household scenes, what item is used during cleaning, and what later close-up suggests a personal, memory-filled home environment rather than a temporary hotel?",
+        "answer": "A mop is used for cleaning, and later a close-up shows a refrigerator covered with magnets, photos, and business cards, suggesting a personal, memory-filled home environment.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows household chores including sweeping with a broom. Step 2: Slice 70 shows a refrigerator covered with magnets, photos, and cards, implying a lived-in home. Conclusion: The cleaning activity occurs in a personal home-like space, reinforced by the memory-filled fridge.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly states the man \"picks up a broom\" and \"starts sweeping the floor,\" confirming the cleaning item used is a broom. Step 2: Slice 70 describes a close-up of a refrigerator door covered with \"magnets, photos, and cards,\" conveying a personal, memory-filled environment. Logic holds because the broom use is clearly shown in the household scene, and the detailed refrigerator display suggests a lived-in home rather than a temporary hotel.",
+        "original_text_answer": "A broom is used for sweeping, and later the refrigerator is shown covered with magnets/photos/cards.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 (0:04-0:08), the man is seen using a mop to clean a tiled area, not a broom. In Clip 2 (0:00-0:04), a close-up of a refrigerator door displays numerous personal items like photo booth strips from a 'Bernards Inn 2012 Holiday Party,' business cards, and magnets, which are characteristic of a lived-in, personal space rather than a temporary hotel."
+    },
+    {
+        "question": "Which repeated post-shower look helps track the same person across multiple living-room conversations, and what later bathroom scene confirms they were recently showering?",
+        "answer": "Being shirtless with a white towel wrapped around the head; later a shower scene shows the same person washing their hair.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a shirtless person on a blue sofa with a towel wrapped on their head, suggesting post-shower. Step 2: Slice 55 shows a man actively showering and washing his hair. Conclusion: The towel-on-head living-room figure matches the recently-showered person seen in the bathroom.",
+        "logic_check_reasoning": "Step 1: Slice 45 explicitly describes a man in the living room who is shirtless with a white towel wrapped around his head, indicating a post-shower look that persists across frames of his conversation. Step 2: Slice 55 shows a young man actively showering and washing his hair in a bathroom scene, confirming the act of showering later. Logic holds because the distinctive towel-wrapped, shirtless appearance in the living room is a clear post-shower marker, and a subsequent scene in the same video shows the person showering, which corroborates the 'recently showering' inference.",
+        "visual_proof": "In Clip 1, the person is sitting on a couch, shirtless, with a white towel wrapped around their head. In Clip 2, the same person is shown in a shower, actively washing their hair under running water, confirming they were recently showering. The continuity of the person's appearance and actions across both clips supports the answer."
+    },
+    {
+        "question": "How does the storyline show planning and anticipation for travel, then technical obstacles, then renewed optimism through in-person greetings before the trip?",
+        "answer": "They discuss upcoming plans and ‘the big night’/flight, then face a ticket website failure, and later people hug and express excitement about having a good experience.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            31,
+            75,
+            76,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows planning talk and anticipation (mentions of a ‘big night’ and being in Buenos Aires). Step 2: Slice 75 shows discussion about a plane-ticket website issue. Step 3: Slice 76 shows the concrete technical failure: “503 first byte timeout” and “nothing was working.” Step 4: Slice 74 shows warm hugs and the statement that they’re going to have such a good experience. Conclusion: Anticipation is interrupted by booking problems, then restored by supportive in-person excitement.",
+        "logic_check_reasoning": "Step 1: Slice 31 shows two people in a kitchen discussing plans for an upcoming event, with mentions of 'the big night' and excitement, which supports planning/anticipation. Step 2: Slice 75 explicitly references a website issue related to plane tickets, and Slice 76 shows a 503 timeout and frustration, clearly indicating technical obstacles tied to travel planning. Step 3: Slice 74 depicts in-person hugs and a subtitle 'we're going to have such a good experience,' which supports renewed optimism before the anticipated experience/trip. The proposed answer aligns with these elements: initial planning/anticipation, ticket website failure, and later hugs with expressed excitement.",
+        "visual_proof": "Clip 1 shows Michael discussing 'the big night' and a trip to Buenos Aires. Clip 2 and 3 show the group encountering a '503 first byte timeout' error while trying to book plane tickets, with one person visibly frustrated. Clip 4 shows the group members greeting each other with hugs and expressing happiness about having a 'good experience,' indicating renewed optimism before their trip."
+    },
+    {
+        "question": "What childhood dream is introduced early on, and which country’s arrival stamp later confirms the trip has begun?",
+        "answer": "The dream is to see penguins, and the arrival stamp confirms Argentina.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            1
+        ],
+        "reasoning_chain": "Step 1: Slice 3 introduces the goal of fulfilling a childhood dream of seeing penguins. Step 2: Slice 1 shows arrival in Buenos Aires with a passport stamp indicating entry into Argentina. Conclusion: The penguin-focused trip begins with confirmed arrival in Argentina.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly introduces the childhood dream via on-screen text: 'A Quest to fulfill my childhood dream of seeing Penguins.' Step 2: Slice 1 shows arrival in Buenos Aires and a passport with an arrival stamp indicating Argentina. Logic holds because Slice 3 establishes the dream and Slice 1 later confirms the trip has begun in Argentina.",
+        "visual_proof": "At 0:02-0:05 in Video 1, the on-screen text explicitly states 'A Quest to fulfill my childhood dream of seeing Penguins'. In Video 2, at 0:18, a close-up of a passport shows a clear blue ink stamp from 'Argentina' dated '16 FEB. 2022', confirming the traveler's arrival in the country."
+    },
+    {
+        "question": "What recurring clothing color helps identify the same young man speaking at an outdoor café across two separate segments?",
+        "answer": "A bright green T-shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a young man in a green T-shirt speaking at an outdoor café. Step 2: Slice 17 again shows a young man in a bright green T-shirt addressing the camera at a café table. Conclusion: The distinctive green shirt links the same person across both scenes.",
+        "logic_check_reasoning": "Step 1: Slice 16 states that the camera shifts to a young man wearing a green T-shirt sitting at the table, speaking to the camera. Step 2: Slice 17 describes a young man at an outdoor café wearing a bright green T-shirt, engaging directly with the camera. Logic holds because both segments depict the same scenario (outdoor café, young man speaking) and consistently note a green/bright green T-shirt, making the recurring clothing color clear.",
+        "visual_proof": "The same young man is featured in both clips, seated at an outdoor café. In Clip 1 (0:05-0:07) and Clip 2 (0:00-0:05), he is consistently wearing a distinct, bright green T-shirt with a graphic print on the front. This identical clothing item serves as a clear visual marker to identify him across the two separate segments."
+    },
+    {
+        "question": "Which language cue in traffic signage hints at the region they’re traveling in, and which later passport detail confirms the specific country they entered?",
+        "answer": "A stop sign reading “PARE” hints at a Spanish-speaking region, and the passport stamp confirms entry into Argentina.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            1
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a stop sign labeled “PARE,” indicating a Spanish-speaking locale. Step 2: Slice 1 shows a passport with an arrival stamp for Argentina (Buenos Aires). Conclusion: Spanish signage fits the later-confirmed arrival in Argentina.",
+        "logic_check_reasoning": "Step 1: Slice 6 explicitly notes a stop sign reading 'PARE' and even clarifies it is Spanish for 'STOP,' which hints at a Spanish-speaking region. Step 2: Slice 1 states a woman is holding a passport with a stamp indicating her arrival in Buenos Aires, Argentina, confirming the specific country entered. Logic holds because the signage language suggests the broader region, and the passport stamp provides the precise country.",
+        "visual_proof": "In Video 1, frame 0:05 clearly shows a red octagonal stop sign with the word 'PARE' written on it, which is Spanish for 'STOP', indicating a Spanish-speaking region. In Video 2, frame 0:10 provides a clear close-up of a passport stamp that reads 'Argentina' and '16 FEB. 2022', confirming entry into Argentina."
+    }
+]

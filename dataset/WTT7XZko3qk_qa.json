@@ -1,0 +1,159 @@
+[
+    {
+        "question": "What does the video show that shifts the story from a simple interview setup into a high-tech surveillance theme?",
+        "answer": "A login interface overlays the interview shot, and then it cuts to a loaded profile that opens into a multi-camera surveillance view labeled CAM 1–CAM 4.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the man in a plain room as a login UI overlay appears (username/password). Step 2: Slice 4 shows the login completing to 100% and switching to multiple camera feeds (CAM 1–CAM 4). Conclusion: The login overlay leads into the surveillance/multi-cam sequence, shifting the theme.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows a straightforward interview setup and explicitly states that a transparent user login interface (with Username/Password and a Login button) overlays the scene, signaling a shift. Step 2: Slice 4 describes a login screen loading to 100% for a user and then transitioning to four camera feeds labeled CAM 1–CAM 4, with a high-tech surveillance feel. Logic holds because the progression from an overlaid login to a loaded profile leading into multi-camera surveillance matches the proposed answer.",
+        "visual_proof": "Clip 1 shows a man in an interview setting. Clip 2 immediately transitions to a digital 'USER LOGIN' screen with username 'JASON HANSON', followed by a loading sequence. This then shifts to a futuristic HUD identifying the same man as 'JASON HANSON IDENTITY UNKNOWN' and finally cuts to a four-panel surveillance feed labeled 'CAM 1', 'CAM 2', 'CAM 3', and 'CAM 4'."
+    },
+    {
+        "question": "What driving challenge is named on-screen, and which later exterior shots show the white car racing along desert dirt roads consistent with that kind of mission?",
+        "answer": "The named challenge is “MISSION 3: 180° Reverse Turn,” and later shots show the white car speeding along desert dirt roads as part of the driving missions.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 35 explicitly labels “MISSION 3: 180° Reverse Turn.” Step 2: Slice 41 shows the white car driving fast on a dirt road in the same desert setting. Conclusion: The labeled driving mission is supported by later exterior driving footage.",
+        "logic_check_reasoning": "Step 1: Slice 35 explicitly shows an on-screen overlay reading \"MISSION 3: 180° Reverse Turn,\" establishing the named driving challenge. Step 2: Slice 35 also situates the scene on a desert dirt road with the white car performing maneuvers, framing it as part of a series of driving missions. Step 3: Slice 41 later shows exterior shots of the same white car driving along a dirt road in a vast desert-like landscape, kicking up dust, which aligns with the description of ongoing mission-style driving. While Slice 41 notes a moderate speed, it still clearly supports that later exterior shots feature the car on desert dirt roads consistent with the mission context.",
+        "visual_proof": "Clip 1 (0:01-0:04) clearly displays an on-screen graphic reading 'MISSION 3 180° Reverse Turn' while the white car performs a drift/turn. Subsequent frames in Clip 1 (0:05-0:07) and all of Clip 2 (0:00-0:04) show the same white car driving at speed on wide desert dirt roads, kicking up dust, consistent with completing or continuing a driving mission in that environment."
+    },
+    {
+        "question": "Which mission title appears when a portable toilet is shown near a parked white car, and what earlier scene shows the group already doing high-speed off-road driving in the desert?",
+        "answer": "The mission is “MISSION 4: Road Block,” and earlier scenes show the white car performing high-speed desert driving and maneuvers.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows the portable toilet by the white car and the title “MISSION 4: Road Block.” Step 2: Slice 47 shows the white car driving at high speed and drifting/turning in the desert. Conclusion: The road-block mission comes after a sequence establishing aggressive off-road driving.",
+        "logic_check_reasoning": "Step 1: Slice 49 explicitly mentions a white car parked with a portable toilet nearby and states that a sign reads 'MISSION 4: Road Block,' which directly answers the mission title part. Step 2: Slice 47 describes an earlier dynamic scene of a white car driving at high speed in the desert, performing maneuvers like drifting, which matches the description of high-speed off-road driving. Logic holds because the mission title is tied to the portable toilet scene in Slice 49, and the earlier high-speed desert driving is depicted in Slice 47.",
+        "visual_proof": "In Clip 1, at 0:20, the on-screen graphic clearly displays 'MISSION 4 Road Block' while showing a white pickup truck and other vehicles in the desert. The portable toilet is visible in the same clip at 0:13, establishing its proximity to the parked white car seen throughout Clip 1. In Clip 2, from 0:00 to 0:05, the white sedan is shown performing high-speed drifts and kicking up large clouds of dust, confirming the high-speed off-road driving."
+    },
+    {
+        "question": "What clue suggests the group is using navigation to reach a secretive location, and what later shot reinforces that they are traveling deep into a remote desert road?",
+        "answer": "A futuristic holographic interface displaying global coordinates is shown early, and later an aerial view shows a lone vehicle traveling down a long, isolated desert road with GPS coordinates displayed.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            14,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a hand holding a smartphone with a map app, implying navigation. Step 2: Slice 15 emphasizes the road going straight forever and shows the road stretching endlessly. Step 3: Slice 14 shows a drone view of a long dirt road with coordinates on screen and a lone vehicle. Conclusion: Map-based navigation leads into a remote, coordinate-marked desert journey.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows a close-up of a smartphone displaying a map application, which is a clear clue that the group is using navigation; the same slice also sets a secretive tone with the on-screen text 'Location classified.' Step 2: Slice 14 presents an aerial view of a long, isolated dirt road in an arid landscape with a single vehicle traveling and coordinates ('39.3210° N, 124.0937° W') displayed, reinforcing that they are driving deep into a remote desert road. The proposed answer matches these details.",
+        "original_text_answer": "A smartphone map is shown early, and later an aerial view shows a lone vehicle traveling down a long, isolated desert road with coordinates displayed.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 (0:01-0:03), a blue holographic globe and data overlay appear over the desert landscape, showing specific coordinates (N55.755831° E37.617673°) next to the text 'Location classified'. In Clip 2 (0:01-0:04), an aerial shot tracks a single white vehicle on a vast, empty dirt road, with the GPS coordinates '39.3210° N, 124.0937° W' overlaid on the screen, reinforcing the remote journey."
+    },
+    {
+        "question": "What sequence shows the group moving from road-sign travel cues to stopping outside to talk as a trio in the desert?",
+        "answer": "A “CATTLE GUARD” road sign appears during the car ride, followed by the men standing outside together in the desert discussing near parked vehicles.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            17,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows the “CATTLE GUARD” sign and the group laughing inside the car, implying travel. Step 2: Slice 17 shows three men outside in the desert near vehicles, conversing. Step 3: Slice 19 shows a closer three-man conversation (including a blonde in a light hoodie) near a tent-like structure. Conclusion: The travel cue precedes stopping to talk outside as a trio.",
+        "logic_check_reasoning": "Step 1: Slice 16 shows a yellow 'CATTLE GUARD' road sign and then cuts to three people inside a car, indicating travel with road-sign cues during a car ride. Step 2: Slice 17 shows three men standing outside in a desert-like environment, conversing with vehicles (including a white pickup and a car) visible in the background, indicating they have stopped and are talking as a trio. Step 3: Slice 19 further supports the outdoor trio conversation in a desert setting. Logic holds because the sequence moves from in-car travel with a road sign to the group outside talking near parked vehicles in a desert.",
+        "visual_proof": "Clip 1 shows a 'CATTLE GUARD' sign viewed from inside a moving car. Clip 2 shows the group has exited the vehicle and are now standing outside in the desert near several parked vehicles, including a white pickup truck and a shipping container structure. Clip 3 confirms this by showing three men engaged in a close conversation in the same desert setting, with other people and vehicles visible in the background."
+    },
+    {
+        "question": "What evidence shows the group eating together in a lively restaurant before later being filmed walking through a café-like space with patrons present?",
+        "answer": "They are shown laughing and eating at a table inside a restaurant, and later a man in a black jacket and white hoodie walks through a café/restaurant past seated patrons.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            9,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a lively meal scene with a group at a table. Step 2: Slice 9 shows a quiet café interior emphasizing the space and seating. Step 3: Slice 12 shows a man walking through the café/restaurant past tables and patrons while speaking. Conclusion: The restaurant context evolves from group meal to movement through the space with other patrons visible.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows a group inside a restaurant eating together, laughing, and conversing, with a lively and convivial atmosphere. Step 2: Slice 12 shows a man in a black jacket and white hoodie walking through a restaurant or café past tables and seated patrons, indicating a café-like space with people present. Logic holds because Slice 8 provides the evidence of the group eating in a lively setting, and Slice 12 provides the later scene of someone being filmed walking through a café-like environment with patrons.",
+        "visual_proof": "Clip 1 (0:06-0:15) shows multiple men, including one in a black jacket and white hoodie, sitting at a table with food and drinks, laughing and interacting. Clip 3 (0:00-0:03) shows the same man in the black jacket and white hoodie walking through a well-lit interior space with tables, chairs, and other patrons visible in the background, consistent with a café or restaurant setting."
+    },
+    {
+        "question": "Which scenes show a shift from playful camaraderie to a visibly tense interaction between two people inside a car?",
+        "answer": "The group is laughing together in a packed car earlier, but later two men in the front seats appear to argue or speak tensely while parked on a dirt road.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            43,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows four men laughing and shouting inside the car during a bumpy ride. Step 2: Slice 43 also shows a lively, laughing group inside a car. Step 3: Slice 38 shows two men in white hoodies in the front seats with a tense or argumentative vibe. Conclusion: The mood shifts from laughter to tension in later in-car interaction.",
+        "logic_check_reasoning": "Step 1: Slice 36 describes four men laughing and shouting inside a car, with dynamic shots and an overall tone of friends having fun, indicating playful camaraderie. Step 2: Slice 43 reinforces this with a lively, humorous scene where both front-seat individuals are laughing and animated, and the back-seat passengers share the jovial atmosphere. Step 3: Slice 38 shows a different scene: two men in the front seats of a parked car on a dirt road, with animated gestures and a conveyed sense of tension or disagreement, indicating a visibly tense interaction. Logic holds because the earlier slices (36, 43) clearly depict group laughter and camaraderie, while Slice 38 explicitly describes a tense exchange between two people in the car, matching the proposed shift.",
+        "visual_proof": "Clip 1 and Clip 2 show multiple men in the car laughing and smiling together, indicating playful camaraderie. In Clip 3, the scene shifts to two men in the front seats (driver and passenger) engaged in an intense conversation; their facial expressions are serious, and they are gesturing pointedly at each other, suggesting a tense interaction, while the car is stationary on a dirt road."
+    },
+    {
+        "question": "What is the progression from traveling on long straight roads to performing advanced driving maneuvers and then to mission-labeled road obstacles?",
+        "answer": "First the road is emphasized as endless and remote, then the group performs controlled maneuver challenges like a 180° reverse turn, and later a mission explicitly titled “Road Block” appears.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            14,
+            35,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 15 highlights the road going straight forever and shows endless road views. Step 2: Slice 14 reinforces remote travel with drone footage and coordinates. Step 3: Slice 35 introduces an advanced maneuver: “MISSION 3: 180° Reverse Turn.” Step 4: Slice 49 introduces “MISSION 4: Road Block.” Conclusion: The narrative moves from remote travel to skill challenges to obstacle-based missions.",
+        "logic_check_reasoning": "Step 1: Slices 15 and 14 emphasize traveling on long, straight, remote roads—Slice 15 mentions a road going straight forever and shows expansive, barren landscapes; Slice 14 provides aerial views of a long straight dirt road with isolation. Step 2: Slice 35 explicitly shows an advanced driving maneuver with an overlay 'MISSION 3: 180° Reverse Turn' and the car executing the turn. Step 3: Slice 49 presents a mission-labeled road obstacle with a sign 'MISSION 4: Road Block.' Logic holds because the context clearly progresses from endless road travel to a labeled maneuver challenge, then to a mission explicitly about a road block.",
+        "visual_proof": "Clip 1 shows characters commenting on the 'straight forever' road in a desolate landscape. Clip 3 visually confirms a 'MISSION 3: 180° Reverse Turn' with a car performing the maneuver. Clip 4 then displays 'MISSION 4: Road Block' as a white truck approaches a blocked area, confirming the progression described."
+    },
+    {
+        "question": "How does the video show a change in equipment/safety posture from casual clothing to protective helmets, and then back to non-helmet group discussions outdoors?",
+        "answer": "The group starts casually dressed during outdoor talks, later switches to wearing helmets inside vehicles while driving, and later appears again standing outside cars in regular jackets/hoodies discussing events.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            52,
+            58,
+            59,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 52 shows a casually dressed group standing in the desert without helmets. Step 2: Slice 58 shows people inside a car wearing helmets preparing. Step 3: Slice 59 shows helmeted men driving and stopping. Step 4: Slice 62 shows men outside in jackets/scarf/sunglasses talking (no helmets emphasized). Conclusion: Safety gear is adopted for driving segments and then the scene returns to casual outdoor discussion.",
+        "logic_check_reasoning": "Step 1: Slice 52 shows a group of men outdoors in a desert setting, casually dressed (jackets and jeans) and engaged in conversation, which supports the initial casual, non-helmet posture. Step 2: Slice 58 shows individuals inside a car wearing helmets and preparing for an activity; Slice 59 further shows them driving while wearing helmets, confirming the switch to protective gear inside the vehicle. Step 3: Slice 62 shows men again standing outdoors in jackets, engaged in conversation with vehicles in the background and no helmets mentioned, supporting a return to non-helmet group discussions. The sequence from casual to helmeted and back to non-helmeted discussions is supported. The mention of 'hoodies' in the answer is not explicitly evidenced, but jackets are, and the core claim about safety posture change is fully backed.",
+        "visual_proof": "Clip 1 shows the group outdoors in casual clothing (hoodies, jackets) talking near vehicles. Clip 2 and Clip 3 show the same individuals inside a car, now wearing protective helmets while driving on dirt roads. Clip 4 returns to an outdoor scene where the group is again standing and talking without helmets, back in their casual attire."
+    },
+    {
+        "question": "Across the storyline, how is the desert ‘team’ repeatedly depicted as a coordinated group—first during indoor entry/walking together, then during car rides, and finally during mission briefings outdoors?",
+        "answer": "They are shown moving together through a building, later packed together laughing in a car, and later gathering around an outdoor table for instructions and missions.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            11,
+            36,
+            33,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows three individuals walking together through a hallway, suggesting a team. Step 2: Slice 36 shows four men together in a car laughing during a ride. Step 3: Slice 33 shows four men outdoors around a table listening to instructions. Step 4: Slice 23 shows the group executing mission activities (rope-tying and trunk escape). Conclusion: The group is consistently framed as a coordinated team across locations and activities.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows three individuals indoors walking together through a hallway, casually and as a group. Step 2: Slice 36 shows four men together in a car, laughing and shouting during dynamic driving scenes, clearly depicting coordinated group car rides. Step 3: Slice 33 shows four individuals outdoors in a desert-like environment gathered around a table, listening to a speaker and engaging in discussion; Slice 23 further confirms outdoor mission context with a labeled 'MISSION 2: Trunk Escape' and the group around a table. The logic holds because each slice explicitly depicts the group coordinating in the described settings: indoor movement together, shared car ride, and outdoor mission briefing/activity.",
+        "visual_proof": "Clip 1 shows the group entering a building together. Clip 2 shows them packed closely and laughing inside a car. Clip 3 shows them gathered around an outdoor table with one man giving instructions, confirming the 'mission briefing' context."
+    },
+    {
+        "question": "What two very different types of conflict are shown—one as playful mission-based restraint and another as a serious-looking physical fight near a car?",
+        "answer": "Playful restraint appears as wrist-taping with duct tape during a mission setup, while serious conflict appears as two men physically grappling and wrestling each other beside a car.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows a lighthearted rope-tying of wrists as part of mission-style fun. Step 2: Slice 74 shows a tense physical altercation with choking near a white car. Conclusion: The video contrasts playful restraint with serious violence.",
+        "logic_check_reasoning": "Step 1: Slice 23 describes a man tying another man's wrists with a rope in a light-hearted, playful context and later shows a labeled mission ('MISSION 2: Trunk Escape'), supporting the idea of playful, mission-based restraint. Step 2: Slice 74 depicts a serious physical altercation where one man appears to choke another near a white car, indicating a violent conflict. Logic holds because the two slices present distinctly different scenarios: a playful restraint during a challenge and a serious fight near a car.",
+        "original_text_answer": "Playful restraint appears as rope-tying during a mission setup, while serious conflict appears as two men physically choking/attacking each other beside a car.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, men are shown laughing while one tapes another's wrists with silver duct tape in a desert setting, clearly part of a 'MISSION 2 Trunk Escape' challenge. In Clip 2, two men are seen engaging in a physical struggle beside a white car — one grabs the other from behind in a choke-like hold, and they wrestle intensely, indicating a serious physical confrontation, not playful choking."
+    }
+]

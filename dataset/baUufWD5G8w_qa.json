@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Which animal is shown resting in front of a stacked woodpile and later appears standing in a yard with two chickens?",
+        "answer": "The long-haired goat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows a long-haired goat resting on concrete in front of a neatly stacked log pile. Step 2: Slice 57 shows a shaggy goat in a fenced area with two chickens in the background. Conclusion: The recurring animal is the long-haired goat.",
+        "logic_check_reasoning": "Step 1: Slice 38 explicitly states a long-haired goat is resting in front of a neatly stacked woodpile. Step 2: Slice 57 shows a goat with a long, shaggy coat standing in a yard with two chickens. Step 3: The descriptions align (same animal type and similar coat), and the question asks which animal appears in both scenes. Therefore, 'the long-haired goat' is directly supported.",
+        "original_text_answer": "The long-haired goat.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a long-haired goat resting in front of a stacked woodpile. Clip 2 shows the same long-haired goat standing in a yard; however, there are no chickens visible in this clip—only another sheep and a dog running by. The original answer is correct in identifying the animal as the long-haired goat, but incorrect in stating it appears with two chickens, which are not present in either clip."
+    },
+    {
+        "question": "Which animal is shown peacefully lying down in a yard early on and later appears playing with another dog in an open grassy field with mountains behind?",
+        "answer": "The black-and-white dog (Border Collie-like).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a white dog with black markings resting on grass by a fence. Step 2: Slice 59 shows a black-and-white dog lying/rolling in a mountain field while a light-colored dog approaches to play. Conclusion: The recurring black-and-white dog is the one resting earlier and playing later.",
+        "logic_check_reasoning": "Step 1: Slice 5, Scene 2 describes a dog lying peacefully on grass in a yard, with a white coat and black markings around its face and ears—i.e., a black-and-white dog. Step 2: Slice 59 shows a black-and-white Border Collie playing with a Labrador in an open grassy field with mountains behind. Step 3: The shared attributes (black-and-white dog) logically link the peaceful yard scene early on to the later playful mountain field scene. Therefore, identifying the animal as the black-and-white dog (Border Collie-like) is supported.",
+        "visual_proof": "In Clip 1, a black-and-white dog is shown peacefully lying on its side on grass next to a wooden fence. In Clip 2, the same black-and-white dog is seen playing with a black dog in a grassy field with snow-capped mountains in the background."
+    },
+    {
+        "question": "What cooking preparation step happens before the close-up sequence of slicing raw meat into smaller pieces: sharpening the knife or serving cooked food?",
+        "answer": "Sharpening the knife.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows the man sharpening a knife with a stone. Step 2: Slice 22 shows close-up slicing of raw meat into pieces. Conclusion: Knife sharpening occurs before the meat is cut into smaller pieces.",
+        "logic_check_reasoning": "Step 1: Slice 18 describes the man sharpening a knife as part of preparing to cook/butcher meat. Step 2: Slice 22 shows a close-up of slicing raw meat into smaller pieces. Logic holds because the preparation (sharpening) precedes the action (slicing), and there is no mention of serving cooked food before the slicing.",
+        "visual_proof": "In Video 1 (0:03-0:05), a man is visibly sharpening a large knife on a wooden table before any meat is cut. The close-up sequence of slicing raw meat into smaller pieces occurs in Video 2 (0:00-0:02). No cooked food is served or shown in either clip, making 'serving cooked food' an incorrect option. Therefore, sharpening the knife is the correct preparation step that happens before the slicing."
+    },
+    {
+        "question": "What plant element is shown in a quiet close-up earlier and later reappears as a flowering shrub shot immediately after meat chopping with an axe?",
+        "answer": "White blossoms/flowers on a shrub.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 10 focuses on small clustered white flowers near a rustic jug. Step 2: Slice 23 transitions from axe-chopping meat to a serene shot of a flowering shrub with delicate white blossoms. Conclusion: The repeated plant element is the white blossoms.",
+        "logic_check_reasoning": "Step 1: Slice 10 describes a close-up focusing on a plant's flowers, explicitly stating they are small, clustered, and white, presented in a serene, peaceful mood. Step 2: Slice 23 describes that immediately after a scene of chopping meat with an axe, the video transitions to a serene shot of a flowering shrub with delicate white blossoms and lush green leaves. Logic holds because both slices highlight white blossoms/flowers on a shrub-like plant, first in a quiet close-up and later as a flowering shrub shot post chopping. The details align directly with the proposed answer.",
+        "visual_proof": "The first clip opens with a close-up of white blossoms on a green-leaved shrub next to a vase. The second clip shows the meat chopping sequence, and immediately after, at 0:07, the same type of flowering shrub with white blossoms is shown again in a wider shot against a snowy background, confirming its reappearance."
+    },
+    {
+        "question": "What ingredient is prepared by peeling and later appears as small cloves sitting on the serving tray next to cut-open wrapped parcels?",
+        "answer": "Garlic.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows the man peeling garlic cloves at the rustic table. Step 2: Slice 85 shows two small garlic clove-like pieces placed on a tray alongside cut-open wrapped foods. Conclusion: Garlic is peeled earlier and later appears on the serving tray.",
+        "logic_check_reasoning": "Step 1: Slice 44 explicitly states the man is peeling garlic cloves. Step 2: Slice 85 describes two small, round objects on the serving tray that resemble garlic cloves, placed next to cut-open wrapped parcels. Logic holds because the ingredient being peeled (garlic) is later seen in clove form on the tray, matching the description.",
+        "visual_proof": "In Video 1, the man is visibly peeling small white cloves, which are identifiable as garlic. In Video 2, the same small white cloves (now cooked) are seen sitting on the wooden serving tray next to the cut-open wrapped parcels, confirming they are the ingredient prepared earlier."
+    },
+    {
+        "question": "Which ingredient is chopped in the rustic kitchen area and later appears added in large quantity on top of ground meat as part of the meat-mixture assembly?",
+        "answer": "Onions.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows onions being chopped on a cutting board. Step 2: Slice 30 shows finely chopped onions added onto ground meat in a tray before mixing. Conclusion: The chopped onions are prepared first and then used in the meat mixture.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly states the man in a green jacket is chopping onions in a rustic outdoor kitchen setting. Step 2: Slice 30 explicitly lists finely chopped onions as one of the ingredients added on top of the mound of ground meat. The setting and person (green jacket, rustic environment) align, linking the chopping to the later addition. While 'large quantity' is not explicitly used for onions (it is for grated cheese), the core identification of the ingredient being chopped and then added is clearly supported.",
+        "visual_proof": "In Video 1, a man is visually shown chopping white and red onions on a wooden board in a rustic kitchen setting. In Video 2, the same chopped onions (both white and red varieties) are clearly seen being poured from a container onto a large mound of ground meat as the first major ingredient added to the mixture."
+    },
+    {
+        "question": "Track the progression of the dog around the homestead: it first lies by the cabin, later walks across the area in front of the rustic kitchen, then later plays with another dog in the mountain field, and finally a black dog is seen drinking at the stream near the waterwheel. What does this suggest about animals in the setting?",
+        "answer": "Multiple dogs freely roam the same rural homestead and surrounding landscape, appearing in resting, wandering, playing, and drinking scenes.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            21,
+            59,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a dog lying outside the cabin. Step 2: Slice 21 shows a white dog walking in front of the rustic kitchen structure. Step 3: Slice 59 shows dogs playing together in the open field with mountains. Step 4: Slice 91 shows a black dog drinking from a stream near the waterwheel. Conclusion: Dogs are recurring, active companions across the property and nearby nature.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows a dog lying outside a cabin, indicating a relaxed, resting state near the homestead. Step 2: Slice 21 depicts a white dog walking across the area in front of a rustic kitchen structure, showing wandering behavior within the same rural setting. Step 3: Slice 59 features two dogs playing together in a mountain field, explicitly confirming multiple dogs and playful activity in the surrounding landscape. Step 4: Slice 91 presents a black dog drinking from a stream near a waterwheel, indicating movement to another nearby feature in the environment. Logic holds because the scenes consistently portray dogs in various activities across a cohesive rural/mountain homestead and its surroundings, supporting the idea of multiple dogs freely roaming and engaging in resting, wandering, playing, and drinking.",
+        "visual_proof": "Clip 1 shows a black dog lying by the cabin. Clip 2 shows a white dog and a black dog walking in front of the rustic kitchen. Clip 3 shows a black and a white dog playing together in a grassy field with mountains. Clip 4 shows a black dog drinking at a stream near a waterwheel. This sequence confirms multiple dogs are present and active throughout the homestead and its natural surroundings."
+    }
+]

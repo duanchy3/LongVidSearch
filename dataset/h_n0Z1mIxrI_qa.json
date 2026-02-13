@@ -1,0 +1,95 @@
+[
+    {
+        "question": "After the group finishes unloading the huge log from the truck, what tool is later used to cut that log?",
+        "answer": "A chainsaw.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows several men unloading and placing a large log on the ground. Step 2: Slice 8 shows a man using a chainsaw to cut through a large log. Conclusion: The log-handling activity leads into cutting, done with a chainsaw.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a group unloading a large log from a truck and placing it on the ground in a rural outdoor setting. Step 2: Slice 8 shows a man in an outdoor natural setting cutting a large log on the ground using a chainsaw. Logic holds because both slices depict a large log on the ground in a consistent outdoor environment, and Slice 8 explicitly identifies the tool used to cut the log as a chainsaw.",
+        "visual_proof": "In Video 1, a group of men is seen unloading a large log from a truck. In Video 2, the same log is shown on the ground, and a man is preparing to cut it with an orange and white chainsaw, which he then uses. The context implies this is the same log being processed after unloading."
+    },
+    {
+        "question": "What animal is first shown sitting under a tree near outdoor furniture, and later shown lying beside a large log?",
+        "answer": "A black-and-white cat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a black-and-white cat sitting under a tree near a wooden table and chairs. Step 2: Slice 57 shows a black-and-white cat lying on the ground next to a large log. Conclusion: The same type of animal appears in both moments—a black-and-white cat.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly mentions a black and white cat sitting under a tree in a garden with outdoor furniture (wooden table and chairs). Step 2: Evidence Slice 57 states the video shows a black and white cat lying on the ground next to a large log. Logic holds because both slices identify the animal as a black-and-white cat in the two described contexts, matching the question’s scenes. Even if the exact order may vary, the identification of the animal is clear.",
+        "visual_proof": "In Video 1 (0:10-0:11), a black-and-white cat is clearly visible sitting under a wooden table near outdoor furniture. In Video 2 (0:00-0:02), the same black-and-white cat is shown lying on the ground beside a large log."
+    },
+    {
+        "question": "Which animal is seen near a partially hidden dog in dense foliage, and later appears sitting in the garden looking toward a white dog with black markings?",
+        "answer": "A black-and-white cat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a black-and-white cat exploring foliage with a brown dog partly visible. Step 2: Slice 71 shows a black-and-white cat sitting in a garden while a white dog with black markings lies nearby. Conclusion: The repeated animal is the black-and-white cat.",
+        "logic_check_reasoning": "Step 1: Slice 4 states that a black-and-white cat is exploring dense foliage, with a brown dog partially obscured by vegetation in the background, indicating the cat is near the partially hidden dog. Step 2: Slice 71 describes a black-and-white cat sitting in a garden, gazing toward a white dog with black markings. Logic holds because both slices consistently feature the black-and-white cat in the described contexts.",
+        "visual_proof": "In Video 1 (0:04-0:08), a black-and-white cat is seen near a partially hidden brown dog in dense foliage. In Video 2 (0:00-0:02), the same black-and-white cat is shown sitting in a garden, looking toward a large white dog with black markings on its head and ears."
+    },
+    {
+        "question": "After green peppers are harvested into a woven basket, what later cooking action uses those peppers in a hot pan with other vegetables and meat?",
+        "answer": "They are added to a pan/wok as sliced peppers mixed into a stir-fry with other vegetables and meat.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows harvesting green peppers into a woven basket. Step 2: Slice 79 shows a pan containing vegetables including bell peppers along with meat being stirred while cooking. Conclusion: The harvested peppers later become part of the cooked stir-fry mixture.",
+        "logic_check_reasoning": "Step 1: Slice 40 describes green peppers being harvested into a woven basket. Step 2: Slice 79 shows a man cooking in a large cast-iron pan with sliced vegetables including bell peppers and pieces of meat, and he stirs and mixes them as steam rises, indicating a hot pan. Logic holds because the later scene clearly uses bell peppers in a hot pan mixed with other vegetables and meat, matching the described action of adding and stirring. While the answer mentions a 'wok,' the context specifies a pan; the core action (adding sliced peppers and mixing/stir-frying with other ingredients) is supported.",
+        "visual_proof": "Clip 1 shows green peppers being harvested into a woven basket. Clip 2 shows the same person cooking in a large pan/wok outdoors, where sliced green peppers (identifiable by color and shape) are visibly mixed with chunks of meat, tomatoes, onions, and other vegetables, indicating they were incorporated into a stir-fry or sauté dish."
+    },
+    {
+        "question": "Which two animals are seen playing together in the garden, and later one of them is shown alone above an underwater fish scene near a wooden house?",
+        "answer": "A larger white dog with black spots and a smaller black dog with a brown face; later the white dog appears alone.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows two dogs together: a larger white dog with black spots and a smaller black dog with a brown face. Step 2: Slice 25 shows a white dog standing on grass near a house after an underwater scene. Conclusion: The recurring animal is the white dog with black markings.",
+        "logic_check_reasoning": "Step 1: Slice 13 states that in a garden, two dogs—one larger white dog with black spots and one smaller black dog with a brown face—are playing together. Step 2: Slice 25 describes an underwater fish scene followed by a white dog standing on grass near a house with a wooden exterior. Logic holds because the first part identifies the two animals playing, and the second part shows a white dog (consistent with one of the two) appearing alone after the underwater scene near a wooden house.",
+        "visual_proof": "In Video 1, two dogs are visible in the garden: one is larger, primarily white with black patches, and the other is smaller, mostly black with a distinct brown face. In Video 2, after underwater scenes of fish, the same white dog with black spots is shown standing alone near a wooden house, confirming the sequence described."
+    },
+    {
+        "question": "Which food-prep activity happens after the man brings a basket of ingredients to a picnic table, and before a blowtorch is used on the same type of food?",
+        "answer": "He takes out and places a chicken on the table (chicken prep begins).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            26,
+            27,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows the man bringing a basket to a picnic table and placing a chicken on the table. Step 2: Slice 27 shows a blowtorch being used to cook a chicken. Step 3: Slice 28 shows cutting raw chicken with a knife on a board. Conclusion: The chicken is first placed/prepped at the table, then torched, then cut with a knife.",
+        "logic_check_reasoning": "Step 1: Slice 26 states the man places a basket on the picnic table and then takes out a chicken from the basket and places it on the table. Step 2: Slice 27 shows a blowtorch being used to cook a chicken later in the scene. Logic holds because the activity of taking out and placing the chicken occurs immediately after bringing the basket and before the blowtorch is used on the same food (chicken).",
+        "visual_proof": "In Clip 1, the man is seen walking towards the picnic table carrying a basket. In Clip 3, immediately following this, he is shown taking a raw chicken out of the basket and placing it on the wooden cutting board on the table. The use of the blowtorch on the chicken is shown in Clip 2, which occurs after the chicken has been placed on the table. This sequence confirms that placing the chicken on the table happens between bringing the basket to the table and using the blowtorch."
+    },
+    {
+        "question": "Track the change in cooking state of the fish: how is it handled before cooking, then how is it cooked, and finally how is it transferred for serving?",
+        "answer": "It is seasoned with salt, then fried/cooked in hot oil in a pan, and then moved onto a wooden plate with tongs.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            65,
+            70,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows hands seasoning whole fish with salt. Step 2: Slice 70 shows fish frying in bubbling oil until golden. Step 3: Slice 72 shows the man using tongs to transfer cooked fish onto a wooden plate. Conclusion: The fish progresses from seasoning to frying to plating.",
+        "logic_check_reasoning": "Step 1: Slice 65 describes the fish being prepared by rubbing salt onto them before cooking, confirming the pre-cooking handling. Step 2: Slices 65 and 70 show the fish being placed into a pan with hot oil, sizzling, and deep-fried until golden brown, confirming they are cooked in hot oil in a pan. Step 3: Slice 72 shows the man using tongs to transfer the cooked fish onto a wooden plate, confirming the serving transfer method. The sequence is consistent and supported across slices.",
+        "visual_proof": "Clip 1 shows hands sprinkling salt on raw fish. Clip 2 shows the fish frying in bubbling oil in a large pan. Clip 3 shows tongs being used to lift the cooked fish from the pan and place them onto a wooden serving plate."
+    }
+]

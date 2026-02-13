@@ -1,0 +1,149 @@
+[
+    {
+        "question": "During the aviation incident coverage, what safety equipment is shown being used by passengers, and what later document-based finding suggests a mechanical/assembly issue?",
+        "answer": "Passengers are shown wearing oxygen masks, and a later report says four bolts were missing.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows passengers wearing oxygen masks, indicating an in-flight emergency response. Step 2: Slice 17 shows an investigative preliminary report highlighting “FOUR BOLTS WERE MISSING.” Conclusion: Emergency conditions are shown, later paired with a missing-bolts finding suggesting a technical cause.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12 explicitly states that some passengers are wearing oxygen masks, indicating use of safety equipment during the incident. Step 2: Evidence Slice 17 shows a document titled 'Aviation Investigative Preliminary Report' with the finding 'FOUR BOLTS WERE MISSING,' which clearly suggests a mechanical/assembly issue. The two slices logically relate to the same aviation incident coverage, supporting both parts of the proposed answer.",
+        "visual_proof": "In the first clip, passengers are visibly wearing oxygen masks hanging from the ceiling in the dimly lit cabin. In the second clip, a document titled 'Aviation Investigation Preliminary Report' is displayed, and an overlay explicitly states 'FOUR BOLTS WERE MISSING' over an image of investigators examining debris."
+    },
+    {
+        "question": "In the border helicopter crash coverage, what fatality count is shown on-screen, and what later image shows the crash site surrounded by emergency vehicles?",
+        "answer": "Three people are reported killed, and later footage shows the crash site with emergency vehicles around the wreckage.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows the ticker “3 KILLED IN HELICOPTER CRASH NEAR BORDER.” Step 2: Slice 22 shows anchors with a background image of the crash site and then footage with emergency vehicles surrounding wreckage. Conclusion: The report cites 3 deaths and shows emergency response at the site.",
+        "logic_check_reasoning": "Step 1: Slice 24 explicitly states the news ticker reads '3 KILLED IN HELICOPTER CRASH NEAR BORDER,' providing the fatality count. Step 2: Slice 22 describes later footage showing the crash site with several emergency vehicles, including police cars and fire trucks, parked around the wreckage. Logic holds because both slices refer to the same border helicopter crash and the proposed answer matches these details.",
+        "visual_proof": "The on-screen text in multiple frames of both clips explicitly states '3 KILLED IN HELICOPTER CRASH NEAR BORDER' and 'DEADLY HELICOPTER CRASH AT THE BORDER'. Later frames in Clip 2 (e.g., 0:06-0:10) show a fire truck and other emergency vehicles at the scene, confirming the presence of emergency response around the crash site."
+    },
+    {
+        "question": "What distinctive safety-related object appears next to the damaged Alaska Airlines plane during maintenance footage, and what later interior damage is highlighted with text explaining something came loose?",
+        "answer": "An orange ladder is positioned by the plane, and later a loose overhead panel with exposed insulation is shown inside the cabin.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the plane at a gate with an orange ladder for inspection/repair. Step 2: Slice 21 shows interior cabin damage with text saying part of the overhead panel came loose, exposing insulation. Conclusion: Maintenance access is shown, and later the cabin damage is emphasized.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 describes the maintenance area with an orange ladder positioned against the side of the plane, indicating ongoing inspection. Step 2: Evidence Slice 21 shows interior damage with a close-up of a ceiling panel that is damaged, exposing insulation, and a text overlay stating that a part of the plane's overhead panel came loose into the cabin. Logic holds because the question asks for the distinctive object next to the plane (orange ladder) and the later interior damage highlighted with text (loose overhead panel with exposed insulation), both explicitly supported by the slices.",
+        "visual_proof": "In Video 1 (0:05), an orange maintenance scaffold/ladder is clearly visible next to the Alaska Airlines plane. In Video 2 (0:03-0:08), the interior footage shows a large, damaged section of the overhead cabin ceiling with white insulation material visibly exposed and dangling, which is consistent with the text overlay mentioning 'A part of the plane flew off'."
+    },
+    {
+        "question": "Which story shows a humanitarian ship labeled with an aid organization, and what later method of delivering aid is shown from the air?",
+        "answer": "The ship labeled “World Central Kitchen / Open Arms,” and later aid is shown being delivered via parachute air drops.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows the rescue ship “Open Arms” with “World Central Kitchen” branding. Step 2: Slice 35 shows parachutes dropping aid from an airplane. Conclusion: The Gaza aid effort includes maritime logistics and airborne delivery.",
+        "logic_check_reasoning": "Step 1: Slice 32 explicitly shows a large rescue ship named 'Open Arms' with the words 'World Central Kitchen' and 'Open Arms' on its side, indicating a humanitarian ship labeled with an aid organization. Step 2: Slice 35 shows aid being delivered via parachutes dropped from an airplane, clearly depicting air-delivered parachute drops. Logic holds because the first slice establishes the labeled humanitarian ship, and the later slice shows the aerial delivery method.",
+        "visual_proof": "Clip 1 clearly shows a ship with 'WORLD CENTRAL KITCHEN' and 'OPEN ARMS' written on its side. Clip 2 visually depicts multiple parachutes descending from the sky, carrying supplies over a cityscape, which is consistent with an air drop of aid."
+    },
+    {
+        "question": "What text call-to-action is visible at a Trump rally, and what later studio banner describes the campaign status as the anchor discusses the election?",
+        "answer": "“TEXT GEORGIA TO 88022,” and the studio banner later reads “CAMPAIGN IN FULL SWING.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a Trump podium/sign including “TEXT GEORGIA TO 88022.” Step 2: Slice 46 shows a studio setup with “DECISION 2024” and “CAMPAIGN IN FULL SWING.” Conclusion: The rally call-to-action and later studio framing both signal active campaigning.",
+        "logic_check_reasoning": "Step 1: Slice 7 states that at a Trump rally, a podium sign reads 'TRUMP' and 'TEXT GEORGIA TO 88022,' providing the call-to-action. Step 2: Slice 46 describes a news studio with a large banner showing 'DECISION 2024' and 'CAMPAIGN IN FULL SWING,' indicating the campaign status. The proposed answer matches both pieces of text exactly.",
+        "visual_proof": "In Clip 1, at 0:05, a podium at a Trump rally clearly displays the text 'TEXT GEORGIA TO 88022'. In Clip 2, from 0:06 to 0:15, the NBC Nightly News studio screen behind the anchor shows a banner with the text 'CAMPAIGN IN FULL SWING' alongside images of Biden and Trump."
+    },
+    {
+        "question": "In the Gaza aid coverage, what sea-based asset is shown at port, what ground-based delivery scene shows people handling supplies, and what UN official criticizes certain plans as ‘absurd’?",
+        "answer": "The ‘Open Arms’ ship from World Central Kitchen, people unloading/organizing aid boxes on the ground, and UN official Michael Fakhri.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            32,
+            41,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows the aid/rescue ship “Open Arms” with World Central Kitchen branding. Step 2: Slice 41 shows crowds unloading and distributing stacks of aid boxes. Step 3: Slice 42 shows Michael Fakhri (UN Special Rapporteur on the Right to Food) criticizing air drops and pier plans as “absurd.” Conclusion: The segment spans maritime staging, ground distribution, and UN critique.",
+        "logic_check_reasoning": "Step 1: Slice 32 explicitly shows a rescue ship named 'Open Arms' at port with 'World Central Kitchen' branding, matching the sea-based asset. Step 2: Slice 41 describes a ground scene where people are unloading and organizing large white aid boxes, matching the ground-based delivery scene. Step 3: Slice 42 identifies UN Special Rapporteur Michael Fakhri and shows overlays quoting him calling air drops and a pier plan 'absurd,' matching the UN official criticism. The proposed answer aligns with all slices.",
+        "visual_proof": "Clip 1 clearly shows the 'OPEN ARMS' vessel with 'WORLD CENTRAL KITCHEN' branding docked at a port. Clip 2 depicts crowds of people on land carrying large white sacks of aid, consistent with unloading and organizing supplies. Clip 3 features Michael Fakhri, identified by on-screen text as 'UN SPECIAL RAPPORTEUR ON THE RIGHT TO FOOD', with superimposed text labeling air drops and pier plans as 'ABSURD'."
+    },
+    {
+        "question": "In the SAT digital transition story, what sign in a testing center explains the format change, what classroom scene shows students taking the exam on laptops, and who is identified as the College Board executive speaking about it?",
+        "answer": "A sign says “SATs Change to Entirely Digital Format,” students are shown testing on laptops in a classroom, and Priscilla Rodriguez is identified as the College Board SVP.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            62,
+            63,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 62 shows a testing-center/hallway sign stating the SATs are changing to an entirely digital format. Step 2: Slice 63 shows students seated at desks using laptops during an exam. Step 3: Slice 65 identifies Priscilla Rodriguez as College Board SVP speaking on the topic. Conclusion: Signage, real test-taking visuals, and an official spokesperson are linked.",
+        "logic_check_reasoning": "Step 1: Slice 62 explicitly shows a sign in the testing center that reads \"SATs Change to Entirely Digital Format,\" explaining the format change. Step 2: Slice 63 describes a classroom where students are taking the exam on laptops, confirming the scene of digital testing. Step 3: Slice 65 identifies the speaker as Priscilla Rodriguez, with the on-screen title \"College Board SVP of College Readiness Assessments,\" confirming the College Board executive.",
+        "visual_proof": "Clip 1 shows a sign inside a building that reads 'SAT Testing' with directional arrows; the news banner below consistently states 'SATs CHANGE TO ENTIRELY DIGITAL FORMAT.' Clip 2 visually confirms students taking the exam on laptops in a classroom setting. Clip 3 features Priscilla Rodriguez speaking, with a lower-third graphic identifying her as 'PRISCILLA RODRIGUEZ, COLLEGE BOARD SVP OF COLLEGE READINESS ASSESSMENTS.'"
+    },
+    {
+        "question": "What aviation damage is shown on the outside of the plane, what interior crisis indicator is shown among passengers, and what later investigative note suggests missing documentation?",
+        "answer": "A damaged or missing fuselage panel is shown outside, passengers are shown using oxygen masks, and later an overlay indicates they “can’t find any documentation.”",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            12,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows exterior fuselage damage/missing panel and inspection context. Step 2: Slice 12 shows passengers wearing oxygen masks, signaling a pressurization/emergency response. Step 3: Slice 18 shows investigative overlays including “CAN’T FIND ANY DOCUMENTATION.” Conclusion: Physical damage and in-cabin emergency visuals align with later investigative difficulties in documentation.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly describes an exterior shot showing a damaged or missing panel on the fuselage near the rear section of the aircraft, supporting the first part of the answer. Step 2: Slice 12 states that passengers are wearing oxygen masks, indicating an interior crisis, supporting the second part of the answer. Step 3: Slice 18 includes an overlay reading 'CAN'T FIND ANY DOCUMENTATION,' indicating a note about missing documentation, supporting the third part of the answer. The logic is consistent across slices and directly supports each element of the proposed answer.",
+        "visual_proof": "Clip 1 shows an orange maintenance scaffold positioned over a large, covered opening on the plane's fuselage, indicating a missing or damaged panel. Clip 2 shows the interior of the cabin with deployed oxygen masks hanging down, a clear indicator of an in-flight emergency. Clip 3 features a text overlay that reads 'CAN'T FIND ANY DOCUMENTATION' superimposed on a letter from Boeing, directly supporting the final point."
+    },
+    {
+        "question": "What government department’s logo is shown in connection with the breaking news about a new probe, and which airline is the probe associated with later in the report?",
+        "answer": "The Department of Justice, and the airline later shown is Alaska Airlines.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a breaking news graphic with the Department of Justice logo. Step 2: Slice 11 shows the anchor with an on-screen graphic reading “Alaska Airlines” and “Blowout Investigation.” Conclusion: DOJ is tied to the probe, and the airline involved is Alaska Airlines.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly states that the breaking news graphic includes the Department of Justice logo on the left side of the screen. Step 2: Slice 11 shows a screen with the words 'Alaska Airlines' and 'Blowout Investigation,' clearly indicating the airline involved later in the report. Logic holds because the department logo linked to the probe is the DOJ, and the airline later associated with the investigation is Alaska Airlines.",
+        "visual_proof": "In Clip 1, a graphic clearly shows the text 'DEPARTMENT OF JUSTICE' on a building facade alongside a 'BREAKING NEWS' banner about a 'NEW PROBE INTO MID-AIR SCARE'. In Clip 2, the news anchor stands in front of a large screen displaying an airplane with the text 'ALASKA AIRLINES BLOWOUT INVESTIGATION', explicitly linking the probe to Alaska Airlines."
+    },
+    {
+        "question": "What is the date shown at the start of the broadcast, and what later daylight-saving message tells viewers to adjust time at a specific hour?",
+        "answer": "Saturday, March 9th, 2024, and daylight saving time begins at 2 A.M. Eastern.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the title card with the date “Saturday, March 9th, 2024.” Step 2: Slice 77 shows “DAYLIGHT SAVING TIME TO BEGIN AT 2 A.M. EASTERN.” Conclusion: The broadcast date is March 9, 2024 and it reminds viewers about the 2 A.M. DST change.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the broadcast opens with a title card showing the date 'Saturday, March 9th, 2024.' Step 2: Evidence Slice 77 shows a later segment with the message 'GET READY TO SPRING AHEAD' and explicitly 'DAYLIGHT SAVING TIME TO BEGIN AT 2 A.M. EASTERN.' Logic holds because the question asks for the start date and the specific hour mentioned in the daylight-saving message, both of which are directly provided in the slices.",
+        "visual_proof": "In Clip 1, the on-screen graphic clearly displays 'Saturday 9th March 9th 2024'. In Clip 2, a lower-third graphic appears multiple times (e.g., 0:05, 0:07, 0:09) stating 'DAYLIGHT SAVING TIME TO BEGIN AT 2 A.M. EASTERN'."
+    },
+    {
+        "question": "In the ‘Good News Tonight’ sequence, what sports action is shown first, what later classroom reunion happens, and where does the celebration expand into a hallway crowd?",
+        "answer": "A basketball game is shown first, then a military parent reunites with a child in a classroom, and the celebration expands into a hallway crowd cheering.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            79,
+            82,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 79 shows intense basketball game action in an indoor arena. Step 2: Slice 82 shows a classroom where a man in military uniform hugs a child. Step 3: Slice 84 shows a larger hallway gathering cheering and clapping around the reunion. Conclusion: The segment moves from sports excitement to a reunion moment that grows into a public celebration.",
+        "logic_check_reasoning": "Step 1: Slice 79 and Slice 82 both show a basketball game as the initial sports action, including active play and crowd reactions. Step 2: Slice 82 explicitly depicts a man in military uniform entering a classroom to hug his child, confirming the classroom reunion. Step 3: Slice 84 shows the reunion expanding into a hallway with a crowd clapping and cheering, matching the description of a celebration in a hallway crowd. The elements align across slices, supporting the proposed answer.",
+        "visual_proof": "Clip 1 shows a basketball game with players on the court and spectators. Clip 2 transitions to a classroom where a man in military uniform walks in and emotionally hugs a young girl, while other children watch. Clip 3 continues this reunion and then cuts to a hallway scene where a larger group of people, including the same girl and her mother, are gathered, clapping and celebrating as she rings a bell."
+    }
+]

@@ -1,0 +1,30 @@
+[
+    {
+        "question": "Track the woman in a beige coat across settings: where does she first talk in a café, later speak seriously in a hallway, and finally offer a small yellow item outdoors?",
+        "answer": "She talks in a café with another woman, later has a serious hallway conversation, and later offers a small yellow item outdoors during an intimate exchange.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            30,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a short-haired woman in a beige coat talking at a café table. Step 2: Slice 30 shows two women (one in a beige coat) speaking seriously in a hallway. Step 3: Slice 49 shows the beige-coat woman outdoors offering a small yellow object to another woman. Conclusion: The beige coat helps track her across social, institutional, and reconciliatory outdoor scenes.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a café scene with two women, noting one has short black hair and is wearing a beige coat, engaged in conversation. Step 2: Slice 30 shows a hallway scene where two women converse seriously; one is specifically described as wearing a beige coat. Step 3: Slice 49 depicts an outdoor scene where the woman in the beige coat offers a small yellow item to the other woman. Logic holds because the beige coat is a consistent visual attribute across all three slices, and the settings (café, hallway, outdoors) align with the sequence described. The proposed answer correctly summarizes these transitions.",
+        "visual_proof": "In Clip 1, the woman in the beige coat is seated at a counter in a warmly lit café, engaged in conversation. In Clip 2, she stands in a formal-looking hallway, facing another woman in a serious discussion. In Clip 3, she is outdoors in a natural setting, smiling as she extends her hand to offer a small yellow item to another person, indicating an intimate exchange."
+    },
+    {
+        "question": "What multi-scene pattern shows workplace strategy discussions shifting into courtroom confrontation and then into chaotic disruption inside the courtroom?",
+        "answer": "It moves from office strategy meetings, to courtroom arguments with evidence, and then to a courtroom disruption where people rush and kneel amid chaos.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            45,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a serious conference-table discussion led by an older authoritative man. Step 2: Slice 45 shows courtroom proceedings with evidence being raised. Step 3: Slice 72 shows sudden chaos in a courtroom with people crouching/kneeling and moving urgently. Conclusion: The tone mutates from controlled strategy to formal confrontation to disorder.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows a formal office meeting with a senior figure leading a tense discussion in a corporate/legal context, supporting 'workplace strategy meetings.' Step 2: Slice 45 depicts a courtroom scene with key participants, including a woman holding up a document to present evidence, supporting 'courtroom arguments with evidence.' Step 3: Slice 72 describes a chaotic courtroom moment with individuals kneeling/crouching and moving quickly, supporting 'courtroom disruption where people rush and kneel amid chaos.' Logic holds because the slices sequentially depict workplace discussion, courtroom confrontation involving evidence, and subsequent chaos in the courtroom.",
+        "visual_proof": "Clip 1 shows characters in formal business attire engaged in discussions within an office setting. Clip 2 transitions to a courtroom scene where individuals, including a woman identified as Tae Sumi, are presenting documents and arguing a case before a judge and audience. Clip 3 depicts a chaotic scene inside the same courtroom, with multiple people rushing towards and kneeling around a person lying on the floor, indicating a sudden disruption."
+    }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "question": "Which place is introduced by a Florida map and then shown as an aerial view of a rural community with RVs and a prominent blue-roofed building?",
+    "answer": "Palmdale in Glades County, Florida.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      14,
+      15
+    ],
+    "reasoning_chain": "Step 1: Slice 14 shows a Florida map highlighting Palmdale in Glades County. Step 2: Slice 15 shows aerial footage of a rural community identified as Palmdale/Glades County with RVs and a blue-roofed building. Conclusion: The place is Palmdale/Glades County, Florida.",
+    "logic_check_reasoning": "Step 1: Slice 14 states the map of Florida highlights Palmdale in Glades County and zooms in on the Palmdale area. Step 2: Slice 15 states the aerial shot is specifically Palmdale/Glades County, showing a rural community with RVs and a prominent blue-roofed building. Logic holds because the place introduced on the map (Palmdale) is the same place shown in the aerial view with the described features.",
+    "visual_proof": "Clip 1 shows a map of Florida with a pin on 'Palmdale' and text identifying 'Florida - Palmdale/Glades County'. Clip 2 provides an aerial view of a rural community with numerous RVs and a large building with a prominent blue roof, which is consistent with the location introduced in Clip 1. The text overlay 'Florida - Palmdale/Glades County' is also present in Clip 2, confirming the location."
+  },
+  {
+    "question": "Which town is first shown on a map with an orange pin and then shown with a wooden welcome sign stating it was established in 1905 at elevation 7000?",
+    "answer": "Manhattan, Nevada.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      45,
+      46
+    ],
+    "reasoning_chain": "Step 1: Slice 45 shows a static map labeled “Nevada - Manhattan” with an orange pin. Step 2: Slice 46 shows the wooden “WELCOME MANHATTAN NEVADA” sign with “EST. 1905 EL. 7000.” Conclusion: The town is Manhattan, Nevada.",
+    "logic_check_reasoning": "Step 1: Slice 45 shows a static map labeled 'Manhattan' in Nevada with a small orange pin and the text 'Nevada - Manhattan.' Step 2: Slice 46 shows a wooden welcome sign reading 'WELCOME MANHATTAN NEVADA' with 'EST. 1905 EL. 7000.' Logic holds because both slices explicitly identify the town as Manhattan, Nevada and match the described visuals (map with orange pin, then welcome sign with establishment year and elevation).",
+    "visual_proof": "Clip 1 shows a map with an orange pin labeled 'Manhattan Bar' in the town of Manhattan, Nevada. Clip 2 shows a wooden welcome sign that reads 'WELCOME MANHATTAN NEVADA EST. 1905 EL. 7000', confirming the town's name, establishment year, and elevation."
+  },
+  {
+    "question": "Which town is first shown as an aerial view centered on a historic stone building with a clock tower and then later associated with a map that marks it with a red dot before the aerial footage?",
+    "answer": "Winamac in Pulaski County, Indiana.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      23,
+      24
+    ],
+    "reasoning_chain": "Step 1: Slice 23 shows a map of Indiana marking Winamac/Pulaski County with a red dot. Step 2: Slice 24 shows aerial footage labeled Indiana - Winamac/Pulaski County featuring a historic stone building with a clock tower. Conclusion: The town is Winamac, Indiana.",
+    "logic_check_reasoning": "Step 1: Slice 24 shows an aerial view of a historic stone building with a clock tower, explicitly identified as 'Indiana - Winamac/Pulaski County.' Step 2: Slice 23 shows a map of Indiana marking 'Winamac/Pulaski County' with a red dot. Logic holds because both slices identify the same town (Winamac in Pulaski County, Indiana) via the aerial shot and the map marker.",
+    "visual_proof": "Clip 2 (ID: 24) opens with an aerial view of a historic stone building with a prominent clock tower, and the on-screen text identifies it as 'Indiana - Winamac/Pulaski County'. Clip 1 (ID: 23), which precedes it in the video's timeline, shows a map with a red pin located in Indiana, also labeled 'Indiana - Winamac/Pulaski County', visually linking the map location to the town shown in the subsequent aerial footage."
+  },
+  {
+    "question": "Which U.S. state is highlighted on the map right after the Boise City, Oklahoma street footage featuring a white clock tower?",
+    "answer": "Oregon (Alvord Desert).",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      58,
+      59,
+      60
+    ],
+    "reasoning_chain": "Step 1: Slice 58 introduces Boise City/Cimarron County, Oklahoma via a map. Step 2: Slice 59 shows Boise City street scenes including a white clock tower. Step 3: Slice 60 transitions to a map highlighting Oregon’s Alvord Desert. Conclusion: The next highlighted state is Oregon.",
+    "logic_check_reasoning": "Step 1: Slice 59 describes Boise City, OK street footage that includes a prominent white clock tower. Step 2: Slice 60 states the camera then shifts to a map of Oregon highlighting the Alvord Desert. Logic holds because the sequence places the Oregon map after the Boise City street scene.",
+    "visual_proof": "Clip 2 shows street footage of Boise City, Oklahoma, with a white water tower in the background. Immediately following this, Clip 3 displays a map highlighting the Alvord Desert, which is located in Oregon, as indicated by the on-screen text 'Oregon - Alvord Desert'."
+  },
+  {
+    "question": "Which location features a directional desert signpost listing Trout Creek, Gold Hill, and Ibapah, and what U.S. state map introduces that location just before the signpost appears?",
+    "answer": "Gandy/Callao; it is introduced by a Utah map.",
+    "category": "Visual_Tracking",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      71,
+      72,
+      73
+    ],
+    "reasoning_chain": "Step 1: Slice 71 transitions to a map highlighting Utah and the Gandy/Callao area. Step 2: Slice 72 shows the desert signpost listing Trout Creek, Gold Hill, and Ibapah in that region. Step 3: Slice 73 then moves on to Vermont, confirming the Utah segment has concluded. Conclusion: The signpost is in Gandy/Callao, introduced by a Utah map.",
+    "logic_check_reasoning": "Step 1: Slice 72 explicitly states that in Utah near Gandy/Callao there is a directional desert signpost listing Trout Creek (16 miles), Gold Hill (22 miles), and Ibapah (34 miles). Step 2: Slice 71 mentions a transition to a map of Utah highlighting Gandy/Callao. Step 3: The logical sequence is that the Utah map (Slice 71) introduces the Gandy/Callao location, which is then shown with the signpost (Slice 72). Therefore, the location is Gandy/Callao and the introducing state map is Utah.",
+    "visual_proof": "Clip 2 (0:00-0:07) visually shows the directional desert signpost listing 'TROUT CREEK 16', 'GOLD HILL 22', and 'IBAPAH 36'. The text overlay on this clip identifies the location as 'Utah - Gandy/Callao'. Clip 1 (0:15-0:24) immediately preceding this scene displays a map of Utah with a red pin on 'Gandy' and the same 'Utah - Gandy/Callao' text overlay, confirming the map introduces the location before the signpost appears."
+  }
+]

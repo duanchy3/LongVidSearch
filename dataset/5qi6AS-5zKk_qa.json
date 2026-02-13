@@ -1,0 +1,157 @@
+[
+    {
+        "question": "Trace the sequence of her portrait process: where is the photo session conducted, what does she do afterward, and what final action does she take when choosing images?",
+        "answer": "She takes photos in front of a green screen, reviews the results on a computer, and then picks one photo to go with.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows her in a studio/classroom setup with a green screen taking photos. Step 2: Slice 6 shows her viewing the results on a computer. Step 3: Slice 7 shows her deciding which one to go with. Conclusion: Green-screen session → results review → final selection.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows the photo session taking place in an indoor studio with a green screen backdrop and professional lighting, confirming the location. Step 2: Slice 6 shows her sitting at a computer viewing 'results' with multiple images of herself, indicating she reviews the photos on a computer. Step 3: Slice 7 depicts a screen recording where she evaluates multiple portraits and states 'i decided to go with this one,' confirming she selects a final image. Logic holds as each step follows the portrait workflow from shooting to reviewing to selecting.",
+        "visual_proof": "Clip 1 shows her sitting for a portrait in front of a green screen. Clip 2 and Clip 3 show a computer screen displaying multiple photos from the session, with text indicating she is reviewing them ('I smiled in the last 3 since I look so bad in the previous ones'). In Clip 3, a checkmark appears on one of the photos as she selects it, accompanied by the text 'i decided to go with this one', confirming she picked a final image."
+    },
+    {
+        "question": "What chain links her forgetting makeup, testing a new lip product, and realizing it doesn’t suit her?",
+        "answer": "She forgets her makeup bag, buys a lip product to treat herself, then tests it and decides it’s not the right shade for her.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            34,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 31 says she forgot her makeup bag and bought lipstick. Step 2: Slice 34 shows her applying the e.l.f. lip shine and saying it’s not the right shade. Step 3: Slice 35 confirms she checks and realizes she was seeing it right and tries to wipe/compose herself. Conclusion: Forgetting makeup leads to buying and then regretting the shade.",
+        "logic_check_reasoning": "Step 1: Slice 31 explicitly says she forgot her makeup bag and decided to spoil herself by buying a lipstick. Step 2: Slice 34 shows her purchasing and applying an elf lip shine, then noting via text \"not the right shade for me\" and checking with the camera app. Step 3: Slice 35 confirms her realization with \"yeah, I was seeing it right\" and her attempt to wipe it off. The logic connects forgetting makeup, buying a lip product, testing it, and concluding it doesn't suit her.",
+        "visual_proof": "Clip 1 text states she forgot her makeup bag and decided to buy a lip stick. Clip 2 visually shows her buying and testing the 'elf hydrating core lip shine' and then reacting with 'not the right shade for me'. Clip 3 confirms her realization with the text 'yeah, i was seeing it right' after checking her phone camera, followed by her attempting to wipe off the lipstick."
+    },
+    {
+        "question": "How does her ‘saying bye’ social anxiety resolve from an earlier cafe moment to a later successful goodbye that makes her happy?",
+        "answer": "Earlier she said bye to a girl at a cafe but the girl didn’t hear her; later she says bye again and it makes her happy.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            72,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 72 states she said bye to a girl at a cafe but she didn’t hear. Step 2: Slice 73 says this time she said bye and it makes her happy. Conclusion: The goodbye attempt succeeds later and improves her mood.",
+        "logic_check_reasoning": "Step 1: Slice 72 explicitly states, via on-screen text, that earlier she said bye to a girl at a cafe but the girl didn’t hear her. Step 2: Slice 73 shows the woman later with on-screen text saying “and this time I said bye” and “this makes me so happy,” indicating a subsequent bye that led to happiness. Logic holds because the proposed answer restates these two points: an initial unheard goodbye followed by saying bye again and being happy.",
+        "visual_proof": "Clip 1 (text overlay) explicitly states: 'basically earlier in this vlog, I said bye to this girl at a cafe but she didn't hear me :,' and 'it made me kinda awkward and sad tbh lol'. Clip 2 shows the woman outdoors, smiling broadly and laughing while text overlays say 'and this time I said bye', 'she said bye back', and 'I'm so happy / this makes me so happy'. The visual transition from textual description of failure/sadness to visible joy after a successful interaction confirms the resolution described."
+    },
+    {
+        "question": "How does her opinion shift from enjoying a bottled lemonade to later explaining a problem with it?",
+        "answer": "She realizes it’s carbonated and says she doesn’t like carbonated drinks.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows her surprised by lemonade and checking the label (discovering carbonation). Step 2: Slice 40 has her saying she doesn’t like carbonated drinks and didn’t realize she bought one. Conclusion: Her opinion shifts negatively because it’s carbonated.",
+        "logic_check_reasoning": "Step 1: Slice 39 shows a woman drinking bottled lemonade, becoming surprised by the taste, suspecting it's carbonated, and checking the label to confirm. Step 2: Slice 40 shows the same woman later walking outside, explicitly saying she doesn't like carbonated drinks and that she hadn't realized she bought one. Logic holds because the initial discovery of carbonation (Slice 39) leads to her stated problem with carbonation (Slice 40), matching the proposed answer.",
+        "visual_proof": "In Clip 1, the woman is seen drinking from a bottle labeled 'Lemonade' and then checking the label with a subtitle stating 'realized it was carbonated.' In Clip 2, she explicitly states in subtitles, 'I just don't like carbonated drinks, I didn't know it was carbonated,' confirming her shift in opinion due to the carbonation."
+    },
+    {
+        "question": "Which items connect her journaling theme to her later shopping activity, and what does she say motivates that shopping?",
+        "answer": "Journals/notebooks; she says she’s halfway through her current journal and is looking for a new one.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            56,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 25 explains journaling helps accept negative emotions by writing them down. Step 2: Slice 24 shows her actively writing in a journal on a train. Step 3: Slice 56 shows her shopping for new journals because she’s halfway through her current one. Conclusion: Journaling leads to buying new journals due to running out.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows the woman actively journaling on a train, establishing the journaling theme. Step 2: Slice 56 shows her shopping in a bookstore for journals/notebooks, with a text overlay explicitly stating, \"I'm halfway thru my journal so I'm looking for new ones.\" Step 3: This directly connects the items (journals/notebooks) to her shopping activity and clearly states the motivation (being halfway through her current journal and seeking new ones).",
+        "visual_proof": "In Clip 3, the woman is seen writing in a notebook on the train, establishing the journaling theme. In Clip 2, she is browsing shelves filled with notebooks and journals in a store. The text overlay in Clip 2 explicitly states, 'i'm halfway thru my journal so i'm looking for new ones,' directly connecting her journaling activity to her shopping motivation."
+    },
+    {
+        "question": "Across two different days, how is the train linked to her plans changing, first with a destination problem and later with a safety warning?",
+        "answer": "First, a train issue prevents her from going where she wanted; later, she warns people to be extra careful on trains after recounting a train incident.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            26,
+            83,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 26 says she couldn’t go to the place she wanted because of the train. Step 2: Slice 83 shows her later talking about an incident on a train. Step 3: Slice 84 shows a warning to be extra careful on the train. Conclusion: Train disruptions and a later incident both affect her plans and perspective.",
+        "logic_check_reasoning": "Step 1: Slice 26 explicitly states via on-screen text that she \"couldn't go to the place I wanted to go coz of the train,\" showing a destination-related problem caused by a train issue. Step 2: Slice 83 shows her recounting a train incident, and Slice 84 contains text advising, \"please be extra careful on the train guys,\" reinforcing a safety warning. Logic holds because the first instance links the train to a thwarted plan, and the later instance links the train to a safety caution following her recounting of an incident.",
+        "visual_proof": "Clip 1 shows the woman outdoors with text stating she 'couldn't go to the place I wanted to go coz of the train,' establishing the initial plan disruption. Clip 2 shows her indoors, with text 'incident on train:' and her animatedly recounting an event, indicating a subsequent negative experience. Clip 3 displays a black screen with text: 'i just wanna add please be extra careful on the train guys' and 'be extra alert and stay safe!', serving as a direct safety warning stemming from the prior incident."
+    },
+    {
+        "question": "How does her plan to go out for internet and food develop into a full sequence involving transit and a crowded cafe outcome?",
+        "answer": "She debates going out because she needs internet and food, rides the train, then ends up going to the closest cafe which is packed.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            22,
+            23,
+            24,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows she’s unsure about going out but needs internet to do work. Step 2: Slice 23 shows she says she should get something to eat. Step 3: Slice 24 shows she’s on the train (indicating she did go out). Step 4: Slice 27 says she chose the closest cafe but it was packed. Conclusion: Need for internet/food → leaves → train → crowded cafe.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows her debating going out and stating she needs internet to do work. Step 2: Slice 23 adds that she should probably get something to eat, reinforcing the plan to go out for internet and food despite preferring to stay home. Step 3: Slice 24 shows her on a train writing, indicating she did go out and used transit. Step 4: Slice 27 states she decided to go to the closest cafe but it was so packed, providing the crowded cafe outcome. The sequence in the proposed answer matches these slices.",
+        "visual_proof": "Clip 1 shows her debating going out for internet and food. Clip 3 visually confirms she is on a train at 2:00pm, journaling during transit. Clip 4 shows her in a cafe setting, with text stating she went to the closest cafe but it was 'so packed'."
+    },
+    {
+        "question": "What object does she pick up that signals she is leaving, and later what similar ‘ready to leave’ moment is shown with a timestamp in her room?",
+        "answer": "She picks up a black bag, and later she’s shown in her room with a timestamp indicating she’s ready to leave.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            1
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows her bending down to pick up a black bag, preparing to leave. Step 2: Slice 1 includes a final clip with a timestamp showing she is 'ready to leave.' Conclusion: Both show leaving preparation, with the bag pickup as a concrete action.",
+        "logic_check_reasoning": "Step 1: Slice 20 states the woman bends down to pick up a black bag from the floor, and her actions suggest she is preparing to leave. Step 2: Slice 1 describes a final scene where the woman is in her room with a timestamp \"12:14pm [ready to leave]\", indicating a similar readiness to leave. Logic holds because both slices show leaving-related actions, and the second explicitly includes a timestamp in her room.",
+        "visual_proof": "In Video 1 (0:00-0:02), the woman is seen picking up a black bag while the subtitle 'time to go home' appears. In Video 2 (0:16-0:17), she is in a room with the on-screen text '12:14pm [ready to leave]', visually confirming the 'ready to leave' moment."
+    },
+    {
+        "question": "Connect the timeline from her leaving for class after a dentist visit to her later evening train ride used as ‘therapy’: what happens in between that contributes to her bad start?",
+        "answer": "She’s self-conscious after the cavity filling and upset about how her photos turned out, leading into an evening train ride she treats as calming.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            10,
+            12,
+            6,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows she went to the dentist for a cavity filling and felt self-conscious, then leaves for class. Step 2: Slice 6 shows she reviews photo results and implies earlier ones looked bad. Step 3: Slice 12 explicitly ties her bad mood to disliking the photos and mentions the evening train ride as 'therapy.' Step 4: Slice 13 continues her reflective tone while walking at night after commuting. Conclusion: Dentist insecurity + bad photos contribute to her mood, making the train ride feel therapeutic.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows she leaves for class at 4:00pm after a cavity filling and explicitly feels self-conscious about her appearance. Step 2: Slice 12 later shows a 6:10pm train ride she jokingly calls therapy, and she discusses being upset about photos she took, blaming nervousness for their poor quality; it also references the dental procedure earlier that day. Step 3: Slice 6 supports the photo issue by showing her reviewing images, noting earlier ones looked bad, which aligns with her dissatisfaction. Logic holds because the sequence from post-dentist self-consciousness to dissatisfaction with photos contributes to a bad start, leading into the evening train ride she uses to cope.",
+        "visual_proof": "Clip 1 shows her leaving for class at 4:00pm post-dentist visit, expressing discomfort with her appearance. Clip 2 shows her reflecting on looking 'awful' in photos taken during the dentist visit, linking it to nervousness and self-consciousness. Clip 3 shows her later at 6:10pm on a train ride, explicitly calling it 'a form of therapy,' indicating this is her coping mechanism after the earlier negative experiences."
+    },
+    {
+        "question": "Track her ‘bagel’ storyline across the day: where does she go, what does she do there, and what is her reaction while eating it later?",
+        "answer": "She goes to a bagel shop to order a sandwich, later eats the bagel at a cafe/restaurant, and briefly grimaces as if it’s hard to eat though she still likes it overall.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            46,
+            48,
+            50,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows her entering a bagel shop and ordering a bagel sandwich. Step 2: Slice 48 shows a cafe taste test with wrapped food shortly after. Step 3: Slice 50 shows her eating a bagel and making a slight grimace as if it’s hard. Step 4: Slice 51 shows her saying she still liked it and would go back again. Conclusion: Bagel purchase → taste test/eating → mixed texture reaction → overall positive review.",
+        "logic_check_reasoning": "Step 1: Slice 46 shows her entering a bagel shop at 1:30 pm, selecting a bagel sandwich, ordering it, and waiting for it—establishing where she goes and what she does there. Step 2: Slice 48 shows her later inside a café at 1:50 pm for a 'taste test,' consistent with eating the item she bought. Step 3: Slice 50 explicitly shows her eating a bagel in a restaurant/café and making a slight grimace, suggesting it’s hard to eat. Step 4: Slice 51 includes her positive reflection via subtitles: 'but I still liked it, I would go back again,' confirming she liked it overall. The timeline and locations align, and the reactions are supported.",
+        "visual_proof": "Clip 1 shows her entering a bagel shop ('trying new bagel place') and selecting an item from the menu ('I got the boylston'). Clip 3 and 4 show her eating the bagel inside a different establishment (indicated by the interior decor and chandelier), where she visibly chews with some effort ('bagel was a lil hard'), followed by a positive statement ('but I still liked it, I would go back again')."
+    },
+    {
+        "question": "How does the ‘big dog’ thread connect from her written claim about seeing big dogs to her behavior around a nearby dog in a cafe?",
+        "answer": "She says she saw many big dogs and is a bit scared, then later in a cafe she keeps turning around to check on a dog close by and comments on its big paws.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            51,
+            52,
+            69,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 51 text says she saw many big dogs and is a little scared, and promises footage. Step 2: Slice 52 shows her in a cafe describing a dog being very close and having big paws. Step 3: Slice 69 includes a reflective mention of a cafe visit and later references a girl she sat next to (contextualizing the cafe setting as a notable event). Step 4: Slice 70 has her recounting the cafe seating situation while walking outside. Conclusion: Her big-dog mention connects to her cautious checking behavior around a close-by dog in the cafe and the cafe narrative.",
+        "logic_check_reasoning": "Step 1: Slice 51 includes on-screen text: \"for some reason that day i saw so many big dogs,I'm a little scared of dogs lol,\" establishing her written claim about seeing big dogs and being somewhat scared. Step 2: Slice 52 shows her in a café/restaurant setting with a nearby dog and subtitles: \"the dog was so close so I kept turning around to check\" and \"this dog has such big paws but very quiet which is cool,\" demonstrating her behavior around a nearby dog and her comment on its big paws. Logic holds because the written claim in Slice 51 is followed by observed behavior in Slice 52 that aligns with cautious checking and noting the dog's large paws.",
+        "visual_proof": "In Clip 1, the text overlay states 'for some reason that day i saw so many big dogs' and 'i'm a little scared of dogs lol'. In Clip 2, she is seen in a cafe looking over her shoulder repeatedly with the text 'the dog was so close so I kept turning around to check', followed by a shot of a dog's paws with the text 'this dog has such big paws but very quiet which is cool'. This visually connects her initial claim about seeing big dogs and being scared to her specific behavior and observation in the cafe."
+    }
+]

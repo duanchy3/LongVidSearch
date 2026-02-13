@@ -1,0 +1,85 @@
+[
+    {
+        "question": "What profession is explicitly stated in the title card, and what later activity in the video visually supports that profession?",
+        "answer": "The title card states she is a painter, and later she is shown actively painting/drawing on a wall/canvas.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            4
+        ],
+        "reasoning_chain": "Step 1: The title card identifies the subject as “ALICE NEEL — Painter.” Step 2: Later, a person is shown using a paintbrush to paint a wall. Conclusion: The stated profession is painter, supported by footage of painting.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly shows a title card with the name 'ALICE NEEL' and the word 'Painter', clearly stating the profession. Step 2: Slice 4 describes a person holding a paintbrush and painting a wall, which is a direct visual activity supporting the profession of 'painter'. Logic holds because the later scene shows painting, which aligns with the stated profession, and identity matching is not required by the question.",
+        "visual_proof": "Clip 1 displays a title card with the text 'ALICE NEEL Painter'. Clip 2 shows a person from behind, holding a thin tool (likely a paintbrush or pencil) and making strokes on a large, light-colored vertical surface, which is consistent with the act of painting or drawing."
+    },
+    {
+        "question": "A painted urban transit scene includes a trolley with a destination sign; what later montage element also depicts civic or public life, even though it is not a painting?",
+        "answer": "Historical black-and-white footage of men queuing to vote depicts civic/public life.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            30
+        ],
+        "reasoning_chain": "Step 1: The urban painting includes a trolley labeled “Downtown,” emphasizing public city life. Step 2: Later, the montage shows men lined up to vote, a public civic activity. Conclusion: Voting footage parallels the public-life theme seen in the transit city painting.",
+        "logic_check_reasoning": "Step 1: Slice 27 describes a painted urban transit scene featuring a trolley with a 'Downtown' destination sign. Step 2: Slice 30 (Scene 2) describes historical black-and-white footage of men queuing to vote, which is a depiction of civic/public life and is explicitly not a painting. Logic holds because the question asks for a later montage element (Slice 30) that represents civic life without being a painting, which matches the voting queue footage.",
+        "visual_proof": "Clip 1 shows a painted urban scene with a trolley and elevated train. Clip 2 contains historical black-and-white footage (0:03-0:08) showing a line of men in coats and hats at what appears to be a polling station or public service window, which is an act of civic/public life."
+    },
+    {
+        "question": "A portrait of a man holding a glass of wine appears while an elderly woman sits beside it; which later painting shows a similar 'man seated at a table with a cup and saucer' motif?",
+        "answer": "The portrait on an easel behind/near the seated woman in the studio shows a man seated at a table with a cup and saucer.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            36
+        ],
+        "reasoning_chain": "Step 1: An indoor interview-like scene includes a portrait of a man in a suit holding a wine glass. Step 2: A later studio scene includes a portrait of a man seated at a table with a cup and saucer. Conclusion: The later table-and-cup portrait matches the “man seated at a table” motif.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes an elderly woman sitting beside a portrait on an easel depicting a man holding a glass of wine. Step 2: Slice 36 later shows the elderly woman in a studio with a prominent portrait on an easel featuring a man seated at a table with a cup and saucer. Step 3: The proposed answer identifies the later painting as the portrait on the easel near the seated woman in the studio, which matches Slice 36. The logic holds and is directly supported by the captions.",
+        "visual_proof": "In Video 1, an elderly woman sits beside a large framed portrait of a man holding a glass. In Video 2, the same woman is seen in a studio setting, sitting next to an easel that holds a different painting: a portrait of a man seated at a table with a cup and saucer. This directly matches the description in the question and answer."
+    },
+    {
+        "question": "An elderly woman is shown holding paintbrushes in a domestic room; later, close-ups show a palette and painting materials in use. What does the combination of these moments suggest about her role?",
+        "answer": "It suggests she is actively engaged as an artist, using brushes and paints as part of her work process.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            65,
+            40,
+            66
+        ],
+        "reasoning_chain": "Step 1: She holds a bundle of paintbrushes as if preparing to paint. Step 2: A palette filled with paint colors is shown, indicating an active workspace. Step 3: An artist’s hand mixes paint and applies it to a portrait on canvas. Conclusion: Together these imply she functions as a working artist engaged in painting.",
+        "logic_check_reasoning": "Step 1: Slice 65 shows an elderly woman holding a bundle of paintbrushes in a domestic setting, suggesting she is preparing to paint or demonstrate something. Step 2: Slice 40 shows a close-up of a paint palette and a finished painting, indicating an artist's workspace and process. Step 3: Slice 66 explicitly depicts an artist actively painting with a palette and brush, reinforcing active engagement in creating art. Logic holds because the sequence moves from the woman with brushes to detailed shots of painting materials in use and an artist at work, reasonably suggesting the woman’s role is that of an actively engaged artist.",
+        "visual_proof": "Clip 1 shows the elderly woman holding multiple paintbrushes in a domestic setting. Clip 2 provides a close-up of a paint palette with mixed colors and a brush being used. Clip 3 shows a hand (presumably hers) actively painting on a canvas with a brush, mixing paint on the palette. The combination of these visuals strongly indicates she is an artist at work."
+    },
+    {
+        "question": "An elderly woman appears in multiple interview-like shots with short light hair and dark clothing; in another scene she wears a dark green zip-up jacket and smiles. What change in her on-camera emotional expression is evident when comparing these appearances?",
+        "answer": "She shifts from serious/reflective interview expressions to a warmer, visible smile in the later close-up.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            19,
+            43,
+            84
+        ],
+        "reasoning_chain": "Step 1: Early, she appears speaking with subtle expression changes but generally serious. Step 2: In another interview-like scene she looks thoughtful beside a portrait on an easel. Step 3: In a window interview shot she speaks animatedly, still reflective. Step 4: Later close-up shows her expression turning into a warm smile. Conclusion: Her emotional expression evolves toward a more openly cheerful smile.",
+        "logic_check_reasoning": "Step 1: Slices 2, 19, and 43 depict an elderly woman with short light hair in dark clothing, engaged in conversation or reminiscing with a thoughtful, nostalgic, reflective tone. Step 2: Slice 84 shows the same woman in a dark green zip-up jacket whose expression shifts to a warm smile, conveying happiness or contentment. Logic holds because the earlier slices emphasize reflective interview-like demeanor, while the later slice explicitly mentions a warm smile, indicating a change in emotional expression.",
+        "visual_proof": "In clips 1, 2, and 3, the woman is shown speaking with a serious or contemplative expression. In clip 4, which is a close-up, she is clearly smiling broadly, showing her teeth, indicating a distinct change in emotional expression from the previous scenes."
+    },
+    {
+        "question": "A shelf close-up shows jars and paintbrushes among personal objects; later, a studio sequence shows palettes and brushes in use; and another scene shows an elderly woman holding a bundle of brushes. How do these three moments together establish the continuity of an artist’s working environment across spaces?",
+        "answer": "They show tools (brushes, palettes) appearing both as stored personal objects and as actively used studio materials, linking home and studio as connected parts of an artist’s practice.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            26,
+            65,
+            40,
+            66
+        ],
+        "reasoning_chain": "Step 1: A shelf contains a jar with paintbrushes among personal items, indicating art tools kept at home. Step 2: The woman is later shown holding a bundle of paintbrushes in a domestic room, suggesting readiness to work. Step 3: A palette filled with paints appears, signaling the working setup. Step 4: The artist’s hand mixes paint and applies it to a canvas. Conclusion: The repeated presence of tools across storage, handling, and active use shows continuity of artistic work across home and studio contexts.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows a close-up of a shelf with personal objects and a jar of paintbrushes, indicating tools present in a personal/home-like setting as stored items. Step 2: Slices 40 and 66 depict palettes and brushes actively being used in painting, clearly establishing a studio/workspace context. Step 3: Slice 65 shows an elderly woman in a domestic setting holding a bundle of paintbrushes, reinforcing the presence and handling of the same tools at home. Logic holds because the recurring appearance of brushes/palette across domestic and studio contexts ties the environments together, demonstrating continuity of the artist’s practice across spaces.",
+        "visual_proof": "Clip 1 shows brushes and jars stored on a decorative shelf alongside personal items like skulls and sculptures. Clip 2 features an elderly woman holding a bundle of brushes in what appears to be a domestic setting with the same shelf visible in the background. Clip 4 shows brushes and a palette being actively used to paint a portrait, establishing the studio context. The recurrence of brushes across these contexts visually links storage (home/shelf), possession (artist's hand), and active use (studio), confirming the continuity of the artist’s working environment."
+    }
+]

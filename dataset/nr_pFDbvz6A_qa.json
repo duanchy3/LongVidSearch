@@ -1,0 +1,163 @@
+[
+  {
+    "question": "Two different title cards present Napoleon’s opinions of two different marshals; which marshal does Napoleon call 'priceless for valour' and which does he accuse of being the 'greatest pillager'?",
+    "answer": "Ney is called 'priceless for valour'; Soult is accused of being the 'greatest pillager.'",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      15,
+      50
+    ],
+    "reasoning_chain": "Step 1: Slice 15 shows Napoleon’s quote describing Marshal Ney as priceless for valour (with criticism too). Step 2: Slice 50 shows Napoleon’s quote saying Soult should have been shot and calling him the greatest pillager. Conclusion: Ney is praised for valour; Soult is condemned as a pillager.",
+    "logic_check_reasoning": "Step 1: Slice 15 displays '5. Marshal Ney' with Napoleon’s quote: 'Ney was priceless for his valour...' confirming Ney is called 'priceless for valour.' Step 2: Slice 50 displays '4. Marshal Soult' with Napoleon’s quote: 'He was the greatest pillager of them all,' confirming Soult is accused of being the 'greatest pillager.' The two slices clearly and explicitly support the proposed mapping.",
+    "visual_proof": "Clip 1 (Marshal Ney) displays the quote: 'Ney was priceless for his valour...'. Clip 2 (Marshal Soult) displays the quote: 'He was the greatest pillager of them all.' Both quotes are explicitly attributed to Napoleon in the respective clips."
+  },
+  {
+    "question": "Which battle map explicitly labels key strongpoints like Hougoumont and La Haye Sainte, and which nearby segment first introduces the regional map covering the Netherlands and Belgium that leads into that battle?",
+    "answer": "The Battle of Waterloo map; it is preceded by the Netherlands/Belgium regional map segment.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      45,
+      46
+    ],
+    "reasoning_chain": "Step 1: Slice 45 shows a Netherlands/Belgium map with cities like Brussels and Charleroi. Step 2: Slice 46 shows the Waterloo battlefield map labeling Hougoumont and La Haye Sainte. Conclusion: The labeled strongpoints appear in the Waterloo map, which is set up by the prior regional map.",
+    "logic_check_reasoning": "Step 1: Slice 46 explicitly shows the Battle of Waterloo map and states that labels appear for key locations including 'La Haye Sainte Farm' and 'Hougoumont Farm,' so the battle map with those labels is the Waterloo map. Step 2: Slice 45 describes a regional map of the Netherlands and Belgium during the Napoleonic Wars, with cities like Brussels, Antwerp, and Charleroi and military symbols, serving as an educational regional overview. This matches the 'nearby segment' that introduces the regional map leading into the Waterloo battle context. Logic holds because Slice 46 provides the labeled battle map, and Slice 45 is the regional map segment immediately relevant to that battle.",
+    "visual_proof": "Clip 1 displays a regional map labeled 'NETHERLANDS' and 'FRANCE', showing troop movements converging on locations like Charleroi, leading to the battles at Quatre-Bras and Ligny on June 16th, 1815. Clip 2 then shows a detailed battlefield map with explicit labels for key strongpoints such as 'Hougoumont Farm', 'La Haye Sainte Farm', and 'Papelotte Farm', which are iconic features of the Battle of Waterloo. The sequence of clips confirms that the regional map (Clip 1) precedes the detailed battle map (Clip 2)."
+  },
+  {
+    "question": "Which marshal is explicitly tied to the title 'Duke of Elchingen' in one biography page, and which separate battle painting is labeled as the Battle of Elchingen?",
+    "answer": "Marshal Ney; the Battle of Elchingen painting is shown separately.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      28,
+      22
+    ],
+    "reasoning_chain": "Step 1: Slice 28 shows a page about Marshal Ney, explicitly calling him the Duke of Elchingen. Step 2: Slice 22 shows a painting labeled as the Battle of Elchingen (Oct 14, 1805). Conclusion: Ney is the Duke of Elchingen, and the separate Elchingen battle painting corresponds to that title.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 28 explicitly states there is a biography page for Marshal Ney and calls him 'the Duke of Elchingen,' directly tying the title to Marshal Ney. Step 2: Evidence Slice 22 describes a painting identified as depicting the Battle of Elchingen, confirming a separate battle painting labeled as such. Logic holds because Slice 28 links the title to Ney and Slice 22 independently identifies a painting of the Battle of Elchingen, matching the two parts of the question.",
+    "visual_proof": "In Clip 1, the biography page for 'MICHEL NEY' explicitly lists his title as 'Duke of Elchingen 1808'. In Clip 2, a separate, detailed painting of a cavalry battle is displayed with the text overlay 'Battle of Elchingen 14th October 1805', clearly identifying it as a distinct visual element."
+  },
+  {
+    "question": "Which marshal’s biography mentions the storming of Porto in 1809, and which separate animated map segment shows the Battle of La Coruña in January 1809 within the same Iberian campaign context?",
+    "answer": "Marshal Soult; the Battle of La Coruña map is shown separately.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      58,
+      57
+    ],
+    "reasoning_chain": "Step 1: Slice 58 includes Soult’s biographical panel and the illustration 'Storming of Porto' (28 March 1809). Step 2: Slice 57 shows an animated map of the Battle of La Coruña (Jan 16, 1809). Conclusion: Soult is linked to the Porto episode, while La Coruña is shown as another Iberian campaign map event nearby in time.",
+    "logic_check_reasoning": "Step 1: Slice 58 describes a biographical section about Jean-de-Dieu Soult and includes a detailed illustration titled 'Storming of Porto' on 28 March 1809. It explicitly mentions Soult’s role in the Peninsular War and his defeat at the Battle of Porto, linking his biography to the Porto event. Step 2: Slice 57 explicitly states the video shows an animated map illustrating the Battle of La Coruña on January 16, 1809. This is presented as a separate animated map segment within the same broader Iberian campaign context. Logic holds because the first slice identifies Soult in connection with Porto, and the second slice confirms a distinct map segment for La Coruña.",
+    "visual_proof": "Clip 1 displays a biography card for 'JEAN-DE-DIEU SOULT' (1769-1851) which explicitly lists his defeat 'by Anglo-Portuguese forces at Battle of Porto' in 1809. Adjacent to this, a painting titled 'Storming of Porto 28th March 1809' is shown. Clip 2 displays a separate animated map titled 'Battle of La Coruña 16th January 1809', showing troop movements and commanders, confirming it as a distinct segment within the same campaign context."
+  },
+  {
+    "question": "Across the video, one marshal is repeatedly described with 'bravest' language: which marshal is called 'Bravest of the Brave' in a lineup of illustrated profiles and is also praised by Napoleon as 'truly the bravest of the brave'?",
+    "answer": "Marshal Ney.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      68,
+      36
+    ],
+    "reasoning_chain": "Step 1: Slice 68’s illustrated lineup labels Marshal Ney as 'Bravest of the Brave.' Step 2: Slice 36 includes Napoleon’s quote calling Michel Ney 'truly the bravest of the brave.' Conclusion: Both segments identify Ney with the same superlative.",
+    "logic_check_reasoning": "Step 1: Slice 68 lists Marshal Ney in the illustrated lineup and explicitly labels him 'Bravest of the Brave.' Step 2: Slice 36 centers on Michel Ney and includes Napoleon’s quote calling him 'truly the bravest of the brave.' Logic holds because both references clearly identify the same marshal, Michel Ney, with consistent 'bravest' language.",
+    "visual_proof": "In Clip 1, the illustrated profile for 'MARSHAL NEY' is explicitly labeled with the title 'Bravest of the Brave'. In Clip 2, a biographical page for 'MICHEL NEY' displays a quote attributed to Napoleon: 'What a soldier! The army is full of brave men, but Michel Ney is truly the bravest of the brave.' Both pieces of visual evidence directly and consistently identify Marshal Ney as the subject of this specific praise."
+  },
+  {
+    "question": "Which segment introduces the symbolic marshal’s baton with the paired mottos about war and peace, and which later credits explicitly mention using a marshal’s baton as an image source?",
+    "answer": "The opening baton-and-motto segment; the credits later mention a marshal’s baton image source.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      70
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows the ceremonial baton with mottos 'Terror Belli' and 'Decus Pacis' (terror in war / ornament in peace). Step 2: Slice 70 credits mention the use of a 'Marshal’s baton' as an image source. Conclusion: The baton motif is introduced at the start and referenced again in production credits.",
+    "logic_check_reasoning": "Step 1: Slice 1 describes the video opening with a ceremonial baton and the mottos 'Terror Belli'/'Decus Pacis' and their translations, clearly introducing the symbolic marshal’s baton with paired war/peace mottos. Step 2: Slice 70 (credits) explicitly lists 'Marshal's baton by Rama CY BY SA 2.0 Fr.' under images, indicating the later credits mention using a marshal’s baton as an image source. Logic holds because the answer identifies the opening segment for the baton introduction and the credits for the baton image source mention.",
+    "visual_proof": "Clip 1 (0:06-0:20) visually introduces the blue marshal's baton with gold stars and inscriptions, accompanied by the on-screen text 'Terror in War' and 'Ornament in Peace'. Clip 2 (0:00-0:03) displays the credits, where under the 'IMAGES' section, the last line explicitly reads 'Marshal’s baton by Rama CY BY SA 2.0 Fr', confirming its use as a source."
+  },
+  {
+    "question": "Which marshal is linked to the Battle of Elchingen by both a titled honor and a battle depiction, and which later Saxony map segment shows him associated with another 1813 battle (Dennewitz)?",
+    "answer": "Marshal Ney; later he is linked to Dennewitz on the Saxony map segment.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      22,
+      28,
+      41
+    ],
+    "reasoning_chain": "Step 1: Slice 22 shows the Battle of Elchingen painting. Step 2: Slice 28 identifies Marshal Ney with the title Duke of Elchingen. Step 3: Slice 41 shows a Saxony map and a painting for the Battle of Dennewitz (Sept 6, 1813) with Ney labeled. Conclusion: Ney is connected to Elchingen (title + battle) and later appears tied to Dennewitz in 1813.",
+    "logic_check_reasoning": "Step 1: Slice 22 depicts the Battle of Elchingen, serving as the battle depiction. Step 2: Slice 28 explicitly identifies \"Marshal Ney, the Duke of Elchingen,\" linking Ney to Elchingen by titled honor. Step 3: Slice 41 shows a map of Saxony with an image labeled \"Marshal Ney\" and then zooms to a painting of the Battle of Dennewitz (1813), associating Ney with that battle. Logic holds because the titled honor and battle depiction link Ney to Elchingen, and the Saxony map segment connects him to Dennewitz.",
+    "visual_proof": "Clip 1 visually depicts the Battle of Elchingen (14th October 1805). Clip 2 provides a biography for 'MICHEL NEY' and explicitly lists 'Duke of Elchingen 1808' under his titles, directly linking him to that battle. Clip 3 shows a map of Saxony with a portrait of Marshal Ney labeled as 'Commander, Army of Berlin,' positioned near the marker for the 'Battle of Dennewitz 6th September 1813,' confirming his association with that 1813 battle."
+  },
+  {
+    "question": "Which marshal is praised by Napoleon as crucial to conquering and holding Spain, and which later map-based segment visually supports this by showing campaigns in Spain?",
+    "answer": "Marshal Suchet; the later Spain campaign maps support this (showing Peninsular War movements).",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      9,
+      12
+    ],
+    "reasoning_chain": "Step 1: Slice 9 shows Napoleon’s quote praising Suchet as key to conquering and keeping Spain. Step 2: Slice 12 shows detailed maps of Spain during the Peninsular War with troop movements and key cities. Conclusion: The praised marshal is Suchet, and the Spain campaign mapping visually supports the claim.",
+    "logic_check_reasoning": "Step 1: Slice 9 explicitly presents '6. Marshal Suchet' and includes Napoleon's quote praising Suchet as key to conquering and holding Spain. Step 2: Slice 12 describes a later segment with maps illustrating the Peninsular War in Spain, showing troop movements and key locations like Madrid, Zaragoza, and Barcelona. Logic holds because the first slice identifies the praised marshal and the second slice visually supports the Spain campaigns referenced in the quote.",
+    "visual_proof": "Clip 1 opens with a portrait of Marshal Suchet and a direct quote from Napoleon praising him for conquering and keeping Spain. Clip 2 then displays multiple animated maps of the Iberian Peninsula, specifically detailing troop movements and battles in Spain (e.g., Zaragoza, Valencia, Alcañiz) under French command, visually confirming his role in the Peninsular War campaigns."
+  },
+  {
+    "question": "A VPN advertisement interrupts the historical narrative; what modern product is advertised, and after the ad ends which marshal is introduced next with a numbered portrait card?",
+    "answer": "Surfshark is advertised; afterward Marshal Suchet is introduced as a numbered marshal card.",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      9
+    ],
+    "reasoning_chain": "Step 1: Slice 8 is a Surfshark VPN advertisement (servers, devices, discount code). Step 2: Slice 9 resumes the historical series with the numbered portrait card '6. Marshal Suchet.' Conclusion: The ad is Surfshark, and the next marshal introduced afterward is Suchet.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 8 explicitly states the video is an advertisement for Surfshark, a VPN, confirming the modern product advertised is Surfshark. Step 2: Evidence Slice 9 shows a portrait card labeled '6. Marshal Suchet' with accompanying text and a Napoleon quote, indicating the next marshal introduced after the ad is Marshal Suchet. Logic holds because Slice 8 presents the ad interruption and Slice 9 immediately details the next numbered marshal card.",
+    "visual_proof": "Clip 1 (0:00-0:13) clearly displays the Surfshark logo and product features, confirming it's a VPN advertisement. Clip 2 (0:00-0:03) immediately follows with a black screen showing '6. Marshal Suchet' and his portrait, indicating he is the next marshal introduced after the ad."
+  },
+  {
+    "question": "Which marshal is criticized by Napoleon as a pillager, and which later Iberian segment supports this characterization by highlighting a valuable artwork looted during the Spanish campaign?",
+    "answer": "Marshal Soult; the later segment highlights a Zurbarán painting looted by him.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      50,
+      59,
+      63
+    ],
+    "reasoning_chain": "Step 1: Slice 50 shows Napoleon’s quote accusing Soult of being the greatest pillager. Step 2: Slice 59 explicitly notes Soult looted Zurbarán’s 'Saint Apollonia' and discusses its value. Step 3: Slice 63 reiterates Soult’s command role in Spain, providing campaign context. Conclusion: Soult is the pillager, and the looted artwork segment supports the accusation.",
+    "logic_check_reasoning": "Step 1: Slice 50 explicitly shows '4. Marshal Soult' with a quote attributed to Napoleon stating Soult was 'the greatest pillager of them all,' confirming the marshal criticized as a pillager. Step 2: Slice 59 focuses on the Iberian (Spain) campaigns and specifically notes that Soult looted Francisco de Zurbarán’s painting 'Saint Apollonia' during his Spanish campaign, thereby supporting the pillager characterization with a concrete example of valuable artwork looted. Logic holds because both slices reference Soult and the later Iberian segment provides corroborating evidence of his looting.",
+    "visual_proof": "Clip 1 (0:02) explicitly shows Napoleon's quote criticizing 'Soult' as 'the greatest pillager of them all.' Clip 2 (0:13-0:15) visually supports this by displaying a painting titled 'Saint Apollonia' by Francisco de Zurbarán, with text directly stating '(LOOTED BY SOULT)' and providing its monetary value, linking his pillaging to the looting of specific valuable art during the Iberian campaign."
+  },
+  {
+    "question": "Which marshal is shown as Commander of French forces in Spain, and which two later battle segments depict engagements near the Pyrenees/France border that align with that long campaign’s endgame?",
+    "answer": "Marshal Soult; the battles depicted are Sorauren (1813) and Orthez (1814).",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      63,
+      64,
+      65
+    ],
+    "reasoning_chain": "Step 1: Slice 63 identifies Soult as 'Commander of French forces in Spain.' Step 2: Slice 64 shows the Battle of Sorauren (28 July 1813) and then Orthez (27 Feb 1814) near the France-Spain theater. Step 3: Slice 65 continues the late-period political/military context (Restoration and Napoleon’s return), consistent with the campaign’s end phase. Conclusion: Soult is the commander, and Sorauren/Orthez visualize late Peninsular War fighting toward France.",
+    "logic_check_reasoning": "Step 1: Slice 63 explicitly states that the on-screen text identifies 'Marshal Soult, Commander of French forces in Spain,' satisfying the first part of the question. Step 2: Slice 64 shows later battle segments with paintings and dates for the Battle of Sorauren (28 July 1813) and the Battle of Orthez (27 February 1814). Step 3: Slice 64’s map highlights locations near the Pyrenees/France border (e.g., Bayonne, San Sebastian) and ties these engagements to the late phase of the campaign, aligning with the question’s description of the endgame. Therefore, the context fully supports the proposed answer.",
+    "visual_proof": "Clip 1 explicitly identifies 'Marshal Soult' as 'Commander, French forces in Spain' alongside a map showing the Battle of Vitoria. Clip 2 visually confirms the 'Battle of Sorauren, 28th July 1813' on a map near Bayonne, with portraits of Wellington and Soult. Clip 3 then shows the 'Battle of Orthez, 27th February 1814' on a map near Toulouse, again featuring Soult's portrait. The geographical locations (Sorauren near Bayonne, Orthez near Toulouse) are consistent with the Pyrenees/France border region, marking the endgame of the Peninsular War campaign."
+  },
+  {
+    "question": "Across different parts of the video, which marshal is linked to both the Battle of Hohenlinden and the Battle of Friedland through biography-style text and also appears as a battlefield map depiction for Friedland?",
+    "answer": "Marshal Ney.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      18,
+      20,
+      27,
+      17
+    ],
+    "reasoning_chain": "Step 1: Slice 18 highlights Ney’s distinguished performance at Hohenlinden and mentions Friedland among his major battles. Step 2: Slice 20 again lists Ney’s roles in battles including Hohenlinden and Friedland in a biographical slide. Step 3: Slice 27 depicts an animated map of the Battle of Friedland (June 14, 1807). Step 4: Slice 17 provides a dedicated Ney biography panel anchoring the same person across segments. Conclusion: Ney is the marshal tied to Hohenlinden and Friedland in text, and Friedland is also shown as a dedicated map.",
+    "logic_check_reasoning": "Step 1: Slice 20 shows biography-style slides of Michel Ney that explicitly mention his roles in both Hohenlinden and Friedland. Step 2: Slice 18 also provides a detailed profile of Michel Ney, highlighting his distinguished performance at Hohenlinden and listing Friedland among his major battles. Step 3: Slice 17 confirms Ney is a Marshal of France. Step 4: Slice 27 presents a battlefield map depiction of the Battle of Friedland. Step 5: Therefore, across different parts of the video, the marshal linked to both battles via biography-style text and also associated with the Friedland battlefield map is Michel (Marshal) Ney.",
+    "visual_proof": "Clip 1 (0:07-0:09) displays a biography for 'MICHEL NEY' on the left, listing 'Hohenlinden 1800' and 'Friedland 1807' under 'Major Battle Honours'. Clip 3 (0:00-0:02) shows a map of the 'Battle of Friedland 14th June 1807', with a portrait icon labeled 'NEY' positioned among the French forces. This confirms Marshal Ney is linked to both battles via text and appears on the Friedland map."
+  }
+]

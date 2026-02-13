@@ -1,0 +1,142 @@
+[
+    {
+        "question": "Which animals are seen along the rural path early on, and which different animals appear later behind metal grids and in a wooden shed?",
+        "answer": "Early: cows, sheep, and goats; later: calves (one black and one brown).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the man walking past cows and also mentions sheep and goats. Step 2: Slice 30 shows a black calf behind a metal grid and a brown calf in a wooden structure. Conclusion: The early animals are cows/sheep/goats, and later animals are calves.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes the early part of the video where a man walks along a rural path and passes cows, as well as more animals such as sheep and goats. Step 2: Slice 30 describes later scenes showing a black calf behind a metal grid and a brown calf in a rustic wooden structure/shed. Logic holds because the early animals (cows, sheep, goats) match Slice 2, and the later animals (calves, one black and one brown, in the specified enclosures) match Slice 30.",
+        "visual_proof": "In Clip 1, a man is seen walking along a rural path with several cows, including a white one and a brown one, followed by a large flock of sheep and goats. In Clip 2, two calves are shown in separate enclosures: one black calf behind metal grid fencing and one brown calf inside a wooden shed with stone walls."
+    },
+    {
+        "question": "Two separate moments show a man physically comforting or guiding a boy. What are the two different gestures the man uses?",
+        "answer": "He puts a hand on the boy’s shoulder in one moment and places a hand on the boy’s head in another.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows an adult male bending down and placing his hand on the boy’s shoulder. Step 2: Slice 17 shows a man placing his hand gently on the boy’s head. Conclusion: The gestures are shoulder touch and head touch.",
+        "logic_check_reasoning": "Step 1: Slice 7 explicitly states the adult male \"places his hand gently on the boy’s shoulder,\" indicating a comforting/guiding gesture. Step 2: Slice 17 explicitly states the man is \"placing his hand gently on the boy's head,\" another distinct comforting gesture. Logic holds because both slices describe similar characters and setting (outdoor, lush greenery; boy in black with green accents; man in dark outerwear), and they each clearly document different physical gestures—shoulder touch vs. head touch—across separate moments.",
+        "visual_proof": "In Video 1 (0:10-0:11), the man is seen placing his hand firmly on the boy's shoulder while leaning over him. In Video 2 (0:06-0:07), the same man is shown gently placing his hand on top of the boy's head in a comforting gesture."
+    },
+    {
+        "question": "A formally dressed older man appears near a stone wall earlier and then is seen later walking away with another man. What distinctive clothing item helps identify him across both scenes?",
+        "answer": "His purple suit jacket.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows an elderly man wearing a purple suit jacket by a stone wall. Step 2: Slice 24 shows two men walking, including one in a purple suit jacket. Conclusion: The purple suit jacket links the same person.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes an elderly man near a stone wall wearing a purple suit jacket. Step 2: Slice 24 shows a man with gray hair walking away with another man, and he is also wearing a purple suit jacket. Logic holds because the purple suit jacket is explicitly mentioned in both scenes, identifying the same older man across them.",
+        "visual_proof": "In Video 1, the older man is clearly visible wearing a distinct purple suit jacket while seated near a stone wall. In Video 2, the same man is seen walking away from the camera, and he is still wearing the identical purple suit jacket, which serves as a consistent visual identifier across both scenes."
+    },
+    {
+        "question": "Before the pot contains onions and carrots being stirred, what earlier step shows fuel being prepared for the outdoor cooking setup?",
+        "answer": "A person tends the campfire by placing and adjusting wood in the fire pit.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows someone adding/adjusting wood in an active fire pit. Step 2: Slice 45 shows a pot over an open fire with onions and carrots being stirred. Conclusion: Preparing and maintaining the firewood enables cooking the vegetables.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a pot with onions and carrots being stirred over an open fire, indicating the cooking phase. Step 2: Slice 40 describes a person tending a campfire by placing and adjusting wood and embers in a fire pit, which constitutes preparing the fuel for the cooking setup. Logic holds because the earlier action of arranging wood in the fire directly supports the later scene of cooking over that fire.",
+        "visual_proof": "In Video 1, a person is shown crouching next to a fire pit with a metal grate. They are actively placing and adjusting pieces of split wood onto the existing embers and small flames, which is the preparation of fuel for cooking. This action occurs before the scene in Video 2, where the pot with onions and carrots is already being stirred over the established fire."
+    },
+    {
+        "question": "A dessert-like pastry dish is shown at a meal, and later an outdoor feast includes fruit and drinks for children. Name one sweet or fresh item from each meal scene.",
+        "answer": "Pastry (baklava-like) from the indoor/semi-outdoor meal, and watermelon slices from the outdoor feast.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows a pastry dish garnished with nuts and syrup. Step 2: Slice 89 shows an outdoor table with fruits including watermelon. Conclusion: Pastry and watermelon are representative items from each.",
+        "logic_check_reasoning": "Step 1: Slice 32 describes a plate with a traditional Middle Eastern dessert-like pastry, possibly baklava, garnished with nuts and syrup—supporting 'Pastry (baklava-like)'. Step 2: Slice 89 explicitly mentions plates of fresh fruits like watermelon slices at an outdoor feast—supporting 'watermelon slices'. The answer names one sweet item from the first scene and one fresh item from the second, both directly supported by the captions.",
+        "visual_proof": "Clip 1 shows a close-up of golden-brown, layered pastries on a yellow plate, consistent with baklava or a similar dessert. Clip 2 shows an outdoor table with children, where a bowl of sliced red fruit, identifiable as watermelon, is clearly visible next to other dishes."
+    },
+    {
+        "question": "A stone wall appears repeatedly during social moments. Identify three different contexts in which the stone wall is used: a speaker, a sitting reflection, and a group movement.",
+        "answer": "An elderly man speaks/gestures by the stone wall; a suited man sits contemplatively beside the stone wall; later a group stands and then walks along a path near the stone wall.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            13,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows an elderly man in a purple jacket speaking in front of a stone wall. Step 2: Slice 13 shows a suited man sitting by a stone wall in contemplation. Step 3: Slice 18 shows people by the stone wall and later walking along a path. Conclusion: The wall frames speech, reflection, and group movement.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows an elderly man standing in front of a stone wall, appearing to speak/gesture, supporting the 'speaker' context. Step 2: Slice 13 shows a formally dressed man sitting contemplatively beside a stone wall, supporting the 'sitting reflection' context. Step 3: Slice 18 shows a group standing in front of a stone wall and then walking along a path, supporting the 'group movement' context. The descriptions align with the proposed answer's three contexts.",
+        "visual_proof": "Clip 1 shows an elderly man speaking with expressive gestures next to the stone wall. Clip 2 shows a man in a suit sitting on the grass beside the same stone wall, appearing reflective. Clip 3 shows the same men standing together and then walking away from the camera along a path adjacent to the stone wall, confirming group movement."
+    },
+    {
+        "question": "After the traveler is shown admiring a purple wildflower in a meadow, what numbered box appears later in a similar grassy area, and what type of box is it?",
+        "answer": "A white beehive box labeled with the number 3.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a close-up of a purple wildflower in tall grass. Step 2: Slice 21 shows tall grass with purple flowers and then a white beehive box marked '3'. Conclusion: The later object is a beehive box numbered 3.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the traveler in a meadow and includes a close-up of a purple wildflower he admires. Step 2: Slice 21 describes a later scene in a grassy area where a white beehive box with the number \"3\" painted on it is revealed. Logic holds because both slices depict similar grassy, natural settings, and Slice 21 explicitly identifies the box type and its number.",
+        "visual_proof": "In Video 1, a man is shown walking through a meadow filled with purple wildflowers. In Video 2, which follows in the same grassy, flower-filled environment, a white wooden box clearly labeled with the number '3' is visible among the tall grass and flowers. The structure and context strongly indicate it is a beehive box."
+    },
+    {
+        "question": "Connect the berry storyline with the tea ritual: where is a ripe strawberry first shown growing, where is it picked, where is it eaten, and how does it reappear during tea time?",
+        "answer": "It’s first shown growing among rocks, then picked by hand, then eaten by the man, and later strawberries reappear in a basket shared during tea time.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            72,
+            74,
+            75,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 72 shows a ripe red strawberry growing among rocks. Step 2: Slice 74 shows a hand picking wild strawberries. Step 3: Slice 75 shows the man holding berries and eating one. Step 4: Slice 77 shows a basket of strawberries presented during tea with a child. Conclusion: Foraging leads to eating and later sharing strawberries at tea.",
+        "logic_check_reasoning": "Step 1: Slice 72 explicitly shows a ripe strawberry growing among rocks. Step 2: Slice 74 shows a hand carefully picking a strawberry from the wild patch among rocks/grass, confirming it is picked by hand. Step 3: Slice 75 shows a man eating one of the small red berries he has gathered, aligning with the berry being eaten. Step 4: Slice 77 shows strawberries reappearing in a woven basket during a tea ritual, being offered and shared, which matches the reappearance during tea time.",
+        "visual_proof": "Clip 1 (0:06-0:08) shows a ripe strawberry growing between rocks. Clip 2 (0:00-0:02) shows a hand picking the berry from the same rocky ground. Clip 3 (0:03) shows the man eating the berry. Clip 4 (0:03-0:05) shows the man presenting a basket of strawberries to a boy during their tea ritual."
+    },
+    {
+        "question": "A time jump implies a long cooking process, and later a roasted lamb is removed and served to a crowd. What on-screen cue indicates the long duration, and what food outcome is shown afterward?",
+        "answer": "The cue is the text '4 HOURS LATER,' and afterward a roasted lamb is removed from an underground pit and served.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            85,
+            88,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 85 displays '4 HOURS LATER' while people work around a pot. Step 2: Slice 88 shows a roasted lamb being lifted from a stone oven and carved. Step 3: Slice 89 shows the meat being distributed at an outdoor table. Conclusion: The time jump precedes the finished roast and communal serving.",
+        "logic_check_reasoning": "Step 1: Slice 85 explicitly states the on-screen text '4 HOURS LATER,' indicating a significant passage of time and a prolonged activity. Step 2: Slice 88 describes a roasted lamb being lifted from a stone oven and then carved and served to children and adults, confirming the food outcome. Step 3: Slice 89 further supports the serving to a crowd, showing children and adults enjoying the meal. Logic holds because the time cue precedes the depiction of the roasted lamb being removed and served, matching the proposed answer.",
+        "original_text_answer": "The cue is the text '4 HOURS LATER,' and afterward a roasted lamb is removed from a stone oven and served.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the on-screen text '4 HOURS LATER' at 0:01. Clip 2 visually confirms the food outcome: at 0:03, a roasted lamb is being pulled out of a circular, earthen/underground pit using a rope, not a stone oven. The subsequent scenes show this same lamb being carved and served to a crowd."
+    },
+    {
+        "question": "Track the older man in the purple jacket through the video: where is he first featured, where is he later seen sitting with others, and where is he later walking with another man?",
+        "answer": "He is first featured speaking by a stone wall, later sits on the grass with others (including a boy and another man), and later walks down a grassy path near trees with another man.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            12,
+            16,
+            18,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows an elderly man in a purple suit jacket speaking/gesturing by a stone wall. Step 2: Slice 16 shows a man in a purple jacket sitting on grass with a boy and another man, all holding sticks. Step 3: Slice 18 shows a group by a stone wall and then walking along a path (continuation of group movement). Step 4: Slice 24 shows two men walking together, including the man in the purple jacket. Conclusion: The purple-jacketed man appears across multiple social contexts and locations.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows an elderly man with gray hair wearing a purple suit jacket in front of a stone wall, appearing to speak/gesture. Step 2: Slice 16 shows three people sitting on grass in front of a stone wall; the man on the right wears a purple jacket, and they are with a boy and another man, matching the described scene. Step 3: Slice 24 shows two men walking down a street, with the man on the right wearing a purple suit jacket and having gray hair, matching the older man walking with another man. The clothing and setting consistently link the same individual across slices.",
+        "original_text_answer": "He is first featured speaking by a stone wall, later sits on the grass with others (including a boy and another man), and later walks down a street with another man.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the older man in the purple jacket speaking by a stone wall. Clip 2 shows him sitting on the grass with a boy and another man, all leaning against the same stone wall. Clip 4 shows him walking away from the camera down a grassy, tree-lined path alongside another man, not a paved street."
+    }
+]

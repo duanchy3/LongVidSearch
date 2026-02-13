@@ -1,0 +1,54 @@
+[
+    {
+        "question": "Which expert who argues that tightening policy in Japan is likely a mistake later appears while the show discusses Sino-Ocean’s expected FY2023 loss?",
+        "answer": "Kyle Rodda.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 8 identifies Kyle Rodda and quotes his view that tightening policy in Japan is likely a mistake. Step 2: Slice 13 shows the panel discussing Sino-Ocean’s expected loss while Kyle Rodda is again present. Conclusion: it is Kyle Rodda.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly states that Kyle Rodda, identified as a Senior Market Analyst, is discussing Japan’s monetary policy with the overlay 'RODDA: TIGHTENING POLICY IN JAPAN IS QUITE LIKELY A MISTAKE,' establishing him as the expert making that argument. Step 2: Slice 13 shows a panel including Kyle Rodda, and the lower third indicates a discussion shifting to Sino-Ocean Group’s expected FY2023 loss. Logic holds because the same named expert (Kyle Rodda) is present during the later segment discussing Sino-Ocean’s expected FY2023 loss.",
+        "visual_proof": "In Clip 1, the on-screen text identifies Kyle Rodda and states his opinion: 'RODDA: TIGHTENING POLICY IN JAPAN IS QUITE LIKELY A MISTAKE'. In Clip 2, the same individual, Kyle Rodda, is shown in a three-way split screen discussing Sino-Ocean's FY loss, with the chyron reading 'SINO-OCEAN SEES FY LOSS ATTRIBUTABLE...'. The visual continuity of the person and the context provided by the chyrons confirm that Kyle Rodda is the expert who appears in both segments."
+    },
+    {
+        "question": "In the Evergrande coverage, the show first focuses on a specific place named after the company and later shows on-the-ground imagery of unfinished projects. What is the named place, and what kind of imagery follows later?",
+        "answer": "Evergrande Plaza, followed later by shots of construction sites and unfinished buildings.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 17 highlights the sign for 'Evergrande Plaza.' Step 2: Slice 31 shows an unfinished construction site while the Evergrande scandal headline runs. Conclusion: Evergrande Plaza is followed by unfinished construction imagery.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows a sign for 'Evergrande Plaza,' clearly identifying a place named after the company. Step 2: Slice 31 depicts a static shot of an urban construction site with a partially constructed, unfinished building. Logic holds because the first focus is on 'Evergrande Plaza,' and later imagery shows unfinished construction sites, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows a sign with the text '恒大国际广场' and 'EVERGRANDE PLAZA', identifying the named place. Clip 2 shows exposed concrete frames and rebar of an unfinished building under construction, confirming the on-the-ground imagery of incomplete projects."
+    },
+    {
+        "question": "Which anchor in a red top later presents the Hong Kong security-law segment after having earlier participated in an Evergrande panel discussion?",
+        "answer": "Annabelle Droulers.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows Annabelle Droulers on an Evergrande discussion panel. Step 2: Slice 65 shows Annabelle Droulers in a red top introducing the Hong Kong segment ('HK SECURITY LAW NEARS VOTE'). Conclusion: the anchor is Annabelle Droulers.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 39 identifies Annabelle Droulers as one of the participants in a panel discussing Evergrande, with her name shown and described as wearing a pink top. Step 2: Evidence Slice 65 shows Annabelle Droulers as a news anchor, wearing a red top, presenting a segment titled 'HK SECURITY LAW NEARS VOTE.' Logic holds because the same named individual (Annabelle Droulers) is first part of the Evergrande discussion and later appears as the anchor in a red top for the Hong Kong security-law segment.",
+        "visual_proof": "In Clip 1, Annabelle Droulers is visibly present in the three-person panel discussing Evergrande, wearing a red top. In Clip 2, the same individual, identified by on-screen text as 'ANNABELLE DROULERS', is shown alone presenting a segment titled 'HK SECURITY LAW NEARS VOTE', also wearing the same red top. This confirms she participated in the earlier panel and later presented the Hong Kong security-law segment."
+    },
+    {
+        "question": "Which U.S. political headline appears after the segment showing smoke from a Russian refinery incident?",
+        "answer": "“BIDEN WARNS NETANYAHU OVER RAFAH.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            61,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows smoke at an industrial site in Ryazan and mentions drone impacts on refining capacity. Step 2: Slice 63 switches to U.S./Israel coverage with the headline 'BIDEN WARNS NETANYAHU OVER RAFAH.' Conclusion: that is the subsequent political headline.",
+        "logic_check_reasoning": "Step 1: Slice 61 describes a news segment showing smoke from a Russian refinery incident, indicating it's part of a larger broadcast. Step 2: Slice 63 presents a subsequent news segment featuring President Biden and PM Netanyahu, with the text overlay 'BIDEN WARNS NETANYAHU OVER RAFAH.' Step 3: The question asks which U.S. political headline appears after the refinery segment; the only U.S.-focused headline provided is 'BIDEN WARNS NETANYAHU OVER RAFAH,' so the proposed answer aligns with the context.",
+        "visual_proof": "Clip 1 ends with a headline about Ukrainian drones shutting down Russian refining. Clip 2 immediately follows with a split-screen of Biden and Netanyahu, overlaid with the headline 'BIDEN WARNS NETANYAHU OVER RAFAH,' confirming this is the next U.S. political headline shown."
+    }
+]

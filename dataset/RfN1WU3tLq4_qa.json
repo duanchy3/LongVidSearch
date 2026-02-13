@@ -1,0 +1,135 @@
+[
+  {
+    "question": "A punk-related censorship discussion appears, and later a headline about legal advertising appears. What topic is being opposed in the punk segment, and what later legal change is mentioned?",
+    "answer": "The punk segment opposes censorship/bans of music and media, and the later legal change mentioned is that lawyers were allowed to advertise (Jan 27th, 1977).",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      31,
+      35
+    ],
+    "reasoning_chain": "Step 1: Slice 31 shows a studio discussion and a poster listing institutions crossed out, representing censorship/bans. Step 2: Slice 35 shows a TV news item about “lawyers being allowed to advertise” dated Jan 27th, 1977. Conclusion: The montage contrasts censorship with a legal shift toward allowing advertising.",
+    "logic_check_reasoning": "Step 1: Slice 31 describes a studio scene with punk/rock figures and a censorship poster listing bans by entities like BBC Radio One, W.H. Smith, and mentions MPs establishing censorship laws, emphasizing defiance against restrictions. This supports that the punk segment opposes censorship/bans of music and media. Step 2: Slice 35 explicitly shows an old TV set with a headline stating lawyers were allowed to advertise on January 27, 1977. This directly supports the later legal change mentioned. Logic holds because both elements are clearly stated in the respective slices.",
+    "visual_proof": "Clip 1 visually shows a poster with 'BBC RADIO ONE', 'TOP OF THE POPS', 'IBA', and other entities crossed out with 'Banned' notices, indicating opposition to censorship of punk music. Clip 2 shows a retro TV screen displaying the headline 'Lawyers Allowed to Advertise' with the date 'Jun. 27th 1977', directly referencing the legal change."
+  },
+  {
+    "question": "A treaty-signing milestone is shown on a retro TV, and elsewhere the montage includes protest imagery about the same issue. What treaties are being signed, and what is the protest slogan shown in the collage?",
+    "answer": "The treaties are the Panama Canal Treaties, and the protest slogan shown is “KEEP OUR CANAL.”",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      60,
+      61
+    ],
+    "reasoning_chain": "Step 1: Slice 60 shows “Panama Canal Treaties Signed” dated Sept 7th, 1977. Step 2: Slice 61 shows a collage including protest imagery with the slogan “KEEP OUR CANAL.” Conclusion: The treaties relate to the canal and the protests explicitly reference keeping it.",
+    "logic_check_reasoning": "Step 1: Slice 60 explicitly states that the TV screen shows a news broadcast with the text overlay 'Panama Canal Treaties Signed' dated September 7, 1977, confirming the treaties being signed. Step 2: Slice 61 describes a collage of protest images and slogans, explicitly including 'KEEP OUR CANAL.' Logic holds because the protest imagery is about the same issue (the Panama Canal), and both slices directly provide the treaty name and the protest slogan.",
+    "visual_proof": "Clip 1 shows a retro TV with on-screen text explicitly stating 'Panama Canal Treaties Signed Sep. 7th 1977'. Clip 2 displays a black-and-white photo of a protest where a large banner clearly reads 'KEEP OUR CANAL'."
+  },
+  {
+    "question": "Which two different dated retro-TV panels mark major institutional or technology milestones later in the year, and what are those milestones?",
+    "answer": "They are the establishment of the U.S. Department of Energy (Aug 4th, 1977) and the release of the Atari 2600 (Sept 11th, 1977).",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      47,
+      65
+    ],
+    "reasoning_chain": "Step 1: Slice 47 shows “Department of Energy Established Aug. 4th 1977” on a retro TV. Step 2: Slice 65 shows “Atari 2600” with date “Sept 11th, 1977” also on a retro TV. Conclusion: Both are late-1977 milestone panels: an institution and a consumer technology release.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 47 explicitly shows a retro TV with an overlay reading “Department of Energy Established” and the date “Aug. 4th 1977,” marking an institutional milestone. Step 2: Evidence Slice 65 (Scene 3) describes a vintage TV showing an advertisement for the Atari 2600 with the release date “Sept 11th, 1977,” marking a technology milestone. Step 3: Both are dated retro-TV panels and both dates are later in the year 1977. The proposed answer lists these exact panels and milestones.",
+    "visual_proof": "Clip 1 shows a retro TV displaying a man signing a document with text overlay reading 'Department of Energy Established Aug. 4th 1977'. Clip 2 shows another retro TV panel displaying an image of the Atari 2600 console with text overlay reading 'Atari 2600 Released Sep. 11th 1977'. Both milestones are explicitly labeled with their respective dates on-screen."
+  },
+  {
+    "question": "A major diplomatic milestone is shown first as a formal signing, then as public debate imagery, and later as a Spanish-labeled podium event. What is the diplomatic milestone, what protest phrase appears, and what two podium labels identify the countries involved?",
+    "answer": "It’s the Panama Canal Treaties, the protest phrase is “KEEP OUR CANAL,” and the podium labels are “Estados Unidos” and “Panama.”",
+    "category": "Visual_Tracking",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      60,
+      61,
+      62
+    ],
+    "reasoning_chain": "Step 1: Slice 60 shows “Panama Canal Treaties Signed” on a retro TV. Step 2: Slice 61 shows protest/cartoon imagery including “KEEP OUR CANAL.” Step 3: Slice 62 shows a formal event with podiums labeled “Estados Unidos” and “Panama.” Conclusion: These segments all refer to the canal treaties and the U.S.–Panama context.",
+    "logic_check_reasoning": "Step 1: Slice 60 explicitly shows a TV broadcast with the text 'Panama Canal Treaties Signed' dated September 7, 1977, confirming the diplomatic milestone. Step 2: Slice 61 describes protest imagery with slogans, including 'KEEP OUR CANAL,' providing the protest phrase. Step 3: Slice 62 depicts a formal event with two podiums labeled 'Estados Unidos' and 'Panama,' identifying the countries involved. The sequence aligns with the question's description: signing, public debate imagery, and Spanish-labeled podium event.",
+    "visual_proof": "Clip 1 shows a TV screen with text identifying the event as 'Panama Canal Treaties Signed' on Sept. 7th 1977. Clip 2 displays a black-and-white protest scene with a large banner reading 'KEEP OUR CANAL'. Clip 3 features two men at podiums labeled 'ESTADOS UNIDOS' and 'PANAMA' during the signing ceremony."
+  },
+  {
+    "question": "Which two separate segments show the same call-to-action text, and what additional word appears alongside it in the later ending screen?",
+    "answer": "The call-to-action “SUBSCRIBE” appears in both an earlier promo-like segment and the ending screen; in the later ending screen it appears with the word “TIMELINE.”",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      76
+    ],
+    "reasoning_chain": "Step 1: Slice 3 shows the large bold text “SUBSCRIBE.” Step 2: Slice 76 shows “SUBSCRIBE” again and also includes the smaller text “TIMELINE.” Conclusion: The recurring call-to-action is “SUBSCRIBE,” and the later screen adds “TIMELINE.”",
+    "logic_check_reasoning": "Step 1: Slice 3 states the video begins with a close-up and prominently displays the word 'SUBSCRIBE' in large yellow letters, suggesting a promotional segment. Step 2: Slice 76 describes the final scene featuring 'SUBSCRIBE' in bold yellow letters and explicitly notes smaller text 'TIMELINE' below it. Logic holds because these are two separate segments (early and ending) showing the same call-to-action, and the later ending screen includes the additional word 'TIMELINE.'",
+    "visual_proof": "In Video 1 (0:01-0:04), the word 'SUBSCRIBE' is displayed prominently over a scene of hands typing. In Video 2, the same 'SUBSCRIBE' text reappears at 0:15-0:17, overlaid on a montage, and directly below it, the word 'TIMELINE' is clearly visible in a smaller box."
+  },
+  {
+    "question": "Which author is explicitly identified in the legal-services-themed montage, and which book title appears later when the focus shifts to that author’s work?",
+    "answer": "The author is Vladimir Nabokov, and the book title later shown is “Lolita.”",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      37,
+      38
+    ],
+    "reasoning_chain": "Step 1: Slice 37 explicitly labels “Vladimir Nabokov Author.” Step 2: Slice 38 shows a book titled “Lolita” and continues the author-focused imagery. Conclusion: The identified author is Nabokov and the later featured book is “Lolita.”",
+    "logic_check_reasoning": "Step 1: Slice 37 explicitly states that the final scene identifies the man as 'Vladimir Nabokov Author' within the legal-services-themed montage. Step 2: Slice 38 later shows a book titled 'Lolita' by Vladimir Nabokov when the focus shifts to the author’s work. The two slices align logically, supporting the proposed answer.",
+    "visual_proof": "In Clip 1, at 0:14-0:15, a title card explicitly identifies 'Vladimir Nabokov' as 'Author'. In Clip 2, at 0:02, a clear image of the book cover for 'LOLITA' by 'VLADIMIR NABOKOV' is displayed. This directly links the identified author to the specific book title."
+  },
+  {
+    "question": "Across the montage, one topic shifts from government mind-control revelations to a specific CIA program document. What is the initial revelation headline, and what program name is shown later in a document title?",
+    "answer": "The initial revelation is “CIA Reveal Mind Control Experiments” (Jul. 15th 1977), and the program later shown is “Project MKULTRA.”",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      44,
+      46
+    ],
+    "reasoning_chain": "Step 1: Slice 44 shows a TV headline about CIA mind control experiments. Step 2: Slice 46 shows a document titled “Project MKULTRA, Subproject 6.” Conclusion: The montage moves from a public reveal to detailed MKULTRA documentation.",
+    "logic_check_reasoning": "Step 1: Slice 44 describes a vintage TV screen showing the headline 'CIA Reveal Mind Control Experiments' with the date 'Jul 19th 1977.' Step 2: Slice 46 mentions a document titled 'Project MKULTRA, Subproject 6,' clearly showing the program name 'Project MKULTRA.' Logic holds because the initial headline is explicitly given in Slice 44, and the later document title with the program name appears in Slice 46.",
+    "original_text_answer": "The initial revelation is “CIA Reveal Mind Control Experiments” (Jul 19th, 1977), and the program later shown is “Project MKULTRA.”",
+    "verdict_meta": "REFINED",
+    "visual_proof": "At 0:02 in Video 1, the text on the TV screen clearly reads 'CIA Reveal Mind Control Experiments' with the date 'Jul. 15th 1977'. At 0:03 in Video 2, the document's subject line explicitly states 'Project MKULTRA, Subproject 8'."
+  },
+  {
+    "question": "The montage links a surprising Florida weather event with a separate cinematic timeline highlight. What is the unexpected Florida event, and which film release later appears in the timeline?",
+    "answer": "The unexpected Florida event is the first snowfall in Miami (Jan 19th, 1977), and a later cinematic release highlighted is “Annie Hall” (released April 10th, 1977).",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      24
+    ],
+    "reasoning_chain": "Step 1: Slice 8 mentions a news broadcast about the first snowfall in Miami on Jan 19th, 1977. Step 2: Slice 24 shows a retro TV frame highlighting “Annie Hall Released” dated April 10th, 1977. Conclusion: The montage pairs the unusual snowfall with a later film release milestone.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 8 explicitly states a retro TV news broadcast about the first snowfall in Miami on January 19, 1977, reinforced by visuals of a Florida sign and a snow-covered palm—confirming the unexpected Florida weather event. Step 2: Evidence Slice 24 explicitly shows a vintage television set displaying the release of 'Annie Hall' dated April 10, 1977—confirming the cinematic timeline highlight. Logic holds because the montage ties these separate moments from 1977, and the proposed answer matches both the event and the film release as described.",
+    "visual_proof": "Clip 1 at 0:01 clearly shows a TV screen with text identifying 'First Snowfall in Miami' on 'Jan. 19th 1977'. Clip 2 at 0:14 shows a TV screen with text identifying 'Annie Hall Released' on 'Apr. 10th 1977', confirming both events are visually presented in the timeline montage."
+  },
+  {
+    "question": "A music milestone is paired with a real-world disaster earlier in the montage, and later the montage features another major aviation catastrophe. What album is paired with the earlier disaster, and what type of aircraft are involved in the later catastrophe?",
+    "answer": "Fleetwood Mac’s album “Rumours” is paired with the earlier disaster, and the later catastrophe involves Boeing 747 airplanes colliding.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      10,
+      20
+    ],
+    "reasoning_chain": "Step 1: Slice 10 shows a train derailment juxtaposed with a spinning record labeled “Fleetwood Mac – Rumours.” Step 2: Slice 20 describes a tragic collision involving two Boeing 747s. Conclusion: The album is “Rumours,” and the later aviation disaster involves Boeing 747s.",
+    "logic_check_reasoning": "Step 1: Slice 10 explicitly shows a vinyl record labeled 'Fleetwood Mac' and 'Rumours' juxtaposed with archival footage of a train derailment, pairing the album with that real-world disaster. Step 2: Slice 20 explicitly describes a collision of two Boeing 747 airplanes as a later catastrophic event in the montage. Therefore, the album is Fleetwood Mac's 'Rumours' and the aircraft type is Boeing 747.",
+    "visual_proof": "In Video 1, a frame at 0:08 clearly displays the Fleetwood Mac 'Rumours' album cover on the TV screen, directly following footage of the train derailment. In Video 2, a frame at 0:18 shows a TV screen with text identifying the event as 'Two 747s Collide,' followed by footage of large passenger jets, consistent with Boeing 747s, involved in a crash."
+  },
+  {
+    "question": "A supersonic plane is shown taking off, and elsewhere the montage references protests against a specific airport. What plane is taking off, and what airport is mentioned in the protest context?",
+    "answer": "The plane is the Concorde, and the protest context mentions Kennedy (JFK) landings.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      69,
+      70
+    ],
+    "reasoning_chain": "Step 1: Slice 69 shows a Concorde airplane taking off. Step 2: Slice 70 includes clippings about protests against Concorde landings at Kennedy. Conclusion: The aircraft is Concorde and the airport referenced is JFK (Kennedy).",
+    "logic_check_reasoning": "Step 1: Slice 69 explicitly states that the plane taking off is the Concorde, a supersonic aircraft. Step 2: Slice 70 mentions an article about a protest against Kennedy landings by the Concorde, identifying the airport as Kennedy (JFK). Logic holds because Slice 69 identifies the plane and Slice 70 identifies the airport referenced in protests.",
+    "visual_proof": "Clip 1 shows a white supersonic aircraft with a delta wing and droop nose taking off, which is visually identifiable as the Concorde. Clip 2 contains a newspaper headline that reads \"Protest Against Kennedy Landings By the Concorde Attracts 600 Cars,\" explicitly linking the Concorde to protests at Kennedy Airport."
+  }
+]

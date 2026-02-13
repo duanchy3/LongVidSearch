@@ -1,0 +1,15 @@
+[
+    {
+        "question": "Earlier the slide lists types of image features such as SIFT and GIST, and later the K-nearest-neighbor algorithm slide begins with getting features for training samples. What role do the listed features play in the KNN algorithm steps?",
+        "answer": "They are the feature representations extracted from images that KNN uses to compute distances between training and test samples.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 20 lists feature types (raw pixels, histograms, SIFT, GIST, HOG, SURF). Step 2: Slice 64 outlines KNN steps starting with extracting features and then computing distances. Conclusion: those features are what KNN compares via distance.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows a slide titled 'Features' listing types of image features (raw pixels, histograms, templates, SIFT, GIST, HOG, SURF), indicating these are feature representations used in computer vision. Step 2: Slice 64 shows a slide titled 'Algorithm' with KNN steps: 'Get features for training samples,' 'Get features for testing sample,' then 'Compute distances' and proceed with KNN classification. Logic holds because the algorithm explicitly depends on extracted features to compute distances, and the earlier slide lists the possible feature types that could be extracted. Thus, the listed features serve as the representations KNN uses to compute distances between training and test samples.",
+        "visual_proof": "Clip 1 shows a slide titled 'Features' listing items like 'Raw pixels', 'Histograms', 'SIFT', and 'GIST'. Clip 2 shows the KNN algorithm steps, specifically step 1 'Get features for training samples' and step 2 'Get features for testing sample', followed by step 3 'For each training sample, Compute distance from testing sample'. The logical flow presented visually connects the extraction of features (from Clip 1) as the necessary input for computing distances in the KNN algorithm (in Clip 2)."
+    }
+]

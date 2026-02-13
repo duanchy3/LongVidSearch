@@ -1,0 +1,164 @@
+[
+    {
+        "question": "What earlier workspace setup matches the later scene of writing a short essay for a Buddhism class (same desk-and-monitors context)?",
+        "answer": "The productivity scene at the desk near a window with a computer monitor (and the 'let's get sh*t done!' vibe).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            7
+        ],
+        "reasoning_chain": "Step 1: One slice shows a person settling into a desk setup near a window with computer equipment while getting organized. Step 2: A later slice shows the same kind of desk setup with two monitors while writing a Buddhism essay. Conclusion: The earlier desk productivity setup matches the later essay-writing scene.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a later scene with a woman writing an essay at a wooden desk facing two computer monitors near a large window, indicating a studious workspace. Step 2: Slice 6 earlier shows a person sitting at a desk near a window with a computer monitor, speakers, and office supplies, accompanied by the 'let's get sh*t done!' text, indicating a productivity-focused workspace. Logic holds because both scenes feature the same desk-and-monitors setup near a window, aligning the earlier productivity workspace with the later essay-writing context.",
+        "visual_proof": "Clip 1 shows the person sitting at the same desk by the window, with the same computer monitor setup and the text overlay 'let's get sh*t done!'. Clip 2 shows the same person at the identical desk and window, now writing an essay for a Buddhism class. The consistent workspace, including the monitor, speakers, and window view, confirms it is the same location."
+    },
+    {
+        "question": "Which ingredient shown in the grocery haul is later specifically prepared for dinner by being marinated?",
+        "answer": "Pork belly.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            4
+        ],
+        "reasoning_chain": "Step 1: The grocery haul includes packages of sliced pork belly. Step 2: Later, the cooking prep explicitly says 'Marinating pork belly for dinner.' Conclusion: The grocery-haul ingredient later marinated is pork belly.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 shows a grocery haul that explicitly includes two packages of sliced pork belly. Step 2: Evidence Slice 4 shows a later scene with the on-screen text 'Marinating pork belly for dinner,' indicating that pork belly is being prepared by marination for dinner. Step 3: Therefore, the ingredient from the haul that is later marinated is pork belly. The logic is direct and explicitly supported by the captions.",
+        "visual_proof": "In the first clip (0:01-0:02), packages of raw pork belly are clearly visible as part of the grocery haul. In the second clip (0:13-0:17), the same type of meat is shown being cut and then mixed with a marinade in a pot, with an on-screen text overlay explicitly stating 'MARINATING PORK BELLY FOR DINNER'. This directly links the ingredient from the haul to the dinner preparation."
+    },
+    {
+        "question": "After the evening where friends eat together and watch Demon Slayer, what personal-care action is shown next?",
+        "answer": "Someone dries their hair with a red towel in the bathroom.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: The night ends with a group watching Demon Slayer. Step 2: The next segment shows a bathroom scene with hair being dried using a red towel. Conclusion: The next action is drying hair with a red towel.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes an evening with friends eating and then watching Demon Slayer. Step 2: Slice 10, following that theme, shows a bathroom scene where a person is drying their hair with a red towel, described as part of their evening routine. Logic holds because the sequence moves from the group activity to a personal-care action, explicitly stated as hair drying with a red towel in the bathroom.",
+        "visual_proof": "The second clip, which follows the dinner and Demon Slayer scene, shows a person in a bathroom using a red towel to dry their hair. The visual clearly depicts this personal-care action immediately after the evening activities."
+    },
+    {
+        "question": "Which pet is shown both during earlier household tasks and later during the start of Monday with playful captions?",
+        "answer": "A cat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            19
+        ],
+        "reasoning_chain": "Step 1: During the household-tasks montage, a cat is shown sitting on a table. Step 2: On Monday, the vlog shows a cat being petted and sitting on a table with playful text. Conclusion: The recurring pet is the cat.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes earlier household tasks and explicitly mentions a cat sitting on a table. Step 2: Slice 19 shows the start of Monday with playful captions and includes a cat being petted and later sitting on a table. Logic holds because both slices explicitly feature a cat as the pet present in those contexts.",
+        "visual_proof": "In Video 1, a tabby and white cat named 'sweet kayla' is shown sitting on a table during household tasks (0:11-0:12). In Video 2, the same cat appears again at the start of Monday's routine, with playful captions like 'what r u doing so near me human?' and 'oh...pet? i approve' (0:06-0:08). The consistent appearance and markings confirm it is the same pet shown in both contexts."
+    },
+    {
+        "question": "How does the creator’s outfit shift from the first grocery trip to the later day when they showcase being 'layered up' like an onion?",
+        "answer": "They go from a red jacket and beige pants on the grocery trip to a layered look with a light jacket over a patterned shirt plus a dark cap and glasses.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: On the grocery outing, a woman is seen in a red jacket with beige pants and a hat. Step 2: Later, the creator appears wearing glasses and a hat while discussing accessories like a necklace. Step 3: Then they explicitly present a layered outfit with a light jacket over a patterned shirt, a dark cap, and glasses. Conclusion: The clothing evolves from the red-jacket grocery outfit to a layered jacket/cap/glasses look.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows the grocery trip outfit: a woman wearing a red jacket, beige pants, and a hat outside Hana Market. Step 2: Slice 21 shows the later scene where the person jokes about being 'layered up like an onion,' wearing a light-colored jacket over a patterned shirt, with a dark cap and glasses. Step 3: The proposed answer describes this shift accurately—from red jacket and beige pants to a layered look with a light jacket over a patterned shirt plus a dark cap and glasses—matching the details in Slices 2 and 21.",
+        "visual_proof": "In Clip 1, the creator is seen outside Hana Market wearing a distinct red puffer jacket and beige pants. In Clip 3, they are indoors, showcasing a different outfit: a light-colored zip-up jacket worn over a dark t-shirt with a white graphic print, complemented by a dark baseball cap and glasses. This visual evidence confirms the described shift in their attire."
+    },
+    {
+        "question": "What academic subject the creator worries about being weaker in is later shown as an activity done in the library before class?",
+        "answer": "Chinese.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            22
+        ],
+        "reasoning_chain": "Step 1: The creator talks about studying for Chinese and says it’s one of their weaker subjects. Step 2: Later, they are shown studying Chinese in the library before Chinese class. Conclusion: The subject is Chinese.",
+        "logic_check_reasoning": "Step 1: Slice 16 states the creator likes Chinese but mentions it is one of her weaker subjects and that her Chinese class is at 11 am. Step 2: Slice 22 shows at 10:00 AM the creator is studying Chinese in the library, with Chinese class scheduled from 11:00 AM to 12:15 PM. Logic holds because the subject identified as a weaker area (Chinese) is explicitly shown as the activity done in the library before the class.",
+        "visual_proof": "In Video 1, the creator explicitly states, 'I have to study for chinese before I have class at 11' and mentions it's her 'worse subject'. In Video 2, a timestamp at 10:00 AM shows '[studying chinese in the library]', visually confirming she is studying Chinese in the library right before her class."
+    },
+    {
+        "question": "What object is introduced as something the creator is making at home and later appears as part of a festive public celebration?",
+        "answer": "Lanterns.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            55
+        ],
+        "reasoning_chain": "Step 1: The creator makes and hangs a red lantern at home. Step 2: At the Eden Center celebration, festive motifs and lantern-related decorations are central to the Lunar New Year atmosphere. Conclusion: Lanterns connect the home-making scene and the public celebration.",
+        "logic_check_reasoning": "Step 1: Slice 47 explicitly shows the creator making and hanging a red lantern at home. Step 2: Slice 55 describes a public celebration featuring Chinese New Year motifs, explicitly including lanterns, and mentions red decorations in the scene. Logic holds because the object (lantern) is both made at home and present in the festive public event context.",
+        "visual_proof": "In Video 1, the text overlay explicitly states 'MAKING THIS LANTERN THAT OUR FRIEND LUCAS GIFTED US!' while showing a person assembling a red and yellow paper lantern. In Video 2, multiple red lanterns are visibly hanging as decorations during the public celebration at Eden Center, confirming their presence in both the home-making context and the festive public event."
+    },
+    {
+        "question": "Across the week, what are three different moments that show the creator using drinks or caffeine for energy or late-night productivity?",
+        "answer": "A coffee run for energy, green tea to stay awake, and sipping tea while talking at 11:00 PM.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            26,
+            27
+        ],
+        "reasoning_chain": "Step 1: Early on, a caption notes a coffee run for needed energy. Step 2: Another segment shows 'Green Tea to Stay Awake.' Step 3: At 11:00 PM, the creator holds and sips tea while talking. Conclusion: Coffee and tea recur as energy/productivity aids.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows a person holding coffee with on-screen text 'Coffee run for very much needed energy,' explicitly indicating coffee used for energy. Step 2: Slice 26 shows a tea bag labeled 'Green Tea to Stay Awake' being steeped, directly supporting the use of green tea for staying awake. Step 3: Slice 27 shows a woman at 11:00 PM sipping tea while talking, indicating late-night productivity with tea. These are three distinct moments, each supported by the slices.",
+        "visual_proof": "Clip 1 shows a hand holding an iced coffee with text 'COFFEE RUN FOR VERY MUCH NEEDED ENERGY'. Clip 2 shows a Keurig machine brewing tea with the text 'GREEN TEA TO STAY AWAKE'. Clip 3 features the creator at 11:00 PM holding a blue mug of tea while discussing her late-night study prep."
+    },
+    {
+        "question": "What is the connection between the creator celebrating being 'NOT REJECTED' and later describing the pressures of university life while studying Chinese?",
+        "answer": "They celebrate good news about being employed/accepted for the summer, then later reflect that university is tough while studying Chinese.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            16,
+            22
+        ],
+        "reasoning_chain": "Step 1: The creator celebrates 'NOT REJECTED' and says they'll be employed in the summer. Step 2: They later discuss nerves and preparation around Chinese class. Step 3: In the library, they study Chinese and reflect that university is tough. Conclusion: The video juxtaposes career relief with ongoing academic stress.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows the creator celebrating with on-screen text 'NOT REJECTED!!!' and explicitly states 'Imma be employed this summer!' plus prior rejections, confirming acceptance/employment. Step 2: Slice 16 shows the same woman (glasses, direct-to-camera vlog) discussing her Chinese class at 11 am, expressing excitement and nervousness, consistent with studying Chinese. Step 3: Slice 22 depicts the university day, including '[studying chinese in the library]' and text '- university is hella tough for me!', reflecting pressures of university life while studying Chinese. Logic holds because the video narrative moves from celebrating acceptance/employment to later describing academic challenges, aligning with the proposed answer.",
+        "visual_proof": "In Clip 1, the creator explicitly celebrates not being rejected for a summer internship with text overlays like 'NOT REJECTED!!!' and 'first internship ever!'. In Clip 2, she discusses her upcoming Chinese class and her nervous excitement. In Clip 3, while studying in the library at 10:00 AM, she reflects on university being 'hella tough' and feeling lonely or behind while studying Chinese. The sequence shows a clear emotional arc from celebration to reflection on academic pressure."
+    },
+    {
+        "question": "Which companion is shown being affectionately interacted with, then later explicitly wished good night, and then shown again at the start of the next morning?",
+        "answer": "The cat (Kayla).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            29,
+            48
+        ],
+        "reasoning_chain": "Step 1: The creator has 'sweet moments' with their cat Kayla. Step 2: Later, a segment says 'KAYLA SAYS GOOD NIGHT :)' as the day ends. Step 3: The next morning opens on a cat with 'good morning!' and the date. Conclusion: The cat Kayla is the recurring companion across these moments.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows affectionate interaction with a cat named Kayla, with text \"sweet moments with kayla; idk what I'd do without her.\" Step 2: Slice 29 includes the explicit text \"KAYLA SAYS GOOD NIGHT :)\", indicating a good night message tied to Kayla at bedtime. Step 3: Slice 48 starts the next morning with a cat shown alongside the text \"good morning! Wednesday february 2, 2022,\" consistent with the same companion. The logic holds because the cat appears in all three contexts and is identified as Kayla in earlier slices.",
+        "visual_proof": "In Video 1, the woman is shown affectionately holding and kissing the cat, with on-screen text identifying it as 'Kayla'. In Video 2, a frame shows the cat sleeping on a blanket with the text 'KAYLA SAYS GOOD NIGHT :)'. In Video 3, the same cat is shown sitting upright in the morning, confirming its presence at the start of the next day. The visual evidence across all three clips consistently identifies the cat as Kayla and tracks her interactions from affection to goodnight to the next morning."
+    },
+    {
+        "question": "What food preparation is shown before a test, and what later meal is prepared from the fridge after that testing day?",
+        "answer": "Instant oatmeal is eaten before the test, and later dumplings are prepared with soy-sauce dipping sauce.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            32,
+            33
+        ],
+        "reasoning_chain": "Step 1: The creator says they finished a Chinese test that day. Step 2: They mention making instant oatmeal to eat before the test. Step 3: Later, they prepare dumplings and make a soy-sauce dipping sauce. Conclusion: Oatmeal precedes the test; dumplings are a later meal.",
+        "logic_check_reasoning": "Step 1: Slice 32 explicitly states, via subtitles, \"I made instant oatmeal for me to eat before my test,\" confirming the food prepared before a test. Step 2: Slice 31 indicates there was a test day (\"I just finished my chinese test\"), situating the timeline. Step 3: Slice 33 shows the woman taking food from the refrigerator and preparing dumplings, including making a soy sauce dipping sauce, which supports the later meal prepared from the fridge. The proposed answer matches these details.",
+        "visual_proof": "In Clip 2 (0:03), the woman states she made 'instant oatmeal for me to eat before my test'. In Clip 3 (0:00-0:01), she retrieves a package of 'Steamed Vegetable Buns' from the fridge, which are visually identifiable as dumplings/buns. At 0:06-0:08, she places them in a steamer and prepares a dipping sauce by pouring soy sauce into a bowl, confirming the preparation of dumplings with soy-sauce dipping sauce after her test."
+    },
+    {
+        "question": "What chain of events links the creator’s statement about being late, then arriving for a research-related class block, and later attending Chinese class in person?",
+        "answer": "They rush because they’re late, then appear in a 'methods of social research' class block, and later are shown going to/finishing in-person Chinese class.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            22,
+            23
+        ],
+        "reasoning_chain": "Step 1: The creator jokes about being late and wanting to sprint. Step 2: The same day log includes a scheduled 'methods of social research' class period. Step 3: Another segment centers on going to Chinese class and then finishing the first in-person Chinese class. Conclusion: The narrative moves from rushing/late to research class to Chinese class experience.",
+        "logic_check_reasoning": "Step 1: Slice 31 shows the creator noting they're late (e.g., “I am a leisurely walker, but I am so late ; ;”) and hurrying. Step 2: Slice 31 then shows them in a class labeled “9:45-10:45AM [methods of social research],” indicating arrival to a research-related class block. Step 3: Slices 22 and 23 show a subsequent in-person Chinese class: Slice 22 shows “[time for chinese class]” (11:00 AM–12:15 PM) with entry into a classroom, and Slice 23 states she just finished her first in-person Chinese class. The timeline is coherent (research class then later Chinese class).",
+        "visual_proof": "Clip 1 shows the creator stating they are late ('I am so late ;-;') while speed-walking (0:08-0:10). Immediately after, at 0:12, a title card confirms their 9:45-10:45 AM class is 'methods of social research'. Later in Clip 3, at 0:01, the creator announces they just finished their 'first class... of in-person chinese, ever!', directly linking the sequence of events from rushing late to attending the research class and then the Chinese class."
+    }
+]

@@ -1,0 +1,153 @@
+[
+    {
+        "question": "What hair color change happens after she announces she’s going to dye her hair, and where do we later see her washing it out?",
+        "answer": "Her hair becomes green, and she later washes it out in the shower.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows her announcing “Time to dye my hair!” while holding hair dye. Step 2: Slice 24 shows her in a bathroom with green hair bending over a sink washing/rinsing. Conclusion: The dyeing leads to green hair which is then washed out at the sink.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows the woman announcing she will dye her hair, holding dye bottles, and preparing for the process. Step 2: Slice 24 later shows the woman with green hair in a bathroom, bending over a sink, seemingly washing her hair. Logic holds because Slice 24 provides the resulting hair color (green) after the earlier announcement, and it clearly places her washing at a bathroom sink.",
+        "original_text_answer": "Her hair becomes green, and she later washes it out in the bathroom sink.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the woman announces her intention to dye her hair and holds up a box of 'Manic Panic' dye. In Clip 2, her hair is visibly dyed green, and she is shown rinsing it under a handheld showerhead inside a shower stall, not at a sink."
+    },
+    {
+        "question": "What anime is she watching in bed, and what hair-related situation is shown soon after while she’s still in bed with a tablet?",
+        "answer": "She’s watching My Hero Academia, and soon after her hair is wrapped in plastic wrap while she uses the tablet.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows her lying on a bed watching a tablet with the text “watching my hero academia.” Step 2: Slice 23 shows her still in bed using a tablet with hair wrapped in plastic wrap. Conclusion: The bed/tablet viewing continues into a hair-treatment-looking moment with plastic wrap.",
+        "logic_check_reasoning": "Step 1: Slice 22 states that while she is lying on a bed looking at a tablet, the on-screen text says 'watching my hero academia', explicitly identifying the anime. Step 2: Slice 23 shows the same woman in an orange shirt lying on a bed with a tablet, and notes her hair is wrapped in plastic wrap. Logic holds because both slices depict the same setting (bed, tablet, orange shirt), and Slice 23 presents the hair-related situation while she remains in bed with the tablet, consistent with 'soon after.'",
+        "visual_proof": "In Video 1, at 0:10, text on screen explicitly states 'watching my hero academia' while she is lying in bed with a tablet. In the same clip, at 0:12, she is still in bed with the tablet, and her hair is visibly wrapped in clear plastic wrap. This directly confirms both parts of the original answer."
+    },
+    {
+        "question": "When she first introduces a transformation video, what casual top is she wearing, and what later title card signals a new beauty segment focused on nails?",
+        "answer": "She’s wearing a bright yellow T-shirt, and later a title card says “TIME FOR NAILS!”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the transformation intro with her in a bright yellow T-shirt. Step 2: Slice 50 shows a later segment title card reading “TIME FOR NAILS!” Conclusion: The video moves from casual transformation setup to a later beauty segment focused on nails.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 describes the transformation video introduction and explicitly states she is wearing a bright yellow T-shirt with a graphic design. Step 2: Evidence Slice 50 shows a later title card reading 'TIME FOR NAILS!' which signals a new segment focused on nail care/nail art. Logic holds because the first part identifies her initial attire in the transformation video, and the second part identifies a subsequent title card introducing a nails-focused beauty segment.",
+        "visual_proof": "In the first clip (0:00), the woman is seen smiling with her hands in her hair, wearing a bright yellow T-shirt. The title overlay reads 'LINH'S EPIC ABG/BADDIE TRANSFORMATION', confirming this is the introduction of the transformation video. In the second clip (0:04-0:06), a green title card appears with colorful, playful text that clearly reads 'TIME FOR NAILS!', signaling a new segment focused on nail care."
+    },
+    {
+        "question": "After she’s shown brushing and playing with her hair on camera, what later hairstyle detail indicates she has added strong pink coloring?",
+        "answer": "She later has visible pink streaks/highlights in her hair (often in braids).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows her brushing and adjusting her hair while talking. Step 2: Slice 18 shows her hair with pink streaks and styled into two braids. Conclusion: The later state includes added pink coloring and a braided style.",
+        "logic_check_reasoning": "Step 1: Slice 16 shows the girl in an orange shirt and glasses brushing and playing with her long black hair, establishing the initial hair state. Step 2: Slice 18 later describes the same-looking person (orange T-shirt, round glasses, necklace, similar room) with hair that is dark with streaks of pink, styled in two braids. Logic holds because the later slice explicitly mentions pink streaks, indicating added pink coloring, and the braids detail aligns with the proposed answer.",
+        "visual_proof": "In both clips, the woman is seen with distinct, vibrant pink streaks in her dark hair. In Clip 1, a pink streak is visible near her left ear as she brushes her hair. In Clip 2, after applying dye with gloved hands, she gathers her hair, and multiple pink-streaked sections are clearly visible, confirming the addition of strong pink coloring."
+    },
+    {
+        "question": "How does the video transition from makeup application to nails and then to picking an outfit, and what hair color remains prominent throughout these beauty/fashion segments?",
+        "answer": "It moves from a “TIME FOR MAKEUP!” segment to “TIME FOR NAILS!” and then to “TIME FOR MY OUTFIT!”; her pink hair remains prominent.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            50,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 33 introduces the makeup segment with a title card. Step 2: Slice 50 introduces the nails segment. Step 3: Slice 51 introduces the outfit segment. Conclusion: The video follows a get-ready arc with persistent pink hair across segments.",
+        "logic_check_reasoning": "Step 1: Slice 33 explicitly shows a title card reading \"TIME FOR MAKEUP!\" and a woman in a cozy, personalized room doing a makeup tutorial. Step 2: Slice 50 shows the same type of cozy, decorated room and introduces a title card \"TIME FOR NAILS!\" as the video progresses, indicating a nails segment. Step 3: Slice 51 continues with the same woman (white top, similar room) and focuses on nails, then explicitly transitions to a title card \"TIME FOR MY OutFit!\", showing the move to an outfit segment. Hair color: Slices 50 and 51 explicitly describe the woman having pink/pink-tipped hair, and there is no contradiction in Slice 33. Handling VLM noise: multiple slices say \"video opens,\" but the visual attributes and sequential title cards logically align to support the stated transitions.",
+        "visual_proof": "Clip 1 opens with the title card 'TIME FOR MAKEUP!'. Clip 2 transitions to a title card 'TIME FOR NAILS!' and shows the woman applying press-on nails. Clip 3 ends with the title card 'TIME FOR MY OUTFIT!'. Throughout all three clips, the woman's hair is visibly two-toned, with black roots and vibrant pink ends, which remains consistent across all segments."
+    },
+    {
+        "question": "What accessory is shown as thrifted or borrowed during the outfit assembly, and what later scene shows her wearing the completed look in an outdoor photo setting?",
+        "answer": "The fanny pack (thrifted) and chains (borrowed) are noted, and later she wears the completed outfit outdoors for photos.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            53,
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 53 shows her putting on a black top and a fanny pack, with text noting chains borrowed and the fanny pack thrifted. Step 2: Slice 58 shows her outside with a styled outfit and accessories including a bag. Step 3: Slice 59 shows the final outdoor photos. Conclusion: The assembled accessories/outfit lead into the outdoor photo sequence.",
+        "logic_check_reasoning": "Step 1: Slice 53 explicitly states that during the outfit assembly the chains were borrowed from a friend and the fanny pack was thrifted. Step 2: Slice 59 shows her outdoors in a field with the on-screen text 'the final photos ;)', indicating an outdoor photo setting of the completed look. Logic holds because the first slice identifies the thrifted/borrowed accessories and the later slice clearly shows the final outdoor photo scene.",
+        "visual_proof": "In Clip 1, on-screen text explicitly labels the 'FANNY PACK' as 'thrifted' and the 'CHAINS' as 'borrowed from a friend' while she assembles her outfit. In Clip 3, she is shown in the final completed outfit, including the fanny pack and chains, posing outdoors in a field under a blue sky, with text indicating 'the final photos ;)'"
+    },
+    {
+        "question": "Which art poster is visible early in the video, and later appears again behind a person speaking in front of a green background?",
+        "answer": "The “MATISSE” poster.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a wall with a prominent poster labeled “MATISSE.” Step 2: Slice 30 shows a speaker in front of a green background with a Matisse artwork poster visible behind them. Conclusion: The recurring identifiable wall art is the MATISSE poster.",
+        "logic_check_reasoning": "Step 1: Slice 1 states the background includes a prominently labeled \"MATISSE\" poster. Step 2: Slice 30 states that behind the woman speaking in front of a green background, there is a poster of Matisse's artwork. Logic holds because both slices explicitly reference a Matisse poster appearing in the background, matching the description of early and later appearances.",
+        "visual_proof": "In both Video 1 and Video 2, a poster with the name 'MATISSE' clearly printed on it is visible on the wall behind the speaker. In Video 1, it's on the left side of the frame. In Video 2, which has a green border suggesting a virtual background, the same 'MATISSE' poster is visible in the same position relative to the speaker, confirming it appears in both contexts."
+    },
+    {
+        "question": "What is the on-screen theme about YouTube that appears while she styles her hair, and what later text suggests she’s considering quitting?",
+        "answer": "The theme is “why did I start a youtube channel?”, and later text indicates “motivation and quitting YouTube.”",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 32 displays the reflective prompt “why did I start a youtube channel?” while she styles her hair. Step 2: Slice 21 shows text about “motivation and quitting YouTube.” Conclusion: The earlier reflection about starting YouTube connects to later discussion about motivation and quitting.",
+        "logic_check_reasoning": "Step 1: Slice 32 explicitly states that while she is styling her hair, on-screen text appears asking, 'why did I start a youtube channel?' Step 2: Slice 21 notes that the text at the beginning indicates she is discussing motivation and quitting YouTube. Logic holds because the first slice provides the theme during hair styling, and the second slice provides later text suggesting quitting, matching the proposed answer.",
+        "visual_proof": "In Video 1, at 0:03, the on-screen text clearly reads 'why did I start a youtube channel?' while she is styling her hair with a curling iron. In Video 2, at 0:01, the on-screen text reads 'motivation & quitting youtube' as she is shown with wet hair, indicating a later segment of the video."
+    },
+    {
+        "question": "How does her hair color progress from earlier green-top vlog shots to later pink-themed styling shots, and what later action suggests she’s finishing her look for going out?",
+        "answer": "She starts with dark hair while wearing a green top, later has pink-highlighted/pink hair while styling it, and then she puts on sunglasses as if ready to leave.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            5,
+            26,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows her with short dark hair in a green top. Step 2: Slice 5 shows a “Time to dye my hair!” segment initiating a color change process. Step 3: Slice 26 shows her with vibrant pink hair during drying/styling. Step 4: Slice 55 shows her dressed up and putting on sunglasses, implying she’s finishing and heading out. Conclusion: Hair changes (dark → dyed process → pink) culminate in a ready-to-leave moment.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the woman in a green sleeveless top with short, dark hair, indicating the earlier vlog appearance. Step 2: Slice 5 shows her preparing to dye her hair, specifically with a pink (Bubblegum Rose) dye, signaling a transition toward pink. Step 3: Slice 26 shows her styling vibrant pink hair, matching the later pink-themed styling shots. Step 4: Slice 55 shows her with pink hair putting on sunglasses and getting ready to leave, which suggests she’s finishing her look to go out. The progression and the final action are explicitly supported.",
+        "visual_proof": "In Clip 1 and Clip 2, the woman has dark hair with subtle lighter ends and is wearing a green top. In Clip 3, her hair is visibly pink after dyeing and drying. In Clip 4, she is seen putting on sunglasses while posing in her room, indicating she is finishing her look for going out."
+    },
+    {
+        "question": "What evidence suggests she switches from using a curling iron to using a straightener while styling her pink-highlighted hair, and in what kind of room does this tool-switch happen?",
+        "answer": "She is shown curling her hair with a curling iron and later holding a hair straightener; the switch happens in a cozy study/bedroom-like room with books, plants, and decorations.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            27,
+            29,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows “CURLING MY HAIR” while she uses a curling iron. Step 2: Slice 29 again shows her using a curling iron in a decorated room. Step 3: Slice 32 shows her holding a hair straightener while styling. Conclusion: The styling tool changes from curling iron to straightener in the same cozy, decorated study/bedroom setting.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly shows her \"styling their hair using a curling iron\" in a cozy study/bedroom setting with a Georgetown banner, books, plants, and personal items. Step 2: Slice 29 again confirms she is styling her hair with a curling iron in a cozy, vibrant room with shelves, books, decorative items, and plants, and identifies her pink-highlighted hair. Step 3: Slice 32 shows the same woman (glasses, white top, pink-tipped hair) \"holding a hair straightener\" and using it in a similarly described cozy, well-decorated room with shelves, posters, and plants. Logic holds because the same subject and room type are consistently described, and the tools differ between slices (curling iron vs straightener), which supports the inference of a switch occurring in that cozy study/bedroom-like environment.",
+        "visual_proof": "Throughout all three clips, the woman is consistently seen using a white and black curling iron on her pink-highlighted hair. There is no visual evidence in any of the provided clips that she switches to or even holds a hair straightener. The setting remains consistent: a room with shelves holding books, potted plants, and various posters (including a 'Georgetown' pennant and art prints), which matches the description of a cozy study/bedroom."
+    },
+    {
+        "question": "What shows her shifting from a food/fruit handling moment to an explicitly informational segment about Asian American representation, and what room feature ties these scenes together?",
+        "answer": "She goes from arranging fruit in a bowl to later speaking with on-screen statistics about Asian Americans; both occur in decorated personal spaces with walls covered in posters/pictures.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            28,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows her handling fruit while words like “religion,” “God,” and “faith” appear. Step 2: Slice 28 shows her in a study space with text overlays about Asian American political representation. Step 3: Slice 29 continues with social-issue overlays (sustainability/environmentalism/class). Conclusion: The content shifts from casual domestic action to explicit informational commentary, tied together by personal, poster-filled rooms.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a woman handling a bowl of fruit in a room with colorful posters and pictures on the walls, indicating a food/fruit handling moment. Step 2: Slice 28 describes a woman presenting with on-screen text overlays about Asian Americans' representation and voter challenges, indicating an explicitly informational segment. Step 3: Both slices note decorated walls (posters/pictures/stickers), tying the settings together as similarly personalized spaces. Logic holds because the transition is evidenced by the content shift from fruit arranging (Slice 9) to on-screen statistics about Asian Americans (Slice 28), and both scenes share the room feature of decorated walls.",
+        "visual_proof": "In Clip 1, the woman is seen handling fruit and mixing it in a bowl in a room with a wall covered in posters and art. In Clip 2, she is in a different, but similarly decorated room (with shelves, plants, and a wall of posters) where text overlays about 'Asian Pacific Islander Institute for Congressional Studies' and voter turnout statistics appear as she speaks. The consistent visual theme across both scenes is the highly decorated personal space."
+    }
+]

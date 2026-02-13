@@ -1,0 +1,82 @@
+[
+    {
+        "question": "Which repeated on-screen watermark text indicates the video is a recap, and what message appears at the very end of the entire video?",
+        "answer": "The watermark says “STORY RECAPPED,” and the ending message says “THANKS FOR WATCHING” (with “SUBSCRIBE FOR MORE”).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            99
+        ],
+        "reasoning_chain": "Step 1: Slice 2 displays the recurring recap watermark text “STORY RECAPPED.” Step 2: Slice 99 shows the end card reading “THANKS FOR WATCHING” and “SUBSCRIBE FOR MORE.” Conclusion: The recap watermark is “STORY RECAPPED” and the final message is “THANKS FOR WATCHING / SUBSCRIBE FOR MORE.”",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 states that the text 'STORY RECAPPED' appears on the screen, which supports the watermark indicating the video is a recap. Step 2: Evidence Slice 99 describes the end screen with 'THANKS FOR WATCHING' and 'SUBSCRIBE FOR MORE', clearly supporting the ending message. Logic holds because both parts of the proposed answer directly match the explicit text from the provided slices.",
+        "visual_proof": "Clip 1 clearly shows the text 'STORY RECAPPED' as a watermark in the bottom right corner across multiple frames. Clip 2 displays an end screen with the text 'THANKS FOR WATCHING' at the top and 'SUBSCRIBE FOR MORE' below it, confirming the final message of the video."
+    },
+    {
+        "question": "In two different scenes, a man is shown reading an important paper. What does the note say about leaving, and what organization name appears behind the man reading a document later?",
+        "answer": "The note says someone is leaving the ship effective immediately, and the sign says “Federation of Star Command” (and “Starship One”).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows a handwritten note stating: “I am leaving the ship, effective immediately...” Step 2: Slice 66 shows a man reading a paper in a futuristic area with signage “Federation of Star Command” and “Starship One.” Conclusion: The departure note is about leaving the ship, and the later backdrop names the Federation of Star Command.",
+        "logic_check_reasoning": "Step 1: Slice 14 explicitly quotes the handwritten note: \"Glenn, I am leaving the ship, effective immediately...\" confirming the content about leaving. Step 2: Slice 66 states that a sign in the background reads \"Federation of Star Command\" and \"Starship One\" while a man reads a document. Logic holds because the question asks for the note's leaving statement and the organization name behind the man later, both of which are directly provided in the slices.",
+        "visual_proof": "In Clip 1, a close-up of the handwritten note clearly shows the text: 'I am leaving the ship, effective immediately.' In Clip 2, a wall sign is visible behind the man reading the paper, which reads 'FEDERATION OF STAR COMMAND' and 'STARSHIP ONE'."
+    },
+    {
+        "question": "A small dome-headed robot appears in multiple rooms. What color are its eyes in the minimalist room, and what is it standing on in another close-up scene?",
+        "answer": "The robot's eyes are yellow in the minimalist room, but they change to red in another scene. It is standing on a white pedestal.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            48,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows the dome-headed robot with bright yellow eyes in a minimalist room. Step 2: Slice 49 shows the same style robot positioned on a white pedestal. Conclusion: Yellow eyes; standing on a pedestal.",
+        "logic_check_reasoning": "Step 1: Slice 48 describes a minimalist room and a small dome-headed robot with bright yellow eyes. Step 2: Slice 49 shows a close-up of a similar dome-headed robot positioned on a white pedestal. Logic holds because both slices reference the same type of robot in the same recap context, confirming the eye color and the pedestal.",
+        "original_text_answer": "It has yellow eyes, and it is standing on a white pedestal.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In both clips, the robot is shown in a minimalist room with white walls and windows, and its eyes are clearly yellow in the initial close-up (Clip 1, 0:06). However, in Clip 2 (0:06), the same robot's eyes have changed to red, indicating a color change over time. In both clips, the robot is consistently seen standing on a small, round, white pedestal."
+    },
+    {
+        "question": "A man is shown in a bathtub and later interacts with an old audio device. What is he doing with the audio device, and what earlier detail about the bathtub scene makes it feel indulgent?",
+        "answer": "He adjusts/uses a vintage radio, and earlier he is in a bubble-filled bathtub with a blindfold.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a man relaxing in a bubble bath while blindfolded. Step 2: Slice 25 shows the man reaching to and interacting with a vintage-style radio on the tub edge. Conclusion: He manipulates the radio; the earlier indulgent detail is bubbles and a blindfold.",
+        "logic_check_reasoning": "Step 1: Slice 25 states the man reaches out to a vintage-style radio and interacts with it, possibly tuning or adjusting the volume, which supports 'adjusts/uses a vintage radio.' Step 2: Slice 24 describes the earlier bathtub scene as bubble-filled and notes the man is blindfolded, with the mood described as calm and indulgent. Logic holds because the old audio device is the vintage radio he adjusts, and the bubble-filled tub with a blindfold is the indulgent detail from the earlier scene.",
+        "visual_proof": "In Clip 1 (0:13-0:18), the man places a dark cloth over his eyes while in the tub, which is filled with bubbles. In Clip 2 (0:04-0:08), he reaches out of the tub to pick up and interact with a vintage-style radio or audio device."
+    },
+    {
+        "question": "Which two separate moments show a young girl with glasses in distress, first outdoors and later indoors on a couch?",
+        "answer": "She looks worried outdoors in a garden conversation, and later she sits distressed on a couch indoors while an adult woman speaks seriously.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows a close-up of a blonde girl with glasses outdoors looking concerned during a serious talk. Step 2: Slice 43 shows the same girl (glasses, denim/striped outfit) on a couch listening intently while an adult woman speaks earnestly. Conclusion: Distress is shown in both outdoor and indoor scenes.",
+        "logic_check_reasoning": "Step 1: Slice 40 describes an outdoor scene with lush greenery where a young girl with long blonde hair and glasses looks concerned or worried while interacting with another woman. This supports the first moment of the girl in distress outdoors. Step 2: Slice 43 shows an indoor living room setting where a young girl with blonde hair and glasses is sitting on a couch, looking concerned, while an adult woman speaks earnestly and seriously. This supports the second moment of the girl distressed on a couch indoors. Logic holds because both slices depict the same type of character (young girl with glasses) in two distinct settings reflecting distress.",
+        "visual_proof": "Clip 1 shows the girl with glasses outdoors at night, with dark foliage in the background, looking distressed during a conversation. Clip 2 shows the same girl, now indoors, sitting on a couch in overalls, looking downcast and upset while an adult woman beside her speaks to her."
+    },
+    {
+        "question": "A man is shown smoking in a dark setting, and later a different scene shows a man smoking while staring at a dome-shaped device. What are the two settings, and what object is present in the second smoking scene?",
+        "answer": "One is a dark room where a bearded man smokes, and the other is a dim room where a mustached man smokes while facing a dome-shaped sci‑fi device/robot.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            34,
+            81
+        ],
+        "reasoning_chain": "Step 1: Slice 34 includes a man with a beard smoking a cigarette in a dark setting. Step 2: Slice 81 shows a mustached man smoking in a dim room with a small dome-shaped sci‑fi object in front of him. Conclusion: Smoking occurs in two different settings; the second includes a dome device.",
+        "logic_check_reasoning": "Step 1: Slice 34 describes a bearded man smoking with a dark background, indicating a dark/dim setting. Step 2: Slice 81 describes a mustached man smoking in a dimly lit room with a small dome-shaped object in front of him that resembles a sci-fi device/robot. Logic holds because the first setting is a dark room with a bearded smoker, and the second is a dim room with a mustached smoker and a dome-shaped sci-fi device.",
+        "visual_proof": "Clip 1 (0:05-0:07) shows a bearded man in a dark setting smoking. Clip 2 (0:06-0:07) shows a different man with a mustache smoking in a dimly lit room while looking at a small, dome-shaped device with a transparent top."
+    }
+]

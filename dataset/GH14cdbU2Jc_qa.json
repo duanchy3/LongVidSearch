@@ -1,0 +1,142 @@
+[
+    {
+        "question": "During the story, which item changes from being exchanged in an office to being exchanged again in a similar investigative setting?",
+        "answer": "A small paper/card-like item is handed over in both situations.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a striped-shirt man handing a small object (paper/card) to the man in a green shirt at a desk. Step 2: Slice 40 shows a man in a blue shirt handing a small object (card/paper) to a man in a red checkered shirt at a café table. Conclusion: The repeated exchange of a small card/paper-like item appears across different settings.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 explicitly shows an exchange in an office where a man in a striped shirt hands a small object that looks like a piece of paper or a card to a man in a green shirt, framed as important information/evidence. Step 2: Evidence Slice 40 shows a tense, investigative-feeling scene in a café where a man in a blue shirt hands a small object, possibly a card or piece of paper, to another man. Logic holds because both slices explicitly depict the exchange of a small paper/card-like item in serious, investigative contexts, one in an office and another in a similar tense setting.",
+        "visual_proof": "In the first clip (0:03-0:07), a man named Jose hands a small, white, rectangular object, resembling a card or folded paper, to another man sitting at a desk. In the second clip (0:02-0:03), a man at a table in a cafe setting is seen handing a similar-looking white, rectangular object with a pattern on it to another man across the table. The visual evidence confirms that a small paper/card-like item is exchanged in both the office and the cafe settings."
+    },
+    {
+        "question": "Which character context shifts from casual public movement to being formally restrained in a police setting?",
+        "answer": "The man in a blue shirt goes from moving confidently in a corridor/public institutional space to being shown handcuffed and escorted.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows a man in a blue shirt walking confidently down a corridor toward uniformed men. Step 2: Slice 42 shows a man in a blue shirt handcuffed and escorted by a police officer in a hallway. Conclusion: His status changes from free-moving to restrained under custody.",
+        "logic_check_reasoning": "Step 1: Slice 41 describes a man in a blue shirt walking confidently in a corridor, suggesting casual/public movement. Step 2: Slice 42 explicitly states that a man in a blue shirt is handcuffed and being escorted by a police officer in a police station setting. Logic holds because both slices describe the same visual attributes (blue shirt) and show the progression from casual movement to formal restraint.",
+        "visual_proof": "In the first clip, the man in the blue shirt is seen walking freely and confidently through what appears to be a police station corridor, flanked by officers but not restrained. In the second clip, he is explicitly shown with his hands cuffed behind his back while being escorted by two uniformed police officers down a hallway, indicating a clear shift from free movement to formal restraint."
+    },
+    {
+        "question": "What object on a table hints at evidence/recording in a later interrogation setting, and how is that theme echoed again later?",
+        "answer": "A small electronic device on a table hints at recording/evidence, echoed later by a visible camera recording the interrogation.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            53,
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 53 focuses on a small rectangular electronic gadget on a table, implying significance (possibly recording/evidence). Step 2: Slice 58 shows an interrogation with a tripod-mounted camera in the room. Step 3: Slice 59 shows the man’s face displayed on a camera LCD, confirming recording/surveillance. Conclusion: The device foreshadows the recorded-interrogation/evidence theme.",
+        "logic_check_reasoning": "Step 1: Slice 53 describes a small rectangular electronic-looking device with a metallic finish and blue screen placed on a table, with emphasis suggesting significance—this reasonably hints at evidence/recording. Step 2: Slice 58 shows an interrogation room with a camera mounted on a tripod, indicating the conversation is being recorded, echoing the recording theme. Step 3: Slice 59 further reinforces this with a close-up of a video camera’s LCD screen displaying the man’s face, clearly depicting active recording. The logic holds: the initial device hints at recording/evidence, and later scenes explicitly show a camera recording the interrogation.",
+        "visual_proof": "Clip 1 shows a smartphone on a wooden table, suggesting it may be used for recording or as evidence. Clip 3 explicitly shows a video camera with its screen displaying the man being interrogated, confirming the theme of recording is central to the scene."
+    },
+    {
+        "question": "What sequence shows the investigation moving from internal police discussions to physical escorting of a person of interest?",
+        "answer": "It progresses from officers talking in formal rooms to police escorting a man in a brown/maroon shirt outdoors.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            22,
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows officers in an office/interrogation-style discussion. Step 2: Slice 24 shows a serious conversation between uniformed officers (bald officer and gray-haired officer) in an official room. Step 3: Slice 25 shows police escorting a man in a brown shirt outside. Conclusion: Planning/discussion leads to action—escorting a person of interest.",
+        "logic_check_reasoning": "Step 1: Slices 22 and 24 describe interior scenes with police officers in formal settings engaged in serious discussion, indicating internal police deliberations. Step 2: Slice 25 shows a progression to action, where police first are in a vehicle and then escort a man in a brown shirt outdoors, identified as a person of interest or under investigation. Logic holds because the sequence clearly moves from indoor police discussions to the physical escort of a suspect.",
+        "visual_proof": "Clips 1 and 2 show police officers in uniform engaged in serious discussions within an office setting. Clip 3 transitions to a different scene where the same officers are seen escorting a civilian man wearing a brown shirt down a staircase, indicating a shift from internal discussion to physical action."
+    },
+    {
+        "question": "How do the visuals suggest that a hidden-item search is part of an official evidence process later?",
+        "answer": "A buried labeled box found during frantic digging aligns with later scenes emphasizing evidence handling and surveillance-based investigation.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            49,
+            50,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows people digging and uncovering a labeled cardboard box. Step 2: Slice 50 shows surveillance footage and an office meeting about documents, implying evidence-driven investigation. Step 3: Slice 89 explicitly shows an “EVIDENCE” room sign in an institutional setting. Conclusion: The hidden box discovery feeds into formal evidence procedures.",
+        "logic_check_reasoning": "Step 1: Slice 49 describes a frantic hidden-item search culminating in the discovery of a sealed cardboard box with a green label, emphasizing its significance. Step 2: Slice 50 shows surveillance footage and a formal office meeting discussing documents, suggesting an ongoing official investigation. Step 3: Slice 89 features a room marked 'EVIDENCE' with people engaged in serious investigative discussion, indicating formal evidence handling. Logic holds because the visuals first present the hidden-item search (the labeled box) and later depict official investigative and evidence-handling contexts, supporting the idea that the search ties into an official evidence process.",
+        "visual_proof": "Clip 1 shows a frantic dig at a site where a yellow toolbox is visible, suggesting an official search. Clip 2 transitions to surveillance footage being monitored and then to a formal meeting in an office, indicating an official investigation. Clip 3 shows security personnel moving large boxes labeled 'EVIDENCE' in a secure facility, directly linking the initial search to a formal evidence process."
+    },
+    {
+        "question": "What multi-scene pattern shows the legal thread emerging from investigations and culminating in courtroom arguments?",
+        "answer": "Police/investigation meetings and interrogations are followed by courtroom scenes where lawyers present arguments and even hold up a book titled “Drishyam.”",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            54,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows police-station meetings and an officer leading discussions. Step 2: Slice 54 shows an interrogation between an authority figure and the man in a light blue shirt. Step 3: Slice 77 shows a courtroom scene with a woman holding up a book titled “Drishyam” while speaking. Conclusion: Investigation escalates into a formal court battle.",
+        "logic_check_reasoning": "Step 1: Slice 20 describes a police station meeting with an officer and civilians, plus additional police-focused scenes, supporting the investigation/meeting aspect. Step 2: Slice 54 explicitly shows an interrogation room confrontation between two men, reinforcing the interrogation component. Step 3: Slice 77 depicts a courtroom setting where a woman in formal attire speaks and holds up a book titled 'Drishyam,' indicating courtroom arguments and the specific detail of the book being held. Logic holds because these slices collectively show a progression from police investigations/interrogations to courtroom arguments, matching the proposed pattern.",
+        "visual_proof": "Clip 1 shows police officers in an office, indicating an investigation. Clip 2 depicts an interrogation scene between two men. Clip 3 features a woman in a courtroom holding up a book with the title 'DRISHYAM' on its cover, clearly showing a legal argument in court. This sequence visually confirms the pattern described."
+    },
+    {
+        "question": "How is the man in the light blue shirt tracked from reading a document privately to being questioned in an interrogation room?",
+        "answer": "He is first shown holding/reading a paper at home/sofa and later sits across from an authority figure in an interrogation setting.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            54,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows the light blue shirt man seated on a sofa holding/reading a paper. Step 2: Slice 54 shows him in an interrogation room facing a bald interrogator. Step 3: Slice 58 shows him continuing to speak/gesture across the table with a camera recording. Conclusion: The same light-blue-shirt man moves from private document-reading to recorded interrogation.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12, Scene 2 describes a man in a light blue shirt seated on a green sofa, holding and reading/discussing a document in a private indoor setting. Step 2: Evidence Slices 54 and 58 place a man in a light blue shirt in a dimly lit interrogation room, seated across from a man who appears to be an interrogator/authority figure, with recording equipment present. Logic holds because the same visual identifier (light blue shirt) links the individual from the private reading scene to the interrogation setting, matching the proposed answer's summary.",
+        "visual_proof": "In Clip 1, the man in the light blue shirt is seen sitting on a sofa in a living room, holding a document. In Clips 2 and 3, he is shown in a stark, dimly lit interrogation room, sitting across a table from another man who appears to be an authority figure (possibly a police officer or investigator). This visual sequence confirms his transition from a private setting with a document to a formal interrogation."
+    },
+    {
+        "question": "How is a serious private consultation with an older, authoritative bearded man connected to later legal/court developments?",
+        "answer": "The older bearded man’s formal meetings and advice are intercut with courtroom scenes, implying his counsel supports legal strategy.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            66,
+            69,
+            76,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows a serious conversation between an older bearded man in traditional attire and a suited man. Step 2: Slice 69 expands to a group meeting including a woman, still centered on the older man’s guidance. Step 3: Slice 76 again juxtaposes the living-room strategy meeting with courtroom proceedings. Step 4: Slice 51 shows the formal courtroom with judge and lawyers. Conclusion: The private counsel scenes feed into the legal battle shown in court.",
+        "logic_check_reasoning": "Step 1: Slice 66 describes a serious private consultation with an older, authoritative bearded man in traditional attire, suggesting a formal/possibly legal context. Step 2: Slice 69 reinforces this, noting the elderly man's authoritative guidance and that he may be providing crucial information or making decisions affecting others. Step 3: Slice 76 explicitly states that the video alternates between the living room (private discussions with the bearded man) and courtroom scenes, highlighting a narrative that intertwines personal discussions with legal proceedings. Step 4: Slice 51 confirms substantive courtroom developments. Logic: The intercutting between the authoritative consultation and courtroom scenes implies that the private advice feeds into or supports legal strategy, aligning with the proposed answer.",
+        "visual_proof": "Clip 1/4 and Clip 3/4 show the older bearded man in a serious consultation with others in a formal office setting. Clip 2/4 shows a close-up of him speaking emphatically. Clip 4/4 transitions to a courtroom scene with lawyers and a judge, establishing a clear visual narrative link between the private consultation and the legal proceedings. The editing style, cutting between these two distinct but thematically linked settings, implies that the advice given by the older man is directly related to or influences the legal strategy being pursued in court."
+    },
+    {
+        "question": "What shows the man in a suit moving across public spaces and later appearing in formal, high-stakes meetings linked to surveillance evidence?",
+        "answer": "He is shown walking through crowds and later sits in an office meeting after surveillance footage is displayed.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            38,
+            65,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows a man in a red jacket walking through a crowd (public movement). Step 2: Slice 65 shows a man in a suit walking through a crowd (public urgency motif for a suited figure). Step 3: Slice 50 shows a man in a suit and a woman in black in a car, then meeting an authority figure after surveillance footage is shown. Conclusion: The suited figure’s public movement connects to formal evidence-driven meetings.",
+        "logic_check_reasoning": "Step 1: Slice 65 explicitly shows a man in a suit walking through a crowd in a public or semi-public space. Step 2: Slice 50 begins with surveillance footage and then shows a formal office meeting involving a man in a suit, indicating a link to investigative/surveillance context. Logic holds because the answer summarizes these depicted actions: movement through crowds (Slice 65) and later participation in a formal meeting following surveillance footage (Slice 50).",
+        "visual_proof": "In Clip 3, a man in a suit is seen sitting in a car (0:04) and then participating in a formal office meeting (0:07-0:24). This meeting occurs after surveillance footage of a public scene with vehicles and people is shown on a monitor (0:01-0:03). The sequence visually links his presence in public spaces (implied by the car ride and the surveillance feed) to the subsequent high-stakes meeting."
+    },
+    {
+        "question": "Which sequence ties investigative discussions (including CCTV gaps) to later courtroom presentation/argumentation?",
+        "answer": "CCTV analysis and police/interrogation discussions lead into courtroom scenes where lawyers present arguments and evidence-related items.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            8,
+            20,
+            77,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows CCTV monitoring with a “No Video” gap, implying contested footage. Step 2: Slice 20 shows police-station meetings and an officer’s serious discussion. Step 3: Slice 77 shows a courtroom figure holding up a book titled “Drishyam,” indicating formal argument/evidence framing. Step 4: Slice 78 shows lawyers addressing the judge and officials taking notes. Conclusion: Investigation artifacts and disputes shift into courtroom advocacy.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows investigative discussions centered on CCTV footage, explicitly noting a \"No Video\" gap and focused surveillance analysis. Step 2: Slice 20 depicts police station meetings/interrogations and investigative dialogue led by an officer, continuing the investigation thread. Step 3: Slices 77 and 78 present courtroom scenes where lawyers argue and present to the judge, consistent with later formal presentation/argumentation. Logic holds because the context clearly features earlier investigation (including CCTV gaps) followed by courtroom argumentation, matching the proposed sequence.",
+        "visual_proof": "Clip 1 shows a man reviewing CCTV footage with 'NO VIDEO' on one screen, followed by a scene in an office. Clip 2 features a police officer (Tarun) in serious discussion, intercut with a car crash and a close-up of a damaged item, suggesting investigation. Clip 3 and 4 show a female lawyer in court presenting a book titled 'DRISHYAM' as evidence and making arguments before the judge and other lawyers, directly linking the earlier investigative elements to the courtroom proceedings."
+    }
+]

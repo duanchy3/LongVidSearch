@@ -1,0 +1,99 @@
+[
+    {
+        "question": "Which snack shown close-up is later seen being eaten alongside a hot drink by the man in a green sweater and yellow beanie?",
+        "answer": "A partially eaten pastry (fried dough-like pastry) on a metal plate.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows a partially eaten pastry on a small metallic plate next to a mug. Step 2: Slice 48 shows a man in a green sweater and yellow beanie with a white mug and pastries/cookies on a plate. Conclusion: The pastry snack is the same type of item being eaten with the hot drink.",
+        "logic_check_reasoning": "Step 1: Slice 47 describes a close-up of a partially eaten pastry on a small metallic plate, emphasizing its crispy exterior and soft interior. Step 2: Slice 48 shows a man in a green sweater and yellow beanie with a hot drink (white mug) and pastries/cookies on a plate in front of him, indicating the snack is present alongside the drink. Logic holds because the close-up snack is a partially eaten pastry, and the later scene features pastries with a hot drink, aligning with the question's description of the snack being eaten and present with the man's beverage.",
+        "visual_proof": "Clip 1 shows a close-up of a partially eaten, fried, dough-like pastry on a grey metal plate. Clip 2 shows the same man in a green sweater and yellow beanie sitting at a table with a white mug (hot drink) and a pastry that matches the one from Clip 1, which he is actively eating. The visual continuity confirms it's the same snack."
+    },
+    {
+        "question": "What upcoming travel destination shown on a laptop booking page is later explicitly discussed as a trip someone feels scared about taking?",
+        "answer": "Argentina (Buenos Aires).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            40,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows an American Airlines booking confirmation for Buenos Aires, Argentina. Step 2: Slice 67 shows someone talking about feeling scared about an upcoming trip to Argentina. Conclusion: The destination in the booking is the same trip being discussed emotionally later.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows a laptop with an American Airlines booking confirmation for a trip to Buenos Aires, Argentina. Step 2: Slice 67 has a person explicitly discussing feeling scared about an upcoming trip to Argentina. Logic holds because the destination shown (Buenos Aires, Argentina) matches the later discussion of a trip to Argentina.",
+        "visual_proof": "Clip 1 shows a laptop screen with an American Airlines booking confirmation for a trip to 'Buenos Aires, AR'. Clip 2 features a person in the same room discussing their upcoming trip to 'Argentina' and expressing fear, stating 'I'm so scared' and 'I don't want to go, but I know we need to.' The visual context of the room (purple walls, posters) confirms both clips are from the same location, linking the booking to the expressed anxiety."
+    },
+    {
+        "question": "Which object is shown empty when its door is opened, and later appears as a theme when someone excitedly holds up a stack of books in a room that includes a refrigerator in the background?",
+        "answer": "A small blue mini-fridge is shown empty, and later a room with a refrigerator in the background appears while someone holds up books.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a small blue mini-fridge opened to reveal it is empty. Step 2: Slice 32 shows someone enthusiastically holding a stack of books in a room where a refrigerator is visible in the background. Conclusion: The video includes an earlier refrigerator-focused shot and later a book-focused scene where a fridge is present in the environment.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes a small blue refrigerator whose door is opened, revealing an empty interior. Step 2: Slice 32 shows a person excitedly holding a stack of books in a room that includes what looks like a refrigerator in the background. Logic holds because the object identified as empty (a mini-fridge/refrigerator) in Slice 13 is the same type of object noted in the background in Slice 32, aligning with the question’s description.",
+        "visual_proof": "In Video 1 (0:07-0:14), a hand opens a small, light-blue Frigidaire mini-fridge, revealing it to be empty after removing a phone box. In Video 2 (0:05-0:10), a young man holds up a stack of books in a room where a white refrigerator is clearly visible in the background on the right side of the frame."
+    },
+    {
+        "question": "Which two different motivational phrases appear on lightbox-style signage, and what later creative workspace activity aligns with the same productivity mindset?",
+        "answer": "“DISCIPLINE OR REGRET” and “CREATION OVER CONSUMPTION,” aligned later with careful LEGO building in a creative workspace.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            23,
+            24,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows a lightbox reading “DISCIPLINE OR REGRET.” Step 2: Slice 24 shows another lightbox being set to “CREATION OVER CONSUMPTION.” Step 3: Slice 58 shows focused LEGO construction at a cluttered creative desk with tools and a laptop. Conclusion: The signage messages match the later sustained creative, disciplined building activity.",
+        "logic_check_reasoning": "Step 1: Slice 23 explicitly shows a lightbox with the phrase \"DISCIPLINE OR REGRET.\" Step 2: Slice 24 explicitly shows a lightbox being arranged to read \"CREATION OVER CONSUMPTION.\" Step 3: Slice 58 describes a later scene in a creative workspace where a person meticulously assembles a LEGO structure, emphasizing careful, deliberate work. Logic holds because the two phrases are clearly identified on lightbox signage, and the later activity of careful LEGO building in a creative workspace aligns with a productivity-focused mindset reflected by those phrases.",
+        "visual_proof": "Clip 1 clearly shows hands changing the lightbox to read 'DISCIPLINE OR REGRET'. Clip 2 shows the same lightbox being changed to read 'CREATION OVER CONSUMPTION'. Clip 3 shows a person meticulously assembling a LEGO structure on a wooden desk, which visually represents a focused, creative act consistent with the 'creation over consumption' mindset."
+    },
+    {
+        "question": "What is the chain of evidence that the trip being booked is connected to health precautions and later to an emotional confession about being scared to go?",
+        "answer": "A flight booking to Buenos Aires, mention of getting COVID tests for the trip, and later someone saying they’re scared about going to Argentina.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            40,
+            49,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 40 shows a booking confirmation for a trip to Buenos Aires, Argentina. Step 2: Slice 49 includes subtitles about booking a plane ticket to Argentina and mentions having gotten COVID tests. Step 3: Slice 67 shows an emotional monologue about feeling scared and unsure about the Argentina trip. Conclusion: The booking leads to preparation steps, culminating in expressed anxiety about the same trip.",
+        "logic_check_reasoning": "Step 1: Slice 40 shows a laptop screen with an American Airlines booking confirmation for a trip to Buenos Aires, Argentina, establishing the flight booking. Step 2: Slice 49 describes a conversation about booking a plane ticket to Argentina and explicitly mentions getting COVID tests an hour ago, linking the travel plans to health precautions. Step 3: Slice 67 features a person expressing fear and uncertainty about an upcoming trip to Argentina, providing the emotional confession. Logic holds because the slices sequentially establish the booking, connect it to COVID-related preparations, and then show feelings about going to Argentina.",
+        "visual_proof": "Clip 1 visually confirms a flight booked to Buenos Aires on the American Airlines website. Clip 2 shows a person at a desk discussing the trip and explicitly mentioning, via subtitles, 'we got our COVID tests like an hour ago.' Clip 3 features another person in the same room expressing fear, with subtitles stating, 'I'm so scared' and 'I don't want to go, but I know we need to,' while referencing the trip to Argentina."
+    },
+    {
+        "question": "Which chain of scenes shows smartphone focus evolving from a product box, to hands using the phone, to a presenter displaying it in a cluttered room, and then to a benchmark score being shown?",
+        "answer": "It goes from the Redmi Note 11 Pro 5G box, to hands interacting with a smartphone, to a presenter holding the phone up, and then to a benchmark result of 68K.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            14,
+            15,
+            17,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows the “Redmi Note 11 Pro 5G” product box as the focus. Step 2: Slice 15 shows hands tapping and manipulating a smartphone screen. Step 3: Slice 17 shows a presenter holding up a smartphone to the camera while talking. Step 4: Slice 22 shows the phone running a benchmark app and displaying “68K.” Conclusion: The phone segment progresses from packaging to use, presentation, and performance testing.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows a close-up of the Redmi Note 11 Pro 5G product box, matching the 'product box' stage. Step 2: Slice 15 depicts hands holding and interacting with a smartphone, fitting 'hands using the phone.' Step 3: Slice 17 features a presenter in a cluttered room holding up a smartphone, aligning with 'presenter displaying it in a cluttered room.' Step 4: Slice 22 shows a benchmark app on the phone with a score of 68K, matching 'benchmark score being shown.' The chain described in the proposed answer corresponds directly to these slices.",
+        "visual_proof": "Clip 1 shows the Redmi Note 11 Pro 5G box on a desk. Clip 2 shows a pair of hands unboxing and handling the smartphone. Clip 3 features a young man (the presenter) in a cluttered room holding up the phone for the camera. Clip 4 shows the same presenter displaying the phone's screen, which clearly reads '68K' as part of a benchmark score graphic."
+    },
+    {
+        "question": "What are the consecutive steps showing a project moving from opening a large boxed product, to laying out and handling small pieces, to collaborating on assembly with instructions, and finally to showcasing a detailed finished LEGO model?",
+        "answer": "Opening the big box, sorting/handling small pieces, assembling collaboratively with an instruction manual, and then showing a finished detailed LEGO tree with a swing.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            55,
+            56,
+            64,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 55 shows a person opening a large product/board-game-like box with a red cutting tool. Step 2: Slice 56 shows items/pieces laid out (including LEGO-like parts) and being handled. Step 3: Slice 64 shows two people assembling a mechanical model using an instruction manual and tools. Step 4: Slice 66 shows a close-up of a detailed LEGO tree with a swing. Conclusion: The footage depicts an end-to-end build process from unboxing to a finished model reveal.",
+        "logic_check_reasoning": "Step 1: Slice 55 shows a person opening a large box carefully, which supports 'opening the big box.' Step 2: Slice 56 shows a box with colorful imagery and pans over laid-out items including Lego pieces, with the person handling them, which supports 'sorting/handling small pieces.' Step 3: Slice 64 shows two people collaboratively assembling a model with an open instruction manual and organized parts, which supports 'assembling collaboratively with an instruction manual.' Step 4: Slice 66 showcases a close-up of a detailed LEGO tree with a swing, which supports 'showing a finished detailed LEGO tree with a swing.' The logical progression is consistent across slices.",
+        "visual_proof": "Clip 1 shows the person opening the large LEGO box. Clip 2 shows the contents being removed and sorted into bags, followed by hands handling individual pieces. Clip 3 depicts two people collaborating on assembly using an open instruction manual. Clip 4 presents a close-up of the completed LEGO tree model, which includes a swing feature."
+    }
+]

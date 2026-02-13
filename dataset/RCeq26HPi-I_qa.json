@@ -1,0 +1,28 @@
+[
+    {
+        "question": "At the formal party, what violent incident interrupts the dancing, and where is a man later shown in an even more dangerous position high above the city?",
+        "answer": "A man is violently thrown across the room and bloodied, and later a man is shown lying half out of an open window on a windowsill above the city.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a formal dance scene interrupted when a man in a suit is thrown and injured. Step 2: Slice 12 shows a man in a white shirt and black pants precariously lying on a windowsill outside an open window. Conclusion: The party violence is followed by a later life-threatening window peril.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes a formal party with dancing that is interrupted when a man in a suit is violently thrown across the room, crashes into a table, and has blood on his head. Step 2: Slice 12 shows a man in a precarious, life-threatening position lying partially out of an open window on a windowsill, with a cityscape visible outside, indicating an urban setting and height. Step 3: The logic connects the violent incident at the party to a later scene showing a man in an even more dangerous position high above the city. The proposed answer matches these details: the violent throw and the later windowsill position above the city.",
+        "visual_proof": "In Clip 1, a man in a suit is seen being thrown across a hallway and crashing into a table, resulting in a bloody head wound. In Clip 2, the same man is shown lying on his back, partially hanging out of a high-rise window with city lights visible far below, indicating he is in a dangerous position high above the city."
+    },
+    {
+        "question": "Which clue suggests someone is tracking activity in a house (footprints), and which later clue gives a specific address that could direct where to go next?",
+        "answer": "Footprints on a white carpet suggest tracking activity in the house, and a text message provides the address '2058 Ludlow.'",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows footprints on a white carpet as a man investigates. Step 2: Slice 51 shows a phone message saying 'They are not what you think 2058 Ludlow.' Conclusion: Physical traces plus a precise address form a follow-up lead.",
+        "logic_check_reasoning": "Step 1: Slice 26 describes a close-up of a white carpet with footprints and a man investigating, which supports the clue of tracking activity in a house. Step 2: Slice 51 shows a text message reading 'They are not what you think 2058 Ludlow,' which provides a specific address to go next. Logic holds because the first clue indicates activity inside the house, and the later clue gives a location.",
+        "visual_proof": "Clip 1 shows muddy footprints on a white carpet near a staircase, indicating someone has tracked dirt inside. Clip 2 shows a cell phone displaying a text message from an unknown sender that reads, 'They are not what you think 2058 Ludlow,' providing a specific address."
+    }
+]

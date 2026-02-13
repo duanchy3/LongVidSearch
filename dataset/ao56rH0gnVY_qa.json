@@ -1,0 +1,175 @@
+[
+  {
+    "question": "What TV show is shown paused on-screen, and later referenced again via a text overlay while the woman brushes her teeth?",
+    "answer": "Bridgerton.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      41,
+      46
+    ],
+    "reasoning_chain": "Step 1: Slice 41 explicitly shows a paused scene from Bridgerton with episode information. Step 2: Slice 46 contains the overlay text about finishing Bridgerton being worth it. Conclusion: The show is Bridgerton.",
+    "logic_check_reasoning": "Step 1: Slice 41 explicitly identifies the paused scene as from Bridgerton (Season 2, Episode 7) and includes an overlay comment referencing rewatching Bridgerton. Step 2: Slice 46 shows a woman brushing her teeth with a text overlay stating 'finishing Bridgerton was still worth it,' directly referencing the same show. Logic holds because both slices explicitly mention Bridgerton as the show in question.",
+    "visual_proof": "In Clip 1, the TV screen clearly displays the title 'Bridgerton' along with 'Season 2' and 'Harmony: Ep. 7'. In Clip 2, while the woman is brushing her teeth, a text overlay appears at the bottom of the screen that reads, 'finishing Bridgerton was still worth it :)', directly referencing the same show."
+  },
+  {
+    "question": "What object with a black-and-white checkered pattern appears in an earlier makeup setup and later reappears while the person organizes items on the floor?",
+    "answer": "A black-and-white checkered makeup bag.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      12,
+      37
+    ],
+    "reasoning_chain": "Step 1: Slice 12 shows a black-and-white checkered makeup bag on a fluffy white surface with makeup spilling out. Step 2: Slice 37 shows the person handling a makeup bag on a carpeted floor while organizing items. Conclusion: The recurring patterned item is the checkered makeup bag.",
+    "logic_check_reasoning": "Step 1: Slice 12 explicitly shows a black-and-white checkered makeup bag during an early makeup setup. Step 2: Slice 37 later shows the person handling a makeup bag while organizing items on the floor. Logic holds because both slices refer to the makeup bag in the same video; the earlier slice provides the distinctive black-and-white checkered detail, and the later slice shows the same type of object reappearing with no conflicting details.",
+    "visual_proof": "In Video 1 (0:01-0:06), a black-and-white checkered makeup bag is shown on a white surface, opened to reveal makeup products. In Video 2 (0:07-0:15), the same black-and-white checkered makeup bag reappears on a patterned rug as the person organizes various items, including makeup and brushes, around it."
+  },
+  {
+    "question": "What makeup tool is used close-up near the eye, and what other face tool is used earlier to blend product over the face?",
+    "answer": "An eyelash curler and a makeup brush.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      28,
+      24
+    ],
+    "reasoning_chain": "Step 1: Slice 28 shows an eyelash curler used on the upper lashes. Step 2: Slice 24 shows foundation/concealer being applied with a makeup sponge. Conclusion: The tools are an eyelash curler and a sponge.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 28 explicitly describes a close-up of an eye with a metallic eyelash curler being applied to the upper lashes. Step 2: Evidence Slice 24 explicitly states the woman holds a makeup sponge and uses it to apply and blend foundation or concealer over her face. Logic holds because the first tool near the eye is clearly an eyelash curler, and the other face tool used earlier for blending is clearly a makeup sponge, both directly supported by the captions.",
+    "original_text_answer": "An eyelash curler and a makeup sponge.",
+    "verdict_meta": "REFINED",
+    "visual_proof": "In Video 1, a metal eyelash curler is clearly shown being used on the eyelashes. In Video 2, the woman uses a small, fluffy makeup brush to apply and blend product onto her forehead and brow bone area; she does not use a makeup sponge in either clip."
+  },
+  {
+    "question": "What sequence shows the creator staying up late for a show and then transitioning into the next day marker during her night routine?",
+    "answer": "She watches/finishes Bridgerton late at night, then the video transitions to a 'THURSDAY' label during her brushing/mouthwash routine.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      41,
+      45,
+      46
+    ],
+    "reasoning_chain": "Step 1: Slice 41 shows Bridgerton on-screen with commentary about rewatching it. Step 2: Slice 45 shows a time display (11:47) on a black screen, implying late night. Step 3: Slice 46 shows the text about finishing Bridgerton being worth it and then the day label \"THURSDAY.\" Conclusion: Late-night Bridgerton leads into the next-day marker during her routine.",
+    "logic_check_reasoning": "Step 1: Slice 41 shows the creator watching Bridgerton, supported by the on-screen comment about rewatching. Step 2: Slice 45 shows a black screen with '11:47,' implying a late time, aligning with staying up late. Step 3: Slice 46 shows her brushing teeth and using mouthwash with the overlay 'finishing Bridgerton was still worth it,' indicating she finished the show late and is in her night routine. Step 4: Slice 46 then introduces the bold 'THURSDAY' text overlay, marking the next day during that same routine. Logic holds because the sequence connects watching late, acknowledging finishing, and transitioning to a day marker during the night routine.",
+    "visual_proof": "Clip 1 shows the 'Bridgerton' title screen with a subtitle indicating she is rewatching it. Clip 2 displays the time '4:11', implying it's very late at night. Clip 3 shows the woman performing her night routine (brushing teeth, using mouthwash) while on-screen text reads 'finishing Bridgerton was still worth it :)' followed by the large text overlay 'THURSDAY', marking the transition into the next day."
+  },
+  {
+    "question": "How do the tulips change presentation over the vlog: what color appear at the very beginning, what is the bouquet color held in the bathroom with a towel on her head, and what color are the tulips later shown in a vase by a poster?",
+    "answer": "Red tulips at the beginning, red tulips in the bathroom bouquet, and red tulips later in the vase by the poster.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      1,
+      50,
+      49
+    ],
+    "reasoning_chain": "Step 1: Slice 1 opens with vibrant red tulips in a vase. Step 2: Slice 50 shows her holding a bouquet of pink tulips in the bathroom while wearing a towel on her head. Step 3: Slice 49 shows red tulips arranged in a clear vase near a NYC poster. Conclusion: Tulips appear in multiple colors/presentations across time.",
+    "logic_check_reasoning": "Step 1: Slice 1 states the opening scene features vibrant red tulips in a vase, supporting 'red at the very beginning.' Step 2: Slice 50 shows a woman in a bathroom/dressing area with a towel on her head holding a bouquet of pink tulips, supporting 'pink in the bathroom bouquet.' Step 3: Slice 49 shows red tulips in a vase positioned against a wall with a New York City poster, supporting 'red later in the vase by the poster.' Although Slice 50 also mentions 'the video begins,' the specific contexts asked (opening scene, bathroom with towel, vase by poster) match the colors given in the proposed answer, and minor sequencing noise is acceptable per instructions.",
+    "original_text_answer": "Red tulips at the beginning, pink tulips in the bathroom bouquet, and red tulips later in the vase by the poster.",
+    "verdict_meta": "REFINED",
+    "visual_proof": "Clip 1 (0:00) shows red tulips with white centers in a vase. Clip 2 (0:00) shows a bouquet of red tulips next to a lamp. Clip 3 (0:00) shows the same red tulips with white centers in a vase next to a 'NEW YORK' poster. All instances show red tulips, not pink ones as stated in the original answer."
+  },
+  {
+    "question": "What is the chronological connection between the 'favorite time of the day' drink-making moment, the focused typing shot, and the later late-night work scene with a clock reading 1:49?",
+    "answer": "She makes a coffee/espresso drink, then works/ types on the laptop, and later continues working late at night at 1:49.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      10,
+      11,
+      44
+    ],
+    "reasoning_chain": "Step 1: Slice 10 shows making a layered coffee/espresso drink with text \"favorite time of the day\" and then working at a desk. Step 2: Slice 11 shows close-up typing on a laptop, reinforcing ongoing work. Step 3: Slice 44 shows a dim late-night desk-work scene with a clock reading 1:49. Conclusion: The drink accompanies work that extends into late night.",
+    "logic_check_reasoning": "Step 1: Slice 10 shows the 'favorite time of the day' drink-making (pouring milk/cream, espresso, ice cream topping) followed by a scene of a person working on a laptop, indicating the drink precedes a work/typing session. Step 2: Slice 11 presents a focused typing shot with natural light, consistent with the immediate work activity after the drink. Step 3: Slice 44 shows a digital clock reading 1:49 and the person working on a laptop in a dimly lit room, implying a later, late-night work scene. Logic holds because the sequence naturally progresses from making the drink to daytime typing, then to continued work later at 1:49.",
+    "visual_proof": "Clip 1 shows espresso being poured into a glass with the text 'favorite time of the day,' followed by a scene of the person typing on a laptop. Clip 2 is a close-up of her typing. Clip 3 shows her in bed with the laptop open, and a clock clearly displays 1:49, indicating late-night work. The sequence of events across the clips supports the chronological narrative."
+  },
+  {
+    "question": "What evidence shows the creator preparing for sleep after entertainment: which activity is done with family, what bedtime product is shown afterward, and what object list confirms she is setting up for early morning?",
+    "answer": "Watching crime documentaries with family, then using/holding aromatherapy pillow mist, and then turning on early alarms on the phone.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      38,
+      39,
+      40,
+      54
+    ],
+    "reasoning_chain": "Step 1: Slice 38 shows watching a crime documentary with family in a cozy setting. Step 2: Slice 39 shows a bedtime context with \"Aromatherapy Pillow Mist\" held near the bed and a clock. Step 3: Slice 40 shows enabling an early alarm among several early times. Step 4: Slice 54 shows settling into bed under a thick blanket in dim light. Conclusion: Family entertainment transitions into bedtime prep and setting early wake-up alarms.",
+    "logic_check_reasoning": "Step 1: Slice 38 explicitly shows the entertainment activity done with family: a laptop playing a crime documentary with on-screen text 'crime documentaries with my fam.' Step 2: Slice 39 shows a bedtime product being used/shown afterward: a bottle labeled 'Aromatherapy Pillow Mist' held by someone in pajamas preparing for sleep. Step 3: Slice 40 provides an object list confirming early morning setup: a smartphone screen listing multiple early morning alarms (3:45–4:10 AM) with one being toggled on. The sequence logically supports preparing for sleep after entertainment and setting up for an early morning.",
+    "visual_proof": "Clip 1 shows a laptop screen with text 'crime documentaries with my fam <3', indicating family viewing. Clip 2 shows the person holding a bottle labeled 'Aromatherapy Pillow Mist DEEP SLEEP'. Clip 3 shows a hand toggling on multiple alarms set for early morning times (3:50 AM, 3:55 AM, 4:00 AM)."
+  },
+  {
+    "question": "Which sweet treat brand appears first as a box held inside a car and later appears again packed among items near an open car trunk?",
+    "answer": "Heart Shaped Macarons",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      34
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows a box labeled \"Raspberry Hearts\" being held in a car. Step 2: Slice 34 shows a basket by an open trunk that includes a box labeled \"Raspberry Hearts.\" Conclusion: The repeated treat brand is Raspberry Hearts.",
+    "logic_check_reasoning": "Step 1: Slice 1 states that inside a car, the person is holding a box labeled 'Raspberry Hearts' chocolates. Step 2: Slice 34 shows a basket near an open car trunk containing a box of cupcakes labeled 'Raspberry Hearts.' Logic holds because the same brand name 'Raspberry Hearts' appears in both contexts: first as a box held inside a car, and later among items near an open car trunk.",
+    "original_text_answer": "Raspberry Hearts (cupcakes/chocolates).",
+    "verdict_meta": "REFINED",
+    "visual_proof": "In Video 1, at 0:09, the woman is holding a box of 'Heart Shaped Macarons' inside the car. In Video 2, at 0:05, the same box of 'Heart Shaped Macarons' is visible packed in the car next to the 'Raspberry Hearts' cookies. The 'Raspberry Hearts' are only seen in the second clip, while the 'Heart Shaped Macarons' appear first in the first clip and again in the second."
+  },
+  {
+    "question": "What hair-care brand is demonstrated later as a hair mask at home and is also bought earlier during the Target shopping segment?",
+    "answer": "OUAI.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      62,
+      65
+    ],
+    "reasoning_chain": "Step 1: Slice 62 shows a Target shopping sequence where an OUAI hair product is selected. Step 2: Slice 65 shows the woman in the car holding OUAI shampoo and conditioner. Conclusion: The repeated hair-care brand is OUAI.",
+    "logic_check_reasoning": "Step 1: Slice 62 states that a bottle of OUAI hair care product is picked up and placed into the Target basket during the shopping segment. Step 2: Slice 65 shows the woman later holding and discussing two OUAI bottles (shampoo and conditioner) in the car, indicating the brand is featured again. Logic holds because the brand OUAI is explicitly present in both the earlier shopping scene and the later product discussion, matching the brand asked for.",
+    "visual_proof": "In the first clip, a hand is seen picking up an OUAI hair mask product from a shelf and placing it in the red Target basket. In the second clip, the same person is later shown in her car holding the exact same OUAI hair mask box, confirming it was purchased and is being demonstrated."
+  },
+  {
+    "question": "When she demonstrates complexion makeup on the couch, what product type does she first hold up, and what other cheek product is later applied from a compact with a brush?",
+    "answer": "She first holds up a bottle of liquid foundation, and later applies blush from a compact with a brush.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      16,
+      17,
+      25
+    ],
+    "reasoning_chain": "Step 1: Slice 16 shows her holding a bottle of foundation while explaining it. Step 2: Slice 17 shows a foundation stick and application/blending. Step 3: Slice 25 shows a compact blush/bronzer being applied with a fluffy brush. Conclusion: The routine includes foundation (liquid/stick) and a cheek compact product.",
+    "logic_check_reasoning": "Step 1: Slice 16 states she is on a white couch holding a bottle of foundation, indicating the first product type shown is foundation. Step 2: Slice 17, in the same couch setting, specifies a foundation stick is held up and applied, reinforcing that the first product type is foundation (including in stick form). Step 3: Slice 25 shows her later applying a cheek product from a round compact with a brush, identified as blush or bronzer. Logic holds because the first product type demonstrated on the couch is foundation, and later a compact cheek product (blush/bronzer) is applied with a brush.",
+    "original_text_answer": "She first holds up foundation (including a foundation stick), and later applies blush/bronzer from a compact with a brush.",
+    "verdict_meta": "REFINED",
+    "visual_proof": "In Clip 1, she holds up a bottle labeled 'e.l.f. Liquid Foundation'. In Clip 2, she is seen applying this liquid foundation to her face. In Clip 3, she holds up a round compact containing a pink pressed powder and then uses a brush to apply it to her cheeks, which is visually identifiable as blush."
+  },
+  {
+    "question": "How does the 'hair wash day' theme develop from purchase to use: what store segment includes the brand, what products are shown in the car, and what product is applied at home during the hair-mask routine?",
+    "answer": "The Target shopping includes OUAI, then OUAI shampoo/conditioner are shown in the car, and a L'Oréal Elvive hair mask is applied at home.",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      62,
+      65,
+      57,
+      58
+    ],
+    "reasoning_chain": "Step 1: Slice 62 shows shopping at Target and selecting OUAI among other items. Step 2: Slice 65 shows OUAI shampoo and conditioner held up in the car. Step 3: Slice 57 shows an at-home demonstration of L'Oréal Elvive hair mask being applied. Step 4: Slice 58 explicitly overlays \"hair mask on hair wash day\" during the hair routine. Conclusion: The vlog ties shopping (OUAI) to hair-wash day and hair-mask use (L'Oréal Elvive).",
+    "logic_check_reasoning": "Step 1: Slice 62 shows Target shopping where a bottle of OUAI hair care product is placed into the basket, indicating the brand is included in the Target store selection. Step 2: Slice 65 shows a woman in the car holding two bottles of OUAI shampoo and conditioner, confirming the products shown in the car. Step 3: Slice 57 (supported by Slice 58’s “hair mask on hair wash day” overlay) shows the woman applying a L’Oréal Elvive hair mask at home, confirming the product used during the hair-mask routine.",
+    "visual_proof": "Clip 1 shows a red Target basket with OUAI products being selected. Clip 2 shows the person in a car holding the same OUAI shampoo and conditioner bottles. Clip 3 shows the person at home holding and then applying a L'Oréal Elvive Total Repair 5 hair mask, with on-screen text confirming it's 'hair wash day'."
+  },
+  {
+    "question": "Which clothing change signals a shift from the earlier makeup-tutorial segment to the later Thursday routine: what hoodie color is worn during most makeup demos, and what is she wearing when the 'THURSDAY' label appears while brushing her teeth?",
+    "answer": "Brown hoodie during the makeup demos, and black pajamas during the Thursday brushing routine.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      13,
+      30,
+      46
+    ],
+    "reasoning_chain": "Step 1: Slice 13 shows her in a brown hoodie during the talk/tutorial setup. Step 2: Slice 30 continues the brown-hoodie routine with perfume and lipstick. Step 3: Slice 46 shows her in black pajamas during the brushing/mouthwash segment with the \"THURSDAY\" overlay. Conclusion: Outfit changes from brown hoodie to black pajamas indicate the shift.",
+    "logic_check_reasoning": "Step 1: Slice 13 describes the woman wearing a brown hoodie while demonstrating small cylindrical makeup products, indicating a makeup segment. Step 2: Slice 30 further confirms she is wearing a brown hoodie while applying makeup with a mirror and brush, spraying perfume, and applying lipstick—clearly part of the makeup demo. Step 3: Slice 46 shows a different segment where she is in black pajamas, brushing her teeth, and a bold text overlay 'THURSDAY' appears. Logic holds because the earlier makeup demos consistently show a brown hoodie, and the later Thursday routine with brushing teeth shows black pajamas.",
+    "visual_proof": "In clips 1 and 2, the woman is consistently wearing a brown/greyish-brown hoodie while demonstrating makeup products. In clip 3, she is clearly wearing black pajamas with white piping while brushing her teeth, which is the segment associated with the 'THURSDAY' label."
+  }
+]

@@ -1,0 +1,211 @@
+[
+    {
+        "question": "What earlier graphic about New York’s regions helps explain the later Zillow home listings shown in Rochester and Syracuse?",
+        "answer": "The color-coded New York State county maps that distinguish “Upstate” from the rest and show population decline vs growth.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 2 introduces New York’s regional framing (Upstate vs others) and population-trend maps. Step 2: Slice 20 later shows affordable Zillow listings in Rochester. Conclusion: The New York regional/population maps provide context for the later upstate housing examples.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes earlier graphics: New York State county maps color-coded to distinguish 'Upstate' vs the rest, and another map showing counties with declining vs stable/growing populations. Step 2: Slice 20 presents Zillow listings in Rochester, an Upstate city, implying the earlier maps provide regional context for these listings. Logic holds because the proposed answer references those specific color-coded maps from Slice 2, which are clearly described and serve as the earlier graphic explaining regional differences relevant to the later property listings.",
+        "visual_proof": "Clip 1 displays two maps of New York State. The first map (0:10-0:26) uses green to denote counties considered 'Upstate' for the video, while purple indicates other regions. The second map (0:27-0:50) uses red to indicate counties with a declining population, with some green areas remaining. Clip 2 shows Zillow listings for homes in Rochester, NY, which is located within the Upstate region shown on the maps in Clip 1. The maps provide regional context (Upstate vs. not Upstate) and demographic trends (population decline) that frame the real estate data presented later."
+    },
+    {
+        "question": "Which earlier host segment shows the same geography-themed wall decor (flags, maps, and evacuation-route sign) that appears again later when he addresses the camera?",
+        "answer": "The host segment in the geography-decorated room at the beginning.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a bearded man in a maroon striped polo in front of maps, flags, and a tsunami evacuation-route sign. Step 2: Slice 44 shows the same maroon-striped host with the same flags, maps, and evacuation-route sign. Conclusion: Slice 1 matches the later on-camera setup.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes the beginning of the video transitioning to a man seated before a geography-themed wall with a world map, the California Republic flag, a flag with a palm tree and crescent moon (South Carolina), and a 'Tsunami Evacuation Route' sign, plus a lizard decoration. Step 2: Evidence Slice 44 describes a later segment where the man again addresses the camera in front of the same wall decor: California Republic flag, South Carolina flag, Tsunami Evacuation Route sign, maps, and lizard. Logic holds because the question asks which earlier segment shows the same decor that appears later, and Slice 1 explicitly identifies the beginning segment with that decor, matching Slice 44.",
+        "visual_proof": "Both clips show the identical background: a wall with a California Republic flag, a South Carolina flag, a 'TSUNAMI EVACUATION ROUTE' sign, a colorful gecko decoration, a music album cover, and large world maps. This consistent decor confirms that the same setting is used in both segments."
+    },
+    {
+        "question": "What later weather-focused graphic helps explain the heavy snowfall scenes where people clear streets and cars?",
+        "answer": "The ABC News radar/advisory map about lake-effect snow alerts.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            65,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 65 shows a person operating a snow blower in deep snowfall on a residential street. Step 2: Slice 67 shows an ABC News map labeled “Lake Effect Snow Alerts.” Conclusion: The lake-effect alert graphic explains the type of storm producing those snow scenes.",
+        "logic_check_reasoning": "Step 1: Slice 65 describes a heavy snowstorm with a person using a snow blower to clear deep snow from a residential street, indicating significant snowfall. Step 2: Slice 67 shows an ABC News weather map labeled 'LAKE EFFECT SNOW ALERTS,' explaining heavy snowfall conditions in the Great Lakes region. Logic holds because the later weather-focused graphic (Slice 67) provides a meteorological explanation (lake-effect snow) for the heavy snowfall scenes depicted earlier (Slice 65).",
+        "visual_proof": "Clip 1 visually depicts extreme snowfall, with a person wading through deep snow (305cm) and another scene showing people digging out a garage buried under >229cm of snow. Clip 2 directly shows an 'ABC NEWS RADAR AND ADVISORIES' graphic with the prominent text 'LAKE EFFECT SNOW ALERTS' over a map highlighting areas like Buffalo, Syracuse, and Cleveland, which are known for this phenomenon. The graphic serves as an explanation for the severe conditions shown in Clip 1."
+    },
+    {
+        "question": "A high-elevation number is shown in two different formats later in the video—what is that elevation value, and where is it shown as both a map label and as an on-screen overlay?",
+        "answer": "1,629 meters; it appears as “Mt. Marcy 1629” on the topographic map and as “(1,629 m)” over a mountain lake scene.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            56,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 56 labels Mt. Marcy with ‘1629’ on a NY topographic map. Step 2: Slice 57 overlays the text ‘(1,629 m)’ on a mountain-lake landscape. Conclusion: Both present the same elevation value in different visual contexts.",
+        "logic_check_reasoning": "Step 1: Slice 56 describes a topographical map of northeastern New York featuring the Adirondack Mountains, explicitly noting a black triangle marking 'Mt. Marcy 1629' as the highest peak. Step 2: Slice 57 shows a serene mountain lake scene with an on-screen text overlay '(1,629 m)' in yellow. Logic holds because the same elevation number (1629) appears in two formats: as a map label without units and later as an overlay with meters, and the locations match the description (topographic map and mountain lake scene).",
+        "visual_proof": "In Clip 1, the topographic map of New York clearly labels 'Mt. Marcy 1629' near the Adirondack Mountains. In Clip 2, the scenic lake view with mountains in the background has a yellow text overlay at the bottom center reading '(1,629 m)', confirming the same elevation value in metric format."
+    },
+    {
+        "question": "What earlier Buffalo-related landmark is reinforced later by a separate football celebration shot featuring a Bills player?",
+        "answer": "The Buffalo Bills field scene with ‘BILLS’ and a Canadian flag ceremony is reinforced by the later Bills player celebration.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            98
+        ],
+        "reasoning_chain": "Step 1: Slice 10 establishes Buffalo Bills context on a football field labeled ‘BILLS.’ Step 2: Slice 98 shows a celebrating player in Bills colors (NORWOOD #11). Conclusion: The later celebration visually reinforces the Buffalo football theme introduced earlier.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows a Buffalo Bills football field with the word 'BILLS' prominently displayed and a Canadian flag ceremony, clearly establishing a Buffalo-related scene. Step 2: Slice 98 shows a football player celebrating, wearing a blue jersey and red helmet, identified in the question as a Bills player, which reinforces the earlier Bills-related scene. Logic holds because the later celebration shot aligns with and underscores the Buffalo Bills context set in the earlier slice.",
+        "visual_proof": "Clip 1 shows the football field with 'BILLS' painted on it and a large Canadian flag being carried, establishing the Buffalo Bills context. Clip 2 features a player wearing a Bills jersey (blue with red/white accents, 'NORWOOD 11') celebrating, which visually reinforces the team identity introduced in the first clip."
+    },
+    {
+        "question": "Which two slices together show the real estate focus shifting between two different upstate cities via Zillow listings?",
+        "answer": "Rochester listings and Syracuse listings.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows Zillow listings located in Rochester, NY. Step 2: Slice 27 shows a Zillow listing located in Syracuse, NY. Conclusion: The video compares Zillow homes across multiple upstate cities.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 20 presents two Zillow listings located in Rochester, NY (addresses and details explicitly stated). Step 2: Evidence Slice 27 presents a Zillow listing located in Syracuse, NY (address and details explicitly stated). Logic holds because these two slices together show Zillow listings in two different upstate New York cities, matching the proposed answer of Rochester listings and Syracuse listings.",
+        "visual_proof": "Clip 1 displays Zillow listings for properties located at '205 West Ave, Rochester, NY 14611' and '2468 Browncroft Blvd, Rochester, NY 14625'. Clip 2 shows a Zillow listing for a property at '950 Wadsworth St, Syracuse, NY 13208', clearly indicating a shift in focus between the two distinct upstate New York cities."
+    },
+    {
+        "question": "Across the video, a brewery sign appears in one city montage while a wing landmark appears in another—what are the two highlighted businesses?",
+        "answer": "West End Brewing Co. and The Anchor Bar (home of the original Buffalo wings).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 32 zooms in on ‘West End Brewing Co.’ on a red building. Step 2: Slice 86 shows ‘The Anchor Bar’ and signage for the original Buffalo wings. Conclusion: The montage highlights distinct local businesses/food culture sites.",
+        "logic_check_reasoning": "Step 1: Slice 32 explicitly shows a large red building with a sign reading \"West End Brewing Co.,\" confirming the brewery sign. Step 2: Slice 86 shows a red brick building with signs stating \"Home of the Original Buffalo Wings\" and identifying \"The Anchor Bar,\" confirming the wing landmark. Logic holds because each slice clearly names the business via its signage, matching the question's two highlighted businesses.",
+        "visual_proof": "Clip 1 shows a red brick building with 'WEST END BREWING CO.' written on its side and a large 'Utica Club' sign on its roof. Clip 2 shows a red brick building with multiple signs for 'Frank & Teressa's Anchor Bar,' explicitly stating it is the 'HOME OF THE ORIGINAL BUFFALO CHICKEN WINGS' and 'EST. 1935.'"
+    },
+    {
+        "question": "Which sequence links a Great Lakes-region weather concept to real-life snow-removal action, and what is the concept being illustrated?",
+        "answer": "The lake-effect snow process; it’s illustrated in the diagram and then mirrored by heavy snow-clearing scenes.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            68,
+            65,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 68 explains lake-effect snow formation with a diagram (cold wind over warm lake causing heavy snow inland). Step 2: Slice 65 shows deep snowfall requiring a snow blower. Step 3: Slice 71 shows a snowplow actively clearing a road. Conclusion: The concept (lake-effect snow) is followed by real-world impacts and responses.",
+        "logic_check_reasoning": "Step 1: Slice 68 explicitly depicts and labels the lake-effect snow process via a diagram showing cold wind over warmer lake water, moisture pickup, cloud formation, and inland heavy snowfall. Step 2: Slice 65 shows a person using a snow blower during a heavy snowstorm, and Slice 71 shows a snowplow clearing a road—both real-life snow-removal actions in heavy snow conditions. Logic holds because the sequence links the illustrated lake-effect concept (Slice 68) to practical snow-clearing scenes (Slices 65 and 71), and the concept named in the answer matches the caption.",
+        "visual_proof": "Clip 1 shows a labeled diagram titled 'Lake-Effect Snow' depicting cold wind moving over warmer water, causing rising air and heavy snowfall. Clips 2 and 3 show real-world consequences: Clip 2 features a person wading through deep snow (305cm) and people digging out a garage buried under >229cm of snow. Clip 3 shows a snowplow clearing a road with massive snowbanks. The sequence visually links the scientific concept from Clip 1 to the extreme snow conditions and removal efforts in Clips 2 and 3."
+    },
+    {
+        "question": "How is the Adirondacks’ highest peak connected across three different visuals in the video?",
+        "answer": "It’s identified on a NY topographic map as Mt. Marcy, shown again as an elevation overlay (1,629 m) on a mountain-lake shot, and contextualized by a map highlighting Adirondack Park.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            62,
+            56,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 62 shows a map highlighting Adirondack Park. Step 2: Slice 56 labels ‘Mt. Marcy 1629’ on a NY topographic map. Step 3: Slice 57 shows a mountain lake scene with the overlay ‘(1,629 m).’ Conclusion: Multiple visuals reinforce the Adirondacks and the highest-elevation fact.",
+        "logic_check_reasoning": "Step 1: Slice 56 shows a NY topographic map marking “Mt. Marcy 1629” and explicitly notes it as the highest peak in the Adirondack range. Step 2: Slice 57 presents a mountain-lake visual with an elevation overlay reading “(1,629 m),” which matches the number from Slice 56, logically linking the elevation to the highest peak. Step 3: Slice 62 displays a map highlighting Adirondack Park, providing broader regional context. The three visuals collectively identify the peak, reiterate its elevation, and situate it within the park.",
+        "visual_proof": "Clip 2 shows a topographic map of New York with 'Mt. Marcy 1629' labeled in the Adirondack Mountains. Clip 3 displays a scenic mountain view over a lake with the text '(1,629 m)' overlaid, matching the elevation from Clip 2. Clip 1 presents a detailed map of the Adirondack Park area, providing geographical context for the region where Mt. Marcy is located."
+    },
+    {
+        "question": "What three-part progression shows a shift from an introductory New York framing to housing examples and then to tax-rate comparisons that relate to homeownership costs?",
+        "answer": "New York regional/population maps → Zillow house listings → nationwide maps of sales/property tax rates.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            20,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 2 frames New York regions and demographic trends. Step 2: Slice 20 provides concrete housing examples via Zillow listings. Step 3: Slice 80 shows state-by-state sales and property tax rates, which relate to the costs of owning property. Conclusion: The video builds from geographic framing to housing to tax burdens.",
+        "logic_check_reasoning": "Step 1: Slice 2 presents an introductory New York framing with maps highlighting New York State and its regional/population trends. Step 2: Slice 20 shows housing examples via Zillow listings for two Rochester, NY homes. Step 3: Slice 80 provides nationwide maps of sales and property tax rates, explicitly including mean effective property tax rates on owner-occupied housing, which relate to homeownership costs. The logic holds because the sequence moves from NY context to specific homes to broader tax comparisons impacting homeowners.",
+        "visual_proof": "Clip 1 shows a map of the USA with New York highlighted, followed by detailed maps of New York State counties colored to indicate 'Upstate' regions and those with 'declining population'. Clip 2 displays two separate Zillow listings for houses in Rochester, NY, showing prices, property taxes, and monthly costs. Clip 3 presents two nationwide maps: one for 'Combined State & Average Local Sales Tax Rates' and another for 'Mean Effective Property Tax Rates on Owner-Occupied Housing', both ranking states by tax burden. This sequence visually confirms the described three-part progression."
+    },
+    {
+        "question": "Which three different scenes collectively emphasize New York’s mix of historic downtown architecture, public squares with monuments/fountains, and everyday street commerce?",
+        "answer": "A historic downtown plaza with a roundabout and ornate buildings, a city square featuring a prominent clock tower surrounded by a flower bed, and a commercial street lined with brick buildings and active storefronts.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            31,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows a circular downtown plaza with a fountain and historic buildings. Step 2: Slice 31 shows a busy city square centered on an ornate clock tower and flower bed. Step 3: Slice 29 includes a bustling commercial street lined with shops and pedestrians/cars. Conclusion: Together, they portray civic spaces plus day-to-day commerce in historic urban cores.",
+        "logic_check_reasoning": "Step 1: Slice 33 shows a historic downtown plaza with classical architecture and a central fountain, supporting 'a historic downtown plaza scene.' Step 2: Slice 31 depicts a bustling city square featuring a prominent clock tower and a circular flower bed, supporting 'a city square with a clock tower/flower bed.' Step 3: Slice 29 (Scene 3) describes a lively commercial street with red-brick buildings and storefronts, supporting 'a commercial street with storefronts.' Logic holds because these three scenes directly correspond to the proposed categories and collectively emphasize historic architecture, public squares with monuments/fountains, and everyday street commerce. Slice 33 also explicitly situates the setting in Binghamton, NY.",
+        "original_text_answer": "A historic downtown plaza scene, a city square with a clock tower/flower bed, and a commercial street with storefronts.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a historic downtown plaza in Binghamton with a roundabout and surrounding ornate buildings. Clip 2 displays a city square in Utica centered on a tall clock tower with a circular flower bed at its base. Clip 3 presents a commercial street with multi-story brick buildings housing various storefronts, including one with neon signs, indicating everyday commerce."
+    },
+    {
+        "question": "Which four slices create a winter-conditions arc from alerts/explanations to people struggling with snow and finally to heavy equipment clearing roads?",
+        "answer": "Lake-effect snow alert map → lake-effect process diagram → people clearing cars/streets in heavy snow → a snowplow pushing through deep snow.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            67,
+            68,
+            69,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 67 shows a ‘Lake Effect Snow Alerts’ advisory map. Step 2: Slice 68 explains the lake-effect mechanism via diagram. Step 3: Slice 69 shows people shoveling snow off cars in a heavy storm. Step 4: Slice 71 shows a snowplow clearing an icy road with snow spraying behind. Conclusion: Warning + explanation → human impact → municipal response.",
+        "logic_check_reasoning": "Step 1: Slice 67 shows an ABC News map with 'Lake Effect Snow Alerts,' establishing the alert stage. Step 2: Slice 68 illustrates the lake-effect snow process, providing the explanation stage. Step 3: Slice 69 depicts people shoveling cars during a heavy snowstorm, showing people struggling with snow. Step 4: Slice 71 shows a snowplow clearing a road, representing heavy equipment addressing the conditions. The described arc in the answer matches these slices logically and explicitly.",
+        "visual_proof": "Clip 1 shows an ABC News radar map with 'LAKE EFFECT SNOW ALERTS' over cities like Buffalo. Clip 2 is a diagram titled 'Lake-Effect Snow' illustrating the meteorological process. Clip 3 depicts two individuals shoveling snow off a car on a street during a heavy snowstorm. Clip 4 shows a large snowplow actively clearing a road, pushing a massive amount of snow to the side."
+    },
+    {
+        "question": "How does the video repeatedly contrast calm, scenic water settings with dense city skylines across four different moments?",
+        "answer": "It alternates between lake/river scenes and city skyline scenes (lake with skyline, creek kayaking, waterfront city skyline, and night skyline across water).",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            24,
+            25,
+            12,
+            95
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a serene lake with a distant city skyline. Step 2: Slice 25 shows tranquil creek kayaking in nature. Step 3: Slice 12 shows a waterfront cityscape with docked boats and tall buildings. Step 4: Slice 95 shows a nighttime skyline across water with reflections. Conclusion: The video repeatedly juxtaposes nature/water calm with urban skylines.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows a calm lake with lush greenery and a distant city skyline, fitting 'lake with skyline.' Step 2: Slice 25 shows serene creek kayaking in a natural setting, fitting 'creek kayaking' (calm water scene). Step 3: Slice 12 presents a waterfront city skyline with boats and calm water, fitting 'waterfront city skyline.' Step 4: Slice 95 shows a nighttime city skyline across water, fitting 'night skyline across water.' Logic holds because these four moments collectively switch between tranquil water/nature scenes and city skylines, demonstrating the repeated contrast described.",
+        "visual_proof": "Clip 1 shows a wide lake with a distant city skyline. Clip 2 shows a calm creek scene with kayakers, contrasting with the urban environment. Clip 3 features a daytime waterfront city skyline with boats and infrastructure. Clip 4 presents a nighttime city skyline reflected in water, completing the contrast cycle."
+    },
+    {
+        "question": "Which four slices connect upstate city identity through local signage and labels—moving from a brewing company sign, to a labeled city aerial, to a labeled carousel scene, and then to a labeled pedestrian downtown?",
+        "answer": "West End Brewing Co. sign → Binghamton aerial view → Binghamton carousel → Ithaca downtown.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            32,
+            33,
+            34,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 32 spotlights ‘West End Brewing Co.’ as a local marker. Step 2: Slice 33 shows an aerial view labeled Binghamton. Step 3: Slice 34 shows a carousel explicitly labeled ‘Binghamton.’ Step 4: Slice 37 shows a bustling pedestrian downtown labeled ‘Ithaca.’ Conclusion: The montage uses explicit labels/signage to anchor multiple upstate locations.",
+        "logic_check_reasoning": "Step 1: Slice 32 shows a large red building with a prominent sign reading \"West End Brewing Co.,\" satisfying the brewing company sign. Step 2: Slice 33 begins with an aerial view identified as Binghamton, fulfilling the labeled city aerial. Step 3: Slice 34 features a carousel with the word \"Binghamton\" appearing on screen, meeting the labeled carousel scene. Step 4: Slice 37 shows a pedestrian-friendly downtown in Ithaca with on-screen text \"Ithaca,\" matching the labeled pedestrian downtown. The proposed sequence aligns with these slices: West End Brewing Co. sign (32) → Binghamton aerial view (33) → Binghamton carousel (34) → Ithaca downtown (37).",
+        "visual_proof": "Clip 1 shows the 'West End Brewing Co.' sign on a red brick building with 'Utica Club' above it. Clip 2 is an aerial shot of a city with the text 'Binghamton' at the bottom. Clip 3 features a carousel with the text 'Binghamton' at the bottom. Clip 4 displays a pedestrian street scene with the text 'Ithaca' at the bottom. These visuals directly correspond to the sequence described in the original answer."
+    },
+    {
+        "question": "How does the video connect a U.S. December temperature overview to the Great Lakes-focused snow story and then to on-the-ground blizzard scenes?",
+        "answer": "It shows a national December temperature map, then Great Lakes lake-effect alerts/diagram, then real street-level snowstorm footage.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            72,
+            67,
+            68,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 72 shows the U.S. average high temperatures in December, establishing winter context. Step 2: Slice 67 highlights lake-effect snow alerts near the Great Lakes. Step 3: Slice 68 explains how lake-effect snow forms. Step 4: Slice 64 shows a heavy snowfall street scene with whiteout conditions. Conclusion: Broad winter climate → regional mechanism → observed storm conditions.",
+        "logic_check_reasoning": "Step 1: Slice 72 shows a national U.S. map of average high temperatures for December, providing the broad overview. Step 2: Slice 67 presents Great Lakes lake-effect snow alerts, and Slice 68 explains the lake-effect process with a diagram, together forming the Great Lakes-focused snow story. Step 3: Slice 64 depicts a heavy snowfall scene on a street, serving as the on-the-ground snowstorm/blizzard footage. Logic holds because each slice corresponds to the described sequence: overview map → regional alerts/diagram → street-level storm scene.",
+        "visual_proof": "Clip 1 displays a U.S. map titled 'AVERAGE HIGH TEMPERATURES DECEMBER'. Clip 2 shows an ABC News radar map with 'LAKE EFFECT SNOW ALERTS' over the Great Lakes region (Buffalo, Syracuse, Cleveland). Clip 3 provides a diagram explaining 'Lake-Effect Snow'. Clip 4 presents live-action footage of a heavy snowstorm on a residential street. The sequence visually connects the national context to the regional phenomenon and its real-world impact."
+    }
+]

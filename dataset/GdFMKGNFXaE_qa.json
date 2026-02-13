@@ -1,0 +1,15 @@
+[
+    {
+        "question": "The program opens with a Paris-themed title card and later shows a correspondent reporting from Brussels. Which two cities are used to frame the coverage, and what roles do they play in the broadcast?",
+        "answer": "Paris is used for the show’s opening/title framing, and Brussels is shown as the on-location reporting and EU decision-making hub via the correspondent.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the opening title sequence 'LIVE FROM PARIS' setting the broadcast frame. Step 2: Slice 45 shows the correspondent reporting live from Brussels with EU meeting footage. Conclusion: The coverage is framed by Paris (studio/show identity) and Brussels (EU negotiations and reporting location).",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly shows the opening title card with \"LIVE FROM PARIS\" and the studio host introducing the topic, confirming Paris as the show’s opening/title framing location. Step 2: Evidence Slice 45 states that correspondent Dave Keating is reporting live from Brussels and includes European Council meeting footage with EU officials, supporting Brussels as the on-location reporting setting tied to EU decision-making coverage. Logic holds because the two cities are clearly identified with their roles: Paris for the studio/opening frame and Brussels for the correspondent and EU-related proceedings.",
+        "visual_proof": "The video opens with a title card featuring the Eiffel Tower and text 'LIVE FROM PARIS' (0:00-0:01). Later, the correspondent Dave Keating is identified with an on-screen graphic as 'France 24 Correspondent - Brussels' while reporting (0:03-0:08). The background behind him shows office shelves, consistent with a studio or remote setup in Brussels. Additionally, footage of EU officials and the European Council chamber (0:09-0:17) is shown alongside his report, visually linking Brussels to EU decision-making."
+    }
+]

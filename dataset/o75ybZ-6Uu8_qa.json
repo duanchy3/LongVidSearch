@@ -1,0 +1,57 @@
+[
+  {
+    "question": "What specific Atari game did the presenter look up after showing a slide about balancing predictions and representations for better planning?",
+    "answer": "Video Pinball for the Atari 2600.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      56,
+      58
+    ],
+    "reasoning_chain": "Step 1: Slice 56 shows the presenter searching for \"video pinball Atari\" right after a planning-related slide. Step 2: Slice 58 shows the YouTube page titled \"Atari 2600 - Video Pinball (1980).\" Conclusion: The searched game was Atari 2600 Video Pinball.",
+    "logic_check_reasoning": "Step 1: Slice 56 describes a presentation slide about balancing predictions and representations, followed by a web search for 'video pinball Atari.' Step 2: The search results include 'Atari 2600 - Video Pinball (1980).' Step 3: Slice 58 shows the user on a YouTube page specifically titled 'Atari 2600 - Video Pinball (1980),' indicating that this is the game they looked up. Therefore, the context supports that the presenter looked up Video Pinball for the Atari 2600.",
+    "visual_proof": "In Clip 1, after showing a slide with text about 'balancing predictions' and images of game screens, the user's browser history shows a Google search for 'video pinball atari'. In Clip 2, the user is on YouTube watching a video titled 'Atari 2600 - Video Pinball (1980)', confirming the specific game they looked up."
+  },
+  {
+    "question": "During the detour into retro gaming, what platform context is first introduced by the search query, then confirmed by the YouTube video title, and finally reflected in the gameplay footage?",
+    "answer": "The Atari 2600 platform.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      56,
+      58,
+      59
+    ],
+    "reasoning_chain": "Step 1: Slice 56 shows a search for \"video pinball Atari,\" introducing the Atari context. Step 2: Slice 58 confirms the platform explicitly in the title \"Atari 2600 - Video Pinball (1980).\" Step 3: Slice 59 shows the actual Video Pinball gameplay footage from that title. Conclusion: The platform is Atari 2600.",
+    "logic_check_reasoning": "Step 1: Slice 56 states the search query is 'video pinball Atari,' introducing the Atari platform context. Step 2: Slice 58 shows a YouTube video titled 'Atari 2600 - Video Pinball (1980),' confirming the specific platform as Atari 2600. Step 3: Slice 59 explicitly says the gameplay footage is from 'Video Pinball,' released for the Atari 2600 in 1980, reflecting the same platform in the footage. Logic holds because the progression goes from general 'Atari' in the search to specific 'Atari 2600' in the title and is corroborated by the gameplay description.",
+    "visual_proof": "Clip 1 shows a Google search for 'video pinball atari'. Clip 2 displays the YouTube video title 'Atari 2600 - Video Pinball (1980)'. Clip 3 shows the gameplay of this specific game, which features the characteristic low-resolution graphics and simple sprite design of the Atari 2600 console, confirming the platform context throughout the sequence."
+  },
+  {
+    "question": "After opening a generic YouTube page, which specific retro game video does the viewer end up watching next?",
+    "answer": "\"Atari 2600 - Video Pinball (1980).\"",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      57,
+      58
+    ],
+    "reasoning_chain": "Step 1: Slice 57 shows a generic YouTube page with a different video thumbnail. Step 2: Slice 58 shows the selected YouTube video titled \"Atari 2600 - Video Pinball (1980).\" Conclusion: The viewer proceeds to watch the Video Pinball clip.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 57 shows the video starting on a generic YouTube interface, displaying a YouTube page with a thumbnail and typical UI elements. Step 2: Evidence Slice 58 then shows a YouTube page where the viewer is watching a specific retro game video titled 'Atari 2600 - Video Pinball (1980)'. Logic holds because the sequence moves from a general YouTube page to a specific video page, and the specific video is explicitly identified as the retro game in question.",
+    "visual_proof": "The video player interface in both clips clearly displays the title 'Atari 2600 - Video Pinball (1980)' below the video frame. The game's pixelated graphics, featuring a pinball table with bumpers and flippers, are visible in Clip 2, confirming the content of the video being watched."
+  },
+  {
+    "question": "Which evidence indicates the presenter alternates between paper figures and hand-drawn/whiteboard explanations while staying on the same core topic of world model learning?",
+    "answer": "The video shows paper close-ups of Figure 2 and dense equation pages, interleaved with whiteboard-style hand-drawn diagrams highlighting GRU/CNN/min-KL components.",
+    "category": "Visual_Tracking",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      31,
+      34,
+      46,
+      37
+    ],
+    "reasoning_chain": "Step 1: Slice 31 shows a paper figure captioned \"Figure 2: World Model Learning.\" Step 2: Slice 34 shows a whiteboard diagram using the same GRU/CNN/min-KL terminology. Step 3: Slice 46 shows dense paper equations with annotated loss terms for the world model. Step 4: Slice 37 returns to a close-up of Figure 2 in the paper. Conclusion: The video alternates between paper figures/equations and whiteboard explanations while maintaining the same topic.",
+    "logic_check_reasoning": "Step 1: Slice 37 explicitly describes a close-up of a scientific paper focusing on 'Figure 2: World Model Learning,' indicating paper figures. Step 2: Slice 31 also details a diagram labeled 'Figure 2: World Model Learning' with annotations, reinforcing the presence of paper-based figures on the same topic. Step 3: Slice 46 states that frames display pages from a research paper with dense equations and highlights specific loss components of the world model, confirming the dense equation pages. Step 4: Slice 34 describes a whiteboard with hand-drawn diagrams labeled 'GRU,' 'CNN,' and 'min KL,' showing whiteboard explanations. Step 5: All slices consistently reference the same core topic—world model learning—so the presence of both mediums in the same video indicates alternation between paper figures/equations and hand-drawn whiteboard explanations.",
+    "visual_proof": "Clip 1 (0:00-0:02) shows a paper figure labeled 'Figure 2: World Model Learning' with printed text and diagrams. Clip 2 (0:00-0:08) zooms into a section of the same figure but now features prominent red and blue hand-drawn annotations circling elements like 'GRU', 'CNN', and 'min KL'. Clip 3 (0:00-0:24) transitions to a page of dense academic text and equations, specifically showing the 'Loss function' and formula (2). Clip 4 (0:00-0:02) returns to the annotated version of Figure 2. This clear alternation between printed paper content and hand-drawn explanations on the same diagram confirms the presenter is switching between these two formats while discussing the world model."
+  }
+]

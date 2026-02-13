@@ -1,0 +1,29 @@
+[
+  {
+    "question": "Across the performance, which backdrop color consistently frames the stage, and where is this backdrop explicitly visible both in early performance shots and in late solo-guitar shots?",
+    "answer": "A deep red curtain backdrop; it is visible early during the small ensemble shots and later behind solo guitarists as well.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      2,
+      74
+    ],
+    "reasoning_chain": "Step 1: Slice 2 clearly states the background is rich red curtains. Step 2: Slice 74 again describes a guitarist performing with red curtains behind him. Conclusion: The red curtain backdrop is consistent from early ensemble moments to later solo shots.",
+    "logic_check_reasoning": "Step 1: Slice 2 describes an early ensemble scene with two musicians and explicitly states the backdrop consists of rich red curtains. Step 2: Slice 74 describes a later solo-guitar shot and again explicitly mentions red curtains in the background. Logic holds because both early (ensemble) and late (solo) shots feature the same red curtain backdrop, matching the proposed answer's description.",
+    "visual_proof": "In both clips, a consistent deep red curtain serves as the stage backdrop. In Clip 1 (early shot), the red curtain is visible behind the main guitarist and the second musician in the background. In Clip 2 (later solo shot), the same red curtain is clearly visible directly behind the solo guitarist, confirming its presence throughout the performance."
+  },
+  {
+    "question": "During the video, a musician is singled out as a leader in one guitar trio and later a leader is implied again in a larger ensemble. What visual behaviors suggest leadership in both cases?",
+    "answer": "Leadership is suggested by more pronounced gestures, looking up from the music to cue others, and appearing to coordinate or guide the group.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      13,
+      20,
+      66
+    ],
+    "reasoning_chain": "Step 1: Slice 13 describes an older gray-haired musician who seems to coordinate and glance around to align the group. Step 2: Slice 20 notes one musician appears to be leading via pronounced gestures. Step 3: Slice 66 describes a central figure frequently looking up and engaging others, implying leadership. Conclusion: Repeated cues—gestures and attention to others—mark leadership across ensembles.",
+    "logic_check_reasoning": "Step 1: Slice 20 states that one musician appears to be leading or guiding the group, explicitly citing his more pronounced gestures and others following his lead. Step 2: Slice 66 notes that the central figure appears to lead and frequently looks up from his sheet music to engage with the others, indicating cueing and coordination. Step 3: Slice 13 describes an older man who seems to be leading or coordinating, occasionally glancing around to ensure alignment. Logic holds because the proposed behaviors—pronounced gestures, looking up from music to cue/engage, and coordinating—are explicitly described across slices. The 'trio' vs larger ensemble detail may be VLM noise; however, leadership behaviors are clearly supported in both smaller and larger group contexts.",
+    "visual_proof": "In Clip 1, the young man on the far right (in a black shirt) frequently looks up from his sheet music towards the other musicians while playing, suggesting he is cueing them. In Clip 3, the musician second from the left (with glasses and a beard) displays more animated body language and head movements compared to his peers, often looking towards the others as if coordinating the ensemble. These visual cues—looking up to engage with fellow players and using expressive gestures—are consistent indicators of leadership within a musical group."
+  }
+]

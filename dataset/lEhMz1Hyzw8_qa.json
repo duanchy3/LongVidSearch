@@ -1,0 +1,99 @@
+[
+    {
+        "question": "What aircraft are shown early in the video that later reappear as part of the Blitzkrieg air campaign?",
+        "answer": "Bomber aircraft flying in formation.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows fighter planes viewed through binoculars flying in formation. Step 2: Slice 18 shows aerial formations of planes as part of 'Blitzkrieg/Lightning War.' Conclusion: The repeated aircraft motif is fighter planes flying in formation.",
+        "logic_check_reasoning": "Step 1: Slice 2 states the video opens with a view through binoculars showing a group of fighter planes flying in formation. Step 2: Slice 18 describes later frames showing formations of fighter planes, marked as Luftwaffe, in the context of Blitzkrieg, explicitly linking them to the Blitzkrieg air campaign. Logic holds because the same type of aircraft—fighter planes in formation—appear early and then reappear during the Blitzkrieg segment.",
+        "original_text_answer": "Fighter planes flying in formation.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "The aircraft shown early in the video (0:00-0:03) are large, multi-engine planes with a distinct silhouette of bombers. This is confirmed later when the same type of aircraft appears at 0:06-0:10 with the text 'Luftwaffe' and again at 0:11-0:15 with the text '\"Blitzkrieg\"', identifying them as part of the Blitzkrieg air campaign. These are not fighter planes, which are typically smaller and single-engine."
+    },
+    {
+        "question": "Which specific place in London is shown amid heavy smoke that connects to the later focus on RAF fighter defense aircraft?",
+        "answer": "Tower Bridge in London.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows London during the Blitz with Tower Bridge and smoke. Step 2: Slice 38 highlights RAF Hurricanes and Spitfires, implying air defense linked to the Blitz. Conclusion: The London landmark tied to this sequence is Tower Bridge.",
+        "logic_check_reasoning": "Step 1: Slice 37 explicitly identifies the scene as London during the Blitz and states that Tower Bridge dominates the right side of the frame amid thick smoke and fires. Step 2: Slice 38 shows RAF Hurricanes and Spitfires, indicating the later focus on RAF fighter defense aircraft. Logic holds because the question asks for the specific London place shown amid heavy smoke, which is Tower Bridge, and this scene is part of a video that later focuses on RAF fighters.",
+        "visual_proof": "Clip 1 clearly shows the iconic structure of Tower Bridge spanning the River Thames, with heavy smoke rising behind it. Clip 2 immediately follows with images of RAF fighter planes (Hurricanes and Spitfires), establishing a thematic link between the location under attack and the aerial defense force. The visual evidence in Clip 1 unambiguously identifies the landmark as Tower Bridge."
+    },
+    {
+        "question": "Which country’s highlighted geography earlier in the video later becomes the subject of a newspaper headline announcing a German declaration of war?",
+        "answer": "Russia (the Soviet Union).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows a static map of Russia. Step 2: Slice 51 shows a newspaper headline dated June 22, 1941: 'Germany Declares War on Russia.' Conclusion: Russia/USSR is the country highlighted earlier and later referenced in the war declaration.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 41 shows a static map highlighting Russia. Step 2: Evidence Slice 51 shows a newspaper headline stating 'GERMANY DECLARES WAR ON RUSSIA.' Logic holds because the country highlighted earlier (Russia) is explicitly the subject of the later headline. The mention of 'the Soviet Union' is extra context not in the slices, but the identification of Russia is fully supported.",
+        "visual_proof": "Clip 1 displays a map labeled 'RUSSIA'. Clip 2 shows a newspaper headline from June 22nd, 1941, that reads 'GERMANY DECLARES WAR ON RUSSIA.' The direct textual link between the country name on the map and in the headline confirms Russia as the subject."
+    },
+    {
+        "question": "Which country is highlighted on an early map as the initial invasion target, and later shown again on a colorful map when Britain and France declare war with Chamberlain’s declaration?",
+        "answer": "Poland.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 13 includes a small map highlighting Poland while soldiers stand in formation. Step 2: Slice 19 shows a colorful map focusing on Poland with text about Britain and France at war with Germany. Conclusion: The repeated highlighted country is Poland.",
+        "logic_check_reasoning": "Step 1: Slice 13 mentions a small map showing the location of Poland, highlighting its borders and major cities, in the early part of the video. Step 2: Slice 19 states that a colorful animated map focuses on Poland (marked in purple) alongside text about Britain and France being at war with Germany and Chamberlain’s declaration, explicitly referencing the invasion of Poland. Logic holds because the early map features Poland and the later map again highlights Poland in the context of Britain and France declaring war following Germany’s invasion of Poland.",
+        "visual_proof": "In Clip 1, a black-and-white map overlay highlights Poland in orange during a scene of marching soldiers. In Clip 2, a colorful map clearly labels 'POLAND' in purple, and a newspaper headline about Britain and France declaring war with Germany appears over this same map, directly linking Poland to the declaration."
+    },
+    {
+        "question": "How does the video connect the fall and division of France to images labeled with the collaborationist government and then to soldiers near the Eiffel Tower?",
+        "answer": "It shows France divided into occupation zones, then references 'Vichy,' and also shows soldiers marching near the Eiffel Tower.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            29,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows ruins dated May 10th, 1940, aligning with the invasion of France. Step 2: Slice 28 presents a map dividing France into occupation/free/forbidden zones. Step 3: Slice 29 includes 'Vichy' and soldiers near the Eiffel Tower. Conclusion: The narrative connects invasion devastation → territorial division → Vichy/capital imagery under occupation.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows the fall of France with parachutes, ruins, and the date May 10, 1940. Step 2: Slice 28 shows the division of France into occupation zones (Occupied, Free, Forbidden). Step 3: Slice 29 explicitly displays 'Vichy,' referencing the collaborationist government. Step 4: Slice 29 also shows soldiers walking in formation near the Eiffel Tower. The proposed answer summarizes steps 2–4 (division, Vichy reference, soldiers near Eiffel Tower), all of which are explicitly supported by the slices.",
+        "visual_proof": "Clip 1 displays a map of France clearly labeled with 'Zone occupée' (Occupied Zone) and 'Zone libre' (Free Zone), visually depicting the division. Clip 2 first shows German soldiers marching in front of the Eiffel Tower, and then transitions to a scene with a crowd and text overlay explicitly stating '\"Vichy\"', directly linking the visual of the occupation to the collaborationist government."
+    },
+    {
+        "question": "What multi-step story connects early European maps of expanding conflict to the later depiction of huge numbers of captured German soldiers?",
+        "answer": "It progresses from early territorial changes and invasion timelines to Eastern Front operations, culminating in the image stating '3 million+ German soldiers' marched as prisoners.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            17,
+            44,
+            59,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows Europe’s conflict escalation and the start of WWII (Sept 1, 1939). Step 2: Slice 44 shows Operation Barbarossa into the USSR (1940 label on map). Step 3: Slice 59 references the 1941 Siege of Leningrad, indicating intense Eastern Front fighting. Step 4: Slice 48 shows a mass march labeled '3 million+ German soldiers,' implying large-scale German defeat/capture later. Conclusion: Escalation → Eastern invasion → brutal siege → mass German prisoners.",
+        "logic_check_reasoning": "Step 1: Slice 17 shows early WWII context with maps of European territories and the invasion timeline (September 1, 1939), indicating expanding conflict. Step 2: Slice 44 presents Eastern Front operations via a map labeled Operation Barbarossa with arrows toward Leningrad, Moscow, and Stalingrad, reinforcing the progression of the war eastward. Step 3: Slice 59 depicts the Siege of Leningrad (1941), showing the harsh realities and logistics of the Eastern Front. Step 4: Slice 48 shows large numbers of German soldiers being marched, with a text overlay '3 million+ German soldiers' and description implying they are prisoners, providing the culmination. The logic holds because the slices sequentially move from early maps and invasions to Eastern Front operations and finally to the mass capture of German soldiers.",
+        "visual_proof": "Clip 1 shows maps of Germany's expansion and the invasion of Poland on September 1st, 1939. Clip 2 displays a map for 'Operation Barbarossa' in 1940, showing the invasion of the USSR. Clip 3 depicts the 'Siege of Leningrad' in 1941, a major Eastern Front battle. Finally, Clip 4 shows a large column of prisoners being escorted by German soldiers, with text explicitly stating '3 million+ German soldiers,' visually concluding the narrative arc from initial conquests to massive prisoner captures on the Eastern Front."
+    },
+    {
+        "question": "Which leader appears in an earlier labeled image and later again in a more formal portrait scene with wartime British leadership?",
+        "answer": "Neville Chamberlain.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            19,
+            22,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 19 includes text quoting Chamberlain’s declaration about Britain and France at war with Germany. Step 2: Slice 22 shows labeled figures Winston Churchill and Neville Chamberlain. Step 3: Slice 34 shows wartime leadership discussions and Roosevelt, consistent with Allied leadership focus. Conclusion: Chamberlain is the recurring leader across these segments.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows a labeled graphic overlay with the text \"CHAMBERLAIN'S DECLARATION: 'OUR CONSCIENCE IS CLEAR.'\" This explicitly references Neville Chamberlain in an earlier labeled visual element. Step 2: Slice 22 later shows a formal portrait scene with wartime British leadership, featuring Winston Churchill and Neville Chamberlain, both identified by text labels. Logic holds because the leader referenced by name in the earlier labeled graphic (Chamberlain) appears again in the later formal portrait scene with British wartime leadership.",
+        "visual_proof": "In Video 2, at 0:05, a black-and-white image shows Winston Churchill with Neville Chamberlain labeled beneath him. This is the 'earlier labeled image'. The same frame also shows them in a formal portrait setting, which aligns with 'wartime British leadership'. No other leader from the clips appears twice in this manner."
+    }
+]

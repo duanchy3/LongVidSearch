@@ -1,0 +1,59 @@
+[
+    {
+        "question": "When the guide is beside a wall screen explaining something, what kind of object is later shown in a glass case that connects to the same theme of ancient craftwork?",
+        "answer": "A framed mosaic scene with figures serving/holding trays and baskets is later shown.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows the guide in a red blazer gesturing toward a wall-mounted screen, then the camera highlights ancient mosaics. Step 2: Slice 11 presents a framed Byzantine mosaic scene with multiple figures and serving objects. Conclusion: the later glass-cased mosaic continues the same ancient craftwork focus introduced during the screen explanation.",
+        "logic_check_reasoning": "Step 1: Slice 10 states the video begins with a woman in a red blazer beside a wall-mounted screen explaining artwork, then shifts to ancient mosaics. Step 2: Slice 11 describes a framed mosaic artwork on display, depicting figures including a central man holding a tray and others with vessels, consistent with a serving/hospitality scene. Step 3: The proposed answer claims that later a framed mosaic scene with figures serving/holding trays and baskets is shown. This is supported by Slice 11 (tray, serving context) and Slice 10 (a mosaic with a man holding a basket and a tray). While the question mentions a glass case, the verification task only checks if the answer is supported by the context; the answer itself aligns with the mosaics shown later. Therefore, the context supports the answer.",
+        "visual_proof": "Clip 1 shows a guide in a red blazer standing next to a wall screen. Clip 2, which follows chronologically, shows a large, framed mosaic displayed in a glass case. This mosaic depicts multiple figures: one holding a tray of bread, another with a basket, and others with vessels, all consistent with the theme of ancient craftwork or daily life."
+    },
+    {
+        "question": "The guide is shown holding and gesturing with a small object while speaking. Elsewhere, jewelry items like a cross pendant are shown in close-up in cases; what is the most plausible type of object she could be referencing in hand given what the video later highlights?",
+        "answer": "A small artifact or jewelry-like object (such as a pendant or small display item) related to the exhibited adornments.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            77,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows the guide holding a small object in her hands while speaking. Step 2: Slice 77 emphasizes jewelry and ornate small items in glass cases (including a cross pendant). Step 3: Slice 12 also shows a case of golden jewelry and small crafted pieces. Conclusion: her handheld item is plausibly a small artifact/jewelry-related object consistent with the exhibit’s highlighted adornments.",
+        "logic_check_reasoning": "Step 1: Slice 41 describes the woman in a red blazer holding a small object while presenting in a museum setting. Step 2: Slice 77 shows close-ups of jewelry artifacts, including a necklace with a prominent pendant and a cross pendant, indicating the exhibit features small adornments. Step 3: Slice 12 further highlights golden jewelry in display cases. Logic: Given she is presenting and later the video focuses on small jewelry items, it is plausible that the small object she references is a jewelry-like artifact related to the exhibited adornments.",
+        "visual_proof": "In Clip 1, the guide is actively gesturing with her hands while speaking, suggesting she is describing an object. In Clip 2, the video shows close-ups of specific artifacts in display cases, including a crystal cross pendant and a carved stone pendant. The context of the entire video, which focuses on ancient art and artifacts, makes it highly plausible that the guide is referencing one of these types of small, significant objects during her presentation."
+    },
+    {
+        "question": "The guide is seen walking through galleries and later a suited man appears speaking in a gallery near the end. What shift in presenter identity occurs, and how is the exhibition re-anchored immediately after?",
+        "answer": "The on-camera presenter shifts from the woman in red to a man in a dark suit, and then the video re-anchors with the exhibition title card and credits.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            73,
+            85,
+            86,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 73 shows the woman in a red blazer speaking directly to camera as the main guide. Step 2: Slice 85 introduces a man in a suit speaking in the gallery. Step 3: Slice 86 continues with the suited man presenting. Step 4: Slice 92 follows with the formal exhibition title card and sponsor/credit text. Conclusion: the presenter changes from the woman to the man, then the video closes by re-stating the exhibition identity.",
+        "logic_check_reasoning": "Step 1: Slice 73 describes a woman in a red blazer speaking directly to the camera in a gallery setting, indicating she is the on-camera presenter/guide. Step 2: Slices 85, 86, and 92 describe a man in a dark suit speaking in a gallery, aligning with the shift to a suited male presenter near the end. Step 3: Slice 92 explicitly states that the scene then transitions to a title card for the 'Africa & Byzantium' exhibition and proceeds with credits/sponsor information, which re-anchors the video immediately after the male presenter appears. Logic holds because the sequence shows the woman presenter first, then the man, followed by the exhibition title card and credits.",
+        "visual_proof": "Clip 1 shows a woman in a red blazer speaking in a gallery. Clips 2, 3, and 4 show a man in a dark suit and tie speaking in a different gallery setting. Immediately following his appearance, Clip 4 displays the exhibition title card 'AFRICA & BYZANTIUM' and subsequent credit screens, confirming the shift in presenter and the re-anchoring of the video's focus."
+    },
+    {
+        "question": "A backlit geometric panel is shown in close-up, and a nearby illuminated column with etched patterns appears elsewhere; later, the video also shows a fabric with handwritten messages. What common curatorial idea links these three different objects?",
+        "answer": "They all emphasize meaning carried through patterns or writing—ornamental geometry, etched motifs, and explicit handwritten text.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            80,
+            81,
+            82,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 80 shows a glowing, backlit geometric decorative pattern. Step 2: Slice 81 shows an illuminated column with etched geometric motifs. Step 3: Slice 82 shows fabric with written phrases and scripts (including Hebrew-like text). Step 4: Slice 83 shows a surface covered with mathematical symbols and equations. Conclusion: the exhibit sequence highlights systems of meaning—pattern and text—across decorative and written forms.",
+        "logic_check_reasoning": "Step 1: Slice 80 describes a backlit geometric pattern with intricate, symmetrical motifs—clearly ornamental geometry. Step 2: Slice 81 shows an illuminated column with etched, symmetrical geometric designs—again, motifs/patterns that visually communicate through design. Step 3: Slice 82 presents a fabric with handwritten messages (explicit text), highlighting meaning through writing. Logic holds because all three objects convey content via surface markings—either decorative geometric patterns or direct text—supporting the curatorial idea of meaning carried through patterns or writing.",
+        "visual_proof": "Clip 1 shows a backlit panel with intricate geometric patterns. Clip 2 shows an illuminated column with etched, symbolic motifs. Clips 3 and 4 show fabric with handwritten English phrases like 'The Soul is Set Free' and 'Come back. Be Careful. Be blessed,' alongside symbolic script and mirrored cutouts. All three object types visually rely on patterns (geometric/etched) or writing to convey meaning."
+    }
+]

@@ -1,0 +1,179 @@
+[
+    {
+        "question": "After the destination is explicitly labeled on a map, what kind of viewpoint is used next to show that destination?",
+        "answer": "An aerial view of the destination (Phuket).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 4 labels the destination as 'PHUKET, THAILAND' on a map. Step 2: Slice 5 immediately shows Phuket via an aerial shot. Conclusion: The map label is followed by an aerial viewpoint.",
+        "logic_check_reasoning": "Step 1: Slice 4 states that the video shows a map of Thailand with 'PHUKET, THAILAND' labeled and a pinpoint marking Phuket. Step 2: Slice 5 describes the next scene as an aerial view of Phuket, showcasing its layout. Logic holds because the question asks what viewpoint is used after the map labeling, and Slice 5 explicitly identifies an aerial view of Phuket immediately following.",
+        "visual_proof": "After the map explicitly labels 'PHUKET, THAILAND' at 0:05 in Clip 1, Clip 2 immediately transitions to a satellite/aerial view of the island at 0:01, zooming into the city of Phuket. This is followed by a sweeping aerial shot of the beach and city at 0:10, confirming the use of an aerial viewpoint."
+    },
+    {
+        "question": "Which person is later seen on the boat holding a microphone after being shown earlier walking toward the ferry with a backpack and sunglasses?",
+        "answer": "The man in the black T-shirt with sunglasses and a backpack (curly-haired).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows a man in sunglasses, black T-shirt, and backpack walking along a dock toward a ferry. Step 2: Slice 33 shows a curly-haired man wearing sunglasses, a black shirt, and a backpack holding a microphone on a boat. Conclusion: It is the same black-shirted, sunglasses-and-backpack man.",
+        "logic_check_reasoning": "Step 1: Slice 31 describes a man walking toward a ferry wearing sunglasses, a black T-shirt, and a backpack. Step 2: Slice 33 shows two men on a boat; the man on the left has curly hair and is wearing sunglasses, a black shirt, and a backpack, and he is holding a microphone. Step 3: The matching attributes (black shirt, sunglasses, backpack) indicate it is the same person, now holding a microphone on the boat. The added detail of curly hair in Slice 33 does not conflict with Slice 31 and helps identify him.",
+        "visual_proof": "In Clip 1, the curly-haired man wearing a black T-shirt, sunglasses, and a backpack is seen walking on the dock towards the ferry. In Clip 2, the same man is now on the boat, still wearing the same attire, and is holding a microphone near his mouth while speaking. The continuity of his appearance and the change in location from dock to boat confirm he is the person described."
+    },
+    {
+        "question": "After showing family time with children relaxing on a bed in a hotel room, what later outdoor moment shows the same white‑T‑shirt man addressing the camera while wearing a watch?",
+        "answer": "He speaks outside near a modern building and raises his wrist to show his watch.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a man in a white T-shirt in a hotel room with two children on the bed behind him. Step 2: Slice 20 shows a man in a white T-shirt outdoors speaking and showing a wristwatch. Conclusion: The white‑T‑shirt man appears later outdoors, now clearly highlighting his watch.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a man in a white T-shirt in a hotel room speaking to the camera with children relaxing on a bed—this matches the 'family time' scene. Step 2: Slice 20 shows (likely the same) man in a white T-shirt outdoors near a modern building, speaking to the camera and raising his right hand to show a wristwatch. Logic holds because both slices describe a white-T-shirt man addressing the camera, moving from an indoor family setting to an outdoor scene where he shows a watch.",
+        "visual_proof": "In Clip 1, a man in a white T-shirt is speaking to the camera inside a hotel room with another person on a bed. In Clip 2, the same man in a white T-shirt is outdoors, speaking to the camera, and at 0:01-0:03, he raises his left wrist to prominently display a watch with a black strap and gold casing while standing in front of a modern white building."
+    },
+    {
+        "question": "Which transition title appears in two separate parts of the story—once during the tailoring sequence and again before an outdoor adventure sequence?",
+        "answer": "“THE NEXT DAY.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 16 displays 'THE NEXT DAY' before showing a man buttoning a red suit jacket. Step 2: Slice 28 also shows 'THE NEXT DAY' and then cuts to an outdoor water-and-cliffs view. Conclusion: The same title card is reused to mark a time jump in two different parts of the video.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly states that the words \"THE NEXT DAY\" appear on screen, followed by a tailoring/store scene with a man buttoning his jacket. Step 2: Slice 28 explicitly states that the text \"THE NEXT DAY\" appears on the screen, indicating a time jump, and then transitions to an outdoor adventure setting. Logic holds because the same transition title is reported in both slices, associated with the tailoring sequence and before the outdoor adventure.",
+        "visual_proof": "The title 'THE NEXT DAY' appears in yellow text over an aerial shot of a coastal city at the beginning of Clip 1, which precedes the tailoring sequence. The same title reappears identically over an aerial shot of a boat near a cliffside coast at the beginning of Clip 2, which precedes the outdoor adventure sequence. This confirms it is used as a transition title in two separate parts of the story."
+    },
+    {
+        "question": "Which person is shown both running a creator-style setup with a microphone and later appearing in a more social indoor setting sitting behind the red-blazer man?",
+        "answer": "The man in the black T-shirt with the red/orange logo who speaks into a microphone, later seen sitting on a couch behind the red-blazer man.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            26,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows Kyle at a desk with monitors speaking into a microphone, wearing a black T-shirt with a red/orange design. Step 2: Slice 26 shows the red-blazer man talking in a living room while another man in a black graphic T-shirt sits on a couch behind him. Step 3: Slice 45 shows a couch conversation including the man in a black T-shirt with a red/yellow logo. Conclusion: The microphone host is later present in the living-room/couch social setting.",
+        "logic_check_reasoning": "Step 1: Slice 25 shows a man (Kyle) at a creator-style desk setup, speaking into a microphone, wearing a black t-shirt with a red/orange design. Step 2: Slice 26 shows a man in a maroon (red) jacket, and behind him another man sitting on a couch wearing a black t-shirt with a graphic design. This aligns with the black t-shirt with design from Slice 25. Step 3: Slice 45 further depicts a man on a couch wearing a black t-shirt with a red/yellow logo, reinforcing the continuity of the same person appearing in a more social indoor setting. Logic holds because the visual attributes (black t-shirt with a red/orange/yellow logo/design, presence on a couch) consistently match across slices, and Slice 26 explicitly places the couch-seated man behind the red-blazer/maroon jacket man.",
+        "visual_proof": "In Clip 1, the man in the black T-shirt with the red/orange 'Master Ventures' logo is shown at a desk with a professional microphone setup. In Clip 2, this same man is visible in the background, seated at the desk while the man in the red blazer speaks to the camera. In Clip 3, he is again seen sitting on a couch next to the man in the red blazer, confirming his presence in both the creator-style setup and the social indoor setting."
+    },
+    {
+        "question": "How is the phone-based communication at the beginning echoed later in the video through a creator workspace showing online content on screen?",
+        "answer": "Early on, a man shows a text message on his phone; later, screens display a YouTube channel/website content as part of a media/creator setup.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            25,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 2 centers on smartphone messaging, including showing a text message on screen. Step 2: Slice 25 shows a YouTube channel page and a creator speaking at a desk setup. Step 3: Slice 57 shows a finance/investing-themed website interface. Conclusion: The video shifts from personal phone communication to broader digital/online content presentation on screens.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows a man displaying a text message on his smartphone, clearly establishing phone-based communication at the beginning. Step 2: Slice 25 shows a creator workspace with a YouTube channel on screen and a person speaking into a microphone, indicating an online content/media setup. Step 3: Slice 57 further shows a computer screen with a professional website, reinforcing the theme of online content displayed on screens. Logic holds because the early phone interaction is echoed later by the presence of screens showing online media within a creator-oriented workspace.",
+        "visual_proof": "In Clip 1 (0:12-0:13), a man is shown holding a smartphone displaying a text message with 'Help me!!!' and crying emojis. In Clip 2 (0:01-0:03), a computer screen displays the YouTube channel page for 'Kyle Chasse' under the brand 'Master Disruptor'. In Clip 3 (0:00-0:05), another computer screen shows the website for 'CULT.DAO'. These visuals confirm that phone-based communication is followed by scenes showing online content on screens within creator workspaces."
+    },
+    {
+        "question": "In the tailoring storyline, what major change in clothing is shown from the fabric-selection day to the next day in the shop?",
+        "answer": "He changes from a casual light gray T-shirt while choosing fabrics to wearing a red suit jacket the next day.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows the man in a light gray T-shirt examining fabrics. Step 2: Slice 16 (labeled 'THE NEXT DAY') shows a man in a red suit jacket buttoning it in the shop. Conclusion: His clothing changes from casual to a red suit jacket.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows a man in a fabric store, casually dressed in a light gray T-shirt, examining fabrics—clearly the fabric-selection day. Step 2: Slice 16 explicitly says 'THE NEXT DAY' and shows a man in the shop wearing a red suit jacket over a white shirt, buttoning it. Step 3: The continuity implies the same storyline from selection day to the next day, showing a change from casual T-shirt to a red suit jacket. Therefore, the proposed answer matches the evidence.",
+        "visual_proof": "In Clip 1, the man is seen wearing a light gray T-shirt while browsing fabric rolls and being measured. In Clip 2, which is explicitly labeled 'THE NEXT DAY', he is shown wearing a finished maroon/red suit jacket over a white dress shirt, indicating a significant change from his casual attire of the previous day."
+    },
+    {
+        "question": "On the yacht, what celebratory action happens shortly after the yacht’s luxurious interior is shown?",
+        "answer": "They toast by raising glasses after one man pours and hands a drink to the other.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            35,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 35 showcases the yacht’s luxurious interior (bed, couch, dining table). Step 2: Slice 39 shows two men on the boat pouring a drink and clinking glasses in a toast. Conclusion: After highlighting luxury, the scene shifts to celebratory drinking/toasting.",
+        "logic_check_reasoning": "Step 1: Slice 35 describes the yacht’s luxurious interior (bed, sofa, dining table, decor), establishing that the interior is shown. Step 2: Slice 39 shows two men on the boat where one pours a drink, hands it to the other, and they both raise their glasses in a toast. Logic holds because Slice 39 describes a celebratory toast on the same boat after the interior segment shown in Slice 35, and the described action matches the proposed answer.",
+        "visual_proof": "The video first shows the luxurious interior of the yacht, including a bedroom and living area (0:04-0:06). Shortly after, at 0:21, a man is seen pouring a drink into a glass. He then walks over to another man sitting on a couch at 0:22 and hands him the drink. At 0:23, the two men clink their glasses together in a toast."
+    },
+    {
+        "question": "What continuous travel progression is shown from a labeled destination, to arriving and exploring, to ending with a sunset aerial labeled as the final day?",
+        "answer": "The trip is framed by the Phuket label, followed by Phuket exploration (hotel/streets/beach), and later concludes with a sunset aerial marked “THE LAST DAY.”",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            8,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 4 explicitly labels the destination as Phuket, Thailand. Step 2: Slice 8 shows arrival/exploration montage (hotel bed jump, PHUKET sign, streets, beach). Step 3: Slice 55 shows 'THE LAST DAY' with sunset aerial coastal scenery. Conclusion: The narrative progresses from destination introduction to exploration to a final-day sunset wrap-up.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows a map zooming to Thailand with a clear label 'PHUKET, THAILAND' and a pinpoint, establishing the labeled destination. Step 2: Slice 8 depicts the traveler in a hotel room (suggesting arrival) and then exploring Phuket (PHUKET sign, streets, beach, and an aerial of the town), matching the 'arriving and exploring' phase. Step 3: Slice 55 presents a title 'THE LAST DAY' and a sunset aerial, aligning with the ending labeled as the final day. Logic holds because each slice sequentially supports the progression described in the proposed answer.",
+        "visual_proof": "Clip 1 opens with a world map zooming into Thailand, explicitly labeling 'PHUKET, THAILAND'. Clip 2 shows scenes of hotel rooms, streets with signs like 'PATONG BEACH', and beachfronts, indicating exploration. Clip 3 ends with an aerial sunset shot overlaid with the text 'THE LAST DAY', confirming the conclusion of the trip."
+    },
+    {
+        "question": "Across the timeline, how does the setting shift from office messaging, to travel destination establishment, to ocean activities, and finally to a sunset 'last day' aerial?",
+        "answer": "It begins with office-based phone messaging, then establishes Phuket as the destination, later features boat/yacht ocean activities, and concludes with a 'last day' sunset aerial coastal view.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            2,
+            4,
+            49,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows an office scene centered on smartphone messaging. Step 2: Slice 4 establishes the travel destination with 'PHUKET, THAILAND' on a map. Step 3: Slice 49 shows yacht-based ocean action with diving and swimming. Step 4: Slice 55 frames the ending with 'THE LAST DAY' and a sunset aerial coastline. Conclusion: The video progresses from office communication to travel framing to ocean adventure to final-day sunset closure.",
+        "logic_check_reasoning": "Step 1: Slice 2 shows an office setting with a man displaying a text message on his phone, supporting 'office-based phone messaging.' Step 2: Slice 4 presents an animated map narrowing to Thailand with 'PHUKET, THAILAND' highlighted, establishing the travel destination. Step 3: Slice 49 depicts a yacht, diving, and swimming in the ocean, confirming ocean activities. Step 4: Slice 55 begins with 'THE LAST DAY' title and an aerial coastal sunset view, matching a 'last day' sunset aerial. The proposed answer accurately reflects this progression.",
+        "visual_proof": "Clip 1 shows a man in an office environment using his phone. Clip 2 visually pinpoints and labels 'PHUKET, THAILAND' on a map. Clip 3 displays multiple scenes of a luxury yacht and people engaging in swimming and boating activities in the ocean. Clip 4 presents an aerial shot of a coastline at sunset with the text 'THE LAST DAY' overlaid, confirming the final scene's context."
+    },
+    {
+        "question": "Which location is introduced by a sign about tailoring and then later shown as an interior space filled with suits and fabric samples?",
+        "answer": "A tailor/fabric shop in Phuket (Patong), shown first by the tailor sign and later by the suit-and-fabric interior.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a street sign reading 'Best Tailor Phuket Patong'. Step 2: Slice 12 shows an interior tailor/fabric store with racks of suits and fabric catalogs. Conclusion: The sign leads into the tailor shop interior.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows a street scene where the camera focuses on a sign reading \"Best Tailor Phuket Patong,\" introducing a tailoring location. Step 2: Slice 12 depicts the interior of a professional tailor/fabric store with suits and fabric samples, consistent with the location introduced by the sign. Logic holds because the sign indicates a tailor in Phuket (Patong), and the later scene shows the inside of such a shop.",
+        "visual_proof": "Clip 1 ends with a clear exterior shot of a sign reading 'BEST TAILOR PHUKET PATONG' with Tripadvisor and Google logos. Clip 2 opens inside a shop filled with shelves of fabric bolts and hanging suits, where a man is interacting with a tailor, visually confirming the location introduced in Clip 1."
+    },
+    {
+        "question": "How does the man’s attire evolve from choosing fabrics in the shop to appearing outdoors afterward, and what key item does he add for riding?",
+        "answer": "He goes from casual (gray T-shirt) in the fabric shop to a red jacket outdoors, and he adds a black helmet to ride the motorcycle.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            17,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows him in a light gray T-shirt examining fabrics. Step 2: Slice 17 shows him outdoors wearing a red blazer/jacket over a black shirt. Step 3: Slice 18 shows him putting on a black helmet and riding a motorcycle. Conclusion: His look shifts from casual shopping to a dressy red jacket outdoors, then he adds a helmet for riding.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows the man in a fabric shop wearing a light gray T-shirt. Step 2: Slice 17 shows (presumably the same) man outdoors wearing a red blazer/jacket with a black shirt. Step 3: Slice 18 shows the man in a red jacket and black shirt putting on a black helmet and riding a motorcycle. Logic holds because the attire progresses from gray T-shirt indoors to red jacket/blazer outdoors, and the added key item for riding is explicitly a black helmet.",
+        "visual_proof": "In Clip 1, the man is inside the fabric shop wearing a gray T-shirt. In Clips 2 and 3, he is outdoors wearing a red plaid jacket over a black shirt. In Clip 3, he is seen putting on and wearing a black Bell motorcycle helmet while preparing to ride the motorcycle."
+    },
+    {
+        "question": "How does the tailoring arc move from spotting a tailor location, to selecting fabrics, to finally revealing a completed formal look the next day?",
+        "answer": "They notice the Phuket tailor sign, then choose fabrics and view suits inside the shop, and the next day a man reveals a red suit jacket while buttoning it.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            10,
+            12,
+            14,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows the 'Best Tailor Phuket Patong' sign. Step 2: Slice 12 shows the interior tailor shop with catalogs, fabric discussion, and suit racks. Step 3: Slice 14 shows the man actively examining specific fabrics (maroon, blue/white checkered). Step 4: Slice 16 ('THE NEXT DAY') shows the reveal/try-on of a red suit jacket being buttoned. Conclusion: The narrative goes from discovering the tailor to choosing materials to next-day suit reveal.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows the sign 'Best Tailor Phuket Patong,' indicating they spot a tailor location. Step 2: Slices 12 and 14 depict them inside a tailor/fabric store, discussing and examining fabrics and showing a rack of suits, supporting the fabric selection and viewing suits. Step 3: Slice 16 explicitly shows 'THE NEXT DAY' and a man buttoning a red suit jacket in front of fabric samples, which matches revealing a completed formal look the next day. The sequence is logically consistent and fully supported.",
+        "visual_proof": "Clip 1 shows the 'BEST TAILOR PHUKET PATONG' sign. Clip 2 shows the men inside the shop looking at fabric rolls and a suit catalog. Clip 4 opens with 'THE NEXT DAY' text, followed by a man in a completed red suit jacket buttoning it up."
+    }
+]

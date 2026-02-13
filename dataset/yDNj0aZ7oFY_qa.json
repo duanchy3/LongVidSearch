@@ -1,0 +1,98 @@
+[
+    {
+        "question": "The woman in the white sweater with colorful stripes is first shown using one device on a couch and later using a different device in a similar setting. What device does she use first, and what device does she use later?",
+        "answer": "First she uses a laptop, and later she continues to use the same laptop.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows the woman in the white sweater with colorful stripes focused on her phone while seated on a black couch. Step 2: Slice 5 shows a woman in the same distinctive sweater working on a laptop on her lap. Conclusion: Her device changes from phone to laptop.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a woman in a white sweater with colorful stripes sitting on a black couch, holding and focusing on a phone. Step 2: Slice 5 describes a woman in a similar setting wearing the same style of sweater, now using a laptop on her lap. Logic holds because the consistent clothing and environment indicate the same person, and the devices are explicitly identified: phone first, laptop later.",
+        "original_text_answer": "First she uses a phone, and later she uses a laptop.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In both Video 1 and Video 2, the woman is visibly using a dark-colored laptop. In Video 1 (0:00-0:04), she is opening or adjusting the laptop on her lap. In Video 2 (0:00-0:09), she is actively typing and gesturing while looking at the same laptop. There is no visual evidence of her using a phone in either clip."
+    },
+    {
+        "question": "A man marks a decision on a photo wall and later a man is again seen working with photos on a wall. What marking action happens first, and what is the later activity?",
+        "answer": "First, a man draws an 'X' over a picture; later, a man examines/arranges photographs on a wall.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a man drawing an 'X' over one of the pictures on the wall. Step 2: Slice 9 shows a man handling and arranging photographs pinned to a wall. Conclusion: The earlier action is crossing out a photo; later the activity is photo arrangement/examination.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a man holding a marker and drawing an 'X' over one of the pictures on a wall, indicating a marking decision. Step 2: Slice 9 shows a man standing in front of a wall with photographs, appearing to examine or arrange them, suggesting ongoing work with the photos. Logic holds because the first action is explicitly the marking (drawing an 'X') and the later activity is examining/arranging photos on the wall.",
+        "visual_proof": "In Clip 1 (0:05-0:14), the man is clearly seen using a black marker to draw large 'X's over several photos on the wall. In Clip 2 (0:00-0:09), the same man is shown continuing to interact with the photos, but his actions shift to examining them closely and adjusting their positions on the wall, rather than just marking them with 'X's."
+    },
+    {
+        "question": "A man in a black blazer is shown warmly welcoming viewers in a modern living room, and later he is shown shaking hands with someone in an office/workspace. What is his gesture in the living room, and what is his action later in the workspace?",
+        "answer": "He opens his arms in a welcoming gesture, and later he shakes hands with another man.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows the man in a black blazer walking into a modern living room and raising his arms in a welcoming gesture. Step 2: Slice 68 shows a suited man greeting another man with a handshake in a workspace. Conclusion: His interaction changes from welcoming the camera to greeting someone with a handshake.",
+        "logic_check_reasoning": "Step 1: Slice 15 describes a man in a black blazer in a modern living room raising his arms in a welcoming gesture. Step 2: Slice 68 describes a man in a suit in an office/workspace shaking hands with another man. Logic holds because the first action matches the welcoming arm gesture, and the second clearly states a handshake in the workspace; minor clothing description differences are acceptable per instructions.",
+        "visual_proof": "In Video 1, the man in the black blazer walks towards the camera and spreads his arms wide in a clear welcoming gesture. In Video 2, after entering the office, he is shown shaking hands with a bald man in a white shirt."
+    },
+    {
+        "question": "A man in a white shirt and blue cap is first seen filming in an elevator with a green backpack and later is seen walking on a city street holding a skateboard. What does he have with him in the elevator, and what does he carry later on the street?",
+        "answer": "In the elevator he has a camera and a green backpack; later he carries a skateboard.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows the blue-cap man in an elevator holding a camera and wearing a green backpack. Step 2: Slice 63 shows the blue-cap man walking on a city street holding a skateboard. Conclusion: Same distinctive blue-cap man shifts from filming in an elevator to carrying a skateboard outside.",
+        "logic_check_reasoning": "Step 1: Slice 26 describes a man in an elevator wearing a blue cap, white shirt, and a green backpack, and explicitly says he is holding a camera and filming. Step 2: Slice 63 shows a person on a city street wearing a blue cap and white t-shirt, holding a skateboard. Logic holds because the consistent visual attributes (blue cap and white shirt) link the elevator subject to the street subject, and the items (camera and green backpack in the elevator; skateboard on the street) are explicitly stated.",
+        "visual_proof": "In Clip 1, the man in the blue cap is holding a camera (filming selfie-style) and wearing a green backpack inside the elevator. In Clip 2, the same man is walking on the street without the backpack and is now holding a skateboard in his left hand."
+    },
+    {
+        "question": "The blue-cap man appears repeatedly in office and skateboarding contexts. After being seen in an elevator with a camera, where does he show up discussing work indoors, and where does he end up outdoors with skateboards?",
+        "answer": "He shows up in an office discussion setting and later outdoors walking down a city street carrying a skateboard.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            26,
+            60,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows the blue-cap man in an elevator holding a camera. Step 2: Slice 60 shows the blue-cap man standing in an office by computer monitors gesturing as if explaining something. Step 3: Slice 63 shows him outdoors walking down the street carrying a skateboard. Conclusion: He transitions from elevator filming to office collaboration to outdoor skateboarding activity.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows the man in a blue cap holding a camera in an elevator. Step 2: Slice 60 shows the same blue-cap man indoors in an office, gesturing and discussing work with a seated colleague. Step 3: Slice 63 shows the blue-cap man outdoors on a city street carrying a skateboard. The visual attributes (blue cap, white shirt) and contexts align, supporting the proposed sequence and locations.",
+        "visual_proof": "In Clip 1, the blue-cap man is in an elevator holding a camera. In Clip 2, he is indoors in an office-like setting with a desk, computer, and YouTube plaque, actively discussing something with the bald man. In Clip 3, he is outdoors on a city sidewalk, walking alongside the bald man who is carrying a green skateboard, confirming the sequence of events described."
+    },
+    {
+        "question": "A man is shown eating during a split-screen video call, and later he ends a call with a friendly sign-off. What is he doing while on the call at first, and what friendly phrase does he say later?",
+        "answer": "He is about to eat a spoonful of food during the call, and later he says, “Awesome, have a dough day.”",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            38,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows the man on a split-screen call holding a spoonful of food near his mouth. Step 2: Slice 38 shows him on a call saying “Thank you so much” and “Awesome, have a dough day.” Step 3: Slice 39 shows a similar suited man holding a small container of food, reinforcing the food/call motif. Conclusion: He eats during calls and later ends with the friendly sign-off.",
+        "logic_check_reasoning": "Step 1: Slice 36 describes a split-screen video call where the man is holding a spoonful of food close to his mouth, about to eat, while conversing. Step 2: Slice 38 states the man on a video call says, \"Thank you so much\" and then \"Awesome, have a dough day,\" which is a friendly sign-off. Logic holds because the first action (about to eat during the call) and the later phrase are both explicitly described in the slices.",
+        "visual_proof": "In Video 1 (0:04-0:06), the man is visibly holding a spoon with food up to his mouth during a split-screen video call. In Video 2 (0:12-0:13), after ending the call, subtitles clearly show him saying 'Awesome, have a doughp day' while smiling at his phone."
+    },
+    {
+        "question": "A suited, curly-haired man is shown in a lively street walk sequence with companions behind him, and later he appears in a living-room interview-style shot. What is he doing during the street sequence, and what is his later on-camera role indoors?",
+        "answer": "He is walking and talking/filming himself with companions behind him; later he is seated indoors addressing the camera in an interview/vlog style.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            17,
+            19,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows the suited curly-haired man walking and talking to camera. Step 2: Slice 19 shows him continuing this street filming with companions behind. Step 3: Slice 52 shows him seated in a modern living room speaking directly to the camera. Conclusion: He shifts from outdoor street vlogging to an indoor interview-style presentation.",
+        "logic_check_reasoning": "Step 1: Slice 17 describes a man in a dark suit jacket over a black shirt, with curly hair, walking down a city street while talking to the camera, with pedestrians behind him. Step 2: Slice 19 reinforces that he is filming himself while walking, smiling/laughing, with companions behind (a woman in purple with a backpack and a man with a blue bandana/backpack), indicating a lively street sequence. Step 3: Slice 52 shows the same curly-haired man in a dark blazer over a black shirt seated in a modern living room, engaging directly with the camera in an interview/casual conversation style. Logic holds because the visual attributes and actions align between slices, supporting that he is walking and talking/filming himself on the street, and later seated indoors addressing the camera in an interview/vlog style.",
+        "visual_proof": "In clips 1 and 2, the man is visibly walking down a city street, holding the camera selfie-style, talking, and smiling, with two companions walking behind him. In clip 3, he is seated on a couch in a well-lit room, gesturing and speaking directly to the camera, consistent with an interview or vlog format."
+    }
+]

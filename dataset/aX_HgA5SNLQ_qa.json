@@ -1,0 +1,127 @@
+[
+    {
+        "question": "What exhibition title appears both on the opening informational text screen and later on a dark cube-like title screen?",
+        "answer": "ABOUT TIME",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the event title including “Sunday at The Met—About Time: Fashion and Duration.” Step 2: Slice 14 shows a black cube with the words “ABOUT TIME.” Conclusion: The shared exhibition title is ABOUT TIME.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the opening informational text with the line 'Sunday at The Met—About Time: Fashion and Duration', where 'About Time' is the exhibition title. Step 2: Slice 14 shows a dark cube with 'ABOUT TIME' prominently displayed. The phrase 'About Time' appears in both slices, indicating the same exhibition title appears on both screens.",
+        "visual_proof": "The text 'Sunday at The Met—About Time: Fashion and Duration' is clearly visible on the opening black screen (Clip 1). The same core title, 'ABOUT TIME', is prominently displayed in large white letters on the dark, cube-like structure in Clip 2, confirming its presence on both screens."
+    },
+    {
+        "question": "Which person appears first against a plain white background and later returns in the closing sequence after the split-screen segment?",
+        "answer": "The woman wearing glasses and a blue top.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a woman with glasses in a blue top speaking against a plain white background. Step 2: Slice 65 includes a solo segment featuring the same type of setup: a woman with glasses in a blue top against a plain white background. Conclusion: It is the woman in glasses and a blue top.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes a solo woman wearing glasses and a blue shirt against a plain white background, speaking directly to the camera. Step 2: Slice 65 outlines the video structure: a split-screen segment followed by a solo segment featuring a woman with short hair and glasses wearing a blue top against a plain white background, then a title card. Step 3: The visual attributes (glasses, blue top, plain white background, solo speaking) match between the woman in Slice 2 and the solo segment after the split-screen in Slice 65. Logic holds because the same visually described person appears first in a white-background solo setting and returns in the closing solo segment after the split-screen.",
+        "visual_proof": "In Video 1, the woman in the blue top and glasses is shown speaking against a plain white background from 0:01 to 0:58. In Video 2, after the split-screen segment ends at 0:03, she reappears at 0:04 against the same white background, continuing her speech until 0:23 before the video fades to the 'THE MET' logo. This confirms she appears first and returns after the split-screen."
+    },
+    {
+        "question": "Which speaker is consistently shown in a modern interior with a radiator and glass-paneled door while wearing a green leather jacket over a black turtleneck?",
+        "answer": "The bald, bearded man in the green leather jacket and black turtleneck.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows a bald, bearded man in a green leather jacket and black turtleneck with a radiator and glass door behind him. Step 2: Slice 27 shows the same clothing and similar interior features (radiator, glass-paneled door). Conclusion: The recurring speaker is the bald, bearded man in the green leather jacket and black turtleneck.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes a bald, bearded man wearing a green leather jacket over a black turtleneck, standing indoors with a radiator and a glass door behind him, speaking and gesturing. Step 2: Slice 27 similarly shows a man in a green leather jacket over a black turtleneck in an indoor setting with a radiator and a glass-paneled door, speaking and gesturing toward the camera. Logic holds because both slices depict the same visual attributes and environment, confirming the same speaker consistently shown. The proposed answer accurately identifies this speaker.",
+        "visual_proof": "Both video clips consistently show the same individual: a bald, bearded man wearing a green leather jacket over a black turtleneck. The background in both clips is identical, featuring a white wall, a silver radiator on the left, and a glass-paneled door with dark frames directly behind him."
+    },
+    {
+        "question": "Which locations emphasize fashion shown without people by using mannequins as the main display method?",
+        "answer": "The circular mannequin-filled installation room and the dim gallery with mannequins under dramatic lighting.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows a circular installation with many mannequins dressed in outfits and no people present. Step 2: Slice 51 shows a dim gallery display featuring mannequins under vertical light beams, also with no people. Conclusion: Both are mannequin-based fashion displays without people.",
+        "logic_check_reasoning": "Step 1: Slice 23 describes a circular room installation with numerous mannequins displaying outfits and explicitly notes the absence of people, emphasizing the focus on clothing via mannequins. Step 2: Slice 51 describes a dimly lit gallery where two mannequins on a central platform are highlighted by dramatic lighting; it is a static display with no action, implying no people and mannequins as the display method. Logic holds because both locations use mannequins as the primary means to showcase fashion without people present.",
+        "visual_proof": "Clip 1 shows a large, bright, circular room filled with numerous mannequins displaying garments on the floor and hanging from the ceiling. Clip 2 shows a dark, narrow space with three mannequins under spotlights, highlighting the clothing without any people present. Both scenes use mannequins as the exclusive display method."
+    },
+    {
+        "question": "What sequence shows the video moving from a museum context into a hands-on making process, and what is the key action in the making process?",
+        "answer": "After exhibit visuals, it cuts to a workshop scene where a woman is seated and adjusting or pinning fabric on a mannequin's torso. A subsequent shot shows a man also seated, working on the lower part of a garment on a mannequin.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            16,
+            23,
+            41,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows a futuristic circular exhibit room with mannequins. Step 2: Slice 23 shows another avant-garde mannequin installation. Step 3: Slice 41 shows highlighted garments on mannequins in an exhibit setting. Step 4: Slice 45 shifts to a workshop where a woman cuts fabric on a mannequin’s neck with scissors. Conclusion: The video progresses from display (museum) to creation (hands-on cutting on a mannequin).",
+        "logic_check_reasoning": "Step 1: Slices 16 and 23 describe a museum/exhibit-like fashion installation with mannequins and curated garments. Step 2: Slice 41 begins with an exhibit scene, reinforcing the museum context. Step 3: Slice 45 shows a clear transition to a hands-on making process in a workshop, where a woman uses scissors to cut fabric on a mannequin near the neck. Logic holds because the video contains exhibit visuals followed by a workshop scene, and the key action in the making process is explicitly described in Slice 45.",
+        "original_text_answer": "After exhibit visuals, it cuts to a workshop scene where a woman uses scissors to cut fabric on a mannequin near the neck.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clips 1, 2, and 3 show museum exhibits with garments on display. Clip 4 transitions to a workshop setting. In the first part of Clip 4, a woman is seated on a stool, actively working with her hands on the torso of a mannequin dressed in black fabric; she is not using scissors near the neck. The second part of Clip 4 shows a man seated, working on the lower section of a garment on a different mannequin. No cutting with scissors is visible in either shot."
+    },
+    {
+        "question": "Which setting repeatedly frames a speaker as an academic or intellectual figure by placing him in front of densely packed bookshelves?",
+        "answer": "The man with glasses in a dark sweater and tie speaking in front of a large bookshelf.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a man speaking in front of an extensive bookshelf, dressed formally. Step 2: Slice 49 shows a similar man with glasses, dark sweater, collared shirt, and tie in front of a large bookshelf. Conclusion: The academic setting is the bookshelf-backed speaker.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a man in formal attire seated in front of an extensive bookshelf in a scholarly/academic setting, implying the speaker is framed by densely packed bookshelves. Step 2: Slice 49 reiterates the same scene—man with glasses, dark sweater, collared shirt, and tie in front of a large bookshelf in a scholarly environment—confirming the repeated framing. Logic holds because both slices consistently depict the setting as the speaker positioned in front of large, densely packed bookshelves, which aligns with the proposed answer’s description.",
+        "visual_proof": "Both video clips consistently show the same man, wearing glasses, a dark sweater over a collared shirt and tie, positioned centrally in front of a large, multi-shelved bookcase filled with numerous books. This setting is maintained throughout both clips, visually reinforcing an academic or intellectual context."
+    },
+    {
+        "question": "What is a visual clue that the bookshelf speaker appears both in solo segments and in a split-screen conversation format?",
+        "answer": "He remains in front of the same densely packed bookshelf while speaking alone and while sharing the frame with the couch-and-circles participant.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            52,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows the glasses-wearing speaker in front of a large bookshelf. Step 2: Slice 52 shows him again giving a lecture with the same bookshelf backdrop. Step 3: Slice 62 shows a split-screen where the right side is the same bookshelf-backed speaker. Conclusion: The bookshelf backdrop links his solo and split-screen appearances.",
+        "logic_check_reasoning": "Step 1: Slice 29 describes a solo segment with a man wearing glasses, a dark sweater over a collared shirt and tie, seated in front of a large bookshelf packed tightly with books. Step 2: Slice 52 also shows a solo segment of a man with similar attire (glasses, black sweater, tie) standing in front of a bookshelf filled with books. Step 3: Slice 62 shows a split-screen; on the right side, a man with glasses and a dark sweater over a collared shirt is seated in front of a densely packed bookshelf, while the left side features a woman on a couch with circles artwork. Logic holds because the consistent visual of the densely packed bookshelf behind the man appears in both solo segments (Slices 29 and 52) and the split-screen (Slice 62), matching the proposed answer’s clue.",
+        "visual_proof": "In Video 1 and Video 2, the man is shown solo against a consistent background of a large, multi-shelved bookcase filled with books. In Video 3, which is a split-screen, the man occupies the right panel, and his background is identically the same bookshelf, confirming he is in the same location for both solo and conversational segments."
+    },
+    {
+        "question": "How does the woman on the couch show a shift from listening/thinking to actively explaining, based on her gestures across different moments?",
+        "answer": "She is shown in a contemplative pose with her hand on her chin, and later she becomes more animated, gesturing broadly while speaking.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            37,
+            44,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows the couch-seated woman holding her chin, appearing thoughtful. Step 2: Slice 44 shows her speaking more energetically, pointing at herself and clapping/rubbing hands. Step 3: Slice 58 shows her raising her hand to her forehead while making an emphatic point. Conclusion: Her state shifts from contemplative to animated explanation.",
+        "logic_check_reasoning": "Step 1: Slice 37 shows the woman with her hand on her chin, appearing to be listening or thinking deeply. Step 2: Slice 44 shows the same woman (same setting with circular paintings, black top) becoming animated, gesturing broadly (pointing at herself, clapping, rubbing hands, palms outward) while speaking. Step 3: Slice 58 further supports the active explaining phase with varied gestures and expressions, including raising her hand to her forehead while speaking. Logic holds because the scenes depict a transition from a contemplative pose to animated explanation in the same environment.",
+        "visual_proof": "In the first clip (0:00), the woman is seen with her hand resting on her chin, looking thoughtful. In subsequent clips (e.g., 0:02-0:04, 0:08-0:10, 0:13-0:15), she is actively speaking and using expansive hand gestures, such as spreading her hands wide or pointing, indicating a shift to explaining or emphasizing points."
+    },
+    {
+        "question": "How does the video establish a conversation format by showing speakers separately, then later placing two of them into a split-screen discussion?",
+        "answer": "It first shows the couch-seated woman and the bookshelf-backed man in separate solo shots, and later shows them together in split-screen.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            7,
+            5,
+            50,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the couch-seated woman speaking alone. Step 2: Slice 5 shows the bookshelf-backed man speaking alone. Step 3: Slice 50 shows a cut between the woman and the bookshelf speaker, reinforcing dialogue structure. Step 4: Slice 62 presents them simultaneously in split-screen, making the conversation explicit. Conclusion: The edit evolves from separate monologues to a clear split-screen discussion.",
+        "logic_check_reasoning": "Step 1: Slice 50 states the video starts with a woman on a couch and then cuts to a man in front of a bookshelf, indicating separate solo shots. Step 2: Slices 7 and 5 further describe solo shots of the same woman and man in their respective settings. Step 3: Slice 62 explicitly describes a split-screen showing both the woman and the man together, indicating they are later placed into a split-screen discussion. Logic holds because the context shows initial separate shots followed by a split-screen of the same two individuals.",
+        "visual_proof": "Clip 1 shows only the woman (Es Devlin) on a couch. Clip 2 shows only the man (Andrew Bolton) in front of a bookshelf. Clip 4 clearly displays both individuals simultaneously in a side-by-side split-screen format, confirming the transition from solo shots to a joint conversation view."
+    }
+]

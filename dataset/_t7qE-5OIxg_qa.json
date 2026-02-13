@@ -1,0 +1,15 @@
+[
+  {
+    "question": "The video first describes a museum artwork incident involving Edvard Munch’s famous painting and later shows a legal outcome about it years afterward. What was the sarcastic note the thieves left behind, and what later outcome does the montage report?",
+    "answer": "They left the note “Thanks for the bad security,” and later the montage reports “Art Thieves Convicted.”",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      44,
+      45
+    ],
+    "reasoning_chain": "Step 1: The newspaper story about the theft states the thieves left a note: “Thanks for the bad security.” Step 2: A later timeline frame shows a courtroom window labeled “Art Thieves Convicted” (Jan 1996). Conclusion: The note is “Thanks for the bad security,” and the later outcome is that the thieves were convicted.",
+    "logic_check_reasoning": "Step 1: Slice 44 explicitly describes the theft of Munch's 'The Scream' and states the thieves left a note saying, 'Thanks for the bad security.' Step 2: Slice 45 shows a montage segment labeled 'Art Thieves Convicted' (dated January 1996) and details convictions related to the theft of 'The Scream.' Logic holds because the first slice presents the incident and the sarcastic note, while the second slice reports the later legal outcome.",
+    "visual_proof": "In Video 1, frame 0:01 clearly shows a newspaper clipping with the highlighted text: 'The card left by the thieves shows a painting of three laughing men and a handwritten message: “Thanks for the bad security.”' In Video 2, frame 0:01 displays a graphic overlay stating 'Art Thieves Convicted Jan, 1996', directly reporting the legal outcome years after the theft."
+  }
+]

@@ -1,0 +1,125 @@
+[
+    {
+        "question": "What ingredient is first crushed with a pestle and later mixed into a dark sauce base that gets stirred in a wooden bowl?",
+        "answer": "Garlic.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows garlic cloves being crushed in a wooden mortar with a wooden pestle. Step 2: Slice 21 shows a dark thick sauce/paste in a wooden bowl being scraped and stirred, described as a mixture including garlic. Conclusion: The crushed ingredient that later becomes part of the dark sauce is garlic.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes garlic cloves being crushed with a wooden pestle in a mortar. Step 2: Slice 21 describes a dark, thick sauce in a wooden bowl that appears to include garlic among its ingredients, which is then stirred. Logic holds because the same ingredient (garlic) is explicitly mentioned as being crushed first and later present in the sauce being stirred.",
+        "visual_proof": "In Clip 1, a person is crushing white, segmented cloves in a wooden mortar with a pestle; these are visually identifiable as garlic. In Clip 2, minced pieces of the same white, pungent ingredient (garlic) are being scraped from a knife into a dark sauce in a wooden bowl and then stirred in, confirming it is the same ingredient used in both steps."
+    },
+    {
+        "question": "After citrus juice is added to a brown liquid mixture, what colored powder is added next to the same kind of bowl mixture and stirred in?",
+        "answer": "A yellowish-green powder.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows lemon being squeezed into a wooden bowl containing a brown liquid mixture. Step 2: Slice 26 shows a yellowish-green powder added into a bowl with liquid and stirred. Conclusion: The next added component is a yellowish-green powder.",
+        "logic_check_reasoning": "Step 1: Slice 25 describes citrus juice (lemon) being squeezed into a brown liquid mixture in a wooden bowl during a cooking/preparation scene. Step 2: Slice 26 describes, in the same outdoor cooking context, a man adding a yellowish-green powder into a wooden bowl that already contains liquid and stirring it. Logic holds because both slices depict the same kind of wooden bowl mixture and sequential preparation steps, and Slice 26 explicitly states the powder is yellowish-green.",
+        "visual_proof": "In Video 1, a hand squeezes citrus juice into a brown liquid. In Video 2, the same type of wooden bowl is shown, and after the juice is added (as seen in the close-up at 0:04-0:08), a metal grater is used to add a finely grated, yellowish-green powder (citrus zest) into the mixture before it is stirred."
+    },
+    {
+        "question": "Which animal is shown lounging on its back in the grass and later appears sitting up close beside the man while he drinks outdoors?",
+        "answer": "The brown and white goat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a black-and-white dog lying on its back in the grass near beehives. Step 2: Slice 64 shows the man's dog present beside him at the outdoor table as he drinks. Conclusion: The same animal is the black-and-white dog.",
+        "logic_check_reasoning": "Step 1: Slice 20 states a black-and-white dog is lying on its back in the grass. Step 2: Slice 64 shows a man drinking outdoors with a dog sitting close beside him. Logic holds because both slices depict a dog as the animal in question, and Slice 20 provides the color detail (black-and-white), which is not contradicted by Slice 64. Thus the animal is the black-and-white dog.",
+        "original_text_answer": "The black-and-white dog.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1, a black-and-white dog is shown lounging on its back in the grass near beehives. However, in Video 2, the animal that appears sitting up beside the man at the table is a brown and white goat with long fur and distinct facial features, which is clearly a different animal from the dog shown earlier."
+    },
+    {
+        "question": "Which animal first appears eating from a bowl on the man’s table and later is shown in the field being walked alongside and fed by the man?",
+        "answer": "A goat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a goat approaching the table and eating from a bowl. Step 2: Slice 59 shows the man feeding and walking alongside a goat in a grassy field. Conclusion: The tracked animal is the goat.",
+        "logic_check_reasoning": "Step 1: Slice 22 states that a goat appears and begins eating from one of the bowls on the man's table, with multiple close-ups confirming the animal as a goat. Step 2: Slice 59 shows a goat being fed by a person in a green jacket and then walking alongside the man in a field. Logic holds because both slices consistently depict a goat interacting with a man in a green jacket, first at the table and later in the field, matching the described sequence.",
+        "visual_proof": "In the first clip, a long-haired goat with a brown and white face is seen eating from a wooden bowl on the table. In the second clip, the same distinctively long-haired goat is shown being fed by hand and then walking alongside the man in a field, confirming it is the same animal across both scenes."
+    },
+    {
+        "question": "What chain of preparation turns garlic from a whole bulb into crushed garlic and then into a dark sauce mixture?",
+        "answer": "Peel the garlic bulb, crush the cloves in a mortar, then mix into a dark sauce/paste in a bowl.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            12,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows peeling a garlic bulb to separate cloves. Step 2: Slice 12 shows crushing garlic cloves in a wooden mortar with a pestle. Step 3: Slice 21 shows a dark thick sauce/paste (including garlic) being scraped and stirred in a wooden bowl. Conclusion: Garlic is peeled, crushed, then incorporated into the sauce.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows a person peeling a garlic bulb, revealing cloves. Step 2: Slice 12 shows the person crushing garlic cloves in a wooden mortar with a pestle. Step 3: Slice 21 shows a dark, thick sauce/paste being mixed in a wooden bowl, described as a mixture that appears to include garlic, indicating the crushed garlic is incorporated into the sauce. Logic holds because the slices depict a sequential process: peeling -> crushing -> mixing into a dark sauce in a bowl.",
+        "visual_proof": "Clip 1 shows hands peeling a whole garlic bulb. Clip 2 shows peeled garlic cloves being crushed with a pestle in a wooden mortar. Clip 3 shows the crushed garlic being scraped from a knife and stirred into a dark sauce in a wooden bowl."
+    },
+    {
+        "question": "What story connects the beehive area with playful relaxation to a later calm interaction between the man and the goat near the same beehive setting?",
+        "answer": "A dog relaxes near beehives first, and later the man pets and walks with a goat in the same kind of beehive-lined field.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a black-and-white dog lying on its back near colorful beehives. Step 2: Slice 58 shows the man approaching and petting a goat with beehives in the background at sunset. Step 3: Slice 59 shows the man feeding and walking alongside the goat across the field, again with the pastoral beehive area implied. Conclusion: The beehive field frames multiple calm human/animal moments.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows a black-and-white dog lying playfully on its back near several beehives, establishing a peaceful beehive area. Step 2: Slice 58 shows a man in green approaching and petting a goat with beehives visible in the background, indicating a calm interaction in a beehive-lined setting. Step 3: Slice 59 continues with the man walking alongside the goat in a rural field, with structures possibly being beehives, reinforcing the same type of setting. Logic holds because the proposed answer summarizes these two scenes: first a dog relaxing by beehives, then a man calmly interacting with a goat near beehives.",
+        "visual_proof": "Clip 1 shows a black and white dog lying on its back in a grassy field with multiple colorful beehives in the background. Clip 2 and Clip 3 show a man in green interacting with a long-haired goat; he feeds it from a basket and then walks beside it. The same beehives are visible in the background of these later clips, confirming the setting is the same. The sequence of events (dog relaxing, then man with goat) establishes the narrative connection described."
+    },
+    {
+        "question": "Which ingredient is chopped early for seasoning a boiling pot and later is shown again as a full basket of the same ingredient?",
+        "answer": "Onions.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the man chopping onions and adding them to a boiling pot. Step 2: Slice 37 opens with a woven basket filled with onions. Conclusion: The repeated ingredient is onions.",
+        "logic_check_reasoning": "Step 1: Slice 5 states the man chops onions and adds the chopped onions to the boiling pot for seasoning. Step 2: Slice 37 opens with a close-up of a woven basket filled with onions, showing the same ingredient later. Logic holds because the ingredient chopped early (onions) is explicitly shown again as a full basket of onions, despite the protein (chicken vs duck) difference, which is acceptable VLM noise.",
+        "visual_proof": "In the first clip, a man is shown peeling and chopping white onions on a wooden board (0:04-0:06), then adding them to a steaming pot (0:09-0:12). In the second clip, a basket full of whole, unpeeled red/purple onions is shown at 0:00. The sequence demonstrates the same ingredient (onions) being prepared in different forms across the clips."
+    },
+    {
+        "question": "What sequence of actions shows the rustic oven being prepared and then used to bake or cook a foil-wrapped dish?",
+        "answer": "Tending/preheating the oven fire, then placing a foil-wrapped dish inside.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            47,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a stone oven with a strong fire burning. Step 2: Slice 47 shows the man tending the brick/stone oven and managing the embers with a long tool. Step 3: Slice 48 shows him placing a foil-wrapped dish into the preheated oven. Conclusion: The oven is readied by fire-tending and then used for cooking a foil-wrapped dish.",
+        "logic_check_reasoning": "Step 1: Slice 47 shows the man tending the brick/stone oven fire—manipulating embers and adding wood to maintain heat—indicating preparation/preheating. Step 2: Slice 48 shows the man placing a foil-wrapped dish into the preheated stone oven with glowing embers, using it to cook. Slice 7 also depicts the oven fire burning brightly, reinforcing the preparation phase. The sequence matches: prepare (tend/preheat) then cook (place foil-wrapped dish).",
+        "visual_proof": "Clip 2 (0:00-0:01) shows a hand tending to the embers inside the rustic oven, indicating preheating. Clip 3 (0:03-0:05) clearly shows the man placing a large, foil-wrapped dish directly onto the floor of the same oven, which is filled with glowing embers, confirming the cooking action."
+    },
+    {
+        "question": "How does the man use citrus across the cooking process, from preparing the lemon to showing the lemon juice being added to a brown mixture and later stirring in another additive?",
+        "answer": "He slices the lemon, squeezes it into a brown mixture, then later adds a yellowish-green powder and stirs.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            25,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows the man slicing a lemon and squeezing it over a wooden bowl. Step 2: Slice 25 shows a close-up of lemon juice being squeezed into a brown liquid mixture. Step 3: Slice 26 shows a yellowish-green powder added into a liquid mixture and stirred. Conclusion: Citrus preparation leads into a seasoned mixture that is further enhanced with added powder.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows the man slicing a lemon and squeezing it over a wooden bowl, indicating preparation and use of citrus. Step 2: Slice 25 provides a close-up of lemon juice being squeezed into a wooden bowl containing a brown liquid mixture, confirming the addition of citrus to the mixture. Step 3: Slice 26 shows the man adding a yellowish-green powder into the bowl and stirring, indicating a subsequent additive and mixing step. The sequence and details match the proposed answer.",
+        "visual_proof": "Clip 1 shows the man slicing a lemon on a cutting board. Clip 2 provides a top-down view of him squeezing the lemon juice directly into a bowl containing a brown liquid mixture. Clip 3 first shows him grating a citrus zest (which appears as a yellowish-green powder) into the same bowl, followed by a close-up of him stirring the contents with a wooden spoon, integrating the new additive."
+    }
+]

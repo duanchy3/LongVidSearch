@@ -1,0 +1,73 @@
+[
+    {
+        "question": "Food appears first as a single highlighted dish next to a presenter, then later as a montage of multiple classic dishes on a Union Jack background. What is the highlighted dish first, and what are two dishes shown later in the montage?",
+        "answer": "First: chicken tikka masala; later examples include bangers and mash and beef Wellington (among others).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows a presenter with an on-screen food image labeled chicken tikka masala. Step 2: Slice 48 shows multiple British dishes labeled (e.g., bangers and mash, beef Wellington). Conclusion: The sequence expands from one featured dish to a montage of classics.",
+        "logic_check_reasoning": "Step 1: Slice 47 states that an image of a plate of food appears next to the presenter and explicitly mentions chicken tikka masala highlighted by text. Step 2: Slice 48 describes a montage of British dishes against a Union Jack background, listing bangers and mash and beef Wellington among others. The proposed answer matches these details: chicken tikka masala first, and bangers and mash plus beef Wellington later.",
+        "visual_proof": "In Clip 1, at 0:19, a single image of 'Chicken Tikka Masala' is displayed next to the presenter. In Clip 2, a montage on a Union Jack background shows 'Bangers and Mash' at 0:01 and 'Beef Wellington' at 0:12."
+    },
+    {
+        "question": "The show contrasts serious historical conflict with later coverage of quirky traditional competitions. Which violent/tense phenomenon is shown earlier, and name one quirky competition shown later?",
+        "answer": "Football hooliganism is shown earlier; later examples include cheese rolling or pancake racing (also nettle eating or gravy wrestling).",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            69,
+            72,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 69 depicts hooligans and a bloodied man restrained by police. Step 2: Slice 72 shows quirky traditions like cheese rolling and shin kicking. Step 3: Slice 73 shows pancake racing and other odd contests. Conclusion: The tone shifts from violence/unrest to playful traditional competitions.",
+        "logic_check_reasoning": "Step 1: Slice 69 explicitly depicts violent/tense scenes labeled \"Hooligans,\" including injured individuals and police restraint, indicating football hooliganism. Step 2: Slice 72 shows quirky British competitions such as the Cooper Hill Cheese Rolling Race, tug of war, and shin kicking. Step 3: Slice 73 adds more quirky traditions including pancake racing, stinging nettle eating, and gravy wrestling. Logic holds because the earlier violent phenomenon is football hooliganism (Slice 69), and at least one later quirky competition (e.g., cheese rolling or pancake racing) is clearly shown (Slices 72, 73).",
+        "visual_proof": "Clip 1 explicitly shows scenes of football hooliganism with crowds, smoke, and police intervention. Clip 2 and Clip 3 show a sequence of quirky traditional competitions: Cooper Hill cheese rolling race, tar barrel racing, toe wrestling, shin kicking, pancake racing, stinging nettle eating contest, and gravy wrestling. The temporal order of the clips confirms that the violent phenomenon (hooliganism) is presented before the quirky competitions."
+    },
+    {
+        "question": "A comedic sign-based segment includes a rude place-name sign, and later a roadside signpost points to ‘Scratchy Bottom.’ What is the shared comedic device, and what are the two signs’ texts?",
+        "answer": "Humor using real place-name signs; the signs read “BITCHFIELD” and “Newlands Farm Scratchy Bottom.”",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            35,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows outdoor shots by a sign reading “BITCHFIELD.” Step 2: Slice 35 shows a signpost reading “Newlands Farm Scratchy Bottom.” Step 3: Slice 34 contextualizes the road-trip buddy vibe that fits the sign humor. Conclusion: The shared device is comedic signage; the texts are “BITCHFIELD” and “Newlands Farm Scratchy Bottom.”",
+        "logic_check_reasoning": "Step 1: Slice 8 shows the men standing by multiple place-name signs, including an outdoor sign that reads \"BITCHFIELD,\" which fits the description of a rude place-name sign. Step 2: Slice 35 explicitly describes a roadside wooden signpost reading \"Newlands Farm Scratchy Bottom,\" pointing to the right. Step 3: The shared comedic device is the use of humorous real place-name signs, supported by the repeated focus on unusual or amusing place names in the scenes. Therefore, the two signs’ texts are supported: \"BITCHFIELD\" and \"Newlands Farm Scratchy Bottom.\"",
+        "visual_proof": "Clip 1 (0:11) visually shows a man smiling next to a sign that clearly reads 'BITCHFIELD'. Clip 2 (0:00) shows a wooden directional signpost with the text 'SCRATCHY BOTTOM' listed as one of the destinations. The context of both clips, including the hosts' reactions, confirms these are presented for comedic effect."
+    },
+    {
+        "question": "The video first sets up a geography-themed brand identity and later shows the host as part of that same show. What logo is used for the brand, and where do we later see it on the host’s clothing?",
+        "answer": "A stylized green-and-blue letter “G” logo; it later appears on the host’s white T-shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            4
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a green-and-blue “G” logo as an animated intro. Step 2: Slice 4 shows the host wearing a white T-shirt with a green circular logo for the show. Conclusion: The brand identity (the “G” logo) is later worn on the host’s shirt.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes the brand logo as a green and blue logo with a letter 'G' in the center and a circular design. Step 2: Slice 4 shows the host wearing a white T-shirt with a green circular logo while presenting the same show. Logic holds because the color and circular design match, and the context indicates continuity of the brand, supporting that the logo appears on the host’s T-shirt.",
+        "visual_proof": "In Video 1 (0:01), a stylized 'G' logo with green and blue colors is shown assembling in space. In Video 2, starting at 0:02, the host Barbs is clearly visible wearing a white T-shirt featuring the identical green-and-blue 'G' logo on the chest."
+    },
+    {
+        "question": "The UK’s overseas territories are shown with wildlife like penguins, and later another segment discusses South Georgia/South Sandwich Islands with penguins and volcanoes, and also a separate slide shows Jersey with Jersey cows. Which three territories are being highlighted across these visuals?",
+        "answer": "South Georgia (and the South Sandwich Islands), Jersey, and the British Antarctic Territory.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            36,
+            37,
+            32,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows penguins in a territory context with a British flag. Step 2: Slice 37 explicitly includes South Georgia and the South Sandwich Islands with penguins and volcanoes. Step 3: Slice 32 highlights Jersey with Jersey cows. Step 4: Slice 33 reinforces British island territories (e.g., Isle of Man, Guernsey/Alderney) as part of the broader territories theme. Conclusion: The visuals highlight overseas/associated territories including South Georgia/South Sandwich and Jersey.",
+        "logic_check_reasoning": "Step 1: Slice 37 explicitly mentions UK overseas territories and highlights South Georgia and the South Sandwich Islands, showing penguins and active volcanoes (Mount Curry, Mount Michael, Mount Belinda). Step 2: Slice 36 shows penguins with a British flag context, consistent with South Georgia/South Sandwich imagery. Step 3: Slice 32 shows a separate slide focusing on Jersey, including a map and Jersey cows. Step 4: Therefore, the three territories highlighted are South Georgia, the South Sandwich Islands, and Jersey. The proposed answer lists South Georgia (and the South Sandwich Islands), and Jersey, which matches these three.",
+        "original_text_answer": "South Georgia (and the South Sandwich Islands), and Jersey.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "The video explicitly highlights South Georgia and the South Sandwich Islands with visuals of penguins and volcanic activity. It also shows Jersey with an image of Jersey cows. Additionally, a segment on the British Antarctic Territory is shown with visuals of Mount Curry, Mount Michael, and Mount Belinda, which are part of the UK's overseas territories in Antarctica, confirming a third territory beyond just South Georgia and Jersey."
+    }
+]

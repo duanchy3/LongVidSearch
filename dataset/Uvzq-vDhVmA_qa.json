@@ -1,0 +1,71 @@
+[
+    {
+        "question": "A pilot is first shown taking a phone call near an aircraft, and later a close-up shows a phone receiving an incoming call on a table. In which segment does the incoming-call screen on the phone appear?",
+        "answer": "Slice 37.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a pilot in uniform talking on a smartphone near an aircraft. Step 2: Slice 37 shows a smartphone displaying an incoming call interface on a table. Conclusion: The incoming-call screen appears in Slice 37.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a pilot taking a phone call near an aircraft. Step 2: Slice 37 explicitly mentions a close-up of a smartphone on a surface showing an incoming call interface. Logic holds because the question asks specifically where the incoming-call screen appears, which is directly stated in Slice 37.",
+        "visual_proof": "The first clip (ID: 4) shows a pilot actively on a phone call, holding the phone to his ear. The second clip (ID: 37) contains a close-up shot of a smartphone lying on a table with its screen displaying an active incoming call interface, complete with the caller's name and call buttons. This visual evidence confirms that the incoming-call screen appears in the second clip, which is identified as Slice 37."
+    },
+    {
+        "question": "A pilot is seen teaching or leading in a classroom full of students, and elsewhere students sit together in a classroom with a pilot seated among them. In which segment does the pilot walk toward the front as the teacher?",
+        "answer": "Slice 28.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 26 shows a pilot in uniform seated in a classroom next to a woman, suggesting a class setting. Step 2: Slice 28 shows the same pilot in uniform walking toward the front of a classroom as a teacher. Conclusion: The teacher-walking-to-front moment is Slice 28.",
+        "logic_check_reasoning": "Step 1: Slice 26 describes a male in a pilot's uniform seated among students, interacting with a female student, indicating he is part of the class, not leading it. Step 2: Slice 28 explicitly states the same individual in a pilot's uniform is identified as a teacher and is seen walking toward the front of the classroom, leading the students. Logic holds because Slice 28 matches the specific action 'walk toward the front as the teacher' described in the question.",
+        "visual_proof": "In Clip 2 (ID: 28), the pilot is shown from behind, walking away from his seat towards the front of the classroom where a blackboard is visible. This action clearly depicts him moving to take on a teaching or leading role at the front of the class, which matches the description in the question."
+    },
+    {
+        "question": "A blue car is parked outside a columned building where a man in suspenders stands, and later a similar suspenders-and-bow-tie man appears in a formal room greeting a woman. What role does the suspenders-wearing man seem to play across these moments?",
+        "answer": "A formally dressed attendant/host who appears in upscale settings and greets others.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            19,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a man in suspenders and a bow tie outside a grand building, presented seriously. Step 2: Slice 19 shows a man in a white shirt and suspenders in an elegant room conversing and greeting a woman in black. Step 3: Slice 24 shows a bow-tied man handing a document in a formal office-like setting. Conclusion: Across scenes he functions like an attendant/host/assistant in formal contexts.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a man in a white shirt, black suspenders, and a bow tie standing outside a columned building, looking serious—this indicates formal attire in an upscale setting. Step 2: Slice 19 shows a similarly dressed man in an elegant room who warmly greets a woman, which is consistent with host-like behavior in a formal environment. Step 3: Slice 24 shows a man in a white shirt with a black bow tie standing behind a desk handing a document to someone, suggesting a formal attendant role engaging in a professional interaction. Logic holds because across these moments, the suspenders-wearing man consistently appears in formal/upscale settings performing greeting and formal interaction tasks, which align with an attendant/host role.",
+        "visual_proof": "In Clip 1, the man (identified as Bernard) stands at the entrance of a grand building as a car arrives. In Clip 2, he is inside a lavishly decorated room, greeting a woman and then serving a pilot. His consistent attire (white shirt, black suspenders, bow tie) and actions (greeting, serving) across these different upscale locations strongly suggest his role as an attendant or host."
+    },
+    {
+        "question": "A woman in a white dress is central to tense indoor conversations involving a man in a white shirt and a man in a black suit with sunglasses; later the man in the black suit walks away while a woman reaches toward him; later the woman in white dress is seen in a calmer formal lobby interaction. What consistent power dynamic is suggested about the sunglasses-wearing man across these moments?",
+        "answer": "He repeatedly arrives and takes control, then leaves others reacting to him.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            42,
+            43,
+            41,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a tense exchange involving a woman in a white dress and a serious man. Step 2: Slice 42 shows the sunglasses-wearing man entering and shifting control of the interaction. Step 3: Slice 43 shows him walking away as a woman reaches out, implying others respond to his actions. Step 4: Slice 41 returns to a formal lobby interaction around the woman, reinforcing ongoing high-stakes dynamics. Conclusion: The sunglasses-wearing man exerts control and drives others’ reactions.",
+        "logic_check_reasoning": "Step 1: Slice 42 shows a man in a black suit with sunglasses entering, shifting the dynamics, and taking control; the woman in the white dress reacts with surprise/confusion. Step 2: Slice 43 shows (consistent attire: dark suit and sunglasses) the same type of man walking away while a woman reaches toward him, indicating others react to his departure. Step 3: Slice 41 presents the woman in the white dress in a calmer lobby scene, which doesn’t alter the dynamic but provides context; it doesn’t contradict the control/response pattern. Logic holds because across distinct scenes the sunglasses-wearing man’s entrance asserts dominance and his exit provokes reactions, supporting the proposed pattern.",
+        "visual_proof": "In Clip 1 and Clip 3, the man in the black suit with sunglasses is shown actively engaging in tense conversations, gesturing assertively (e.g., pointing at 0:06, clenching fist at 0:00), while the woman and the man in white react to him. In Clip 2, he is seen walking away down a hallway, with the woman reaching out as if trying to stop him or react to his departure. In Clip 4, after his departure, the woman is shown in a calmer interaction, suggesting the tension has dissipated with his exit. This pattern of arrival, assertion, and departure, leaving others to react, supports the described power dynamic."
+    },
+    {
+        "question": "A woman steps out of a vehicle wearing high heels, and later another woman is shown in a white dress involved in formal lobby interactions. Another scene shows a bouquet held inside a car. Putting these together, what kind of event is suggested by the heels, bouquet, and formal dress?",
+        "answer": "A formal celebration, likely a wedding or engagement-related occasion.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            23,
+            41,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows high heels stepping out of a car and a woman holding a bouquet inside a car. Step 2: Slice 41 shows a woman in a white formal dress in a lobby-like formal setting with suited men. Step 3: Slice 82 shows a woman in formal attire by a luxury car and an intimate couple moment. Conclusion: These cues collectively suggest a wedding/engagement-type formal event.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows a close-up of high-heeled shoes stepping out of a car and a woman inside a car holding a bouquet, smiling—both elements commonly associated with special formal occasions. Step 2: Slice 41 depicts a woman in a white sleeveless dress with a floral hair accessory in a formal lobby setting, interacting with men in suits, reinforcing a formal/semi-formal event. Step 3: Slice 82 includes a white luxury car, a woman in formal attire possibly a bride, and a romantic intimate moment, explicitly suggesting a special event of a romantic nature. Logic holds because the combination of heels, bouquet, and formal white dress in formal settings strongly suggests a formal celebration, likely wedding/engagement-related.",
+        "visual_proof": "Clip 1 shows a woman in high heels stepping out of a car. Clip 2 features a woman in a white dress interacting formally with two men in what appears to be a lobby or event space. A bouquet is visible inside a car in Clip 1 (0:04). The combination of high heels, a white dress, and a bouquet strongly suggests a wedding or engagement-related event."
+    }
+]

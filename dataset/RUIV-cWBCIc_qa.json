@@ -1,0 +1,80 @@
+[
+    {
+        "question": "Early in the video, a diagram explains polyethylene being made from crude oil and natural gas. Later, a scene shows burning material with on-screen text about burning plastic. What does the video suggest is the relationship between plastic’s origin and the later burning scene?",
+        "answer": "Plastics made from fossil fuels can later be burned, causing harmful emissions/pollution",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            55
+        ],
+        "reasoning_chain": "Step 1: Slice 13 explains polyethylene production from crude oil and natural gas. Step 2: Slice 55 shows a fire and text 'As soon as you burn plastic,' linking plastics to air pollution. Conclusion: Fossil-fuel-derived plastics may end up burned, contributing to pollution.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows a diagram that polyethylene (a plastic) is produced from crude oil and natural gas, establishing its fossil-fuel origin. Step 2: Slice 55 shows a scene of thick, dark smoke with the on-screen text 'As soon as you burn plastic,' and mentions 'possibly toxic emissions' and smoggy conditions. Logic holds because the video juxtaposes plastic’s fossil-fuel origin with scenes of burning plastic producing smoke/toxic emissions, suggesting that plastics made from fossil fuels, when burned, cause harmful pollution.",
+        "visual_proof": "Clip 1 visually establishes the origin of polyethylene from crude oil and natural gas via a diagram. Clip 2 shows large-scale burning/smoldering material with smoke and birds flying away, implying environmental harm or pollution. The juxtaposition of these scenes in the same video suggests a causal relationship: plastic (from fossil fuels) being burned leads to pollution."
+    },
+    {
+        "question": "One segment shows an old TV in a dim room playing a tense sequence, then abruptly cuts to an advertisement that says 'Plastic makes it possible.' Later, the video shows a graph of global plastics production rapidly increasing. How do these two parts together frame the impact of plastic?",
+        "answer": "They contrast plastic’s marketing optimism with the reality of massive growth in plastic production",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 23 ends with an upbeat plastic advertisement slogan 'Plastic makes it possible.' Step 2: Slice 24 shows global plastics production skyrocketing from 1950 to 2016. Conclusion: Together they frame how promotional messaging helped normalize plastic as production exploded.",
+        "logic_check_reasoning": "Step 1: Slice 23 describes a tense sequence on an old TV that abruptly cuts to a commercial with the slogan 'Plastic makes it possible,' explicitly promoting the benefits and versatility of plastic—indicative of marketing optimism. Step 2: Slice 24 shows a graph titled 'Global plastics production' with a sharp rise from ~1 million tons in 1950 to over 300 million tons by 2016, suggesting massive growth. Logic holds because presenting an upbeat plastic advertisement alongside data showing rapid production increase creates a contrast between optimistic marketing and the reality of large-scale plastic proliferation.",
+        "visual_proof": "Clip 1 shows a vintage TV playing an advertisement with the slogan 'Plastic makes it possible,' which promotes a positive, optimistic view of plastic. Clip 2 immediately follows with a graph titled 'Global plastics production' that visually demonstrates a steep, exponential increase in production from 1990 to 2010, highlighting the scale and rapid growth of plastic use. The juxtaposition of the upbeat ad with the stark data graph creates a clear contrast between marketing messaging and industrial reality."
+    },
+    {
+        "question": "A presenter shows a 'Resin Identification Code' chart with seven plastic categories and also states there are '50 different types of plastics.' Elsewhere, a coffee cup lid is shown with recycling symbols. What is the implied reason the cup lid’s symbols matter?",
+        "answer": "They help identify the plastic type for correct sorting and recycling amid many plastic varieties",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            26,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 26 explains resin identification codes and that many plastic types exist, complicating recycling. Step 2: Slice 27 shows a cup lid with recycling symbols. Conclusion: The symbols matter because they guide correct identification/sorting for recycling.",
+        "logic_check_reasoning": "Step 1: Slice 26 shows a Resin Identification Code chart and explicitly mentions '50 different types of plastics,' with the scene described as emphasizing the importance of understanding plastic types for recycling and waste management. Step 2: Slice 27 includes a coffee cup lid with recycling symbols and states the video aims to raise awareness about waste management and the importance of recycling. Logic holds because the chart and emphasis on many plastic types establish that identification symbols help determine the plastic type, and the presence of such symbols on the lid implies they matter for correct sorting and recycling.",
+        "visual_proof": "Clip 1 displays the 'Resin Identification Code' chart with seven categories, while text on screen states there are '50 different types of plastics,' implying a need for classification. Clip 2 shows a coffee cup lid with embossed symbols (including a recycling triangle), followed by scenes of massive plastic waste piles and recycling facilities, visually connecting the symbols to the challenge of sorting diverse plastics for recycling."
+    },
+    {
+        "question": "A presenter is shown speaking in front of a teal wall with a frosted-glass window, and later the same presenter appears holding a water bottle and headphones in front of a similar frosted-glass window. What object does he add later that wasn’t emphasized in the earlier talking-head shot?",
+        "answer": "Headphones (and he is also holding a water bottle)",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows the black-shirt presenter talking with a teal wall and frosted window, no featured props. Step 2: Slice 29 shows him in front of a frosted window holding headphones (and a water bottle). Conclusion: The added emphasized object later is the headphones.",
+        "logic_check_reasoning": "Step 1: Slice 21 describes a presenter in a black shirt speaking with hand gestures in front of a teal wall and frosted-glass window; no items like headphones or a water bottle are mentioned. Step 2: Slice 29 shows the same presenter (black shirt, frosted-glass window) holding headphones and a water bottle. Logic holds because the later scene introduces objects (headphones and water bottle) not present or emphasized in the earlier talking-head shot, and the consistent visual attributes (black shirt, frosted-glass window) link the scenes despite minor setting differences.",
+        "visual_proof": "In Clip 1, the presenter is shown in a talking-head shot against a teal wall and frosted window, with no prominent objects in his hands. In Clip 2, he appears in front of a similar frosted window but is now clearly holding both a black water bottle in one hand and a pair of black headphones in the other, which were not present or emphasized in the first clip."
+    },
+    {
+        "question": "One segment visualizes plastic at the molecular level and then shows a landfill. Another later segment shows plastic pollution with a diver underwater. What type of location is used in both segments to emphasize the end result of plastic waste?",
+        "answer": "A landfill (a large dump of garbage/waste)",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows a plastic bag brand, then a polymer-chain animation, then a vast landfill. Step 2: Slice 20 includes an underwater plastic scene and also returns to landfill imagery to emphasize waste consequences. Conclusion: Both use landfill/dump imagery to stress plastic’s end-of-life impact.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes an animation of plastic at the molecular level followed by a scene shifting to a vast landfill, emphasizing plastic waste accumulation. Step 2: Slice 20 opens with a diver underwater surrounded by plastic, then transitions to a large landfill. Logic holds because both segments explicitly feature a landfill as the location that highlights the end result of plastic waste.",
+        "visual_proof": "The first segment explicitly shows a massive pile of plastic waste, which is characteristic of a landfill, after visualizing the molecular structure of plastic. The second segment also features a large, sprawling landfill with a bulldozer and animals scavenging on top of the trash heap, reinforcing the concept of a landfill as the end destination for plastic waste. While the underwater scene with the diver is mentioned in the question, it is not present in the provided clips; however, the consistent visual theme across both segments shown is the landfill."
+    },
+    {
+        "question": "A sequence shows a diver underwater surrounded by plastic debris, and later a map states that millions of tonnes of plastic enter the ocean each year with a highlighted source region. What is the relationship between the underwater scene and the later statistic?",
+        "answer": "The underwater debris is a visible consequence of the large annual inflow of plastic into the ocean described by the statistic",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows underwater plastic pollution around a diver, illustrating real-world impact. Step 2: Slice 63 states 1.5–2.4 million tonnes of plastic enter the ocean each year and highlights a major contributing region. Conclusion: The underwater scene is an example of the consequences quantified by the statistic.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows a diver underwater surrounded by plastic debris, indicating ocean plastic pollution. Step 2: Slice 63 presents a map stating that 1.5 to 2.4 million tonnes of plastic enter the ocean each year, with a highlighted source region (notably noting 1/5 from the Philippines). Logic holds because the underwater debris scene is a direct visual representation of the ocean plastic pollution that the later statistic quantifies, making the debris a visible consequence of the inflow described.",
+        "visual_proof": "Clip 1 (0:03) shows an underwater scene with a diver surrounded by floating plastic waste. Clip 2 (0:00-0:03) displays text stating '1.15 to 2.41 million tonnes of plastic enter the ocean each year' over a map, visually linking the massive scale of plastic pollution to the specific environmental damage shown earlier."
+    }
+]

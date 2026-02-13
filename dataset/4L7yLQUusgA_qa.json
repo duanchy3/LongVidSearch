@@ -1,0 +1,15 @@
+[
+    {
+        "question": "The man is shown doing heavy outdoor work with a red axe, and later a scythe is used in the field. What are the two tools and what tasks do they support?",
+        "answer": "A red axe is used for splitting logs, and a scythe is used for cutting tall grass/hay.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 37 shows a man splitting logs using a red axe. Step 2: Slice 39 shows a scythe used in a field and later sharpened. Conclusion: Axe = wood chopping; scythe = mowing/cutting grass.",
+        "logic_check_reasoning": "Step 1: Slice 37 shows a man using a red axe to split logs on a wooden stump, explicitly supporting 'red axe used for splitting logs.' Step 2: Slice 39 shows a man wielding a scythe to cut through tall grass and later sharpening it, explicitly supporting 'scythe used for cutting tall grass.' While 'hay' is mentioned in the proposed answer, the context directly supports cutting tall grass and does not contradict hay; the core task is clearly cutting tall grass.",
+        "visual_proof": "In Video 1, the man is seen using a red axe to split wood on a chopping block. In Video 2, he is shown swinging a scythe through tall grass in a field, consistent with hay or grass cutting."
+    }
+]

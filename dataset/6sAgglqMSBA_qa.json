@@ -1,0 +1,96 @@
+[
+    {
+        "question": "What luxury car is highlighted both parked outside in the city and later shown in a close-up emphasizing its emblem and luxury interior?",
+        "answer": "A Rolls-Royce.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a sleek Rolls-Royce parked on a cobblestone street. Step 2: Slice 12 shows a close-up of the Rolls-Royce emblem and its interior. Conclusion: The same luxury car brand is Rolls-Royce.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly describes a sleek, blue Rolls-Royce parked outside in a modern city setting. Step 2: Slice 12 explicitly shows a close-up of a Rolls-Royce emblem and details of the car’s luxury interior. Logic holds because both slices mention a Rolls-Royce in the contexts specified by the question (parked outside and later shown in close-up with emblem and interior), directly supporting the proposed answer.",
+        "visual_proof": "The car is visually identifiable as a Rolls-Royce in both clips. Clip 1 shows a man opening the door of a light blue luxury coupe parked outside, which is a Rolls-Royce Wraith. Clip 2 provides close-ups confirming this: the iconic 'Spirit of Ecstasy' hood ornament and the 'RR' grille emblem are clearly visible at 0:00-0:02, and the interior shot at 0:07 shows the steering wheel with the Rolls-Royce logo. The license plate 'R DUBAI 85225' also appears on the same car in both clips."
+    },
+    {
+        "question": "Which activity is explicitly priced per person at the Dubai Autodrome and is later followed by nighttime footage of a car speeding on a lit track?",
+        "answer": "Racing at the Dubai Autodrome.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 13 states 'RACING AT THE DUBAI AUTODROME 530 USD EACH.' Step 2: Slice 18 shows a car speeding on a track at night under artificial lighting. Conclusion: The priced activity is racing, and the later track footage reflects that racing context.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly shows on-screen text: 'RACING AT THE DUBAI AUTODROME 530 USD EACH,' which indicates a per-person price for the activity and confirms the location. Step 2: Slice 18 shows nighttime footage of a car speeding on a well-lit track, consistent with racetrack activity and plausibly following the earlier segment in the same video. Step 3: Therefore, the activity explicitly priced per person and later followed by the nighttime speeding footage is 'Racing at the Dubai Autodrome.'",
+        "visual_proof": "Clip 1 explicitly shows text overlay stating 'RACING AT THE DUBAI AUTODROME 530 USD EACH', pricing the activity per person. Clip 2 visually follows this by showing a car speeding on a lit racetrack at night, which is consistent with the context of racing at the Dubai Autodrome."
+    },
+    {
+        "question": "Which celebratory drink is poured in one scene and later appears again as the drink being enjoyed by the couple on a couch with an ice bucket nearby?",
+        "answer": "Champagne.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a woman opening and pouring champagne into two glasses. Step 2: Slice 45 shows a couple on a couch with glasses and a champagne bottle in an ice bucket. Conclusion: The drink is champagne.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly states a woman opens a champagne bottle and pours champagne into two glasses, establishing champagne as the celebratory drink. Step 2: Slice 45 describes a couple holding glasses with a bottle of champagne in an ice bucket on the table as they enjoy drinks, indicating champagne is present and associated with their beverages. Logic holds because the same drink—champagne—is clearly identified in both scenes: poured in the first and present/being enjoyed in the second.",
+        "visual_proof": "In Clip 1, a woman is shown opening and pouring a bottle of sparkling wine from a green bottle with a gold foil top into a flute glass; the bubbles and context indicate it is champagne. In Clip 2, the same couple is seen sitting on a couch holding glasses filled with a bubbly, golden liquid, consistent with champagne, and an ice bucket containing a similar bottle is visible on the table in front of them."
+    },
+    {
+        "question": "Which location is explicitly named for the yoga experience and is also named for an extremely expensive suite shown later in a lavish lobby segment?",
+        "answer": "Atlantis (Atlantis The Palm).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            27,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 27 labels 'Sunrise Yoga at the Atlantis.' Step 2: Slice 38 labels 'ATLANTIS THE PALM BRIDGE SUITE 27,000 USD / PER NIGHT.' Conclusion: Both reference Atlantis The Palm.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly states \"Sunrise Yoga at the Atlantis,\" naming Atlantis for the yoga experience. Step 2: Slice 38 shows text \"ATLANTIS THE PALM BRIDGE SUITE,\" explicitly naming the suite at Atlantis The Palm. Logic holds because the shared, explicitly named location across both slices is \"Atlantis,\" and the proposed answer reflects this by stating Atlantis and noting the specific property name in the later segment.",
+        "visual_proof": "In Clip 1, the text overlay explicitly states 'SUNRISE YOGA AT THE ATLANTIS'. In Clip 2, the text overlay reads 'ATLANTIS THE PALM BRIDGE SUITE', and the man is standing in a lavish lobby consistent with a luxury hotel setting. Both clips visually confirm the name 'Atlantis' for both the yoga experience and the suite."
+    },
+    {
+        "question": "What sequence connects the racing venue introduction, the in-car helmeted preparation, and the later nighttime track-speed footage?",
+        "answer": "They go from arriving at/introducing the Dubai Autodrome, to preparing inside the race car with helmets/gear, to driving on the track at night.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            14,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 13 introduces the Dubai Autodrome racing experience and pricing. Step 2: Slice 14 shows a helmeted driver being assisted/prepped inside a race car. Step 3: Slice 18 shows a car speeding on a lit track at night. Conclusion: Introduction → preparation → track action.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows a vlog-style introduction at the Dubai Autodrome with overlays about racing and costs, clearly establishing the venue and intent to race. Step 2: Slice 14 shows a driver in full helmet and racing gear inside a performance car in a garage setting, indicating pre-race preparation. Step 3: Slice 18 shows a car speeding on a lit racetrack at night, consistent with the driving phase. The sequence logically progresses from venue intro to in-car prep to on-track footage.",
+        "visual_proof": "Clip 1 shows the man and woman walking outside the 'DUBAI AUTODROME WELCOME CENTRE' building during sunset. Clip 2 shows a person in a helmet and racing harness seated in a car, being assisted by another person, indicating preparation for a race. Clip 3 shows a car speeding along the track at night, under bright lights, confirming the nighttime driving sequence. The progression from arrival, to pre-race prep, to actual night driving is visually clear across the three clips."
+    },
+    {
+        "question": "How does the male narrator’s outfit shift as the video moves from a marina narration to an opulent hotel interior tour and then to an elevator/hallway moment with a woman?",
+        "answer": "He goes from a striped shirt at the marina to a patterned shirt in the opulent hotel interior, then appears again in the elevator/hallway still in that patterned style.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            23,
+            32,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows the man narrating at the marina wearing a striped shirt. Step 2: Slice 32 shows a man touring an ornate interior wearing a patterned shirt. Step 3: Slice 39 shows a man in a patterned shirt with a woman in a dim elevator/hallway. Conclusion: His outfit changes from striped to patterned and continues in the hotel sequence.",
+        "logic_check_reasoning": "Step 1: Slice 23 describes the man at a marina wearing a striped shirt (green, red, white) while narrating. Step 2: Slice 32 shows the man in an ornate hotel interior wearing a patterned shirt while speaking. Step 3: Slice 39 depicts the man in an elevator/hallway with a woman, again noted as wearing a patterned shirt. Logic holds because the outfit transitions from striped (marina) to patterned (hotel), and remains patterned in the elevator/hallway, matching the proposed progression.",
+        "visual_proof": "In Clip 1 (marina), the man wears a vertically striped shirt with green, white, and maroon stripes. In Clip 2 (hotel lobby) and Clip 3 (elevator/hallway), he is wearing a different shirt with a complex geometric/tribal pattern in muted tones of blue, brown, and white. The patterned shirt is consistent across Clips 2 and 3, confirming the outfit shift as described."
+    },
+    {
+        "question": "What multi-scene arc ties together the expensive Bridge Suite mention, playful jumping on the bed, and a later walkthrough/presentation of an opulent bathroom by the woman in white?",
+        "answer": "They reveal the ultra-expensive Atlantis suite, then show playful enjoyment in the bedroom, and then showcase the suite’s luxurious bathroom.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            38,
+            40,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 38 states 'ATLANTIS THE PALM BRIDGE SUITE 27,000 USD / PER NIGHT.' Step 2: Slice 40 shows the woman in white jumping onto the bed in an opulent room. Step 3: Slice 41 shows her presenting the lavish bathroom. Conclusion: Price reveal → bedroom enjoyment → bathroom showcase.",
+        "logic_check_reasoning": "Step 1: Slice 38 shows a man in a luxurious hotel setting with text overlay explicitly stating 'ATLANTIS THE PALM BRIDGE SUITE 27,000 USD / PER NIGHT' and 'TOTAL SPENT 646,540,' indicating a reveal/introduction of an ultra-expensive suite. Step 2: Slice 40 depicts a luxurious bedroom where a woman in white playfully jumps on the bed, with the same man appearing, linking it to the ongoing travel vlog context, consistent with enjoying the suite’s bedroom. Step 3: Slice 41 shows the woman in white presenting an opulent bathroom, clearly a walkthrough/showcase of the suite’s amenities. Logic holds because these scenes sequentially align: introduction of the costly suite, playful enjoyment in the bedroom, and a detailed bathroom tour, all within the same luxurious hotel environment.",
+        "visual_proof": "Clip 1 shows text overlay 'ATLANTIS THE PALM BRIDGE SUITE 27,000 USD / PER NIGHT' with a man presenting the lobby. Clip 2 shows a woman in white joyfully jumping on the bed in a lavishly decorated room with ornate ceilings and large mirrors. Clip 3 shows the same woman in white walking through and gesturing toward an opulent bathroom with marble floors, gold fixtures, and a large vanity. The sequence visually connects the suite's cost, the bedroom activity, and the bathroom tour."
+    }
+]

@@ -1,0 +1,109 @@
+[
+    {
+        "question": "What myth-question is posed on a black title card, and what kind of historical evidence is later shown to support the discussion?",
+        "answer": "It asks whether Polish cavalry charged tanks in WWII, and later shows a 1939 newspaper clipping about the claim.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 16 displays the question 'DID POLISH CAVALRY CHARGE AT TANKS IN WWII?'. Step 2: Slice 21 shows a black-and-white 1939 newspaper clipping discussing Polish cavalry charging German Panzers. Conclusion: The title question is paired with newspaper evidence.",
+        "logic_check_reasoning": "Step 1: Slice 16 states the black title card reads \"DID POLISH CAVALRY CHARGE AT TANKS IN WWII?\", which matches the myth-question in the proposed answer. Step 2: Slice 21 describes a 1939 newspaper clipping about Polish cavalry charging German Panzers, which constitutes historical evidence shown in the video. Despite minor sequencing wording (both slices say \"begins\"), the content clearly supports the answer.",
+        "visual_proof": "Clip 1 opens with a black title card displaying the exact text: 'DID POLISH CAVALRY CHARGE AT TANKS IN WWII?'. Clip 2 then shows a stylized, newspaper-like graphic with the year '1939' and the headline 'POLISH CAVALRY CHARGE GERMAN PANZERS', which serves as the historical evidence presented in the video."
+    },
+    {
+        "question": "What national flag appears behind a line of soldiers early on, and what different national symbol is visible later inside a formal U.S. government office setting?",
+        "answer": "The French flag, and the American flag in a U.S. government office setting.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows soldiers standing in front of the French flag. Step 2: Slice 66 shows an Oval Office-like room with an American flag behind the desk during a press event. Conclusion: French tricolor versus U.S. flag.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly describes five soldiers standing in front of the French flag (blue, white, red vertical stripes). Step 2: Slice 66 shows an animated Oval Office scene with an American flag hanging between two windows. Logic holds because the first is a French flag behind soldiers, and later a different national symbol—the American flag—is visible in a formal U.S. government office.",
+        "visual_proof": "In Video 1, a large flag with vertical blue, white, and red stripes (the French flag) is clearly visible behind a line of soldiers. In Video 2, an American flag (stars and stripes) is positioned to the left of a man at a desk in what appears to be the Oval Office, identifiable by its distinctive desk and decor."
+    },
+    {
+        "question": "When the video shifts from battlefield narratives to U.S. military education/benefits content, what on-screen title signals the change and what later slide explicitly names an education benefit program?",
+        "answer": "The title '8 Things People get WRONG about the U.S. Military' signals the change, and the slide is titled 'Post 9/11 GI Bill.'",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 24 introduces U.S.-military myth-busting with the title '8 Things People get WRONG about the U.S. Military.' Step 2: Slice 34 shows an informational slide labeled 'Post 9/11 GI Bill.' Conclusion: These mark the transition into U.S. military education/benefits content.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 24 explicitly states that the on-screen text '8 Things People get WRONG about the U.S. Military' is prominently displayed, signaling the video's theme and serving as the noted title. Step 2: Evidence Slice 34 explicitly mentions a final slide titled 'Post 9/11 GI Bill,' which names an education benefit program. Logic holds because the question asks for the title that signals the change and the later slide naming an education program; both titles are directly supported by the provided slices.",
+        "visual_proof": "Clip 1 opens with the on-screen title '8 Things People get WRONG about the U.S. Military,' which serves as the video's main topic introduction. Clip 2 later displays a clear infographic slide with the title 'Post 9/11 GI Bill' centered at the top, surrounded by icons representing various educational benefits."
+    },
+    {
+        "question": "What recurring type of planning tool is shown in two different strategic contexts: one involving Europe and another involving Southeast Asia?",
+        "answer": "A map used for strategic planning (a map of Europe and a map of Vietnam/Cambodia/Laos region).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a mustached officer behind a desk with a map of Europe. Step 2: Slice 68 shows a formal war meeting around a map labeled North Vietnam, South Vietnam, Cambodia, and Laos. Conclusion: Both scenes center on maps as planning tools.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a man in a military uniform behind a desk with a map of Europe, in a historical/political illustration context, implying strategic planning. Step 2: Slice 68 shows a formal meeting with officials around a large table featuring a map labeled North Vietnam, South Vietnam, Cambodia, and Laos, clearly used in a strategic discussion. Logic holds because both slices prominently feature maps as tools in strategic contexts—Europe in Slice 9 and Southeast Asia in Slice 68.",
+        "visual_proof": "Clip 1 shows a large map of Western Europe with Germany, France, Belgium, and Luxembourg highlighted, placed on a table in front of a military officer. Clip 2 shows a different map of Southeast Asia, specifically highlighting Thailand, Cambodia, and South Vietnam, laid out on a conference table surrounded by officials. Both are clearly depicted as tools for strategic discussion or planning."
+    },
+    {
+        "question": "Connect the sequence that frames the Polish cavalry myth: what is shown first as the myth’s dramatic imagery, and what later scene depicts the cavalry actually fighting a different kind of opponent before armored vehicles appear?",
+        "answer": "First a dramatic cavalry-versus-tanks confrontation is shown, and later the cavalry fights German infantry behind sandbags before German armored vehicles appear.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            15,
+            20,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 15 depicts cavalry charging toward advancing tanks (dramatic imagery). Step 2: Slice 16 frames the segment with the myth-question about cavalry charging tanks. Step 3: Slice 20 shows cavalry engaging German infantry behind sandbags, then German armored vehicles enter. Conclusion: The framing suggests the myth is contrasted with infantry engagement preceding armored involvement.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows a wide shot where multiple tanks advance while a cavalry charge continues toward them, creating the dramatic cavalry-versus-tanks imagery. Step 2: Slice 20 shows the cavalry engaging German infantry positioned behind sandbags (Scene 2), and only later introduces German armored vehicles (Scene 4). Logic holds because the first depiction frames the myth (cavalry vs tanks), while the later scene clarifies the cavalry actually fought infantry before armor appeared.",
+        "visual_proof": "Clip 1 opens with a close-up of a German tank with a swastika, immediately followed by Polish cavalrymen on horseback brandishing sabers, establishing the myth's imagery. Clip 2 then shows Polish cavalry charging not at tanks, but at German infantry positioned behind sandbags in a forest clearing. Only after this charge does the scene cut to German armored cars arriving, confirming the sequence described in the answer."
+    },
+    {
+        "question": "Across three different political/strategic desk-or-table scenes, what object anchors the decision-making, and how does its geography shift?",
+        "answer": "A map anchors the decisions; it shifts from Europe to North America to Southeast Asia.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            9,
+            59,
+            68
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a desk with a map of Europe and small French/German figures. Step 2: Slice 59 shows the Head of MI6 writing on a map of North America. Step 3: Slice 68 shows a war meeting around a Southeast Asia map (Vietnam/Cambodia/Laos). Conclusion: The planning map persists while the geographic focus changes.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a man in military uniform behind a desk with a map of Europe prominently displayed, indicating a political/military planning context anchored by the map. Step 2: Slice 59 shows a man at a desk with a map of North America, writing on it, later identified as 'Head of MI6,' clearly a strategic/espionage decision-making scene anchored by the map. Step 3: Slice 68 depicts a formal meeting around a large table with a map labeled North Vietnam, South Vietnam, Cambodia, and Laos—Southeast Asia—used in strategic discussion. Logic holds because each scene centers on a desk/table and a map as the focal object, and the geographies explicitly shift from Europe to North America to Southeast Asia.",
+        "visual_proof": "Clip 1 shows a map of Western Europe with Germany, France, and Belgium. Clip 2 shows a map of North America, specifically the United States and Mexico. Clip 3 shows a map of Southeast Asia, including South Vietnam, Cambodia, Thailand, and the Gulf of Thailand. In each clip, the central character is positioned at a table or desk with the map as the focal point of the scene."
+    },
+    {
+        "question": "Across two different eras, what is the main weapon in the opening combat scene compared with the weapon used in the later gladiator duel?",
+        "answer": "Guns/rifles in the opening combat scene, and swords (with a shield) in the gladiator duel.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows soldiers holding guns and firing in battle. Step 2: Slice 45 shows gladiators fighting with swords and a shield. Conclusion: Modern firearms versus swords/shield.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes the opening combat scene with soldiers \"holding guns\" and later \"some carrying swords and others firing guns,\" explicitly showing guns being used prominently. Step 2: Evidence Slice 45 describes a gladiator duel where one gladiator carries a shield and sword, and the other wields a sword, clearly indicating swords (with a shield) as the weapons in the later scene. Logic holds because the first era emphasizes guns in a military battle, while the later era features swords in gladiatorial combat, matching the proposed answer.",
+        "visual_proof": "In Clip 1, the soldiers are depicted holding rifles; one is aiming a rifle directly at the viewer. In Clip 2, the gladiators are clearly shown fighting with swords and small round shields (parma)."
+    },
+    {
+        "question": "What repeated motif connects the World War I trench warfare imagery, the Gallipoli story, and the later commemoration visuals?",
+        "answer": "The motif is soldier sacrifice and remembrance, shown through battlefield casualties, a vanishing battalion narrative, and the symbolic red poppy.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            40,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 11 depicts trench warfare with artillery and the realities of WWI military life. Step 2: Slice 40 explicitly tells a WWI Gallipoli story emphasizing loss and sacrifice. Step 3: Slice 8 shows a red poppy symbolizing remembrance in a war-torn landscape. Conclusion: The video links combat, loss narratives, and memorial symbolism.",
+        "logic_check_reasoning": "Step 1: Slice 11 depicts WWI trench warfare with soldiers operating artillery, marching in trenches, and a bleak, harsh battlefield environment. While it doesn't explicitly say 'sacrifice,' it emphasizes the harsh realities and gravity of war, supporting the theme of soldiers' costly experiences. Step 2: Slice 40 explicitly centers on the Gallipoli campaign and is titled 'The Vanished Battalion of Gallipoli,' concluding with a somber reflection on loss and the heavy toll, directly supporting soldier sacrifice. Step 3: Slice 8 shows a red poppy symbolizing remembrance and hope, explicitly tied to remembering those fallen in conflict. Logic holds because the trench warfare imagery (Slice 11), the Gallipoli narrative with loss/sacrifice (Slice 40), and the red poppy commemoration (Slice 8) collectively support the motif of soldier sacrifice and remembrance. Although Slice 11 doesn’t explicitly mention casualties, its depiction of the brutal conditions of trench warfare aligns with the sacrifice theme, and Slice 8 explicitly covers remembrance.",
+        "visual_proof": "Clip 1 shows soldiers dying in trench warfare. Clip 2 depicts the 'Vanished Battalion of Gallipoli' with soldiers disappearing into smoke during battle. Clip 3 concludes with a single red poppy growing from a battlefield grave, a well-known symbol of remembrance for fallen soldiers."
+    }
+]

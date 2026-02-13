@@ -1,0 +1,95 @@
+[
+    {
+        "question": "What country is tied to both the globe zoom-in segment and the later forum discussion where someone asks about that same persona?",
+        "answer": "Seychelles.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a spinning globe zooming to a location labeled “Seychelles.” Step 2: Slice 72 shows a forum/chat interface where a message reads “Seychelles anon?”. Conclusion: The shared country/persona reference is Seychelles.",
+        "logic_check_reasoning": "Step 1: Slice 11 states the globe zooms in on a location labeled 'Seychelles.' Step 2: Slice 72 reports a forum message reading 'Seychelles anon?' indicating discussion tied to Seychelles. Logic holds because the same country name appears explicitly in both the globe segment and the later forum discussion.",
+        "visual_proof": "Clip 1 visually confirms the location as 'Seychelles' during a globe zoom-in sequence (0:02-0:04). Later in Clip 1 (0:16), a forum post is shown with the text 'There was a Seychelles anon posting at least a month ago.' Clip 2 reinforces this by showing another forum post asking 'S-Seychelles anon?' (0:00-0:05), directly linking the persona to the country. The visual evidence across both clips explicitly ties the country 'Seychelles' to both the geographic segment and the forum discussion."
+    },
+    {
+        "question": "Which island nation is referenced both by the close-up waving flag shot and by the post where a bot maker says their bot uses that nation’s flag?",
+        "answer": "Seychelles.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            75,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 93 is a close-up of the Seychelles flag waving. Step 2: Slice 75 shows posts stating “maker of the bot with the Seychelles flag.” Conclusion: The nation is Seychelles.",
+        "logic_check_reasoning": "Step 1: Slice 93 explicitly identifies the flag shown as the Seychelles flag. Step 2: Slice 75 includes a post stating, \"I'm the maker of the bot with the Seychelles flag,\" directly referencing the same nation's flag. Logic holds because both slices explicitly mention the Seychelles flag, thus both reference the island nation Seychelles.",
+        "visual_proof": "Clip 1 shows a text post explicitly stating, 'I'm the maker of the bot with the Seychelles flag.' The accompanying image in the post displays the flag of Seychelles. Clip 2 is a close-up, waving shot of the same flag — featuring diagonal bands of blue, yellow, red, white, and green — visually confirming it as the flag of Seychelles."
+    },
+    {
+        "question": "Two different posting milestones are shown at different times; what are they?",
+        "answer": "“1500 POST” and “15,000 POST IN 24H.”",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 9 displays the text “1500 POST.” Step 2: Slice 66 later displays “15,000 POST IN 24H.” Conclusion: The milestones are 1500 posts and 15,000 posts in 24 hours.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly mentions that the text '1500 POST' appears on the screen. Step 2: Slice 66 explicitly states that a bold yellow text overlay reads '15,000 POST IN 24H.' Logic holds because these are two distinct captions shown at different points in the video, matching the two milestones cited in the proposed answer.",
+        "visual_proof": "In Clip 1 (at 0:03-0:04), the text '1500 POST IN 24H' is overlaid on the screen. In Clip 2 (at 0:02-0:03), the text '15,000 POST IN 24H' is overlaid on the screen. Both milestones are clearly visible as large on-screen text in their respective clips."
+    },
+    {
+        "question": "What larger posting milestone appears later in a digital, abstract montage, and which earlier segment already emphasized posts happening within 24 hours?",
+        "answer": "“30,000 POST,” and the earlier 24-hour emphasis was “15,000 POST IN 24H.”",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            83,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 83 shows “30,000 POST” over a digital icon background. Step 2: Slice 66 shows “15,000 POST IN 24H,” highlighting a 24-hour posting rate. Conclusion: The later milestone is 30,000 posts and the earlier 24-hour metric is 15,000 posts in 24 hours.",
+        "logic_check_reasoning": "Step 1: Slice 83 describes a digital, abstract montage with floating icons and numbers where the bold text '30,000 POST' appears prominently, indicating a larger milestone. Step 2: Slice 66 shows a man in front of a green screen with a bold yellow overlay reading '15,000 POST IN 24H,' explicitly emphasizing posts within 24 hours. Logic holds because the question asks for the larger milestone in the digital montage (30,000 POST) and the earlier segment emphasizing 24 hours (15,000 POST IN 24H), both directly supported by the slices.",
+        "visual_proof": "Clip 1 displays a digital montage with glowing icons and lines, overlaid with large white text reading '30,000 POST'. Clip 2 shows a man in front of a green screen with yellow text at the bottom stating '15,000 POST IN 24H'. These visuals directly support the original answer."
+    },
+    {
+        "question": "What is the stated cooldown time shown during the posting demonstration, and what purchase option later claims it won’t remove time limits entirely?",
+        "answer": "“30sec cooldown,” and the 4chan Pass (it still keeps post time limits).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows posting guidance and the overlay “30sec cooldown.” Step 2: Slice 41’s 4chan Pass page states users are still subject to post time limits. Conclusion: The cooldown is 30 seconds, and the pass is the purchase option that doesn’t remove time limits entirely.",
+        "logic_check_reasoning": "Step 1: Slice 36 explicitly states that text appears on screen reading '30sec cooldown' during the posting demonstration, confirming the cooldown time. Step 2: Slice 41 shows a 'Purchase a 4chan Pass' page and notes that users will still be subject to post time limits, indicating the 4chan Pass does not remove time limits entirely. Logic holds because the first part identifies the cooldown during posting, and the second part identifies the purchase option and its limitation.",
+        "visual_proof": "In Clip 1, at 0:09, red text explicitly states '30sec cooldown' next to the speaker. In Clip 2, the FAQ section of the 4chan Pass purchase page (visible from 0:08) clarifies under 'What doesn't a Pass allow me to do?' that 'A Pass does not confer any additional privileges beyond bypassing the CAPTCHA verification. You will still be subject to various post timers...'. This confirms the stated cooldown and that the Pass doesn't remove all time limits."
+    },
+    {
+        "question": "What AI model is highlighted with a cute robot sitting on a chip, and which later clip shows the presenter teaching how to fine-tune a different model from a webpage title?",
+        "answer": "GPT-3 is highlighted with the robot, and the fine-tuning tutorial is about GPT-J.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows an animation of a robot on a chip labeled “GPT-3.” Step 2: Slice 25 shows a page titled “How to Fine-Tune GPT-J - The Basics.” Conclusion: The robot highlights GPT-3, while the tutorial later focuses on GPT-J.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly states there is a blue-themed animation with a cute robot sitting on a chip and the text 'GPT-3' next to it, highlighting GPT-3. Step 2: Slice 25 shows a webpage titled 'How to Fine-Tune GPT-J - The Basics' with the presenter explaining, indicating a tutorial about fine-tuning GPT-J. Logic holds because the first part identifies GPT-3 with the robot, and the later clip clearly references fine-tuning GPT-J by the webpage title.",
+        "visual_proof": "In Clip 1, at 0:07, a graphic shows a cute robot on a chip next to the text 'GPT-3'. In Clip 2, at 0:01, a webpage is visible with the title 'How to Fine-Tune GPT-J - The Basics', indicating the tutorial's subject."
+    },
+    {
+        "question": "What contrasting real-world setting appears late in the timeline that breaks from the repeated green-screen studio setup, and how is the presenter visually tracked into that setting?",
+        "answer": "An outdoor urban street walk; the same man is tracked by his sunglasses and black T-shirt while holding a handheld camera.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            47,
+            59,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 1 establishes the presenter’s visual identity: sunglasses, black T-shirt, studio mic/green screen. Step 2: Slice 47 shows the same shaved-head, sunglasses look in the green-screen setup. Step 3: Slice 59 again shows him with sunglasses/black shirt holding a camera in front of green screen. Step 4: Slice 90 shows him outdoors walking down a street filming himself with a handheld camera, still wearing sunglasses and a black T-shirt. Conclusion: The late break is the outdoor street scene, with the presenter tracked via consistent appearance and camera use.",
+        "logic_check_reasoning": "Step 1: Slices 1, 47, and 59 consistently depict a man in a green-screen studio wearing sunglasses and a black T-shirt; Slice 59 adds that he is holding a camera and recording himself. Step 2: Slice 90 shows the same man outdoors on a narrow urban street, still wearing sunglasses and a black T-shirt with a graphic, and recording himself with a handheld camera. Logic holds because the visual attributes (sunglasses, black T-shirt, short beard) and the action of holding/recording with a camera match, establishing continuity from the green-screen setup to the outdoor urban street setting.",
+        "visual_proof": "Clips 1, 2, and 3 show the man in a consistent green-screen studio setting. Clip 4 shows a clear shift to an outdoor urban environment with buildings and a street. The man is visually identifiable as the same person due to his distinct bald head, sunglasses, and black T-shirt with a graphic on it. He is holding the camera himself in a selfie-style shot, confirming he is tracking himself through this new setting."
+    }
+]

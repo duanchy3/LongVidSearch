@@ -1,0 +1,57 @@
+[
+    {
+        "question": "Which time-jump title card is followed by the turbaned driver being shown in London again?",
+        "answer": "The title card “2 WEEKS LATER — SOMEWHERE IN LONDON.”",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            94,
+            95
+        ],
+        "reasoning_chain": "Step 1: Slice 94 displays the time-jump text “2 WEEKS LATER” and “SOMETHING IN LONDON.” Step 2: Slice 95 shows a man in a black turban and patterned vest driving in a car, consistent with the London return setup. Conclusion: The London time-jump card is followed by the driver scene.",
+        "logic_check_reasoning": "Step 1: Slice 94 shows a black screen with the time-jump title card reading '2 WEEKS LATER' and beneath it 'SOMETHING IN LONDON', indicating a transition and location. Step 2: Slice 95 shows a man wearing a black turban in the driver's seat, which fits the description of a turbaned driver. The slices appear sequential, so the driver scene follows the title card and, per the title card, is set in London. Logic holds because the title card sets the time and place, and the next slice presents the turbaned driver, matching the question’s setup.",
+        "original_text_answer": "The title card “2 WEEKS LATER — SOMETHING IN LONDON.”",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 displays a black screen with white text reading \"2 WEEKS LATER\" followed by \"SOMEWHERE IN LONDON\". Clip 2 immediately shows the turbaned driver inside a car, confirming he is the subject shown after this specific title card."
+    },
+    {
+        "question": "Which iconic London landmark is visible when the London black cab is shown driving past Parliament, and how does that connect to later Paris landmark shots?",
+        "answer": "Big Ben is visible in London, and later the video shows Paris landmarks like the Eiffel Tower and Sacré-Cœur.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            28,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows the black cab with Big Ben/Houses of Parliament in the background. Step 2: Slice 45 shows Paris landmarks including the Eiffel Tower and Sacré-Cœur. Conclusion: The montage links major landmarks across London and Paris.",
+        "logic_check_reasoning": "Step 1: Slice 28 explicitly states that during the exterior shot of the London black cab driving past Parliament, the iconic Big Ben clock tower and the Houses of Parliament are visible. Step 2: Slice 45 explicitly shows later Paris landmark shots, featuring the Eiffel Tower and the Sacré-Cœur Basilica. Logic holds because the answer identifies Big Ben in the London scene and correctly connects it to subsequent scenes showing Paris landmarks (Eiffel Tower and Sacré-Cœur) as described.",
+        "visual_proof": "In Video 1 (0:05-0:06), the London black cab is shown driving on a street with the Elizabeth Tower (commonly known as Big Ben) and the Palace of Westminster clearly visible in the background. In Video 2 (0:00-0:01), the Eiffel Tower is prominently displayed at sunset, and in frames 0:08-0:10, the Sacré-Cœur Basilica is shown from multiple angles, confirming the presence of these Parisian landmarks."
+    },
+    {
+        "question": "What earlier on-screen math formula reappears later as a different kind of math overlay during the road trip?",
+        "answer": "An abstract math/equation motif (starting with “F - E + V = 2”) later reappears as formulas/equations overlaying a car scene.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 1 overlays the equation “F - E + V = 2” on a cityscape. Step 2: Slice 31 later shows mathematical equations/formulas overlaid during an in-car segment. Conclusion: The video uses a recurring math-overlay motif across time.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly mentions an earlier on-screen math formula: \"F - E + V = 2\" superimposed on a cityscape. Step 2: Slice 31 later describes a mathematical overlay with various equations and formulas appearing during the car-based road trip from London to Dover. Logic holds because the question asks which earlier formula reappears later as a different kind of math overlay, and the context shows the initial specific formula followed by a later, broader math overlay during the road trip.",
+        "visual_proof": "In Clip 1 at 0:05, the formula 'F - E + V = 2' is clearly visible among other equations overlaid on a man's face. In Clip 2 at 0:02, a similar visual effect occurs where various mathematical formulas are overlaid on the same man's face while he is inside a car, confirming the re-appearance of the math motif in a different context."
+    },
+    {
+        "question": "Across the trip, how does the group’s setting change from a London taxi ride to a cross-border sea journey and then to a Paris arrival?",
+        "answer": "They start riding in a London black cab, then take a ferry leaving England for France, and later arrive in Paris where the Eiffel Tower is shown.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            36,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows a lively ride inside a London black cab with London landmarks. Step 2: Slice 36 shows departing England by ferry and arriving in France. Step 3: Slice 45 shows Paris landmarks including the Eiffel Tower. Conclusion: The timeline moves from London cab to ferry crossing to Paris arrival.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows a lively scene inside a London black cab, with London landmarks visible outside, confirming the setting starts in a London taxi. Step 2: Slice 36 depicts a ferry leaving England, text says they've left English land, and includes arrival in France and border control, confirming a cross-border sea journey from England to France. Step 3: Slice 45 presents Paris landmarks like the Eiffel Tower and Sacré-Cœur, confirming arrival in Paris. The sequence in the proposed answer aligns exactly with the settings described in the slices.",
+        "visual_proof": "Clip 1 shows the group inside a London black cab with Big Ben visible outside. Clip 2 shows them on a ferry with text indicating they've left England and arrived in France, including a map of the crossing. Clip 3 opens with an aerial shot of the Eiffel Tower in Paris, followed by scenes of the group walking through Parisian streets."
+    }
+]

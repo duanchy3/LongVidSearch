@@ -1,0 +1,43 @@
+[
+    {
+        "question": "What sign of a welcoming suburban house appears both when a delivery man approaches and later when a group stands outside discussing something?",
+        "answer": "An American flag on/near the porch.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows a house porch with an American flag as a man in a chef’s jacket walks up. Step 2: Slice 64 shows men standing outside a house with an American flag visible on the porch. Conclusion: The shared visual feature is the American flag.",
+        "logic_check_reasoning": "Step 1: Slice 31 describes a delivery man approaching a house and explicitly notes 'There is an American flag hanging from the porch.' Step 2: Slice 64 describes a group standing outside the house and again mentions 'there is an American flag hanging from the porch.' Logic holds because both scenes reference the same feature—the American flag on the porch—appearing in both contexts.",
+        "visual_proof": "In Video 1, as the man walks toward the house, an American flag is clearly visible hanging from a pole attached to the left side of the porch. In Video 2, the same American flag is visible in the background, fluttering above the group of people standing outside the house. The flag appears in both clips, confirming its consistent presence near the porch."
+    },
+    {
+        "question": "Which handheld device appears both when the man outdoors checks something while talking and when a woman later focuses intently on the same kind of device at a dining table?",
+        "answer": "A smartphone.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a man outdoors holding and looking at a smartphone while talking. Step 2: Slice 45 shows a woman seated at a dining table focused on her smartphone. Conclusion: The shared device is a smartphone.",
+        "logic_check_reasoning": "Step 1: Slice 7 states the man is holding a smartphone and looking at its screen while talking outdoors. Step 2: Slice 45 states the woman is holding and focusing on her smartphone at a dining table. Logic holds because both slices explicitly mention a smartphone as the handheld device in each scene.",
+        "visual_proof": "In Clip 1, the man outdoors is holding and looking at a black rectangular device with a screen, consistent with a smartphone. In Clip 2, the woman indoors is holding and interacting with a gold-colored rectangular device with a screen, also clearly identifiable as a smartphone. Both individuals are actively using these devices."
+    },
+    {
+        "question": "How does the video portray a shift from intimate home conversation to public performance, using four distinct settings as evidence?",
+        "answer": "It goes from a couch monologue at home, to a larger house gathering, to an organized group huddle, and then to a stage performance in front of a crowd.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            11,
+            33,
+            82,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows an intimate couch monologue at home. Step 2: Slice 33 shows a larger social gathering in a home kitchen/living area. Step 3: Slice 82 shows a focused group huddle with paper in the middle. Step 4: Slice 85 shows a man speaking into a microphone to a crowd. Conclusion: The narrative escalates from private talk to group coordination to public performance.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows a man alone on a beige couch in a casual living room, speaking and gesturing—this supports an intimate home monologue. Step 2: Slice 33 shows a cozy home kitchen/living area with multiple young men gathered around food and chatting—this supports a larger house gathering. Step 3: Slice 82 shows a group of young men in a dimly lit indoor space in a focused team huddle with someone holding a paper—this supports an organized group huddle. Step 4: Slice 85 shows a man speaking into a microphone in front of an attentive crowd in a dim room—this supports a public performance in front of an audience (even if a stage isn’t explicitly mentioned). The progression from private conversation to group gathering, to organized huddle, to public address is logically supported by the slices.",
+        "visual_proof": "Clip 1 shows a man alone on a couch speaking. Clip 2 shows multiple people interacting in a kitchen/living room setting. Clip 3 shows a group of men in a tight huddle, suggesting team unity or preparation. Clip 4 clearly depicts two men on a stage with microphones performing for a large audience under stage lighting, confirming the public performance."
+    }
+]

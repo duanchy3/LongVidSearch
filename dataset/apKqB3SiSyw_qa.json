@@ -1,0 +1,100 @@
+[
+    {
+        "question": "What is the money amount shown during the electronics-store product moment, and what later on-screen confirmation indicates a successful transaction capture?",
+        "answer": "$848.00 is shown, and later a screen confirms $353.73 was captured with a green checkmark.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows a Coca-Cola branded Bluetooth speaker with the on-screen running total changing up to $848.00. Step 2: Slice 46 shows a transaction confirmation that $353.73 has been captured (green checkmark). Conclusion: The shopping total is $848.00 and the later capture confirmation is $353.73.",
+        "logic_check_reasoning": "Step 1: Slice 44 (electronics store) explicitly states the price on screen initially shows \"$748.00,\" then changes to \"$848.00,\" so $848.00 is indeed shown during that moment. Step 2: Slice 46 describes a later close-up of a computer screen with a confirmation \"Safe\" and a green checkmark, indicating that $353.73 has been captured. This directly supports the claimed later confirmation.",
+        "visual_proof": "In Clip 1, the on-screen graphic in the bottom left corner clearly displays '$848.00' while the man holds the product box. In Clip 2, a close-up of a computer screen shows a confirmation message with a green checkmark icon and the text 'Sale $353.73 CAPTURED'."
+    },
+    {
+        "question": "After the shopping total hits $848, where do the men carry boxes next, and what later indoor object matches the same brand theme seen earlier in the electronics store?",
+        "answer": "They carry boxes through a park, and later there is a red Coca-Cola cooler indoors.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            44,
+            46,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows a Coca-Cola branded speaker in an electronics store with the total reaching $848.00. Step 2: Slice 46 transitions to people carrying large boxes along a park path while the $848.00 overlay remains. Step 3: Slice 48 shows an indoor scene featuring a red Coca-Cola cooler being opened. Conclusion: The boxes move to a park, and the later matching brand object is the Coca-Cola cooler.",
+        "logic_check_reasoning": "Step 1: Slice 44 shows an electronics store featuring a Coca-Cola-branded Bluetooth speaker, with the price changing to $848. Step 2: Slice 46 transitions to a park where several people are carrying large boxes, with the $848 price tag still visible, linking this scene to the prior context. Step 3: Slice 48 later shows a living room with a red Coca-Cola cooler, matching the Coca-Cola brand theme from the electronics store. The logic holds because the $848 context leads into the park scene with box carrying, and the later indoor object explicitly shares the Coca-Cola branding.",
+        "visual_proof": "In Clip 2, the men are visibly walking through Madison Square Park carrying boxes after the $848.00 total is shown. In Clip 3, the same red Coca-Cola branded cooler box that was purchased in Clip 1 is present indoors on a table, confirming the brand theme is carried over to the indoor setting."
+    },
+    {
+        "question": "Which city landmark view appears while someone works at a desk at night, and what later scene returns to a rooftop view that contrasts with that nighttime work mood?",
+        "answer": "The Empire State Building is visible at night from the desk scene, and later a rooftop cityscape scene shows someone outdoors on a roof in daylight.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            76,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 76 shows a nighttime desk/work scene with the Empire State Building lit outside the window. Step 2: Slice 75 shows a rooftop cityscape scene (daylight) with a man calmly taking in the view. Conclusion: The video contrasts nighttime work with a later daylight rooftop view.",
+        "logic_check_reasoning": "Step 1: Slice 76 explicitly states that while a man works at a desk at night, the Empire State Building is visible illuminated outside the window. Step 2: Slice 75 describes a rooftop scene with a man standing on a roof in daylight, viewing the cityscape. Logic holds because the answer identifies the Empire State Building for the night desk scene and describes a contrasting rooftop cityscape scene in daylight, matching Slice 75.",
+        "visual_proof": "In Clip 1, the iconic illuminated spire of the Empire State Building is clearly visible through the window behind the person working at the desk at night. In Clip 2, the same person is seen standing on a rooftop during bright daylight, with a wide cityscape in the background, creating a direct visual contrast between the solitary, dimly lit work environment and the open, sunlit urban space."
+    },
+    {
+        "question": "During the shopping-and-box sequence, what object is repeatedly carried in the street scene, and what later indoor detail suggests the group is in a setup or build phase?",
+        "answer": "A large cardboard box is carried, and later one man holds a heat gun while the other holds a thin metal rod indoors, suggesting they are preparing to modify or open something, not necessarily building or installing with drills.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a street scene where one man carries a large cardboard box. Step 2: Slice 48 shows an indoor scene with two men excitedly holding drills, suggesting assembly/setup. Conclusion: The box-carrying is followed by an indoor build/setup phase indicated by drills.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a street scene where a man in a brown jacket is carrying a large cardboard box, establishing the object carried during the shopping-and-box sequence. Step 2: Slice 48 shows two men indoors each holding a drill, which is a clear indicator of a setup/build phase. Logic holds because the first slice provides the carried object and the second slice provides the indoor detail implying preparation or building.",
+        "original_text_answer": "A large cardboard box is carried, and later two men hold drills indoors as if preparing to build or install something.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, a man is clearly carrying a large cardboard box on a city street. In Clip 2, indoors, one man holds a yellow heat gun pointed at a red box, while the other holds a thin metal rod (not a drill). The heat gun is being used to remove a price sticker, indicating preparation for modification or unboxing, not construction."
+    },
+    {
+        "question": "Two different scenes show a bright orange day label on screen—what are the day numbers shown?",
+        "answer": "DAY 1 and DAY 3",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 5 displays the label “DAY 1.” Step 2: Slice 30 displays “DAY 3.” Conclusion: The day labels shown are Day 1 and Day 3.",
+        "logic_check_reasoning": "Step 1: Slice 5 states that the text 'DAY 1' appears on the screen, indicating the first day. Step 2: Slice 30 explicitly says the video begins with a large orange text 'DAY 3' displayed. Logic holds because these are two separate scenes showing day labels, and the proposed answer lists the exact day numbers shown.",
+        "original_text_answer": "DAY 1 and DAY 3.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "The first clip shows a bright yellow text overlay that reads 'DAY 1' over an aerial city view at 0:16. The second clip shows a bright orange text overlay that reads 'DAY 3' over a street scene at 0:00. The question asks for the day numbers shown with a bright orange label, which only appears in the second clip as 'DAY 3'. The first clip's label is yellow, not orange. Therefore, the original answer is partially incorrect as it includes 'DAY 1', which is not displayed in orange."
+    },
+    {
+        "question": "Across the video, what is the earliest on-screen time-pressure message and what later countdown message appears closer to the end?",
+        "answer": "Earliest: “Within the next 72 hours.” Later: “T-Minus 4 Hours.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 1 opens with the text “Within the next 72 hours.” Step 2: Slice 50 later shows “T-Minus 4 Hours.” Conclusion: The timeline includes an early 72-hour framing and a later 4-hour countdown.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states the video starts with the on-screen text 'Within the next 72 hours.' Step 2: Evidence Slice 50 explicitly mentions the on-screen text 'T-Minus 4 Hours' during a later scene. Logic holds because Slice 1 indicates the earliest time-pressure message at the start, and Slice 50 presents a later countdown closer to the end.",
+        "visual_proof": "The text 'Within the next 72 hours' is clearly visible on screen at 0:00 in Clip 1. The text 'T-Minus 4 Hours' is clearly visible on screen at 0:03 in Clip 2, which occurs later in the video sequence."
+    },
+    {
+        "question": "What friendly interaction ends the street conversation outside the white building, and what earlier sign of cooperation foreshadows this when the two men conclude another discussion on the street?",
+        "answer": "They share a friendly laugh and a pat on the shoulder outside the white building, and earlier they conclude another street discussion with a handshake.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            62,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 62 shows two men talking on a residential street and ending positively with a handshake. Step 2: Slice 73 shows two men outside a white building with black railings, where one pulls the other into a hug and both smile. Conclusion: The handshake earlier foreshadows the later hug as another friendly conclusion.",
+        "logic_check_reasoning": "Step 1: Slice 73 explicitly describes two men in front of a white building ending their conversation with a warm hug. Step 2: Slice 62 describes an earlier street discussion between two individuals that concludes with a handshake, noted as a positive conclusion. Logic holds because the question asks for the friendly interaction outside the white building (a hug) and an earlier sign of cooperation in another street discussion (a handshake), both directly supported by the slices.",
+        "original_text_answer": "They hug outside the white building, and earlier they conclude another street discussion with a handshake.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Video 1 (0:11-0:12), the two men are seen laughing together while one places his hand on the other's shoulder, indicating a friendly, non-hugging interaction. In Video 2 (0:00-0:01), they are again laughing and one man pats the other's shoulder. The handshake is not visible in either clip; instead, the concluding interactions are characterized by laughter and shoulder pats."
+    }
+]

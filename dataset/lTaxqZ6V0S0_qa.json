@@ -1,0 +1,84 @@
+[
+    {
+        "question": "Which on-screen time cue about Euro Area CPI data is first shown with a presenter in black and later appears again during a two-person split-screen discussion?",
+        "answer": "“10AM UK: EURO AREA CPI DATA.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows a presenter in black with the caption '10AM UK: EURO AREA CPI DATA.' Step 2: Slice 34 shows two women in a split-screen with the same caption. Conclusion: The repeated cue is '10AM UK: EURO AREA CPI DATA.'",
+        "logic_check_reasoning": "Step 1: Slice 29 states a woman wearing a black top is presenting in front of a blue geometric background, and the on-screen text reads \"10AM UK: EURO AREA CPI DATA.\" Step 2: Slice 34 describes a two-person split-screen discussion where the backdrop again displays the text \"10AM UK: EURO AREA CPI DATA.\" Logic holds because the same time cue appears first with a single presenter in black and later in the split-screen segment.",
+        "visual_proof": "In Clip 1, the text '10AM UK: EURO AREA CPI DATA' is displayed at the bottom of the screen while a single presenter in a black sleeveless top is speaking. In Clip 2, the same text appears again at the bottom during a split-screen segment featuring two presenters, one of whom is the same presenter from Clip 1. The consistent on-screen text across both clips confirms the answer."
+    },
+    {
+        "question": "What identifying detail connects the aid-effort discussion to the wreckage scene: the organization name visible on safety gear and also associated with the damaged vehicle?",
+        "answer": "World Central Kitchen.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 44 shows orange safety vests labeled 'World Central Kitchen.' Step 2: Slice 45 shows the wrecked vehicle with a 'World Central Kitchen' sticker. Conclusion: The shared identifier is World Central Kitchen.",
+        "logic_check_reasoning": "Step 1: Slice 44 states that orange safety vests on the ground have the logo of 'World Central Kitchen.' Step 2: Slice 45 states that a visible sticker on the severely damaged vehicle reads 'World Central Kitchen.' Step 3: The news context discusses aid efforts and worker deaths, tying the organization to both the safety gear and the wreckage. Therefore, the identifying detail connecting the discussion and the scene is 'World Central Kitchen.'",
+        "visual_proof": "The name 'World Central Kitchen' is clearly visible in two places: first, on the orange safety vests lying on the ground in Clip 1, and second, on a partially burnt sticker affixed to the front of the destroyed vehicle in Clip 2. This visual link directly connects the aid workers (represented by the vests) to the specific vehicle that was destroyed."
+    },
+    {
+        "question": "After footage shows buildings collapsing in Taiwan, what industrial disruption is discussed next as a consequence of the quake?",
+        "answer": "TSMC halting/evacuating some chipmaking lines.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 6 reports buildings collapsing in the Taiwan quake. Step 2: Slice 8 discusses 'TSMC halts some chipmaking after quake' and evacuation of lines. Conclusion: The disruption is chipmaking lines being halted/evacuated.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows the aftermath of buildings collapsing in Taiwan due to an earthquake and transitions to a newsroom reporting on the quake. Step 2: Slice 8 then presents a Bloomberg Intelligence segment where text overlays state 'TSMC HALTS SOME CHIPMAKING AFTER QUAKE' and later 'TSMC, UMC EVACUATE CHIPMAKING LINES,' explicitly discussing industrial disruption in semiconductor manufacturing as a consequence of the quake. Logic holds because the sequence moves from the earthquake impact footage to the specific industrial effects on TSMC/UMC.",
+        "visual_proof": "The first clip ends with a graphic stating 'BUILDINGS COLLAPSE IN TAIWAN QUAKE'. The second clip immediately follows, featuring a news anchor discussing the aftermath. On-screen text at 0:02-0:11 reads 'TSMC HALTS SOME CHIPMAKING AFTER QUAKE', and from 0:12-0:23, it updates to 'TSMC, UMC EVACUATE CHIPMAKING LINES', directly linking the quake to these specific industrial disruptions."
+    },
+    {
+        "question": "Which company is singled out as focusing on lower costs in one segment and then later appears among the 'companies to watch' list as emphasizing wealth management and lower costs?",
+        "answer": "Standard Chartered (StanChart).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            63,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 63 shows the lower-third 'STANCHART FOCUSES ON LOWER COSTS.' Step 2: Slice 62’s company-to-watch graphic notes 'StanChart: Wealth management, lower costs.' Conclusion: The company is Standard Chartered.",
+        "logic_check_reasoning": "Step 1: Slice 63 explicitly shows a lower-third reading 'STANCHART FOCUSES ON LOWER COSTS,' singling out Standard Chartered for focusing on lower costs. Step 2: Slice 62 lists 'StanChart' among companies to watch with the focus 'Wealth management, lower costs.' Logic holds because both slices consistently identify Standard Chartered (StanChart) and align on the emphasis on lower costs, with Slice 62 adding wealth management.",
+        "visual_proof": "The text overlay in the first clip explicitly states 'STANCHART FOCUSES ON LOWER COSTS'. In the second clip, a graphic titled 'COMPANIES TO WATCH Q2 2024' lists 'StanChart' with the description 'Wealth management, lower costs', confirming it is the same company mentioned in both segments."
+    },
+    {
+        "question": "How is the chipmaking disruption story built from the quake’s severity, to visible urban damage, to the announcement of evacuation of chipmaking lines, and finally to the stock move shown on a chart?",
+        "answer": "Strong quake reported → damaged/tilting buildings shown → TSMC/UMC evacuate or halt lines → TSMC stock shown down on a chart (about -1.27%).",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            5,
+            8,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 3 reports the strong quake and shows map/aftermath framing. Step 2: Slice 5 shows a tilted building and debris on the street. Step 3: Slice 8 reports TSMC halting some chipmaking and evacuations. Step 4: Slice 10 shows a TSMC stock chart with a decline (~-1.27%). Conclusion: Physical disaster leads to operational disruption and then a market reaction.",
+        "logic_check_reasoning": "Step 1: Slice 3 reports a significant earthquake in Taiwan, described as the strongest in 25 years, with map graphics stating 'STRONG QUAKE HITS TAIWAN' and 'MAGNITUDE 7.4 QUAKE HITS TAIWAN,' establishing severity. Step 2: Slices 3 and 5 show visible urban damage, including a tilting, damaged building and collapsed structures, reinforcing the quake's impact. Step 3: Slice 8 explicitly states 'TSMC HALTS SOME CHIPMAKING AFTER QUAKE' and 'TSMC, UMC EVACUATE CHIPMAKING LINES,' linking the quake to chipmaking disruption. Step 4: Slice 10 shows a stock chart for TSMC with the last close down by 1.27%, providing the market reaction. Logic holds because each slice sequentially supports the proposed narrative from quake severity to damage to operational evacuation/halts to the stock move.",
+        "visual_proof": "Clip 1 reports 'TAIWAN'S STRONGEST QUAKE IN 25 YEARS' and shows a map with the epicenter. Clip 2 visually confirms severe urban damage with 'BUILDINGS COLLAPSE IN TAIWAN QUAKE'. Clip 3 features the reporter stating 'TSMC, UMC EVACUATE CHIPMAKING LINES'. Clip 4 displays a financial graphic showing 'TAIWAN SEMICONDUCTOR MANUFAC' with a last close of 780.00, down 10.00 points (-1.27%), directly linking the event to a stock market reaction."
+    },
+    {
+        "question": "Across the program, how is a 'companies to watch' segment visually delivered from a studio interview, to a grid of company logos, to a refined list highlighting Standard Chartered’s strategy, and then to a later studio lower-third about StanChart focusing on lower costs?",
+        "answer": "Studio interview on companies to watch → logo grid of the ten companies → highlighted list including StanChart’s 'wealth management, lower costs' → later lower-third stating StanChart focuses on lower costs.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            59,
+            60,
+            62,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 59 shows a studio interview labeled 'SECOND QUARTER COMPANIES TO WATCH.' Step 2: Slice 60 shows a large screen with the '10 Companies to Watch' logo grid. Step 3: Slice 62 presents a focused list and notes StanChart’s 'Wealth management, lower costs.' Step 4: Slice 63 shows the lower-third 'STANCHART FOCUSES ON LOWER COSTS.' Conclusion: The show moves from discussion to broad visuals to a specific company focus repeated later.",
+        "logic_check_reasoning": "Step 1: Slice 59 describes a studio interview segment focused on 'Second Quarter Companies to Watch,' establishing the initial studio discussion. Step 2: Slice 60 shows a cut to a large screen with a grid of ten company logos for Q2 2024, including Standard Chartered, matching the 'logo grid' stage. Step 3: Slice 62 details an additional graphic that refines the list to five companies and explicitly highlights Standard Chartered’s strategy as 'Wealth management, lower costs,' aligning with the 'refined list' step. Step 4: Slice 63 shows a later studio lower-third reading 'STANCHART FOCUSES ON LOWER COSTS,' confirming the final visual element. The sequence is fully supported across the slices.",
+        "visual_proof": "Clip 1 shows the studio interview with a lower-third reading 'SECOND QUARTER COMPANIES TO WATCH'. Clip 2 transitions to a large screen displaying a 2x5 grid of 10 company logos under the title '10 COMPANIES TO WATCH Q2 2024', which includes Standard Chartered. Clip 3 then shows a refined list titled 'COMPANIES TO WATCH 2Q 2024' where 'StanChart' is explicitly paired with the text 'Wealth management, lower costs'. Finally, Clip 4 features a lower-third graphic during a studio segment that reads 'STANCHART FOCUSES ON LOWER COSTS', confirming the narrative progression."
+    }
+]

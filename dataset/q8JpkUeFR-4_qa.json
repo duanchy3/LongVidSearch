@@ -1,0 +1,28 @@
+[
+    {
+        "question": "After the scene where someone throws a green blanket over the man on the bed, what piece of bedroom decor later appears when a man stands in the same room wearing an orange hoodie?",
+        "answer": "A pillow that says “ADVENTURE AWAITS.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows the bedroom with green bedding and a green blanket thrown onto the man. Step 2: Slice 15 shows a man in an orange hoodie standing in that bedroom where the pillow reads “ADVENTURE AWAITS.” Conclusion: The recurring room decor includes the “ADVENTURE AWAITS” pillow.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes a scene in a bedroom where a person in a red hoodie throws a green blanket over a man on the bed, establishing the room context. Step 2: Slice 15 later shows a man in an orange hoodie in what appears to be the same cozy bedroom (green bedding, framed artwork). It explicitly states there is a decorative pillow that reads 'ADVENTURE AWAITS.' Logic holds because the later scene in the same room includes this clearly named decor item.",
+        "visual_proof": "In the first clip (0:12), a man throws a green blanket over another man on the bed. In the second clip (0:04-0:06), the same man, now wearing an orange hoodie, is sitting cross-legged on the bed. Behind him, clearly visible against the white pillows, is a grey decorative pillow with the text 'ADVENTURE AWAITS' written in white script."
+    },
+    {
+        "question": "How does the skincare routine of applying SPF 50 in a bathroom connect to later on-screen text about a skincare routine?",
+        "answer": "The earlier bathroom SPF application is an example of the skincare routine later referenced as being like a morning routine.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows the man applying sunscreen labeled SPF 50 and giving a thumbs-up. Step 2: Slice 63 shows text “+SKIN CARE ROUTINE LIKE THE MORNING.” Conclusion: The later text aligns with the earlier demonstrated skincare step.",
+        "logic_check_reasoning": "Step 1: Slice 23 shows a man in a bathroom applying SPF 50 sunscreen, clearly depicting a skincare/grooming activity. Step 2: Slice 63 shows on-screen text stating \"+SKIN CARE ROUTINE LIKE THE MORNING,\" explicitly referencing a skincare routine. Logic holds because the earlier clip demonstrates a skincare routine action, which aligns with the later textual reference to a skincare routine like the morning, making the SPF application an example of the routine mentioned.",
+        "visual_proof": "Clip 1 visually shows the man applying sunscreen (SPF 50) as part of his grooming in the bathroom. Clip 2 features the same man in a different location (locker room) with on-screen text explicitly stating '+SKIN CARE ROUTINE LIKE THE MORNING'. The connection is established by showing the same person performing a skincare step (sunscreen) and then verbally/visually referencing that this is part of a routine similar to his morning one."
+    }
+]

@@ -1,0 +1,60 @@
+[
+    {
+        "question": "What program branding appears both in the animated title card and behind the studio hosts during the discussion?",
+        "answer": "“Global Eyes.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            63
+        ],
+        "reasoning_chain": "Step 1: The studio backdrop behind the hosts shows the “Global Eyes” logo. Step 2: The animated graphic also displays the text “Global Eyes” above stylized figures and a globe. Conclusion: The shared branding is “Global Eyes.”",
+        "logic_check_reasoning": "Step 1: Slice 63 states the animated title card shows a globe with the text 'Global Eyes' above figures. Step 2: Slice 9 states the studio backdrop behind the hosts features a prominent logo with the text 'Global Eyes' in bold yellow font. Logic holds because both slices explicitly mention the same program branding 'Global Eyes' appearing in the title card and behind the hosts.",
+        "visual_proof": "Clip 2 shows an animated title card with the text 'Global Eyes' next to a globe graphic. Clip 1 shows the same 'Global Eyes' text and globe logo displayed on the purple backdrop behind the two studio hosts during their discussion."
+    },
+    {
+        "question": "What evidence indicates the remote striped-shirt expert is the same person when he appears alone, with a name label, and later in studio split screens?",
+        "answer": "He consistently wears glasses and a light-colored vertically striped shirt; he is labeled as Pranav R Satyanath in one appearance and later appears with the same look in split-screen/panel layouts.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            24,
+            42,
+            45,
+            59
+        ],
+        "reasoning_chain": "Step 1: The remote man appears alone with glasses and a vertically striped shirt against a plain background. Step 2: A lower-third identifies him as Pranav R Satyanath. Step 3: A studio split-screen shows a remote man matching that same appearance. Step 4: Another segment shows the same striped-shirt man alongside the studio hosts and the pearl-necklace guest. Conclusion: Matching clothing/appearance plus the name label confirm he is the same expert across these shots.",
+        "logic_check_reasoning": "Step 1: Slice 24 shows a man alone against a plain background, wearing glasses and a light-colored striped shirt, with a DW logo—establishing his solo appearance and distinctive look. Step 2: Slice 42 shows the same visual attributes (plain white background, glasses, light-colored vertically striped shirt) and adds an on-screen label identifying him as Pranav R Satyanath from the Council for Strategic Defense Research. Step 3: Slice 59 explicitly states that the same man from earlier appears again and confirms his look (glasses, light-colored vertically striped shirt) before transitioning to a split-screen with Global Eyes hosts—directly linking the solo appearance to the split-screen. Step 4: Slice 45 presents the Global Eyes studio split-screen with a remote guest wearing glasses and a light-colored shirt against a plain white background, consistent with the described expert, reinforcing the continuity across formats. The consistent attire and explicit label support that it’s the same person across appearances.",
+        "visual_proof": "Clip 1, 2, and 4 show the same man with dark hair, glasses, and a light-colored vertically striped shirt against a plain wall. Clip 2 includes a lower-third graphic identifying him as 'Pranav R Satyanath'. Clip 3 and Clip 4 show him in a split-screen format with studio hosts, maintaining the same appearance, confirming he is the same person across different segments."
+    },
+    {
+        "question": "What visual timeline shows the show’s start-to-finish packaging, from branded intro elements to the final call-to-action screen?",
+        "answer": "It uses the ‘Global Eyes’ branded animation/graphics as an intro element and ends on a blue ‘Subscribe’ screen with DW copyright information.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            63,
+            9,
+            64
+        ],
+        "reasoning_chain": "Step 1: Early, the program includes a “Global Eyes” graphic element. Step 2: A later animated “Global Eyes” title card reinforces the show branding. Step 3: The studio discussion consistently displays the same “Global Eyes” branding behind the hosts. Step 4: The video ends on a blue “Subscribe” screen with DW copyright text. Conclusion: Branded intro elements lead into the show, which concludes with a DW subscribe end card.",
+        "logic_check_reasoning": "Step 1: Slice 63 describes the video beginning with a branded 'Global Eyes' animation showing a spinning globe and figures with the text 'Global Eyes', indicating an intro element. Step 2: Slice 9 reinforces the program branding ('Global Eyes') in a studio setup with DW logo, consistent with the show's identity. Step 3: Slice 64 shows the final call-to-action screen: a blue 'Subscribe' screen with '© 2023 Deutsche Welle | dw.com', explicitly matching the proposed ending. Step 4: Slice 3 also mentions a graphic illustration with 'Global Eyes' appearing early, supporting the presence of branded intro graphics. Logic holds because the context provides both the branded intro and the final CTA screen as described.",
+        "visual_proof": "Clip 1 and Clip 2 show the 'Global Eyes' animated intro with a purple background and globe graphic. Clip 4 shows the final screen, which is dark gray with a blue vertical bar on the left, displaying the word 'Subscribe' and the copyright text '© 2023 Deutsche Welle | dw.com'."
+    },
+    {
+        "question": "When comparing the pearl-necklace guest’s solo segments, what stays constant about her environment, and what does that consistency help the viewer infer when she reappears in multi-person panels?",
+        "answer": "The framed picture, telescope, and plant remain constant; this consistency helps infer that the same remote guest is reappearing when she shows up in the panel windows.",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            27,
+            39,
+            53
+        ],
+        "reasoning_chain": "Step 1: A solo shot shows the woman with pearl necklace in a room with a framed picture, telescope, and plant. Step 2: Another solo shot repeats the same décor and attire. Step 3: In a four-person panel, a remote guest window shows a woman matching those features. Step 4: Another panel again shows the same remote woman with the same look and setting. Conclusion: The constant environment confirms her identity across repeated panel appearances.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes a solo segment featuring a woman in a black top with a pearl necklace, with a consistent background that includes a framed beach picture, a telescope on a tripod, and a potted plant with red flowers. Step 2: Slice 27 again shows a solo segment with the same woman (black top, pearl necklace) and the same environmental elements: a framed painting, a telescope, and a potted plant with red flowers—indicating consistency in her environment across solo appearances. Step 3: Slice 39 shows a multi-person panel ('Global Eyes') where a remote participant appears in the top right, described as wearing a black top and a pearl necklace, matching the solo guest’s appearance. Step 4: Slice 53 also shows a multi-person panel with a remote guest described similarly (black top, pearl necklace), reinforcing that the same person reappears. Logic holds because the solo segments consistently show the same background items, establishing a stable setting for the pearl-necklace guest, and the panel slices clearly feature a remote guest with the same distinctive appearance, allowing viewers to infer she is the same person reappearing in the panel windows. Although the panel does not display her background, the inference about identity continuity is supported by consistent appearance across contexts.",
+        "visual_proof": "In Clip 1 and Clip 2, the guest's solo segments show a consistent background: a framed blue-and-white picture, a brass telescope on a tripod, and a potted plant with a red flower on a white shelf. In Clip 3 and Clip 4, when the video switches to a multi-person panel layout, the same guest appears in the top-right window, and her background remains identical, confirming she is the same person reappearing. This visual continuity allows viewers to infer her consistent presence across segments."
+    }
+]

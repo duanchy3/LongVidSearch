@@ -1,0 +1,153 @@
+[
+  {
+    "question": "What specific sponsorship urgency is shown right before the later update that two companies agreed to fund the event?",
+    "answer": "A message says there are 10 days left to find a sponsor before the later update that Epidemic Sound and Koji agreed to fund the event.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      16,
+      18
+    ],
+    "reasoning_chain": "Step 1: Slice 16 shows the countdown text '10 days left to find a sponsor.' Step 2: Slice 18 shows the spreadsheet note 'Epidemic Sound & Koji agreed to fund the event.' Conclusion: The urgency is the 10-days-left sponsor countdown preceding the funding update.",
+    "logic_check_reasoning": "Step 1: Slice 16 shows text stating '10 days left to find a sponsor,' indicating a specific urgency about sponsorship. Step 2: Slice 18 shows a later update on a laptop screen that 'Epidemic Sound & Koji agreed to fund the event.' Logic holds because Slice 16 establishes the earlier urgency, and Slice 18 provides the subsequent funding update; thus the urgency right before the later update is the '10 days left to find a sponsor' message.",
+    "visual_proof": "Clip 1 ends with a black screen displaying the text '10 DAYS LEFT TO FIND A SPONSOR....'. Clip 2 immediately follows this, showing a laptop screen with the text overlay 'Epidemic Sound & Koji agreed to fund the event...!'. This sequence visually confirms that the urgency of having 10 days left to find a sponsor was shown right before the update about the two companies agreeing to fund the event."
+  },
+  {
+    "question": "Which sponsor is explicitly tied to a dated call, and what later screen confirms funding by other sponsors?",
+    "answer": "Rode is tied to a dated call, and a later spreadsheet confirms that Epidemic Sound and Koji agreed to fund the event.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      16,
+      18
+    ],
+    "reasoning_chain": "Step 1: Slice 16 includes 'July 20th, 2022 Call with Rode about title sponsorship.' Step 2: Slice 18 states 'Epidemic Sound & Koji agreed to fund the event.' Conclusion: Rode is tied to the dated call; Epidemic Sound and Koji are later confirmed funders.",
+    "logic_check_reasoning": "Step 1: Slice 16 explicitly shows a black screen with white text stating \"July 20th, 2022 Call with Rode about title sponsorship,\" tying Rode to a dated call. Step 2: Slice 18 shows a laptop screen with text reading \"Epidemic Sound & Koji agreed to fund the event,\" confirming funding by other sponsors. Logic holds because Slice 16 identifies the dated call sponsor and Slice 18 later confirms funding by different sponsors.",
+    "visual_proof": "Clip 1 shows a text overlay on July 20th, 2022, stating 'Call with Rode about title sponsorship.' Clip 2 shows a laptop screen displaying a spreadsheet with a text overlay that reads 'Epidemic Sound & Koji agreed to fund the event...!'"
+  },
+  {
+    "question": "Which two separate moments show the New Year’s countdown happening on a TV screen?",
+    "answer": "The countdown appears on a TV in a festive living room in two moments: one showing a 60-second countdown and another showing the clock reaching midnight with people cheering.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      42,
+      43
+    ],
+    "reasoning_chain": "Step 1: Slice 42 shows a living room with a TV showing '60 SECOND COUNTDOWN TO THE NEW YEAR.' Step 2: Slice 43 shows the TV clock reaching zero and people cheering. Conclusion: Both slices depict the New Year's countdown on TV.",
+    "logic_check_reasoning": "Step 1: Slice 42 describes a TV showing Times Square with the on-screen text '60 SECOND COUNTDOWN TO THE NEW YEAR,' clearly indicating a countdown on the TV. Step 2: Slice 43 describes a TV displaying a clock counting down to midnight and then reaching zero as people cheer, indicating another countdown moment on the TV. Logic holds because these are two distinct moments: the start of a 60-second countdown (Slice 42) and the countdown reaching midnight with celebration (Slice 43).",
+    "visual_proof": "Clip 1 shows the TV screen with a '60 SECOND COUNTDOWN TO THE NEW YEAR' banner over Times Square. Clip 2 shows the same TV screen later, with the countdown at ':01' and then transitioning to '2023 Happy New Year', which visually confirms the moment of midnight. The surrounding environment in both clips is a dimly lit living room with a Christmas tree, confirming the festive setting."
+  },
+  {
+    "question": "Which two different interfaces show written planning/coordination for an event or work, one via chat and another via a task list?",
+    "answer": "A dark-themed chat about a camp vision-planning document and a task manager list titled 'Tasks for school' show written planning.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      3,
+      31
+    ],
+    "reasoning_chain": "Step 1: Slice 3 shows a chat conversation about a camp vision-planning document. Step 2: Slice 31 shows a task management page titled 'Tasks for school' with setup tasks. Conclusion: Both depict written planning tools in different interfaces.",
+    "logic_check_reasoning": "Step 1: Slice 3 describes a dark-themed chat interface discussing a camp vision-planning document, with messages about dates and events, indicating planning/coordination via chat. Step 2: Slice 31 describes a task management interface titled 'Tasks for school' with a list of tasks and checkboxes, indicating written planning via a task list. Logic holds because these are two distinct interfaces, one chat-based and one task-list-based, both showing planning/coordination as stated in the proposed answer.",
+    "visual_proof": "Clip 1 shows a dark-themed Notion AI chat interface where the user asks about the start of 'Creator Camp,' and the AI references a 'Camp Vision-Planning Doc.' Clip 2 displays a dark-themed task list with the title 'Tasks for school,' which includes items like 'Find room' and 'Move items into room,' indicating planning for an event or move."
+  },
+  {
+    "question": "What action in the dorm room suggests decorating a living space, and what later screen shows a structured checklist for setting up that space?",
+    "answer": "Hanging a map on the wall suggests decorating, and later a 'Tasks for school' checklist includes items like wall decorations and putting up lights.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      30,
+      31
+    ],
+    "reasoning_chain": "Step 1: Slice 30 shows someone standing on a bed to hang a map while another takes a photo. Step 2: Slice 31 lists tasks including 'Put up lights' and 'Wall decorations.' Conclusion: The decorating action aligns with the later checklist.",
+    "logic_check_reasoning": "Step 1: Slice 30 describes a dorm room where one person is hanging a map on the wall, which clearly indicates decorating the living space. Step 2: Slice 31 shows a digital interface titled 'Tasks for school' listing tasks such as 'Wall decorations' and 'Put up lights,' which is a structured checklist for setting up the space. Logic holds because the action of hanging the map aligns with decoration, and the later task screen explicitly includes related setup tasks.",
+    "visual_proof": "In Clip 1, a man is seen actively hanging a large world map on the wall above his desk, which is a clear act of personalizing or decorating the dorm room. In Clip 2, a digital task list titled 'Tasks for school' is shown, and it explicitly includes unchecked items such as 'wall decorations' and 'put up lights,' indicating a structured plan for setting up the space."
+  },
+  {
+    "question": "How does the sponsorship timeline progress from a deadline warning, to confirmed funders, to later financial pressure shown for ticket sales?",
+    "answer": "It goes from '10 days left to find a sponsor,' to a note that Epidemic Sound and Koji agreed to fund the event, to later pressure shown as '$8,000 to Loge Camps' for ticket sales.",
+    "category": "State_Mutation",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      16,
+      18,
+      61
+    ],
+    "reasoning_chain": "Step 1: Slice 16 displays '10 days left to find a sponsor.' Step 2: Slice 18 shows funders agreeing to fund the event. Step 3: Slice 61 shows the caption '$8,000 to Loge Camps,' indicating financial/ticket pressure. Conclusion: The funding story moves from urgency to partial funding to later revenue goals.",
+    "logic_check_reasoning": "Step 1: Slice 16 explicitly shows a black screen with the text '10 days left to find a sponsor,' establishing a deadline warning. Step 2: Slice 18 shows a laptop screen stating 'Epidemic Sound & Koji agreed to fund the event,' confirming funders. Step 3: Slice 61 shows a caption '$8,000 to Loge Camps,' and the description notes it suggests a financial goal or challenge related to ticket sales, indicating later financial pressure. The sequence matches the proposed timeline.",
+    "visual_proof": "Clip 1 shows a black screen with text '10 DAYS LEFT TO FIND A SPONSOR...'. Clip 2 shows a laptop screen with text 'Epidemic Sound & Koji agreed to fund the event...!'. Clip 3 shows a person at a table with text 'We're about to send $8,000 to Loge Camps.' followed by 'We need to sell these tickets,' indicating financial pressure for ticket sales."
+  },
+  {
+    "question": "How does the narrative about avoiding a 'Fyre Festival' association connect to later proof that the event succeeded financially and with ticket sales?",
+    "answer": "It starts with a warning not to be associated with something like Fyre Festival, then later shows sponsors agreeing to fund the event and later reports that Base Camp sold out 70+ tickets.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      17,
+      16,
+      18,
+      83
+    ],
+    "reasoning_chain": "Step 1: Slice 17 includes the comment about not wanting to be associated with anything like a Fyre Festival. Step 2: Slice 16 shows sponsor urgency and a titled sponsorship call. Step 3: Slice 18 confirms funding commitments (Epidemic Sound & Koji). Step 4: Slice 83 reports Base Camp sold out 70+ tickets. Conclusion: Anxiety about a failed-festival comparison is later countered by funding and ticket success.",
+    "logic_check_reasoning": "Step 1: Slice 17 explicitly shows a caption about not wanting to be associated with a Fyre Festival-like event, establishing the initial cautionary narrative. Step 2: Slice 16 shows efforts to find a sponsor (countdown and a call with Rode), and Slice 18 explicitly states that Epidemic Sound & Koji agreed to fund the event, demonstrating successful sponsorship. Step 3: Slice 83 reports that Base Camp sold out 70+ tickets and raised enough money for first hires, providing proof of successful ticket sales and financial outcomes. Logic holds because the storyline progresses from caution about Fyre, to securing funding, to documented sales and financial success.",
+    "visual_proof": "Clip 1 visually establishes the 'Fyre Festival' association as a negative benchmark. Clip 3 provides direct visual proof of financial success with the text overlay 'Epidemic Sound & Koji agreed to fund the event...!' shown over a laptop screen. Clip 4 confirms commercial success with the text overlay 'Base Camp sold out 70+ tickets...' displayed during a video call. The sequence of these visuals directly supports the narrative arc described in the answer."
+  },
+  {
+    "question": "Which sequence shows the team moving from sponsor-list research, to a specific title-sponsor call, to funding confirmation, and finally to a successful 'Base Camp' workspace event?",
+    "answer": "They research a sponsor list, have a titled call with Rode, later confirm funding by Epidemic Sound and Koji, and later show an energetic in-person Base Camp workspace gathering.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      11,
+      16,
+      18,
+      89
+    ],
+    "reasoning_chain": "Step 1: Slice 11 shows sponsor list research in a chat interface. Step 2: Slice 16 shows 'July 20th, 2022 Call with Rode about title sponsorship.' Step 3: Slice 18 shows 'Epidemic Sound & Koji agreed to fund the event.' Step 4: Slice 89 shows an in-person 'BASE CAMP!! (Powered by Notion)' collaborative workspace scene. Conclusion: The sponsor workflow leads into an apparently realized Base Camp event.",
+    "logic_check_reasoning": "Step 1: Slice 11 shows a chat about a 'Creator Camp sponsor list,' clearly indicating sponsor-list research. Step 2: Slice 16 explicitly states 'Call with Rode about title sponsorship,' showing a specific title-sponsor call. Step 3: Slice 18 shows a laptop screen with text 'Epidemic Sound & Koji agreed to fund the event,' confirming funding. Step 4: Slice 89 shows a lively 'BASE CAMP!!' workspace event, indicating a successful in-person gathering. The sequence in the proposed answer matches these slices in order and content.",
+    "visual_proof": "Clip 1 shows the user researching 'creator camp sponsor list' on Notion. Clip 2 shows a video call dated 'July 20th, 2022' with text overlay 'Call with Rode about title sponsorship'. Clip 3 displays a laptop screen with text 'Epidemic Sound & Koji agreed to fund the event...!'. Clip 4 features a group of people celebrating in a workspace with the text 'BASE CAMP!! (Powered by Notion)'. This sequence visually confirms the progression described in the answer."
+  },
+  {
+    "question": "Which early segment is about financial markets, and which later segment is specifically about trying to find sponsors for an event?",
+    "answer": "The financial markets segment is the stock market news broadcast mentioning Lehman Brothers and the Dow, while the later segment about funding is the on-screen text discussing needing $20,000 and finding sponsors.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      9
+    ],
+    "reasoning_chain": "Step 1: Slice 1 includes a stock market news segment referencing Lehman Brothers and the Dow. Step 2: Slice 9 shows text about needing $20,000 and struggling to find sponsors. Conclusion: The first is general market news; the later is event sponsorship fundraising.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly describes a 'Stock Market News Segment' mentioning Lehman Brothers and the Dow Jones, which is clearly about financial markets. Step 2: Evidence Slice 9 starts with on-screen text stating 'We need $20,000 to run this event. Who would be willing to sponsor it? Why is it so hard to find the right brand...?', which is specifically about finding sponsors for an event. Logic holds because the early segment concerns financial markets, and the later segment addresses sponsorship/funding, matching the proposed answer.",
+    "visual_proof": "Clip 1 (ID: 1) shows a financial news broadcast with 'LEHMAN BROTHERS' and 'DOW INDUSTRIALS' prominently displayed alongside stock market graphs. Clip 2 (ID: 9) displays on-screen text under the heading 'Current problems:' which explicitly states 'We need $20,000 to run this event' and 'Who would be willing to sponsor it?'."
+  },
+  {
+    "question": "Across the video, what evidence shows shifting event locations from a Utah lodge to an Oregon Base Camp event and then to a Croatian travel segment?",
+    "answer": "It shows Timber Moose Lodge in Utah (April 3rd, 2023), a Base Camp 23 event in Bend, Oregon (Oct 1st, 2023), and travel in Split, Croatia (Aug 22nd, 2023).",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      50,
+      88,
+      61,
+      62
+    ],
+    "reasoning_chain": "Step 1: Slice 50 labels 'APRIL 3rd, 2023 Timber Moose Lodge, Utah.' Step 2: Slice 88 shows 'Base Camp 23' scheduled in Bend, Oregon (Oct 1st, 2023). Step 3: Slice 61 labels 'August 22nd, 2023 Split, Croatia' and mentions Yacht Week. Step 4: Slice 62 continues on the yacht in Croatia. Conclusion: The video spans multiple named locations: Utah lodge, Oregon Base Camp event, and Croatia travel.",
+    "logic_check_reasoning": "Step 1: Slice 50 explicitly shows the text \"APRIL 3rd, 2023\" and \"Timber Moose Lodge, Utah,\" confirming the Utah lodge segment. Step 2: Slice 88 presents a promotional segment for \"Base Camp 23\" scheduled for October 1st, 2023, in Bend, Oregon, confirming the Oregon event. Step 3: Slice 61 displays \"August 22nd, 2023\" and \"Split, Croatia\" with mention of Yacht Week, and Slice 62 further depicts scenes in Split, confirming the Croatian travel segment. The proposed answer lists these exact locations and dates, which are directly supported by the slices.",
+    "visual_proof": "Clip 1 visually confirms the Utah location with text overlay 'APRIL 3rd, 2023 Timber Moose Lodge, Utah' over snowy lodge footage. Clip 2 confirms the Oregon event with text 'October 1st, 2023 Bend, Oregon' shown over meeting room and laptop scenes. Clip 3 and 4 confirm the Croatian segment with text 'August 22nd, 2023 Split, Croatia (we somehow got invited to Yacht week...)' displayed over scenes of a man on a yacht and coastal views."
+  },
+  {
+    "question": "Which clips together show a person preparing for travel (airport movement) and later arriving at a clearly labeled headquarters in a new city?",
+    "answer": "Airport transit is shown first, and later a door opens into Creator Camp HQ in Austin, Texas with a date stamp.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      21,
+      65,
+      72
+    ],
+    "reasoning_chain": "Step 1: Slice 21 includes an airport escalator scene. Step 2: Slice 65 includes another airport transit moment in a montage. Step 3: Slice 72 labels arrival at 'Creator Camp HQ in Austin, Texas' on September 3rd, 2023. Conclusion: The travel/transit scenes precede arriving at a labeled HQ.",
+    "logic_check_reasoning": "Step 1: Slice 21 describes a man ascending an escalator in an airport environment (signage, seating, travelers), indicating airport movement. Step 2: Slice 65 also shows airport transit with a person walking through a terminal, reinforcing the travel preparation/movement. Step 3: Slice 72 explicitly shows a door opening into a space labeled 'Creator Camp HQ in Austin, Texas' with a timestamp, indicating arrival at a clearly labeled headquarters in a new city. Logic holds because the sequence of clips demonstrates airport movement first and later entry into a labeled HQ location.",
+    "visual_proof": "Clip 2 (ID:65) visually depicts airport scenes including people walking outside the terminal, looking out at planes from inside, and being on a plane. Clip 3 (ID:72) clearly shows a hand opening a door, followed by an interior view of a modern living space, with an on-screen text overlay stating 'September 3rd, 2023 Creator Camp HQ | Austin, Texas'. This sequence directly supports the claim that travel preparation/transit is shown first, followed by arrival at the specified headquarters."
+  }
+]

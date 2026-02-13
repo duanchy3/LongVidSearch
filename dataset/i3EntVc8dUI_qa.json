@@ -1,0 +1,71 @@
+[
+    {
+        "question": "What common object connects the desk-work scenes to the dorm-room planning scene where someone points at destinations?",
+        "answer": "A map on the wall used for planning.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a room with posters and a map behind the speaker. Step 2: Slice 52 ends with a hand pointing at a map on the wall while discussing locations. Conclusion: The shared map motif links the personal room setup to later travel planning.",
+        "logic_check_reasoning": "Step 1: Slice 52 describes a dorm room scene with desk work (one person seated at a desk with a laptop) and details the room environment. Step 2: The same slice transitions to a planning moment featuring a close-up of a hand pointing at a map on the wall, indicating destinations. Step 3: Both scenes occur within the same dorm room, and the map on the wall is explicitly identified in the planning scene, serving as a common object present in the room that connects the desk-work scene to the planning scene. Step 4: The proposed answer matches this explicitly supported object.",
+        "visual_proof": "In Video 2, a large world map is clearly visible on the wall above the desk where the man is working (0:05-0:08). Later in the same clip, another person points directly at North America on this same map while discussing destinations (0:28-0:31). This visually connects the desk-work scenes to the planning scene."
+    },
+    {
+        "question": "After the vlog-style shot of the phone showing 6:04 in the room with string lights, what later detail shows the same string-light bedroom aesthetic returns?",
+        "answer": "The cozy bedroom with string lights and posters reappears while the vlogger talks at his desk.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a young man in a dim room with string lights behind him. Step 2: Slice 36 shows the vlogger again in a poster-covered room with string lights, talking to camera. Conclusion: The recurring string-light bedroom setting indicates a return to the same personal-space aesthetic.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows the phone at 6:04 in a dimly lit room with string lights, establishing the string-light bedroom aesthetic. Step 2: Slice 36 later shows the young man in a bedroom/study area with string lights and posters behind him, talking to the camera. Logic holds because the same aesthetic elements (string lights, personal decor) reappear during a vlog-style segment where he speaks to the camera, consistent with the proposed answer.",
+        "visual_proof": "Clip 1 shows the initial scene with the phone displaying 6:04, followed by a mirror shot of the vlogger in a dimly lit room decorated with string lights. Clip 2 later shows the same vlogger sitting at a desk in a room with identical string lights and a wall covered in posters and photos, confirming the return of the same aesthetic."
+    },
+    {
+        "question": "What evidence suggests the vlogger’s personal room is associated with travel and memorabilia, and later that theme is reinforced by a collage wall?",
+        "answer": "A street sign 'Porschestraße 1084' and travel-themed decor appear first, and later a wall collage of postcards and foreign banknotes reinforces travel memories.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            70,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a cozy room with posters and a 'Porschestraße 1084' sign implying travel/places. Step 2: Slice 70 zooms in on the same sign among posters and string lights. Step 3: Slice 71 shows a wall collage with postcards and international currency. Conclusion: The decor repeatedly emphasizes travel identity and collected memories.",
+        "logic_check_reasoning": "Step 1: Slice 20 describes a personal bedroom with posters, photographs, notes, and a prominent street sign 'Porschestraße 1084,' explicitly suggesting a connection to travel or a specific location, indicating memorabilia. Step 2: Slice 70 reinforces the travel-themed decor with posters including travel destinations and the same 'Porschestraße 1084' sign, and notes the room reflects interests and travels. Step 3: Slice 71 shows a collage wall covered with postcards depicting various landscapes, handwritten notes, and banknotes from different countries, directly reinforcing the travel and memorabilia theme. Logic holds because the early slices establish travel-linked items in the room, and the later slice presents a collage wall that continues and deepens that theme.",
+        "visual_proof": "Clip 1 shows the vlogger in his room with a blue 'Porschestraße' street sign and various posters visible behind him. Clip 2 provides a wider view of the same room, clearly showing the 'Porschestraße' sign and a large wall covered in postcards. Clip 3 offers a close-up of this collage, revealing numerous postcards depicting scenic landscapes and a Turkish 100 Lira banknote, directly supporting the theme of travel and memorabilia."
+    },
+    {
+        "question": "What through-line shows the creator justifying skipping class and then later presenting a broader motivational message while showing a city skyline?",
+        "answer": "First, a rule about skipping class due to an earthquake appears, and later the message expands into motivational advice over cityscape visuals.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            51,
+            86,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 51 displays a humorous 'Rule 1' about skipping class due to an earthquake. Step 2: Slice 86 shows a longer justification for skipping class in pursuit of experience or self-care. Step 3: Slice 87 overlays extensive motivational text alongside a nighttime city skyline. Conclusion: The narrative escalates from a specific excuse to a general philosophy of self-care and meaningful experiences.",
+        "logic_check_reasoning": "Step 1: Slice 51 shows text explicitly justifying skipping class due to an earthquake (“Skipping class is okay if it means not dying in an earthquake”). Step 2: Slice 86 further reinforces the justification for skipping class with broader reasons (“in the pursuit of experience... or if you need to take care of yourself”). Step 3: Slice 87 shifts to a broader motivational message (“Push the boundaries... Express yourself...”) presented alongside a nighttime cityscape. Logic holds because the sequence moves from specific justifications for skipping class to a generalized motivational theme set over city skyline visuals.",
+        "visual_proof": "Clip 1 shows text stating 'Rule 1: Skipping class is okay if it means not dying in an earthquake'. Clip 2 transitions to broader motivational text like 'Skipping class is justified if it is in the pursuit of experience...' while showing a person in an elevator. Clip 3 continues this motivational theme with text about pushing boundaries and being kind, overlaid on a nighttime city skyline, visually confirming the progression from a specific rule to a general motivational message."
+    },
+    {
+        "question": "Which sequence shows a personal-space motif (posters/string lights) leading into public, high-energy city spectacle in Times Square?",
+        "answer": "The creator talks in the poster-and-string-light bedroom, then later appears amid the bright billboards of Times Square where a billboard highlights his creator identity.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            20,
+            70,
+            84,
+            85
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows the vlogger speaking in a warm bedroom with string lights and posters (including 'Porschestraße 1084'). Step 2: Slice 70 reinforces the same decorated wall aesthetic. Step 3: Slice 84 shows him in Times Square at night surrounded by bright ads. Step 4: Slice 85 reveals a prominent billboard naming 'Max Reininger Creator + Entrepreneur on YouTube.' Conclusion: The narrative jumps from private creator space to public recognition in a major city setting.",
+        "logic_check_reasoning": "Step 1: Slices 20 and 70 depict a personal-space setting with posters and string lights, and a young man talking enthusiastically in a cozy bedroom. Step 2: Slices 84 and 85 shift to Times Square at night with bright billboards and the same type of young man in a black shirt amid the public, high-energy scene. Step 3: Slice 85 explicitly shows a billboard reading \"Max Reininger Creator + Entrepreneur on YouTube,\" highlighting a creator identity in that Times Square context. Logic holds because the video presents a clear progression from the intimate, poster-and-string-light bedroom to the vibrant Times Square spectacle, with an on-screen billboard emphasizing creator identity.",
+        "visual_proof": "Clip 1 and Clip 2 show the young man in a bedroom decorated with posters (including 'Porschestraße' and '2247') and string lights. Clip 3 and Clip 4 transition to him walking through the brightly lit, high-energy environment of Times Square at night, with massive digital billboards. One prominent billboard in Clip 4 explicitly features his image and text identifying him as 'Max Reisinger, Creator + Entrepreneur, 550K Subscribers on YouTube'."
+    }
+]

@@ -1,0 +1,29 @@
+[
+    {
+        "question": "A carved monument is shown standing in turbulent water, and later an ocean appears again after a metal artifact. What are the two water settings, and how do they differ in mood?",
+        "answer": "First is turbulent ocean waves around a weathered stone pillar; later is waves crashing against rocks after a metal artifact, feeling dynamic but more expansive and scenic.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            21
+        ],
+        "reasoning_chain": "Step 1: One segment shows churning waves with an ancient stone pillar partially submerged. Step 2: Another segment transitions from a metal artifact to a wide ocean with waves crashing on rocks. Conclusion: Both are ocean scenes, but the first emphasizes a solitary monument in turbulence while the second emphasizes broader seascape motion.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes turbulent ocean waves and a weathered stone pillar with carvings, conveying raw power, restlessness, and a moody, mysterious atmosphere. Step 2: Slice 21 shows a close-up of a metal artifact followed by a vast ocean scene with waves crashing against rocks, described as serene yet dynamic and highlighting natural beauty, implying an expansive and scenic mood. Logic holds because the proposed answer identifies the two settings accurately (pillar in turbulent water; ocean after metal artifact) and contrasts the moods appropriately (first turbulent/moody vs. later dynamic, expansive, scenic), all supported directly by the slices.",
+        "visual_proof": "Clip 1 shows close-up, churning dark water with white foam surrounding a weathered, ornate stone pillar, creating an intense, confined mood. Clip 2 begins with a close-up of a greenish, carved metal artifact, then cuts to a wider, high-angle shot of the ocean where waves crash against scattered dark rocks along a coastline, conveying a broader, more scenic, and dynamic vista."
+    },
+    {
+        "question": "Identify a repeated visual motif of ‘figures seated in stillness’ across three different contexts: an artifact, a temple statue, and a live human scene.",
+        "answer": "A seated bronze/stone meditative figure, a Buddha statue in/at a temple, and a woman seated on the ground at night in a contemplative pose.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            26,
+            41
+        ],
+        "reasoning_chain": "Step 1: A bronze statue shows a figure seated in lotus position, calm and meditative. Step 2: Another segment shows Buddha statues and a large Buddha inside a temple, also seated serenely. Step 3: A later segment shows a woman seated outdoors at night, upright and calm, appearing to speak/sing. Conclusion: Seated stillness recurs across artifact, sacred sculpture, and living person.",
+        "logic_check_reasoning": "Step 1: Slice 25 describes an ancient bronze statue seated in padmasana (lotus), explicitly a meditative pose—this satisfies the artifact context with a figure seated in stillness. Step 2: Slice 26 shows a Buddha statue sitting on a lotus and later a Buddha statue inside a temple—this covers the temple statue context with a seated, serene figure. Step 3: Slice 41 presents a live human scene where a woman is seated on the ground at night with a serene, contemplative demeanor—this fulfills the live human seated-in-stillness motif. The three contexts align with the proposed answer.",
+        "visual_proof": "Clip 1 shows a close-up of a seated bronze Buddha figure. Clip 2 displays a large stone Buddha statue within the Borobudur temple complex, as well as other seated stone figures in niches. Clip 3 features a woman sitting cross-legged on the ground at night in a posture that suggests contemplation or prayer. All three clips visually confirm the presence of figures seated in stillness across these distinct contexts."
+    }
+]

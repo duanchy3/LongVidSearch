@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Which item is held by a seated male during the emotional singing segment, and what type of microphone color becomes prominent later when a male speaker is shown close-up on stage?",
+        "answer": "A purple microphone is held by a seated male during the emotional singing segment, and later, the same purple microphone becomes prominent in a close-up of a male speaker on stage.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows seated male performers, with one holding a purple flower near his face while watching the singer. Step 2: Slice 29 shows a central figure holding a purple microphone while speaking/singing. Conclusion: Purple props (flower then mic) recur across segments.",
+        "logic_check_reasoning": "Step 1: Slice 22 describes an emotional singing segment with a female performer, and explicitly notes that one of the seated male performers is holding a purple flower. Step 2: Slice 29 shows a male central figure on stage holding a purple microphone, indicating the microphone color becomes prominent later. The details align logically across the slices and directly support both parts of the proposed answer.",
+        "original_text_answer": "A purple flower is held during the emotional singing segment, and later a purple microphone becomes prominent in a close-up of a male speaker.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In both clips, a seated male member (Sunoo) is clearly holding a purple microphone while singing or speaking. In Clip 1 (0:05-0:10), he holds it with both hands. In Clip 2 (0:00-0:03), there is a close-up showing him holding the same purple microphone. The original answer incorrectly states a 'purple flower' was held, which is not visible in any frame."
+    },
+    {
+        "question": "In the early performance, what circular brand text appears on the stage backdrop, and later what network logo appears in the closing branding animation?",
+        "answer": "The early stage shows \"ENHYPEN\" in a glowing circular design, and later the closing branding shows the \"KBS WORLD\" logo (\"Always Yours KBS WORLD\").",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            94
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the group silhouette against a blue circular design with \"ENHYPEN\" in the center. Step 2: Slice 94 shows the \"Always Yours KBS WORLD\" logo. Conclusion: The video spans from group-branded stage visuals to a broadcaster/network end card.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly states the stage backdrop features a glowing blue circular design with the word \"ENHYPEN\" prominently displayed in the center. Step 2: Slice 94 describes a later logo animation for KBS World, featuring the text \"Always Yours KBS WORLD\". Logic holds because the question asks for the early circular brand text (ENHYPEN) and the later network logo (KBS WORLD), both clearly identified in the provided slices.",
+        "visual_proof": "Clip 1 clearly shows the word \"ENHYPEN\" in large, white letters centered within a glowing blue circular tunnel on the stage backdrop. Clip 2, which is an animated sequence, displays the text \"Always Yours\" above the \"KBS WORLD\" logo, confirming the network branding."
+    },
+    {
+        "question": "A performer with red hair is highlighted during one stage moment, and later a red-haired performer appears again in a close interaction/dance moment. What outfit detail stays consistent for the red-haired performer across these two moments?",
+        "answer": "He wears a black vest over a white shirt in both moments.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 10 highlights a red-haired performer wearing a white shirt under a black vest. Step 2: Slice 89 shows a red-haired performer again, also in a black vest over a white shirt, while interacting/dancing with a gray-suited performer. Conclusion: The red-haired performer is tracked by the consistent vest-over-white-shirt outfit.",
+        "logic_check_reasoning": "Step 1: Slice 10 states the central red-haired performer is wearing a white shirt under a black vest during a stage moment. Step 2: Slice 89 describes a red-haired performer in a close interaction/dance wearing a black vest over a white shirt. Logic holds because both slices explicitly describe the red-haired performer with the same outfit detail (black vest over white shirt) across the two moments.",
+        "visual_proof": "In the first clip (0:01-0:04), the red-haired performer is clearly seen from the back and side, wearing a black vest over a white collared shirt. In the second clip (0:00-0:04), during the close interaction/dance moment, the same performer is shown again, and his outfit is identical: a black vest over a white shirt. This consistency is visually verifiable across both clips."
+    },
+    {
+        "question": "What is the main activity happening on stage when the audience is shown clapping enthusiastically, and how does the audience reaction connect to the later moment when a performer finishes and receives applause?",
+        "answer": "The audience claps during a live stage talk/performance segment, and later a musical performance ends with the audience applauding as the performer finishes.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows audience clapping during an on-stage interview/event moment. Step 2: Slice 52 describes a performance ending and the audience applauding. Conclusion: Audience applause appears as a recurring response to on-stage speaking/singing segments.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a woman with a microphone leading an interview/talk segment, with the audience shown clapping and cheering enthusiastically. This supports that the main activity during the initial audience clapping is a live talk/interview segment. Step 2: Slice 52 shows a sequence where a man performs (singing) and, upon finishing, the audience applauds. This connects the earlier audience reaction to a later moment of applause at the end of a musical performance. The proposed answer aligns with both slices: initial clapping during a live stage talk/performance segment and later applause when the performer finishes.",
+        "visual_proof": "In Clip 1 (0:07-0:08) and Clip 2 (0:06-0:08), the audience is shown clapping enthusiastically while the host and performers are on stage. In Clip 2 (0:16-0:22), a performer sings into a microphone during what is clearly a musical performance, with lyrics displayed on screen. The context of the show '이효리의 레드카펫' (Lee Hyori's Red Carpet) and the group ENHYPEN suggests this is a performance event. The applause from the audience in both clips serves as a reaction to the ongoing stage activities, connecting the talk segment to the musical performance."
+    },
+    {
+        "question": "What is the name of the show/event that is displayed on the backdrop during the interview segment, and how is it connected to the later stage where the group performs choreography in front of the same show title?",
+        "answer": "The show/event is \"이효리의 레드카펫\" (Lee Hyori's Red Carpet), and it appears first as the interview/talk-show backdrop and later again behind the group while they perform choreography on stage.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            44
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows the backdrop text \"이효리의 레드카펫\" during a formal on-stage segment. Step 2: Slice 44 shows dancers performing with a circular screen displaying the same show title. Conclusion: The same program branding ties the talk segment and the later dance stage together.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly mentions the backdrop displaying '이효리의 레드카펫' during a formal on-stage interaction that resembles an interview/talk-show segment. Step 2: Slice 44 states that a later stage performance by a dance group has a large circular screen showing the same title '이효리의 레드카펫.' Logic holds because both slices show the same event title on the backdrop in two different segments (an interview-like segment and a choreography performance), directly supporting the proposed connection.",
+        "visual_proof": "In Video 1, during the interview segment, the text \"이효리의 레드카펫\" is clearly visible on the orange-lit backdrop behind the seated individuals. In Video 2, during the performance segment, the same text \"이효리의 레드카펫\" is displayed on the large circular screen in the center of the blue-lit stage, confirming its use as the backdrop for both segments."
+    },
+    {
+        "question": "Trace the identity branding across the video by naming the group text shown at the start, the show title used in the middle segments, and the network branding shown at the end.",
+        "answer": "Start: \"ENHYPEN\"; middle show title: \"이효리의 레드카펫\" (Lee Hyori's Red Carpet); end: \"Always Yours KBS WORLD.\"",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            16,
+            94
+        ],
+        "reasoning_chain": "Step 1: Slice 1 displays \"ENHYPEN\" as the early performance branding. Step 2: Slice 16 displays the show title \"이효리의 레드카펫\" during the mid-video talk-show event. Step 3: Slice 94 displays the broadcaster branding \"Always Yours KBS WORLD.\" Conclusion: Branding progresses from artist identity to program identity to network identity.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes the opening with a circular design featuring the word 'ENHYPEN' prominently, supporting the start branding. Step 2: Evidence Slice 16 identifies the middle segment as a talk show titled '이효리의 레드카펫' (Lee Hyori's Red Carpet), with the title displayed on stage, supporting the show title. Step 3: Evidence Slice 94 details the logo animation for KBS World featuring the text 'Always Yours KBS WORLD,' supporting the network branding at the end. The sequence aligns logically from start to middle to end.",
+        "visual_proof": "Clip 1 shows the group name \"ENHYPEN\" in large letters on the stage backdrop. Clip 2 displays the show title \"이효리의 레드카펫\" on the screen behind the performers. Clip 3 concludes with the animated logo for \"Always Yours KBS WORLD.\""
+    },
+    {
+        "question": "Across the video, identify the recurring stage design element involving a circular structure, and name three different contexts where it appears.",
+        "answer": "A circular stage/backdrop design recurs: it appears behind the group with \"ENHYPEN\" branding, behind the talk-show/event title backdrop, and again in later dance stages with circular light patterns.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            16,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a large glowing circular design with \"ENHYPEN\" in the center. Step 2: Slice 16 shows the talk-show stage with circular red lighting elements behind the lineup. Step 3: Slice 83 shows a later dance performance with circular structures and blue lighting. Conclusion: Circular motifs persist across distinct segments.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly describes a glowing blue circular design with 'ENHYPEN' in the center as part of the stage backdrop, establishing a circular structure in the performance context. Step 2: Evidence Slice 16 notes 'circular red lighting in the background' on the stage of the talk show/fan event 'Lee Hyori's Red Carpet,' indicating another circular backdrop element in a different context (talk show). Step 3: Evidence Slice 83 states the stage design 'includes circular structures' during a dance performance, confirming the recurrence of circular elements. The proposed answer names the three contexts accordingly: behind the ENHYPEN branding, behind the talk-show/event title backdrop, and in later dance stages with circular light patterns. The logic holds because each slice independently supports a circular stage/backdrop element in distinct contexts.",
+        "visual_proof": "Clip 1 shows a large circular blue-lit tunnel backdrop with 'ENHYPEN' text. Clip 2 features a red circular frame around the Korean event title '이효리의 레드카펫'. Clip 3 displays dynamic concentric circles of blue light as part of the stage lighting during the performance."
+    }
+]

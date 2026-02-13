@@ -1,0 +1,16 @@
+[
+    {
+        "question": "A documentary-style sequence shows a crowd reacting to news of a political assassination, and later an official is identified speaking as acting mayor. What event is the acting mayor responding to?",
+        "answer": "The assassination of Harvey Milk (and the associated crisis in San Francisco politics).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            60,
+            64,
+            65
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows a TV caption \"Harvey Milk Assassinated Nov 27th 1978\" with a somber mood. Step 2: Slice 64 shows rally/news coverage and government deliberation tied to the Harvey Milk story. Step 3: Slice 65 identifies \"DIANNE FEINSTEIN Acting Mayor\" speaking formally. Conclusion: The acting mayor’s address is in response to the Harvey Milk assassination and its political aftermath.",
+        "logic_check_reasoning": "Step 1: Slice 60 explicitly shows a TV screen with the caption 'Harvey Milk Assassinated Nov 27th 1978,' indicating the political assassination being reported. Step 2: Slice 64 frames the sequence as a montage from the film Milk, blending rally footage, news broadcasts, and political meetings tied to Harvey Milk’s story. Step 3: Slice 65 identifies a woman speaking as 'DIANNE FEINSTEIN Acting Mayor' in a somber, official setting. Logic holds because the sequence presents news of Harvey Milk’s assassination followed by the acting mayor addressing an official audience, indicating she is responding to that assassination.",
+        "visual_proof": "Clip 1 shows a crowd reacting emotionally, followed by a TV screen explicitly stating 'Harvey Milk Assassinated Nov. 27th 1978'. Clip 3 identifies Dianne Feinstein as 'Acting Mayor' speaking shortly after, implying her role is a direct consequence of the assassination shown in Clip 1."
+    }
+]

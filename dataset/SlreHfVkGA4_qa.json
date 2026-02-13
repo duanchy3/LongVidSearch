@@ -1,0 +1,81 @@
+[
+    {
+        "question": "What object is mistakenly treated like water in an earlier conversation, and what drink container is later shown being raised toward someone’s mouth?",
+        "answer": "Alcohol is mistaken for water earlier, and later a blue mug is raised toward someone’s mouth.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 6 mentions a humorous mix-up where alcohol is mistaken for water. Step 2: Slice 16 shows a man lifting a blue mug as if to drink. Conclusion: The mistaken drink is alcohol, and the later drink container is a blue mug.",
+        "logic_check_reasoning": "Step 1: Slice 6 states that subtitles mention a humorous mix-up involving alcohol being mistaken for water, supporting the first part. Step 2: Slice 16 describes a young man holding a blue mug close to his face, seemingly about to take a sip, which indicates the mug is raised toward his mouth, supporting the second part. Logic holds because these two slices directly answer both parts of the question.",
+        "visual_proof": "In Clip 1, the subtitle at 0:13 explicitly states '*Dylan accidentally brought a bottle of alcohol out thinking it was water*', visually confirming the mistake. In Clip 2, from 0:00 to 0:04, a young man is clearly shown holding and raising a dark blue ceramic mug to his lips."
+    },
+    {
+        "question": "One person says they will put an item on their wall at home; earlier, what playful on-screen instruction is shown during a couch wrestling moment?",
+        "answer": "“get freeze.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows a playful scene with text on screen reading “get freeze.” Step 2: Slice 46 includes the line about putting something on the wall at home. Conclusion: The playful instruction earlier is “get freeze.”",
+        "logic_check_reasoning": "Step 1: Slice 46 contains the subtitle, \"When I get home, I'm going to put it in my room on the wall,\" confirming the statement about putting an item on the wall. Step 2: Slice 14 describes a couch wrestling/playful scene and explicitly notes the on-screen text \"get freeze\" at the bottom of the screen as a playful instruction. Logic holds because the question references the earlier couch moment, and Slice 14 provides the exact instruction.",
+        "visual_proof": "In Video 1, at timestamp 0:00, the on-screen text 'get freeze.' appears during the couch wrestling moment. In Video 2, at timestamp 0:08, the on-screen text 'When I get home, I'm going to put it in my room on the wall' is shown, confirming the sequence of events as described in the question."
+    },
+    {
+        "question": "Early on, a person introduces themselves while carrying luggage; later, people outdoors directly discuss how they found that same person. Who is being discussed?",
+        "answer": "Max.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 4 includes the introduction “Hi, I’m Max,” while he carries luggage and helps move bags. Step 2: Slice 36 shows on-screen text asking “How do you guys find Max?” during an outdoor gathering. Conclusion: The person is Max.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly shows a person carrying luggage introducing themselves with the subtitle \"Hi, I'm Max, nice to meet you,\" establishing the person's name as Max. Step 2: Slice 36 includes on-screen text \"How do you guys find Max?\" indicating the outdoor group is discussing someone named Max. Logic holds because both slices refer to \"Max,\" linking the introduced person with the one being discussed later.",
+        "visual_proof": "In Video 1, a person carrying luggage introduces himself with the subtitle 'Hi, I'm Max, nice to meet you'. In Video 2, a group of people sitting outdoors discuss how they found 'Max', as confirmed by the subtitle 'How do you guys find Max?'. The direct reference to 'Max' in both clips confirms he is the person being discussed."
+    },
+    {
+        "question": "A person talks about a story involving an angel and age 60; earlier, the aerial landscape segment includes voice-over about mortality and an angel; and later, the same couch setting returns with the speaker revealing his father died at 58. How do these segments connect?",
+        "answer": "The aerial narration introduces the angel/mortality theme, which is later referenced in a couch conversation where the speaker connects it to his father dying at 58.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            60,
+            72,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 60 contains voice-over about mortality and an angel. Step 2: Slice 72 explicitly mentions a story about an angel coming when someone turns 60 and reveals the father died at 58. Step 3: Slice 62 continues the broader theme of discussing stigma and generation over serene aerial visuals, reinforcing reflective narration. Conclusion: The angel theme is introduced via narration and then grounded in a personal story about the father’s age at death.",
+        "logic_check_reasoning": "Step 1: Slice 60 describes an aerial sequence with a voice-over explicitly about mortality and the presence of an angel, establishing that theme early. Step 2: Slice 72 shows the couch conversation where the speaker references a prior story about an angel coming at age 60 and then reveals his father died at 58, directly connecting the angel/mortality theme to his personal anecdote. Logic holds because the earlier aerial segment sets the angel/mortality context, and the later couch scene revisits and applies that theme to the speaker's father.",
+        "visual_proof": "Clip 1 (0:04-0:09) shows an aerial view with subtitles 'He told me think about if you're at 60 years old and you're about to die.' Clip 2 (0:03-0:10) shows a man on a couch saying, 'You remember that this story that I told you, 60 years old, the angel will come over. My father died at 58.' This directly links the abstract theme from the aerial shot to the personal story in the conversation. Clip 3 contains no relevant visual information for this connection."
+    },
+    {
+        "question": "Which two different screens show people descending on escalators at two separate times in the video?",
+        "answer": "A television screen and a subway-station scene (shown as people descending on escalators).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 9 opens with a television showing people walking down an escalator. Step 2: Slice 23 includes a subway station with people descending an escalator. Conclusion: The escalator descent appears on a TV screen and later in a real subway-station setting.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 9 explicitly states a television screen is displaying people walking down an escalator. Step 2: Evidence Slice 23 explicitly describes a later subway-station scene where people are seen descending an escalator. Logic holds because these are two separate moments: one shown on a TV within the video, and another captured directly in a subway station scene. This matches the proposed answer’s identification of a television screen and a subway-station scene showing escalator descents at different times.",
+        "visual_proof": "In Video 1, a television screen displays security camera footage of a crowded train interior. In Video 2, there are two distinct scenes showing people on escalators: one is a high-angle shot of a person descending an escalator in a subway station (0:09-0:10), and the other is a time-lapse shot of a busy subway station with people moving on escalators (0:13-0:14). The question asks for two different screens showing people descending on escalators; the television screen in Video 1 does not show an escalator, but the subway station scenes in Video 2 do. Therefore, the original answer is incorrect because it incorrectly identifies the television screen as one of the two screens showing escalators. The correct answer should be: 'Two different subway-station scenes (shown as people descending on escalators).'"
+    },
+    {
+        "question": "Two different moments show someone using a book for reference while talking. In one, a person flips through a book on their lap; in the other, someone holds a red object while speaking. What clothing item is consistent in both moments?",
+        "answer": "A blue hoodie.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a man in a blue hoodie flipping through a book on his lap while talking. Step 2: Slice 22 shows a man in a blue hoodie holding a red object (likely a book/paper) while explaining something. Conclusion: The consistent clothing is the blue hoodie.",
+        "logic_check_reasoning": "Step 1: Slice 20 describes a man flipping through a book on his lap while talking and explicitly says he is wearing a blue hoodie. Step 2: Slice 22 describes (in another moment) the man holding a red object while speaking and again explicitly says he is wearing a blue hoodie. Logic holds because both moments reference the same setting and actions, and both explicitly note the blue hoodie as the clothing item.",
+        "visual_proof": "In both clips, the same man is featured. In Clip 1 (0:02-0:09), he is sitting and talking while holding a red book on his lap; he is wearing a blue and black hoodie. In Clip 2 (0:00-0:05), he is again speaking, and another person is holding a red book near him; the man is still wearing the identical blue and black hoodie. The clothing item is consistent across both moments."
+    }
+]

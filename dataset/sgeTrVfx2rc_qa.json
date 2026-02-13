@@ -1,0 +1,168 @@
+[
+  {
+    "question": "What modern promotional element appears on the game title screen and is also visible during later battle footage?",
+    "answer": "A QR code.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      6,
+      11
+    ],
+    "reasoning_chain": "Step 1: Slice 6 shows the RAID: Shadow Legends title with a QR code in the corner. Step 2: Slice 11 shows in-game combat footage with a QR code displayed on-screen. Conclusion: The repeated promotional element is a QR code.",
+    "logic_check_reasoning": "Step 1: Slice 6 states that on the title screen there is a QR code in the top left corner. Step 2: Slice 11 states that during the battle footage a QR code is displayed on the right. Logic holds because the question asks for the modern promotional element that appears on both the title screen and later battle footage, and both slices explicitly mention a QR code in those contexts.",
+    "visual_proof": "In Video 1, a QR code is clearly visible in the top-left corner of the screen during the 'RAID SHADOW LEGENDS' title sequence. In Video 2, the same QR code remains fixed in the top-left corner throughout the battle footage, confirming its presence on both the title screen and during gameplay."
+  },
+  {
+    "question": "In the game segment, how does the round structure change between the hydra-related battle opening and the later tactical courtyard fight?",
+    "answer": "It goes from a single-round battle (Round 1 of 1) to a multi-round battle (Round 1 of 3).",
+    "category": "State_Mutation",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      12
+    ],
+    "reasoning_chain": "Step 1: Slice 8 shows the UI indicating Round 1 of 1 at the start of the hydra/serpentine battle setup. Step 2: Slice 12 shows a different fight with the UI indicating Round 1 of 3. Conclusion: The round structure shifts from 1 total round to 3 total rounds.",
+    "logic_check_reasoning": "Step 1: Slice 8 explicitly states the UI shows Round 1 of 1 at the hydra-themed battle opening. Step 2: Slice 12 explicitly shows Round 1 of 3 in the later tactical courtyard fight. Logic holds because the round indicator changes from a single round to a multi-round sequence.",
+    "visual_proof": "In Video 1, the UI clearly displays 'Round 1 of 1' in the top right corner. In Video 2, the UI in the same position shows 'Round 1 of 3', indicating a change in the battle's round structure from a single round to a three-round encounter."
+  },
+  {
+    "question": "Which leader is shown being discussed in a scholarly ‘House of Wisdom’ setting, and which later map explicitly marks the end of his reign at 809?",
+    "answer": "Harun al-Rashid; the 809 AD map marking Al-Rashid (786–809) and the transition to Al-Amin (809).",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      58,
+      16
+    ],
+    "reasoning_chain": "Step 1: Slice 58 shows Harun al-Rashid identified in a House of Wisdom scene with scholars and a globe. Step 2: Slice 16 shows a map labeled 809 AD with Al-Rashid (786–809) and Al-Amin (809). Conclusion: The leader is Harun al-Rashid and his reign endpoint is anchored by the 809 map.",
+    "logic_check_reasoning": "Step 1: Slice 58 explicitly shows a scholarly setting labeled 'House of Wisdom' and identifies the central figure as Harun al-Rashid with his reign (786–809). Step 2: Slice 16 shows a map labeled 809 AD and lists caliphs, explicitly marking Al-Rashid (786–809) and the transition to Al-Amin (809). Logic holds because the first slice names the leader in the House of Wisdom context, and the second slice marks the end of his reign at 809 on the map.",
+    "visual_proof": "Clip 1 visually identifies 'Harun al-Rashid (r.786 - 809)' in a scholarly setting with the text 'House of Wisdom'. Clip 2 displays a map dated '809 AD' which explicitly labels 'AL-RASHID 786-809' and immediately introduces 'AL-AMIN 809-', indicating the end of Al-Rashid's reign in that year."
+  },
+  {
+    "question": "What repeated visual motif accompanies historian quotes on black backgrounds before the Seljuk-era assassination scene?",
+    "answer": "A central golden/yellow floral or geometric emblem on a black background.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      24,
+      34
+    ],
+    "reasoning_chain": "Step 1: Slice 24 shows a black screen with a yellow flower-like design behind a quote. Step 2: Slice 34 shows another black screen with a gold geometric flower/mandala behind a quote. Conclusion: The quotes are consistently paired with a central golden/yellow emblem on black.",
+    "logic_check_reasoning": "Step 1: Slice 24 describes a black background with a central yellow flower-like design and a historical quote (Nizam al-Mulk). This shows a floral/geometric emblem accompanying the quote. Step 2: Slice 34 describes a black background with a central gold-colored geometric/flower/mandala design and a historian’s quote (Al-Mas'udi). This repeats the same visual motif. Logic holds because both slices consistently depict a central golden/yellow floral or geometric emblem on a black background alongside historian/historical quotes.",
+    "visual_proof": "Both clips show a static, centrally positioned, ornate golden/yellow emblem with a floral or geometric star-like design against a solid black background. This motif is present behind the text of the historian quotes in both clips (Nizam al-Mulk and Al-Mas'udi), confirming it as a repeated visual element."
+  },
+  {
+    "question": "After the title card announcing a 'fall,' what major content shift occurs from Islamic-history scenes to something else?",
+    "answer": "The video shifts into a RAID: Shadow Legends game advertisement/trailer segment.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      5,
+      6
+    ],
+    "reasoning_chain": "Step 1: Slice 5 introduces 'PART 2 THE FALL' on a stylized title card. Step 2: Slice 6 immediately follows with the RAID: Shadow Legends branded cinematic title sequence. Conclusion: After the 'fall' title card, the content abruptly shifts to a game ad segment.",
+    "logic_check_reasoning": "Step 1: Slice 5 shows a title card with 'PART 2 THE FALL,' indicating a segment transition. Step 2: Slice 6 presents a cinematic sequence for 'RAID: Shadow Legends,' including a QR code and trailer-like visuals. Logic holds because the appearance of the RAID title sequence immediately after the title card indicates a major content shift into a game advertisement/trailer segment.",
+    "visual_proof": "Clip 1 displays a title card with an ornate, Islamic-style geometric pattern and the text 'PART 2 THE FALL'. Clip 2 immediately follows with a completely different visual style: metallic, fiery 3D letters assembling to form the logo 'RAID SHADOW LEGENDS' against a dark, smoky background. This represents a clear and abrupt shift in content from a historical/narrative theme to a modern video game advertisement."
+  },
+  {
+    "question": "Which object associated with scholarship appears in an early scholarly gathering and is later shown burning during the city’s destruction sequence?",
+    "answer": "An armillary sphere.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      4,
+      58,
+      52
+    ],
+    "reasoning_chain": "Step 1: Slice 4 shows scholars/men in robes with scholarly objects including a globe. Step 2: Slice 58 shows a scholarly House of Wisdom scene centered around an ornate globe. Step 3: Slice 52 shows an ornate globe on a stand engulfed in flames in a burning room with books. Conclusion: The scholarly globe motif culminates in the globe burning during destruction.",
+    "logic_check_reasoning": "Step 1: Slice 58 describes an early scholarly gathering in a medieval Islamic setting, explicitly mentioning a large, ornate globe-like object around which scholars are gathered, reinforcing its association with scholarship. Step 2: Slice 4 further supports the early scholarly scene, noting that some participants are holding a globe and a book. Step 3: Slice 52 shows a later scene of destruction where a large, ornate globe on a stand is on fire in a room with bookshelves, indicating the same scholarly object is burning. Logic holds because the globe appears in the early scholarly context and is later depicted burning during the destruction sequence.",
+    "original_text_answer": "A large globe.",
+    "verdict_meta": "REFINED",
+    "visual_proof": "In Clip 1, during the scholarly gathering at the 'House of Wisdom,' a detailed armillary sphere (a model of celestial objects with rings) is prominently displayed on a table. In Clip 3, this exact same object is shown in silhouette, engulfed in flames during the destruction sequence, confirming its presence in both scenes."
+  },
+  {
+    "question": "How do the on-screen quotes frame later scenes of violence—first warning about internal warfare and later describing citywide slaughter?",
+    "answer": "A quote about constant warfare foreshadows instability, and later a quote compares invaders to falcons and wolves as civilians die during a sack.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      14,
+      48,
+      51
+    ],
+    "reasoning_chain": "Step 1: Slice 14 shows a quote (attributed to Ibn al-Qifti) describing constant warfare being sown. Step 2: Slice 48 shows a later quote (Wassaf) describing invaders slaughtering the population using animal metaphors. Step 3: Slice 51 visualizes a violent sack with soldiers on horseback and civilians fleeing amid chaos. Conclusion: The quotes conceptually bracket and foreshadow escalating violence shown later.",
+    "logic_check_reasoning": "Step 1: Slice 14 shows a quote from Ibn al-Qifti warning that \"al-Rashid has sown among them constant warfare... So woe to the subjects in the future,\" which frames impending instability and internal conflict. Step 2: Slice 48 presents a quote by Wassaf describing invaders \"like hungry falcons\" and \"raging wolves\" as the population dies, explicitly characterizing a brutal citywide slaughter. Step 3: Slice 51 visually depicts a chaotic sack of a city with soldiers attacking and civilians fleeing, aligning with the slaughter described in Slice 48. Logic holds because the first quote foreshadows internal turmoil, and the later quote directly narrates the violent sack mirrored by the subsequent scenes.",
+    "visual_proof": "Clip 1 displays a quote from Ibn al-Qifti: 'And al-Rashid has sown among them constant warfare... So woe to the subjects in the future,' establishing a theme of impending doom. Clip 2 shows a quote from Wassaf: 'They swept through the city like hungry falcons attacking a flight of doves, or like raging wolves attacking sheep... as the population died at the hands of the invaders,' which directly uses the specified animal metaphors. Clip 3 visually depicts the violent sack described in the second quote, showing civilians being killed, buildings burning, and invaders on horseback, confirming the 'citywide slaughter' mentioned."
+  },
+  {
+    "question": "How does the video visually contrast early desert riders with later steppe cavalry, using similar wide formations but different historical labeling?",
+    "answer": "It begins with silhouetted desert horsemen tied to the early caliphate theme, and later shows Mongol cavalry explicitly titled 'The Mongols.'",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      1,
+      49
+    ],
+    "reasoning_chain": "Step 1: Slice 1 shows silhouetted riders crossing a desert, linked to early caliphate imagery. Step 2: Slice 49 shows a large formation of mounted warriors labeled 'The Mongols.' Conclusion: Both use massed cavalry visuals but with different historical contexts/labels.",
+    "logic_check_reasoning": "Step 1: Slice 1 describes silhouetted riders in a desert with a crescent flag and a map labeled 'The Caliphate,' tying the scene to an early caliphate theme. Step 2: Slice 49 shows mounted warriors in Mongol armor with an on-screen title 'The Mongols,' clearly labeling the later steppe cavalry. Logic holds because the proposed answer states the video starts with silhouetted desert horsemen linked to the caliphate and later shows Mongol cavalry explicitly titled, which matches the provided slices.",
+    "visual_proof": "Clip 1 shows silhouetted riders in a desert setting with palm trees, followed by a map labeled 'THE CALIPHATE'. Clip 2 shows a large formation of armored cavalry on a grassy steppe, with text appearing on screen that reads 'المغول The Mongols'. This visually contrasts the two groups using similar wide formations but different settings and explicit historical labels."
+  },
+  {
+    "question": "Which city is first highlighted as the Abbasid capital on an early 9th-century map and later depicted as a dense walled metropolis in a later map-to-city transition?",
+    "answer": "Baghdad.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      15,
+      40
+    ],
+    "reasoning_chain": "Step 1: Slice 15 highlights the Abbasid Caliphate in 809 AD and identifies Baghdad as the capital. Step 2: Slice 40 zooms in on Baghdad (labeled in Arabic and English) and shows a detailed aerial city view with walls. Conclusion: The city is Baghdad.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 15 describes an early 9th-century (809 AD) Abbasid map that highlights Baghdad as the capital city. Step 2: Evidence Slice 40 shows a later animated sequence where the map zooms into Baghdad (labeled in Arabic and English) and transitions to an aerial view depicting it as a dense, walled metropolis. Logic holds because both slices explicitly identify Baghdad in the roles described by the question.",
+    "visual_proof": "In Clip 1, the map for 809 AD clearly labels 'BAGHDAD' as a key city within the green-colored 'ABBASID CALIPHATE'. In Clip 2, the transition from the 945 AD map to a 3D rendering explicitly shows the walled city of 'بغداد Baghdad', confirming its identity as the metropolis depicted."
+  },
+  {
+    "question": "How do the visuals show the transition from Mongol arrival to the destruction of a major city and then to a burning scholarly interior that symbolizes cultural loss?",
+    "answer": "Mounted Mongol forces appear, then the city is shown being attacked and burning, and finally an interior with a globe and bookshelves is engulfed in flames.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      49,
+      51,
+      53,
+      52
+    ],
+    "reasoning_chain": "Step 1: Slice 49 introduces 'The Mongols' with mounted warriors riding in formation. Step 2: Slice 51 depicts soldiers on horseback attacking/looting a city as civilians flee. Step 3: Slice 53 shows the broader city burning with smoke and ruins. Step 4: Slice 52 shows a room of books and a globe burning, symbolizing cultural destruction. Conclusion: The sequence depicts arrival → sack → citywide fires → loss of knowledge spaces.",
+    "logic_check_reasoning": "Step 1: Slice 49 shows mounted warriors in traditional Mongol armor with the title 'The Mongols,' clearly depicting the Mongol arrival/preparation. Step 2: Slices 51 and 53 show an ancient city under attack and in flames, with soldiers on horseback looting and widespread destruction, supporting the transition to a city being attacked and burning. Step 3: Slice 52 shows an interior with a globe and bookshelves engulfed in flames, indicating a scholarly setting being destroyed, symbolizing cultural loss. Logic holds because the visuals progress from Mongol forces arriving to city destruction to burning of scholarly materials.",
+    "visual_proof": "Clip 1 shows a large cavalry force identified as 'The Mongols' moving across a plain. Clip 2 depicts a chaotic battle scene with smoke, fire, and civilians fleeing, representing the attack on Baghdad. Clip 3 provides an aerial view of a walled city under siege with multiple plumes of black smoke rising from within, indicating widespread destruction. Clip 4 shows an interior space, likely a library or study, with bookshelves and a celestial globe, completely consumed by fire, symbolizing the loss of knowledge and culture."
+  },
+  {
+    "question": "Which locations and powers are connected by the video moving from Baghdad-focused maps, to a later era labeled 'The Shiite Century,' and then to a title card announcing a new religious-political phase?",
+    "answer": "Baghdad under shifting dynasties (Buyids/Fatimids era) leads into 'The Shiite Century,' then transitions to 'The Sunni Revival.'",
+    "category": "Global_Summary",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      40,
+      41,
+      42,
+      43
+    ],
+    "reasoning_chain": "Step 1: Slice 40 zooms to Baghdad in a 10th-century geopolitical context. Step 2: Slice 41 explicitly frames the period as 'The Shiite Century' with Buyids and Fatimids highlighted. Step 3: Slice 42 presents a title card 'The Sunni Revival,' signaling a phase change. Step 4: Slice 43 then maps later powers including Seljuk Turks, aligning with the post-title shift in focus. Conclusion: Baghdad-centered dynastic shifts lead from a Shiite-dynasty era framing into a Sunni revival phase.",
+    "logic_check_reasoning": "Step 1: Slice 40 shows a map with regional powers (including Buyids among others) and then zooms into Baghdad, establishing the Baghdad-focused segment. Step 2: Slice 41 explicitly labels the period as 'The Shiite Century' and highlights Buyid dominance and Fatimid expansion, connecting the powers referenced in the answer. Step 3: Slice 42 presents the title card 'The Sunni Revival,' clearly indicating a new religious-political phase. The sequence and elements in the proposed answer (Baghdad, Buyids/Fatimids, Shiite Century, Sunni Revival) are directly supported by these slices.",
+    "visual_proof": "Clip 1 shows Baghdad as the center of the Buyid realm in 945 AD. Clip 2 expands the view to include the Fatimids and labels the period c.950-c.1050 as 'THE SHIITE CENTURY'. Clip 3 then presents a title card reading 'The Sunni Revival', indicating a subsequent historical phase. The sequence visually connects these locations and eras."
+  },
+  {
+    "question": "How does the video connect scholarly culture (manuscripts and calligraphy) to later destruction imagery involving books and fire?",
+    "answer": "It first highlights illuminated manuscripts and Arabic calligraphy, then later shows a room of bookshelves burning in a catastrophic fire.",
+    "category": "Causal_Inference",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      3,
+      22,
+      52,
+      53
+    ],
+    "reasoning_chain": "Step 1: Slice 3 features an illuminated manuscript with Arabic calligraphy and ornate borders. Step 2: Slice 22 again shows an old manuscript with Arabic calligraphy as part of cultural highlights. Step 3: Slice 52 shows bookshelves engulfed in flames, implying the loss of written knowledge. Step 4: Slice 53 broadens the destruction to a cityscape with widespread fires and smoke. Conclusion: Cultural preservation via manuscripts is contrasted with later imagery of libraries/cities burning.",
+    "logic_check_reasoning": "Step 1: Slice 3 explicitly shows an illuminated manuscript with intricate Arabic calligraphy, tying to scholarly culture. Step 2: Slice 22 again shows an old manuscript with Arabic calligraphy and scenes from the Islamic Golden Age, reinforcing the scholarly theme. Step 3: Slice 52 depicts a room with bookshelves filled with books being consumed by an intense fire, providing the destruction imagery involving books and fire. Logic holds because the video sequences include scholarly manuscripts/calligraphy first and later show books burning, matching the proposed connection.",
+    "visual_proof": "Clip 1 (0:01-0:02) displays Arabic calligraphy on a manuscript. Clip 2 (0:14-0:16) shows a Qur'an manuscript with Kufic script. Clip 3 (0:00-0:02) depicts a library or study room engulfed in flames, with bookshelves visible behind the fire. This sequence visually connects the preservation of knowledge through manuscripts to its destruction by fire."
+  }
+]

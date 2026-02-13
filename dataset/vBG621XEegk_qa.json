@@ -1,0 +1,42 @@
+[
+    {
+        "question": "An educational segment links Bosch to his local cathedral through interior choir stalls and then mentions a specific count of exterior gargoyles. What number of gargoyles is stated for that cathedral?",
+        "answer": "95 different gargoyles.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 19 identifies \"Choir Stalls in St. John's Cathedral.\" Step 2: Slice 20 states via overlay \"THERE ARE 95 DIFFERENT GARGOYLES ON ST. JOHN'S.\" Conclusion: The cathedral is said to have 95 different gargoyles.",
+        "logic_check_reasoning": "Step 1: Slice 19 presents interior choir stalls in St. John's Cathedral, establishing the cathedral context. Step 2: Slice 20 includes an on-screen text overlay stating \"THERE ARE 95 DIFFERENT GARGOYLES ON ST. JOHN'S,\" directly providing the count of gargoyles for that cathedral. Logic holds because the segment transitions from interior elements (choir stalls) to exterior details (gargoyles) of the same cathedral, and the specific number is explicitly stated.",
+        "visual_proof": "The second video clip, at timestamp 0:01-0:04, displays a close-up of moss-covered gargoyles on the cathedral's exterior. Superimposed on this image is the text: 'THERE ARE 95 DIFFERENT GARGOYLES ON ST. JOHN'S'. This directly provides the specific count mentioned in the question."
+    },
+    {
+        "question": "A sequence introduces official indulgence documents, then shows a portrait of Martin Luther. What historical controversy is suggested by placing these two elements back-to-back?",
+        "answer": "The selling of indulgences and the Protestant Reformation criticism associated with Martin Luther.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            66,
+            67,
+            71
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows a document labeled \"INDULGENCES\" and an illustration of indulgences being sold. Step 2: Slice 67 shows Martin Luther’s portrait (1529), a key Reformation figure known for opposing indulgence sales. Step 3: Slice 71 continues religious-historical themes of suffering and belief. Conclusion: The juxtaposition implies the indulgence controversy that helped spark the Reformation.",
+        "logic_check_reasoning": "Step 1: Slice 66 presents official indulgence documents and a market scene explicitly showing indulgences being sold, emphasizing their historical practice and significance. Step 2: Slice 67 presents a portrait of Martin Luther and identifies him as a key figure in the Protestant Reformation. Logic holds because juxtaposing the sale of indulgences with Martin Luther, known in the context as a Reformation leader, suggests the controversy surrounding indulgences that was central to Reformation critiques, thereby aligning with the proposed answer.",
+        "visual_proof": "Clip 1 visually presents an official document labeled 'INDULGENCES' with multiple seals, representing the Church's practice. Clip 2 immediately follows with a portrait of 'MARTIN LUTHER', explicitly identifying him. The juxtaposition of these two distinct visual elements—a symbol of Church doctrine (indulgences) and the figure who famously challenged it (Luther)—strongly suggests the historical controversy of his critique, which was a catalyst for the Protestant Reformation."
+    },
+    {
+        "question": "Which city is first introduced as Bosch’s hometown and later shown in modern footage featuring a statue of Bosch?",
+        "answer": "’s-Hertogenbosch (Den Bosch).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 12 introduces a town-square label \"S'HERTOGENBOSCH 1450\" in the Renaissance context. Step 2: Slice 13 later shows modern-day Den Bosch with a statue of Hieronymus Bosch. Conclusion: The same city is ’s-Hertogenbosch (Den Bosch).",
+        "logic_check_reasoning": "Step 1: Slice 13 introduces the city with a painting titled \"'S-HERTOGENBOSCH (DEN BOSCH)\" and later explicitly shows modern-day footage of Den Bosch featuring a statue of Hieronymus Bosch. Step 2: Slice 12 includes a blurred image labeled \"S'HERTOGENBOSCH 1450,\" linking the city contextually to Bosch. Logic holds because the city is introduced early and is later shown with a Bosch statue, matching the question's description.",
+        "visual_proof": "In Video 1, at 0:16, the text 'S'HERTOGENBOSCH 1450' appears over a shot of a historic brick building, identifying it as Bosch's hometown. In Video 2, at 0:10, modern footage shows a statue with the text 'S'HERTOGENBOSCH' superimposed, confirming the same city is featured in both contexts."
+    }
+]

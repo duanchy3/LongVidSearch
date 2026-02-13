@@ -1,0 +1,98 @@
+[
+    {
+        "question": "What same core safety symbol appears in both the animated phone graphic and the computer security imagery shown during the internet-safety segment?",
+        "answer": "A padlock/lock symbol.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            49,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 49 shows an animated smartphone with a padlock and an internet safety graphic. Step 2: Slice 51 includes a close-up of a computer screen showing a padlock icon. Conclusion: The shared symbol is a padlock/lock.",
+        "logic_check_reasoning": "Step 1: Slice 49 states the smartphone displays a padlock icon. Step 2: Slice 51 mentions a computer screen displaying a padlock icon indicating security/privacy. Logic holds because both the animated phone and the computer security imagery feature the same padlock symbol.",
+        "visual_proof": "In Clip 1, the animated phone graphic at 0:01-0:06 displays a green padlock icon on a shield. In Clip 2, the computer security imagery at 0:36-0:42 shows a pixelated padlock icon next to 'https://' in a browser bar. Both visuals prominently feature a padlock symbol to represent security."
+    },
+    {
+        "question": "Which child-focused STEM invention uses drones and is later shown with a drone labeled with its project name outdoors?",
+        "answer": "The Revere early tornado warning system.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 22 explains an early tornado warning system and shows a drone graphic tied to the project. Step 2: Slice 32 shows a drone outdoors labeled “REVERE.” Conclusion: The invention is the Revere early tornado warning system.",
+        "logic_check_reasoning": "Step 1: Slice 22 states a young boy presents the 'Revere Early Tornado Warning System' and shows a drone graphic, indicating the invention uses drones. Step 2: Slice 32 shows a modern drone labeled 'REVERE' outdoors, within the same NBC Nightly News Kids Edition context. Step 3: The 'REVERE' label matches the project name, linking the child’s drone-based invention to the outdoor shot of the labeled drone. Therefore, the invention is the Revere Early Tornado Warning System.",
+        "visual_proof": "In Clip 1, a young boy presents his project titled 'Revere: An Early Tornado Warning System' with drones on his table. In Clip 2, a drone is shown outdoors with the word 'REVERE' superimposed over it, directly linking the project name to the drone in an outdoor setting."
+    },
+    {
+        "question": "How does the program connect children’s STEM innovation (drones) to real-world consequences shown later (tornado devastation), and what is the intended outcome of using the technology?",
+        "answer": "It presents kids building drone-based warning tools, then shows drones near tornadoes and over damage, implying the goal is earlier warning and better response to reduce harm.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            22,
+            36,
+            30
+        ],
+        "reasoning_chain": "Step 1: Slice 3 introduces an “Early Tornado Warning System” concept. Step 2: Slice 22 ties that idea to drones in a kid inventor segment. Step 3: Slice 36 shows drones filming a tornado and aftermath from above. Step 4: Slice 30 shows ground-level devastation and survivors walking through debris. Conclusion: The technology is meant to enable earlier warnings and improved disaster response to mitigate harm.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows a young inventor presenting the 'Revere Early Tornado Warning System' with a drone graphic, indicating drone-based STEM innovation aimed at early warnings. Step 2: Slice 3 reinforces this with on-screen text 'Early Tornado Warning System.' Step 3: Slice 36 depicts a drone capturing footage near a tornado and over the damaged neighborhood, emphasizing its role in disaster response and documentation. Step 4: Slice 30 shows the real-world tornado devastation, providing the consequence context. Logic holds because the program first showcases kids' drone-focused warning technology, then illustrates drones operating in actual tornado scenarios and aftermath, and the stated roles include understanding/responding, which supports the intended outcome of earlier warning and better response.",
+        "visual_proof": "Clip 1 & 2 show a young boy presenting his 'Revere: Early Tornado Warning System' project with a drone at a science fair. Clip 3 shows a close-up of the drone's electronics and a phone app displaying 'Tornado Risk', followed by footage of a tornado with text 'UP TO 40 MINUTES' and aerial shots of destruction. Clip 4 shows people sifting through rubble. The sequence visually links the children's STEM project (drones) to the real-world problem (tornado devastation), with the 'UP TO 40 MINUTES' text strongly implying the intended outcome is to provide more lead time for warnings to mitigate the shown destruction."
+    },
+    {
+        "question": "Which animal appears in a lighthearted segment and is later featured again as a mother holding her baby in the 'Picture of the Week' style segment?",
+        "answer": "A monkey.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            43
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a playful monkey interacting with a colorful food ball. Step 2: Slice 43 shows a mother monkey holding an orange baby monkey. Conclusion: The recurring animal is a monkey.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 describes a lighthearted moment featuring a monkey interacting with a colorful ball in a zoo/sanctuary setting. Step 2: Evidence Slice 43 describes a 'Picture of the Week' segment showing a mother monkey holding her baby. Logic holds because both slices explicitly reference a monkey, first in a playful context and later as a mother with her baby, matching the question's description.",
+        "visual_proof": "In the first clip, a black-furred monkey with an orange-headed baby is shown in a lighthearted segment at the OKC Zoo. The same pair reappears in the second clip under the 'PICTURE OF THE WEEK' title, confirming it's the same animal featured again as a mother holding her baby."
+    },
+    {
+        "question": "How does the program connect the historical Soviet Union map content to present-day conflict coverage involving Ukraine?",
+        "answer": "It shows Soviet Union maps and history, then transitions to protests and war-related scenes connected to Ukraine.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            8,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 7 presents a “World History” book and map of the Soviet Union. Step 2: Slice 8 shows a Soviet Union map with communist symbolism and then Ukrainian-flag crowds. Step 3: Slice 6 shows tanks, displaced civilians, and a Ukraine map explaining the conflict geography. Conclusion: Soviet history/maps are used to frame modern Ukraine conflict coverage.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows a historian introducing content with a black-and-white cityscape and a 'World History' book featuring a map of the Soviet Union, establishing historical context. Step 2: Slice 8 begins with a Soviet Union map (hammer and sickle overlay) and then transitions to a crowd waving Ukrainian flags, indicating protests tied to the region’s present issues. Step 3: Slice 6 depicts active military conflict scenes and maps highlighting Ukraine and Russia, connecting the historical backdrop to current war coverage. Logic holds because the sequences move from Soviet history/maps to modern protests and conflict involving Ukraine.",
+        "visual_proof": "Clip 1 introduces the topic with a historian and shows a book titled 'World History' opening to a map of the Soviet Union. Clip 2 continues with an animated map of the Soviet Union, followed by archival footage of the Berlin Wall's fall and a large crowd waving Ukrainian flags, indicating a transition from historical context to modern events in Ukraine. Clip 3 then shows contemporary war imagery (tanks, smoke over a city, civilians fleeing) and a modern map highlighting Ukraine and its neighbors, directly linking the historical background to the current conflict."
+    },
+    {
+        "question": "How does the program visually shift from serious war coverage to a message about children’s emotional well-being, while still keeping Ukraine imagery present?",
+        "answer": "It shows conflict-related Ukraine visuals and flags, then transitions to a segment explaining that feeling sad or anxious is normal, while a Ukraine flag appears in the mental-health themed sequence.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            12,
+            17,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows tanks, smoke, and evacuation—serious war coverage. Step 2: Slice 12 shows large Ukraine-support rallies with flags. Step 3: Slice 17 includes Ukraine-flag imagery and text about feeling sad or anxious being normal. Step 4: Slice 18 continues a serious tone with an expert speaker and a candle vigil. Conclusion: The tone shifts from war coverage to emotional well-being messaging while retaining Ukraine-related visuals.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows serious war coverage with tanks, civilians evacuating, and maps highlighting Ukraine and Russia, establishing the conflict and Ukraine imagery. Step 2: Slice 12 depicts a large protest with Ukrainian flags, maintaining Ukraine visuals and a serious tone. Step 3: Slice 17 shifts to 'NBC Nightly News Kids Edition' focusing on children's emotional well-being with text like 'MAKE YOU FEEL SAD OR ANXIOUS' and 'IT'S NORMAL', and notably includes a frame of a person holding a Ukrainian flag, keeping Ukraine imagery present within the mental health segment. Step 4: Slice 18 features a psychiatrist speaking and a vigil, supporting the emotional well-being theme. The logic holds because the visuals move from conflict to a mental health message while continuing to feature Ukraine imagery, exactly as the proposed answer states.",
+        "visual_proof": "Clip 1 (0:00-0:15) displays tanks, smoke over a city, civilians fleeing, and maps of Ukraine. Clip 2 (0:00-0:04) shows protesters holding Ukrainian flags at a rally. Clip 3 (0:00-0:09) features a woman holding a Ukrainian flag next to graffiti with the flag's colors, followed by text overlays 'MAKE YOU FEEL SAD OR ANXIOUS' and 'IT'S NORMAL' over a silhouette of a person sitting on the floor. This visual progression confirms the transition from war imagery to emotional well-being messaging while retaining Ukrainian symbolism."
+    },
+    {
+        "question": "In the hospital-related storyline, what instrument does the young patient play, and where is she shown playing it earlier in the program?",
+        "answer": "A toy keyboard; she is shown playing it earlier in a hospital room at Johns Hopkins Children’s Center.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a young girl in a hospital gown smiling and playing a toy keyboard. Step 2: Slice 62 returns to the Johns Hopkins Children’s Center story showing the girl playing a toy piano/keyboard with the hospital identified. Conclusion: The instrument is a toy keyboard and it’s played in the hospital setting.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 5, Segment 4 describes a young girl in a hospital room playing a toy keyboard. Step 2: Evidence Slice 62 shows the same hospital scene with the girl playing a toy piano and includes a text overlay reading 'JOHNS HOPKINS CHILDREN'S CENTER,' confirming the location. Step 3: The 'earlier in the program' reference aligns with the initial hospital room scene. The slight naming difference (toy keyboard vs. toy piano) is acceptable per instructions as they clearly refer to the same toy instrument. Therefore, both the instrument and the specific location are supported.",
+        "visual_proof": "In Video 1, frame 0:10, the young girl is seen in a hospital bed with a small white toy keyboard on her tray table. In Video 2, frame 0:03, the same girl is shown in a similar hospital setting, smiling while interacting with the same toy keyboard. The text overlay 'JOHNS HOPKINS CHILDREN'S CENTER' confirms the location in both instances."
+    }
+]

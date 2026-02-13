@@ -1,0 +1,140 @@
+[
+    {
+        "question": "When the vlogger ends up lying down to rest inside the airport, what earlier milestone on his walk shows how long he had been traveling on foot just before reaching the terminal?",
+        "answer": "A shot of the illuminated LAX sign with text saying it was 2:35 AM and “2 HOURS OF WALKING LATER.”",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            80,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 83 shows the man lying on the floor indoors in an airport-like space, indicating he has reached the terminal and is exhausted. Step 2: Slice 80 shows the LAX sign and overlay stating “2 HOURS OF WALKING LATER” at 2:35 AM, establishing the preceding walking milestone. Conclusion: The earlier milestone is the LAX sign moment indicating two hours of walking.",
+        "logic_check_reasoning": "Step 1: Slice 83 shows the vlogger lying down to rest inside an indoor public space likely the airport. Step 2: Slice 80 describes an earlier scene featuring an illuminated LAX sign with on-screen text showing the time 2:35 AM and the caption '2 HOURS OF WALKING LATER,' indicating the duration of the walk before reaching the terminal. Logic holds because Slice 80 provides the time and duration milestone preceding the airport rest shown in Slice 83.",
+        "visual_proof": "Clip 1 shows the vlogger walking at night, then arriving at the large, illuminated 'LAX' sign. On-screen text explicitly states '2:35 AM' and '2 HOURS OF WALKING LATER,' directly indicating the duration of his walk just before reaching that point. Clip 2 shows him lying down to rest inside the airport, confirming he reached the terminal after this walk."
+    },
+    {
+        "question": "Which two different late-night timestamps bracket the moment he checks a “KEEP OFF” sign near the water and later shows an overlay about being 15 hours into a challenge?",
+        "answer": "10:58 PM and 12:00 AM.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows the “KEEP OFF” sign with a timestamp of 10:58 PM. Step 2: Slice 27 shows an aerial city view with text “12:00 AM 15 hours into the challenge.” Conclusion: The two timestamps are 10:58 PM and 12:00 AM.",
+        "logic_check_reasoning": "Step 1: Slice 25 explicitly mentions a 'KEEP OFF' sign and shows the on-screen time as 10:58 PM. Step 2: Slice 27 explicitly shows an overlay reading '12:00 AM 15 hours into the challenge.' These two late-night timestamps directly correspond to the described moments, so the logic holds.",
+        "visual_proof": "Clip 1 shows a timestamp of '10:58 PM' overlaid on a night scene near water, immediately followed by a shot of a sign that reads 'KEEP OFF'. Clip 2 shows an aerial night view with a timestamp of '12:00 AM' and text below it stating '15 hours into the challenge'. These two distinct timestamps bracket the events described in the question."
+    },
+    {
+        "question": "What clothing detail connects the person climbing onto the beach lifeguard tower with the same traveler later walking past the LAX sign after hours of walking?",
+        "answer": "White sneakers.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a person in white sneakers walking up to and climbing onto a lifeguard tower at night. Step 2: Slice 80 shows the traveler walking at night and later past the LAX sign, also in white sneakers. Conclusion: White sneakers visually link the traveler across the two scenes.",
+        "logic_check_reasoning": "Step 1: Slice 24 states the person climbing onto the lifeguard tower is wearing white sneakers. Step 2: Slice 80 describes the traveler, later shown walking past the LAX sign after \"2 HOURS OF WALKING LATER,\" as wearing white sneakers. Logic holds because both scenes in the same video depict the traveler with the same footwear, connecting the two moments.",
+        "visual_proof": "In Video 1, at 0:04-0:05, the person climbing the lifeguard tower is clearly wearing white sneakers, visible against the dark sand. In Video 2, at 0:00-0:01, the same person walking on the sidewalk is also wearing white sneakers, which are again clearly visible as they move. The consistent footwear across both clips connects the two scenes."
+    },
+    {
+        "question": "After he retrieves a cardboard box from a trash bin, what is the food shown inside a similar box shortly afterward?",
+        "answer": "Chicken drumsticks and roasted potatoes.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows hands retrieving a cardboard box from a trash bin. Step 2: Slice 48 shows the man opening a cardboard box containing fried chicken and fries. Conclusion: The food shown afterward is fried chicken and fries.",
+        "logic_check_reasoning": "Step 1: Slice 47 shows someone retrieving a cardboard box from a trash bin. Step 2: Slice 48 shows a man opening a cardboard box that contains several pieces of fried chicken and fries. Logic holds because the question asks what food is shown inside a similar box shortly afterward, and Slice 48 explicitly identifies the food as fried chicken and fries.",
+        "original_text_answer": "Fried chicken and fries.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In the first clip, a person retrieves a cardboard box from a trash bin. In the second clip, the same person opens a similar box, revealing chicken drumsticks and pieces of roasted potatoes, not fried chicken or fries. The food items are clearly visible and identifiable as drumsticks and potatoes."
+    },
+    {
+        "question": "Across the ‘challenge’ night, what three different times are explicitly shown as he moves from early evening into very late night?",
+        "answer": "8:06 PM, 10:58 PM, and 2:30 AM.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            25,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 20 displays the time 8:06 PM during nighttime street scenes. Step 2: Slice 25 shows 10:58 PM near the water with a “KEEP OFF” sign. Step 3: Slice 31 shows 2:30 AM while he walks and talks. Conclusion: The explicit times are 8:06 PM, 10:58 PM, and 2:30 AM.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 20 explicitly states that the time '8:06 PM' appears on the screen during a nighttime street scene. Step 2: Evidence Slice 25 explicitly states that the time displayed on the screen is 10:58 PM, also at night. Step 3: Evidence Slice 31 explicitly states that the time displayed on the screen is 2:30 AM while a man walks and talks at night. The progression from 8:06 PM to 10:58 PM to 2:30 AM matches the movement from early evening into very late night. All three times are directly supported by the captions.",
+        "visual_proof": "The timestamps are explicitly overlaid on the video frames. Clip 1 shows '8:06 PM' at 0:04. Clip 2 shows '10:58 PM' at 0:13. Clip 3 shows '2:30 AM' at 0:03. These three distinct times are clearly visible across the clips."
+    },
+    {
+        "question": "How does the video show a shift from calm reflection by the beach at sunset to a later return to nighttime vlogging in the city—what sunset action is shown, and what later night behavior returns?",
+        "answer": "He sits facing the ocean at sunset, and later he resumes walking through city streets at night talking to the camera.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            62,
+            63,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 62 shows him walking to the beach at sunset and sitting down facing the ocean. Step 2: Slice 63 continues with him sitting calmly near the beach during sunset. Step 3: Slice 64 shows him later at night in an urban environment, speaking to the camera while walking. Conclusion: The arc is sunset ocean-facing reflection → nighttime urban vlogging.",
+        "logic_check_reasoning": "Step 1: Slice 62 describes a person at sunset walking to the beach and then sitting down facing the ocean, indicating calm reflection. Step 2: Slice 63 reinforces this by showing the person sitting on the grass near the beach at sunset, looking out at the ocean. Step 3: Slice 64 shows a man at night in a city walking and speaking directly to the camera in a vlog-style manner. Logic holds because the sunset action (sitting facing the ocean) is explicitly shown in Slices 62 and 63, and the later night behavior (walking in the city while talking to the camera) is explicitly shown in Slice 64.",
+        "visual_proof": "Clip 1 and Clip 2 show the man sitting cross-legged on a sandy dune, facing the ocean during sunset with a cloudy sky. His posture is still and contemplative. Clip 3 shows the same man, now at night, walking on a city street while holding the camera and talking directly into it, indicating a return to vlogging."
+    },
+    {
+        "question": "What indicates the shift from evening mall-area activity to later-night street exploration: which earlier timestamp at a shopping/entertainment building is contrasted with a later timestamp when he’s out walking and filming at night?",
+        "answer": "6:50 PM at the Kaleidoscope building contrasted with 9:47 PM during a nighttime street time-lapse.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows the Kaleidoscope building with an on-screen timestamp of 6:50 PM. Step 2: Slice 21 shows a nighttime walking time-lapse with the timestamp 9:47 PM. Conclusion: The evening-to-night shift is marked by 6:50 PM vs 9:47 PM.",
+        "logic_check_reasoning": "Step 1: Slice 17 explicitly mentions a timestamp of 6:50 PM while the man enters the Kaleidoscope building, identified as a shopping/entertainment center. Step 2: Slice 21 explicitly mentions a timestamp of 9:47 PM during a time-lapse of the man walking down a city street at night. Logic holds because the earlier evening mall-area activity (6:50 PM at Kaleidoscope) is contrasted with a later-night street exploration (9:47 PM time-lapse), matching the proposed answer.",
+        "visual_proof": "Clip 1 opens with a clear timestamp overlay '6:50 PM' as the man walks in front of a modern building with visible storefronts and signage, consistent with a shopping/entertainment area. Clip 2 includes a distinct timestamp overlay '9:47 PM' showing a dark, empty sidewalk with streetlights and traffic, indicating a later-night setting for street exploration. The visual transition from dusk/darkening (6:50 PM) to full night (9:47 PM) confirms the temporal shift."
+    },
+    {
+        "question": "What’s the sequence of locations that shows him traveling from city streets to space and later to an airport terminal—name the key ‘scale jump’ scene and the later travel hub interior?",
+        "answer": "A dramatic zoom-out to an Earth-from-space view, and later the interior of LAX/Southwest check-in counters.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            80,
+            81
+        ],
+        "reasoning_chain": "Step 1: Slice 8 transitions from city driving to an aerial city view and then to Earth from space (scale jump). Step 2: Slice 80 shows the illuminated LAX sign and then movement into an indoor airport corridor. Step 3: Slice 81 shows the airport interior with ‘Southwest’ check-in counters. Conclusion: The key jump is Earth-from-space, followed later by LAX and the Southwest terminal interior.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes a man driving through city streets and then a rapid zoom-out culminating in a shot of the Earth from space. This supports the 'scale jump' as Earth-from-space. Step 2: Slice 80 shows progression to LAX with an illuminated LAX sign and movement into the airport, indicating the travel hub. Step 3: Slice 81 details the interior of the terminal with Southwest check-in counters, supporting the later travel hub interior. The logic holds: city to space (Slice 8) and later LAX interior with Southwest counters (Slices 80 and 81).",
+        "visual_proof": "Clip 1 ends with a rapid zoom-out from city streets to a satellite/Earth-from-space perspective. Clip 2 shows the 'LAX' sign at night, establishing the airport location. Clip 3 shows the interior of an airport terminal with clearly visible 'Southwest' branding at check-in counters, confirming the travel hub interior."
+    },
+    {
+        "question": "What four-part journey shows him going from an urban night aerial view to beach solitude and then to a rules/warning sign near water—name the city view, the beach action, the lifeguard-tower moment, and the warning sign?",
+        "answer": "An aerial night city view, walking on the beach at night, climbing/sitting on a lifeguard tower, and then seeing a ‘KEEP OFF’ sign near the water.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            22,
+            23,
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 22 opens with an aerial city view at night. Step 2: Slice 23 shows the man walking on a beach at night. Step 3: Slice 24 shows a person climbing onto a lifeguard tower and sitting on it. Step 4: Slice 25 shows a ‘KEEP OFF’ sign near a body of water at 10:58 PM. Conclusion: These four scenes form a city-to-beach-to-restriction journey.",
+        "logic_check_reasoning": "Step 1: Slice 22 shows an aerial view of a city at night, matching the 'urban night aerial view.' Step 2: Slice 23 depicts a man walking on the beach at night, aligning with 'walking on the beach at night.' Step 3: Slice 24 shows a person climbing onto and sitting on a lifeguard tower, fitting 'climbing/sitting on a lifeguard tower.' Step 4: Slice 25 focuses on a sign reading 'KEEP OFF' near water, satisfying the 'rules/warning sign near water.' The visual sequence supports all four parts, and minor identity inconsistencies are acceptable per instructions.",
+        "visual_proof": "Clip 1 opens with an aerial night view of a city. Clip 2 shows the man walking on a dark beach at night. Clip 3 depicts him climbing and then sitting inside a lifeguard tower. Clip 4 concludes with a close-up of a white sign that reads 'KEEP OFF' near the water's edge, confirming all four parts of the journey."
+    },
+    {
+        "question": "What three-step progression shows him going from sitting near a luxury storefront area to walking at night and then eating indoors—describe the sitting spot, the nighttime walking moment, and the restaurant scene?",
+        "answer": "He sits on a green chair in front of a Chanel store, later walks and waves at night outside, and then sits inside a fast-food restaurant eating at a table.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            21,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows him seated on a green chair in front of a Chanel store. Step 2: Slice 21 shows him walking outdoors at night, smiling and waving. Step 3: Slice 21 also includes him at a table inside a fast-food restaurant eating; Slice 19 supports the ongoing nighttime urban walking vibe. Conclusion: The progression is Chanel seating → nighttime walking → indoor fast-food eating.",
+        "logic_check_reasoning": "Step 1: Slice 18 explicitly says he is sitting on a green chair in front of a Chanel store (luxury storefront). Step 2: Slice 18 and Slice 21 show him walking at night, with Slice 21 adding that he smiles and waves while walking. Step 3: Slice 21 then shows him inside a fast-food restaurant, sitting at a table and eating. The proposed answer matches these details.",
+        "visual_proof": "Clip 1 shows him sitting on a green chair with a Chanel storefront visible behind him. Clip 2 shows him walking outdoors at night, waving to the camera, and later seated at a table inside what is identifiable as a McDonald's by the logo on the cup and packaging. These three distinct scenes match the described progression."
+    }
+]

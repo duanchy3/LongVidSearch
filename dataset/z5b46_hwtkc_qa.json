@@ -1,0 +1,155 @@
+[
+    {
+        "question": "What horror/mystery film does the recap introduce at the beginning, and later which racist slogan is shown in a social-media post connected to an investigation scene?",
+        "answer": "The film is \"Aftermath,\" and the slogan is \"UNITE THE WHITE.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces the recap and shows the movie poster for \"Aftermath.\" Step 2: Slice 45 shows a Facebook post titled \"UNITE THE WHITE.\" Conclusion: The recap is for Aftermath and later highlights the \"UNITE THE WHITE\" post.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states the video is recapping a horror/mystery film from 2021 and shows a movie poster for 'Aftermath,' confirming the film introduced is Aftermath. Step 2: Evidence Slice 45 describes a scene showing a Facebook post titled 'UNITE THE WHITE,' clearly identifying the racist slogan shown in the social-media post. The question asks for these two elements, and both are explicitly supported by the provided slices.",
+        "visual_proof": "Clip 1 (0:09) visually displays the movie poster for \"AFTERMATH\" alongside text introducing a horror/mystery film recap. Clip 2 (0:03) shows a clear screenshot of a social media post with the exact heading \"'UNITE THE WHITE'\" under the user name Darrell Ray Bodean, which is presented as part of an investigation scene."
+    },
+    {
+        "question": "During the moving/unpacking storyline, what animal calmly appears during a heated argument, and what is the animal’s name shown later on the handwritten feeding note?",
+        "answer": "A dog appears, and its name is Odi.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a tense argument and then a cat walking on a table. Step 2: Slice 34 shows a note by a cat bowl reading \"DAN! PLEASE FEED TADY.\" Conclusion: The animal is a cat and its name is Tady.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 11 describes a moving/unpacking scene with two women arguing and explicitly mentions a cat walking calmly across a table during the heated argument. Step 2: Evidence Slice 34 shows a note placed next to a cat bowl that reads \"DAN! PLEASE FEED TADY,\" explicitly providing the cat’s name. Logic holds because Slice 11 identifies the animal as a cat in the relevant storyline, and Slice 34 later provides the cat’s name on a handwritten note, matching the question’s requirements.",
+        "original_text_answer": "A cat appears, and its name is Tady.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, a fluffy brown dog walks into the frame during what appears to be an argument. In Clip 2, a handwritten note is shown that reads 'DANI please FEED ODI', confirming the animal is a dog named Odi, not a cat named Tady."
+    },
+    {
+        "question": "Which device is emphasized being adjusted in a tense nighttime scene, and later what interface indicates the bedroom is being recorded like surveillance footage?",
+        "answer": "A thermostat/control panel is adjusted, and a security-camera style interface with a \"REC\" indicator is shown.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 21 focuses on someone pressing buttons on a wall-mounted thermostat/control panel at night. Step 2: Slice 75 shows the couple through a security camera interface with recording indicators. Conclusion: The story stresses home systems (thermostat/control) and later explicitly shows surveillance-style recording.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 21 describes a person interacting with a wall-mounted thermostat or control panel, pressing buttons/adjusting settings, clearly emphasizing this device. Step 2: Evidence Slice 75 notes a view through a security camera interface with a 'REC' symbol and recording indicators, indicating surveillance-style footage. The logic holds because both details directly answer the question and are explicitly stated in the slices.",
+        "visual_proof": "In Clip 1 (0:06-0:10), a woman is seen adjusting a digital wall-mounted device displaying temperature numbers (31, then 60), which is clearly a smart thermostat. In Clip 2 (0:08), the scene shifts to a night-vision view of the bedroom with an overlay in the top right corner showing 'REC' with a red dot, battery level, file count, and other camera settings, mimicking a surveillance feed."
+    },
+    {
+        "question": "What comforting action does a man do for a distressed woman on a couch, and later what action shows the couple’s intimacy in a candlelit room?",
+        "answer": "He gently touches her shoulder and back to comfort her, and later the couple shares a kiss.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            31,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows a man holding a woman’s hand while she lies distressed on a couch. Step 2: Slice 56 shows an intimate scene where a woman comforts a man and they kiss. Conclusion: The relationship dynamics shift from comfort/care to overt intimacy (kissing).",
+        "logic_check_reasoning": "Step 1: Slice 31 describes a man comforting a distressed woman on a couch, explicitly stating he is holding her hand and talking to her to calm her down. Step 2: Slice 56 shows a man and woman in a dim, intimate setting sharing a tender kiss, clearly indicating intimacy. The proposed answer matches both explicitly supported actions: hand-holding for comfort and a kiss for intimacy. The 'candlelit' detail in the question is covered by the dim, cozy ambiance, and the answer does not rely on that detail.",
+        "original_text_answer": "He holds her hand to comfort her, and later the couple shares a kiss.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the man is seen kneeling beside the couch and placing his hand on the woman's shoulder and back as she lies down, showing a comforting gesture. In Clip 2, after a moment of emotional tension where the man bows his head, he lifts his gaze and leans in to kiss the woman, confirming their intimate moment."
+    },
+    {
+        "question": "In the storyline involving deliveries, what item does the man in a hoodie hand over at the door, and later what item is the man holding when seen again in a professional/institutional setting?",
+        "answer": "He hands over a box, and he is later seen holding a cardboard box again.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a man in a hoodie at a door handing a box to a woman. Step 2: Slice 23 shows a man in a modern institutional setting holding a cardboard box. Conclusion: The recurring object is a box/parcel carried between scenes.",
+        "logic_check_reasoning": "Step 1: Slice 22 states that a man in a black hoodie standing at a door is holding a box and hands it to the woman. Therefore, the item handed over at the door is a box. Step 2: Slice 23 describes a man in a professional/institutional setting holding a cardboard box. Therefore, the item he is holding later is a cardboard box. The clothing differs but the actions and items align, supporting the continuity of the delivery storyline.",
+        "visual_proof": "In the first clip (22), at 0:29-0:30, a man in a hoodie is seen opening the door and receiving a cardboard box from a delivery person. In the second clip (23), at 0:00-0:03, the same man in the hoodie is shown indoors, holding the same type of cardboard box. The visual evidence confirms he both receives and holds a cardboard box."
+    },
+    {
+        "question": "Which object indicates extremist content in an office investigation, and later what kind of multi-camera monitoring setup appears elsewhere in the video?",
+        "answer": "A Facebook post on a computer screen shows the extremist content, and later a wall of multiple camera feeds is shown on a large screen.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a computer screen with a Facebook post titled \"UNITE THE WHITE.\" Step 2: Slice 58 shows two men in front of a large screen displaying multiple camera feeds. Conclusion: The video depicts both online investigation and surveillance monitoring.",
+        "logic_check_reasoning": "Step 1: Slice 45 shows a computer screen with a Facebook post titled 'UNITE THE WHITE' containing extremist rhetoric, which identifies the object indicating extremist content. Step 2: Slice 58 describes two men in front of a large screen displaying multiple camera feeds, which fits the description of a multi-camera monitoring setup. Logic holds because the answer directly matches these described visuals: the extremist content is on a Facebook post on a computer screen, and the monitoring setup is a large screen with multiple feeds.",
+        "visual_proof": "Clip 1 shows a close-up of a computer screen displaying a Facebook post titled 'UNITE THE WHITE' with extremist text. Clip 2 shows two men looking at a large monitor displaying multiple live security camera feeds from different angles of a house, confirming the multi-camera monitoring setup."
+    },
+    {
+        "question": "Track the woman in yellow across locations: what task is she doing while moving boxes, what does she do in the kitchen with another woman, and what beverage container is emphasized during the kitchen talk?",
+        "answer": "She carries/unpacks boxes while moving, then prepares a drink in the kitchen, and the red mug is emphasized.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            47,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows a woman in a yellow T-shirt moving through an apartment carrying and unpacking boxes. Step 2: Slice 47 shows a woman in a yellow top preparing a drink in a kitchen while talking to another woman. Step 3: Slice 49 highlights the red mug during the kitchen conversation. Conclusion: The same yellow-top woman is tracked from moving tasks to kitchen conversation centered on a red mug.",
+        "logic_check_reasoning": "Step 1: Slice 10 describes a woman in a yellow T-shirt carrying a box and then unpacking/sorting its contents, indicating she is moving/organizing items. Step 2: Slice 47 shows the woman in a yellow top in a kitchen preparing a drink and interacting with another woman, confirming the kitchen activity with another person. Step 3: Slices 47 and 49 both highlight a red mug—Slice 47 mentions her handling a red mug, and Slice 49 shows her holding a red mug during conversation—emphasizing the beverage container. Logic holds because the consistent visual attribute (yellow top) links the same woman across locations and actions.",
+        "visual_proof": "In Clip 1, the woman in yellow is seen carrying a box into the house and later unpacking items from a box. In Clip 2, she walks into the kitchen holding a red mug and places it on the table for another woman. In Clip 3, the red mug is prominently placed on the table between them during their conversation, visually emphasized as a focal point."
+    },
+    {
+        "question": "How does a woman’s nighttime fear escalate: what time is shown on the digital clocks when she wakes up scared, what symptom is shown immediately after in another bed close-up, and who later comforts a distressed woman on a couch?",
+        "answer": "The clocks show 1:00, the person clutches their chest in pain/distress, and a man in a dark hoodie comforts a woman on a couch.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows a frightened wake-up moment with two digital clocks reading 1:00. Step 2: Slice 30 shows a distressed person on a bed clutching their chest. Step 3: Slice 31 shows a man in a dark hoodie holding a distressed woman’s hand on a couch. Conclusion: The narrative links late-night fear to physical distress and then to being cared for by a supportive partner.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows a woman waking up scared and two digital clocks displaying '1:00'. Step 2: Slice 30 shows a close-up of a person on a bed clutching their chest, indicating pain/distress. Step 3: Slice 31 shows a man in a dark-colored hoodie comforting a distressed woman on a couch by holding her hand and talking to her. The details align with the proposed answer.",
+        "visual_proof": "Clip 1 shows a digital clock reading '1:00' next to a woman who then wakes up startled. Clip 2 shows a close-up of a woman in bed clutching her chest with a pained expression. Clip 3 shows a man in a dark hoodie sitting beside a distressed woman on a couch, placing his hand on her shoulder to comfort her."
+    },
+    {
+        "question": "Connect the surveillance/investigation thread: what object is reviewed in a photo-search scene, what social-media platform appears later with extremist writing, and what later visual suggests a laptop is used to view disturbing imagery?",
+        "answer": "A photo album is reviewed, Facebook is shown with extremist content, and a laptop displays a black-and-white image of a person lying down.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            43,
+            45,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows someone flipping through a photo album. Step 2: Slice 45 shows a Facebook post with extremist content on a computer. Step 3: Slice 69 shows a laptop screen with a black-and-white image of a person lying down. Conclusion: The story escalates from personal photo review to online extremist evidence and then to disturbing digital footage/images.",
+        "logic_check_reasoning": "Step 1: Slice 43 explicitly shows a person flipping through a photo album, indicating a photo-search scene. Step 2: Slice 45 shows a computer screen with a Facebook post titled 'UNITE THE WHITE,' which is extremist content, identifying the social-media platform as Facebook. Step 3: Slice 69 describes a laptop screen showing a black-and-white image of a person lying down, suggesting disturbing imagery being viewed on a laptop. The logic holds and each element is directly supported by the slices.",
+        "visual_proof": "Clip 1 shows a person flipping through a physical photo album. Clip 2 displays a screenshot of a Facebook post with extremist text titled 'UNITE THE WHITE'. Clip 3 shows a laptop screen playing surveillance footage in black and white, where a person is seen lying on the floor."
+    },
+    {
+        "question": "Track the 'stairs' motif across escalating tension: who is shown cautiously moving down stairs in a dark scene, who later runs up industrial stairs with a flashlight beam present, and who finally is carried up a staircase in a calmer domestic moment?",
+        "answer": "A man moves down stairs cautiously, a woman runs up industrial stairs during a search/chase, and later a man carries a woman up a home staircase.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            39,
+            98
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows a man descending a staircase in a dark, tense environment. Step 2: Slice 39 shows a woman running up an industrial staircase while a flashlight illuminates the scene. Step 3: Slice 98 shows a man carrying a woman up a domestic staircase. Conclusion: Staircases recur from danger (descending/escape/search) to care (being carried upstairs).",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly describes a man cautiously and alertly descending a staircase in a dark, dimly lit scene, matching 'a man moves down stairs cautiously in a dark scene.' Step 2: Slice 39 shows a flashlight beam in a dim environment and then a woman running up an industrial staircase, consistent with 'a woman runs up industrial stairs with a flashlight beam present.' Step 3: Slice 98 depicts a calmer domestic moment where a man carries a woman up a home staircase, aligning with 'a man carries a woman up a home staircase.' The elements align across slices, and the proposed sequence matches the described scenes.",
+        "visual_proof": "Clip 1 shows a man in dark clothing moving cautiously down a dimly lit staircase. Clip 2 features a woman running up a different, more industrial-looking staircase while holding a flashlight that illuminates her path. Clip 3 depicts a man carrying a woman up a well-lit, domestic-style staircase in a calm, non-urgent manner."
+    },
+    {
+        "question": "How does the video escalate from private fear to public law enforcement action: what time is shown when a woman wakes in fear, what later scene shows the couple viewed through a \"REC\" security-camera interface, what scene shows flashing police lights, and what scene shows an armed man aiming near a police car outside a house?",
+        "answer": "The time is 1:00, then the couple is shown on a security-camera \"REC\" view, then police lights flash, and then a man aims a gun near a police car outside a house.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            28,
+            75,
+            96,
+            97
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows a fearful wake-up with clocks reading 1:00. Step 2: Slice 75 shows the bedroom through a security camera interface with \"REC,\" intensifying paranoia/surveillance. Step 3: Slice 96 introduces a police car with flashing red/blue lights, indicating escalation to authorities. Step 4: Slice 97 shows an armed confrontation outside a house with police present. Conclusion: The story escalates from nighttime fear to surveillance to police arrival to an armed standoff.",
+        "logic_check_reasoning": "Step 1: Slice 28 explicitly shows a woman waking in fear and two digital clocks reading '1:00'. Step 2: Slice 75 later depicts the couple viewed through a security camera interface with a visible 'REC' indicator. Step 3: Slice 96 introduces a police car with flashing red and blue lights, indicating law enforcement presence. Step 4: Slice 97 shows an outside nighttime scene where a man is aiming a gun near a police car outside a house. The proposed answer correctly lists these elements in sequence, matching the escalation from private fear to public law enforcement action.",
+        "visual_proof": "Clip 1 shows a digital clock reading '1:00' as the woman wakes in fear. Clip 2 shows the couple in bed from a night-vision camera perspective with a 'REC' overlay. Clip 3 shows flashing red and blue police lights. Clip 4 shows an armed man aiming a gun near a police car outside a house at night."
+    }
+]

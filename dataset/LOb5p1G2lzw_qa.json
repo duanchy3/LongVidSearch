@@ -1,0 +1,97 @@
+[
+    {
+        "question": "Which object is used as a festive cultural prop in a park, and what other festive cultural element later appears as a live performance in the streets?",
+        "answer": "A colorful cat-shaped piñata, and a mariachi band performing on the street.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows a man preparing a colorful piñata in a park. Step 2: Slice 38 shows mariachi musicians performing in the street. Conclusion: The video emphasizes Mexican festive culture through piñatas and mariachi music.",
+        "logic_check_reasoning": "Step 1: Slice 36 describes a man handling a colorful cat-shaped piñata in a park/playground setting, indicating it's a festive prop. Step 2: Slice 38 describes musicians in traditional Mexican attire performing on a street and identifies them as a mariachi band, which is a live festive cultural performance. Logic holds because the first slice provides the festive object in a park and the second slice provides the festive performance in the street.",
+        "visual_proof": "In Video 1, a man is seen hitting a brightly colored, striped piñata shaped like a cat in a park setting. In Video 2, a group of musicians dressed in traditional mariachi attire, including violins and guitars, are performing live on a decorated street with festive banners."
+    },
+    {
+        "question": "Which clothing combination helps identify the same woman across scenes in a car ride and then in a public music-and-dance gathering?",
+        "answer": "Her blue headscarf (hijab) and a light/white outer layer (white jacket/coat).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a woman in a blue headscarf in the back seat of a car. Step 2: Slice 40 shows a woman in a blue headscarf wearing a white jacket clapping with mariachi musicians. Conclusion: The blue headscarf and light outerwear track her across locations.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a woman in a car wearing a blue headscarf and a white shirt. Step 2: Slice 40 describes a woman at a street performance wearing a blue headscarf and a white jacket. Step 3: The consistent identifiers across both scenes are the blue headscarf and a light/white upper garment (shirt in the car, jacket in the street). While the proposed answer specifies an outer layer (jacket/coat), the essential combination—blue headscarf plus light/white top—is supported by both slices, making the identification logically consistent.",
+        "visual_proof": "In Video 1, the woman in the car is clearly wearing a blue hijab with a white long-sleeved top or jacket. In Video 2, the same woman is seen at the outdoor gathering, identifiable by her identical blue patterned hijab and white outer garment while interacting with the mariachi band."
+    },
+    {
+        "question": "How does the red book/folder move across locations from the pyramid to a car scene, and what later car-prop continues the 'challenge paperwork' theme?",
+        "answer": "A red book is held at the pyramid and later a bearded man holds a red folder/book in the car; later, a yellow folder appears in the car continuing the paperwork/clue theme.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            9,
+            46
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a person on the pyramid holding a red book/notebook. Step 2: Slice 9 shows a bearded man in a car holding a red book/folder. Step 3: Slice 46 shows a yellow folder/book being held in the back seat during conversation. Conclusion: The video repeatedly uses carried documents/folders (red then yellow) as challenge-related props across scenes.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows a person at the Pyramid of Teotihuacan holding a red book/notebook and referencing it at the summit. Step 2: Slice 9 shows a bearded man in the back seat of a car holding a red book or folder, indicating the red item appears again in a car scene. Step 3: Slice 46 shows another car scene where a yellow folder/book is being held, which continues the paperwork/prop theme. Logic holds because the red book/folder is present in both the pyramid and car contexts, and later a yellow folder appears in the car, sustaining the 'challenge paperwork' motif.",
+        "visual_proof": "Clip 1 shows a man holding a red book/folder with 'BEYOND 20' text at the Temple of the Moon. Clip 2 shows a different bearded man in a car holding a red folder/book with 'Ever Been In A Fight?' text. Clip 3 shows a woman in a car holding a yellow folder, maintaining the theme of carrying challenge-related paperwork."
+    },
+    {
+        "question": "After the couple takes a selfie on top of a pyramid, what named pyramid site is later shown in an aerial establishing shot?",
+        "answer": "Teotihuacan (the Pyramid of the Sun at Teotihuacan).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a couple on top of a pyramid taking a selfie. Step 2: Slice 5 explicitly titles the location “THE PYRAMID OF TEOTIHUACAN.” Conclusion: The pyramid context is later identified as Teotihuacan.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes the couple standing on top of a pyramid and taking a selfie. Step 2: Slice 5 explicitly states that an aerial establishing shot shows the site with the on-screen title 'THE PYRAMID OF TEOTIHUACAN,' identifying it as the Pyramid of the Sun at Teotihuacan. Logic holds because the question asks for the named pyramid site shown in an aerial shot after the selfie, and Slice 5 provides that exact named site.",
+        "visual_proof": "Clip 2, at 0:00-0:01, shows an aerial view of a large pyramid complex with text overlaid that reads 'TEMPLE OF THE MOON'. The visual context and scale are consistent with the archaeological site of Teotihuacan. The preceding clip (Clip 1) shows a couple on top of a similar large pyramid, establishing the location as the same site. The Temple of the Moon is a well-known structure within Teotihuacan, confirming the location."
+    },
+    {
+        "question": "Which team is explicitly announced as 'next up,' and later who is said to notice the other team while stuck in traffic?",
+        "answer": "Team White is announced as next up, and later Team White is said to notice Team Red in traffic.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 13 displays “NEXT UP - TEAM WHITE,” setting Team White as the upcoming competitors. Step 2: Slice 10 includes an overlay that Team White notices Team Red in traffic. Conclusion: Team White is repeatedly foregrounded: announced next, then actively tracking Team Red.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly shows the on-screen text 'NEXT UP - TEAM WHITE,' confirming which team is announced as next up. Step 2: Slice 10 states that a text overlay indicates 'Team White' has noticed 'Team Red' in the traffic, confirming who noticed the other team while stuck in traffic. Logic holds because both statements directly match the proposed answer and refer to the same team across different scenes.",
+        "visual_proof": "At 0:00 in Video 1, the on-screen text clearly states 'NEXT UP - TEAM WHITE'. Later, at 0:12 in Video 2, the on-screen text reads 'TEAM WHITE NOTICED TEAM RED IN THE TRAFFIC', directly confirming the observation."
+    },
+    {
+        "question": "How does the video connect food-focused scenes from the market to a later sit-down planning moment at an amusement setting using papers?",
+        "answer": "They go from ordering/being around tacos in a market stall to later studying papers together at a colorful amusement-park-like table.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            27,
+            35,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows the man in white shirt/red shorts interacting at a “Tacos Mexicanos” stall. Step 2: Slice 35 includes market exploration as part of the broader challenge narrative. Step 3: Slice 60 shows two men (including the white shirt/red shorts man) looking over papers at a table in a colorful amusement environment. Conclusion: Food/market exploration feeds into later task planning via papers/clues.",
+        "logic_check_reasoning": "Step 1: Slice 27 shows a food-focused market scene at a taco stall, featuring a man in a white T-shirt and red shorts interacting with vendors. Step 2: Slice 60 shows presumably the same man (white T-shirt, red shorts) later at an amusement/carnival setting, sitting at a table with another man and reviewing papers. Step 3: The consistent clothing and character link the scenes, indicating a progression from the market/taco context to a later sit-down planning moment with papers. The proposed answer reflects this sequence accurately.",
+        "visual_proof": "Clip 1 shows individuals at a market stall with signs for 'TACOS' and 'Bebidas / Postres', interacting with vendors. Clip 3 shows the same individuals sitting at a brightly colored, checkered table inside what appears to be a repurposed bus or amusement ride, focused on papers with diagrams, indicating a planning or task-solving activity. The transition from the food market to this seated, task-oriented setting is visually documented across these clips."
+    },
+    {
+        "question": "What two different combat sports are shown as separate challenge settings in the video?",
+        "answer": "Professional-style masked wrestling and outdoor martial arts sparring.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows masked wrestling in a ring. Step 2: Slice 20 shows two men boxing in an outdoor ring. Conclusion: The video includes both wrestling and boxing as distinct combat challenges.",
+        "logic_check_reasoning": "Step 1: Slice 12 describes a wrestling match with masked wrestlers (red and blue masks) in a wrestling ring, with crowd cheering and references to professional wrestling, supporting 'professional-style masked wrestling.' Step 2: Slice 20 describes two men boxing in an outdoor ring with spectators, explicitly calling it boxing, supporting 'outdoor boxing.' Logic holds because the slices depict two distinct combat sports in separate settings (wrestling ring vs outdoor boxing ring).",
+        "original_text_answer": "Professional-style masked wrestling and outdoor boxing.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "The video clearly shows two distinct combat settings. The first is a professional-style masked wrestling ring with luchadores (e.g., at 0:05, 0:13, 0:28), complete with ropes, turnbuckles, and theatrical moves. The second setting, shown at 0:04, features two men engaged in what appears to be martial arts sparring or kickboxing on an open dirt ground, not a boxing ring, with no gloves or standard boxing equipment visible."
+    }
+]

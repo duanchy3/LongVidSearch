@@ -1,0 +1,123 @@
+[
+  {
+    "question": "The presenters introduce a topic with a title above a globe early on, and later introduce another topic with a title over animated tropical islands. What are the two titles?",
+    "answer": "“POLITICAL GEOGRAPHY” and “PHYSICAL GEOGRAPHY.”",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      4,
+      10
+    ],
+    "reasoning_chain": "Step 1: Slice 4 shows a globe with the title “POLITICAL GEOGRAPHY.” Step 2: Slice 10 shows animated islands with the title “PHYSICAL GEOGRAPHY.” Conclusion: The two titles are Political Geography and Physical Geography.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 4 states that the scene transitions to a globe with the words 'POLITICAL GEOGRAPHY' written above it, explicitly supporting the first title above a globe. Step 2: Evidence Slice 10 describes a later transition to an animated tropical island setting with the words 'PHYSICAL GEOGRAPHY' prominently displayed, explicitly supporting the second title over animated islands. Logic holds because the question references an early globe segment and a later tropical animation, which directly match these two slices.",
+    "visual_proof": "In Clip 1, at 0:11, the text 'POLITICAL GEOGRAPHY' is clearly displayed in green 3D letters over a spinning globe. In Clip 2, at 0:10, the text 'PHYSICAL GEOGRAPHY' appears in similar green 3D letters over an animated scene of tropical islands with palm trees."
+  },
+  {
+    "question": "A fish species is shown with a diver, and later a shellfish is shown with a national flag. What are the two sea-life subjects?",
+    "answer": "Whale sharks and a giant clam species.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      14,
+      15
+    ],
+    "reasoning_chain": "Step 1: Slice 14 shows “Whale sharks” with a diver. Step 2: Slice 15 shows a giant clam species with the Philippines flag and text about giant clam species. Conclusion: The two subjects are whale sharks and a giant clam.",
+    "logic_check_reasoning": "Step 1: Slice 14 explicitly shows a whale shark swimming with a diver and labels it 'Whale sharks,' satisfying the 'fish species shown with a diver.' Step 2: Slice 15 shows a giant clam species with the flag of the Philippines visible, satisfying the 'shellfish shown with a national flag.' Logic holds because each part of the question maps directly to the described visuals in the respective slices.",
+    "visual_proof": "Clip 1 shows a large, spotted fish swimming next to a diver, with the text 'Whale sharks' displayed. Clip 2 shows a large bivalve with blue mantle tissue, identified by the text '7/8 Giant clam specis', against a background featuring the Philippine flag."
+  },
+  {
+    "question": "A map segment highlights a disputed feature between China and the Philippines, and later a different map highlights where a Spanish-based creole language is spoken. What is the disputed feature and what is the creole language?",
+    "answer": "Scarborough Shoal, and the creole language is Chavacano.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      8,
+      46
+    ],
+    "reasoning_chain": "Step 1: Slice 8 highlights Scarborough Shoal with China and Philippines flags. Step 2: Slice 46 shows a map locating Chavacano in the Philippines. Conclusion: The disputed feature is Scarborough Shoal and the language is Chavacano.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 8 explicitly states that a map highlights the Scarborough Shoal with flags of China and the Philippines, indicating a disputed geopolitical feature. Step 2: Evidence Slice 46 describes a map showing where Chavacano, a Spanish-based creole language, is spoken in the Philippines, specifically around Zamboanga City. Logic holds because the question asks for the disputed feature and the creole language highlighted by two different map segments, and both are directly identified in the provided context.",
+    "visual_proof": "In Clip 1, a map of the South China Sea is shown with a red pin and an arrow pointing to 'Scarborough shoal' between the Philippines and China. In Clip 2, a map of the Philippines is displayed with the text 'Chavacano (Spanish-Creole)' and highlights the regions where it is spoken, including Zamboanga City."
+  },
+  {
+    "question": "During the food-focused portion, what fast-food brand is shown on a box, and which specific dessert name appears in the later food collage?",
+    "answer": "Jollibee, and “Peach Mango Pie.”",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      28,
+      29
+    ],
+    "reasoning_chain": "Step 1: Slice 28 shows a rectangular box labeled “Jollibee.” Step 2: Slice 29 shows a Filipino food spread including a dessert labeled “Peach Mango Pie.” Conclusion: The brand is Jollibee and the dessert is Peach Mango Pie.",
+    "logic_check_reasoning": "Step 1: Slice 28 explicitly states that the man on the right is holding a rectangular box labeled 'Jollibee,' identifying the fast-food brand shown on a box. Step 2: Slice 29 describes a food collage that includes a dessert labeled 'Peach Mango Pie,' providing the specific dessert name. Logic holds because the brand from Slice 28 and the dessert name from Slice 29 directly match the query components.",
+    "visual_proof": "In the first clip, a man holds a box clearly labeled 'Jollibee'. In the second clip, a top-down shot of various foods includes a pastry in a paper sleeve with the words 'Peach Mango Pie' printed on it."
+  },
+  {
+    "question": "A serious war/valor quote appears on screen, and later a history montage includes the same general’s landing being referenced earlier in the attractions segment. Which general is named in the quote, and what historic landing site is shown earlier in the video?",
+    "answer": "Gen. Douglas MacArthur, and the MacArthur Landing Site.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      32,
+      8
+    ],
+    "reasoning_chain": "Step 1: Slice 32 shows a quote attributed to Gen. Douglas MacArthur. Step 2: Slice 8 includes an image labeled “MacArthur Landing Site” among landmarks. Conclusion: The general is MacArthur and the referenced site is the MacArthur Landing Site.",
+    "logic_check_reasoning": "Step 1: Slice 32 shows a solemn quote on-screen attributed to Gen. Douglas MacArthur. Step 2: Slice 8 lists attractions, explicitly including the 'MacArthur Landing Site,' which commemorates his return to the Philippines. Logic holds because the named general in the quote (MacArthur) matches the historic landing site shown in the attractions montage.",
+    "visual_proof": "The first clip displays a quote on screen: '\"Give me (ten) thousand Filipino soldiers, and I will Conquer the world\" -Gen. Douglas MacArthur'. The second clip includes a montage of Philippine attractions, one of which is explicitly labeled 'MacArthur Landing site' with an image of bronze statues depicting the landing."
+  },
+  {
+    "question": "The video uses the term for overseas Filipinos returning home and also shows a statistic about Filipinos living overseas. What is the term, and how many people overseas is shown in the demographics segment?",
+    "answer": "The term is “Balikbayan,” and the number shown is 10.2 million people overseas.",
+    "category": "Causal_Inference",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      63,
+      35,
+      90
+    ],
+    "reasoning_chain": "Step 1: Slice 63 displays the word “Balikbayan,” referring to overseas Filipinos returning home. Step 2: Slice 35 states “10.2 million people overseas” in the Philippines demographics. Step 3: Slice 90 shows Philippines and U.S. flags together, reinforcing diaspora/connection framing. Conclusion: Balikbayan ties to the 10.2 million overseas figure.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 63 explicitly shows the term 'Balikbayan' and describes it as referring to overseas Filipinos returning home. Step 2: Evidence Slice 35 states '10.2 million people overseas' in the demographics segment. Step 3: The proposed answer matches both the term and the number shown. Therefore, the context fully supports the answer.",
+    "visual_proof": "In Clip 1, the word 'Balikbayan' is displayed as a text overlay while showing a crowd of returning travelers. In Clip 2, the demographics segment clearly displays the statistic '10.2 million people overseas' within a circular graphic."
+  },
+  {
+    "question": "The video shows Philippine cultural sites and then later highlights Filipino religious demographics and holidays. Name one cultural landmark shown earlier and one religious holiday label shown later.",
+    "answer": "For example: Magellan’s Cross, and Holy Week.",
+    "category": "Global_Summary",
+    "hop_level": "3-Hop",
+    "evidence_slices": [
+      8,
+      53,
+      23
+    ],
+    "reasoning_chain": "Step 1: Slice 8 shows landmarks such as Magellan’s Cross and others. Step 2: Slice 23 reinforces cultural/national identity with the Philippine flag and traditional life visuals. Step 3: Slice 53 shows religious demographics and labels holidays like ALL SAINTS, HOLY WEEK, CHRISTMAS, EASTER. Conclusion: A valid pair is Magellan’s Cross and Holy Week.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 8 explicitly lists several Philippine cultural landmarks, including 'Magellan's Cross.' Step 2: Evidence Slice 53 explicitly mentions religious holiday labels such as 'ALL SAINTS,' 'HOLY WEEK,' 'CHRISTMAS,' and 'EASTER.' Logic holds because the question asks for one cultural landmark shown earlier and one religious holiday label shown later; 'Magellan’s Cross' and 'Holy Week' are directly supported by the respective slices.",
+    "visual_proof": "In Clip 1 (0:07), a photo of 'Magellan's cross' is displayed with the text label. In Clip 2 (0:08), a collage of religious events includes a photo labeled 'HOLY WEEK'."
+  },
+  {
+    "question": "The presenters compare present-day footage to an old photo labeled with a year, and later the video shifts into a broad historical montage spanning centuries. What year is shown in the old photo, and what is one specific historical date shown in the montage?",
+    "answer": "2016, and one date shown is 1521 (Magellan).",
+    "category": "State_Mutation",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      3,
+      86,
+      94,
+      35
+    ],
+    "reasoning_chain": "Step 1: Slice 3 shows a split-screen with an older photo labeled “2016.” Step 2: Slice 86 shows a historical montage including “Magellan (1521)” and other events. Step 3: Slice 94 also includes historical text like “1898,” reinforcing dated timeline framing. Step 4: Slice 35 provides demographic context that complements the long-timescale narrative. Conclusion: The old photo year is 2016 and a montage date is 1521.",
+    "logic_check_reasoning": "Step 1: Slice 3 explicitly states that the split-screen shows a photograph labeled with the year \"2016\" at the bottom. Step 2: Slice 86 describes a historical montage and includes \"Magellan (1521)\" as a specific date shown, along with other events. Logic holds because the old photo year is directly given as 2016, and the montage explicitly features the date 1521.",
+    "visual_proof": "In Video 1, at 0:02, a photo of a man in an office is displayed with the year '2016' clearly visible on screen. In Video 2, at 0:02, a painting depicting Magellan's arrival is shown with the text 'Magellan (1521)' overlaid, confirming the historical date."
+  },
+  {
+    "question": "In the segment about plate tectonics and volcanoes, which country is zoomed in on, and what later real-world disaster scene shows people wading through water?",
+    "answer": "The Philippines, and later there is a flood scene with people wading through floodwaters carrying belongings.",
+    "category": "Causal_Inference",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      11,
+      12
+    ],
+    "reasoning_chain": "Step 1: Slice 11 zooms to the Philippines while explaining the Ring of Fire/Philippine Plate and volcanoes. Step 2: Slice 12 later shows people wading through floodwaters in an urban area. Conclusion: The country is the Philippines and the later scene depicts flooding.",
+    "logic_check_reasoning": "Step 1: Evidence Slice 11 explicitly states that the 3D animated map zooms in on the Philippines and details its tectonics and volcanoes. Step 2: Evidence Slice 12 describes a later scene showing people wading through floodwaters in an urban area, carrying belongings above their heads. Logic holds because the question asks about the country focused on during the plate tectonics segment (Philippines) and a subsequent real-world disaster scene (flooding with people wading), both directly supported by the slices.",
+    "visual_proof": "Clip 1 clearly shows a map of the Earth zooming in on the Philippine archipelago, highlighting the 'Philippine Plate' and 'Ring of Fire'. Clip 2 ends with a real-world scene of two individuals wading through chest-deep, murky floodwater while holding bags and briefcases over their heads to keep them dry."
+  }
+]

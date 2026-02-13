@@ -1,0 +1,73 @@
+[
+    {
+        "question": "Which object that is explicitly shown being used to access something later aligns with the secure, box-focused conversation happening in the vault-like room?",
+        "answer": "A key being inserted into a keyhole aligns with the later secure vault setting where a large black box is central to the discussion.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows a key being placed into a keyhole, suggesting gaining access. Step 2: Slice 72 shows a vault-like room with deposit boxes and a large black box discussed seriously. Conclusion: The key access moment connects to later secure/controlled access around the box in the vault.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly shows a close-up of a hand holding a key and inserting it into a keyhole, demonstrating an object being used to access something. Step 2: Slice 72 describes a secure vault-like environment focused on safety deposit boxes and a large black box during a tense, confidential discussion. Logic holds because the key is an explicitly depicted access tool in Slice 22, and this thematically aligns with the secure, box-centered setting in Slice 72, without requiring a direct causal link.",
+        "visual_proof": "In Clip 1, at 0:13, a hand is explicitly shown picking up a set of keys from a wooden surface. In Clip 2, the scene takes place in a secure, vault-like room filled with safety deposit boxes, and a large black box is placed on a table between two women, serving as the focal point of their serious conversation. The use of a physical key to access a secure item (like a safe or box) directly aligns with the context of the vault and the central black box."
+    },
+    {
+        "question": "Across the video, which sequence best shows a progression from finding hidden evidence to being formally questioned by an investigator in a large house?",
+        "answer": "First the couple discovers hidden items (photo, newspaper clipping, cash) in the attic, and later they are seen distressed on a couch while an investigator takes notes in the large house.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows the couple uncovering a photo, a fatal-accident clipping, and hidden cash—evidence-like discoveries. Step 2: Slice 20 shows an investigator questioning a distressed couple inside a large house after a coroner’s van arrives. Step 3: Slice 21 continues the tense exchange/argument dynamic between the couple. Conclusion: The discovery phase transitions into official scrutiny and interrogation pressure.",
+        "logic_check_reasoning": "Step 1: Slice 18 describes a man and woman in an attic finding hidden items: a photograph, a newspaper clipping about a car accident, and a large amount of cash, clearly supporting the 'finding hidden evidence' part. Step 2: Slice 20 shows the same pair later in a large, imposing house where a woman investigator is present, taking notes, and the couple sits distressed on a couch, with text explicitly suggesting they are being questioned. Step 3: Slice 21 further reinforces the tense couch scene, though it doesn’t mention the investigator. The progression from discovery in the attic to being questioned in a large house is directly supported by Slices 18 and 20, matching the proposed answer.",
+        "visual_proof": "Clip 1 visually confirms the couple finding evidence: a photo (0:07), a newspaper clipping about a car accident (0:11), and a chest full of cash (0:14). Clip 2 shows them sitting on a couch in a large house (0:07-0:09) looking distressed as a woman with a notepad, identified as an investigator by context, stands before them. This sequence directly supports the described progression."
+    },
+    {
+        "question": "What sequence shows the most direct escalation from discovering money, to being in a hideout-like space with stacks of cash, to violence centered around that money?",
+        "answer": "The story escalates from finding hidden cash in an attic, to later seeing stacks of cash in a dim room, and then to a fight where cash is scattered and collected on the ground.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            23,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows hidden cash discovered among attic items. Step 2: Slice 23 shows a dim room with stacks of cash displayed, implying a cash stash/hideout. Step 3: Slice 49 shows cash scattered during a violent altercation and someone collecting it frantically. Conclusion: The money transitions from discovery to stash to a direct catalyst in violent conflict.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows a man and woman in an attic discovering a large amount of hidden cash, clearly establishing the 'discovering money' stage. Step 2: Slice 23 depicts a dimly lit, safe house-like room with stacks of cash prominently displayed, fitting the 'hideout-like space with stacks of cash' stage. Step 3: Slice 49 presents a tense, violent scene where money is scattered on the ground and frantically collected amid a physical altercation, satisfying 'violence centered around that money.' Logic holds because each slice directly corresponds to the escalation stages described in the answer without requiring character continuity.",
+        "visual_proof": "Clip 1 shows characters discovering a chest full of cash in a dim, attic-like space. Clip 2 shows a man in a dark room with stacks of cash on the floor, followed by him looking alarmed and moving through a hallway, suggesting tension or impending conflict. Clip 3 depicts a chaotic scene with hands scrambling to collect scattered cash on the floor, indicating a violent struggle has occurred. This sequence visually supports the escalation described in the answer."
+    },
+    {
+        "question": "Across the video, what is the full progression from discovering a death-related clue, to law enforcement arriving, to a later scene where a man is shot on a grand staircase?",
+        "answer": "It progresses from finding a newspaper clipping about a woman killed in a car accident, to a coroner’s van and investigation at a large house, and then to a violent climax where a suited man is shot near a staircase in a grand interior.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            18,
+            20,
+            84,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows discovery of a newspaper clipping about a fatal car accident, implying a death mystery. Step 2: Slice 20 shows a coroner’s van arriving and an investigator questioning people inside a large house. Step 3: Slice 84 shows an armed confrontation on a staircase ending with a suited man being shot. Step 4: Slice 91 shows a woman kneeling beside the motionless suited man on the floor. Conclusion: The death mystery escalates into official investigation and culminates in a lethal confrontation.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows the man and woman discovering a newspaper clipping titled \"Chicago Woman Killed in Car Accident,\" clearly a death-related clue. Step 2: Slice 20 depicts a coroner’s van arriving at a large house and an investigator questioning the couple inside, fulfilling the law enforcement/investigation arrival. Step 3: Slice 84 shows a dramatic confrontation on a grand staircase where a man in a suit is shot, with Slice 91 showing the aftermath as a woman checks on the fallen man. The logic holds because the progression moves from discovery of a death clue, to official response and investigation, to a later violent shooting in a grand interior.",
+        "visual_proof": "Clip 1 shows the newspaper headline 'CHICAGO WOMAN KILLED IN CAR ACCIDENT'. Clip 2 shows the exterior of a large house with a 'CORONER' van and police car, followed by an investigator inside. Clips 3 and 4 show a man in a suit being shot on a grand staircase and lying dead on the floor nearby."
+    },
+    {
+        "question": "How does the video depict an escalation from early nighttime urban romance, to later violent bar conflict, to a final grand interior hostage-like standoff involving a gun?",
+        "answer": "It moves from an intimate car kiss at night, to a violent confrontation with a weapon in a neon-lit bar, and culminates in a high-stakes standoff where a suited man restrains a woman while another man aims a gun.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            3,
+            4,
+            69,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a romantic nighttime moment inside a car. Step 2: Slice 4 shows a bar/club incident with a weapon and someone down on the floor. Step 3: Slice 69 shows a later physical altercation in a moody lounge-like setting while a woman watches tensely. Step 4: Slice 83 shows a hostage-like standoff in an opulent room with a gun aimed. Conclusion: The narrative escalates from romance to violence to a near-climactic armed standoff.",
+        "logic_check_reasoning": "Step 1: Slice 3 describes a nighttime urban setting with an intimate car kiss, clearly supporting the 'early nighttime urban romance.' Step 2: Slice 4 shows a tense, neon-lit bar/nightclub scene involving a weapon and an injured person, matching 'violent bar conflict.' Slice 69 further reinforces bar-related tension and altercation. Step 3: Slice 83 depicts an opulent interior standoff where a suited man restrains a woman and another man points a gun, fitting 'final grand interior hostage-like standoff involving a gun.' The proposed answer aligns with these slices and the escalation sequence.",
+        "visual_proof": "Clip 1 shows a couple kissing intimately inside a car at night. Clip 2 depicts a violent scene in a neon-lit bar with a person lying on the floor and others involved in a confrontation. Clip 4 shows a man in a suit holding a woman hostage while another man aims a gun at them from across a large room. These visuals directly support the described escalation."
+    }
+]

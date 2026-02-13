@@ -1,0 +1,57 @@
+[
+    {
+        "question": "In the hallway scenario, what object is emphasized first by being boxed together with a person, and later is shown in multiple attack conditions such as 'Fast Sign Attack' and 'Iterative Attack'?",
+        "answer": "A stop sign.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            7
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows a hallway image with blue boxes around a person and a stop sign. Step 2: Slice 7 shows multiple stop sign images labeled with different attack conditions. Conclusion: The emphasized object is the stop sign.",
+        "logic_check_reasoning": "Step 1: Slice 8 describes a hallway image with two blue rectangles highlighting a person and a red stop sign, indicating the stop sign is emphasized alongside the person. Step 2: Slice 7 shows a slide about adversarial attacks with multiple images of stop signs under conditions like 'Fast Sign Attack' and 'Iterative Attack.' Logic holds because the same object— the stop sign— is highlighted in the hallway scenario and later shown under various attack conditions.",
+        "visual_proof": "In Clip 1, a person is shown holding a red octagonal 'STOP' sign, which is enclosed in a bounding box along with the person. In Clip 2, the same type of 'STOP' sign is displayed in multiple panels labeled with different attack conditions like 'FastSign Attack' and 'Iterative Attack', confirming it is the object emphasized across both scenarios."
+    },
+    {
+        "question": "Which slide explicitly states that if a computed lower bound is greater than zero then no adversarial example exists in the input set, and which later slide explains how those concrete bounds can be computed in closed form using Hölder’s inequality?",
+        "answer": "The 'How to Verify the Robustness of NNs?' slide with bounds (no adversarial example if the lower bound is > 0), and the 'Concrete Lower and Upper Bounds' slide using Hölder’s inequality.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            41,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 41 states that if the lower bound f_L > 0 then no adversarial example can be found in the set S. Step 2: Slice 50 shows computing concrete bounds in norm perturbation settings using Hölder’s inequality. Conclusion: These two slides connect robustness condition to how bounds are computed.",
+        "logic_check_reasoning": "Step 1: Slice 41 describes the slide titled 'How to Verify the Robustness of NNs?' and explicitly states 'If f_L > 0, no adversarial example can be found in S!', matching the first part of the answer. Step 2: Slice 50 describes the slide titled 'Concrete Lower and Upper Bounds' and explicitly says concrete bounds can be computed in closed form using Hölder’s inequality, with detailed equations, matching the second part of the answer. Logic holds because the proposed answer directly references these two slides and their stated content.",
+        "visual_proof": "Clip 1 (slide 36) shows the title 'How to Verify the Robustness of NNs?' and explicitly states, 'If f_L* > 0, no adversarial example can be found in S!'. Clip 2 (slide 53) shows the title 'Concrete Lower and Upper Bounds' and states, 'concrete bounds can be easily computed in closed form using Hölder's inequality', followed by the relevant mathematical formulas. Both claims in the original answer are directly verifiable from the text on these two slides."
+    },
+    {
+        "question": "How does the talk move from describing group sparsity in adversarial perturbations to presenting a table that compares attack success rates and sparse pixel distortions across datasets?",
+        "answer": "It first introduces group sparsity as a structural property of perturbations, then later reports quantitative results (ASR and ℓ0 distortion) comparing methods including StrAttack across MNIST, CIFAR-10, and ImageNet.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            32,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 31 introduces group sparsity using grouped pixels and ℓ2 group norms. Step 2: Slice 32 formalizes an optimization objective that includes group sparsity regularization. Step 3: Slice 35 presents Table 1 with ASR and ℓ0 distortion comparing attacks including StrAttack. Conclusion: The structural idea is operationalized and then evaluated quantitatively.",
+        "logic_check_reasoning": "Step 1: Slice 31 presents a slide focused on the structure of adversarial perturbations via group sparsity, with visual grids and ℓ2 group norms, establishing the structural property of perturbations. Step 2: Slice 32 continues this theme within an optimization perspective, explicitly formulating the attack objective with a group sparsity term, reinforcing the introduction of group sparsity. Step 3: Slice 35 shows a later slide (numbered 31) with Table 1 reporting quantitative results (ASR and ℓ0 distortion) comparing methods including StrAttack across MNIST, CIFAR-10, and ImageNet. Logic holds because the context shows a progression from explaining group sparsity to presenting comparative quantitative results, matching the proposed answer.",
+        "visual_proof": "Clip 1 (slide 21) and Clip 2 (slide 22) explicitly introduce 'group sparsity' as the key idea for characterizing adversarial perturbations, showing a diagram of non-overlapping groups and the corresponding ℓ2 norm penalty. Clip 3 (slide 31) presents Table 1, which quantitatively compares attack success rates (ASR) and ℓp distortions (including ℓ0) for various methods, including 'StrAttack', across the MNIST, CIFAR-10, and ImageNet datasets. The transition from the conceptual explanation to the empirical results is visually documented across these slides."
+    },
+    {
+        "question": "How does the talk connect the idea that CROWN is hard to derive/implement for complex architectures to a general framework that works like automatic differentiation, and finally to an open-source library link shown at the end?",
+        "answer": "It states CROWN is hard for complex networks, generalizes it to LiRPA to automatically generate bounds like autograd, and then points to the auto_LiRPA GitHub repository.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            51,
+            52,
+            55,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 51 lists drawbacks of CROWN (hard to understand/derive/implement for LSTM/Transformer/ResNet etc.). Step 2: Slice 52 explains LiRPA as a generalization where users specify the forward network and bounding is auto-generated like automatic differentiation. Step 3: Slice 55 shows applications of auto_LiRPA on complex nets (ResNeXt/DenseNet) where manual CROWN is difficult. Step 4: Slice 59 shows the GitHub link to the auto_LiRPA library. Conclusion: The narrative motivates and then delivers an automated, open-source solution.",
+        "logic_check_reasoning": "Step 1: Slice 51 explicitly states the drawbacks of CROWN, including that it is hard to derive and implement for complex architectures like LSTM, Transformer, ResNet, DenseNet, and GNNs. Step 2: Slices 51 and 52 describe the generalization of CROWN to LiRPA, emphasizing that it works on general computational graphs and, crucially, in Slice 52, that it operates like automatic differentiation where users specify only the forward network and bounds are automatically generated. Step 3: Slice 55 links this to the auto_LiRPA library that enables certified adversarial defense on complex networks where manual CROWN is difficult, reinforcing the automation theme. Step 4: Slice 59 shows the open-source GitHub link to the auto_LiRPA repository, completing the connection to an actionable resource. The logic flows and is supported by the slides.",
+        "visual_proof": "Clip 1 (ID: 51) explicitly lists 'Hard to derive' and 'Hard to implement' for architectures like LSTM, Transformer, etc. Clip 2 (ID: 52) introduces LiRPA as a generalization that works 'Like automatic differentiation' where users only specify a forward network and bounding is 'automatically generated'. Clip 4 (ID: 59) displays the GitHub page for the 'auto_LiRPA' library with its URL, directly linking the framework to an open-source implementation."
+    }
+]

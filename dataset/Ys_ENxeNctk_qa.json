@@ -1,0 +1,140 @@
+[
+    {
+        "question": "In the snow demonstration, what stated difference between winter and summer snow is paired with different visual materials used in the experiments?",
+        "answer": "Winter snow is described as having larger flakes, while summer snow is described as having smaller flakes.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows the caption that winter snow has large flakes. Step 2: Slice 11 shows the caption that summer snow has smaller flakes. Conclusion: The stated contrast is large winter flakes vs small summer flakes.",
+        "logic_check_reasoning": "Step 1: Slice 9 explicitly shows winter snow and includes a text overlay stating 'winter snow has large flakes.' Step 2: Slice 11 explicitly shows a labeled close-up stating 'Summer snow has smaller flakes.' Step 3: The scenes depict different materials used in demonstrations, but the proposed answer focuses on the stated difference, which is directly supported by both slices. Therefore, the context fully supports the answer that winter snow has larger flakes and summer snow has smaller flakes.",
+        "visual_proof": "Clip 1 visually pairs the text 'winter snow has large flakes' with a demonstration using white, stringy material. Clip 2 visually pairs the text 'summer snow has smaller flakes' with a demonstration using yellow, granular material. The visual materials are distinct and correspond to the stated differences in flake size."
+    },
+    {
+        "question": "Which presenter outfit is shared between the early glacier lecture segments and the later mass-balance explanation segment?",
+        "answer": "The red plaid/red-and-black checkered shirt worn by the main presenter.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 4 features the main lecturer in a red plaid/checkered shirt teaching about glaciers. Step 2: Slice 42 shows the same red-plaid presenter during the “mass balance” graphic sequence. Conclusion: The shared outfit indicates the same presenter across both segments.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes the early glacier lecture featuring a man standing in front of a chalkboard wearing a red plaid shirt. Step 2: Slice 42 shows a later sequence leading into the mass-balance explanation and includes a man wearing a red plaid shirt standing in front of a black background with a grid before the 'MASS BALANCE' title appears. Logic holds because both segments explicitly mention a presenter in a red plaid shirt, indicating the shared outfit.",
+        "visual_proof": "In Clip 1, the main presenter is shown in a red and black checkered (plaid) shirt during the glacier lecture segments (e.g., at 0:07 and 0:24). In Clip 2, the same presenter appears in the identical red and black checkered shirt during the mass-balance explanation segment (e.g., at 0:09 and 0:24), confirming this outfit is shared between both segments."
+    },
+    {
+        "question": "Which classroom word pair connected to glacier change later matches a scene that explicitly labels a glacier-loss process on screen?",
+        "answer": "The concepts “accumulation” and “ablation,” with “ablation” later explicitly labeled on screen.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows the chalkboard terms “accumulation” and “ablation.” Step 2: Slice 57 displays the word “Ablation” and lists processes like melting and calving. Conclusion: The later labeled process aligns with the earlier concept pair.",
+        "logic_check_reasoning": "Step 1: Slice 43 states that on the blackboard behind the man are the words \"accumulation\" and \"ablation,\" indicating a classroom word pair about glacier change. Step 2: Slice 57 states that the video begins with the word \"Ablation\" explicitly appearing on the screen, labeling a glacier-loss process. Logic holds because the classroom pair includes \"ablation,\" which is later explicitly labeled on screen, matching the question's requirement.",
+        "visual_proof": "In Clip 1, the speaker writes 'ACCUMULATION' and 'ABLACTION' on the blackboard. In Clip 2, a scene of melting ice is shown with the word 'Ablation' overlaid in large white text, directly matching the term from the classroom."
+    },
+    {
+        "question": "Which science theme is taught with a definition on a whiteboard and then later illustrated using a diagram of arrows hitting a melting globe?",
+        "answer": "Energy transmission by radiation (solar radiation and reflected radiation affecting melting).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 39 defines radiation as transmission of energy and introduces photons. Step 2: Slice 41 shows a globe with arrows labeled solar radiation and reflected solar radiation, plus “melting.” Conclusion: The diagram applies the radiation concept to climate/melting.",
+        "logic_check_reasoning": "Step 1: Slice 39 shows a whiteboard with a definition: 'Radiation: the transmission of energy (as waves or particles) through a medium,' establishing the science theme as radiation/energy transmission. Step 2: Slice 41 shows a later diagram on the whiteboard with arrows labeled 'Solar radiation' and 'Reflected solar radiation' pointing at a melting globe, illustrating the effects of radiation. Logic holds because the same educational setting transitions from a definition of radiation to an illustration of solar/reflected radiation causing melting, matching the proposed theme.",
+        "visual_proof": "Clip 1 shows a presenter defining 'Radiation' on a whiteboard as 'the transmission of energy (as waves or particles) through a medium'. Clip 2 then illustrates this concept with a diagram showing 'Solar radiation' (orange arrow) hitting a globe, with some being 'Reflected solar radiation' (blue arrow) and the rest causing 'Melting', which is linked to 'Thermal energy'. This directly connects the definition to the visual example of energy transmission via radiation."
+    },
+    {
+        "question": "Which tool is consistently associated with the woman wearing blue gloves across the workshop/lab segments?",
+        "answer": "A long rod-like tool (shown as a blue stick with a red tip and also as a red rod with a brass fitting).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            22,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 22 shows the blue-gloved woman demonstrating a blue stick with a red tip. Step 2: Slice 29 shows her handling rod-like tools on the bench including a red rod with a brass fitting. Conclusion: A rod/stick tool is a repeated object associated with her demonstrations.",
+        "logic_check_reasoning": "Step 1: Slice 22 explicitly shows the woman in blue gloves holding a blue stick with a red tip, clearly a long rod-like tool. Step 2: Slice 29 shows the same woman (blue gloves) in a lab/workshop with rod-like items present (a red rod with a brass fitting and metallic rods). It states she picks up a metallic rod, indicating her interaction with rod-like tools. Logic holds because in both segments the woman with blue gloves is associated with rod-shaped tools; the examples cited (blue stick with red tip, red rod with brass fitting) are explicitly mentioned in the slices.",
+        "visual_proof": "In Clip 1, the woman in blue gloves is seen handling the blue rod with a red tip. In Clip 2, she handles the red rod with a brass fitting. Both are long, rod-like tools presented on the same table during the lab segments, establishing their consistent association with her."
+    },
+    {
+        "question": "How do the ice core concept graphics connect to both a classroom ‘ice core’ experiment and the later real-world ice core lab footage?",
+        "answer": "The layered ice-core graphic explains annual layers, the classroom experiment references ‘Ice core,’ and the lab footage shows actual stored and studied ice cores.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            19,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 19 provides a conceptual layered-year ice-core graphic. Step 2: Slice 18 shows a classroom demo with “Ice core” visible on the board. Step 3: Slice 26 shows the National Ice Core Lab/storage and field coring context. Conclusion: The narrative links concept → classroom illustration → real lab/field practice.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows an 'Ice core' graphic with layered stripes and a timeline from 'Current year' to '-15 yr,' explicitly explaining annual layering. Step 2: Slice 18 depicts a classroom experiment with a chalkboard showing the words 'Ice core' and layered shredded materials, indicating a demonstration that references the ice core concept. Step 3: Slice 26 shows the US National Ice Core lab with storage of cores, lab analysis, and field drilling, demonstrating actual stored and studied ice cores. Logic holds because the graphics introduce the concept of layered annual records, the classroom scene references and demonstrates it, and the lab footage shows its real-world application.",
+        "visual_proof": "Clip 2 visually explains the concept of an 'Ice core' with a graphic showing horizontal yellow and white stripes representing annual layers, labeled from 'Current year' to '-15 yr'. Clip 1 shows a man in a classroom setting performing an experiment with layered materials (yellow and white) in a clear container, which visually mimics the layered structure shown in Clip 2. Clip 3 then transitions to real-world footage of the US National Ice Core Lab, showing rows of actual ice core samples stored in metal tubes and scientists working with them, directly connecting the conceptual graphic and classroom model to real scientific practice."
+    },
+    {
+        "question": "Which repeated setting feature ties together the main red-plaid presenter’s glacier lecture, his lab-table demonstrations, and his later lecture segments about maps and regions?",
+        "answer": "A classroom/lecture setup with a chalkboard behind him.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            8,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows him lecturing in front of a chalkboard about glaciers. Step 2: Slice 8 shows him demonstrating materials on a table with a chalkboard behind. Step 3: Slice 45 shows him again in front of a chalkboard displaying maps. Conclusion: The chalkboard classroom setting recurs across these segments.",
+        "logic_check_reasoning": "Step 1: Slice 4 describes a man in a red plaid shirt standing in front of a chalkboard giving a glacier lecture. Step 2: Slice 8 shows the same red/black checkered-shirt man in an instructional setting with a lab table, explicitly noting a chalkboard behind him. Step 3: Slice 45 again places the same presenter in front of a chalkboard that shows various maps (South America, Antarctica) during later lecture segments. Logic holds because all segments consistently feature the red-plaid presenter in an educational/classroom setting with a chalkboard behind him.",
+        "visual_proof": "In all three clips, the presenter is consistently positioned in front of a large, dark chalkboard. Clip 1 shows him lecturing with text written on the board. Clip 2 shows him at a lab table, but the same chalkboard is visible directly behind him. Clip 3 again features him lecturing with maps appearing on the same chalkboard. This consistent background element ties all segments together."
+    },
+    {
+        "question": "How does the documentary move from a ship traveling in ice to people walking toward a docked vessel, and what does this sequence imply about the ship’s mission?",
+        "answer": "It shows an ice-going ship navigating through icy waters, then later shows people in heavy gear approaching a docked ship in a snowy field, implying a polar research or expedition mission.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            46,
+            47,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows a ship traveling through icy waters. Step 2: Slice 47 shows a large ship docked and a group walking toward it in marked paths and winter gear. Step 3: Slice 26 frames the broader ice-core/polar research context with field researchers in extreme cold. Conclusion: The sequence suggests the ship supports polar scientific work/expeditions.",
+        "logic_check_reasoning": "Step 1: Slice 46 describes a ship navigating through icy waters, emphasizing its journey through ice. Step 2: Slice 47 shows an aerial view of a large ship docked at the edge of a snowy landscape, with people in heavy winter gear walking toward it along a marked path. Step 3: Slice 47 also notes the ship appears to be a research vessel or icebreaker with scientific equipment and frames the scene as exploration and scientific endeavor. Logic holds because the documentary transitions from the ship traveling in ice (Slice 46) to the docked vessel with people approaching (Slice 47), and the presence of scientific equipment and polar conditions implies a polar research/expedition mission.",
+        "visual_proof": "Clip 1 (0:18-0:22) visually confirms a red icebreaker ship actively navigating and breaking through sea ice. Clip 2 (0:00-0:02) shows the same type of vessel now stationary, docked at the edge of an ice shelf, with people and equipment on the snow nearby, indicating it has reached its destination for operations. This transition from active navigation to a stationary, operational state strongly implies a mission such as polar research or exploration."
+    },
+    {
+        "question": "Which presenter appears first in a dark, studio-like setup and later in an academic whiteboard setting discussing radiation and photons?",
+        "answer": "The man wearing the red and black plaid shirt (the presenter in the dark, studio-like setup).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            34,
+            39,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 34 introduces a man in a study/library environment wearing a dark green plaid shirt. Step 2: Slice 39 shows a presenter in the same academic whiteboard/bookshelf setting discussing radiation and photons. Step 3: Slice 41 continues with the same presenter and a melting-globe radiation diagram. Conclusion: The same dark-green-plaid presenter is used across these educational segments.",
+        "logic_check_reasoning": "Step 1: Slice 34 shows a man first in a dark, textured backdrop speaking to camera, then later in a library/study setting wearing a dark green plaid shirt, indicating continuity of the same presenter across scenes. Step 2: Slice 39 shows a presenter in an academic setting with a whiteboard and bookshelf, wearing a dark green plaid shirt, explicitly discussing radiation and photons. Step 3: Slice 41 further depicts the same academic environment (bookshelves, molecular model) with the man in a green shirt and jeans discussing solar radiation. Logic holds because the presenter in the dark studio-like setup (Slice 34) is later shown in an academic whiteboard setting (Slices 39/41) wearing a dark green plaid shirt, matching the proposed identification.",
+        "original_text_answer": "The man wearing the dark green plaid shirt (the presenter in the bookshelf/whiteboard academic setting).",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows the man in the red and black plaid shirt first, standing against a dark grid background (studio-like setup). Clip 2 then shows the man in the dark green plaid shirt in the academic whiteboard setting. The question asks for the presenter who appears first in the studio setup and *later* in the academic setting. Since the man in the red plaid shirt appears first in the video but is never shown in the academic setting, and the man in the green plaid shirt appears later and is only shown in the academic setting, neither presenter fits the description perfectly. However, the original answer incorrectly identifies the man in the green plaid shirt as appearing first in the studio setup, which is visually contradicted by Clip 1. The man in the red plaid shirt is the one who appears first in the studio setup, even though he does not appear later in the academic setting."
+    },
+    {
+        "question": "Across the cryosphere storyline, how do the video segments connect glaciers, mass balance terms, and specific ablation mechanisms into one explanation?",
+        "answer": "It introduces what glaciers are, frames their change as mass balance (inputs/outputs), and then details ablation mechanisms like melting and calving.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            42,
+            43,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 4 defines glaciers and the conditions needed for ice to qualify as one. Step 2: Slice 42 introduces the systems framing (inputs, internal processes, outputs) labeled “mass balance.” Step 3: Slice 43 names key mass-balance terms: accumulation and ablation. Step 4: Slice 57 breaks ablation into mechanisms (melting, wind scour, iceberg calving, dry calving). Conclusion: The segments build a complete explanation of glacier change.",
+        "logic_check_reasoning": "Step 1: Slice 4 defines what a glacier is and explains criteria (survive summer melt, thick enough to flow), establishing the glacier concept. Step 2: Slice 42 presents a framework with INPUTS, INTERNAL PROCESSES, OUTPUTS and explicitly labels it 'MASS BALANCE,' framing glacier change in mass-balance terms. Step 3: Slice 43 shows the terms 'accumulation' and 'ablation' on a blackboard, reinforcing mass-balance components. Step 4: Slice 57 focuses on 'Ablation' and lists specific mechanisms: 'Melting,' 'Wind scour,' 'Iceberg calving,' and 'Dry calving,' providing details of ablation processes. Logic holds because the segments collectively introduce glaciers, explain their changes via mass balance, and then detail specific ablation mechanisms, matching the proposed answer.",
+        "visual_proof": "Clip 1 defines a glacier visually and textually. Clip 2 shows a diagram with 'INPUTS', 'INTERNAL PROCESSES', and 'OUTPUTS', establishing the mass balance framework. Clip 3 writes 'ACCUMULATION' and 'ABALATION' on the board, linking to the mass balance concept. Clip 4 lists specific ablation mechanisms like 'Melting' and 'Iceberg calving' on the board, directly detailing the outputs."
+    }
+]

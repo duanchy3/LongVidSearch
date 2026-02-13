@@ -1,0 +1,181 @@
+[
+    {
+        "question": "Which weapon is first introduced as a Chinese “copy of the Grease Gun” and later identified as using .45 ACP ammunition?",
+        "answer": "The Type 36 submachine gun.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            44,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 44 introduces “Copy of the Grease Gun” with the Chinese designation “TYPE 36.” Step 2: Slice 49 shows the “Type 36” and then explicitly shows a “.45 ACP” round. Conclusion: Type 36 is the Chinese Grease Gun copy and it uses .45 ACP.",
+        "logic_check_reasoning": "Step 1: Slice 44 shows a title screen with the text 'Copy of the Grease Gun' alongside a Chinese flag and 'TYPE 36,' introducing the Type 36 as a Chinese copy of the Grease Gun. Step 2: Slice 49 presents the Type 36 submachine gun labeled 'Type 36,' then transitions to a bullet labeled '.45 ACP,' with the description noting the video focuses on the firearm and its ammunition. Logic holds because the sequence explicitly connects the Type 36 with .45 ACP ammunition in an educational context.",
+        "visual_proof": "Clip 1 (at 0:12) visually introduces a firearm with the on-screen text 'Copy of the Grease Gun' and 'TYPE 36', alongside the Chinese flag. Clip 2 (at 0:16) shows an animation of a bullet labeled '.45 ACP' being fired, immediately following the sequence featuring the Type 36, establishing its ammunition type."
+    },
+    {
+        "question": "Which heavy machine gun is first introduced as a copy of the MG-42 and later shown firing continuously on a bipod in a dark studio-like presentation?",
+        "answer": "The M53 machine gun (M-53).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            65,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 65 labels “Copy of the MG-42” as “THE M53 MACHINE GUN.” Step 2: Slice 77 shows a machine gun labeled “M-53” firing continuously on a bipod with muzzle flashes. Conclusion: The firing gun is the M53/M-53 copy of the MG-42.",
+        "logic_check_reasoning": "Step 1: Slice 65 explicitly shows an illustration labeled 'Copy of the MG-42' and 'THE M53 MACHINE GUN,' identifying the weapon as the M53. Step 2: Slice 77 shows a machine gun labeled 'M-53' firing continuously while mounted on a bipod against a dark background. Logic holds because both slices identify the same weapon (M53/M-53) and together match the description of being introduced as a copy of the MG-42 and later shown firing on a bipod in a dark, studio-like setting.",
+        "visual_proof": "Clip 1 visually identifies the weapon as 'THE M53 MACHINE GUN' and explicitly labels it a 'Copy of the MG-42', alongside the Yugoslav flag. Clip 2 shows the same weapon, labeled 'M-53', mounted on a bipod in a dark studio setting, firing continuously with visible muzzle flash and spent casings ejecting."
+    },
+    {
+        "question": "A soldier using a tripod-mounted machine gun later gets hit and collapses while the gun keeps firing. Which earlier scene establishes the same Soviet-style red-star soldier operating a tripod-mounted machine gun before that collapse happens?",
+        "answer": "The earlier establishing scene is the soldier lying prone and aiming a tripod-mounted machine gun in the desert before the later collapse scene.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            67,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 67 shows a red-star-helmet soldier kneeling and aiming a machine gun mounted on a tripod. Step 2: Slice 74 shows a similar red-star soldier firing from cover, then being struck and falling while the tripod gun continues firing. Conclusion: Slice 67 establishes the operator/weapon setup that later leads into the collapse outcome in Slice 74.",
+        "logic_check_reasoning": "Step 1: Slice 74 describes a Soviet-style soldier (green uniform, red star on helmet) using a belt-fed machine gun mounted on a tripod, then being struck and collapsing while the gun keeps firing. Step 2: Slice 67 shows a soldier with the same visual identifiers (green uniform, red star on helmet) kneeling and aiming a large machine gun mounted on a tripod in a desert setting. Logic holds because both slices feature the same distinctive soldier and the same tripod-mounted machine gun, with Slice 67 establishing him operating the weapon before the later collapse in Slice 74.",
+        "original_text_answer": "The earlier establishing scene is the soldier kneeling and aiming a tripod-mounted machine gun in the desert before the later collapse scene.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In both clips, the sequence begins with the soldier in a prone position, operating the tripod-mounted machine gun. The kneeling position occurs *after* the initial prone firing, not before the collapse. The collapse scene (lying on back) also follows the kneeling scene. Therefore, the 'earlier scene' that establishes the soldier with the tripod-mounted gun is the prone position, not the kneeling one."
+    },
+    {
+        "question": "Which narrative shift shows the video moving from an outdoor battlefield tone to a cybersecurity advertisement tone featuring a uniformed ‘security guard’ character?",
+        "answer": "It shifts from weapon/combat visuals to a NordVPN/Threat Protection ad with a green-uniform guard.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            33,
+            37,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows soldiers prone firing rifles in a military action context. Step 2: Slice 37 introduces a sponsor card for Simple History with NordVPN and an animated uniformed character. Step 3: Slice 41 continues the cybersecurity theme with “Threat Protection” and a guard/shield motif. Conclusion: The video pivots from battlefield imagery into a cybersecurity advertisement featuring a guard character.",
+        "logic_check_reasoning": "Step 1: Slice 33 depicts soldiers in green uniforms firing rifles, establishing a battlefield/combat tone. Step 2: Slice 37 introduces a NordVPN sponsorship with an animated character in a green military-style uniform, signaling a move toward a cybersecurity ad context. Step 3: Slice 41 explicitly presents a Threat Protection ad featuring a green-uniformed security guard character, solidifying the cybersecurity advertisement tone. Logic holds because the context shows a clear transition from combat visuals to a NordVPN/Threat Protection ad featuring a uniformed guard.",
+        "visual_proof": "Clip 1 shows soldiers in combat on a battlefield. Clip 2 introduces the 'Simple History' brand with a green-uniformed guard character next to the NordVPN logo. Clip 3 continues with the same guard character promoting 'Threat Protection,' confirming the shift to a cybersecurity advertisement tone."
+    },
+    {
+        "question": "In the desert transfer-and-use sequence, who receives a rifle from a suited man and then is shown firing it in the next desert scene?",
+        "answer": "The soldier wearing a red beret and black uniform with yellow accents (and a yellow bandolier).",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a man in a black suit and sunglasses handing a rifle to a soldier in a red beret. Step 2: Slice 6 shows the red-beret soldier aiming and firing a rifle with a muzzle flash. Conclusion: The red-beret soldier is the recipient and later the shooter.",
+        "logic_check_reasoning": "Step 1: Slice 5 states that in a desert scene, a suited man hands a rifle to a character in a military uniform wearing a red beret. Step 2: Slice 6 shows, in a desert scene, a man in military attire with a red beret, black uniform with yellow accents, and a yellow bandolier firing a rifle. Logic holds because the visual attributes (red beret, military uniform, desert setting) match between the recipient in Slice 5 and the shooter in Slice 6, indicating it is the same character. The proposed answer precisely describes this character.",
+        "visual_proof": "In Clip 1, the man in the suit hands a rifle to the soldier who is wearing a red beret, black uniform, and a yellow bandolier. In Clip 2, the same soldier is shown alone in a desert setting, holding and firing that identical rifle."
+    },
+    {
+        "question": "Which sequence shows a contrast between a target being destroyed at a controlled shooting range and later soldiers firing in a structured training line at another range-like setting?",
+        "answer": "The controlled target practice shot is contrasted with organized line firing by camouflaged soldiers.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            32,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 32 shows first-person range shooting where a paper target shatters upon impact. Step 2: Slice 62 shows multiple camouflaged soldiers lined up firing rifles in a disciplined training scene. Conclusion: The video contrasts individual target practice with group live-fire training.",
+        "logic_check_reasoning": "Step 1: Slice 32 describes a controlled outdoor shooting range where a rifle shot causes a target to shatter, emphasizing a single-person target practice scene. Step 2: Slice 62 depicts an animated military training scenario with camouflaged soldiers firing rifles while positioned in a line at a range-like setting. Logic holds because the proposed answer restates the contrast between the individual controlled target destruction (Slice 32) and the organized line firing by camouflaged soldiers (Slice 62), both explicitly supported by the context.",
+        "visual_proof": "Clip 1 shows a first-person view of a rifle aimed at paper targets in a desert-like shooting range, with bullet holes visible on the target, indicating controlled target practice. Clip 2 shows multiple soldiers in camouflage uniforms standing in an organized line, each aiming rifles from behind barriers, which depicts structured training firing. The visual contrast between solo target engagement and group line firing is clear."
+    },
+    {
+        "question": "Which storyline element shows weapons moving from design discussions to an actual presented heavy weapon on a table during a formal indoor meeting?",
+        "answer": "Blueprint planning precedes a formal presentation/discussion with a tripod-mounted gun on the table.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            66,
+            76,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 66 shows a team collaborating over blueprints/mechanical drawings. Step 2: Slice 76 shows two men in an indoor formal setting with a large gun mounted on a tripod on the table, discussing it. Step 3: Slice 72 reinforces the instructional table-based examination format with two presenters holding a machine gun between them. Conclusion: The video moves from design/planning to formal demonstration/presentation of a heavy weapon on a table.",
+        "logic_check_reasoning": "Step 1: Slice 66 shows a team focused on blueprints with mechanical diagrams, actively discussing and adjusting designs, indicating design-stage discussions. Step 2: Slice 76 shows a formal indoor setting where two men are presenting/discussing a large gun mounted on a tripod on a table, indicating an official presentation of a heavy weapon. Logic holds because the proposed answer identifies the transition from design planning (Slice 66) to a formal presentation of the weapon (Slice 76), matching the question's described progression.",
+        "visual_proof": "Clip 1 visually depicts three individuals in uniform examining and pointing at a detailed blueprint of a weapon, indicating a design or planning phase. Clip 2 shows two men in formal attire (one in a suit) standing behind a table where the fully assembled, tripod-mounted weapon is displayed, suggesting a formal presentation or discussion. This sequence of events—planning on blueprints followed by a formal presentation of the physical weapon—directly supports the storyline element described."
+    },
+    {
+        "question": "A war-torn urban aiming scene from a first-person viewpoint mirrors another first-person aiming scene at a peaceful shooting range. What is the key difference in what the person is aiming at in each case?",
+        "answer": "In the urban war scene, the aim is at a person taking cover; at the range, the aim is at a paper target on a post.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            17,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 17 shows first-person aiming at a distant human figure crouched behind debris in a war-torn city. Step 2: Slice 32 shows first-person aiming at a circular paper target at a shooting range. Conclusion: The target changes from a combatant to a practice target.",
+        "logic_check_reasoning": "Step 1: Slice 17 describes a war-torn urban scene where the player aims at a small figure, possibly a soldier, crouched behind debris for cover. Step 2: Slice 32 depicts a shooting range where the player aims at a circular paper target mounted on a wooden post. Logic holds because the first is a person taking cover, while the second is an inanimate paper target on a post.",
+        "visual_proof": "Clip 1 shows a first-person view aiming a rifle at a soldier in yellow gear crouching behind rubble in a destroyed urban environment. Clip 2 shows a first-person view aiming a rifle at a circular paper target mounted on a wooden post in an open, sunny shooting range with hills in the background."
+    },
+    {
+        "question": "The video includes multiple instances of soldiers firing rifles in deserts. Identify one scene where a single civilian-looking man fires a rifle in the desert and another where four uniformed soldiers fire in unison under a bright sun.",
+        "answer": "Single man firing: the balding mustached man in a light blue shirt; group firing: four identical uniformed soldiers firing together in a desert line.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows a balding mustached man in a light blue shirt firing an assault rifle in a desert setting. Step 2: Slice 29 shows four identical soldiers in a desert line firing rifles simultaneously under a bright sun. Conclusion: These are the two desert-firing depictions with different shooter groupings.",
+        "logic_check_reasoning": "Step 1: Slice 31 describes a single balding, mustached man in a light blue shirt and black pants in a desert-like environment, aiming and firing an assault rifle with visible muzzle flashes. This supports the 'single man firing' identification. Step 2: Slice 29 describes four identical characters in military-style uniforms, standing in a line in a barren, desert-like landscape under a bright sun, firing rifles simultaneously with muzzle flashes. This supports the 'four uniformed soldiers firing together' identification. Logic holds because each part of the proposed answer maps directly to these slices, matching key visual attributes (number of people, attire, setting, and action).",
+        "visual_proof": "Clip 1 shows four soldiers in green uniforms and tactical vests firing rifles in unison against a desert backdrop with a bright sun. Clip 2 shows a single, balding man with a mustache wearing a light blue short-sleeved shirt and dark pants, firing a rifle in a similar desert environment."
+    },
+    {
+        "question": "How does the video visually connect the act of copying weapon designs to large-scale output, moving from technical discussion to mass production imagery?",
+        "answer": "It shows teams analyzing blueprints and later shows rifles moving in bulk on a conveyor belt.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            66,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows a group studying a firearm blueprint collaboratively. Step 2: Slice 66 repeats the blueprint collaboration motif with mechanical diagrams and annotations. Step 3: Slice 79 shows a conveyor belt transporting many rifles stacked for industrial throughput. Conclusion: Design/planning is linked to mass manufacturing output.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows three people examining a firearm blueprint, discussing its components and assembly, indicating technical analysis. Step 2: Slice 66 similarly depicts a team focused on a large blueprint with mechanical drawings, pointing and adjusting details, reinforcing the technical discussion/design phase. Step 3: Slice 79 shows a conveyor belt transporting many rifles in an industrial setting, clearly indicating mass production. Logic holds because the video first presents teams analyzing weapon blueprints (technical discussion) and later shows rifles moving in bulk on a conveyor belt (large-scale output), matching the proposed answer.",
+        "visual_proof": "Clip 1 and Clip 2 show multiple individuals gathered around detailed weapon blueprints, indicating technical analysis and discussion. Clip 3 transitions to a factory setting where numerous rifles are shown moving along a conveyor belt, visually representing mass production. This sequence directly connects the initial design phase with the final manufacturing output."
+    },
+    {
+        "question": "Which set of scenes shows the video shifting from industrial weapon work (workers at machines) to individuals actually holding or presenting the finished guns in that same industrial context?",
+        "answer": "Workers operating machines are followed by workers holding submachine guns in the factory setting.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            48,
+            52,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 48 shows women in blue uniforms operating machines in a workshop/factory under supervision. Step 2: Slice 52 shows another factory workbench scene with a young girl in a blue uniform working on machinery. Step 3: Slice 53 shows a braided woman in blue holding a submachine gun, with others also holding similar guns in the industrial setting. Conclusion: The focus shifts from manufacturing tasks to handling/presenting the produced weapons.",
+        "logic_check_reasoning": "Step 1: Slice 48 describes a factory/workshop with workers in blue uniforms operating machines under a supervisor, indicating industrial work. Step 2: Slice 52 likewise shows workers at machines in a factory setting, reinforcing the industrial context. Step 3: Slice 53 shows individuals in the same industrial environment holding submachine guns, suggesting a transition to presenting finished weapons. Logic holds because the sequence moves from workers operating machinery to individuals holding the guns within the same industrial context.",
+        "visual_proof": "The first two clips (0:00-0:18) show a wide shot of multiple workers at their stations, with machinery and tools visible around them, indicating an industrial production process. The third clip (0:00-0:13) is a close-up of one worker actively holding and manipulating a finished submachine gun, demonstrating the transition from manufacturing to handling the completed product within the same factory environment."
+    },
+    {
+        "question": "Identify the chain where a ‘copy’ title card introduces a weapon, later a weapon-caliber card explains its ammo, and then a firing animation demonstrates the weapon’s operation for that weapon family.",
+        "answer": "Type 36 (copy of the Grease Gun) → .45 ACP ammo card → subsequent animated firing/mechanism depiction of a submachine gun.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            44,
+            49,
+            51,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 44 introduces Type 36 as a Chinese “Copy of the Grease Gun.” Step 2: Slice 49 ties Type 36 to .45 ACP ammunition via a caliber card. Step 3: Slice 51 shows an animated submachine gun depiction emphasizing motion/mechanism (suggesting operation). Step 4: Slice 28 provides an explicit firing depiction with visible muzzle flashes (operational demonstration style). Conclusion: The video uses title → ammo → mechanism/firing visuals to explain operation of a weapon family.",
+        "logic_check_reasoning": "Step 1: Slice 44 shows a title card stating \"Copy of the Grease Gun\" with \"TYPE 36,\" introducing the weapon. Step 2: Slice 49 displays the Type 36 and then a labeled \".45 ACP\" bullet, explaining the caliber/ammunition for that weapon. Step 3: Slice 51 presents an animated submachine gun in motion, suggesting firing/cycling, which demonstrates the weapon’s operation consistent with the submachine gun family introduced. The sequence logically connects the copy title, ammo card, and firing/mechanism animation.",
+        "visual_proof": "Clip 1/4 ends with a title card identifying the 'TYPE 36' as a 'Copy of the Grease Gun' alongside the Chinese flag. Clip 2/4 shows an animation of the Type 36 firing, labeled 'Type 36'. Clip 3/4 displays a '.45 ACP' bullet, followed by an animation showing its casing being ejected after firing. Clip 4/4 features a different weapon (an AK-style rifle), confirming that the chain described in the original answer pertains to the Type 36 and its ammunition, not the rifle."
+    },
+    {
+        "question": "Which scenes together suggest an escalation from small-arms rifle fire to heavier machine gun employment in open desert warfare contexts?",
+        "answer": "Rifle firing by soldiers is followed by tripod/bipod-mounted machine gun scenes in the desert.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            15,
+            33,
+            70,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 15 shows multiple soldiers with rifles in a desert combat posture. Step 2: Slice 33 shows coordinated rifle firing (training/combat depiction). Step 3: Slice 70 shows a soldier prone with a large machine gun on a bipod. Step 4: Slice 74 shows a belt-fed tripod-mounted machine gun firing intensely during combat. Conclusion: The weapon emphasis escalates from rifles to heavy machine guns in desert warfare scenes.",
+        "logic_check_reasoning": "Step 1: Slice 15 shows multiple soldiers in a desert environment with rifles in defensive stances, indicating small-arms readiness. Step 2: Slice 33 shows three soldiers prone and actively firing rifles, reinforcing small-arms engagement. Step 3: Slice 70 depicts a soldier in a desert-like setting using a large machine gun on a bipod, indicating heavier weapon employment. Step 4: Slice 74 shows a belt-fed machine gun on a tripod in a barren landscape with active firing, further indicating escalation to heavier machine guns. Logic holds because the scenes collectively progress from rifle use (small arms) to bipod/tripod-mounted machine guns in open, arid/desert contexts.",
+        "visual_proof": "Clip 1 and Clip 2 show soldiers in prone positions firing individual rifles (Clip 1: bolt-action rifles; Clip 2: assault rifles). Clip 3 and Clip 4 depict soldiers operating heavier, bipod or tripod-mounted machine guns in a desert environment. This visual progression from individual rifle fire to sustained machine gun fire in the same setting supports the idea of an escalation in firepower."
+    }
+]

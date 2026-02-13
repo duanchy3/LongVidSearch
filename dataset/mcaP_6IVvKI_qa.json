@@ -1,0 +1,110 @@
+[
+    {
+        "question": "Which artist is identified as the creator of 'The Annunciation' and is later associated with the 'Vitruvian Man' drawing shown immediately after an Annunciation detail?",
+        "answer": "Leonardo da Vinci.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 20 identifies 'The Annunciation' as by Leonardo da Vinci. Step 2: Slice 21 transitions from an Annunciation close-up to Leonardo’s 'Vitruvian Man.' Conclusion: The artist connected to both is Leonardo da Vinci.",
+        "logic_check_reasoning": "Step 1: Slice 20 explicitly states that 'The Annunciation' is attributed to Leonardo da Vinci and shows his portrait with name, reinforcing the identification. Step 2: Slice 21 describes a close-up of the Annunciation followed by a transition to the 'Vitruvian Man,' which it identifies as Leonardo da Vinci's famous drawing. Logic holds because the same artist (Leonardo da Vinci) is tied to both the Annunciation and the Vitruvian Man in consecutive segments.",
+        "visual_proof": "The first clip shows 'The Annunciation' painting with the date range '1472-1475' and then displays a portrait of Leonardo da Vinci with his name in a yellow text box. The second clip shows a detailed view of the same painting, followed by an image of the 'Vitruvian Man,' which is famously attributed to Leonardo da Vinci. The sequence visually links Leonardo da Vinci to both artworks."
+    },
+    {
+        "question": "Which Renaissance artist is credited with a circular 'Holy Family' painting and also appears as the creator of a red-chalk anatomical study shown later?",
+        "answer": "Michelangelo (Michelangelo Buonarroti).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            33,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 33 labels 'DONI TONDO' with 'Michelangelo Buonarroti.' Step 2: Slice 39 shows a red chalk drawing attributed to Michelangelo. Conclusion: The common artist is Michelangelo.",
+        "logic_check_reasoning": "Step 1: Slice 33 shows the title 'DONI TONDO' alongside the name 'Michelangelo Buonarroti' and describes a family scene, indicating Michelangelo is credited with this painting. Step 2: Slice 39 describes a red chalk anatomical study attributed to Michelangelo. Logic holds because both slices explicitly connect Michelangelo to the works shown: the Doni Tondo and the red-chalk study.",
+        "visual_proof": "Clip 1 explicitly identifies the circular 'Holy Family' painting as the 'Doni Tondo' by 'Michelangelo Buonarroti' via on-screen text. Clip 2 shows a red-chalk anatomical study, and its on-screen caption attributes it to 'Michelangelo'. The consistent attribution across both clips confirms the artist is Michelangelo."
+    },
+    {
+        "question": "Which female painter’s self-portrait is shown with her name and later shown again with a year label indicating 1790?",
+        "answer": "Elisabeth Louise Vigée Le Brun.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            70,
+            72
+        ],
+        "reasoning_chain": "Step 1: Slice 70 identifies '09 SELF PORTRAIT' as Elisabeth Louise Vigée Le Brun. Step 2: Slice 72 shows the same type of self-portrait image with a '1790' label. Conclusion: The self-portrait belongs to Elisabeth Louise Vigée Le Brun and is dated 1790 in a later segment.",
+        "logic_check_reasoning": "Step 1: Slice 70 explicitly identifies the self-portrait as Elisabeth Louise Vigée Le Brun, with on-screen text 'SELF PORTRAIT' and her name. Step 2: Slice 72 shows a similar portrait of a female artist holding a brush and palette, with matching attire (black dress, white lace collar/cuffs) and includes a yellow label reading '1790'. Step 3: The visual details align, indicating it is the same self-portrait shown again with the year label. Therefore, the female painter is Elisabeth Louise Vigée Le Brun.",
+        "visual_proof": "In Clip 1, the text 'Elisabeth Louise Vigée Le Brun' appears on screen below the title 'SELF PORTRAIT'. In Clip 2, the same painting is shown again with a yellow label displaying the year '1790' at the bottom. Both pieces of information are directly visible in the respective clips."
+    },
+    {
+        "question": "How do the headlines about the Uffizi changing with the times connect to the later gallery focus on a named female artist portrait display?",
+        "answer": "The headlines say the Uffizi will show more female artists, and later the video shows portrait displays highlighting named women artists such as Angelica Kauffman.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            92,
+            77,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 92 shows headlines about the Uffizi evolving and showing more female artists. Step 2: Slice 77 shows a portrait wall with a central labeled 'Angelica Kauffman.' Step 3: Slice 80 continues emphasis on female self-portraiture and quotes about painting oneself. Conclusion: The policy/mission shift (headlines) is reflected by showcasing women artists in the galleries.",
+        "logic_check_reasoning": "Step 1: Slice 92 shows headlines stating the Uffizi is evolving and will show more female artists. Step 2: Slice 77 depicts a gallery wall prominently featuring a portrait labeled 'Angelica Kauffman,' a named woman, suggesting focus on a female artist. Step 3: Slice 80 further shows paintings of a woman artist with palette and brush and text describing her self-portrait practice, reinforcing the emphasis on female artists. Logic holds because the later gallery visuals exemplify the headline's claim about highlighting more female artists.",
+        "visual_proof": "Clip 1 displays a headline from 'THE ART NEWSPAPER' stating 'Uffizi to show more female artists'. Clip 2 then visually supports this by showing a wall of portraits in the gallery, with one specifically highlighted and labeled 'Angelica Kauffman', directly connecting the stated intention with a visual example of a named female artist being featured."
+    },
+    {
+        "question": "How does the video build a chain from Medusa’s head imagery to a museum display context that includes both busts and a central circular portrait-like object on a red wall?",
+        "answer": "It presents Medusa imagery and then places similar circular objects within curated displays featuring busts and a central circular piece in glass, emphasizing museum presentation.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            60,
+            59,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 60 shows a close-up of Medusa’s head (snakes, blood, green background). Step 2: Slice 59 shows a red-wall gallery display with busts and a circular object in glass between them. Step 3: Slice 69 shows a symmetrical red-wall display centered on a glass-encased circular portrait, flanked by busts. Conclusion: The video connects circular myth/portrait objects (including Medusa-type imagery) to curated museum display arrangements.",
+        "logic_check_reasoning": "Step 1: Slice 60 describes a close-up of a Medusa head painting, with an oval frame and detailed focus on the head and snakes, establishing the Medusa imagery. Step 2: Slice 59 shows a museum/gallery context with a deep red wall, two busts on pedestals, and a central circular object encased in glass that depicts a portrait, with the camera focusing on this object. Step 3: Slice 69 reinforces the same display: a rich red backdrop, a central glass-encased circular portrait, and flanking busts (one dark, one light), confirming the curated presentation. Logic holds because the video features Medusa imagery and also presents a museum display that includes busts and a central circular portrait-like object on a red wall. The proposed answer’s description of transitioning from Medusa imagery to curated displays with a central circular piece is supported by these slices.",
+        "visual_proof": "Clip 1 shows a close-up of Caravaggio's circular Medusa painting. Clip 2 transitions to a museum display where this same circular Medusa painting is shown in a glass case, flanked by two Medusa busts on pedestals against a red wall. Clip 3 provides a wider view of this exact museum setup, confirming the curated context with the central circular portrait and surrounding busts."
+    },
+    {
+        "question": "Which artist appears in the video both through a self-portrait identification and through a famous nude painting attributed to him?",
+        "answer": "Titian (Tiziano Vecellio).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            46,
+            84
+        ],
+        "reasoning_chain": "Step 1: Slice 46 shows 'Titian, Self-Portrait II, 1562.' Step 2: Slice 84 shows 'Venus of Urbino' credited to Tiziano Vecellio (Titian). Conclusion: Both refer to Titian.",
+        "logic_check_reasoning": "Step 1: Slice 46 explicitly identifies a frame as “Titian, Self-Portrait II, 1562,” confirming a self-portrait of Titian appears. Step 2: Slice 84 states the video features “Venus of Urbino” by Tiziano Vecellio (aka Titian), a famous nude painting. Logic holds because Tiziano Vecellio is the same person as Titian, showing the same artist via both a self-portrait and a renowned nude painting.",
+        "visual_proof": "Clip 1 displays a painting explicitly labeled 'Titian, Self Portrait (c. 1562)'. Clip 2 displays the painting 'Venus of Urbino' with text identifying the artist as 'Tiziano Vecellio', which is Titian's full name. The video thus shows both a self-portrait and a famous nude painting by the same artist."
+    },
+    {
+        "question": "Which museum is first shown in an aerial city view and later highlighted with a yellow arrow on a vintage-style map of Florence?",
+        "answer": "The Uffizi Gallery.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows an aerial view of Florence and zooms to the Uffizi Gallery. Step 2: Slice 76 shows a vintage map of Florence with a yellow arrow labeling the Uffizi Gallery. Conclusion: Both scenes refer to the Uffizi Gallery.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the video shows an aerial view of Florence and then zooms in on the Uffizi Gallery, confirming the museum shown in the aerial city view is the Uffizi Gallery. Step 2: Evidence Slice 76 describes a vintage-style map where a yellow arrow highlights the Uffizi Gallery with text labeling it. Logic holds because both slices explicitly reference the Uffizi Gallery in the two described contexts.",
+        "visual_proof": "In Clip 1 (0:11), an aerial view of Florence highlights 'THE UFFIZI GALLERY' with a yellow arrow pointing to the building. In Clip 2 (0:01), a vintage-style map of Florence also highlights 'UFFIZI GALLERY' with a yellow arrow and text label, confirming it is the same museum shown in both clips."
+    },
+    {
+        "question": "What multi-step link is made between the Uffizi’s physical presence in Florence, a labeled map pointing to it, a digital 'Uffizi Galleries' online interface, and then a final end card referencing the series title?",
+        "answer": "The Uffizi is presented as a real Florence landmark, located on a map, accessible via an online gallery interface, and framed within the 'Behind the Masterpiece' series branding.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            1,
+            76,
+            95,
+            96
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows Florence and the Uffizi Gallery exterior. Step 2: Slice 76 highlights the Uffizi on a map of Florence with a yellow arrow. Step 3: Slice 95 shows a digital interface titled 'The Uffizi Galleries' suggesting virtual exploration. Step 4: Slice 96 shows the 'BEHIND THE MASTERPIECE' subscribe end card. Conclusion: The video frames the Uffizi across place, navigation, digital access, and series branding.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the Uffizi Gallery as a real landmark in Florence, including aerial views, zoom-in on the gallery, and museum interiors. Step 2: Slice 76 presents an animated map of Florence with a yellow arrow and bold text explicitly pointing to the Uffizi Gallery. Step 3: Slice 95 displays a digital interface titled 'The Uffizi Galleries' with a virtual tour option, indicating online accessibility. Step 4: Slice 96 shows an end card with 'BEHIND THE MASTERPIECE,' tying the content to the series branding. Logic holds because the proposed answer succinctly connects these sequential elements: physical presence, mapped location, digital access, and series framing.",
+        "visual_proof": "Clip 1 shows aerial views of Florence with text overlay identifying 'THE UFFIZI GALLERY'. Clip 2 displays a historical map of Florence with a yellow label and arrow explicitly pointing to 'UFFIZI GALLERY'. Clip 3 features a screen recording of the official 'Le Gallerie degli Uffizi' website, showing its digital interface. Clip 4 concludes with a title card reading 'BEHIND THE MASTERPIECE', linking the entire sequence to the series brand."
+    }
+]

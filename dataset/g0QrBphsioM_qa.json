@@ -1,0 +1,149 @@
+[
+    {
+        "question": "What topic is introduced with the word shown over Earth from space and later revisited when the presenter says he wants to honor his French heritage?",
+        "answer": "Geography, connected to his French heritage.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            2
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows Earth from space with the word “GEOGRAPHY.” Step 2: Slice 1 shows the presenter saying he is 1/8th French and wants to honor that heritage. Conclusion: The video’s core topic (geography) is framed through the presenter’s French heritage.",
+        "logic_check_reasoning": "Step 1: Slice 2 explicitly shows Earth from space with the word \"GEOGRAPHY\" prominently displayed, clearly introducing the topic of geography. Step 2: Slice 1 shows the presenter mentioning he is 1/8th French and wanting to honor his heritage, which ties into cultural/national aspects that fall under the broader geography theme. Logic holds because the question asks for the topic introduced by the word over Earth and notes it is revisited when the presenter references his French heritage; the topic is geography.",
+        "visual_proof": "In Clip 2, the word 'GEOGRAPHY' is explicitly displayed over a world map after showing Earth from space. In Clip 1, the presenter states he is 1/8th French and feels he should honor his heritage, establishing a thematic link between his personal background and the topic of geography introduced in Clip 2."
+    },
+    {
+        "question": "Which overseas territory is first highlighted as a yellow area on a South America map and then shown as the location of a space center used for launches and a Mars mission graphic?",
+        "answer": "French Guiana.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 13 highlights French Guiana in yellow on a South America map. Step 2: Slice 14 identifies the Kourou Space Center in French Guiana and shows a Mars mission trajectory. Conclusion: The same territory is tracked from map location to launch site and mission context.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly states that the map zooms in on French Guiana, highlighted in yellow, with its name labeled. Step 2: Slice 14 explicitly identifies the Kourou Space Center as being in French Guiana and notes multiple launch pads, followed by a Mars mission trajectory graphic. Logic holds because the same place—French Guiana—is first highlighted on the map and then shown as the location of a launch-capable space center and related Mars mission visuals.",
+        "visual_proof": "In Video 1, the map highlights 'French Guiana' in yellow. In Video 2, the text overlay explicitly states 'Kuro Space center (French Guiana)' and shows a rocket launch facility, followed by a mission trajectory graphic for a Mars mission launched from that location."
+    },
+    {
+        "question": "Which Caribbean island is presented as split between two countries using two flags, and then immediately after, it is grouped on a map with a neighboring island also highlighted in yellow?",
+        "answer": "St. Martin.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            16,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows St. Martin divided with French and Dutch flags. Step 2: Slice 17 highlights Saint Martin and Saint Barthelemy in yellow and discusses overseas territories. Conclusion: St. Martin is the split island and then appears in a broader overseas-territory grouping.",
+        "logic_check_reasoning": "Step 1: Slice 16 shows a map labeled 'St. Martin' with two distinct colors and the French and Dutch flags, explicitly indicating the island’s split between two countries. Step 2: Slice 17 then shows a close-up of a map highlighting Saint Martin and Saint Barthelemy in yellow, grouping St. Martin with a neighboring island. Logic holds because the island shown as split in Slice 16 is St. Martin, and Slice 17 immediately presents it alongside Saint Barthelemy on the map.",
+        "visual_proof": "Clip 1 visually presents the island of St. Martin split into two colored sections (green and beige) with the French flag above and the Dutch flag below, labeled 'St. Martin'. Clip 2 immediately follows with a map showing 'Saint Martin' and 'Saint Barthelemy' both highlighted in yellow, confirming the grouping with a neighboring island as described."
+    },
+    {
+        "question": "Which Pacific location is first introduced by name and flags alongside the term “Kanak people,” and later appears inside the green Exclusive Economic Zone shading on a map?",
+        "answer": "New Caledonia.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 21 labels “New Caledonia” and shows flags with “Kanak people.” Step 2: Slice 24 shows an EEZ map in green including New Caledonia among Pacific territories. Conclusion: New Caledonia is tracked from cultural flags to its EEZ presence.",
+        "logic_check_reasoning": "Step 1: Slice 21 explicitly shows the text 'New Caledonia' and mentions flags with the term 'Kanak people,' introducing the location by name alongside cultural symbols. Step 2: Slice 24 describes a map with green EEZ shading that includes New Caledonia among Pacific territories. Logic holds because the same location, New Caledonia, is first introduced with flags and 'Kanak people' and later appears within the EEZ shading on the map.",
+        "visual_proof": "Clip 1 visually introduces 'New Caledonia' with text overlay alongside its flag (Kanak symbol) and the French flag. Clip 2 shows a world map where 'New Caledonia' is explicitly labeled and falls within the green shaded area marked 'Exclusive Economic Zone'."
+    },
+    {
+        "question": "Which French region is first shown with a street sign in a local language and then later appears on a food map as a labeled culinary region?",
+        "answer": "Brittany.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            70,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 70 shows a Brittany street sign and highlights Brittany. Step 2: Slice 52 labels Brittany on a map of culinary specialties. Conclusion: Brittany is linked across language/culture and gastronomy maps.",
+        "logic_check_reasoning": "Step 1: Slice 70 states the video begins with a street sign in Brittany, France, showing use of the Breton language, confirming a local-language street sign in the region. Step 2: Slice 52 describes a food map of France that labels Brittany and associates it with a regional culinary image. Logic holds because Brittany is explicitly shown in both contexts: first with a local-language street sign, then as a labeled culinary region on the map.",
+        "visual_proof": "Clip 1 shows street signs in Brittany with bilingual text (French and Breton, e.g., 'DA BEP LEC'H'). Clip 2 displays a map of France where 'Brittany' is labeled and linked to a food image (crepes with strawberries), confirming it as a culinary region. The region is shown first with signage and later on the food map."
+    },
+    {
+        "question": "What amount of sleep is shown for a woman in bed, and how does it compare to the sleep duration later shown in a side clip during the presenter’s explanation?",
+        "answer": "8.83 hours, which is longer than 6–7 hours.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            81,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 81 displays “8.83 Hours” over a sleeping woman. Step 2: Slice 82 displays “6-7 hours” in an inset while the presenter speaks. Conclusion: 8.83 hours exceeds the 6–7 hour duration.",
+        "logic_check_reasoning": "Step 1: Slice 81 explicitly shows a woman sleeping with the overlay '8.83 Hours,' so the amount of sleep shown is 8.83 hours. Step 2: Slice 82 shows, during the presenter’s explanation, a side clip with the overlay '6-7 hours.' Step 3: Comparing these durations, 8.83 hours is longer than 6–7 hours. The answer aligns with the explicitly shown numbers.",
+        "visual_proof": "In Clip 1, a woman is shown sleeping in bed with the text '8.83 Hours' overlaid on the screen. In Clip 2, during the presenter’s explanation, a side clip shows various scenes (person on bench, waiter, business meeting) with the text '6-7 hours' displayed beneath them. The visual evidence directly supports the stated sleep durations and their comparison."
+    },
+    {
+        "question": "Which famous Paris landmark appears in a city montage and later appears again behind someone relaxing in a park-like setting?",
+        "answer": "The Eiffel Tower.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 29 includes shots of Paris, including the Eiffel Tower. Step 2: Slice 83 shows a person lying down with the Eiffel Tower visible in the background. Conclusion: The Eiffel Tower is the recurring landmark.",
+        "logic_check_reasoning": "Step 1: Slice 29 describes a city montage including the iconic Eiffel Tower illuminated against a twilight sky. Step 2: Slice 83 shows a person relaxing in a park-like setting with the Eiffel Tower visible in the background. Logic holds because the same landmark (Eiffel Tower) appears in both the city montage and later behind someone relaxing.",
+        "visual_proof": "In Clip 1, the Eiffel Tower is clearly visible in a picture-in-picture shot at 0:00. In Clip 2, the Eiffel Tower is prominently featured in the background behind a person lying down on a ledge at 0:03, confirming its appearance in both contexts as described."
+    },
+    {
+        "question": "How does the video connect France’s overseas political categories (regions vs collectivities) to the earlier world map showing where overseas departments and territories are located?",
+        "answer": "It first defines governance types (regions and collectivities) and then uses the world map of overseas departments/territories to show where such overseas entities exist.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            12,
+            15
+        ],
+        "reasoning_chain": "Step 1: Slice 12 explains the legal status differences between regions and collectivities. Step 2: Slice 11 introduces the global distribution of French overseas departments/territories (DOM-TOM). Step 3: Slice 15 then pans across many named overseas places (e.g., Mayotte, Reunion, Wallis and Futuna, New Caledonia, etc.). Conclusion: The governance framework is tied to the mapped global spread of overseas entities.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows the video begins with a world map highlighting French overseas departments and territories (DOM-TOM). Step 2: Slice 12 presents a speaker defining the political categories (regions vs collectivities) and their governance differences. Step 3: Slice 15 returns to close-up shots of the world map focusing on specific overseas territories. Logic holds because the video provides definitions of governance categories and then shows (again) the map of the overseas entities, thereby linking the political categories to the geographic locations shown earlier.",
+        "visual_proof": "Clip 2 visually defines 'Regions' and 'Collectivities' with text overlays explaining their legal status. Clips 1 and 3 show a world map highlighting the specific locations of these overseas departments and territories, such as French Polynesia, Mayotte, and Saint Pierre and Miquelon. The sequence establishes a clear connection: the definitions in Clip 2 are applied to the geographic locations shown in Clips 1 and 3."
+    },
+    {
+        "question": "Which place is introduced as an overseas territory on a map, then later shown as a real space center, and finally reappears in a nature montage labeled with its region?",
+        "answer": "French Guiana.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            14,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 13 locates French Guiana on a map. Step 2: Slice 14 shows the Kourou Space Center in French Guiana. Step 3: Slice 57 shows natural scenes labeled “French Guiana” / “Caribbean & Fr. Guiana.” Conclusion: The same place is tracked across map, infrastructure, and nature footage.",
+        "logic_check_reasoning": "Step 1: Slice 13 shows a map of South America zooming in on French Guiana, explicitly labeled 'French Guiana.' This introduces the place on a map. Step 2: Slice 14 presents an aerial view of the Kourou Space Center, with a text overlay identifying it as being in French Guiana, thus showing it as a real space center. Step 3: Slice 57 features a nature montage with text 'Caribbean & Fr. Guiana' and 'French Guiana,' indicating the region and reappearing the place. Logic holds because the same place—French Guiana—is consistently referenced across all slices in the described contexts.",
+        "visual_proof": "Clip 1 shows a map highlighting 'French Guiana' as an overseas territory. Clip 2 displays the 'Kuro Space center (French Guiana)', confirming its identity as a real space center. Clip 3 features nature scenes with on-screen text labeling the location as 'French Guiana' and also 'Caribbean & Fr. Guiana', tying it to its regional context."
+    },
+    {
+        "question": "Which French overseas territory is first shown on a detailed map with TAAF labels, then later shown with its own flag over scenic footage, and finally linked to a specific sub-area labeled on a snowy scene?",
+        "answer": "The French Southern and Antarctic Lands (TAAF), including Adélie Land.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            18,
+            59,
+            62
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows a map highlighting the French Southern and Antarctic Territories (TAAF) including Adélie Land. Step 2: Slice 59 shows scenic footage labeled “French Southern and Antarctic lands” with the territory’s flag. Step 3: Slice 62 shows a snowy scene labeled “Adelie Land.” Conclusion: The territory and one of its parts are connected across map, documentary visuals, and labeled sub-region.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows a detailed map explicitly labeled with the French Southern and Antarctic Territories (TAAF), including regions like Crozet, Kerguelen, and Adélie Land. Step 2: Slice 59 displays scenic footage of the French Southern and Antarctic Lands with their flag visible and the text 'French Southern and Antarctic lands,' confirming the territory. Step 3: Slice 62 features a snowy scene labeled 'Adelie Land,' linking to a specific sub-area of TAAF. The progression matches the question: map with TAAF, flag over scenic footage, and a specific sub-area labeled in a snowy scene.",
+        "visual_proof": "Clip 1 shows a map with 'TAAF' and 'French Southern and Antarctic Territories' labels, highlighting islands like Crozet and Kerguelen. Clip 2 displays scenic footage of a snowy mountainous landscape with the TAAF flag in the corner and text identifying it as 'French Southern and Antarctic lands'. Clip 3 shows a snowy, icy landscape with vehicles and buildings, explicitly labeled 'Adelieland', which is a sub-area of TAAF."
+    },
+    {
+        "question": "Which sequence shows a shift from iconic Paris city scenes to the specific avenue “Champs-Élysées,” and then to a broader look at major French airports?",
+        "answer": "Paris montage → Champs-Élysées → major airports like CDG, Nice, Lyon, and Marseille.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows multiple Paris landmarks and cityscapes. Step 2: Slice 30 specifically highlights “Champs-Elysees.” Step 3: Slice 31 expands to major French airports across the country. Conclusion: The video moves from city icons to a specific avenue and then to national transport hubs.",
+        "logic_check_reasoning": "Step 1: Slice 29 describes a Paris montage with iconic city scenes (Eiffel Tower, Arc de Triomphe, bustling streets), fitting \"Paris montage.\" Step 2: Slice 30 explicitly focuses on the specific avenue \"Champs-Elysees\" via an inset image and presentation. Step 3: Slice 31 shows a broader look at major French airports (CDG, Nice, Lyon, Marseille). The sequence Paris montage → Champs-Élysées → major airports matches these slices directly.",
+        "visual_proof": "Clip 1 shows a montage of Paris landmarks including the Eiffel Tower and Arc de Triomphe. Clip 2 explicitly labels and features the Champs-Élysées avenue with an aerial view and text overlay. Clip 3 sequentially displays aerial and ground views of Paris-Charles de Gaulle (CDG), Nice Côte d'Azur (NCE), Lyon Saint-Exupéry (LYS), and Marseille Provence (MRS) airports, each labeled with its name and IATA code."
+    }
+]

@@ -1,0 +1,41 @@
+[
+    {
+        "question": "Which function is explicitly circled as the softmax-kernel definition, and later a lemma presents an expectation-based representation aimed at enabling unbiased positive random feature approximations of that same kernel?",
+        "answer": "SM(x,y) = exp(xᵀy).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 25 circles the definition SM(x,y)=exp(x^T y). Step 2: Slice 34 presents Lemma 1 with an expectation form to approximate softmax using positive random features. Conclusion: The kernel is SM(x,y)=exp(x^T y).",
+        "logic_check_reasoning": "Step 1: Evidence Slice 25 explicitly states that the function SM(x,y) is defined as exp(x^T y) and notes a red circle around this equation, marking it as central. Step 2: Evidence Slice 34 discusses a lemma introducing positive random features for the soft-max function, and says it defines SM(x,y) via an expectation to enable unbiased estimators. Step 3: The two slices together indicate that the circled softmax-kernel definition is SM(x,y) = exp(x^T y, and the lemma later presents an expectation-based representation of that same SM kernel for unbiased positive random feature approximations.",
+        "visual_proof": "In Video 1, the equation 'SM(x,y) def= exp(xᵀy)' is explicitly circled in red. In Video 2, Lemma 1 is presented with the heading '(Positive Random Features (PRFs) for Softmax)', and its first formula begins with 'SM(x,y) = E[...]'. This shows that the lemma provides an expectation-based representation for the same kernel, SM(x,y), which was previously defined and circled."
+    },
+    {
+        "question": "What is the paper’s overall topic introduced at the beginning (the architecture name), and later which code file in a public repository is shown as an implementation related to fast self-attention?",
+        "answer": "The topic is Performers (efficient Transformer attention); the code file is fast_self_attention.py in the google-research repository.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces the paper 'Rethinking Attention with Performers' about Performer architectures. Step 2: Slice 80 shows a GitHub page highlighting fast_self_attention.py. Conclusion: The architecture topic is Performers, and the shown implementation file is fast_self_attention.py.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows the paper titled 'Rethinking Attention with Performers' and explicitly states that 'Performers' are the Transformer architectures discussed, confirming the architecture name. Step 2: Slice 80 shows a GitHub repository (google-research/google-research) and focuses on a code file named 'fast_self_attention.py', clearly related to fast self-attention. The proposed answer matches both pieces of evidence.",
+        "visual_proof": "Clip 1 shows the paper title 'RETHINKING ATTENTION WITH PERFORMERS' and the abstract introducing 'Performers, Transformer architectures'. Clip 2 shows a GitHub page for 'google-research/google-research' with the file path '/performer/fast_self_attention/fast_self_attention.py' clearly visible in the browser's navigation bar."
+    },
+    {
+        "question": "What named mechanism is highlighted in the paper’s abstract and then later reappears as part of a slide title about explaining a mechanism with random features?",
+        "answer": "FAVOR+ (Fast Attention via positive Orthogonal Random Features).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the abstract with the term FAVOR+ highlighted. Step 2: Slice 9 shows a slide explicitly titled/centered on the FAVOR+ mechanism and positive orthogonal random features. Conclusion: The repeated named mechanism is FAVOR+.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 (paper abstract) explicitly highlights 'Fast Attention via positive Orthogonal Random features (FAVOR+)' and 'FAVOR+'. Step 2: Evidence Slice 9 states a slide discusses 'FAVOR+ Mechanism & Positive Orthogonal Random Features.' Logic: The same named mechanism (FAVOR+) appears in both the abstract and the slide title, matching the query.",
+        "visual_proof": "In Video 1, the abstract explicitly highlights 'FAVOR+' and its full name 'Fast Attention Via positive Orthogonal Random features'. In Video 2, at timestamp 0:01, the slide title '2 FAVOR+ MECHANISM & POSITIVE ORTHOGONAL RANDOM FEATURES' is clearly visible, confirming the mechanism's name reappears as part of a slide title."
+    }
+]

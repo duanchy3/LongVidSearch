@@ -1,0 +1,153 @@
+[
+    {
+        "question": "At the beginning of the program, what physical object is shown in close-up, and later what on-screen prompt encourages viewers to access more front pages?",
+        "answer": "A stack of newspapers is shown in close-up, and later viewers are prompted to scan a QR code to see more front pages.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            14
+        ],
+        "reasoning_chain": "Step 1: Slice 1 opens with a close-up of newspapers stacked neatly. Step 2: Slice 14 shows the on-screen instruction and QR code prompting viewers to scan to see front pages. Conclusion: The object is stacked newspapers, and the prompt is scanning a QR code for more front pages.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states the video starts with a close-up of newspapers stacked on top of each other, supporting the first part of the answer. Step 2: Evidence Slice 14 mentions a QR code displayed with the instruction 'Scan QR code to see front pages,' which encourages viewers to access more front pages, supporting the second part of the answer. Logic holds because both details are explicitly described in the provided context.",
+        "visual_proof": "Clip 1 (0:00-0:03) clearly shows a close-up shot of a stack of folded newspapers. Clip 2 (0:00 onwards) displays an on-screen graphic at the bottom that reads 'Scan QR code to see front pages' next to a visible QR code."
+    },
+    {
+        "question": "Which newspaper front page is described as focusing on pressure on the Prime Minister due to striking doctors, and where is that paper later shown prominently on a large studio screen behind the panel?",
+        "answer": "The Guardian, later shown prominently on the large studio screen behind the panel.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            16
+        ],
+        "reasoning_chain": "Step 1: Slice 3 describes The Guardian front page about pressure on the Prime Minister due to striking doctors. Step 2: Slice 16 shows a large screen behind the group displaying The Guardian front page. Conclusion: The paper is The Guardian and it later appears prominently on the studio screen.",
+        "logic_check_reasoning": "Step 1: Slice 3 states that The Guardian's front page features an article about pressure on the Prime Minister due to striking doctors. Step 2: Slice 16 states that a large screen behind the panel displays The Guardian's front page. Logic holds because the same newspaper (The Guardian) is identified in both slices with the relevant focus and later shown on the studio screen.",
+        "visual_proof": "In Clip 1 (0:00-0:12), the front page of 'The Guardian' is displayed with the headline 'Pressure on PM grows as striking doctors warn of further disruption'. In Clip 2 (0:00-0:09), this same 'The Guardian' front page is clearly visible on a large screen positioned behind the three-person panel in the studio."
+    },
+    {
+        "question": "Which newspaper is introduced with a political headline about Donald Trump being a threat to the UK, and later how is that topic framed on a large screen behind the panel?",
+        "answer": "The i newspaper; it is framed on the large screen as a front page headline about 'Trump 2.0' being a threat to the UK.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 3 notes the i newspaper front page about Trump's threat to the UK. Step 2: Slice 83 shows a large screen with the headline 'Trump 2.0 is a threat to UK...' as part of the front page discussion. Conclusion: The paper is the i, and the topic is displayed as a prominent front-page headline on the studio screen.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 states that the front page of the i newspaper is shown, featuring a story about Trump's threat to the UK, which supports the identification of the newspaper. Step 2: Evidence Slice 83 describes the large screen behind the panel showing a headline: 'Trump 2.0 is a threat to UK, warn Britain's top diplomats,' which frames the topic on the screen. Logic holds because the topic introduced via the i newspaper (Trump as a threat to the UK) is later shown on the large screen with the specific 'Trump 2.0' phrasing.",
+        "visual_proof": "In Clip 1 (0:26-0:32), the front page of the 'i' newspaper is displayed, featuring the headline 'Trump 2.0 is a threat to UK, warn Britain's top diplomats'. In Clip 2 (0:00-0:05), this same front page of the 'i' newspaper is shown on a large screen behind the panelists, confirming the framing of the topic."
+    },
+    {
+        "question": "Which guest is explicitly identified by name and role during the segment, and later which other named contributor is identified with a different newspaper affiliation?",
+        "answer": "Claire Ellicott (Whitehall Editor, Daily Mail) and Kevin Maguire (Associate Editor, Daily Mirror).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            14,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 14 identifies guest Claire Ellicott as Whitehall Editor for the Daily Mail. Step 2: Slice 31 identifies Kevin Maguire as Associate Editor of the Daily Mirror. Conclusion: The named contributors are Claire Ellicott and Kevin Maguire with those roles.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 14 explicitly identifies the guest as Claire Ellicott, the Whitehall Editor for the Daily Mail. Step 2: Evidence Slice 31 later identifies Kevin Maguire as the Associate Editor of the Daily Mirror. Logic holds because both slices name the individuals and state their roles with distinct newspaper affiliations, matching the question.",
+        "visual_proof": "In Clip 1, a lower-third graphic at 0:06 identifies the female guest as 'Whitehall Editor, Daily Mail Claire Ellicott'. In Clip 2, a lower-third graphic at 0:03 identifies the male guest as 'Associate Editor, Daily Mirror Kevin Maguire'. Both names and roles are explicitly displayed on screen."
+    },
+    {
+        "question": "Across the program, which two distinct kinds of non-studio footage appear, one related to sport celebration and another related to a natural disaster?",
+        "answer": "Darts celebration footage and flooding footage with a white car driving through water.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows celebratory darts arena footage. Step 2: Slice 57 shows a white van driving through floodwater. Conclusion: The two non-studio footage types are darts celebration and flooding.",
+        "logic_check_reasoning": "Step 1: Slice 6 describes non-studio footage of a sports event with celebratory actions (handshake, cheering crowd, arena, dartboard, sponsorship screens), clearly indicating darts celebration. Step 2: Slice 57 describes non-studio footage of a white van driving through a flooded area, indicating a natural disaster (severe flooding). Logic holds because the question asks for two distinct kinds of non-studio footage: one is sports celebration (darts) and the other is flood footage with a van.",
+        "original_text_answer": "Darts celebration footage and flooding footage with a van driving through water.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows two men celebrating after a darts match, with one man's shirt reading 'COOL HAND LUKE' and a dartboard visible in the background. Clip 2 shows a white hatchback car, not a van, partially submerged and struggling to drive through deep floodwater at night."
+    },
+    {
+        "question": "What emergency scene is briefly shown outside the studio, and later which kind of newspaper-focused studio discussion resumes afterward?",
+        "answer": "A distressed crowd gathered around an ambulance; the program then returns to a studio front-pages discussion between presenters.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            43,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 43 cuts to a chaotic street scene with an ambulance surrounded by a crowd. Step 2: Slice 49 returns to the studio with presenters discussing newspaper front pages. Conclusion: The outside emergency is an ambulance scene, followed by resumption of front-pages analysis in studio.",
+        "logic_check_reasoning": "Step 1: Slice 43 explicitly describes an emergency scene with a large, distressed crowd gathered around an ambulance in the street. Step 2: Slice 43 then states the camera cuts back to the news program where two women discuss front pages of newspapers. Step 3: Slice 49 confirms the studio segment is 'Press Preview,' focused on analyzing newspaper front pages with two women discussing. Logic holds because the emergency scene outside is shown briefly, and then the program resumes with a studio front-pages discussion between presenters.",
+        "visual_proof": "Clip 1 (0:16-0:37) clearly shows footage of a large, agitated crowd surrounding emergency vehicles, including ambulances, in Kerman, Iran. Clip 2 (0:00-0:04) and the end of Clip 1 (0:38-0:40) show the studio setting with presenters seated at a table discussing newspaper front pages, with images of the Financial Times and Metro displayed on screen."
+    },
+    {
+        "question": "Which darts-related content appears first as discussion of a young player in the studio, then as arena celebration footage, and finally as a tabloid front page headline?",
+        "answer": "Darts is discussed (including a 16-year-old player), shown in arena celebration footage, and later appears as The Mirror headline 'DARTBREAKER.'",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            4,
+            6,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 4 references a darts discussion mentioning a 16-year-old in the World Darts Championship final. Step 2: Slice 6 shows lively arena celebration footage tied to darts. Step 3: Slice 74 shows The Mirror front page with 'DARTBREAKER.' Conclusion: The program connects studio darts talk, live darts visuals, and a darts tabloid headline.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows a studio discussion about a 16-year-old darts player named Luke Little and his performance, establishing the initial darts-related content. Step 2: Slice 6 presents arena celebration footage with a player wearing a shirt reading 'COOL HAND LUKE,' a cheering crowd, and darts event branding, continuing the darts theme. Step 3: Slice 74 displays a tabloid front page from The Mirror with the headline 'DARTBREAKER' and an image of someone holding darts, confirming the final appearance as a tabloid headline. The sequence logically connects studio discussion, arena footage, and the tabloid headline.",
+        "visual_proof": "Clip 1 shows the studio discussion with a graphic of Luke Littler, identified by on-screen text as a 16-year-old World Darts Champion. Clip 2 shows the live arena celebration footage immediately after his win. Clip 3 shows The Mirror's front page with the headline 'DARTBREAKER' featuring Littler, confirming the sequence of events."
+    },
+    {
+        "question": "Across the program, how is the 'Henk's Heroes' story introduced as a newspaper front page, then highlighted by a presenter close-up, and later shown again in a studio-wide shot?",
+        "answer": "It appears first as Metro in the 'Front Pages' display, then is shown beside a close-up of the presenter, and later reappears on the big screen behind the panel in a wide studio shot.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            11,
+            23,
+            70
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows Metro’s front page featuring 'Henk’s Heroes' in the front-pages graphic. Step 2: Slice 23 shows a presenter close-up with the Metro 'Henk’s Heroes' clipping beside her and the QR code. Step 3: Slice 70 shows a wide studio shot with the screen behind the panel displaying 'HENK’S HEROES.' Conclusion: The same story is tracked through front-pages graphic, presenter close-up, and studio-wide display.",
+        "logic_check_reasoning": "Step 1: Slice 11 states the 'Front Pages' section shows Financial Times and Metro, with Metro featuring 'Henk's Heroes', introducing it as a newspaper front page. Step 2: Slice 23 shows a presenter in close-up with the Metro 'Henk's Heroes' clipping visible on the right, highlighting it beside the presenter. Step 3: Slice 70 describes a studio-wide shot where the screen behind the panel displays 'HENK'S HEROES', indicating it reappears on the big screen behind the panel. The sequence and details align with the proposed answer.",
+        "visual_proof": "In Clip 1, the 'Henk's Heroes' Metro front page is visible in the 'Front Pages' sidebar. In Clip 2, the same Metro front page is displayed next to a close-up of the female presenter. In Clip 3, the Metro front page is shown again on the large screen behind the three presenters during a wider studio shot."
+    },
+    {
+        "question": "Which two named contributors appear in different parts of the segment, and how can you connect the later tabloid front page shown on screen to one of their affiliations?",
+        "answer": "Claire Ellicott and Kevin Maguire; the later Mirror front page on screen connects to Kevin Maguire’s Daily Mirror affiliation.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            75,
+            76
+        ],
+        "reasoning_chain": "Step 1: Slice 14 names Claire Ellicott (Daily Mail) as a guest. Step 2: Slice 75 identifies Kevin Maguire as Associate Editor of the Daily Mirror while discussing front pages. Step 3: Slice 76 shows the Mirror newspaper front page displayed behind the panel. Conclusion: The Mirror front page ties to Kevin Maguire’s affiliation, while Claire Ellicott is a separate named contributor.",
+        "logic_check_reasoning": "Step 1: Slice 14 identifies Claire Ellicott, the Whitehall Editor for the Daily Mail, appearing as a guest in the Press Preview segment. Step 2: Slice 75 identifies Kevin Maguire, Associate Editor of the Daily Mirror, appearing in another part of the Press Preview segment. Step 3: Slice 76 states that the screen later displays the front page of the 'Mirror' newspaper. Logic holds because the two named contributors (Ellicott and Maguire) are explicitly mentioned in different slices, and the later Mirror front page can be connected to Maguire’s affiliation with the Daily Mirror as stated in Slice 75.",
+        "visual_proof": "Clip 1 identifies Claire Ellicott as 'Whitehall Editor, Daily Mail' while speaking. Clip 2 identifies Kevin Maguire as 'Associate Editor, Daily Mirror' while speaking. Clip 3 visually displays the front page of 'The Mirror' on the large studio screen behind them, directly linking the newspaper shown to Kevin Maguire's stated affiliation."
+    },
+    {
+        "question": "Track the same long-haired female commentator in black across different settings: where is she seen in-studio, and where is she later seen speaking from a different indoor location with windows/brick visible?",
+        "answer": "She appears in-studio seated at the desk in black, and later appears in a separate indoor interview-style setting with large windows/brick wall while discussing the Financial Times 'Henk's Heroes' clipping.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            39,
+            47,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a two-woman studio desk discussion with the guest in black. Step 2: Slice 47 shows a long-haired woman in a black blazer in a different indoor location with large windows/brick wall, with a Financial Times clipping and QR code beside her. Step 3: Slice 59 again shows the woman in black blazer/light blue turtleneck in an interview-like setting with the Financial Times clipping. Conclusion: The same commentator is tracked from studio to remote/interview environment via consistent clothing and presentation format.",
+        "logic_check_reasoning": "Step 1: Slice 39 describes an in-studio Press Preview segment with two women at a desk; the guest on the right is in a black outfit with long dark hair, matching the 'long-haired female commentator in black.' Step 2: Slice 47 shows the same type of segment but from a different indoor location with large windows and a brick wall; the woman has long brown hair and is wearing a black blazer over a light blue turtleneck, and a Financial Times clipping with 'HENK'S HEROES' is displayed. Step 3: Slice 59 corroborates the alternate indoor setting with similar visuals (black blazer, light blue turtleneck, FT 'HENK'S HEROES' clipping). Logic holds because the visual attributes (long hair, black attire) and program context align across slices, supporting that she is seen in-studio first and later in a different indoor location with windows/brick visible alongside the FT 'HENK'S HEROES' clipping.",
+        "visual_proof": "Clip 1 shows the long-haired female commentator in black seated at the studio desk. Clips 2 and 3 show her in a different setting with large windows and a brick wall background, where she is speaking and gesturing, with the 'Front Pages' graphic displaying the 'Henk's Heroes' Metro headline next to her."
+    },
+    {
+        "question": "Follow the darts storyline across the segment: how is it introduced as a sports discussion topic, then shown as live arena celebration, then used as an on-screen studio image next to a trophy, and finally referenced via a tabloid front page headline?",
+        "answer": "It starts as studio discussion about the World Darts Championship, then cuts to arena celebration footage, then shows a darts player next to a trophy on the studio screen, and later appears as The Mirror tabloid headline 'DARTBREAKER.'",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            6,
+            9,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 4 introduces darts (World Darts Championship at Alexandra Palace) in studio discussion. Step 2: Slice 6 shows live arena celebration footage linked to darts. Step 3: Slice 9 shows the studio screen with a player in purple/yellow next to a trophy. Step 4: Slice 74 shows a tabloid front page (The Mirror) with the darts-related headline 'DARTBREAKER.' Conclusion: The darts narrative is built through studio talk, live footage, studio imagery, and tabloid framing.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows the studio 'Press Preview' discussion explicitly referencing a 16-year-old named Luke Little/Littler and his World Darts Championship final, introducing darts as a sports topic. Step 2: Slice 6 depicts live arena celebration footage (handshake, crowd, 'COOL HAND LUKE' shirt, arena with 'PADDYPOWER'), fulfilling the live celebration element. Step 3: Slice 9 displays, on the studio screen, an image of a sports player in purple/yellow standing next to a trophy, aligning with the on-screen image next to a trophy. Step 4: Slice 74 shows The Mirror front page with the headline 'DARTBREAKER', providing the tabloid front page reference. The sequence described in the proposed answer matches these slices.",
+        "visual_proof": "Clip 1 (0:00-0:09) shows the studio hosts discussing the World Darts Championship with an image of Luke Humphries and the trophy on the main screen. Clip 2 (0:00-0:02) cuts to live footage of the arena celebration with players and a cheering crowd. Clip 3 (0:00-0:04) returns to the studio where the same image of Humphries and the trophy is displayed again. Clip 4 (0:00-0:02) shows the studio screen displaying The Mirror's front page with the headline 'DARTBREAKER,' confirming the tabloid reference."
+    }
+]

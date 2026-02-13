@@ -1,0 +1,57 @@
+[
+    {
+        "question": "The creator paints walls in multiple stages and later removes painter’s tape to reveal clean edges. What sequence best describes the process shown across the clips?",
+        "answer": "Prepare/mix paint and start rolling paint on the wall, paint sections (including blue), then peel painter’s tape to finish clean lines.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            14,
+            23,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 14 shows opening/stirring paint, pouring into a tray, and rolling it on the wall. Step 2: Slice 23 shows active blue wall painting and careful taping around fixtures. Step 3: Slice 27 shows peeling painter’s tape to reveal neat edges. Conclusion: The process flows from prep/painting to tape removal finish.",
+        "logic_check_reasoning": "Step 1: Slice 14 shows preparing paint (opening can, stirring, pouring into a tray) and starting to roll paint onto the wall. Step 2: Slice 23 shows painting sections of a wall with blue paint and using painter’s tape to create clean edges around a light switch. Step 3: Slice 27 shows peeling blue painter’s tape off various surfaces (including walls and around a light switch), revealing clean edges. Logic holds because the sequence of preparation/rolling, painting (including blue), and later tape removal to reveal clean lines is explicitly depicted across the slices.",
+        "visual_proof": "Clip 1 shows paint being prepared (stirred and poured into a tray) and applied with a roller. Clip 2 shows a person painting a wall section with blue paint using a brush. Clip 3 shows the removal of blue painter's tape from various surfaces (wall, door frame, outlet) to reveal crisp, clean painted edges. This sequence directly matches the described process."
+    },
+    {
+        "question": "A kitten is adopted and later appears integrated into the home with pet infrastructure and playthings. What three elements shown later indicate the home has been set up for the kitten?",
+        "answer": "A scratching post area, pet bowls for food and water, and a container of cat toys.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            39,
+            96,
+            97
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows the kitten arriving and being cared for (carrier/litter box/play). Step 2: Slice 96 shows a dedicated pet station with bowls and a scratching post. Step 3: Slice 97 shows a container filled with cat toys. Conclusion: These elements show the home is prepared for the kitten.",
+        "logic_check_reasoning": "Step 1: Slice 96 explicitly shows two white pet bowls (one with food, one with water) on a blue mat and a tall white scratching post nearby, indicating pet infrastructure. Step 2: Slice 97 explicitly shows a container filled with assorted colorful cat toys, confirming playthings prepared for the kitten. Step 3: These elements match the proposed answer's three items (scratching post area, pet bowls, container of cat toys), and they appear later in the video, indicating the home setup for the kitten.",
+        "visual_proof": "Clip 2 (0:00-0:02) clearly shows a designated area with a tall scratching post, a mat with food and water bowls, and a blue bin filled with toys. Clip 3 (0:00-0:04) provides a close-up of the toy bin, confirming its contents. These elements are shown after the kitten's adoption, indicating the home has been set up for it."
+    },
+    {
+        "question": "The video begins with a sponsor thank-you message, and near the end it ends with a personalized illustrated outro card. What name is shown on the final illustrated outro?",
+        "answer": "LINH TRUONG.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            1,
+            63,
+            99
+        ],
+        "reasoning_chain": "Step 1: Slice 1 sets the creator’s video context with a sponsor thank-you. Step 2: Slice 63 reinforces the creator’s on-screen branding around the sponsor segment. Step 3: Slice 99 shows the final illustrated outro with the name 'LINH TRUONG'. Conclusion: The name on the outro is LINH TRUONG.",
+        "logic_check_reasoning": "Step 1: Slice 1 confirms the video begins with a sponsor thank-you message to Skillshare, matching the question's setup. Step 2: Slice 99 describes a personalized illustrated outro card with 'thanks for watching! <3' and explicitly states the name 'LINH TRUONG' at the top. Step 3: While Slice 63 mentions the video ending with a Skillshare illustration, Slice 99 clearly identifies the illustrated outro card and the name shown on it. The name asked for is directly supported by Slice 99.",
+        "visual_proof": "The final clip (Clip 3) displays a static illustrated outro card with a green background. The name 'LINH TRUONG' is clearly written in large, orange, outlined letters at the top right of the screen, above the text 'thanks for watching! <3'."
+    },
+    {
+        "question": "During a shopping montage, the creator is masked while buying furniture, and later a video label indicates a thrift stop. What is the named thrift store destination?",
+        "answer": "Goodwill.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows masked shopping trips for home items (IKEA/Lowe’s/Marshalls). Step 2: Slice 32 includes on-screen text with 'Goodwill'. Conclusion: The named thrift store is Goodwill.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows a masked shopping montage including buying furniture at IKEA, confirming the context of the shopping sequence. Step 2: Slice 32 explicitly mentions the on-screen text 'Goodwill' written in a cursive font, indicating a thrift stop. Logic holds because the question ties the masked shopping montage to a later labeled thrift destination, and the label clearly names Goodwill.",
+        "visual_proof": "The second video clip (ID: 32) explicitly shows a title card with the text 'life break // 002' and 'august 25, 2020', overlaid on a shot of the creator. Prominently displayed in large, stylized script across the center of the frame is the word 'Goodwill'. This directly names the thrift store destination mentioned in the question."
+    }
+]

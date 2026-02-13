@@ -1,0 +1,70 @@
+[
+    {
+        "question": "Which event is shown first as a celebration with confetti and later as a secured crime scene with yellow caution tape and armed officers?",
+        "answer": "The Kansas City Super Bowl/Chiefs parade that turned into a deadly shooting scene.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows parade celebration imagery with confetti and fans in red alongside the breaking-news headline about the shooting. Step 2: Slice 56 shows the same incident’s aftermath with yellow caution tape and an armed officer running with a rifle. Conclusion: The parade celebration later becomes a secured shooting crime scene.",
+        "logic_check_reasoning": "Step 1: Slice 12 shows a celebratory Super Bowl parade scene with confetti and people in red jerseys, explicitly identified as in Kansas City, with the headline 'DEADLY SHOOTING AT SUPER BOWL PARADE' and statements from the Kansas City Chiefs and Patrick Mahomes. Step 2: Slice 56 shows the same event context as a secured crime scene with yellow caution tape and armed officers, with the ticker 'DEADLY SHOOTING AT SUPER BOWL PARADE.' Logic holds because both slices reference the Super Bowl parade and the deadly shooting, and Slice 12 specifies Kansas City, linking the celebration and the later crime scene to the Kansas City Chiefs parade.",
+        "visual_proof": "Clip 1 visually establishes the event as a celebration with confetti falling on a crowd of people, including players in Chiefs gear, during a parade. The on-screen text identifies it as the 'SUPER BOWL PARADE' and features the Chiefs logo. Clip 2 shows the same event's aftermath, with police officers securing the area with yellow caution tape and carrying rifles, confirming it has become a crime scene. The breaking news banner is consistent across both clips, linking them to the same incident."
+    },
+    {
+        "question": "Which segment’s visuals connect from a precision strike view to rubble and rescue activity and then to a broader street-level scene with a large crowd reacting?",
+        "answer": "The Israel strikes coverage: aerial/targeting and explosions, then rubble/rescue scenes, followed by a crowded street gathering.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            62,
+            63,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 62 shows strike imagery (crosshairs/precision framing) and the explosion aftermath. Step 2: Slice 63 shows people searching through rubble and aerial smoke views. Step 3: Slice 66 shows a large crowd gathered in an urban street scene under the same investigation headline. Conclusion: Strike visuals lead to aftermath/rescue and then wider public reaction scenes.",
+        "logic_check_reasoning": "Step 1: Slice 62 shows an aerial precision strike with targeting crosshairs, followed by explosion aftermath and rescue workers in rubble, matching the first two elements. Step 2: Slice 66 shows a broader street-level scene with a large, emotionally charged crowd under the same news framing (“U.S. Investigates Deadly Israeli Strikes”), fitting the third element. Step 3: Slice 63 reinforces the rubble/rescue and aerial aftermath context. The visuals collectively align with the described sequence for an Israel strikes news segment.",
+        "visual_proof": "Clip 1 shows an aerial view of a precision strike (crosshair on target) followed by explosions and smoke, then transitions to ground-level footage of people walking through rubble. Clip 2 continues with close-up shots of people actively searching through the debris of destroyed buildings. Clip 3 shifts to a street-level scene showing a large, dense crowd gathered around what appears to be a coffin being carried, indicating a public reaction or funeral procession. This sequence visually connects the targeting/explosion, the immediate aftermath/rescue, and the broader societal response."
+    },
+    {
+        "question": "Which theme is introduced with a border sewage study headline, then adds beach warning signs, and then shifts to expert interviews in academic and government settings?",
+        "answer": "The border sewage crisis posing health risks for Americans, supported by beach warnings and expert interviews.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            37,
+            40
+        ],
+        "reasoning_chain": "Step 1: Slice 36 introduces the sewage crisis study headline and shows pollution visuals and a map near the border. Step 2: Slice 37 shows beach signage warning people to keep out due to sewage contamination. Step 3: Slice 40 shows an official (Baja California environment secretary) interview plus polluted waterway footage. Conclusion: The story builds from headline and visuals to public warnings and expert/official perspectives.",
+        "logic_check_reasoning": "Step 1: Slice 36 shows an NBC News headline explicitly stating 'STUDY FINDS SEWAGE CRISIS AT THE BORDER POSES HEALTH RISKS FOR AMERICANS,' introducing the theme. It also includes an interview with Rep. Scott Peters, indicating government commentary. Step 2: Slice 37 adds beach warning signs, including a large informational sign and a 'KEEP OUT' sign warning of sewage contamination, and features the mayor of Imperial Beach, reinforcing public health warnings. Step 3: Slice 40 shifts to an expert interview with Monica Vega, Baja California Secretary for the Environment, in a professional/government setting, further supporting expert perspectives. Logic holds because the sequence matches the question: headline introducing the border sewage crisis theme, beach warnings, then expert/government interviews.",
+        "visual_proof": "The video consistently displays the headline 'STUDY FINDS SEWAGE CRISIS AT THE BORDER POSES HEALTH RISKS FOR AMERICANS'. It visually supports this with a 'KEEP OUT' beach warning sign about sewage-contaminated water (Clip 2). The narrative then shifts to interviews with experts like Rep. Scott Peters in a government setting (Clip 1) and Monica Vega, Baja California Secretary for the Environment, in an academic/government office (Clip 3), all discussing the crisis."
+    },
+    {
+        "question": "Which story moves from a 'Global Watch' studio introduction to a specific disaster headline and then to dramatic footage of another natural disaster in a different country?",
+        "answer": "Global Watch transitions from studio intro to the Turkey gold mine landslide headline, then to avalanche footage in India.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            72,
+            73,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 72 introduces 'GLOBAL WATCH' with a studio anchor. Step 2: Slice 73 shows the headline about people trapped under a Turkey gold mine landslide. Step 3: Slice 75 shows an avalanche in India. Conclusion: The global segment strings together multiple international disasters.",
+        "logic_check_reasoning": "Step 1: Slice 72 shows a 'GLOBAL WATCH' title and a news studio intro with an anchor, indicating a global news broadcast. Step 2: Slice 73 presents a specific disaster headline: 'NINE PEOPLE TRAPPED UNDER TURKEY GOLD MINE LANDSLIDE.' Step 3: Slice 75 shows dramatic footage of another natural disaster (an avalanche) in India, a different country. Logic holds because the sequence moves from the Global Watch intro to a Turkey disaster headline and then to disaster footage in India, matching the described progression.",
+        "visual_proof": "Clip 1 shows the 'GLOBAL WATCH' studio intro with a news anchor. Clip 2 displays the headline 'NINE PEOPLE TRAPPED UNDER TURKEY GOLD MINE LANDSLIDE' over footage of the landslide in İliç, Turkey. Clip 3 shows the headline 'POWERFUL AVALANCHE CAPTURED ON VIDEO IN INDIA' over footage of an avalanche in Sonmarg, India. The sequence of events and locations matches the original answer."
+    },
+    {
+        "question": "Which live-reporting visual motif appears both earlier and later: a reporter wearing a green jacket speaking with a city skyline behind him at night?",
+        "answer": "The Kansas City field reporter in a green jacket reporting on the parade shooting at night.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows an NBC correspondent in a green jacket outdoors with a skyline backdrop delivering updates. Step 2: Slice 60 again shows a man in a green jacket at night with a cityscape and the breaking-news parade shooting banner. Conclusion: The same visual identity of the green-jacket field reporter persists across time.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes an NBC correspondent in a green jacket reporting outdoors with a cityscape backdrop (at dusk) during the Super Bowl parade shooting coverage. Step 2: Slice 60 shows a man in a green jacket reporting with a cityscape behind him at night, with the same breaking news banner. Logic holds because both slices feature the same live-reporting motif: a reporter in a green jacket speaking with a city skyline backdrop during the breaking news about the parade shooting.",
+        "visual_proof": "The reporter, identified as Jesse Kirsch, is shown wearing a green jacket in both clips. In Clip 1 (0:00-0:03 and 0:30-0:41), he is seen speaking with a city skyline visible behind him during twilight/night. Clip 2 (0:00-0:10) shows the same reporter in the same green jacket, with a fully darkened city skyline illuminated by lights behind him, confirming the motif appears both earlier and later in the video."
+    }
+]

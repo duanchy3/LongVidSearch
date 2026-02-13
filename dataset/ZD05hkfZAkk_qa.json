@@ -1,0 +1,56 @@
+[
+    {
+        "question": "Which recurring prop appears first in a workroom setting and later again as a close-up in another montage segment?",
+        "answer": "A piano (and close-ups of hands playing its keys).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            23
+        ],
+        "reasoning_chain": "Step 1: Slice 11 centers on an old upright piano in a workshop/storage-like space. Step 2: Slice 23 ends with a close-up of a hand playing a piano. Conclusion: The recurring prop is the piano.",
+        "logic_check_reasoning": "Step 1: Slice 11 explicitly shows an old upright piano in a workshop/storage setting, establishing the prop in a workroom context. Step 2: Slice 23’s final scene describes a close-up of a hand playing a piano, indicating the same prop reappears as a close-up in another montage segment. Logic holds because both slices reference a piano, first in a workroom and later in a close-up.",
+        "visual_proof": "In Video 1, a dusty upright piano is prominently featured in a cluttered workroom setting at 0:00. Later, at 0:03, there is a close-up of a man's hand on the piano keys. In Video 2, at 0:14, another close-up of piano keys is shown as part of a different scene, confirming the piano's recurring presence across both segments."
+    },
+    {
+        "question": "When a person wakes up abruptly in bed and a drink spills, what later similar bedroom awakening is paired with a silhouetted figure at the door?",
+        "answer": "A man jolts awake and sees a man silhouetted near the doorway.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a man waking up suddenly and knocking over a glass of milk. Step 2: Slice 22 shows a similar abrupt awakening where a silhouetted woman stands near the door. Conclusion: The later scene is the wake-up with a woman silhouetted at the door.",
+        "logic_check_reasoning": "Step 1: Slice 20 describes a man who suddenly wakes up in a dark bedroom and a glass of milk spills, establishing the first awakening. Step 2: Slice 22 describes a later, similar scene where a man jolts awake and a person, appearing to be a woman, is silhouetted near the door. Logic holds because the question links the initial awakening with the spill to a later similar awakening that includes a silhouetted figure, which Slice 22 explicitly describes.",
+        "original_text_answer": "A man jolts awake and sees a woman silhouetted near the doorway.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, a man in pajamas is shown waking up abruptly in bed (0:10-0:13), followed by a shot of a glass of milk spilling on the floor (0:19). Later in Clip 2, the same man is seen waking up again with a startled expression (0:05). Immediately following this, at 0:08, a silhouetted figure appears in the doorway. The figure's short hair and build, visible when they enter the room at 0:21-0:23, confirm it is an older man wearing glasses and a dark coat, not a woman."
+    },
+    {
+        "question": "Which beverage brand is shown being drunk, and later what kind of item is closely examined in a luxury shop scene?",
+        "answer": "The drink is CARABAO, and later a watch is examined in a jewelry/luxury shop.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            6
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows a man drinking from a can labeled \"CARABAO.\" Step 2: Slice 6 shows a man in a suit examining a watch in a jewelry store. Conclusion: The brand is CARABAO, and the later examined item is a watch.",
+        "logic_check_reasoning": "Step 1: Slice 4 explicitly states a man is drinking from a can labeled 'CARABAO.' Step 2: Slice 6 explicitly describes a jewelry store scene where a man closely examines a watch. Logic holds because both the beverage brand and the item in the luxury shop are directly mentioned in the provided slices.",
+        "visual_proof": "In Clip 1 (0:00), the man is clearly drinking from a can with the brand name 'CARABAO' visible. In Clip 2 (0:03), the scene shifts to a luxury shop with display cases of jewelry. Later in Clip 2 (0:07), there is a close-up shot of a man's wrist where he is examining or adjusting a metallic watch, confirming the second part of the answer."
+    },
+    {
+        "question": "A man in a white suit is seen in a car that comes under gunfire; later, what different confrontation puts someone at gunpoint in an upscale interior?",
+        "answer": "A man in a white suit aims a gun in a luxurious interior (hotel/upscale residence setting).",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows the bald man in a white suit in a car during gunfire and a crash. Step 2: Slice 83 shows a man in a white suit holding and aiming a gun inside an ornate, upscale interior. Conclusion: The later confrontation is a gunpoint standoff in a luxurious interior.",
+        "logic_check_reasoning": "Step 1: Slice 19 shows a bald man in a white suit in a car that comes under gunfire. Step 2: Slice 83 shows a man in a white suit aiming a gun in a luxurious, upscale interior (hotel/upscale residence). Logic holds because the second slice explicitly describes the man in the white suit pointing a gun in an upscale setting, which matches the question's 'later' confrontation putting someone at gunpoint.",
+        "visual_proof": "In Clip 1, the man in the white suit is clearly seen inside a car under gunfire. In Clip 2, the same man in the white suit is shown exiting the damaged car and then aiming a handgun upwards while on a staircase inside a well-appointed building with ornate railings, which fits the description of a luxurious interior."
+    }
+]

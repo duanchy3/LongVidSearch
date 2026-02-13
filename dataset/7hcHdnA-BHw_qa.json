@@ -1,0 +1,107 @@
+[
+    {
+        "question": "What ingredient is being peeled in a close-up, and later what other aromatic is peeled in a similar close-up preparation shot?",
+        "answer": "An onion is peeled first, and garlic is peeled later.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            25,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows hands peeling an onion on a cutting board. Step 2: Slice 27 shows hands peeling garlic cloves. Conclusion: The prep shifts from onion peeling to garlic peeling.",
+        "logic_check_reasoning": "Step 1: Slice 25 states a person is peeling an onion on a wooden cutting board, indicating the first close-up prep is onion. Step 2: Slice 27 states a person is peeling garlic with the camera focused closely on the process, indicating a later similar close-up prep of garlic. The sequence (25 then 27) supports 'first onion, later garlic.'",
+        "visual_proof": "In Clip 1, a person's hands are shown peeling the papery outer skin off a small, round, brownish-yellow onion with a small knife over a wooden cutting board. In Clip 2, the same person's hands are shown using the same small knife to peel the dry, papery root end off a white bulb of garlic. The actions and ingredients are clearly distinct and visible in each close-up shot."
+    },
+    {
+        "question": "What outdoor water feature is used for hygiene earlier, and later what different task is done at a similar stone basin with running water?",
+        "answer": "Hands are washed at a stone basin earlier, and later a carrot is washed at a stone basin with a spraying fountain.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a person washing hands in a small circular stone basin with running water. Step 2: Slice 78 shows vegetables (a carrot) being washed under a fountain-like stream in a stone basin. Conclusion: The basin is used for hygiene first, then for rinsing produce.",
+        "logic_check_reasoning": "Step 1: Slice 21 describes a person washing their hands (hygiene) at a small, circular stone basin with running water in an outdoor, cold environment. Step 2: Slice 78 describes a person washing a carrot (a different task) at an outdoor stone basin with a fountain-like stream spraying upwards. Logic holds because both slices feature similar stone basins with running water; the first is used for handwashing (hygiene), and the later one is used for washing a carrot.",
+        "visual_proof": "In Video 1, hands are visibly washing raw meat in a stone basin with running water. In Video 2, the same person washes a carrot in a similar stone basin that features a central water spray/fountain, with vegetables like cucumbers and parsley nearby."
+    },
+    {
+        "question": "Which tool is used to create a flame in the snow early on, and later what larger outdoor cooking setup produces strong steam from a big pot?",
+        "answer": "A portable gas torch is used early, and later a large pot over an outdoor fire pit/stand produces heavy steam.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            32
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a portable gas torch with a bright flame being adjusted. Step 2: Slice 32 shows a large ornate pot over a fire pit emitting plumes of steam. Conclusion: The fire-making tool shifts from a torch to a big pot cooking over a fire pit.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states that a person is using a portable gas torch in the snow to create/adjust a flame. Step 2: Evidence Slice 32 describes a large ornate copper pot on a small wooden fire pit emitting plumes of steam, indicating a larger outdoor cooking setup producing strong steam. Logic holds because the first tool is a portable gas torch, and later the cooking setup is a large pot over an outdoor fire pit producing steam.",
+        "visual_proof": "In Video 1 (0:07), a person's hands are clearly visible operating a handheld gas torch with a bright flame against the snowy ground. In Video 2 (0:00-0:01), a large metal pot sits on a stand over a wood fire, emitting significant steam into the cold air, with snow-covered mountains in the background."
+    },
+    {
+        "question": "A person washes a large yellow gourd before food prep; later, what similar produce is retrieved from a stone well in a bucket?",
+        "answer": "Fruits and vegetables such as oranges and apples are retrieved from the well in a bucket.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            28
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a man washing a large yellow gourd at a water source. Step 2: Slice 28 shows a man pulling an orange bucket of produce (oranges, apples, etc.) from a stone well. Conclusion: After washing produce earlier, later he stores/retrieves produce from the well.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a man washing a large yellow gourd, indicating food preparation. Step 2: Slice 28 shows the same setting with a man retrieving a large orange bucket from a stone well containing various fruits and vegetables, explicitly including oranges and apples. The question asks what similar produce is retrieved later; Slice 28 clearly states oranges and apples among other produce, matching the proposed answer.",
+        "visual_proof": "In Video 1, a person is seen washing a large yellow gourd at a stone well. In Video 2, the same person retrieves a basket from the well containing round produce, including orange-colored fruits (oranges) and red fruits (apples), confirming the original answer."
+    },
+    {
+        "question": "What pair of dogs watches a steaming pot near the fire pit, and earlier in the video what pair of puppies was shown playing in the snow?",
+        "answer": "A white dog and a black dog watch the steaming pot; earlier a black puppy and a white puppy with black patches were playing.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            1
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows two dogs near the fire pit: one white and one black. Step 2: Slice 1 shows two puppies playing: one black and one white with black patches. Conclusion: Both early and later scenes feature a black-and-white dog pair, in play vs waiting near cooking.",
+        "logic_check_reasoning": "Step 1: Slice 24 states that near the fire pit with a steaming pot, there are two dogs: one white and one black, watching. Step 2: Slice 1 describes earlier in the video two puppies playing in the snow: one black and the other white with black patches. Logic holds because the question asks for these two pairs, and both details are explicitly provided in the respective slices.",
+        "visual_proof": "In Video 1, at 0:09, two dogs are visible in the snow: one is predominantly white with a black patch on its back, and the other is entirely black. Later in the same video, at 0:10, these same two dogs are shown standing near the steaming pot over the fire. In Video 2, at 0:03, two puppies are playing in the snow: one is black, and the other is white with black patches, matching the description."
+    },
+    {
+        "question": "What is added into the boiling pot along with colorful eggs, and later what simple seasoning is sprinkled into a pot in a similar outdoor cooking setup?",
+        "answer": "Colorful eggs are lowered into the boiling pot, and later salt is sprinkled into another pot.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows red and white eggs being lowered into a boiling pot. Step 2: Slice 49 shows a hand sprinkling salt into a pot with simmering bones/meat. Conclusion: Different additions occur across cooking stages: eggs first, seasoning (salt) later.",
+        "logic_check_reasoning": "Step 1: Slice 30 describes a gloved hand lowering colorful eggs (red and white) into a boiling pot. This supports the claim that colorful eggs are added to the boiling pot. Step 2: Slice 49 explicitly shows a hand sprinkling salt into a pot in a similar outdoor cooking setup. Logic holds because both actions occur in outdoor, snowy cooking scenes and the details match the proposed answer.",
+        "visual_proof": "In Video 1 (0:03), a basket of colorful eggs (orange, purple) is shown being dropped into the steaming pot. In Video 2 (0:00), a hand is clearly seen sprinkling white granular salt from a wooden bowl onto a log, which is part of the same outdoor cooking setup shown in subsequent frames."
+    },
+    {
+        "question": "Which livestock animal is seen near the man when he handles a washed gourd, and later what livestock animal is fed a carrot by hand?",
+        "answer": "A sheep is seen near him earlier, and later a goat is fed a carrot.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a sheep standing nearby while the man washes and handles a gourd. Step 2: Slice 82 shows a goat being fed a carrot by a person in camouflage. Conclusion: The livestock presence shifts from sheep nearby to a goat being hand-fed.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a man washing a gourd and then placing it on a table; it explicitly notes that a sheep is standing nearby in this scene. Step 2: Slice 82 describes a person feeding a goat a carrot by hand in a snowy outdoor setting. Logic holds because the first slice supports the presence of a sheep near the man handling the washed gourd, and the second slice clearly shows a goat being hand-fed a carrot.",
+        "visual_proof": "In the first video clip, at 0:11, a woolly sheep stands in the snow near the man's outdoor kitchen. In the second video clip, at 0:00, a long-haired goat with distinct facial markings is being hand-fed a carrot by the man."
+    },
+    {
+        "question": "How does the main food preparation shift from early stages to later stages: from cutting raw meat to what final eating scene with a different main protein?",
+        "answer": "It shifts from cutting raw meat to a final eating scene where the man eats fish with salad.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            70,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows the man handling and cutting a large piece of raw meat. Step 2: Slice 70 shows him chopping meat at a table with vegetables for cooking. Step 3: Slice 93 shows him eating a meal that includes fish and salad. Conclusion: The video progresses from raw meat prep to cooking assembly and ends with eating fish alongside salad.",
+        "logic_check_reasoning": "Step 1: Slice 7 describes a man in a snowy, rustic outdoor setting handling and cutting a large piece of raw meat, indicating early-stage preparation. Step 2: Slice 70 reinforces this with the man using a cleaver to cut meat on a chopping board, further confirming the early focus on raw meat. Step 3: Slice 93 shows a later scene where the man is eating a meal that appears to be fish with salad at the same type of snowy outdoor table, indicating a final eating scene with a different main protein. The environment and attire are consistent, supporting continuity. Therefore, the shift from cutting raw meat to eating fish with salad is explicitly supported.",
+        "visual_proof": "Clip 1 shows the man cutting large pieces of raw red meat (likely lamb or beef) on a wooden table in a snowy outdoor kitchen. Clip 3 shows the same man sitting at a table, eating from a plate that clearly contains cooked fish fillets arranged on a bed of greens (salad), using a fork."
+    }
+]

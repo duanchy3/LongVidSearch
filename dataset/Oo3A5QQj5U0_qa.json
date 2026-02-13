@@ -1,0 +1,86 @@
+[
+    {
+        "question": "What is the website shown at the beginning that matches the sponsor thanked near the end of the video?",
+        "answer": "WeHackTheMoon.com",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            47
+        ],
+        "reasoning_chain": "Step 1: Early on, the moon title card shows the text \"HACK THE MOON\" and the website WeHackTheMoon.com. Step 2: Near the end, a sponsor thanks screen says \"Special Thanks to Hack the Moon for Sponsoring This Video.\" Conclusion: The matching website is WeHackTheMoon.com.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states that at the beginning, the video shows the words 'HACK THE MOON' and the website address 'WeHackTheMoon.com'. Step 2: Evidence Slice 47 states that near the end, the video thanks 'Hack the Moon' for sponsoring, and shows 'Credit: Hack the Moon'. Step 3: The website 'WeHackTheMoon.com' shown at the beginning clearly corresponds to the sponsor 'Hack the Moon' mentioned at the end. Therefore, the context supports the proposed answer.",
+        "visual_proof": "In Clip 1 (0:05-0:09), the website 'WeHackTheMoon.com' is clearly displayed in white text at the bottom of the screen, directly under the 'HACK THE MOON' title. In Clip 2 (0:08-0:14), the same sponsor, 'HACK THE MOON', is thanked for sponsoring the video, confirming the connection between the website and the sponsor."
+    },
+    {
+        "question": "Which person shown presenting in front of a starry moon backdrop later holds up a mission patch while giving a limited-time sales message?",
+        "answer": "The glasses-wearing host in a gray blazer over a black graphic T-shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            98
+        ],
+        "reasoning_chain": "Step 1: The host appears against a starry space/moon backdrop wearing glasses and a light gray blazer over a dark graphic shirt. Step 2: Later, the same-looking host (glasses, gray blazer, black graphic shirt) holds a circular patch and promotes ordering it before a deadline. Conclusion: It is the glasses-wearing host in the gray blazer and black graphic tee.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes a person presenting against a starry backdrop, wearing a light gray blazer over a dark shirt with a graphic design. Step 2: Slice 98 describes a man wearing glasses and a gray suit jacket over a black graphic shirt, in front of a moon-and-stars backdrop, holding a mission patch and delivering a limited-time sales message. Logic holds because the attire and setting match between slices, and Slice 98 explicitly adds the glasses and the mission patch promotion, supporting the identification of the presenter as the glasses-wearing host in a gray blazer over a black graphic T-shirt.",
+        "visual_proof": "The same person appears in both clips. In Clip 1, he is introduced as the host against a starry moon backdrop. In Clip 2, he is seen holding up a circular mission patch and gesturing while text on screen announces a limited-time offer ('MISSION PATCHES ARE ONLY AVAILABLE UNTIL 7/31!'). His attire (glasses, gray blazer, black graphic T-shirt) is consistent across both clips."
+    },
+    {
+        "question": "What real-world location sign appears outdoors, and later the video returns to space-history interviews that include people working with NASA missions and exhibits?",
+        "answer": "Kennedy Space Center",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            56
+        ],
+        "reasoning_chain": "Step 1: Outdoors, a sign clearly reads \"Kennedy Space Center\" while NASA-related staff talk. Step 2: Later, interviews take place around lunar mission exhibits and a NASA-affiliated presenter discusses the Lunar Reconnaissance Orbiter. Conclusion: The location sign is Kennedy Space Center.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 24 explicitly states that two women are standing outdoors in front of a sign that reads 'Kennedy Space Center.' Step 2: Evidence Slice 56 describes a later segment featuring a professional exhibit setting with NASA affiliation (NASA patch) and space-history artifacts like the LRO model, aligning with interviews about NASA missions and exhibits. Logic holds because the question asks for the outdoor real-world location sign and acknowledges the later return to NASA-related interviews; the sign named in Slice 24 is 'Kennedy Space Center.'",
+        "visual_proof": "In Video 1, the on-screen text identifies Jackie Quinn as an 'Environmental Engineer at Kennedy Space Center.' The outdoor setting with a launchpad sign and lush greenery is consistent with the Kennedy Space Center environment. In Video 2, the indoor interview takes place in front of exhibits labeled 'LUNAR RECONNAISSANCE ORBITER' and 'GET THE SCOOP,' which are NASA-related displays, confirming the continuation of space-history interviews within a NASA context."
+    },
+    {
+        "question": "How does the documentary connect Apollo-era astronauts and spacecraft interiors to later technical explanations about the Apollo Guidance Computer and integrated circuits?",
+        "answer": "It shows archival astronauts inside cramped spacecraft and later shifts to detailed close-ups/diagrams and web-style explanations of the Apollo Guidance Computer and integrated circuits.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            35,
+            36,
+            48,
+            50
+        ],
+        "reasoning_chain": "Step 1: Archival footage shows astronauts inside a spacecraft, emphasizing the Apollo-era hardware environment. Step 2: Another sequence shows astronauts and mission-control monitoring, reinforcing operational complexity. Step 3: The video then presents close-ups of computer modules and historical computing labs tied to Apollo technology. Step 4: Finally, it highlights AGC control panels and a digital interface explaining AGC and integrated circuits. Conclusion: The film moves from human-in-spacecraft visuals → operational context → hardware modules → deeper AGC/IC technical explanation.",
+        "logic_check_reasoning": "Step 1: Slice 35 explicitly shows black-and-white archival footage of astronauts inside a cramped spacecraft, emphasizing early space mission interiors. Step 2: Slice 48 presents detailed technical content about the Apollo Guidance Computer, including close-ups of a computer module with integrated circuits and a diagram of computer components. Step 3: Slice 50 further reinforces the AGC focus with close-ups of control panels and the AGC itself, and introduces a digital, web-style 'HACK THE MOON' interface featuring clickable sections, including one about how integrated circuits saved the Moon landing. Step 4: The progression from archival astronaut footage (Slice 35) to later detailed technical explanations and web-style content (Slices 48 and 50) matches the proposed answer’s description of how the documentary connects these elements.",
+        "visual_proof": "Clip 1 (0:10-0:12) displays black-and-white archival footage of astronauts in a cramped spacecraft interior. Clip 3 (0:00-0:08) transitions to detailed close-ups of the Apollo Guidance Computer's internal wiring and circuitry, diagrams showing its interfaces, and historical photos of engineers working on it. Clip 4 (0:00-0:04) continues this with more close-ups of the computer's control panels and physical components, culminating in a web-style interface from 'Hack the Moon' (0:04) that explains the technology. This sequence visually confirms the documentary's structure of moving from human-centric archival footage to technical, explanatory content."
+    },
+    {
+        "question": "Which Apollo crew shown in a labeled photo later connects to the famous emergency line seen during a mission-control crisis segment?",
+        "answer": "Apollo 13 (Jim Lovell, Fred Haise, Jack Swigert), connecting via Jim Lovell to the crisis segment.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            67,
+            37,
+            68
+        ],
+        "reasoning_chain": "Step 1: A still image labels \"The Crew of Apollo 8\" and includes Jim Lovell. Step 2: A later crisis segment shows the famous line \"Uh, Houston, we've had a problem\" attributed to Lovell/Haise (Apollo 13 context). Step 3: Another segment shows Apollo 8 orbital profile graphics, reinforcing the Apollo crew/missions theme. Conclusion: The labeled Apollo 8 crew connects through Jim Lovell to the later mission-control crisis line.",
+        "logic_check_reasoning": "Step 1: Slice 67 shows a labeled photo of 'The Crew of Apollo 8' with names Jim Lovell, Bill Anders, and Frank Borman. Step 2: Slice 37 describes a mission-control crisis segment with text overlays indicating dialogue from astronauts Lovell and Haise: 'Uh, Houston, we've had a problem.' Step 3: The connection is that Jim Lovell appears in both contexts—he is part of the Apollo 8 crew in the labeled photo and is named as speaking the famous emergency line in the crisis segment. Therefore, the crew shown in the labeled photo that connects to the line is Apollo 8.",
+        "original_text_answer": "Apollo 8 (Jim Lovell, Bill Anders, Frank Borman), connecting via Jim Lovell to the crisis segment.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 explicitly labels the photo as 'THE CREW OF APOLLO 8: (LEFT TO RIGHT) JIM LOVELL, BILL ANDERS, FRANK BORMAN'. However, Clip 2 shows mission control audio with '[LOVELL] \"UH, HOUSTON, WE'VE HAD A PROBLEM.\"' and '[HAISE] \"OKAY. RIGHT NOW, HOUSTON, THE VOLTAGE IS —IS LOOKING GOOD\"', which are famous lines from Apollo 13, not Apollo 8. The crew member named in the crisis segment is Jim Lovell, who was on both Apollo 8 and Apollo 13, but the emergency context and the mention of Haise (who was on Apollo 13, not Apollo 8) definitively link the crisis segment to Apollo 13. Therefore, while Jim Lovell connects the two, the crew shown in the labeled photo (Apollo 8) is not the one involved in the crisis segment; the crisis segment belongs to Apollo 13."
+    },
+    {
+        "question": "Which museum expert identified by name appears earlier in a Smithsonian interview and later is listed among the experts in the end credits?",
+        "answer": "Margaret Weitekamp",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            12,
+            58,
+            99
+        ],
+        "reasoning_chain": "Step 1: The Smithsonian interview identifies Margaret Weitekamp by name and role. Step 2: Later, the same woman (green top, patterned/beige blazer, bead necklace) appears speaking in another segment. Step 3: The end credits list Margaret Weitekamp among experts. Conclusion: The recurring museum expert is Margaret Weitekamp.",
+        "logic_check_reasoning": "Step 1: Slice 12 explicitly identifies Margaret Weitekamp by name as the Curator of Cultural Artifacts at the Smithsonian National Air & Space Museum, appearing in an interview in that setting. Step 2: Slice 99 lists \"Margaret Wheetekamp\" among the Experts in the end credits. Step 3: Despite the minor spelling mismatch (Weitekamp vs. Wheetekamp), the instructions allow for VLM noise, and the logical alignment indicates it refers to the same person. Therefore, the museum expert named earlier in the Smithsonian interview is also listed among the experts in the credits.",
+        "visual_proof": "In Clip 1, Margaret Weitekamp is visually identified by on-screen text as 'CURATOR OF CULTURAL ARTIFACTS AT SMITHSONIAN NATIONAL AIR & SPACE MUSEUM' while being interviewed. In Clip 3, her name 'MARGARET WEITEKAMP' appears in the 'EXPERTS' section of the end credits, confirming she is listed among the experts."
+    }
+]

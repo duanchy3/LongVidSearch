@@ -1,0 +1,56 @@
+[
+  {
+    "question": "Which interactive element shown on the program’s graphics is also visible beside the blonde presenter when she appears alone in front of the 'Press Preview' sign?",
+    "answer": "A QR code.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      5,
+      7
+    ],
+    "reasoning_chain": "Step 1: Slice 5 shows the blonde presenter next to a 'PRESS PREVIEW' sign that includes a QR code. Step 2: Slice 7 shows the Press Preview broadcast graphics with a QR code on-screen. Conclusion: The shared interactive element is a QR code.",
+    "logic_check_reasoning": "Step 1: Slice 7 states that a QR code is visible on the program’s graphics (lower left corner) inviting viewers to scan it. Step 2: Slice 5 describes the blonde presenter appearing alone in front of a 'PRESS PREVIEW' sign which includes an image of a laptop and a QR code. Logic holds because both slices explicitly mention a QR code, confirming it as the interactive element present in both contexts.",
+    "visual_proof": "In Video 1, when the blonde presenter is shown alone, a large QR code is clearly visible on the left side of the screen next to the 'PRESS PREVIEW' graphic. In Video 2, during the panel discussion, the same QR code is displayed in the lower-left corner of the screen as part of the 'PRESS PREVIEW' banner. This confirms that the QR code is the interactive element present in both contexts."
+  },
+  {
+    "question": "Which newspaper front page with the quote 'PM: I KNOW IT'S BEEN TOUGH BUT OUR PLAN WILL BOOST BRITAIN' is shown during a two-presenter desk discussion and later appears behind a three-person panel?",
+    "answer": "The Daily Express.",
+    "category": "Visual_Tracking",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      9,
+      48
+    ],
+    "reasoning_chain": "Step 1: Slice 9 shows the two-presenter desk with the Daily Express front page and the quoted PM headline. Step 2: Slice 48 shows a three-person panel with the Daily Express front page prominently behind them featuring the same quote. Conclusion: The newspaper is the Daily Express.",
+    "logic_check_reasoning": "Step 1: Slice 9 describes a two-presenter desk discussion and explicitly states that the front pages display shows the Daily Express with the headline 'PM: I KNOW IT'S BEEN TOUGH BUT OUR PLAN WILL BOOST BRITAIN.' Step 2: Slice 48 describes a three-person panel with a large screen behind them displaying the front page of the Daily Express, including the same headline. Logic holds because both slices reference the same headline and identify the newspaper as the Daily Express in two different segments of the program.",
+    "visual_proof": "In both clips, the front page of the 'DAILY EXPRESS' is clearly visible on the right-hand side of the screen during the two-presenter discussion. The headline 'PM: I KNOW IT'S BEEN TOUGH, BUT OUR PLAN WILL BOOST BRITAIN' is prominently displayed. In Clip 2, this same newspaper front page is shown enlarged on a large screen behind the three-person panel, confirming its identity as the Daily Express."
+  },
+  {
+    "question": "What recurring on-screen prompt invites viewers to access more newspaper front pages, and it appears both during desk discussions and in multi-paper screen close-ups?",
+    "answer": "A prompt to scan a QR code to see front pages.",
+    "category": "Global_Summary",
+    "hop_level": "2-Hop",
+    "evidence_slices": [
+      9,
+      58
+    ],
+    "reasoning_chain": "Step 1: Slice 9 shows a QR code with text encouraging scanning to see more front pages. Step 2: Slice 58 shows a newspaper screen close-up also featuring a QR code prompt for more front pages. Conclusion: The recurring prompt is to scan a QR code to see front pages.",
+    "logic_check_reasoning": "Step 1: Slice 9 explicitly states there is a QR code with text encouraging viewers to scan it to see more front pages, and this appears during the desk discussion. Step 2: Slice 58 describes a QR code at the bottom that invites viewers to scan it for more information during a multi-paper screen close-up. Step 3: The recurring on-screen prompt is the QR code inviting scanning; Slice 9 specifies its purpose (to see more front pages), and Slice 58 confirms the same prompt appears in the multi-paper view. Logic holds because both slices mention the QR code prompt in the two contexts asked, with Slice 9 clarifying that it leads to more front pages.",
+    "visual_proof": "In both Video 1 and Video 2, a persistent banner at the bottom of the screen displays the text 'PRESS PREVIEW' next to a QR code and the instruction 'Scan QR code to see front pages'. This banner is visible during the desk discussion in Video 1 and remains on screen during the close-up shots of the newspaper front pages in Video 2."
+  },
+  {
+    "question": "How does the cast configuration change across the segment from the earliest studio discussion to later shots, while keeping the same theme of reviewing front pages?",
+    "answer": "It starts with a three-person panel, shifts to a two-presenter desk format, and also includes single-speaker close-ups, all still centered on newspaper front pages.",
+    "category": "State_Mutation",
+    "hop_level": "4-Hop",
+    "evidence_slices": [
+      2,
+      3,
+      8,
+      20
+    ],
+    "reasoning_chain": "Step 1: Slice 2 shows three people around a studio table discussing. Step 2: Slice 3 shows a two-person desk setup. Step 3: Slice 8 shows a single commentator close-up with front pages inset. Step 4: Slice 20 returns to a three-presenter desk discussion with multiple front pages displayed. Conclusion: The show cycles among three-person, two-person, and single close-up formats while staying on front pages.",
+    "logic_check_reasoning": "Step 1: Slice 2 shows a three-person setup in a Sky News studio with 'PRESS PREVIEW' and newspapers in the background, indicating a three-person panel discussing front pages. Step 2: Slice 3 shows two individuals at a desk in a similar news studio setting, indicating a shift to a two-presenter desk format. Step 3: Slice 8 shows a single woman speaking on camera with changing newspaper front pages and a 'Press Preview' banner/QR code, confirming single-speaker close-ups focused on front pages. Step 4: Slice 20 reiterates the 'Press Preview' context with three presenters analyzing front pages, reinforcing the theme. Logic holds because the segment consistently centers on reviewing front pages while the cast configuration varies between three-person panel, two-presenter desk, and single-speaker close-ups, matching the proposed answer.",
+    "visual_proof": "Clip 1 shows a three-person panel (one woman, two men) at a desk. Clip 2 shows a two-person format (one man, one woman) at the same desk. Clip 3 is a close-up of a single speaker (a woman), with newspaper front pages displayed on screen. Clip 4 returns to the three-person panel, with a large screen behind them showing a newspaper front page, confirming the theme remains consistent."
+  }
+]

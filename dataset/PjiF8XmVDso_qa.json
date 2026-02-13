@@ -1,0 +1,55 @@
+[
+    {
+        "question": "What tool is drawn inside an oval on the paper during the drawing activity, and what real kitchen step later involves cutting a sticky sauce on a tray?",
+        "answer": "Scissors are drawn inside an oval, and later caramel is cut on a baking tray.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows an oval drawn with scissors inside it. Step 2: Slice 31 shows hands cutting caramel on a tray. Conclusion: Connect the drawn cutting tool concept to the later real cutting step.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 4 explicitly states that a person draws an oval and inside the oval they draw a pair of scissors, confirming the tool drawn is scissors. Step 2: Evidence Slice 31 describes a baking tray with caramel sauce and later shows hands using a knife to cut through the caramel on the tray, confirming the kitchen step involves cutting caramel. Logic holds because the first part references the drawing activity and the second part references the kitchen scene, both directly supported by the respective slices.",
+        "visual_proof": "In Clip 1, a hand draws a pair of scissors inside a large oval on a sketchpad. In Clip 2, a person uses a knife to cut a hardened, sticky, amber-colored substance (visually consistent with caramel) on a parchment-lined baking tray."
+    },
+    {
+        "question": "Two different “Yeti Meal” titles are shown near the end—what are the two names used for the meals?",
+        "answer": "“Rie’s Yeti Meal” and “Alvin’s Yeti Meal.”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            63,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 63 displays the title “RIE’S YETI MEAL.” Step 2: Slice 64 displays “Alvin’s Yeti Meal.” Conclusion: Report the two meal names.",
+        "logic_check_reasoning": "Step 1: Slice 63 explicitly states the video ends with the words 'RIE'S YETI MEAL' on the screen. Step 2: Slice 64 describes a presentation titled 'Alvin's Yeti Meal.' Logic holds because the question asks for the two 'Yeti Meal' titles shown near the end, and these two slices provide those exact titles.",
+        "visual_proof": "In Clip 1, the text 'RIE'S YETI MEAL' is clearly visible at the bottom of the screen. In Clip 2, the text 'ALVIN'S YETI MEAL' is displayed in the same position. Both titles are explicitly shown in their respective clips."
+    },
+    {
+        "question": "How does the “judge” moment connect to the final dishes: what text announces a judging outcome, and what two titled plated meals appear immediately after?",
+        "answer": "The text says “And the Winner is…,” and the two titled plated meals are “Rie’s Yeti Meal” and “Alvin’s Yeti Meal.”",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            91,
+            63,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 91 shows the text “And the Winner is…” signaling judging. Step 2: Slice 63 shows the finished plate titled “Rie’s Yeti Meal.” Step 3: Slice 64 shows “Alvin’s Yeti Meal.” Conclusion: Connect the judging cue to the two final titled dishes.",
+        "logic_check_reasoning": "Step 1: Slice 91 explicitly shows the text \"And the Winner is...,\" which announces a judging outcome. Step 2: Slice 63 ends with the on-screen title \"RIE'S YETI MEAL,\" identifying one plated dish. Step 3: Slice 64 presents \"Alvin's Yeti Meal\" as another titled plated dish. Logic holds because the context provides the outcome announcement and the two titled dishes connected to the Yeti-themed judging.",
+        "visual_proof": "Clip 1 opens with a title card reading 'And the Winner is...'. Clip 2 immediately follows, showing a plated dish with the on-screen text 'RIE'S YETI MEAL'. Clip 3 then shows another plated dish with the on-screen text 'ALVIN'S YETI MEAL'. The sequence visually confirms the connection between the announcement and the two specific meals."
+    },
+    {
+        "question": "Which cooking device is used early to combine ingredients for a drink or mixture, and what later moment shows sauce being poured from a pot onto skewers on a tray?",
+        "answer": "A blender is used early, and later liquid sauce is poured from a pot onto skewers.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            27
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows ingredients (lime) being added to a blender. Step 2: Slice 27 shows liquid being poured from a pot onto skewers on a tray. Conclusion: Identify the device and the later pouring step.",
+        "logic_check_reasoning": "Step 1: Slice 13 says the man in a green apron is cutting/squeezing a lime into a blender, indicating a blender is used early to combine ingredients. Step 2: Slice 27 says the man pours a liquid from a blue pot onto skewers on a baking tray, described as a yellowish sauce or marinade. Logic holds because both slices feature the same kitchen context with the man in a green apron, and they explicitly describe the blender use early and the later pouring of sauce from a pot onto skewers.",
+        "visual_proof": "In the first clip, a man is seen adding chopped green ingredients into a clear blender. In the second clip, a close-up shows a hand pouring a thick, brownish sauce from a blue pot onto wooden skewers arranged on a parchment-lined baking tray."
+    }
+]

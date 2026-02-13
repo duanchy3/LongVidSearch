@@ -1,0 +1,86 @@
+[
+    {
+        "question": "Which animal is first shown feeding from a tree and later is given food by the man at the table?",
+        "answer": "A goat.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows a white goat reaching up to eat leaves from a tree. Step 2: Slice 66 shows the man feeding a goat at the outdoor table. Conclusion: The animal appearing in both contexts is a goat.",
+        "logic_check_reasoning": "Step 1: Slice 19 states a white goat is reaching up towards a tree, likely eating leaves, indicating the animal feeding from a tree. Step 2: Slice 66 shows a man feeding a goat from his hand at a table. Logic holds because both slices consistently identify a goat performing the described actions in sequence: first feeding from a tree, later being fed by a man.",
+        "visual_proof": "In the first clip, a white and brown goat is seen standing on rocks and reaching up to eat leaves from a tree. In the second clip, the same goat approaches a man sitting at a wooden table outdoors, and the man feeds it a cherry from a basket of fruit."
+    },
+    {
+        "question": "Which action follows making skewered kebabs and results in a separate product being formed into a spiral shape on a metal tray?",
+        "answer": "After shaping meat around skewers, a long sausage casing is filled and arranged into a spiral on a tray.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            41,
+            43,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 41 shows shaping a meat-and-vegetable mixture onto a skewer to form kebabs. Step 2: Slice 43 continues wrapping the mixture around skewers. Step 3: Slice 48 shows sausage casing being filled and arranged into a spiral on a round metal tray. Conclusion: The workflow shifts from skewered kebabs to a spiral sausage on a tray.",
+        "logic_check_reasoning": "Step 1: Slices 41 and 43 describe the man shaping ground meat around skewers to make kebabs. Step 2: Slice 48 describes the man preparing a spiral-shaped sausage by holding a long sausage casing, filling it with meat, and arranging it into a spiral on a round metal tray. Logic holds because the question asks what action follows making skewered kebabs and results in a separate spiral product on a tray; Slice 48 explicitly shows that action, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows the man forming meat onto skewers. Clip 2 shows him filling a sausage casing with meat mixture. Clip 3 shows him arranging the long, filled sausage in a spiral pattern on a metal tray. The sequence of actions directly supports the original answer."
+    },
+    {
+        "question": "What ingredient is being cleaned at running water before it is later chopped into smaller pieces at the outdoor table?",
+        "answer": "Fresh herbs/leafy greens.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows the man washing fresh herbs under running water at a stone fountain. Step 2: Slice 22 shows leafy greens/herbs being chopped on a cutting board at the outdoor table. Conclusion: The washed ingredient that later gets chopped is fresh herbs/leafy greens.",
+        "logic_check_reasoning": "Step 1: Slice 20 states a man is washing fresh herbs under running water at a stone fountain. Step 2: Slice 22 shows the same man outdoors chopping leafy greens/fresh herbs at a table. Logic holds because both slices describe the same person in a consistent outdoor rustic setting handling the same type of ingredient (fresh herbs/leafy greens), first washing then chopping.",
+        "visual_proof": "In Video 1, the man is seen washing a large bunch of green leafy vegetables (including dill and parsley) under running water at an outdoor stone basin. In Video 2, the same man is shown chopping the exact same types of fresh herbs on a wooden cutting board outdoors, confirming the sequence of cleaning followed by chopping."
+    },
+    {
+        "question": "What prepared vegetable is repeatedly cut in close-up and then is later shown as part of a mixed bowl that includes rice and meat?",
+        "answer": "Bell peppers (especially green bell peppers).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            27,
+            30,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 27 shows green bell peppers being finely chopped. Step 2: Slice 30 continues chopping green bell peppers at the table. Step 3: Slice 39 shows a mixed bowl containing vegetables including red bell peppers along with rice and meat. Conclusion: Peppers prepared earlier are part of the later mixed bowl ingredients.",
+        "logic_check_reasoning": "Step 1: Slice 27 explicitly shows close-up chopping of green bell peppers. Step 2: Slice 30 again shows close-up chopping of green bell peppers, reinforcing that bell peppers are repeatedly cut. Step 3: Slice 39 shows a mixed bowl containing rice, meat, and vegetables, including bell peppers (noted as red). While the color differs, the vegetable category (bell peppers) matches across slices. Therefore, the prepared vegetable repeatedly cut in close-up and later shown in the mixed bowl is bell peppers, with the close-up specifically featuring green bell peppers.",
+        "visual_proof": "Clips 1 and 2 show a person repeatedly chopping green bell peppers in close-up on a wooden board. Clip 3 shows the chopped green bell peppers being added to a large bowl that already contains rice, ground meat, and other vegetables, confirming they are part of the final mixed dish."
+    },
+    {
+        "question": "How does the video show a transition from food preparation in the rustic kitchen to a separate craft activity and then back to a cooking method using foil-wrapped cylinders?",
+        "answer": "It moves from chopping ingredients at the rustic kitchen, to blacksmithing with hammer and anvil, then to wrapping sausage around a foil-wrapped cylinder for cooking.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            9,
+            53,
+            55,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows food preparation at the rustic log-counter kitchen. Step 2: Slice 53 shifts to blacksmithing (hammering metal on an anvil). Step 3: Slice 55 shows sausage being coiled around a foil-wrapped cylinder. Step 4: Slice 56 shows foil-wrapped cylinders inside a stone cooking station being handled/wrapped as part of the cooking setup. Conclusion: Cooking prep → craft interlude → foil-cylinder sausage cooking method.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows food preparation in a rustic outdoor kitchen (cutting meat, arranging ingredients). Step 2: Slice 53 shows a separate craft activity—blacksmithing with a hammer and anvil. Step 3: Slices 55 (wrapping a sausage around a foil-wrapped cylinder) and 56 (foil-wrapped cylindrical objects in a cooking setup) show a return to cooking using foil-wrapped cylinders. The proposed answer matches these transitions: kitchen prep → blacksmithing → cooking with a foil-wrapped cylinder.",
+        "visual_proof": "Clip 1 shows meat being chopped on a wooden board in a rustic kitchen. Clip 2 shows a hand using a hammer on an anvil wrapped in foil, indicating a blacksmithing-like craft activity. Clips 3 and 4 show the man wrapping sausages around foil-wrapped cylinders, confirming the return to a cooking method."
+    },
+    {
+        "question": "How does the video connect close-up nature shots of flowers to later scenes of animals and then to the final aerial mountain views?",
+        "answer": "It shows flowers in close-up, then shifts to goats/dogs in the same rural environment, and ends with sweeping aerial views of mountainous valleys.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            18,
+            66,
+            71,
+            88
+        ],
+        "reasoning_chain": "Step 1: Slice 18 includes a close-up shot of a white flower. Step 2: Slice 66 shows a goat being fed near an outdoor table. Step 3: Slice 71 shows a dog running toward the camera in a field. Step 4: Slice 88 shows aerial views of lush mountains and hills. Conclusion: The narrative alternates between flora, fauna in the rural setting, and culminating aerial landscapes.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows close-up nature shots of a white flower, establishing the flower imagery and an outdoor, mountainous setting. Step 2: Slice 71 explicitly transitions from a close-up of a container with white flowers to a playful dog in a grassy outdoor area, directly connecting flowers to an animal scene. Slice 66 adds another animal scene with a goat in a similar outdoor, mountainous environment, reinforcing the shift to animals. Step 3: Slice 88 presents sweeping aerial views of a lush mountainous landscape, providing the final transition to broad mountain views. The sequence described in the proposed answer (flowers → animals → aerial mountain views) aligns with these slices.",
+        "visual_proof": "Clip 1 ends with a close-up of white wild roses. Clip 2 shows a man interacting with goats in a grassy, rural area with stone walls, consistent with the background in Clip 1. Clip 3 features a dog in the same grassy field, with a goat visible in the background, confirming the shared environment. Clip 4 provides a wide, aerial shot of the same lush, green, mountainous landscape seen in the background of the previous clips, completing the visual narrative from micro to macro."
+    }
+]

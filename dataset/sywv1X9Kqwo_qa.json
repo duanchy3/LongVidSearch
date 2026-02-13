@@ -1,0 +1,140 @@
+[
+    {
+        "question": "After measuring water to a marked level in a measuring cup, what container does the cook later press the dough into?",
+        "answer": "A large clear plastic container with measurement markings.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            13,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows the cook measuring water precisely in a large measuring cup using a tape mark. Step 2: Slice 12 shows him transferring dough into a large glass container and pressing it down. Conclusion: The later container he presses dough into is a large glass container.",
+        "logic_check_reasoning": "Step 1: Slice 13 describes the man measuring water to a marked level in a measuring cup. Step 2: Slice 12 shows the same man later pouring dough into a container and pressing it down, explicitly identifying it as a large glass container. Logic holds because the visual attributes (black shirt, tattoos, same kitchen setting) align, indicating continuity of the same cook and sequence of actions.",
+        "original_text_answer": "A large glass container.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the cook places blue tape on a large, transparent container that has red measurement markings for liters and quarts. In Clip 2, he pours dough from a metal bowl into this same container and presses it down. The container is clearly made of plastic, not glass, as evidenced by its slight flexibility and the way light reflects off its surface."
+    },
+    {
+        "question": "What tool is used to slide the prepared pizza into the outdoor oven after it is topped with tomato sauce, mozzarella, and basil in the kitchen?",
+        "answer": "A long-handled pizza peel.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows the pizza being topped with sauce, mozzarella, and basil in the kitchen. Step 2: Slice 50 shows the cook using a long-handled pizza peel to slide the pizza into the green Gozney oven outdoors. Conclusion: The tool is a long-handled pizza peel.",
+        "logic_check_reasoning": "Step 1: Slice 47 describes a man in a white shirt preparing a pizza in a kitchen, topping it with tomato sauce, mozzarella, and basil. Step 2: Slice 50 shows (likely the same) man using a long-handled pizza peel to slide a freshly prepared pizza into an outdoor Gozney oven. Logic holds because the second slice explicitly names the tool used to slide the pizza into the oven, and the first slice establishes the preparation of the pizza with the specified toppings.",
+        "visual_proof": "In Video 2, the man is clearly seen holding a long-handled tool with a flat, spade-like surface (a pizza peel) to slide the prepared pizza into the outdoor oven. He is holding this tool from the moment he walks towards the oven until he places the pizza inside."
+    },
+    {
+        "question": "Which oven brand is shown when the pizza is baking, both early in the video and later outdoors?",
+        "answer": "Gozney.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a pizza baking in an oven branded 'GOZNEY.' Step 2: Slice 50 shows an outdoor green oven also branded Gozney used to bake the pizza. Conclusion: The oven brand in both scenes is Gozney.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states the pizza is cooked inside an oven branded \"GOZNEY\" in the early part of the video. Step 2: Evidence Slice 50 describes an outdoor pizza oven identified as a green Gozney model, with the brand name \"Gozney\" visible. Logic holds because both instances of baking—early indoors and later outdoors—explicitly mention the Gozney brand.",
+        "visual_proof": "In Clip 1, the brand name 'GOZNEY' is clearly visible in white lettering on the black frame below the oven opening as the pizza is being slid inside. In Clip 2, the same 'GOZNEY' branding is visible on the front of the green outdoor oven, both when the man is checking it and as he slides the pizza in."
+    },
+    {
+        "question": "What topping added to the pizza in the kitchen is still visible as green herbs when the baked pizza is later removed from the indoor oven?",
+        "answer": "Basil (green herbs).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows basil leaves being placed on the pizza before baking. Step 2: Slice 59 shows a pizza removed from the indoor oven topped with cheese and green herbs. Conclusion: The green herbs correspond to basil.",
+        "logic_check_reasoning": "Step 1: Slice 47 states the man in a white shirt adds basil leaves to the pizza after tomato sauce and mozzarella. Step 2: Slice 59 shows the same kitchen scene with the person in a white shirt removing a pizza from the oven that has tomato sauce, cheese, and visible green herbs described as possibly basil. Logic holds because the topping added (basil) in Slice 47 corresponds to the green herbs seen on the pizza when it is removed from the oven in Slice 59, and the consistent setting and clothing indicate continuity.",
+        "visual_proof": "In Clip 1, the chef is seen adding fresh green basil leaves to the pizza after spreading the sauce and cheese. In Clip 2, when the pizza is placed into the oven, these same green basil leaves are clearly visible on top of the uncooked pizza. Although the final baked pizza being removed from the oven is not shown in the provided clips, the question asks what topping is still visible as green herbs *when the baked pizza is later removed*. The visual evidence confirms that basil was added and is present as green herbs before baking, which logically implies it would be the herb visible after baking, even if slightly wilted. The context of making a classic Margherita pizza strongly supports this."
+    },
+    {
+        "question": "After making dough balls with a knife and rolling one into a ball, what happens to multiple dough balls in the next stage?",
+        "answer": "They are placed together in a white rectangular container and adjusted/pressed into shape.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows cutting dough into portions and rolling one portion into a ball. Step 2: Slice 19 shows four smooth dough balls arranged in a white rectangular container and being pressed/adjusted. Conclusion: The dough portions become multiple dough balls organized and shaped in a container.",
+        "logic_check_reasoning": "Step 1: Slice 18 shows the person cutting dough into portions and rolling one piece into a ball, with a white container visible in the scene. Step 2: Slice 19 shows the next stage where multiple dough balls are inside a white rectangular container; the person presses and adjusts them to ensure they are well-formed and properly positioned. Logic holds because the progression from forming individual balls to placing and shaping multiple balls in the container is explicitly described.",
+        "visual_proof": "In Clip 1, the person uses a bench scraper to form dough balls. In Clip 2, multiple finished dough balls are shown being placed into a white rectangular container, and the person's hands are seen gently pressing and adjusting their positions within the container."
+    },
+    {
+        "question": "Which two powdered ingredients are shown in small blue bowls before liquid is added, and what is the liquid poured from?",
+        "answer": "A flour/yeast-like mixture and salt; the liquid is poured from a blue container/bottle.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            7,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a small blue bowl of salt and another bowl of ingredients being discussed. Step 2: Slice 7 shows two small blue bowls (one with flour mixture, one with salt) and liquid being poured into the flour mixture from a blue container. Step 3: Slice 8 shows further pouring liquid from a blue bottle into a larger flour bowl. Conclusion: The powders are flour/yeast-like mix and salt, and the liquid comes from a blue container/bottle.",
+        "logic_check_reasoning": "Step 1: Slice 7 states there are two small blue bowls: one with a mixture that appears to be flour plus another ingredient (possibly yeast or baking powder) and the other with a white powder likely salt. It also says a hand pours liquid from a blue container into the flour mixture bowl. Step 2: Slice 3 corroborates the presence of a small blue bowl filled with salt next to another bowl with other ingredients, reinforcing the identification of salt and a flour-based mixture. Step 3: Slice 8 mentions the liquid being poured from a blue bottle into flour, consistent with Slice 7’s blue container. Logic holds because multiple slices consistently describe two powdered contents (flour mixture and salt) and a blue vessel (container/bottle) used to pour the liquid.",
+        "visual_proof": "Clip 1 shows two small blue bowls on a wooden surface, one containing a light brown granular powder (consistent with yeast) and the other a white crystalline powder (salt). Clip 2 visually confirms this as water is poured from a blue container into the bowl with the brown powder. Clip 3 shows the man stirring the activated yeast mixture, confirming the contents of the bowls before mixing."
+    },
+    {
+        "question": "How does the video show a pizza being prepared in the kitchen, baked outdoors, and then eaten back indoors?",
+        "answer": "He tops the pizza with sauce, mozzarella, and basil in the kitchen, bakes it in the outdoor Gozney oven, then eats slices in the kitchen while talking.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            47,
+            50,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows kitchen assembly with sauce, mozzarella, and basil. Step 2: Slice 50 shows baking in the outdoor Gozney oven using a peel. Step 3: Slice 56 shows him eating a slice indoors in the kitchen. Conclusion: The arc is assemble indoors → bake outdoors → eat indoors.",
+        "logic_check_reasoning": "Step 1: Slice 47 shows the man in a kitchen spreading tomato sauce on dough, then adding mozzarella slices and basil leaves. This directly supports the preparation details in the proposed answer. Step 2: Slice 50 shows the same man baking the pizza in an outdoor Gozney oven, clearly matching the baking step in the proposed answer. Step 3: Slice 56 shows the man back in the kitchen eating a slice of the pizza and gesturing, with captions suggesting he is likely explaining something; this supports the indoor eating and implies talking. Minor wording differences (\"slices\" vs. a single slice) do not contradict the context.",
+        "visual_proof": "Clip 1 shows the man in a kitchen spreading sauce, adding mozzarella, and tearing basil onto the dough. Clip 2 shows him carrying the prepared pizza on a peel to an outdoor Gozney oven and sliding it inside to bake. Clip 3 shows him back in the kitchen, holding a slice of the baked pizza, taking a bite, and talking to the camera."
+    },
+    {
+        "question": "What ingredient is introduced by opening a can, then later becomes the sauce spread onto dough for pizza assembly?",
+        "answer": "Tomatoes/tomato contents used to make tomato sauce.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            24,
+            49,
+            47
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows a can being opened and its tomato contents poured into a mixing bowl. Step 2: Slice 49 shows tomato sauce being spread on pizza dough. Step 3: Slice 47 shows the sauced dough being topped with mozzarella and basil. Conclusion: The opened canned tomatoes lead to the sauce used on the pizza.",
+        "logic_check_reasoning": "Step 1: Slice 24 explicitly shows a person opening a can of tomatoes and pouring the contents into a mixing bowl. Step 2: Slices 47 and 49 show the same person (white shirt, tattoos) spreading tomato sauce onto pizza dough during assembly. Logic holds because the ingredient introduced by opening the can is tomatoes, and later the sauce used is tomato sauce, indicating the tomatoes become the sauce spread onto the dough.",
+        "visual_proof": "In Clip 1, the man opens a can labeled 'Pomodoro San Marzano' (San Marzano Tomatoes) and pours its red, pulpy contents into a bowl. In Clip 3, he is shown spooning this exact same red sauce from the bowl onto a pizza dough base, confirming it is the sauce used for the pizza assembly."
+    },
+    {
+        "question": "How does the cook transition from mixing flour with liquid to kneading a cohesive dough, and where does the kneading occur first?",
+        "answer": "He mixes flour and liquid in a metal bowl, then kneads the dough inside the stainless steel mixing bowl.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            9,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows liquid poured into flour in a large metal bowl and stirred with a wooden spoon. Step 2: Slice 9 shows continued thorough mixing in the bowl. Step 3: Slice 10 shows the next stage: kneading a dough ball in a stainless steel mixing bowl. Conclusion: The process is mix → mix thoroughly → knead first in the mixing bowl.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows the cook pouring liquid from a blue bottle into a large metal mixing bowl filled with flour and mixing with a wooden spoon, establishing the mixing phase. Step 2: Slice 9 reinforces thorough mixing in a metal bowl. Step 3: Slice 10 explicitly states the person is kneading a ball of dough within a large stainless steel mixing bowl. Logic holds because the sequence moves from mixing flour and liquid in a metal bowl to kneading inside the same type of bowl, and the first kneading location is clearly within the stainless steel mixing bowl.",
+        "visual_proof": "Clip 1 shows the cook mixing flour and water in a stainless steel bowl. Clip 2 shows him using a scraper to gather the shaggy dough within the same bowl before covering it. Clip 3 shows him uncovering the bowl and immediately beginning to knead the dough with his hands directly inside that same stainless steel bowl."
+    },
+    {
+        "question": "How does the topping style change from a simple basil-and-mozzarella pizza to a pizza finished with cured meat, arugula, and balsamic?",
+        "answer": "He first makes a pizza topped with tomato sauce, mozzarella, and basil; later he assembles a pizza with white sauce, prosciutto, arugula, and finishes it with balsamic vinegar.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            47,
+            71,
+            74,
+            75
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows a classic topping set: tomato sauce, mozzarella, basil. Step 2: Slice 71 shows he brings out plates of cured meat and arugula and seasons the arugula with balsamic. Step 3: Slice 74 shows white sauce spread on bread/pizza, then prosciutto and arugula added. Step 4: Slice 75 shows balsamic being drizzled over the arugula-topped pizza before eating. Conclusion: The pizza evolves from margherita-style to a white-sauce prosciutto-arugula pizza finished with balsamic.",
+        "logic_check_reasoning": "Step 1: Slice 47 shows the man spreading tomato sauce on dough, then adding mozzarella slices and basil, supporting the simple basil-and-mozzarella pizza. Step 2: Slice 74 shows a partially cooked base being topped with white sauce, prosciutto, and arugula, indicating a different topping style with cured meat and greens. Step 3: Slice 75 shows the man drizzling balsamic vinegar over the arugula-topped pizza, confirming the finish with balsamic. Step 4: Slice 71 corroborates the presence of prosciutto, arugula, and balsamic preparation, aligning with the later pizza’s ingredients. The logic holds because the slices collectively depict a progression from a tomato-mozzarella-basil pizza to a white-sauce pizza with prosciutto, arugula, and a balsamic finish.",
+        "visual_proof": "Clip 1 visually confirms the first pizza is topped with red tomato sauce, mozzarella, and fresh basil. Clips 2, 3, and 4 show the preparation of a second pizza: Clip 2 displays ingredients including prosciutto and arugula; Clip 3 shows a baked pizza with a white base being topped with prosciutto and arugula; Clip 4 shows the chef drizzling balsamic vinegar over this second pizza before eating a slice."
+    }
+]

@@ -1,0 +1,160 @@
+[
+    {
+        "question": "Which two different wildlife moments show animals calmly present in human-accessible landscapes, one involving a road and the other a mountain meadow?",
+        "answer": "Bison crossing a paved road and a deer grazing in a mountain meadow.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            5
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows bison crossing a paved road while vehicles wait. Step 2: Slice 5 shows a deer grazing on a grassy mountain slope. Conclusion: The wildlife moments are bison on a road and a deer in a meadow.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly describes bison crossing a paved road with vehicles stopped, noting the animals are undisturbed and the atmosphere is calm. Step 2: Slice 5 explicitly describes a deer grazing peacefully in a lush mountain meadow. Logic holds because these are two distinct wildlife moments showing calm animal presence in human-accessible settings: a road and a mountain meadow.",
+        "visual_proof": "Clip 1 shows a herd of bison calmly walking across a two-lane paved road with cars stopped, indicating a human-accessible landscape. Clip 2 shows a single deer standing calmly on a grassy slope in a mountainous, forested area under a clear sky, which is a mountain meadow setting."
+    },
+    {
+        "question": "A travel narrator repeatedly appears indoors in front of maps. What clothing detail stays consistent across these indoor speaking segments?",
+        "answer": "He consistently wears a light green button-up shirt.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            74
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the bearded man speaking in front of maps wearing a light green button-up shirt. Step 2: Slice 74 again shows the same setup and the man in a light green button-up shirt. Conclusion: The consistent clothing detail is the light green button-up shirt.",
+        "logic_check_reasoning": "Step 1: Slice 1 describes a man speaking indoors in front of maps, specifically noting he wears a light green button-up shirt. Step 2: Slice 74 again shows the man indoors in front of maps, and explicitly states he is wearing a light green button-up shirt. Step 3: Since multiple indoor speaking segments consistently show the same shirt, the clothing detail is supported as consistent.",
+        "visual_proof": "In both video clips, the man is shown indoors in front of maps. In every visible frame from clip 1 (0:07-0:43) and clip 2 (0:00-0:14), he is wearing the exact same light green, vertically striped, button-up collared shirt. The color, pattern, and style of the shirt do not change between the two time-sliced segments."
+    },
+    {
+        "question": "Two different scenes feature a person sitting and relaxing rather than actively hiking—one near steaming pools and one at a canyon overlook. Where are they seated in each case?",
+        "answer": "One is seated on a bench near hot spring pools, and the other is seated on a rocky outcrop at the Grand Canyon during colorful sunrise/sunset light.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a man sitting on a bench near rectangular hot spring pools reading a book. Step 2: Slice 56 shows a person seated on a rocky outcrop overlooking the Grand Canyon at sunrise/sunset colors. Conclusion: The seated locations are a bench by hot springs and a rocky canyon overlook.",
+        "logic_check_reasoning": "Step 1: Slice 9 describes a man 'sitting on a bench near one of the pools' at a hot spring facility with steaming water, confirming he is seated on a bench near steaming pools. Step 2: Slice 56 describes a person 'seated on a rocky outcrop' overlooking the Grand Canyon during sunrise/sunset hues, confirming they are seated on a rocky outcrop at the canyon. Logic holds because both seating locations are explicitly stated in the captions.",
+        "visual_proof": "In Video 1, a person is clearly seated on a wooden bench under a covered walkway next to steaming outdoor pools. In Video 2, two people are seated on a large rock formation overlooking the Grand Canyon, with the sky displaying vibrant pink and orange hues characteristic of sunrise or sunset."
+    },
+    {
+        "question": "Two different scenes show vehicles interacting with mountain roads. What color vehicle is highlighted on the winding mountain road, and what situation stops traffic on the other road?",
+        "answer": "A red vehicle is highlighted on the winding mountain road, and traffic stops because bison are crossing the road.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            12,
+            3
+        ],
+        "reasoning_chain": "Step 1: Slice 12 shows a red vehicle driving along a narrow, curving mountain road. Step 2: Slice 3 shows vehicles stopped because bison are crossing a paved road. Conclusion: The red vehicle is in the scenic road shot, and bison cause the traffic stop.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 12 describes a winding mountain road with a red vehicle (SUV or truck) driving along it. Step 2: Evidence Slice 3 states that traffic is stopped because a group of bison is crossing a paved road, with vehicles halted to allow them to pass. Logic holds because these two slices depict separate scenes involving vehicles on mountain roads: one highlighting a red vehicle, the other showing traffic stopped due to bison crossing.",
+        "visual_proof": "In the first clip (0:10-0:18), a bright red vintage-style tour bus is clearly visible driving along a stone-lined, winding mountain road with a prominent peak in the background. In the second clip (0:00-0:08), a herd of bison is shown occupying the entire width of a two-lane road, causing cars, including a black Lincoln SUV in the foreground, to be stopped and waiting."
+    },
+    {
+        "question": "Across the video, which two distinct map-based graphics appear, and what does each map specifically represent?",
+        "answer": "A map of Isle Royale National Park and a map showing the locations of National Parks across the United States.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            84,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 84 shows a map labeled Isle Royale National Park with campgrounds and wilderness zones. Step 2: Slice 93 shows a 'National Parks of the United States' map with markers for park locations. Conclusion: The two graphics are an Isle Royale park map and a nationwide national parks distribution map.",
+        "logic_check_reasoning": "Step 1: Slice 84 describes a static map of Isle Royale National Park, with boundaries, a legend, and features like campgrounds and wilderness zones—clearly a map of that specific park. Step 2: Slice 93 describes a map titled 'National Parks of the United States' with markers indicating locations of national parks across the country, supported by a legend—clearly a nationwide distribution map. The proposed answer identifies these two distinct maps and accurately states what each represents.",
+        "visual_proof": "Clip 1 displays a detailed map titled 'Isle Royale National Park,' showing its trails, harbors, and facilities. Clip 2 displays a map of the United States titled 'NATIONAL PARKS OF THE UNITED STATES,' with green tree icons marking the locations of various parks across the country and its territories."
+    },
+    {
+        "question": "What shift in elevation is emphasized by signage early in the video versus later near a coastal/wetland sign, and what are the two elevations shown?",
+        "answer": "An alpine trail sign shows 4300 feet, while the later sign shows Rock Reef Pass at 3 feet.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            95
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a sign reading 'GLACIER MEADOWS ELEVATION 4300.' Step 2: Slice 95 shows a sign reading 'Rock Reef Pass Elevation 3 feet.' Conclusion: The video contrasts high elevation (4300 ft) with near sea level (3 ft).",
+        "logic_check_reasoning": "Step 1: Slice 6 describes a wooden signpost reading \"GLACIER MEADOWS ELEVATION 4300,\" establishing an early high elevation in the video. Step 2: Slice 95 shows a sign reading \"Rock Reef Pass Elevation 3 feet,\" indicating a very low elevation near a coastal/wetland environment. Logic holds because the two slices present clear signage with elevations, demonstrating a shift from 4300 (unit not specified) to 3 feet.",
+        "visual_proof": "Clip 1 clearly shows a wooden sign that reads 'GLACIER MEADOWS ELEVATION 4300'. Clip 2 shows a brown sign that reads 'Rock Reef Pass Elevation 3 feet'. The visual evidence from both clips directly supports the elevations mentioned in the original answer."
+    },
+    {
+        "question": "Two scenes show water travel by paddlecraft in canyon-like environments, but with different details. What is the key visual difference between the paddler on the calm river and the hikers in the narrow stream canyon?",
+        "answer": "One shows a single person paddling a canoe on a calm river between cliffs, while the other shows two hikers walking along a shallow stream between rock walls.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            69,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows one person in bright red paddling a small canoe on a calm river between canyon walls. Step 2: Slice 21 shows two people on foot (blue and red shirts) walking along a shallow stream in a narrow canyon. Conclusion: The difference is paddlecraft travel vs hiking/wading in the stream corridor.",
+        "logic_check_reasoning": "Step 1: Slice 69 describes a single person paddling a small canoe on a calm river flanked by towering cliffs. Step 2: Slice 21 depicts two individuals walking along a shallow stream in a narrow canyon with steep rock walls. Logic holds because the proposed answer contrasts the solo canoe paddler on a river with the pair of hikers walking in a stream, matching the visual details in each slice.",
+        "visual_proof": "Clip 1 visually confirms a single individual in a green canoe using a paddle on a wide, calm, murky river flanked by large canyon cliffs. Clip 2 visually confirms two people equipped with backpacks and trekking poles walking through a narrow, rocky stream bed enclosed by high, smooth rock walls. The activities (paddling vs. hiking), number of people (one vs. two), and water conditions (calm river vs. shallow, flowing stream) are distinctly different and clearly visible."
+    },
+    {
+        "question": "Which sequence shows the theme of 'viewpoint sitting' repeated in two different parks—first overlooking a valley and later overlooking a vast canyon—and how are the settings different?",
+        "answer": "People sit on a rocky outcrop overlooking a broad valley early on, and later a person sits at the Grand Canyon overlooking layered cliffs at sunrise/sunset; one is a green valley viewpoint and the other is a desert canyon vista.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            29,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows two people seated on a rocky outcrop overlooking a vast valley. Step 2: Slice 29 shows two people seated on a rocky outcrop facing a huge canyon panorama. Step 3: Slice 56 shows a lone person seated on a rocky outcrop at the Grand Canyon during vivid sunrise/sunset colors. Conclusion: The repeated motif is sitting at scenic overlooks, shifting from a green valley to expansive desert canyon views.",
+        "logic_check_reasoning": "Step 1: Slice 3 (second scene) shows two individuals seated on a rocky outcrop overlooking a vast valley, clearly illustrating a 'viewpoint sitting' moment in a park setting with greenery. Step 2: Slices 29 and 56 show individuals seated on rocky outcrops overlooking a vast canyon, explicitly identified as the Grand Canyon in Slice 56, with sunrise/sunset lighting and layered red rock formations. Step 3: The settings differ as described: the first is a green valley viewpoint (Slice 3), while the later scenes are a desert canyon vista with layered cliffs at sunrise/sunset (Slices 29/56). The sequence and distinctions match the proposed answer.",
+        "visual_proof": "Clip 1 (ID: 3) shows two people sitting on a rocky outcrop with backpacks, looking out over a vast, green forested valley under a cloudy sky. Clip 3 (ID: 56) shows two people sitting on a rock ledge overlooking the Grand Canyon, characterized by its red, layered cliffs and dramatic sunset/sunrise lighting. The settings are visually distinct: one is lush and green, the other is arid and reddish-orange."
+    },
+    {
+        "question": "How does the presence of crowds change between Yosemite Falls and the Grand Canyon overlook scenes, and what does that imply about visitor density at each site?",
+        "answer": "Yosemite Falls is shown with many tourists gathered in the foreground, and the Grand Canyon overlook also shows a large group on a viewing platform—both imply high visitor density at these iconic sites.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            39,
+            51
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows a crowded tourist scene at Yosemite Falls. Step 2: Slice 51 shows a large group of tourists on a Grand Canyon viewing platform. Conclusion: Both are depicted as heavily visited viewpoints.",
+        "logic_check_reasoning": "Step 1: Slice 39 (Yosemite Falls) describes a 'diverse group of tourists' gathered in the foreground, with people taking photos and admiring the view, indicating a crowd. Step 2: Slice 51 (Grand Canyon) explicitly mentions 'a large group of tourists' gathered on a viewing platform. Logic holds because both slices depict sizable groups of visitors, supporting the conclusion that both scenes imply high visitor density with no notable difference in crowd presence between them.",
+        "visual_proof": "Clip 1 shows a dense crowd of people standing on a paved path directly in front of Yosemite Falls. Clip 2 shows a large group of visitors clustered on a designated viewing platform overlooking the Grand Canyon. The sheer number of people visible in both static frames confirms that both locations are experiencing high visitor density."
+    },
+    {
+        "question": "What is the multi-step progression from desert rock vistas to an established campsite near water, and what major visual elements signal the campsite?",
+        "answer": "It progresses from sweeping desert canyon views to a campsite beside a stream; the campsite is signaled by pitched tents (including a prominent blue one) and camping gear near the water.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            25,
+            58,
+            60
+        ],
+        "reasoning_chain": "Step 1: Slice 25 shows expansive desert canyon/mesa landscapes. Step 2: Slice 58 shows a narrow dirt trail carved into a canyon cliff, suggesting travel deeper into the canyon. Step 3: Slice 60 shows a developed campsite by a stream with multiple tents and gear. Conclusion: The visuals move from broad desert vistas to travel routes to a riverside campsite indicated by tents and equipment.",
+        "logic_check_reasoning": "Step 1: Slice 25 describes sweeping desert vistas with red rock formations, mesas, and a canyon, establishing the desert rock setting. Step 2: Slice 58 continues with a Grand Canyon view, reinforcing the canyon/desert progression and adding a winding trail, still within rugged desert terrain. Step 3: Slice 60 moves to an established campsite near a small stream, explicitly noting tents (including a prominent blue one) and camping equipment. The logic holds because the sequence moves from desert canyon visuals to a campsite by water, and the campsite is signaled by pitched tents and gear near the stream, all explicitly supported by Slice 60.",
+        "visual_proof": "Clip 1 shows a vast, arid desert canyon with red rock formations. Clip 2 shows a steep trail descending into a canyon, reinforcing the rugged, natural environment. Clip 3 clearly depicts a lush, green campsite situated next to a flowing stream, with multiple tents (a blue one is very visible) and picnic tables, which are key indicators of an established campsite."
+    },
+    {
+        "question": "If you follow the narrator’s geography theme, which later informational visual reinforces the idea of discussing parks nationwide rather than a single location?",
+        "answer": "The map titled 'National Parks of the United States' with markers across the country.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 1 introduces a geography-themed presentation with a narrator in front of maps. Step 2: Slice 93 shows a U.S. map marking national parks across the country. Conclusion: The nationwide parks map supports a broad, multi-location geography theme.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows a geography-focused narrator introducing content related to maps and geography. Step 2: Slice 93 presents a later informational visual—a map titled 'National Parks of the United States'—with markers distributed across the entire country, including Alaska and Hawaii, emphasizing a nationwide scope. Logic holds because the later map explicitly displays parks across the country, reinforcing a nationwide discussion rather than a single location.",
+        "visual_proof": "Clip 1 features a narrator in front of maps, establishing a geography theme. Clip 2 displays a comprehensive map titled 'NATIONAL PARKS OF THE UNITED STATES,' which shows numerous green tree icons marking parks spread across all 50 states and territories, visually reinforcing a nationwide scope rather than focusing on one location."
+    },
+    {
+        "question": "What are two different ways the video shows people engaging with extreme scale—one by standing near giant trees and another by climbing a massive granite dome?",
+        "answer": "A person stands at the base of enormous redwoods to show their size, and climbers ascend Half Dome using cables, highlighting the dome’s massive scale.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            47,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 47 shows a person standing near towering redwood trees for scale. Step 2: Slice 42 shows multiple climbers on Half Dome’s cable route. Conclusion: Scale is conveyed via a person by giant trees and climbers on a huge granite dome.",
+        "logic_check_reasoning": "Step 1: Slice 47 states a lone figure stands near the base of massive redwood trees, explicitly noting this provides a sense of scale. Step 2: Slice 42 describes climbers ascending the massive granite Half Dome using fixed cables. Logic holds because these are two distinct depictions of people interacting with very large natural features: standing by giant trees and climbing a huge dome via cables.",
+        "visual_proof": "Clip 1 shows a person standing next to colossal redwood trees, visually emphasizing their immense height and girth. Clip 2 shows multiple people ascending a steep granite dome (Half Dome) by gripping steel cables bolted into the rock, with the vastness of the dome's face underscoring its scale."
+    }
+]

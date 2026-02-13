@@ -1,0 +1,15 @@
+[
+    {
+        "question": "A man wearing a colorful floral shirt appears in a masked setting at a counter, and later a group ride happens in an ATV through mountains. Which type of face covering is visible before the off-road ride begins?",
+        "answer": "A black face mask.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows a man in a floral shirt wearing a black face mask at a counter. Step 2: Slice 26 shows masked people around and riding an ATV. Conclusion: A face mask (black mask) is clearly present before/around the off-road sequence.",
+        "logic_check_reasoning": "Step 1: Slice 23 explicitly describes a man in a colorful floral shirt wearing a black face mask at a counter. Step 2: Slice 26 describes the subsequent ATV ride and notes masks but does not specify color. Logic holds because the question asks about the face covering visible before the off-road ride begins, which is shown in Slice 23 as a black face mask.",
+        "visual_proof": "In Video 1 (0.2s), the man in the colorful floral shirt is clearly wearing a solid black face mask while standing at the counter. In Video 2 (0.2s and 1.2s), before the ATV ride begins, both the man in the floral shirt and another person are seen wearing black face masks as they approach and board the vehicle."
+    }
+]

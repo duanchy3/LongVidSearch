@@ -1,0 +1,43 @@
+[
+    {
+        "question": "What time-span is explicitly stated for a challenge, and later repeated as an offer duration in an advertisement?",
+        "answer": "30 days.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            38,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 38 shows text on a black screen reading 'for 30 days'. Step 2: Slice 89 shows an Audible webpage promoting a free '30-day trial'. Conclusion: The repeated time-span is 30 days.",
+        "logic_check_reasoning": "Step 1: Slice 38 shows the text 'for 30 days' on a black screen, explicitly stating a time-span and suggesting it could be for a challenge or commitment. Step 2: Slice 89 presents an Audible advertisement explicitly offering a 'free 30-day trial' and mentions 'free annual membership for 30 days,' repeating the same time-span. Logic holds because the exact phrase '30 days' appears as a duration initially and is repeated as the offer period in the ad.",
+        "visual_proof": "Clip 1 displays the text 'for 30 days' in yellow on a black background. Clip 2, showing an Audible advertisement, explicitly states 'Start your free 30-day trial' and repeats 'Free membership for 30 days' in the bullet points. Both clips visually confirm the time-span of 30 days."
+    },
+    {
+        "question": "The video features a technology/productivity theme with books on a website, then a presenter speaks with social media icons behind him, and later an Audible page promotes a free trial; what overall topic ties these segments together?",
+        "answer": "Digital minimalism/productivity and learning through books/audiobooks.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            36,
+            37,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 36 shows Cal Newport books including 'Deep Work' and 'Digital Minimalism'. Step 2: Slice 37 shows a presenter discussing digital minimalism with social media icons behind him. Step 3: Slice 89 shows Audible promoting a 30-day trial (audiobooks), consistent with consuming these ideas via audio. Conclusion: The connecting topic is digital minimalism/productivity and book-based learning.",
+        "logic_check_reasoning": "Step 1: Slice 36 shows a webpage featuring Cal Newport’s books like Deep Work and Digital Minimalism, explicitly tied to productivity and focus, indicating a theme of productivity/digital minimalism via books. Step 2: Slice 37 shows the book Digital Minimalism and a presenter discussing the concept with social media icons behind him, reinforcing the digital minimalism/technology-use theme. Step 3: Slice 89 shows an Audible page promoting a free trial for audiobooks, which ties in the idea of learning/consuming books through audiobooks. Logic holds because all segments point to digital minimalism/productivity and the medium of books/audiobooks for learning.",
+        "visual_proof": "Clip 1 shows Cal Newport's book 'Digital Minimalism' on a website, establishing the theme. Clip 2 features the same author speaking in front of social media icons with a prompt to 'DELETE ALL APPLICATIONS?', reinforcing digital minimalism and productivity. Clip 3 displays an Audible page promoting audiobooks, tying into the learning/reading aspect. Together, these visuals support the overall topic of digital minimalism, productivity, and learning via books/audiobooks."
+    },
+    {
+        "question": "The video shows a browser typing an Audible URL, earlier an Audible trial page is displayed, and later an Audible-themed montage appears; what is the implied sequence of actions a viewer is being prompted to do?",
+        "answer": "Go to Audible (type the URL), then sign up for the free trial and browse/select audiobooks.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            89,
+            90,
+            91
+        ],
+        "reasoning_chain": "Step 1: Slice 91 shows the browser address bar with 'audible.com/yesthe...' being typed. Step 2: Slice 89 shows the Audible page offering a free 30-day trial with a get-started button. Step 3: Slice 90 shows Audible promotional visuals and browsing audiobook selections. Conclusion: The implied call-to-action is: visit the URL, start the trial, then browse/select audiobooks.",
+        "logic_check_reasoning": "Step 1: Slice 91 shows a browser typing an Audible URL (audible.com), indicating the prompt to go to the site. Step 2: Slice 89 displays an Audible trial page with a clear call-to-action to start a free 30-day trial, supporting the prompt to sign up. Step 3: Slice 90 presents an Audible-themed montage including browsing lists of audiobooks and best-sellers, implying the next action is to explore and select titles. The sequence logically connects: visit Audible -> start free trial -> browse/select audiobooks.",
+        "visual_proof": "Clip 3 shows a user typing 'audible.com' into a browser. Clip 1 displays the Audible free trial landing page with a prominent 'Get Started' button and a selection of audiobooks to choose from. Clip 2 features a montage of people using Audible in various scenarios, implying engagement with the service after signing up. This sequence visually suggests the intended user journey: visit the site, sign up for the trial, and start listening to audiobooks."
+    }
+]

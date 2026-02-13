@@ -1,0 +1,167 @@
+[
+    {
+        "question": "The phrase \"Listen To Her\" appears as on-screen text in one place and as a studio title backdrop in another. Where does it first appear as an overlay, and where is it shown as the studio branding?",
+        "answer": "It first appears as an overlay when the woman stands by the pool, and later it appears as the studio branding behind the interview guest in the studio.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            13
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows the words \"LISTEN TO HER\" appearing on-screen over a poolside shot. Step 2: Slice 13 shows \"LISTEN TO HER\" prominently displayed on a studio backdrop behind the Olympic medalist being interviewed. Conclusion: The overlay occurs at the poolside shot and the branding appears in the studio interview.",
+        "logic_check_reasoning": "Step 1: Slice 10 states that the words 'LISTEN TO HER' appear on-screen while a woman stands by the pool, indicating an overlay. Step 2: Slice 13 describes a studio interview with a backdrop that prominently displays 'LISTEN TO HER,' indicating studio branding. The answer matches these contexts by identifying the pool scene as the overlay and the studio scene as the branding.",
+        "visual_proof": "In Video 1 (0:04-0:05), the text 'LISTEN TO HER' appears as a graphic overlay on a teal background while the woman is standing by the pool. In Video 2 (0:00-0:13), the same phrase 'LISTEN TO HER' is displayed as a large, permanent backdrop on the screen behind the woman during her studio interview, serving as the set's branding."
+    },
+    {
+        "question": "Which person is shown signing a document, and later what number is confirmed in conversation about photos?",
+        "answer": "A person signs the name 'Sophie'; later the number of photos is confirmed to be 20.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a hand signing the name \"Sasha\" on a clipboard. Step 2: Slice 45 includes captions asking \"How many photos are here? Twenty?\" and answering \"Yes, 20.\" Conclusion: The signer is \"Sasha,\" and the confirmed number is 20.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 9 shows a close-up of someone signing a document with the name 'Sasha'. Step 2: Evidence Slice 45 includes captions where someone asks, 'How many photos are here? Twenty?' and another responds, 'Yes, 20.' Logic holds because the first slice identifies the signer as 'Sasha' and the second slice explicitly confirms the number of photos as 20.",
+        "original_text_answer": "A person signs the name \"Sasha\"; later the number of photos is confirmed to be 20.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1, the signature being written is clearly legible as 'Sophie', not 'Sasha'. In Clip 2, a woman asks 'How many photos are here? Twenty?' and the subtitle confirms this dialogue, indicating the number 20 is discussed."
+    },
+    {
+        "question": "In the indoor pool conversation shots, what distinct outerwear does the short-haired listener wear, and later what item does a school banner welcome back related to the same broader story arc?",
+        "answer": "She wears a black leather jacket; later a banner welcomes back alumna Siobhan to St. Paul's Secondary School.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows the short-haired woman listening while wearing a black leather jacket. Step 2: Slice 63 shows a school banner welcoming back \"Alumna Siobhan\" at St. Paul's Secondary School. Conclusion: The outerwear is a black leather jacket, and the later item is the welcome-back banner for alumna Siobhan.",
+        "logic_check_reasoning": "Step 1: Slice 5 states the short-haired listener at the indoor pool is dressed in a black leather jacket. Step 2: Slice 63 states a banner reads 'Welcome Back to St. Paul's Secondary School' and includes the names 'Alumna Siobhan' and 'Bernadette Haughey,' indicating it welcomes back alumna Siobhan (among others). Logic holds because the answer identifies the listener’s outerwear and one of the individuals explicitly welcomed by the banner.",
+        "visual_proof": "In Clip 1, the short-haired listener is visibly wearing a black leather jacket. In Clip 2, a large banner reads 'Welcome Back to St. Paul's Secondary School Alumna Siobhan Bernadette Haughey,' confirming the identity and context of the welcome."
+    },
+    {
+        "question": "Before the studio interviews, the video is clearly at a swimming facility. What program banner is shown there, and later which media outlet’s end card appears at the end?",
+        "answer": "The banner reads \"ATHLETIC ASSOCIATION SWIMMING\"; the end card is for the South China Morning Post (scmp.com).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            80
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a banner reading \"ATHLETIC ASSOCIATION SWIMMING\" at the pool facility. Step 2: Slice 80 shows the South China Morning Post title card with \"scmp.com.\" Conclusion: The program banner is Athletic Association Swimming, and the media outlet is SCMP.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 explicitly states a banner that reads 'ATHLETIC ASSOCIATION SWIMMING' at the swimming facility. Step 2: Evidence Slice 80 describes a static title/end card for the 'South China Morning Post' with 'scmp.com'. Logic holds because the question asks for the program banner shown at the swimming facility and the media outlet’s end card later, both of which are directly described in the provided slices.",
+        "visual_proof": "Clip 1 shows a banner with the text \"ATHLETIC ASSOCIATION\" and \"SWIMMING\" clearly visible above the pool. Clip 2 displays an end card with the logo and text \"South China Morning Post\" and the URL \"scmp.com\"."
+    },
+    {
+        "question": "The story shifts from pool scenes to a school setting. What classroom identifier is shown on a window label, and later what message is written on a chalkboard thanking the school?",
+        "answer": "The label is \"103 6D\"; the chalkboard message says \"Thank you for letting me use your classroom.\"",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            78
+        ],
+        "reasoning_chain": "Step 1: Slice 29 zooms in on a window label reading \"103 6D.\" Step 2: Slice 78 shows text written on a chalkboard: \"Thank you for letting me use your classroom.\" Conclusion: The identifier is 103 6D and the later message thanks them for letting her use the classroom.",
+        "logic_check_reasoning": "Step 1: Slice 29 explicitly shows a window label reading '103 6D' in the school setting. Step 2: Slice 78 explicitly shows a woman writing on a chalkboard the message 'Thank you for letting me use your classroom.' The question asks for the classroom identifier and the later chalkboard message; both are directly supported by these slices.",
+        "visual_proof": "Clip 1 shows a close-up of a black label on a window frame with the text \"103\" and \"6D\" clearly visible. Clip 2 shows a person writing on a green chalkboard, and the legible text reads \"Thank you for letting me use your classroom\" followed by a smiley face."
+    },
+    {
+        "question": "What personalized closing line is written on the chalkboard, and earlier what show title on the studio screen matches the overall theme of amplifying a woman’s voice?",
+        "answer": "\"With love, Siobhan\"; the show title is \"Listen To Her.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            79
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a title screen and studio theme reading \"Listen To Her.\" Step 2: Slice 79 shows the chalkboard message \"With love, Siobhan.\" Conclusion: The closing line is \"With love, Siobhan\" and the matching theme title is \"Listen To Her.\"",
+        "logic_check_reasoning": "Step 1: Slice 79 explicitly says the hand writes \"With love, Siobhan\" on the chalkboard, supporting the personalized closing line. Step 2: Slice 11 states the video begins with a title screen showing \"Listen To Her,\" which aligns with the theme of amplifying a woman’s voice. Logic holds because the earlier slice provides the show title, and the later slice provides the handwritten closing line.",
+        "visual_proof": "Clip 1 shows a studio screen with the text 'LISTEN TO HER' and 'SIOBHÁN HAUGHEY', establishing the show's theme and subject. Clip 2 shows a hand writing 'With love, Siobhán' on a chalkboard, confirming the personalized closing line."
+    },
+    {
+        "question": "The video includes both a sports-focused setting and a later academic awards setting. What swimming-focused banner is shown early on, and later what award-event backdrop text appears behind a speaker with a microphone?",
+        "answer": "Early: \"ATHLETIC ASSOCIATION SWIMMING\"; later: \"Student of the Year.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            42
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows the banner \"ATHLETIC ASSOCIATION SWIMMING.\" Step 2: Slice 42 shows a speaker in front of a backdrop that reads \"Student of the Year.\" Conclusion: The early banner is Athletic Association Swimming and the later award backdrop is Student of the Year.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes an early scene with a banner that reads \"ATHLETIC ASSOCIATION SWIMMING.\" Step 2: Evidence Slice 42 shows a later scene with a speaker holding a microphone in front of a backdrop that reads \"Student of the Year.\" Logic holds because the question asks for the banner in the sports-focused setting and the backdrop text in the academic awards setting, both of which are explicitly stated in the provided slices.",
+        "visual_proof": "In Clip 1, a banner above the pool clearly displays the text \"ATHLETIC ASSOCIATION\" and \"SWIMMING\". In Clip 2, a large backdrop behind a student speaker features the prominent text \"STUDENT OF THE YEAR\"."
+    },
+    {
+        "question": "What evidence shows a transition from discussing swimming in an indoor pool to focusing on competitive swimming achievements?",
+        "answer": "First the women speak beside indoor pool lanes; later the video shows close-ups of medals and competitive swimming action footage.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            8,
+            18,
+            19
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows two women talking beside lane-marked indoor pools. Step 2: Slice 18 highlights a \"DOHA 2024\" medal, signaling achievements. Step 3: Slice 19 shows an athlete in a competitive swim lane with intense splashes. Conclusion: The narrative shifts from poolside discussion to achievement and competition imagery.",
+        "logic_check_reasoning": "Step 1: Slice 8 shows two women conversing in an indoor swimming pool area with lanes visible, indicating a casual discussion setting near a pool. Step 2: Slice 18 then presents a close-up of a 'DOHA 2024' gold medal, shifting focus to competitive achievement. Step 3: Slice 19 shows action footage of a swimmer in a competitive event, reinforcing the focus on competitive swimming. Logic holds because the scenes move from a casual pool conversation to explicit visuals of competition and medals.",
+        "visual_proof": "Clip 1 shows two women conversing next to an indoor swimming pool with lane markers. Clip 2 transitions to a close-up of a 'DOHA 2024' gold medal, indicating an achievement. Clip 3 then shows intense, in-action competitive swimming footage with splashing water and a swimmer wearing an 'arena' cap, confirming the focus on competition."
+    },
+    {
+        "question": "Which two distinct educational contexts are shown—one involving a religiously themed classroom board and another involving a large formal school assembly—and what key visual element distinguishes them?",
+        "answer": "A classroom with a whiteboard labeled \"Bible Verses\" and \"Prayer Intentions\" contrasts with an auditorium assembly with a stage and red curtain; the distinguishing element is the whiteboard vs the red-curtain stage.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            30,
+            64,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 30 shows a classroom with a whiteboard listing \"Bible Verses\" and \"Prayer Intentions.\" Step 2: Slice 64 shows a large auditorium with a stage and red curtain. Step 3: Slice 66 shows a speaker on that red-curtain stage delivering advice (about sleep). Conclusion: The video depicts both a religiously themed classroom and a formal assembly; the key visual distinction is whiteboard vs red-curtain stage.",
+        "logic_check_reasoning": "Step 1: Slice 30 describes a classroom setting with a whiteboard explicitly labeled 'Bible Verses' and 'Prayer Intentions,' indicating a religiously themed classroom context. Step 2: Slice 64 shows a large auditorium with a stage and red curtain backdrop, consistent with a formal school assembly. Step 3: Slice 66 reinforces the assembly context, showing a speaker on stage in front of a red curtain discussing an educational topic. The key visual distinction—whiteboard in the classroom vs red-curtain stage in the assembly—is directly supported by these slices.",
+        "visual_proof": "Clip 1 shows a classroom setting with a prominent whiteboard displaying the text 'Bible Verses' and 'Prayer Intentions'. Clips 2 and 3 show a large school auditorium with rows of students facing a stage, which is distinguished by its deep red curtain. The visual contrast between the classroom's instructional whiteboard and the assembly hall's theatrical red curtain clearly differentiates the two contexts."
+    },
+    {
+        "question": "From the school campus visuals to the alumni event, what sequence indicates the video is moving from ordinary school life to a special alumni welcome?",
+        "answer": "Students in uniform and a classroom label are shown first, then later a banner welcomes back an alumna by name at a school event.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            31,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows students in uniform and a specific classroom label, depicting normal school setting. Step 2: Slice 31 shows a woman speaking in a classroom environment, continuing the school context. Step 3: Slice 63 shows a large \"Welcome Back\" banner naming an alumna, indicating a special event. Conclusion: The visuals move from everyday school scenes to an organized alumni welcome.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows routine school visuals—students in uniform walking in a hallway, an exterior shot of the school building, and a close-up of a classroom label ('103 6D'), indicating ordinary school life. Step 2: Slice 63 shows a banner reading 'Welcome Back to St. Paul's Secondary School' with named alumnae (Siobhan and Bernadette Haughey) and a speaker on stage identified as Siobhan, indicating a special alumni welcome event. Logic holds because the sequence moves from everyday school scenes to a formal alumni welcome, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows students in uniform walking and a classroom door labeled '103 6D', representing ordinary school life. Clip 3 transitions to a special event with a large 'Welcome' banner for 'St. Paul's Secondary School' and a screen identifying 'Alumna Siobhan Bernadette Haughey', indicating a formal alumni welcome."
+    },
+    {
+        "question": "How does the setting for conversations change across the video from poolside to classroom to studio to auditorium, and what recurring element indicates the speaker-focused storytelling style?",
+        "answer": "It shifts from poolside interviews to a classroom discussion, then to a studio talk-show setup, and finally to a school auditorium speech; a recurring element is a woman speaking while gesturing and being framed as the focus (often with microphones or interview staging).",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            5,
+            30,
+            54,
+            66
+        ],
+        "reasoning_chain": "Step 1: Slice 5 shows a poolside conversation with expressive gestures. Step 2: Slice 30 shows a seated classroom conversation at desks. Step 3: Slice 54 shows a studio interview with two armchairs and a structured set. Step 4: Slice 66 shows a speaker delivering a talk on stage with a microphone. Conclusion: The environment changes across four settings, but speaker-centered framing and gesturing/microphone presence maintains the storytelling style.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows two women conversing in an indoor swimming pool facility, with the speaker using expressive hand gestures—supporting the 'poolside' setting and speaker-focused framing. Step 2: Slice 30 shows two women in a classroom with a whiteboard labeled 'Bible Verses' and 'Prayer Intentions,' clearly supporting the classroom setting. Step 3: Slice 54 details a polished studio interview setup with two women across armchairs, a screen reading 'LISTEN TO HER,' and the interviewer gesturing—supporting a studio talk-show environment and a focus on the speaker. Step 4: Slice 66 shows a woman on stage with a microphone in front of a red curtain, speaking about sleep and studying—supporting an auditorium/stage talk. The recurring element—women speaking, often gesturing and framed as the focus, with interview staging or a microphone—is explicitly present in S5 (gestures), S54 (gestures, studio staging, 'LISTEN TO HER'), and S66 (microphone), with S30 showing a focused conversation between two women. The only slight embellishment is 'school auditorium,' but the auditorium/stage setting is supported, and the broader claim remains consistent with the evidence.",
+        "visual_proof": "Clip 1 shows an interview by a swimming pool. Clip 2 shows the same two women seated at desks in a classroom. Clip 3 shows them in a formal studio setting with armchairs and a backdrop screen. Clip 4 shows the main speaker alone on a stage with a red curtain and a microphone, indicating an auditorium. In all clips, the main woman is the central focus, actively speaking and often using hand gestures."
+    },
+    {
+        "question": "What combined evidence ties the featured woman’s identity to both elite sport and school community roles?",
+        "answer": "She is introduced as an Olympic medalist in the studio, competitive swimming imagery and medals are shown, and later a school banner welcomes her back as an alumna who speaks to students.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            13,
+            18,
+            19,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 13 identifies the guest as Siobhan Haughey, a Hong Kong Olympic medalist, in a studio interview. Step 2: Slice 18 shows a prominent medal close-up (\"DOHA 2024\"), reinforcing elite sport achievement. Step 3: Slice 19 shows competitive swimming action footage, reinforcing athletic context. Step 4: Slice 63 shows a school banner welcoming back \"Alumna Siobhan\" and her speaking at the school. Conclusion: The video links her athletic achievements with her role as an alumna engaging the school community.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly identifies the woman as Siobhan Haughey, a Hong Kong Olympic medalist, in a professional studio interview, which ties her to elite sport. Step 2: Slice 19 shows competitive swimming imagery, and Slice 18 shows a gold medal marked 'DOHA 2024,' reinforcing the elite sports context within the same video. Step 3: Slice 63 shows a banner 'Welcome Back to St. Paul's Secondary School' naming 'Alumna Siobhan ... Haughey' and depicts her speaking on stage with 'Hello, I'm Siobhan,' tying her to a school community role as an alumna addressing an audience. The proposed answer matches these elements: introduced as an Olympic medalist, sports imagery/medal, and welcomed back as an alumna speaking at the school. While 'speaks to students' is inferred rather than explicitly stated, the core claim is supported.",
+        "visual_proof": "Clip 1 identifies her as 'Hong Kong Olympic medallist'. Clip 2 shows her holding a 'DOHA 2024' medal. Clip 3 shows her swimming competitively. Clip 4 displays a banner welcoming 'Alumna Siobhan Bernadette Haughey' back to St. Paul's Secondary School, where she is seen speaking on stage."
+    }
+]

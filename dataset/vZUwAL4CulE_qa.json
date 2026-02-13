@@ -1,0 +1,109 @@
+[
+    {
+        "question": "Which activity happens first: graduates in red gowns celebrating, or a young boy in a red shirt and yellow shorts running into a trampoline park?",
+        "answer": "The graduates celebrating happens first.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            25
+        ],
+        "reasoning_chain": "Step 1: Earlier, the montage shows graduates in red gowns celebrating. Step 2: Later, a boy in a red shirt and yellow shorts runs into a trampoline park. Conclusion: The graduation scene occurs earlier.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 explicitly states, \"The video begins with a group of graduates dressed in red gowns...\" establishing that the graduates celebrating occurs at the start. Step 2: Evidence Slice 25 describes a sequence beginning with a man and then a young boy running into a trampoline park; it does not state that this occurs before the graduates segment or provide any linkage to contradict Slice 2's ordering. Step 3: Given the explicit 'begins with' phrasing in Slice 2 and no explicit evidence that the boy runs in before the graduates, the logic supports that the graduates celebrating happens first.",
+        "visual_proof": "The first clip (ID: 2) visually depicts graduates in red gowns on a stage, with one raising his arms and others walking behind him. The second clip (ID: 25) shows a young boy in an orange shirt and yellow shorts running through an indoor facility, which is identified as a trampoline park later in the clip. Since these are time-sliced clips from the same continuous source video, the event shown in Clip 1 (graduation celebration) occurs chronologically before the event shown in Clip 2 (boy running into the trampoline park)."
+    },
+    {
+        "question": "What date card appears after the beach and trampoline fun with three men, and which later date card appears in the office meeting scene?",
+        "answer": "Thursday, February 13th; then Sunday, February 16th.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            5,
+            77
+        ],
+        "reasoning_chain": "Step 1: After beach/trampoline scenes, a date card reads Thursday, February 13th. Step 2: Later in an office meeting scene, a date card reads Sunday, February 16th. Conclusion: Those are the two dates shown.",
+        "logic_check_reasoning": "Step 1: Slice 5 describes a beach and trampoline scene with three men, followed by a black screen showing the date card \"Thursday, February 13th.\" Step 2: Slice 77 describes an office/meeting room scene with two men and displays the date card \"Sunday, February 16th.\" The answer matches both explicitly stated date cards in the respective scenes.",
+        "visual_proof": "The first clip ends with a black screen displaying the text 'Thursday, February 13th' after scenes of men on the beach and in a trampoline park. The second clip opens with a scene in an office where the text 'Sunday, February 16th' is overlaid on the screen, confirming the sequence of dates."
+    },
+    {
+        "question": "Which clothing item is draped over a man's shoulder outside near a building at sunset and is also seen on the same man giving a thumbs-up beside a car?",
+        "answer": "A white towel draped over his shoulder.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: At sunset outside a building, the man has a white towel over his shoulder. Step 2: Later by a car, the same distinctive detail appears while he gives a thumbs-up. Conclusion: The repeated item is the white towel.",
+        "logic_check_reasoning": "Step 1: Slice 19 says the man on the left outside near a building at sunset has a white towel draped over his shoulder. Step 2: Slice 20 says a man giving a thumbs-up beside a car also has a white towel draped over his shoulder. Logic holds because both slices explicitly mention the same item—a white towel—draped over the man's shoulder, satisfying the query about the clothing item seen in both contexts, regardless of minor outfit differences.",
+        "visual_proof": "In Video 1 (0:00-0:03), a man is seen outside near a building at sunset with a white towel draped over his shoulder. In Video 2 (0:00-0:01), the same man, identifiable by his facial features and black t-shirt, is seen giving a thumbs-up beside a car while still wearing the same white towel over his shoulder."
+    },
+    {
+        "question": "The video ends with a product promo showing two hoodies and a website; what earlier moment in the video already included the same brand and website on a black screen?",
+        "answer": "An early title card that said \"NEW SEEK DISCOMFORT DROP OUT NOW\" and showed a website address.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            93
+        ],
+        "reasoning_chain": "Step 1: Near the end, a promo shows hoodies and a website for the brand. Step 2: Early in the video, a black screen already displayed the brand message and a website. Conclusion: The earlier moment is the initial black-screen brand title card.",
+        "logic_check_reasoning": "Step 1: Slice 93 states the video ends with a black screen promo for Seek Discomfort, showing hoodies and the website 'seekdiscomfort.com'. Step 2: Slice 1 states early in the video there is a black screen with white text reading 'NEW SEEK DISCOMFORT DROP OUT NOW' and a website address. Logic holds because both slices describe black screen promos featuring the Seek Discomfort brand and a website, matching the answer's identification of an early title card with the same brand and website context.",
+        "visual_proof": "At 0:10-0:11 in Clip 1, a black screen displays the text \"NEW SEEK DISCOMFORT DROP OUT NOW\" alongside images of two hoodies. This is followed by the website \"seekdiscomfort.com\" appearing on a black screen at 0:12-0:13. This exact same website appears again at the end of Clip 2 (0:08-0:11) after another product promo, confirming the brand and website were shown earlier on a black screen."
+    },
+    {
+        "question": "What phrase teasing future content appears after the beach incident sequence, and how does it relate to the later promotional 'drop out' message at the end?",
+        "answer": "\"Part 2 coming soon...\"; it functions as a teaser, while the later message promotes the brand’s \"drop out\" campaign and website.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            91,
+            93
+        ],
+        "reasoning_chain": "Step 1: A black screen teases continuation with \"Part 2 coming soon...\" after tense content. Step 2: The ending promo pushes a \"drop out\" message and the website. Conclusion: The teaser suggests more story, while the promo pivots to brand marketing.",
+        "logic_check_reasoning": "Step 1: Slice 91 explicitly shows the phrase \"Part 2 coming soon...\" on a black screen, which directly serves as a teaser for future content. Step 2: Slice 93 shows a promotional message \"Seek Discomfort drop out for 72 Hours only\" and the website \"seekdiscomfort.com\" remaining until the end, along with product visuals, clearly indicating brand promotion. Logic holds because the first is a teaser card and the later is a promotional end card; both elements are explicitly supported by the slices provided. The mention of a beach incident is not evidenced here, but the answer does not rely on that detail beyond identifying the teaser phrase.",
+        "visual_proof": "Clip 1 ends with the text 'Part 2 coming soon...' on a black screen after showing a man in an office and another in a hallway. Clip 2 begins with black screens and then displays promotional content for 'Seek Discomfort drop out for 72 Hours only' alongside clothing items and the URL 'seekdiscomfort.com'. The first text is a narrative teaser, and the second is a commercial promotion, confirming the relationship described."
+    },
+    {
+        "question": "What brand slogan shown as an on-screen text early in the video is later also printed on a hoodie worn by someone getting out of a car?",
+        "answer": "SEEK DISCOMFORT",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            12
+        ],
+        "reasoning_chain": "Step 1: An early black-screen title card displays the phrase associated with the brand. Step 2: Later, a man exits a car wearing a hoodie with that same phrase printed on it. Conclusion: The repeated slogan is the same phrase.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 states that early in the video there is a black screen with white text reading \"NEW SEEK DISCOMFORT DROP OUT NOW,\" which includes the phrase \"SEEK DISCOMFORT.\" Step 2: Evidence Slice 12 describes a man getting out of a car wearing a white hoodie with \"SEEK DISCOMFORT\" printed on it. Logic holds because the same phrase appears both as early on-screen text and later on the hoodie.",
+        "visual_proof": "In Video 1, at 0:05, the on-screen text clearly reads 'NEW SEEK DISCOMFORT DROP'. Later, in Video 2, from 0:05 to 0:10, a man getting out of a car is wearing a grey hoodie with the exact same text, 'SEEK DISCOMFORT', printed on the front."
+    },
+    {
+        "question": "Identify the continuity of 'talking to the camera' across settings: who speaks to the camera indoors in a gray hoodie, who speaks on the beach in a black hoodie, and what later indoor scene returns to a person speaking in front of a yellow wall?",
+        "answer": "Indoors: a man in a gray hoodie narrates at the gym; Beach: a man in a black hoodie addresses the camera; Later indoors: a man speaks vlog-style in front of a yellow wall (\"Monday Morning\").",
+        "category": "Visual_Tracking",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            41,
+            72,
+            71,
+            85
+        ],
+        "reasoning_chain": "Step 1: In the indoor gym, a man in a gray hoodie talks directly to the camera. Step 2: On the beach, a man in a black hoodie addresses the camera. Step 3: Another beach-side clip continues the direct-to-camera talking. Step 4: Later, an indoor \"Monday Morning\" segment shows a man speaking in front of a yellow wall. Conclusion: Direct-to-camera narration recurs across indoor gym, beach, and indoor vlog settings.",
+        "logic_check_reasoning": "Step 1: Slice 41 shows a man indoors at an indoor recreational facility (trampoline/obstacle area) wearing a gray hoodie, speaking directly to the camera. This supports the 'indoors in a gray hoodie' speaker. Step 2: Slices 71 and 72 depict a man at the beach in a black hoodie addressing the camera, matching the 'beach in a black hoodie' speaker. Step 3: Slice 85 shows a later indoor scene labeled 'Monday Morning' with a man speaking vlog-style in front of a vibrant yellow wall, which aligns with the 'later indoor scene' description. The slight wording 'gym' in the answer reasonably refers to the indoor recreational setting and does not contradict the evidence.",
+        "visual_proof": "Clip 1 shows a man in a gray hoodie speaking directly to the camera inside a trampoline park. Clips 2 and 3 show a different man in a black hoodie speaking to the camera on a beach with palm trees and workout equipment. Clip 4 opens with the text 'Monday Morning' and then shows the same man from the beach, now in a light gray hoodie, speaking to the camera in front of a bright yellow wall."
+    },
+    {
+        "question": "After the indoor trampoline park sequences with men practicing flips and stunts, what outdoor location later becomes the main setting for group activities like throwing a small object and playing frisbee?",
+        "answer": "A beachside area (beach and nearby skate park/promenade).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            16,
+            66,
+            68
+        ],
+        "reasoning_chain": "Step 1: The video shows extended indoor trampoline park stunt practice. Step 2: Later, three men are on a sandy beach tossing a small object. Step 3: Then, the group plays frisbee near a beachside skate park/promenade. Conclusion: The later main outdoor location is the beachside area.",
+        "logic_check_reasoning": "Step 1: Slice 16 establishes the initial indoor setting at a trampoline park. Step 2: Slice 66 shows an outdoor beach setting where the men engage in a group activity involving throwing and catching a small object. Step 3: Slice 68 depicts a skate park near the beach where the group plays frisbee, confirming a beachside environment for later activities. Logic holds because the outdoor scenes are consistently described as beachside (beach and skate park near the beach), matching the proposed answer’s characterization of the later main setting.",
+        "visual_proof": "Clip 1 shows indoor trampoline activities. Clips 2 and 3 clearly transition to an outdoor setting featuring a wide sandy beach, palm trees, and buildings in the background. The group is seen on a paved surface adjacent to the sand, which resembles a promenade or skate park area, engaging in activities like throwing an object and preparing for a frisbee throw."
+    }
+]

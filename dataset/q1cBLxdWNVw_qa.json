@@ -1,0 +1,127 @@
+[
+    {
+        "question": "The video first shows a budget overlay for a shared hotel cost per bed, and later it shows the price of a meal. What were the two prices shown (hotel per bed and meal price)?",
+        "answer": "$62 per bed for the hotel and $9.50 for the meal.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 8 displays 'Marina View Hotel $124/night ($62/bed)'. Step 2: Slice 22 displays a meal price tag of '$9.50'. Conclusion: The prices are $62/bed and $9.50.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly shows the on-screen text 'Marina View Hotel $124/night ($62/bed),' which provides the shared hotel cost per bed as $62. Step 2: Slice 22 states that a price tag of '$9.50' appears on the screen indicating the cost of the meal. Logic holds because these two slices directly present the two prices asked for: hotel per bed and meal price.",
+        "visual_proof": "In Clip 1, a text overlay at 0:07-0:12 clearly states 'Marina View Hotel $124/night ($62/bed)'. In Clip 2, a text overlay at 0:16-0:17 clearly displays 'Dinner $9.50'. Both prices are explicitly shown on screen."
+    },
+    {
+        "question": "The video shows him buying a masala tea with a price overlay and later buying a shawarma with another price overlay. Which item was cheaper, and by how much?",
+        "answer": "The masala tea was cheaper by $1.10.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            33,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 33 shows 'Masala Tea $0.50'. Step 2: Slice 37 shows 'Shawarma $1.00'. Conclusion: Tea ($0.50) is cheaper than shawarma ($1.00) by $0.50.",
+        "logic_check_reasoning": "Step 1: Slice 33 shows a price overlay 'Masala Tea $0.50'. Step 2: Slice 37 shows a price overlay 'Shawarma $1.00'. Step 3: Comparing the two, the masala tea ($0.50) is cheaper than the shawarma ($1.00) by $0.50.",
+        "original_text_answer": "The masala tea was cheaper by $0.50.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In the first clip, a text overlay at 0:08 shows 'Masala Tea $0.50'. In the second clip, a text overlay at 0:01 shows 'Shawarma $1.60'. The difference in price is $1.60 - $0.50 = $1.10, making the masala tea cheaper by $1.10, not $0.50."
+    },
+    {
+        "question": "The budget overlay shows a wallet amount on the bridge when two men discuss costs, and later it shows a smaller wallet amount when one man holds a drink with a straw at night. What are those two wallet amounts?",
+        "answer": "$32 on the bridge and $14.75 later at night with the drink.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows the overlay 'Brett's Wallet $32' while two men talk on a bridge. Step 2: Slice 26 shows 'Brett's Wallet $14.75' during the nighttime drink scene. Conclusion: The amounts are $32 and $14.75.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 6 shows two men on a bridge discussing budgeting, with an on-screen text overlay \"Brett's Wallet $32.\" Step 2: Evidence Slice 26 shows a man at night holding a drink with a straw, with an on-screen text overlay \"Brett's Wallet $14.75.\" Logic holds because the first scene matches the bridge discussion and the second scene matches the nighttime drink scenario, and both wallet amounts are explicitly stated.",
+        "visual_proof": "In Clip 1, during the daytime scene on the bridge, a yellow text overlay clearly reads 'Brett's Wallet $32' next to the second man. In Clip 2, during the nighttime scene at the restaurant, a similar yellow text overlay reads 'Brett's Wallet $14.75' while the first man is holding a drink with a straw."
+    },
+    {
+        "question": "He is shown withdrawing money at an ATM early on and later a sequence shows he has negative money left in a wallet overlay. What was the ATM amount shown, and what was the later negative wallet amount?",
+        "answer": "$94 at the ATM and $-7.40 later.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            4,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows an ATM screen with $94. Step 2: Slice 90 shows 'Brett's Wallet $-7.40'. Conclusion: The amounts are $94 and $-7.40.",
+        "logic_check_reasoning": "Step 1: Slice 4 states the ATM screen shows the amount of money in the wallet as $94. Step 2: Slice 90 describes an on-screen text overlay reading 'Brett's Wallet' followed by '$-7.40,' indicating a later negative wallet amount. The naming difference is acceptable per instructions; both refer to wallet amounts shown at different times in the video. Therefore, the proposed amounts match the context.",
+        "visual_proof": "In Clip 1, a text overlay during the ATM transaction clearly reads 'Brett's Wallet $94'. In Clip 2, a night scene shows a different text overlay that reads 'Brett's Wallet $-7.40'. Both figures are explicitly displayed on screen."
+    },
+    {
+        "question": "The video shows him on a water taxi early on and later shows him on another boat ride near the waterfront with a wallet overlay. What wallet amount is shown during the later waterfront boat scene?",
+        "answer": "$2.60.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            73
+        ],
+        "reasoning_chain": "Step 1: Slice 1 includes a water taxi ride. Step 2: Slice 73 shows a waterfront/dock scene from a moving boat with the overlay 'Brett's Wallet $2.60'. Conclusion: The later wallet amount is $2.60.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 describes an early water taxi ride, establishing an initial boat scene. Step 2: Evidence Slice 73 describes a waterfront boat scene with a text overlay reading \"Brett's Wallet $2.60.\" Logic holds because the question asks for the wallet amount shown during the waterfront boat scene with the overlay, and Slice 73 explicitly provides that amount.",
+        "visual_proof": "In the second video clip, which shows a scene on a waterfront pier with boats and people walking, there is a clear text overlay in the bottom left corner that reads 'Brett's Wallet $2.60'. This directly answers the question about the wallet amount shown during this later waterfront scene."
+    },
+    {
+        "question": "The video tracks the traveler's budget from buying a train-station ticket to buying masala tea and then buying shawarma. What wallet amounts are shown after each of those purchases/events, in order?",
+        "answer": "$9 after the ticket, $8.50 after the masala tea, and $6.90 after the shawarma.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            29,
+            33,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows an overlay indicating $9 left after buying a ticket. Step 2: Slice 33 shows 'Brett's Wallet $8.50' after masala tea. Step 3: Slice 37 shows 'Brett's Wallet $6.90' after shawarma. Conclusion: The sequence is $9, then $8.50, then $6.90.",
+        "logic_check_reasoning": "Step 1: Slice 29 shows the man buying a ticket at a kiosk; an on-screen graphic states he has $9 left after the purchase. Step 2: Slice 33 shows the same traveler (gray t-shirt, backpack) holding masala tea with overlays \"Masala Tea $0.50\" and \"Brett's Wallet $8.50,\" indicating the wallet amount after the tea. Step 3: Slice 37 shows him buying a shawarma with overlays \"Shawarma $1.00\" and \"Brett's Wallet $6.90,\" indicating the wallet amount after the shawarma. The amounts and sequence match the proposed answer.",
+        "visual_proof": "The video explicitly displays text overlays showing 'Brett's Wallet' with the amounts $9 (after buying the train ticket at 0:02), $8.50 (after buying the masala tea at 0:07), and $6.90 (after buying the shawarma at 0:02). These amounts are shown in sequence, directly corresponding to each purchase event."
+    },
+    {
+        "question": "The video shows him explaining costs on a bridge with a wallet overlay, later eating at a restaurant with a meal price, and later a cityscape shows his wallet becomes negative. What are the three money figures shown across those moments?",
+        "answer": "$32, $9.50, and $-7.40.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            22,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows 'Brett's Wallet $32'. Step 2: Slice 22 shows a meal price '$9.50'. Step 3: Slice 90 shows 'Brett's Wallet $-7.40'. Conclusion: The figures are $32, $9.50, and $-7.40.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows text overlays including 'Brett's Wallet $32' while on a bridge discussing costs. Step 2: Slice 22 shows a restaurant scene with a price tag '$9.50' for the meal. Step 3: Slice 90 shows a nighttime cityscape with text 'Brett's Wallet $-7.40.' These three figures align with the moments described in the question.",
+        "visual_proof": "Clip 1 shows a text overlay 'Brett's Wallet $32' on the bridge. Clip 2 shows a text overlay 'Dinner $9.50' at the restaurant table. Clip 3 shows a text overlay 'Brett's Wallet $-7.40' over the night cityscape. These three figures match the original answer."
+    },
+    {
+        "question": "The video shows a daytime beach that is free, later a restaurant meal price tag, later a beer price during a nighttime Ferris wheel view, and later a negative wallet overlay over a cityscape. What are the four money-related labels shown across these moments?",
+        "answer": "Beach Free, $9.50 meal, Beer $9, and Brett's Wallet $-7.40.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            13,
+            22,
+            89,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows 'Beach Free'. Step 2: Slice 22 shows '$9.50'. Step 3: Slice 89 shows 'Beer $9'. Step 4: Slice 90 shows 'Brett's Wallet $-7.40'. Conclusion: The labels are Beach Free, $9.50, Beer $9, and Wallet $-7.40.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly states the on-screen text 'Beach Free' during the daytime beach scene — matches 'Beach Free'. Step 2: Slice 22 states a price tag of '$9.50' appears during the restaurant meal — the answer lists '$9.50 meal', which correctly captures the amount and context. Step 3: Slice 89 explicitly shows the text 'Beer $9' — matches exactly. Step 4: Slice 90 shows text reading 'Brett's Wallet' followed by '$-7.40' — the answer combines these as 'Brett's Wallet $-7.40', which matches. All four money-related labels are supported by the slices.",
+        "visual_proof": "Clip 1 shows 'Beach Free' text overlay. Clip 2 shows a dinner plate with 'Dinner $9.50' text. Clip 3 shows the Ferris wheel at night with 'Beer $9' text. Clip 4 shows the cityscape with 'Brett's Wallet $-7.40' text. All four labels are explicitly visible in their respective clips."
+    },
+    {
+        "question": "The video shows a daytime ride on public transit after an ATM moment, later it shows a modern mall with an aquarium, later it shows a ferry/dock scene, and later it shows a desert road shot. What is the sequence of transportation environments shown across these four points?",
+        "answer": "Train ride, then mall visit, then boat/dock scene, then a desert road drive.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            4,
+            18,
+            73,
+            97
+        ],
+        "reasoning_chain": "Step 1: Slice 4 shows boarding and riding a train after the ATM. Step 2: Slice 18 shows entering a shopping mall (aquarium inside). Step 3: Slice 73 shows a moving boat/ferry view near a dock. Step 4: Slice 97 shows a vehicle moving fast on a desert dirt road. Conclusion: Train → mall → boat/dock → desert drive.",
+        "logic_check_reasoning": "Step 1: Slice 4 shows an ATM moment followed by boarding and riding a train, indicating a train ride on public transit. Step 2: Slice 18 depicts a modern mall with an aquarium, aligning with a mall visit. Step 3: Slice 73 shows a view from a ferry/boat and a dock scene, matching a boat/dock environment. Step 4: Slice 97 shows a fast-moving shot along a desert road from a vehicle, indicating a desert road drive. The proposed sequence mirrors these slices in order: train ride, mall visit, boat/dock scene, desert road drive.",
+        "visual_proof": "Clip 1 shows the man buying a ticket at an ATM and then riding a train. Clip 2 shows him entering a large modern mall with an aquarium inside. Clip 3 shows a scene on a dock or pier with boats, consistent with a ferry/dock environment. Clip 4 shows a first-person view driving on a sandy desert road. The sequence of these distinct environments matches the original answer."
+    }
+]

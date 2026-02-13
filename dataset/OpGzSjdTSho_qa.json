@@ -1,0 +1,111 @@
+[
+    {
+        "question": "What object is first used to study the rules of warfare, and later a different interface is used to study history?",
+        "answer": "A pocket book about the rules of warfare is used first, and later a poster reading “Keep Calm and Study History” appears behind a presenter.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            11
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a soldier reading a book titled “RULES OF WARFARE VOLUME 1 POCKET EDITION.” Step 2: Slice 11 shows a presenter in front of a “Keep Calm and Study History” poster. Conclusion: The video shifts from studying rules via a pocket book to studying history via a presentation backdrop/poster.",
+        "logic_check_reasoning": "Step 1: Slice 1 shows a soldier reading from a book titled 'RULES OF WARFARE VOLUME 1 POCKET EDITION,' clearly indicating a pocket book is used to study the rules of warfare. Step 2: Slice 11 describes a presenter with a poster behind him that reads 'Keep Calm and Study History,' which serves as a different visual interface related to studying history. Logic holds because the first is a book used for study and the second is a poster emphasizing study of history.",
+        "visual_proof": "In Video 1 (0:06-0:12), a soldier is visually depicted reading a physical book titled 'RULES OF WARFARE VOLUME 1 POCKET EDITION'. In Video 2 (0:00-0:16), a presenter is shown with a poster directly behind him that reads 'KEEP CALM AND STUDY HISTORY'. The transition from the physical book to the poster as the object associated with studying history is clearly visible across the two clips."
+    },
+    {
+        "question": "Which location name appears in a calm street scene and later reappears connected to Red Cross medical activity?",
+        "answer": "“Café de Normandie.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a European town street with shops including “Café de Normandie.” Step 2: Slice 26 shows a military ambulance with a red cross near a building labeled “Café de Normandie.” Conclusion: The same named location appears across both scenes, later tied to medical operations.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 3 explicitly mentions a street scene with shops, including a café named \"Café de Normandie.\" Step 2: Evidence Slice 26’s final scene again references a building labeled \"Café de Normandie\" near a military ambulance with Red Cross insignia, connecting it to Red Cross medical activity. Logic holds because the same location name appears in a street setting and later reappears in a context explicitly tied to Red Cross operations.",
+        "visual_proof": "In Video 1, the sign 'CAFÉ DE NORMANDIE' is clearly visible on a building facade during a street scene with civilians and soldiers. In Video 2, specifically from 0:31 onwards, the same 'CAFÉ DE NORMANDIE' sign appears in the background behind a Red Cross medical tent and an ambulance, establishing its re-appearance in a context of medical activity."
+    },
+    {
+        "question": "In one scene, what mark signals a missed shot at a target, and in another scene what mark signals that aiming at a non-combatant is not allowed?",
+        "answer": "A red “X” signals a miss at the shooting range, and a red “X” also signals that targeting a non-combatant is not allowed.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows a scoped view of a target with a red “X” indicating the shot missed. Step 2: Slice 35 shows a scoped view of a person with a red “X” indicating they should not be targeted. Conclusion: The red “X” is used across contexts for negative feedback (miss / prohibited engagement).",
+        "logic_check_reasoning": "Step 1: Slice 9 states that in a shooting range scene, a red 'X' appears across the screen indicating a missed shot at the target. Step 2: Slice 35 describes a scene focused on non-combatants where a red 'X' over the scope crosses out the figure, symbolizing that targeting a non-combatant is prohibited. Logic holds because both slices explicitly identify a red 'X' as the visual marker for the respective signals.",
+        "visual_proof": "In both clips, after aiming at targets (a civilian in a green vest), a large red 'X' appears over the entire screen, indicating an invalid or prohibited shot. This visual cue is consistent across both scenes, confirming that the red 'X' serves as the mark for both a missed shot and for targeting a non-combatant."
+    },
+    {
+        "question": "Which military vehicle is shown moving through a city past a hospital marked with a red cross, and later is shown firing in an urban street?",
+        "answer": "A tank.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            21,
+            83
+        ],
+        "reasoning_chain": "Step 1: Slice 21 shows a green military tank moving through a city near a hospital with a red cross sign. Step 2: Slice 83 shows a green tank in a city street firing its cannon. Conclusion: The same type of vehicle (tank) is featured across both urban sequences.",
+        "logic_check_reasoning": "Step 1: Slice 21 states an animated green military tank moves through a cityscape and passes a hospital marked with a red cross. Step 2: Slice 83 describes an animated green tank moving through a city street and firing its cannon. Logic holds because both slices explicitly identify the vehicle as a tank in urban settings, matching the two parts of the question (passing the hospital and later firing).",
+        "visual_proof": "Clip 1 shows a green tracked armored vehicle with a turret and cannon moving past a building clearly labeled 'HOSPITAL' with a red cross symbol. Clip 2 shows the same type of vehicle, a tank, stationary in an urban street before firing its main gun, which is visually confirmed by the muzzle flash and resulting explosion."
+    },
+    {
+        "question": "What symbol is repeatedly used to indicate correctness in both a controlled crowd-control situation and a battlefield-medical-aid situation?",
+        "answer": "A green checkmark.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            61,
+            29
+        ],
+        "reasoning_chain": "Step 1: Slice 61 shows a peaceful protest with police, then a green checkmark overlay indicating approval. Step 2: Slice 29 shows a medic approaching wounded soldiers with a green checkmark indicating correct behavior. Conclusion: The green checkmark consistently marks approved conduct.",
+        "logic_check_reasoning": "Step 1: Slice 61 describes a peaceful protest with police presence and explicitly mentions a large green checkmark superimposed over the image, noting it typically represents approval, correctness, or success. Step 2: Slice 29 describes a battlefield medic scenario and explicitly mentions a green checkmark appearing next to the medic, suggesting approval or completion of a task. Logic holds because both slices clearly reference the same symbol—a green checkmark—used to indicate approval/correctness in two distinct contexts (crowd-control and medical aid).",
+        "visual_proof": "In Video 1, a large green checkmark appears over the scene after a green gas cloud envelops the protesters and police. In Video 2, a large green checkmark appears over the scene as a medic walks past fallen soldiers and burning barricades. The symbol is identical in both clips and is used to signify correctness or approval in both distinct contexts."
+    },
+    {
+        "question": "A building is first shown as a protected medical place and later a medical setting is shown being attacked with flame weapons; what are these two settings?",
+        "answer": "A hospital building marked with a red cross, and an operating room/medical surgery scene where medical staff are examining an injured soldier, followed by a separate scene showing a jungle environment engulfed in flames with text about flamethrowers and flame weapons.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            82
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows a hospital building with a red cross, implying medical protection. Step 2: Slice 82 shows surgery underway as flames/explosions overrun the operating room, ending with “FLAMETHROWERS AND FLAME WEAPONS.” Conclusion: Medical spaces are contrasted: protected hospital vs attacked medical facility.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes an animated hospital building marked with a red cross, clearly indicating a protected medical facility. Step 2: Slice 82 shows a medical operating room where surgery is underway, which then comes under attack with flames and ends with the text 'FLAMETHROWERS AND FLAME WEAPONS.' Logic holds because the first setting is a hospital building and the second is an operating room under attack, matching the proposed answer.",
+        "original_text_answer": "A hospital building marked with a red cross, and an operating room/medical surgery scene engulfed by flames labeled about flamethrowers and flame weapons.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 1 shows a building clearly labeled 'HOSPITAL' with a red cross. Clip 2 shows a medical team in an operating room treating a soldier, but this scene is not shown being attacked or engulfed in flames. The flames and text about 'FLAMETHROWERS AND FLAME WEAPONS' appear in a completely different scene depicting a burning jungle, not the operating room."
+    },
+    {
+        "question": "Which named town locations recur across scenes showing street combat, then a burning bakery sign, and later medical vehicles nearby?",
+        "answer": "“Café de Normandie” and “Viennoiserie.”",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            3,
+            10,
+            26
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a town street with “Café de Normandie” and “Viennosserie/Viennoiserie.” Step 2: Slice 10 shows a war scene in front of a building labeled “VIENNOISERIE” on fire. Step 3: Slice 26 shows a Red Cross ambulance near “Café de Normandie.” Conclusion: The same named places recur, linking combat/destruction and nearby medical response.",
+        "logic_check_reasoning": "Step 1: Slice 3 shows street combat on a European street with named locations including “Café de Normandie” and a bakery labeled “Viennosserie,” alongside soldiers firing. Step 2: Slice 10 shows a burning bakery sign labeled “VIENNOISERIE” in a wartime scene, matching the bakery from Slice 3 despite minor spelling variation. Step 3: Slice 26’s final scene shows medical vehicles (an ambulance) near a building labeled “Café de Normandie,” linking the medical context to the same named café from Slice 3. Logic holds because each named location recurs across relevant scenes: “Viennoiserie” in combat and burning sign, and “Café de Normandie” in combat and medical scenes.",
+        "visual_proof": "In Clip 1, the signs 'CAFE DE NORMANDIE' and 'VIENNOISERIE' are visible on storefronts during street combat. In Clip 2, the 'VIENNOISERIE' sign is seen above a burning window. In Clip 3, the 'CAFE DE NORMANDIE' sign appears again in the background behind medical personnel and vehicles, confirming these locations recur across scenes."
+    },
+    {
+        "question": "How does the video connect deception in surrender to later scenes where characters raise hands in surrender during armed confrontations indoors?",
+        "answer": "It shows a fake surrender leading to an attack, and later shows indoor confrontations where people raise hands when faced with soldiers, echoing surrender gestures in different contexts.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            41,
+            46,
+            23,
+            48
+        ],
+        "reasoning_chain": "Step 1: Slice 41 explicitly depicts “faking surrender” where raised hands are used deceptively before shooting. Step 2: Slice 46 shows a man raising hands when confronted by soldiers who drag someone away. Step 3: Slice 23 shows a man in a green vest raising hands while soldiers aim rifles and seize a TV. Step 4: Slice 48 shows two armed characters raising arms in a surrender/compliance gesture before a “CHILD SOLDIERS” topic appears. Conclusion: Surrender gestures recur, with the earlier deception theme providing context for why such gestures are ethically/legally significant.",
+        "logic_check_reasoning": "Step 1: Slice 41 explicitly shows deception via a fake surrender (“FAKING SURRENDER AND PERFIDY”) where a soldier lowers hands and attacks after appearing to surrender. Step 2: Slice 23 depicts an indoor living room confrontation where a man raises his hands in surrender while soldiers aim rifles, supporting indoor surrender gestures. Step 3: Slice 48 shows two characters indoors raising arms above their heads in a context involving rifles, indicating surrender/compliance in an armed setting. Step 4: The proposed answer connects the fake surrender (Slice 41) to later indoor scenes with raised hands (Slices 23 and 48), matching the contexts. The logic holds and is supported by the captions.",
+        "visual_proof": "Clip 1 visually establishes the theme 'FAKING SURRENDER AND PERJURY' with soldiers in combat. Clip 2 shows a man raising his hands in surrender as soldiers approach him indoors. Clip 3 depicts a civilian raising his hands in surrender as soldiers enter his living room. These scenes visually connect the concept of surrender (both deceptive and genuine) across different settings, supporting the answer's claim."
+    }
+]

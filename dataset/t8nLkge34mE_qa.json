@@ -1,0 +1,124 @@
+[
+    {
+        "question": "Which curator is shown speaking in front of a bookshelf, and which later text panel describes a collaboration he took part in at Museum Ludwig in Cologne?",
+        "answer": "Kasper König; the later text panel is the one titled “SCIENCE FICTION” describing the collaboration with Genzken and Wolfgang Tillmans at Museum Ludwig in Cologne.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            36
+        ],
+        "reasoning_chain": "Step 1: Slice 6 identifies the man in a red sweater in front of a bookshelf as Kasper König, curator. Step 2: Slice 36 is a text panel titled “SCIENCE FICTION” describing a collaboration involving Kasper König, Genzken, and Wolfgang Tillmans at Museum Ludwig in Cologne. Conclusion: The curator is Kasper König and the collaboration is described on the “SCIENCE FICTION” panel.",
+        "logic_check_reasoning": "Step 1: Slice 6 states that a man in a red sweater speaking in front of a bookshelf is identified as Kasper König, curator. Step 2: Slice 36 describes a text panel titled 'SCIENCE FICTION' that details an art collaboration involving Kasper König, Genzken, and Wolfgang Tillmans at Museum Ludwig in Cologne. Logic holds because the curator identified in Slice 6 (Kasper König) is the same person referenced in the collaboration described by the later text panel in Slice 36.",
+        "visual_proof": "In Clip 1, a man identified by on-screen text as 'KASPER KÖNIG, CURATOR' is shown speaking in an office setting with a large bookshelf directly behind him. In Clip 2, a red text panel appears with the title 'SCIENCE FICTION' followed by text stating '2001 Kasper König invites Genzken and Wolfgang Tillmans to collaborate... at the Museum Ludwig in Cologne, Germany.' This visually confirms both parts of the answer."
+    },
+    {
+        "question": "Which theme is introduced by a window-like amber frame, and what later reflective architectural scene visually echoes that theme using a large open-framed reflective structure?",
+        "answer": "The theme is “Fenster (Window)”; it is echoed by the courtyard scene with a large open-framed reflective structure/mirror reflecting a classical building.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            19,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 19 shows an amber window-frame-like artwork and mentions “The Fenster (Window)” and an exhibition title about needing a window. Step 2: Slice 20 shows an architectural passage with a large open-framed reflective structure acting like a mirror. Conclusion: The later reflective structure echoes the earlier window theme.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes a transparent amber frame resembling a window and includes dialogue explicitly introducing the theme 'The Fenster (Window)' tied to an exhibition about windows. Step 2: Slice 20 presents a historical courtyard scene featuring a large, open-framed reflective structure resembling a mirror that reflects a classical building with columns. Logic holds because the later reflective, open-framed structure visually echoes the window theme introduced earlier, and the proposed answer matches these details.",
+        "visual_proof": "Clip 1 shows an amber, window-like frame sculpture with on-screen text explicitly stating 'The Fenster (Window) is a major theme for her.' Clip 2 shows a courtyard with two large, open-framed structures; the one on the left is clearly a mirror reflecting classical columns and arches, visually echoing the 'window' theme from Clip 1."
+    },
+    {
+        "question": "Which person is identified as Dan Graham, and what distinctive clothing detail links him to another later appearance among a montage of different people?",
+        "answer": "Dan Graham; he is linked by the pink T-shirt with bold printed text on it (the “DAN PARK”/similar lettering).",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 10 identifies “DAN GRAHAM, ARTIST” wearing a pink T-shirt with large printed text. Step 2: Slice 25 shows an older man in a pink shirt with prominent lettering (“Danmark”/similar), visually matching the notable pink-lettered shirt detail. Conclusion: The shared pink, text-heavy shirt detail links the appearances.",
+        "logic_check_reasoning": "Step 1: Slice 10 explicitly identifies an older man with white hair, glasses, and a pink T-shirt with bold text (“DAN PARK”) as “DAN GRAHAM, ARTIST.” Step 2: Slice 25 later shows an older man in the same type of setting (speakers behind him) wearing a pink shirt with bold printed text (“Danmark”). Despite the text variation, the distinctive clothing (pink T-shirt with bold lettering) and setting link the appearances. Logic holds because the unique pink shirt with prominent text and the studio environment consistently match, and minor text discrepancies can be attributed to caption noise.",
+        "visual_proof": "In Video 1, the man identified by the on-screen text as 'DAN GRAHAM, ARTIST' is clearly visible wearing a pink T-shirt with large blue lettering that reads 'DAN PARK'. In Video 2, at timestamp 0:00, the same man appears again in an identical pink T-shirt with the same lettering, establishing a visual link between his appearance in the first clip and this later shot within the montage."
+    },
+    {
+        "question": "A collector is interviewed in front of a small abstract artwork with circular patterns. Which collector is she, and which later segment shows the same collector again before cutting to close-ups of objects like a vase labeled with a word?",
+        "answer": "Erika Hoffmann; she appears again before the video shows close-ups including a ceramic vase inscribed “Lie.”",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            64
+        ],
+        "reasoning_chain": "Step 1: Slice 9 introduces Erika Hoffmann, art collector, seated with a circular-pattern abstract artwork behind her. Step 2: Slice 64 shows Erika Hoffmann again and then cuts to close-ups including a vase labeled “Lie.” Conclusion: The collector is Erika Hoffmann and she reappears before the object close-ups.",
+        "logic_check_reasoning": "Step 1: Slice 9 identifies the collector as Erika Hoffmann, seated before a framed abstract artwork with circular patterns. Step 2: Slice 64 again shows Erika Hoffmann in front of a framed abstract artwork and states the scene transitions to close-ups of objects, including a ceramic vase inscribed with the word \"Lie.\" Logic holds because Slice 64 is a later segment where the same collector appears before the cut to the vase labeled with a word.",
+        "visual_proof": "In both clips, the same woman with short red hair and a denim jacket is shown. A lower-third graphic in Clip 1 identifies her as 'ERIKA HOFFMANN, ART COLLECTOR'. In Clip 2, she is shown again in the same setting, followed immediately by a close-up of a white vase with the word 'Lie' written on it in cursive script, confirming the sequence described in the question."
+    },
+    {
+        "question": "Which two different time segments show Wolfgang Tillmans outdoors in a black jacket over a red plaid shirt, and how does this help you identify the same person across the video?",
+        "answer": "He appears outdoors in the earlier rooftop-style interview and again in a later similar outdoor shot; the consistent black jacket and red plaid shirt identify him as the same person.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            37,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 37 identifies Wolfgang Tillmans outdoors wearing a black jacket over a red plaid shirt. Step 2: Slice 41 shows a man in the same outfit in a similar outdoor urban/green setting. Conclusion: Matching clothing and setting cues support that both are Tillmans.",
+        "logic_check_reasoning": "Step 1: Slice 37 explicitly identifies Wolfgang Tillmans outdoors wearing a black jacket over a red and black plaid shirt. Step 2: Slice 41 shows a man outdoors in a similar rooftop/elevated setting wearing the same black jacket and red plaid shirt. Logic holds because the consistent outfit across two distinct outdoor shots indicates they depict the same person at different times, even though only Slice 37 names him.",
+        "visual_proof": "In both clips, Wolfgang Tillmans is shown outdoors with green foliage and city buildings in the background. He is wearing the same black jacket over a red plaid shirt in both segments, confirming it is the same person across different time points."
+    },
+    {
+        "question": "Which older man tells stories at a Berlin bar at night, and which earlier street-at-night segment establishes the same nightlife city ambiance before his interview continues?",
+        "answer": "Michel Würthle; the earlier segment is the busy city street at night with restaurants and a neon 'Paris Bar' sign.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            30,
+            31
+        ],
+        "reasoning_chain": "Step 1: Slice 30 includes a busy night street with restaurants and a neon “PUB” sign, establishing nightlife atmosphere. Step 2: Slice 31 identifies Michel Würthle at the Paris-Bar in Berlin at night. Conclusion: The bar interview continues the nightlife setting established earlier.",
+        "logic_check_reasoning": "Step 1: Slice 31 explicitly identifies an older man, Michel Würthle, at Paris-Bar in Berlin at night, speaking and recounting an anecdote, which fits 'tells stories at a Berlin bar at night.' Step 2: Slice 30 describes a busy city street at night with restaurants and a neon 'PUB' sign, clearly establishing a nightlife city ambiance. Logic holds because the answer names Michel Würthle for the first part, and the described street-at-night segment in Slice 30 matches the second part’s ambiance. While Slice 30 notes this shot occurs at the end of that video description, it nonetheless provides the exact nightlife scene referenced; the question’s identification of that segment is supported by the content.",
+        "original_text_answer": "Michel Würthle; the earlier segment is the busy city street at night with restaurants and a neon “PUB” sign.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "Clip 2 features Michel Würthle, identified by on-screen text as the owner of Paris-Bar, Berlin, speaking at an outdoor table at night. Clip 1 contains a night scene of a city street with a prominent neon sign reading 'Paris Bar' above a restaurant, establishing the same location and ambiance before his interview."
+    },
+    {
+        "question": "Which curator is shown in a red sweater in multiple interview segments, and in which later segment does he reappear within a montage that also includes graffiti reading “FUCK OFF MEDIA SPREE”?",
+        "answer": "Kasper König; he reappears in the montage segment that includes the “FUCK OFF MEDIA SPREE” graffiti scene.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            6,
+            39,
+            52
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows Kasper König, curator, in a red sweater in front of bookshelves. Step 2: Slice 39 again identifies Kasper König in the same red-sweater bookshelf setup. Step 3: Slice 52 includes a segment that ends with an elderly man in a red sweater in front of a bookshelf (matching König) after showing “FUCK OFF MEDIA SPREE” graffiti. Conclusion: The recurring red-sweater curator is Kasper König and he reappears in that graffiti-to-interview montage.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a man in a red sweater in front of a bookshelf, identified as Kasper König, curator. Step 2: Slice 39 again shows an elderly man in a red sweater in front of a bookshelf with on-screen text identifying him as KASPER KÖNIG, CURATOR, confirming multiple interview segments of the same person. Step 3: Slice 52 describes a documentary-style video with multiple segments, including an urban art scene featuring graffiti reading “FUCK OFF MEDIA SPREE” and later an interview with an elderly man in a red sweater in front of a bookshelf. The visual attributes match Kasper König, indicating he reappears in the later segment within the montage that includes the graffiti scene. Logic holds because the identification and visual consistency link the segments.",
+        "visual_proof": "In Clip 1 and Clip 2, Kasper König is clearly identified by on-screen text as 'CURATOR' and is consistently shown wearing a red sweater during his interview segments. In Clip 3, the montage sequence featuring the building with the 'FUCK OFF MEDIA SPREE' graffiti is immediately followed by a cut back to Kasper König, still in his red sweater, continuing his interview. This confirms his reappearance within that specific montage."
+    },
+    {
+        "question": "Which exhibition theme about ‘windows’ is introduced by an artwork resembling a window frame, and which later major retrospective title card confirms the museum and dates for the retrospective where such themes are being presented?",
+        "answer": "The theme is “Everybody needs at least one window”; the retrospective title card confirms “Isa Genzken: Retrospective” at MoMA, November 23, 2013–March 10, 2014.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            19,
+            89,
+            90
+        ],
+        "reasoning_chain": "Step 1: Slice 19 references “The Fenster (Window)” and the touring exhibition title “Everybody needs at least one window.” Step 2: Slice 89 shows title cards stating this is an Isa Genzken retrospective. Step 3: Slice 90 provides the concrete details: “Isa Genzken: Retrospective November 23, 2013–March 10, 2014” at MoMA. Conclusion: The window theme is contextualized within the MoMA retrospective and its dates.",
+        "logic_check_reasoning": "Step 1: Slice 19 describes an artwork resembling a window frame and includes subtitles mentioning the theme \"Everybody needs at least one window.\" Step 2: Slice 90 shows a title card stating \"Isa Genzken: Retrospective\" with dates November 23, 2013–March 10, 2014 and confirms it is at MoMA. Logic holds because the first slice introduces the window-related theme, and the later slice provides the retrospective's museum and dates.",
+        "visual_proof": "Clip 1 shows an artwork resembling a window frame and includes subtitles stating the theme 'Everybody needs at least one window.' Clip 2 displays a title card for 'ISA GENZKEN RETROSPECTIVE' with MoMA branding. Clip 3 provides the full exhibition title 'Isa Genzken: Retrospective' along with the dates 'November 23, 2013-March 10, 2014' and confirms MoMA as the venue."
+    },
+    {
+        "question": "Which interview setting with a formal woman in a dark blazer appears multiple times, and how is her theme of ‘a special way of seeing’ visually echoed by a later close-up of precisely stacked metal washers and a bolt?",
+        "answer": "The formal woman in the cozy room with curtains and a small table appears multiple times; her theme is echoed by the meticulous, detail-focused close-up of stacked washers and a bolt.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            28,
+            58,
+            59
+        ],
+        "reasoning_chain": "Step 1: Slice 28 shows a formally dressed woman (collector) in a bright, curtained room recounting an artist’s studio experience. Step 2: Slice 58 shows a similar formal interview setup where the speaker explicitly mentions a ‘special way of seeing’ and putting things together. Step 3: Slice 59 visually echoes this by focusing on carefully assembled washers/bolt, emphasizing precision and reconfiguration. Conclusion: Repeated interview theme is reinforced through the mechanical close-up metaphor.",
+        "logic_check_reasoning": "Step 1: Slice 28 shows an interview setting with Brigitte Oetker, a formal woman in a dark blazer over a white shirt, in a cozy, well-lit room featuring large windows, curtains drawn back revealing greenery, a small round table with a decorative object, and a wall-mounted display case. Step 2: Slice 58 shows a similar interview setting with a formal woman in a dark blazer over a white blouse in a cozy, well-lit room with beige curtains, greenery outside, a small round table with objects, and a wall-mounted display case, indicating the same setting appears multiple times. Step 3: Slice 58’s subtitles highlight the theme of “her own special way of seeing and of putting things together in new ways.” Step 4: Slice 59 presents a later close-up of precisely stacked metal washers and a bolt, with voice-over about admiration for a unique perspective and innovative expression, visually echoing the theme of a special way of seeing through meticulous, precise arrangement and focus on detail. Logic holds because the repeated interview setting is evidenced in Slices 28 and 58, and the thematic echo is supported by the detailed mechanical close-up and related voice-over in Slice 59.",
+        "visual_proof": "Clips 1 and 2 show the same woman in the same setting: a dark blazer, arms crossed, seated in a room with beige curtains, a window, and a yellow table. Clip 3 provides a close-up of an art installation made of precisely stacked metal washers and a bolt, visually representing the 'special way of seeing' and 'putting things together in new ways' mentioned in the subtitles of Clips 1 and 2."
+    }
+]

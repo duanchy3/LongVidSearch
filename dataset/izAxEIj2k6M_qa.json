@@ -1,0 +1,258 @@
+[
+    {
+        "question": "Which Iceland airport code is shown as the first international flight’s destination, and which airline is later shown providing a blanket and pillow on the plane?",
+        "answer": "KEF, and the airline is Icelandair.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            7,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 7 displays the flight route IAD → KEF. Step 2: Slice 9 says \"iceland air gives you a blanket and pillow,\" identifying Icelandair. Conclusion: The destination code is KEF and the airline is Icelandair.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 7 explicitly shows the overlay 'IAD → KEF', identifying KEF as the destination airport code. Step 2: Evidence Slice 9 includes the overlay 'iceland air gives you a blanket and pillow for the flight,' indicating the airline providing the amenities. 'iceland air' corresponds to Icelandair in context. Therefore, the context supports KEF as the destination and Icelandair as the airline.",
+        "visual_proof": "In Clip 1, text overlay at 0:12 clearly shows 'iad → kef', indicating KEF as the destination airport code. In Clip 2, at 0:03, the on-screen text explicitly states 'iceland air gives you a blanket and pillow for the flight hehe', confirming the airline providing amenities."
+    },
+    {
+        "question": "What professional event banner is shown after the person finishes getting ready, and in which city is that summit said to be taking place?",
+        "answer": "A 'CREATOR SUMMIT' banner, in Stockholm.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            21
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a banner reading \"CREATOR SUMMIT.\" Step 2: Slice 21 says \"somewhere in Stockholm... CREATOR SUMMIT.\" Conclusion: It is the Creator Summit in Stockholm.",
+        "logic_check_reasoning": "Step 1: Slice 20 shows text 'finished getting ready in the car' and then a transition to an indoor setting with a large banner reading 'CREATOR SUMMIT.' Step 2: Slice 21 includes a title screen that reads 'somewhere in Stockholm... CREATOR SUMMIT,' indicating the summit is in Stockholm. Logic holds because the banner shown after getting ready is explicitly 'CREATOR SUMMIT,' and the city is explicitly stated as Stockholm.",
+        "visual_proof": "The first clip ends with a photo of the person in a car, with text overlay saying 'finished getting ready in the car'. The very next scene, shown at 0:03 in the first clip and continuing into the second clip, is a large indoor venue with a prominent banner that reads 'CREATOR SUMMIT'. Above this banner, the text 'somewhere in stockholm...' is clearly visible on the screen."
+    },
+    {
+        "question": "Which item is shown as 'passport ready' during airport preparation, and what comfort items are later mentioned as being provided on the flight?",
+        "answer": "A passport, and a blanket and pillow.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            8,
+            9
+        ],
+        "reasoning_chain": "Step 1: Slice 8 shows the passport with the text \"passport ready!\" Step 2: Slice 9 notes the airline gives a blanket and pillow. Conclusion: The prepared item is the passport and the comfort items are a blanket and pillow.",
+        "logic_check_reasoning": "Step 1: Slice 8 explicitly shows a close-up of a passport with the text 'passport ready!', confirming the item is a passport. Step 2: Slice 9 states 'iceland air gives you a blanket and pillow for the flight,' identifying the comfort items provided onboard. Logic holds because the airport preparation (passport) and the flight amenities (blanket and pillow) are directly described in the respective slices.",
+        "visual_proof": "In Clip 1 (0:07), a Polaroid-style photo shows a hand holding a U.S. passport with the text 'passport ready!' overlaid. In Clip 2 (0:01-0:03), the on-screen text explicitly states 'iceland air gives you a blanket and pillow for the flight,' which is visually confirmed by shots of the passenger handling the provided blanket and pillow."
+    },
+    {
+        "question": "How does the bathroom style change between the earlier hotel tour and the later 'mini hotel room tour' sequence?",
+        "answer": "It shifts from teal-colored bathroom tiles to dark blue subway tiles.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            18,
+            35
+        ],
+        "reasoning_chain": "Step 1: Slice 18 shows a bathroom with teal-colored tiles. Step 2: Slice 35 shows a different bathroom with dark blue subway tiles. Conclusion: The bathroom tile color/style changes from teal to dark blue subway tile.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 18 describes the beginning of the video with a bathroom featuring teal-colored tiles, indicating an earlier segment. Step 2: Evidence Slice 35 later describes a different bathroom featuring dark blue subway tiles. Logic holds because the question asks about the change between earlier and later sequences, and the slices explicitly note different tile styles and colors corresponding to those times.",
+        "visual_proof": "Both clips show the same bathroom with identical dark teal/blue subway tiles, chrome fixtures, and arched mirror. There is no visual evidence of a style change between clips; they depict the same consistent design. The original answer incorrectly implies a change, but the tiles are the same color and style in both clips."
+    },
+    {
+        "question": "Track the main traveler’s outerwear across the trip: what jacket is she wearing on the airplane, and what headwear is added later when she’s done getting ready?",
+        "answer": "A green varsity jacket on the airplane, and later she adds a black cat-ear headband.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            9,
+            20
+        ],
+        "reasoning_chain": "Step 1: Slice 9 shows her wearing a green varsity jacket on the plane. Step 2: Slice 20 shows her in a getting-ready montage wearing a black beret. Conclusion: The jacket is a green varsity jacket and the added headwear is a black beret.",
+        "logic_check_reasoning": "Step 1: Slice 9 shows the traveler on an airplane wearing a green varsity jacket with white trim. Step 2: Slice 20 shows the traveler later, with text 'finished getting ready in the car,' wearing a black beret. Logic holds because both slices depict the same ongoing trip and the visual details align with tracking the main traveler’s outfit across scenes.",
+        "original_text_answer": "A green varsity jacket on the airplane, and later she adds a black beret.",
+        "verdict_meta": "REFINED",
+        "visual_proof": "In Clip 1 (0:04), the traveler is clearly wearing a green and white varsity-style jacket with a globe patch. In Clip 2 (0:00-0:02), in the 'finished getting ready' photos, she is wearing the same jacket but has added a black headwear item with distinct cat ears, not a beret."
+    },
+    {
+        "question": "Connect the trip’s start and end framing: what early text indicates it’s the first time flying out of the US, and what later title card signals the return?",
+        "answer": "\"heading to the airport to fly out of the US for the first time ever\" and \"back to the u.s.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            67
+        ],
+        "reasoning_chain": "Step 1: Slice 1 includes the text about flying out of the US for the first time ever. Step 2: Slice 67 shows the title card \"back to the u.s.\" Conclusion: These two captions frame the departure and return.",
+        "logic_check_reasoning": "Step 1: Slice 1 explicitly states the early text: \"heading to the airport to fly out of the US for the first time ever,\" which indicates it’s the first time flying out of the US. Step 2: Slice 67 mentions a title screen displaying \"back to the u.s.,\" which signals the return. Logic holds because the first slice frames the beginning of the trip and the later slice provides a title card that marks coming back.",
+        "visual_proof": "Clip 1 (at 0:13) displays a title card with the text 'heading to the airport to fly out of the u.s. for the first time ever'. Clip 2 (at 0:00) shows a title card with the text 'back to the u.s.' over a view from an airplane. These two pieces of text directly frame the beginning and end of the trip as described in the question."
+    },
+    {
+        "question": "After being met by friends at an airport, what major celebration is shown happening next indoors?",
+        "answer": "A 21st birthday celebration.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows a reunion/group selfie at the airport with friends. Step 2: Slice 12 shows a decorated celebration with a large \"21\" balloon. Conclusion: After the airport reunion, a 21st birthday celebration occurs.",
+        "logic_check_reasoning": "Step 1: Slice 11 shows a joyful airport reunion among friends. Step 2: Slice 12 then shows an indoor celebration with a large balloon displaying '21', party decorations, and gift opening, with the description noting it hints at a 21st birthday party. Logic holds because the sequence moves from the airport reunion to an indoor milestone celebration clearly associated with '21', which supports identifying it as a 21st birthday celebration.",
+        "visual_proof": "After the airport reunion, the indoor scene features large gold balloons shaped as '2' and '1', clearly indicating a 21st birthday. The table also has cupcakes with candles, further supporting the birthday celebration theme."
+    },
+    {
+        "question": "At the statue where someone keeps asking why it feels warm, what accessory does one of the women wear that helps identify her across the following outdoor clips?",
+        "answer": "Sunglasses.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            24,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 24 shows the amused statue interaction, including a woman wearing sunglasses. Step 2: Slice 25 continues the outdoor montage prominently featuring a person in sunglasses introduced as ANDI. Conclusion: The identifying accessory is sunglasses.",
+        "logic_check_reasoning": "Step 1: Slice 24 describes the statue scene where the text overlay shows someone asking why the statue feels warm (\"andi: *amazed* why?\" and \"andi: how is it warm????\"). In this scene, one of the women is explicitly described as wearing sunglasses. Step 2: Slice 25, another outdoor clip, mentions a person wearing sunglasses and introduces \"ANDI,\" linking the same subject across clips. Logic holds because the accessory (sunglasses) is noted in the statue scene and appears again in subsequent outdoor footage, serving as an identifier.",
+        "visual_proof": "In Video 1, the woman standing next to the statue (identified by subtitles as 'ally') is wearing dark sunglasses. In Video 2, the same woman is shown again wearing the identical sunglasses in multiple outdoor scenes, including a close-up shot at 0:02 and walking on the street at 0:07, confirming this accessory is consistently worn and serves as an identifier across clips."
+    },
+    {
+        "question": "What two different 'music-related' environments are shown: one as a licensing platform/company context and the other as a studio feedback session?",
+        "answer": "Epidemic Sound is discussed as the music platform/company, and a recording/control room is shown for a listening & feedback session.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 2 frames Epidemic Sound as a music licensing platform. Step 2: Slice 57 shows a control room with the text \"listening & feedback session!\" Conclusion: The video shows both the company context and an audio studio feedback setting.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 explicitly states the woman discusses Epidemic Sound, identified as a music licensing platform, with a logo shown and mention of a free trial link, which supports the licensing platform/company context. Step 2: Evidence Slice 57 describes a professional recording studio/control room with acoustic panels, audio software on a monitor, people engaged in audio work, and a text overlay saying 'listening & feedback session!', which supports the studio feedback session environment. Logic holds because the two slices depict distinct music-related contexts matching the proposed answer.",
+        "visual_proof": "In Clip 1, the woman explicitly mentions 'Epidemic Sound' in a text message overlay and later speaks about it, identifying it as the company/platform. In Clip 2, a professional studio environment with acoustic panels, large speakers, and a mixing desk is shown, with on-screen text labeling it a 'listening & feedback session'."
+    },
+    {
+        "question": "How do the lodging scenes evolve from arriving at a hotel room via a long staircase climb to later showcasing a different hotel room tour with a timestamp?",
+        "answer": "First, the viewer follows a climb up multiple flights to see a hotel room; later, a separate 'mini hotel room tour' is shown with the timestamp 11/20/2022 5:30 pm GMT+1.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            16,
+            17,
+            18,
+            34
+        ],
+        "reasoning_chain": "Step 1: Slice 16 shows climbing three flights of stairs to see the hotel room. Step 2: Slice 17 reveals the bedroom once the door opens. Step 3: Slice 18 shows the bathroom of that room. Step 4: Slice 34 later presents a different \"mini hotel room tour\" with a timestamp. Conclusion: Lodging coverage shifts from an arrival walkthrough to a later timestamped tour of another room.",
+        "logic_check_reasoning": "Step 1: Slice 16 explicitly shows a first-person ascent up stairs with the subtitle 'let's go see the hotel room!' and mentions it is 'three flights up,' supporting the arrival via a long staircase climb. Step 2: Slice 34 explicitly presents a 'mini hotel room tour' with an on-screen timestamp '11/20/2022 5:30 pm GMT+1,' indicating a later showcase of a hotel room tour with a timestamp. Logic holds because the context clearly depicts two lodging-related scenes: first the climb to a hotel room, and later a separate tour labeled with a timestamp.",
+        "visual_proof": "Clip 1 shows a first-person view ascending stairs with text overlay stating '(which is three flights up lol)'. Clip 2 shows the arrival and entry into a hotel room. Clip 4 displays a title card for a 'mini hotel room tour' with the explicit timestamp '11/20/2022 5:30 pm gmt+1', indicating a distinct segment or different room being showcased after the initial arrival."
+    },
+    {
+        "question": "Across the travel day from street walking to boarding a boat and then cruising at sunset, what sequence of activities is shown?",
+        "answer": "Getting ready in a bathroom, walking through city streets, boarding a boat, and then cruising during a pretty sunset.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            36,
+            37,
+            38,
+            39
+        ],
+        "reasoning_chain": "Step 1: Slice 36 begins with bathroom mirror prep and then walking outside before boarding a boat. Step 2: Slice 37 reinforces the theme with \"dinnertime\" and \"boat commute\" at sunset. Step 3: Slice 38 shows the dock and the boat named \"Nico.\" Step 4: Slice 39 shows \"Bathallplats Ferry Pier\" and \"touring the archipelago.\" Conclusion: The day progresses from getting ready to walking, boarding, and sunset cruising/archipelago touring.",
+        "logic_check_reasoning": "Step 1: Slice 36 shows a person washing hands at a bathroom sink and a woman adjusting her hair in front of a mirror, indicating getting ready. Step 2: Slice 36 then shows the woman walking through city streets. Step 3: Slice 36 explicitly states she reaches a pier and boards a boat; Slices 38 and 39 also depict people by a boat and a ferry pier. Step 4: Slices 37-39 show waterfront scenes at sunset and mention a 'boat commute' and harbor at sunset, supporting cruising during a pretty sunset. The sequence in the proposed answer aligns with these visuals.",
+        "visual_proof": "Clip 1 shows the person getting ready in a bathroom (0:00-0:06) and then walking through city streets at sunset (0:07-0:10). Clip 2 shows them walking on a bridge towards the water (0:00-0:01) and arriving at the pier (0:02). Clip 3 shows them boarding a ferry named 'RICO' (0:03). Clip 4 confirms they are at the 'BÅTHÅLLPLATS FERRY PIER' (0:00) and includes shots of the sunset over the water from the boat (0:03-0:05), confirming the cruising activity."
+    },
+    {
+        "question": "What two airport codes shown early in the video match the destination and layover airports mentioned later in the travel itinerary?",
+        "answer": "CPH and ARN.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            1,
+            10
+        ],
+        "reasoning_chain": "Step 1: Slice 1 shows a ticket/destination reading \"CPH ARN.\" Step 2: Slice 10 explains the route involving Copenhagen (CPH) and Stockholm Arlanda (ARN). Conclusion: The matching codes are CPH and ARN.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 1 shows an early visual of a ticket with the codes \"CPH ARN.\" Step 2: Evidence Slice 10 describes the later itinerary including a layover at Stockholm Arlanda (ARN) and final arrival in Copenhagen (CPH). Logic holds because the early codes CPH and ARN directly correspond to the later mentioned destination (CPH) and layover (ARN).",
+        "visual_proof": "The passport graphic in Video 1 (0:02) clearly shows a flight itinerary with 'CPH → ARN' and 'ARN → CPH'. Later, Video 2 (0:03) displays a flight information screen listing 'Stockholm Arlanda' with the airport code 'ARN', confirming it as a layover. The same video (0:15) then shows signs for 'Copenhagen Airport' and text stating 'finally in copenhagen', confirming CPH as the final destination. The codes CPH and ARN are consistently used to represent these specific airports throughout the clips."
+    },
+    {
+        "question": "What consistent visual trait helps identify the main vlogger across the home talking-head segments and the mirror outfit shots later in the trip?",
+        "answer": "She consistently wears glasses.",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            2,
+            52,
+            53
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows the vlogger speaking to camera wearing glasses. Step 2: Slice 52 shows her in a mirror recording herself while wearing glasses. Step 3: Slice 53 again shows her mirror vlog look with glasses. Conclusion: Glasses are the consistent identifying trait.",
+        "logic_check_reasoning": "Step 1: Slice 2 describes the main vlogger in a home talking-head setting and explicitly notes she wears glasses. Step 2: Slice 52 shows the same vlogger in a mirror outfit shot and states she is wearing glasses. Step 3: Slice 53 also depicts the vlogger in a mirror shot and mentions she wears glasses. Logic holds because the consistent presence of glasses across both the home talking-head segment and the mirror outfit shots supports the proposed trait.",
+        "visual_proof": "In Clip 1 (home talking-head segment), the vlogger is clearly wearing round, thin-framed glasses. In Clips 2 and 3 (mirror outfit shots), she is also visibly wearing the same style of glasses, confirming this trait is consistent across both settings."
+    },
+    {
+        "question": "What unexpected animal appears during the office gathering, and what other 'pet' is referenced earlier during the home talking-head segment?",
+        "answer": "A small black dog appears at the office, and a cat (Kayla) is referenced earlier.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            58
+        ],
+        "reasoning_chain": "Step 1: Slice 2 includes an apology text about \"Kayla meowing in the background,\" implying a cat. Step 2: Slice 58 shows someone holding a leash attached to a small black dog in the office. Conclusion: The animals are a dog at the office and a cat referenced at home.",
+        "logic_check_reasoning": "Step 1: Slice 58 describes a room with people and explicitly mentions a person holding a leash attached to a small black dog walking around, confirming the unexpected animal at the office gathering is a small black dog. Step 2: Slice 2 describes a home talking-head segment where a text overlay apologizes for 'Kayla meowing in the background,' indicating a cat named Kayla is referenced earlier. Logic holds because both slices provide explicit evidence for the animals mentioned.",
+        "visual_proof": "In Clip 1, a text overlay at 0:02 explicitly states '*sorry for kayla meowing in the background in advance!*', referencing a cat named Kayla. In Clip 2, a small black dog is visually present and walking around the office gathering, as highlighted by the text overlay at 0:02-0:03 which says '- someone brought their doggo and look at them!!! so sweet <3'."
+    },
+    {
+        "question": "What two distinct drinking experiences are shown: one on the boat and one later in the hotel bar involving a Swedish tradition?",
+        "answer": "Wine on the boat, and Swedish 'hot shots' at the hotel bar.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            45,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 45 shows a drink (rosé-like) on a boat deck. Step 2: Slice 49 explains and shows the Swedish drinking tradition \"hot shots\" at Hotel Frantz. Conclusion: The two experiences are boat wine and hotel hot shots.",
+        "logic_check_reasoning": "Step 1: Slice 45 describes a close-up of a hand holding a glass that appears to be rosé wine on a boat, establishing a drinking experience on the boat. Step 2: Slice 49 explicitly mentions a traditional Swedish drinking ritual called 'hot shots' taking place later that night at HOTEL FRANTZ, confirming the hotel bar setting and the specific drink. Logic holds because the first is wine on the boat and the second is Swedish 'hot shots' at the hotel bar, both directly supported by the slices.",
+        "visual_proof": "In Video 1 (0:00), a person is holding a wine glass with a pinkish beverage on a boat. In Video 2 (0:01-0:18), text overlays explicitly label the activity as 'Hot Shots + a swedish tradition' and show people drinking from shot glasses containing layered drinks labeled 'cream', 'hot coffee', and 'liquor'."
+    },
+    {
+        "question": "Which hotel name is shown when arriving in Stockholm, and later appears again as the location for late-night drinks and a Swedish tradition?",
+        "answer": "Hotel Frantz.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 15 introduces the Stockholm stay at Hotel Frantz. Step 2: Slice 49 says \"later that night @ HOTEL FRANTZ\" during the hot shots tradition. Conclusion: The repeated hotel is Hotel Frantz.",
+        "logic_check_reasoning": "Step 1: Slice 15 states that upon arriving in Stockholm, the accommodation introduced is Hotel Frantz, with exterior and interior shots. Step 2: Slice 49 explicitly shows a text overlay 'later that night @ HOTEL FRANTZ' during a late-night gathering involving the Swedish 'hot shots' tradition. Logic holds because the same hotel name appears at arrival and later as the location for the drinks/tradition.",
+        "visual_proof": "The name 'HOTEL FRANTZ' is explicitly displayed in large text on the building's exterior sign at 0:14 and again on the facade at 0:15. The same name, 'HOTEL FRANTZ', appears as a location tag at 0:00 in the second clip, which shows people gathered for drinks, confirming it as the venue for the late-night activity."
+    },
+    {
+        "question": "Which company is promoted early in the home vlog, and where is the headquarters tour shown later?",
+        "answer": "Epidemic Sound, and the later tour is at the Epidemic Sound headquarters.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            56
+        ],
+        "reasoning_chain": "Step 1: Slice 2 includes a promotional segment discussing Epidemic Sound. Step 2: Slice 56 shows a tour of the Epidemic Sound headquarters. Conclusion: The company is Epidemic Sound and the later segment is its HQ tour.",
+        "logic_check_reasoning": "Step 1: Slice 2 states that the woman includes a promotional segment discussing Epidemic Sound, with their logo appearing and mention of a free trial link, confirming the company promoted early in the home vlog is Epidemic Sound. Step 2: Slice 56 describes an engaging tour of the Epidemic Sound headquarters, explicitly identifying the location. Logic holds because the first slice directly names the promoted company and the later slice explicitly shows the tour at that company's headquarters.",
+        "visual_proof": "In Clip 1 (0:12), the 'Epidemic Sound' logo is overlaid on the screen as the speaker talks about them. In Clip 2 (0:00), a title card explicitly labels the location as 'epidemic sound headquarters,' which is then visually toured throughout the rest of the clip."
+    },
+    {
+        "question": "Across the Stockholm day-one and day-two markers, what is the shared branded context repeatedly mentioned in text overlays?",
+        "answer": "Epidemic Sound (e.g., 'day one w/ epidemic sound' and 'day two w/ epidemic sound').",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            15,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 15 includes \"STOCKHOLM, SWEDEN day one w/ epidemic sound.\" Step 2: Slice 49 includes \"Stockholm, sweden day two w/ epidemic sound.\" Conclusion: Both days are framed with Epidemic Sound branding.",
+        "logic_check_reasoning": "Step 1: Slice 15 explicitly includes the text overlay 'STOCKHOLM, SWEDEN day one w/ epidemic sound,' indicating the brand Epidemic Sound for day one. Step 2: Slice 49 explicitly includes the text overlay 'Stockholm, sweden day two w/ epidemic sound,' again indicating Epidemic Sound for day two. Logic holds because both day markers feature the same branded context in their overlays.",
+        "visual_proof": "The text overlay at 0:09 in Clip 1 explicitly states 'STOCKHOLM, SWEDEN day one w/ epidemic sound'. Similarly, the text overlay at 0:18 in Clip 2 states 'Stockholm, sweden day two w/ epidemic sound'. This confirms 'Epidemic Sound' is the shared branded context mentioned on both days."
+    },
+    {
+        "question": "How does the video connect the boat ride’s onboard drinks to the later luxury dinner and then the next-night hotel bar tradition?",
+        "answer": "It shows wine on the boat, then a luxurious dinner with many glasses of wine, then later Swedish 'hot shots' at the hotel bar.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            43,
+            47,
+            48,
+            49
+        ],
+        "reasoning_chain": "Step 1: Slice 43 shows glasses of rosé wine on the boat. Step 2: Slice 47 shows arrival and an elegant dinner, mentioning many glasses of wine. Step 3: Slice 48 labels the dinner as extremely luxurious and tags @Emmer. Step 4: Slice 49 shows late-night drinks and the Swedish hot shots tradition. Conclusion: Boat wine leads into luxury dinner wine, then transitions to hot shots later that night.",
+        "logic_check_reasoning": "Step 1: Slice 43 shows the boat ride with a table filled with glasses of rosé wine and passengers sipping drinks, establishing onboard drinks. Step 2: Slice 47 continues from the boat to arrival at a grand destination and a luxurious dining room; the overlay explicitly says 'yummy dinner, good company, and many glasses of wine,' linking the boat drinks to a wine-filled luxury dinner. Step 3: Slice 48 reinforces the luxury dinner theme ('the most sumptuous & luxurious dinner I've had') and shows the restaurant/bar experience, ending with 'HOTEL FRANTZ.' Step 4: Slice 49 states 'later that night @ HOTEL FRANTZ' and depicts a traditional Swedish 'hot shots' ritual at the hotel bar, completing the connection to the later hotel bar tradition. Logic holds because the captions clearly depict a sequence: wine on the boat, wine-heavy luxury dinner, then later hotel bar hot shots.",
+        "visual_proof": "Clip 1 visually establishes the boat ride with numerous glasses of rosé wine and bottles in ice buckets. Clip 2 transitions to the dinner scene, showing a formally set table with multiple wine glasses and text confirming 'many glasses of wine'. Clip 4 then explicitly introduces 'Hot Shots' as 'a swedish tradition' at 'HOTEL FRANTZ', showing the drinks being consumed, thus creating a clear visual narrative connecting the three events."
+    }
+]

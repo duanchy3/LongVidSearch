@@ -1,0 +1,156 @@
+[
+    {
+        "question": "How does the potato component progress from being arranged in a dish to being baked in the oven and then appearing plated and ready to eat?",
+        "answer": "Potato slices are arranged in a scalloped dish, baked in the oven, and then served as part of the finished meal on a plate.",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            86,
+            88,
+            92
+        ],
+        "reasoning_chain": "Step 1: Slice 86 shows thin potato slices arranged around the edges of a scalloped dish over the filling. Step 2: Slice 88 shows the potato-filled dish placed into the oven. Step 3: Slice 92 shows the finished meal plated with potatoes, meat, peas, and carrots being eaten with a fork. Conclusion: The potatoes go from arranged to baked to served.",
+        "logic_check_reasoning": "Step 1: Slice 86 shows thinly sliced potatoes being arranged in a white dish with a scalloped edge. Step 2: Slice 88 shows the dish with the arranged potato slices being placed into an oven to bake. Step 3: Slice 92 shows the finished meal plated, including potatoes along with peas, carrots, and ground meat, indicating the potatoes are part of the served dish. The sequence from arrangement to baking to plating is explicitly supported.",
+        "visual_proof": "Clip 1 shows hands arranging raw potato slices over a meat and vegetable filling in a white scalloped dish. Clip 2 shows the same dish being placed into an oven for baking. Clip 3 shows the final cooked dish, with golden-brown potatoes and filling, garnished with parsley and served on a blue-rimmed plate, being eaten with a fork."
+    },
+    {
+        "question": "What herb is chopped on a cutting board and later used to garnish the finished baked dish after it comes out of the oven?",
+        "answer": "Dill.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            24
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows fresh dill being chopped. Step 2: Slice 24 shows chopped green herbs being sprinkled over the baked pastry after removal from the oven. Conclusion: The chopped herb used for garnish is dill.",
+        "logic_check_reasoning": "Step 1: Slice 23 explicitly states that fresh dill is being chopped on a wooden cutting board. Step 2: Slice 24 shows the finished baked dish being garnished with finely chopped green herbs described as possibly parsley or dill. Logic holds because the earlier slice clearly identifies dill as the herb being chopped, and the later garnish is consistent with dill (and includes dill as a stated possibility). No conflicting herb is mentioned being chopped, so the chopped dill aligns with the garnish.",
+        "visual_proof": "In the first clip, a person is shown chopping a feathery green herb on a wooden cutting board, and the on-screen text explicitly labels it 'Dill'. In the second clip, after the baked dish is removed from the oven, the same chopped herb (visually identifiable as dill) is sprinkled over the top as a garnish."
+    },
+    {
+        "question": "What seasonings are added after tomatoes go into the pan, and which herb is then chopped later to garnish the served meal?",
+        "answer": "Salt, black pepper, thyme, and dry parsley are added; parsley is later chopped for garnish.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            75,
+            76,
+            89
+        ],
+        "reasoning_chain": "Step 1: Slice 75 shows tomatoes being added to the meat/peas/carrots pan. Step 2: Slice 76 shows seasoning added afterward: salt, black pepper, thyme, and dry parsley. Step 3: Slice 89 shows parsley being chopped, later used as garnish. Conclusion: Those seasonings are added after tomatoes, and parsley is the later-chopped garnish.",
+        "logic_check_reasoning": "Step 1: Slice 76 explicitly shows tomatoes being added to the pan followed by seasonings: salt, black pepper, thyme, and dry parsley (also confirmed by text overlays). Step 2: Slice 89 shows parsley being chopped later on a cutting board. While Slice 89 does not explicitly state it is for garnish, the herb chopped later is clearly parsley, matching the question's intent. The sequence (seasonings after tomatoes, later chopping parsley) is consistent across slices.",
+        "visual_proof": "Clip 2 visually confirms the addition of salt, black pepper, thyme, and dry parsley to the pan after the tomatoes. Clip 3 shows fresh parsley being chopped on a cutting board, which aligns with its use as a garnish."
+    },
+    {
+        "question": "What sequence shows meat being combined with onions, then mushrooms added, and finally tomato puree and Dijon mustard poured in?",
+        "answer": "Meat is stirred with onions, then mushrooms are added and fried, then tomato puree and Dijon mustard are added.",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            39,
+            43,
+            45
+        ],
+        "reasoning_chain": "Step 1: Slice 39 shows chopped onions added to browned meat and stirred. Step 2: Slice 43 shows sliced mushrooms poured into the pan and fried with the meat. Step 3: Slice 45 shows tomato puree and Dijon mustard added afterward. Conclusion: The order is onions → mushrooms → tomato puree and Dijon.",
+        "logic_check_reasoning": "Step 1: Slice 39 shows ground meat with chopped onions being stirred together and fried for ~2 minutes, confirming meat combined with onions. Step 2: Slice 43 shows sliced mushrooms being added to the meat and stirred, with 'Fry ~4 minutes,' confirming mushrooms added and fried. Step 3: Slice 45 shows tomato puree and Dijon mustard being poured into the pan with the cooked meat and mushrooms, confirming the final additions. The sequence in the proposed answer matches these steps.",
+        "visual_proof": "Clip 1 shows chopped onions being added to browning meat and stirred. Clip 2 shows sliced mushrooms being added to the meat-onion mixture and stirred. Clip 3 shows tomato puree and then Dijon mustard being poured into the pan over the meat and mushroom mixture. The sequence of actions matches the description."
+    },
+    {
+        "question": "What indicates there are at least two distinct cooking segments in the video, based on changes in the cook’s clothing while performing similar tasks like slicing potatoes and chopping aromatics?",
+        "answer": "The cook wears a red floral dress in earlier steps and a black polka-dot/floral dress in later steps while doing similar prep (potatoes, onions/shallots/garlic).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            7,
+            30,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 7 shows potato slicing with a red floral dress. Step 2: Slice 30 shows potato slicing with a black dress with small white dots. Step 3: Slice 38 shows chopping red onions while wearing a dark floral-pattern dress. Conclusion: Clothing changes suggest separate segments/recipes or phases.",
+        "logic_check_reasoning": "Step 1: Slice 7 shows the cook slicing a potato while wearing a red floral dress. Step 2: Slice 30 shows the cook slicing potatoes (a similar task) while wearing a black dress with small white dots. Step 3: Slice 38 shows the cook chopping red onions (an aromatic) while wearing a black dress with light-colored floral patterns. Logic holds because the same types of prep tasks (slicing potatoes, chopping aromatics) occur with distinctly different clothing (red floral vs black polka-dot/floral), indicating at least two separate segments. The proposed answer aligns with these observations.",
+        "visual_proof": "In Video 1, the cook is wearing a red dress with white floral patterns while slicing potatoes. In Videos 2 and 3, the same cook is seen wearing a black dress with small pink floral patterns while continuing to slice potatoes and then chopping shallots. The change in attire between these segments, despite performing similar food preparation tasks, indicates at least two distinct cooking segments."
+    },
+    {
+        "question": "What is the full sequence of preparing a potato-topped meat pie: potatoes are sliced, placed into a dish, the simmered meat mixture is transferred in, and then potatoes are arranged on top/around the edges before baking?",
+        "answer": "Potatoes are sliced, placed into a scalloped baking dish, the cooked meat-vegetable mixture is transferred in, and then potato slices are arranged on top/around the edges before baking.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            82,
+            83,
+            84,
+            86
+        ],
+        "reasoning_chain": "Step 1: Slice 82 shows potatoes being sliced into thin rounds. Step 2: Slice 83 shows potato slices placed into a white ceramic dish. Step 3: Slice 84 shows the simmered meat-vegetable mixture being transferred into the baking dish. Step 4: Slice 86 shows potato slices arranged neatly around the edges/top pattern. Conclusion: This describes the potato-topped meat pie assembly.",
+        "logic_check_reasoning": "Step 1: Slice 82 shows potatoes being thinly sliced on a cutting board. Step 2: Slice 83 shows the sliced potatoes being placed into a white ceramic (pie/baking) dish. Step 3: Slice 84 shows a simmered ground meat and vegetable mixture and explicitly instructs to transfer it into a baking dish. Step 4: Slice 86 shows thinly sliced potatoes being arranged around the edges/top in a white baking dish with a scalloped edge. The presence of a 'baking dish' and assembly steps imply this arrangement is done before baking. The proposed answer accurately reflects this sequence.",
+        "visual_proof": "Clip 1 shows potatoes being sliced. Clip 2 shows the sliced potatoes being placed into a white scalloped baking dish. Clip 3 shows a simmering meat-vegetable mixture being transferred from a pan into the same baking dish over the first layer of potatoes. Clip 4 shows the person arranging additional potato slices around the edges and on top of the meat mixture, completing the assembly before baking."
+    },
+    {
+        "question": "What evidence shows the dish becomes ready for serving: first it is baked until golden, then removed or shown finished, and finally someone starts eating it with a fork?",
+        "answer": "It is shown golden in/after the oven, then plated, and then a fork picks up a potato piece to eat.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            90,
+            91,
+            92,
+            93
+        ],
+        "reasoning_chain": "Step 1: Slice 90 shows the baked dish in the oven with a golden crust. Step 2: Slice 91 shows the plated meal garnished with herbs. Step 3: Slice 92 shows a fork picking up a potato piece, indicating eating. Step 4: Slice 93 shows the finished baked potato dish presented for enjoyment. Conclusion: Golden bake → plating → eating confirms readiness.",
+        "logic_check_reasoning": "Step 1: Slices 90 and 93 state the dish is baked until golden (Slice 90: a freshly baked dish in the oven with a golden-brown crust; Slice 93: potatoes baked until golden brown and crispy). Step 2: Slices 90 and 91 show the dish plated/finished (Slice 90: close-up of a plated meal; Slice 91: plated dish with parsley sprinkled and on-screen text asking if viewers liked the recipe; Slice 93 also shows the finished baked dish with 'Enjoy your meal!'). Step 3: Slice 92 shows a fork picking up a piece of potato from the plate, indicating someone starts eating. Logic holds as it demonstrates progression from baking to serving to eating.",
+        "visual_proof": "Clip 1 shows the dish being removed from the oven with golden-brown potatoes. Clip 2 and Clip 4 show the finished dish plated and garnished. Clip 3 visually confirms someone using a fork to pick up a piece of potato from the plated dish, indicating it is ready to be eaten."
+    },
+    {
+        "question": "Which ingredient is first cut into thin strips and diced, and later appears in the pan as part of a meat-and-vegetable mixture being stirred?",
+        "answer": "Orange bell pepper.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 11 shows an orange bell pepper being sliced into strips and diced. Step 2: Slice 12 shows bell pepper pieces (including orange) mixed into ground meat and stirred. Conclusion: The tracked ingredient is the orange bell pepper.",
+        "logic_check_reasoning": "Step 1: Slice 11 describes a bell pepper being sliced into thin strips and diced, explicitly noting its vibrant orange color. Step 2: Slice 12 shows a pan with ground meat and diced vegetables, specifically mentioning orange and green bell peppers being added and stirred. Logic holds because the orange bell pepper is clearly identified in both slices—first being cut and then appearing in the pan as part of the mixture.",
+        "visual_proof": "In Video 1, a hand is shown slicing an orange bell pepper into strips and then dicing it on a wooden board. In Video 2, the diced orange (and green) peppers are visibly added to a pan containing ground meat and onions, and then stirred together."
+    },
+    {
+        "question": "Which dish is shown being sprinkled with cheese before baking again, and later the result is shown with melted/browned cheese inside the oven?",
+        "answer": "A sauce-coated rolled pastry/roll on a baking tray is topped with cheese, then baked until the cheese melts and browns.",
+        "category": "State_Mutation",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            20,
+            21,
+            22
+        ],
+        "reasoning_chain": "Step 1: Slice 20 shows a sauce-coated roll being placed onto a tray. Step 2: Slice 21 shows adding the remaining cheese on top of the roll. Step 3: Slice 22 shows it baking in the oven with cheese melting and browning. Conclusion: The roll is cheese-topped then baked until browned.",
+        "logic_check_reasoning": "Step 1: Slice 20 describes a long, cylindrical rolled item (likely a tortilla-based roll) coated in a glossy red sauce being placed on a baking tray, consistent with a sauce-coated rolled pastry/roll. Step 2: Slice 21 explicitly shows shredded cheese being added on top of the roll, with an overlay instructing to add the remaining cheese on top. Step 3: Slice 22 shows the tray being placed in the oven with instructions to bake another ~10 minutes, and the oven shot displays the cheese melting and beginning to brown. The sequence supports that a sauce-coated rolled item is topped with cheese and then baked until the cheese melts and browns.",
+        "visual_proof": "Clip 1 shows hands rolling a meat-and-cheese-filled pastry. Clip 2 shows the completed roll being topped with shredded cheese. Clip 3 shows the cheese-topped roll being placed into an oven, with on-screen text indicating it will be baked for 10 minutes at 392°F (200°C), implying the cheese will melt and brown during this final bake."
+    },
+    {
+        "question": "What is used to stir the ground meat mixtures across the video, both early when onions are added and later when sauce and seasonings are cooked together?",
+        "answer": "A wooden spoon.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            3,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 3 shows a wooden spoon stirring meat and onions. Step 2: Slice 50 shows a wooden spoon stirring the saucy meat mixture while cooking. Conclusion: A wooden spoon is consistently used to stir.",
+        "logic_check_reasoning": "Step 1: Slice 3 explicitly states that a wooden spoon is used to stir the mixture when chopped onions are added to the ground meat. Step 2: Slice 50 explicitly states that a wooden spoon is used to stir the mixture later when sauce, spices, and garlic are cooking with the ground meat. Logic holds because both early and later scenes describe the same utensil being used to stir the ground meat mixtures.",
+        "visual_proof": "In Video 1, from 0:06 to 0:13, a wooden spoon is clearly visible stirring the ground meat and onions in the pan. In Video 2, from 0:02 to 0:04, the same wooden spoon is used to stir the mixture after adding tomatoes, mushrooms, garlic, and seasonings. The utensil’s material and shape are consistent across both clips."
+    },
+    {
+        "question": "Which vegetables are added to the ground meat in the later casserole recipe, and which earlier step shows a different vegetable (bell pepper) being prepared for a meat mixture in another segment?",
+        "answer": "Carrots and frozen peas are added in the later recipe; an orange bell pepper is prepared earlier for a different meat mixture.",
+        "category": "Global_Summary",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            69,
+            71,
+            11,
+            12
+        ],
+        "reasoning_chain": "Step 1: Slice 69 shows carrot preparation (carrot - 1 piece). Step 2: Slice 71 shows carrots added to meat and then frozen peas added. Step 3: Slice 11 shows an orange bell pepper being sliced and diced in another segment. Step 4: Slice 12 shows bell pepper pieces mixed into meat and stirred. Conclusion: Later recipe uses carrots and peas; earlier segment uses bell pepper with meat.",
+        "logic_check_reasoning": "Step 1: Slice 71 explicitly shows a pan with ground meat and onions, then diced carrots are added, followed by one cup of frozen peas, confirming the vegetables are carrots and frozen peas in that later recipe. Step 2: Slice 11 shows an orange bell pepper being sliced and diced, and Slice 12 shows orange and green bell peppers being added to ground meat and stirred, indicating an earlier segment where bell pepper is prepared and used in a different meat mixture. Logic holds because the two segments depict distinct vegetable additions to ground meat, matching the proposed answer.",
+        "visual_proof": "Clip 1 shows carrots being chopped. Clip 2 shows these carrots, along with frozen peas, being added to ground meat in a pan. Clip 3 shows an orange bell pepper being sliced and diced. Clip 4 shows this diced bell pepper being added to a separate ground meat mixture in a pan. The sequence visually confirms that carrots and peas are used together in one recipe step, while the bell pepper is prepared and used separately."
+    }
+]

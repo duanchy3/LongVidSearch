@@ -1,0 +1,69 @@
+[
+    {
+        "question": "Which West African island is first shown as an aerial inset while the yellow-shirt presenter speaks, and later appears again beside a guest speaker on a plain blue background?",
+        "answer": "Gorée Island.",
+        "category": "Visual_Tracking",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            10,
+            37
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows an inset aerial view labeled \"Gorée island\" while the yellow-shirt presenter talks. Step 2: Slice 37 shows the guest speaker Malick with an image of Gorée Island beside him. Conclusion: The repeated location is Gorée Island.",
+        "logic_check_reasoning": "Step 1: Slice 10 describes a presenter in a bright yellow T-shirt with an aerial inset labeled 'Gorée island.' Step 2: Slice 37 states that later, beside the guest Malick on a plain blue background, an image of Gorée Island appears. The same island appears in both contexts, matching the question’s sequence.",
+        "visual_proof": "In Clip 1, an aerial image of an island with the text 'Gorée island' is displayed as an inset while the presenter in the yellow shirt speaks. In Clip 2, the same aerial image of the island, now labeled 'Gorée', appears as an inset next to the guest speaker, Malick, against a blue background."
+    },
+    {
+        "question": "Which cultural value is introduced as a key Wolof term by a woman speaker and later tied to language clarification by the yellow-shirt presenter discussing Wolof?",
+        "answer": "Teranga (hospitality).",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            36,
+            41
+        ],
+        "reasoning_chain": "Step 1: Slice 36 explicitly highlights \"Teranga\" and explains it as hospitality. Step 2: Slice 41 shows the yellow-shirt presenter discussing the Wolof language (\"Wolof\" with \"Not 'wolf'\"). Conclusion: The cultural value linked with Wolof context is Teranga.",
+        "logic_check_reasoning": "Step 1: Slice 36 explicitly states that 'Teranga' appears prominently and is a Wolof term meaning hospitality, introduced by the woman speaker (Ndey). Step 2: Slice 41 shows a yellow-shirt presenter discussing the Wolof language and clarifying its pronunciation ('Wolof,' not 'wolf'), tying the context to Wolof terminology. Logic holds because the cultural value introduced ('Teranga') is identified as a key Wolof term in Slice 36, and Slice 41 connects the discussion to Wolof language, supporting the identification of the term.",
+        "visual_proof": "In Clip 1, the woman speaker, identified as 'Ndey', explicitly introduces the term 'Teranga' via on-screen text while speaking. In Clip 2, the man in the yellow shirt discusses the Wolof language, with a speech bubble displaying 'Wolof' and an image of a wolf crossed out to clarify pronunciation. The connection between the two clips is established by the shared context of discussing Wolof culture and language, where 'Teranga' was introduced as a key cultural value by the first speaker and the second speaker later clarifies aspects of the Wolof language itself."
+    },
+    {
+        "question": "Which Senegalese food topic is introduced by the purple-shirt presenter with Fadiouth Shell Island context and later is compared against Nigerian cuisine by the yellow-shirt presenter?",
+        "answer": "Jollof rice (Thiebou dienne / Thiebou Yap as Senegal’s version).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            31,
+            32,
+            33
+        ],
+        "reasoning_chain": "Step 1: Slice 31 shows Senegalese dishes including \"Thiebou dienne / Thiebou Yap (Jolof rice)\" tied to Fadiouth Shell Island context. Step 2: Slice 32 shows a dish image while the purple-shirt presenter discusses the meal (jollof-like). Step 3: Slice 33 shows the yellow-shirt presenter comparing Nigeria (jollof rice) and Senegal food with flags and dishes. Conclusion: The connected food topic is jollof rice and Senegal’s related dishes (Thiebou dienne/Thiebou Yap).",
+        "logic_check_reasoning": "Step 1: Slice 31 explicitly shows the purple-shirt presenter introducing Senegalese dishes including Thiebou dienne / Thiebou Yap, labeled as Jolof (Jollof) rice. Step 2: Slice 32 further supports that the purple-shirt presenter is discussing a dish that appears to be jollof rice. Step 3: Slice 33 shows the yellow-shirt presenter comparing Nigerian and Senegalese cuisines; the image for Nigeria appears to be jollof rice, and he points to the Senegal flag and another dish, indicating a comparison between the two countries' cuisines. Given that jollof rice is explicitly introduced for Senegal earlier and is visibly a focal dish for Nigeria in the comparison, the Senegalese food topic is Jollof rice (Thiebou dienne / Thiebou Yap).",
+        "visual_proof": "In Clip 1, the purple-shirt presenter introduces Senegalese cuisine with visuals of Fadiouth Shell Island and then displays a dish labeled 'Thièbou dienne / Thiebou Yap (Jolof rice)'. In Clip 3, the yellow-shirt presenter stands next to a Senegalese flag and an image of the same dish (Thiebou dienne), visually linking it to the comparison with Nigerian cuisine shown in previous frames."
+    },
+    {
+        "question": "The yellow-shirt host is shown repeatedly holding the same branded drinkware; what item does he hold in an early segment and again later before switching into an image-inset presentation style?",
+        "answer": "A white mug with a green logo.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            18
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows the yellow-shirt host holding a white mug with a green logo. Step 2: Slice 18 again shows him holding that same mug before putting it down and continuing with inset images. Conclusion: The repeated item is the white mug with a green logo.",
+        "logic_check_reasoning": "Step 1: Slice 6 states the man in a yellow shirt is holding a white mug with a green logo while presenting. Step 2: Slice 18 says the video starts with the man in a yellow shirt holding a white mug with a green logo, then he puts it down and later an image-inset appears. Logic holds because both slices explicitly describe the same item (white mug with green logo) being held by the yellow-shirt host, including before the switch to the image-inset presentation style.",
+        "visual_proof": "In the first clip (0:00-0:03), the host in the yellow shirt is holding a white mug featuring a distinct green circular logo. In the second clip (0:01-0:02), he is again shown holding the same white mug with the green logo while pouring from a coffee pot, immediately before the video transitions to an inset image of two men with guitars."
+    },
+    {
+        "question": "The video shifts presenters and settings: which clothing color links the main host across early geography branding shots and later ethnic-group explanation shots?",
+        "answer": "Yellow (a yellow T-shirt).",
+        "category": "Visual_Tracking",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            5,
+            7,
+            50
+        ],
+        "reasoning_chain": "Step 1: Slice 5 introduces the geography theme and shows the host in a yellow shirt. Step 2: Slice 7 continues with the same host in a yellow T-shirt and ends on a political geography title card. Step 3: Slice 50 shows the yellow-shirt host explaining Wolof/Serer/Fula with cultural images. Conclusion: The consistent visual identifier is the yellow shirt.",
+        "logic_check_reasoning": "Step 1: Slice 5 shows the early geography branding intro and then a host (Paul B./Barby) wearing a yellow shirt in a travel-themed setting. Step 2: Slice 7 further depicts the educational branding segment (ending with 'POLITICAL GEOGRAPHY') with the same style of host in a yellow T-shirt. Step 3: Slice 50 describes the later ethnic-group explanation segment where the presenter is again wearing a yellow T-shirt. The visual attributes (yellow shirt/T-shirt, similar backdrop) consistently link the host across these segments, regardless of naming variations.",
+        "visual_proof": "The host, Paul B. (aka Barby), is consistently seen wearing a yellow T-shirt across all three clips. In Clip 1, he wears it during the introduction with the Senegal flag. In Clip 2, he is in the same yellow shirt while holding a mug and speaking. In Clip 3, he continues to wear the yellow T-shirt while discussing ethnic groups like Wolof and Serer/Fula, confirming the consistent clothing color throughout the segments."
+    }
+]

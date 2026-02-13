@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What small decorative item stays between the two chairs during both the fitness-themed interview and the later Deadpool 2 promotional interview?",
+        "answer": "A small potted plant (greenery in a vase/pot) on the table between them.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            25
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows a small potted plant on the table between the two interview chairs. Step 2: Slice 25 again shows a small potted plant between the two chairs during the Deadpool 2 setup. Conclusion: The plant decor persists across both segments.",
+        "logic_check_reasoning": "Step 1: Slice 6 (fitness-themed interview with nunchaku image) explicitly states there is 'a small potted plant on a side table between the two chairs.' Step 2: Slice 25 (Deadpool 2 promotional interview) explicitly states 'A small potted plant sits on a side table between them.' Logic holds because both slices describe the same decorative item—a small potted plant—positioned between the two chairs in both interview settings.",
+        "visual_proof": "In both Video 1 (0:11-0:22) and Video 2 (0:11-0:14), a small, light-colored vase holding green foliage is clearly visible on the wooden table positioned between the two interview chairs. The item remains in the same location across both distinct interview segments."
+    },
+    {
+        "question": "Which segment shows the guests discussing with a 'Deadpool 2' screen behind them, and which later segment shows them discussing with an action fight scene on the screen?",
+        "answer": "Deadpool 2 is behind them in the earlier promo segment, and the fight scene appears later during another interview segment.",
+        "category": "State_Mutation",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            23,
+            57
+        ],
+        "reasoning_chain": "Step 1: Slice 23 shows the interview in front of a Deadpool 2 promotional screen. Step 2: Slice 57 shows an interview with an action fight scene displayed on the screen behind them. Conclusion: The background screen changes from Deadpool 2 promo art to a fight-scene still.",
+        "logic_check_reasoning": "Step 1: Slice 23 states the guests are seated in front of a large screen displaying promotional material for 'Deadpool 2,' indicating that segment has the 'Deadpool 2' screen behind them. Step 2: Slice 57 describes a similar interview setup, but the background screen shows a dynamic action fight scene. Logic holds because the proposed answer maps the first segment to the 'Deadpool 2' promo screen and a later segment to the action scene, which aligns with the two distinct slices presented.",
+        "visual_proof": "Clip 1 clearly shows a screen with the 'DEADPOOL 2' logo and a promotional image of the actor. Clip 2 shows the same two guests in the same setting, but the screen behind them now displays a black-and-white action shot of a fight scene, indicating a change in the visual content during the interview."
+    },
+    {
+        "question": "What is the name of the film promoted in the mid-section, and later what is the title of the show promoted near the end?",
+        "answer": "The film is \"Deadpool 2,\" and the later show is \"Shadow and Bone.\"",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            20,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 20 displays \"DEADPOOL 2\" on the screen. Step 2: Slice 87 displays the title \"Shadow and Bone\" behind a three-person panel. Conclusion: The video includes promotions/discussions for Deadpool 2 and later Shadow and Bone.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 20 describes a discussion setting with a large screen displaying 'DEADPOOL 2' in bold red letters, indicating the film promoted in that mid-section. Step 2: Evidence Slice 87 later shows an interview backdrop prominently displaying the title 'Shadow and Bone,' indicating the show promoted near the end. The logic holds because both slices explicitly state the titles visible in their respective segments.",
+        "visual_proof": "In Clip 1, the large screen behind the interviewees clearly displays the title \"DEADPOOL 2\" alongside its logo. In Clip 2, the same screen shows a different promotional image with the title \"SHADOW AND BONE\" in a distinct font."
+    },
+    {
+        "question": "The backdrop first features a martial-arts icon holding nunchucks, later switches to Deadpool 2 promo art, and later shows a historical/period character on the screen. What are these three distinct screen subjects?",
+        "answer": "Bruce Lee with nunchucks, Deadpool 2 promotional branding/characters, and a historical/period-dressed man (black coat and white cravat).",
+        "category": "Global_Summary",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            13,
+            24,
+            38
+        ],
+        "reasoning_chain": "Step 1: Slice 13 shows Bruce Lee holding nunchucks on the screen. Step 2: Slice 24 shows Deadpool 2 promotional material on the screen. Step 3: Slice 38 shows a man in historical attire on the screen. Conclusion: The screen rotates among martial arts, superhero film promotion, and period drama imagery.",
+        "logic_check_reasoning": "Step 1: Slice 13 explicitly states the screen shows Bruce Lee holding nunchucks, confirming the martial-arts icon. Step 2: Slice 24 describes a large screen with promotional material for 'Deadpool 2,' including a character and the Deadpool logo, confirming the Deadpool promo art. Step 3: Slice 38 describes a large screen showing a man in 19th-century attire (black coat, white cravat), confirming a historical/period character. The proposed answer directly matches these three screen subjects without adding unsupported details.",
+        "visual_proof": "Clip 1 shows a black-and-white image of Bruce Lee holding nunchucks. Clip 2 displays a screen with 'DEADPOOL 2' text and the Deadpool logo. Clip 3 features a man in period attire, specifically a black coat and white cravat, consistent with a historical character."
+    },
+    {
+        "question": "In one part, the panel discusses fitness imagery with a barbell; later they discuss Deadpool 2 branding; later still they discuss a dramatic scene with injured people on the floor. What does this progression suggest about how the show uses the screen behind them?",
+        "answer": "It uses the screen as a rotating visual reference to match the topic being discussed (fitness, then a movie promo, then dramatic film/TV scenes).",
+        "category": "Causal_Inference",
+        "hop_level": "3-Hop",
+        "evidence_slices": [
+            10,
+            23,
+            63
+        ],
+        "reasoning_chain": "Step 1: Slice 10 shows barbell/weightlifting imagery as a topic cue. Step 2: Slice 23 shows Deadpool 2 promo art as a topic cue. Step 3: Slice 63 shows a dramatic floor scene as a topic cue. Conclusion: The changing screen content functions as contextual support for shifting discussion topics.",
+        "logic_check_reasoning": "Step 1: Slice 10 shows two people in an interview setting with a large screen displaying a black-and-white image of a muscular man lifting a barbell, suggesting the discussion is about fitness/bodybuilding. Step 2: Slice 23 shows the same setup with the screen displaying promotional material for 'Deadpool 2,' indicating the topic has shifted to that movie. Step 3: Slice 63 shows the screen displaying a dramatic scene with injured people, and it explicitly notes the conversation seems to revolve around the content shown. The people’s attire and setup are consistent across slices, indicating the same show segment. Logic holds because the screen content changes in tandem with the topics discussed, demonstrating it is used as a rotating visual reference to match the discussion.",
+        "visual_proof": "Clip 1 shows a black-and-white image of a man with nunchucks, which relates to fitness/martial arts. Clip 2 displays the 'Deadpool 2' movie logo and a promotional photo, clearly indicating a movie promo. Clip 3 features a scene from a film or TV show with two people on the floor in a dramatic pose, fitting the description of a dramatic scene. The changing content on the screen directly corresponds to the topics mentioned in the question."
+    },
+    {
+        "question": "The show uses different promotional backdrops over time. List two entertainment properties promoted, and identify which one appears later in the video.",
+        "answer": "Deadpool 2 and Shadow and Bone; Shadow and Bone appears later.",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            29,
+            87
+        ],
+        "reasoning_chain": "Step 1: Slice 29 shows Deadpool 2 promotional material behind the interview. Step 2: Slice 87 shows the title \"Shadow and Bone\" behind a panel. Conclusion: Deadpool 2 is earlier and Shadow and Bone appears later.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 29 explicitly shows a promotional backdrop for 'Deadpool 2'. Step 2: Evidence Slice 87 explicitly shows a promotional backdrop for 'Shadow and Bone'. Step 3: The slice numbering indicates sequence within the video; 87 is later than 29, so 'Shadow and Bone' appears later than 'Deadpool 2'. Therefore, the context supports both the properties listed and which one appears later.",
+        "visual_proof": "Clip 1 clearly displays a promotional backdrop for 'DEADPOOL 2' with its logo and imagery. Clip 2, which is a separate time-slice from the same continuous video, shows a different promotional backdrop for 'SHADOW AND BONE'. Since these are presented as sequential clips from the same source, the change in backdrop confirms that 'Shadow and Bone' is promoted after 'Deadpool 2'."
+    }
+]

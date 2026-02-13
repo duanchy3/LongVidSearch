@@ -1,0 +1,71 @@
+[
+    {
+        "question": "The video first introduces Greenland with title text; later, what question is asked on a black screen near the end of the video?",
+        "answer": "“Where to next?”",
+        "category": "Global_Summary",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            2,
+            99
+        ],
+        "reasoning_chain": "Step 1: Slice 2 shows a black screen title “Greenland.” Step 2: Slice 99 shows a black screen that reads “Where to next?” Conclusion: The later question is “Where to next?”.",
+        "logic_check_reasoning": "Step 1: Evidence Slice 2 states the video begins by introducing Greenland with title text, establishing the initial context. Step 2: Evidence Slice 99 explicitly describes a black screen displaying the question \"Where to next?\" in white letters. Although Slice 99 notes this occurs at the beginning of that segment, the key fact needed is the exact question text shown on a black screen. Sequencing mismatches can be attributed to VLM noise; the question text itself is clearly supported. Therefore, the context supports that the question asked on a black screen is \"Where to next?\"",
+        "visual_proof": "The first clip opens with the word 'Greenland' displayed in white text on a black screen. The second clip shows a black screen with the text 'Where to next?' appearing in white, which matches the original answer."
+    },
+    {
+        "question": "Two men have coffee together at a kitchen table; later, which outdoor winter transport do they participate in that matches the cold-weather gear they are wearing indoors?",
+        "answer": "Snowmobiling.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            82,
+            69
+        ],
+        "reasoning_chain": "Step 1: Slice 82 shows the two men in heavy winter clothing drinking coffee indoors, implying cold conditions outside. Step 2: Slice 69 shows the snowmobiling preparation and activity. Conclusion: The outdoor winter transport activity is snowmobiling.",
+        "logic_check_reasoning": "Step 1: Slice 82 shows two men having coffee at a kitchen table; one wears a blue jacket with a fur-lined hood and a black beanie, the other wears a green jacket—indicating cold-weather gear. Step 2: Slice 69 describes a man in a green jacket outside in a snowy environment giving instructions about snowmobiling, followed by scenes of gearing up and riding a snowmobile. Step 3: The shared attribute (green jacket) links the kitchen scene to the outdoor activity. Step 4: The outdoor winter transport explicitly depicted is snowmobiling.",
+        "visual_proof": "The first clip shows two men in heavy winter jackets and beanies drinking coffee indoors. The second clip features the same two men, identifiable by their faces and clothing (e.g., the man in the green jacket), now outdoors in a snowy environment. They are seen preparing gear next to snowmobiles and later riding them, with on-screen text explicitly stating 'Qamutit snowmobiling'. This directly links their indoor attire to the outdoor activity of snowmobiling."
+    },
+    {
+        "question": "After the travelers arrive at the airport where a sign welcomes them to Greenland, which hotel do they check into later?",
+        "answer": "Hotel Hans Egede.",
+        "category": "Causal_Inference",
+        "hop_level": "2-Hop",
+        "evidence_slices": [
+            6,
+            8
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows entering the terminal with signs including “Welcome to Greenland,” indicating arrival. Step 2: Slice 8 shows the man outside and entering a hotel with the sign “Hotel Hans Egede.” Conclusion: After arriving, they check into Hotel Hans Egede.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows a traveler arriving at an airport terminal with a 'Welcome to Greenland' sign; the traveler wears a green jacket and a beanie. Step 2: Slice 8 shows (later) a man in a snowy setting wearing a green jacket and black beanie entering a hotel with a sign 'Hotel Hans Egede' and then being inside a room. Logic holds because the clothing and continuous travel narrative link the airport arrival in Greenland to the subsequent hotel check-in, explicitly naming the hotel.",
+        "visual_proof": "In Video 1, the traveler is seen walking into an airport building with a sign that reads 'Welcome to Colourful Nuuk'. In Video 2, the same traveler is shown standing outside a building with large gold lettering on the facade that clearly says 'HOTEL HANS EGDE'. He then enters this hotel and proceeds down a hallway to his room. This sequence confirms he checked into Hotel Hans Egede after arriving at the airport."
+    },
+    {
+        "question": "How does the man’s headwear change from the airport/arrival phase to the later snowmobile-adventure phase when he’s inside a wooden cabin?",
+        "answer": "He goes from wearing a beanie to wearing a full helmet (orange-and-black) inside the cabin.",
+        "category": "State_Mutation",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            31,
+            74,
+            77
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows the man in a green jacket wearing a beanie during arrival. Step 2: Slice 31 again shows him outdoors in winter gear, still in beanie context before adventure escalates. Step 3: Slice 74 shows helmeted snowmobile group shots. Step 4: Slice 77 shows him indoors in a wooden cabin wearing an orange-and-black helmet. Conclusion: Headwear changes from beanie to full helmet.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows the arrival phase at the airport with the individual wearing a green jacket and a beanie. Step 2: Slice 31 also shows the man in a green jacket and a beanie, reinforcing the headwear during the early phase. Step 3: Slice 77 shows a cozy wooden cabin interior where a person in a bright green jacket is wearing an orange-and-black motorcycle helmet. Step 4: The clothing (green jacket) and context (later phase involving snowmobile gear) logically link the same person across slices. Therefore, the headwear changes from a beanie at the airport to an orange-and-black helmet inside the cabin.",
+        "visual_proof": "In Clip 1, at the airport, the man is clearly wearing a grey beanie. In Clip 4, while inside the wooden cabin, he is wearing a full-face orange-and-black snowmobile helmet with a mounted camera."
+    },
+    {
+        "question": "Which sequence shows the trip moving from arriving by plane to settling in Nuuk and then heading out for a statue hike overlooking water?",
+        "answer": "Arrival at the airport, then staying in Nuuk/Hotel Hans Egede, then hiking to the statue overlooking water.",
+        "category": "Causal_Inference",
+        "hop_level": "4-Hop",
+        "evidence_slices": [
+            6,
+            7,
+            8,
+            17
+        ],
+        "reasoning_chain": "Step 1: Slice 6 shows arrival signage (“Arrivals,” “Welcome to Greenland”). Step 2: Slice 7 shows driving through snowy streets and a sign reading “Nuuk.” Step 3: Slice 8 shows checking into Hotel Hans Egede. Step 4: Slice 17 shows the man hiking to a statue on a rocky outcrop overlooking water. Conclusion: The trip progresses from arrival → Nuuk → hotel → statue hike.",
+        "logic_check_reasoning": "Step 1: Slice 6 shows arrival by plane (Air Greenland) and entering an airport terminal in Greenland, supporting the 'arrival at the airport.' Step 2: Slice 7 shows the travelers entering a building marked 'Nuuk,' placing them in Nuuk; Slice 8 then shows them at 'Hotel Hans Egede' and inside a hotel room, indicating they are settling/staying there. Step 3: Slice 17 shows the person hiking up a snowy hill to a statue overlooking water, matching the 'statue hike overlooking water.' The sequence from airport arrival to being in Nuuk/hotel to hiking is logically supported across these slices.",
+        "visual_proof": "Clip 1 shows arrival at an airport with a red Air Greenland plane. Clip 2 includes a map of Nuuk and driving through a snowy town. Clip 3 features the protagonist outside Hotel Hans Egede and entering a room. Clip 4 depicts hiking up a snowy hill to a large statue, followed by views of the sea and another coastal statue, confirming the sequence from arrival to hotel stay to statue hike."
+    }
+]
