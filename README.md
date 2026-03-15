@@ -19,7 +19,7 @@
 ---
 
 ## 📰 1. News
-- **[2026-02-13]** 🎉 We release **LongVidSearch**: **3,159** QA pairs from **447** long videos (~**26 min** avg), stratified into **Hop-2/3/4** with strict retrieval necessity.  
+- **[2026-02-13]** 🎉 We release **LongVidSearch**: **3,000** QA pairs from **447** long videos (~**26 min** avg), stratified into **Hop-2/3/4** with strict retrieval necessity.  
  
 
 ---
@@ -51,13 +51,12 @@ Long video question answering increasingly relies on **agentic tool use** to ret
 
 | Task Category | 2-Hop | 3-Hop | 4-Hop | Total (Ratio) |
 |---|---:|---:|---:|---:|
-| Causal Inference | 436 | 322 | 159 | **917** (29.0%) |
-| Global Summary | 512 | 211 | 166 | **889** (28.1%) |
-| Visual Tracking | 653 | 136 | 61 | **850** (26.9%) |
-| State Mutation | 296 | 132 | 75 | **503** (15.9%) |
-| **Overall Count** | **1,897** | **801** | **461** | **3,159** |
-| *Overall Percentage* | *60.1%* | *25.4%* | *14.6%* | *100.0%* |
-
+| Causal Inference | 436 | 282 | 144 | **862** (28.7%) |
+| Global Summary | 512 | 181 | 166 | **859** (28.6%) |
+| Visual Tracking | 653 | 136 | 61 | **850** (28.3%) |
+| State Mutation | 238 | 119 | 72 | **429** (14.3%) |
+| **Overall Count** | **1,839** | **718** | **443** | **3,000** |
+| *Overall Percentage* | *61.3%* | *23.9%* | *14.8%* | *100.0%* |
 ---
 
 ## ⭐ 4. Key Features
@@ -71,7 +70,7 @@ Long video question answering increasingly relies on **agentic tool use** to ret
 
 ## 🗂️ 5. Dataset
 
-- **3,159 QA pairs** from **447 long-form videos**
+- **3,000 QA pairs** from **447 long-form videos**
 - Average video duration: **~26 minutes**
 - Four capability categories:
   - **State Mutation (Entity + Transition)**: detect **critical transition points** and contrast pre/post states.
@@ -151,7 +150,7 @@ LongVidSearch/
 ├── figs/                     # figures for paper/README
 ├── video_embeddings/         # retrieval embeddings
 ├── cache_llm.pkl             # optional cache
-├── full-QA.json              # benchmark QA file
+├── full-QA(3000).json              # benchmark QA file
 ├── video-caption.parquet     # high-quality captions for video clips
 ├── main.py                   # baseline entry (main)
 ├── tools.py                  # standardized tool interface 
