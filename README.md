@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![Paper](https://img.shields.io/badge/Paper-arXiv%20(TODO)-red?logo=arxiv)]()
+[![Paper](https://img.shields.io/badge/Paper-arXiv%202603.14468-red?logo=arxiv)](https://arxiv.org/abs/2603.14468)
 [![Code](https://img.shields.io/badge/Code-GitHub-blue?logo=github)](https://github.com/yrywill/LongVidSearch)
 [![](https://img.shields.io/github/license/yrywill/LongVidSearch)](./LICENSE)
 [![](https://img.shields.io/github/stars/yrywill/LongVidSearch?style=social)](https://github.com/yrywill/LongVidSearch)
