@@ -5,6 +5,7 @@
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv%202603.14468-red?logo=arxiv)](https://arxiv.org/abs/2603.14468)
 [![Code](https://img.shields.io/badge/Code-GitHub-blue?logo=github)](https://github.com/yrywill/LongVidSearch)
+[![Dataset](https://img.shields.io/badge/Dataset-Hugging%20Face-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/datasets/Fishiing/LongVidSearch)
 [![](https://img.shields.io/github/license/yrywill/LongVidSearch)](./LICENSE)
 [![](https://img.shields.io/github/stars/yrywill/LongVidSearch?style=social)](https://github.com/yrywill/LongVidSearch)
 [![](https://img.shields.io/github/contributors/yrywill/LongVidSearch)](https://github.com/yrywill/LongVidSearch/graphs/contributors)
